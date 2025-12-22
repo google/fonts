@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Quality Tag Coverage (Score > 70)</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; /* Prevent full page scroll */
+            background: #f8f9fa; 
+            color: #202124;
+            font-family: 'Google Sans', Roboto, sans-serif; 
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 { margin-bottom: 5px; }
+        p.subtitle { color: #5f6368; margin-top: 0; margin-bottom: 20px; font-size: 0.9rem; }
+        
+        /* Table Styles */
+        .table-container { overflow-x: auto; box-shadow: 0 1px 3px rgba(0,0,0,0.2); background: white; border-radius: 8px; max-height: 90vh; }
+        table { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 1200px; }
+        
+        /* Headers */
+        th { background-color: #f1f3f4; position: sticky; top: 0; z-index: 10; font-weight: 600; color: #5f6368; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; padding: 10px 8px; border-bottom: 1px solid #ddd; text-align: left; }
+        
+        /* Freeze first column */
+        th:first-child, td:first-child { position: sticky; left: 0; background-color: #fff; z-index: 11; border-right: 2px solid #ddd; min-width: 120px; }
+        th:first-child { z-index: 12; background-color: #f1f3f4; } 
+
+        td { font-size: 0.85rem; padding: 8px; border-bottom: 1px solid #eee; text-align: right; border-right: 1px solid #f0f0f0; }
+        td:first-child { text-align: left; color: #202124; }
+
+        /* Row Highlighting */
+        tr:hover td { background-color: #f1f3f4 !important; }
+        /*tr.highlight-row td { background-color: #fff8e1; } /* Light Amber base */
+        /* tr.highlight-row td:first-child { color: #b06000; } /* Text color for label */
+        
+        /* Ensure frozen column keeps highlight color */
+        tr.highlight-row td:first-child { background-color: #f9cc6b; }
+
+        /* Conditional Highlighting (Cells) */
+        .cell-zero { color: #e0e0e0; }
+        
+        /* Override row color for specific cells */
+
+        td.cell-one { background-color: #fff5e1; color: #b06000; } 
+        
+        tr.highlight-row td.cell-many { background-color: #c8e6c9; } /* Darker green for contrast */
+        td.cell-many { background-color: #e6f4ea; color: #137333; } 
+        
+        /* Interactive Cells */
+        .clickable { cursor: pointer; }
+        .clickable:hover { box-shadow: inset 0 0 0 2px #1a73e8; }
+
+        /* Modal Styles */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-active { display: flex; }
+        .modal-content { background: white; width: 90%; max-width: 600px; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; }
+        .modal-header { padding: 16px 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; background: #f1f3f4; border-radius: 8px 8px 0 0; }
+        .modal-title { margin: 0; font-size: 1.1rem; color: #202124; }
+        .close-btn { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #5f6368; }
+        .modal-body { padding: 20px; overflow-y: auto; }
+        ul.font-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+        ul.font-list li a { text-decoration: none; color: #1a73e8; font-size: 0.95rem; display: block; padding: 4px 8px; border-radius: 4px; }
+        ul.font-list li a:hover { background-color: #e8f0fe; }
+
+        #status { padding: 10px; margin-bottom: 15px; border-radius: 4px; display: none; }
+        .loading { background-color: #e8f0fe; color: #1967d2; display: block !important; }
+        .error { background-color: #fce8e6; color: #c5221f; display: block !important; }
+    </style>
+</head>
+<body>
+
+    <h1>Global Tag Coverage (High Quality Only)</h1>
+    <p class="subtitle">
+        Fonts per Language per Tag. 
+        <strong>Filtered:</strong> Score &ge; 70.
+        <span style="background:#fff8e1; padding:2px 5px; color:#b06000; border-radius:4px;">Highlighted rows</span> are priority scripts.
+    </p>
+
+    <div id="status" class="loading">Loading live data...</div>
+
+    <div class="table-container">
+        <table id="dashboard">
+            <thead>
+                </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title">Fonts List</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul id="font-list" class="font-list"></ul>
+            </div>
+        </div>
+    </div>
+
+<script>
+    // --- Configuration ---
+    const METADATA_URL = "catalog_metadata.json"; 
+    const TAGS_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv";
+    
+    // Quality Weights & Threshold
+    const WEIGHTS = { "Concept": 0.4, "Drawing": 0.3, "Spacing": 0.2, "Wordspace": 0.1 };
+    const QUALITY_THRESHOLD = 70;
+
+    const ALLOWED_SUBSETS = [
+        "latin", "devanagari", "japanese", "korean", "arabic", "thai", 
+        "bengali", "chinese-simplified", "cyrillic", "greek", "hebrew", 
+        "tamil", "telugu", "gujarati", "kannada", "malayalam", "gurmukhi", 
+        "oriya", "myanmar", "armenian", "sinhala", "georgian", "chinese-traditional"
+    ];
+
+    const HIGHLIGHT_SUBSETS = [
+        "latin", "cyrillic", "greek", "devanagari", "hebrew", "arabic", 
+        "korean", "japanese", "thai", "bengali", "chinese-simplified"
+    ];
+
+    // --- Main Execution ---
+    document.addEventListener("DOMContentLoaded", async () => {
+        const statusDiv = document.getElementById('status');
+        try {
+            const [metaRes, tagsRes] = await Promise.all([ fetch(METADATA_URL), fetch(TAGS_URL) ]);
+
+            if (!metaRes.ok) throw new Error(`Metadata Error: ${metaRes.status}`);
+            if (!tagsRes.ok) throw new Error(`Tags CSV Error: ${tagsRes.status}`);
+
+            const metadata = await metaRes.json();
+            const tagsText = await tagsRes.text();
+
+            const parsedData = parseCSVFull(tagsText);
+            const { scores, fontTagsMap, uniqueTags } = parsedData;
+
+            const tableData = aggregateData(metadata.familyMetadataList, fontTagsMap, scores, uniqueTags);
+            
+            renderTable(tableData, uniqueTags);
+            statusDiv.style.display = 'none';
+
+        } catch (err) {
+            console.error(err);
+            statusDiv.textContent = `Error: ${err.message}`;
+            statusDiv.className = 'error';
+        }
+    });
+
+    // --- Data Processing ---
+    function parseCSVFull(csvText) {
+        const lines = csvText.split('\n');
+        const fontTagsMap = {}; 
+        const uniqueTags = new Set();
+        const rawQualityValues = {};
+
+        for (let i = 1; i < lines.length; i++) {
+            const row = lines[i].split(',');
+            if (row.length < 3) continue; 
+
+            const family = row[0].trim();
+            let rawTag = row[2].trim(); 
+            let weightStr = (row[3] || "0").trim();
+            if (!rawTag && row[1]) rawTag = row[1].trim();
+            let weight = parseFloat(weightStr);
+
+            if (rawTag.includes("Quality/")) {
+                const parts = rawTag.split("Quality/");
+                const type = parts[1];
+                if (type && !isNaN(weight)) {
+                    if (!rawQualityValues[family]) rawQualityValues[family] = {};
+                    rawQualityValues[family][type] = weight;
+                }
+            } 
+            else {
+                let cleanTag = rawTag.replace(/^[\/"']+|[\/"']+$/g, '');
+                if (cleanTag) {
+                    uniqueTags.add(cleanTag);
+                    if (!fontTagsMap[family]) fontTagsMap[family] = new Set();
+                    fontTagsMap[family].add(cleanTag);
+                }
+            }
+        }
+
+        const scores = {};
+        for (const [family, categories] of Object.entries(rawQualityValues)) {
+            let totalScore = 0;
+            totalScore += (categories['Concept'] || 0) * WEIGHTS['Concept'];
+            totalScore += (categories['Drawing'] || 0) * WEIGHTS['Drawing'];
+            totalScore += (categories['Spacing'] || 0) * WEIGHTS['Spacing'];
+            totalScore += (categories['Wordspace'] || 0) * WEIGHTS['Wordspace'];
+            scores[family] = totalScore;
+        }
+
+        return { scores, fontTagsMap, uniqueTags: Array.from(uniqueTags).sort() };
+    }
+
+    function aggregateData(fontList, fontTagsMap, scores, uniqueTags) {
+        const data = {};
+        
+        ALLOWED_SUBSETS.forEach(sub => {
+            data[sub] = { tagsUsedCount: 0, tagBuckets: {} };
+            uniqueTags.forEach(tag => data[sub].tagBuckets[tag] = []);
+        });
+
+        fontList.forEach(font => {
+            const familyName = font.family;
+            const quality = scores[familyName] || 0;
+            if (quality < QUALITY_THRESHOLD) return;
+
+            const fontTags = fontTagsMap[familyName]; 
+            if (!fontTags) return; 
+
+            font.subsets.forEach(subset => {
+                if (!data[subset]) return; 
+                fontTags.forEach(tag => {
+                    if (data[subset].tagBuckets[tag]) {
+                        data[subset].tagBuckets[tag].push(familyName);
+                    }
+                });
+            });
+        });
+
+        Object.values(data).forEach(row => {
+            let used = 0;
+            uniqueTags.forEach(tag => {
+                if (row.tagBuckets[tag].length > 0) used++;
+            });
+            row.tagsUsedCount = used;
+        });
+
+        return data;
+    }
+
+function renderTable(data, uniqueTags) {
+        const table = document.getElementById('dashboard');
+        const thead = table.querySelector('thead');
+        const tbody = table.querySelector('tbody');
+
+        let headerHTML = `<tr>
+            <th>Language Subset</th>
+            <th>Tags populated</th>
+            <th>Coverage %</th>`;
+        
+        uniqueTags.forEach(tag => {
+            // UPDATED: Use the full tag name directly
+            const displayName = tag; 
+            headerHTML += `<th title="${tag}">${displayName}</th>`;
+        });
+        headerHTML += `</tr>`;
+        thead.innerHTML = headerHTML;
+
+        // Sort by Tags Populated Descending
+        const sortedSubsets = Object.entries(data).sort((a, b) => b[1].tagsUsedCount - a[1].tagsUsedCount);
+        const totalPossibleTags = uniqueTags.length;
+
+        sortedSubsets.forEach(([subset, rowData]) => {
+            const tr = document.createElement('tr');
+
+            // Apply Highlight Class if applicable
+            if (HIGHLIGHT_SUBSETS.includes(subset)) {
+                tr.classList.add('highlight-row');
+            }
+
+            const coveragePct = totalPossibleTags > 0 ? (rowData.tagsUsedCount / totalPossibleTags) : 0;
+            const coverageStr = (coveragePct * 100).toFixed(1) + '%';
+
+            tr.innerHTML = `
+                <td>${subset}</td>
+                <td style="font-weight:bold; text-align:right;">${rowData.tagsUsedCount}</td>
+                <td style="text-align:right; color:#5f6368;">${coverageStr}</td>
+            `;
+
+            uniqueTags.forEach(tag => {
+                const fontList = rowData.tagBuckets[tag];
+                const count = fontList.length;
+                const td = document.createElement('td');
+                
+                td.textContent = count;
+
+                if (count === 0) {
+                    td.className = 'cell-zero';
+                    td.textContent = "-"; 
+                } else if (count === 1) {
+                    td.className = 'cell-one clickable';
+                    td.onclick = () => openModal(subset, tag, fontList);
+                } else {
+                    td.className = 'cell-many clickable';
+                    td.onclick = () => openModal(subset, tag, fontList);
+                }
+                
+                tr.appendChild(td);
+            });
+
+            tbody.appendChild(tr);
+        });
+    }
+
+    // Modal Logic
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const fontListEl = document.getElementById('font-list');
+
+    function openModal(subset, tag, fonts) {
+        modalTitle.textContent = `${subset} — ${tag} (${fonts.length})`;
+        fontListEl.innerHTML = '';
+        fonts.sort((a, b) => a.localeCompare(b));
+        fonts.forEach(font => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = font;
+            a.href = `https://fonts.google.com/specimen/${font.replace(/ /g, '+')}`;
+            a.target = "_blank";
+            li.appendChild(a);
+            fontListEl.appendChild(li);
+        });
+        modal.classList.add('modal-active');
+    }
+
+    function closeModal() { modal.classList.remove('modal-active'); }
+    modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+
+</script>
+</body>
+</html>

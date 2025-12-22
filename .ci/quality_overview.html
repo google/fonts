@@ -14,25 +14,46 @@
         table { border-collapse: collapse; width: 100%; min-width: 800px; }
         th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid #ddd; }
         th { background-color: #f1f3f4; position: sticky; top: 0; font-weight: 600; color: #5f6368; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
-        tr:hover { background-color: #f5f5f5; }
         
+        /* Highlighting Logic */
+        tr:hover { background-color: #f1f3f4 !important; } 
+        tr.highlight-row { background-color: #fff8e1; } 
+        /*tr.highlight-row td:first-child { font-weight: bold; color: #b06000; }
+
         /* Numeric columns */
         .num { text-align: right; font-variant-numeric: tabular-nums; }
         
+        /* Interactive Cells */
+        .clickable { cursor: pointer; color: #1a73e8; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
+        .clickable:hover { background-color: #d2e3fc; color: #174ea6; }
+
         /* Conditional Formatting */
         .good-ratio { color: #137333; font-weight: bold; background-color: #e6f4ea; }
-        .zero-score { color: #aaa; }
+        .zero-score { color: #aaa; pointer-events: none; } 
         
         /* Status Bar */
         #status { padding: 10px; margin-bottom: 15px; border-radius: 4px; display: none; }
         .loading { background-color: #e8f0fe; color: #1967d2; display: block !important; }
         .error { background-color: #fce8e6; color: #c5221f; display: block !important; }
+
+        /* Modal Styles */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-active { display: flex; }
+        .modal-content { background: white; width: 90%; max-width: 600px; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; }
+        .modal-header { padding: 16px 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; background: #f1f3f4; border-radius: 8px 8px 0 0; }
+        .modal-title { margin: 0; font-size: 1.1rem; color: #202124; }
+        .close-btn { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #5f6368; }
+        .modal-body { padding: 20px; overflow-y: auto; }
+        
+        ul.font-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+        ul.font-list li a { text-decoration: none; color: #1a73e8; font-size: 0.95rem; display: block; padding: 4px 8px; border-radius: 4px; }
+        ul.font-list li a:hover { background-color: #e8f0fe; }
     </style>
 </head>
 <body>
 
     <h1>Font Quality by Language Subset</h1>
-    <p class="subtitle">Live data from Google Fonts Metadata & GitHub Tags</p>
+    <p class="subtitle">Live data from Google Fonts Metadata & GitHub Tags. Sorted by count of fonts > 70.</p>
 
     <div id="status" class="loading">Loading data...</div>
 
@@ -47,7 +68,7 @@
                     <th class="num">60–70</th>
                     <th class="num">70–80</th>
                     <th class="num">&gt; 80</th>
-                    <th class="num">Total &gt; 70</th>
+                    <th class="num" style="background: #e8f0fe;">Total &gt; 70</th>
                     <th class="num">Ratio (&gt;70)</th>
                 </tr>
             </thead>
@@ -56,28 +77,42 @@
         </table>
     </div>
 
+    <div id="modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title">Fonts List</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul id="font-list" class="font-list"></ul>
+            </div>
+        </div>
+    </div>
+
 <script>
     // --- Configuration ---
-    const METADATA_URL = "https://fonts.google.com/metadata/fonts";
+    const METADATA_URL = "catalog_metadata.json"; 
     const TAGS_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv";
     
-    const WEIGHTS = {
-        "Concept": 0.4,
-        "Drawing": 0.3,
-        "Spacing": 0.2,
-        "Wordspace": 0.1
-    };
+    const WEIGHTS = { "Concept": 0.4, "Drawing": 0.3, "Spacing": 0.2, "Wordspace": 0.1 };
+
+    const ALLOWED_SUBSETS = [
+        "latin", "devanagari", "japanese", "korean", "arabic", "thai", 
+        "bengali", "chinese-simplified", "cyrillic", "greek", "hebrew", 
+        "tamil", "telugu", "gujarati", "kannada", "malayalam", "gurmukhi", 
+        "oriya", "myanmar", "armenian", "sinhala", "georgian", "chinese-traditional"
+    ];
+
+    const HIGHLIGHT_SUBSETS = [
+        "latin", "cyrillic", "greek", "devanagari", "hebrew", "arabic", 
+        "korean", "japanese", "thai", "bengali", "chinese-simplified"
+    ];
 
     // --- Main Execution ---
     document.addEventListener("DOMContentLoaded", async () => {
         const statusDiv = document.getElementById('status');
-        
         try {
-            // Fetch both resources in parallel
-            const [metaRes, tagsRes] = await Promise.all([
-                fetch(METADATA_URL),
-                fetch(TAGS_URL)
-            ]);
+            const [metaRes, tagsRes] = await Promise.all([ fetch(METADATA_URL), fetch(TAGS_URL) ]);
 
             if (!metaRes.ok) throw new Error(`Metadata Error: ${metaRes.status}`);
             if (!tagsRes.ok) throw new Error(`Tags CSV Error: ${tagsRes.status}`);
@@ -85,138 +120,160 @@
             const metadata = await metaRes.json();
             const tagsText = await tagsRes.text();
 
-            // Process Data
             const scores = parseTagsAndCalculateScores(tagsText);
             const stats = aggregateStats(metadata.familyMetadataList, scores);
             
-            // Render
             renderTable(stats);
             statusDiv.style.display = 'none';
 
         } catch (err) {
             console.error(err);
-            statusDiv.textContent = `Error loading data: ${err.message}. (Check Console for CORS details)`;
+            statusDiv.textContent = `Error loading data: ${err.message}.`;
             statusDiv.className = 'error';
         }
     });
 
-    // --- Logic ---
+    // --- Modal Logic ---
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const fontListEl = document.getElementById('font-list');
 
+    function openModal(subset, category, fonts) {
+        modalTitle.textContent = `${subset} — ${category} (${fonts.length})`;
+        fontListEl.innerHTML = '';
+        fonts.sort((a, b) => a.localeCompare(b));
+        fonts.forEach(font => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = font;
+            a.href = `https://fonts.google.com/specimen/${font.replace(/ /g, '+')}`;
+            a.target = "_blank";
+            li.appendChild(a);
+            fontListEl.appendChild(li);
+        });
+        modal.classList.add('modal-active');
+    }
+
+    function closeModal() { modal.classList.remove('modal-active'); }
+    modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+
+    // --- Data Logic ---
     function parseTagsAndCalculateScores(csvText) {
         const lines = csvText.split('\n');
-        const familyScores = {}; // { "Roboto": 75.5, ... }
-
-        // CSV Structure expected: Family, Group/Tag, Weight, ...
-        // We scan for indices of headers to be safe
-        const headers = lines[0].split(',').map(h => h.trim());
-        const idxFamily = headers.indexOf('Family');
-        const idxTag = headers.indexOf('Group/Tag');
-        const idxWeight = headers.indexOf('Weight');
-
-        if (idxFamily === -1 || idxTag === -1) {
-            throw new Error("CSV headers missing required columns");
-        }
-
-        // Temporary storage for raw values: { "Roboto": { "Concept": 80, "Drawing": 50... } }
         const rawValues = {};
+        const familyScores = {};
 
         for (let i = 1; i < lines.length; i++) {
-            // Simple CSV parse (assuming no commas in font names/tags for simplicity)
             const row = lines[i].split(',');
-            if (row.length < 3) continue;
+            if (row.length < 4) continue;
 
-            const family = row[idxFamily].trim();
-            const tag = row[idxTag].trim();
-            const weight = parseFloat(row[idxWeight]);
+            const family = row[0].trim();
+            const tag = row[2].trim(); 
+            const weight = parseFloat(row[3]);
 
-            if (tag.startsWith('Quality/')) {
-                const type = tag.split('/')[1]; // e.g., "Concept"
-                
-                if (!rawValues[family]) rawValues[family] = {};
-                
-                // If weight is missing, assume 0. If multiple tags (rare), last one wins
-                if (!isNaN(weight)) {
+            if (tag.includes('Quality/')) {
+                const parts = tag.split('Quality/');
+                const type = parts[1];
+                if (type && !isNaN(weight)) {
+                    if (!rawValues[family]) rawValues[family] = {};
                     rawValues[family][type] = weight;
                 }
             }
         }
 
-        // Calculate final weighted scores
         for (const [family, categories] of Object.entries(rawValues)) {
             let totalScore = 0;
-            
             totalScore += (categories['Concept'] || 0) * WEIGHTS['Concept'];
             totalScore += (categories['Drawing'] || 0) * WEIGHTS['Drawing'];
             totalScore += (categories['Spacing'] || 0) * WEIGHTS['Spacing'];
             totalScore += (categories['Wordspace'] || 0) * WEIGHTS['Wordspace'];
-
             familyScores[family] = totalScore;
         }
-
         return familyScores;
     }
 
     function aggregateStats(fontList, scores) {
-        // Structure: { "latin": { total: 0, buckets: { ... } } }
         const subsetStats = {};
-
-        // Helper to init subset object
-        const initSubset = () => ({
-            total: 0,
-            below_50: 0,
-            score_50_60: 0,
-            score_60_70: 0,
-            score_70_80: 0,
-            above_80: 0,
-            above_70_count: 0
+        ALLOWED_SUBSETS.forEach(sub => {
+            subsetStats[sub] = {
+                total: [], below_50: [], score_50_60: [], score_60_70: [], 
+                score_70_80: [], above_80: [], above_70_total: [] 
+            };
         });
 
         fontList.forEach(font => {
-            const score = scores[font.family] || 0; // Default to 0 if no tags
-
+            const score = scores[font.family] || 0; 
+            const name = font.family;
             font.subsets.forEach(subset => {
-                if (!subsetStats[subset]) subsetStats[subset] = initSubset();
-                
+                if (!subsetStats[subset]) return;
                 const s = subsetStats[subset];
-                s.total++;
-
-                if (score >= 70) s.above_70_count++;
-
-                if (score < 50) s.below_50++;
-                else if (score < 60) s.score_50_60++;
-                else if (score < 70) s.score_60_70++;
-                else if (score < 80) s.score_70_80++;
-                else s.above_80++;
+                s.total.push(name);
+                if (score < 50) s.below_50.push(name);
+                else if (score < 60) s.score_50_60.push(name);
+                else if (score < 70) s.score_60_70.push(name);
+                else if (score < 80) s.score_70_80.push(name);
+                else s.above_80.push(name);
+                if (score >= 70) s.above_70_total.push(name);
             });
         });
-
         return subsetStats;
     }
 
     function renderTable(stats) {
         const tbody = document.querySelector('#dashboard tbody');
+        let sortedSubsets = Object.entries(stats);
         
-        // Convert to array and sort by Total Fonts desc
-        const sortedSubsets = Object.entries(stats).sort((a, b) => b[1].total - a[1].total);
+        // --- NEW SORTING LOGIC ---
+        // Sort strictly by the length of "above_70_total" array (descending)
+        sortedSubsets.sort((a, b) => {
+            return b[1].above_70_total.length - a[1].above_70_total.length;
+        });
 
         sortedSubsets.forEach(([name, data]) => {
             const tr = document.createElement('tr');
             
-            const ratio = data.total > 0 ? (data.above_70_count / data.total) : 0;
+            // Apply highlight class if language is in the priority list
+            if (HIGHLIGHT_SUBSETS.includes(name)) {
+                tr.classList.add('highlight-row');
+            }
+
+            const totalCount = data.total.length;
+            const highQualityCount = data.above_70_total.length;
+            const ratio = totalCount > 0 ? (highQualityCount / totalCount) : 0;
             const ratioPercent = (ratio * 100).toFixed(1) + '%';
             const ratioClass = ratio > 0.5 ? 'good-ratio' : '';
 
-            tr.innerHTML = `
-                <td>${name}</td>
-                <td class="num">${data.total}</td>
-                <td class="num ${data.below_50 === 0 ? 'zero-score' : ''}">${data.below_50}</td>
-                <td class="num ${data.score_50_60 === 0 ? 'zero-score' : ''}">${data.score_50_60}</td>
-                <td class="num ${data.score_60_70 === 0 ? 'zero-score' : ''}">${data.score_60_70}</td>
-                <td class="num ${data.score_70_80 === 0 ? 'zero-score' : ''}">${data.score_70_80}</td>
-                <td class="num ${data.above_80 === 0 ? 'zero-score' : ''}">${data.above_80}</td>
-                <td class="num">${data.above_70_count}</td>
-                <td class="num ${ratioClass}">${ratioPercent}</td>
-            `;
+            const createCell = (list, label) => {
+                const count = list.length;
+                const isZero = count === 0;
+                const td = document.createElement('td');
+                td.className = `num ${isZero ? 'zero-score' : 'clickable'}`;
+                td.textContent = count;
+                if (!isZero) td.onclick = () => openModal(name, label, list);
+                return td;
+            };
+
+            const tdName = document.createElement('td');
+            tdName.textContent = name;
+            tr.appendChild(tdName);
+
+            tr.appendChild(createCell(data.total, "Total Fonts"));
+            tr.appendChild(createCell(data.below_50, "Score < 50"));
+            tr.appendChild(createCell(data.score_50_60, "Score 50–60"));
+            tr.appendChild(createCell(data.score_60_70, "Score 60–70"));
+            tr.appendChild(createCell(data.score_70_80, "Score 70–80"));
+            tr.appendChild(createCell(data.above_80, "Score > 80"));
+            
+            // Highlight the column we are sorting by
+            const tdAbove70 = createCell(data.above_70_total, "Total Score > 70");
+            tdAbove70.style.background = "#e8f0fe"; // subtle blue highlight
+            tr.appendChild(tdAbove70);
+
+            const tdRatio = document.createElement('td');
+            tdRatio.className = `num ${ratioClass}`;
+            tdRatio.textContent = ratioPercent;
+            tr.appendChild(tdRatio);
+
             tbody.appendChild(tr);
         });
     }

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Threshold Tag Coverage Dashboard</title>
+    <style>
+        /* --- LAYOUT FIXES FOR ALWAYS-VISIBLE BARS --- */
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; /* Prevent full page scroll */
+            background: #f8f9fa; 
+            color: #202124;
+            font-family: 'Google Sans', Roboto, sans-serif; 
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Header section doesn't scroll, it stays at top */
+        .header-section {
+            flex: 0 0 auto;
+            margin-bottom: 15px;
+        }
+
+        h1 { margin: 0 0 5px 0; }
+        p.subtitle { color: #5f6368; margin: 0 0 15px 0; font-size: 0.9rem; }
+
+        /* The container takes all remaining space */
+        .table-container { 
+            flex: 1; 
+            overflow: auto; /* Scrollbars live here now */
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+            position: relative;
+        }
+
+        table { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 1200px; }
+        
+        /* --- STICKY HEADERS --- */
+        th { 
+            background-color: #f1f3f4; 
+            position: sticky; top: 0; z-index: 10; 
+            font-weight: 600; color: #5f6368; font-size: 0.75rem; 
+            text-transform: uppercase; letter-spacing: 0.5px; 
+            padding: 10px 8px; border-bottom: 1px solid #ddd; 
+            text-align: left; 
+            white-space: nowrap;
+        }
+        
+        /* Freeze first column */
+        th:first-child, td:first-child { position: sticky; left: 0; background-color: #fff; z-index: 11; border-right: 2px solid #ddd; min-width: 140px; }
+        th:first-child { z-index: 12; background-color: #f1f3f4; } /* The top-left corner */
+
+        td { font-size: 0.85rem; padding: 6px 8px; border-bottom: 1px solid #eee; text-align: right; border-right: 1px solid #f0f0f0; }
+        
+        /* Row Styling */
+        .row-80 td:first-child { border-top: 2px solid #e0e0e0; font-weight: bold; color: #202124; } 
+        .row-70 td:first-child { padding-left: 20px; color: #5f6368; font-size: 0.8rem; }
+        .row-60 td:first-child { padding-left: 20px; color: #5f6368; font-size: 0.8rem; border-bottom: 1px solid #ccc; } 
+        
+        .row-80 td { border-top: 2px solid #e0e0e0; }
+        .row-60 td { border-bottom: 1px solid #ccc; }
+
+        /* --- CELL HIGHLIGHTING LOGIC --- */
+        .cell-gap-blue { background-color: #e1f5fe; color: #0277bd; font-weight: bold; } 
+        .cell-gap-orange { background-color: #fbe9e7; color: #d84315; font-weight: bold; } 
+        .cell-zero { color: #e0e0e0; }
+
+        /* Interactive Cells */
+        .clickable { cursor: pointer; font-weight: 500; }
+        .clickable:hover { box-shadow: inset 0 0 0 2px #1a73e8; background-color: #f8f9fa; }
+        
+        .cell-gap-blue:hover { background-color: #b3e5fc; }
+        .cell-gap-orange:hover { background-color: #ffccbc; }
+
+        /* Legend */
+        .legend { font-size: 0.85rem; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;}
+        .legend-item { display: flex; align-items: center; gap: 5px; }
+        .swatch { width: 16px; height: 16px; border-radius: 3px; display: inline-block; border: 1px solid #ddd; }
+
+        /* Status & Modal */
+        #status { padding: 10px; margin-bottom: 15px; border-radius: 4px; display: none; }
+        .loading { background-color: #e8f0fe; color: #1967d2; display: block !important; }
+        .error { background-color: #fce8e6; color: #c5221f; display: block !important; }
+
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-active { display: flex; }
+        .modal-content { background: white; width: 90%; max-width: 600px; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; }
+        .modal-header { padding: 16px 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; background: #f1f3f4; border-radius: 8px 8px 0 0; }
+        .modal-title { margin: 0; font-size: 1.1rem; color: #202124; }
+        .close-btn { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #5f6368; }
+        .modal-body { padding: 20px; overflow-y: auto; }
+        ul.font-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+        ul.font-list li a { text-decoration: none; color: #1a73e8; font-size: 0.95rem; display: block; padding: 4px 8px; border-radius: 4px; }
+        ul.font-list li a:hover { background-color: #e8f0fe; }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <h1>Multi-Threshold Tag Coverage</h1>
+        <p class="subtitle">Comparing availability at 80, 70, and 60 quality score thresholds.</p>
+        
+        <div class="legend">
+            <div class="legend-item"><span class="swatch" style="background:#e1f5fe"></span> <strong>Potential (Blue):</strong> These fonts are >70, but 0 fonts exist >80.</div>
+            <div class="legend-item"><span class="swatch" style="background:#fbe9e7"></span> <strong>Weak (Orange):</strong> These fonts are >60, but 0 fonts exist >70.</div>
+        </div>
+
+        <div id="status" class="loading">Loading live data...</div>
+    </div>
+
+    <div class="table-container">
+        <table id="dashboard">
+            <thead>
+                </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title">Fonts List</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul id="font-list" class="font-list"></ul>
+            </div>
+        </div>
+    </div>
+
+<script>
+    // --- Configuration ---
+    const METADATA_URL = "catalog_metadata.json"; 
+    const TAGS_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv";
+    
+    const WEIGHTS = { "Concept": 0.4, "Drawing": 0.3, "Spacing": 0.2, "Wordspace": 0.1 };
+
+    const ALLOWED_SUBSETS = [
+        "latin", "devanagari", "japanese", "korean", "arabic", "thai", 
+        "bengali", "chinese-simplified", "cyrillic", "greek", "hebrew", 
+        "tamil", "telugu", "gujarati", "kannada", "malayalam", "gurmukhi", 
+        "oriya", "myanmar", "armenian", "sinhala", "georgian", "chinese-traditional"
+    ];
+
+    // --- Main Execution ---
+    document.addEventListener("DOMContentLoaded", async () => {
+        const statusDiv = document.getElementById('status');
+        try {
+            const [metaRes, tagsRes] = await Promise.all([ fetch(METADATA_URL), fetch(TAGS_URL) ]);
+            if (!metaRes.ok) throw new Error(`Metadata Error: ${metaRes.status}`);
+            if (!tagsRes.ok) throw new Error(`Tags CSV Error: ${tagsRes.status}`);
+
+            const metadata = await metaRes.json();
+            const tagsText = await tagsRes.text();
+
+            const parsedData = parseCSVFull(tagsText);
+            const { scores, fontTagsMap, uniqueTags } = parsedData;
+
+            const tableData = aggregateData(metadata.familyMetadataList, fontTagsMap, scores, uniqueTags);
+            
+            renderTable(tableData, uniqueTags);
+            statusDiv.style.display = 'none';
+
+        } catch (err) {
+            console.error(err);
+            statusDiv.textContent = `Error: ${err.message}`;
+            statusDiv.className = 'error';
+        }
+    });
+
+    // --- Data Processing ---
+    function parseCSVFull(csvText) {
+        const lines = csvText.split('\n');
+        const fontTagsMap = {}; 
+        const uniqueTags = new Set();
+        const rawQualityValues = {};
+
+        for (let i = 1; i < lines.length; i++) {
+            const row = lines[i].split(',');
+            if (row.length < 3) continue; 
+
+            const family = row[0].trim();
+            let rawTag = row[2].trim(); 
+            let weightStr = (row[3] || "0").trim();
+            if (!rawTag && row[1]) rawTag = row[1].trim();
+            let weight = parseFloat(weightStr);
+
+            if (rawTag.includes("Quality/")) {
+                const parts = rawTag.split("Quality/");
+                const type = parts[1];
+                if (type && !isNaN(weight)) {
+                    if (!rawQualityValues[family]) rawQualityValues[family] = {};
+                    rawQualityValues[family][type] = weight;
+                }
+            } 
+            else {
+                let cleanTag = rawTag.replace(/^[\/"']+|[\/"']+$/g, '');
+                if (cleanTag) {
+                    uniqueTags.add(cleanTag);
+                    if (!fontTagsMap[family]) fontTagsMap[family] = new Set();
+                    fontTagsMap[family].add(cleanTag);
+                }
+            }
+        }
+
+        const scores = {};
+        for (const [family, categories] of Object.entries(rawQualityValues)) {
+            let totalScore = 0;
+            totalScore += (categories['Concept'] || 0) * WEIGHTS['Concept'];
+            totalScore += (categories['Drawing'] || 0) * WEIGHTS['Drawing'];
+            totalScore += (categories['Spacing'] || 0) * WEIGHTS['Spacing'];
+            totalScore += (categories['Wordspace'] || 0) * WEIGHTS['Wordspace'];
+            scores[family] = totalScore;
+        }
+
+        return { scores, fontTagsMap, uniqueTags: Array.from(uniqueTags).sort() };
+    }
+
+    function aggregateData(fontList, fontTagsMap, scores, uniqueTags) {
+        const data = {};
+        
+        ALLOWED_SUBSETS.forEach(sub => {
+            data[sub] = { 
+                stats80: 0, 
+                tagBuckets: {} 
+            };
+            uniqueTags.forEach(tag => {
+                data[sub].tagBuckets[tag] = { t80: [], t70: [], t60: [] };
+            });
+        });
+
+        fontList.forEach(font => {
+            const familyName = font.family;
+            const quality = scores[familyName] || 0;
+            
+            if (quality < 60) return;
+
+            const fontTags = fontTagsMap[familyName]; 
+            if (!fontTags) return; 
+
+            font.subsets.forEach(subset => {
+                if (!data[subset]) return; 
+                
+                fontTags.forEach(tag => {
+                    const bucket = data[subset].tagBuckets[tag];
+                    if (!bucket) return;
+
+                    if (quality >= 60) bucket.t60.push(familyName);
+                    if (quality >= 70) bucket.t70.push(familyName);
+                    if (quality >= 80) bucket.t80.push(familyName);
+                });
+            });
+        });
+
+        Object.values(data).forEach(row => {
+            let used80 = 0;
+            uniqueTags.forEach(tag => {
+                if (row.tagBuckets[tag].t80.length > 0) used80++;
+            });
+            row.stats80 = used80;
+        });
+
+        return data;
+    }
+
+    // --- Rendering Logic ---
+
+    function createCell(count, higherTierCount = -1, highlightType = null) {
+        const td = document.createElement('td');
+        td.textContent = count;
+        
+        // 1. If count is 0, always gray dash.
+        if (count === 0) {
+            td.className = 'cell-zero';
+            td.textContent = "-";
+            return td;
+        }
+
+        // 2. Base clickable class
+        td.className = 'clickable';
+
+        // 3. Highlight Opportunity (We have fonts, but higher tier is 0)
+        if (higherTierCount === 0) {
+            if (highlightType === 'blue') {
+                td.classList.add('cell-gap-blue');
+                td.title = "These fonts are >70, but 0 fonts exist >80";
+            }
+            if (highlightType === 'orange') {
+                td.classList.add('cell-gap-orange');
+                td.title = "These fonts are >60, but 0 fonts exist >70";
+            }
+        }
+
+        return td;
+    }
+
+    function renderTable(data, uniqueTags) {
+        const table = document.getElementById('dashboard');
+        const thead = table.querySelector('thead');
+        const tbody = table.querySelector('tbody');
+
+        // Headers
+        let headerHTML = `<tr>
+            <th style="min-width:140px;">Language / Score</th>
+            <th title="Metric">Threshold</th>`;
+        
+        uniqueTags.forEach(tag => {
+            headerHTML += `<th title="${tag}">${tag}</th>`;
+        });
+        headerHTML += `</tr>`;
+        thead.innerHTML = headerHTML;
+
+        // Sort rows by 80+ coverage
+        const sortedSubsets = Object.entries(data).sort((a, b) => b[1].stats80 - a[1].stats80);
+
+        sortedSubsets.forEach(([subset, rowData]) => {
+            
+            const tr80 = document.createElement('tr'); tr80.className = 'row-80';
+            const tr70 = document.createElement('tr'); tr70.className = 'row-70';
+            const tr60 = document.createElement('tr'); tr60.className = 'row-60';
+
+            tr80.innerHTML = `<td>${subset}</td><td style="color:#202124; font-weight:bold;">> 80</td>`;
+            tr70.innerHTML = `<td>Score > 70</td><td>> 70</td>`;
+            tr60.innerHTML = `<td>Score > 60</td><td>> 60</td>`;
+
+            uniqueTags.forEach(tag => {
+                const bucket = rowData.tagBuckets[tag];
+                const c80 = bucket.t80.length;
+                const c70 = bucket.t70.length;
+                const c60 = bucket.t60.length;
+
+                // 1. Row 80
+                const td80 = createCell(c80, -1, null);
+                if (c80 > 0) td80.onclick = () => openModal(subset, `${tag} (>80)`, bucket.t80);
+                
+                // 2. Row 70 (Check if c80 is 0)
+                const td70 = createCell(c70, c80, 'blue');
+                if (c70 > 0) td70.onclick = () => openModal(subset, `${tag} (>70)`, bucket.t70);
+
+                // 3. Row 60 (Check if c70 is 0)
+                const td60 = createCell(c60, c70, 'orange');
+                if (c60 > 0) td60.onclick = () => openModal(subset, `${tag} (>60)`, bucket.t60);
+
+                tr80.appendChild(td80);
+                tr70.appendChild(td70);
+                tr60.appendChild(td60);
+            });
+
+            tbody.appendChild(tr80);
+            tbody.appendChild(tr70);
+            tbody.appendChild(tr60);
+        });
+    }
+
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const fontListEl = document.getElementById('font-list');
+
+    function openModal(subset, title, fonts) {
+        modalTitle.textContent = `${subset} — ${title} (${fonts.length})`;
+        fontListEl.innerHTML = '';
+        fonts.sort((a, b) => a.localeCompare(b));
+        fonts.forEach(font => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = font;
+            a.href = `https://fonts.google.com/specimen/${font.replace(/ /g, '+')}`;
+            a.target = "_blank";
+            li.appendChild(a);
+            fontListEl.appendChild(li);
+        });
+        modal.classList.add('modal-active');
+    }
+
+    function closeModal() { modal.classList.remove('modal-active'); }
+    modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+
+</script>
+</body>
+</html>

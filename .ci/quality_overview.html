@@ -5,7 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Fonts Quality Dashboard</title>
     <style>
-        body { font-family: 'Google Sans', Roboto, sans-serif; padding: 20px; background: #f8f9fa; color: #202124; }
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; /* Prevent full page scroll */
+            background: #f8f9fa; 
+            color: #202124;
+            font-family: 'Google Sans', Roboto, sans-serif; 
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
         h1 { margin-bottom: 5px; }
         p.subtitle { color: #5f6368; margin-top: 0; margin-bottom: 20px; font-size: 0.9rem; }
         

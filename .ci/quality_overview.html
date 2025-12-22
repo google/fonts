@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Fonts Quality Dashboard</title>
+    <style>
+        body { font-family: 'Google Sans', Roboto, sans-serif; padding: 20px; background: #f8f9fa; color: #202124; }
+        h1 { margin-bottom: 5px; }
+        p.subtitle { color: #5f6368; margin-top: 0; margin-bottom: 20px; font-size: 0.9rem; }
+        
+        /* Table Styles */
+        .table-container { overflow-x: auto; box-shadow: 0 1px 3px rgba(0,0,0,0.2); background: white; border-radius: 8px; }
+        table { border-collapse: collapse; width: 100%; min-width: 800px; }
+        th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid #ddd; }
+        th { background-color: #f1f3f4; position: sticky; top: 0; font-weight: 600; color: #5f6368; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        tr:hover { background-color: #f5f5f5; }
+        
+        /* Numeric columns */
+        .num { text-align: right; font-variant-numeric: tabular-nums; }
+        
+        /* Conditional Formatting */
+        .good-ratio { color: #137333; font-weight: bold; background-color: #e6f4ea; }
+        .zero-score { color: #aaa; }
+        
+        /* Status Bar */
+        #status { padding: 10px; margin-bottom: 15px; border-radius: 4px; display: none; }
+        .loading { background-color: #e8f0fe; color: #1967d2; display: block !important; }
+        .error { background-color: #fce8e6; color: #c5221f; display: block !important; }
+    </style>
+</head>
+<body>
+
+    <h1>Font Quality by Language Subset</h1>
+    <p class="subtitle">Live data from Google Fonts Metadata & GitHub Tags</p>
+
+    <div id="status" class="loading">Loading data...</div>
+
+    <div class="table-container">
+        <table id="dashboard">
+            <thead>
+                <tr>
+                    <th>Language Subset</th>
+                    <th class="num">Total Fonts</th>
+                    <th class="num">Score &lt; 50</th>
+                    <th class="num">50–60</th>
+                    <th class="num">60–70</th>
+                    <th class="num">70–80</th>
+                    <th class="num">&gt; 80</th>
+                    <th class="num">Total &gt; 70</th>
+                    <th class="num">Ratio (&gt;70)</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+<script>
+    // --- Configuration ---
+    const METADATA_URL = "https://fonts.google.com/metadata/fonts";
+    const TAGS_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv";
+    
+    const WEIGHTS = {
+        "Concept": 0.4,
+        "Drawing": 0.3,
+        "Spacing": 0.2,
+        "Wordspace": 0.1
+    };
+
+    // --- Main Execution ---
+    document.addEventListener("DOMContentLoaded", async () => {
+        const statusDiv = document.getElementById('status');
+        
+        try {
+            // Fetch both resources in parallel
+            const [metaRes, tagsRes] = await Promise.all([
+                fetch(METADATA_URL),
+                fetch(TAGS_URL)
+            ]);
+
+            if (!metaRes.ok) throw new Error(`Metadata Error: ${metaRes.status}`);
+            if (!tagsRes.ok) throw new Error(`Tags CSV Error: ${tagsRes.status}`);
+
+            const metadata = await metaRes.json();
+            const tagsText = await tagsRes.text();
+
+            // Process Data
+            const scores = parseTagsAndCalculateScores(tagsText);
+            const stats = aggregateStats(metadata.familyMetadataList, scores);
+            
+            // Render
+            renderTable(stats);
+            statusDiv.style.display = 'none';
+
+        } catch (err) {
+            console.error(err);
+            statusDiv.textContent = `Error loading data: ${err.message}. (Check Console for CORS details)`;
+            statusDiv.className = 'error';
+        }
+    });
+
+    // --- Logic ---
+
+    function parseTagsAndCalculateScores(csvText) {
+        const lines = csvText.split('\n');
+        const familyScores = {}; // { "Roboto": 75.5, ... }
+
+        // CSV Structure expected: Family, Group/Tag, Weight, ...
+        // We scan for indices of headers to be safe
+        const headers = lines[0].split(',').map(h => h.trim());
+        const idxFamily = headers.indexOf('Family');
+        const idxTag = headers.indexOf('Group/Tag');
+        const idxWeight = headers.indexOf('Weight');
+
+        if (idxFamily === -1 || idxTag === -1) {
+            throw new Error("CSV headers missing required columns");
+        }
+
+        // Temporary storage for raw values: { "Roboto": { "Concept": 80, "Drawing": 50... } }
+        const rawValues = {};
+
+        for (let i = 1; i < lines.length; i++) {
+            // Simple CSV parse (assuming no commas in font names/tags for simplicity)
+            const row = lines[i].split(',');
+            if (row.length < 3) continue;
+
+            const family = row[idxFamily].trim();
+            const tag = row[idxTag].trim();
+            const weight = parseFloat(row[idxWeight]);
+
+            if (tag.startsWith('Quality/')) {
+                const type = tag.split('/')[1]; // e.g., "Concept"
+                
+                if (!rawValues[family]) rawValues[family] = {};
+                
+                // If weight is missing, assume 0. If multiple tags (rare), last one wins
+                if (!isNaN(weight)) {
+                    rawValues[family][type] = weight;
+                }
+            }
+        }
+
+        // Calculate final weighted scores
+        for (const [family, categories] of Object.entries(rawValues)) {
+            let totalScore = 0;
+            
+            totalScore += (categories['Concept'] || 0) * WEIGHTS['Concept'];
+            totalScore += (categories['Drawing'] || 0) * WEIGHTS['Drawing'];
+            totalScore += (categories['Spacing'] || 0) * WEIGHTS['Spacing'];
+            totalScore += (categories['Wordspace'] || 0) * WEIGHTS['Wordspace'];
+
+            familyScores[family] = totalScore;
+        }
+
+        return familyScores;
+    }
+
+    function aggregateStats(fontList, scores) {
+        // Structure: { "latin": { total: 0, buckets: { ... } } }
+        const subsetStats = {};
+
+        // Helper to init subset object
+        const initSubset = () => ({
+            total: 0,
+            below_50: 0,
+            score_50_60: 0,
+            score_60_70: 0,
+            score_70_80: 0,
+            above_80: 0,
+            above_70_count: 0
+        });
+
+        fontList.forEach(font => {
+            const score = scores[font.family] || 0; // Default to 0 if no tags
+
+            font.subsets.forEach(subset => {
+                if (!subsetStats[subset]) subsetStats[subset] = initSubset();
+                
+                const s = subsetStats[subset];
+                s.total++;
+
+                if (score >= 70) s.above_70_count++;
+
+                if (score < 50) s.below_50++;
+                else if (score < 60) s.score_50_60++;
+                else if (score < 70) s.score_60_70++;
+                else if (score < 80) s.score_70_80++;
+                else s.above_80++;
+            });
+        });
+
+        return subsetStats;
+    }
+
+    function renderTable(stats) {
+        const tbody = document.querySelector('#dashboard tbody');
+        
+        // Convert to array and sort by Total Fonts desc
+        const sortedSubsets = Object.entries(stats).sort((a, b) => b[1].total - a[1].total);
+
+        sortedSubsets.forEach(([name, data]) => {
+            const tr = document.createElement('tr');
+            
+            const ratio = data.total > 0 ? (data.above_70_count / data.total) : 0;
+            const ratioPercent = (ratio * 100).toFixed(1) + '%';
+            const ratioClass = ratio > 0.5 ? 'good-ratio' : '';
+
+            tr.innerHTML = `
+                <td>${name}</td>
+                <td class="num">${data.total}</td>
+                <td class="num ${data.below_50 === 0 ? 'zero-score' : ''}">${data.below_50}</td>
+                <td class="num ${data.score_50_60 === 0 ? 'zero-score' : ''}">${data.score_50_60}</td>
+                <td class="num ${data.score_60_70 === 0 ? 'zero-score' : ''}">${data.score_60_70}</td>
+                <td class="num ${data.score_70_80 === 0 ? 'zero-score' : ''}">${data.score_70_80}</td>
+                <td class="num ${data.above_80 === 0 ? 'zero-score' : ''}">${data.above_80}</td>
+                <td class="num">${data.above_70_count}</td>
+                <td class="num ${ratioClass}">${ratioPercent}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+</script>
+
+</body>
+</html>

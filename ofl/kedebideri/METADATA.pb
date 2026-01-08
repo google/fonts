@@ -57,6 +57,7 @@ fonts {
   full_name: "Kedebideri Black"
   copyright: "Copyright (c) 2007-2025 SIL Global"
 }
+subsets: "beria-erfe"
 subsets: "latin"
 subsets: "menu"
 source {

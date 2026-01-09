@@ -10,8 +10,9 @@ fonts {
   filename: "Alyamama[wght].ttf"
   post_script_name: "Alyamama-Light"
   full_name: "Alyamama Light"
-  copyright: "Copyright 2025 The Alyamama Project Authors (https://www.github.com/MestaraType/AlYamama)"
+  copyright: "Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)"
 }
+subsets: "arabic"
 subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"

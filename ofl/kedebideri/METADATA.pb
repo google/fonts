@@ -94,5 +94,5 @@ source {
   }
   branch: "main"
 }
-primary_script: "Berf"
+primary_language: "zag_Berf"
 stroke: "SANS_SERIF"

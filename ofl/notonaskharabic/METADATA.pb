@@ -25,8 +25,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/arabic"
-  commit: "1b2b7e5c6ce3ab4d50681c854892325530084c35"
-  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.020/NotoNaskhArabic-v2.020.zip"
+  commit: "59f5a3fd985bf24858915c3dddfc51a537640965"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.021/NotoNaskhArabic-v2.021.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

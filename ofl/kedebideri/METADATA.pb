@@ -57,6 +57,7 @@ fonts {
   full_name: "Kedebideri Black"
   copyright: "Copyright (c) 2007-2025 SIL Global"
 }
+subsets: "beria-erfe"
 subsets: "latin"
 subsets: "menu"
 source {
@@ -93,5 +94,5 @@ source {
   }
   branch: "main"
 }
-primary_script: "Berf"
+primary_language: "zag_Berf"
 stroke: "SANS_SERIF"

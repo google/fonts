@@ -1,8 +1,11 @@
 name: "Agrave Pro"
 designer: "Daan Jobsis"
 license: "OFL"
-category: "Script"
-date_added: "2026-01-31"
+category: "Handwriting"
+date_added: "2026-01-19"
+
+subsets: "latin"
+subsets: "latin-ext"
 
 fonts {
   name: "Agrave Pro Light"

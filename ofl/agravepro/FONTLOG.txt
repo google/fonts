@@ -15,18 +15,44 @@ License: SIL Open Font License (OFL)
 
 Agràve Pro is a carefully crafted, cheerful script typeface, designed especially for setting large bodies of text. With its open counters, short ascenders and descenders, consistent stroke width, and over 6,500 kerning pairs, it offers outstanding readability.
 
-The Agràve font family includes three weights: Light, Regular, and Bold. It features 765 glyphs, an extensive set of ligatures, and full multilingual support. Every accented character is uniquely drawn, adding subtle variation and character. The family also includes a complete set of multilingual small caps and an impressive range of numeral styles—lining, oldstyle, tabular, fractions, and scientific inferiors.
+The Agràve font family includes three weights: Light, Regular and Bold. It features 783 glyphs, an extensive set of ligatures, and full multilingual support. Every accented character is uniquely drawn, adding subtle variation and character. The family also includes a complete set of multilingual small caps and an impressive range of numeral styles—lining, oldstyle, tabular, fractions, and scientific inferiors.
 
 
 --------------------------
 2. ChangeLog
 
-[Date] - Version 1.000  
-- Initial release of the font family with Light, Regular, and Bold weights.  
+March 15, 2020 - Version 1.000  
+- Initial release of the font family with Light, Regular, and Bold weights.
 - Included multilingual support, small caps, and numeral variations.
 
-[Date] - Version [X.XXX]  
-- [Add your changes here: e.g., bug fixes, improved spacing, added glyphs...]
+July 22, 2020 - Version 1.001   
+- Updated font files with minor kerning approvement and exported from newest version of Glyphs App. Hoping the 'No glyph data available' error is gone when trying to show available glyphs in typeface.
+
+January 18, 2026  - Version [1.002]
+- Repeatedly ran FontBakery checks to confirm that all critical FAILs were resolved.
+- Ensured the font family is compliant with Google Fonts technical requirements.
+- Adjusted WinAscent and WinDescent values to fully cover all glyph outlines and accents, resolving FontBakery warnings related to vertical clipping.
+- Ensured vertical metrics are consistent across all styles (Light, Regular, Bold).
+- Added a proper OFL.txt license file
+- Ensured the Reserved Font Name (RFN) matches the internal font naming (ASCII-only), while allowing the accented name only in human-readable contexts.
+- Verified consistent naming across:	Family, Style, PostScript names and Filename conventions
+- Completed and validated the METADATA.pb file.
+- Added explicit subset declarations: latin and latin-ext
+- Ensured all encoded glyphs (including combining marks and diacritics) are covered by declared subsets.
+- Selected the most appropriate category for the design style (Handwriting).
+- Added caret anchors (caret_) for all ligature glyphs.
+- Ensured ligature caret positions are correctly compiled into the GDEF table, resolving caret-related warnings.
+- Removed the Soft Hyphen (U+00AD)
+- Added a dotted circle glyph (U+25CC) to support proper display of combining marks.
+- Added appropriate mark anchors so that all combining marks can correctly attach to the dotted circle.
+- Verified combining mark behavior in shaping engines (e.g. TextEdit).
+- Removed or excluded unreachable glyphs that were not accessible via Unicode or OpenType substitutions.
+- Cleaned up redundant ligature variants that were not referenced by features.
+- Ensured correct style linking between Regular and Bold using proper weight classes and the Bold Style parameter.
+- Verified that style linking works in Core Text–based applications.
+- Reviewed jaggy outline segments.
+- Manually inspected affected glyphs and corrected unintentional outline artifacts where necessary.
+
 
 --------------------------
 3. Acknowledgements

@@ -32,4 +32,4 @@ source {
   }
   branch: "master"
 }
-primary_script: "Japn"
+primary_script: "Jpan"

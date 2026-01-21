@@ -12,10 +12,7 @@ fonts {
   full_name: "Playwrite NZ Guides Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-subsets: "vietnamese"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
   commit: "fbc8d9790feeba3a5d0c0b4ccdcf246d3c41526e"

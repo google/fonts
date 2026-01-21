@@ -20,8 +20,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "02e4e15767f5b6c2109413429fc51879b9507ab4"
-  archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
+  commit: "fbc8d9790feeba3a5d0c0b4ccdcf246d3c41526e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -35,4 +34,3 @@ source {
 }
 display_name: "Playwrite New Zealand"
 minisite_url: "https://primarium.info/countries/new-zealand"
-primary_language: "en_Latn"

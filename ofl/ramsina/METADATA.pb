@@ -1,5 +1,5 @@
 name: "Ramsina"
-designer: "UNKNOWN"
+designer: "SIL International"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2026-01-21"

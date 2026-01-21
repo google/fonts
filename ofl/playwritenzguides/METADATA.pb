@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "02e4e15767f5b6c2109413429fc51879b9507ab4"
+  commit: "fbc8d9790feeba3a5d0c0b4ccdcf246d3c41526e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -29,20 +29,19 @@ source {
     dest_file: "article/ARTICLE.en_us.html"
   }
   files {
-    source_file: "documentation/about-guides/NZ/Playwrite-New-Zealand-Guides_1.png"
-    dest_file: "article/Playwrite-New-Zealand-Guides_1.png"
+    source_file: "documentation/about-guides/NZ/Playwrite-NZ-Guides_1.png"
+    dest_file: "article/Playwrite-NZ-Guides_1.png"
   }
   files {
-    source_file: "documentation/about-guides/NZ/Playwrite-New-Zealand-Guides_2.png"
-    dest_file: "article/Playwrite-New-Zealand-Guides_2.png"
+    source_file: "documentation/about-guides/NZ/Playwrite-NZ-Guides_2.png"
+    dest_file: "article/Playwrite-NZ-Guides_2.png"
   }
   files {
-    source_file: "documentation/about-guides/NZ/Playwrite-New-Zealand-Guides_3.png"
-    dest_file: "article/Playwrite-New-Zealand-Guides_3.png"
+    source_file: "documentation/about-guides/NZ/Playwrite-NZ-Guides_3.png"
+    dest_file: "article/Playwrite-NZ-Guides_3.png"
   }
   branch: "main"
   config_yaml: "sources/config.yaml"
 }
 display_name: "Playwrite New Zealand Guides"
 minisite_url: "https://primarium.info/countries/new-zealand"
-primary_language: "en_Latn"

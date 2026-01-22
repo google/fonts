@@ -1,7 +1,7 @@
 name: "Ramsina"
 designer: "SIL International"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2026-01-21"
 fonts {
   name: "Ramsina"

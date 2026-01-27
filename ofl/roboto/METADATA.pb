@@ -43,8 +43,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/roboto-classic"
-  commit: "b3ab25297a96373a8053db2d6fbf94b3ce61a8ac"
-  archive_url: "https://github.com/googlefonts/roboto-3-classic/releases/download/v3.011/Roboto_v3.011.zip"
+  commit: "91d5d3e5b81efa04a77925cc609fdcdd7ee663d1"
+  archive_url: "https://github.com/googlefonts/roboto-3-classic/releases/download/v3.015/Roboto_v3.015.zip"
   files {
     source_file: "web/split/Roboto[wdth,wght].ttf"
     dest_file: "Roboto[wdth,wght].ttf"

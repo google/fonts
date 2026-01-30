@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "BpmfHuninn-Regular.ttf"
   post_script_name: "BpmfHuninn-Regular"
-  full_name: "ㄅ注音粉圓 Regular"
+  full_name: "Bpmf Huninn Regular"
   copyright: "Copyright 2025 The Bpmf Project Authors (https://github.com/ButTaiwan/bpmfvs)"
 }
 subsets: "chinese-traditional"

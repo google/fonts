@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "BpmfZihiKaiStd-Regular.ttf"
   post_script_name: "BpmfZihiKaiStd-Regular"
-  full_name: "Zihi Kai Std Regular"
+  full_name: "Bpmf Zihi Kai Std Regular"
   copyright: "Copyright 2025 The Bpmf Project Authors (https://github.com/ButTaiwan/bpmfvs)"
 }
 subsets: "chinese-traditional"

@@ -28,6 +28,6 @@ source {
   }
   branch: "master"
 }
-primary_script: "hebr"
+primary_script: "Hebr"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

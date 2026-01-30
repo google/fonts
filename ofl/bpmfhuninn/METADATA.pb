@@ -1,5 +1,5 @@
 name: "Bpmf Huninn"
-designer: "But Ko", "justfont"
+designer: "But Ko, justfont"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2026-01-30"
@@ -16,4 +16,7 @@ subsets: "chinese-traditional"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/ButTaiwan/bpmfvs"
+}
 primary_script: "Hant"

@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.10"]
-        os: [windows-latest, macos-13, ubuntu-22.04]
+        os: [windows-latest, macos-latest, ubuntu-22.04]
     steps:
       - name: Cancel previous
         uses: styfle/cancel-workflow-action@0.11.0
@@ -102,7 +102,7 @@ jobs:
         with:
           version: head
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install diffenator3
         run: |
           wget "https://github.com/googlefonts/diffenator3/releases/download/v$DIFFENATOR3_VERSION/diffenator3-v$DIFFENATOR3_VERSION-x86_64-unknown-linux-musl.tar.gz"

@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   rebuild:
-    runs-on: macos-13 # More RAM, heh heh
+    runs-on: macos-latest # More RAM, heh heh
     permissions:
       contents: write
     steps:

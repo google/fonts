@@ -5,12 +5,11 @@ ofl/betaniapatmosin # https://github.com/google/fonts/pull/10150
 ofl/betaniapatmosingdl # https://github.com/google/fonts/pull/10151
 ofl/idiqlat # https://github.com/google/fonts/pull/10147
 ofl/ramsina # https://github.com/google/fonts/pull/10143
+ofl/allkin # https://github.com/google/fonts/pull/10162
 
 # Upgrade
 ofl/gveretlevin # https://github.com/google/fonts/pull/10169
 ofl/mashanzheng # https://github.com/google/fonts/pull/10153
-ofl/notokufiarabic # https://github.com/google/fonts/pull/9920
-ofl/notosansarabic # https://github.com/google/fonts/pull/9919
 ofl/roboto # https://github.com/google/fonts/pull/10158
 
 # Designer profile
@@ -36,6 +35,7 @@ catalog/designers/jovannylemonad # https://github.com/google/fonts/pull/10164
 catalog/designers/juanpablodelperal # https://github.com/google/fonts/pull/10164
 catalog/designers/kimberlygeswein # https://github.com/google/fonts/pull/10164
 catalog/designers/latinotype # https://github.com/google/fonts/pull/10164
+catalog/designers/nicolefally # https://github.com/google/fonts/pull/10168
 catalog/designers/marksimonson # https://github.com/google/fonts/pull/10164
 catalog/designers/mattmcinerney # https://github.com/google/fonts/pull/10164
 catalog/designers/maxthunberg # https://github.com/google/fonts/pull/10117
@@ -46,10 +46,3 @@ catalog/designers/ralphducarrois # https://github.com/google/fonts/pull/10164
 catalog/designers/sebastiankosch # https://github.com/google/fonts/pull/10164
 catalog/designers/victorgaultney # https://github.com/google/fonts/pull/10164
 catalog/designers/yazeedomar # https://github.com/google/fonts/pull/10128
-
-# Sample texts
-lang/languages/zag_Berf.textproto # https://github.com/google/fonts/pull/9819
-lang/scripts/Berf.textproto # https://github.com/google/fonts/pull/9819
-
-# Other
-catalog/designers/nicolefally # https://github.com/google/fonts/pull/10168

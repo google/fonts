@@ -28,9 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/oriya"
-  commit: "97abab82ec512f8a4a98c389352f194a03385ce2"
-  config_yaml: "sources/config-sans-oriya.yaml"
-  archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.006/NotoSansOriya-v2.006.zip"
+  commit: "8540c2079d99db2db98a0c82e9daae71d4740c44"
+  archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.007/NotoSansOriya-v2.007.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"
@@ -44,16 +43,17 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   files {
-    source_file: "NotoSansOriya/googlefonts/variable/NotoSansOriya[wdth,wght].ttf"
+    source_file: "NotoSansOriya/googlefonts/variable-ttf/NotoSansOriya[wdth,wght].ttf"
     dest_file: "NotoSansOriya[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-oriya.yaml"
 }
 is_noto: true
-languages: "khr_Orya"  # Kharia, Odia
-languages: "kyw_Orya"  # Kudmali, Odia
+languages: "khr_Orya"  # Kharia (Odia)
+languages: "kyw_Orya"  # Kudmali (Odia)
 languages: "or_Orya"  # Odia
 languages: "sa_Orya"  # Sanskrit, Odia / Oriya
-languages: "sat_Orya"  # Santali, Odia
-languages: "unr_Orya"  # Mundari, Odia
+languages: "sat_Orya"  # Santali (Odia)
+languages: "unr_Orya"  # Mundari (Odia)
 primary_script: "Orya"

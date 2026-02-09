@@ -33,7 +33,7 @@ sample_text {
   masthead_full: "   "
   masthead_partial: ""
   styles: "                   "
-  tester:                    "
+  tester: "                   "
   poster_sm: "       "
   poster_md: "     "
   poster_lg: "   "

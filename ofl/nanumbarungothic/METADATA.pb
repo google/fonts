@@ -1,10 +1,10 @@
-name: "Nanum Barun Gothic"
-designer: "Jaehyun Yoon; yongrak park; donggwan kim;"
+name: "NanumBarunGothic"
+designer: "FONTRIX"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2023-03-31"
 fonts {
-  name: "Nanum Barun Gothic"
+  name: "NanumBarunGothic"
   style: "normal"
   weight: 400
   filename: "NanumBarunGothic.ttf"
@@ -13,30 +13,30 @@ fonts {
   copyright: "Copyright ⓒ 2013 NHN Corporation. All rights reserved. Font designed by FONTRIX Inc."
 }
 fonts {
-  name: "Nanum Barun Gothic"
+  name: "NanumBarunGothic"
   style: "normal"
   weight: 600
   filename: "NanumBarunGothicBold.ttf"
   post_script_name: "NanumBarunGothicBold"
-  full_name: "NanumBarunGothicBold"
+  full_name: "NanumBarunGothic Bold"
   copyright: "Copyright ⓒ 2013 NHN Corporation. All rights reserved. Font designed by FONTRIX Inc."
 }
 fonts {
-  name: "Nanum Barun Gothic"
+  name: "NanumBarunGothic"
   style: "normal"
   weight: 300
   filename: "NanumBarunGothicLight.ttf"
   post_script_name: "NanumBarunGothicLight"
-  full_name: "NanumBarunGothicLight"
+  full_name: "NanumBarunGothic Light"
   copyright: "Copyright (c) 2014 NHN Corporation. All rights reserved. Font designed by FONTRIX Inc."
 }
 fonts {
-  name: "Nanum Barun Gothic"
+  name: "NanumBarunGothic"
   style: "normal"
   weight: 200
   filename: "NanumBarunGothicUltraLight.ttf"
   post_script_name: "NanumBarunGothicUltraLight"
-  full_name: "NanumBarunGothicUltraLight"
+  full_name: "NanumBarunGothic UltraLight"
   copyright: "Copyright (c) 2015 NHN Corporation. All rights reserved. Font designed by FONTRIX Inc."
 }
 subsets: "korean"

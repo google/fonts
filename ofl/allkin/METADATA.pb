@@ -1,7 +1,7 @@
 name: "Allkin"
 designer: "Monotype Imaging Inc."
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2026-01-29"
 fonts {
   name: "Allkin"
@@ -27,13 +27,13 @@ source {
   branch: "main"
 }
 minisite_url: "https://typetrends.monotype.com/fr/peace-conflict"
-classifications: "SYMBOLS"
+classifications: "DISPLAY"
 
 sample_text {
   masthead_full: "   "
   masthead_partial: ""
-  styles: "                   "
-  tester: "                   "
+  styles: "                                 "
+  tester: "                                                                                                 "
   poster_sm: "       "
   poster_md: "     "
   poster_lg: "   "

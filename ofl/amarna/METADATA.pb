@@ -1,5 +1,5 @@
 name: "Amarna"
-designer: "Ishtar van Looy"
+designer: "Ishtār van Looy"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-11-20"

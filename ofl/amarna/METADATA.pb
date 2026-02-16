@@ -32,6 +32,7 @@ axes {
 source {
   repository_url: "https://github.com/ijvanl/Amarna"
   commit: "22819bafba78c7f3e4644b6f68683773180a5965"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

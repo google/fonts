@@ -33,6 +33,7 @@ axes {
 source {
   repository_url: "https://github.com/ThanosPoulakidas/Geom"
   commit: "c20a14c68c717e28fdb6e1cc7cc6b453fef5fef7"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

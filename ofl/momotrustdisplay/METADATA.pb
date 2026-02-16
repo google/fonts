@@ -19,6 +19,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/typeassociates/MomoTrustDisplay"
   commit: "33a85fe93dfe2ee4ee1cc0fe853f08b6a12d1815"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

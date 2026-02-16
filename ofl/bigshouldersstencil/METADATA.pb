@@ -29,6 +29,7 @@ axes {
 source {
   repository_url: "https://github.com/xotypeco/big_shoulders"
   commit: "8ba99c9e347396d828b263b8b818269cb99eb27c"
+  config_yaml: "Big-Shoulders-Stencil/sources/config.yml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

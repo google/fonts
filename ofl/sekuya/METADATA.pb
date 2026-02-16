@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/kevinnseptian/SEKUYA"
   commit: "74983eccdc3ee4233b3729132398e78eac409d04"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

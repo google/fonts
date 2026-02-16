@@ -35,6 +35,7 @@ axes {
 source {
   repository_url: "https://github.com/supernotes/sn-pro"
   commit: "e025ac4755352167a4b160bfb77c72068b04b55c"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -27,6 +27,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/cossette-fonts"
   commit: "ee99cea3c23039e31865c3c37bd7d716278e546b"
+  config_yaml: "sources/config-texte.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

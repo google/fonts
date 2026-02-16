@@ -21,6 +21,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/Gissio/font_tiny5"
   commit: "1d6e16fe1ffe3f91def8cf512ae45188503f7685"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

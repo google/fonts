@@ -24,6 +24,7 @@ axes {
 source {
   repository_url: "https://github.com/typeassociates/MomoTrustSans"
   commit: "35a9521152ca14fd2a4300902519a3c00706dd5b"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

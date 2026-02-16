@@ -19,6 +19,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/typeassociates/MomoSignature"
   commit: "c3ba208abfc2d6e661da920121653f0557bae611"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

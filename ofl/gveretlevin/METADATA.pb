@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/AlefAlefAlef/gveret-levin"
   commit: "b383a9c00863837b1b88b4d0365f43a304007dae"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

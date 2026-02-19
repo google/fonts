@@ -49,4 +49,5 @@ source {
   }
   branch: "main"
 }
+minisite_url: "https://supernotes.app/open-source/sn-pro/"
 stroke: "SANS_SERIF"

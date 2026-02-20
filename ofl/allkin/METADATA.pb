@@ -26,7 +26,7 @@ source {
   }
   branch: "main"
 }
-minisite_url: "https://typetrends.monotype.com/fr/peace-conflict"
+minisite_url: "https://www.monotype.com/type-trends/peace-conflict/"
 classifications: "DISPLAY"
 
 sample_text {

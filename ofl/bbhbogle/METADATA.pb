@@ -25,5 +25,6 @@ source {
     dest_file: "BBHBogle-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

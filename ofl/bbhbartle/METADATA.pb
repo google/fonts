@@ -25,5 +25,6 @@ source {
     dest_file: "BBHBartle-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

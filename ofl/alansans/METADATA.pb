@@ -32,6 +32,7 @@ source {
     dest_file: "AlanSans[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 minisite_url: "https://typeface.alan.com"

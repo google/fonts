@@ -50,5 +50,6 @@ source {
     dest_file: "ScienceGothic[CTRS,slnt,wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/build-config.yaml"
 }
 stroke: "SANS_SERIF"

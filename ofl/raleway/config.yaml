@@ -1,4 +1,4 @@
 buildVariable: true
 sources:
-  - source/Raleway-Roman.designspace
-  - source/Raleway-Italic.designspace
+  - sources/Raleway.designspace
+  - sources/Raleway-Italic.designspace

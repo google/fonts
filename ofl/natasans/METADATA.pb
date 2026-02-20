@@ -36,6 +36,7 @@ source {
     dest_file: "NataSans[wght].ttf"
   }
   branch: "main"
+  config_yaml: "config.yaml"
 }
 stroke: "SANS_SERIF"
 minisite_url: "https://dnlzqn.xyz/nata/"

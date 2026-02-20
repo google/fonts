@@ -46,6 +46,7 @@ source {
     dest_file: "article/Playwrite_NZ-Basic_3.png"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Playwrite New Zealand Basic"
 minisite_url: "https://primarium.info/countries/new-zealand"

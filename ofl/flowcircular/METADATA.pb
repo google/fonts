@@ -29,6 +29,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "Circular/sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "SYMBOLS"

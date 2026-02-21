@@ -1,6 +1,6 @@
 name: "Roboto Mono"
 designer: "Christian Robertson"
-license: "APACHE2"
+license: "OFL"
 category: "MONOSPACE"
 date_added: "2015-05-13"
 fonts {

@@ -24,7 +24,7 @@ authors = [
 ]
 
 dependencies = [
-   "protobuf>=3.7.0, <4",
+   "protobuf>=3.7.0, <7",
    "importlib_resources ; python_version < '3.10'",
 ]
 

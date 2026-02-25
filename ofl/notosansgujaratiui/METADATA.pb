@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/gujarati"
+  commit: "ef211973e3cd5c2d8de2781398d39fd2b5e27d1b"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Gujarati UI"
   style: "normal"

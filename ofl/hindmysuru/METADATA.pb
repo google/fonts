@@ -54,5 +54,6 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/itfoundry/hind-mysuru"
+  commit: "d7512b575b3400139785d6257bab923f52c6bc66"
 }
 primary_script: "Knda"

@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/cyrealtype/Jacques-Francois-Shadow"
+  commit: "90c9f94cc747ac7c356d882d7553c07d344992f8"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

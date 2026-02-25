@@ -30,6 +30,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/justvanrossum/nabla"
+  commit: "2a06e9f735390a7988d0ef190981ce4abf4dfd28"
   archive_url: "https://github.com/justvanrossum/nabla/releases/download/v1.002/nabla-fonts.zip"
   files {
     source_file: "nabla-fonts/Nabla[EDPT,EHLT].ttf"

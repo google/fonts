@@ -19,6 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontworks-fonts/Train"
+  commit: "7c77b21fbff6c182395862ab07273cb15423803e"
   files {
     source_file: "fonts/ttf/TrainOne-Regular.ttf"
     dest_file: "TrainOne-Regular.ttf"

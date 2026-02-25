@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/sinhala"
+  commit: "b45c383be01ece369f5c3b35cef0688fb3a140be"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Sinhala UI"
   style: "normal"

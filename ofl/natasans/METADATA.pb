@@ -26,6 +26,7 @@ subsets: "vietnamese"
 
 source {
   repository_url: "https://github.com/dnlzqn/nata-sans"
+  commit: "dbb0c0d3952e6a451bdf1e19febeeb58b9ae0823"
   archive_url: "https://github.com/dnlzqn/nata-sans/releases/download/v2.2/Nata.Sans.zip"
   files {
     source_file: "Nata.Sans/OFL.txt"

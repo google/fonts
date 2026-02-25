@@ -3,6 +3,12 @@ designer: "Danh Hong"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-03-02"
+source {
+  repository_url: "https://github.com/notofonts/khmer"
+  commit: "d30b39a6297274bc92879ca79db58358ac84b690"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Khmer"
   style: "normal"

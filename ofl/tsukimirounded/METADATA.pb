@@ -54,6 +54,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/mt-funa/Tsukimi-Rounded"
+  commit: "7199ebaed5a78b14f7824cc3ea44f5694e790807"
   files {
     source_file: "fonts/ttf/TsukimiRounded-Light.ttf"
     dest_file: "TsukimiRounded-Light.ttf"

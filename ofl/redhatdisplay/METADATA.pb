@@ -32,6 +32,7 @@ axes {
 source {
   repository_url: "https://github.com/bghryct/RedHatDisplay"
   commit: "fd36df3a3ad95084fe777597ed4b5c19961b3631"
+  config_yaml: "source/Proportional/RedHatDisplay/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

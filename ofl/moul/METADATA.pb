@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/Moul"
+  commit: "9bd37b4c66a42ed6f78619c305a59fe13aee2316"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

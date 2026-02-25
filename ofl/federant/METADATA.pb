@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/cyrealtype/Federant"
+  commit: "c5c5f602213ac00b181d95e2078fff665dd31809"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

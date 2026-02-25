@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/shibuyafont/shizuru-font"
+  commit: "a03af0c110a8ac65c79fdb1b67df89cd5cfffda8"
   files {
     source_file: "fonts/ttf/ShizuruFont-Regular.ttf"
     dest_file: "Shizuru-Regular.ttf"

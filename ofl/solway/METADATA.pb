@@ -52,4 +52,5 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/mashavp/Solway"
+  commit: "830b85f39cc1e0ab45341d8caf262d872c8a8220"
 }

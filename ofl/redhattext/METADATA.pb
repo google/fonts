@@ -32,6 +32,7 @@ axes {
 source {
   repository_url: "https://github.com/bghryct/RedHatText"
   commit: "dfbc50b16e27d5be1986c3ec79534460a74c1370"
+  config_yaml: "source/Proportional/RedHatText/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

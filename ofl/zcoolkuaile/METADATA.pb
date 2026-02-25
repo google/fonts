@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zcool-kuaile"
+  commit: "3c7292082f3dec8d09f900c37adc89b6b4f5fd39"
   config_yaml: "sources/config.yaml"
 }
 primary_script: "Hans"

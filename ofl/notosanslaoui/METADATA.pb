@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/lao"
+  commit: "a1a55ba32928f6bc90a3e3d4178a2eb0a50c827c"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Lao UI"
   style: "normal"

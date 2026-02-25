@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/liujianmaocao"
+  commit: "e589ccd1fe37fa9d2076a52096a3e3992489ad2c"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

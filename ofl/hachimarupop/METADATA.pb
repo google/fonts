@@ -19,6 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/noriokanisawa/HachiMaruPop"
+  commit: "efaa0d31f7bcace6cf4255b746911df1243af982"
   files {
     source_file: "fonts/ttf/HachiMaruPop-Regular.ttf"
     dest_file: "HachiMaruPop-Regular.ttf"

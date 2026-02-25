@@ -3,6 +3,12 @@ designer: "Anna Giedryś"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-23"
+source {
+  repository_url: "https://github.com/googlefonts/Signika"
+  commit: "7361a224d1d77274af1ea11dd06448c54c16f598"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Signika Negative SC"
   style: "normal"

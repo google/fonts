@@ -20,6 +20,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/impallari/The-Lobster-Font"
+  commit: "0796aa8aa42f6cbc89fa61be4a2a12fdcd2b8998"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

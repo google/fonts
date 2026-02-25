@@ -33,4 +33,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/SorkinType/Merriweather-Sans"
+  commit: "df645349406c0d06562040d3a5268d60dc34ec56"
 }

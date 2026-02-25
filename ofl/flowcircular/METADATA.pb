@@ -20,6 +20,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/HYPD/flow-typeface"
+  commit: "44f3478408936f5240cbc4fb3f7b4ed19d22822e"
   files {
     source_file: "Circular/fonts/ttf/FlowCircular-Regular.ttf"
     dest_file: "FlowCircular-Regular.ttf"

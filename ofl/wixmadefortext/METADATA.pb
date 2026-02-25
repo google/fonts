@@ -3,6 +3,12 @@ designer: "Dalton Maag"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2023-01-11"
+source {
+  repository_url: "https://github.com/wix-incubator/wixmadefor"
+  commit: "85646f130c8d3edffe66c4d8755c3f9f7abfa877"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Wix Madefor Text"
   style: "normal"

@@ -3,6 +3,12 @@ designer: "Hubert and Fischer"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2014-05-05"
+source {
+  repository_url: "https://github.com/googlefonts/rubik"
+  commit: "e337a5f69a9bea30e58d05bd40184d79cc099628"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Rubik One"
   style: "normal"

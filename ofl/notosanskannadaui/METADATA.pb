@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/kannada"
+  commit: "c609d8054606603e661ba15648eddc47d1fed50e"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Kannada UI"
   style: "normal"

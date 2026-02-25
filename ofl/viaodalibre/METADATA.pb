@@ -20,6 +20,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/bettergui/ViaodaLibre"
+  commit: "d3fcf66aa394cab6c638249c042f4133394088b6"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

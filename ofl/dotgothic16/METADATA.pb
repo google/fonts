@@ -19,6 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontworks-fonts/DotGothic16"
+  commit: "e44ca7bb46e7f353302c1431bf752af007c4fdfe"
   files {
     source_file: "fonts/ttf/DotGothic16-Regular.ttf"
     dest_file: "DotGothic16-Regular.ttf"

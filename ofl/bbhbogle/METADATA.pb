@@ -16,6 +16,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Studio-DRAMA/BBH"
+  commit: "b8d40ef62b138be4c7c3dac2de117217f261b24b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

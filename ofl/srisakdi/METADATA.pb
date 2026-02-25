@@ -28,5 +28,6 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Srisakdi"
+  commit: "db08a3a88093caf28fddb5ec3e90825114c9ea8d"
 }
 primary_script: "Thai"

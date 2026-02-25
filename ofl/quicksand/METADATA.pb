@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/ThomasJockin/QuicksandFamily"
+  commit: "03f689e640d4418925dc6ab1f60a818a06bab778"
   files {
     source_file: "fonts/variable/Quicksand[wght].ttf"
     dest_file: "Quicksand[wght].ttf"

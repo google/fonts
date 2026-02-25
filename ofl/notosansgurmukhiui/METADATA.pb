@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/gurmukhi"
+  commit: "edd162eeff44702b1c9a014845b5976d4937e519"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Gurmukhi UI"
   style: "normal"

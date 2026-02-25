@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/khmer"
+  commit: "d30b39a6297274bc92879ca79db58358ac84b690"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Khmer UI"
   style: "normal"

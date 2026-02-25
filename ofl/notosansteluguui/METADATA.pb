@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/telugu"
+  commit: "c8136f83d527f1aab275545302b9c291d0ed1e9e"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Telugu UI"
   style: "normal"

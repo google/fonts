@@ -27,4 +27,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/tonsky/FiraCode"
+  commit: "8da49d55f8b5978c5f888dd85452b79aad16cca2"
 }

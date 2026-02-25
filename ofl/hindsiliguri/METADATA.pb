@@ -54,5 +54,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/itfoundry/hind-siliguri"
+  commit: "affb7dbd00dc554c33ecafc92cbfef5323ae5235"
 }
 primary_script: "Beng"

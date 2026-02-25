@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-alkalami"
+  commit: "aac8fee84607803af27a8c3bdae12056b0ba0aec"
   archive_url: "https://github.com/silnrsi/font-alkalami/releases/download/v3.000/Alkalami-3.000.zip"
   files {
     source_file: "Alkalami-3.000/OFL.txt"

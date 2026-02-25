@@ -46,6 +46,7 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Thasadith"
+  commit: "e3721fb178b0e5b22e7f2802c2bebb5c09582f3c"
 }
 primary_script: "Thai"
 stroke: "SANS_SERIF"

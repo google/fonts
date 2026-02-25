@@ -4,6 +4,12 @@ license: "OFL"
 category: "DISPLAY"
 category: "SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
+  commit: "12fd123ea9186a2ad0046d2ba66dfc44fd3a1756"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Serif Display"
   style: "normal"

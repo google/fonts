@@ -36,6 +36,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/magictype/rowdies"
+  commit: "b0821f35f8e325b1dbce0129fd62848fcda72646"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

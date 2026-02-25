@@ -24,6 +24,7 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/syriac"
   commit: "a24ba4586441a6b76df20215464898852e702078"
+  config_yaml: "sources/config-sans-syriac-western.yaml"
   archive_url: "https://github.com/notofonts/syriac/releases/download/NotoSansSyriacWestern-v3.001/NotoSansSyriacWestern-v3.001.zip"
   files {
     source_file: "ARTICLE.en_us.html"

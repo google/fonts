@@ -32,6 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/josefinsans"
+  commit: "bf6907e3a34924300dd407201262f62c2fc2a642"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

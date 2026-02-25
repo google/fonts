@@ -45,6 +45,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-ruwudu"
+  commit: "b5aa4e64386fa7fe286634b10b7c874a42b9d1cf"
   archive_url: "https://github.com/silnrsi/font-ruwudu/releases/download/v3.000/Ruwudu-3.000.zip"
   files {
     source_file: "Ruwudu-3.000/OFL.txt"

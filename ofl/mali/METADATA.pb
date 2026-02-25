@@ -118,5 +118,6 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Mali"
+  commit: "4f4843c99ad83880f530b33a2ac1d69054c236bf"
 }
 primary_script: "Thai"

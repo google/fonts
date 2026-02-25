@@ -42,6 +42,7 @@ axes {
 
 source {
   repository_url: "https://github.com/TikTok/TikTokSans"
+  commit: "44862db3a4bf3a544b664a90245ca5daa5393571"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

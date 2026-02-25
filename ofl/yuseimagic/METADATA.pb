@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/tanukifont/YuseiMagic"
+  commit: "77e9fd3bcea003fc115f377cbd0f2fe2963d4979"
   files {
     source_file: "fonts/ttf/YuseiMagic-Regular.ttf"
     dest_file: "YuseiMagic-Regular.ttf"

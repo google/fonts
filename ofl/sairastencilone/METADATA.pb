@@ -18,6 +18,8 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/Omnibus-Type/Saira"
+  commit: "a84254850c80b93b3a2256c055505bca011c751d"
+  config_yaml: "Saira/sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

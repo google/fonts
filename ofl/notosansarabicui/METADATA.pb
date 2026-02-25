@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/arabic"
+  commit: "6139a36c3f1aaf47e5f0fcf1842a7a28c17d40c1"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Arabic UI"
   style: "normal"

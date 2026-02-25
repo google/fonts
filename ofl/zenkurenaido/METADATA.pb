@@ -20,6 +20,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zen-kurenaido"
+  commit: "965c8adca85e247f8caa19fbe3ede6bef19485d7"
   files {
     source_file: "fonts/ttf/ZenKurenaido-Regular.ttf"
     dest_file: "ZenKurenaido-Regular.ttf"

@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/matsuba723/Aoboshi"
+  commit: "97f6481745f4184f60e61a9a628e48f7ea5bdcf2"
   files {
     source_file: "fonts/ttf/AoboshiOne-Regular.ttf"
     dest_file: "AoboshiOne-Regular.ttf"

@@ -31,4 +31,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/thundernixon/Libre-Caslon"
+  commit: "52200a76d723e4a8cb9a566686ed1f56a794f39a"
 }

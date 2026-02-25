@@ -20,6 +20,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/satsuyako/YomogiFont"
+  commit: "27a69d9253eb61d46772f65fcb7362647cedd148"
   files {
     source_file: "fonts/ttf/Yomogi-Regular.ttf"
     dest_file: "Yomogi-Regular.ttf"

@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/cyrealtype/Jacques-Francois"
+  commit: "bc37f476a7e982327ae359c67068356597cd45aa"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

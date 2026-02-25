@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/bengali"
+  commit: "1914ac0684b08dfdf23e7c5e94651b40354a22da"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Bengali UI"
   style: "normal"

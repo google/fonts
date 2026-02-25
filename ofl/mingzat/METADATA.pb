@@ -18,6 +18,7 @@ subsets: "lepcha"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-mingzat"
+  commit: "bfe7e714b737d9d0b3b43ad88e3b844449175560"
   archive_url: "https://github.com/silnrsi/font-mingzat/releases/download/v1.100/Mingzat-1.100.zip"
   files {
     source_file: "Mingzat-1.100/OFL.txt"

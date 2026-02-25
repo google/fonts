@@ -47,6 +47,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/line/seed"
+  commit: "ea7a320d85172a57dc458507267d82e7c0f2d49a"
   config_yaml: "LINESeedJP/sources/config.yaml"
 }
 primary_script: "Jpan"

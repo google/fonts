@@ -78,6 +78,7 @@ sample_text {
 source {
   repository_url: "https://github.com/googlefonts/googlesans-code"
   commit: "edcd56e39fb7e98d6f1b697e187c144cef2fd994"
+  config_yaml: "sources/config.yaml"
   archive_url: "https://github.com/googlefonts/googlesans-code/releases/download/v6.001/GoogleSansCode-v6.001.zip"
   files {
     source_file: "OFL.txt"

@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/ManiackersDesign/slackside"
+  commit: "e5a03bb81c7a6c6eb9f901b993c2164213f143d4"
   files {
     source_file: "fonts/ttf/SlacksideOne-Regular.ttf"
     dest_file: "SlacksideOne-Regular.ttf"

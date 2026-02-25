@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/dharmatype/Bebas-Neue"
+  commit: "686d14af640c17af3691c597778f121d840d9051"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

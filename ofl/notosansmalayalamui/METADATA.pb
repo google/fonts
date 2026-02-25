@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/malayalam"
+  commit: "466ba6550c01b16f84100ba122e6e7697d21c861"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Malayalam UI"
   style: "normal"

@@ -27,4 +27,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/yellow-type-foundry/xanhmono"
+  commit: "5c0ceb816ffc1e8f79be71c82a43201395f3eca5"
 }

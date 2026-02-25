@@ -118,5 +118,6 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Bai-Jamjuree"
+  commit: "e35cafdf694905d1ac0f27afc587c0e972be1260"
 }
 primary_script: "Thai"

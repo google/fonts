@@ -37,6 +37,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/chiron-fonts/chiron-sung-hk"
+  commit: "65b752caf7698f9e773991fda674152c4bce21fb"
   config_yaml: "scripts/config.yaml"
   branch: "source"
 }

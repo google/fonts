@@ -3,6 +3,12 @@ designer: "Omnibus-Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-12-03"
+source {
+  repository_url: "https://github.com/Omnibus-Type/Saira"
+  commit: "30dd1fe19abde40a74341f6db3f71cbc7a574a77"
+  config_yaml: "Saira/sources/config.yaml"
+}
+
 fonts {
   name: "Saira Condensed"
   style: "normal"

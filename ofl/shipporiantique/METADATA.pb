@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontdasu/ShipporiAntique"
+  commit: "5653d23ee96e457921b2dbec7692e8e5d243e5fe"
   files {
     source_file: "fonts/ttf/ShipporiAntique-Regular.ttf"
     dest_file: "ShipporiAntique-Regular.ttf"

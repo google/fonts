@@ -54,5 +54,6 @@ subsets: "menu"
 subsets: "telugu"
 source {
   repository_url: "https://github.com/itfoundry/hind-guntur"
+  commit: "d1f95f8d9a6013297a6a63cc54e48e3885eb5813"
 }
 primary_script: "Telu"

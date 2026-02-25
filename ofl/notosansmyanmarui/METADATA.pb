@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/myanmar"
+  commit: "856c39877008b3de4041420c9065417a5ebaf3d2"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Myanmar UI"
   style: "normal"

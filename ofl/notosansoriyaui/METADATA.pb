@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/oriya"
+  commit: "35c66b0081efc8779058e9d4134e8c0268669fc6"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Oriya UI"
   style: "normal"

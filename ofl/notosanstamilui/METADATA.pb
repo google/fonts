@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/tamil"
+  commit: "28681200e17e47def7ad3c982b9cb8225c1d2525"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Tamil UI"
   style: "normal"

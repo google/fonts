@@ -19,6 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontworks-fonts/Stick"
+  commit: "7872941e6d29cb238ea7cc8d0e1d1499d02bc482"
   files {
     source_file: "fonts/ttf/Stick-Regular.ttf"
     dest_file: "Stick-Regular.ttf"

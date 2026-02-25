@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/devanagari"
+  commit: "782d729b8111ec4850475a6d9934c8ab166257dd"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Devanagari UI"
   style: "normal"

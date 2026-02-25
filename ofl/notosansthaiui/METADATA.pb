@@ -3,6 +3,12 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/thai"
+  commit: "fe7c82a2e55c38c5296d6415ba07015ef490970a"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "Noto Sans Thai UI"
   style: "normal"

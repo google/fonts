@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/JapanYoshi/Orelega"
+  repository_url: "https://gitlab.com/haleyhalcyon/orelega"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

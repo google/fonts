@@ -31,21 +31,22 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/bghryct/RedHatMono"
-  commit: "a0f2a7032143500e44dfd569d09ba30414d51a1c"
+  repository_url: "https://github.com/RedHatOfficial/RedHatFont"
+  commit: "32287097803f6c58136b60bc7a4a594a7fcbd689"
+  config_yaml: "source/Mono/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/variable/RedHatMono[wght].ttf"
+    source_file: "fonts/Mono/variable/RedHatMono[wght].ttf"
     dest_file: "RedHatMono[wght].ttf"
   }
   files {
-    source_file: "fonts/variable/RedHatMono-Italic[wght].ttf"
+    source_file: "fonts/Mono/variable/RedHatMono-Italic[wght].ttf"
     dest_file: "RedHatMono-Italic[wght].ttf"
   }
-  branch: "main"
+  branch: "master"
 }
 
 classifications: "MONOSPACE"

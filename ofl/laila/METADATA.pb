@@ -54,6 +54,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/itfoundry/laila"
+  commit: "a8b5b4ee6cf52508cc0d4f606d4ec0ae4994953a"
 }
 primary_script: "Deva"
 stroke: "SERIF"

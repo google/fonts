@@ -3,6 +3,11 @@ designer: "Constanza Artigas"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/inika"
+  commit: "bccbe87bf5a91ebb43d149cd786cdabde71c8e52"
+}
+
 fonts {
   name: "Inika"
   style: "normal"

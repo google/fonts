@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-23"
+source {
+  repository_url: "https://github.com/librefonts/ribeye"
+  commit: "7e2218960fda32ada67a7390b1328be0437568d1"
+}
+
 fonts {
   name: "Ribeye"
   style: "normal"

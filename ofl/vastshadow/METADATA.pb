@@ -3,6 +3,11 @@ designer: "Nicole Fally"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-10-12"
+source {
+  repository_url: "https://github.com/librefonts/vastshadow"
+  commit: "0e9e6b004ece98b089ee65709ecc0239db77651e"
+}
+
 fonts {
   name: "Vast Shadow"
   style: "normal"

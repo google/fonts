@@ -3,6 +3,11 @@ designer: "j. \'mach\' wust"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2010-12-07"
+source {
+  repository_url: "https://github.com/librefonts/unifrakturcook"
+  commit: "5a2b4fcd2247f9be154386782b624f9aa80e4b37"
+}
+
 fonts {
   name: "UnifrakturCook"
   style: "normal"

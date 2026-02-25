@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-07-30"
+source {
+  repository_url: "https://github.com/librefonts/cantoraone"
+  commit: "45d202afe1668a05e0afd870e124d72c2b82143c"
+}
+
 fonts {
   name: "Cantora One"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Tharique Azeez"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/enathu/pavanam"
+  commit: "c4ba9335116a4ff2c124ebf918455748caedccac"
+}
+
 fonts {
   name: "Pavanam"
   style: "normal"

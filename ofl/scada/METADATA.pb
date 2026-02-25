@@ -3,6 +3,11 @@ designer: "Jovanny Lemonad"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-07-30"
+source {
+  repository_url: "https://github.com/googlefonts/scada"
+  commit: "df06a155d95984d259c8492aeaaa520188a3d46b"
+}
+
 fonts {
   name: "Scada"
   style: "normal"

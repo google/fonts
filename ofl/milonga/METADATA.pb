@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-30"
+source {
+  repository_url: "https://github.com/librefonts/milonga"
+  commit: "5cbad6e6871080ea3507db062760135a22522a5e"
+}
+
 fonts {
   name: "Milonga"
   style: "normal"

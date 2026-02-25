@@ -3,6 +3,11 @@ designer: "Szymon Celej"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-22"
+source {
+  repository_url: "https://github.com/librefonts/doppioone"
+  commit: "14bdd2e78b5b8e4f5bc5a39e5f1b02d398883a99"
+}
+
 fonts {
   name: "Doppio One"
   style: "normal"

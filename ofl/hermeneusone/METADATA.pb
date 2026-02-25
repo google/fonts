@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-05-01"
+source {
+  repository_url: "https://github.com/librefonts/hermeneusone"
+  commit: "20a3262831635f7f246ec54caf68abd760f2f582"
+}
+
 fonts {
   name: "Hermeneus One"
   style: "normal"

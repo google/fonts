@@ -3,6 +3,11 @@ designer: "Open Window"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/caesardressing"
+  commit: "fb212a606bc3f65a2b3d210c88e938f6090cff15"
+}
+
 fonts {
   name: "Caesar Dressing"
   style: "normal"

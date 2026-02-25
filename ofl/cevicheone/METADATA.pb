@@ -3,6 +3,11 @@ designer: "Miguel Hernandez"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/cevicheone"
+  commit: "afec42c6e7445edd88c3f45b7a51b5da6b43b027"
+}
+
 fonts {
   name: "Ceviche One"
   style: "normal"

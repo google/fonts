@@ -3,6 +3,11 @@ designer: "Tart Workshop"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-02-15"
+source {
+  repository_url: "https://github.com/librefonts/princesssofia"
+  commit: "638c8d3408cd980244cff1f59fc6d8f43d1ba6ae"
+}
+
 fonts {
   name: "Princess Sofia"
   style: "normal"

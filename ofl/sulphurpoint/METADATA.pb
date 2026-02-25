@@ -3,6 +3,11 @@ designer: "Dale Sattler"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-09-25"
+source {
+  repository_url: "https://github.com/noponies/sulphur-point"
+  commit: "2c1a600846ca8b7890a89076aeeb2d43cdaeac23"
+}
+
 fonts {
   name: "Sulphur Point"
   style: "normal"

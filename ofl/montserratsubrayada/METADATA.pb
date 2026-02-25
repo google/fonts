@@ -3,6 +3,11 @@ designer: "Julieta Ulanovsky"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-01"
+source {
+  repository_url: "https://github.com/librefonts/montserratsubrayada"
+  commit: "c68fd7d3173155ff3cbf13e077834384e21bf1af"
+}
+
 fonts {
   name: "Montserrat Subrayada"
   style: "normal"

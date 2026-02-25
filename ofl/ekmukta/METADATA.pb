@@ -72,5 +72,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/MuktaGFVersion"
+  commit: "bccb1e2d95db0eea6be66e001edb2aeb50ab8d2b"
 }
 primary_script: "Deva"

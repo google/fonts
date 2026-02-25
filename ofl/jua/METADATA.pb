@@ -3,6 +3,11 @@ designer: "Woowahan Brothers"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-02-24"
+source {
+  repository_url: "https://github.com/baemin/Jua"
+  commit: "eee0159e73c39bd804c275ca49376994d27e4e62"
+}
+
 fonts {
   name: "Jua"
   style: "normal"

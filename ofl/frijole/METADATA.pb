@@ -3,6 +3,11 @@ designer: "Sideshow"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/frijole"
+  commit: "0e6ba6cfcc631a3db6c6d6e64e523377176e8eec"
+}
+
 fonts {
   name: "Frijole"
   style: "normal"

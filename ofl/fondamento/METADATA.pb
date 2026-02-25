@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-16"
+source {
+  repository_url: "https://github.com/librefonts/fondamento"
+  commit: "92205310620ae12fc72d8dde6033cdc46ca07101"
+}
+
 fonts {
   name: "Fondamento"
   style: "normal"

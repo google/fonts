@@ -3,6 +3,11 @@ designer: "Yvonne Schüttler"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-09-28"
+source {
+  repository_url: "https://github.com/librefonts/pollerone"
+  commit: "b96cca8de80713c5240073d6db877aaaec22e769"
+}
+
 fonts {
   name: "Poller One"
   style: "normal"

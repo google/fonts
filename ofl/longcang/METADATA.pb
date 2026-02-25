@@ -3,6 +3,11 @@ designer: "Chen Xiaomin"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2019-03-18"
+source {
+  repository_url: "https://github.com/m4rc1e/longcang"
+  commit: "37b9a6c0b6e1f07d3d2bd4fb2674050be72b98a6"
+}
+
 fonts {
   name: "Long Cang"
   style: "normal"

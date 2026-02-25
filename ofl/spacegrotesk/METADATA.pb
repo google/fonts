@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/floriankarsten/space-grotesk"
+  commit: "743ffa3f95ba5602f3924b20f076d142728f5653"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

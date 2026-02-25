@@ -3,6 +3,11 @@ designer: "Cadson Demak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/cadsondemak/pattaya"
+  commit: "fec6c7a0c8b84949dcb2a1c6dbe1ec4ba12ca0d9"
+}
+
 fonts {
   name: "Pattaya"
   style: "normal"

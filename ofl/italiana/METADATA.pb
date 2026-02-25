@@ -3,6 +3,11 @@ designer: "Santiago Orozco"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-03-14"
+source {
+  repository_url: "https://github.com/librefonts/italiana"
+  commit: "c2a993cf12d2acd8c6d145e42f350c973d8322b3"
+}
+
 fonts {
   name: "Italiana"
   style: "normal"

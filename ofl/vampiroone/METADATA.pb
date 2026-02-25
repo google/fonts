@@ -3,6 +3,11 @@ designer: "Riccardo De Franceschi"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-26"
+source {
+  repository_url: "https://github.com/librefonts/vampiroone"
+  commit: "fb379eccbcb3626eb59aec6147460a34b11033bb"
+}
+
 fonts {
   name: "Vampiro One"
   style: "normal"

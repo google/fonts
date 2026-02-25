@@ -3,6 +3,11 @@ designer: "Cyreal"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-08-17"
+source {
+  repository_url: "https://github.com/librefonts/vidaloka"
+  commit: "95c87b7173acf6dc19a13e07aaeafc56a1040aad"
+}
+
 fonts {
   name: "Vidaloka"
   style: "normal"

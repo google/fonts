@@ -3,6 +3,11 @@ designer: "Botjo Nikoltchev"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-09-30"
+source {
+  repository_url: "https://github.com/librefonts/sofadione"
+  commit: "e7c2322c43607d8f07fa45ff712a6f4f73858d10"
+}
+
 fonts {
   name: "Sofadi One"
   style: "normal"

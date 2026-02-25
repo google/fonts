@@ -3,6 +3,11 @@ designer: "Indian Type Foundry"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2014-09-03"
+source {
+  repository_url: "https://github.com/itfoundry/sarpanch"
+  commit: "265ec8e95cad31046b4e01a553ebfbfcbeee1188"
+}
+
 fonts {
   name: "Sarpanch"
   style: "normal"

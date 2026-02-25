@@ -3,6 +3,11 @@ designer: "Alejandra Rodriguez"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/montaga"
+  commit: "1c439c4e7d38e452718e8e67834c810641d1685a"
+}
+
 fonts {
   name: "Montaga"
   style: "normal"

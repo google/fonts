@@ -3,6 +3,11 @@ designer: "soytutype fonts"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-12"
+source {
+  repository_url: "https://github.com/librefonts/oleoscriptswashcaps"
+  commit: "20af3b8a16a54b1593d2edb8f523c2767bd53be0"
+}
+
 fonts {
   name: "Oleo Script Swash Caps"
   style: "normal"

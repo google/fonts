@@ -3,6 +3,11 @@ designer: "Ania Kruk"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-01-25"
+source {
+  repository_url: "https://github.com/librefonts/kottaone"
+  commit: "de1c648b4b914e1b6fbe49d44852521647f2a3a5"
+}
+
 fonts {
   name: "Kotta One"
   style: "normal"

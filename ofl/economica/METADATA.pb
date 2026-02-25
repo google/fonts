@@ -3,6 +3,11 @@ designer: "Vicente Lamónaca"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-29"
+source {
+  repository_url: "https://github.com/librefonts/economica"
+  commit: "6bf48e6858755227cdd104ee4b44e9e2e4bb197b"
+}
+
 fonts {
   name: "Economica"
   style: "normal"

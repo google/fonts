@@ -3,6 +3,11 @@ designer: "Frank Grießhammer"
 license: "OFL"
 category: "SERIF"
 date_added: "2021-11-16"
+source {
+  repository_url: "https://github.com/adobe-fonts/source-serif"
+  commit: "5f220b17d27ed64873f22cde0dd593685387bd19"
+}
+
 fonts {
   name: "Source Serif 4"
   style: "normal"

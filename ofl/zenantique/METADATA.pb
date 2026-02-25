@@ -20,6 +20,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zen-antique"
+  commit: "af987f5537d59874f18fa0797e64013eba31772a"
   files {
     source_file: "fonts/ttf/ZenAntique-Regular.ttf"
     dest_file: "ZenAntique-Regular.ttf"

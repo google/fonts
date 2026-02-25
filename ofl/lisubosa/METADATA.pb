@@ -153,6 +153,7 @@ subsets: "lisu"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-lisu-bosa"
+  commit: "95b4da9504f8ba528e001dbfb23adafa314388e3"
   archive_url: "https://github.com/silnrsi/font-lisu-bosa/releases/download/v2.000/LisuBosa-2.000.zip"
   files {
     source_file: "LisuBosa-2.000/OFL.txt"

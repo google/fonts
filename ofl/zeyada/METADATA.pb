@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-06-08"
+source {
+  repository_url: "https://github.com/librefonts/zeyada"
+  commit: "9ce5295e626d0643f13f8e42c857ae15a3605e9e"
+}
+
 fonts {
   name: "Zeyada"
   style: "normal"

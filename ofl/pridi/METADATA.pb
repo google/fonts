@@ -3,6 +3,11 @@ designer: "Cadson Demak"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/cadsondemak/pridi"
+  commit: "fe54fb681271c79ffd55ea9045145c9d1da8ade1"
+}
+
 fonts {
   name: "Pridi"
   style: "normal"

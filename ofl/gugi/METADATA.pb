@@ -3,6 +3,11 @@ designer: "TAE System & Typefaces Co."
 license: "OFL"
 category: "DISPLAY"
 date_added: "2018-02-23"
+source {
+  repository_url: "https://github.com/1020tj/Gugi"
+  commit: "7aa7f4c408a5b63e6f58a22c90eed13993f1cdae"
+}
+
 fonts {
   name: "Gugi"
   style: "normal"

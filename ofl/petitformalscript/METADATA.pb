@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-09-07"
+source {
+  repository_url: "https://github.com/librefonts/petitformalscript"
+  commit: "2273f3ca9f467ed03e36fdac4976da3c18b893e3"
+}
+
 fonts {
   name: "Petit Formal Script"
   style: "normal"

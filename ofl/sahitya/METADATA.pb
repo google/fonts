@@ -3,6 +3,11 @@ designer: "Juan Pablo del Peral"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-06-17"
+source {
+  repository_url: "https://github.com/huertatipografica/sahitya"
+  commit: "c4b5b34d0fbad63654b1d9a6bff72e566bf9a2c6"
+}
+
 fonts {
   name: "Sahitya"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-06-21"
+source {
+  repository_url: "https://github.com/librefonts/lobstertwo"
+  commit: "0f38cf2a6f0ffd8e8334fa15ad761cedf78136cc"
+}
+
 fonts {
   name: "Lobster Two"
   style: "normal"

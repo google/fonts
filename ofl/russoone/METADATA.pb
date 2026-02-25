@@ -3,6 +3,11 @@ designer: "Jovanny Lemonad"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-04-04"
+source {
+  repository_url: "https://github.com/librefonts/russoone"
+  commit: "7412cbc339987e9a438963a9af1685f4c7624e1f"
+}
+
 fonts {
   name: "Russo One"
   style: "normal"

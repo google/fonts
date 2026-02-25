@@ -3,6 +3,11 @@ designer: "Daniel Johnson"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-05-04"
+source {
+  repository_url: "https://github.com/librefonts/megrim"
+  commit: "274ef534110a60534a520038400a8db0b3abd976"
+}
+
 fonts {
   name: "Megrim"
   style: "normal"

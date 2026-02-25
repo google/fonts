@@ -3,6 +3,11 @@ designer: "FontFuror"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/magra"
+  commit: "dc47090320b21439c1a97594548890ccd86a42e3"
+}
+
 fonts {
   name: "Magra"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Gaslight"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/electrolize"
+  commit: "2450033307b2d9f771649ae84007e59eb4387d1f"
+}
+
 fonts {
   name: "Electrolize"
   style: "normal"

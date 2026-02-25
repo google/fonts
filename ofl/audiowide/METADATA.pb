@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-04-04"
+source {
+  repository_url: "https://github.com/librefonts/audiowide"
+  commit: "eccbd790f5c851314d6c4409a2058156a3186782"
+}
+
 fonts {
   name: "Audiowide"
   style: "normal"

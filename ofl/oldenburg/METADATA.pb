@@ -3,6 +3,11 @@ designer: "Nicole Fally"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/oldenburg"
+  commit: "fa5d72d1ed480c0202cb576e3ef36c965264c086"
+}
+
 fonts {
   name: "Oldenburg"
   style: "normal"

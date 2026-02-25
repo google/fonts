@@ -3,6 +3,11 @@ designer: "Dario Manuel Muhafara"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-13"
+source {
+  repository_url: "https://github.com/librefonts/balthazar"
+  commit: "baa08c6f633b0fda1a83141ce7515441c56e9868"
+}
+
 fonts {
   name: "Balthazar"
   style: "normal"

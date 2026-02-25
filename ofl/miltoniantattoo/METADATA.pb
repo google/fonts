@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-04-06"
+source {
+  repository_url: "https://github.com/impallari/Miltonian"
+  commit: "95d180e8744380f93a8437226e58032d484882c7"
+}
+
 fonts {
   name: "Miltonian Tattoo"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "KB Studio"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/Tarobish/Jomhuria"
+  commit: "d4b8f42eaf712178802609bfbe48127bd45be9c8"
+}
+
 fonts {
   name: "Jomhuria"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Rodrigo Fuenzalida, Nicolas Massi"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-10-31"
+source {
+  repository_url: "https://github.com/librefonts/pirataone"
+  commit: "85b20e082531f0f1a22b71691bad201315c1d80b"
+}
+
 fonts {
   name: "Pirata One"
   style: "normal"

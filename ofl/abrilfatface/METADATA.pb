@@ -3,6 +3,11 @@ designer: "TypeTogether"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-08-31"
+source {
+  repository_url: "https://github.com/librefonts/abrilfatface"
+  commit: "5e899bfd997c34d1c2bd43ca9f94d2d0ded6346f"
+}
+
 fonts {
   name: "Abril Fatface"
   style: "normal"

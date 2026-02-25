@@ -3,6 +3,11 @@ designer: "Nicole Fally"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-06-29"
+source {
+  repository_url: "https://github.com/librefonts/hammersmithone"
+  commit: "a5fae41a3eabe8ec4e1d8ff7b3fa6dfde5c4fa87"
+}
+
 fonts {
   name: "Hammersmith One"
   style: "normal"

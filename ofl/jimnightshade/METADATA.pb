@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-01-04"
+source {
+  repository_url: "https://github.com/librefonts/jimnightshade"
+  commit: "a04375d8b6c564c11f00a67fa5df1d7bf446527f"
+}
+
 fonts {
   name: "Jim Nightshade"
   style: "normal"

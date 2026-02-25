@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2012-09-08"
+source {
+  repository_url: "https://github.com/vernnobile/oxygenFont"
+  commit: "62db0ebe3488c936406685485071a54e3d18473b"
+}
+
 fonts {
   name: "Oxygen Mono"
   style: "normal"

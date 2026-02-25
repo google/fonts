@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-01-25"
+source {
+  repository_url: "https://github.com/librefonts/kaushanscript"
+  commit: "b1b7451878d44084faa32e3bcc5ce043f4d1acf4"
+}
+
 fonts {
   name: "Kaushan Script"
   style: "normal"

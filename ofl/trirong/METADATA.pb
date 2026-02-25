@@ -3,6 +3,11 @@ designer: "Cadson Demak"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/cadsondemak/trirong"
+  commit: "0c1ce550d14a0a719ea49fcd6992cf5e1027dc6f"
+}
+
 fonts {
   name: "Trirong"
   style: "normal"

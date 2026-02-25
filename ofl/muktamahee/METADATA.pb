@@ -3,6 +3,11 @@ designer: "Ek Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-05-19"
+source {
+  repository_url: "https://github.com/EkType/Mukta"
+  commit: "65fdb20f7d1971a27ecc96218f2f6ad2035713f7"
+}
+
 fonts {
   name: "Mukta Mahee"
   style: "normal"

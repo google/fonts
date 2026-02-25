@@ -3,6 +3,11 @@ designer: "Barry Schwartz"
 license: "OFL"
 category: "SERIF"
 date_added: "2010-05-18"
+source {
+  repository_url: "https://github.com/theleagueof/sorts-mill-goudy"
+  commit: "06072890c7b05f274215a24f17449655ccb2c8af"
+}
+
 fonts {
   name: "OFL Sorts Mill Goudy TT"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2011-03-23"
+source {
+  repository_url: "https://github.com/librefonts/novamono"
+  commit: "33c70f6f3fb14b38512b00b6bc36004a227f7fbc"
+}
+
 fonts {
   name: "Nova Mono"
   style: "normal"

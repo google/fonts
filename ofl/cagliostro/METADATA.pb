@@ -3,6 +3,11 @@ designer: "MADType"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/cagliostro"
+  commit: "5c0de59bedd45c878edfeeeb31e2105f987e7270"
+}
+
 fonts {
   name: "Cagliostro"
   style: "normal"

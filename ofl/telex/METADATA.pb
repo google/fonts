@@ -3,6 +3,11 @@ designer: "Huerta Tipográfica"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/telex"
+  commit: "6473a193e7ed94d9c7b9d7a8bdb642daa1800b30"
+}
+
 fonts {
   name: "Telex"
   style: "normal"

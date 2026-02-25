@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-11-30"
+source {
+  repository_url: "https://github.com/librefonts/grandhotel"
+  commit: "b0716771fb1056ca9db1d65d94e62ecf9dbedefa"
+}
+
 fonts {
   name: "Grand Hotel"
   style: "normal"

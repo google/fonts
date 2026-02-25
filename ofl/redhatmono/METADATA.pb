@@ -33,7 +33,6 @@ axes {
 source {
   repository_url: "https://github.com/bghryct/RedHatMono"
   commit: "a0f2a7032143500e44dfd569d09ba30414d51a1c"
-  config_yaml: "source/Mono/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

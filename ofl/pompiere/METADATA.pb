@@ -3,6 +3,11 @@ designer: "Karolina Lach"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-20"
+source {
+  repository_url: "https://github.com/librefonts/pompiere"
+  commit: "ba67f8d068ad2d656af2510eede0013bc5629af5"
+}
+
 fonts {
   name: "Pompiere"
   style: "normal"

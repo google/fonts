@@ -3,6 +3,11 @@ designer: "James Puckett"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-06-03"
+source {
+  repository_url: "https://github.com/DunwichType/RhodiumLibre"
+  commit: "c6e9dc9167fb6f4bc6fc44f2262129aaf771c8a3"
+}
+
 fonts {
   name: "Rhodium Libre"
   style: "normal"

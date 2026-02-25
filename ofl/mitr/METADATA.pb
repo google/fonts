@@ -3,6 +3,11 @@ designer: "Cadson Demak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/cadsondemak/mitr"
+  commit: "41950431d37f6410fd082760ca806eb490e4791f"
+}
+
 fonts {
   name: "Mitr"
   style: "normal"

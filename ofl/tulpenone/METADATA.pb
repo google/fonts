@@ -3,6 +3,11 @@ designer: "Naima Ben Ayed"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-08-03"
+source {
+  repository_url: "https://github.com/librefonts/tulpenone"
+  commit: "56c9f4f4d7bdd05cf7be4a8bf87012556c16a194"
+}
+
 fonts {
   name: "Tulpen One"
   style: "normal"

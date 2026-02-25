@@ -3,6 +3,11 @@ designer: "Tart Workshop"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-04"
+source {
+  repository_url: "https://github.com/librefonts/chelseamarket"
+  commit: "cb0d8b1186fc376de4d6be06a568c25362e381dd"
+}
+
 fonts {
   name: "Chelsea Market"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Cadson Demak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/cadsondemak/prompt"
+  commit: "18f813a4dea16a7ecc6f944053d3ce2cd4d7e824"
+}
+
 fonts {
   name: "Prompt"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Luciano Vergara"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-05"
+source {
+  repository_url: "https://github.com/librefonts/juliussansone"
+  commit: "8aadb0e8d6ef7f45aa2844ccd99f7e28f0cd1498"
+}
+
 fonts {
   name: "Julius Sans One"
   style: "normal"

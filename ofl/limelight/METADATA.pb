@@ -3,6 +3,11 @@ designer: "Nicole Fally, Sorkin Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-05-25"
+source {
+  repository_url: "https://github.com/librefonts/limelight"
+  commit: "f361773b306c507e22a46d18d5e661a6dac84894"
+}
+
 fonts {
   name: "Limelight"
   style: "normal"

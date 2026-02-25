@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-02-16"
+source {
+  repository_url: "https://github.com/librefonts/sixcaps"
+  commit: "090b40cca40756b375e1959046b0f9cde3fdb20c"
+}
+
 fonts {
   name: "Six Caps"
   style: "normal"

@@ -33,6 +33,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/originaltype/kufam"
+  commit: "a2c0c9552f98295167bc33bdb9c6256dd6abdc8a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

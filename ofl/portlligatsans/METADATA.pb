@@ -3,6 +3,11 @@ designer: "Tipo"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/portlligatsans"
+  commit: "a7c9aa3dcac8b2d3e00e36dd6a5d239dce4c89bc"
+}
+
 fonts {
   name: "Port Lligat Sans"
   style: "normal"

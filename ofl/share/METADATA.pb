@@ -3,6 +3,11 @@ designer: "Carrois Apostrophe"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-08"
+source {
+  repository_url: "https://github.com/librefonts/share"
+  commit: "e0d3a5b4cc923d5bba4cf28c1a4beafa27ec3610"
+}
+
 fonts {
   name: "Share"
   style: "normal"

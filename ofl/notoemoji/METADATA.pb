@@ -21,6 +21,7 @@ axes {
 }
 source {
   repository_url: ""
+  commit: "8998f5dd683424a73e2314a8c1f1e359c19e8742"
   archive_url: "https://github.com/googlefonts/emoji-bw/releases/download/v3.000/NotoEmoji.wght.ttf.zip"
   files {
     source_file: "NotoEmoji[wght].ttf"

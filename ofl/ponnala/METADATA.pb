@@ -3,6 +3,11 @@ designer: "Appaji Ambarisha Darbha"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2014-12-10"
+source {
+  repository_url: "https://github.com/appajid/ponnala"
+  commit: "c1366dc5361da5f9dd8ed1c8864efc259a77672e"
+}
+
 fonts {
   name: "Ponnala"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Denis Masharov"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-05-25"
+source {
+  repository_url: "https://github.com/librefonts/tenorsans"
+  commit: "c17e1c5daf9cc64392810976ddc7807362c6ea50"
+}
+
 fonts {
   name: "Tenor Sans"
   style: "normal"

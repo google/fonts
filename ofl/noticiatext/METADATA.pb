@@ -3,6 +3,11 @@ designer: "JM Solé"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-02-08"
+source {
+  repository_url: "https://github.com/librefonts/noticiatext"
+  commit: "0b2f8c3e23091d37ece38d8556465879b20e2144"
+}
+
 fonts {
   name: "Noticia Text"
   style: "normal"

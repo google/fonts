@@ -3,6 +3,11 @@ designer: "Viktoriya Grabowska"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-11-02"
+source {
+  repository_url: "https://github.com/librefonts/fjordone"
+  commit: "90b0be2c47a5acd683621f38ce4f046f741abafb"
+}
+
 fonts {
   name: "Fjord One"
   style: "normal"

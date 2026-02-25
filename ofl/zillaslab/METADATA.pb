@@ -3,6 +3,11 @@ designer: "Typotheque"
 license: "OFL"
 category: "SERIF"
 date_added: "2017-06-28"
+source {
+  repository_url: "https://github.com/mozilla/zilla-slab"
+  commit: "6dcec520f9b23ad7f380b7ce3e8072be95fe0004"
+}
+
 fonts {
   name: "Zilla Slab"
   style: "normal"

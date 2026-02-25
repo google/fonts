@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/originalsurfer"
+  commit: "4e502dc3abb283e05a8e61a691778e3223504373"
+}
+
 fonts {
   name: "Original Surfer"
   style: "normal"

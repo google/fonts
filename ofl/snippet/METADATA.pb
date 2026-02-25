@@ -3,6 +3,11 @@ designer: "Gesine Todt"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-07-20"
+source {
+  repository_url: "https://github.com/librefonts/snippet"
+  commit: "19787b8bc0f55ee32a6bd019539f975ceeab859a"
+}
+
 fonts {
   name: "Snippet"
   style: "normal"

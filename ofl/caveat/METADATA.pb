@@ -24,6 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/caveat"
+  commit: "59745e818ef7973e11e70cb1358d0e902b56c5fc"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -3,6 +3,11 @@ designer: "Black Foundry"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2017-05-09"
+source {
+  repository_url: "https://github.com/BlackFoundryCom/Atma"
+  commit: "f805a3068057f9422e57427b4538c7d168684c7a"
+}
+
 fonts {
   name: "Atma"
   style: "normal"

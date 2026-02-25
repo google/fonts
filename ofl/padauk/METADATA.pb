@@ -27,6 +27,7 @@ subsets: "menu"
 subsets: "myanmar"
 source {
   repository_url: "https://github.com/silnrsi/font-padauk"
+  commit: "28a16720977ad466ef1d269a695680153701fc48"
   archive_url: "https://github.com/silnrsi/font-padauk/releases/download/v5.001/Padauk-5.001.zip"
   files {
     source_file: "Padauk-5.001/OFL.txt"

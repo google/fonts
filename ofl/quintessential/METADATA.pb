@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-11-02"
+source {
+  repository_url: "https://github.com/librefonts/quintessential"
+  commit: "a3d26ff9183382b8379f368b41b07eb52f1bd193"
+}
+
 fonts {
   name: "Quintessential"
   style: "normal"

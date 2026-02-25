@@ -28,6 +28,7 @@ subsets: "tai-viet"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/silnrsi/font-taiheritagepro"
+  commit: "823721575626224fd25c1d045cf48f02304c0638"
   archive_url: "https://github.com/silnrsi/font-taiheritagepro/releases/download/v2.600/TaiHeritagePro-2.600.zip"
   files {
     source_file: "TaiHeritagePro-2.600/OFL.txt"

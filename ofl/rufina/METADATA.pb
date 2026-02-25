@@ -3,6 +3,11 @@ designer: "Martin Sommaruga"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-10-31"
+source {
+  repository_url: "https://github.com/librefonts/rufina"
+  commit: "e993d49a85089878d3d4af5846a1debf37479048"
+}
+
 fonts {
   name: "Rufina"
   style: "normal"

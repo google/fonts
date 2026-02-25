@@ -3,6 +3,11 @@ designer: "Julia Petretta"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2013-06-05"
+source {
+  repository_url: "https://github.com/librefonts/lilyscriptone"
+  commit: "10a933fbd582e5641b79d8b99247367c603fc83d"
+}
+
 fonts {
   name: "Lily Script One"
   style: "normal"

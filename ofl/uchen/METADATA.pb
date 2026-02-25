@@ -3,6 +3,11 @@ designer: "Christopher J. Fynn"
 license: "OFL"
 category: "SERIF"
 date_added: "2019-12-07"
+source {
+  repository_url: "https://github.com/m4rc1e/Uchen"
+  commit: "1d33185c62d53fdcb0854bd800f803127917b22e"
+}
+
 fonts {
   name: "Uchen"
   style: "normal"

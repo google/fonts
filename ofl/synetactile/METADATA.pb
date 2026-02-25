@@ -3,6 +3,11 @@ designer: "Bonjour Monde, Lucas Descroix"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2020-08-25"
+source {
+  repository_url: "https://gitlab.com/RosaWagner/syne-typeface"
+  commit: "e536e8f1a8724bf282da74bbae410f91231ce94c"
+}
+
 fonts {
   name: "Syne Tactile"
   style: "normal"

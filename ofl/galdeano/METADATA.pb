@@ -3,6 +3,11 @@ designer: "Dario Manuel Muhafara"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/galdeano"
+  commit: "0325c647c669479930cc9126131a78ca5b942db9"
+}
+
 fonts {
   name: "Galdeano"
   style: "normal"

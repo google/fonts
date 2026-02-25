@@ -3,6 +3,11 @@ designer: "Carolina Giovagnoli"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-06-17"
+source {
+  repository_url: "https://github.com/huertatipografica/sura"
+  commit: "d20d15fe0de4a84a9d3a944f87e9c35d4c9da612"
+}
+
 fonts {
   name: "Sura"
   style: "normal"

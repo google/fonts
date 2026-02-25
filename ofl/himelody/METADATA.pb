@@ -3,6 +3,11 @@ designer: "YoonDesign Inc"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2018-02-23"
+source {
+  repository_url: "https://github.com/yoondesign/Yoonfont-HiMelody"
+  commit: "4feb2315457c615527775b455d119e9f3b8c8863"
+}
+
 fonts {
   name: "Hi Melody"
   style: "normal"

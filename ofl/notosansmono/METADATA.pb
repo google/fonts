@@ -32,6 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
+  commit: "22328ea1ab03320d5519445fb74fd5659eebcb81"
   archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSansMono-v2.014/NotoSansMono-v2.014.zip"
   files {
     source_file: "ARTICLE.en_us.html"

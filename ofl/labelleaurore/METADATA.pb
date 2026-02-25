@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-06-08"
+source {
+  repository_url: "https://github.com/librefonts/labelleaurore"
+  commit: "e285d8a62fafbf5acea45252d95abfe532eaaa5c"
+}
+
 fonts {
   name: "La Belle Aurore"
   style: "normal"

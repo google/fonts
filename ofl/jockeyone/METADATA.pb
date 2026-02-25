@@ -3,6 +3,11 @@ designer: "TypeTogether"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-10-26"
+source {
+  repository_url: "https://github.com/librefonts/jockeyone"
+  commit: "71261c6f0c80fb7269df32e4aa396669a038030f"
+}
+
 fonts {
   name: "Jockey One"
   style: "normal"

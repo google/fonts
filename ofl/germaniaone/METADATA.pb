@@ -3,6 +3,11 @@ designer: "John Vargas Beltrán"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/germaniaone"
+  commit: "73d401d495adf37b1af75a5dca9cb5cdb046b05d"
+}
+
 fonts {
   name: "Germania One"
   style: "normal"

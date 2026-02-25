@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/herrvonmuellerhoff"
+  commit: "f49091c92a6bd343b44b78c2ab2ef2531bc850c5"
+}
+
 fonts {
   name: "Herr Von Muellerhoff"
   style: "normal"

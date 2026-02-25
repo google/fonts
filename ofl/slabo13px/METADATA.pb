@@ -3,6 +3,11 @@ designer: "John Hudson"
 license: "OFL"
 category: "SERIF"
 date_added: "2014-05-30"
+source {
+  repository_url: "https://github.com/TiroTypeworks/Slabo"
+  commit: "21420697b49ec12ab3fd182a71ffe7c9d804f156"
+}
+
 fonts {
   name: "Slabo 13px"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Riccardo De Franceschi"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-06-29"
+source {
+  repository_url: "https://github.com/librefonts/goblinone"
+  commit: "446c2b743e1eda33533ad624c543cfd623eb7c90"
+}
+
 fonts {
   name: "Goblin One"
   style: "normal"

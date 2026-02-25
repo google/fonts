@@ -3,6 +3,11 @@ designer: "Sorkin Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-13"
+source {
+  repository_url: "https://github.com/librefonts/plaster"
+  commit: "4d95d1ef8aba4492bf7731a7b3f803223c4a9256"
+}
+
 fonts {
   name: "Plaster"
   style: "normal"

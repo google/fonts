@@ -3,6 +3,11 @@ designer: "Elena Albertoni"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-09-28"
+source {
+  repository_url: "https://github.com/librefonts/spinnaker"
+  commit: "5b1962f1a186b15bcdc22ffbc280501ceeba0e1a"
+}
+
 fonts {
   name: "Spinnaker"
   style: "normal"

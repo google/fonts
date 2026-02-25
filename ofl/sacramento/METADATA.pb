@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-11-01"
+source {
+  repository_url: "https://github.com/librefonts/sacramento"
+  commit: "33eab434527f20075760783a26c620c94c0fd330"
+}
+
 fonts {
   name: "Sacramento"
   style: "normal"

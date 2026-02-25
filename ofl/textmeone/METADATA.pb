@@ -3,6 +3,11 @@ designer: "Julia Petretta"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-31"
+source {
+  repository_url: "https://github.com/librefonts/textmeone"
+  commit: "7a9f2f6b83227bcde958506985c19b441d4abbfb"
+}
+
 fonts {
   name: "Text Me One"
   style: "normal"

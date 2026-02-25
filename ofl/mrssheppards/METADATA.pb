@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/mrssheppards"
+  commit: "2763583e16fc5029c24a074469ec9a59db7925d1"
+}
+
 fonts {
   name: "Mrs Sheppards"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-11"
+source {
+  repository_url: "https://github.com/librefonts/risque"
+  commit: "646a8b2ef302a6457624f41d90275dcc4e13ea03"
+}
+
 fonts {
   name: "Risque"
   style: "normal"

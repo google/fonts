@@ -3,6 +3,11 @@ designer: "soytutype fonts"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-03-29"
+source {
+  repository_url: "https://github.com/librefonts/oleoscript"
+  commit: "b3d7cd5981dd70c47f18872e8242a21a44c646d8"
+}
+
 fonts {
   name: "Oleo Script"
   style: "normal"

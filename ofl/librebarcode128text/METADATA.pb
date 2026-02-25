@@ -16,6 +16,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/graphicore/librebarcode"
+  commit: "f9864c42b2c467f255659c8851c124e4cd56c67a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

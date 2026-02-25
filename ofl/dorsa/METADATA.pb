@@ -3,6 +3,11 @@ designer: "Santiago Orozco"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-31"
+source {
+  repository_url: "https://github.com/librefonts/dorsa"
+  commit: "90d5bffc5b005be8d3f7728ccb9aae3deaae1c23"
+}
+
 fonts {
   name: "Dorsa"
   style: "normal"

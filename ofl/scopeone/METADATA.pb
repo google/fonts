@@ -3,6 +3,11 @@ designer: "Dalton Maag"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/daltonmaag/scope-one"
+  commit: "7a5c5df7367bdba124c4dcf8f59b15912811c3c4"
+}
+
 fonts {
   name: "Scope One"
   style: "normal"

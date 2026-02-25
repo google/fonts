@@ -3,6 +3,11 @@ designer: "Appaji Ambarisha Darbha"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2014-12-10"
+source {
+  repository_url: "https://github.com/appajid/tenaliramakrishna"
+  commit: "444587c444ccb531e9b383b787cbdbcb424a476c"
+}
+
 fonts {
   name: "Tenali Ramakrishna"
   style: "normal"

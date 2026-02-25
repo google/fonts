@@ -3,6 +3,11 @@ designer: "Gary Lonergan"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-11-26"
+source {
+  repository_url: "https://github.com/librefonts/donegalone"
+  commit: "b0af18fd94255bfdfe07e90db984167564abd565"
+}
+
 fonts {
   name: "Donegal One"
   style: "normal"

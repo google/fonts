@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-11-03"
+source {
+  repository_url: "https://github.com/librefonts/stalemate"
+  commit: "420a5f6e61da2f0fc463cc828e1e0c732905c252"
+}
+
 fonts {
   name: "Stalemate"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "MADType"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-03"
+source {
+  repository_url: "https://github.com/librefonts/abel"
+  commit: "adf2c7e74ecde8ca41959c0d974f039789fe7b9d"
+}
+
 fonts {
   name: "Abel"
   style: "normal"

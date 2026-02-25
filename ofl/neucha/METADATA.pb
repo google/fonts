@@ -3,6 +3,11 @@ designer: "Jovanny Lemonad"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2010-09-21"
+source {
+  repository_url: "https://github.com/librefonts/neucha"
+  commit: "ca98f5496e7ba31e9bc85b39b0f82f8bf511adb9"
+}
+
 fonts {
   name: "Neucha"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Nicole Fally"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-08-03"
+source {
+  repository_url: "https://github.com/librefonts/stoke"
+  commit: "87dc604c9b7d5774220ab066e91c7a98ba13ebab"
+}
+
 fonts {
   name: "Stoke"
   style: "normal"

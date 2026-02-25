@@ -3,6 +3,11 @@ designer: "Rodrigo Fuenzalida, Pablo Impallari"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-09-07"
+source {
+  repository_url: "https://github.com/librefonts/poetsenone"
+  commit: "913b2134eca85b4291977bf6bd24848da3c290d6"
+}
+
 fonts {
   name: "Poetsen One"
   style: "normal"

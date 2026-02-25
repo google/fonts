@@ -3,6 +3,11 @@ designer: "Johan Kallas, Mihkel Virkus"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-03-14"
+source {
+  repository_url: "https://github.com/librefonts/revalia"
+  commit: "ec90cd3e14c343278fef659eb8379981c25f1a29"
+}
+
 fonts {
   name: "Revalia"
   style: "normal"

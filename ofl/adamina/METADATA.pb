@@ -14,6 +14,7 @@ fonts {
 }
 source {
   repository_url: "github.com/cyrealtype/Adamina"
+  commit: "719bd2a68700963ef0870bc707c77bc2b915dc7a"
 }
 subsets: "latin"
 subsets: "menu"

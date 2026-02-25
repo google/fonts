@@ -3,6 +3,11 @@ designer: "MADType"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-17"
+source {
+  repository_url: "https://github.com/librefonts/aldrich"
+  commit: "ec28a1d125f17139f1a0685025dc43a775bed76f"
+}
+
 fonts {
   name: "Aldrich"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Cyreal"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-09-07"
+source {
+  repository_url: "https://github.com/librefonts/prata"
+  commit: "af9ee6b989552cf9963f140d79ece29c7868430f"
+}
+
 fonts {
   name: "Prata"
   style: "normal"

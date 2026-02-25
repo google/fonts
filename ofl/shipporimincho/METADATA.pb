@@ -54,6 +54,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontdasu/ShipporiMincho"
+  commit: "63431fee6c2cfea772325d6251d2935b7cfa7c6d"
   files {
     source_file: "fonts/ttf/ShipporiMincho-Regular.ttf"
     dest_file: "ShipporiMincho-Regular.ttf"

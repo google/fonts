@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/piedra"
+  commit: "c57c996640b0c3c82bea988cabea188e6d21b225"
+}
+
 fonts {
   name: "Piedra"
   style: "normal"

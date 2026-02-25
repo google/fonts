@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-23"
+source {
+  repository_url: "https://github.com/librefonts/novaflat"
+  commit: "0079428df91b7951d6ad73ba1fa9fa7ca3b28f01"
+}
+
 fonts {
   name: "Nova Flat"
   style: "normal"

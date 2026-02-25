@@ -3,6 +3,11 @@ designer: "MADType"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/quantico"
+  commit: "20283887f77a78d7092c60f28393dd5bddc578ef"
+}
+
 fonts {
   name: "Quantico"
   style: "normal"

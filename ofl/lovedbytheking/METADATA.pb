@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-07-06"
+source {
+  repository_url: "https://github.com/librefonts/lovedbytheking"
+  commit: "d22be35555328ba7c5a7255b875f08dd420e6cdd"
+}
+
 fonts {
   name: "Loved by the King"
   style: "normal"

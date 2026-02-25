@@ -3,6 +3,11 @@ designer: "Cyreal"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-04-29"
+source {
+  repository_url: "https://github.com/cyrealtype/Sumana"
+  commit: "68c5ce43ae96268ac93ee3b79c720c7f479c5ee1"
+}
+
 fonts {
   name: "Sumana"
   style: "normal"

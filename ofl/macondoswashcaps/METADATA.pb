@@ -3,6 +3,11 @@ designer: "John Vargas Beltrán"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/macondoswashcaps"
+  commit: "2768d9b33c7d703085314fcd8c823ad1a8b02edb"
+}
+
 fonts {
   name: "Macondo Swash Caps"
   style: "normal"

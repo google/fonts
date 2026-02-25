@@ -3,6 +3,11 @@ designer: "Mark Simonson"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2010-12-15"
+source {
+  repository_url: "https://github.com/fontmgr/AnonymousPro"
+  commit: "de345fb4214f487b804a2c44aba59e30f866519b"
+}
+
 fonts {
   name: "Anonymous Pro"
   style: "normal"

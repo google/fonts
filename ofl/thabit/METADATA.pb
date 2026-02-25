@@ -3,6 +3,11 @@ designer: "Khaled Hosny"
 license: "OFL"
 category: "SERIF"
 date_added: "2010-09-21"
+source {
+  repository_url: "https://github.com/librefonts/thabit"
+  commit: "0dc6154e9b997389666ace6f88dc682b2080672b"
+}
+
 fonts {
   name: "Thabit"
   style: "normal"

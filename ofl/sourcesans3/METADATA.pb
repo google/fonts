@@ -3,6 +3,11 @@ designer: "Paul D. Hunt"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-09-17"
+source {
+  repository_url: "https://github.com/adobe-fonts/source-sans"
+  commit: "87b37a2daaed80fcb8e8ccb0085c4d72ddade12e"
+}
+
 fonts {
   name: "Source Sans 3"
   style: "normal"

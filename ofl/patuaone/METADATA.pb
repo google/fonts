@@ -3,6 +3,11 @@ designer: "LatinoType"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/patuaone"
+  commit: "3acaeb66ed5dd3cea43b9daf5450478ffaacaec3"
+}
+
 fonts {
   name: "Patua One"
   style: "normal"

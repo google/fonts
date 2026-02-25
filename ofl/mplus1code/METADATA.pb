@@ -24,6 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/coz-m/MPLUS_FONTS"
+  commit: "a1268635894c5ee23dfdece570418ca07b66c3fc"
   files {
     source_file: "fonts/ttf/MPLUS1Code[wght].ttf"
     dest_file: "MPLUS1Code[wght].ttf"

@@ -3,6 +3,11 @@ designer: "Erin McLaughlin"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-06-03"
+source {
+  repository_url: "https://github.com/erinmclaughlin/Yantramanav"
+  commit: "e40db8e44292f8e320222a37d76151b4b6bbfc7e"
+}
+
 fonts {
   name: "Yantramanav"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/yesteryear"
+  commit: "0ba4e57d6c6ed894fe916a459b6fa1fef1135f62"
+}
+
 fonts {
   name: "Yesteryear"
   style: "normal"

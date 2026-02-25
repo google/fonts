@@ -3,6 +3,11 @@ designer: "Cadson Demak"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2015-07-01"
+source {
+  repository_url: "https://github.com/cadsondemak/sriracha"
+  commit: "d72bf6247be9d6697bb6e5adcc0ed82045224eb2"
+}
+
 fonts {
   name: "Sriracha"
   style: "normal"

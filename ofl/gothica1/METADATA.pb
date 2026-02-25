@@ -3,6 +3,11 @@ designer: "HanYang I&C Co"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-02-24"
+source {
+  repository_url: "https://github.com/hanyangfont/Gothic"
+  commit: "599d7e34fff27a50f3e9266b753ad661d3167b91"
+}
+
 fonts {
   name: "Gothic A1"
   style: "normal"

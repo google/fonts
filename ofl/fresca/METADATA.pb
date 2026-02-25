@@ -3,6 +3,11 @@ designer: "Fontstage"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/fresca"
+  commit: "ca8ad60bad380c425ebe357ee8a3a71770a849b4"
+}
+
 fonts {
   name: "Fresca"
   style: "normal"

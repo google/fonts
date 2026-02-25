@@ -3,6 +3,11 @@ designer: "Thatcher Ulrich"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-05-09"
+source {
+  repository_url: "https://github.com/librefonts/tuffy"
+  commit: "601bb2dd42b3fe2a167621541bdb8d720f1ca589"
+}
+
 fonts {
   name: "Tuffy"
   style: "normal"

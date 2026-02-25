@@ -3,6 +3,11 @@ designer: "Cyreal"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/sirinstencil"
+  commit: "5abf2e0ddb572784b8523d81a59d76a9c3719a3f"
+}
+
 fonts {
   name: "Sirin Stencil"
   style: "normal"

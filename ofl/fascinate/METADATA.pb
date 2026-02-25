@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/fascinate"
+  commit: "afac7a8ab8c537ef1b89ef6c5ae52a81567b9935"
+}
+
 fonts {
   name: "Fascinate"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Magnus Gaarde"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/trykker"
+  commit: "16e164a05b28892a28ea978ea2ce33126569b3ec"
+}
+
 fonts {
   name: "Trykker"
   style: "normal"

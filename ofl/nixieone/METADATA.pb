@@ -3,6 +3,11 @@ designer: "Jovanny Lemonad"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-06-21"
+source {
+  repository_url: "https://github.com/librefonts/nixieone"
+  commit: "14c80bdf78aae3412c98eaea215fa8a1fa2ca993"
+}
+
 fonts {
   name: "Nixie One"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Gesine Todt"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-07-20"
+source {
+  repository_url: "https://github.com/librefonts/leckerlione"
+  commit: "e3c051282f88a52b1ee0d5a1b9783f99d8b5ab3a"
+}
+
 fonts {
   name: "Leckerli One"
   style: "normal"

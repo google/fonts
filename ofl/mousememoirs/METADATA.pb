@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-11-02"
+source {
+  repository_url: "https://github.com/librefonts/mousememoirs"
+  commit: "3b796d85b91a69ae1aeb683c36cb502e8aa8c3aa"
+}
+
 fonts {
   name: "Mouse Memoirs"
   style: "normal"

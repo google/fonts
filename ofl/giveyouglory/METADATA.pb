@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-07-13"
+source {
+  repository_url: "https://github.com/librefonts/giveyouglory"
+  commit: "2787317ad77bac728fea1ca0c4ce7f0d3ba273d5"
+}
+
 fonts {
   name: "Give You Glory"
   style: "normal"

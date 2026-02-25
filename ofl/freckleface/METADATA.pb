@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-26"
+source {
+  repository_url: "https://github.com/librefonts/freckleface"
+  commit: "158b54fbb54daa103228a08cb0ea7d03c832461b"
+}
+
 fonts {
   name: "Freckle Face"
   style: "normal"

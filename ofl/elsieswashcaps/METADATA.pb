@@ -3,6 +3,11 @@ designer: "Alejandro Inler"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-12"
+source {
+  repository_url: "https://github.com/librefonts/elsieswashcaps"
+  commit: "f48faa350a1a9641bd984b6945f791914a652c65"
+}
+
 fonts {
   name: "Elsie Swash Caps"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-30"
+source {
+  repository_url: "https://github.com/librefonts/newrocker"
+  commit: "1dae287590768daa0a3fe426aaf62fb159389abe"
+}
+
 fonts {
   name: "New Rocker"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "KB Studio"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/Tarobish/Mirza"
+  commit: "afd84826f2dcec7ca6c9ab465f365bc1d151999c"
+}
+
 fonts {
   name: "Mirza"
   style: "normal"

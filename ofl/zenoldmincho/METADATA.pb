@@ -56,6 +56,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zen-oldmincho"
+  commit: "fb46620f2ffcf78debc1a20758e39271a3fb5ea6"
   files {
     source_file: "fonts/ttf/ZenOldMincho-Regular.ttf"
     dest_file: "ZenOldMincho-Regular.ttf"

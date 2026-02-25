@@ -3,6 +3,11 @@ designer: "Denis Masharov"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-06"
+source {
+  repository_url: "https://github.com/librefonts/forum"
+  commit: "e8efc0bceef3b98cf32f722bf637f3c110f68a37"
+}
+
 fonts {
   name: "Forum"
   style: "normal"

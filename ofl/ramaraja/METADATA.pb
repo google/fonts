@@ -3,6 +3,11 @@ designer: "Appaji Ambarisha Darbha"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-01-08"
+source {
+  repository_url: "https://github.com/appajid/ramaraja"
+  commit: "fc98f3e28ac1857afaeb80e1befa842f083f40f1"
+}
+
 fonts {
   name: "Ramaraja"
   style: "normal"

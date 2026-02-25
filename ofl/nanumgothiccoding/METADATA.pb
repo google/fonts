@@ -3,6 +3,11 @@ designer: "Sandoll Communication"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-05-09"
+source {
+  repository_url: "https://github.com/naver/nanumfont"
+  commit: "770142018d7b23abe48a1ff9370adeac3bbbcd0e"
+}
+
 fonts {
   name: "Nanum Gothic Coding"
   style: "normal"

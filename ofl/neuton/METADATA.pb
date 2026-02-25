@@ -3,6 +3,11 @@ designer: "Brian Zick"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-02-09"
+source {
+  repository_url: "https://github.com/librefonts/neuton"
+  commit: "87c9bc67fcb1d0599ce70dd73e05d4e1144250c6"
+}
+
 fonts {
   name: "Neuton"
   style: "normal"

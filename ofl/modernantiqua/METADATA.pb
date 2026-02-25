@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-13"
+source {
+  repository_url: "https://github.com/librefonts/modernantiqua"
+  commit: "c42b62f539566f141362d6532c793ec79055b2f4"
+}
+
 fonts {
   name: "Modern Antiqua"
   style: "normal"

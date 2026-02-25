@@ -3,6 +3,11 @@ designer: "Appaji Ambarisha Darbha"
 license: "OFL"
 category: "SERIF"
 date_added: "2014-12-10"
+source {
+  repository_url: "https://github.com/appajid/peddana"
+  commit: "717395267a5ebc69cee39b4eda415fffd39321aa"
+}
+
 fonts {
   name: "Peddana"
   style: "normal"

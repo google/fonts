@@ -3,6 +3,11 @@ designer: "Alexey Kryukov"
 license: "OFL"
 category: "SERIF"
 date_added: "2010-05-18"
+source {
+  repository_url: "https://github.com/akryukov/oldstand"
+  commit: "f379c2c4b7275f30160e7c9009124a52896af20b"
+}
+
 fonts {
   name: "Old Standard TT"
   style: "normal"

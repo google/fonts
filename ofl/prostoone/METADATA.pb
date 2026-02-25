@@ -3,6 +3,11 @@ designer: "Jovanny Lemonad, Pavel Emelyanov"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-29"
+source {
+  repository_url: "https://github.com/librefonts/prostoone"
+  commit: "995975c5820f1b28f14652774a06efea1f3d4921"
+}
+
 fonts {
   name: "Prosto One"
   style: "normal"

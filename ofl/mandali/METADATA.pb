@@ -17,5 +17,6 @@ subsets: "latin"
 subsets: "telugu"
 source {
   repository_url: "https://github.com/appajid/mandali"
+  commit: "b5d09820cc850e98417250895a11bf0605ab2510"
 }
 primary_script: "Telu"

@@ -3,6 +3,11 @@ designer: "Johan Kallas"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2010-12-15"
+source {
+  repository_url: "https://github.com/librefonts/vibur"
+  commit: "dc7fe5bda61f90bace453035d9f25408cd3762af"
+}
+
 fonts {
   name: "Vibur"
   style: "normal"

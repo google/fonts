@@ -3,6 +3,11 @@ designer: "Google"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/nyiakeng-puachue-hmong"
+  commit: "9a7be5a8b5d38ac6480c3f611f4ab7f008e2e324"
+}
+
 fonts {
   name: "Noto Serif NP Hmong"
   style: "normal"

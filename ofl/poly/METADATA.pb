@@ -3,6 +3,11 @@ designer: "Nicolás Silva"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-11-02"
+source {
+  repository_url: "https://github.com/librefonts/poly"
+  commit: "8c7055b1319cbac371757dbaa7c6a85a1b699b14"
+}
+
 fonts {
   name: "Poly"
   style: "normal"

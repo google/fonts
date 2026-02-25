@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-02"
+source {
+  repository_url: "https://github.com/librefonts/medievalsharp"
+  commit: "0bf7f34428dfca63c645b586572e85af77095d08"
+}
+
 fonts {
   name: "MedievalSharp"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Daniel Hernandez"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-10-31"
+source {
+  repository_url: "https://github.com/librefonts/sanchez"
+  commit: "1189c768c3713d20702444121977d57bf11c12de"
+}
+
 fonts {
   name: "Sanchez"
   style: "normal"

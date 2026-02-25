@@ -3,6 +3,11 @@ designer: "Omnibus-Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-04-22"
+source {
+  repository_url: "https://github.com/Omnibus-Type/PragatiNarrow"
+  commit: "829be323c427aab3669e2eb55e253573aeefb1e3"
+}
+
 fonts {
   name: "Pragati Narrow"
   style: "normal"

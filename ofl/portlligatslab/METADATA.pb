@@ -3,6 +3,11 @@ designer: "Tipo"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/portlligatslab"
+  commit: "c62d1b19b34c250ab85175b9fa7f0e52f527dbb9"
+}
+
 fonts {
   name: "Port Lligat Slab"
   style: "normal"

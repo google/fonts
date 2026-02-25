@@ -3,6 +3,11 @@ designer: "ISIA Urbino"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2010-12-20"
+source {
+  repository_url: "https://github.com/librefonts/lekton"
+  commit: "6934ec3d463ac07b94e2a96139b153a8c6321b6d"
+}
+
 fonts {
   name: "Lekton"
   style: "normal"

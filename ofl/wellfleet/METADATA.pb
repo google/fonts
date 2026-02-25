@@ -3,6 +3,11 @@ designer: "Riccardo De Franceschi"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/wellfleet"
+  commit: "0097af1a4b798e08c7ceb606c48f3d2f3b8caa31"
+}
+
 fonts {
   name: "Wellfleet"
   style: "normal"

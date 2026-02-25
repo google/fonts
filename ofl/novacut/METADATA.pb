@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-23"
+source {
+  repository_url: "https://github.com/librefonts/novacut"
+  commit: "aa17adb4fc22470e6f8e60843e7708e15bb59fbe"
+}
+
 fonts {
   name: "Nova Cut"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Omnibus-Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-12-04"
+source {
+  repository_url: "https://github.com/Omnibus-Type/Sansita"
+  commit: "168abd68a378c93d6febb46b453efd67e9ed86f2"
+}
+
 fonts {
   name: "Sansita"
   style: "normal"

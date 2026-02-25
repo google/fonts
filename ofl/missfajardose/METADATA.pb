@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/missfajardose"
+  commit: "612af6fa93fd8293b0f9d4f2ee074e1e1f67e530"
+}
+
 fonts {
   name: "Miss Fajardose"
   style: "normal"

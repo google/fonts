@@ -3,6 +3,11 @@ designer: "Omnibus-Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2019-06-12"
+source {
+  repository_url: "https://github.com/Omnibus-Type/Bahiana"
+  commit: "0efedac55f05ea7f6b277b2d63424984e53d005d"
+}
+
 fonts {
   name: "Bahianita"
   style: "normal"

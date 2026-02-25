@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontdasu/Mochiypop"
+  commit: "438f3dd27a236961a705b1363eef4130241203ae"
   files {
     source_file: "fonts/ttf/MochiyPopPOne-Regular.ttf"
     dest_file: "MochiyPopPOne-Regular.ttf"

@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/uncialantiqua"
+  commit: "0fced9713d0c1f1f85d606e2e29217691ca2efdb"
+}
+
 fonts {
   name: "Uncial Antiqua"
   style: "normal"

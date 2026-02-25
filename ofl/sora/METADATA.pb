@@ -22,4 +22,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/sora-xor/sora-font"
+  commit: "efeb79b4eff1090588196321b53bc9fea722d6f9"
 }

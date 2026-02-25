@@ -3,6 +3,11 @@ designer: "Google"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-11-19"
+source {
+  repository_url: "https://github.com/notofonts/arabic"
+  commit: "133ccaebf922ca080a7eef22998611ac3c242df9"
+}
+
 fonts {
   name: "Noto Naskh Arabic UI"
   style: "normal"

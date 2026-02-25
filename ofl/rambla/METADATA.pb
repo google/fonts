@@ -3,6 +3,11 @@ designer: "Martin Sommaruga"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-31"
+source {
+  repository_url: "https://github.com/librefonts/rambla"
+  commit: "1d2e24575ecb3208cdb1749290f1c68b7fe18794"
+}
+
 fonts {
   name: "Rambla"
   style: "normal"

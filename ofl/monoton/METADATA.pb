@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-08-24"
+source {
+  repository_url: "https://github.com/librefonts/monoton"
+  commit: "3705e1b20a3e1e2f80a1b7c8b97a0b941b083259"
+}
+
 fonts {
   name: "Monoton"
   style: "normal"

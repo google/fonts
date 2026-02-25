@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-23"
+source {
+  repository_url: "https://github.com/librefonts/novaslim"
+  commit: "feafcbc2bc2477576ee6c71a812eda28cb25f538"
+}
+
 fonts {
   name: "Nova Slim"
   style: "normal"

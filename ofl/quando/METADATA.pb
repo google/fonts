@@ -3,6 +3,11 @@ designer: "Joana Correia"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-07-10"
+source {
+  repository_url: "https://github.com/librefonts/quando"
+  commit: "328635dcbaae8f2fc4fd84c9b872e596a82bebe5"
+}
+
 fonts {
   name: "Quando"
   style: "normal"

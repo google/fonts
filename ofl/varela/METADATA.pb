@@ -3,6 +3,11 @@ designer: "Joe Prince"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-06-29"
+source {
+  repository_url: "https://github.com/librefonts/varela"
+  commit: "94c3ff4a21339f0ac03e1ac6a7afc076daff4702"
+}
+
 fonts {
   name: "Varela"
   style: "normal"

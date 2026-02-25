@@ -33,6 +33,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Truculenta"
+  commit: "ac07749ba0cdf141b5e91f83e74e6b64908aea6d"
   files {
     source_file: "fonts/variable/Truculenta[opsz,wdth,wght].ttf"
     dest_file: "Truculenta[opsz,wdth,wght].ttf"

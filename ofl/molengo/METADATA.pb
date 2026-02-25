@@ -3,6 +3,11 @@ designer: "Denis Jacquerye"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-04-19"
+source {
+  repository_url: "https://github.com/librefonts/molengo"
+  commit: "e8d05bea64a0379720920ba99a983a56925cd7a4"
+}
+
 fonts {
   name: "Molengo"
   style: "normal"

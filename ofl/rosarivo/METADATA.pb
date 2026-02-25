@@ -3,6 +3,11 @@ designer: "Pablo Ugerman"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-03-29"
+source {
+  repository_url: "https://github.com/librefonts/rosarivo"
+  commit: "d8be480a369ec9467b024a5abb5ab0bc76b8e29a"
+}
+
 fonts {
   name: "Rosarivo"
   style: "normal"

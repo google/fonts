@@ -3,6 +3,11 @@ designer: "Annet Stirling"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-26"
+source {
+  repository_url: "https://github.com/librefonts/snowburstone"
+  commit: "71635059b8ab224e3aa30099b7429e5067a184dc"
+}
+
 fonts {
   name: "Snowburst One"
   style: "normal"

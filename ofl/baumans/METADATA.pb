@@ -3,6 +3,11 @@ designer: "Cyreal"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/baumans"
+  commit: "00e0253a48feaa474db9cd5145ec21891f1d7214"
+}
+
 fonts {
   name: "Baumans"
   style: "normal"

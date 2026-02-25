@@ -16,5 +16,6 @@ subsets: "menu"
 subsets: "tamil"
 source {
   repository_url: "https://github.com/pravins/lohit"
+  commit: "cb3f884af16420cc737ba08f9b888e79a3e97a8b"
 }
 primary_script: "Taml"

@@ -175,6 +175,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/LatoGFVersion"
+  commit: "080cb69711ca050d91e9c866e58df7a73095c69a"
 }
 fallbacks {
   axis_target {

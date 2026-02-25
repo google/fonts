@@ -3,6 +3,11 @@ designer: "Michal Sahar"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/MichalSahar/Suez"
+  commit: "04af4fcca02b34b461033520fc758132f7519c49"
+}
+
 fonts {
   name: "Suez One"
   style: "normal"

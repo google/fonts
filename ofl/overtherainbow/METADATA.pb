@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-04-27"
+source {
+  repository_url: "https://github.com/librefonts/overtherainbow"
+  commit: "5d7574656d3a4f4a3a46d00b3332019d6f4124df"
+}
+
 fonts {
   name: "Over the Rainbow"
   style: "normal"

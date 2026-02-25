@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-05-11"
+source {
+  repository_url: "https://github.com/librefonts/nothingyoucoulddo"
+  commit: "545d208b5f9146f60e8b4d0c3b9aaaf94505ed9d"
+}
+
 fonts {
   name: "Nothing You Could Do"
   style: "normal"

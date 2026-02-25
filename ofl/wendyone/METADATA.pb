@@ -3,6 +3,11 @@ designer: "Alejandro Inler"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-12-05"
+source {
+  repository_url: "https://github.com/librefonts/wendyone"
+  commit: "5177ff277c95ac426e14a962f7571199b5d560ce"
+}
+
 fonts {
   name: "Wendy One"
   style: "normal"

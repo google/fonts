@@ -3,6 +3,11 @@ designer: "Fontstage"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-13"
+source {
+  repository_url: "https://github.com/librefonts/passionone"
+  commit: "d1663baf844119a8057343bc45a1d6fde3ff087a"
+}
+
 fonts {
   name: "Passion One"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-07-27"
+source {
+  repository_url: "https://github.com/librefonts/tienne"
+  commit: "379165ed615235c42dcd3b7c568c098192a916f3"
+}
+
 fonts {
   name: "Tienne"
   style: "normal"

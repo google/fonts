@@ -3,6 +3,11 @@ designer: "Carrois Apostrophe"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2012-10-31"
+source {
+  repository_url: "https://github.com/librefonts/sharetechmono"
+  commit: "c96ef928916e3a1ce2ec2e70d751e68c7de232c3"
+}
+
 fonts {
   name: "Share Tech Mono"
   style: "normal"

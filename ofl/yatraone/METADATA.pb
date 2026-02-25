@@ -3,6 +3,11 @@ designer: "Catherine Leigh Schmidt"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/cathschmidt/yatra-one"
+  commit: "b991e49f275db52a5b59ee959c87d0f7ba5325f5"
+}
+
 fonts {
   name: "Yatra One"
   style: "normal"

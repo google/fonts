@@ -47,5 +47,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/undercasetype/Fraunces"
+  commit: "7ccdec31c6028118dce3e47fe864e3744460371d"
 }
 minisite_url: "https://fraunces.undercase.xyz"

@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-02-02"
+source {
+  repository_url: "https://github.com/librefonts/meddon"
+  commit: "0317f7b9df068bfbcdb958aa49887232c62d3541"
+}
+
 fonts {
   name: "Meddon"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Jasper de Waard"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/jasperdewaard/Proza-Libre"
+  commit: "45ea7bb14c2301988fbda75fc27374f63e33c19c"
+}
+
 fonts {
   name: "Proza Libre"
   style: "normal"

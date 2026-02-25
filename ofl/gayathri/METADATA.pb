@@ -3,6 +3,11 @@ designer: "SMC, Binoy Dominic"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-10"
+source {
+  repository_url: "https://github.com/smc/gayathri"
+  commit: "0928d53e865a2bbc7e9a33de342b8fa132f1ae89"
+}
+
 fonts {
   name: "Gayathri"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Carolina Trebol"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-03"
+source {
+  repository_url: "https://github.com/librefonts/marvel"
+  commit: "80ed3d8114b8c8436dae8673d6cf8fd309376d57"
+}
+
 fonts {
   name: "Marvel"
   style: "normal"

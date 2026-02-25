@@ -19,6 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Kinutafontfactory/Yuji"
+  commit: "efec977b14b57c19eb85d468edcfbbad13139e67"
   files {
     source_file: "fonts/ttf/YujiSyuku-Regular.ttf"
     dest_file: "YujiSyuku-Regular.ttf"

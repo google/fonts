@@ -3,6 +3,11 @@ designer: "Patrick Wagesreiter"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-07-06"
+source {
+  repository_url: "https://github.com/librefonts/patrickhand"
+  commit: "9839a8eaca6db79d678adb1543c7cf2149d0c395"
+}
+
 fonts {
   name: "Patrick Hand"
   style: "normal"

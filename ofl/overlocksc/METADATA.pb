@@ -3,6 +3,11 @@ designer: "Dario Manuel Muhafara"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/overlocksc"
+  commit: "c2b06d6c60ba108d404c81df1765b3f1c7f33ed4"
+}
+
 fonts {
   name: "Overlock SC"
   style: "normal"

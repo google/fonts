@@ -3,6 +3,11 @@ designer: "Onur Yazıcıgil"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/durusans"
+  commit: "2895eb6c9842f80c1e01bbf9fbb6231eaef66724"
+}
+
 fonts {
   name: "Duru Sans"
   style: "normal"

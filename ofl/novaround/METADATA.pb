@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-23"
+source {
+  repository_url: "https://github.com/librefonts/novaround"
+  commit: "eedf80c86b226640d3e1ba0ad99bb01c96627b71"
+}
+
 fonts {
   name: "Nova Round"
   style: "normal"

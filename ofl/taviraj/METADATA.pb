@@ -3,6 +3,11 @@ designer: "Cadson Demak"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/cadsondemak/taviraj"
+  commit: "8bd077c195dccf3bfc4699ec6ae9c6909bdd03a5"
+}
+
 fonts {
   name: "Taviraj"
   style: "normal"

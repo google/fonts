@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/theleagueof/goudy-bookletter-1911"
+  commit: "85ff5b834b4f63feb36fd2053949c19660580e48"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

@@ -3,6 +3,11 @@ designer: "Ana Paula Megda"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/lusitana"
+  commit: "8fa070c2ac2963f13feee142e2001777ac48e774"
+}
+
 fonts {
   name: "Lusitana"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Black Foundry"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/BlackFoundryCom/Galada"
+  commit: "ee2fe5b461b2af0ade8952a7d4150958689433b4"
+}
+
 fonts {
   name: "Galada"
   style: "normal"

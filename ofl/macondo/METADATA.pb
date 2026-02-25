@@ -3,6 +3,11 @@ designer: "John Vargas Beltrán"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/macondo"
+  commit: "00c3eaaae24d702bce976a1766c31b8fc015f08a"
+}
+
 fonts {
   name: "Macondo"
   style: "normal"

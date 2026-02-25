@@ -3,6 +3,11 @@ designer: "Agustina Mingote"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/gudea"
+  commit: "0eb36c75099c39430192adf41887965fdc51e819"
+}
+
 fonts {
   name: "Gudea"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-04-14"
+source {
+  repository_url: "https://github.com/librefonts/sueellenfrancisco"
+  commit: "7f3d3aeceea557208064e34e5556d71813bc83a8"
+}
+
 fonts {
   name: "Sue Ellen Francisco"
   style: "normal"

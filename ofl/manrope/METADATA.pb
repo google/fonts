@@ -26,4 +26,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/sharanda/manrope"
+  commit: "f521bf8a764ebc8d6b0c1ac6d1df75503441eba5"
 }

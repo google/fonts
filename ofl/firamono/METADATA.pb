@@ -40,4 +40,5 @@ subsets: "menu"
 subsets: "symbols2"
 source {
   repository_url: "https://github.com/googlefonts/FiraGFVersion"
+  commit: "a7d6892325d5b7382e426bea13bd3ef2c32bd53e"
 }

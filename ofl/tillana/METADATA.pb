@@ -3,6 +3,11 @@ designer: "Indian Type Foundry"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2015-06-03"
+source {
+  repository_url: "https://github.com/itfoundry/tillana"
+  commit: "7fccbe20b93ad8bcb3c7d7bee3afec03799bf5f6"
+}
+
 fonts {
   name: "Tillana"
   style: "normal"

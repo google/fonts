@@ -3,6 +3,11 @@ designer: "Neapolitan"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-29"
+source {
+  repository_url: "https://github.com/librefonts/seaweedscript"
+  commit: "b06c45cb710f594212275aeb3cdcff72bc9d8a3c"
+}
+
 fonts {
   name: "Seaweed Script"
   style: "normal"

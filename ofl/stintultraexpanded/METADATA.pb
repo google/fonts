@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-02-15"
+source {
+  repository_url: "https://github.com/librefonts/stintultraexpanded"
+  commit: "e87914dbcb18887c0b9bb75af74f947d7f59c462"
+}
+
 fonts {
   name: "Stint Ultra Expanded"
   style: "normal"

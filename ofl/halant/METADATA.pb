@@ -3,6 +3,11 @@ designer: "Indian Type Foundry"
 license: "OFL"
 category: "SERIF"
 date_added: "2014-08-27"
+source {
+  repository_url: "https://github.com/itfoundry/halant"
+  commit: "5991cb7b8f338a3676e349dd6f3bb3358467cb69"
+}
+
 fonts {
   name: "Halant"
   style: "normal"

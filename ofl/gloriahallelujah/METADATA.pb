@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-07-27"
+source {
+  repository_url: "https://github.com/librefonts/gloriahallelujah"
+  commit: "1fd8b2f0f0dd8fe36f738733df0f869676b958e4"
+}
+
 fonts {
   name: "Gloria Hallelujah"
   style: "normal"

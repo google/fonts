@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-16"
+source {
+  repository_url: "https://github.com/librefonts/margarine"
+  commit: "c6126521f50b0be64bbc44cd287f71eb706127a1"
+}
+
 fonts {
   name: "Margarine"
   style: "normal"

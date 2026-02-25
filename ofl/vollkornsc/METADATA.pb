@@ -47,4 +47,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/FAlthausen/Vollkorn-Typeface"
+  commit: "3c1909a419a13eaf222cf9324b2c6d5be080c47e"
 }

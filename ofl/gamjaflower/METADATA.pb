@@ -3,6 +3,11 @@ designer: "YoonDesign Inc"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2018-02-23"
+source {
+  repository_url: "https://github.com/yoondesign/yoonfont-Gamjaflower"
+  commit: "c31c8953af3fc0dca946e82e5196c9dacfe7a3b3"
+}
+
 fonts {
   name: "Gamja Flower"
   style: "normal"

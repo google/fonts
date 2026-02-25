@@ -3,6 +3,11 @@ designer: "Pria Ravichandran"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-01-28"
+source {
+  repository_url: "https://github.com/VanillaandCream/Palanquin"
+  commit: "f912925eccf9b020425a6f0ddc2ce32fc1640695"
+}
+
 fonts {
   name: "Palanquin Dark"
   style: "normal"

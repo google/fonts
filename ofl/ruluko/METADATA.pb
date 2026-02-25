@@ -3,6 +3,11 @@ designer: "Ana Sanfelippo, Angélica Díaz, Meme Hernández"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/ruluko"
+  commit: "8884fc6b4a575b88f48f91235caa1e89de838d18"
+}
+
 fonts {
   name: "Ruluko"
   style: "normal"

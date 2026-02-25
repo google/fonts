@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Omnibus-Type/ArchivoBlack"
+  commit: "95df3c54d818473a3e362f30ae3059bd85b80036"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

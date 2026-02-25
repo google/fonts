@@ -3,6 +3,11 @@ designer: "Joana Correia"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-02-29"
+source {
+  repository_url: "https://github.com/librefonts/cantataone"
+  commit: "947c3dd6e969867a02166335a27c48c0a7f9123d"
+}
+
 fonts {
   name: "Cantata One"
   style: "normal"

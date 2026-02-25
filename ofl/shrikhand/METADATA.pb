@@ -3,6 +3,11 @@ designer: "Jonny Pinhorn"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/jonpinhorn/shrikhand"
+  commit: "c11c9b0720fba977fad7cb4f339ebacdba1d1394"
+}
+
 fonts {
   name: "Shrikhand"
   style: "normal"

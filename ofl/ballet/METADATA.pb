@@ -27,6 +27,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Ballet"
+  commit: "bd239d606894c2139ad997b60d2141bee7856817"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

@@ -3,6 +3,11 @@ designer: "Brownfox"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-04-04"
+source {
+  repository_url: "https://github.com/librefonts/simonetta"
+  commit: "8afd4cc47149233f1f51fb0eb0463da3310c852d"
+}
+
 fonts {
   name: "Simonetta"
   style: "normal"

@@ -25,4 +25,5 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/vernnobile/coustardFont"
+  commit: "5f54d232ff52d0d43bad509357f03c5ddbdf51fc"
 }

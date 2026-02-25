@@ -3,6 +3,11 @@ designer: "Joe Prince"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-15"
+source {
+  repository_url: "https://github.com/librefonts/squadaone"
+  commit: "0d7356a48aedf23d1a71562f57586ae22b6eaed9"
+}
+
 fonts {
   name: "Squada One"
   style: "normal"

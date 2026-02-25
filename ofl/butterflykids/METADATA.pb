@@ -3,6 +3,11 @@ designer: "Tart Workshop"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-02-15"
+source {
+  repository_url: "https://github.com/librefonts/butterflykids"
+  commit: "0c553b23416ad40db0b241d1d0b9165d890933b7"
+}
+
 fonts {
   name: "Butterfly Kids"
   style: "normal"

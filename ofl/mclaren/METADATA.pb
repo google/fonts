@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-08-13"
+source {
+  repository_url: "https://github.com/librefonts/mclaren"
+  commit: "7031b7bdfd833221535738903fe1ea50f1772436"
+}
+
 fonts {
   name: "McLaren"
   style: "normal"

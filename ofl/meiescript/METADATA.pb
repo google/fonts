@@ -3,6 +3,11 @@ designer: "Johan Kallas, Mihkel Virkus"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-08-21"
+source {
+  repository_url: "https://github.com/librefonts/meiescript"
+  commit: "5b8265c5fea4aedc3d90da6e6b2e5bc47fb2bb22"
+}
+
 fonts {
   name: "Meie Script"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-04-14"
+source {
+  repository_url: "https://github.com/librefonts/novasquare"
+  commit: "86d7d2eb056b9570622e665e20fb3b40f41010cf"
+}
+
 fonts {
   name: "Nova Square"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-23"
+source {
+  repository_url: "https://github.com/librefonts/novaoval"
+  commit: "ae9beab7121fa7eae3d0021d4a65009f35f82ce4"
+}
+
 fonts {
   name: "Nova Oval"
   style: "normal"

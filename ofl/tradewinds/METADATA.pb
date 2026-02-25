@@ -3,6 +3,11 @@ designer: "Sideshow"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/tradewinds"
+  commit: "385f930242631998b5eb3a403a66635220637379"
+}
+
 fonts {
   name: "Trade Winds"
   style: "normal"

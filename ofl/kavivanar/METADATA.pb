@@ -3,6 +3,11 @@ designer: "Tharique Azeez"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/enathu/kavivanar"
+  commit: "689a10bac6313880ae05b86aea2ad91979c9880d"
+}
+
 fonts {
   name: "Kavivanar"
   style: "normal"

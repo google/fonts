@@ -3,6 +3,11 @@ designer: "Peter Hull"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2011-03-02"
+source {
+  repository_url: "https://github.com/librefonts/vt323"
+  commit: "e9ed326c115ac98a705b3b28af28ada8d9f0e55b"
+}
+
 fonts {
   name: "VT323"
   style: "normal"

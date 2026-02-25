@@ -3,6 +3,11 @@ designer: "LatinoType"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/sofia"
+  commit: "c4143904b722675c6de1eca4eea93930115c0c70"
+}
+
 fonts {
   name: "Sofia"
   style: "normal"

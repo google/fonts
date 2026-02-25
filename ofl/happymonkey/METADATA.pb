@@ -3,6 +3,11 @@ designer: "Brenda Gallo"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-03-14"
+source {
+  repository_url: "https://github.com/librefonts/happymonkey"
+  commit: "5e49a946fe2459a69afa0ea0dfd501280cb61183"
+}
+
 fonts {
   name: "Happy Monkey"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Pooja Saxena"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/anexasajoop/farsan"
+  commit: "c9b4cee129f5844cfedc850d3d68cf2b518f3a6d"
+}
+
 fonts {
   name: "Farsan"
   style: "normal"

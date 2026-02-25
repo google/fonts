@@ -3,6 +3,11 @@ designer: "Appaji Ambarisha Darbha"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-01-12"
+source {
+  repository_url: "https://github.com/appajid/timmana"
+  commit: "6ed6823a73b42a541885d12a7df389d3112a9380"
+}
+
 fonts {
   name: "Timmana"
   style: "normal"

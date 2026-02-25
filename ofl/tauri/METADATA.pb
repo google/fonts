@@ -3,6 +3,11 @@ designer: "Yvonne Schüttler"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-02-27"
+source {
+  repository_url: "https://github.com/librefonts/tauri"
+  commit: "b7c1ba25bdf24e9d48da1d181517ee06de19a078"
+}
+
 fonts {
   name: "Tauri"
   style: "normal"

@@ -56,6 +56,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zen-marugothic"
+  commit: "decae11c15a25910ded2a06a9d27ee01c4addc76"
   files {
     source_file: "fonts/ttf/ZenMaruGothic-Light.ttf"
     dest_file: "ZenMaruGothic-Light.ttf"

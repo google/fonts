@@ -3,6 +3,11 @@ designer: "Daniel Johnson"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-05-04"
+source {
+  repository_url: "https://github.com/librefonts/judson"
+  commit: "a80a2aecb86b334586bc8b956ddf8b1bf61e144b"
+}
+
 fonts {
   name: "Judson"
   style: "normal"

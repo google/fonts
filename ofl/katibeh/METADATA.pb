@@ -3,6 +3,11 @@ designer: "KB Studio"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/Tarobish/Katibeh"
+  commit: "3fde990dc2f1648d63b7fe2841902d268529c1c2"
+}
+
 fonts {
   name: "Katibeh"
   style: "normal"

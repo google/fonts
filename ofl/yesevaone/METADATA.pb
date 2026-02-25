@@ -3,6 +3,11 @@ designer: "Jovanny Lemonad"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-13"
+source {
+  repository_url: "https://github.com/librefonts/yesevaone"
+  commit: "ceced74ba83977e878eab6dea2b8da4646f1d69f"
+}
+
 fonts {
   name: "Yeseva One"
   style: "normal"

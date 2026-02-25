@@ -3,6 +3,11 @@ designer: "Cyreal"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-08-17"
+source {
+  repository_url: "https://github.com/librefonts/volkhov"
+  commit: "fd04ad7b12f7f83c4e698c4421277d660c449747"
+}
+
 fonts {
   name: "Volkhov"
   style: "normal"

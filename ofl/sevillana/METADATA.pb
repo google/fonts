@@ -3,6 +3,11 @@ designer: "Brownfox"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-22"
+source {
+  repository_url: "https://github.com/librefonts/sevillana"
+  commit: "8925a7e0eb3ce5a310ed15355392dfa7192ecf04"
+}
+
 fonts {
   name: "Sevillana"
   style: "normal"

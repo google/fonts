@@ -3,6 +3,11 @@ designer: "Julia Petretta"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2010-12-15"
+source {
+  repository_url: "https://github.com/librefonts/kenia"
+  commit: "4be05dd2d21b883d109fdfffca5c1311b17451c6"
+}
+
 fonts {
   name: "Kenia"
   style: "normal"

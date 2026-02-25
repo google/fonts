@@ -3,6 +3,11 @@ designer: "Barry Schwartz"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-09-07"
+source {
+  repository_url: "https://github.com/librefonts/sortsmillgoudy"
+  commit: "7d88aef11f42fe8935a06c1c4fc73e8bedae7fac"
+}
+
 fonts {
   name: "Sorts Mill Goudy"
   style: "normal"

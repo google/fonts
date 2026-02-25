@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-11-12"
+source {
+  repository_url: "https://github.com/librefonts/mervalescript"
+  commit: "31648e2a8d9b3f059379bb37aebb50f0e0b9d465"
+}
+
 fonts {
   name: "Mervale Script"
   style: "normal"

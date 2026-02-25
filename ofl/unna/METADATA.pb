@@ -3,6 +3,11 @@ designer: "Omnibus-Type"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-07-20"
+source {
+  repository_url: "https://github.com/librefonts/unna"
+  commit: "37612d95b6a117a426261e21ec51442907de132a"
+}
+
 fonts {
   name: "Unna"
   style: "normal"

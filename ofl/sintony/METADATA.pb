@@ -3,6 +3,11 @@ designer: "Eduardo Rodriguez Tunni"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-02-27"
+source {
+  repository_url: "https://github.com/librefonts/sintony"
+  commit: "929b4f924dd5ec7783dcf12a2de72bac52181130"
+}
+
 fonts {
   name: "Sintony"
   style: "normal"

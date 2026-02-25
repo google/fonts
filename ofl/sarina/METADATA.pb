@@ -3,6 +3,11 @@ designer: "James Grieshaber"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/sarina"
+  commit: "b5e2e10a1400c70774cc909e1d4b5ef9facd5f56"
+}
+
 fonts {
   name: "Sarina"
   style: "normal"

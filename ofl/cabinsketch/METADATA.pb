@@ -25,6 +25,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/impallari/CabinSketch"
+  commit: "f74674fd7ba37fdfcdad88b58d8d3983a320a68d"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

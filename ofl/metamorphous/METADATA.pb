@@ -3,6 +3,11 @@ designer: "James Grieshaber"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/metamorphous"
+  commit: "a66876f61b0cbdc917da33bd844a71f9fa94c561"
+}
+
 fonts {
   name: "Metamorphous"
   style: "normal"

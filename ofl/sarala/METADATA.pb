@@ -3,6 +3,11 @@ designer: "Andres Torresi"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-06-17"
+source {
+  repository_url: "https://github.com/huertatipografica/sarala"
+  commit: "7779e0c9eb121b25d9fcb7c20d5b3541b3f4fc15"
+}
+
 fonts {
   name: "Sarala"
   style: "normal"

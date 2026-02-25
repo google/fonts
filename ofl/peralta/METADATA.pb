@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-07-11"
+source {
+  repository_url: "https://github.com/librefonts/peralta"
+  commit: "98365b3ab1b3b8eaa101b222d323c431dc02f1ed"
+}
+
 fonts {
   name: "Peralta"
   style: "normal"

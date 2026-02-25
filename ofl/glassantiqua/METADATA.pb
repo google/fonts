@@ -3,6 +3,11 @@ designer: "Denis Masharov"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-22"
+source {
+  repository_url: "https://github.com/librefonts/glassantiqua"
+  commit: "ccc1839b05e9827b7f3a1439d089952908cd0334"
+}
+
 fonts {
   name: "Glass Antiqua"
   style: "normal"

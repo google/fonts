@@ -3,6 +3,11 @@ designer: "John Vargas Beltrán"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-10-12"
+source {
+  repository_url: "https://github.com/librefonts/salsa"
+  commit: "19cb69b3af08453b9d47496053b78471d05f5087"
+}
+
 fonts {
   name: "Salsa"
   style: "normal"

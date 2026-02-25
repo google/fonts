@@ -3,6 +3,11 @@ designer: "Miguel Hernandez"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/sail"
+  commit: "a64dd2365b3a2a49d380427dc93d864e4796cf3d"
+}
+
 fonts {
   name: "Sail"
   style: "normal"

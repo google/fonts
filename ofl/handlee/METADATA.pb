@@ -3,6 +3,11 @@ designer: "Joe Prince"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-13"
+source {
+  repository_url: "https://github.com/librefonts/handlee"
+  commit: "d937cfc17b0389d9847b8a865060b7241af7c654"
+}
+
 fonts {
   name: "Handlee"
   style: "normal"

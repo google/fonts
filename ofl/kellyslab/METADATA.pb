@@ -3,6 +3,11 @@ designer: "Denis Masharov"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-27"
+source {
+  repository_url: "https://github.com/librefonts/kellyslab"
+  commit: "ed9a0d2df92f50275f1048edb98c04734e4b400b"
+}
+
 fonts {
   name: "Kelly Slab"
   style: "normal"

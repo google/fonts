@@ -3,6 +3,11 @@ designer: "Wojciech Kalinowski"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-23"
+source {
+  repository_url: "https://github.com/librefonts/novascript"
+  commit: "b58a53e910b4c401089e816c85f2e59cb169412f"
+}
+
 fonts {
   name: "Nova Script"
   style: "normal"

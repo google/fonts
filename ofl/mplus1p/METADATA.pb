@@ -3,6 +3,11 @@ designer: "Coji Morishita, M+ Fonts Project"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-06-12"
+source {
+  repository_url: "https://github.com/coz-m/MPLUS_FONTS"
+  commit: "8690be3625964d9992e7be4bc3e1a61a80161cc6"
+}
+
 fonts {
   name: "M PLUS 1p"
   style: "normal"

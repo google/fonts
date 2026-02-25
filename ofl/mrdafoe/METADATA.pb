@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/mrdafoe"
+  commit: "1384083e18b818fb472c24ca76e0522a6ad323e5"
+}
+
 fonts {
   name: "Mr Dafoe"
   style: "normal"

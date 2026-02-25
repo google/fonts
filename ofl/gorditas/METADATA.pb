@@ -3,6 +3,11 @@ designer: "Gustavo Dipre"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-03-14"
+source {
+  repository_url: "https://github.com/librefonts/gorditas"
+  commit: "2212c0647e87c13121e408ee446dffe924792ac1"
+}
+
 fonts {
   name: "Gorditas"
   style: "normal"

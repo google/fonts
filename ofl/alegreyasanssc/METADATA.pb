@@ -139,5 +139,6 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/huertatipografica/Alegreya-Sans"
+  commit: "e6d16c40fa641159b8b371e2a40bda0c9a3a1d43"
 }
 minisite_url: "https://huertatipografica.com/en/fonts/alegreya-sans-ht"

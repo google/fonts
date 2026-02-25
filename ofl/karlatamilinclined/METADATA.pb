@@ -3,6 +3,11 @@ designer: "Jonathan Pinhorn"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-29"
+source {
+  repository_url: "https://github.com/librefonts/karlatamilinclined"
+  commit: "53808838fe503509f1058cc770595ee52f2ebe29"
+}
+
 fonts {
   name: "Karla Tamil Inclined"
   style: "normal"

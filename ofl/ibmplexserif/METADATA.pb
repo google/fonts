@@ -137,6 +137,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/plex"
+  commit: "20f93381c40c4779f2297bb31c60fbc2992620b6"
   files {
     source_file: "LICENSE.txt"
     dest_file: "OFL.txt"

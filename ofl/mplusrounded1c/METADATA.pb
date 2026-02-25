@@ -3,6 +3,11 @@ designer: "Coji Morishita, M+ Fonts Project"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-05-17"
+source {
+  repository_url: "https://github.com/coz-m/MPLUS_FONTS"
+  commit: "eb604901d6f04b6f7f2a84b0378c58df84a9dba6"
+}
+
 fonts {
   name: "M PLUS Rounded 1c"
   style: "normal"

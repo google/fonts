@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-13"
+source {
+  repository_url: "https://github.com/librefonts/spicyrice"
+  commit: "b473fcbc76e59e92d3ea289aa446a5ebbbc6c2fa"
+}
+
 fonts {
   name: "Spicy Rice"
   style: "normal"

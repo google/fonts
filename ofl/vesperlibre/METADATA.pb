@@ -3,6 +3,11 @@ designer: "Mota Italic"
 license: "OFL"
 category: "SERIF"
 date_added: "2014-07-14"
+source {
+  repository_url: "https://github.com/motaitalic/vesper-libre"
+  commit: "b765c5a68c1786a177b46e3b3ecd766157ffe349"
+}
+
 fonts {
   name: "Vesper Libre"
   style: "normal"

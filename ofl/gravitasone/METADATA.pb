@@ -3,6 +3,11 @@ designer: "Riccardo De Franceschi"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-06-29"
+source {
+  repository_url: "https://github.com/librefonts/gravitasone"
+  commit: "c89d142ad0f695ba267d27965c26d1dd75463f20"
+}
+
 fonts {
   name: "Gravitas One"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Yvonne Schüttler"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-22"
+source {
+  repository_url: "https://github.com/librefonts/kronaone"
+  commit: "72c7f1c10ccfa67e3cc1ce0eadbca479e78c84f3"
+}
+
 fonts {
   name: "Krona One"
   style: "normal"

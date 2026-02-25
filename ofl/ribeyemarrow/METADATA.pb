@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-23"
+source {
+  repository_url: "https://github.com/librefonts/ribeyemarrow"
+  commit: "88e283db171c749e49c6c87c1dc2a8d6df322c68"
+}
+
 fonts {
   name: "Ribeye Marrow"
   style: "normal"

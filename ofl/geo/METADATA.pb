@@ -3,6 +3,11 @@ designer: "Ben Weiner"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-11-30"
+source {
+  repository_url: "https://github.com/librefonts/geo"
+  commit: "0d2a51963d3c6e52d7b8edc50a5d7b457bb1a663"
+}
+
 fonts {
   name: "Geo"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Gaslight"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-05-09"
+source {
+  repository_url: "https://github.com/librefonts/strong"
+  commit: "48efb1a171a034a835d033651664edc71cdcd1f1"
+}
+
 fonts {
   name: "Strong"
   style: "normal"

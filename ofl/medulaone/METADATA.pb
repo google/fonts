@@ -3,6 +3,11 @@ designer: "LatinoType"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/medulaone"
+  commit: "9559bbd73be136d236851c03e0050708315aef2e"
+}
+
 fonts {
   name: "Medula One"
   style: "normal"

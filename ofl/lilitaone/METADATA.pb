@@ -3,6 +3,11 @@ designer: "Juan Montoreano"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/lilitaone"
+  commit: "d77736db8dc9d73e0c32093225a38a66e42400b8"
+}
+
 fonts {
   name: "Lilita One"
   style: "normal"

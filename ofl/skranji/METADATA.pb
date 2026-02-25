@@ -3,6 +3,11 @@ designer: "Neapolitan"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-08-21"
+source {
+  repository_url: "https://github.com/librefonts/skranji"
+  commit: "48976f84158a1e6200637b253cbe74ae6f40d10e"
+}
+
 fonts {
   name: "Skranji"
   style: "normal"

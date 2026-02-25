@@ -3,6 +3,11 @@ designer: "Typomondo"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/eater"
+  commit: "91120e636b79d400473167dae30ff31a7c03b813"
+}
+
 fonts {
   name: "Eater"
   style: "normal"

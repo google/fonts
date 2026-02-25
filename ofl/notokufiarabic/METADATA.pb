@@ -25,6 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/arabic"
+  commit: "652edd9688496f88c4cf41706c892fe10f9f3c92"
   archive_url: "https://github.com/notofonts/arabic/releases/download/NotoKufiArabic-v2.109/NotoKufiArabic-v2.109.zip"
   files {
     source_file: "OFL.txt"

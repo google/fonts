@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-05-09"
+source {
+  repository_url: "https://github.com/librefonts/marcellus"
+  commit: "93dc35b5b10ccae45266e0661ae357d84dc0ec5d"
+}
+
 fonts {
   name: "Marcellus"
   style: "normal"

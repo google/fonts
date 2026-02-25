@@ -3,6 +3,11 @@ designer: "Neapolitan"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-29"
+source {
+  repository_url: "https://github.com/librefonts/emilyscandy"
+  commit: "6c0f2ad7e9b0bcc6d69bbd5896b980bf1e208074"
+}
+
 fonts {
   name: "Emilys Candy"
   style: "normal"

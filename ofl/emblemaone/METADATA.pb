@@ -3,6 +3,11 @@ designer: "Riccardo De Franceschi"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/emblemaone"
+  commit: "65d5dad63686fcfc0c7e13ba2cb3143803d96bfe"
+}
+
 fonts {
   name: "Emblema One"
   style: "normal"

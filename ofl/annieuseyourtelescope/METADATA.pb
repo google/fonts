@@ -3,6 +3,11 @@ designer: "Kimberly Geswein"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-04-14"
+source {
+  repository_url: "https://github.com/librefonts/annieuseyourtelescope"
+  commit: "0895f3f4e7336525aee1a0ce0126bb13bfc80e35"
+}
+
 fonts {
   name: "Annie Use Your Telescope"
   style: "normal"

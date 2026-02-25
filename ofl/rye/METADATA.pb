@@ -3,6 +3,11 @@ designer: "Nicole Fally"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-08-21"
+source {
+  repository_url: "https://github.com/librefonts/rye"
+  commit: "1fb4139c604aa9601ea4a10acee20bfdfc3a6078"
+}
+
 fonts {
   name: "Rye"
   style: "normal"

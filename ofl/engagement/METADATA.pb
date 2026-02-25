@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/engagement"
+  commit: "4a28e79422bbd98791c29adff6630d14f620ffd3"
+}
+
 fonts {
   name: "Engagement"
   style: "normal"

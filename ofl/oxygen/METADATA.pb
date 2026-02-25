@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-03-29"
+source {
+  repository_url: "https://github.com/librefonts/oxygen"
+  commit: "1ec8b7e2c0fe3db49ae73d0650c7dd507bb5dc2a"
+}
+
 fonts {
   name: "Oxygen"
   style: "normal"

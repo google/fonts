@@ -54,5 +54,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/itfoundry/khand"
+  commit: "e18f32894f336087b007db2f1ec950021ed97891"
 }
 primary_script: "Deva"

@@ -3,6 +3,11 @@ designer: "Birgit Pulk"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2010-12-20"
+source {
+  repository_url: "https://github.com/librefonts/kristi"
+  commit: "07ba6398e374926e2bec73518b826edd6cfddd62"
+}
+
 fonts {
   name: "Kristi"
   style: "normal"

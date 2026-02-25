@@ -3,6 +3,11 @@ designer: "Jonas Hecksher"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-05-04"
+source {
+  repository_url: "https://github.com/librefonts/play"
+  commit: "0d4e17b90b3580ff7251bd4657367e82a5152f7d"
+}
+
 fonts {
   name: "Play"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Pria Ravichandran"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-01-28"
+source {
+  repository_url: "https://github.com/librefonts/Palanquin"
+  commit: "8c3034a1af83de92ddd01c971826a1d0828141c2"
+}
+
 fonts {
   name: "Palanquin"
   style: "normal"

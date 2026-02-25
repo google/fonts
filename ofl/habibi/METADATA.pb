@@ -3,6 +3,11 @@ designer: "Magnus Gaarde"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/habibi"
+  commit: "1c3eb606631e9da373f1017f7972765a7ab32bd5"
+}
+
 fonts {
   name: "Habibi"
   style: "normal"

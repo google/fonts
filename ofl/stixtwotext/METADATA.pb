@@ -35,6 +35,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/stipub/stixfonts"
+  commit: "744a22a4dd626cd14d75728aef34fc8ad7c85db0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

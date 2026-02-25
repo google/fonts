@@ -3,6 +3,11 @@ designer: "Ben Weiner"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-11-30"
+source {
+  repository_url: "https://github.com/librefonts/puritan"
+  commit: "9f1c0e9af28e2146facffa54cd3d64341bc859ba"
+}
+
 fonts {
   name: "Puritan"
   style: "normal"

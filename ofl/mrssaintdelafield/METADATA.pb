@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/mrssaintdelafield"
+  commit: "b5a4cc726851098ae7c7a7969417dc463721ad1c"
+}
+
 fonts {
   name: "Mrs Saint Delafield"
   style: "normal"

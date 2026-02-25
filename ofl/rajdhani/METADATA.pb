@@ -3,6 +3,11 @@ designer: "Indian Type Foundry"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2014-07-09"
+source {
+  repository_url: "https://github.com/itfoundry/rajdhani"
+  commit: "86cae0e9a63279efa076915a470049dd76c044f0"
+}
+
 fonts {
   name: "Rajdhani"
   style: "normal"

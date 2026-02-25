@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-07-11"
+source {
+  repository_url: "https://github.com/librefonts/eaglelake"
+  commit: "4e2b26479cf425b115731aa69e380fd2f5fd88e5"
+}
+
 fonts {
   name: "Eagle Lake"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "CodeMan38"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-04-04"
+source {
+  repository_url: "https://github.com/codeman38/PressStart2P"
+  commit: "41826487a3d18e4e97f6e6ac166a376a79d1a7fa"
+}
+
 fonts {
   name: "Press Start 2P"
   style: "normal"

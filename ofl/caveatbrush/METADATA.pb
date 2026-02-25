@@ -17,4 +17,5 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/caveat"
+  commit: "7fb0cea12be06c90398d7a6f35eafd4118d40825"
 }

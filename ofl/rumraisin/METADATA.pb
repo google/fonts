@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-11-02"
+source {
+  repository_url: "https://github.com/librefonts/rumraisin"
+  commit: "65391c6997fd692f820a1844304fde2bd8cd93b5"
+}
+
 fonts {
   name: "Rum Raisin"
   style: "normal"

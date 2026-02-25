@@ -3,6 +3,11 @@ designer: "Johan Kallas, Mihkel Virkus"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-08"
+source {
+  repository_url: "https://github.com/librefonts/ewert"
+  commit: "21fa9ed2031b8f7f1bec75cb3f91ad495e3b2370"
+}
+
 fonts {
   name: "Ewert"
   style: "normal"

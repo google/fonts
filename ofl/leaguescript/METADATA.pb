@@ -16,6 +16,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/theleagueof/league-script-number-one"
+  commit: "225add0b37cf8268759ba4572e02630d9fb54ecf"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

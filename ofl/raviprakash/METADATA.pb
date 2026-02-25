@@ -3,6 +3,11 @@ designer: "Appaji Ambarisha Darbha"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2015-01-12"
+source {
+  repository_url: "https://github.com/appajid/raviprakash"
+  commit: "0f5d8d7f5a7d263feef811baaa16c143313f27da"
+}
+
 fonts {
   name: "Ravi Prakash"
   style: "normal"

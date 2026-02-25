@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-09-07"
+source {
+  repository_url: "https://github.com/librefonts/ranchers"
+  commit: "1255f54bc8f6e8d36dde027a6ce0f68167c10bb5"
+}
+
 fonts {
   name: "Ranchers"
   style: "normal"

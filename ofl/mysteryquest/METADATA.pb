@@ -3,6 +3,11 @@ designer: "Sideshow"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-29"
+source {
+  repository_url: "https://github.com/librefonts/mysteryquest"
+  commit: "ca10c8604aad9fe9a89fc025bb5a2fb6bea3f963"
+}
+
 fonts {
   name: "Mystery Quest"
   style: "normal"

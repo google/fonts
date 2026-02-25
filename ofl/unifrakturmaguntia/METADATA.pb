@@ -3,6 +3,11 @@ designer: "j. \'mach\' wust"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2010-11-30"
+source {
+  repository_url: "https://github.com/librefonts/unifrakturmaguntia"
+  commit: "a6c2a8d1ad287f8a32d76eab547ca1b2ff012291"
+}
+
 fonts {
   name: "UnifrakturMaguntia"
   style: "normal"

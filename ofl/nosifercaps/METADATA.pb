@@ -3,6 +3,11 @@ designer: "Typomondo"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-10-24"
+source {
+  repository_url: "https://github.com/librefonts/nosifercaps"
+  commit: "4d06a566155423ccc76fa04f2929cb17bead6050"
+}
+
 fonts {
   name: "Nosifer Caps"
   style: "normal"

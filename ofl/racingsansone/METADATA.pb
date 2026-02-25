@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-08-13"
+source {
+  repository_url: "https://github.com/librefonts/racingsansone"
+  commit: "1b2f6e6b6b39c0d8bf3e77aba3d10f6ca7bd6a9a"
+}
+
 fonts {
   name: "Racing Sans One"
   style: "normal"

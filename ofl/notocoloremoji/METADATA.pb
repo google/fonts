@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "emoji"
 source {
   repository_url: ""
+  commit: "8998f5dd683424a73e2314a8c1f1e359c19e8742"
   archive_url: "https://github.com/googlefonts/noto-emoji/archive/refs/heads/main.zip"
   files {
     source_file: "noto-emoji-main/fonts/Noto-COLRv1.ttf"

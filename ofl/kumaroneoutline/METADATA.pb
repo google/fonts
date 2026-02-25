@@ -3,6 +3,11 @@ designer: "Indian Type Foundry"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-15"
+source {
+  repository_url: "https://github.com/itfoundry/kumar"
+  commit: "3192a79a79202eb715d83fd044e9234a6d0dde66"
+}
+
 fonts {
   name: "Kumar One Outline"
   style: "normal"

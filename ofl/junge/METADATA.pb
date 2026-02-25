@@ -3,6 +3,11 @@ designer: "Cyreal"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/junge"
+  commit: "1753e7a229f48ac314ad3c54da9fcfb2d7946f75"
+}
+
 fonts {
   name: "Junge"
   style: "normal"

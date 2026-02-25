@@ -3,6 +3,11 @@ designer: "Sabrina Mariela Lopez"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/rougescript"
+  commit: "b9e3cf403ee67f8bb20ff2cba7b72cf3766585fe"
+}
+
 fonts {
   name: "Rouge Script"
   style: "normal"

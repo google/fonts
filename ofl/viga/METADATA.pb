@@ -3,6 +3,11 @@ designer: "Fontstage"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/viga"
+  commit: "4a366169738b3126241161fc3aa2c91acdd96610"
+}
+
 fonts {
   name: "Viga"
   style: "normal"

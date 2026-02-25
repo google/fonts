@@ -55,6 +55,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zen-kakugothic"
+  commit: "81443c39f8364063b747f2f1af778969d60acee8"
   files {
     source_file: "fonts/ttf/ZenKakuGothicNew-Light.ttf"
     dest_file: "ZenKakuGothicNew-Light.ttf"

@@ -3,6 +3,11 @@ designer: "Barry Schwartz"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-08-31"
+source {
+  repository_url: "https://github.com/librefonts/prociono"
+  commit: "534eef8a8759109ab3b5b800dd74f20090ffc8e3"
+}
+
 fonts {
   name: "Prociono"
   style: "normal"

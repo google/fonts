@@ -3,6 +3,11 @@ designer: "Andreu Balius"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"
+source {
+  repository_url: "https://github.com/librefonts/trochut"
+  commit: "b97aa7b727372a325a166eb1fece36426f183ac6"
+}
+
 fonts {
   name: "Trochut"
   style: "normal"

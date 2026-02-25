@@ -3,6 +3,11 @@ designer: "Mariela Monsalve, Angelina Sanchez"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/ruda"
+  commit: "9ce3030e59f53bcb73109118b8dfca71abb8c830"
+}
+
 fonts {
   name: "Ruda"
   style: "normal"

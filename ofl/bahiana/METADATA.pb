@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Omnibus-Type/Bahiana"
+  commit: "43505501149a661266ef6c7603fe0d6ddd58984e"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

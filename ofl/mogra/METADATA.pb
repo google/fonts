@@ -3,6 +3,11 @@ designer: "Lipi Raval"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2017-05-09"
+source {
+  repository_url: "https://github.com/lipiraval/mogra"
+  commit: "048039d237a99cd102ce254615cba9818c75c711"
+}
+
 fonts {
   name: "Mogra"
   style: "normal"

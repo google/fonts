@@ -3,6 +3,11 @@ designer: "Omnibus-Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-09-28"
+source {
+  repository_url: "https://github.com/librefonts/sansitaone"
+  commit: "8b77268e71cc912f04e288bb87d5617222220b93"
+}
+
 fonts {
   name: "Sansita One"
   style: "normal"

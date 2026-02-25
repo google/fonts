@@ -3,6 +3,11 @@ designer: "Joe Prince"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-08-10"
+source {
+  repository_url: "https://github.com/librefonts/geostarfill"
+  commit: "48dc43d804ebfd6743caa51e2d42d17dd34b275c"
+}
+
 fonts {
   name: "Geostar Fill"
   style: "normal"

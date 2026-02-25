@@ -3,6 +3,11 @@ designer: "Impallari Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-15"
+source {
+  repository_url: "https://github.com/librefonts/quattrocentosans"
+  commit: "b4a02541b194ba7ec9349e57570d431853de0e24"
+}
+
 fonts {
   name: "Quattrocento Sans"
   style: "normal"

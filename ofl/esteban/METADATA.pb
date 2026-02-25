@@ -3,6 +3,11 @@ designer: "Angélica Díaz"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-01-11"
+source {
+  repository_url: "https://github.com/librefonts/esteban"
+  commit: "35e274d49210b9c8a7864689b48d6156e6be6bbf"
+}
+
 fonts {
   name: "Esteban"
   style: "normal"

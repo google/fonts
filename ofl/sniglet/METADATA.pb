@@ -3,6 +3,11 @@ designer: "Multiple Designers"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2010-12-15"
+source {
+  repository_url: "https://github.com/librefonts/sniglet"
+  commit: "1b980f28c84b6ce786f7943b20fda94995b6dd9b"
+}
+
 fonts {
   name: "Sniglet"
   style: "normal"

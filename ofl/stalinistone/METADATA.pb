@@ -3,6 +3,11 @@ designer: "Alexey Maslov, Jovanny Lemonad"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-08-20"
+source {
+  repository_url: "https://github.com/librefonts/stalinistone"
+  commit: "a808b37d6a34ebfb820067ab6514212530829587"
+}
+
 fonts {
   name: "Stalinist One"
   style: "normal"

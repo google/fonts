@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-05-10"
+source {
+  repository_url: "https://github.com/librefonts/nobile"
+  commit: "4fce86c510ec44d81adf709e4d51e3b8b8cbc54f"
+}
+
 fonts {
   name: "Nobile"
   style: "normal"

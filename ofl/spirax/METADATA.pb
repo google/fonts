@@ -3,6 +3,11 @@ designer: "Brenda Gallo"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-23"
+source {
+  repository_url: "https://github.com/librefonts/spirax"
+  commit: "494ade3438f98f848695478858d0800621529107"
+}
+
 fonts {
   name: "Spirax"
   style: "normal"

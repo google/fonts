@@ -3,6 +3,11 @@ designer: "Accademia di Belle Arti di Urbino"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-01"
+source {
+  repository_url: "https://github.com/librefonts/titilliumweb"
+  commit: "92874a7368c2e87a7889c8ed3fdc9434b649874a"
+}
+
 fonts {
   name: "Titillium Web"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-08-13"
+source {
+  repository_url: "https://github.com/librefonts/oregano"
+  commit: "8973bdd377e7379c1308c111f51d1208d40c850e"
+}
+
 fonts {
   name: "Oregano"
   style: "normal"

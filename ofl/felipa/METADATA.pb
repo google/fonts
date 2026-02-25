@@ -3,6 +3,11 @@ designer: "Fontstage"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-02-08"
+source {
+  repository_url: "https://github.com/librefonts/felipa"
+  commit: "3489dd2445fc633f3b32485420d9c56998fad093"
+}
+
 fonts {
   name: "Felipa"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-25"
+source {
+  repository_url: "https://github.com/librefonts/shojumaru"
+  commit: "1593ea24dc6c2e121b49c0dc7cc6689e0d0e54c5"
+}
+
 fonts {
   name: "Shojumaru"
   style: "normal"

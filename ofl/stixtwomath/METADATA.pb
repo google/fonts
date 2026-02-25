@@ -22,6 +22,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/stipub/stixfonts"
+  commit: "36fde6a9715c9e87a5fbcb60f83487bf023ded01"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

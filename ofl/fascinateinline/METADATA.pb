@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/fascinateinline"
+  commit: "0319622bad0ad42aae026ce7b00cd2f8ef64e658"
+}
+
 fonts {
   name: "Fascinate Inline"
   style: "normal"

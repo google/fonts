@@ -3,6 +3,11 @@ designer: "Font Diner"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-03-14"
+source {
+  repository_url: "https://github.com/librefonts/jollylodger"
+  commit: "06a3c7f44fc01a8d09ed73ea8c180a11018bdac8"
+}
+
 fonts {
   name: "Jolly Lodger"
   style: "normal"

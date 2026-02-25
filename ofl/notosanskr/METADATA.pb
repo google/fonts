@@ -3,6 +3,11 @@ designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-02-05"
+source {
+  repository_url: "https://github.com/notofonts/noto-cjk"
+  commit: "f8d157532fbfaeda587e826d4cd5b21a49186f7c"
+}
+
 fonts {
   name: "Noto Sans KR"
   style: "normal"

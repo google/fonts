@@ -3,6 +3,11 @@ designer: "Jovanny Lemonad"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-17"
+source {
+  repository_url: "https://github.com/librefonts/daysone"
+  commit: "76642af05e1a7734f94e1b22abdbc37b6bfb933c"
+}
+
 fonts {
   name: "Days One"
   style: "normal"

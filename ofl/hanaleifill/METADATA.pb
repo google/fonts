@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-26"
+source {
+  repository_url: "https://github.com/librefonts/hanaleifill"
+  commit: "1df8f49232e80f4f17d8a5eb9fc55c90a3214f61"
+}
+
 fonts {
   name: "Hanalei Fill"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-06"
+source {
+  repository_url: "https://github.com/librefonts/bowlbyonesc"
+  commit: "9566646d9feaafcdc1c23174931ac4599803442b"
+}
+
 fonts {
   name: "Bowlby One SC"
   style: "normal"

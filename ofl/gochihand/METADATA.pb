@@ -3,6 +3,11 @@ designer: "Huerta Tipográfica"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-10-05"
+source {
+  repository_url: "https://github.com/librefonts/gochihand"
+  commit: "e202a9f4b7cd6f9c84440e684f0a3d0b5dd234e0"
+}
+
 fonts {
   name: "Gochi Hand"
   style: "normal"

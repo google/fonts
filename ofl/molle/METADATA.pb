@@ -3,6 +3,11 @@ designer: "Elena Albertoni"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-09-18"
+source {
+  repository_url: "https://github.com/librefonts/molle"
+  commit: "a16ec37054bc4a71ac3ad023d5e8f20914d33c3a"
+}
+
 fonts {
   name: "Molle"
   style: "italic"

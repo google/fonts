@@ -28,4 +28,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Trispace"
+  commit: "6dc2847a766a4bdb83a02d129d0184334421e5ff"
 }

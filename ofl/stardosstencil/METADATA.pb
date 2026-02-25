@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-06"
+source {
+  repository_url: "https://github.com/librefonts/stardosstencil"
+  commit: "c24d81bb0945745fb9ebb19383428c4d67f0439a"
+}
+
 fonts {
   name: "Stardos Stencil"
   style: "normal"

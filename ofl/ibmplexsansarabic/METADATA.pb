@@ -1,5 +1,5 @@
 name: "IBM Plex Sans Arabic"
-designer: "Mike Abbink, Bold Monday"
+designer: "Mike Abbink, Bold Monday, Khajag Apelian, Wael Morcos"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-06-17"

@@ -3,6 +3,11 @@ designer: "Eduardo Tunni"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-12"
+source {
+  repository_url: "https://github.com/librefonts/croissantone"
+  commit: "ebcefa6161a0558f994a038105f90f304fe91ff7"
+}
+
 fonts {
   name: "Croissant One"
   style: "normal"

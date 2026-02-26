@@ -3,6 +3,11 @@ designer: "Woowahan Brothers"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-02-24"
+source {
+  repository_url: "https://github.com/baemin/Dohyeon"
+  commit: "1d32c9fa97c9f3d349587b45fe1851ebebd89cae"
+}
+
 fonts {
   name: "Do Hyeon"
   style: "normal"

@@ -25,6 +25,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/etunni/changa-one"
+  commit: "e8d7a3159a17875eb09b35b06e78ae706d8affe9"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

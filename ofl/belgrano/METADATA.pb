@@ -3,6 +3,11 @@ designer: "LatinoType"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/belgrano"
+  commit: "9637660aa35d5ad59241a400f78d31413475bb77"
+}
+
 fonts {
   name: "Belgrano"
   style: "normal"

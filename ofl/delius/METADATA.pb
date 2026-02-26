@@ -3,6 +3,11 @@ designer: "Natalia Raices"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-07-27"
+source {
+  repository_url: "https://github.com/librefonts/delius"
+  commit: "5bd1633b6b5175d36e260f3f6d06686482d32212"
+}
+
 fonts {
   name: "Delius"
   style: "normal"

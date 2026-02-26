@@ -3,6 +3,11 @@ designer: "Ana Sanfelippo"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/almendrasc"
+  commit: "35906cd6a26df27bef8081669638fbae0382c7fc"
+}
+
 fonts {
   name: "Almendra SC"
   style: "normal"

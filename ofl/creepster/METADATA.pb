@@ -3,6 +3,11 @@ designer: "Sideshow"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/creepster"
+  commit: "f6eec0d741fd8ecba905f403d77c073f2e8be7f6"
+}
+
 fonts {
   name: "Creepster"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Gesine Todt"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-05-04"
+source {
+  repository_url: "https://github.com/librefonts/bigshotone"
+  commit: "b8d1fa459ee9a43fbe1d7fd07b570878206bd6d5"
+}
+
 fonts {
   name: "Bigshot One"
   style: "normal"

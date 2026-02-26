@@ -3,6 +3,11 @@ designer: "TypeSETit"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-13"
+source {
+  repository_url: "https://github.com/librefonts/bilboswashcaps"
+  commit: "7fb5653f339a4a574c26a8df75b6e7fac7db9280"
+}
+
 fonts {
   name: "Bilbo Swash Caps"
   style: "normal"

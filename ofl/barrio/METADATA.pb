@@ -17,4 +17,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Omnibus-Type/Barrio"
+  commit: "ced3c1e20646c75272147a8b472fa0c4e359d45a"
 }

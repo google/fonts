@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-11-11"
+source {
+  repository_url: "https://github.com/librefonts/clickerscript"
+  commit: "f8f050697a52a8e2e10009db97c1a18b0099bb6f"
+}
+
 fonts {
   name: "Clicker Script"
   style: "normal"

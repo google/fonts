@@ -43,4 +43,5 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/amaranth"
+  commit: "f4f60a57f54a04186030913a86e3e56105bbe848"
 }

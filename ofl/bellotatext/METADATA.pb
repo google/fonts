@@ -64,6 +64,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/kemie/Bellota-Font"
+  commit: "db900d27103a2e9b37b76ef32386fbf9691ecac6"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

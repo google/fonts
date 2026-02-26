@@ -3,6 +3,11 @@ designer: "Santiago Orozco"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-03-14"
+source {
+  repository_url: "https://github.com/librefonts/anticslab"
+  commit: "64168753771367673ec5efa56c747427648d9f29"
+}
+
 fonts {
   name: "Antic Slab"
   style: "normal"

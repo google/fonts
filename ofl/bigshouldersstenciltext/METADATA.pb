@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/xotypeco/big_shoulders"
+  commit: "41153e6fe01d218e933919a1d08c8e45065bc8fe"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

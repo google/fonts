@@ -44,4 +44,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/caladea"
+  commit: "336a529cfad3d103d6527752686f8331d13e820a"
 }

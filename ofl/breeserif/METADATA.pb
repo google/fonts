@@ -3,6 +3,11 @@ designer: "TypeTogether"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/breeserif"
+  commit: "86684a17aaa88ce2d9d85d77f9e9ce1f64c06462"
+}
+
 fonts {
   name: "Bree Serif"
   style: "normal"

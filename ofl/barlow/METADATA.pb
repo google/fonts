@@ -171,4 +171,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/jpt/barlow"
+  commit: "b4726ddf91525818e85e5fce111c285b9273d764"
 }

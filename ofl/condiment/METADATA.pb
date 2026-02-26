@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-01-25"
+source {
+  repository_url: "https://github.com/librefonts/condiment"
+  commit: "0a1933e09c9008136f997c47c75ddf6b00a8d884"
+}
+
 fonts {
   name: "Condiment"
   style: "normal"

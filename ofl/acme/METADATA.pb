@@ -3,6 +3,11 @@ designer: "Juan Pablo del Peral, Huerta Tipográfica"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/acme"
+  commit: "fa0a4445feb570b5cfc7ce4b8f6dbacc6ae5ad73"
+}
+
 fonts {
   name: "Acme"
   style: "normal"

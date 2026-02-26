@@ -44,6 +44,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/quoteunquoteapps/CourierPrime"
+  commit: "7fd585a2dd4c1612c79b3308e300923d1c13df93"
 }
 stroke: "SERIF"
 classifications: "MONOSPACE"

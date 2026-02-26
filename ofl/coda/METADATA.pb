@@ -26,4 +26,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/vernnobile/CodaFont"
+  commit: "41ce6c5246c919290b49dc97cc233815428636f2"
 }

@@ -27,6 +27,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/aliftype/aref-ruqaa"
+  commit: "cca3d1256a7cc75a451f38e50b870d2d5c1e3ffb"
   archive_url: "https://github.com/aliftype/aref-ruqaa/releases/download/v1.005/ArefRuqaa-1.005.zip"
   files {
     source_file: "ArefRuqaa-1.005/OFL.txt"

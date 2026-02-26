@@ -37,4 +37,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/impallari/Cabin"
+  commit: "70efa8c3179359cc50b01ca184fec8a694156140"
 }

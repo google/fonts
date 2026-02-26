@@ -3,6 +3,11 @@ designer: "JM Solé"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/alfaslabone"
+  commit: "84a903ffba3cf8248f3b1662de782e72646e00df"
+}
+
 fonts {
   name: "Alfa Slab One"
   style: "normal"

@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-16"
+source {
+  repository_url: "https://github.com/librefonts/devonshire"
+  commit: "7d88bb81c76ccd1b7d48a15ae97a00c45f9ffb01"
+}
+
 fonts {
   name: "Devonshire"
   style: "normal"

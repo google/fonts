@@ -3,6 +3,11 @@ designer: "Omnibus-Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2019-06-12"
+source {
+  repository_url: "https://github.com/Omnibus-Type/Barrio"
+  commit: "8f33bf10cb73ecf914110fd7182e543a59a70382"
+}
+
 fonts {
   name: "Barriecito"
   style: "normal"

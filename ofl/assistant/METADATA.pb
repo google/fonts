@@ -24,6 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeNetwork/Assistant"
+  commit: "2b5ffdccb0216ccbdbdc8a623f3b935fc5b5e04a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

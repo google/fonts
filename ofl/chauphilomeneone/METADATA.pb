@@ -3,6 +3,11 @@ designer: "Vicente Lamónaca"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-04-04"
+source {
+  repository_url: "https://github.com/librefonts/chauphilomeneone"
+  commit: "ac51123e5c7a33cd48b4fdf686b91922ea68c422"
+}
+
 fonts {
   name: "Chau Philomene One"
   style: "normal"

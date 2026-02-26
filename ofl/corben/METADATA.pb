@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2010-12-20"
+source {
+  repository_url: "https://github.com/librefonts/corben"
+  commit: "94d5b00e6b64f85258d17e766a1e8e6d85554adc"
+}
+
 fonts {
   name: "Corben"
   style: "normal"

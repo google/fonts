@@ -21,6 +21,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/syakuzen/DelaGothic"
+  commit: "da8b03e57a8977132b3d0358c48c8463374c74ab"
   files {
     source_file: "fonts/ttf/DelaGothicOne-Regular.ttf"
     dest_file: "DelaGothicOne-Regular.ttf"

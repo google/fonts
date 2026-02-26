@@ -72,5 +72,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/typeoff/biryani"
+  commit: "6f7831d27b7458109cd88aceba28efeda057dadb"
 }
 primary_script: "Deva"

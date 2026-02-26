@@ -17,4 +17,5 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/EbenSorkin/Basic"
+  commit: "202e65ac93bd6977e83b2f10db6b1467e0b348db"
 }

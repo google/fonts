@@ -3,6 +3,11 @@ designer: "Brenda Gallo"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-05-09"
+source {
+  repository_url: "https://github.com/librefonts/bubblerone"
+  commit: "be2343608e5751bca73956b02860a1758e1e29a7"
+}
+
 fonts {
   name: "Bubbler One"
   style: "normal"

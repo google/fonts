@@ -3,6 +3,11 @@ designer: "Nataliya Kasatkina"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-10-05"
+source {
+  repository_url: "https://github.com/librefonts/cherryswash"
+  commit: "84e28ad7cc2937ce20bac9dd6f2689cb42c6814a"
+}
+
 fonts {
   name: "Cherry Swash"
   style: "normal"

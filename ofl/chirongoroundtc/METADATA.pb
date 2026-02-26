@@ -26,6 +26,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/chiron-fonts/chiron-go-round-tc"
+  commit: "803fb2f0423d5ce9683859cdaa19942896abaf74"
+  config_yaml: "scripts/config.yaml"
   branch: "source"
 }
 primary_script: "Hant"

@@ -3,6 +3,11 @@ designer: "Anton Koovit"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-09-06"
+source {
+  repository_url: "https://github.com/librefonts/allan"
+  commit: "91202d58a376d6f9bca1234b360e977411222085"
+}
+
 fonts {
   name: "Allan"
   style: "normal"

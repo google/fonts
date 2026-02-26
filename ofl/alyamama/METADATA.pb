@@ -25,6 +25,7 @@ axes {
 source {
   repository_url: "https://github.com/Mestaratype/AlYamama"
   commit: "aecc9e395072c0e1d4cdd9dc296c0da5744f3360"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

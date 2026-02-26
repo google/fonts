@@ -33,6 +33,7 @@ fonts {
 primary_script: "Deva"
 source {
   repository_url: "https://github.com/impallari/Amiko-Devanagari"
+  commit: "069f510b21d2e839950b007f3458eeb6aed073e7"
 }
 subsets: "devanagari"
 subsets: "latin"

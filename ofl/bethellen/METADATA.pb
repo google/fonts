@@ -16,4 +16,5 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/BethEllen"
+  commit: "d6c8d9b3871c432c6abfd71660885f16ddbce3e2"
 }

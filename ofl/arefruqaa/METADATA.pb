@@ -27,5 +27,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/aliftype/aref-ruqaa"
+  commit: "175e1ed565e75aba8059675b80dadc0a184d53e6"
 }
 primary_script: "Arab"

@@ -3,6 +3,11 @@ designer: "Typomondo"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/butcherman"
+  commit: "92a34525b5032c76484c49e652f649e52d1465e5"
+}
+
 fonts {
   name: "Butcherman"
   style: "normal"

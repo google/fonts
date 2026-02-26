@@ -16,4 +16,5 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/EbenSorkin/Atomic-Age"
+  commit: "bb96b179ca5c48149011237c64781fa94817e711"
 }

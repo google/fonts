@@ -3,6 +3,11 @@ designer: "TypeTogether"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/creteround"
+  commit: "056740e1fea281c2e72adeae3d3753083b87d22c"
+}
+
 fonts {
   name: "Crete Round"
   style: "normal"

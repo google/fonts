@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "telugu"
 source {
   repository_url: "https://github.com/appajid/dhurjati"
+  commit: "a318ca871e126878f22e1e235ea9c3563b2344fc"
 }
 primary_script: "Telu"
 stroke: "SANS_SERIF"

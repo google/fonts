@@ -3,6 +3,11 @@ designer: "Ben Weiner"
 license: "OFL"
 category: "SERIF"
 date_added: "2010-11-30"
+source {
+  repository_url: "https://github.com/librefonts/bentham"
+  commit: "a89643ad524f785a73f5326e6ee901fb042fa765"
+}
+
 fonts {
   name: "Bentham"
   style: "normal"

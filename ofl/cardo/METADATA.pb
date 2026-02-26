@@ -41,4 +41,5 @@ subsets: "old-italic"
 subsets: "runic"
 source {
   repository_url: "https://github.com/googlefonts/CardoFont"
+  commit: "b2bf876b4e251ac44b343605464dad86b336b38d"
 }

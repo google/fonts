@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/aguafinascript"
+  commit: "45a8ce768b4cca138c10ff7a7a9f55778fd02c9d"
+}
+
 fonts {
   name: "Aguafina Script"
   style: "normal"

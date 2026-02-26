@@ -16,6 +16,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/allkin"
   commit: "fffaa4201dfbd887a78e3d0c79654a7ad0d155f3"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

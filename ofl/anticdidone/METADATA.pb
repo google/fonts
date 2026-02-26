@@ -3,6 +3,11 @@ designer: "Santiago Orozco"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-03-14"
+source {
+  repository_url: "https://github.com/librefonts/anticdidone"
+  commit: "604bfcda35327f03964cc6c55a281540ce40b0a0"
+}
+
 fonts {
   name: "Antic Didone"
   style: "normal"

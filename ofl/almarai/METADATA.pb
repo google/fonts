@@ -44,5 +44,6 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/JuergenWillrodt/Almarai"
+  commit: "7307ede5d42bcb5b9f905736a7c6eb04347afa3b"
 }
 primary_script: "Arab"

@@ -3,6 +3,11 @@ designer: "Fontstage"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-13"
+source {
+  repository_url: "https://github.com/librefonts/chango"
+  commit: "ca58222d6319223db35d6e76052ef9a78cca43f7"
+}
+
 fonts {
   name: "Chango"
   style: "normal"

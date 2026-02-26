@@ -3,6 +3,11 @@ designer: "Carrois Apostrophe"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-30"
+source {
+  repository_url: "https://github.com/librefonts/carroisgothic"
+  commit: "09bb67138894e329544a6a1e1ebf0ff516f82a0e"
+}
+
 fonts {
   name: "Carrois Gothic"
   style: "normal"

@@ -3,6 +3,12 @@ designer: "Aoife Mooney"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/aoifemooney/makingbiorhyme"
+  commit: "b3c0488559ad7c42e11b71e65d255344faff63b9"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
   name: "BioRhyme Expanded"
   style: "normal"

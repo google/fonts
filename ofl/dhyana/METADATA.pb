@@ -26,4 +26,5 @@ subsets: "lao"
 subsets: "latin"
 source {
   repository_url: "https://github.com/vernnobile/DhyanaFont"
+  commit: "600f15faf4489ecca60dbcecad6f163e095f2af3"
 }

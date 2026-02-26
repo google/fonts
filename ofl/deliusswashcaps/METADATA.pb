@@ -3,6 +3,11 @@ designer: "Natalia Raices"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-08-03"
+source {
+  repository_url: "https://github.com/librefonts/deliusswashcaps"
+  commit: "a18d931eb4b66533df5df07d91e0851938a96121"
+}
+
 fonts {
   name: "Delius Swash Caps"
   style: "normal"

@@ -21,4 +21,5 @@ classifications: "DISPLAY"
 
 source {
   repository_url: "https://github.com/zesstype/Black-Han-Sans"
+  commit: "8809d5944fbf6aa2cd99158cb7ab55629058348a"
 }

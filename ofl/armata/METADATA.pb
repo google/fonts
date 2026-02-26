@@ -3,6 +3,11 @@ designer: "Viktoriya Grabowska"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/armata"
+  commit: "fbbc7c2575fe310df0450aaa721ee4e860b03a0e"
+}
+
 fonts {
   name: "Armata"
   style: "normal"

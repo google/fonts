@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/chicle"
+  commit: "4ee3e89dbbdcfc0d56f7e1e3cc3d2de009219502"
+}
+
 fonts {
   name: "Chicle"
   style: "normal"

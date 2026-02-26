@@ -3,6 +3,11 @@ designer: "Vernon Adams"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-24"
+source {
+  repository_url: "https://github.com/librefonts/benchnine"
+  commit: "0b2979e19186f9b477fd3bde7ae77932933707eb"
+}
+
 fonts {
   name: "BenchNine"
   style: "normal"

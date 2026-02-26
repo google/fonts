@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/huertatipografica/betania-patmos"
   commit: "08c83ac9540b0b2bf86ddf6b632651142f31a93c"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

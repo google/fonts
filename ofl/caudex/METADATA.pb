@@ -3,6 +3,11 @@ designer: "Nidud"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-05-18"
+source {
+  repository_url: "https://github.com/librefonts/caudex"
+  commit: "901fb15160f96cb5a2b91e48a6d89d9c18c6f6d5"
+}
+
 fonts {
   name: "Caudex"
   style: "normal"

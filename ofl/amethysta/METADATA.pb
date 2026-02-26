@@ -14,6 +14,7 @@ fonts {
 }
 source {
   repository_url: "https://github.com/cyrealtype/Amethysta"
+  commit: "10ae36bc060bec28f1c504c42ce6871b7c034add"
 }
 subsets: "latin"
 subsets: "menu"

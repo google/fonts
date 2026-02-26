@@ -99,6 +99,7 @@ subsets: "menu"
 subsets: "new-tai-lue"
 source {
   repository_url: "https://github.com/silnrsi/font-daibannasil"
+  commit: "dcf3e10a5a42e65b191e4d14628f2f263f41b2bc"
   archive_url: "https://github.com/silnrsi/font-daibannasil/releases/download/v4.000/DaiBannaSIL-4.000.zip"
   files {
     source_file: "DaiBannaSIL-4.000/OFL.txt"

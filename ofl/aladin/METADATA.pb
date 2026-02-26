@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-30"
+source {
+  repository_url: "https://github.com/librefonts/aladin"
+  commit: "0f5d0578e592bfa8431072ad4f1a557fb74c165b"
+}
+
 fonts {
   name: "Aladin"
   style: "normal"

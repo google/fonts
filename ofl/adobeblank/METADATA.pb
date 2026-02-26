@@ -3,6 +3,11 @@ designer: "Dr. Ken Lunde"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2016-03-23"
+source {
+  repository_url: "https://github.com/adobe-fonts/adobe-blank"
+  commit: "19279e6f6707408fd93091d157b7836259bcbd21"
+}
+
 fonts {
   name: "Adobe Blank"
   style: "normal"

@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/festive"
-  commit: "5a37931ba2af0e7eb487e7c04f800e9006618bc7"
+  commit: "bd9351113997057606ffc2ef98ccca9f2c968eb0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

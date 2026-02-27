@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Grandstander"
-  commit: "0bf9e31d529d7a67b23510b841cb3597db0cb130"
+  commit: "33c288495d8ac7bc0b29a9f35801de1df7e6d010"
   config_yaml: "Sources/config.yaml"
 }
 minisite_url: "https://etceteratype.co/grandstander"

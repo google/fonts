@@ -25,5 +25,7 @@ axes {
   max_value: 800.0
 }
 source {
-  repository_url: "https://github.com/sharanda/manrope"
+  repository_url: "https://github.com/aaronbell/manrope"
+  commit: "6f81ebecdf65e4463b798cc07b16a4f8d5216917"
+  config_yaml: "sources/config.yaml"
 }

@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/ericaone"
+  commit: "bde7cb1ee528f936a9bae89a746742983531d9f8"
+}

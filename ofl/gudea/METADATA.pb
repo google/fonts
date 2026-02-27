@@ -33,3 +33,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/gudea"
+  commit: "0eb36c75099c39430192adf41887965fdc51e819"
+}

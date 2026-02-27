@@ -16,3 +16,7 @@ subsets: "latin"
 subsets: "menu"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/fingerpaint"
+  commit: "cb21d1208d6f0a641a348584627dc058a2f2998a"
+}

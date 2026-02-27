@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/hanalei"
+  commit: "ec0b5be2259cfe4261f530047d60de8617eabf80"
+}

@@ -14,3 +14,7 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/librefonts/giveyouglory"
+  commit: "2787317ad77bac728fea1ca0c4ce7f0d3ba273d5"
+}

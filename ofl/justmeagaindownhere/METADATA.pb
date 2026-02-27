@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/justmeagaindownhere"
+  commit: "63543cec6964e5061ece828c63948d1910e0dbdd"
+}

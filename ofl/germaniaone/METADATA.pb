@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/germaniaone"
+  commit: "73d401d495adf37b1af75a5dca9cb5cdb046b05d"
+}

@@ -16,3 +16,7 @@ subsets: "latin"
 subsets: "menu"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/crushed"
+  commit: "32870f119ec7e05ec914fbe9b99e76aaaa6ecf18"
+}

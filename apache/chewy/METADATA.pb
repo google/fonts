@@ -14,3 +14,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/librefonts/chewy"
+  commit: "7fae11600a5c13c94a0780ec22ae5309264c43d0"
+}

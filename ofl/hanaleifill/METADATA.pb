@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/hanaleifill"
+  commit: "1df8f49232e80f4f17d8a5eb9fc55c90a3214f61"
+}

@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/galdeano"
+  commit: "0325c647c669479930cc9126131a78ca5b942db9"
+}

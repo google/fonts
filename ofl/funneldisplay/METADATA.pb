@@ -32,7 +32,7 @@ source {
     dest_file: "FunnelDisplay[wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
+  config_yaml: "sources/config_display.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

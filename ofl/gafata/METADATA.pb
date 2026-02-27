@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/gafata"
+  commit: "dcd42b72333486b9704c2d3736e3c26b0346cb67"
+}

@@ -14,3 +14,7 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/librefonts/frijole"
+  commit: "0e6ba6cfcc631a3db6c6d6e64e523377176e8eec"
+}

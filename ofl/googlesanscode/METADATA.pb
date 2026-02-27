@@ -82,6 +82,7 @@ source {
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
+  config_yaml: "sources/config.yaml"
   }
   files {
     source_file: "variable/GoogleSansCode[wght].ttf"

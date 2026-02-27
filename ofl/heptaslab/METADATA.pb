@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/mjlagattuta/Hepta-Slab"
+  commit: "4401d23f516b412f1b8472fe705b37b8712b2ecd"
   files {
     source_file: "fonts/variable/HeptaSlab[wght].ttf"
     dest_file: "HeptaSlab[wght].ttf"

@@ -34,3 +34,7 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/librefonts/judson"
+  commit: "a80a2aecb86b334586bc8b956ddf8b1bf61e144b"
+}

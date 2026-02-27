@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/happymonkey"
+  commit: "5e49a946fe2459a69afa0ea0dfd501280cb61183"
+}

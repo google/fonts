@@ -14,3 +14,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/librefonts/comingsoon"
+  commit: "27c886594addb8deb44976ee37f829f2c8253a9d"
+}

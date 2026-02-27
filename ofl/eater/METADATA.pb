@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/eater"
+  commit: "91120e636b79d400473167dae30ff31a7c03b813"
+}

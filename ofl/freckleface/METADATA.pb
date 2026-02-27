@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/freckleface"
+  commit: "158b54fbb54daa103228a08cb0ea7d03c832461b"
+}

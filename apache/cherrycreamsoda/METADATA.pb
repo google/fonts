@@ -14,3 +14,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/librefonts/cherrycreamsoda"
+  commit: "d378933eaf1dcc111ad2599e41014cb15fbd3788"
+}

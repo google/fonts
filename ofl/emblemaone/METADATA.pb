@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/emblemaone"
+  commit: "65d5dad63686fcfc0c7e13ba2cb3143803d96bfe"
+}

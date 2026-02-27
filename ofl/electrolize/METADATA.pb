@@ -16,3 +16,7 @@ subsets: "menu"
 subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/electrolize"
+  commit: "2450033307b2d9f771649ae84007e59eb4387d1f"
+}

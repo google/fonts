@@ -73,6 +73,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/plex"
+  commit: "0f91126e49779170e7b2d18614f9d89a1855659b"
   files {
     source_file: "LICENSE.txt"
     dest_file: "OFL.txt"

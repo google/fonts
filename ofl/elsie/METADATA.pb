@@ -25,7 +25,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/googlefonts/elsiefont (404)"
+  repository_url: "https://github.com/librefonts/elsie"
+  commit: "9734e9ff1331292fc07ec198d4e5b35216fdd425"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

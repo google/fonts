@@ -25,3 +25,7 @@ subsets: "menu"
 subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/geo"
+  commit: "0d2a51963d3c6e52d7b8edc50a5d7b457bb1a663"
+}

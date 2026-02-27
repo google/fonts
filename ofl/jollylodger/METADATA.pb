@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/jollylodger"
+  commit: "06a3c7f44fc01a8d09ed73ea8c180a11018bdac8"
+}

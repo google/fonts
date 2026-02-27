@@ -14,3 +14,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/librefonts/calligraffitti"
+  commit: "983f7f33e1a63da6369e2f626ba9166ab7468fb9"
+}

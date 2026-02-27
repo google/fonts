@@ -54,5 +54,6 @@ subsets: "menu"
 subsets: "tamil"
 source {
   repository_url: "https://github.com/itfoundry/hind-madurai"
+  commit: "3f3bd222489daea4dfec65d5de86012ed4819b5b"
 }
 primary_script: "Taml"

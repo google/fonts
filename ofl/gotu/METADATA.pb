@@ -18,3 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 primary_script: "Deva"
+source {
+  repository_url: "https://github.com/EkType/Gotu"
+  commit: "c02f2e586ef16daf60d2ed11fd0fd85c1aa5e403"
+}

@@ -34,7 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/alumni"
-  commit: "28754a9295db605d4e4ffc7bf60b4a8301eef9ab"
+  commit: "44a7998fa2bfa1b3e119983cdc565dd7f0f03bda"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

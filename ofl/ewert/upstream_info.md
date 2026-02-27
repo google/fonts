@@ -61,16 +61,7 @@ The font was originally created in February 2012 and released as version 1.001.
 4. `883939708` -- Remove METADATA.json files
 5. `06331b24` (2021-03-22) -- Ewert: Multiple designers fixed (#3228) by Rosalie Wagner
 6. Various language support and classification batch updates
-7. No source block has been added to main yet
-
-### Pending Source Block
-A source block was prepared on branch `sources_info_2026-02-25` (commit `9a14639f3`) but has not been merged to main:
-```
-source {
-  repository_url: "https://github.com/librefonts/ewert"
-  commit: "21fa9ed2031b8f7f1bec75cb3f91ad495e3b2370"
-}
-```
+7. `df925b959` (2026-02-27) -- Ewert: add source block to METADATA.pb (also added upstream_info.md)
 
 ## Commit Hash Verification
 

@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/fenix"
+  commit: "b5107c124ba8762eeaccd00b73a7302897d4367e"
+}

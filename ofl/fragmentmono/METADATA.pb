@@ -28,7 +28,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/weiweihuanghuang/fragment-mono"
-  commit: "177a79b53ae0c8f02e56a8671c29c57144f609e9"
+  commit: "3ff027831f9a8b5820b35e251e5914d5a3f5fac4"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

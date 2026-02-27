@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/hammersmithone"
+  commit: "a5fae41a3eabe8ec4e1d8ff7b3fa6dfde5c4fa87"
+}

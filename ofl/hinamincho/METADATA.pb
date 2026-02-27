@@ -20,6 +20,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/satsuyako/Hina-Mincho"
+  commit: "7642eb499ceef47074cb344a4800a537bce19c60"
   files {
     source_file: "fonts/ttf/HinaMincho-Regular.ttf"
     dest_file: "HinaMincho-Regular.ttf"

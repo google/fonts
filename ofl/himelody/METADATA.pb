@@ -18,3 +18,7 @@ subsets: "menu"
 primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/yoondesign/Yoonfont-HiMelody"
+  commit: "4feb2315457c615527775b455d119e9f3b8c8863"
+}

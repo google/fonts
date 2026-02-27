@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/fascinate"
+  commit: "afac7a8ab8c537ef1b89ef6c5ae52a81567b9935"
+}

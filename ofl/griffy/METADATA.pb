@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/griffy"
+  commit: "eed85949102ab5baa1a8ca8d6b24239709a76bab"
+}

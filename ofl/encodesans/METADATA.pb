@@ -28,4 +28,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/thundernixon/Encode-Sans"
+  commit: "6407de854a4dc3bfbe2160a11c5b57f5a1baf3bc"
 }

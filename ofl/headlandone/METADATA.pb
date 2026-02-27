@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/headlandone"
+  commit: "c5193604253d9cf325e43b44e88045a503b53cbf"
+}

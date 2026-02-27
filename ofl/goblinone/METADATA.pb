@@ -16,3 +16,7 @@ subsets: "menu"
 subsets: "latin"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/goblinone"
+  commit: "446c2b743e1eda33533ad624c543cfd623eb7c90"
+}

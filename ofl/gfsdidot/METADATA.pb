@@ -17,3 +17,7 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/librefonts/gfsdidot"
+  commit: "ce7a216e8765803eee73b284275975d323e2396c"
+}

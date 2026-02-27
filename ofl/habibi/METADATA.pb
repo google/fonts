@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/habibi"
+  commit: "1c3eb606631e9da373f1017f7972765a7ab32bd5"
+}

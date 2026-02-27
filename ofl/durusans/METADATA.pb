@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/durusans"
+  commit: "2895eb6c9842f80c1e01bbf9fbb6231eaef66724"
+}

@@ -12,6 +12,8 @@ fonts {
   full_name: "Climate Crisis Regular"
   copyright: "Copyright 2020 The Climate Crisis Project Authors (https://github.com/dancoull/ClimateCrisis)"
 }
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -26,7 +28,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/dancoull/ClimateCrisis"
-  commit: "abb2058c737b353e2b32ece0bc6c229bf7f6858b"
+  commit: "8e3882135dddeb43f582ae88f337589dbba625f4"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

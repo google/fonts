@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/glassantiqua"
+  commit: "ccc1839b05e9827b7f3a1439d089952908cd0334"
+}

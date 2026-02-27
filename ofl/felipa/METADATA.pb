@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/felipa"
+  commit: "3489dd2445fc633f3b32485420d9c56998fad093"
+}

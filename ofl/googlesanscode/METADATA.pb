@@ -79,10 +79,10 @@ source {
   repository_url: "https://github.com/googlefonts/googlesans-code"
   commit: "edcd56e39fb7e98d6f1b697e187c144cef2fd994"
   archive_url: "https://github.com/googlefonts/googlesans-code/releases/download/v6.001/GoogleSansCode-v6.001.zip"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
-  config_yaml: "sources/config.yaml"
   }
   files {
     source_file: "variable/GoogleSansCode[wght].ttf"

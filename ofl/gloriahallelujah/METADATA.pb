@@ -16,3 +16,7 @@ subsets: "menu"
 subsets: "latin"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/gloriahallelujah"
+  commit: "1fd8b2f0f0dd8fe36f738733df0f869676b958e4"
+}

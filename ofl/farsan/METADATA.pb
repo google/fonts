@@ -20,3 +20,7 @@ subsets: "vietnamese"
 primary_script: "Gujr"
 stroke: "SANS_SERIF"
 classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/anexasajoop/farsan"
+  commit: "c9b4cee129f5844cfedc850d3d68cf2b518f3a6d"
+}

@@ -26,3 +26,7 @@ subsets: "latin"
 subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/fondamento"
+  commit: "92205310620ae12fc72d8dde6033cdc46ca07101"
+}

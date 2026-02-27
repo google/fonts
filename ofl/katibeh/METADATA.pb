@@ -19,3 +19,7 @@ subsets: "menu"
 primary_script: "Arab"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/Tarobish/Katibeh"
+  commit: "3fde990dc2f1648d63b7fe2841902d268529c1c2"
+}

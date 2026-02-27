@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/galindo"
+  commit: "dc5fea52318d56672b1e3f000851806c8b5bd2cc"
+}

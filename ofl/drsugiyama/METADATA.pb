@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/drsugiyama"
+  commit: "11d194b70af6df309a24c9395f64280172839879"
+}

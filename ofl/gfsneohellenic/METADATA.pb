@@ -44,3 +44,7 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/librefonts/gfsneohellenic"
+  commit: "76fc8bb657ac989832180f3b6dea778862059532"
+}

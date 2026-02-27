@@ -16,3 +16,7 @@ subsets: "menu"
 subsets: "latin"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/geostar"
+  commit: "ca481fdb49204442916697e3d7b1cf6fda792b77"
+}

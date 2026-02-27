@@ -30,21 +30,22 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/bghryct/RedHatDisplay"
-  commit: "fd36df3a3ad95084fe777597ed4b5c19961b3631"
+  repository_url: "https://github.com/RedHatOfficial/RedHatFont"
+  commit: "32287097803f6c58136b60bc7a4a594a7fcbd689"
+  config_yaml: "source/Proportional/RedHatDisplay/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/variable/RedHatDisplay[wght].ttf"
+    source_file: "fonts/Proportional/RedHatDisplay/variable/RedHatDisplay[wght].ttf"
     dest_file: "RedHatDisplay[wght].ttf"
   }
   files {
-    source_file: "fonts/variable/RedHatDisplay-Italic[wght].ttf"
+    source_file: "fonts/Proportional/RedHatDisplay/variable/RedHatDisplay-Italic[wght].ttf"
     dest_file: "RedHatDisplay-Italic[wght].ttf"
   }
-  branch: "main"
+  branch: "master"
 }
 
 stroke: "SANS_SERIF"

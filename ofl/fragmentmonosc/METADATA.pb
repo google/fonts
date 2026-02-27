@@ -28,7 +28,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/weiweihuanghuang/fragment-mono"
-  commit: "177a79b53ae0c8f02e56a8671c29c57144f609e9"
+  commit: "766d60703081ca3581e17764b36e8487c7ba6225"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -42,7 +42,6 @@ source {
     dest_file: "FragmentMonoSC-Italic.ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

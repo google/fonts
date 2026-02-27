@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/esteban"
+  commit: "35e274d49210b9c8a7864689b48d6156e6be6bbf"
+}

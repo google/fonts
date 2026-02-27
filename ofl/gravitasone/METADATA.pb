@@ -16,3 +16,7 @@ subsets: "menu"
 subsets: "latin"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/gravitasone"
+  commit: "c89d142ad0f695ba267d27965c26d1dd75463f20"
+}

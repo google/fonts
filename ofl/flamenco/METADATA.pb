@@ -23,3 +23,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/librefonts/flamenco"
+  commit: "908f93e92b13062e172153d04b96a9301ca1c7c5"
+}

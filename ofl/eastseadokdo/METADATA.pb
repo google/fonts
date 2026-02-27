@@ -18,3 +18,7 @@ subsets: "menu"
 primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/yoondesign/Yoonfont-KoreaDokdo"
+  commit: "1bc4d9ec41e5159a839e58a349fa2e88799e93bc"
+}

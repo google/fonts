@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/jockeyone"
+  commit: "71261c6f0c80fb7269df32e4aa396669a038030f"
+}

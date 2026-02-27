@@ -18,3 +18,7 @@ subsets: "menu"
 primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/1020tj/Gugi"
+  commit: "7aa7f4c408a5b63e6f58a22c90eed13993f1cdae"
+}

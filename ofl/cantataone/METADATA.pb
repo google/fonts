@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/cantataone"
+  commit: "947c3dd6e969867a02166335a27c48c0a7f9123d"
+}

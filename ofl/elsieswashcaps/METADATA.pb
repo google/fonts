@@ -26,3 +26,7 @@ subsets: "latin-ext"
 subsets: "menu"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/elsieswashcaps"
+  commit: "f48faa350a1a9641bd984b6945f791914a652c65"
+}

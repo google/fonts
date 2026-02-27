@@ -14,3 +14,7 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/librefonts/cedarvillecursive"
+  commit: "cd212b0e2dc2364a3012ef43a3b9155c7ed0d352"
+}

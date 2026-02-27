@@ -16,3 +16,7 @@ subsets: "menu"
 subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/dorsa"
+  commit: "90d5bffc5b005be8d3f7728ccb9aae3deaae1c23"
+}

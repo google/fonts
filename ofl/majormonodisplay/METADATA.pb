@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/majormono"
-  commit: "fae0bb9c728fe082097baedaf23604e290ddac16"
+  commit: "ab4221e332ee158b314406b4ca01246290a9168b"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

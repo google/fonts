@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/BornaIz/markazitext"
-  commit: "a876c4f0111b96f407741a877e79f207e9117338"
+  commit: "51bb67cce0bb3609f8318077ab0f74b93d365007"
   config_yaml: "sources/config.yaml"
 }
 primary_script: "Arab"

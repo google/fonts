@@ -15,4 +15,9 @@ fonts {
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/m4rc1e/longcang"
+  commit: "37b9a6c0b6e1f07d3d2bd4fb2674050be72b98a6"
+  branch: "master"
+}
 primary_script: "Hans"

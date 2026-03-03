@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/docrepair-fonts/lugrasimo-fonts"
-  commit: "18103084964ae884ad65dc31115dbc650b164a1a"
+  commit: "40395a6877a6bcdfe74deb2a7e355c0a4c7228e7"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

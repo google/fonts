@@ -384,7 +384,7 @@ Aladin,,/Quality/Spacing,60
 Aladin,,/Quality/Wordspace,90
 Aladin,,/Theme/Art Nouveau,70
 Alan Sans,,/Expressive/Business,80
-Alan Sans,,/Expressive/Calm,71
+Alan Sans,,/Expressive/Calm,50
 Alan Sans,,/Expressive/Competent,76
 Alan Sans,,/Expressive/Cute,10
 Alan Sans,,/Expressive/Futuristic,10
@@ -425,7 +425,7 @@ Alatsi,,/Quality/Spacing,90
 Alatsi,,/Quality/Wordspace,90
 Alatsi,,/Sans/Geometric,70
 Alatsi,,/Sans/Humanist,20
-Alatsi,,/Expressive/Calm,50
+Alatsi,,/Expressive/Calm,65
 Albert Sans,,/Expressive/Business,80
 Albert Sans,,/Expressive/Calm,85
 Albert Sans,,/Expressive/Happy,10
@@ -883,7 +883,7 @@ Amethysta,,/Quality/Wordspace,40
 Amethysta,,/Serif/Old Style Garalde,70
 Amethysta,,/Serif/Transitional,20
 Amiko,,/Expressive/Business,70
-Amiko,,/Expressive/Calm,96
+Amiko,,/Expressive/Calm,90
 Amiko,,/Expressive/Loud,40
 Amiko,,/Expressive/Rugged,30
 Amiko,,/Expressive/Sincere,40
@@ -1793,6 +1793,7 @@ Autour One,,/Quality/Wordspace,70
 Autour One,,/Script/Handwritten,100
 Autour One,,/Seasonal/Valentine's Day,66
 Autour One,,/Theme/Wacky,30
+Autour One,,/Expressive/Calm,10
 Average Sans,,/Expressive/Business,52
 Average Sans,,/Expressive/Calm,94
 Average Sans,,/Expressive/Loud,40
@@ -3401,7 +3402,7 @@ Borel,,/Quality/Spacing,70
 Borel,,/Quality/Wordspace,100
 Borel,,/Script/Formal,50
 Borel,,/Script/Upright Script,100
-Borel,,/Expressive/Calm,42
+Borel,,/Expressive/Calm,50
 Bowlby One SC,,/Expressive/Business,20
 Bowlby One SC,,/Expressive/Happy,20
 Bowlby One SC,,/Expressive/Loud,86
@@ -3884,7 +3885,6 @@ Cagliostro,,/Quality/Spacing,80
 Cagliostro,,/Quality/Wordspace,90
 Cagliostro,,/Sans/Humanist,100
 Cagliostro,,/Script/Handwritten,10
-Cairo Play,,/Expressive/Calm,40
 Cairo Play,,/Expressive/Futuristic,75
 Cairo Play,,/Expressive/Happy,30
 Cairo Play,,/Expressive/Loud,38
@@ -4685,7 +4685,7 @@ Chocolate Classical Sans,,/Quality/Drawing,68
 Chocolate Classical Sans,,/Quality/Spacing,70
 Chocolate Classical Sans,,/Quality/Wordspace,100
 Chocolate Classical Sans,,/Sans/Humanist,100
-Chocolate Classical Sans,,/Expressive/Calm,50
+Chocolate Classical Sans,,/Expressive/Calm,65
 Chokokutai,,/Expressive/Active,20
 Chokokutai,,/Expressive/Awkward,100
 Chokokutai,,/Expressive/Excited,75
@@ -4914,7 +4914,7 @@ Coming Soon,,/Sans/Rounded,80
 Coming Soon,,/Script/Handwritten,100
 Coming Soon,,/Theme/Brush,40
 Comme,,/Expressive/Business,81
-Comme,,/Expressive/Calm,94
+Comme,,/Expressive/Calm,91
 Comme,,/Expressive/Competent,42
 Comme,,/Expressive/Happy,10
 Comme,,/Expressive/Loud,40
@@ -6232,7 +6232,8 @@ Ek Mukta,,/Quality/Concept,70
 Ek Mukta,,/Quality/Drawing,75
 Ek Mukta,,/Quality/Spacing,70
 Ek Mukta,,/Quality/Wordspace,100
-El Messiri,,/Expressive/Calm,42
+Ek Mukta,,/Expressive/Calm,48
+El Messiri,,/Expressive/Calm,20
 El Messiri,,/Expressive/Loud,40
 El Messiri,,/Expressive/Rugged,40
 El Messiri,,/Expressive/Vintage,60
@@ -7547,7 +7548,7 @@ Gemunu Libre,,/Quality/Spacing,70
 Gemunu Libre,,/Quality/Wordspace,90
 Gemunu Libre,,/Sans/Geometric,50
 Gemunu Libre,,/Theme/Techno,70
-Genos,,/Expressive/Calm,45
+Genos,,/Expressive/Calm,20
 Genos,,/Expressive/Futuristic,72
 Genos,,/Expressive/Loud,25
 Genos,,/Expressive/Rugged,30
@@ -7685,7 +7686,7 @@ Gidole,,/Quality/Drawing,80
 Gidole,,/Quality/Spacing,80
 Gidole,,/Quality/Wordspace,60
 Gidole,,/Sans/Humanist,80
-Gidole,,/Expressive/Calm,50
+Gidole,,/Expressive/Calm,60
 Gidugu,,/Expressive/Business,42
 Gidugu,,/Expressive/Calm,60
 Gidugu,,/Expressive/Loud,40
@@ -8434,7 +8435,7 @@ Hedvig Letters Serif,,/Quality/Drawing,75
 Hedvig Letters Serif,,/Quality/Spacing,80
 Hedvig Letters Serif,,/Quality/Wordspace,100
 Hedvig Letters Serif,,/Serif/Old Style Garalde,70
-Heebo,,/Expressive/Calm,98
+Heebo,,/Expressive/Calm,80
 Heebo,,/Expressive/Competent,40
 Heebo,,/Expressive/Loud,40
 Heebo,,/Expressive/Rugged,50
@@ -9076,7 +9077,7 @@ Imprima,,/Quality/Spacing,70
 Imprima,,/Quality/Wordspace,80
 Imprima,,/Sans/Humanist,100
 Inclusive Sans,,/Expressive/Business,80
-Inclusive Sans,,/Expressive/Calm,94
+Inclusive Sans,,/Expressive/Calm,85
 Inclusive Sans,,/Expressive/Competent,70
 Inclusive Sans,,/Expressive/Loud,41
 Inclusive Sans,,/Expressive/Rugged,50
@@ -9209,7 +9210,7 @@ Inspiration,,/Script/Informal,100
 Inspiration,,/Seasonal/Valentine's Day,55
 Inspiration,,/Theme/Wacky,40
 Instrument Sans,,/Expressive/Business,65
-Instrument Sans,,/Expressive/Calm,88
+Instrument Sans,,/Expressive/Calm,80
 Instrument Sans,,/Expressive/Competent,55
 Instrument Sans,,/Expressive/Loud,40
 Instrument Sans,,/Expressive/Rugged,50
@@ -9258,7 +9259,7 @@ Inter Tight,,/Sans/Geometric,20
 Inter Tight,,/Sans/Humanist,10
 Inter Tight,,/Sans/Neo Grotesque,100
 Inter,,/Expressive/Business,85
-Inter,,/Expressive/Calm,90
+Inter,,/Expressive/Calm,80
 Inter,,/Expressive/Competent,91
 Inter,,/Expressive/Futuristic,5
 Inter,,/Expressive/Loud,40
@@ -9874,6 +9875,7 @@ Kadwa,,/Quality/Drawing,72
 Kadwa,,/Quality/Spacing,80
 Kadwa,,/Quality/Wordspace,100
 Kadwa,,/Expressive/Sincere,80
+Kadwa,,/Expressive/Calm,10
 Kaisei Decol,,/Expressive/Business,39
 Kaisei Decol,,/Expressive/Competent,50
 Kaisei Decol,,/Expressive/Happy,10
@@ -9989,6 +9991,7 @@ Kameron,,/Quality/Spacing,70
 Kameron,,/Quality/Wordspace,80
 Kameron,,/Slab/Clarendon,60
 Kameron,,/Slab/Geometric,30
+Kameron,,/Expressive/Calm,5
 Kanchenjunga,,/Expressive/Business,30
 Kanchenjunga,,/Expressive/Calm,80
 Kanchenjunga,,/Expressive/Happy,10
@@ -11646,7 +11649,7 @@ M PLUS Rounded 1c,,/Quality/Spacing,80
 M PLUS Rounded 1c,,/Quality/Wordspace,80
 M PLUS Rounded 1c,,/Sans/Humanist,100
 M PLUS Rounded 1c,,/Sans/Rounded,100
-M PLUS Rounded 1c,,/Expressive/Calm,78
+M PLUS Rounded 1c,,/Expressive/Calm,85
 Ma Shan Zheng,,/Expressive/Active,64
 Ma Shan Zheng,,/Expressive/Artistic,80
 Ma Shan Zheng,,/Expressive/Excited,39
@@ -11775,7 +11778,7 @@ Major Mono Display,,/Sans/Glyphic,100
 Major Mono Display,,/Theme/Art Deco,80
 Major Mono Display,,/Theme/Techno,80
 Mako,,/Expressive/Business,80
-Mako,,/Expressive/Calm,78
+Mako,,/Expressive/Calm,81
 Mako,,/Expressive/Loud,40
 Mako,,/Expressive/Rugged,40
 Mako,,/Expressive/Stiff,40
@@ -11799,7 +11802,7 @@ Mali,,/Quality/Wordspace,70
 Mali,,/Script/Handwritten,100
 Mali,,/Script/Informal,100
 Mallanna,,/Expressive/Business,60
-Mallanna,,/Expressive/Calm,78
+Mallanna,,/Expressive/Calm,82
 Mallanna,,/Expressive/Cute,20
 Mallanna,,/Expressive/Loud,40
 Mallanna,,/Expressive/Rugged,20
@@ -12033,8 +12036,9 @@ Martel,,/Quality/Spacing,80
 Martel,,/Quality/Wordspace,100
 Martel,,/Serif/Humanist Venetian,20
 Martel,,/Serif/Old Style Garalde,20
+Martel,,/Expressive/Calm,32
 Martian Mono,,/Expressive/Business,50
-Martian Mono,,/Expressive/Calm,45
+Martian Mono,,/Expressive/Calm,20
 Martian Mono,,/Expressive/Futuristic,20
 Martian Mono,,/Expressive/Loud,43
 Martian Mono,,/Expressive/Rugged,50
@@ -12616,7 +12620,7 @@ Mogra,,/Seasonal/Holi,100
 Mogra,,/Theme/Brush,100
 Mohave,,/Expressive/Active,10
 Mohave,,/Expressive/Business,30
-Mohave,,/Expressive/Calm,78
+Mohave,,/Expressive/Calm,65
 Mohave,,/Expressive/Futuristic,66
 Mohave,,/Expressive/Loud,32
 Mohave,,/Expressive/Rugged,45
@@ -12825,7 +12829,7 @@ Montez,,/Script/Handwritten,100
 Montez,,/Script/Upright Script,100
 Montez,,/Seasonal/Diwali,80
 Montez,,/Seasonal/Valentine's Day,76
-Montserrat Alternates,,/Expressive/Calm,93
+Montserrat Alternates,,/Expressive/Calm,78
 Montserrat Alternates,,/Expressive/Happy,11
 Montserrat Alternates,,/Expressive/Loud,38
 Montserrat Alternates,,/Expressive/Rugged,40
@@ -16451,7 +16455,7 @@ Oleo Script,,/Quality/Wordspace,60
 Oleo Script,,/Script/Formal,30
 Oleo Script,,/Seasonal/Kwanzaa,71
 Onest,,/Expressive/Business,55
-Onest,,/Expressive/Calm,98
+Onest,,/Expressive/Calm,85
 Onest,,/Expressive/Competent,50
 Onest,,/Expressive/Loud,40
 Onest,,/Expressive/Rugged,45
@@ -18606,7 +18610,7 @@ Poetsen One,,/Sans/Rounded,100
 Poetsen One,,/Script/Handwritten,50
 Poetsen One,,/Expressive/Sincere,50
 Poiret One,,/Expressive/Business,41
-Poiret One,,/Expressive/Calm,40
+Poiret One,,/Expressive/Calm,25
 Poiret One,,/Expressive/Happy,10
 Poiret One,,/Expressive/Loud,20
 Poiret One,,/Expressive/Rugged,20
@@ -19071,7 +19075,7 @@ Quattrocento,,/Quality/Wordspace,80
 Quattrocento,,/Serif/Humanist Venetian,50
 Quattrocento,,/Serif/Old Style Garalde,50
 Questrial,,/Expressive/Business,20
-Questrial,,/Expressive/Calm,88
+Questrial,,/Expressive/Calm,31
 Questrial,,/Expressive/Competent,10
 Questrial,,/Expressive/Loud,38
 Questrial,,/Expressive/Rugged,30
@@ -20766,7 +20770,7 @@ Sawarabi Gothic,,/Quality/Concept,60
 Sawarabi Gothic,,/Quality/Drawing,55
 Sawarabi Gothic,,/Quality/Spacing,60
 Sawarabi Gothic,,/Quality/Wordspace,70
-Sawarabi Gothic,,/Expressive/Calm,40
+Sawarabi Gothic,,/Expressive/Calm,10
 Sawarabi Gothic,,/Expressive/Sincere,50
 Sawarabi Mincho,,/Expressive/Competent,60
 Sawarabi Mincho,,/Expressive/Happy,5
@@ -21434,6 +21438,7 @@ Slabo 13px,,/Quality/Drawing,75
 Slabo 13px,,/Quality/Spacing,70
 Slabo 13px,,/Quality/Wordspace,100
 Slabo 13px,,/Slab/Humanist,100
+Slabo 13px,,/Expressive/Calm,40
 Slabo 27px,,/Expressive/Business,85
 Slabo 27px,,/Expressive/Competent,73
 Slabo 27px,,/Expressive/Happy,15
@@ -21447,6 +21452,7 @@ Slabo 27px,,/Quality/Drawing,75
 Slabo 27px,,/Quality/Spacing,70
 Slabo 27px,,/Quality/Wordspace,100
 Slabo 27px,,/Slab/Humanist,100
+Slabo 27px,,/Expressive/Calm,38
 Slackey,,/Expressive/Active,10
 Slackey,,/Expressive/Awkward,77
 Slackey,,/Expressive/Cute,64
@@ -21624,6 +21630,7 @@ Sofia Sans Extra Condensed,,/Quality/Spacing,80
 Sofia Sans Extra Condensed,,/Quality/Wordspace,80
 Sofia Sans Extra Condensed,,/Sans/Neo Grotesque,80
 Sofia Sans Extra Condensed,,/Sans/Rounded,20
+Sofia Sans Extra Condensed,,/Expressive/Calm,15
 Sofia Sans Semi Condensed,,/Expressive/Business,42
 Sofia Sans Semi Condensed,,/Expressive/Calm,74
 Sofia Sans Semi Condensed,,/Expressive/Competent,60
@@ -24166,6 +24173,7 @@ Yanone Kaffeesatz,,/Sans/Neo Grotesque,20
 Yanone Kaffeesatz,,/Sans/Rounded,10
 Yanone Kaffeesatz,,/Sans/Superellipse,10
 Yanone Kaffeesatz,,/Seasonal/Hanukkah,51
+Yanone Kaffeesatz,,/Expressive/Calm,20
 Yantramanav,,/Expressive/Business,50
 Yantramanav,,/Expressive/Calm,84
 Yantramanav,,/Expressive/Loud,40

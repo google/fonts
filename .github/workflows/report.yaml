@@ -95,7 +95,7 @@ jobs:
           cp .ci/dashboard/build/_file/data/versionhistory.*.json .ci/dashboard/build/_file/data/versionhistory.json
       - name: Upload build artifacts
         if: ${{ github.ref == 'refs/heads/main' }}
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v4.0.0
         with:
           path: .ci/dashboard/build
   deploy:

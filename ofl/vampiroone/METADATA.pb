@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/SorkinType/Vampiro"
+  commit: "ec42cf12230a8663c3ccb7a0c2da590ba98d2cd9"
+}

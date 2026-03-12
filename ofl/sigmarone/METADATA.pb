@@ -16,5 +16,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/sigmarone"
+  commit: "1fb4311d78953da0f943e0e4b806acdd076af81b"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -32,3 +32,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/Tienne2Font"
+  commit: "e49a4151f9be25337e3873c71b2430f18113fdfc"
+}

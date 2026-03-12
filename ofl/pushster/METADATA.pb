@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/impallari/The-Lobster-Font"
+  commit: "9101378a660fa0b93a03372467df8dfd15647fd9"
 }
 languages: "en_Latn"  # English
 languages: "eo_Latn"  # Esperanto

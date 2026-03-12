@@ -96,3 +96,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/jasperdewaard/Proza-Libre"
+  commit: "45ea7bb14c2301988fbda75fc27374f63e33c19c"
+}

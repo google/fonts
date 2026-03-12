@@ -62,4 +62,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/mitr"
+  commit: "41950431d37f6410fd082760ca806eb490e4791f"
+}
 primary_script: "Thai"

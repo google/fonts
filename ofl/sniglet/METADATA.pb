@@ -21,6 +21,11 @@ fonts {
   full_name: "Sniglet ExtraBold"
   copyright: "Copyright (c) 2008, Haley Fiege (haley@kingdomofawesome.com), Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com) Copyright (c) 2013, Pablo Impallari (www.impallari.com|impallari@gmail.com), with no Reserved Font Name."
 }
+source {
+  repository_url: "https://github.com/theleagueof/sniglet"
+  commit: "5c6b0860bdd0d8c4f16222e4de3918c384db17c4"
+  branch: "master"
+}
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"

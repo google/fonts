@@ -38,3 +38,7 @@ axes {
   min_value: 200.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/adobe-fonts/source-serif"
+  commit: "b3980ade53bb3d023a0006076d05349236b309b1"
+}

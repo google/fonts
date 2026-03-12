@@ -24,3 +24,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/lettersoup/Ropa-Sans"
+  commit: "33acc9f9e7d126dd46b9e1efa03f98ea2e2046de"
+}

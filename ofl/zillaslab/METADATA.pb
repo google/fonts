@@ -96,3 +96,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/mozilla/zilla-slab"
+  commit: "6dcec520f9b23ad7f380b7ce3e8072be95fe0004"
+}

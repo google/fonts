@@ -26,3 +26,9 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 primary_script: "Deva"
+source {
+  repository_url: "https://github.com/cyrealtype/Sumana"
+  commit: "68c5ce43ae96268ac93ee3b79c720c7f479c5ee1"
+  files_in_gfonts_pr: 2
+  source_files: "sources/Sumana.glyphs"
+}

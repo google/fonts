@@ -15,5 +15,14 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/googlefonts/SacramentoFont"
+  commit: "86d34cf5a57af8dfa41c01e32a9529ed6aa499b6"
+  files {
+    source_file: "sources/Sacramento.glyphs"
+    dest_file: "Sacramento-Regular.ttf"
+  }
+  branch: "main"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

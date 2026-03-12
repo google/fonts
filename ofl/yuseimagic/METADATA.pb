@@ -30,6 +30,7 @@ source {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
   }
+  commit: "d622b0ea84059a411a1344bd2f948d9e0df92a1b"
   branch: "master"
 }
 primary_script: "Jpan"

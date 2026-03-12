@@ -23,4 +23,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Sansita-Swashed"
+  commit: "4b18bac65511ce185c1dc687472a8c77bdc6cc4d"
 }

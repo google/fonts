@@ -22,5 +22,9 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/m4rc1e/Ruda-new"
+  commit: "a63532e04ffb0f46b635cf9e000966155958e19d"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

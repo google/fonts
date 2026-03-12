@@ -39,6 +39,11 @@ fonts {
   full_name: "Signika Negative SC Bold"
   copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
+source {
+  repository_url: "https://github.com/googlefonts/Signika"
+  commit: "7361a224d1d77274af1ea11dd06448c54c16f598"
+  branch: "master"
+}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

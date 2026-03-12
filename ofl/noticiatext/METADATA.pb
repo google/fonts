@@ -43,3 +43,7 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/jmsole/noticiatext"
+  commit: "bcc80c5a33855419251ac3b9d1fa08d42d52f3ef"
+}

@@ -83,6 +83,7 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "master"
+  commit: "7199ebaed5a78b14f7824cc3ea44f5694e790807"
 }
 primary_script: "Hira"
 stroke: "SANS_SERIF"

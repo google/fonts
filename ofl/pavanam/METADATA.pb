@@ -17,3 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil"
 primary_script: "Taml"
+source {
+  repository_url: "https://github.com/enathu/pavanam"
+  commit: "c4ba9335116a4ff2c124ebf918455748caedccac"
+}

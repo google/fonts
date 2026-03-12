@@ -32,5 +32,6 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "master"
+  commit: "2972a9857a8332c2af86b221799558c177ba9012"
 }
 primary_script: "Jpan"

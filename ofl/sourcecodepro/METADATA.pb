@@ -37,4 +37,5 @@ axes {
 
 source {
   repository_url: "https://github.com/adobe-fonts/source-code-pro"
+  commit: "803b7e23ec97ae58b6232ea76519a76d428ba268"
 }

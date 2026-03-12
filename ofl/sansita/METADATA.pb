@@ -78,3 +78,12 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/Omnibus-Type/Sansita"
+  commit: "168abd68a378c93d6febb46b453efd67e9ed86f2"
+  files {
+    source_file: "sources/Backup/1216_Sansita.glyphs"
+    dest_file: "Sansita-Regular.ttf"
+  }
+  branch: "master"
+}

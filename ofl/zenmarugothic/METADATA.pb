@@ -84,6 +84,7 @@ source {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
   }
+  commit: "553c872b216d1290e2902a466edcdc9682f0df6a"
   branch: "main"
 }
 primary_script: "Jpan"

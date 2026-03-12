@@ -21,6 +21,11 @@ fonts {
   full_name: "Sintony Bold"
   copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Sintony\'"
 }
+source {
+  repository_url: "https://github.com/etunni/sintony"
+  commit: "be9cf7be562d566504ef1c8e52d41ce48535ced8"
+  branch: "master"
+}
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"

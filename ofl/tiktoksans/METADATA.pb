@@ -51,6 +51,7 @@ source {
     dest_file: "TikTokSans[opsz,slnt,wdth,wght].ttf"
   }
   branch: "main"
+  commit: "baa2f381f9102da9fbc3c83843ad224774240516"
   config_yaml: "sources/config.yaml"
 }
 

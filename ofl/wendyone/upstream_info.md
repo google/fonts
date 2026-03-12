@@ -8,7 +8,7 @@ No upstream source repository with UFO or Glyphs sources was found for Wendy One
 
 ## Investigation Notes
 
-Wendy One was designed by Alejandro Inler in collaboration with Julieta Ulanovsky. Searches on GitHub for repositories by `alejandroinler`, combinations of "wendy one font", "wendy font inler", and "wendy font julieta" returned no results. No GitHub account for Alejandro Inler was found hosting this font. The font's DESCRIPTION mentioned it was "developed by Alejandro Inler in conjunction with Julieta Ulanovsky" but contained no URL to a source repository.
+Wendy One was designed by Alejandro Inler in collaboration with Julieta Ulanovsky. Searches on GitHub for repositories by `alejandroinler`, combinations of "wendy one font", "wendy font inler", and "wendy font julieta" returned no results. No GitHub account for Alejandro Inler was found. The font's DESCRIPTION mentioned it was "developed by Alejandro Inler in conjunction with Julieta Ulanovsky" but contained no URL to a source repository.
 
 ## Status
 

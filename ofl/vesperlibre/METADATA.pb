@@ -43,4 +43,8 @@ subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/motaitalic/vesper-libre"
+  commit: "b765c5a68c1786a177b46e3b3ecd766157ffe349"
+}
 primary_script: "Deva"

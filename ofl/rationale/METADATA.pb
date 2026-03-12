@@ -14,5 +14,9 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/cyrealtype/Rationale"
+  commit: "b12941da538d15c94bc04f60926288a791d5a81c"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

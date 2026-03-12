@@ -23,3 +23,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/TangerineFont"
+  commit: "9b57a9f9be5ecfe95e7f8c0e6b2b827eedb9ad67"
+}

@@ -171,3 +171,7 @@ subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
 primary_script: "Thai"
+source {
+  repository_url: "https://github.com/cadsondemak/prompt"
+  commit: "18f813a4dea16a7ecc6f944053d3ce2cd4d7e824"
+}

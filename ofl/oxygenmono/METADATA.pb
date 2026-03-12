@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/vernnobile/oxygenFont"
+  commit: "62db0ebe3488c936406685485071a54e3d18473b"
+}

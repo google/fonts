@@ -53,3 +53,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 primary_script: "Deva"
+source {
+  repository_url: "https://github.com/itfoundry/rajdhani"
+  commit: "86cae0e9a63279efa076915a470049dd76c044f0"
+}

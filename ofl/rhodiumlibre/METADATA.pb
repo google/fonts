@@ -16,5 +16,9 @@ subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/DunwichType/RhodiumLibre"
+  commit: "c6e9dc9167fb6f4bc6fc44f2262129aaf771c8a3"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

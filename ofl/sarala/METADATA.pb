@@ -26,5 +26,14 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 primary_script: "Deva"
+source {
+  repository_url: "https://github.com/huertatipografica/sarala"
+  commit: "7779e0c9eb121b25d9fcb7c20d5b3541b3f4fc15"
+  files {
+    source_file: "Sarala.glyphs"
+    dest_file: "Sarala-Regular.ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

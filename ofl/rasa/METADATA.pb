@@ -33,6 +33,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/rosettatype/yrsa-rasa"
+  commit: "36874c97c64a0d1853297afdfc0cfaf14a3c0f19"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

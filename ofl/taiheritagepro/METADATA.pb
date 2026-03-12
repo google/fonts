@@ -42,5 +42,6 @@ source {
     dest_file: "TaiHeritagePro-Bold.ttf"
   }
   branch: "master"
+  commit: "1ac0dd04cf5dd23435f37cecfe825e0eaf230a4c"
 }
 primary_script: "Tavt"

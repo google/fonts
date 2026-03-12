@@ -24,3 +24,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/theleagueof/sorts-mill-goudy"
+  commit: "06072890c7b05f274215a24f17449655ccb2c8af"
+}

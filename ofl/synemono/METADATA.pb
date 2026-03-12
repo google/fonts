@@ -15,3 +15,9 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://gitlab.com/bonjour-monde/fonderie/syne-typeface"
+  commit: "e536e8f1a8724bf282da74bbae410f91231ce94c"
+  files_in_gfonts_pr: 1
+  source_files: "sources/SyneMono.glyphs"
+}

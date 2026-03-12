@@ -44,3 +44,7 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/scada"
+  commit: "df06a155d95984d259c8492aeaaa520188a3d46b"
+}

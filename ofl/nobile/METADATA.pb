@@ -61,3 +61,7 @@ subsets: "cyrillic"
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/vernnobile/NobileFont"
+  commit: "d3f6ea2c6434d6ebfdc0534bd199d14370f12fee"
+}

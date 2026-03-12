@@ -8,7 +8,7 @@ No upstream source repository with UFO or Glyphs sources was found for Zeyada. N
 
 ## Investigation Notes
 
-Zeyada was designed by Kimberly Geswein. Searches for "zeyada font", "zeyada kimberly", "kimberly geswein font", and `googlefonts/zeyada` returned no relevant results. No personal GitHub account for Kimberly Geswein was found hosting this font. While a googlefonts repository for another Kimberly Geswein font (`googlefonts/indieflower`) exists, no equivalent repository for Zeyada was found.
+Zeyada was designed by Kimberly Geswein. Searches for "zeyada font", "zeyada kimberly", "kimberly geswein font", and `googlefonts/zeyada` returned no relevant results. No personal GitHub account for Kimberly Geswein was found hosting this font. While a googlefonts repository for another Kimberly Geswein font (`googlefonts/indieflower`) was found, no equivalent repository for Zeyada exists.
 
 ## Status
 

@@ -46,3 +46,7 @@ subsets: "menu"
 primary_script: "Deva"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/VanillaandCream/Palanquin"
+  commit: "f912925eccf9b020425a6f0ddc2ce32fc1640695"
+}

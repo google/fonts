@@ -16,6 +16,10 @@ subsets: "gujarati"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/jonpinhorn/shrikhand"
+  commit: "c11c9b0720fba977fad7cb4f339ebacdba1d1394"
+}
 primary_script: "Gujr"
 stroke: "SERIF"
 classifications: "DISPLAY"

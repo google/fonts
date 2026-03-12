@@ -35,4 +35,5 @@ source {
     dest_file: "STIXTwoMath-Regular.ttf"
   }
   branch: "master"
+  commit: "c4afdf3fa5390159ef24aca1db5e957487c23897"
 }

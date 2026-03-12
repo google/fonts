@@ -15,4 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/ntr"
+  commit: "1268910cd8eb61a104c95e74a8578f2d98d11bd6"
+}
 primary_script: "Telu"

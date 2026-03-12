@@ -162,3 +162,7 @@ axes {
   min_value: 400.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/wix-incubator/wixmadefor"
+  commit: "85646f130c8d3edffe66c4d8755c3f9f7abfa877"
+}

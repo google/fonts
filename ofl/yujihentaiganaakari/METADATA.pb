@@ -30,6 +30,7 @@ source {
     source_file: "akari_DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
   }
+  commit: "efec977b14b57c19eb85d468edcfbbad13139e67"
   branch: "master"
 }
 primary_script: "Hira"

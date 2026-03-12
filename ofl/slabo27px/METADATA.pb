@@ -12,6 +12,11 @@ fonts {
   full_name: "Slabo 27px"
   copyright: "Copyright (c) 2013, Tiro Typeworks Ltd (www.tiro.com)."
 }
+source {
+  repository_url: "https://github.com/TiroTypeworks/Slabo"
+  commit: "21420697b49ec12ab3fd182a71ffe7c9d804f156"
+  branch: "master"
+}
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"

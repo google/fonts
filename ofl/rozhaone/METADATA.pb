@@ -17,5 +17,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 primary_script: "Deva"
+source {
+  repository_url: "https://github.com/itfoundry/rozhaone"
+  commit: "8225a64e986c03b78fb1bb08d55705c52c9eeab8"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

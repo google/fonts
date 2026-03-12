@@ -15,4 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/nats"
+  commit: "7e1486a72988cb8ec1802e2dc2d7e4f59df35582"
+}
 primary_script: "Telu"

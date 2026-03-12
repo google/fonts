@@ -33,5 +33,6 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "ver3.00"
+  commit: "8551d68706679b88ce6ff40e093a993e546e593e"
 }
 primary_script: "Hira"

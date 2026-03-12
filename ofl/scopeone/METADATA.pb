@@ -15,3 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/daltonmaag/scope-one"
+  commit: "7a5c5df7367bdba124c4dcf8f59b15912811c3c4"
+}

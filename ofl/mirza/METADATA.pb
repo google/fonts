@@ -43,4 +43,8 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/Tarobish/Mirza"
+  commit: "fa7b59c92953e7f437d079a8c118a7952c507f09"
+}
 primary_script: "Arab"

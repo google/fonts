@@ -42,5 +42,9 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/Omnibus-Type/Unna"
+  commit: "826be2abebda53d63bcd99b7ca30a7061b89bcfd"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

@@ -31,6 +31,7 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "master"
+  commit: "e5a03bb81c7a6c6eb9f901b993c2164213f143d4"
 }
 primary_script: "Hira"
 classifications: "DISPLAY"

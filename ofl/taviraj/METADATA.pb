@@ -170,6 +170,10 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/taviraj"
+  commit: "8bd077c195dccf3bfc4699ec6ae9c6909bdd03a5"
+}
 primary_script: "Thai"
 stroke: "SERIF"
 classifications: "DISPLAY"

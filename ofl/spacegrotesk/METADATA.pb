@@ -52,5 +52,6 @@ source {
     dest_file: "static/SpaceGrotesk-Regular.ttf"
   }
   branch: "master"
+  commit: "03507d024a01282884232081fc6011c09ff4e849"
 }
 minisite_url: "https://floriankarsten.github.io/space-grotesk"

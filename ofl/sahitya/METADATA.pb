@@ -25,3 +25,16 @@ subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 primary_script: "Deva"
+source {
+  repository_url: "https://github.com/huertatipografica/sahitya"
+  commit: "c4b5b34d0fbad63654b1d9a6bff72e566bf9a2c6"
+  files {
+    source_file: "Sahitya-Regular.glyphs"
+    dest_file: "Sahitya-Regular.ttf"
+  }
+  files {
+    source_file: "Sahitya-Bold.glyphs"
+    dest_file: "Sahitya-Bold.ttf"
+  }
+  branch: "master"
+}

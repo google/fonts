@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/staatliches"
+  commit: "0d69eea1ad9a6312fbfdf9afa54fa38933a21b42"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

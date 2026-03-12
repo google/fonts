@@ -21,3 +21,7 @@ subsets: "vietnamese"
 primary_script: "Thai"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/cadsondemak/pattaya"
+  commit: "fec6c7a0c8b84949dcb2a1c6dbe1ec4ba12ca0d9"
+}

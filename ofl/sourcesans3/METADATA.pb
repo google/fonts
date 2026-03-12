@@ -34,3 +34,7 @@ axes {
   min_value: 200.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/adobe-fonts/source-sans"
+  commit: "272b22b02e097e8eff1372111f88b5ab6063499f"
+}

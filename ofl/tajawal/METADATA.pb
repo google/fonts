@@ -69,4 +69,8 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/tajawal"
+  commit: "2085b8942f234e7afb83dc03c77713d0d5471cc9"
+}
 primary_script: "Arab"

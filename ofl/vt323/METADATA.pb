@@ -16,3 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/phoikoi/VT323"
+  commit: "9bd4b3f69887fd960d51d07602db60a28a789145"
+}

@@ -62,5 +62,14 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 primary_script: "Deva"
+source {
+  repository_url: "https://github.com/itfoundry/sarpanch"
+  commit: "265ec8e95cad31046b4e01a553ebfbfcbeee1188"
+  files {
+    source_file: "masters/Sarpanch_0.ufo"
+    dest_file: "Sarpanch-Regular.ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

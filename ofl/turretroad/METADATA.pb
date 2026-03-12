@@ -62,6 +62,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/noponies/Turret-Road"
+  commit: "c77a268e22034f5427de1bbed2d13fdf7b91b1d8"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

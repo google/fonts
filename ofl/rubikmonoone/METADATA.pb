@@ -18,5 +18,9 @@ subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/alexeiva/rubikmonoone"
+  commit: "7d08552d8921a0b864538b030cd0f59e7acdd4b1"
+}
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

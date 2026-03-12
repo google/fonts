@@ -19,3 +19,9 @@ subsets: "menu"
 primary_script: "Hebr"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/MichalSahar/Suez"
+  commit: "04af4fcca02b34b461033520fc758132f7519c49"
+  files_in_gfonts_pr: 1
+  source_files: "sources/SuezOne.glyphs"
+}

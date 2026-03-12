@@ -48,5 +48,6 @@ source {
     dest_file: "Vollkorn-Italic[wght].ttf"
   }
   branch: "master"
+  commit: "38ab7a896bd6b163ac7f834ec696d6c68e5dedd6"
 }
 minisite_url: "http://vollkorn-typeface.com/"

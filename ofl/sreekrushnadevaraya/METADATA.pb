@@ -16,3 +16,7 @@ subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
 primary_script: "Telu"
+source {
+  repository_url: "https://github.com/appajid/sreekrushnadevaraya"
+  commit: "1d8aea8611ff50608f113c079890bd4c996d12be"
+}

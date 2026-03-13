@@ -24,6 +24,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 axes {
   tag: "wdth"
   min_value: 75.0
@@ -36,8 +37,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/zalando/sans"
-  commit: "2fe06d0700b5b9ccd18a52c240e8927f48e92629"
-  config_yaml: "sources/config.yaml"
+  commit: "4e44d0864c4e37ab67fa549cd188aec8776dc948"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -51,5 +51,6 @@ source {
     dest_file: "ZalandoSans-Italic[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

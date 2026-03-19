@@ -23,12 +23,28 @@ The upstream repository was updated to point to the actively maintained SourceHu
 - **Latest release**: v2.7a
 - **Bug tracker**: https://todo.sr.ht/~ralessi/oldstandard
 
-### Previous Repository (dormant)
+### Original Repository (dormant)
 
 - **URL**: https://github.com/akryukov/oldstand
-- **Owner**: Alexey Kryukov (original designer)
+- **Owner**: Alexey Kryukov (original designer, `amkryukov@gmail.com`)
+- **Description**: "Old Standard font family"
 - **Last pushed**: 2017-03-31
 - **Status**: Dormant since 2013; the SourceHut fork continues active development
+
+The original repository contains FontForge SFD sources:
+- `OldStandard-Regular.sfd`
+- `OldStandard-Italic.sfd`
+- `OldStandard-Bold.sfd`
+- `OldStandard.cfg` — a CacheTT configuration file
+- `genfonts.sh` — build script
+- `ost-generate.py` — Python generation script
+- GDL (Graphite Description Language) files for each weight
+- A `manual/` directory with source documentation
+
+Notable commits:
+- `f379c2c4` (2013-08-12): "A cfg filr for cachett"
+- `80f7b552` (2013-08-12): "Old Standard manual sources"
+- `6ab74e04` (2013-08-12): "pushing main font files"
 
 ## Source Files (SourceHut repo)
 

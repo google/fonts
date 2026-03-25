@@ -37,3 +37,7 @@ languages: "zh_Hant"   # Chinese (Traditional)
 display_name: "Noto Sans Hong Kong"
 primary_script: "Hant"
 primary_language: "yue_Hant"
+source {
+  repository_url: "https://github.com/notofonts/noto-cjk"
+  commit: "523d033d6cb47f4a80c58a35753646f5c3608a78"
+}

@@ -27,3 +27,8 @@ is_noto: true
 languages: "ko_Kore"  # Korean
 display_name: "Noto Sans Korean"
 primary_script: "Kore"
+
+source {
+  repository_url: "https://github.com/notofonts/noto-cjk"
+  commit: "523d033d6cb47f4a80c58a35753646f5c3608a78"
+}

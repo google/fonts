@@ -37,3 +37,7 @@ languages: "zh_Hans"   # Chinese (Simplified)
 display_name: "Noto Sans Simplified Chinese"
 primary_script: "Hans"
 primary_language: "zh_Hans"
+source {
+  repository_url: "https://github.com/notofonts/noto-cjk"
+  commit: "523d033d6cb47f4a80c58a35753646f5c3608a78"
+}

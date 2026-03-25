@@ -89,3 +89,8 @@ subsets: "menu"
 is_noto: true
 languages: "gu_Gujr"  # Gujarati
 primary_script: "Gujr"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "bda66ae5b76668ef2d3fad2c8d3607d1aa330431"
+}

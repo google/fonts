@@ -49,3 +49,8 @@ languages: "sa_Orya"  # Sanskrit, Odia / Oriya
 languages: "sat_Orya"  # Santali, Odia
 languages: "unr_Orya"  # Mundari, Odia
 primary_script: "Orya"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "bc27c394087c8f52ef27d7a3742dd441dd0c22a5"
+}

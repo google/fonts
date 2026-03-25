@@ -94,3 +94,8 @@ languages: "my_Mymr"  # Burmese
 languages: "pwo_Mymr"  # Pwo Western Karen, Myanmar
 languages: "shn_Mymr"  # Shan
 primary_script: "Mymr"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "442e7d208ce532bbe6ef41e1d89f35c21f415142"
+}

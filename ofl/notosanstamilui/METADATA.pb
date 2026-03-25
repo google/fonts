@@ -28,3 +28,8 @@ is_noto: true
 languages: "bfq_Taml"  # Badaga
 languages: "ta_Taml"  # Tamil
 primary_script: "Taml"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "56fa5f2db909dc006aaaf2fd5cf7e063dcf18ad7"
+}

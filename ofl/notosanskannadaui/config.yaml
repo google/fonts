@@ -1,0 +1,17 @@
+# Override config.yaml for ofl/notosanskannadaui
+# Copied from notofonts/kannada (sources/config-sans-kannada.yaml)
+# NOTE: This config references the CURRENT notofonts/ per-script repo sources,
+# which may produce a newer version than the binary currently shipped in google/fonts.
+# The shipped binary was built from the older googlefonts/noto-fonts monorepo.
+# This config serves as a starting point for reproducible build attempts.
+#
+buildUIVF: true
+buildVariable: true
+familyName: Noto Sans Kannada
+googleFonts: true
+includeSubsets:
+- from: Noto Sans
+  name: GF_Latin_Core
+recipeProvider: noto
+sources:
+- NotoSansKannada.glyphs

@@ -28,3 +28,8 @@ is_noto: true
 languages: "kn_Knda"  # Kannada
 languages: "tcy_Knda"  # Tulu
 primary_script: "Knda"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "09b94bdab646a466def1aac31f3f1b4666018e8e"
+}

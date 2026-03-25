@@ -34,3 +34,8 @@ languages: "sou_Thai"  # Southern Thai
 languages: "th_Thai"  # Thai
 languages: "tts_Thai"  # Northeastern Thai
 primary_script: "Thai"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "282a3a827151188c0ee4bce392e89e6ef4c16323"
+}

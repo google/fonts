@@ -166,3 +166,8 @@ languages: "xnr_Deva"  # Kangri
 languages: "xsr_Deva"  # Sherpa
 languages: "ybh_Deva"  # Yakha, Devanagari
 primary_script: "Deva"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "0b7e7b85049f6b5ddb1a2bf25b6c83510b288daf"
+}

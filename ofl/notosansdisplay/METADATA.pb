@@ -818,3 +818,8 @@ languages: "zun_Latn"
 languages: "zza_Latn"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "217e0ab67385bc728b088f565c2c9b76633c01c5"
+}

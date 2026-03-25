@@ -27,3 +27,8 @@ axes {
 is_noto: true
 languages: "pa_Guru"  # Punjabi
 primary_script: "Guru"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "f565665f15c72f0350773727b22b9f99742c5be2"
+}

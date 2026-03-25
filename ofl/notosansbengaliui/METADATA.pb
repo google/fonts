@@ -43,3 +43,8 @@ languages: "trp_Beng"  # Kok Borok, Bangla
 languages: "unr_Beng"  # Mundari
 languages: "unx_Beng"  # Munda
 primary_script: "Beng"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "8d438811b7d6d70fb5cc1b89c47d1388cb1939d7"
+}

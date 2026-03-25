@@ -1,18 +1,27 @@
-# Noto Sans N Ko (Todo List) — Source Metadata Investigation
+# Noto Sans N'Ko — Upstream Source Investigation
+
 **Model**: Claude Opus 4.6
-**Date**: 2026-03-12
 
 ## Source Repository
-- **URL**: No source block present
-- **Commit**: `N/A`
-- **Status**: absent
 
-## What Was Done
-The existing source metadata was reviewed. No `source` block was found in the METADATA.pb file; the family ships a single static TTF (`NotoSansNKo-Regular.ttf`) with no upstream repository link recorded. This entry appears to be a legacy/todo-list family entry distinct from the current notosansnko family.
+| Field | Value |
+|-------|-------|
+| Repository | https://github.com/googlefonts/noto-fonts |
+| Commit | Not yet identified |
+| Version | 2.001 |
+| Onboarding PR | [google/fonts#2823](https://github.com/google/fonts/pull/2823) |
+| Date | 2021-01-13 |
 
-## Notes
-- Designer: Google
-- Script: NKo (Nkoo)
-- Category: SANS_SERIF
-- Covers N'Ko script languages: Bambara, Dyula, Mandingo, and N'Ko.
-- This is likely a legacy entry; the current notofonts/nko repository-sourced family is tracked separately in `notosansnko`.
+## Investigation Summary
+
+Noto Sans N'Ko v2.001 was onboarded as part of the December 25, 2020 Noto batch via PR #2823. The binary originated from the old googlefonts/noto-fonts monorepo, which contained fonts for many scripts in a single repository. This predates the reorganization into per-script repos (e.g., notofonts/nko).
+
+The exact commit within noto-fonts has not yet been identified, though the blob matches the PR #2823 batch. The family directory in google/fonts was later renamed via PR #5605, resulting in the current `notosansnko_todelist` directory slug.
+
+**Note**: v2.001 from the old noto-fonts monorepo. Predates notofonts/nko repo. Directory later renamed in PR #5605. Exact commit in noto-fonts not yet identified (same blob as PR #2823 batch).
+
+**Confidence**: MEDIUM (repository identified, blob matches PR #2823 batch, but exact commit within noto-fonts not yet pinpointed)
+
+## Build Configuration (Override)
+
+An override `config.yaml` has been created in the google/fonts family directory, copied from `sources/config-sans-nko-unjoined.yaml` in the `notofonts/nko` repository (the current per-script Noto repo). **Important caveat**: this config references the current notofonts/ per-script repo sources, which may produce a newer version than the binary currently shipped in google/fonts. The shipped binary was built from the older `googlefonts/noto-fonts` monorepo using a different build pipeline. This override config serves as a starting point for reproducible build attempts but is not expected to produce a byte-identical match.

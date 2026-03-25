@@ -21,3 +21,7 @@ languages: "man_Nkoo"  # Mandingo, Nko
 languages: "nqo_Nkoo"  # N’Ko
 display_name: "Noto Sans N\'Ko"
 primary_script: "Nkoo"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+}

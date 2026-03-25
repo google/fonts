@@ -1,17 +1,27 @@
-# Noto Serif Nyiakeng Puachue Hmong — Source Metadata Investigation
+# Noto Serif Nyiakeng Puachue Hmong — Upstream Source Investigation
+
 **Model**: Claude Opus 4.6
-**Date**: 2026-03-12
 
 ## Source Repository
-- **URL**: No source block present
-- **Commit**: N/A
-- **Status**: Absent
 
-## What Was Done
-The existing source metadata was reviewed. No `source` block was found in the METADATA.pb file. The family is a variable font with `wght` (400–700) axis.
+| Field | Value |
+|-------|-------|
+| Repository | https://github.com/googlefonts/noto-fonts |
+| Commit | `9232f17974e5783a5dbd862f38225e0584e73add` |
+| Version | 1.000 |
+| Onboarding PR | [google/fonts#2823](https://github.com/google/fonts/pull/2823) |
+| Date | 2021-01-13 |
 
-## Notes
-- **Designer**: Google
-- **Script**: Nyiakeng Puachue Hmong (Hmnp)
-- **Category**: SERIF
-- Copyright held by Google Inc. (2020). Covers the Hmong language in Nyiakeng Puachue Hmong script. Added to Google Fonts on 2020-11-19.
+## Investigation Summary
+
+Noto Serif Nyiakeng Puachue Hmong was onboarded as part of the December 25, 2020 Noto batch via PR #2823. The font binary was sourced from the googlefonts/noto-fonts monorepo at commit `9232f17974e5783a5dbd862f38225e0584e73add`.
+
+The commit was verified by blob-hash comparison: the font binary blob hash at this commit in the googlefonts/noto-fonts monorepo matches the blob added to google/fonts in PR #2823 (commit a559a6efc).
+
+**Note**: Dec 25 2020 batch.
+
+**Confidence**: HIGH (blob-verified)
+
+## Build Configuration (Override)
+
+An override `config.yaml` has been created in the google/fonts family directory, copied from `sources/config-serif-nyiakeng-puachue-hmong.yaml` in the `notofonts/nyiakeng-puachue-hmong` repository (the current per-script Noto repo). **Important caveat**: this config references the current notofonts/ per-script repo sources, which may produce a newer version than the binary currently shipped in google/fonts. The shipped binary was built from the older `googlefonts/noto-fonts` monorepo using a different build pipeline. This override config serves as a starting point for reproducible build attempts but is not expected to produce a byte-identical match.

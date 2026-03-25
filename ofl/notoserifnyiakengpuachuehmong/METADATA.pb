@@ -22,3 +22,8 @@ axes {
 is_noto: true
 languages: "hmn_Hmnp"  # Hmong, Nyiakeng Puachue Hmong
 primary_script: "Hmnp"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "9232f17974e5783a5dbd862f38225e0584e73add"
+}

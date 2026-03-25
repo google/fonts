@@ -24,3 +24,9 @@ is_noto: true
 display_name: "Noto Serif Nyiakeng Puachue Hmong"
 languages: "hmn_Hmnp"  # Hmong, NP Hmong
 primary_script: "Hmnp"
+
+source {
+  repository_url: "https://github.com/notofonts/nyiakeng-puachue-hmong"
+  commit: "2c945bb9c314d607d45c3120fcb35701349d9c87"
+  config_yaml: "sources/config-serif-nyiakeng-puachue-hmong.yaml"
+}

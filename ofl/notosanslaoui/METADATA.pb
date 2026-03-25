@@ -29,3 +29,8 @@ languages: "hnj_Laoo"  # Mong Njua
 languages: "kjg_Laoo"  # Khmu
 languages: "lo_Laoo"  # Lao
 primary_script: "Laoo"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "c864aa49f4af6a4130bb58ea083334554f0b7a56"
+}

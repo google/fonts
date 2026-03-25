@@ -27,3 +27,8 @@ axes {
 is_noto: true
 languages: "km_Khmr"  # Khmer
 primary_script: "Khmr"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "4386f6f75598ac1a62e068b3f169cf19d6566363"
+}

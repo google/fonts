@@ -102,3 +102,8 @@ languages: "wo_Arab"  # Wolof, Arabic
 languages: "zdj_Arab"  # Ngazidja Comorian
 languages: "zlm_Arab"  # Malay, Arabic
 primary_script: "Arab"
+
+source {
+  repository_url: "https://github.com/notofonts/arabic"
+  commit: "133ccaebf922ca080a7eef22998611ac3c242df9"
+}

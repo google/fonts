@@ -29,3 +29,8 @@ languages: "pi_Sinh"  # Pali, Sinhala
 languages: "sa_Sinh"  # Sanskrit, Sinhala
 languages: "si_Sinh"  # Sinhala
 primary_script: "Sinh"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "da23fbffb845dc5e9bd6da24b3dbbbc7effe7dbc"
+}

@@ -27,3 +27,8 @@ axes {
 is_noto: true
 languages: "ml_Mlym"  # Malayalam
 primary_script: "Mlym"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "090cc7e2cfaae5c21c055a2355001d8c586382ae"
+}

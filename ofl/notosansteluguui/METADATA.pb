@@ -30,3 +30,8 @@ languages: "lmn_Telu"  # Lambadi
 languages: "te_Telu"  # Telugu
 languages: "wbq_Telu"  # Waddar
 primary_script: "Telu"
+
+source {
+  repository_url: "https://github.com/googlefonts/noto-fonts"
+  commit: "1b5d974daaa002333b2a5a068d0a7f2d1121b3b7"
+}

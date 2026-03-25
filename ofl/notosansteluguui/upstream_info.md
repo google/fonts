@@ -1,11 +1,27 @@
-# Noto Sans Telugu UI — Upstream Source Info
+# Noto Sans Telugu UI — Upstream Source Investigation
 
 **Model**: Claude Opus 4.6
 
-## Repository
+## Source Repository
 
-No source block exists in METADATA.pb.
+| Field | Value |
+|-------|-------|
+| Repository | https://github.com/googlefonts/noto-fonts |
+| Commit | `1b5d974daaa002333b2a5a068d0a7f2d1121b3b7` |
+| Version | 2.001 |
+| Onboarding PR | [google/fonts#2823](https://github.com/google/fonts/pull/2823) |
+| Date | 2021-01-13 |
 
-## Summary
+## Investigation Summary
 
-Noto Sans Telugu UI was designed by Google and published under the OFL (copyright 2019 Google LLC). The family provided a variable font with width (62.5–100) and weight (100–900) axes covering the Telugu script, optimized for user interface use, supporting Gondi (gon), Lambadi (lmn), Telugu (te), and Waddar (wbq) in the Telugu script. No upstream repository, commit, or build configuration was recorded in METADATA.pb. The font was added to Google Fonts on 2020-11-19.
+Noto Sans Telugu UI is a UI variant of Noto Sans Telugu, onboarded as part of the large December 25, 2020 Noto batch via PR #2823. The font binary was sourced from the googlefonts/noto-fonts monorepo at commit `1b5d974daaa002333b2a5a068d0a7f2d1121b3b7`.
+
+The commit was verified by blob-hash comparison: the font binary blob hash at this commit in the googlefonts/noto-fonts monorepo matches the blob added to google/fonts in PR #2823 (commit a559a6efc).
+
+**Note**: UI variant. Dec 25 2020 batch.
+
+**Confidence**: HIGH (blob-verified)
+
+## Build Configuration (Override)
+
+An override `config.yaml` has been created in the google/fonts family directory, copied from `sources/config-sans-telugu.yaml` in the `notofonts/telugu` repository (the current per-script Noto repo). **Important caveat**: this config references the current notofonts/ per-script repo sources, which may produce a newer version than the binary currently shipped in google/fonts. The shipped binary was built from the older `googlefonts/noto-fonts` monorepo using a different build pipeline. This override config serves as a starting point for reproducible build attempts but is not expected to produce a byte-identical match.

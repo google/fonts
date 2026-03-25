@@ -12,5 +12,5 @@ familyName: Noto Serif
 googleFonts: true
 recipeProvider: noto
 sources:
-- NotoSerif.glyphspackage
-- NotoSerif-Italic.glyphspackage
+- sources/NotoSerif.glyphspackage
+- sources/NotoSerif-Italic.glyphspackage

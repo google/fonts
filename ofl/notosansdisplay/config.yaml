@@ -17,5 +17,5 @@ includeSubsets:
     start: 2304
 recipeProvider: noto
 sources:
-- NotoSans.glyphspackage
-- NotoSans-Italic.glyphspackage
+- sources/NotoSans.glyphspackage
+- sources/NotoSans-Italic.glyphspackage

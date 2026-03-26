@@ -1,0 +1,6 @@
+# Override config.yaml for ofl/oxygen
+# NOTE: This is a best-effort starting point for reproducible builds.
+# The shipped binary may have been built with different tools/versions.
+#
+sources:
+  - Oxygen-Regular.ufo

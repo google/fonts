@@ -18,3 +18,7 @@ subsets: "tibetan"
 primary_script: "Tibt"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/jomolhari"
+  commit: "08671f0429160658734b73c0bf14bec35dd0fd84"
+}

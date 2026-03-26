@@ -71,3 +71,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 primary_script: "Deva"
+
+source {
+  repository_url: "https://github.com/EkType/Mukta"
+  commit: "418021bbb8f5e7bf0bfd96296f9e015bf953efed"
+}

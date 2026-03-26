@@ -1,0 +1,8 @@
+# Override config.yaml for ofl/prata
+# NOTE: This is a best-effort starting point for reproducible builds.
+# The shipped binary may have been built with different tools/versions.
+#
+# Config from upstream repo (cyrealtype/Prata sources/config.yaml)
+sources:
+  - sources/Prata.glyphs
+familyName: Prata

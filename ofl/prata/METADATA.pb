@@ -19,3 +19,7 @@ subsets: "menu"
 subsets: "vietnamese"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/cyrealtype/Prata"
+  commit: "db5f3799a47eb51bbfe0cb572986d26b37f8ec9e"
+}

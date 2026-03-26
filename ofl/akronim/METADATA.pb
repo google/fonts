@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/akronim"
+  commit: "9288ae0636d38a5b42002d6df8b5906c49fe9b1a"
+}

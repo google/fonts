@@ -62,3 +62,7 @@ subsets: "latin-ext"
 subsets: "menu"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/anoxic/neuton"
+  commit: "b376055d272ab8a54d490bfad487e96c1d047c97"
+}

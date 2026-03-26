@@ -1,0 +1,8 @@
+# Override config.yaml for ofl/neuton
+# NOTE: This is a best-effort starting point for reproducible builds.
+# The shipped binary may have been built with different tools/versions.
+#
+# Neuton has UFO sources (NB.ufo = Bold, NL.ufo = Light/Regular)
+# The naming is non-standard — NB/NL may need investigation
+sources:
+  - NL.ufo

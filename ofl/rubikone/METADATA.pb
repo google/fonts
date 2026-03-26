@@ -18,3 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/googlefonts/rubik"
+  commit: "e337a5f69a9bea30e58d05bd40184d79cc099628"
+}

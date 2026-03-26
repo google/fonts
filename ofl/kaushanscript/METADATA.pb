@@ -17,3 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+
+source {
+  repository_url: "https://github.com/librefonts/kaushanscript"
+  commit: "b1b7451878d44084faa32e3bcc5ce043f4d1acf4"
+}

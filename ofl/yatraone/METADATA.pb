@@ -17,3 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 primary_script: "Deva"
+
+source {
+  repository_url: "https://github.com/cathschmidt/yatra-one"
+  commit: "b991e49f275db52a5b59ee959c87d0f7ba5325f5"
+}

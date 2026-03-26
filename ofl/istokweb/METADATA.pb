@@ -46,3 +46,8 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+
+source {
+  repository_url: "https://github.com/m4rc1e/Istok-Web"
+  commit: "f995ade61785c37629bed658e1898096ad934ec5"
+}

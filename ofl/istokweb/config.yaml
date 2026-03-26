@@ -1,0 +1,7 @@
+# Override config.yaml for ofl/istokweb
+# NOTE: This is a best-effort starting point for reproducible builds.
+# The shipped binary may have been built with different tools/versions.
+#
+sources:
+  - IstokWeb.glyphs
+  - IstokWeb-Italic.glyphs

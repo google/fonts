@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/macondoswashcaps"
+  commit: "2768d9b33c7d703085314fcd8c823ad1a8b02edb"
+}

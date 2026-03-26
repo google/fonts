@@ -24,3 +24,8 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+
+source {
+  repository_url: "https://github.com/librefonts/lusitana"
+  commit: "8fa070c2ac2963f13feee142e2001777ac48e774"
+}

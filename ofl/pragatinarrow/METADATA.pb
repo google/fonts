@@ -26,3 +26,8 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 primary_script: "Deva"
+
+source {
+  repository_url: "https://github.com/Omnibus-Type/PragatiNarrow"
+  commit: "829be323c427aab3669e2eb55e253573aeefb1e3"
+}

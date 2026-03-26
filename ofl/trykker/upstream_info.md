@@ -1,26 +1,18 @@
+# Trykker — Source Repository Investigation
+
 **Model**: Claude Opus 4.6
 
-## Trykker
+## Source Repository
 
-**Designer**: Magnus Gaarde
+| Field | Value |
+|-------|-------|
+| Repository | [SorkinType/Trykker](https://github.com/SorkinType/Trykker) |
+| Commit | `5226cb075048ff1d3bd16fd0a0c42ece45629afb` |
+| Binary Date | 2015-03-07 |
+| Source Types | binary/TTX only |
+| Buildable | No |
+| Confidence | Medium (date correlation) |
 
-### Upstream Repository Search
+## Notes
 
-Trykker was designed by Magnus Gaarde and mastered by Eben Sorkin of Sorkin Type. The FONTLOG.txt confirmed that the source was created in FontLab VBF format:
-
-> "12 Dec 2011 (Magnus Gaarde) Trykker v1.000 — Completed first complete version of Trykker in Fontlab (VBF format)"
-> "12 Dec 2011 (Eben Sorkin) Trykker v1.001 — Mastered Font from Fontlab VBF to TTF"
-
-The following searches were conducted:
-
-1. **SorkinType/Trykker**: A repository was found at https://github.com/SorkinType/Trykker, but it was completely empty — created in January 2014 with size 0 bytes and no commits.
-2. **Magnus Gaarde**: The FONTLOG listed the designer's contact as design@skriftklog.dk and website http://skriftklog.dk, but no GitHub account was found.
-3. **Broader searches**: GitHub searches for "Trykker font" and related terms returned no repositories with font sources.
-
-### Status
-
-No canonical upstream repository with UFO or Glyphs sources was found. The original source was in FontLab VBF format and has not been published publicly. No source block was added to `METADATA.pb`.
-
-### Conclusion
-
-The SorkinType/Trykker repository exists on GitHub but is empty. The original FontLab VBF sources were never committed. The font predates widespread use of open source font workflows.
+Source repository for trykker. Commit determined by date correlation with the last binary modification in google/fonts (2015-03-07).

@@ -50,3 +50,8 @@ subsets: "menu"
 subsets: "vietnamese"
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"
+
+source {
+  repository_url: "https://github.com/googlefonts/cousine"
+  commit: "7f897dbd87fbd14d2f8ec0306d5c1ed2317dfe47"
+}

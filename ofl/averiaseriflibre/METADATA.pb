@@ -61,3 +61,7 @@ subsets: "latin"
 subsets: "menu"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/averiaseriflibre"
+  commit: "d1b2ab3fcea4e6a77af02a5e7861ed7753793dfd"
+}

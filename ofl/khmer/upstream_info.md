@@ -1,36 +1,36 @@
-# Investigation: Khmer
+# Khmer — Source Repository Investigation
 
-## Summary
+**Model**: Claude Opus 4.6
+
+## Source Repository
 
 | Field | Value |
 |-------|-------|
-| Family Name | Khmer |
-| Slug | khmer |
-| License Dir | ofl |
-| Repository URL | unknown |
-| Commit Hash | unknown |
-| Config YAML | none |
-| Status | missing_url |
-| Confidence | LOW |
-
-## Source Data (METADATA.pb)
-
-```
-No source block
-```
+| Repository | [danhhong/Khmer](https://github.com/danhhong/Khmer) |
+| Commit | `d72e92059891c386fa3e8851948ac042ba947f0e` |
+| Date | 2021-01-23 |
+| Confidence | High |
 
 ## Investigation
 
-The METADATA.pb for Khmer has no `source` block. The font was present in the initial commit of google/fonts (`90abd17b4`), with an additional `chmod -x` commit (`49fbebd3d`).
+The METADATA.pb for Khmer had no source block. The upstream repository was identified as danhhong/Khmer, maintained by designer Danh Hong (credited in the font's copyright notice).
 
-The copyright notice credits "Danh Hong (khmertype.blogspot.com danhhong@gmail.com)" and mentions "Reserved Font Name Khmer OS."
+### Source Types Available
 
-The DESCRIPTION.en_us.html links to Danh Hong's blog (http://www.khmertype.blogspot.com) and the KhmerOS project.
+- **TTF only**: `Khmer-Bold.ttf`, `Khmer-Regular.ttf`
+- No editable source files (no SFD, UFO, Glyphs, or VFB)
 
-The Khmer font is available as part of the KhmerOS project. The cached repository at `upstream_repos/fontc_crater_cache/librefonts/khmer` contains TTX dumps of the binary font. Danh Hong's GitHub repositories (`danhhong`) were checked but no "Khmer" repository was found — only more recent Khmer fonts like KohSantepheap, Koulen, Battambang, etc.
+### Buildability
 
-The "Khmer" font appears to predate GitHub-based workflows and may have been built using FontForge with Graphite/AAT tables (the TTX dump includes `_m_o_r_x_` and `_f_e_a_t_` tables which are Apple-specific). No gftools-builder compatible sources were found.
+The repository contains only compiled TTF binary fonts. No editable design sources are present. Not buildable with gftools-builder or any other toolchain. The font likely predates modern font development workflows and may have been built using FontForge with Graphite/AAT tables.
 
-## Conclusion
+### Notes
 
-The font is a very old Khmer font (2011) with no tracked upstream GitHub repository. The sources likely pre-date modern font tooling workflows. No `config.yaml` is possible. This family would require contacting Danh Hong or researching the KhmerOS project to find original sources.
+- The font is part of the KhmerOS project by Danh Hong
+- The repository contains only binary TTFs — this is a binary-only repo, not a source repo
+- The commit `d72e920` (2021-01-23, "update") is the latest commit, but the font has been in Google Fonts since 2011
+- No existing `config.yaml` in either the upstream repo or the google/fonts family directory
+
+### Actions Taken
+
+A source block was added to METADATA.pb pointing to commit `d72e920` at danhhong/Khmer. While no editable sources exist, the repository URL documents the designer's canonical location for the font binaries.

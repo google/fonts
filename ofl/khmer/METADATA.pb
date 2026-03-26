@@ -15,3 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "khmer"
 primary_script: "Khmr"
+
+source {
+  repository_url: "https://github.com/danhhong/Khmer"
+  commit: "d72e92059891c386fa3e8851948ac042ba947f0e"
+}

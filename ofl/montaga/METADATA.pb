@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/montaga"
+  commit: "1c439c4e7d38e452718e8e67834c810641d1685a"
+}

@@ -1,47 +1,36 @@
-# Miltonian Tattoo — Source Metadata Investigation
+# Miltonian Tattoo — Source Repository Investigation
 
 **Model**: Claude Opus 4.6
-**Date**: 2026-03-12
 
-## Repository
+## Source Repository
 
-- **URL**: https://github.com/impallari/Miltonian
-- **Owner**: Pablo Impallari (impallari)
-- **Latest commit**: `95d180e8744380f93a8437226e58032d484882c7`
-- **Commit date**: 2016-01-15
-- **Commit message**: `v1.7`
-- **Default branch**: `master`
+| Field | Value |
+|-------|-------|
+| Repository | [impallari/Miltonian](https://github.com/impallari/Miltonian) |
+| Commit | `95d180e8744380f93a8437226e58032d484882c7` |
+| Date | 2016-01-15 |
+| Confidence | High |
 
-Note: The repository is named "Miltonian" and contains both the Miltonian and Miltonian Tattoo fonts in the same repo. The Miltonian Tattoo TTF binary and its VFB source file are both present.
+## Investigation
 
-## Source Files
+The METADATA.pb for Miltonian Tattoo had no source block. The upstream repository is impallari/Miltonian, which is a shared repository containing both Miltonian and Miltonian Tattoo sources.
 
-The `source/` directory contains VFB (FontLab Studio) source files:
+### Source Types Available
 
-- `source/MiltonianTattoo-Regular.vfb` — main source file (216 KB)
-- `source/MiltonianTattoo-Regular-OTF.vfb` — OTF-tuned variant
-- `source/MiltonianTattoo-Regular-TTF.vfb` — TTF-tuned variant
-- `source/Miltonian-Regular.vfb` — companion Miltonian (non-tattoo) source
-- `source/Miltonian-Regular-OTF.vfb`
-- `source/Miltonian-Regular-TTF.vfb`
+- **VFB** (FontLab): `source/MiltonianTattoo-Regular.vfb`, `source/MiltonianTattoo-Regular-OTF.vfb`, `source/MiltonianTattoo-Regular-TTF.vfb`
+- **Binary fonts**: `fonts/TTF/MiltonianTattoo-Regular-TTF.ttf`, `fonts/OTF/MiltonianTattoo-Regular.otf`
 
-Built TTF binaries are in `fonts/TTF/`:
-- `fonts/TTF/MiltonianTattoo-Regular-TTF.ttf`
-- `fonts/TTF/Miltonian-Regular-TTF.ttf`
+### Buildability
 
-## Build System
+VFB-only editable sources (FontLab Studio proprietary format). No `.glyphs`, `.ufo`, or `.designspace` files are present. Not directly buildable with gftools-builder.
 
-No automated build system is present. There is no Makefile, build script, or requirements file. The repo contains pre-built TTF and OTF binaries alongside the VFB sources. The workflow appears to be manual export from FontLab Studio.
+### Notes
 
-## config.yaml Status
+- Same repository as Miltonian (impallari/Miltonian contains both families)
+- The designer Pablo Impallari passed away in 2021; the repo is unlikely to receive further updates
+- Commit `95d180e` (2016-01-15, "v1.7") is the latest content commit, matching the google/fonts update (2016-01-25)
+- No existing `config.yaml` in either the upstream repo or the google/fonts family directory
 
-No `config.yaml` exists in the upstream repo or in the `ofl/miltoniantattoo/` directory in google/fonts.
+### Actions Taken
 
-## Notes
-
-- The repository has been effectively dormant since January 2016 (last commit v1.7).
-- The source format is FontLab VFB, which is a proprietary binary format. There are no open/interoperable source files (UFO, Glyphs, etc.).
-- The repo covers both Miltonian and Miltonian Tattoo; the Google Fonts entries for these two families are separate (`miltoniantattoo` and `miltonian`), both pointing to the same upstream.
-- No config.yaml or gftools build pipeline exists; a new one would need to be created from scratch.
-- The designer, Pablo Impallari, passed away in 2021. The repo is unlikely to receive further upstream updates.
-- Confidence in repo identification: **High** — the repo is authored by Impallari, explicitly named "Miltonian Fonts", and contains the exact filenames referenced in the METADATA.pb copyright notice.
+A source block was added to METADATA.pb pointing to commit `95d180e` at impallari/Miltonian.

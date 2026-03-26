@@ -16,3 +16,8 @@ subsets: "menu"
 subsets: "latin"
 stroke: "SERIF"
 classifications: "DISPLAY"
+
+source {
+  repository_url: "https://github.com/impallari/Miltonian"
+  commit: "95d180e8744380f93a8437226e58032d484882c7"
+}

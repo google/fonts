@@ -48,3 +48,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+
+source {
+  repository_url: "https://github.com/googlefonts/tinos"
+  commit: "aaf68d53c2d49dbd443631c333c804bf4c664e60"
+}

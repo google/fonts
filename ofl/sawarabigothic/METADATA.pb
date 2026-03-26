@@ -18,3 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/sawarabi-mincho"
+  commit: "397399cfaf018172046c936c0d774de0c5cbba82"
+}

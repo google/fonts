@@ -14,3 +14,7 @@ fonts {
 }
 subsets: "menu"
 subsets: "myanmar"
+source {
+  repository_url: "https://github.com/khmertype/Yinmar"
+  commit: "6ee5643de838e2a55446cd6567190d883dc57cef"
+}

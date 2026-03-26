@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/moyogo/molengo-fonts"
+  commit: "9e390dcfd861f8774bc5ae369732a66861a2dc4a"
+}

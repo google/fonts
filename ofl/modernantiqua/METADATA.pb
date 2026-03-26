@@ -17,3 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
+
+source {
+  repository_url: "https://github.com/wmk69/Modern-Antiqua"
+  commit: "f88d41ebebb9614874068d3142b6af52b707e917"
+}

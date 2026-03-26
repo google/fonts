@@ -76,3 +76,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+
+source {
+  repository_url: "https://github.com/coz-m/MPLUS_FONTS"
+  commit: "eb604901d6f04b6f7f2a84b0378c58df84a9dba6"
+}

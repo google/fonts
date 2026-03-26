@@ -1,21 +1,32 @@
+# Yeon Sung — Source Repository Investigation
+
 **Model**: Claude Opus 4.6
 
-# Yeon Sung — Upstream Source Investigation
+## Source Repository
 
-## Summary
+| Field | Value |
+|-------|-------|
+| Repository | https://github.com/woowabros/Yeonsung |
+| Commit | `599fc1b88ba87312e69b3ad9085158542fbcccc1` |
+| Confidence | High |
 
-A binary-only repository was found for Yeon Sung but it contained no UFO or Glyphs source files. No source block was added to `METADATA.pb`.
+## Source Types
 
-## Repository Found (Binary Only)
+The repository contains compiled font files only:
+- `FONT/YEONSUNG.otf and YEONSUNG.ttf` — OTF and TTF binaries
 
-- **URL**: https://github.com/woowabros/Yeonsung
-- **Owner**: Woowahan Brothers (Baemin food delivery company)
-- **Contents**: `FONT/YEONSUNG.otf`, `FONT/YEONSUNG.ttf`, `OFL.txt`, `README.md`
+No editable design sources (Glyphs, UFO, etc.) are available.
+
+## Build Compatibility
+
+Not buildable with gftools-builder. The repository contains only compiled OTF/TTF binaries, not editable source files. This is typical of Korean font releases from Woowahan Brothers (Baemin/Baedal Minjok).
 
 ## Investigation Notes
 
-The font was published by Woowahan Brothers (배달의민족 / Baemin) as part of their branded font suite. The repository at `woowabros/Yeonsung` contained only OTF and TTF binaries with no source files (no UFO, Glyphs, or other editable sources). The complete git tree was confirmed to contain only 4 files. No other repository with UFO or Glyphs sources for this font was found.
+Woowahan Brothers (the company behind Baemin/Baedal Minjok food delivery service) released several Korean display fonts as open source. The Yeon Sung repository contains only the final compiled fonts without design sources. The binary in google/fonts was last updated on 2024-01-19 (hotfix for space & nbspace characters).
 
-## Status
+A source block was added to METADATA.pb pointing to this repository and commit.
 
-**Skipped** — the upstream repository contains binary releases only; no UFO/Glyphs sources were available.
+## Confidence: High
+
+Woowahan Brothers (woowabros) is the original publisher and this is their official repository.

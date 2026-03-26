@@ -16,3 +16,8 @@ subsets: "korean"
 subsets: "latin"
 subsets: "menu"
 primary_script: "Kore"
+
+source {
+  repository_url: "https://github.com/woowabros/Yeonsung"
+  commit: "599fc1b88ba87312e69b3ad9085158542fbcccc1"
+}

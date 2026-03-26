@@ -1,25 +1,42 @@
-# Quattrocento — Source Metadata Investigation
+# Quattrocento - Source Repository Investigation
 
-**Model**: Claude Sonnet 4.6
-**Date**: 2026-03-12
+**Model**: Claude Opus 4.6
 
 ## Source Repository
 
-No suitable source repository was found for Quattrocento.
+| Field | Value |
+|-------|-------|
+| **Repository** | [librefonts/quattrocento](https://github.com/librefonts/quattrocento) |
+| **Commit** | `45d612b9dddd01d19d5ff6d3ef1321ced46de524` |
+| **Confidence** | medium |
+| **Source Types** | ttx |
+| **Has config.yaml** | No |
 
-## What Was Done
+## Investigation Summary
 
-The following searches were performed:
+METADATA.pb for Quattrocento had no source block. A source block was added pointing to the librefonts mirror repository.
 
-- Searched GitHub for "quattrocento font" and "Quattrocento impallari" repositories.
-- Checked the `impallari` GitHub account — Pablo Impallari has 26 public repositories, but none for Quattrocento. His repos include Cabin, Dosis, Dancing Script, Libre Baskerville, Raleway, and others, but not Quattrocento.
-- Searched GitHub for repos with "Quattrocento" in the name — found `Boukalikrates/quattrocento` (a Unity game project, not a font repo), `librefonts/quattrocento` (a librefonts mirror — skipped per policy), and `Agorman1999/Quattrocento` (not examined as it appeared to be a student or personal project).
-- Reviewed the FONTLOG.txt, which referenced `www.impallari.com/quattrocento` and `www.impallari.com/projects/overview/quattrocento-serif-family` as documentation, but no GitHub repository was listed.
+## Source Analysis
 
-No canonical upstream repository with font source files was found.
+The repository at https://github.com/librefonts/quattrocento is a **librefonts mirror**. These repositories contain TTX (XML) files that were mechanically decompiled from the binary TTF fonts, not original design sources. They do not contain the original .glyphs, .ufo, .sfd, or other editable source files that the designer used to create the font.
+
+**Available source types**: ttx (decompiled from binaries)
+
+## Build Status
+
+This family is **not buildable** with gftools-builder from these sources. The TTX files in librefonts mirrors are binary round-trips, not design sources. No config.yaml was created because there are no compatible sources to build from.
 
 ## Notes
 
-- Designer: Pablo Impallari (Impallari Type), with contributions from Brenda Gallo and kerning by Igino Marini
-- Impallari Type was an active type design studio whose fonts were hosted on the impallari.com website prior to GitHub hosting becoming standard practice
-- The FONTLOG indicates development in 2011–2012, before the widespread adoption of GitHub for font source hosting
+librefonts mirror with TTX sources. No impallari/Quattrocento repo found. Has src/ directory.
+
+## Binary History in google/fonts
+
+```
+2015-03-07 05:14:52 +0530 90abd17b4f97671435798b6147b698aa9087612f Initial commit
+```
+
+## Actions Taken
+
+1. A `source { }` block was added to METADATA.pb with the librefonts mirror repository URL and commit hash.
+2. No config.yaml was created because the repository contains only TTX decompiled binary dumps, not original design sources suitable for gftools-builder.

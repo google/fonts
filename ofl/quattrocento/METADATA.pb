@@ -26,3 +26,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/quattrocento"
+  commit: "45d612b9dddd01d19d5ff6d3ef1321ced46de524"
+}

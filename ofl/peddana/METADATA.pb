@@ -16,3 +16,8 @@ subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
 primary_script: "Telu"
+
+source {
+  repository_url: "https://github.com/appajid/peddana"
+  commit: "717395267a5ebc69cee39b4eda415fffd39321aa"
+}

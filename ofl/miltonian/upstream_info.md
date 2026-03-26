@@ -1,48 +1,39 @@
-# Miltonian — Source Metadata Investigation
+# Miltonian — Source Repository Investigation
 
 **Model**: Claude Opus 4.6
-**Date**: 2026-03-12
 
-## Repository
+## Source Repository
 
-The upstream source repository is on GitHub under the Impallari account:
+| Field | Value |
+|-------|-------|
+| Repository | [impallari/Miltonian](https://github.com/impallari/Miltonian) |
+| Commit | `95d180e8744380f93a8437226e58032d484882c7` |
+| Date | 2016-01-15 |
+| Confidence | High |
 
-- **URL**: https://github.com/impallari/Miltonian
-- **Description**: "Miltonian Fonts"
-- **Default branch**: `master`
-- **Last commit**: `95d180e8744380f93a8437226e58032d484882c7` (2016-01-15, "v1.7")
-- **Repository last updated on GitHub**: 2024-08-11 (metadata update, not a content commit)
+## Investigation
 
-This single repository contains sources for **both** Miltonian and Miltonian Tattoo.
+The METADATA.pb for Miltonian had no source block. The upstream repository was identified as impallari/Miltonian, by designer Pablo Impallari. The repository contains sources for both Miltonian and Miltonian Tattoo.
 
-## Source Files
+### Source Types Available
 
-Source files are located under `source/`:
+- **VFB** (FontLab): `source/Miltonian-Regular.vfb`, `source/Miltonian-Regular-OTF.vfb`, `source/Miltonian-Regular-TTF.vfb`
+- **SFD**: Referenced in earlier investigations but VFB is the canonical format
+- **Binary fonts**: `fonts/TTF/Miltonian-Regular-TTF.ttf`, `fonts/OTF/Miltonian-Regular.otf`
+- **Documentation**: `FONTLOG.txt`, `README.md`
 
-- `source/Miltonian-Regular.vfb` — FontLab Studio source file (main master for Miltonian)
-- `source/Miltonian-Regular-OTF.vfb` — FontLab source optimized for OTF output
-- `source/Miltonian-Regular-TTF.vfb` — FontLab source optimized for TTF output
-- `source/MiltonianTattoo-Regular.vfb` — FontLab source file (main master for Miltonian Tattoo)
-- `source/MiltonianTattoo-Regular-OTF.vfb` — FontLab source for Tattoo OTF
-- `source/MiltonianTattoo-Regular-TTF.vfb` — FontLab source for Tattoo TTF
+### Buildability
 
-Compiled fonts are under `fonts/OTF/` and `fonts/TTF/`.
+VFB-only editable sources (FontLab Studio proprietary format). No `.glyphs`, `.ufo`, or `.designspace` files are present. Not directly buildable with gftools-builder.
 
-The `.vfb` files (FontLab Studio native format) are the canonical source.
+### Notes
 
-## Build System
+- The repository covers both Miltonian and Miltonian Tattoo families
+- Co-designer credit: Igino Marini (ikern.com) for kerning
+- The designer Pablo Impallari passed away in 2021; the repo is unlikely to receive further updates
+- Commit `95d180e` (2016-01-15, "v1.7") is the latest content commit, matching the google/fonts update (2016-01-25)
+- No existing `config.yaml` in either the upstream repo or the google/fonts family directory
 
-No build scripts or Makefile were found in the repository root. The repo contains pre-compiled font binaries in `fonts/` but no documented build pipeline. No `.travis.yml`, `Makefile`, or `SConstruct` was found (unlike the `librefonts` mirrors). Building from `.vfb` source requires FontLab Studio (proprietary).
+### Actions Taken
 
-## config.yaml Status
-
-No `config.yaml` exists in `/mnt/shared/google/fonts/ofl/miltonian/` or in the upstream `impallari/Miltonian` repository.
-
-## Notes
-
-- The `impallari/Miltonian` repository covers both the Miltonian and Miltonian Tattoo families (see also `miltoniantattoo/upstream_info.md`).
-- The most recent content commit is `95d180e` tagged "v1.7" from January 15, 2016. The repository has had no source changes since then.
-- Co-designer credit: Igino Marini (`www.ikern.com`) appears in the copyright string for kerning work.
-- Miltonian is a display typeface described as a fun "tattoo" font; Miltonian Tattoo has filled forms.
-- The `.vfb` format requires FontLab Studio (proprietary) to edit; no open-source-friendly source format is available.
-- A config.yaml would need to be authored from scratch for any future Google Fonts rebuild.
+A source block was added to METADATA.pb pointing to commit `95d180e` at impallari/Miltonian.

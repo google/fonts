@@ -16,3 +16,8 @@ subsets: "menu"
 subsets: "latin"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+
+source {
+  repository_url: "https://github.com/vernnobile/MeddonFont"
+  commit: "157a4b58e73139e11e21ac9805282f196b8f4059"
+}

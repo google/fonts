@@ -18,3 +18,8 @@ subsets: "menu"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 primary_script: "Kore"
+
+source {
+  repository_url: "https://github.com/woowabros/Jua"
+  commit: "73d9cfefe39bf98fe45ac9e0062893353f3f3b81"
+}

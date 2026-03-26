@@ -17,3 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 primary_script: "Gujr"
+
+source {
+  repository_url: "https://github.com/lipiraval/Mogra"
+  commit: "048039d237a99cd102ce254615cba9818c75c711"
+}

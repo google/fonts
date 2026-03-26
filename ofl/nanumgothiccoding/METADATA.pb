@@ -27,3 +27,7 @@ subsets: "korean"
 primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"
+source {
+  repository_url: "https://github.com/naver/nanumfont"
+  commit: "770142018d7b23abe48a1ff9370adeac3bbbcd0e"
+}

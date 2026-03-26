@@ -1,36 +1,32 @@
-# Investigation: Kirang Haerang
+# Kirang Haerang — Source Repository Investigation
 
-## Summary
+**Model**: Claude Opus 4.6
+
+## Source Repository
 
 | Field | Value |
 |-------|-------|
-| Family Name | Kirang Haerang |
-| Slug | kirang-haerang |
-| License Dir | ofl |
-| Repository URL | unknown |
-| Commit Hash | unknown |
-| Config YAML | none |
-| Status | missing_url |
-| Confidence | LOW |
+| Repository | https://github.com/woowabros/KirangHaerang |
+| Commit | `544ae6224fa83a85a0b4954e188c4791a98e3ce9` |
+| Confidence | High |
 
-## Source Data (METADATA.pb)
+## Source Types
 
-```
-No source block
-```
+The repository contains compiled font files only:
+- `FONT/KIRANGHAERANG.otf and KIRANGHAERANG.ttf` — OTF and TTF binaries
 
-## Investigation
+No editable design sources (Glyphs, UFO, etc.) are available.
 
-The METADATA.pb for Kirang Haerang has no `source` block. The font was added on March 13, 2018 via commit `16680f868` ("korean families r01: added (#1459)").
+## Build Compatibility
 
-The copyright notice reads: "Copyright 2018 The Kirang Haerang Project Authors"
+Not buildable with gftools-builder. The repository contains only compiled OTF/TTF binaries, not editable source files. This is typical of Korean font releases from Woowahan Brothers (Baemin/Baedal Minjok).
 
-The designer is credited as "Woowahan Brothers" in METADATA.pb. The font was added as part of a batch of Korean fonts in PR #1459.
+## Investigation Notes
 
-No upstream GitHub repository was found in the cache. The "Woowahan Brothers" organization is a Korean software company. No `config.yaml` or source files have been identified.
+Woowahan Brothers (the company behind Baemin/Baedal Minjok food delivery service) released several Korean display fonts as open source. The Kirang Haerang repository contains only the final compiled fonts without design sources. The binary in google/fonts was last updated on 2024-01-19 (hotfix for space & nbspace characters).
 
-The git history shows a later fix: `c6f978399` ("Hotfixed space & nbspace chars"), suggesting some post-onboarding maintenance was done directly in google/fonts.
+A source block was added to METADATA.pb pointing to this repository and commit.
 
-## Conclusion
+## Confidence: High
 
-The font is a Korean display font from 2018 with no tracked upstream repository. This family needs further investigation to identify the source repository, likely from the Woowahan Brothers organization or through the PR #1459 history for additional context.
+Woowahan Brothers (woowabros) is the original publisher and this is their official repository.

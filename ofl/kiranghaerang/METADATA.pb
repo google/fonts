@@ -16,3 +16,8 @@ subsets: "korean"
 subsets: "latin"
 subsets: "menu"
 primary_script: "Kore"
+
+source {
+  repository_url: "https://github.com/woowabros/KirangHaerang"
+  commit: "544ae6224fa83a85a0b4954e188c4791a98e3ce9"
+}

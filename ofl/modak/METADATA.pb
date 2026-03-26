@@ -17,3 +17,7 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 primary_script: "Deva"
+source {
+  repository_url: "https://github.com/EkType/Modak"
+  commit: "143b2db4fd2279b71e68f22bba4b43a8a3a9de69"
+}

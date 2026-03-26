@@ -16,3 +16,8 @@ subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
 primary_script: "Telu"
+
+source {
+  repository_url: "https://github.com/appajid/ponnala"
+  commit: "c1366dc5361da5f9dd8ed1c8864efc259a77672e"
+}

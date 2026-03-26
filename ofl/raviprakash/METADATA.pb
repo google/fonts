@@ -16,3 +16,8 @@ subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
 primary_script: "Telu"
+
+source {
+  repository_url: "https://github.com/appajid/raviprakash"
+  commit: "0f5d8d7f5a7d263feef811baaa16c143313f27da"
+}

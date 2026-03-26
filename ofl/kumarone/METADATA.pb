@@ -19,3 +19,8 @@ subsets: "menu"
 primary_script: "Gujr"
 stroke: "SERIF"
 classifications: "DISPLAY"
+
+source {
+  repository_url: "https://github.com/itfoundry/kumar"
+  commit: "3192a79a79202eb715d83fd044e9234a6d0dde66"
+}

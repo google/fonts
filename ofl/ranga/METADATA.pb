@@ -28,3 +28,7 @@ subsets: "menu"
 primary_script: "Deva"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/antonxheight/Ranga"
+  commit: "15fadcc52c43bfbe15915c530b2409f8bcf244e4"
+}

@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/ralewaydots"
+  commit: "c845d1a8e75014ad17dbbf2633119226bed462d8"
+}

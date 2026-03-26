@@ -1,27 +1,42 @@
-# Raleway Dots — Source Metadata Investigation
+# Raleway Dots - Source Repository Investigation
 
-**Model**: Claude Sonnet 4.6
-**Date**: 2026-03-12
+**Model**: Claude Opus 4.6
 
 ## Source Repository
 
-No suitable source repository was found for Raleway Dots.
+| Field | Value |
+|-------|-------|
+| **Repository** | [librefonts/ralewaydots](https://github.com/librefonts/ralewaydots) |
+| **Commit** | `c845d1a8e75014ad17dbbf2633119226bed462d8` |
+| **Confidence** | medium |
+| **Source Types** | ttx |
+| **Has config.yaml** | No |
 
-## What Was Done
+## Investigation Summary
 
-The following searches were performed:
+METADATA.pb for Raleway Dots had no source block. A source block was added pointing to the librefonts mirror repository.
 
-- Searched GitHub for "raleway dots font" and "RalewayDots" repositories.
-- Checked the `impallari` GitHub account — found `impallari/Raleway`, which contains Glyphs source files for the main Raleway family, but no Raleway Dots variant.
-- Inspected `impallari/Raleway/source/` — found Glyphs files for Raleway Roman and Italic, but no Raleway Dots files.
-- Checked the `rfuenzalida` GitHub account (co-designer Rodrigo Fuenzalida) — no Raleway Dots repository found.
-- Searched for repos with "RalewayDots" in the name — found only `librefonts/ralewaydots` (a librefonts mirror — skipped per policy) and `google-fonts-bower/ralewaydots-bower` (a Bower packaging mirror).
-- Reviewed the FONTLOG.txt, which referenced `www.impallari.com/projects` as documentation, but no dedicated GitHub repository was listed.
+## Source Analysis
 
-No canonical upstream repository with font source files was found for Raleway Dots specifically.
+The repository at https://github.com/librefonts/ralewaydots is a **librefonts mirror**. These repositories contain TTX (XML) files that were mechanically decompiled from the binary TTF fonts, not original design sources. They do not contain the original .glyphs, .ufo, .sfd, or other editable source files that the designer used to create the font.
+
+**Available source types**: ttx (decompiled from binaries)
+
+## Build Status
+
+This family is **not buildable** with gftools-builder from these sources. The TTX files in librefonts mirrors are binary round-trips, not design sources. No config.yaml was created because there are no compatible sources to build from.
 
 ## Notes
 
-- Designers: Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida, and Brenda Gallo
-- Raleway Dots is a decorative dotted variant of the Raleway family, released in 2012
-- The main Raleway repo under impallari does not include Raleway Dots sources
+librefonts mirror with TTX sources. Note: impallari/Raleway exists but covers main Raleway, not Dots variant.
+
+## Binary History in google/fonts
+
+```
+2019-07-10 10:45:16 +0100 023aa4b2855c95413d1b1c510ad812beb345df75 Remove trailing whitespace from font family names
+```
+
+## Actions Taken
+
+1. A `source { }` block was added to METADATA.pb with the librefonts mirror repository URL and commit hash.
+2. No config.yaml was created because the repository contains only TTX decompiled binary dumps, not original design sources suitable for gftools-builder.

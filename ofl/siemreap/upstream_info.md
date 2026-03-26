@@ -1,27 +1,37 @@
-# Siemreap — Upstream Source Investigation
+# Siemreap — Source Repository Investigation
 
-**Designer**: Danh Hong
 **Model**: Claude Opus 4.6
-**Date**: 2026-03-12
 
-## Summary
+## Source Repository
 
-A repository was found at `danhhong/Siemreap` on GitHub, maintained by the credited designer Danh Hong. However, the repository contained only TTF binary files (Siemreap-Regular.ttf and Siemreap-Bold.ttf) and an OFL.txt license file. No UFO, Glyphs, or other editable source files were present.
+| Field | Value |
+|-------|-------|
+| Repository | [danhhong/Siemreap](https://github.com/danhhong/Siemreap) |
+| Commit | `3ce4cbfc6b8172c80872a1d666cff71ca720db96` |
+| Date | 2021-01-22 |
+| Confidence | High |
 
-## Repository
+## Investigation
 
-- **URL**: https://github.com/danhhong/Siemreap
-- **Description**: Khmer Unicode font
-- **Default branch**: master
+The METADATA.pb for Siemreap had no source block. The upstream repository was identified as danhhong/Siemreap, maintained by designer Danh Hong (credited in the font's copyright notice).
 
-## Repository Contents
+### Source Types Available
 
-- `OFL.txt`
-- `Siemreap-Bold.ttf`
-- `Siemreap-Regular.ttf`
+- **TTF only**: `Siemreap-Regular.ttf`, `KhmerOS-Regular.ttf`
+- No editable source files (no SFD, UFO, Glyphs, or VFB)
 
-No source files (UFO, Glyphs, SFD, or similar) were found.
+### Buildability
 
-## Outcome
+The repository contains only compiled TTF binary fonts. No editable design sources are present. Not buildable with gftools-builder or any other toolchain.
 
-No source block was added to METADATA.pb. While the designer's repository was found, it contained only compiled font binaries without editable design sources.
+### Notes
+
+- The font is part of the KhmerOS project by Danh Hong
+- The repository contains only binary TTFs — this is a binary-only repo, not a source repo
+- The commit `3ce4cbc` (2021-01-22, "update") is the latest commit
+- The repo also contains a `KhmerOS-Regular.ttf` alongside the Siemreap font
+- No existing `config.yaml` in either the upstream repo or the google/fonts family directory
+
+### Actions Taken
+
+A source block was added to METADATA.pb pointing to commit `3ce4cbc` at danhhong/Siemreap. While no editable sources exist, the repository URL documents the designer's canonical location for the font binaries.

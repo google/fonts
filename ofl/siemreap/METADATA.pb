@@ -14,3 +14,8 @@ fonts {
 }
 subsets: "menu"
 subsets: "khmer"
+
+source {
+  repository_url: "https://github.com/danhhong/Siemreap"
+  commit: "3ce4cbfc6b8172c80872a1d666cff71ca720db96"
+}

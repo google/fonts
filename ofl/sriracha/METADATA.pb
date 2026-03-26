@@ -20,3 +20,8 @@ subsets: "vietnamese"
 primary_script: "Thai"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+
+source {
+  repository_url: "https://github.com/cadsondemak/sriracha"
+  commit: "6c6cf92ed8b0b45caca566d999d2dadc7e35f2fd"
+}

@@ -77,3 +77,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 primary_script: "Jpan"
+
+source {
+  repository_url: "https://github.com/coz-m/MPLUS_FONTS"
+  commit: "9cb1a484f5f8c5c18c7e2f83a13c812aec15c11d"
+}

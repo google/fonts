@@ -18,3 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/marckscript"
+  commit: "699f31478702f9901c943b7be7caa6e38b6535b7"
+}

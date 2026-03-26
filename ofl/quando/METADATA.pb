@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/quando"
+  commit: "328635dcbaae8f2fc4fd84c9b872e596a82bebe5"
+}

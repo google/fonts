@@ -17,3 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+
+source {
+  repository_url: "https://github.com/librefonts/grandhotel"
+  commit: "b0716771fb1056ca9db1d65d94e62ecf9dbedefa"
+}

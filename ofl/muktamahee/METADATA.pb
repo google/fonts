@@ -71,3 +71,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 primary_script: "Guru"
+
+source {
+  repository_url: "https://github.com/EkType/Mukta"
+  commit: "7db4b0fc09894ad6814346172f6f0c1cf822a722"
+}

@@ -16,3 +16,8 @@ subsets: "latin"
 subsets: "menu"
 subsets: "tamil"
 primary_script: "Taml"
+
+source {
+  repository_url: "https://github.com/smc/Meera"
+  commit: "c689e9c5a4ea7b23a8a1a7ab2af535d3cd609bdf"
+}

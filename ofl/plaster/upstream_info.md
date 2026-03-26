@@ -1,14 +1,18 @@
-# Plaster — Source Metadata Investigation
+# Plaster — Source Repository Investigation
+
 **Model**: Claude Opus 4.6
-**Date**: 2026-03-12
 
 ## Source Repository
-- **URL**: No source block present
-- **Commit**: N/A
-- **Status**: absent
 
-## What Was Done
-The existing source metadata was reviewed. No source block was found in METADATA.pb.
+| Field | Value |
+|-------|-------|
+| Repository | [SorkinType/Plaster](https://github.com/SorkinType/Plaster) |
+| Commit | `6879ba56c377a4df76cb15889e4e7a4985b50abd` |
+| Binary Date | 2015-03-07 |
+| Source Types | binary/TTX only |
+| Buildable | No |
+| Confidence | Medium (date correlation) |
 
 ## Notes
-Designer: Sorkin Type (Eben Sorkin). Script: Latin. Category: DISPLAY.
+
+Source repository for plaster. Commit determined by date correlation with the last binary modification in google/fonts (2015-03-07).

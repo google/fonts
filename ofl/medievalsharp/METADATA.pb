@@ -17,3 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+
+source {
+  repository_url: "https://github.com/wmk69/Medieval-Sharp"
+  commit: "ee7510b6b13854fd340e7d2e44c218780f672cd1"
+}

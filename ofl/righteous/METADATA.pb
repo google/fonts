@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/righteous"
+  commit: "583c13c301c5e1dd0a4ae2d7b6cd42bc9c58f953"
+}

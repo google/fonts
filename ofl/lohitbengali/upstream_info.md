@@ -102,3 +102,7 @@ No `config_yaml` field should be added because:
 - An override config.yaml cannot be created without compatible source files
 
 **Confidence**: MEDIUM — The commit hash identification is based on version string matching (2.5.1) and date range analysis (the font was generated on 2012-09-26, between commit `0df83ad` on 2012-02-29 and the next Bengali-touching commit `04c8c91` on 2012-10-18). The font could theoretically have been generated from a different checkout or release tarball, though this is unlikely given the matching version and copyright strings.
+
+## Commit Added (HIGH confidence)
+
+Commit `a403c9b7f509dad5e58dde85ef63b1c36fde3a21` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2015-03-07). This is the most reliable method.

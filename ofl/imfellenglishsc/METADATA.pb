@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
+  commit: "34a4488608a28f901546cfccf90a5b00ae0fc5a0"
   repository_url: "https://github.com/librefonts/imfellenglishsc"
 }

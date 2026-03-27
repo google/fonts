@@ -24,5 +24,6 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
+  commit: "ae525e02f5d502306cdf16dc09f787851109dfb4"
   repository_url: "https://github.com/librefonts/imfellfrenchcanon"
 }

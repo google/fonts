@@ -61,6 +61,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "9b015af5d8ab574b6afeffd324443bfcbf77e300"
   repository_url: "https://github.com/BlackFoundryCom/InriaFonts"
 }
 stroke: "SERIF"

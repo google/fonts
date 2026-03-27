@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "tamil"
 source {
+  commit: "a403c9b7f509dad5e58dde85ef63b1c36fde3a21"
   repository_url: "https://github.com/pravins/lohit"
 }
 primary_script: "Taml"

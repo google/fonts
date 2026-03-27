@@ -99,3 +99,7 @@ source {
 - The commit `ffb56a5` represents the last modification to Tamil sources at version 2.5.0 (matching the binary in google/fonts)
 - Confidence: **MEDIUM** — version match is confirmed (2.5.0), but the exact build point within the v2.5.0 range (Sep 2011 to Feb 2012) is uncertain
 - Status: **incomplete** — no config.yaml is possible for SFD-only sources
+
+## Commit Added (HIGH confidence)
+
+Commit `a403c9b7f509dad5e58dde85ef63b1c36fde3a21` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2015-03-07). This is the most reliable method.

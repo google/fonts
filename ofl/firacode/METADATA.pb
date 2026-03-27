@@ -26,5 +26,6 @@ axes {
   max_value: 700.0
 }
 source {
+  commit: "8da49d55f8b5978c5f888dd85452b79aad16cca2"
   repository_url: "https://github.com/tonsky/FiraCode"
 }

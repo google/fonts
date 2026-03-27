@@ -16,6 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "3491f6a9cfde2bc15e736463b0bc7d93054d5da1"
   repository_url: "https://github.com/impallari/Libre-Caslon-Display"
 }
 stroke: "SERIF"

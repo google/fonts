@@ -53,6 +53,7 @@ subsets: "latin-ext"
 subsets: "limbu"
 subsets: "menu"
 source {
+  commit: "2c6ac797b061941d1f46c980910982b1b1f240ab"
   repository_url: "https://github.com/silnrsi/font-namdhinggo"
   archive_url: "https://github.com/silnrsi/font-namdhinggo/releases/download/v3.001/Namdhinggo-3.001.zip"
   files {

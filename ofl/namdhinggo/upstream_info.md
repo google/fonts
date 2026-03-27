@@ -51,3 +51,7 @@ Without local access to the `font-namdhinggo` repo, the exact source format cann
 - Reserved Font Names: "Namdhinggo" and "SIL".
 - To fully enrich source metadata (e.g., add `config.yaml`, identify build toolchain, confirm source file format), the upstream repo at https://github.com/silnrsi/font-namdhinggo would need to be cloned and inspected.
 - The release archive structure (`Namdhinggo-3.001/`) is the standard SIL distribution format.
+
+## Commit Added (HIGH confidence)
+
+Commit `2c6ac797b061941d1f46c980910982b1b1f240ab` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-07-06). This is the most reliable method.

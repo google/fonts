@@ -16,6 +16,7 @@ subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
 source {
+  commit: "9bd37b4c66a42ed6f78619c305a59fe13aee2316"
   repository_url: "https://github.com/danhhong/Moul"
   files {
     source_file: "OFL.txt"

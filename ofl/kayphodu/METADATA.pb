@@ -44,6 +44,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "4c49d8ac7ae00cf0ee10db3c3c35dc49ca9efd4d"
   repository_url: "https://github.com/silnrsi/font-kayphodu"
   archive_url: "https://github.com/silnrsi/font-kayphodu/releases/download/v3.000/KayPhoDu-3.000.zip"
   files {

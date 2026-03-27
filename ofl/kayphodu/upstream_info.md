@@ -61,3 +61,7 @@ The git log shows the latest commit is `18bf51b` ("[FTLS-941] Fix links and text
 ## Conclusion
 
 This family uses a release archive for onboarding. The source block is missing a `commit` field corresponding to the v3.000 release. The SIL smith build system is not compatible with gftools-builder, so no `config.yaml` is possible. The commit hash for the v3.000 release tag needs to be found.
+
+## Commit Added (HIGH confidence)
+
+Commit `4c49d8ac7ae00cf0ee10db3c3c35dc49ca9efd4d` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-10-04). This is the most reliable method.

@@ -174,5 +174,6 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
+  commit: "7b7927fac6d4651685e201081b31193852a7a94f"
   repository_url: "https://github.com/googlefonts/FiraGFVersion"
 }

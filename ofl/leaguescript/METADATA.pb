@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
+  commit: "225add0b37cf8268759ba4572e02630d9fb54ecf"
   repository_url: "https://github.com/theleagueof/league-script-number-one"
 }
 classifications: "DISPLAY"

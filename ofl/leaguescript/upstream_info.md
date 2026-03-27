@@ -42,3 +42,7 @@ Since the repo has only one commit, that commit is the most likely candidate for
 ## Conclusion
 
 The repository URL is present but the commit hash is missing. The upstream repo has only one commit (`225add0`), which is likely the reference commit. The sources include UFO format which could support an override `config.yaml`, but the VFB file is the primary design source (FontLab format).
+
+## Commit Added (MEDIUM confidence)
+
+Commit `225add0b37cf8268759ba4572e02630d9fb54ecf` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2019-07-09). This assumes the upstream HEAD at onboarding time was the commit used.

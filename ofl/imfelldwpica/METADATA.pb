@@ -24,5 +24,6 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
+  commit: "0d86e14c53d15bed552ac4b2619a091ca36d4443"
   repository_url: "https://github.com/librefonts/imfelldwpica"
 }

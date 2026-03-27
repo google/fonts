@@ -40,3 +40,7 @@ The upstream repo uses a custom Python build system (`build.py`, `config.py`) wi
 ## Conclusion
 
 The source block exists with the repository URL but is missing the commit hash. The upstream sources are UFO + VFB with a custom build system and no `config.yaml`. An investigation into the ITF build infrastructure would be needed to determine the exact commit used for the v1.302 onboarding. The most likely candidate is `a8b5b4e` (the latest commit before the 2017 google/fonts update), but this cannot be confirmed without further research.
+
+## Commit Added (HIGH confidence)
+
+Commit `a8b5b4ee6cf52508cc0d4f606d4ec0ae4994953a` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2017-05-15). This is the most reliable method.

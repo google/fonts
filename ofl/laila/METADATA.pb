@@ -53,6 +53,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "a8b5b4ee6cf52508cc0d4f606d4ec0ae4994953a"
   repository_url: "https://github.com/itfoundry/laila"
 }
 primary_script: "Deva"

@@ -36,6 +36,6 @@ languages: "tts_Thai"  # Northeastern Thai
 primary_script: "Thai"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "282a3a827151188c0ee4bce392e89e6ef4c16323"
+  repository_url: "https://github.com/notofonts/thai"
+  commit: "a79e109f3fee8b3e5f952c8dadcae4b7b341f562"
 }

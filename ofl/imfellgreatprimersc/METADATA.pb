@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
+  commit: "beb2648c0d5952f43287c5638f6613de64fbfccf"
   repository_url: "https://github.com/librefonts/imfellgreatprimersc"
 }

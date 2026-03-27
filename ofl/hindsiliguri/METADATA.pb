@@ -53,6 +53,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "affb7dbd00dc554c33ecafc92cbfef5323ae5235"
   repository_url: "https://github.com/itfoundry/hind-siliguri"
 }
 primary_script: "Beng"

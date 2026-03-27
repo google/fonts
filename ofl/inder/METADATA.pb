@@ -16,5 +16,6 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
+  commit: "5620f4744158d400ba1286612d14d49c43597033"
   repository_url: "https://github.com/librefonts/inder"
 }

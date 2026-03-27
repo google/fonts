@@ -52,3 +52,7 @@ Without a local clone of `font-narnoor`, the exact source format cannot be confi
 - The `math` and `symbols` subsets are notable for a script-focused font — this likely reflects Unicode coverage of mathematical or general symbols in the Latin/symbols range.
 - To fully enrich source metadata and determine if a `config.yaml` can be added, the upstream repo at https://github.com/silnrsi/font-narnoor would need to be cloned and inspected.
 - The release archive structure (`Narnoor-3.000/`) follows the standard SIL distribution format.
+
+## Commit Added (HIGH confidence)
+
+Commit `53fa5d8f5c3afecd9c2247ef7c8b26a02208f267` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-11-02). This is the most reliable method.

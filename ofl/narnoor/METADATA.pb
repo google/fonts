@@ -55,6 +55,7 @@ subsets: "math"
 subsets: "menu"
 subsets: "symbols"
 source {
+  commit: "53fa5d8f5c3afecd9c2247ef7c8b26a02208f267"
   repository_url: "https://github.com/silnrsi/font-narnoor"
   archive_url: "https://github.com/silnrsi/font-narnoor/releases/download/v3.000/Narnoor-3.000.zip"
   files {

@@ -48,3 +48,7 @@ This indicates the upstream source is a Glyphs file (`sources/Nabla.glyphs`), bu
 - The font covers a broad range of scripts including Cyrillic extensions, Latin extensions, math symbols, and Vietnamese — unusual for a display font, suggesting strong Unicode coverage.
 - No upstream repo cache is available locally; would need to clone from `https://github.com/justvanrossum/nabla` to inspect build tooling further.
 - The `config.yaml` listing `sources/Nabla.glyphs` suggests the upstream repo has a Glyphs source file that could be used for building, but Google Fonts is currently consuming pre-built binaries from the release ZIP.
+
+## Commit Added (HIGH confidence)
+
+Commit `2a06e9f735390a7988d0ef190981ce4abf4dfd28` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2022-09-21). This is the most reliable method.

@@ -29,6 +29,7 @@ axes {
   max_value: 24.0
 }
 source {
+  commit: "2a06e9f735390a7988d0ef190981ce4abf4dfd28"
   repository_url: "https://github.com/justvanrossum/nabla"
   archive_url: "https://github.com/justvanrossum/nabla/releases/download/v1.002/nabla-fonts.zip"
   files {

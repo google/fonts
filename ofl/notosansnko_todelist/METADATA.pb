@@ -23,5 +23,6 @@ display_name: "Noto Sans N\'Ko"
 primary_script: "Nkoo"
 
 source {
+  commit: "20bc5918912503bc1537a407a694738c33c048aa"
   repository_url: "https://github.com/googlefonts/noto-fonts"
 }

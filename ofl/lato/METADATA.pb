@@ -174,6 +174,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
+  commit: "080cb69711ca050d91e9c866e58df7a73095c69a"
   repository_url: "https://github.com/googlefonts/LatoGFVersion"
 }
 fallbacks {

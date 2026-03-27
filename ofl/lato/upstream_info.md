@@ -42,3 +42,7 @@ This repo contains prebuilt TTF files in `src/` rather than design-time sources.
 ## Conclusion
 
 The repository URL is present but the commit hash is missing. The most likely onboarding commit is `080cb69` ("fonts: regenerated", 2016-11-28), which is the HEAD of the LatoGFVersion repo at the time of the google/fonts addition. However, the source contains only prebuilt TTF files and custom shell/Python build scripts — no gftools-builder compatible sources. No `config.yaml` is possible without proper design sources.
+
+## Commit Added (MEDIUM confidence)
+
+Commit `080cb69711ca050d91e9c866e58df7a73095c69a` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2016-12-02). This assumes the upstream HEAD at onboarding time was the commit used.

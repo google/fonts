@@ -25,5 +25,6 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
+  commit: "bccbe87bf5a91ebb43d149cd786cdabde71c8e52"
   repository_url: "https://github.com/librefonts/inika"
 }

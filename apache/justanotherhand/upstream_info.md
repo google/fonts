@@ -51,3 +51,7 @@ No override `config.yaml` exists in the google/fonts directory.
 ## Conclusion
 
 Just Another Hand has a librefonts mirror at `https://github.com/librefonts/justanotherhand`. The only available source format is FontLab VFB, which is not compatible with gftools-builder. No `config.yaml` can be created without first converting sources. The family is Apache-licensed and not currently tracked in the gfonts_library_sources.json file. Status: no_config_possible.
+
+## Commit Added (MEDIUM confidence)
+
+Commit `151e64a17c149d2d5f75040e7ce8783810b9b818` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2017-08-07). This assumes the upstream HEAD at onboarding time was the commit used.

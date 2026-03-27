@@ -15,5 +15,6 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
+  commit: "151e64a17c149d2d5f75040e7ce8783810b9b818"
   repository_url: "https://github.com/librefonts/justanotherhand"
 }

@@ -70,3 +70,7 @@ The SourceHut fork is the actively maintained upstream. It contains expanded gly
 ## Confidence
 
 **High** — Robert Alessi's fork is clearly a continuation of the original project, with proper attribution and OFL licensing. The SourceHut bug tracker is active.
+
+## Commit Added (LOW confidence)
+
+Commit `b8feb6753e80522bfec434da05a5d31b6b3ff094` was determined by **head**. Used the current HEAD of the repository. No date correlation was possible. This is a best guess.

@@ -53,6 +53,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "d1972e4ebebc3a65feef2f66823a83444469ece4"
   repository_url: "https://github.com/itfoundry/hind-vadodara"
 }
 primary_script: "Gujr"

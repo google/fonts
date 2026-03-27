@@ -27,6 +27,7 @@ axes {
   max_value: 700.0
 }
 source {
+  commit: "a1268635894c5ee23dfdece570418ca07b66c3fc"
   repository_url: "https://github.com/coz-m/MPLUS_FONTS"
   files {
     source_file: "fonts/ttf/MPLUSCodeLatin[wdth,wght].ttf"

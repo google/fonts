@@ -98,3 +98,7 @@ Note: `config_yaml` field should remain omitted because the override `config.yam
 - **Confidence**: HIGH
 - **What's needed**: Add `commit: "c1dbf07dd69dc7146e073a549810166587c65de3"` to the source block in METADATA.pb
 - **Override config**: Already in place at `ofl/enriqueta/config.yaml`
+
+## Commit Added (MEDIUM confidence)
+
+Commit `bdb2460d4ea80582af5d55c790650e645c629e8a` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2019-07-08). This assumes the upstream HEAD at onboarding time was the commit used.

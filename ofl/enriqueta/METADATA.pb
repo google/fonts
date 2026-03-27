@@ -43,6 +43,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "bdb2460d4ea80582af5d55c790650e645c629e8a"
   repository_url: "https://github.com/vv-monsalve/Enriqueta_2019"
 }
 stroke: "SERIF"

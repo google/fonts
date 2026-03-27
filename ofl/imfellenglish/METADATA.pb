@@ -24,5 +24,6 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
+  commit: "4cc247267036e091cd401802ec99a383a403454a"
   repository_url: "https://github.com/librefonts/imfellenglish"
 }

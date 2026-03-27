@@ -57,3 +57,7 @@ The likely onboarding commit is `49b96562` ("Merge pull request #9 from yanone/m
 ## Conclusion
 
 The `commit` field needs to be added to the METADATA.pb source block. The most likely candidate is `49b96562` (the v1.300 release PR merge). The Glyphs sources exist but no `config.yaml` - an override config.yaml could be created in google/fonts. This needs further confirmation of the exact commit hash and creation of a config.yaml.
+
+## Commit Added (MEDIUM confidence)
+
+Commit `a2c0c9552f98295167bc33bdb9c6256dd6abdc8a` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2021-03-31). This assumes the upstream HEAD at onboarding time was the commit used.

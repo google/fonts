@@ -32,6 +32,7 @@ axes {
   max_value: 900.0
 }
 source {
+  commit: "a2c0c9552f98295167bc33bdb9c6256dd6abdc8a"
   repository_url: "https://github.com/originaltype/kufam"
   files {
     source_file: "OFL.txt"

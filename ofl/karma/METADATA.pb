@@ -53,6 +53,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "12228946ce59ce2008e0a95a6b222632e6481121"
   repository_url: "https://github.com/itfoundry/karma"
 }
 primary_script: "Deva"

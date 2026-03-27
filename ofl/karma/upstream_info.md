@@ -38,3 +38,7 @@ The git log in the cached repo shows the last commit as `1222894` ("Compile 2.00
 ## Conclusion
 
 The source block needs a `commit` field added. The commit to use would need to be identified by cross-referencing the upstream git history with the May 2017 google/fonts update. No `config.yaml` is possible as the repository uses a custom build system (Python scripts with FontLab VFB sources). This is a missing_commit case.
+
+## Commit Added (HIGH confidence)
+
+Commit `12228946ce59ce2008e0a95a6b222632e6481121` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2017-05-15). This is the most reliable method.

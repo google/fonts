@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
+  commit: "c5c5f602213ac00b181d95e2078fff665dd31809"
   repository_url: "https://github.com/cyrealtype/Federant"
 }
 stroke: "SERIF"

@@ -83,3 +83,7 @@ This correctly references the Glyphs source file in the upstream repo.
 **Status: complete**
 
 The source metadata is complete. The repository URL is verified and correct. The recommended commit hash is `27af9e8ea8f29ac810ffc0f76b4f240b70af0b24` (HEAD of master, the "Compile 1.000" commit). Note that the current TTFs in google/fonts may correspond to an earlier version (pre-1.000) since onboarding predated the v1.000 compile. An override config.yaml already exists in google/fonts. The only missing piece in METADATA.pb is the `commit_hash` field.
+
+## Commit Added (MEDIUM confidence)
+
+Commit `6d0af0d80b97ce24b8b1ff61d60f814c8904626d` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2015-09-14). This assumes the upstream HEAD at onboarding time was the commit used.

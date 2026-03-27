@@ -53,5 +53,6 @@ subsets: "gurmukhi"
 subsets: "latin"
 subsets: "latin-ext"
 source {
+  commit: "6d0af0d80b97ce24b8b1ff61d60f814c8904626d"
   repository_url: "https://github.com/itfoundry/hind-jalandhar"
 }

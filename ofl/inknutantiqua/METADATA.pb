@@ -71,6 +71,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
+  commit: "9db4a5c235ef042adbc0da37fcf3dda3ffe59201"
   repository_url: "https://github.com/clauseggers/Inknut-Antiqua"
 }
 primary_script: "Deva"

@@ -51,3 +51,7 @@ An override `config.yaml` in the google/fonts family directory could reference t
 ## Conclusion
 
 The source block for Inknut Antiqua is incomplete: it has `repository_url` but is missing both `commit` and `config_yaml`. The upstream repository has `.glyphs` source files but no `config.yaml`. Status: `missing_commit`. Actions needed: (1) identify the correct upstream commit corresponding to the current binary files in google/fonts; (2) create an override `config.yaml` in the google/fonts directory referencing `Inknut Antiqua uprights.glyphs`.
+
+## Commit Added (HIGH confidence)
+
+Commit `9db4a5c235ef042adbc0da37fcf3dda3ffe59201` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2020-10-08). This is the most reliable method.

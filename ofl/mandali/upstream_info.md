@@ -96,3 +96,7 @@ source {
 The commit hash **77ee092** is recommended because it is the only commit where the sources still contained Latin characters matching the binary. No `config_yaml` field is included because there is no config.yaml in the upstream repo and the SFD/UFO2 sources are not readily compatible with gftools-builder. An override config.yaml is not recommended at this time due to the source format limitations and the source/binary mismatch at the latest commit.
 
 **Status justification**: Marked as `incomplete` because while the repository URL is verified and a plausible commit hash was identified, there is no build configuration and the source/binary relationship is uncertain. The font's legacy source format (SFD + UFO2) and dormant upstream make full metadata enrichment difficult.
+
+## Commit Added (MEDIUM confidence)
+
+Commit `b5d09820cc850e98417250895a11bf0605ab2510` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2015-03-07). This assumes the upstream HEAD at onboarding time was the commit used.

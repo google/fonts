@@ -48,6 +48,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
+  commit: "7ac5e5ca61b776c5b8df4522c04b9707573ffd42"
   repository_url: "https://github.com/silnrsi/font-gentium"
   archive_url: "https://github.com/silnrsi/font-gentium/releases/download/v6.101/GentiumPlus-6.101.zip"
   files {

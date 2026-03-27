@@ -16,3 +16,7 @@ The existing source metadata was reviewed. A `source` block was present pointing
 - Category: SANS_SERIF (MONOSPACE classification)
 - Variable axes: wdth (62.5–100), wght (100–900)
 - Monospaced variant of Noto Sans; covers an extensive range of Latin, Cyrillic, and Greek script languages.
+
+## Commit Added (HIGH confidence)
+
+Commit `9b7310b8f99fcd2583c49606e6aefca13a391350` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-09-30). This is the most reliable method.

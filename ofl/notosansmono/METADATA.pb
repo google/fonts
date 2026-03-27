@@ -31,6 +31,7 @@ axes {
   max_value: 900.0
 }
 source {
+  commit: "9b7310b8f99fcd2583c49606e6aefca13a391350"
   repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
   archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSansMono-v2.014/NotoSansMono-v2.014.zip"
   files {

@@ -25,6 +25,7 @@ subsets: "menu"
 subsets: "vietnamese"
 
 source {
+  commit: "dd4741f58266ea26270ff1e487856b1ea73eb5b8"
   repository_url: "https://github.com/dnlzqn/nata-sans"
   archive_url: "https://github.com/dnlzqn/nata-sans/releases/download/v2.2/Nata.Sans.zip"
   files {

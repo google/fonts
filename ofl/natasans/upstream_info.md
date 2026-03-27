@@ -48,3 +48,7 @@ The font's variable nature (wght axis 100–900) and the `build/variable/` path 
 - The font covers Latin, Cyrillic, and Vietnamese — a broad coverage for a sans-serif variable font.
 - The `config_yaml` field in METADATA.pb references a `config.yaml` in the upstream repo, but this file has not been pulled into the google/fonts directory. A follow-up action would be to fetch and include the upstream `config.yaml` in the google/fonts directory.
 - To fully inspect build tooling, the upstream repo at https://github.com/dnlzqn/nata-sans would need to be cloned.
+
+## Commit Added (HIGH confidence)
+
+Commit `dd4741f58266ea26270ff1e487856b1ea73eb5b8` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2025-06-21). This is the most reliable method.

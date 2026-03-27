@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
+  commit: "e7117aa9c7faa9e456fea0ec4806c284a21b54fd"
   repository_url: "https://github.com/librefonts/imfellfrenchcanonsc"
 }

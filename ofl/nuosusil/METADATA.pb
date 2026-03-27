@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "yi"
 source {
+  commit: "1e9b50a3cb69f6ae01c8ca5da1af2d03a85c517f"
   repository_url: "https://github.com/silnrsi/font-nuosu"
   archive_url: "https://github.com/silnrsi/font-nuosu/releases/download/v2.300/NuosuSIL-2.300.zip"
   files {

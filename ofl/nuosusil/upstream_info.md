@@ -49,3 +49,7 @@ No `config.yaml` is present or referenced. The `METADATA.pb` does not have a `co
 - A future update to v2.400 or later (once a new release is made upstream) would be warranted, especially if the Bold weight is released.
 - No cached upstream repo found at `/mnt/shared/upstream_repos/fontc_crater_cache/silnrsi/font-nuosu`.
 - The `primary_script: "Yiii"` field in METADATA.pb correctly identifies this as a Yi script font.
+
+## Commit Added (HIGH confidence)
+
+Commit `1e9b50a3cb69f6ae01c8ca5da1af2d03a85c517f` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-06-22). This is the most reliable method.

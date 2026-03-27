@@ -37,3 +37,7 @@ The last upstream commit is `1f1d677` ("Compile 2.000"), dated November 21, 2014
 ## Conclusion
 
 The source block needs a `commit` field. The commit to use is likely `1f1d677` ("Compile 2.000" from Nov 2014) or an earlier version corresponding to the initial onboarding. No `config.yaml` is possible as the repository uses ITF's custom build system (Python scripts with FontLab/UFO sources).
+
+## Commit Added (HIGH confidence)
+
+Commit `1f1d6778d3a940999b543313b2371fa76b16a978` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2022-11-09). This is the most reliable method.

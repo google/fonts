@@ -15,3 +15,7 @@ The existing source metadata was reviewed. The source block contained a reposito
 - **Script**: Arabic (Kufic style)
 - **Category**: SANS_SERIF
 - Part of the Google Noto project at github.com/notofonts/arabic. Covers Arabic script in a Kufi style with variable weight (wght 100–900). Supports a wide range of Arabic-script languages.
+
+## Commit Added (HIGH confidence)
+
+Commit `652edd9688496f88c4cf41706c892fe10f9f3c92` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2024-02-12). This is the most reliable method.

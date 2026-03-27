@@ -24,6 +24,7 @@ axes {
   max_value: 900.0
 }
 source {
+  commit: "652edd9688496f88c4cf41706c892fe10f9f3c92"
   repository_url: "https://github.com/notofonts/arabic"
   archive_url: "https://github.com/notofonts/arabic/releases/download/NotoKufiArabic-v2.109/NotoKufiArabic-v2.109.zip"
   files {

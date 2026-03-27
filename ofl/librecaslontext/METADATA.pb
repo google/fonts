@@ -30,5 +30,6 @@ axes {
   max_value: 700.0
 }
 source {
+  commit: "52200a76d723e4a8cb9a566686ed1f56a794f39a"
   repository_url: "https://github.com/thundernixon/Libre-Caslon"
 }

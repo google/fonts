@@ -47,3 +47,7 @@ The font in google/fonts has been there since the initial commit in 2012. The up
 ## Conclusion
 
 The `repository_url` is present and correct. The `config_yaml` field is correctly absent (local override exists). The only missing piece is the `commit` hash. Since this family was onboarded before gftools-packager, the original commit cannot be reliably determined without comparing binary files. The commit hash needs investigation to identify which upstream commit corresponds to the font currently in google/fonts.
+
+## Commit Added (LOW confidence)
+
+Commit `bc37f476a7e982327ae359c67068356597cd45aa` was determined by **root_commit**. No upstream commits exist before the binary date (2015-03-07). Used the initial (root) commit of the repository. The repo may have been created after the font was onboarded.

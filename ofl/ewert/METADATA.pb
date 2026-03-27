@@ -18,5 +18,6 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
+  commit: "21fa9ed2031b8f7f1bec75cb3f91ad495e3b2370"
   repository_url: "https://github.com/librefonts/ewert"
 }

@@ -16,6 +16,7 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
 source {
+  commit: "438f3dd27a236961a705b1363eef4130241203ae"
   repository_url: "https://github.com/fontdasu/Mochiypop"
   files {
     source_file: "fonts/ttf/MochiyPopOne-Regular.ttf"

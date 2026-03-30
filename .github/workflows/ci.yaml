@@ -1,6 +1,5 @@
 # Check to_sandbox.txt and to_production.txt do not contain typos
 name: Continuous Test
-
 on:
   push:
     branches: [main]
@@ -19,45 +18,74 @@ on:
 
 permissions:
   contents: read
-
 jobs:
   test_server_files:
     runs-on: ubuntu-latest
     steps:
-    - name: Harden Runner
-      uses: step-security/harden-runner@v2.16.0
-      with:
-        egress-policy: audit
+      - name: Harden Runner
+        uses: step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594 # v2.16.0
+        with:
+          egress-policy: block
+          allowed-endpoints: >
+            api.deps.dev:443
+            api.github.com:443
+            api.osv.dev:443
+            api.scorecard.dev:443
+            api.securityscorecards.dev:443
+            bestpractices.coreinfrastructure.org:443
+            fulcio.sigstore.dev:443
+            github.com:443
+            oss-fuzz-build-logs.storage.googleapis.com:443
+            rekor.sigstore.dev:443
+            sigstore-tuf-root.storage.googleapis.com:443
+            tuf-repo-cdn.sigstore.dev:443
+            www.bestpractices.dev:443
 
-    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-    - name: Set up Python
-      uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
-      with:
-        python-version: "3.10"
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: "3.10"
 
-    # Check to_sandbox.txt and to_production.txt do not contain typos
-    - name: Install gftools
-      run: pip install gftools[qa]
-    - name: Lint server files
-      run: |
-        gftools push-status . --lint
+      # Check to_sandbox.txt and to_production.txt do not contain typos
+      - name: Install gftools
+        run: pip install gftools[qa]
+      - name: Lint server files
+        run: |
+          gftools push-status . --lint
 
   check_knowledge_graph:
     runs-on: ubuntu-latest
     steps:
-    - name: Harden Runner
-      uses: step-security/harden-runner@v2.16.0
-      with:
-        egress-policy: audit
+      - name: Harden Runner
+        uses: step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594 # v2.16.0
+        with:
+          egress-policy: block
+          allowed-endpoints: >
+            api.deps.dev:443
+            api.github.com:443
+            api.osv.dev:443
+            api.scorecard.dev:443
+            api.securityscorecards.dev:443
+            bestpractices.coreinfrastructure.org:443
+            fulcio.sigstore.dev:443
+            github.com:443
+            oss-fuzz-build-logs.storage.googleapis.com:443
+            rekor.sigstore.dev:443
+            sigstore-tuf-root.storage.googleapis.com:443
+            tuf-repo-cdn.sigstore.dev:443
+            www.bestpractices.dev:443
 
-    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-    - name: Set up Python
-      uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
-      with:
-        python-version: "3.10"
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: "3.10"
 
-    # Check Knowledge link graph
-    - name: Install dependencies
-      run: pip install absl-py mistune gftools
-    - name: Check Knowledge graph
-      run: python3 .github/workflows/knowledge_graph.py --check_outbound_links
+      # Check Knowledge link graph
+      - name: Install dependencies
+        run: pip install absl-py mistune gftools
+      - name: Check Knowledge graph
+        run: python3 .github/workflows/knowledge_graph.py --check_outbound_links

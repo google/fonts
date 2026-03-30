@@ -32,21 +32,23 @@ jobs:
 
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@v2.16.0
+        uses: step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594 # v2.16.0
         with:
-          disable-sudo: true
           egress-policy: block
           allowed-endpoints: >
-            github.com:443
+            api.deps.dev:443
             api.github.com:443
+            api.osv.dev:443
+            api.scorecard.dev:443
             api.securityscorecards.dev:443
-            oss-fuzz-build-logs.storage.googleapis.com:443
-            sigstore-tuf-root.storage.googleapis.com:443
             bestpractices.coreinfrastructure.org:443
-            www.bestpractices.dev:443
             fulcio.sigstore.dev:443
+            github.com:443
+            oss-fuzz-build-logs.storage.googleapis.com:443
             rekor.sigstore.dev:443
+            sigstore-tuf-root.storage.googleapis.com:443
             tuf-repo-cdn.sigstore.dev:443
+            www.bestpractices.dev:443
 
       - name: "Checkout code"
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2

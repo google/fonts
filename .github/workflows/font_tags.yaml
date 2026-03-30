@@ -30,6 +30,7 @@ jobs:
     # Check font tags data is correct
     - name: Install gftools
       run: pip install gftools[qa]
+
     - name: Test font tagging spreadsheet
       run: |
         gftools font-tags lint .

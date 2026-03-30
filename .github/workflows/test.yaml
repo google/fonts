@@ -6,7 +6,6 @@ on:
     - main
 
 jobs:
-
   diffbrowsers:
     name: Build Google Fonts
     runs-on: ${{ matrix.os }}
@@ -24,23 +23,28 @@ jobs:
         uses: styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa # 0.12.1
         with:
           access_token: ${{ github.token }}
-    
+
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
       - name: Set up Python 3.10
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: '3.10'
+
       - name: Install packages
         run: |
           pip install gftools[qa] pytest
         shell: bash
+
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@4f8e94349a351df0f048634f25fec36c3c91eded # latest
+
       - name: Setup Chrome Driver
         uses: nanasess/setup-chromedriver@c75c3d53d445b96d41dbf2355797b470953c6c30 # master
 
       - name: Setup Firefox
         uses: browser-actions/setup-firefox@233224b712fc07910ded8c15fb95a555c86da76f # latest
+
       - name: Setup Firefox Driver
         uses: browser-actions/setup-geckodriver@43a66ae697b28edeb8c6fa3995fad360713e6ef6 # latest
         with:
@@ -86,10 +90,12 @@ jobs:
           access_token: ${{ github.token }}
     
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
       - name: Set up Python 3.10
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: '3.10'
+
       - name: Install packages
         # The --pre flag below will ensure we use the latest Font Bakery pre-releases
         # and benefit from its newest checks:

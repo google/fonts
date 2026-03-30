@@ -65,7 +65,7 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@0b2256b8c012f0828dc542b3febcab082c67f72b # v4.3.4
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: qa
           path: out/
@@ -119,7 +119,7 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@0b2256b8c012f0828dc542b3febcab082c67f72b # v4.3.4
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: qa
           path: out/

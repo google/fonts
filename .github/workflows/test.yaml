@@ -37,7 +37,7 @@ jobs:
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@4f8e94349a351df0f048634f25fec36c3c91eded # latest
       - name: Setup Chrome Driver
-        uses: nanasess/setup-chromedriver@e93e57b843c0c92788f22483f1a31af8ee48db25 # master
+        uses: nanasess/setup-chromedriver@c75c3d53d445b96d41dbf2355797b470953c6c30 # master
 
       - name: Setup Firefox
         uses: browser-actions/setup-firefox@233224b712fc07910ded8c15fb95a555c86da76f # latest

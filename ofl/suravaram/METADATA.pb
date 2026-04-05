@@ -19,6 +19,4 @@ primary_script: "Telu"
 source {
   repository_url: "https://github.com/appajid/suravaram"
   commit: "c8d4e86f6a287199182d1ce6c97450307388dc23"
-  files_in_gfonts_pr: 1
-  source_files: "Suravaram.ufo"
 }

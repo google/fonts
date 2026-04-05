@@ -36,6 +36,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/noponies/sulphur-point"
   commit: "2c1a600846ca8b7890a89076aeeb2d43cdaeac23"
-  files_in_gfonts_pr: 3
-  source_files: "sources/sulphur-point.glyphs"
 }

@@ -19,6 +19,4 @@ primary_script: "Telu"
 source {
   repository_url: "https://github.com/appajid/suranna"
   commit: "ce1c1f150ba50e59fd9d95c114c40545c4e8fe04"
-  files_in_gfonts_pr: 1
-  source_files: "Suranna.ufo"
 }

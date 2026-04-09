@@ -26,16 +26,12 @@ source {
   commit: "4bf69824e45a175b9121b248c46abff103569051"
   repository_url: "https://github.com/coz-m/MPLUS_FONTS"
   files {
-    source_file: "fonts/ttf/Mplus2[wght].ttf"
-    dest_file: "Mplus2[wght].ttf"
+    source_file: "fonts/MPLUS2/variable/MPLUS2[wght].ttf"
+    dest_file: "MPLUS2[wght].ttf"
   }
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "Mplus2_DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "master"
 }

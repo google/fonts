@@ -23,7 +23,7 @@ axes {
   max_value: 900.0
 }
 source {
-  commit: "84c56ab8d094484cf18c555c12e9ef7708fa4fa5"
+  commit: "4bf69824e45a175b9121b248c46abff103569051"
   repository_url: "https://github.com/coz-m/MPLUS_FONTS"
   files {
     source_file: "fonts/ttf/Mplus2[wght].ttf"

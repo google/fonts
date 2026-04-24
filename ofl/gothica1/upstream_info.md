@@ -22,7 +22,7 @@ Gothic A1 is a Korean and Latin sans-serif font family by HanYang I&C Co., avail
 
 ### Onboarding History
 
-The font was onboarded to Google Fonts via PR #1459 ("korean families r01: added"), authored by Marc Foley and merged on 2018-03-13. This PR was a batch addition of multiple Korean font families. The PR body states: "Korean Font binaries have been mastered by Aaron Bell." The PR was part of a larger Korean fonts initiative.
+The font was onboarded to Google Fonts via PR #1459 ("korean families r01: added"), authored by Marc Foley and merged on 2018-03-13. [PR #1459](https://github.com/google/fonts/pull/1459) was a batch addition of multiple Korean font families. The PR body states: "Korean Font binaries have been mastered by Aaron Bell." The PR was part of a larger Korean fonts initiative.
 
 Commit in google/fonts: `16680f8688ffcd467d2eb2146a9ce0343404581d`
 

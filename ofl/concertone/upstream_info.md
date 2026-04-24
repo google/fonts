@@ -14,9 +14,7 @@
 
 ## How URL Found
 
-The repository URL `https://github.com/librefonts/concertone` was identified from the librefonts organization, which hosts mirrored source repositories for many early Google Fonts families. The source block was added in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files") on the pending PR branch `sources_info_2026-02-25` (PR #10270). [PR #10270](https://github.com/google/fonts/pull/10270) has not yet been merged into main.
-
-The current METADATA.pb on main does not have a source block.
+The repository URL `https://github.com/librefonts/concertone` was identified from the librefonts organization, which hosts mirrored source repositories for many early Google Fonts families. The initial bulk PR [#10270](https://github.com/google/fonts/pull/10270) ("Add source blocks to 602 more METADATA.pb files", branch `sources_info_2026-02-25`, commit `9a14639f3`) was closed without merge. The follow-up [PR #10271](https://github.com/google/fonts/pull/10271), which split the changes into one commit per family on branch `sources_per_family_2026-02-26`, was merged on 2026-02-26; the Concert One source block was added by commit `56d250fda` in that PR.
 
 ## How Commit Determined
 
@@ -35,7 +33,7 @@ These formats are not compatible with gftools-builder, which requires `.glyphs`,
 - Repository URL returns HTTP 200
 - Commit hash matches the HEAD of the cached repo
 - The font binary in google/fonts was last modified by a v-metrics hotfix (commit `dc96bd2ff`, May 2024, by Emma Marichal) applied directly to the binary - no upstream source changes
-- No source block exists in the main branch METADATA.pb (pending PR #10270)
+- Source block exists in main-branch METADATA.pb, added via [PR #10271](https://github.com/google/fonts/pull/10271) (merge commit `bb77776a5`)
 
 ## Confidence Level
 

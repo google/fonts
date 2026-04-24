@@ -65,3 +65,9 @@ axisOrder:
 ## Confidence
 
 **HIGH** -- The commit hash is explicitly stated by the font author (Stephen Nixon) in PR #2515 body, and it is the HEAD of the upstream master branch. The repository URL is confirmed by multiple sources (METADATA.pb, copyright notice, PR history). The only gap is the missing config.yaml, which would need to be created as an override.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/encodesans/` referencing the upstream gftools-builder-compatible source at the pinned commit `6407de8` (`sources/Encode-Sans.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration. STAT values omitted — gftools-builder will auto-derive.

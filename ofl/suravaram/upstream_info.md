@@ -31,3 +31,9 @@ The repository root contained:
 ## Action Taken
 
 A `source` block was added to `METADATA.pb` pointing to `https://github.com/appajid/suravaram` at commit `c8d4e86f6a287199182d1ce6c97450307388dc23`.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `c8d4e86` (upstream legacy: .sfd in repo root). Added an override `config.yaml` in `ofl/suravaram/` that references the compatible sources only (`Suravaram.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

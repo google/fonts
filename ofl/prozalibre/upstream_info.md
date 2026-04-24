@@ -26,3 +26,9 @@ The repository contains VFB source files along with TTF outputs for the full 10-
 ## Verdict
 
 **Canonical upstream repo found.** `https://github.com/jasperdewaard/Proza-Libre` is the designer-owned repository. METADATA.pb was updated with `repository_url` and `commit` fields.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/prozalibre/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `45ea7bb14c`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -51,3 +51,9 @@ Action needed: Identify the correct onboarding commit (likely `94732c5a` or `2bb
 ## Commit Added (HIGH confidence)
 
 Commit `9b015af5d8ab574b6afeffd324443bfcbf77e300` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2019-12-06). This is the most reliable method.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/inriaserif/` referencing the upstream gftools-builder-compatible source at the pinned commit `9b015af` (`masters/INRIA-SERIF/InriaSerif-Light.ufo`, `masters/INRIA-SERIF/InriaSerif-LightItalic.ufo`, `masters/INRIA-SERIF/InriaSerif-Regular.ufo`, `masters/INRIA-SERIF/InriaSerif-Italic.ufo`, `masters/INRIA-SERIF/InriaSerif-Bold.ufo`, `masters/INRIA-SERIF/InriaSerif-BoldItalic.ufo`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

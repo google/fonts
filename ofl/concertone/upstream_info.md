@@ -14,7 +14,7 @@
 
 ## How URL Found
 
-The repository URL `https://github.com/librefonts/concertone` was identified from the librefonts organization, which hosts mirrored source repositories for many early Google Fonts families. The source block was added in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files") on the pending PR branch `sources_info_2026-02-25` (PR #10270). This PR has not yet been merged into main.
+The repository URL `https://github.com/librefonts/concertone` was identified from the librefonts organization, which hosts mirrored source repositories for many early Google Fonts families. The source block was added in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files") on the pending PR branch `sources_info_2026-02-25` (PR #10270). [PR #10270](https://github.com/google/fonts/pull/10270) has not yet been merged into main.
 
 The current METADATA.pb on main does not have a source block.
 

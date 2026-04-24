@@ -56,3 +56,9 @@ Without a local clone of `font-narnoor`, the exact source format cannot be confi
 ## Commit Added (HIGH confidence)
 
 Commit `53fa5d8f5c3afecd9c2247ef7c8b26a02208f267` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-11-02). This is the most reliable method.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.designspace) and legacy `.sfd`/`.vfb` archives at the pinned commit `53fa5d8` (upstream legacy: .sfd in source/archive/). Added an override `config.yaml` in `ofl/narnoor/` that references the compatible sources only (`source/Narnoor.designspace`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

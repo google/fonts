@@ -55,3 +55,9 @@ No `config.yaml` exists in the upstream repo or in the `ofl/mirza/` directory in
 - Co-authors include Lasse Fister (graphicore) and Eduardo Tunni, both active in the broader font community.
 - The `gh-pages` branch likely hosts the project website.
 - Confidence in repo identification: **High** — repo name, owner email (`tarobish@gmail.com`), and multi-weight Arabic font structure all match the METADATA.pb exactly.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs) and legacy `.sfd`/`.vfb` archives at the pinned commit `fa7b59c` (upstream legacy: .sfd technical-additions and Latin sidecar source). Added an override `config.yaml` in `ofl/mirza/` that references the compatible sources only (`Sources/Mirza 2 Masters.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

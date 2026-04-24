@@ -29,3 +29,9 @@ The `sources/` directory contained:
 ## Action Taken
 
 A `source` block was added to `METADATA.pb` pointing to `https://github.com/MichalSahar/Suez` at commit `04af4fcca02b34b461033520fc758132f7519c49`.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/suezone/` referencing the upstream gftools-builder-compatible source at the pinned commit `04af4fc` (`sources/SuezOne.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

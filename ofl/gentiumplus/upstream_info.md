@@ -117,3 +117,9 @@ source {
 
 ### Status: `no_config_possible`
 ### Confidence: HIGH
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.designspace) and legacy `.sfd`/`.vfb` archives at the pinned commit `7ac5e5c` (upstream legacy: .vfb archives in source/archive/). Added an override `config.yaml` in `ofl/gentiumplus/` that references the compatible sources only (`source/GentiumPlusRoman.designspace`, `source/GentiumPlusItalic.designspace`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

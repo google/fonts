@@ -35,3 +35,9 @@ The repository was found by searching GitHub for `Sarpanch devanagari font`, whi
 ## Result
 
 A source block was added to METADATA.pb referencing the repository URL, the latest commit hash, and the primary UFO master source.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `265ec8e` (upstream legacy: .vfb masters in masters/). Added an override `config.yaml` in `ofl/sarpanch/` that references the compatible sources only (`styles/Regular/font.ufo`, `styles/Medium/font.ufo`, `styles/SemiBold/font.ufo`, `styles/Bold/font.ufo`, `styles/ExtraBold/font.ufo`, `styles/Black/font.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

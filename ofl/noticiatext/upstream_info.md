@@ -47,3 +47,9 @@ No `config.yaml` exists in `/mnt/shared/google/fonts/ofl/noticiatext/`. None is 
 - The FONTLOG describes an ambitious 18-style family vision (text, condensed, display, sans variants), but only the 4 text styles have been released.
 - The Glyphs source format (`.glyphs`) is the most practical entry point for any future maintenance work using modern tooling (`fontmake` + `gftools`).
 - A `config.yaml` could be authored to enable a `fontmake`-based build pipeline from the `.glyphs` sources, but this would require QA comparison against the manually hinted existing binaries.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs) and legacy `.sfd`/`.vfb` archives at the pinned commit `bcc80c5` (upstream legacy: .vfb archives in extras/vfb/). Added an override `config.yaml` in `ofl/noticiatext/` that references the compatible sources only (`source/NoticiaText-Regular.glyphs`, `source/NoticiaText-Italic.glyphs`, `source/NoticiaText-Bold.glyphs`, `source/NoticiaText-BoldItalic.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

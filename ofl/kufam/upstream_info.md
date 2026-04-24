@@ -61,3 +61,9 @@ The `commit` field needs to be added to the METADATA.pb source block. The most l
 ## Commit Added (MEDIUM confidence)
 
 Commit `a2c0c9552f98295167bc33bdb9c6256dd6abdc8a` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2021-03-31). This assumes the upstream HEAD at onboarding time was the commit used.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/kufam/` referencing the upstream gftools-builder-compatible source at the pinned commit `a2c0c95` (`sources/Kufam_Arabic_Latin_Roman_Master.glyphs`, `sources/Kufam_Latin_Italic_Master.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

@@ -29,7 +29,7 @@ The upstream repository has only one commit visible in the shallow clone: `b53b9
 
 1. **PR #3810** (merged 2021-09-24, by aaronbell): Initial onboarding of Bakbak One Version 1.002. The gftools-packager message referenced upstream commit `eee2dc2a6da7fe3d5e636180be4f30a814866ac2`, which is no longer available in the shallow clone. This was the first time the binary appeared in google/fonts.
 
-2. **PR #4176** (merged 2022-01-11, by Yanone): Updated to Bakbak Version 1.003. The PR body stated "Added fractions, Renamed remaining instances of BakBak to Bakbak, Added devanagari to METADATA.pb." This PR directly used the binary from the upstream repo.
+2. **PR #4176** (merged 2022-01-11, by Yanone): Updated to Bakbak Version 1.003. The PR body stated "Added fractions, Renamed remaining instances of BakBak to Bakbak, Added devanagari to METADATA.pb." [PR #4176](https://github.com/google/fonts/pull/4176) directly used the binary from the upstream repo.
 
 The METADATA.pb references commit `b53b9c31c16f0021b7c206a57a8f04a4d382bc67`, which corresponds to the "Added fractions" commit dated 2021-12-16. This commit predates the PR #4176 merge date (2022-01-11), making it a plausible source for the Version 1.003 update.
 

@@ -24,3 +24,9 @@ The repository was found at `mozilla/zilla-slab`. The DESCRIPTION.en_us.html in 
 ## Confidence
 
 High — the repository URL is referenced in DESCRIPTION.en_us.html and the Mozilla copyright holder confirms this as the canonical upstream source.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/zillaslab/` referencing the upstream gftools-builder-compatible source at the pinned commit `6dcec52` (`sources/ZillaSlab-Light.ufo`, `sources/ZillaSlab-LightItalic.ufo`, `sources/ZillaSlab-Regular.ufo`, `sources/ZillaSlab-Italic.ufo`, `sources/ZillaSlab-Medium.ufo`, `sources/ZillaSlab-MediumItalic.ufo`, `sources/ZillaSlab-SemiBold.ufo`, `sources/ZillaSlab-SemiBoldItalic.ufo`, `sources/ZillaSlab-Bold.ufo`, `sources/ZillaSlab-BoldItalic.ufo`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

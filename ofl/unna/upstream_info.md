@@ -26,3 +26,9 @@ The repository was located by searching for the Omnibus-Type organization on Git
 **Commit**: 826be2abebda53d63bcd99b7ca30a7061b89bcfd
 **Status**: Glyphs sources present
 **Confidence**: High
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/unna/` referencing the upstream gftools-builder-compatible source at the pinned commit `826be2a` (`sources/Unna.glyphs`, `sources/Unna Italic.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

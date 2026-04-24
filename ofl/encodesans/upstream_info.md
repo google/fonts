@@ -23,7 +23,7 @@ Note: This repo is Stephen Nixon's fork where the variable font upgrade was deve
 
 The commit hash `6407de854a4dc3bfbe2160a11c5b57f5a1baf3bc` was explicitly stated in the PR #2515 body by the author Stephen Nixon:
 
-> "This PR represents Encode Sans as of https://github.com/thundernixon/Encode-Sans/commit/6407de854a4dc3bfbe2160a11c5b57f5a1baf3bc."
+> "[PR [#2515](https://github.com/google/fonts/pull/2515)] represents Encode Sans as of https://github.com/thundernixon/Encode-Sans/commit/6407de854a4dc3bfbe2160a11c5b57f5a1baf3bc."
 
 This commit ("build v3.002 with fixed static names", 2020-06-24) is the HEAD of the master branch and also the only commit in the shallow clone. The GitHub API confirms it remains the latest commit on master. PR #2515 was merged on 2020-07-15, and the upstream commit dates to 2020-06-24, consistent with the timeline.
 

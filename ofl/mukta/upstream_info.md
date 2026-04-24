@@ -28,3 +28,9 @@ VFB-only editable sources. The TTX files are XML representations of compiled fon
 ### Actions Taken
 
 A source block was added to METADATA.pb pointing to commit `418021b` (2017-09-07, "Directory Cleanup"), which is the latest commit in the repository and represents the final state after the v2.538 update that was onboarded to google/fonts.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/mukta/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `418021bbb8`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -55,3 +55,9 @@ Without local access to the `font-namdhinggo` repo, the exact source format cann
 ## Commit Added (HIGH confidence)
 
 Commit `2c6ac797b061941d1f46c980910982b1b1f240ab` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-07-06). This is the most reliable method.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/namdhinggo/` referencing the upstream gftools-builder-compatible source at the pinned commit `2c6ac79` (`source/Namdhinggo.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

@@ -105,3 +105,9 @@ This is correct and complete for a VFB-only repository. The `config_yaml` field 
 - The upstream repo has been completely dormant since July 2016 (no activity in nearly 10 years)
 - The version discrepancy ("v1.100" in google/fonts vs "v1.002" in upstream) is a labeling artifact from the onboarding process
 - The repository is part of a pair: Libre Caslon Display and [Libre Caslon Text](https://github.com/impallari/Libre-Caslon-Text) are companion families
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/librecaslondisplay/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `3491f6a9cf`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

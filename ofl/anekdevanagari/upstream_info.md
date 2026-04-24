@@ -31,7 +31,7 @@ This commit is "Merge pull request #3 from yanone/main" dated 2022-02-14, which 
 
 There were two onboarding attempts:
 
-1. **PR #4276** (commit `eed6654ae`, earlier attempt): Referenced upstream commit `634384ab` (2022-02-09, "Merge pull request #2 from yanone/main"). The source block was removed during this PR.
+1. **PR #4276** (commit `eed6654ae`, earlier attempt): Referenced upstream commit `634384ab` (2022-02-09, "Merge pull request #2 from yanone/main"). The source block was removed during [PR #4276](https://github.com/google/fonts/pull/4276).
 2. **PR #4305** (commit `ac1371ad5`, merged 2022-02-18): The final onboarding, referencing the newer upstream commit `34074c6b` (2022-02-14, "Merge pull request #3 from yanone/main"). The source metadata was added via commit `7d9f2e35d` which references PR #4305.
 
 The recorded commit `34074c6b` is correct and corresponds to the final onboarding.

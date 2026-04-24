@@ -44,3 +44,9 @@ The source block exists with the repository URL but is missing the commit hash. 
 ## Commit Added (HIGH confidence)
 
 Commit `a8b5b4ee6cf52508cc0d4f606d4ec0ae4994953a` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2017-05-15). This is the most reliable method.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `a8b5b4e` (upstream legacy: .vfb masters in masters/). Added an override `config.yaml` in `ofl/laila/` that references the compatible sources only (`styles/Light/font.ufo`, `styles/Regular/font.ufo`, `styles/Medium/font.ufo`, `styles/SemiBold/font.ufo`, `styles/Bold/font.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

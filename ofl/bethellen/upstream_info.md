@@ -54,3 +54,9 @@ No override config.yaml exists in the google/fonts family directory either.
 
 - The upstream repo now has a `.glyphs` file at HEAD (not present at the recorded commit). A config.yaml could potentially be created for future builds using this newer source, but that would require a separate review process.
 - The status remains `missing_config` because no gftools-builder configuration exists.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/bethellen/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `d6c8d9b387`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

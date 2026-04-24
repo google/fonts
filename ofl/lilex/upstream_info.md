@@ -1,25 +1,26 @@
 # Investigation Report: Lilex
 
-**Model**: Claude Opus 4.6
-**Date**: 2026-03-03
+**Model**: Claude Opus 4.7 (1M context)
+**Date**: 2026-04-24
 **Family**: Lilex
 **Slug**: lilex
 **Directory**: ofl/lilex
 
 ## Summary
 
-Lilex is a monospace font family with variable weight (100-700) in both upright and italic styles. It was onboarded to Google Fonts in November 2025 via PR #9975. The METADATA.pb has a complete source block with repository URL and commit hash. However, the `config_yaml` field currently points to a path (`sources/Lilex/config.yaml`) that does not exist at the referenced commit -- the correct path at that commit was `sources/config.yaml`.
+Lilex is a monospace font family with variable weight (100-700) in both upright and italic styles. It was onboarded to Google Fonts in November 2025 via PR #9975. The METADATA.pb had a complete source block with repository URL and commit hash, but the `config_yaml` field pointed to a path (`sources/Lilex/config.yaml`) that did not exist at the referenced commit. The field was corrected to `sources/config.yaml`, which is the path that exists at the pinned commit and is a valid gftools-builder config.
+
+Surfaced via fontc_crater's `results/failed_repos.json` (category: "no config file was found"). The upstream target-resolution failure would block Lilex from being included in crater's latest run. Once google-fonts-sources regenerates `targets.json`, Lilex should move from failed_repos to a successful target.
 
 ## Source Block Status
 
 **Has source block**: Yes
-**Status**: needs_correction (config_yaml path incorrect for referenced commit)
+**Status**: complete (config_yaml path corrected to match pinned commit)
 
 ## Repository Information
 
 - **Repository URL**: https://github.com/mishamyrt/Lilex
 - **Branch**: master
-- **Cached at**: upstream_repos/fontc_crater_cache/mishamyrt/Lilex
 - **Repository is clean**: Yes
 - **Default branch**: master
 
@@ -154,11 +155,11 @@ The config at HEAD is nearly identical but has two differences:
 1. `outputDir` changed from `../build` to `../../build/Lilex` (adjusted for the new subdirectory)
 2. Added `recipeProvider: googlefonts`
 
-## Recommended Correction
+## Action Taken
 
-The `config_yaml` field in METADATA.pb should be corrected from `sources/Lilex/config.yaml` to `sources/config.yaml` to match the path that exists at the referenced commit `50260ef`.
+The `config_yaml` field in METADATA.pb was corrected from `sources/Lilex/config.yaml` to `sources/config.yaml`, matching the path that exists at the referenced commit `50260ef`.
 
-**Corrected source block**:
+**Updated source block**:
 ```
 source {
   repository_url: "https://github.com/mishamyrt/Lilex"

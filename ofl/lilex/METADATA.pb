@@ -50,7 +50,7 @@ source {
     dest_file: "Lilex-Italic[wght].ttf"
   }
   branch: "master"
-  config_yaml: "sources/Lilex/config.yaml"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

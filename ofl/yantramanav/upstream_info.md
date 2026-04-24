@@ -23,3 +23,9 @@ The repository was found at `erinmclaughlin/Yantramanav` and contained UFO sourc
 ## Confidence
 
 High — the repository URL is referenced in the DESCRIPTION.en_us.html of the google/fonts entry, and the designer matches the METADATA.pb attribution.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/yantramanav/` referencing the upstream gftools-builder-compatible source at the pinned commit `e40db8e` (`UFO/Thin/Yantramanav-Thin.ufo`, `UFO/Light/Yantramanav-Light.ufo`, `UFO/Regular/Yantramanav-Regular.ufo`, `UFO/Medium/Yantramanav-Medium.ufo`, `UFO/Bold/Yantramanav-Bold.ufo`, `UFO/Black/Yantramanav-Black.ufo`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

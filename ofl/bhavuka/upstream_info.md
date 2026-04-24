@@ -60,3 +60,9 @@ The font source is in SFD (FontForge) format, which is not compatible with gftoo
 
 - Should the commit hash be updated to `cd83228` (the last commit that actually modified the TTF) instead of `e4819c2` (the repo HEAD which only updated README)?
 - The font uses Devanagari script support. The SFD source format means it cannot be rebuilt with gftools-builder. This family will likely remain in `missing_config` status permanently unless the source is converted to a modern format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/bhavuka/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `e4819c2a22`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

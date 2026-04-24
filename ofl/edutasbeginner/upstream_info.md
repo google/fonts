@@ -63,7 +63,7 @@ The commit currently in METADATA.pb (`055799b858017157b6138e59833ab5b1a8947bbd`,
 ### Version History in google/fonts
 
 1. **v1.001** -- PR #4765 (`64b1a836`, 2022-06-15): Initial onboarding from upstream commit `055799b` ("Update emails")
-2. **v1.002** -- PR #4823 (`506584e13`, 2022-06-22): Bulk update of all 5 families from upstream commit `8a71f27` ("Merge branch 'main'"). Note: TAS Beginner was actually updated twice in this PR -- first from `8a71f27`, then from `80ca0a0` ("Corrected TAS UPM").
+2. **v1.002** -- PR #4823 (`506584e13`, 2022-06-22): Bulk update of all 5 families from upstream commit `8a71f27` ("Merge branch 'main'"). Note: TAS Beginner was actually updated twice in [PR #4823](https://github.com/google/fonts/pull/4823) -- first from `8a71f27`, then from `80ca0a0` ("Corrected TAS UPM").
 3. **v1.003** -- PR #4831 (`536d37fd9`, 2022-06-23): Final update of all 5 families from upstream commit `0dbdee6` ("Corrected vertical metrics") -- **CURRENT**
 
 ### How the Wrong Commit Was Set

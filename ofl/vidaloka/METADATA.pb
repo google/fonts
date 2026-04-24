@@ -17,4 +17,5 @@ subsets: "latin"
 source {
   repository_url: "https://github.com/cyrealtype/Vidaloka"
   commit: "cc4205a19aca98f15ba551e3f8050630e54df28a"
+  config_yaml: "source/config.yaml"
 }

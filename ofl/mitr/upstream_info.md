@@ -46,3 +46,9 @@ No `config.yaml` exists in the repository.
 - The latest commit `41950431d37f6410fd082760ca806eb490e4791f` on branch `master` is the appropriate reference for the METADATA.pb `source` block.
 - A `config.yaml` would need to be created to establish a reproducible gftools build pipeline, as none currently exists in the repo. Individual per-weight Glyphs sources would need to be mapped to their respective output font files.
 - **Recommended action**: Add a `source` block to METADATA.pb pointing to `https://github.com/cadsondemak/mitr`, commit `41950431d37f6410fd082760ca806eb490e4791f`, branch `master`. A `config.yaml` should be authored to enable future rebuilds.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs and .ufo (selected .glyphs)) and legacy `.sfd`/`.vfb` archives at the pinned commit `4195043` (upstream legacy: .vfb alongside each weight). Added an override `config.yaml` in `ofl/mitr/` that references the compatible sources only (`source/Mitr-200.glyphs`, `source/Mitr-300.glyphs`, `source/Mitr-400.glyphs`, `source/Mitr-500.glyphs`, `source/Mitr-600.glyphs`, `source/Mitr-700.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

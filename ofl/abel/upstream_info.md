@@ -22,7 +22,7 @@ The METADATA.pb file has no `source { }` block at all -- it only contains basic 
 
 The upstream repository contains only a single commit: `adf2c7e74ecde8ca41959c0d974f039789fe7b9d` (2014-10-17, message: "update .travis.yml"). This is the HEAD and only commit in the repository, so it is the only possible reference point.
 
-The last font-modifying commit in google/fonts is `3b99d83d2625` (2020-06-17, "abel: four was overkerned to period and comma (#2352)", PR #2352). This PR was submitted by @laerm0 and fixed kerning between the numeral four and period/comma characters. Before that, commit `d3e16741d` (2017-05-01, "hotfix-abel: v1.003 added (#741)", PR #741 by @m4rc1e) added version 1.003. The font was originally added with the initial google/fonts commit `90abd17b4`.
+The last font-modifying commit in google/fonts is `3b99d83d2625` (2020-06-17, "abel: four was overkerned to period and comma (#2352)", PR #2352). [PR #2352](https://github.com/google/fonts/pull/2352) was submitted by @laerm0 and fixed kerning between the numeral four and period/comma characters. Before that, commit `d3e16741d` (2017-05-01, "hotfix-abel: v1.003 added (#741)", PR #741 by @m4rc1e) added version 1.003. The font was originally added with the initial google/fonts commit `90abd17b4`.
 
 Since Abel was added to Google Fonts in 2011 (date_added: "2011-08-03") and the upstream repo's only commit is from 2014, the font binary in google/fonts was not necessarily built from this repo using gftools-builder. The font edits (v1.003 hotfix and kerning fix) were done directly in google/fonts, not through the upstream repo.
 

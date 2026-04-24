@@ -28,3 +28,9 @@ The latest commit in the upstream repository was retrieved:
 ## METADATA.pb Changes
 
 A `source` block was added to METADATA.pb with the repository URL and latest commit hash.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `f912925` (upstream legacy: .vfb in PalanquinDark/SourceFiles/VFBs/). Added an override `config.yaml` in `ofl/palanquindark/` that references the compatible sources only (`PalanquinDark/SourceFiles/UFOs/PalanquinDark Reg.ufo`, `PalanquinDark/SourceFiles/UFOs/PalanquinDark Med.ufo`, `PalanquinDark/SourceFiles/UFOs/PalanquinDark SBld.ufo`, `PalanquinDark/SourceFiles/UFOs/PalanquinDark Bld.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

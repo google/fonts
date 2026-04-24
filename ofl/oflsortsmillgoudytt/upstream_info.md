@@ -52,3 +52,9 @@ source {
 ## Confidence
 
 **High** — The repository is owned by The League of Moveable Type with Barry Schwartz as the credited designer, matching the designer field in METADATA.pb. UFO sources are present. The repository description matches the font description exactly.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/oflsortsmillgoudytt/` referencing the upstream gftools-builder-compatible source at the pinned commit `0607289` (`source/OFLGoudyStM.ufo`, `source/OFLGoudyStM-Italic.ufo`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

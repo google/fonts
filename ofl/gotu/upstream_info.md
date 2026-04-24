@@ -59,7 +59,7 @@ The v2.32 release was published on 2020-01-09, one day before the commit (`c02f2
 
 ### Previous Onboarding Attempt
 
-A closed PR #6682 ("Gotu: Version 2.320;hotconv 1.0.109;makeotfexe 2.5.65596; ttfautohint (v1.8.1) added") by eliheuer attempted to update Gotu using gftools-packager, but the commit reference URL was incomplete (ending in `/commit/.`). This PR was closed without merging on 2023-09-08.
+A closed PR #6682 ("Gotu: Version 2.320;hotconv 1.0.109;makeotfexe 2.5.65596; ttfautohint (v1.8.1) added") by eliheuer attempted to update Gotu using gftools-packager, but the commit reference URL was incomplete (ending in `/commit/.`). [PR #6682](https://github.com/google/fonts/pull/6682) was closed without merging on 2023-09-08.
 
 ### Description Update
 

@@ -32,3 +32,9 @@ The repository was located by searching GitHub for `sacramento font astigmatic`.
 ## Result
 
 A source block was added to METADATA.pb referencing the repository URL, the latest commit hash, and the `sources/Sacramento.glyphs` file.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs) and legacy `.sfd`/`.vfb` archives at the pinned commit `86d34cf` (upstream legacy: .vfb in old/version-1.000/). Added an override `config.yaml` in `ofl/sacramento/` that references the compatible sources only (`sources/Sacramento.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

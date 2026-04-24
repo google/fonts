@@ -32,7 +32,7 @@ The Red Hat font family has a complex repository history:
 1. **RedHatOfficial/RedHatFont** — The original official repo, maintained since 2019. Contains all three families (Display, Mono, Text).
 2. **jeremymickel/RedHatFonts** — Used for the Version 1.023 update (google/fonts PRs #4946, #4945, #4947 in 2022).
 3. **bghryct/RedHatDisplay** (and /RedHatMono, /RedHatText) — Per-family repos created by Mirko Velimirovic for the Version 1.030 update. Now deleted.
-4. **RedHatOfficial/RedHatFont PR #69** — On 2025-03-06, the bghryct changes were merged back into RedHatOfficial/RedHatFont via this PR.
+4. **RedHatOfficial/RedHatFont PR #69** — On 2025-03-06, the bghryct changes were merged back into RedHatOfficial/RedHatFont via [PR #69](https://github.com/RedHatOfficial/RedHatFont/pull/69).
 
 The canonical, surviving repository is `https://github.com/RedHatOfficial/RedHatFont` (HTTP 200).
 

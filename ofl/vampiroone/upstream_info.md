@@ -28,3 +28,9 @@ The copyright string `"Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eb
 **Commit**: ec42cf12230a8663c3ccb7a0c2da590ba98d2cd9
 **Status**: UFO source present
 **Confidence**: High
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `ec42cf1` (upstream legacy: .vfb in repo root and .sfd/.vfb archives in src/). Added an override `config.yaml` in `ofl/vampiroone/` that references the compatible sources only (`Vampiro.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

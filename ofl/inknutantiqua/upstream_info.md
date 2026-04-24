@@ -55,3 +55,9 @@ The source block for Inknut Antiqua is incomplete: it has `repository_url` but i
 ## Commit Added (HIGH confidence)
 
 Commit `9db4a5c235ef042adbc0da37fcf3dda3ffe59201` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2020-10-08). This is the most reliable method.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/inknutantiqua/` referencing the upstream gftools-builder-compatible source at the pinned commit `9db4a5c` (`Inknut Antiqua uprights.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

@@ -27,3 +27,9 @@ The copyright string `"Copyright 2011, The VT323 Project Authors (peter.hull@oik
 **Commit**: 9bd4b3f69887fd960d51d07602db60a28a789145
 **Status**: Glyphs source present
 **Confidence**: High
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs) and legacy `.sfd`/`.vfb` archives at the pinned commit `9bd4b3f` (upstream legacy: .sfd/.vfb archives in old/). Added an override `config.yaml` in `ofl/vt323/` that references the compatible sources only (`sources/VT323.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

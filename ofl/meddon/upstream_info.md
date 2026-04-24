@@ -29,3 +29,9 @@ A source block was added to METADATA.pb pointing to this repository and commit.
 ## Confidence: High
 
 Vernon Adams (vernnobile) is the original designer, and this is his canonical repository.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/meddon/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `157a4b58e7`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

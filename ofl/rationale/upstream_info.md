@@ -18,3 +18,9 @@ The canonical upstream repository at `cyrealtype/Rationale` was located by searc
 ## Notes
 
 The repository also contains VFB files (legacy FontLab format), but the primary source is `Rationale.glyphs`. The copyright statement in METADATA.pb references `www.cyreal.org`, consistent with the `cyrealtype` GitHub organization.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs) and legacy `.sfd`/`.vfb` archives at the pinned commit `b12941d` (upstream legacy: .vfb alongside .glyphs (Rationale.vfb, Rationale-OTF.vfb, Rationale-TTF.vfb)). Added an override `config.yaml` in `ofl/rationale/` that references the compatible sources only (`sources/Rationale.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

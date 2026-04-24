@@ -59,3 +59,9 @@ Since the source block uses `archive_url` to fetch prebuilt binaries, no `config
 ## Conclusion
 
 The source block in METADATA.pb is complete and correct. The repository URL, commit hash, archive URL, and file mappings are all documented. The `archive_url` approach means no `config.yaml` is needed. No action is required. The `silnrsi/font-idiqlat` repository should be added to the fontc_crater_cache when disk space allows.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/idiqlat/` referencing the upstream gftools-builder-compatible source at the pinned commit `37a6c68` (`source/Idiqlat.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

@@ -31,3 +31,9 @@ The repository root contained:
 ## Action Taken
 
 A `source` block was added to `METADATA.pb` pointing to `https://github.com/appajid/suranna` at commit `ce1c1f150ba50e59fd9d95c114c40545c4e8fe04`.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `ce1c1f1` (upstream legacy: .sfd in repo root). Added an override `config.yaml` in `ofl/suranna/` that references the compatible sources only (`Suranna.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

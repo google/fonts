@@ -52,3 +52,9 @@ The latest git log entry is `142f05a` ("Update copyright date to 2026..."), whic
 ## Conclusion
 
 The source block has repository URL and commit hash. However, the SIL smith build system is not compatible with gftools-builder, so no `config.yaml` is possible. Status is missing_config with the understanding that the build system incompatibility makes config.yaml creation infeasible.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/kedebideri/` referencing the upstream gftools-builder-compatible source at the pinned commit `4973b2e` (`source/Kedebideri.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

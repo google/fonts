@@ -23,7 +23,7 @@ The repository URL `https://github.com/xotypeco/big_shoulders` was already prese
 
 **The current METADATA.pb commit hash `41153e6` is incorrect.** Binary comparison proves the correct commit is `2f924dd1205484c5e0054b1f3955f434224ba72e`.
 
-The font was updated to Version 2.000 via PR #3437 (by vv-monsalve, merged 2021-09-08). This PR had multiple packager runs, exactly like the sibling PR #3438 for Inline Display:
+The font was updated to Version 2.000 via PR #3437 (by vv-monsalve, merged 2021-09-08). [PR #3437](https://github.com/google/fonts/pull/3437) had multiple packager runs, exactly like the sibling PR #3438 for Inline Display:
 
 1. **First run** (PR body, created 2021-05-21): Referenced upstream commit `41153e6fe01d218e933919a1d08c8e45065bc8fe` (dated 2021-05-20, "Merge upstream 'master' at commit b465ae3" by Viviana Monsalve). This was Version 2.000.
 

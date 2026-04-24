@@ -33,3 +33,9 @@ Source block was added pointing to `etunni/sintony` at commit `be9cf7be562d56650
 ## Confidence
 
 High — The repository is owned and maintained by the font designer, contains Glyphs source files, and matches the font metadata.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/sintony/` referencing the upstream gftools-builder-compatible source at the pinned commit `be9cf7b` (`sources/Sintony-GF-plus.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

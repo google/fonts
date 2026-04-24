@@ -14,3 +14,9 @@ The source block in METADATA.pb contained only a repository_url with no files, b
 - The source block has no explicit file mappings or branch specification, meaning it relies on default behavior.
 - This is a variable font with two axes: wdth and wght.
 - Repository is maintained by Etcetera Type Co (Tyler Finck).
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/trispace/` referencing the upstream gftools-builder-compatible source at the pinned commit `8f332ad` (`Sources/Trispace.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

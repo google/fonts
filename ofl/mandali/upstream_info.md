@@ -100,3 +100,9 @@ The commit hash **77ee092** is recommended because it is the only commit where t
 ## Commit Added (MEDIUM confidence)
 
 Commit `b5d09820cc850e98417250895a11bf0605ab2510` was determined by **date_correlation**. Found the latest upstream commit before the binary modification date in google/fonts (2015-03-07). This assumes the upstream HEAD at onboarding time was the commit used.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `b5d0982` (upstream legacy: .sfd in repo root). Added an override `config.yaml` in `ofl/mandali/` that references the compatible sources only (`Mandali.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

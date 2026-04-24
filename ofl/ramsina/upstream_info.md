@@ -13,3 +13,9 @@ The existing source metadata was reviewed. The repository URL and commit hash we
 
 ## Notes
 Designed by SIL International. A serif typeface with Syriac as the primary script (Syrc), one of the newer additions to Google Fonts (date_added: 2026-01-21). Supports Latin and Syriac subsets. Distributed via a release archive zip. The copyright notice indicates its origin includes glyphs from Sparksoft Systems' "Marcus" and "Nohadra" fonts, as well as Latin glyphs from Crimson Pro.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/ramsina/` referencing the upstream gftools-builder-compatible source at the pinned commit `263c8d5` (`source/Ramsina.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

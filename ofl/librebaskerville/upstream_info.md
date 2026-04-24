@@ -110,14 +110,14 @@ Source files referenced by the config:
 - **Author**: emmamarichal (Emma Marichal)
 - **Merged by**: emmamarichal
 
-This PR upgraded Libre Baskerville from static fonts (Version 1.051) to variable fonts (Version 2.005). The PR contained four commits:
+PR [#9909](https://github.com/google/fonts/pull/9909) upgraded Libre Baskerville from static fonts (Version 1.051) to variable fonts (Version 2.005). The PR contained four commits:
 
 1. `93b0f9ed1` (2025-10-17) -- "Libre Baskerville: Version 1.051; ttfautohint (v1.8.4.7-5d5b) added" -- referenced upstream commit `9852edf`
 2. `9e63336c5` (2025-10-17) -- "VF replacement" -- replaced static TTFs with variable font files
 3. `4f90d359c` (2025-10-17) -- "update metadata.pb" -- updated METADATA.pb for variable font filenames
 4. `ccec48b33` (2025-10-22) -- "Update OFL.txt with corrected formatting"
 
-After this PR was merged, Felipe Sanches added source metadata in commits `f84930e03` and `3b6cb0462`, updating the commit hash from `a658d05` (the earlier merge commit of PR #13) to `d20160c` (the actual fix in PR #14), and adding the `config_yaml` field.
+After [PR #9909](https://github.com/google/fonts/pull/9909) was merged, Felipe Sanches added source metadata in commits `f84930e03` and `3b6cb0462`, updating the commit hash from `a658d05` (the earlier merge commit of PR #13) to `d20160c` (the actual fix in PR #14), and adding the `config_yaml` field.
 
 ### Earlier History
 

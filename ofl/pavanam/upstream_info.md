@@ -30,3 +30,9 @@ The latest commit in the upstream repository was retrieved:
 ## METADATA.pb Changes
 
 A `source` block was added to METADATA.pb with the repository URL and latest commit hash.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/pavanam/` referencing the upstream gftools-builder-compatible source at the pinned commit `c4ba9335` (`source/Pavanam-Regular.ufo`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

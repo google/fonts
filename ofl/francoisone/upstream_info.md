@@ -75,7 +75,7 @@ The binary was first added to the upstream repo in commit `3fa7536` (Oct 5, 2016
 
 3. **v3.000 attempt (Feb 2023, PR #5919)**: Emma Marichal submitted a v3.000 update via gftools-packager, sourced from `Fonthausen/francoisoneFont` (a fork chain: googlefonts -> dsweetnich -> anna-richard -> aoifemooney -> Fonthausen) at commit `10ee754`. This was merged on Feb 23, 2023.
 
-4. **v3.000 revert (Jun 2023, PR #6384)**: Rosalie Wagner reverted the v3.000 update with the explanation: "Since we onboard Freeman (#6241) as the update of Francois, and this update is too close to Freeman, I revert this PR to go back to original files (in sync with what is in prod)." The Fonthausen/francoisoneFont repository has since been deleted (returns 404).
+4. **v3.000 revert (Jun 2023, PR #6384)**: Rosalie Wagner reverted the v3.000 update with the explanation: "Since we onboard Freeman (#6241) as the update of Francois, and this update is too close to Freeman, I revert [PR [#5919](https://github.com/google/fonts/pull/5919)] to go back to original files (in sync with what is in prod)." The Fonthausen/francoisoneFont repository has since been deleted (returns 404).
 
 5. **Source block added (Jan 2024)**: Simon Cozens added the `repository_url` to METADATA.pb pointing to googlefonts/francoisoneFont.
 

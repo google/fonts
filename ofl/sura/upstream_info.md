@@ -31,3 +31,9 @@ The repository root contained:
 ## Action Taken
 
 A `source` block was added to `METADATA.pb` pointing to `https://github.com/huertatipografica/sura` at commit `d20d15fe0de4a84a9d3a944f87e9c35d4c9da612`.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/sura/` referencing the upstream gftools-builder-compatible source at the pinned commit `d20d15f` (`Sura.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

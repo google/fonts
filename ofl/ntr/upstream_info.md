@@ -45,3 +45,9 @@ No `config.yaml` is present in the google/fonts directory for this family, and n
 - The repo has been dormant since November 2014. There is no evidence of more recent upstream activity.
 - Font version in the binary is 1.0.5 (ttfautohint v1.2.25).
 - No cached clone found in `/mnt/shared/upstream_repos/fontc_crater_cache/`.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `1268910` (upstream legacy: .sfd in repo root). Added an override `config.yaml` in `ofl/ntr/` that references the compatible sources only (`NTR.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

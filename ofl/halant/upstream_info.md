@@ -81,3 +81,9 @@ source {
 ### Status: missing_config
 
 The repository has UFO sources but uses a custom build system without config.yaml or designspace. Creating an override config would require authoring a designspace file to define the interpolation space.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `5991cb7` (upstream legacy: .vfb masters in masters/). Added an override `config.yaml` in `ofl/halant/` that references the compatible sources only (`styles/Light/font.ufo`, `styles/Regular/font.ufo`, `styles/Medium/font.ufo`, `styles/SemiBold/font.ufo`, `styles/Bold/font.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

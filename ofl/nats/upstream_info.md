@@ -36,3 +36,9 @@ A `config.yaml` file is listed in the repository tree, but its content could not
 - The font was added to Google Fonts on 2014-12-10 and has not been updated since the initial addition; the upstream repo similarly has had no activity since 2014.
 - The `nikstoj/neuton-font` GitHub repo seen in search results is unrelated to this family.
 - No upstream mirror exists in `/mnt/shared/upstream_repos/fontc_crater_cache/`.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `7e1486a` (upstream legacy: .sfd in repo root). Added an override `config.yaml` in `ofl/nats/` that references the compatible sources only (`NATS.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

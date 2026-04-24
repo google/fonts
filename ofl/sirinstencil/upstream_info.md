@@ -37,3 +37,9 @@ Source block was added pointing to `cyrealtype/Sirin-Stencil` at commit `803ade3
 ## Confidence
 
 High — The repository is owned by the Cyreal type foundry, contains Glyphs source files, and matches the font metadata.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs) and legacy `.sfd`/`.vfb` archives at the pinned commit `803ade3` (upstream legacy: .vfb archives in sources/old/version1.002/). Added an override `config.yaml` in `ofl/sirinstencil/` that references the compatible sources only (`sources/Sirin Stencil.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

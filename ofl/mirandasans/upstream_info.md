@@ -42,3 +42,10 @@ A `config.yaml` exists at `sources/config.yaml`. It specifies both Glyphs source
 - The upstream METADATA.pb in google/fonts already contains a complete `source` block pointing to commit `7cafa37b9bf6e53892a5738d8470668d1fcf52f6` on branch `main`. **No source block enrichment is needed** — this family is already fully annotated.
 - The upstream repo itself also contains a `METADATA.pb`, consistent with the Google Fonts PR that added the family.
 - Variable font with `wght` axis (400–700), both Roman and Italic.
+
+
+## Update (2026-04-24)
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added `config_yaml: "sources/config.yaml"` to the METADATA.pb `source { }` block. Direct inspection of the upstream repo at the pinned commit `7cafa37b` (via the bare mirror in `upstream_repos/repo_archive/maxthunberg/miranda-sans.git`) confirms that `sources/config.yaml` exists at that commit and is a valid gftools-builder config — it declares the `sources:` key. The family should move from the dashboard's "missing_config" bucket into "covered" once `google-fonts-sources` regenerates crater's `targets.json`.

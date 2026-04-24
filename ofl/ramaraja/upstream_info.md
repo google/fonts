@@ -26,3 +26,9 @@ A canonical upstream source repository was found and a source block was added to
 - The repository description states "updating copyright and latin characters", indicating active maintenance
 - The copyright in METADATA.pb references Silicon Andhra (fonts.siliconandhra.org) and Sebastian Kosch (Crimson font), as Ramaraja was based on the Crimson design extended to support Telugu
 - The appajid account maintains many Telugu font repositories under the Silicon Andhra umbrella
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `fc98f3e` (upstream legacy: .sfd in repo root). Added an override `config.yaml` in `ofl/ramaraja/` that references the compatible sources only (`Ramaraja-Regular.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

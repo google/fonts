@@ -18,3 +18,9 @@ The canonical upstream repository at `lettersoup/Ropa-Sans` was found via a GitH
 ## Notes
 
 The repository also contains a `fonts/` directory with compiled OTF/TTF files and a `FONTLOG.txt`. The sources directory holds the Glyphs files. The repo was last updated in 2016.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/ropasans/` referencing the upstream gftools-builder-compatible source at the pinned commit `33acc9f` (`sources/RopaSans.glyphs`, `sources/RopaSans-Italic.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

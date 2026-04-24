@@ -26,3 +26,9 @@ The repository contains UFO source files along with TTF/OTF outputs.
 ## Verdict
 
 **Canonical upstream repo found.** `https://github.com/cadsondemak/pridi` is the designer-owned repository. METADATA.pb was updated with `repository_url` and `commit` fields.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs and .ufo (selected .glyphs)) and legacy `.sfd`/`.vfb` archives at the pinned commit `fe54fb6` (upstream legacy: .vfb alongside each weight). Added an override `config.yaml` in `ofl/pridi/` that references the compatible sources only (`source/Pridi-200.glyphs`, `source/Pridi-300.glyphs`, `source/Pridi-400.glyphs`, `source/Pridi-500.glyphs`, `source/Pridi-600.glyphs`, `source/Pridi-700.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

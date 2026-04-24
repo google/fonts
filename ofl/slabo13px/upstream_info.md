@@ -38,3 +38,9 @@ Source block was added pointing to `TiroTypeworks/Slabo` at commit `21420697b49e
 ## Confidence
 
 High — The repository is owned by Tiro Typeworks (the font's creator), contains UFO source files for both the 13px and 27px variants, and matches the font metadata.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `2142069` (upstream legacy: .vfb masters in FontLab Sources/). Added an override `config.yaml` in `ofl/slabo13px/` that references the compatible sources only (`UFOs/Slabo 13px b004.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

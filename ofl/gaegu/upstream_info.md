@@ -23,7 +23,7 @@ Gaegu is a Korean handwriting-style font family designed by JIKJI SOFT, added to
 
 ### Onboarding History
 
-Gaegu was added to google/fonts in commit `16680f868` (2018-03-13) as part of PR #1459 titled "korean families r01: added", authored by Marc Foley. This PR onboarded 23 Korean font families in a single commit:
+Gaegu was added to google/fonts in commit `16680f868` (2018-03-13) as part of PR #1459 titled "korean families r01: added", authored by Marc Foley. [PR #1459](https://github.com/google/fonts/pull/1459) onboarded 23 Korean font families in a single commit:
 
 - Black And White Picture, Black Han Sans, Cute Font, Do Hyeon, Dokdo, East Sea Dokdo, **Gaegu**, Gamja Flower, Gothica 1, Gugi, Hi Melody, Jua, Kirang Haerang, Nanum Brush Script, Nanum Gothic, Nanum Myeongjo, Nanum Pen Script, Poor Story, Single Day, Song Myung, Stylish, Sunflower, Yeon Sung
 

@@ -58,3 +58,10 @@ Note: The METADATA.pb uses `files{}` blocks to copy pre-built TTFs directly from
 
 - The upstream repo is not yet cloned to the local cache. Should it be cloned?
 - The `config_yaml` field in METADATA.pb is pending in a PR branch; once merged, this family will be fully documented.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-01-23** — Emma Marichal, commit [`e7a906896`](https://github.com/google/fonts/commit/e7a906896) ("Betania Patmos In GDL: Version 11.002; ttfautohint (v1.8.4.16-eb64) added"): initial onboarding via gftools-packager. Created METADATA.pb with source block referencing `huertatipografica/betania-patmos@08c83ac9` (shared with the Betania Patmos sibling families).
+- **2026-01-23** — Emma Marichal, commit [`f8611f864`](https://github.com/google/fonts/commit/f8611f864) ("OFL"): same-day OFL.txt update.
+
+Source block reflects the recorded upstream commit; no corrections needed.

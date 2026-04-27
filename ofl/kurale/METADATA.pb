@@ -19,16 +19,16 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://www.github.com/etunni/kurale"
+  repository_url: "https://github.com/etunni/kurale"
   commit: "08bf7684d57c6faacff84e6c5ab31df6b7beae18"
   files {
-    source_file: "fonts/ttf/Kurale-Regular.ttf"
+    source_file: "fonts/Kurale-Regular.ttf"
     dest_file: "Kurale-Regular.ttf"
   }
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
-  branch: "main"
+  branch: "master"
 }
 primary_script: "Deva"

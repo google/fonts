@@ -1,11 +1,21 @@
 # Coustard
 
-**Date investigated**: 2026-02-26
-**Status**: missing_config
+**Date investigated**: 2026-02-26 (initial); 2026-04-27 (post-migration update)
+**Status**: complete (was missing_config)
 **Designer**: Vernon Adams
 **METADATA.pb path**: `ofl/coustard/METADATA.pb`
+**Model**: Claude Opus 4.6 (initial) / Claude Opus 4.7 (1M context) (update)
 
-## Source Data
+## Source Data (current — post 2026-03-20 repo migration)
+
+| Field | Value |
+|-------|-------|
+| Repository URL | https://github.com/googlefonts/coustardFont (migrated; was vernnobile/coustardFont) |
+| Commit | `84d4ef2fbb8e87ba843d49308b98eeb4a874be91` (was `5f54d232ff52d0d43bad509357f03c5ddbdf51fc`) |
+| Config YAML | `sources/config.yaml` (added 2026-04-27 by this commit; upstream now ships a gftools-builder config) |
+| Branch | `master` |
+
+## Source Data (original — pre-migration, kept for historical reference)
 
 | Field | Value |
 |-------|-------|
@@ -52,3 +62,32 @@ SFD files are not compatible with gftools-builder, so a config.yaml cannot be cr
 
 1. The upstream repo sources (SFD) are from the original version, while google/fonts serves v1.001 from the 2017 hotfix. Where are the sources for the v1.001 hotfix? They may have been generated without updating the upstream repo.
 2. No config.yaml can be created from SFD sources without source conversion. This family will remain in `missing_config` status unless the sources are modernized.
+
+## Recent upstream/main activity (post-investigation)
+
+The original (2026-02-26) investigation flagged `missing_config` because the only known upstream `vernnobile/coustardFont` had SFD-only sources. Both issues raised in Open Questions have now been resolved by an upstream repo migration:
+
+- **2026-03-20** — Emma Marichal, commit [`a0db74464`](https://github.com/google/fonts/commit/a0db74464) ("Coustard: Version 1.100; ttfautohint (v1.8.4.16-eb64) added"): updated to v1.100 and migrated the recorded upstream from `vernnobile/coustardFont` to a new canonical fork at `googlefonts/coustardFont`. Emma developed the modernization upstream (PR #1 from `emmamarichal/master` was merged to `googlefonts/coustardFont` as commit `84d4ef2fb`); the new repo includes:
+  - Modern `.glyphs` source: `sources/Coustard.glyphs`
+  - gftools-builder `sources/config.yaml`
+  - Pre-built TTF/OTF/WOFF2 in `fonts/ttf/`, `fonts/otf/`, `fonts/webfonts/`
+  - Original SFD sources preserved under `sources/archives/`
+
+The shipping `Coustard-Regular.ttf` (75432 bytes, md5 `1b81850f782640f19b5cc3244e629ade`) is byte-identical to upstream `fonts/ttf/Coustard-Regular.ttf` at commit `84d4ef2fb`. `head.fontRevision = 1.1000`, `name` ID 5 = "Version 1.100; ttfautohint (v1.8.4.16-eb64)".
+
+### Updated source-of-truth fields
+
+- **Repository URL**: `https://github.com/googlefonts/coustardFont` (was `https://github.com/vernnobile/coustardFont`).
+- **Commit**: `84d4ef2fbb8e87ba843d49308b98eeb4a874be91` (the merge of upstream PR #1, 2026-03-20).
+- **Config YAML**: `sources/config.yaml` (added 2026-04-27 by this commit; the upstream config exists at the recorded commit and is fully functional).
+- **Branch**: `master`.
+- **Status**: **complete** (was missing_config).
+- **Confidence**: HIGH (md5-verified shipping binary).
+
+### Original Repository (dormant)
+
+The original `vernnobile/coustardFont` repo (Vernon Adams's GitHub account, `5f54d232f` "migrate from code.google" 2013-03-01) is preserved as historical context above. It remains accessible online but is superseded by the `googlefonts/coustardFont` fork as the source-of-truth for current Coustard onboarding. Per policy, full details of the original repo are kept in this report.
+
+### Follow-up note
+
+The new copyright string in METADATA.pb (added by Emma's commit a0db74464) reads `"Copyright 2011 The Coustard Project Authors (https://github.com/googlefonts/bangers)"` — the URL `googlefonts/bangers` appears to be a typo (Bangers is a different family). The likely correct URL is `https://github.com/googlefonts/coustardFont`. This is outside the source-block sync scope but worth flagging for a future fix.

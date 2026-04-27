@@ -10,9 +10,9 @@ Geist Mono is a monospace variable font by Vercel, the companion to Geist sans-s
 |-------------------|--------------------------------------------------------------------|
 | Family Name       | Geist Mono                                                         |
 | Repository URL    | https://github.com/vercel/geist-font                              |
-| Commit Hash       | b193ef74010119759bfb7f71ddf81a3dee238535                           |
-| Commit Date       | 2024-10-23                                                        |
-| Commit Message    | Merge pull request #141 from vercel/139-fixes                     |
+| Commit Hash       | a6d260e6cbc07eafdfad438f33601fe3c38b1e6f (updated 2026-04-03; was b193ef74010119759bfb7f71ddf81a3dee238535) |
+| Commit Date       | 2026-04-02                                                         |
+| Commit Message    | Merge pull request #216 from emmamarichal/main — Update Geist and Geist Mono |
 | Config YAML       | sources/config-GeistMono.yaml (in upstream repo)                  |
 | Source Files      | sources/GeistMono.glyphspackage                                   |
 | Onboarding PR     | #8264 (google/gftools_packager_ofl_geistmono)                     |
@@ -117,4 +117,22 @@ source {
 ```
 
 ### Status: complete
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-04-02 (upstream)** — skullface, upstream commit [`a6d260e6c`](https://github.com/vercel/geist-font/commit/a6d260e6c) ("Merge pull request #216 from emmamarichal/main — Update Geist and Geist Mono"). Same merge that produced Geist v1.800 also produced Geist Mono v1.700.
+- **2026-04-03** — Emma Marichal, commit [`474230b86`](https://github.com/google/fonts/commit/474230b86) ("Geist Mono: Version 1.700 added"): onboarded the upstream update via gftools-packager. Updates to METADATA.pb included:
+  - `commit` advanced from `b193ef740...` to `a6d260e6c...`
+  - Italic font entry added; subsets `cyrillic-ext`, `symbols2`, `vietnamese` added
+  - Removed `archive_url` (was `1.4.01/GeistMono-1.4.01.zip`)
+  - File mapping path changed: `variable/GeistMono[wght].ttf` → `fonts/GeistMono/variable/GeistMono[wght].ttf` (upstream layout reorganized)
+  - `config_yaml` field path unchanged (`sources/config-GeistMono.yaml`)
+
+The shipping `GeistMono[wght].ttf` (171968 bytes, md5 `6ff2091c2ccaba22f57e26df870c8f76`) is byte-identical to upstream `fonts/GeistMono/variable/GeistMono[wght].ttf` at commit `a6d260e6c`. `head.fontRevision = 1.7000`, `name` ID 5 = "Version 1.700".
+
+The Key Findings table at the top of this document has been updated to reflect the new commit.
+
+## Confidence (post-update)
+
+**High**: Md5 verification of the shipping `GeistMono[wght].ttf` against upstream `a6d260e6c:fonts/GeistMono/variable/GeistMono[wght].ttf` was byte-identical. The recorded source-block fields are correct and current.
 ### Confidence: HIGH

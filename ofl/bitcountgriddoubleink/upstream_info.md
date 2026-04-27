@@ -114,3 +114,7 @@ The font was onboarded using **pre-built binaries** from the upstream repository
 | **Confidence** | HIGH |
 
 All metadata is correct. The repository URL, commit hash, and file mappings are verified. The override config.yaml is properly set up for building from sources. No changes needed to METADATA.pb.
+
+### Earlier (2025-09-05)
+
+- **2025-09-05** — Emma Marichal, commit [`b38b486fc`](https://github.com/google/fonts/commit/b38b486fc) ("update article"): same-day post-onboarding article update following the v1.001 onboarding (already covered by the existing investigation). Outside the `source { ... }` block.

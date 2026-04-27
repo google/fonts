@@ -90,3 +90,7 @@ No override config.yaml exists in the google/fonts family directory.
   - Batch update `4fd9e239` proposes `803fb2f` + `scripts/config.yaml` (correct)
   - PR #9596 commit `0c8d6246` proposes `e7501a7` (workflow-only commit, less accurate)
 - These pending changes need to be merged to complete the METADATA.pb source block.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-09-25** — tamcy, commit [`7ee51a1b7`](https://github.com/google/fonts/commit/7ee51a1b7) ("Add `primary_language` field to Chiron GoRound TC, Chiron Hei HK and Chiron Sung HK"): added `primary_language: "yue_Hant"` (Cantonese in Traditional Chinese script) to METADATA.pb. The same commit touches all three Chiron HK/TC sibling families. Outside the `source { ... }` block.

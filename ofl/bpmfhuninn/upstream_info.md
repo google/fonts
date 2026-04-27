@@ -62,3 +62,12 @@ This is fundamentally different from gftools-builder and cannot be represented w
 2. **Should the repository_url point to aaronbell/bpmfvs or ButTaiwan/bpmfvs?** The PR says it will transition to ButTaiwan, but that hasn't happened yet.
 3. **Will this project ever have a config.yaml?** Given the custom Ruby-based build system, this seems unlikely without a complete rewrite of the build process.
 4. The `upstream_sources.json` in the repo reveals that the Huninn base font comes from `github.com/justfont/Huninn`, adding a dependency chain.
+
+## Recent upstream/main activity (post-investigation)
+
+Two commits on 2026-02-11 made cosmetic corrections to `OFL.txt` (license file). License-file changes are tracked here per the policy that license updates are substantive:
+
+- **2026-02-11** — Emma Marichal, commit [`36aa986e0`](https://github.com/google/fonts/commit/36aa986e0) ("Fix copyright and license URLs in OFL.txt"): three changes — removed a trailing period from the copyright line (`bpmfvs).` → `bpmfvs)`); replaced the legacy SIL OFL link `https://scripts.sil.org/OFL` with the modern `https://openfontlicense.org/`; whitespace tidy.
+- **2026-02-11** — Emma Marichal, commit [`118107fd5`](https://github.com/google/fonts/commit/118107fd5) ("Fix URL formatting in OFL.txt"): trimmed the trailing slash from the OFL homepage URL (`https://openfontlicense.org/` → `https://openfontlicense.org`).
+
+Both edits are confined to `OFL.txt` and do not affect the `source { ... }` block. The `repository_url`, `commit`, and (absent) `config_yaml` fields are unchanged. The same OFL fix pattern was applied across all three Bpmf families (Huninn, Iansui, Zihi Kai Std) — see the corresponding `upstream_info.md` files for the sibling families.

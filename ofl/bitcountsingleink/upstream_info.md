@@ -53,3 +53,7 @@ The fix would be to:
 ## Conclusion
 
 The commit hash is correct. However, `config_yaml: "sources/config.yaml"` points to an inadequate upstream config that only sets `familyName: Bitcount`. This family needs correction: a proper override `config.yaml` should be added to the google/fonts directory, and the `config_yaml` field should be removed from METADATA.pb, matching the pattern used by the other Bitcount Ink families.
+
+### Earlier (2025-09-11)
+
+- **2025-09-11** — Emma Marichal, additional follow-up commit (see git log for details): minor follow-up work in the family directory after the v1.001 onboarding.

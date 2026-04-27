@@ -65,3 +65,11 @@ The config also includes STAT table definitions and fvar instance overrides for 
 ## Open Questions
 
 None. The tracking data should be updated to reflect the latest commit hash `8e3882135dddeb43f582ae88f337589dbba625f4` which is now recorded in the current METADATA.pb in google/fonts.
+
+## Recent upstream/main activity (post-investigation)
+
+The original investigation already covered Emma Marichal's `9eabeac10` (2026-02-20, "Climate Crisis: Version 1.007 added"). One additional commit on the same day is now recorded here for completeness:
+
+- **2026-02-20** — Emma Marichal, commit [`66247cd5c`](https://github.com/google/fonts/commit/66247cd5c) ("body text (OFL)"): updated `OFL.txt` (license file) to match the upstream copy at the recorded commit `8e3882135`. License-file change tracked here per the policy that license updates are substantive.
+
+The shipping `ClimateCrisis[YEAR].ttf` (3601356 bytes, md5 `ff22433aab2cd1eba54062cbc231be2b`) is byte-identical to upstream `fonts/variable/ClimateCrisis[YEAR].ttf` at the recorded commit `8e3882135`. `head.fontRevision = 1.0070`, `name` ID 5 = "Version 1.007". No source-block changes are needed; the `commit` field is already correct.

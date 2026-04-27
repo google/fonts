@@ -34,6 +34,7 @@ source {
     dest_file: "Estedad[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Arab"
 stroke: "SANS_SERIF"

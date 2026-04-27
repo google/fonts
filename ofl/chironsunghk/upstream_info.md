@@ -47,3 +47,7 @@ The config file `scripts/config.yaml` exists at commit `65b752caf7698f9e773991fd
 ## Open Questions
 
 None. The data is complete and verified.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-09-25** — tamcy, commit [`7ee51a1b7`](https://github.com/google/fonts/commit/7ee51a1b7) ("Add `primary_language` field to Chiron GoRound TC, Chiron Hei HK and Chiron Sung HK"): added `primary_language: "yue_Hant"` (Cantonese in Traditional Chinese script) to METADATA.pb. The same commit touches all three Chiron HK/TC sibling families. Outside the `source { ... }` block.

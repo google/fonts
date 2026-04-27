@@ -54,4 +54,4 @@ The commit hash is correct. However, `config_yaml: "sources/config.yaml"` points
 
 ### Earlier (2025-09-11)
 
-- **2025-09-11** — Emma Marichal, additional follow-up commit (see git log for details): minor follow-up work in the family directory after the v1.001 onboarding.
+- **2025-09-11** — Emma Marichal, commit [`981e34fbe`](https://github.com/google/fonts/commit/981e34fbe) ("complete article with colr font"): same-day work following the v1.001 onboarding — added 312 lines to `article/ARTICLE.en_us.html`, with a binary update (file size unchanged at 513192 bytes — internal name-table refresh).

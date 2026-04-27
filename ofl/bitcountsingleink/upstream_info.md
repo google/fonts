@@ -56,4 +56,4 @@ The commit hash is correct. However, `config_yaml: "sources/config.yaml"` points
 
 ### Earlier (2025-09-11)
 
-- **2025-09-11** — Emma Marichal, additional follow-up commit (see git log for details): minor follow-up work in the family directory after the v1.001 onboarding.
+- **2025-09-11** — Emma Marichal, commit [`711bcf6c1`](https://github.com/google/fonts/commit/711bcf6c1) ("bump version"): same-day binary update following the v1.001 onboarding (binary-only, file size unchanged at 430912 bytes — internal version-string bump).

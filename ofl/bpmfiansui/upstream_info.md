@@ -56,3 +56,12 @@ Same situation as all Bpmf families - the project uses a custom Ruby-based build
 1. **Which exact commit in aaronbell/bpmfvs was used to build the current font binary?** Aaron Bell should be asked.
 2. **Should the repository_url be updated to aaronbell/bpmfvs?** Or should we wait for the planned transition back to ButTaiwan/bpmfvs?
 3. The base font (Iansui) comes from `github.com/ButTaiwan/iansui`, adding a dependency chain. Changes to the base font require rebuilding the Bpmf variant.
+
+## Recent upstream/main activity (post-investigation)
+
+The Bpmf Iansui family was onboarded in a multi-commit sequence by Aaron Bell (2026-01-30). The earlier investigation already documents some of these commits in the Onboarding timeline; for completeness, two additional shared-with-siblings commits are recorded here:
+
+- **2026-01-30** — Aaron Bell, commit [`423e25002`](https://github.com/google/fonts/commit/423e25002) ("Onboarding three families related to the Bopomofo phonetic system"): the umbrella onboarding commit that introduced all three Bpmf families (Huninn, Iansui, Zihi Kai Std) at once.
+- **2026-01-30** — Aaron Bell, commit [`cc204af75`](https://github.com/google/fonts/commit/cc204af75) ("One at a time is the way to go..."): incremental retry that re-onboarded Iansui and Zihi Kai Std after the umbrella commit's binary issues.
+
+Both are part of the original onboarding sequence. The recorded `commit` and `repository_url` fields in METADATA.pb were populated by the gftools-packager-style onboarding and remain the same as flagged in the original investigation (still pointing to ButTaiwan/bpmfvs while the actual binaries were built in aaronbell/bpmfvs).

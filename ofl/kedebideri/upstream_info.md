@@ -63,3 +63,7 @@ Added an override `config.yaml` in `ofl/kedebideri/` referencing the upstream gf
 
 - **2026-01-07** — Emma Marichal, commit [`1776dc2bb`](https://github.com/google/fonts/commit/1776dc2bb) ("Add subset 'beria-erfe' to METADATA.pb"): added a new entry `subsets: "beria-erfe"` (Beria-Erfe is the script-name token used in Google Fonts for the family's primary script). Outside the `source { ... }` block.
 - **2026-01-15** — Garret Rieger, commit [`9711e9d18`](https://github.com/google/fonts/commit/9711e9d18) ("Use primary_language instead of script for Kedebideri so that sample text will be chosen correctly"): switched `primary_script` to `primary_language` so the catalog sample-text picker resolves correctly for this minority-script family. Outside the `source { ... }` block.
+
+### Earlier (2025-10-02)
+
+- **2025-10-02** — Emma Marichal, commit [`03f0d980e`](https://github.com/google/fonts/commit/03f0d980e) ("fix OFL"): fixed a typo in `OFL.txt` ("with an FAQ" → "with a FAQ", added a missing line about the SIL OFL license). License-file change tracked here per policy.

@@ -11,3 +11,12 @@ The METADATA.pb contained a source block pointing to the TypeTogether/Playwrite 
 
 ## Status
 - **Category**: WITH_SOURCE
+
+## Recent upstream/main activity (post-investigation)
+
+This family was newly onboarded to google/fonts on 2026-01-21:
+
+- **2026-01-21** — Emma Marichal, commit [`dd04af331`](https://github.com/google/fonts/commit/dd04af331) ("Playwrite NZ Basic: Version 1.004 added"): initial onboarding via gftools-packager. Created `ofl/playwritenzbasic/` with METADATA.pb, OFL.txt, the binary `PlaywriteNZBasic[wght].ttf`, and article.
+- **2026-01-21** — Marc Foley, commit [`9168cb8eb`](https://github.com/google/fonts/commit/9168cb8eb) ("playwritenzbasic*: rm all subsets apart from menu"): same-day post-onboarding cleanup, removing extra subsets from METADATA.pb. Same commit also touched the sibling `ofl/playwritenzbasicguides/` family.
+
+Source block was populated by gftools-packager in the v1.004 commit; no corrections needed.

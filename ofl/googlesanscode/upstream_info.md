@@ -140,3 +140,8 @@ source {
 - **Branch**: `main`
 - **Status**: **complete** (resolved by PR #10291).
 - **Confidence**: HIGH.
+
+### Earlier (2025-08-27 → 2025-09-12)
+
+- **2025-08-27** — Marianna Paszkowska, commit [`5be3d1410`](https://github.com/google/fonts/commit/5be3d1410) ("Google Sans Code: Version 6.001 added"): the v6.001 update referenced in PR #9762. Advanced `commit` from `18523d8837d98e6be89316017d323bc610b21c66` (the v6.000 onboarding hash) to `edcd56e39fb7e98d6f1b697e187c144cef2fd994` (the v6.001 release tag) and updated `archive_url` to the v6.001 zip.
+- **2025-09-12** — nyshadhr9 (Google), commit [`3932c2c36`](https://github.com/google/fonts/commit/3932c2c36) ("Update googlesanscode/METADATA.pb (#9824)"): added the `sample_text` block and corrected `category` to MONOSPACE per PR #9824. Outside the `source { ... }` block.

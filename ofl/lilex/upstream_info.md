@@ -184,3 +184,7 @@ source {
 ## Confidence
 
 **HIGH** -- The repository URL and commit hash are confirmed by the onboarding commit message and verified by binary file hash comparison. The config_yaml path correction is confirmed by inspecting the upstream repo's file tree at the referenced commit.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-11-07** — Emma Marichal, commit [`8a028720b`](https://github.com/google/fonts/commit/8a028720b) ("Update designer information in METADATA.pb"): expanded the `designer` field from `"Bold Monday, Mikhael Khrustik"` to `"Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Mikhael Khrustik"` (replaced the Bold Monday foundry name with the three named designers). Edit is outside the `source { ... }` block; no source-block impact.

@@ -23,3 +23,8 @@ The existing source metadata was reviewed. The source block contained both a rep
   - `archive_url`: `.../NotoNaskhArabic-v2.020/...zip` → `.../NotoNaskhArabic-v2.021/...zip`
 
   Binary `NotoNaskhArabic[wght].ttf` updated.
+
+### Earlier (2025-10-15 → 2025-10-29)
+
+- **2025-10-15** — simoncozens, commit [`a5cb0f48a`](https://github.com/google/fonts/commit/a5cb0f48a) ("Noto Naskh Arabic: Version 2.020 added"): preceded the v2.021 update — initial v2.020 onboarding via gftools-packager. Source block fields were populated then.
+- **2025-10-29** — Emma Marichal, commit [`4b76b0ca7`](https://github.com/google/fonts/commit/4b76b0ca7) ("Remove 'ms_Arab' language entry"): removed `languages: "ms_Arab"` from METADATA.pb. Outside the `source { ... }` block.

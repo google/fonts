@@ -10,7 +10,8 @@
 | Repository URL | https://github.com/balsamiq/balsamiqsans |
 | Commit Hash | b1dca64c3ceeaa3c274f69fae5a6f508b9a4dcc4 |
 | Config YAML | sources/config.yaml |
-| Status | needs_correction |
+| Branch | `master` (corrected 2026-04-08; was `main`) |
+| Status | complete |
 | Confidence | HIGH |
 
 ## Source Data (METADATA.pb)
@@ -109,4 +110,9 @@ Repository is cached at `upstream_repos/fontc_crater_cache/balsamiq/balsamiqsans
 
 The `repository_url` and `config_yaml` fields are correct. The `commit` field must be corrected from `009740f8b2c3915b1553182ec406aaddb1a12dc7` (a 2024-12-17 commit, added erroneously by the fontc_crater batch import) to `b1dca64c3ceeaa3c274f69fae5a6f508b9a4dcc4` (the v1.020 release tag, 2023-04-20), which matches the `archive_url` version and predates the google/fonts onboarding.
 
-Action needed: Fix `commit` in `ofl/balsamiqsans/METADATA.pb`.
+~~Action needed: Fix `commit` in `ofl/balsamiqsans/METADATA.pb`.~~ **Done 2026-02-27** by Felipe Sanches in commit `f31a1ea94` ("Balsamiq Sans: fix source block in METADATA.pb"). Status is now `complete`.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-02-27** — Felipe Sanches, commit [`f31a1ea94`](https://github.com/google/fonts/commit/f31a1ea94) ("Balsamiq Sans: fix source block in METADATA.pb"): replaced the incorrect commit hash `009740f8b2c3915b1553182ec406aaddb1a12dc7` (2024-12-17, post-onboarding) with the correct v1.020 release tag `b1dca64c3ceeaa3c274f69fae5a6f508b9a4dcc4` (2023-04-20). This resolved the "Action needed" item in the original conclusion.
+- **2026-04-08** — Simon Cozens, commit [`441751497`](https://github.com/google/fonts/commit/441751497) ("Correct main<->master"): corrected the `branch` field in METADATA.pb from `main` to `master`. Verified against upstream `balsamiq/balsamiqsans` (HEAD = `refs/heads/master` in the repo archive). The Source Data table above now reflects `Branch: master`.

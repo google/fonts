@@ -5,3 +5,7 @@ Font was designed by Type Associates. Source files were taken from the GitHub re
 **Config:** sources/config.yaml
 **Status:** Binary copy from upstream with config
 **Confidence:** High
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-10-30** — Emma Marichal, commit [`aac472d8f`](https://github.com/google/fonts/commit/aac472d8f) ("update designer list in metadata.pb"): collapsed the `designer` field from a four-name list (`"TYPE Associates, DuyN, Phuc Tran, Bao Truong"`) to the single foundry name `"Type Associates"`. Outside the `source { ... }` block.

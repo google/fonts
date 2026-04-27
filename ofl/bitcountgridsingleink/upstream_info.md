@@ -116,3 +116,8 @@ The source metadata for Bitcount Grid Single Ink is complete and accurate:
 - This family is part of the larger Bitcount project by Petr van Blokland, which produces many variants (Bitcount, Bitcount Grid Single, Bitcount Grid Single Ink, Bitcount Grid Double, Bitcount Prop Single, etc.) from a shared template designspace.
 - The upstream repo has a `sources/config.yaml` but it only sets `familyName: Bitcount` and does not cover the other Bitcount variants. The override config in google/fonts addresses this gap for this specific variant.
 - The font was added to Google Fonts on 2025-01-10 (per `date_added` in METADATA.pb) and updated to Version 1.001 on 2025-09-05.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-09-05** — Emma Marichal, commit [`3f08adabc`](https://github.com/google/fonts/commit/3f08adabc) ("Bitcount Grid Single Ink: Version 1.001 added"): initial v1.001 onboarding via gftools-packager. Source block references `petrvanblokland/TYPETR-Bitcount@89e7994f73b7f5ced80e7cf493d40be9e66ff82f` (shared with the Bitcount sibling families).
+- **2025-09-05** — Emma Marichal, commit [`f869115df`](https://github.com/google/fonts/commit/f869115df) ("OFL link"): same-day OFL.txt URL fix. License-file change tracked here per policy.

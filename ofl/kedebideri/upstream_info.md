@@ -67,3 +67,7 @@ Added an override `config.yaml` in `ofl/kedebideri/` referencing the upstream gf
 ### Earlier (2025-10-02)
 
 - **2025-10-02** — Emma Marichal, commit [`03f0d980e`](https://github.com/google/fonts/commit/03f0d980e) ("fix OFL"): fixed a typo in `OFL.txt` ("with an FAQ" → "with a FAQ", added a missing line about the SIL OFL license). License-file change tracked here per policy.
+
+### Earlier (2025-09-17)
+
+- **2025-09-17** — Emma Marichal, commit [`116a842bb`](https://github.com/google/fonts/commit/116a842bb) ("Kedebideri: Version 3.001 added"): initial onboarding via gftools-packager. Created `ofl/kedebideri/` with source block referencing `silnrsi/font-kedebideri@4973b2e0258ef40acc0da3c2c1d155630faecc2c`, archive_url to v3.001 release.

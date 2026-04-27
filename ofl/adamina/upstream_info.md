@@ -67,9 +67,18 @@ buildVariable: false
 
 This override config enables gftools-builder to compile the font from upstream sources.
 
+## Recent upstream/main activity (post-investigation)
+
+- **2026-04-08** — Simon Cozens, commit [`2eb54483f`](https://github.com/google/fonts/commit/2eb54483f) ("Use a full URL"): added the `https://` prefix to `repository_url` in METADATA.pb (`github.com/cyrealtype/Adamina` → `https://github.com/cyrealtype/Adamina`). This resolves Open Question #1 below.
+
+The source block at HEAD therefore reads:
+- `repository_url`: `https://github.com/cyrealtype/Adamina` (corrected 2026-04-08)
+- `commit`: `719bd2a68700963ef0870bc707c77bc2b915dc7a` (unchanged)
+- `config_yaml`: omitted (override `config.yaml` lives in `ofl/adamina/`)
+
 ## Open Questions
 
-1. The METADATA.pb `repository_url` field is missing the `https://` prefix -- should this be fixed?
+1. ~~The METADATA.pb `repository_url` field is missing the `https://` prefix -- should this be fixed?~~ **Resolved 2026-04-08** by Simon Cozens (commit `2eb54483f`).
 2. Where are the actual sources for v1.013 that was added in PR #744? Were they generated from a different state of the repo that was later force-pushed?
 3. Should an override `config.yaml` be created in `ofl/adamina/` for gftools-builder compatibility, using `sources/Adamina.glyphs` as the source?
 4. Should a `commit` field be added to the METADATA.pb source block?

@@ -49,3 +49,7 @@ A `config.yaml` exists at `sources/config.yaml`. It specifies both Glyphs source
 **Model**: Claude Opus 4.7 (1M context)
 
 Added `config_yaml: "sources/config.yaml"` to the METADATA.pb `source { }` block. Direct inspection of the upstream repo at the pinned commit `7cafa37b` (via the bare mirror in `upstream_repos/repo_archive/maxthunberg/miranda-sans.git`) confirms that `sources/config.yaml` exists at that commit and is a valid gftools-builder config — it declares the `sources:` key. The family should move from the dashboard's "missing_config" bucket into "covered" once `google-fonts-sources` regenerates crater's `targets.json`.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-02-11** — Emma Marichal, commit [`6c3102a96`](https://github.com/google/fonts/commit/6c3102a96) ("Miranda Sans: Version 1.000 added"): initial onboarding of Miranda Sans to google/fonts via gftools-packager. The commit created `ofl/mirandasans/` with the variable binaries `MirandaSans[wght].ttf` and `MirandaSans-Italic[wght].ttf`, METADATA.pb (with the source block recording `maxthunberg/miranda-sans@7cafa37b9`), OFL.txt, and the article. This is the same commit referenced in the original investigation's "added to google/fonts on 2026-02-11" line.

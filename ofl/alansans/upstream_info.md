@@ -51,3 +51,7 @@ Alan Sans has a complete source block in METADATA.pb with all required fields: r
 ## Recent upstream/main activity (post-investigation)
 
 - **2025-11-07** — Emma Marichal, commit [`53fe69aed`](https://github.com/google/fonts/commit/53fe69aed) ("Alan Sans - Update minisite_url to remove trailing slash"): trimmed the trailing slash from `minisite_url` (`https://typeface.alan.com/` → `https://typeface.alan.com`). Edit is outside the `source { ... }` block; no source-block impact.
+
+### Earlier (2025-10-29)
+
+- **2025-10-29** — Emma Marichal, commit [`75433c35c`](https://github.com/google/fonts/commit/75433c35c) ("update metadata.pb with new minisite"): added `minisite_url: "https://typeface.alan.com/"`. The trailing slash was trimmed by the later `53fe69aed` commit (2025-11-07) noted above.

@@ -55,3 +55,9 @@ This is a valid gftools-builder configuration pointing to UFO sources.
 ## Open Questions
 
 None.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-08-06** — Marc Foley, commit [`a5cda7bc1`](https://github.com/google/fonts/commit/a5cda7bc1) ("Cossette Titre: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added"): initial v1.001 onboarding via gftools-packager from `m4rc1e/cossette-fonts@7a3a7d62f4eac78d1ac722d25def17c67d9bb445` (Marc's fork).
+- **2025-08-06** — Emma Marichal, commit [`ead3c04c6`](https://github.com/google/fonts/commit/ead3c04c6) ("Update METADATA.pb"): same-day metadata fix.
+- **2025-09-16** — Dave Crossland, commit [`e1d8333ee`](https://github.com/google/fonts/commit/e1d8333ee) ("Update Cossette repo and articles"): migrated `repository_url` from `cossette/cossette-fonts` to `googlefonts/cossette-fonts`. Same commit affected the sibling `cossettetexte` family.

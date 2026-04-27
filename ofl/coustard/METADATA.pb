@@ -10,7 +10,7 @@ fonts {
   filename: "Coustard-Regular.ttf"
   post_script_name: "Coustard-Regular"
   full_name: "Coustard Regular"
-  copyright: "Copyright 2011 The Coustard Project Authors (https://github.com/googlefonts/bangers)"
+  copyright: "Copyright 2011 The Coustard Project Authors (https://github.com/googlefonts/coustardFont)"
 }
 fonts {
   name: "Coustard"
@@ -19,7 +19,7 @@ fonts {
   filename: "Coustard-Black.ttf"
   post_script_name: "Coustard-Black"
   full_name: "Coustard Black"
-  copyright: "Copyright 2011 The Coustard Project Authors (https://github.com/googlefonts/bangers)"
+  copyright: "Copyright 2011 The Coustard Project Authors (https://github.com/googlefonts/coustardFont)"
 }
 subsets: "latin"
 subsets: "latin-ext"

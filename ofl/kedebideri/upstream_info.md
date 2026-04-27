@@ -58,3 +58,8 @@ The source block has repository URL and commit hash. However, the SIL smith buil
 **Model**: Claude Opus 4.7 (1M context)
 
 Added an override `config.yaml` in `ofl/kedebideri/` referencing the upstream gftools-builder-compatible source at the pinned commit `4973b2e` (`source/Kedebideri.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-01-07** — Emma Marichal, commit [`1776dc2bb`](https://github.com/google/fonts/commit/1776dc2bb) ("Add subset 'beria-erfe' to METADATA.pb"): added a new entry `subsets: "beria-erfe"` (Beria-Erfe is the script-name token used in Google Fonts for the family's primary script). Outside the `source { ... }` block.
+- **2026-01-15** — Garret Rieger, commit [`9711e9d18`](https://github.com/google/fonts/commit/9711e9d18) ("Use primary_language instead of script for Kedebideri so that sample text will be chosen correctly"): switched `primary_script` to `primary_language` so the catalog sample-text picker resolves correctly for this minority-script family. Outside the `source { ... }` block.

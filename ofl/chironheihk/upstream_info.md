@@ -100,3 +100,7 @@ The `config_yaml: "scripts/config.yaml"` field is already set in the METADATA.pb
 
 - The commit `5d80c2c` (2025-05-13, "Adding GF-specific fonts") predates several font binary updates in google/fonts (v2.530 on 2025-06-25, rebuilds on 2025-06-26, NID13 on 2025-07-10). The font binaries currently in google/fonts may have been built from a later commit on the source branch. However, since this commit was explicitly agreed upon by the fontc_crater team, it serves as the canonical reference point.
 - The local cache at `upstream_repos/fontc_crater_cache/chiron-fonts/chiron-hei-hk` only has the `release` branch fetched; the `source` branch is not cached locally. This does not affect verification since the commit was confirmed via the GitHub API.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-09-25** — tamcy, commit [`7ee51a1b7`](https://github.com/google/fonts/commit/7ee51a1b7) ("Add `primary_language` field to Chiron GoRound TC, Chiron Hei HK and Chiron Sung HK"): added `primary_language: "yue_Hant"` (Cantonese in Traditional Chinese script) to METADATA.pb. The same commit touches all three Chiron HK/TC sibling families. Outside the `source { ... }` block.

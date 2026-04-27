@@ -65,3 +65,11 @@ The three padding commits all landed within minutes of each other (PR-iteration 
 ### 2026-02-09: tester field formatting
 
 - **2026-02-09** — Emma Marichal, commit [`f6d35fe21`](https://github.com/google/fonts/commit/f6d35fe21) ("Fix tester field formatting in METADATA.pb"): corrected the formatting of the `tester` field (likely a quoting/whitespace fix in the protobuf text representation).
+
+### 2026-01-29/30: original Allkin onboarding + immediate post-onboarding edits
+
+- **2026-01-29** — Emma Marichal, commit [`b031b3c2e`](https://github.com/google/fonts/commit/b031b3c2e) ("Allkin: Version 1.010 added"): the original onboarding via gftools-packager. Created `ofl/allkin/` with `Allkin-Regular.ttf`, METADATA.pb (with the source block recording the upstream commit), OFL.txt, and supporting files.
+- **2026-01-30** — Emma Marichal, commit [`466bb0818`](https://github.com/google/fonts/commit/466bb0818) ("add custom strings to metadata"): added 36 lines of custom sample-text strings to METADATA.pb (the `styles` and `tester` fields tweaked subsequently in February).
+- **2026-01-30** — Emma Marichal, commit [`22d1cd3f3`](https://github.com/google/fonts/commit/22d1cd3f3) ("update unicodes"): adjusted 26 lines of the Unicode-coverage advertised in METADATA.pb (`subsets` / `language` blocks). No font-binary changes.
+
+All three are within scope of the post-onboarding metadata bedding-in. The `source { ... }` block was created by the v1.010 commit and has not been modified by any of these or the later edits documented above.

@@ -46,3 +46,10 @@ This is the same commit hash used for all Betania Patmos variants. The commit is
 
 1. The METADATA.pb source block is missing the `config_yaml` field. Should it be added?
 2. There is also a "BetaniaPatmosInGDL" variant in the upstream repo that was not onboarded to Google Fonts. It may be a companion "guideline" version of "Betania Patmos In", similar to how "Betania Patmos GDL" is the guideline version of "Betania Patmos".
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-01-23** — Emma Marichal, commit [`caf0f148c`](https://github.com/google/fonts/commit/caf0f148c) ("Betania Patmos In: Version 11.002; ttfautohint (v1.8.4.16-eb64) added"): initial onboarding via gftools-packager. Created METADATA.pb with source block referencing `huertatipografica/betania-patmos@08c83ac9` (shared with the Betania Patmos sibling families).
+- **2026-01-23** — Emma Marichal, commit [`8fffe23cc`](https://github.com/google/fonts/commit/8fffe23cc) ("update OFL"): same-day OFL.txt update.
+
+Source block reflects the recorded upstream commit; no corrections needed.

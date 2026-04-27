@@ -60,3 +60,13 @@ Same situation as all Bpmf families - custom Ruby-based build system (`make_font
 2. **Where does the ZihiKaiStd base font come from?** Unlike Huninn (from justfont) and Iansui (from ButTaiwan/iansui), the Zihi Kai Std source font is not documented in `upstream_sources.json`.
 3. **Will the transition from aaronbell/bpmfvs to ButTaiwan/bpmfvs happen?** Until it does, the recorded commit hash will remain inaccurate.
 4. This family had the most updates of the three Bpmf families, suggesting it required more iteration to get right.
+
+## Recent upstream/main activity (post-investigation)
+
+The Bpmf Zihi Kai Std family was onboarded in a multi-commit sequence by Aaron Bell (2026-01-30) with the most binary updates of the three Bpmf families. The earlier investigation already documents some commits in the Onboarding timeline; for completeness, three additional shared-with-siblings commits are recorded here:
+
+- **2026-01-30** — Aaron Bell, commit [`423e25002`](https://github.com/google/fonts/commit/423e25002) ("Onboarding three families related to the Bopomofo phonetic system"): the umbrella onboarding commit that introduced all three Bpmf families (Huninn, Iansui, Zihi Kai Std) at once.
+- **2026-01-30** — Aaron Bell, commit [`cc204af75`](https://github.com/google/fonts/commit/cc204af75) ("One at a time is the way to go..."): incremental retry that re-onboarded Iansui and Zihi Kai Std after the umbrella commit's binary issues.
+- **2026-01-30** — Aaron Bell, commit [`d6f37786b`](https://github.com/google/fonts/commit/d6f37786b) ("Updating strings"): same-day binary update touching both Bpmf Huninn and Bpmf Zihi Kai Std (binary-only commit per the diff).
+
+All three are part of the original onboarding sequence. The recorded `commit` and `repository_url` fields in METADATA.pb still point to ButTaiwan/bpmfvs while the actual binaries were built in aaronbell/bpmfvs (the commit-hash provenance issue flagged in the original investigation remains open).

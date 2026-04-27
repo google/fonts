@@ -88,6 +88,6 @@ The shipping `Coustard-Regular.ttf` (75432 bytes, md5 `1b81850f782640f19b5cc3244
 
 The original `vernnobile/coustardFont` repo (Vernon Adams's GitHub account, `5f54d232f` "migrate from code.google" 2013-03-01) is preserved as historical context above. It remains accessible online but is superseded by the `googlefonts/coustardFont` fork as the source-of-truth for current Coustard onboarding. Per policy, full details of the original repo are kept in this report.
 
-### Follow-up note
+### Follow-up note (resolved)
 
-The new copyright string in METADATA.pb (added by Emma's commit a0db74464) reads `"Copyright 2011 The Coustard Project Authors (https://github.com/googlefonts/bangers)"` — the URL `googlefonts/bangers` appears to be a typo (Bangers is a different family). The likely correct URL is `https://github.com/googlefonts/coustardFont`. This is outside the source-block sync scope but worth flagging for a future fix.
+The new copyright string in METADATA.pb added by Emma's commit `a0db74464` originally read `"Copyright 2011 The Coustard Project Authors (https://github.com/googlefonts/bangers)"` — the URL `googlefonts/bangers` was a copy-paste typo (Bangers is a different family). **Resolved in this branch** by cherry-picked commit `5e56b4565` ("Coustard: fix copyright URL typo (bangers -> coustardFont)"), which corrected both `fonts { ... copyright }` entries to reference `https://github.com/googlefonts/coustardFont`. The fix originated as a separate single-purpose branch (`fix-coustard-copyright-url`) before being folded into this audit branch.

@@ -46,3 +46,10 @@ This is the same commit hash used for all Betania Patmos variants. The commit is
 
 1. The METADATA.pb source block is missing the `config_yaml` field. Should it be added?
 2. The category is listed as DISPLAY in METADATA.pb but classifications say SYMBOLS - this font appears to contain guide lines/ruled lines for handwriting practice rather than letterforms.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-01-23** — Emma Marichal, commit [`02c6401c0`](https://github.com/google/fonts/commit/02c6401c0) ("Betania Patmos GuideLine: Version 11.002; ttfautohint (v1.8.4.16-eb64) added"): initial onboarding via gftools-packager. Created METADATA.pb with source block referencing `huertatipografica/betania-patmos@08c83ac9` (shared with the Betania Patmos sibling families).
+- **2026-01-23** — Emma Marichal, commit [`3ea62eb9c`](https://github.com/google/fonts/commit/3ea62eb9c) ("article + ofl"): same-day addition of the article and OFL.txt updates.
+
+Source block reflects the recorded upstream commit; no corrections needed.

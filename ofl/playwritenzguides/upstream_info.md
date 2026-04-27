@@ -11,3 +11,10 @@ The METADATA.pb contained a source block pointing to the TypeTogether/Playwrite 
 
 ## Status
 - **Category**: WITH_SOURCE
+
+## Recent upstream/main activity (post-investigation)
+
+Two commits on 2026-01-21 advanced this family to v1.004:
+
+- **2026-01-21** — Emma Marichal, commit [`ba7373c4b`](https://github.com/google/fonts/commit/ba7373c4b) ("Playwrite NZ Guides: Version 1.004 added"): version bump to 1.004 via gftools-packager. Updated `PlaywriteNZGuides-Regular.ttf` (368516 → 387680 bytes), METADATA.pb, article. Source block fields advanced.
+- **2026-01-21** — Marc Foley, commit [`55aec06a9`](https://github.com/google/fonts/commit/55aec06a9) ("Remove all subsets apart from menu"): removed 3 subsets from METADATA.pb (post-onboarding cleanup). Outside the `source { ... }` block.

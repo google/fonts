@@ -47,3 +47,7 @@ Found `sources/config.yaml` in upstream repository at the recorded commit hash.
 ## Confidence
 
 **High**: URL pre-existing in METADATA.pb; commit pre-existing in METADATA.pb
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-02-12** — Emma Marichal, commit [`27cd544b8`](https://github.com/google/fonts/commit/27cd544b8) ("Correct designer name spelling in METADATA.pb"): corrected the `designer` field from `"Ishtar van Looy"` to `"Ishtār van Looy"` (added macron diacritic over the first `a`, matching the designer's preferred spelling). The change is outside the `source { ... }` block and does not affect the recorded source provenance.

@@ -53,3 +53,8 @@ Per policy, since an override `config.yaml` exists in the google/fonts directory
 ## Conclusion
 
 The METADATA.pb source block is complete. The commit `89e7994f73b7f5ced80e7cf493d40be9e66ff82f` is confirmed as the onboarding commit. An override `config.yaml` is present in the google/fonts family directory. No action needed.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-09-05** — Emma Marichal, commit [`beed7dadc`](https://github.com/google/fonts/commit/beed7dadc) ("Bitcount Prop Double Ink: Version 1.001 added"): initial v1.001 onboarding via gftools-packager. Source block references `petrvanblokland/TYPETR-Bitcount@89e7994f73b7f5ced80e7cf493d40be9e66ff82f` (shared with the Bitcount sibling families).
+- **2025-09-05** — Emma Marichal, commit [`a223b37be`](https://github.com/google/fonts/commit/a223b37be) ("update OFL link"): same-day OFL.txt URL fix.

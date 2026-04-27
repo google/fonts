@@ -15,3 +15,11 @@ The existing source metadata was reviewed. The source block contained both a rep
 - **Script**: Arabic (Naskh style)
 - **Category**: SERIF
 - Part of the Google Noto project at github.com/notofonts/arabic. Provides Naskh-style Arabic script coverage with variable weight (wght 400–700). Supports a wide range of Arabic-script languages.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-01-16** — Simon Cozens, commit [`35ddfc50b`](https://github.com/google/fonts/commit/35ddfc50b) ("Noto Naskh Arabic: Version 2.021 added"): advanced the source block from v2.020 → v2.021. METADATA.pb changes:
+  - `commit`: `1b2b7e5c6ce3ab4d50681c854892325530084c35` → `59f5a3fd985bf24858915c3dddfc51a537640965`
+  - `archive_url`: `.../NotoNaskhArabic-v2.020/...zip` → `.../NotoNaskhArabic-v2.021/...zip`
+
+  Binary `NotoNaskhArabic[wght].ttf` updated.

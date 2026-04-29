@@ -13,7 +13,6 @@ fonts {
   copyright: "???."
 }
 subsets: "menu"
-experiments: "dont_enable_unicode_range"
 source {
   repository_url: "https://github.com/googlefonts/libertinus"
   commit: "88dfbb0a7715817a43499e613fc8e6645174cd6a"

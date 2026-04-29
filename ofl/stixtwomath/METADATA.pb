@@ -13,7 +13,6 @@ fonts {
   copyright: "Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)"
 }
 subsets: "menu"
-experiments: "dont_enable_unicode_range"
 source {
   repository_url: "https://github.com/stipub/stixfonts"
   files {

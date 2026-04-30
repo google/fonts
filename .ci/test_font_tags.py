@@ -76,9 +76,9 @@ def test_no_duplicate_families(family_tags):
     seen = set()
     dups = []
     for family, axes, cat, _ in family_tags:
-        key = (family, cat)
+        key = (family, axes, cat)
         if key in seen:
-            dups.append(",".join(key))
+            dups.append(",".join([family, axes, cat]))
         seen.add(key)
     assert not dups, f"Duplicate tags found: {dups}"
 

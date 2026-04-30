@@ -13,7 +13,6 @@ fonts {
   copyright: "Copyright 2022 Google LLC. All Rights Reserved."
 }
 subsets: "menu"
-experiments: "dont_enable_unicode_range"
 source {
   repository_url: "https://www.github.com/notofonts/math"
   commit: "4b78263eac2301b04367d600a07b521cfbff0867"

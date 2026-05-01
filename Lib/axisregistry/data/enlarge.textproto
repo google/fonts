@@ -18,4 +18,5 @@ description:
   "Scales lowercase letters to an intermediate size between minuscule and"
   " majuscule, as used in medieval manuscripts for enlarged minuscules at"
   " sentence openings. Adjusts x-height and character width continuously"
-  " from 0 (default lowercase) to 1 (fully enlarged)."
+  " from 0 (default lowercase) to 100 (fully enlarged)."
+  

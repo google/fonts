@@ -1,5 +1,5 @@
 name: "Akt"
-designer: "Dima Grenev"
+designer: "Dmitry Grenev"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2026-04-24"

@@ -46,3 +46,9 @@ No config.yaml can be created for this family without first converting the sourc
 ## Open Questions
 
 None. The data is complete and verified. The family will remain in `missing_config` status unless the sources are converted to a gftools-compatible format (e.g., .glyphs or .ufo).
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/butterflykids/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `0c553b2341`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -103,3 +103,9 @@ Note: This source block has not yet been merged into google/fonts main -- it was
 - **Confidence**: HIGH
 
 No override `config.yaml` is needed or possible since the sources are in legacy formats (FontForge SFD and FontLab VBF) that are not supported by gftools-builder. The source block with repository_url and commit hash is sufficient.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/fenix/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `b5107c124b`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

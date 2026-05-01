@@ -110,3 +110,9 @@ The source block in METADATA.pb is correct:
 - **Status**: `missing_config` -- sources exist but are in a legacy format (VFB) that cannot be used by modern build tools. No actionable path to create an override config.yaml.
 
 This is a completed investigation. The font's source metadata is as complete as it can be given the available sources.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/freckleface/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `158b54fbb5`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

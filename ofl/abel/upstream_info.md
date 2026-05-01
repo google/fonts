@@ -51,3 +51,9 @@ The font was likely compiled from the `.sfd` or `.vfb` sources using FontForge o
 1. Can the .sfd sources in the upstream repo be used to reproduce the current font binary in google/fonts? The font was modified directly in google/fonts after onboarding (kerning fix PR #2352, version hotfix PR #741), so the upstream sources likely do not match the current binary.
 2. Should an override config.yaml be created for this family? Given that the sources are in .sfd format (not supported by gftools-builder), this would require conversion to .glyphs or .ufo format first.
 3. The copyright field lists "Matthew Desmond (http://www.madtype.com)" -- the designer credit says "MADType" which is Matthew Desmond's studio. The HTTP URL in the copyright may or may not still be valid.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/abel/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `adf2c7e74e`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

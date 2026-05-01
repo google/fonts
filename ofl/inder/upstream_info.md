@@ -40,3 +40,9 @@ The font was designed by Sorkin Type (Eben Sorkin), as indicated in the copyrigh
 ## Conclusion
 
 No source block can be completed for Inder. The upstream repository (`librefonts/inder`) only contains FontForge `.sfd` source files, which are not compatible with gftools-builder. Status: `no_config_possible`. A source block with `repository_url` only could be added to document the upstream location, but no `config_yaml` can be provided.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/inder/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `5620f47441`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

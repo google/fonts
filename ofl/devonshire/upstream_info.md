@@ -40,3 +40,9 @@ The font binary has not been updated since the initial commit (90abd17b4) of the
 ## Recommendation
 
 Status should remain `missing_config` with the note that sources are SFD/VFB format only. The font would need to be converted to .glyphs or .ufo format and a config.yaml created before it could be built with gftools-builder.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/devonshire/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `7d88bb81c7`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

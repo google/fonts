@@ -48,3 +48,9 @@ These are not compatible with gftools-builder, which requires `.glyphs`, `.ufo`,
 ## Open Questions
 
 None. This is a legacy font with SFD/VFB-only sources that cannot be rebuilt with modern tooling without a source conversion effort.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/croissantone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `ebcefa6161`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -69,3 +69,9 @@ source {
 **Status**: no_config_possible
 
 **Notes**: This is a legacy font from the original Google Font Directory era. The `librefonts/galdeano` repo is an archive containing VFB and SFD sources that are not compatible with gftools-builder. The single commit in the repo predates the google/fonts initial commit. No config.yaml can be created without first converting the sources to a modern format (UFO, .glyphs, or .designspace).
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/galdeano/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `0325c647c6`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

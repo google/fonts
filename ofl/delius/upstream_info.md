@@ -55,3 +55,9 @@ Since this is a legacy font with SFD-only sources, the commit hash serves mainly
 - The font sources would need to be converted to a modern format (e.g., .glyphs or .ufo) before a config.yaml could be created.
 - The source block for METADATA.pb has been prepared on branch `sources_info_2026-02-25` but is not yet merged.
 - Since this is a very old font (2011) with SFD sources, it may not be a priority for source documentation.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/delius/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `5bd1633b6b`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

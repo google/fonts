@@ -72,3 +72,9 @@ These formats are **not compatible with gftools-builder**. A config.yaml cannot 
 ## Confidence
 
 **HIGH**: The upstream repository has a single commit, making identification unambiguous. The repository URL is confirmed accessible and contains matching source files. The status is "missing_config" because the sources are in legacy formats (SFD/VFB) that are not compatible with gftools-builder, so no config.yaml can be created without first converting the sources to a modern format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/cantataone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `947c3dd6e9`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

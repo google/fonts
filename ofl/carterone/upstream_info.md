@@ -59,3 +59,9 @@ This would make the family buildable, similar to what was done for Carme.
 - An override config.yaml could be created in google/fonts to make this family buildable from SFD sources. This would change the status from `missing_config` to `complete`.
 - It should be verified that building from the SFD source produces output matching (or acceptably close to) the current binary in google/fonts before creating such an override.
 - Vernon Adams, the original designer, passed away in 2014. Any updates to this font would need to be handled by the community.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/carterone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `9943144e58`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

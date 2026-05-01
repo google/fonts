@@ -81,3 +81,9 @@ source {
   commit: "c5193604253d9cf325e43b44e88045a503b53cbf"
 }
 ```
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/headlandone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `c519360425`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

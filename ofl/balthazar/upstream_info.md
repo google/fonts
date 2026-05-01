@@ -43,3 +43,9 @@ No override config.yaml exists in the google/fonts family directory either.
 ## Open Questions
 - This is a legacy font with only .vfb/.sfd sources. To make it buildable with gftools-builder, the sources would need to be converted to .glyphs or .ufo format. This is a significant effort and may not be prioritized.
 - The METADATA.pb has no `source {}` block. A source block with repository_url and commit could be added, though config_yaml would still be absent.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/balthazar/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `baa08c6f63`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

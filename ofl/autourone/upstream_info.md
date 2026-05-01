@@ -57,3 +57,9 @@ SFD files are FontForge's native format and are not directly compatible with gft
 - Eben Sorkin maintains the `EbenSorkin` GitHub account and is associated with Sorkin Type. It's worth checking if there's a dedicated Autour One repo under that account.
 - Should the SFD sources be converted to UFO or .glyphs format to enable gftools-builder builds?
 - The SFD sources include separate OTF and TTF variants, which is an unusual source structure.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/autourone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `10ccd1eb5a`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -43,3 +43,9 @@ There is no config.yaml in the upstream repository. The only source file is `src
 
 1. The source block has been prepared on branch `sources_info_2026-02-25` but has not yet been merged into the main google/fonts repository. Once merged, METADATA.pb will document the upstream source.
 2. Since the font uses SFD sources only, it would need to be converted to a modern source format (UFO or Glyphs) before a config.yaml could be created. This is unlikely to happen unless the font receives a major redesign/update.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/buda/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `c632d6ba92`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

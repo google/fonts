@@ -42,3 +42,9 @@ No override `config.yaml` exists in the google/fonts directory.
 ## Conclusion
 
 Julius Sans One has a librefonts mirror at `https://github.com/librefonts/juliussansone` with commit `8aadb0e8d6ef7f45aa2844ccd99f7e28f0cd1498`. The librefonts mirror contains only TTX-decompiled OTF files — no gftools-builder compatible sources. No `config.yaml` can be created without first identifying and converting original source files. Status: no_config_possible.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/juliussansone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `8aadb0e8d6`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

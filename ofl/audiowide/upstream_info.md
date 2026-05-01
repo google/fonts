@@ -56,3 +56,9 @@ VFB files are proprietary FontLab Studio format and are not compatible with gfto
 - The `librefonts/audiowide` repo appears to be an archived mirror. Is there an original upstream repository maintained by Astigmatic (Brian J. Bonislawsky)?
 - Should the VFB sources be converted to UFO or .glyphs format to enable gftools-builder builds?
 - The font has only VFB sources. Without conversion, there is nothing that can be referenced in a config.yaml.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/audiowide/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `eccbd790f5`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -49,3 +49,9 @@ No override `config.yaml` exists in the google/fonts directory.
 ## Conclusion
 
 Just Me Again Down Here has a librefonts mirror at `https://github.com/librefonts/justmeagaindownhere` with commit `63543cec6964e5061ece828c63948d1910e0dbdd`. The librefonts mirror contains only TTX-decompiled OTF files — no gftools-builder compatible sources. The font was originally created in Adobe Illustrator, so no `.glyphs` or `.ufo` sources are expected to exist. Status: no_config_possible.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/justmeagaindownhere/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `63543cec69`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

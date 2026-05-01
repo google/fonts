@@ -1,0 +1,21 @@
+# ENLA based on https://github.com/psb1558/Junicode-font
+tag: "ENLA"
+display_name: "Enlarge"
+min_value: 0.0
+default_value: 0.0
+max_value: 100
+precision: -2
+fallback {
+  name: "Normal"
+  value: 0.0
+}
+fallback {
+  name: "Enlarge"
+  value: 100
+}
+fallback_only: false
+description:
+  "Scales lowercase letters to an intermediate size between minuscule and"
+  " majuscule, as used in medieval manuscripts for enlarged minuscules at"
+  " sentence openings. Adjusts x-height and character width continuously"
+  " from 0 (default lowercase) to 1 (fully enlarged)."

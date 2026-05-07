@@ -10,11 +10,11 @@ Note that the default value is expected to differ per family, rather than be uni
 
 <figure>
 
-![An image showing three type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis' lowest value. The specimen on the right shows the effects of the axis' highest value.](images/thumbnail.svg)
+![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effect of the axis at its default value (0), while the specimen on the right illustrates the effect of the axis at its maximum value.](images/thumbnail.svg)
 <figcaption>The Contrast axis at its extremes, using the <a href="https://fonts.google.com/specimen/Science+Gothic">Science Gothic</a> font.</figcaption>
 
 </figure>
 
-A positive value increases contrast relative to the zero-contrast thickness by making the thin stroke thinner. At a value of 100, the thin stroke has disappeared completely.
+A positive value increases contrast relative to the zero-contrast thickness by making the thin stroke thinner. At a value of 100, the thin stroke has the difference between the thin and thick is maximized.
 
 A negative value indicates "reverse contrast": the strokes which would conventionally be thick in the writing system are instead made thinner. In western-language fonts, this might be perceived as a 19th-century, "circus" or "old West" effect. At a value of -100, the strokes which would normally be thick have disappeared completely.

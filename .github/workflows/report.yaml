@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: "3.10"
       - name: Install Cairo (Ubuntu)
-        run: sudo apt-get install libcairo2-dev
+        run: sudo apt-get update && sudo apt-get install -y libcairo2-dev
       - name: Setup requirements
         run: pip3 install 'git+https://github.com/googlefonts/gftools'
       - name: Setup duckdb

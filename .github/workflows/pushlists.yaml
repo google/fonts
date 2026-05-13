@@ -6,6 +6,9 @@ on:
     - 'to_production.txt'
     - '.github/workflows/pushlists.yaml"'
 
+permissions:
+  contents: read
+
 jobs:
   test_server_files:
     runs-on: ubuntu-latest

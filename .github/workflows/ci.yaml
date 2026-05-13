@@ -16,6 +16,9 @@ on:
     - "to_*.txt"
     - ".github/workflows/ci.yaml"
 
+permissions:
+  contents: read
+
 jobs:
   check_knowledge_graph:
     runs-on: ubuntu-latest

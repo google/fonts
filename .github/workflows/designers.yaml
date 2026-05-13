@@ -5,6 +5,9 @@ on:
     paths:
     - 'catalog/designers/*/*'
 
+permissions:
+  contents: read
+
 jobs:
   test_designer_profiles:
     runs-on: ubuntu-22.04

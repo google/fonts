@@ -1,0 +1,20 @@
+name: Check Knowledge content markup
+
+on:
+  pull_request:
+    paths:
+      - "cc-by-sa/knowledge/**/*.md"
+
+jobs:
+  check-markdown-in-html:
+    name: No markdown inside HTML blocks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Check for markdown markup inside HTML
+        run: python3 .ci/check_knowledge_markup.py

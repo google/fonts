@@ -6,7 +6,7 @@ from fontTools.varLib.instancer.names import _updateUniqueIdNameRecord, NameID
 from fontTools.ttLib.tables._f_v_a_r import NamedInstance
 from google.protobuf import text_format
 from collections import OrderedDict
-from axisregistry.axes_pb2 import AxisProto
+from gfmetadata import AxisProto
 from collections import defaultdict
 from itertools import chain
 import logging

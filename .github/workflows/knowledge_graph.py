@@ -151,25 +151,6 @@ def _check_file_present(repo_root: Path, referrer: Path, ref: str, target: Path)
 def _check_contributor(repo_root: Path, referrer: Path, ref: str, contributors: Set[str]) -> bool:
     return _maybe_print_check(ref in contributors, repo_root, referrer, ref, None)
 
-
-# ---------------------------------------------------------------------------
-# Check: markdown markup inside HTML tags (would not be rendered by the parser)
-#
-# VALID — markdown on its own line with blank lines around it:
-#   <figcaption>
-#
-#   Calligraphy by [Mara Zepeda](http://...)
-#
-#   </figcaption>
-#
-# INVALID — markdown inline inside an HTML tag (no blank lines):
-#   <figcaption>The [Climate Crisis font](https://...) has a 'Year' axis.</figcaption>
-#   <figcaption>Inuktut communities across **Nunavik** & *Nunavut*</figcaption>
-#   <figure>
-#   *"A quote used as a video caption"*
-#   </figure>
-# ---------------------------------------------------------------------------
-
 _MD_LINK    = re.compile(r'(?<!!)\[[^\]]+\]\([^)]+\)')
 _MD_BOLD    = re.compile(r'\*\*[^*\s][^*\n]*\*\*')
 _MD_ITALIC  = re.compile(r'(?<!\*)\*(?!\*)[^*\n]+\*(?!\*)')

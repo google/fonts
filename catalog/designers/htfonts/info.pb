@@ -1,5 +1,5 @@
-designer: "Huerta Tipográfica"
+designer: "HT Fonts"
 link: ""
 avatar {
-  file_name: "huerta_tipografica.png"
+  file_name: "htfonts.png"
 }

@@ -1,5 +1,5 @@
 name: "Andada Pro"
-designer: "Huerta Tipográfica, Carolina Giovagnoli"
+designer: "HT Fonts, Carolina Giovagnoli"
 license: "OFL"
 category: "SERIF"
 date_added: "2021-05-19"
@@ -48,4 +48,4 @@ source {
   }
   branch: "master"
 }
-minisite_url: "https://huertatipografica.com/en/fonts/andada-ht-pro"
+minisite_url: "https://htfonts.com/en/fonts/andada"

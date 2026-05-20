@@ -1,5 +1,5 @@
 name: "Piazzolla"
-designer: "Juan Pablo del Peral, Huerta Tipográfica"
+designer: "Juan Pablo del Peral, HT Fonts"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-08-27"
@@ -56,6 +56,6 @@ source {
   }
   branch: "google_prs"
 }
-minisite_url: "https://piazzolla.huertatipografica.com/"
+minisite_url: "https://piazzolla.htfonts.com/"
 stroke: "SERIF"
 classifications: "DISPLAY"

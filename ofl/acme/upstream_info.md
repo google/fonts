@@ -2,7 +2,7 @@
 
 **Date investigated**: 2026-02-26
 **Status**: missing_config
-**Designer**: Juan Pablo del Peral, Huerta Tipografica
+**Designer**: Juan Pablo del Peral, HT Fonts
 **METADATA.pb path**: `ofl/acme/METADATA.pb`
 
 ## Source Data
@@ -18,7 +18,7 @@
 
 The repository URL `https://github.com/librefonts/acme` was identified from the upstream repo cache at `upstream_repos/fontc_crater_cache/librefonts/acme`. There is no `source { }` block in METADATA.pb at all. Like Abril Fatface, the `librefonts` organization hosts a TTX-decomposed mirror of this font.
 
-The original designer is "Juan Pablo del Peral, Huerta Tipografica". The Huerta Tipografica organization on GitHub (`huertatipografica`) has repos for several of their other fonts (Alegreya, Andada Pro, etc.) but does not have a dedicated repo for Acme. The font's copyright string references `info@huertatipografica.com.ar`.
+The original designer is "Juan Pablo del Peral, HT Fonts". The HT Fonts organization on GitHub (`huertatipografica`) has repos for several of their other fonts (Alegreya, Andada Pro, etc.) but does not have a dedicated repo for Acme. The font's copyright string references `info@htfonts.com`.
 
 ## How the Commit Hash Was Identified
 
@@ -49,11 +49,11 @@ These source formats are not compatible with gftools-builder. A config.yaml cann
 
 ## Confidence
 
-**Medium**: The repository URL is confirmed and the commit is verified in the upstream repo. However, `librefonts/acme` is a legacy TTX mirror, not a true design source repository. The original designer (Juan Pablo del Peral / Huerta Tipografica) may have the original design sources elsewhere. The font binary in google/fonts predates this repo (2011 vs 2014), and was last updated in 2017 via a hotfix. The relationship between this repo and the font production is indirect.
+**Medium**: The repository URL is confirmed and the commit is verified in the upstream repo. However, `librefonts/acme` is a legacy TTX mirror, not a true design source repository. The original designer (Juan Pablo del Peral / HT Fonts) may have the original design sources elsewhere. The font binary in google/fonts predates this repo (2011 vs 2014), and was last updated in 2017 via a hotfix. The relationship between this repo and the font production is indirect.
 
 ## Open Questions
 
-- Does Huerta Tipografica or Juan Pablo del Peral maintain an original source repository for Acme with `.glyphs` or `.ufo` sources?
+- Does HT Fonts or Juan Pablo del Peral maintain an original source repository for Acme with `.glyphs` or `.ufo` sources?
 - Since the source formats (SFD/VFB) are not gftools-builder compatible, is there a plan to convert the sources to a modern format?
 - Should METADATA.pb be updated to include a `source { }` block pointing to this repo, even though it cannot be built with gftools-builder?
 - PR #743 was a hotfix in 2017. Has the font had any substantive updates since its original release?

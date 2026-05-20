@@ -5,15 +5,15 @@
 
 ## Summary
 
-The upstream repository for Piazzolla was identified at https://github.com/huertatipografica/piazzolla, maintained by Huerta Tipográfica. The METADATA.pb file referenced commit `fbd775f98a0a27570de0eaf20206860021c68b6b` on the `google_prs` branch. No config_yaml was specified in the source block. A minisite is available at https://piazzolla.huertatipografica.com/.
+The upstream repository for Piazzolla was identified at https://github.com/huertatipografica/piazzolla, maintained by HT Fonts. The METADATA.pb file referenced commit `fbd775f98a0a27570de0eaf20206860021c68b6b` on the `google_prs` branch. No config_yaml was specified in the source block. A minisite is available at https://piazzolla.htfonts.com/.
 
 ## Font Description
 
-Piazzolla is an expressive serif variable font designed by Juan Pablo del Peral at Huerta Tipográfica. The font is named after Astor Piazzolla, the Argentine tango composer. It features optical size (`opsz`, 8–30) and weight (`wght`, 100–900) variable axes, and is available in both upright and italic styles. The design is classified as both serif and display. It covers Latin, Cyrillic, Greek (including Extended), and Vietnamese scripts, giving it exceptionally broad multilingual support. The copyright dates to 2018.
+Piazzolla is an expressive serif variable font designed by Juan Pablo del Peral at HT Fonts. The font is named after Astor Piazzolla, the Argentine tango composer. It features optical size (`opsz`, 8–30) and weight (`wght`, 100–900) variable axes, and is available in both upright and italic styles. The design is classified as both serif and display. It covers Latin, Cyrillic, Greek (including Extended), and Vietnamese scripts, giving it exceptionally broad multilingual support. The copyright dates to 2018.
 
 ## Designer
 
-Juan Pablo del Peral is the lead designer, working at Huerta Tipográfica, an Argentine type foundry known for high-quality Latin and multilingual typefaces.
+Juan Pablo del Peral is the lead designer, working at HT Fonts, an Argentine type foundry known for high-quality Latin and multilingual typefaces.
 
 ## Repository
 
@@ -21,7 +21,7 @@ Juan Pablo del Peral is the lead designer, working at Huerta Tipográfica, an Ar
 - **Commit**: `fbd775f98a0a27570de0eaf20206860021c68b6b`
 - **Branch**: `google_prs`
 - **License**: OFL
-- **Minisite**: https://piazzolla.huertatipografica.com/
+- **Minisite**: https://piazzolla.htfonts.com/
 
 ## Font Details
 

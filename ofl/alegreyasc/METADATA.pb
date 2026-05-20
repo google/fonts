@@ -1,5 +1,5 @@
 name: "Alegreya SC"
-designer: "Juan Pablo del Peral, Huerta Tipográfica"
+designer: "Juan Pablo del Peral, HT Fonts"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"

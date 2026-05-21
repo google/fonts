@@ -33,4 +33,20 @@ Same monorepo as Kumar One; needs verification that Outline variant sources are 
 
 ## Build Configuration (Override)
 
-An override `config.yaml` has been created in the google/fonts family directory, referencing `Kumar One.glyphs (shared with Kumar One)` from `itfoundry/kumar`. This is a best-effort starting point for reproducible builds — the shipped binary was likely built with different tool versions and may not match exactly.
+An override `config.yaml` has been created in the google/fonts family directory, referencing the Glyphs source (shared with Kumar One) from `itfoundry/kumar`. This is a best-effort starting point for reproducible builds — the shipped binary was likely built with different tool versions and may not match exactly.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` listed `sources: ["Kumar One.glyphs"]` — a repository-root path. fontc_crater failed with `missing source 'Kumar One.glyphs'`.
+
+### Investigation
+At the recorded commit `3192a79` the Glyphs source is `masters/Kumar One.glyphs`, not at the repository root. The override config path was missing the `masters/` directory prefix. The recorded commit is correct.
+
+### Actions taken
+The override `config.yaml` source path was corrected from `Kumar One.glyphs` to `masters/Kumar One.glyphs`.
+
+### Final state
+The override `config.yaml` references `masters/Kumar One.glyphs`, which exists at the recorded commit `3192a79`. This is the same `itfoundry/kumar` source shared with the Kumar One family.

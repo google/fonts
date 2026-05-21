@@ -8,39 +8,51 @@
 | Slug | lalezar |
 | License Dir | ofl |
 | Repository URL | https://github.com/BornaIz/Lalezar |
-| Commit Hash | unknown |
-| Config YAML | unknown |
-| Status | missing_commit |
-| Confidence | MEDIUM |
+| Commit Hash | 238701c4241f207e92515f845a199be9131c1109 |
+| Config YAML | local override (`config.yaml`) |
+| Status | complete |
+| Confidence | HIGH |
 
-## Source Data (METADATA.pb)
+## Initial state
+
+`METADATA.pb` referenced commit `c3e0eae24240424069cd8c1b4350a6101346fb7b` (Aug 22, 2016, "Merge pull request #9"). Building from that revision failed with `missing source 'sources/Lalezar.glyphs'`.
+
+The local override `ofl/lalezar/config.yaml` already pointed to `sources/Lalezar.glyphs`.
+
+## Investigation
+
+The full upstream history at `https://github.com/BornaIz/Lalezar` was reviewed. Key commits:
+
+- `c3e0eae` — Aug 22, 2016 — Merge PR #9 (the previously recorded commit). At this revision the repository contains `Glyphs files/Lalezar_v3.gyphs` (note typo) — there is no `sources/` directory.
+- `ded35db` — Jan 23, 2017 — `sources: renamed from Glyphs files`. First commit where the `sources/` directory exists.
+- `32b5042` — Jan 23, 2017 — `Lalezar_v3.gyphs: renamed to Lalezar.glyphs.` First commit where `sources/Lalezar.glyphs` exists at the canonical path.
+- `8c9d2ad` — Feb 27, 2017 — Merge PR #11 from m4rc1e/gf (Marc Foley's onboarding prep).
+- `f3631c6` — Feb 28, 2017 — `fonts | sources: fixed OT features`.
+- `238701c` — Feb 28, 2017 — Merge PR #12 from m4rc1e/gf. Last upstream commit prior to the binary modification date in google/fonts (`Lalezar-Regular.ttf` mtime 2017-05-01) and matching `date_added: "2017-02-28"` already recorded in METADATA.pb.
+
+The two 2021 commits (`f7e9f54`, `1a9b729`) postdate the google/fonts binary and are not relevant to the original onboarding.
+
+The previous `c3e0eae` value originated from an automated `tag_match` heuristic that matched a 1.003 version tag whose date was on or before the binary mtime. The heuristic ignored that the source file required by `config.yaml` did not yet exist at that revision.
+
+## Actions taken
+
+- `METADATA.pb` `source.commit` updated from `c3e0eae24240424069cd8c1b4350a6101346fb7b` to `238701c4241f207e92515f845a199be9131c1109`.
+- `config.yaml` left unchanged — `sources/Lalezar.glyphs` is present at `238701c` and the existing override is correct.
+
+## Final state
 
 ```
 source {
+  commit: "238701c4241f207e92515f845a199be9131c1109"
   repository_url: "https://github.com/BornaIz/Lalezar"
 }
 ```
 
-## Investigation
+`config.yaml` (local override):
 
-The METADATA.pb has a `repository_url` pointing to `https://github.com/BornaIz/Lalezar` but no commit hash.
+```yaml
+sources:
+  - sources/Lalezar.glyphs
+```
 
-The google/fonts git history for `ofl/lalezar/Lalezar-Regular.ttf` shows:
-- `1251c0373` — "lalezar: v1.004 added (#682)" — this was the initial onboarding
-
-The PR body for `1251c0373` does not include a gftools-packager upstream commit reference.
-
-The upstream repo at `upstream_repos/fontc_crater_cache/BornaIz/Lalezar/` has only a single commit:
-- `238701c` — "Merge pull request #12 from m4rc1e/gf"
-
-This single commit contains work from Marc Foley (m4rc1e), suggesting a PR was merged to prepare the fonts for Google Fonts. The repository appears to have only one commit in its history, which would be the correct commit to reference.
-
-No `config.yaml` was found in the upstream repo at this commit.
-
-## Conclusion
-
-The repository URL is present but the commit hash is missing. The upstream repo has only one commit (`238701c`), which is the most likely candidate for the onboarding commit. The source block should be updated with the commit hash. A `config.yaml` would also need to be investigated or created as an override.
-
-## Commit Added (HIGH confidence)
-
-Commit `c3e0eae24240424069cd8c1b4350a6101346fb7b` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2017-05-01). This is the most reliable method.
+**Model**: Claude Opus 4.7

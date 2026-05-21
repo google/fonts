@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  commit: "c3e0eae24240424069cd8c1b4350a6101346fb7b"
+  commit: "238701c4241f207e92515f845a199be9131c1109"
   repository_url: "https://github.com/BornaIz/Lalezar"
 }
 primary_script: "Arab"

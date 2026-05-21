@@ -33,3 +33,19 @@ The font was originally onboarded from the `googlefonts/noto-fonts` monorepo at 
 An override `config.yaml` is present, copied from `sources/config-serif-nyiakeng-puachue-hmong.yaml` in the per-script repo. It references `sources/NotoSerifNPHmong.designspace`.
 
 **Confidence**: MEDIUM (per-script repo created after onboarding; initial import commit used as best approximation)
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` referenced `sources/NotoSerifNPHmong.designspace`. fontc_crater failed with `missing source 'sources/NotoSerifNPHmong.designspace'`.
+
+### Investigation
+At the recorded commit `6f39c5843` ("Add new fonts" import) the designspace is named `sources/NotoSerifNyiakengPuachueHmong.designspace`, with the four matching `NotoSerifNyiakengPuachueHmong-*.ufo` masters. The repository renamed these sources to the short `NotoSerifNPHmong.*` form later, in commit `599575e5` (2022-09-12). The override config had been copied from the current upstream config, which uses the post-rename path. The recorded commit is correct.
+
+### Actions taken
+The override `config.yaml` source path was changed from `sources/NotoSerifNPHmong.designspace` to `sources/NotoSerifNyiakengPuachueHmong.designspace`, matching the source filename present at the recorded commit.
+
+### Final state
+The override `config.yaml` references `sources/NotoSerifNyiakengPuachueHmong.designspace`, which exists at the recorded commit `6f39c5843`.

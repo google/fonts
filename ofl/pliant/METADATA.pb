@@ -10,7 +10,7 @@ fonts {
   filename: "Pliant[wdth,wght].ttf"
   post_script_name: "Pliant-Thin"
   full_name: "Pliant Thin"
-  copyright: "Copyright 2025 The Radio Canada Display Project Authors (https://github.com/TheJonassss/Pliant)"
+  copyright: "Copyright 2025 The Pliant Project Authors (https://github.com/TheJonassss/Pliant)"
 }
 fonts {
   name: "Pliant"
@@ -19,7 +19,7 @@ fonts {
   filename: "Pliant-Italic[wdth,wght].ttf"
   post_script_name: "Pliant-ThinItalic"
   full_name: "Pliant Thin Italic"
-  copyright: "Copyright 2025 The Radio Canada Display Project Authors (https://github.com/TheJonassss/Pliant)"
+  copyright: "Copyright 2025 The Pliant Project Authors (https://github.com/TheJonassss/Pliant)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

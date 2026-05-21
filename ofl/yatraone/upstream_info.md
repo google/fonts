@@ -32,4 +32,20 @@ A source block was added to METADATA.pb pointing to commit `b991e49` (2016-09-26
 
 ## Build Configuration (Override)
 
-An override `config.yaml` has been created in the google/fonts family directory, referencing `YatraOne_0.ufo` from `cathschmidt/yatra-one`. This is a best-effort starting point for reproducible builds — the shipped binary was likely built with different tool versions and may not match exactly.
+An override `config.yaml` has been created in the google/fonts family directory, referencing the UFO source from `cathschmidt/yatra-one`. This is a best-effort starting point for reproducible builds — the shipped binary was likely built with different tool versions and may not match exactly.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` listed `sources: [YatraOne_0.ufo]`. fontc_crater failed with `missing source 'YatraOne_0.ufo'`.
+
+### Investigation
+At the recorded commit `b991e49` a UFO source does exist, at `source/masters/YatraOne_0.ufo` — correcting the "no `.ufo` sources are present" note in the original investigation above. The UFO is nested under `source/masters/` alongside `YatraOne.vfb`. The `_0.ufo` suffix is the literal master filename used by the Indian Type Foundry build setup, not a stale rename. The override config path was missing the `source/masters/` directory prefix. The recorded commit is correct.
+
+### Actions taken
+The override `config.yaml` source path was corrected from `YatraOne_0.ufo` to `source/masters/YatraOne_0.ufo`.
+
+### Final state
+The override `config.yaml` references `source/masters/YatraOne_0.ufo`, which exists at the recorded commit `b991e49`.

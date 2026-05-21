@@ -29,3 +29,19 @@ A source block was added to METADATA.pb pointing to this repository and commit.
 ## Confidence: High
 
 Direct match between the upstream repository owner (Lipi Raval) and the font designer.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` listed `sources: [Mogra.glyphs]` — a repository-root path. fontc_crater failed with `missing source 'Mogra.glyphs'`.
+
+### Investigation
+At the recorded commit `048039d` the Glyphs source is `sources/Mogra.glyphs`, not at the repository root. The override config path was missing the `sources/` directory prefix. The recorded commit is correct.
+
+### Actions taken
+The override `config.yaml` source path was corrected from `Mogra.glyphs` to `sources/Mogra.glyphs`.
+
+### Final state
+The override `config.yaml` references `sources/Mogra.glyphs`, which exists at the recorded commit `048039d`.

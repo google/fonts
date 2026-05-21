@@ -27,3 +27,19 @@ This commit corresponds to the NotoNaskhArabicUI-v2.014 tag. The shipped v2.015 
 ## Build Configuration (Override)
 
 An override `config.yaml` has been created in the google/fonts family directory, copied from `sources/config-naskh-arabic-ui.yaml` in the `notofonts/arabic` repository (the current per-script Noto repo). **Important caveat**: this config references the current notofonts/ per-script repo sources, which may produce a newer version than the binary currently shipped in google/fonts. The shipped binary was built from the older `googlefonts/noto-fonts` monorepo using a different build pipeline. This override config serves as a starting point for reproducible build attempts but is not expected to produce a byte-identical match.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` referenced `sources/NotoNaskhArabicUI.glyphspackage`. fontc_crater failed with `missing source 'sources/NotoNaskhArabicUI.glyphspackage'`.
+
+### Investigation
+At the recorded commit `133ccaeb` (tag NotoNaskhArabicUI-v2.014) the Arabic Glyphs source is the flat file `sources/NotoNaskhArabicUI.glyphs`. The repository converted the Naskh sources to the directory-based `.glyphspackage` format only later, in commit `659dec75` (2023-07-24). The override config had been copied from the current upstream config, which references the post-conversion `.glyphspackage` path — inconsistent with the recorded commit. The recorded commit is correct.
+
+### Actions taken
+The override `config.yaml` source path was changed from `sources/NotoNaskhArabicUI.glyphspackage` to `sources/NotoNaskhArabicUI.glyphs`, matching the source format present at the recorded commit.
+
+### Final state
+The override `config.yaml` references `sources/NotoNaskhArabicUI.glyphs`, which exists at the recorded commit `133ccaeb`.

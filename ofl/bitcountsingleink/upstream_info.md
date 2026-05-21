@@ -57,3 +57,19 @@ The commit hash is correct. However, `config_yaml: "sources/config.yaml"` points
 ### Earlier (2025-09-11)
 
 - **2025-09-11** — Emma Marichal, commit [`711bcf6c1`](https://github.com/google/fonts/commit/711bcf6c1) ("bump version"): same-day binary update following the v1.001 onboarding (binary-only, file size unchanged at 430912 bytes — internal version-string bump).
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+METADATA.pb pointed `config_yaml` at the upstream `sources/config.yaml`. The shared upstream repo's fontc_crater build failed with the error `missing field \`sources\``.
+
+### Investigation
+The upstream `sources/config.yaml` contains only `familyName: Bitcount`, with no `sources:` field — it is not a gftools-builder config. Bitcount is built by a custom Python/COLRv1 pipeline (`Makefile` → `scripts/build.py`) that cannot be expressed as a gftools-builder `config.yaml`. The recorded commit `89e7994f` is correct (v1.001).
+
+### Actions taken
+The misleading `config_yaml: "sources/config.yaml"` field was removed from the METADATA.pb `source` block, addressing the inconsistency identified above. No override `config.yaml` was created: the family's build is a bespoke pipeline that gftools-builder cannot reproduce, so it is recorded as not reproducible rather than given a placeholder config.
+
+### Final state
+METADATA.pb retains the correct repository URL and commit; the misleading `config_yaml` reference is gone.

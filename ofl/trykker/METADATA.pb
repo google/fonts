@@ -18,5 +18,4 @@ subsets: "latin-ext"
 source {
   repository_url: "https://github.com/SorkinType/Trykker"
   commit: "5226cb075048ff1d3bd16fd0a0c42ece45629afb"
-  config_yaml: "sources/config.yaml"
 }

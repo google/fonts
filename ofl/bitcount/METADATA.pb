@@ -52,5 +52,4 @@ source {
     dest_file: "Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
 }

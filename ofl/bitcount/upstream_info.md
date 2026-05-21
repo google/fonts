@@ -49,4 +49,22 @@ Bitcount does **not** have a local override config.yaml in `ofl/bitcount/` -- it
 
 ## Open Questions
 
-1. The upstream `sources/config.yaml` only contains `familyName: Bitcount` with no `sources:` list. The font binary was taken directly from the upstream repo's `fonts/ttf/variable/` directory rather than built from sources. This means fontc_crater cannot rebuild this font from source using this config. A more complete config.yaml with source references would be needed for fontc_crater builds.
+1. The upstream `sources/config.yaml` only contains `familyName: Bitcount` with no `sources:` list. The font binary was taken directly from the upstream repo's `fonts/ttf/variable/` directory rather than built from sources. This means fontc_crater cannot rebuild this font from source using this config.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+METADATA.pb pointed `config_yaml` at the upstream `sources/config.yaml`. fontc_crater failed with the error `missing field \`sources\``.
+
+### Investigation
+The upstream `sources/config.yaml` consists of a single line, `familyName: Bitcount`, with no `sources:` field — at the recorded commit and at HEAD alike. It is not a gftools-builder config. Bitcount is built by a custom Python pipeline: the `Makefile` invokes `scripts/build.py`, which programmatically generates multiple `.designspace` files from `.stylespace` definitions plus UFO masters, builds several variable fonts, and adds COLRv1 pixel layers. This build process cannot be expressed as a gftools-builder `config.yaml`.
+
+### Actions taken
+The misleading `config_yaml: "sources/config.yaml"` field was removed from the METADATA.pb `source` block. No override `config.yaml` was created, because the upstream build is a bespoke multi-designspace + COLRv1 Python pipeline that gftools-builder cannot reproduce. The repository URL, commit, branch and file mappings are correct and were left unchanged.
+
+### Final state
+METADATA.pb retains the correct repository URL and commit; the misleading `config_yaml` reference is gone. The family is recorded as not reproducible by gftools-builder.
+
+Note: the sibling families Bitcount Prop Single Ink and Bitcount Single Ink carried the same `config_yaml` field and received the same removal. The remaining Bitcount families instead carry override `config.yaml` files of unverified validity; whether those can build under the custom pipeline is an open question for a separate review.

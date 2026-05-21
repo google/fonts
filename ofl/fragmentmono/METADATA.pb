@@ -42,7 +42,6 @@ source {
     dest_file: "FragmentMono-Italic.ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

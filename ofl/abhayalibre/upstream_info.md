@@ -74,3 +74,27 @@ The source block is technically complete but has internal inconsistencies:
 - Remove `config_yaml` from METADATA.pb source block (since local override exists)
 - Fix the local override config to reference `sources/glyphs/Abhaya-Masters.glyphs` (which exists at `ade314aa`) -- this path is actually correct for the onboarding-era commit
 - These changes would make the data internally consistent: the commit hash matches the era when fonts were built, and the local override config references a source path that exists at that commit
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+METADATA.pb recorded `commit: f53da70786fe1dba6193bdbd45a2c4159e511079` (2024-05-31) and `config_yaml: "sources/config.yaml"`. The override `config.yaml` referenced `sources/glyphs/Abhaya-Masters.glyphs`, a path that does not exist at `f53da70`. fontc_crater failed with `missing source 'sources/glyphs/Abhaya-Masters.glyphs'`.
+
+### Investigation
+The "Recommended corrections" identified above were verified against the upstream repo:
+- Commit `ade314aa678ceb44f892ed58169c6b270c775d02` (2017-02-16, "Adding description for Google Fonts") exists and is the onboarding-era commit, one day before the fonts were added to google/fonts via PR #665 (2017-02-17, v1.050).
+- `sources/glyphs/Abhaya-Masters.glyphs` exists at `ade314aa` (it was renamed away only later, in `71089b83`, 2017-10-22).
+- `sources/config.yaml` does not exist at `ade314aa` — it was introduced in 2024.
+
+The alternative of keeping `f53da70` would make fontc_crater pass but build the 2024 variable-era sources, which do not correspond to the shipped 2017 static v1.050 binaries.
+
+### Actions taken
+Per the recommended corrections and the project policy of referencing the exact onboarding commit:
+- `source.commit` was changed from `f53da70` to `ade314aa678ceb44f892ed58169c6b270c775d02`.
+- The `config_yaml: "sources/config.yaml"` field was removed from METADATA.pb (no such file exists at the onboarding commit; the local override is auto-detected).
+- The override `config.yaml` retains `sources/glyphs/Abhaya-Masters.glyphs`, which exists at `ade314aa`.
+
+### Final state
+METADATA.pb references the onboarding-era commit `ade314aa`, at which the override config's `sources/glyphs/Abhaya-Masters.glyphs` source exists. The metadata is now internally consistent and the fontc_crater build can locate the source.

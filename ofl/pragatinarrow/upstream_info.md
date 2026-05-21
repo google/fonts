@@ -38,4 +38,20 @@ A source block was added to METADATA.pb pointing to commit `829be32` (2015-05-25
 
 ## Build Configuration (Override)
 
-An override `config.yaml` has been created in the google/fonts family directory, referencing `PragatiNarrow.glyphs` from `Omnibus-Type/PragatiNarrow`. This is a best-effort starting point for reproducible builds — the shipped binary was likely built with different tool versions and may not match exactly.
+An override `config.yaml` has been created in the google/fonts family directory, referencing the Glyphs source from `Omnibus-Type/PragatiNarrow`. This is a best-effort starting point for reproducible builds — the shipped binary was likely built with different tool versions and may not match exactly.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` listed `sources: [PragatiNarrow.glyphs]` — a repository-root path. fontc_crater failed with `missing source 'PragatiNarrow.glyphs'`.
+
+### Investigation
+At the recorded commit `829be32` the Glyphs source is `SRC/PragatiNarrow.glyphs`; the repository root contains only `Fonts/`, `LICENSE.md`, `README.md` and `SRC/`. The override config path was missing the `SRC/` directory prefix. The recorded commit is correct and required no change.
+
+### Actions taken
+The override `config.yaml` source path was corrected from `PragatiNarrow.glyphs` to `SRC/PragatiNarrow.glyphs`.
+
+### Final state
+The override `config.yaml` references `SRC/PragatiNarrow.glyphs`, which exists at the recorded commit `829be32`.

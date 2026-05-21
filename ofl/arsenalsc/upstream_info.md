@@ -49,4 +49,20 @@ The upstream repo does NOT contain pre-built `ArsenalSC-*.ttf` files. The METADA
 
 ## Conclusion
 
-All source metadata is present and verified. Repository URL, commit hash, and override config.yaml were all set during the original onboarding by Simon Cozens in PR #7771 (merged 2024-05-30 by vv-monsalve). The `files {}` mappings in METADATA.pb reference non-existent upstream paths (`fonts/TTF/ArsenalSC-*.ttf`), which appears to be a documentation artifact since the SC fonts were built, not copied from upstream. The override config.yaml source paths lack the `sources/` prefix present in the regular Arsenal config, which may warrant review. No action required for source metadata enrichment.
+All source metadata is present and verified. Repository URL, commit hash, and override config.yaml were all set during the original onboarding by Simon Cozens in PR #7771 (merged 2024-05-30 by vv-monsalve). The `files {}` mappings in METADATA.pb reference non-existent upstream paths (`fonts/TTF/ArsenalSC-*.ttf`), which appears to be a documentation artifact since the SC fonts were built, not copied from upstream. The override config.yaml source paths lack the `sources/` prefix present in the regular Arsenal config, which may warrant review.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` listed `sources: [Arsenal.glyphs, Arsenal-Italic.glyphs]` without the `sources/` directory prefix. fontc_crater failed with `missing source 'Arsenal-Italic.glyphs'`.
+
+### Investigation
+The path discrepancy flagged in "How Config Was Resolved" above was confirmed to be an error, not intentional. At the recorded commit `e34db566` the Glyphs sources are `sources/Arsenal.glyphs` and `sources/Arsenal-Italic.glyphs`. The build harness resolves override-config source paths relative to the repository root, so the un-prefixed paths could not be located. The regular Arsenal family's override config already uses the correct `sources/`-prefixed paths.
+
+### Actions taken
+The override `config.yaml` source paths were corrected to `sources/Arsenal.glyphs` and `sources/Arsenal-Italic.glyphs`, matching the regular Arsenal family's config and the actual upstream layout. The recorded commit is correct and was left unchanged.
+
+### Final state
+The override `config.yaml` references `sources/Arsenal.glyphs` and `sources/Arsenal-Italic.glyphs`, which exist at the recorded commit `e34db566`.

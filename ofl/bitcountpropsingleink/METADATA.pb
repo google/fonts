@@ -82,5 +82,4 @@ source {
     dest_file: "BitcountPropSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
 }

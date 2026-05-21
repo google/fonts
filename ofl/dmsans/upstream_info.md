@@ -49,4 +49,20 @@ DM Sans shares the `googlefonts/dm-fonts` repository with DM Serif Display and D
 
 ## Issues Found
 
-None. The tracking data is accurate and complete. The METADATA.pb on main already has the correct commit hash, config_yaml, and branch.
+The METADATA.pb commit hash and branch are correct. However, the upstream `Sans/Source/config.yaml` is malformed (see fontc_crater fix below).
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+fontc_crater failed with `no config file was found`, even though `Sans/Source/config.yaml` exists at the recorded commit.
+
+### Investigation
+The upstream `Sans/Source/config.yaml` has valid content, but every one of its lines is indented by 4 spaces with no top-level key — the whole YAML document is nested under an empty/implicit root. A parser finds no top-level `sources`/`recipe`, so the config is rejected. The defect is still present at upstream HEAD. The recorded commit and the `.glyphs` sources are otherwise correct.
+
+### Actions taken
+A corrected override `config.yaml` was added to the family directory: the upstream config de-indented to valid top-level YAML, with the source paths made repo-root-relative (`Sans/Source/DMSans.glyphs`, `Sans/Source/DMSans-Italic.glyphs`). The `config_yaml` field was removed from METADATA.pb so the override is auto-detected. An upstream fix to the indentation of `Sans/Source/config.yaml` should be filed separately.
+
+### Final state
+The family directory carries a valid gftools-builder config with a parseable top-level `sources` list pointing at the existing `.glyphs` sources.

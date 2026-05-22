@@ -88,6 +88,8 @@ jobs:
           access_token: ${{ github.token }}
 
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # we need the history so .ci/run.py can determine which files changed
       - name: Set up Python 3.10
         uses: actions/setup-python@v6.2.0
         with:
@@ -119,7 +121,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.number }}
         shell: bash
-
       - name: Check file existence
         id: check_files
         uses: andstor/file-existence-action@v2.0.0

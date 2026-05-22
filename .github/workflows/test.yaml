@@ -119,7 +119,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.number }}
         shell: bash
-
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
       - name: Check file existence
         id: check_files
         uses: andstor/file-existence-action@v2.0.0

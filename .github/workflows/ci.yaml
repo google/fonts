@@ -16,6 +16,9 @@ on:
     - ".github/workflows/ci.yaml"
     - ".github/workflows/knowledge_graph.py"
 
+permissions:
+  contents: read
+
 jobs:
   check_knowledge_graph:
     runs-on: ubuntu-latest

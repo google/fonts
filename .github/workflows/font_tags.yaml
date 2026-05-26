@@ -10,6 +10,9 @@ on:
     - 'tags/all/families.csv'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   test_font_tags:
     runs-on: ubuntu-latest

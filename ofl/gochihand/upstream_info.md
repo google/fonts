@@ -2,14 +2,14 @@
 
 ## Summary
 
-Gochi Hand is a handwriting-style typeface designed by Juan Pablo del Peral for Huerta Tipografica, added to Google Fonts on 2011-10-05. The upstream repository is at `https://github.com/librefonts/gochihand`. The repo contains only SFD (FontForge) and VFB sources, making it incompatible with gftools-builder. No config.yaml is possible.
+Gochi Hand is a handwriting-style typeface designed by Juan Pablo del Peral for HT Fonts, added to Google Fonts on 2011-10-05. The upstream repository is at `https://github.com/librefonts/gochihand`. The repo contains only SFD (FontForge) and VFB sources, making it incompatible with gftools-builder. No config.yaml is possible.
 
 ## Key Findings
 
 | Field              | Value                                                              |
 |--------------------|--------------------------------------------------------------------|
 | Family Name        | Gochi Hand                                                         |
-| Designer           | Huerta Tipografica (Juan Pablo del Peral)                          |
+| Designer           | HT Fonts (Juan Pablo del Peral)                          |
 | Repository URL     | https://github.com/librefonts/gochihand                           |
 | Commit Hash        | e202a9f4b7cd6f9c84440e684f0a3d0b5dd234e0                          |
 | Config YAML        | N/A (SFD-only sources)                                             |
@@ -24,7 +24,7 @@ The METADATA.pb on the `main` branch of google/fonts does **not** contain a sour
 
 Current METADATA.pb fields:
 - name: "Gochi Hand"
-- designer: "Huerta Tipografica"
+- designer: "HT Fonts"
 - license: OFL
 - category: HANDWRITING
 - date_added: 2011-10-05

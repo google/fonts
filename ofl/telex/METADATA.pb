@@ -1,5 +1,5 @@
 name: "Telex"
-designer: "HT Fonts, Andres torresi"
+designer: "HT Fonts, Andres Torresi"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-18"

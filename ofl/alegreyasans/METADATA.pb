@@ -1,5 +1,5 @@
 name: "Alegreya Sans"
-designer: "Juan Pablo del Peral, Huerta Tipográfica"
+designer: "Juan Pablo del Peral, HT Fonts"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-12-04"
@@ -141,5 +141,5 @@ source {
   repository_url: "https://github.com/huertatipografica/Alegreya-Sans"
   commit: "030b9ac01fd9bcaccac0ebc8010283175f9ced4e"
 }
-minisite_url: "https://huertatipografica.com/en/fonts/alegreya-sans-ht"
+minisite_url: "https://htfonts.com/en/fonts/alegreya-sans"
 

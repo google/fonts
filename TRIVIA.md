@@ -115,6 +115,7 @@ Here is a list of 3rd party directories:
 * <https://winniethemu.github.io/tiff>
 * <https://www.fontcomparer.com>
 * <https://fontbog.com>
+* <https://arcoty.pe>
 
 There are also handcrafted directories with rich samples:
 

@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Family Name | Cambo |
-| Designer | Huerta Tipografica |
+| Designer | HT Fonts |
 | License | OFL |
 | Date Added | 2011-12-19 |
 | Repository URL | https://github.com/librefonts/cambo |
@@ -18,7 +18,7 @@
 
 The repository URL `https://github.com/librefonts/cambo` was added as part of a batch source blocks commit (9a14639f3, "Add source blocks to 602 more METADATA.pb files"). The librefonts organization on GitHub hosts mirrors of many Google Fonts projects. The METADATA.pb in google/fonts previously had no source block.
 
-Note that the original designer is Huerta Tipografica, but no repo was found at `huertatipografica/cambo` on GitHub. The librefonts mirror is the only known upstream repository.
+Note that the original designer is HT Fonts, but no repo was found at `huertatipografica/cambo` on GitHub. The librefonts mirror is the only known upstream repository.
 
 ## How Commit Determined
 
@@ -47,5 +47,5 @@ The upstream repo contains only FontForge SFD sources (`src/Cambo-Regular-TTF.sf
 
 ## Open Questions
 
-- The original designer (Huerta Tipografica) may have source files in other formats (e.g., .glyphs) that are not publicly available.
+- The original designer (HT Fonts) may have source files in other formats (e.g., .glyphs) that are not publicly available.
 - No path to gftools-builder compatibility without source conversion from SFD/VFB format.

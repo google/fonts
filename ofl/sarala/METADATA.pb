@@ -1,5 +1,5 @@
 name: "Sarala"
-designer: "Andres Torresi"
+designer: "HT Fonts, Andres Torresi"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-06-17"

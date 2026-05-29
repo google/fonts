@@ -59,3 +59,11 @@ Note: At the recorded commit (`58a386a9`), the sources are UFO files (`source/Ca
 
 - The override `config.yaml` references `source/Castoro-Roman.designspace` and `source/Castoro-Italic.designspace`, which are designspace files from the v3.x upstream, not from the recorded v2.04 commit. If the family were to be rebuilt from the recorded commit, the config would need to reference the UFO files instead. This discrepancy should be addressed if a rebuild from the recorded commit is ever needed.
 - The upstream repo has progressed to v3.01, which represents a significant update (added weight axis). A separate review/update process would be needed to incorporate v3.x into Google Fonts.
+
+## Correction (2026-05-28) — override config source paths
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source 'source/Castoro-Italic.designspace'`. As anticipated in the Open Questions above, the override `config.yaml` referenced `.designspace` files that exist only in the v3.x upstream, not at the recorded v2.04 build commit `58a386a9`. At that commit `source/` contains the UFO masters (`Castoro-Regular.ufo`, `Castoro-Italic.ufo`) — matching the two shipped statics (Castoro-Regular.ttf, Castoro-Italic.ttf) — but no designspace.
+
+The override `config.yaml` sources were corrected to point at those two UFOs. The pinned commit is unchanged. A local gftools-builder smoke-test of the corrected config built `Castoro-Regular.ttf` and `Castoro-Italic.ttf` successfully (RC=0).

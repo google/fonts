@@ -134,3 +134,11 @@ These changes occurred AFTER the PR was created (2024-06-04) but before it was m
 - **Override config**: MISSING (needs `buildSmallCap: true`)
 - **Overall status**: needs_correction
 - **Confidence**: HIGH (PR explicitly references commit `766d607`; SC files confirmed absent from upstream)
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source 'Fragment-Mono.glyphs'` for this family. The override `config.yaml` listed the source as `Fragment-Mono.glyphs` (no directory), a path correct only relative to the upstream config's own `sources/` directory; fontc_crater resolves it relative to the repository root, where it does not exist. The sibling family **Fragment Mono** (`ofl/fragmentmono/config.yaml`) had already been corrected to the repo-root-relative `sources/Fragment-Mono.glyphs`; the SC override was missed.
+
+The override `config.yaml` source path was corrected from `Fragment-Mono.glyphs` to **`sources/Fragment-Mono.glyphs`**, matching the Fragment Mono fix and the `buildSmallCap: true` override that distinguishes the SC build. The pinned commit (`766d607`) is unchanged. Verified: `git -C <fragment-mono> ls-tree 766d607 -- sources/` lists `sources/Fragment-Mono.glyphs`. (The separate METADATA.pb commit-hash / files-block issues documented above are unrelated to this crater "missing source" failure and are out of scope for this path correction.)

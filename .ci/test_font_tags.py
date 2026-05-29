@@ -1,22 +1,18 @@
 import pytest
 import json
-from urllib.request import urlopen
+import requests
 import csv
 import os
 
 @pytest.fixture
 def family_metadata():
-    data = json.loads(
-        urlopen("https://fonts.google.com/metadata/fonts").read().decode("utf-8")
-    )
+    data = requests.get("https://fonts.google.com/metadata/fonts").json()
     return data["familyMetadataList"]
 
 
 @pytest.fixture
 def sb_family_metadata():
-    data = json.loads(
-        urlopen("https://fonts.sandbox.google.com/metadata/fonts").read().decode("utf-8")
-    )
+    data = requests.get("https://fonts.sandbox.google.com/metadata/fonts").json()
     return data["familyMetadataList"]
 
 
@@ -34,13 +30,9 @@ def family_tags():
 
 @pytest.fixture
 def tags_metadata():
-    data = (
-        urlopen(
-            "https://raw.githubusercontent.com/google/fonts/main/tags/tags_metadata.csv"
-        )
-        .read()
-        .decode("utf-8")
-    )
+    data = requests.get(
+        "https://raw.githubusercontent.com/google/fonts/main/tags/tags_metadata.csv"
+    ).text
     reader = csv.reader(data.splitlines())
     res = []
     for category, _, _, _ in reader:
@@ -91,12 +83,12 @@ def test_tag_vals_in_range(family_tags):
     assert not out_of_range, f"Values out of range 1-100: {out_of_range}"
 
 
-def test_tags_for_unknown_families(family_tags, sb_family_metadata):
+def test_tags_for_unknown_families(family_tags, family_metadata):
     """Families that are tagged but not in the sandbox metadata are likely
     typos or old families that have been removed. These should be removed from
     the tags file.
     """
-    sb_families = set(f["family"] for f in sb_family_metadata)
+    sb_families = set(f["family"] for f in family_metadata)
     tagged_families = set(f[0] for f in family_tags)
     unknown_families = sorted(tagged_families - sb_families)
     assert not unknown_families, f"Unknown families found: {unknown_families}"

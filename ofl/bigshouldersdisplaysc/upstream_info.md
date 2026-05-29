@@ -119,3 +119,12 @@ The METADATA.pb `files` block contains a mapping for `BigShouldersDisplaySC[wght
 The source block was well-configured at onboarding. The repository URL, commit hash, and override config.yaml were all correctly set up by Simon Cozens in PR #7783. The only minor issue was the phantom file mapping for the DisplaySC TTF in the `files` block, which referenced a path that did not exist in the upstream repo -- but this did not impact build correctness since the override config.yaml handled font generation.
 
 No changes are needed to the METADATA.pb source block or the override config.yaml.
+
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source '../Big-Shoulders/sources/BigShoulders.glyphs'` for the xotypeco/big_shoulders monorepo. The override `config.yaml` used paths prefixed with `../`, which the build harness resolves relative to the repository root and therefore escape the checkout. For this family the repo-escaping `../` prefix was removed (the source filename already matched the file present at the pinned commit): `Big-Shoulders/sources/BigShoulders.glyphs` (verified present at the pinned commit `0b3d09a`). The recipe output paths were made repo-root-relative likewise. The pinned commit is unchanged.
+
+A local gftools-builder smoke-test of the corrected config built the variable TTFs successfully (RC=0), confirming the path fix is sufficient.

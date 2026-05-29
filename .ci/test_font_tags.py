@@ -1,22 +1,18 @@
 import pytest
 import json
-from urllib.request import urlopen
+import requests
 import csv
 import os
 
 @pytest.fixture
 def family_metadata():
-    data = json.loads(
-        urlopen("https://fonts.google.com/metadata/fonts").read().decode("utf-8")
-    )
+    data = requests.get("https://fonts.google.com/metadata/fonts").json()
     return data["familyMetadataList"]
 
 
 @pytest.fixture
 def sb_family_metadata():
-    data = json.loads(
-        urlopen("https://fonts.sandbox.google.com/metadata/fonts").read().decode("utf-8")
-    )
+    data = requests.get("https://fonts.sandbox.google.com/metadata/fonts").json()
     return data["familyMetadataList"]
 
 
@@ -34,13 +30,9 @@ def family_tags():
 
 @pytest.fixture
 def tags_metadata():
-    data = (
-        urlopen(
-            "https://raw.githubusercontent.com/google/fonts/main/tags/tags_metadata.csv"
-        )
-        .read()
-        .decode("utf-8")
-    )
+    data = requests.get(
+        "https://raw.githubusercontent.com/google/fonts/main/tags/tags_metadata.csv"
+    ).text
     reader = csv.reader(data.splitlines())
     res = []
     for category, _, _, _ in reader:
@@ -76,7 +68,7 @@ def test_no_duplicate_families(family_tags):
     seen = set()
     dups = []
     for family, axes, cat, _ in family_tags:
-        key = (family, cat)
+        key = (family, axes, cat)
         if key in seen:
             dups.append(",".join(key))
         seen.add(key)

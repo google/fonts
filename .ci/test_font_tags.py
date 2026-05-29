@@ -83,12 +83,12 @@ def test_tag_vals_in_range(family_tags):
     assert not out_of_range, f"Values out of range 1-100: {out_of_range}"
 
 
-def test_tags_for_unknown_families(family_tags, sb_family_metadata):
+def test_tags_for_unknown_families(family_tags, family_metadata):
     """Families that are tagged but not in the sandbox metadata are likely
     typos or old families that have been removed. These should be removed from
     the tags file.
     """
-    sb_families = set(f["family"] for f in sb_family_metadata)
+    sb_families = set(f["family"] for f in family_metadata)
     tagged_families = set(f[0] for f in family_tags)
     unknown_families = sorted(tagged_families - sb_families)
     assert not unknown_families, f"Unknown families found: {unknown_families}"

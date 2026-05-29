@@ -89,3 +89,12 @@ All changes were merged via PR #7786 on 2024-06-25.
 ## Conclusion
 
 The source metadata for Big Shoulders Inline Display SC was **complete and correct**. The repository URL, commit hash, and override config.yaml were all present and verified. The commit `0b3d09a` was confirmed as the HEAD of upstream `master` at the time of onboarding, with no subsequent upstream changes until well after the google/fonts merge. The override config.yaml correctly handled the specialized build process (subspacing + small caps remapping) that the upstream config did not support. No changes were needed.
+
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source '../Big-Shoulders/sources/BigShoulders.glyphs'` for the xotypeco/big_shoulders monorepo. The override `config.yaml` used paths prefixed with `../`, which the build harness resolves relative to the repository root and therefore escape the checkout. For this family the repo-escaping `../` prefix was removed (the source filename already matched the file present at the pinned commit): `Big-Shoulders-Inline/sources/BigShouldersInline.glyphs` (verified present at the pinned commit `0b3d09a`). The recipe output paths were made repo-root-relative likewise. The pinned commit is unchanged.
+
+A local gftools-builder smoke-test of the corrected config built the variable TTFs successfully (RC=0), confirming the path fix is sufficient.

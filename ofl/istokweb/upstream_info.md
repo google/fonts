@@ -29,3 +29,11 @@ A source block was added to METADATA.pb pointing to this repository and commit.
 ## Confidence: High
 
 Marc Foley (m4rc1e) is a well-known Google Fonts contributor who maintains community repos for many fonts.
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source 'IstokWeb-Italic.glyphs'` for this family. The override `config.yaml` listed the sources as `IstokWeb.glyphs` / `IstokWeb-Italic.glyphs`, paths that fontc_crater resolves relative to the repository root, where no such files exist. In the upstream tree at the pinned build commit `f995ade6` the Glyphs sources are under `sources/`: **`sources/IstokWeb.glyphs`** and **`sources/IstokWeb-Italic.glyphs`**.
+
+The override `config.yaml` source paths were corrected to add the `sources/` prefix. The pinned commit is unchanged. Verified: `git -C <Istok-Web> ls-tree f995ade6 -- sources/` lists both `sources/IstokWeb.glyphs` and `sources/IstokWeb-Italic.glyphs`.

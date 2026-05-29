@@ -1,8 +1,8 @@
 sources:
-    - ../Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
+    - Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
 recipe:
-  ../Big-Shoulders-Inline/fonts/variable/text/BigShouldersInlineText[wght].ttf:
-    - source: ../Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
+  Big-Shoulders-Inline/fonts/variable/text/BigShouldersInlineText[wght].ttf:
+    - source: Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildVariable
     - operation: subspace
@@ -13,8 +13,8 @@ recipe:
     - operation: fix
     - postprocess: buildStat
   # And now the small caps family
-  ../Big-Shoulders-Inline/fonts/variable/text/BigShouldersInlineTextSC[wght].ttf:
-    - source: ../Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
+  Big-Shoulders-Inline/fonts/variable/text/BigShouldersInlineTextSC[wght].ttf:
+    - source: Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildVariable
     - operation: subspace

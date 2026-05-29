@@ -89,3 +89,12 @@ The `files` entries in the source block reference:
 - **config_yaml field**: Correctly omitted from METADATA.pb
 - **Overall status**: **COMPLETE** -- all source metadata is present and verified
 - **Confidence**: **HIGH**
+
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source '../Big-Shoulders/sources/BigShoulders.glyphs'` for the xotypeco/big_shoulders monorepo. The override `config.yaml` used paths prefixed with `../`, which the build harness resolves relative to the repository root and therefore escape the checkout. For this family the repo-escaping `../` prefix was removed (the source filename already matched the file present at the pinned commit): `Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs` (verified present at the pinned commit `0b3d09a`). The recipe output paths were made repo-root-relative likewise. The pinned commit is unchanged.
+
+A local gftools-builder smoke-test of the corrected config built the variable TTFs successfully (RC=0), confirming the path fix is sufficient.

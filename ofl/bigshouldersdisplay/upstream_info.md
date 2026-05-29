@@ -78,3 +78,12 @@ Because an override config.yaml exists in google/fonts, the `config_yaml` field 
 
 1. **Commit hash correction**: The recorded commit hash `41153e6` should likely be updated to `465a9c592f06d493841b35dca5d248c8142b75f8` to match the actual commit used for the v2.000 update. The file path in METADATA.pb (`Big-Shoulders/fonts/variable/display/BigShouldersDisplay[wght].ttf`) only exists at the later commit.
 2. **Relationship to parent family**: Big Shoulders Display is a derivative of the parent Big Shoulders family (same upstream repo, different optical size slice). The parent family uses commit `8ba99c9` (HEAD of master), while Big Shoulders Display uses an older commit from 2021.
+
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source '../Big-Shoulders/sources/BigShoulders.glyphs'` for the xotypeco/big_shoulders monorepo. The override `config.yaml` used paths prefixed with `../`, which the build harness resolves relative to the repository root and therefore escape the checkout. For this family the repo-escaping `../` prefix was removed and the `.glyphs` source name was corrected to the underscored form present at the pinned commit: `Big-Shoulders/sources/Big_Shoulders.glyphs` (verified present at the pinned commit `41153e6`). The recipe output paths were made repo-root-relative likewise. The pinned commit is unchanged.
+
+A local gftools-builder smoke-test of the corrected config built the variable TTFs successfully (RC=0), confirming the path fix is sufficient.

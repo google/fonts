@@ -91,3 +91,12 @@ Note: No `commit` field on main branch.
 - The METADATA.pb on main is missing the `commit` field
 - Same font update batch as Big Shoulders Stencil Display (both PR #3435 and #3436, same upstream commit)
 - Date added to Google Fonts: 2020-10-13 (v1.000), updated 2021-09-08 (v2.000)
+
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source '../Big-Shoulders/sources/BigShoulders.glyphs'` for the xotypeco/big_shoulders monorepo. The override `config.yaml` used paths prefixed with `../`, which the build harness resolves relative to the repository root and therefore escape the checkout. For this family the repo-escaping `../` prefix was removed and the `.glyphs` source name was corrected to the underscored form present at the pinned commit: `Big-Shoulders-Stencil/sources/Big_Shoulders_Stencil.glyphs` (verified present at the pinned commit `41153e6`). The recipe output paths were made repo-root-relative likewise. The pinned commit is unchanged.
+
+A local gftools-builder smoke-test of the corrected config built the variable TTFs successfully (RC=0), confirming the path fix is sufficient.

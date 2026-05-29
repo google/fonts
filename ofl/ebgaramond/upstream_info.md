@@ -10,7 +10,7 @@
 | Field | Value |
 |-------|-------|
 | Repository URL | https://github.com/octaviopardo/EBGaramond12 |
-| Commit | `e608414f52e532b68e2182f96b4ce9db35335593` |
+| Commit | `106a4a6d377987459ae5e68673a4570f13b957fb` (updated 2026-03-27; was `e608414f52e532b68e2182f96b4ce9db35335593`) |
 | Config YAML | `sources/config.yaml` |
 | Branch | `master` |
 
@@ -84,3 +84,15 @@ None. The source block in METADATA.pb is complete and accurate:
 - Commit hash `e608414f` is the HEAD of master and correctly represents the state of sources used for the current fonts in google/fonts
 - Config YAML path `sources/config.yaml` exists at the referenced commit and is a valid gftools-builder configuration
 - The upstream repository is clean and up-to-date
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-03-27 (upstream)** — Octavio Pardo, upstream commit [`106a4a6d3`](https://github.com/octaviopardo/EBGaramond12/commit/106a4a6d3) ("Merge pull request #55 from dvoritdvorit/master — Update EB Garamond to include RCS Citation Glyphs"). The merge advanced master from `e608414f5` to `106a4a6d3` and produced new v1.002 binaries. The `f71dda451 Update copyright information in OFL.txt` commit on the `dvoritdvorit/master` PR branch is what motivated the OFL.txt sync below.
+- **2026-03-27** — Emma Marichal, commit [`7f444d171`](https://github.com/google/fonts/commit/7f444d171) ("EB Garamond: Version 1.001 added"): onboarded the upstream update via gftools-packager, advancing `commit` in METADATA.pb from `e608414f5` to `106a4a6d3`. Note the commit subject says "Version 1.001" but the binaries produced by upstream `106a4a6d3` are actually **`Version 1.002`** (`fontRevision = 1.0020`, `name` ID 5 = "Version 1.002") — the subject is a minor labeling inaccuracy by gftools-packager. The shipped `EBGaramond[wght].ttf` (851176 bytes, md5 `ea3b0fb24b4ca00602255b65710847a9`) is byte-identical to upstream `fonts/variable/EBGaramond[wght].ttf` at commit `106a4a6d3`.
+- **2026-03-27** — Emma Marichal, commit [`c337133ee`](https://github.com/google/fonts/commit/c337133ee) ("Revise copyright and license details in OFL.txt"): synced `OFL.txt` to match the updated copyright string from upstream commit `f71dda451`. License-file change tracked here per Felipe's policy that license updates are substantive.
+
+The Source Data table at the top of this document has been updated to reflect the new commit. The Timeline section preserves the original v1.001/v1.002 history; the new merge is listed in this Recent activity section.
+
+## Confidence (post-update)
+
+**High**: Md5 verification of the shipping `EBGaramond[wght].ttf` against upstream `106a4a6d3:fonts/variable/EBGaramond[wght].ttf` was byte-identical. The recorded source-block fields are all correct and current.

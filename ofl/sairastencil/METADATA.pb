@@ -51,6 +51,7 @@ source {
     dest_file: "SairaStencil-Italic[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

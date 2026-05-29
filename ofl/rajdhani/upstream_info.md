@@ -25,3 +25,9 @@ A canonical upstream source repository was found and a source block was added to
 - Designer: Indian Type Foundry
 - The repository contains both UFO and VFB (FontLab) files for the masters
 - The `itfoundry` GitHub account is the official Indian Type Foundry organization account
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `86cae0e` (upstream legacy: .vfb masters in masters/). Added an override `config.yaml` in `ofl/rajdhani/` that references the compatible sources only (`styles/Light/font.ufo`, `styles/Regular/font.ufo`, `styles/Medium/font.ufo`, `styles/SemiBold/font.ufo`, `styles/Bold/font.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

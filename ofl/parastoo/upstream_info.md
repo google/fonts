@@ -42,3 +42,7 @@ The source block specified explicit file mappings: `OFL.txt`, `fonts/variable/Pa
 ## Confidence
 
 **High** — The repository is hosted under the `googlefonts` organization. The commit is explicitly referenced and the copyright notice matches the repository URL.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-09-15** — Dave Crossland, commit [`05951fc1f`](https://github.com/google/fonts/commit/05951fc1f) ("Update ofl/parastoo/METADATA.pb with arabic subset"): added an Arabic subset entry to METADATA.pb. Outside the `source { ... }` block.

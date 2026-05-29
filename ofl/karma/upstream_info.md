@@ -42,3 +42,9 @@ The source block needs a `commit` field added. The commit to use would need to b
 ## Commit Added (HIGH confidence)
 
 Commit `12228946ce59ce2008e0a95a6b222632e6481121` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2017-05-15). This is the most reliable method.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `1222894` (upstream legacy: .vfb masters in masters/). Added an override `config.yaml` in `ofl/karma/` that references the compatible sources only (`styles/Light/font.ufo`, `styles/Regular/font.ufo`, `styles/Medium/font.ufo`, `styles/SemiBold/font.ufo`, `styles/Bold/font.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

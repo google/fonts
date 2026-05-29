@@ -26,3 +26,9 @@ These Glyphs source files covered all four styles (Regular, Italic, Bold, Bold I
 ## Confidence
 
 High. The repository was hosted under the googlefonts organization and contained Glyphs source files directly corresponding to the released font binaries.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/scada/` referencing the upstream gftools-builder-compatible source at the pinned commit `df06a15` (`sources/Scada.glyphs`, `sources/Scada-Italic.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

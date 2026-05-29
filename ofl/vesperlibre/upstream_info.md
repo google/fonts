@@ -26,3 +26,9 @@ The copyright string `"Copyright (c) 2007, Robert Keller (www.motaitalic.com)"` 
 **Commit**: b765c5a68c1786a177b46e3b3ecd766157ffe349
 **Status**: Glyphs source present
 **Confidence**: High
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/vesperlibre/` referencing the upstream gftools-builder-compatible source at the pinned commit `b765c5a` (`VesperLibre.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

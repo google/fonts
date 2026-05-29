@@ -91,7 +91,7 @@ The font files were updated in google/fonts via **PR #7866**, titled "Life Saver
 
 The PR body explicitly stated: "Taken from the upstream repo https://github.com/googlefonts/life-savers at commit https://github.com/googlefonts/life-savers/commit/76eb6d11fa7a003dae0e05c4fa9e2f00a535d8c2."
 
-The same message appeared in the commit body of the google/fonts commit `a3992f87`. This PR added the source block to METADATA.pb, updated copyright strings, and replaced the font binaries with the Version 3.100 files.
+The same message appeared in the commit body of the google/fonts commit `a3992f87`. [PR #7866](https://github.com/google/fonts/pull/7866) added the source block to METADATA.pb, updated copyright strings, and replaced the font binaries with the Version 3.100 files.
 
 ### Earlier History
 

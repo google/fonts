@@ -37,3 +37,9 @@ open-source serif typeface family created by Adobe, designed as a companion to
 Source Sans. It supports Latin, Cyrillic, and Greek scripts and is available
 as a variable font with `opsz` and `wght` axes. The typeface is licensed under
 the SIL Open Font License.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/sourceserif4/` referencing the upstream gftools-builder-compatible source at the pinned commit `b3980ad` (`Roman/SourceSerif4Variable-Roman.designspace`, `Italic/SourceSerif4Variable-Italic.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

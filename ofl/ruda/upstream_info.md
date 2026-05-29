@@ -35,3 +35,9 @@ source {
   commit: "a63532e04ffb0f46b635cf9e000966155958e19d"
 }
 ```
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/ruda/` referencing the upstream gftools-builder-compatible source at the pinned commit `a63532e` (`Ruda_new.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

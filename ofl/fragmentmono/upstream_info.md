@@ -108,3 +108,21 @@ The source file has approximately 14,000 lines of diff between the onboarding co
 - **Override config**: Not needed (upstream has config.yaml)
 - **Overall status**: needs_correction
 - **Confidence**: HIGH (binary hash match confirms the correct commit)
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+METADATA.pb pointed `config_yaml` at the upstream `sources/config.yaml`, whose `sources:` list is `Fragment-Mono.glyphs`. fontc_crater failed with `missing source 'Fragment-Mono.glyphs'`. (The commit-hash issue noted above has since been corrected — METADATA.pb now records the verified onboarding commit `3ff0278`.)
+
+### Investigation
+The upstream `sources/config.yaml` lives inside `sources/`, so its bare `Fragment-Mono.glyphs` entry resolves correctly only relative to the config's own directory. The build harness resolves source paths relative to the repository root, so it could not locate the `.glyphs` file. At the recorded commit `3ff0278` the source is `sources/Fragment-Mono.glyphs`.
+
+### Actions taken
+An override `config.yaml` was created in the family directory with the source path written repo-root-relative (`sources/Fragment-Mono.glyphs`). The `config_yaml` field was removed from METADATA.pb so the override is auto-detected. The recorded commit was left unchanged.
+
+Note: the sibling family Fragment Mono SC (`ofl/fragmentmonosc`) shares this upstream repo and carries an override config with the same un-prefixed `Fragment-Mono.glyphs` path — it has the identical latent defect and should receive the same correction in a follow-up.
+
+### Final state
+The override `config.yaml` references `sources/Fragment-Mono.glyphs`, which exists at the recorded commit `3ff0278`.

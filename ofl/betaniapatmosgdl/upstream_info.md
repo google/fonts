@@ -46,3 +46,10 @@ This is the same commit hash used for all Betania Patmos variants. The commit is
 
 1. The METADATA.pb source block is missing the `config_yaml` field. Should it be added?
 2. The display_name "Betania Patmos Guideline" clarifies the GDL abbreviation but may cause confusion with the separate "Betania Patmos Guide Line" family.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-01-23** — Emma Marichal, commit [`c26502dc7`](https://github.com/google/fonts/commit/c26502dc7) ("Betania Patmos GDL: Version 11.002; ttfautohint (v1.8.4.16-eb64) added"): initial onboarding via gftools-packager. Created METADATA.pb with source block referencing `huertatipografica/betania-patmos@08c83ac9` (shared with the Betania Patmos sibling families).
+- **2026-01-23** — Emma Marichal, commit [`a852e6e57`](https://github.com/google/fonts/commit/a852e6e57) ("update OFL"): same-day OFL.txt update.
+
+Source block reflects the recorded upstream commit; no corrections needed.

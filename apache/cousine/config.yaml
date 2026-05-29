@@ -1,9 +1,0 @@
-# Override config.yaml for apache/cousine
-# NOTE: This is a best-effort starting point for reproducible builds.
-# The shipped binary may have been built with different tools/versions.
-#
-sources:
-  - sources/Cousine-Regular.glyphs
-  - sources/Cousine-Bold.glyphs
-  - sources/Cousine-Italic.glyphs
-  - sources/Cousine-BoldItalic.glyphs

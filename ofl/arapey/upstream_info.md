@@ -49,3 +49,7 @@ Override `config.yaml` exists in `ofl/arapey/config.yaml`.
 ## Confidence
 
 **High**: URL pre-existing in METADATA.pb; commit pre-existing in METADATA.pb
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-04-10** — Dave Crossland, commit [`cf9e83c23`](https://github.com/google/fonts/commit/cf9e83c23) ("ofl/arapey/METADATA.pb Add minisite URL"): added `minisite_url: "https://etunni.github.io/Arapey-Minisite"` to METADATA.pb. This is outside the `source { ... }` block and does not affect the recorded source provenance — purely a display-side metadata addition.

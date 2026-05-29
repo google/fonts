@@ -53,3 +53,9 @@ No `config.yaml` is present or referenced. The `METADATA.pb` does not have a `co
 ## Commit Added (HIGH confidence)
 
 Commit `1e9b50a3cb69f6ae01c8ca5da1af2d03a85c517f` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-06-22). This is the most reliable method.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.designspace) and legacy `.sfd`/`.vfb` archives at the pinned commit `1e9b50a` (upstream legacy: .vfb in source/archive/). Added an override `config.yaml` in `ofl/nuosusil/` that references the compatible sources only (`source/NuosuSIL.designspace`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

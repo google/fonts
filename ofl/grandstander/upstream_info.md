@@ -1,8 +1,13 @@
 # Investigation Report: Grandstander
 
+**Model**: Claude Opus 4.7 (1M context)
+**Date**: 2026-04-24
+
 ## Summary
 
-Grandstander is a variable display/handwriting font (weight axis 100-900, normal + italic) designed by Tyler Finck and ETC (Etcetera Type Company), added to Google Fonts on 2020-07-24. The upstream repository is `Etcetera-Type-Co/Grandstander`. The METADATA.pb has a source block with repository URL, commit hash, and config_yaml path. However, the commit hash in METADATA.pb (`0bf9e31`, from July 2023) is the latest HEAD of the upstream repo, not the original onboarding commit (`33c28849`, referenced in the google/fonts PR #2575 from July 2020). The font binaries in google/fonts have never been updated since onboarding, and the file sizes differ significantly from those at the current upstream HEAD, confirming the commit mismatch.
+Grandstander is a variable display/handwriting font (weight axis 100-900, normal + italic) designed by Tyler Finck and ETC (Etcetera Type Company), added to Google Fonts on 2020-07-24. The upstream repository is `Etcetera-Type-Co/Grandstander`.
+
+The family was flagged by fontc_crater's `failed_repos.json` with reason "no config file was found": the `config_yaml: "Sources/config.yaml"` field in METADATA.pb pointed to a file that does not exist at the pinned onboarding commit `33c28849` (the upstream `Sources/config.yaml` was committed later, at HEAD `0bf9e31` in 2023). Because CLAUDE.md requires preserving the onboarding commit hash rather than bumping to a later rev, the override path was taken: a local `config.yaml` was added in `ofl/grandstander/` and the now-redundant `config_yaml` field was removed from METADATA.pb. `google-fonts-sources` auto-detects the override, so crater will pick it up on the next `targets.json` regeneration.
 
 ## Key Findings
 
@@ -13,10 +18,9 @@ Grandstander is a variable display/handwriting font (weight axis 100-900, normal
 | Date Added         | 2020-07-24                                         |
 | Repository URL     | https://github.com/Etcetera-Type-Co/Grandstander   |
 | Onboarding Commit  | 33c288495d8ac7bc0b29a9f35801de1df7e6d010 (from PR #2575) |
-| Current METADATA Commit | 0bf9e31d529d7a67b23510b841cb3597db0cb130 (repo HEAD, incorrect) |
-| Config YAML        | Sources/config.yaml (in upstream repo)             |
+| Config             | override `config.yaml` in `ofl/grandstander/` (no `config_yaml` in METADATA.pb) |
 | Source Files       | Sources/Grandstander.glyphs, Sources/Grandstander-Italic.glyphs |
-| Status             | **needs_correction**                               |
+| Status             | complete                                           |
 | Confidence         | HIGH                                               |
 
 ## Investigation Details
@@ -95,24 +99,42 @@ The correct onboarding commit is `33c288495d8ac7bc0b29a9f35801de1df7e6d010` as s
 
 ### Config.yaml at Onboarding Time
 
-Since we cannot inspect the repo at the onboarding commit `33c28849` (shallow clone), we cannot confirm whether `Sources/config.yaml` existed at that time. However, the font was onboarded as a variable font with two VF files, suggesting a build configuration was available. The current config.yaml at HEAD references the same source files structure.
+Direct inspection of the upstream repo at `33c28849` (via `raw.githubusercontent.com`) confirms that **no `Sources/config.yaml` existed at the onboarding commit**. The directory at that rev contains `Grandstander.glyphs`, `Grandstander-Italic.glyphs`, a `build.sh` shell script (which drives `fontmake` directly, without a gftools-builder config), a `.DS_Store`, and a `legacy-2axes/` subfolder with an older two-axis build. The upstream `Sources/config.yaml` was introduced later, at or before `0bf9e31d` (2023). This is why crater's `failed_repos.json` reports the family as "no config file was found" when `config_yaml: "Sources/config.yaml"` is declared in METADATA.pb against this rev.
 
-## Conclusion
+## Historical Correction (Feb 2026, PR #10356)
 
-The Grandstander source block has the correct repository URL and config_yaml path, but the commit hash is wrong. The current hash `0bf9e31` (HEAD from 2023) should be replaced with the original onboarding commit `33c28849` as documented in PR #2575.
+Commit `994ed196` replaced the incorrect METADATA.pb `commit` field (`0bf9e31`, 2023 HEAD) with the correct onboarding commit (`33c28849`, 2020-07-27). The font binaries in google/fonts were built from `33c28849` and had never been updated, so the recorded commit now matches the shipped binaries.
 
-### Recommended METADATA.pb Source Block
+However, that change retained `config_yaml: "Sources/config.yaml"`, a path that does not exist at `33c28849` — the upstream `Sources/config.yaml` was added later, in 2023. Setting a config_yaml that cannot be resolved at the pinned rev blocks fontc_crater, which reports the family in `failed_repos.json`.
 
+## Action Taken
+
+Applied the override path per CLAUDE.md's "Override config.yaml (STRICT)" policy:
+
+1. **Added an override `ofl/grandstander/config.yaml`** in the google/fonts family directory. Its provenance:
+
+   - **Sources list**: hand-written for this override to reference the `.glyphs` files that do exist at the pinned onboarding commit `33c28849` — `Sources/Grandstander.glyphs` and `Sources/Grandstander-Italic.glyphs`. Upstream's own later config uses the shorter paths `Grandstander.glyphs` / `Grandstander-Italic.glyphs` because that config sits inside `Sources/`; our override sits at the family-directory root in google/fonts and is fed to gftools-builder after the upstream repo is cloned, so paths must be relative to the upstream repo root.
+   - **`axisOrder` and `stat` blocks**: **copied verbatim** from the upstream repo's own `Sources/config.yaml` at a later commit (`0bf9e31d`, 2023 HEAD). That upstream config was not yet present at `33c28849` — it was added three years later, after the 2020 onboarding — but its weight lineup matches the `.glyphs` files at both revs.
+   - **Build/output flags omitted**: the upstream config also carried `outputDir`, `buildStatic`, `buildVariable`, `buildTTF`, `buildOTF`, `buildWebfont`, `cleanUp`, `includeSourceFixes`. These govern upstream's local build artifacts and do not belong in a google/fonts override consumed by gftools-builder / fontc_crater. They were removed.
+
+2. **Verified STAT-vs-sources consistency** before settling on the override. The `.glyphs` files at `33c28849` were inspected directly and contain exactly the 9-weight instance lineup declared in the copied STAT: `Grandstander.glyphs` has instances Thin / ExtraLight / Light / Regular / Medium / SemiBold / Bold (isBold) / ExtraBold / Black with `interpolationWeight` 100-900; `Grandstander-Italic.glyphs` has the italic counterparts with the same weight progression. So the STAT values — even though they come from the 2023 upstream config — correctly describe the 2020 source files.
+
+3. **Removed `config_yaml` from METADATA.pb**. `google-fonts-sources` auto-detects the override and records it in `targets.json` as an external config (`config_is_external: true`) on the next regeneration.
+
+**Updated METADATA.pb source block**:
 ```
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Grandstander"
   commit: "33c288495d8ac7bc0b29a9f35801de1df7e6d010"
-  config_yaml: "Sources/config.yaml"
 }
 ```
 
-### Status: needs_correction
+## Why Not Bump to HEAD (`0bf9e31d`)
 
-The commit hash must be corrected from `0bf9e31d529d7a67b23510b841cb3597db0cb130` (current repo HEAD, 2023) to `33c288495d8ac7bc0b29a9f35801de1df7e6d010` (original onboarding commit from PR #2575, 2020). The font binaries in google/fonts were built from the older commit and have never been updated.
+Alternative considered and rejected: change the commit to `0bf9e31d` (2023 upstream HEAD, where `Sources/config.yaml` exists natively — no override needed, picks up upstream's sharp stylistic alternates and expanded character set).
 
-Note: There are also significant upstream improvements (stylistic alternates, etc.) at the newer commit that have not been reviewed or incorporated into Google Fonts.
+The binaries currently shipped in `ofl/grandstander/` (≈183 KB and ≈185 KB) were built from `33c28849`; upstream's own binaries at `0bf9e31d` are ~8 KB larger per file because of the added content. Bumping the commit without also re-onboarding the binaries would leave the recorded commit out of sync with what is actually shipped, defeating the commit-hash field's purpose. A proper version bump — regenerate binaries via gftools-packager at `0bf9e31d`, QA, designer sign-off — is a separate PR.
+
+## Confidence
+
+**HIGH** — The onboarding commit is preserved and matches the shipped binaries. The override's sources point only at files that exist at that commit. STAT values were taken from upstream's later config but verified against the actual instance lineup in the 2020 `.glyphs` files (9 weights, identical names and `interpolationWeight` values in both the roman and italic files), so the STAT is consistent with what gftools-builder will produce from those sources. Upstream improvements after 2020 (stylistic alternates, expanded character set) remain un-onboarded and would require a separate version-bump PR.

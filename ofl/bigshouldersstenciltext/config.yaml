@@ -1,8 +1,8 @@
 sources:
-    - ../Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs
+    - Big-Shoulders-Stencil/sources/Big_Shoulders_Stencil.glyphs
 recipe:
-  ../Big-Shoulders-Stencil/fonts/variable/text/BigShouldersStencilText[wght].ttf:
-    - source: ../Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs
+  Big-Shoulders-Stencil/fonts/variable/text/BigShouldersStencilText[wght].ttf:
+    - source: Big-Shoulders-Stencil/sources/Big_Shoulders_Stencil.glyphs
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildVariable
     - operation: subspace
@@ -13,8 +13,8 @@ recipe:
     - operation: fix
     - postprocess: buildStat
   # And now the small caps family
-  ../Big-Shoulders-Stencil/fonts/variable/text/BigShouldersStencilTextSC[wght].ttf:
-    - source: ../Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs
+  Big-Shoulders-Stencil/fonts/variable/text/BigShouldersStencilTextSC[wght].ttf:
+    - source: Big-Shoulders-Stencil/sources/Big_Shoulders_Stencil.glyphs
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildVariable
     - operation: subspace

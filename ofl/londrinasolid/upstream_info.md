@@ -41,7 +41,7 @@ The UFO files in `FONTLAB_UFO_FILES/` were created by Marc Foley (m4rc1e) during
 
 **Initial addition**: The font was originally added to Google Fonts on 2012-03-14 (per `date_added` in METADATA.pb), appearing in the initial commit (`90abd17b4`). At that time, only LondrinaSolid-Regular.ttf was included.
 
-**v1.002 update (PR #1084)**: On 2017-07-31, PR #1084 ("londrinasolid: v1.002 added") was merged (commit `c581a3f90`). This PR added three new weights (Thin, Light, Black) and updated the Regular weight. The PR body referenced:
+**v1.002 update (PR #1084)**: On 2017-07-31, PR #1084 ("londrinasolid: v1.002 added") was merged (commit `c581a3f90`). [PR #1084](https://github.com/google/fonts/pull/1084) added three new weights (Thin, Light, Black) and updated the Regular weight. The PR body referenced:
 - Issue #69: "Add new Lodrina family styles (Thin, Book, Black)" — a request from the designer @marcelommp
 - Upstream PR #2 (m4rc1e/gf-mastering branch merged into marcelommp/Londrina-Typeface)
 

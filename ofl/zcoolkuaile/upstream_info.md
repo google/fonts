@@ -24,3 +24,13 @@ Branch: main (default)
 Status: commit hash added
 Confidence: high (verified via GitHub API)
 ```
+
+## Recent upstream/main activity (post-investigation)
+
+Three Aaron Bell commits affected the family between 2025-11-21 and 2026-01-29:
+
+- **2025-11-21** — Aaron Bell, commit [`9b9bd8a16`](https://github.com/google/fonts/commit/9b9bd8a16) ("Update ZCOOLKuaiLe-Regular.ttf"): replaced the binary (3275404 → 1514832 bytes — substantial size reduction, likely subset/build optimisation). Binary-only commit; METADATA.pb untouched.
+- **2026-01-29** — Aaron Bell, commit [`a606d6f31`](https://github.com/google/fonts/commit/a606d6f31) ("Updating the font to fix fonspector fails"): broader fix touching the binary, DESCRIPTION.en_us.html, OFL.txt, and METADATA.pb (B+D+L+M flags). Source block change was minor — not a `commit`/`repository_url` change but a sibling field tweak.
+- **2026-01-29** — Aaron Bell, commit [`1874af3a7`](https://github.com/google/fonts/commit/1874af3a7) ("URL fix"): URL formatting cleanup in DESCRIPTION.en_us.html and OFL.txt.
+
+The recorded `commit` field in METADATA.pb still refers to the post-onboarding upstream state; it has not advanced to reflect Aaron's local rebuild. Per the same pattern documented for Kurale, this is a known gap — the rebuild was done locally with post-processing, not pushed upstream, so the recorded commit identifies the *source state* but does not byte-reproduce the shipping binary.

@@ -52,7 +52,7 @@ Lora has a long history in Google Fonts, dating back to the initial commit (2011
 3. **v2.102** — PR #1398, merged 2017-12-18. Added by laerm0 (ttfautohinted). Immediately reverted in PR #1400.
 4. **v3.000** — Commit `16a2ebfdf`, merged 2020-03-04 (PR #2377). Taken from upstream at commit `1063c5dd65157e00c561867ad7bf1c7985678f35`.
 5. **v3.001** — PR #3641, merged 2021-08-03. STAT table fix.
-6. **v3.004** — PR #4996, merged 2022-07-28. Taken from upstream commit `42418d965083aa5471c6d9aa5f5c4051cba29384`. This PR introduced the initial `source { }` block in METADATA.pb.
+6. **v3.004** — PR #4996, merged 2022-07-28. Taken from upstream commit `42418d965083aa5471c6d9aa5f5c4051cba29384`. [PR #4996](https://github.com/google/fonts/pull/4996) introduced the initial `source { }` block in METADATA.pb.
 7. **v3.008** — PR #7103, merged 2024-01-09. Taken from upstream commit `403b1a66ca2e79f81d749c5299559e168591a4df`. Updated by Emma Marichal via gftools-packager. The commit message and PR body both reference this exact upstream commit.
 8. **Batch 2/4** — Commit `4ad8ac680`, 2025-03-31. This batch update from fontc_crater targets changed the commit hash from `403b1a66` to `c44a1dde` and added `config_yaml: "sources/config.yaml"`.
 

@@ -28,9 +28,9 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/kannada"
-  commit: "6387faa16123c9becca4f0f3ca095189de5c61da"
+  commit: "7eeac8993f890e3d8568ba909ae67f554113ea92"
   config_yaml: "sources/config-sans-kannada.yaml"
-  archive_url: "https://github.com/notofonts/kannada/releases/download/NotoSansKannada-v2.005/NotoSansKannada-v2.005.zip"
+  archive_url: "https://github.com/notofonts/kannada/releases/download/NotoSansKannada-v2.006/NotoSansKannada-v2.006.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

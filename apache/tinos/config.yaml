@@ -1,9 +1,0 @@
-# Override config.yaml for apache/tinos
-# NOTE: This is a best-effort starting point for reproducible builds.
-# The shipped binary may have been built with different tools/versions.
-#
-sources:
-  - sources/Tinos-Regular.glyphs
-  - sources/Tinos-Bold.glyphs
-  - sources/Tinos-Italic.glyphs
-  - sources/Tinos-BoldItalic.glyphs

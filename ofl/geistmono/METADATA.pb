@@ -35,7 +35,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/vercel/geist-font"
-  commit: "a6d260e6cbc07eafdfad438f33601fe3c38b1e6f"
+  commit: "77f0563c03009d6c15c6342183fa53b352255b22"
   files {
     source_file: "fonts/GeistMono/variable/GeistMono[wght].ttf"
     dest_file: "GeistMono[wght].ttf"

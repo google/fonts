@@ -25,3 +25,9 @@ A source repository was found and a source block was added to METADATA.pb.
 - The GitHub repository is maintained by `appajid` (Appaji Ambarisha Darbha), who maintains many Telugu fonts under the Silicon Andhra umbrella — this is consistent with the organization copyright
 - The repository description states "Updating TTF SFD Copyright and version", indicating active maintenance
 - The repo contains a UFO source file, making it suitable as an upstream source
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `0957942` (upstream legacy: .sfd in repo root). Added an override `config.yaml` in `ofl/ramabhadra/` that references the compatible sources only (`Ramabhadra.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

@@ -25,3 +25,9 @@ The repository also included fonts directory, METADATA.pb, OFL.txt, and README.
 ## Confidence
 
 High. The repository was described explicitly as "by Ralph Oliver du Carrois" (the principal designer at Carrois Apostrophe) and contained Glyphs source files for Share Tech. Note: no separate upstream repository was found for Share Tech Mono; this repository appears to cover only Share Tech Regular.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.glyphs) and legacy `.sfd`/`.vfb` archives at the pinned commit `2c50109` (upstream legacy: .sfd/.vfb archives in old/version-1.002/src/). Added an override `config.yaml` in `ofl/sharetech/` that references the compatible sources only (`sources/ShareTech.glyphs`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

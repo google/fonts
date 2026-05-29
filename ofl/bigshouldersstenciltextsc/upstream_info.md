@@ -94,3 +94,12 @@ The upstream repository had a `Big-Shoulders-Stencil/sources/config.yml` at the 
 The source block is complete and accurate. The repository URL and commit hash were verified against the onboarding PR #7789 and commit message. The override config.yaml is correctly present in the family directory, enabling the SC variant build from the upstream `.glyphs` source.
 
 The only minor note is that the `files` block in METADATA.pb references a binary path (`BigShouldersStencilTextSC[wght].ttf`) that did not exist at the referenced upstream commit. The font was actually built from source using the config.yaml recipe. This is a cosmetic issue and does not affect functionality.
+
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source '../Big-Shoulders/sources/BigShoulders.glyphs'` for the xotypeco/big_shoulders monorepo. The override `config.yaml` used paths prefixed with `../`, which the build harness resolves relative to the repository root and therefore escape the checkout. For this family the repo-escaping `../` prefix was removed (the source filename already matched the file present at the pinned commit): `Big-Shoulders-Stencil/sources/BigShouldersStencil.glyphs` (verified present at the pinned commit `0b3d09a`). The recipe output paths were made repo-root-relative likewise. The pinned commit is unchanged.
+
+A local gftools-builder smoke-test of the corrected config built the variable TTFs successfully (RC=0), confirming the path fix is sufficient.

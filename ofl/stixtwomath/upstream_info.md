@@ -16,3 +16,9 @@ The repository contains a `build.sh` shell script at the root level, along with 
 
 ## Notes
 STIX Two Math is a mathematical OpenType font from the STIX Fonts project, designed by Tiro Typeworks, Ross Mills, John Hudson, and Paul Hanslow. It shares its upstream repository with STIX Two Text; both families were updated with the same commit hash. The METADATA.pb source block already included file mappings and a branch specification (`master`); only the commit hash was missing.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/stixtwomath/` referencing the upstream gftools-builder-compatible source at the pinned commit `c4afdf3` (`source/STIXTwoMath-Regular.ufo`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

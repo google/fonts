@@ -28,3 +28,7 @@ The family covered the following subsets: latin, latin-ext.
 ## Notes
 
 Stack Sans Text was designed by Koto and published to Google Fonts on 2025-10-03. It shared its upstream repository (and the same commit) with Stack Sans Headline, each built from a separate config YAML. The text variant was built using `sources/config-text.yaml`.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-10-03** — Emma Marichal, commit [`66415ceab`](https://github.com/google/fonts/commit/66415ceab) ("Stack Sans Text: Version 1.000 added"): initial onboarding via gftools-packager. Created `ofl/stacksanstext/` with the binary, OFL.txt, and METADATA.pb (source block recording `DylanYoungKoto/Stack-Sans@4b62a2ddf8c2ff3bb1c31bfe97c8fa3aab26a0cd`, shared with sibling Stack Sans Headline and the later-onboarded Stack Sans Notch).

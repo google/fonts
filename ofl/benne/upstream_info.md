@@ -61,3 +61,7 @@ These later commits were made by Simon Cozens to set up gftools-builder infrastr
 - The font binary at commit `0e13f2e` (rebuilt by Simon Cozens) should be verified to match the font currently served in google/fonts
 - The original onboarding commit `4a7cc7e` (Version 1.001, Feb 2021) is the historically correct reference for what was originally pushed to google/fonts
 - Benne supports Kannada script (`primary_script: "Knda"`) - this is a specialized script that may need specific QA
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-04-08** — Simon Cozens, commit [`441751497`](https://github.com/google/fonts/commit/441751497) ("Correct main<->master"): corrected the `branch` field in METADATA.pb from `master` to `main`. The upstream `googlefonts/Benne` repo's default branch was renamed from `master` to `main` after the original investigation; verified `HEAD = refs/heads/main` in the repo archive at `/home/fsanches/compartilhado/upstream_repos/repo_archive/googlefonts/Benne.git`. Note: the recorded commit `0e13f2e4e66eb5ed0076224b113398b78109748d` is still HEAD of the new `main` branch — the rename did not change content, only the ref name.

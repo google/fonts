@@ -65,3 +65,9 @@ This family uses a release archive for onboarding. The source block is missing a
 ## Commit Added (HIGH confidence)
 
 Commit `4c49d8ac7ae00cf0ee10db3c3c35dc49ca9efd4d` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2023-10-04). This is the most reliable method.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/kayphodu/` referencing the upstream gftools-builder-compatible source at the pinned commit `4c49d8a` (`source/KayPhoDu.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

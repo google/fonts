@@ -40,3 +40,9 @@ Source block was added pointing to `theleagueof/sniglet` at commit `5c6b0860bdd0
 ## Confidence
 
 Medium — The repository is maintained by The League of Moveable Type (the canonical host for Haley Fiege's fonts) and contains UFO sources for the Regular weight, but the ExtraBold weight source is absent.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `5c6b086` (upstream legacy: .vfb in source/ (upstream ships Regular UFO only; ExtraBold has no source at this commit)). Added an override `config.yaml` in `ofl/sniglet/` that references the compatible sources only (`source/Sniglet_Regular.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

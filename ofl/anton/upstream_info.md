@@ -13,7 +13,7 @@
 | Repository URL | https://github.com/googlefonts/AntonFont |
 | Commit | `beb92fcad87808357123bb66881b4032dc96efe7` |
 | Config YAML | `sources/config.yaml` |
-| Branch | `master` |
+| Branch | `main` (corrected 2026-04-08; was `master`) |
 
 ## Methodology
 
@@ -47,3 +47,7 @@ Found `sources/config.yaml` in upstream repository at the recorded commit hash.
 ## Confidence
 
 **High**: URL pre-existing in METADATA.pb; commit pre-existing in METADATA.pb
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-04-08** — Simon Cozens, commit [`441751497`](https://github.com/google/fonts/commit/441751497) ("Correct main<->master"): corrected the `branch` field in METADATA.pb from `master` to `main`. Verified against upstream `googlefonts/AntonFont` (HEAD = `refs/heads/main` in the repo archive at `/home/fsanches/compartilhado/upstream_repos/repo_archive/googlefonts/AntonFont.git`). The Source Data table above now reflects `Branch: main`.

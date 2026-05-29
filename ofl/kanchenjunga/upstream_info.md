@@ -124,3 +124,9 @@ sources:
 ```
 
 However, this needs testing due to the Smith-specific `.feax` feature format in the sources.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/kanchenjunga/` referencing the upstream gftools-builder-compatible source at the pinned commit `19a3efa` (`source/Kanchenjunga.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

@@ -1,10 +1,10 @@
-name: "BJ Cree"
+name: "BJCree"
 designer: "SIL International"
 license: "OFL"
 category: "SERIF"
 date_added: "2026-03-26"
 fonts {
-  name: "BJ Cree"
+  name: "BJCree"
   style: "normal"
   weight: 400
   filename: "BJCree-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2000-2026 SIL Global (https://www.sil.org). Latin glyphs originally copyright (c) 2014-2015 (URW)++ Design and Development, with modifications copyright (c) 2024-2026 SIL Global."
 }
 fonts {
-  name: "BJ Cree"
+  name: "BJCree"
   style: "normal"
   weight: 500
   filename: "BJCree-Medium.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2000-2026 SIL Global (https://www.sil.org). Latin glyphs originally copyright (c) 2014-2015 (URW)++ Design and Development, with modifications copyright (c) 2024-2026 SIL Global."
 }
 fonts {
-  name: "BJ Cree"
+  name: "BJCree"
   style: "normal"
   weight: 600
   filename: "BJCree-SemiBold.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) 2000-2026 SIL Global (https://www.sil.org). Latin glyphs originally copyright (c) 2014-2015 (URW)++ Design and Development, with modifications copyright (c) 2024-2026 SIL Global."
 }
 fonts {
-  name: "BJ Cree"
+  name: "BJCree"
   style: "normal"
   weight: 700
   filename: "BJCree-Bold.ttf"

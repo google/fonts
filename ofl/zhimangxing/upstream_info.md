@@ -24,3 +24,9 @@ The repository was found at `m4rc1e/zhimangxing`. The `sources/` directory conta
 ## Confidence
 
 Medium — the `m4rc1e/zhimangxing` repository is the only known source with a Glyphs file for this font, and Marc Foley is a known contributor to Google Fonts tooling. However, the true origin from calligrapher Wei Zhimang could not be traced to a public repository.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/zhimangxing/` referencing the upstream gftools-builder-compatible source at the pinned commit `15cb1b0` (`sources/ZhiMangXing.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

@@ -60,3 +60,8 @@ The `config_yaml` field is set to `sources/config.yaml` in the METADATA.pb sourc
 ## Open Questions
 
 None. This is a fully complete entry.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-12-05** — Emma Marichal, commit [`0b585e1cc`](https://github.com/google/fonts/commit/0b585e1cc) ("Cause: Version 1.000 added"): initial onboarding via gftools-packager. Created `ofl/cause/` with the binary `Cause[wght].ttf`, OFL.txt, and METADATA.pb (source block populated).
+- **2025-12-05** — Marianna Paszkowska, commit [`e0861a160`](https://github.com/google/fonts/commit/e0861a160) ("fontspector fixes: update copyright string, delete description"): same-day fontspector-driven cleanup. Updated the binary's name-table copyright string and removed `DESCRIPTION.en_us.html`. The binary size remained the same (110700 bytes) but the bytes changed. Outside the source block scope per se, though it does mean the shipping binary is not byte-identical to the original v1.000 upstream commit referenced in the source block.

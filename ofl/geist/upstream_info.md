@@ -10,9 +10,9 @@ Geist is a sans-serif variable font by Vercel (designers: Andres Briganti, Mateo
 |-------------------|--------------------------------------------------------------------|
 | Family Name       | Geist                                                              |
 | Repository URL    | https://github.com/vercel/geist-font                              |
-| Commit Hash       | b193ef74010119759bfb7f71ddf81a3dee238535                           |
-| Commit Date       | 2024-10-23                                                        |
-| Commit Message    | Merge pull request #141 from vercel/139-fixes                     |
+| Commit Hash       | a6d260e6cbc07eafdfad438f33601fe3c38b1e6f (updated 2026-04-03; was b193ef74010119759bfb7f71ddf81a3dee238535) |
+| Commit Date       | 2026-04-02                                                         |
+| Commit Message    | Merge pull request #216 from emmamarichal/main — Update Geist and Geist Mono |
 | Config YAML       | sources/config-Geist.yaml (in upstream repo)                      |
 | Source Files      | sources/Geist.glyphspackage                                       |
 | Onboarding PR     | #8246 (google/gftools_packager_ofl_geist)                         |
@@ -109,3 +109,21 @@ source {
 
 ### Status: complete
 ### Confidence: HIGH
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-04-02 (upstream)** — skullface, upstream commit [`a6d260e6c`](https://github.com/vercel/geist-font/commit/a6d260e6c) ("Merge pull request #216 from emmamarichal/main — Update Geist and Geist Mono"). Advanced upstream `main` from `b193ef740...` to `a6d260e6c...` and produced new v1.800 (Geist) and v1.700 (Geist Mono) binaries. The PR was authored by emmamarichal upstream — same person who later onboarded the binaries to google/fonts.
+- **2026-04-03** — Emma Marichal, commit [`87a44ad3d`](https://github.com/google/fonts/commit/87a44ad3d) ("Geist: Version 1.800 added"): onboarded the upstream update via gftools-packager. Updates to METADATA.pb included:
+  - `commit` advanced from `b193ef740...` to `a6d260e6c...`
+  - Italic font entry added; subsets `cyrillic-ext` and `vietnamese` added
+  - Removed `archive_url` (was `1.4.01/Geist-1.4.01.zip`)
+  - File mapping path changed: `variable/Geist[wght].ttf` → `fonts/Geist/variable/Geist[wght].ttf` (upstream layout reorganized)
+  - `config_yaml` field updated path: still `sources/config-Geist.yaml` (unchanged in upstream)
+
+The shipping `Geist[wght].ttf` (169056 bytes, md5 `3f599483f71a2100bf53030faeddd23f`) is byte-identical to upstream `fonts/Geist/variable/Geist[wght].ttf` at commit `a6d260e6c`. `head.fontRevision = 1.8000`, `name` ID 5 = "Version 1.800".
+
+The Key Findings table at the top of this document has been updated to reflect the new commit.
+
+## Confidence (post-update)
+
+**High**: Md5 verification of the shipping `Geist[wght].ttf` against upstream `a6d260e6c:fonts/Geist/variable/Geist[wght].ttf` was byte-identical. The recorded source-block fields are correct and current.

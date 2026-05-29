@@ -53,3 +53,16 @@ This override config enables gftools-builder to compile the font from upstream s
 ## Open Questions
 - A config.yaml needs to be created for building Barrio from source.
 - Note: The upstream repo was later restructured (around 2018) into `BarrioGF/` and `Barriecito/` subdirectories. The original Barrio sources were at the repo root in `sources/Barrio.glyphs` during onboarding, but are now in `BarrioGF/sources/Barrio.glyphs`.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+METADATA.pb still recorded the stale commit `ced3c1e20646c75272147a8b472fa0c4e359d45a` (2015-02-03), even though this report had already identified `4cb00e5` as correct. The override `config.yaml` references `sources/Barrio.glyphs`. fontc_crater failed with `missing source 'sources/Barrio.glyphs'` because that path does not exist at `ced3c1e` (where the Glyphs source was still at `SRC/Barrio.glyphs`).
+
+### Actions taken
+The METADATA.pb `source.commit` field was corrected from `ced3c1e` to `4cb00e50284f63512cce98d382b495955bde4e72`, the last upstream commit before the google/fonts PR #491 merge. `sources/Barrio.glyphs` was verified present in the upstream tree at that commit.
+
+### Final state
+METADATA.pb references commit `4cb00e5`, at which the override config's `sources/Barrio.glyphs` exists. The fontc_crater build can locate the source.

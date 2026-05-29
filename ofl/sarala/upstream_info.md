@@ -34,3 +34,9 @@ The repository was located by checking the `huertatipografica` GitHub user's rep
 ## Result
 
 A source block was added to METADATA.pb referencing the repository URL, the latest commit hash, and the primary Glyphs source file.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/sarala/` referencing the upstream gftools-builder-compatible source at the pinned commit `7779e0c` (`Sarala.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

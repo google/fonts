@@ -6,22 +6,46 @@
 
 | Field | Value |
 |-------|-------|
-| Repository | https://github.com/googlefonts/noto-fonts |
-| Commit | `9232f17974e5783a5dbd862f38225e0584e73add` |
+| Repository | [notofonts/nyiakeng-puachue-hmong](https://github.com/notofonts/nyiakeng-puachue-hmong) |
+| Commit | `6f39c5843fe2f459973c3cd57dc82ca09cccbab0` |
 | Version | 1.000 |
 | Onboarding PR | [google/fonts#2823](https://github.com/google/fonts/pull/2823) |
 | Date | 2021-01-13 |
 
-## Investigation Summary
+## Repository Change
 
-Noto Serif Nyiakeng Puachue Hmong was onboarded as part of the December 25, 2020 Noto batch via PR #2823. The font binary was sourced from the googlefonts/noto-fonts monorepo at commit `9232f17974e5783a5dbd862f38225e0584e73add`.
+The `repository_url` was changed from `googlefonts/noto-fonts` (the old monorepo with pre-built binaries) to `notofonts/nyiakeng-puachue-hmong` (the per-script repo with actual source files). This enables reproducible builds because:
 
-The commit was verified by blob-hash comparison: the font binary blob hash at this commit in the googlefonts/noto-fonts monorepo matches the blob added to google/fonts in PR #2823 (commit a559a6efc).
+- The old `googlefonts/noto-fonts` monorepo only contained pre-built TTF binaries, not source files (.designspace, .ufo)
+- The `notofonts/nyiakeng-puachue-hmong` repo contains the actual design sources needed by gftools-builder
+- The override config.yaml references `sources/NotoSerifNPHmong.designspace` which exists in the per-script repo but not in the old monorepo
 
-**Note**: Dec 25 2020 batch.
+The commit `6f39c58` is the initial "Add new fonts" commit (2022-06-20) when sources were imported into the per-script repo. The v1.000 sources at this commit should match the state used to build the font originally shipped via PR #2823.
 
-**Confidence**: HIGH (blob-verified)
+Note: the sibling family `notoserifnphmong` (the short-name v1.001 variant) already points to this same per-script repo at a later commit (`2c945bb9`, NotoSerifNPHmong-v1.001 tag).
+
+## Previous provenance
+
+The font was originally onboarded from the `googlefonts/noto-fonts` monorepo at commit `9232f17974e5783a5dbd862f38225e0584e73add` (Dec 25, 2020 batch). That commit was blob-hash verified against PR #2823.
 
 ## Build Configuration (Override)
 
-An override `config.yaml` has been created in the google/fonts family directory, copied from `sources/config-serif-nyiakeng-puachue-hmong.yaml` in the `notofonts/nyiakeng-puachue-hmong` repository (the current per-script Noto repo). **Important caveat**: this config references the current notofonts/ per-script repo sources, which may produce a newer version than the binary currently shipped in google/fonts. The shipped binary was built from the older `googlefonts/noto-fonts` monorepo using a different build pipeline. This override config serves as a starting point for reproducible build attempts but is not expected to produce a byte-identical match.
+An override `config.yaml` is present, copied from `sources/config-serif-nyiakeng-puachue-hmong.yaml` in the per-script repo. It references `sources/NotoSerifNPHmong.designspace`.
+
+**Confidence**: MEDIUM (per-script repo created after onboarding; initial import commit used as best approximation)
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` referenced `sources/NotoSerifNPHmong.designspace`. fontc_crater failed with `missing source 'sources/NotoSerifNPHmong.designspace'`.
+
+### Investigation
+At the recorded commit `6f39c5843` ("Add new fonts" import) the designspace is named `sources/NotoSerifNyiakengPuachueHmong.designspace`, with the four matching `NotoSerifNyiakengPuachueHmong-*.ufo` masters. The repository renamed these sources to the short `NotoSerifNPHmong.*` form later, in commit `599575e5` (2022-09-12). The override config had been copied from the current upstream config, which uses the post-rename path. The recorded commit is correct.
+
+### Actions taken
+The override `config.yaml` source path was changed from `sources/NotoSerifNPHmong.designspace` to `sources/NotoSerifNyiakengPuachueHmong.designspace`, matching the source filename present at the recorded commit.
+
+### Final state
+The override `config.yaml` references `sources/NotoSerifNyiakengPuachueHmong.designspace`, which exists at the recorded commit `6f39c5843`.

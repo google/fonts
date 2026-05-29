@@ -3,5 +3,5 @@
 # The shipped binary may have been built with different tools/versions.
 #
 sources:
-  - IstokWeb.glyphs
-  - IstokWeb-Italic.glyphs
+  - sources/IstokWeb.glyphs
+  - sources/IstokWeb-Italic.glyphs

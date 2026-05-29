@@ -18,3 +18,9 @@ The canonical upstream repository at `alexeiva/rubikmonoone` was located by sear
 ## Notes
 
 The repository also contains an `old/` directory with earlier files and a `fonts/` directory with compiled font files. The Glyphs source (`sources/RubikMonoOne.glyphs`) covers the Cyrillic, Hebrew, and Latin scripts present in the font. The repository was last updated in 2017.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/rubikmonoone/` referencing the upstream gftools-builder-compatible source at the pinned commit `7d08552` (`sources/RubikMonoOne.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

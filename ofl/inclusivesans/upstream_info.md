@@ -65,3 +65,7 @@ The font was designed by Olivia King. The family was added to Google Fonts on 20
 ## Conclusion
 
 The source block for Inclusive Sans is complete and verified. Repository URL, commit hash, and config_yaml all check out. No action needed.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-01-06** — Simon Cozens, commit [`1f34dc19d`](https://github.com/google/fonts/commit/1f34dc19d) ("Remove Zinh primary script"): removed the `primary_script: "Zinh"` line from METADATA.pb. `"Zinh"` is the ISO 15924 code for "Code for inherited script" — not a meaningful primary script for a Latin-script family — so this was a metadata cleanup. Edit is outside the `source { ... }` block; no source-block impact.

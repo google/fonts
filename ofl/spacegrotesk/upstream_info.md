@@ -16,3 +16,9 @@ The repository contains a `sources/` directory alongside pre-built fonts in the 
 
 ## Notes
 Space Grotesk is a variable sans-serif typeface by Florian Karsten with a `wght` axis ranging from 300 to 700. The METADATA.pb source block already included detailed file mappings and a branch specification (`master`); only the commit hash was missing. The repository has a minisite at https://floriankarsten.github.io/space-grotesk.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/spacegrotesk/` referencing the upstream gftools-builder-compatible source at the pinned commit `03507d0` (`sources/SpaceGrotesk-v2.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

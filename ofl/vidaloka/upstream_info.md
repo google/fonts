@@ -27,3 +27,10 @@ The copyright string `"Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) 
 **Commit**: cc4205a19aca98f15ba551e3f8050630e54df28a
 **Status**: Glyphs + UFO sources present
 **Confidence**: High
+
+
+## Update (2026-04-24)
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added `config_yaml: "source/config.yaml"` to the METADATA.pb `source { }` block. Direct inspection of the upstream repo at the pinned commit `cc4205a1` (via the bare mirror in `upstream_repos/repo_archive/cyrealtype/Vidaloka.git`) confirms that `source/config.yaml` exists at that commit and is a valid gftools-builder config — it declares the `sources:` key. The family should move from the dashboard's "missing_config" bucket into "covered" once `google-fonts-sources` regenerates crater's `targets.json`.

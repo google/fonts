@@ -56,3 +56,9 @@ gh api repos/silnrsi/font-padauk/commits/278b8efb03c0ca0d7f29fb3edc1f52489ebb384
 - **Config**: archive-based build, files mapped from `Padauk-5.001/` prefix
 - **Status**: Commit hash added to METADATA.pb
 - **Confidence**: High
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/padauk/` referencing the upstream gftools-builder-compatible source at the pinned commit `278b8ef` (`source/Padauk.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

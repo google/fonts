@@ -30,4 +30,5 @@ source {
     dest_file: "Marmelad-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

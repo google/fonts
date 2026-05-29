@@ -24,3 +24,7 @@ Branch: master
 Status: commit hash added
 Confidence: high (verified via GitHub API)
 ```
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-01-09** — evanwadams (Google), commit [`254f22c5e`](https://github.com/google/fonts/commit/254f22c5e) ("Update METADATA.pb (#10121)"): corrected the ISO 15924 script code in `primary_script` from `"Japn"` to `"Jpan"` (the canonical 4-letter code for Japanese). Edit is outside the `source { ... }` block; no source-block impact.

@@ -100,3 +100,9 @@ There is no `config.yaml` override file in `ofl/hind/` in google/fonts.
 **Status: missing_config**
 
 The source block in METADATA.pb has the correct repository URL but is missing the `commit` field. The commit hash `6caef5262dc5bee3e033207082a073a6a1d172d6` (the latest and only meaningful reference point) should be added, with a note about the version discrepancy. An override config.yaml for gftools-builder could be created using the UFO master files, but the complex Devanagari-specific build pipeline (mI matching, custom feature generation, AFDKO instance generation) means the output may differ from the current v2.001 binaries. The build system uses `masters/Hind_0.ufo` and `masters/Hind_1.ufo` as source masters. Note that the repo has not been updated since 2014, while the fonts in google/fonts are v2.001 from 2017.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `6caef52` (upstream legacy: .vfb masters in masters/). Added an override `config.yaml` in `ofl/hind/` that references the compatible sources only (`styles/Light/font.ufo`, `styles/Regular/font.ufo`, `styles/Medium/font.ufo`, `styles/SemiBold/font.ufo`, `styles/Bold/font.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

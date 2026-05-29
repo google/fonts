@@ -147,3 +147,12 @@ Key changes from current:
 2. **Remove `config_yaml`** field — the config.yaml at `sources/config.yaml` only exists at the newer commit `16362f6` and was not used for the original onboarding (pre-compiled binary was used instead)
 
 Note: The original commit `9ddac1c` no longer exists in the upstream repo due to a force-push, but it remains the historically correct reference for what was actually onboarded. If/when the font is updated to Version 1.111 from commit `16362f6`, the source block should be updated at that time with the new commit hash and the `config_yaml` field restored.
+
+
+## Update (2026-04-24)
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added `config_yaml: "sources/config.yaml"` to the METADATA.pb `source { }` block. Direct inspection of the upstream repo at the pinned commit `9ddac1c0` (via the bare mirror in `upstream_repos/repo_archive/cyrealtype/Marmelad-Cyrillic.git`) confirms that `sources/config.yaml` exists at that commit and is a valid gftools-builder config — it declares the `sources:` key. The family should move from the dashboard's "missing_config" bucket into "covered" once `google-fonts-sources` regenerates crater's `targets.json`.
+
+The earlier section above advised against setting `config_yaml` on the grounds that `sources/config.yaml` only existed at the newer commit `16362f6`. That analysis was based on a shallow clone of the upstream repo which did not retain objects for the pinned onboarding commit `9ddac1c`. The bare mirror now kept in `upstream_repos/repo_archive/cyrealtype/Marmelad-Cyrillic.git` preserves all objects; `git show 9ddac1c:sources/config.yaml` resolves cleanly and returns a valid gftools-builder config referencing `Marmelad.glyphs`. The `config_yaml` field is therefore correct at the pinned rev.

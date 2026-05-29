@@ -27,19 +27,15 @@ axes {
   max_value: 700.0
 }
 source {
-  commit: "a1268635894c5ee23dfdece570418ca07b66c3fc"
+  commit: "4bf69824e45a175b9121b248c46abff103569051"
   repository_url: "https://github.com/coz-m/MPLUS_FONTS"
   files {
-    source_file: "fonts/ttf/MPLUSCodeLatin[wdth,wght].ttf"
+    source_file: "fonts/MPLUSCodeLatin/variable/MPLUSCodeLatin[wdth,wght].ttf"
     dest_file: "MPLUSCodeLatin[wdth,wght].ttf"
   }
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "MPlusCodeLatin_DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "master"
 }

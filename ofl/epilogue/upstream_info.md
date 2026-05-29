@@ -52,7 +52,7 @@ The repository URL `https://github.com/Etcetera-Type-Co/Epilogue` is confirmed c
 - **Title**: "Epilogue v2.112 (stat fix)"
 - **Body**: "Font repro updated to the UFR format (https://github.com/Etcetera-Type-Co/Epilogue). Font files rebuilt."
 - **No specific upstream commit hash mentioned in the PR**
-- **Context**: Aaron Bell submitted upstream PR #17 ("Updating to UFR Format") which was merged on 2021-07-24 at commit `7a46afa`. This PR converted the repo to the Google Unified Font Repository format, adding `sources/config.yaml`, renaming the sources directory from `Sources/` to `sources/`, and adding proper build infrastructure.
+- **Context**: Aaron Bell submitted upstream PR #17 ("Updating to UFR Format") which was merged on 2021-07-24 at commit `7a46afa`. [PR #17](https://github.com/Etcetera-Type-Co/Epilogue/pull/17) converted the repo to the Google Unified Font Repository format, adding `sources/config.yaml`, renaming the sources directory from `Sources/` to `sources/`, and adding proper build infrastructure.
 - **Most likely upstream commit used**: `7a46afad13fd6e996e387559478fe8b4c7bb1807` (2021-07-24, "Merge pull request #17 from aaronbell/master")
 
 At commit `7a46afa`, the config.yaml produces two output files matching what's in google/fonts:

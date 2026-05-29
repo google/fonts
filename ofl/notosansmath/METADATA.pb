@@ -12,9 +12,6 @@ fonts {
   full_name: "Noto Sans Math Regular"
   copyright: "Copyright 2022 Google LLC. All Rights Reserved."
 }
-subsets: "cyrillic"
-subsets: "latin"
-subsets: "math"
 subsets: "menu"
 source {
   repository_url: "https://www.github.com/notofonts/math"

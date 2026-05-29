@@ -62,7 +62,7 @@ The commit currently in METADATA.pb (`1dd726bde8004743529cbeaab84ce993caf98f78`,
 
 ### Version History in google/fonts
 
-1. **v1.002** -- PR #4824 (`9950d882`, 2022-06-22): QLD Beginner was onboarded separately from the other families at v1.002. This PR used upstream commit `1dd726b`.
+1. **v1.002** -- PR #4824 (`9950d882`, 2022-06-22): QLD Beginner was onboarded separately from the other families at v1.002. [PR #4824](https://github.com/google/fonts/pull/4824) used upstream commit `1dd726b`.
 2. **v1.003** -- PR #4831 (`536d37fd9`, 2022-06-23): All five families updated together from upstream commit `0dbdee6` ("Corrected vertical metrics") -- **CURRENT**
 
 Note: QLD Beginner was NOT part of the initial v1.001 bulk onboarding. It was added later at v1.002 in a separate PR (#4824), then updated to v1.003 along with all other families.

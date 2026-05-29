@@ -39,3 +39,9 @@ after the Telugu king Krishnadevaraya. The project was led by Appaji Ambarisha
 Darbha. The Latin portion of the font was derived from Cantata One, designed
 by Joana Correia da Silva for Sorkin Type Co. The repository was maintained by
 `appajid` (Appaji Ambarisha Darbha) on GitHub.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `1d8aea8` (upstream legacy: .sfd in repo root). Added an override `config.yaml` in `ofl/sreekrushnadevaraya/` that references the compatible sources only (`SreeKrushnadevaraya.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

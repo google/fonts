@@ -83,3 +83,12 @@ Merged via PR #7790 on 2024-06-25.
 ## Conclusion
 
 The source metadata for Big Shoulders Text SC is **complete**. The repository URL and commit hash are correct and verified. The override config.yaml in google/fonts was created at onboarding time by Simon Cozens (PR #7790) and correctly builds the Text SC variable font from the shared Glyphs source. The `config_yaml` field is correctly omitted from METADATA.pb since the local override is auto-detected. No changes are needed.
+
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source '../Big-Shoulders/sources/BigShoulders.glyphs'` for the xotypeco/big_shoulders monorepo. The override `config.yaml` used paths prefixed with `../`, which the build harness resolves relative to the repository root and therefore escape the checkout. For this family the repo-escaping `../` prefix was removed (the source filename already matched the file present at the pinned commit): `Big-Shoulders/sources/BigShoulders.glyphs` (verified present at the pinned commit `0b3d09a`). The recipe output paths were made repo-root-relative likewise. The pinned commit is unchanged.
+
+A local gftools-builder smoke-test of the corrected config built the variable TTFs successfully (RC=0), confirming the path fix is sufficient.

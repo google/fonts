@@ -50,7 +50,6 @@ source {
     dest_file: "NotoSansDuployan-Bold.ttf"
   }
   branch: "main"
-  config_yaml: "sources/config-sans-duployan.yaml"
 }
 is_noto: true
 languages: "chn_Dupl"

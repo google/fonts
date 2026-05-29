@@ -51,7 +51,7 @@ The source file `sources/BalooTamma2.glyphs` was confirmed to exist at the refer
 
 The font was onboarded via PR [#3984](https://github.com/google/fonts/pull/3984) ("Baloo Tamma 2: Version 1.700 added"), authored by Yanone and merged on 2021-10-29. The commit message explicitly stated: "Baloo Tamma 2 Version 1.700 taken from the upstream repo https://github.com/yanone/Baloo2-Variable at commit da523dfa21aa0e376253d61c21e39146dc55702a."
 
-This PR replaced the previous static font files (BalooTamma2-Bold.ttf, BalooTamma2-ExtraBold.ttf, etc.) with a single variable font `BalooTamma2[wght].ttf`. The source block was later re-added in a subsequent commit (`28e3ef2aa`, "sources info for Baloo Tamma 2: Version 1.700 (#3984)").
+[PR #3984](https://github.com/google/fonts/pull/3984) replaced the previous static font files (BalooTamma2-Bold.ttf, BalooTamma2-ExtraBold.ttf, etc.) with a single variable font `BalooTamma2[wght].ttf`. The source block was later re-added in a subsequent commit (`28e3ef2aa`, "sources info for Baloo Tamma 2: Version 1.700 (#3984)").
 
 After the referenced commit, the upstream repository had additional activity (kerning fixes for other Baloo variants, copyright file addition, font regeneration as v1.701 in September 2022), but none of these changes affected the BalooTamma2 font binary that was shipped.
 

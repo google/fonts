@@ -12,14 +12,7 @@ fonts {
   full_name: "STIX Two Math Regular"
   copyright: "Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)"
 }
-subsets: "cyrillic"
-subsets: "cyrillic-ext"
-subsets: "greek"
-subsets: "latin"
-subsets: "latin-ext"
-subsets: "math"
 subsets: "menu"
-subsets: "vietnamese"
 source {
   repository_url: "https://github.com/stipub/stixfonts"
   files {

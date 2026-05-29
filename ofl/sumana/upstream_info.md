@@ -32,3 +32,9 @@ The `sources/` directory contained:
 ## Action Taken
 
 A `source` block was added to `METADATA.pb` pointing to `https://github.com/cyrealtype/Sumana` at commit `68c5ce43ae96268ac93ee3b79c720c7f479c5ee1`.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/sumana/` referencing the upstream gftools-builder-compatible source at the pinned commit `68c5ce4` (`sources/Sumana.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

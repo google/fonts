@@ -23,9 +23,9 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v6
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4.4.0
+        uses: actions/setup-python@v6.2.0
         with:
           python-version: "3.10"
       - name: Install packages
@@ -66,7 +66,7 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: qa-${{ matrix.os }}
           path: out/
@@ -87,9 +87,11 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # we need the history so .ci/run.py can determine which files changed
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4.4.0
+        uses: actions/setup-python@v6.2.0
         with:
           python-version: "3.10"
       - name: Install packages
@@ -119,7 +121,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.number }}
         shell: bash
-
       - name: Check file existence
         id: check_files
         uses: andstor/file-existence-action@v2.0.0
@@ -128,7 +129,7 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: qa-diffenator
           path: out/
@@ -148,7 +149,7 @@ jobs:
     name: Run ftxvalidator on new/changed fonts
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v6
       - name: Download and install
         run: |
           ${{secrets.OBTAIN_FONTTOOLS}}
@@ -156,7 +157,7 @@ jobs:
           sudo installer -pkg /Volumes/macOS\ Font\ Tools/macOS\ Font\ Tools.pkg -target /
           hdiutil detach /Volumes/macOS\ Font\ Tools
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4.4.0
+        uses: actions/setup-python@v6.2.0
         with:
           python-version: "3.10"
       - name: Test font with ftxvalidator

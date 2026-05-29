@@ -23,7 +23,7 @@ By opening this issue, I confirm the project meets the following requirements:
 
 - [ ] The entire font project is available in a Github repository (repo) and licensed under the [OFL](https://openfontlicense.org/open-font-license-official-text/)
 - [ ] The source files are available in the repo
-- [ ] I am the sole copyright author of the entire project, or, all other copyright authors have licensed their work to me under the OFL
+- [ ] I am the sole copyright author of the entire project, or all other copyright authors have licensed their work to me under the OFL, and I commit to clearly disclosing if AI tools were used in the creation of this project.
 - [ ] There are no "Reserved Font Names" in the OFL license information, or in the project documentation of any known upstream projects. If there are RFNs, they are not used in whole or in part in this family name, or, I want to discuss how Google can work with my use of them.
 - [ ] The family name is unique according to [namecheck.fontdata.com](https://namecheck.fontdata.com/)
 - [ ] The name of the font family expected to appear on app menus must be very clearly communicated and definitive. It should not include any copyright holder's full names or acronyms.

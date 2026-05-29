@@ -47,3 +47,12 @@ Verification via GitHub API confirms the commit exists and is dated 2026-01-15T1
 
 1. The METADATA.pb source block is missing the `config_yaml` field. Should `config_yaml: "sources/config.yaml"` be added to the METADATA.pb, or should an override config be placed in the google/fonts family directory?
 2. There is a fifth variant "BetaniaPatmosInGDL" in the upstream repo's fonts/ttf directory that does not appear to have been onboarded to Google Fonts.
+
+## Recent upstream/main activity (post-investigation)
+
+The Betania Patmos family was onboarded to google/fonts in January 2026 as part of a 5-variant set (Patmos, In, GDL, In GDL, GuideLine) sharing the same upstream `huertatipografica/betania-patmos` at commit `08c83ac9540b0b2bf86ddf6b632651142f31a93c`.
+
+- **2026-01-15** — Emma Marichal, commit [`9adc7b48d`](https://github.com/google/fonts/commit/9adc7b48d) ("Betania Patmos: Version 11.002; ttfautohint (v1.8.4.16-eb64) added"): initial onboarding via gftools-packager. Created METADATA.pb (with the source block recording the upstream commit), OFL.txt, and the binary.
+- **2026-01-15** — Emma Marichal, commit [`f6499b220`](https://github.com/google/fonts/commit/f6499b220) ("Update copyright URL in OFL.txt"): same-day OFL.txt fix to correct the copyright URL.
+
+Both edits are within the source block's intent — the source block was created in the first commit and reflects the recorded upstream commit. No corrections needed.

@@ -24,6 +24,6 @@ languages: "hmn_Hmnp"  # Hmong, Nyiakeng Puachue Hmong
 primary_script: "Hmnp"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "9232f17974e5783a5dbd862f38225e0584e73add"
+  repository_url: "https://github.com/notofonts/nyiakeng-puachue-hmong"
+  commit: "6f39c5843fe2f459973c3cd57dc82ca09cccbab0"
 }

@@ -28,3 +28,7 @@ The family covered the following subsets: latin, latin-ext.
 ## Notes
 
 Stack Sans Headline was designed by Koto and published to Google Fonts on 2025-10-03. It shared its upstream repository with Stack Sans Text and Stack Sans Notch, each built from a separate config YAML. The headline variant was built using `sources/config-headline.yaml`.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-10-03** — Emma Marichal, commit [`7b0b65a7e`](https://github.com/google/fonts/commit/7b0b65a7e) ("Stack Sans Headline: Version 1.000 added"): initial onboarding via gftools-packager. Created `ofl/stacksansheadline/` with the binary, OFL.txt, and METADATA.pb (source block recording `DylanYoungKoto/Stack-Sans@4b62a2ddf8c2ff3bb1c31bfe97c8fa3aab26a0cd`, shared with sibling Stack Sans Text and the later-onboarded Stack Sans Notch).

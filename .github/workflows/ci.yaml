@@ -6,23 +6,26 @@ on:
     branches: [main]
     tags: ["v*.*.*"]
     paths:
-    - "cc-by-sa/*"
+    - "cc-by-sa/knowledge/**"
     - ".github/workflows/ci.yaml"
-    - "/.github/workflows/knowledge_graph.py"
+    - ".github/workflows/knowledge_graph.py"
   pull_request:
     branches: ['**']
     paths:
-    - "cc-by-sa/*"
-    - "to_*.txt"
+    - "cc-by-sa/knowledge/**"
     - ".github/workflows/ci.yaml"
+    - ".github/workflows/knowledge_graph.py"
+
+permissions:
+  contents: read
 
 jobs:
   check_knowledge_graph:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: "3.10"
     - name: Install Cairo (Ubuntu)

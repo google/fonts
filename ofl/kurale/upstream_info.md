@@ -102,3 +102,45 @@ The source block in METADATA.pb was complete with:
 - **Confidence**: HIGH
 
 No further action was required for this family.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-02-27** — Simon Cozens, commit [`c9a8edf41`](https://github.com/google/fonts/commit/c9a8edf41) ("Rebuild and update kurale"): rebuilt the binary locally with `ttfautohint` and rewrote the source block. The Kurale-Regular.ttf binary changed from 250224 bytes (`Version 2.000`) to 265304 bytes (`Version 2.000; ttfautohint (v1.8.4.7-5d5b)`); md5 changed from `7e63a40022b4b92268acd6a84d703a06` to `2636a6a61057bb6c505d14b3762be5e1`. Simon also added file mappings + `branch` and updated the recorded commit.
+
+  ### Bugs introduced by Simon's commit (corrected here)
+
+  Simon's source block had three errors that this PR corrects:
+  1. `repository_url` was set to `https://www.github.com/etunni/kurale` (with `www.` prefix). Corrected to `https://github.com/etunni/kurale` — the canonical URL form used elsewhere in google/fonts.
+  2. `source_file` was set to `fonts/ttf/Kurale-Regular.ttf`. The actual path at upstream commit `08bf7684d` is `fonts/Kurale-Regular.ttf` (no `ttf/` subdirectory). Corrected.
+  3. `branch` was set to `main`. The upstream `etunni/kurale` repo's default branch is `master`. Corrected.
+
+  After the fixes, the source block reads:
+
+  ```
+  source {
+    repository_url: "https://github.com/etunni/kurale"
+    commit: "08bf7684d57c6faacff84e6c5ab31df6b7beae18"
+    files {
+      source_file: "fonts/Kurale-Regular.ttf"
+      dest_file: "Kurale-Regular.ttf"
+    }
+    files {
+      source_file: "OFL.txt"
+      dest_file: "OFL.txt"
+    }
+    branch: "master"
+  }
+  ```
+
+  ### Provenance caveat
+
+  The shipping Kurale-Regular.ttf in google/fonts is **NOT byte-identical** to upstream `08bf7684d:fonts/Kurale-Regular.ttf`:
+
+  | Source | size | md5 | Version string |
+  |---|---|---|---|
+  | upstream `08bf7684d:fonts/Kurale-Regular.ttf` | 250224 | `7e63a40022b4b92268acd6a84d703a06` | `Version 2.000` |
+  | shipping `ofl/kurale/Kurale-Regular.ttf` | 265304 | `2636a6a61057bb6c505d14b3762be5e1` | `Version 2.000; ttfautohint (v1.8.4.7-5d5b)` |
+
+  Simon ran `ttfautohint` locally on the upstream binary and committed the autohinted result to google/fonts without pushing the rebuilt binary upstream. The recorded `commit` therefore identifies the *source state* (which is consistent with the override `config.yaml`'s `Kurale.glyphs` source) but does NOT reproduce the shipping binary directly — a `ttfautohint v1.8.4.7-5d5b` post-process is required.
+
+  This is acceptable for source-provenance tracking since the override `config.yaml` documents the buildable state. A future improvement would be to either (a) push the autohinted binary upstream, or (b) record the ttfautohint invocation alongside the source block.

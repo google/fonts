@@ -10,12 +10,12 @@ Grenze is a serif font family designed by Omnibus-Type, added to Google Fonts on
 |-------------------|--------------------------------------------------------------------|
 | Family Name       | Grenze                                                             |
 | Repository URL    | https://github.com/Omnibus-Type/Grenze                             |
-| Commit Hash       | `a2a182c7b828c3d6a1784ef08b22be8521b2b9a7` (only surviving commit) |
+| Commit Hash       | `e1be2f305f7b9490dcfd12e799e2dbc2c0cda6eb` (updated 2026-03-27; was `a2a182c7b828c3d6a1784ef08b22be8521b2b9a7`) |
 | Original Onboarding Hash | `00affb70f8e0bb8ab7c9adfd5b5067a5a2ae2d8d` (lost due to repo rewrite) |
 | Config Path       | `sources/config.yaml`                                              |
-| Source Files      | `Sources/Grenze.glyphs`, `sources/Grenze-Italic.glyphs`           |
-| Status            | **needs_correction**                                               |
-| Confidence        | **MEDIUM**                                                         |
+| Source Files      | `sources/Grenze.glyphs`, `sources/Grenze-Italic.glyphs` (now both lowercase, fixed in upstream) |
+| Status            | **complete**                                                       |
+| Confidence        | **HIGH**                                                           |
 
 ## Investigation Details
 
@@ -103,3 +103,26 @@ source {
 ### Assessment
 
 The current source block is the best available given the repo rewrite. The commit `a2a182c` is the only commit that exists, so while it is not the original onboarding commit, it is the only reference point available. The `config_yaml` field correctly points to the config file in the repo, though that config file itself has issues (wrong STAT reference, case-sensitivity problem). Status is **needs_correction** because the config.yaml in the upstream repo has errors that would prevent a clean build, and the original onboarding commit is lost.
+
+## Recent upstream/main activity (post-investigation)
+
+Many of the issues flagged in the original investigation have since been resolved upstream:
+
+- **Upstream `Omnibus-Type/Grenze` was rebuilt and now has a complete history.** As of 2026-04-27 the master branch contains 33+ commits (no longer a single squashed commit). Recent activity includes `a7e9b2b` "rebuild fonts" (regenerated all TTFs), `e1be2f305` "remove useless files" (cleanup), `2af38b2` "CONTRIBUTORS.txt", and others.
+- **`sources/config.yaml` has been fixed.** At commit `e1be2f305` the config now references `Grenze.glyphs` and `Grenze-Italic.glyphs` (both at lowercase `sources/`), and the STAT table correctly targets `Grenze[wght].ttf` and `Grenze-Italic[wght].ttf` (no Texturina copy-paste). The case-sensitivity issue and the Texturina STAT bug from the original investigation are no longer present.
+- **2026-03-27** — Emma Marichal, commit [`b9edf4389`](https://github.com/google/fonts/commit/b9edf4389) ("Grenze: Version 1.003 added"): onboarded v1.003 binaries via gftools-packager, advancing METADATA.pb `commit` from `a2a182c7b...` to `e1be2f305f...` (explicitly cited in the commit message body). The shipped `Grenze[wght].ttf` (139860 bytes, md5 `02bf2e334dd8aeb9f83eacbb1a42741d`) is byte-identical to upstream `fonts/variable/Grenze[wght].ttf` at commit `e1be2f305`. `head.fontRevision = 1.0030`, `name` ID 5 = "Version 1.003".
+
+### Updated METADATA.pb Source Block (post Emma's onboarding)
+
+```
+source {
+  repository_url: "https://github.com/Omnibus-Type/Grenze"
+  commit: "e1be2f305f7b9490dcfd12e799e2dbc2c0cda6eb"
+  config_yaml: "sources/config.yaml"
+}
+```
+
+### Updated Status: complete
+### Updated Confidence: HIGH
+
+The original onboarding commit `00affb70` from 2018 is still lost, but the v1.003 binaries currently shipping in google/fonts are now produced from a verifiable, working upstream commit with a clean buildable config. The source block is fully usable for reproducible-build verification.

@@ -132,7 +132,7 @@ The source metadata is as complete as it can be:
 
 ### Caveat: Post-onboarding binary modification
 
-The current binary in google/fonts was produced by PR #4152 (2021-12-07), a batch fix for urgent Khmer glyph definition issues by Yanone. This PR modified the binary without a corresponding upstream commit. The upstream repo's latest commit (`43c90b5`, 2021-11-01) predates PR #4152, and there is no commit in the upstream repo that matches the current google/fonts binary.
+The current binary in google/fonts was produced by PR #4152 (2021-12-07), a batch fix for urgent Khmer glyph definition issues by Yanone. [PR #4152](https://github.com/google/fonts/pull/4152) modified the binary without a corresponding upstream commit. The upstream repo's latest commit (`43c90b5`, 2021-11-01) predates PR #4152, and there is no commit in the upstream repo that matches the current google/fonts binary.
 
 This means the METADATA.pb `commit` field (`43c90b5`) is the best available reference -- it is the latest upstream commit -- but it does not correspond to the exact binary currently served. Rebuilding from `43c90b5` would produce v8.001, not the current v8.002.
 

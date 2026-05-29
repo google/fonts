@@ -39,4 +39,20 @@ A source block was added to METADATA.pb pointing to commit `6c6cf92` at cadsonde
 
 ## Build Configuration (Override)
 
-An override `config.yaml` has been created in the google/fonts family directory, referencing `Sriracha-Regular.ufo` from `cadsondemak/sriracha`. This is a best-effort starting point for reproducible builds — the shipped binary was likely built with different tool versions and may not match exactly.
+An override `config.yaml` has been created in the google/fonts family directory, referencing the UFO source from `cadsondemak/sriracha`. This is a best-effort starting point for reproducible builds — the shipped binary was likely built with different tool versions and may not match exactly.
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+The override `config.yaml` listed `sources: [Sriracha-Regular.ufo]`. fontc_crater failed with `missing source 'Sriracha-Regular.ufo'`.
+
+### Investigation
+At the recorded commit `6c6cf92` the UFO source exists at `source/Sriracha-Regular.ufo`, not at the repository root. The override config path was missing the `source/` directory prefix. The recorded commit is correct.
+
+### Actions taken
+The override `config.yaml` source path was corrected from `Sriracha-Regular.ufo` to `source/Sriracha-Regular.ufo`.
+
+### Final state
+The override `config.yaml` references `source/Sriracha-Regular.ufo`, which exists at the recorded commit `6c6cf92`.

@@ -74,3 +74,8 @@ No override config.yaml exists in the google/fonts family directory.
 ## Open Questions
 
 None. This family is fully documented and verified.
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-10-23** — Emma Marichal, commit [`ba3bc8eee`](https://github.com/google/fonts/commit/ba3bc8eee) ("Capriola: Version 1.007 added"): version bump to v1.007 with a static→variable migration. The file changed from `Capriola-Regular.ttf` (static) to `Capriola[wght].ttf` (variable). Copyright string updated from the legacy "Sorkin Type Co" form to "Copyright 2025 The Capriola Project Authors (https://github.com/SorkinType/Capriola-VF)". The repository URL inside the copyright now references `Capriola-VF`, indicating the upstream is a VF-rebuild fork.
+- **2025-10-23** — Emma Marichal, commit [`af795803f`](https://github.com/google/fonts/commit/af795803f) ("Add config_yaml path to METADATA.pb"): same-day follow-up adding `config_yaml: "Capriola-VF/sources/config.yaml"` to the source block. The path includes the `Capriola-VF/` prefix because the upstream repo is the SorkinType/Capriola-VF fork that ships the VF sources.

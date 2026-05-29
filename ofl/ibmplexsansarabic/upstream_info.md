@@ -65,3 +65,7 @@ The `googlefonts/plex` repo is a Google-maintained fork of IBM/plex. The font fi
 The METADATA.pb source block has correct repository URL and commit hash for the pre-compiled font delivery. However, no config.yaml can be created for this commit since source files do not exist at the referenced commit. A config pointing to sources would require referencing a commit prior to January 2024.
 
 **Status: missing_config**
+
+## Recent upstream/main activity (post-investigation)
+
+- **2026-02-26** — Emma Marichal, commit [`1f26508db`](https://github.com/google/fonts/commit/1f26508db) ("Add designers Wael Morcos and Khajag Apelian"): expanded the `designer` field from `"Mike Abbink, Bold Monday"` to `"Mike Abbink, Bold Monday, Khajag Apelian, Wael Morcos"`. The investigation summary above already credited Khajag Apelian and Wael Morcos as designers; this metadata edit brings the METADATA.pb in line with the design credits documented here. The change is outside the `source { ... }` block and does not affect the recorded source provenance.

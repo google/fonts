@@ -11,8 +11,8 @@ Google Sans Code is a monospace variable font (weight axis 300-800) designed by 
 | Family Name       | Google Sans Code                                                   |
 | Repository URL    | https://github.com/googlefonts/googlesans-code                     |
 | Commit Hash       | edcd56e39fb7e98d6f1b697e187c144cef2fd994                           |
-| Config YAML       | sources/config.yaml (exists upstream, not referenced in METADATA.pb)|
-| Status            | needs_correction                                                   |
+| Config YAML       | sources/config.yaml (now referenced in METADATA.pb — fixed 2026-02-27) |
+| Status            | complete (was needs_correction; resolved by PR #10291)             |
 | Confidence        | HIGH                                                               |
 
 ## Investigation Details
@@ -110,3 +110,38 @@ source {
 
 **Status**: needs_correction (missing config_yaml field)
 **Confidence**: HIGH
+
+## Recent upstream/main activity (post-investigation)
+
+The original investigation flagged that `config_yaml` was missing from the source block. That has been fixed:
+
+- **2026-02-27** — nyshadhr9 (Google), commit [`c8e45997f`](https://github.com/google/fonts/commit/c8e45997f) ("Update METADATA.pb (#10291)"): moved `config_yaml: "sources/config.yaml"` out of the (incorrect) inner `files { ... }` block, where it had been mis-nested by an earlier edit, and into the proper `source { ... }` scope. The field now correctly references the upstream `sources/config.yaml` for fontc_crater builds.
+
+After the fix, the source block reads:
+
+```
+source {
+  repository_url: "https://github.com/googlefonts/googlesans-code"
+  commit: "edcd56e39fb7e98d6f1b697e187c144cef2fd994"
+  archive_url: "https://github.com/googlefonts/googlesans-code/releases/download/v6.001/GoogleSansCode-v6.001.zip"
+  config_yaml: "sources/config.yaml"
+  files { ... }
+  files { ... }
+  files { ... }
+  branch: "main"
+}
+```
+
+### Updated source-of-truth assessment
+
+- **Repository URL**: https://github.com/googlefonts/googlesans-code
+- **Commit**: `edcd56e39fb7e98d6f1b697e187c144cef2fd994` (release tag `v6.001`)
+- **Config YAML**: `sources/config.yaml` (now referenced in METADATA.pb)
+- **Branch**: `main`
+- **Status**: **complete** (resolved by PR #10291).
+- **Confidence**: HIGH.
+
+### Earlier (2025-08-27 → 2025-09-12)
+
+- **2025-08-27** — Marianna Paszkowska, commit [`5be3d1410`](https://github.com/google/fonts/commit/5be3d1410) ("Google Sans Code: Version 6.001 added"): the v6.001 update referenced in PR #9762. Advanced `commit` from `18523d8837d98e6be89316017d323bc610b21c66` (the v6.000 onboarding hash) to `edcd56e39fb7e98d6f1b697e187c144cef2fd994` (the v6.001 release tag) and updated `archive_url` to the v6.001 zip.
+- **2025-09-12** — nyshadhr9 (Google), commit [`3932c2c36`](https://github.com/google/fonts/commit/3932c2c36) ("Update googlesanscode/METADATA.pb (#9824)"): added the `sample_text` block and corrected `category` to MONOSPACE per PR #9824. Outside the `source { ... }` block.

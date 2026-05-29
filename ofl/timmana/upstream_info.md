@@ -32,3 +32,9 @@ Source block was added to `METADATA.pb` pointing to the above repository and com
 ### Notes
 
 A secondary repository at `davelab6/timmana` was also found, but it contained only TTX (compiled XML) files and a bakery.yaml, with no editable source files. It was therefore skipped in favor of the canonical upstream.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Upstream has both compatible sources (.ufo) and legacy `.sfd`/`.vfb` archives at the pinned commit `6ed6823` (upstream legacy: .vfb in repo root). Added an override `config.yaml` in `ofl/timmana/` that references the compatible sources only (`TimmanaRegular.ufo`). The legacy archives are retained upstream for historical reference but are not consumed by gftools-builder. `google-fonts-sources` auto-detects the override on the next regeneration of crater's `targets.json`.

@@ -24,3 +24,12 @@ The repository was found at `wix-incubator/wixmadefor` (also accessible via the 
 ## Confidence
 
 High — the repository URL is referenced in both DESCRIPTION.en_us.html and the font copyright string, and the UFO sources for the Text variant were confirmed present.
+
+
+## Update (2026-04-24)
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added `config_yaml: "sources/config.yaml"` to the METADATA.pb `source { }` block. Direct inspection of the upstream repo at the pinned commit `85646f13` (via the bare mirror in `upstream_repos/repo_archive/wix-incubator/wixmadefor.git`) confirms that `sources/config.yaml` exists at that commit and is a valid gftools-builder config — it declares the `sources:` key. The family should move from the dashboard's "missing_config" bucket into "covered" once `google-fonts-sources` regenerates crater's `targets.json`.
+
+The upstream repo at `85646f13` contains three gftools-builder configs — `sources/config.yaml` (builds Text + Display variable fonts), `sources/config_display.yaml` (Display statics only), and `sources/config_text.yaml` (Text statics only). The shipped `WixMadeforText[wght].ttf` is a variable font, and the sibling family Wix Madefor Display already records `config_yaml: "sources/config.yaml"` — so the shared VF config is the right pointer for Wix Madefor Text too.

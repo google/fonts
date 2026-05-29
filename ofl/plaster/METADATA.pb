@@ -18,4 +18,5 @@ subsets: "latin-ext"
 source {
   repository_url: "https://github.com/SorkinType/Plaster"
   commit: "6879ba56c377a4df76cb15889e4e7a4985b50abd"
+  config_yaml: "sources/config.yaml"
 }

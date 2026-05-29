@@ -25,3 +25,9 @@ The `source/` directory contained:
 ## Confidence
 
 High — the repository was linked in the family's DESCRIPTION.en_us.html and hosted under the googlefonts organization.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/tajawal/` referencing the upstream gftools-builder-compatible source at the pinned commit `2085b89` (`source/1-drawings/Tajawal-ExtraLight.ufo`, `source/1-drawings/Tajawal-Light.ufo`, `source/1-drawings/Tajawal-Regular.ufo`, `source/1-drawings/Tajawal-Medium.ufo`, `source/1-drawings/Tajawal-Bold.ufo`, `source/1-drawings/Tajawal-ExtraBold.ufo`, `source/1-drawings/Tajawal-Black.ufo`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

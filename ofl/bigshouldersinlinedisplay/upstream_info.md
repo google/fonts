@@ -23,7 +23,7 @@ The repository URL `https://github.com/xotypeco/big_shoulders` was already prese
 
 **The current METADATA.pb commit hash `41153e6` is incorrect.** Binary comparison proves the correct commit is `2f924dd1205484c5e0054b1f3955f434224ba72e`.
 
-The font was updated to Version 2.000 via PR #3438 (by vv-monsalve, merged 2021-09-08). This PR had multiple packager runs:
+The font was updated to Version 2.000 via PR #3438 (by vv-monsalve, merged 2021-09-08). [PR #3438](https://github.com/google/fonts/pull/3438) had multiple packager runs:
 
 1. **First run** (PR body, created 2021-05-21): Referenced upstream commit `41153e6fe01d218e933919a1d08c8e45065bc8fe` (dated 2021-05-20, "Merge upstream 'master' at commit b465ae3" by Viviana Monsalve). This was Version 2.000.
 
@@ -61,3 +61,12 @@ The override config defines a recipe that:
 ## Open Questions
 
 1. **METADATA.pb needs correction**: The commit hash should be updated from `41153e6fe01d218e933919a1d08c8e45065bc8fe` to `2f924dd1205484c5e0054b1f3955f434224ba72e`. This should be included in a PR to google/fonts. The tracking data in `gfonts_library_sources.json` also needs updating.
+
+
+## Correction (2026-05-28) — override config source path
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source '../Big-Shoulders/sources/BigShoulders.glyphs'` for the xotypeco/big_shoulders monorepo. The override `config.yaml` used paths prefixed with `../`, which the build harness resolves relative to the repository root and therefore escape the checkout. For this family the repo-escaping `../` prefix was removed and the `.glyphs` source name was corrected to the underscored form present at the pinned commit: `Big-Shoulders-Inline/sources/Big_Shoulders_Inline.glyphs` (verified present at the pinned commit `41153e6`). The recipe output paths were made repo-root-relative likewise. The pinned commit is unchanged.
+
+A local gftools-builder smoke-test of the corrected config built the variable TTFs successfully (RC=0), confirming the path fix is sufficient.

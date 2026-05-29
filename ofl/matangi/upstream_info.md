@@ -118,7 +118,7 @@ Matangi went through three PRs to google/fonts:
 - **Author**: Emma Marichal
 - **Referenced commit**: `a806f5ac9093cab670d0ce25a2cf5639bcc000ca` (same as PR #9615)
 - Bumped version, removed article, updated OFL.txt
-- The article directory was removed from google/fonts in this PR (commit 7c76f9b "remove useless article") but images remained via the METADATA.pb source_file mappings
+- The article directory was removed from google/fonts in [PR #9658](https://github.com/google/fonts/pull/9658) (commit 7c76f9b "remove useless article") but images remained via the METADATA.pb source_file mappings
 
 ## Build Configuration
 

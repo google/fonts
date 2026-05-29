@@ -47,3 +47,11 @@ There is no local override `config.yaml` in the google/fonts family directory.
 Alan Sans has a complete source block in METADATA.pb with all required fields: repository URL, commit hash, branch, and config_yaml path. The data was established during original onboarding by Emma Marichal (PR #9796, merged Sep 2025), with the config_yaml field added later during batch enrichment (Feb 2026). The repository URL is valid, the commit hash was recorded by gftools-packager, and the upstream repo contains a proper gftools-builder config.yaml. The upstream repo has received updates since onboarding (Jan 2026 commit), but the referenced commit correctly reflects the version used for the initial catalog addition.
 
 **Confidence**: HIGH
+
+## Recent upstream/main activity (post-investigation)
+
+- **2025-11-07** — Emma Marichal, commit [`53fe69aed`](https://github.com/google/fonts/commit/53fe69aed) ("Alan Sans - Update minisite_url to remove trailing slash"): trimmed the trailing slash from `minisite_url` (`https://typeface.alan.com/` → `https://typeface.alan.com`). Edit is outside the `source { ... }` block; no source-block impact.
+
+### Earlier (2025-10-29)
+
+- **2025-10-29** — Emma Marichal, commit [`75433c35c`](https://github.com/google/fonts/commit/75433c35c) ("update metadata.pb with new minisite"): added `minisite_url: "https://typeface.alan.com/"`. The trailing slash was trimmed by the later `53fe69aed` commit (2025-11-07) noted above.

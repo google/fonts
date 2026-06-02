@@ -29,3 +29,17 @@ An override `config.yaml` has been created in the google/fonts family directory,
 ## Commit Added (HIGH confidence)
 
 Commit `20bc5918912503bc1537a407a694738c33c048aa` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2022-11-24). This is the most reliable method.
+
+
+## Source-metadata review (2026-06-02) — SUPERSEDED DUPLICATE (de-listed; awaiting deletion)
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source 'sources/NotoSansNKoUnjoined.glyphs'` for `ofl/notosansnko_todelist/`. This family directory is a **superseded duplicate**: its slug ends in `_todelist` and it was flagged for removal (upstream PR #5605). The live families are `ofl/notosansnko` ("Noto Sans NKo", joined) and `ofl/notosansnkounjoined` ("Noto Sans NKo Unjoined"); the unjoined Glyphs source already has a correct home there.
+
+Because this directory should not exist, it was **de-listed from fontc_crater** rather than repointed:
+
+- the stale `source { … }` block (which pointed at the deprecated `googlefonts/noto-fonts` monorepo) was **removed from METADATA.pb**, and
+- the override `config.yaml` (described under "Build Configuration (Override)" above) was **deleted**.
+
+With no source block and no config, fontc_crater no longer gathers a (failing) target for this family, so it leaves the "failed to find targets" list without being repointed. The directory itself should still be **deleted** (`ofl/notosansnko_todelist/`) — a family removal is left for the Google Fonts team to action. The "Build Configuration (Override)" and "Commit Added" sections above are now historical: that override config and that source commit no longer exist in this directory.

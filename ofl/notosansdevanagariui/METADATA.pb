@@ -168,6 +168,6 @@ languages: "ybh_Deva"  # Yakha, Devanagari
 primary_script: "Deva"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "0b7e7b85049f6b5ddb1a2bf25b6c83510b288daf"
+  repository_url: "https://github.com/notofonts/devanagari"
+  commit: "9b735f271f5e1abd6be8afbf662e241d5f0ec43c"
 }

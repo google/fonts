@@ -45,6 +45,6 @@ languages: "unx_Beng"  # Munda
 primary_script: "Beng"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "8d438811b7d6d70fb5cc1b89c47d1388cb1939d7"
+  repository_url: "https://github.com/notofonts/bengali"
+  commit: "85d80394cbbbb798ca0a41c983902e6cf77be3a3"
 }

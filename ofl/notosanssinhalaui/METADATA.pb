@@ -31,6 +31,6 @@ languages: "si_Sinh"  # Sinhala
 primary_script: "Sinh"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "da23fbffb845dc5e9bd6da24b3dbbbc7effe7dbc"
+  repository_url: "https://github.com/notofonts/sinhala"
+  commit: "032355e96de5bac83fd996535af3d13b1fbfeccf"
 }

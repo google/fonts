@@ -30,6 +30,6 @@ languages: "ta_Taml"  # Tamil
 primary_script: "Taml"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "56fa5f2db909dc006aaaf2fd5cf7e063dcf18ad7"
+  repository_url: "https://github.com/notofonts/tamil"
+  commit: "bc7886b117af378d8dbd5c91f5ea2bf8cdaffd16"
 }

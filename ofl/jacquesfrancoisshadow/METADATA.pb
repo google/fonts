@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
-  commit: "90c9f94cc747ac7c356d882d7553c07d344992f8"
+  commit: "073491c6b1582ad2a1affc515f3fee1163c093fe"
   repository_url: "https://github.com/cyrealtype/Jacques-Francois-Shadow"
 }
 stroke: "SERIF"

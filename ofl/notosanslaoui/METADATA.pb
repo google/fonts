@@ -31,6 +31,6 @@ languages: "lo_Laoo"  # Lao
 primary_script: "Laoo"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "c864aa49f4af6a4130bb58ea083334554f0b7a56"
+  repository_url: "https://github.com/notofonts/lao"
+  commit: "d60e676a54d9fa09baab98e9930ef2933f497536"
 }

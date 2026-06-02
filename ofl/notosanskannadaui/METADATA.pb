@@ -30,6 +30,6 @@ languages: "tcy_Knda"  # Tulu
 primary_script: "Knda"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "09b94bdab646a466def1aac31f3f1b4666018e8e"
+  repository_url: "https://github.com/notofonts/kannada"
+  commit: "d56201c60822b83c3928072dc58d8f62c7016a45"
 }

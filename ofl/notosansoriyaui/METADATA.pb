@@ -51,6 +51,6 @@ languages: "unr_Orya"  # Mundari, Odia
 primary_script: "Orya"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "bc27c394087c8f52ef27d7a3742dd441dd0c22a5"
+  repository_url: "https://github.com/notofonts/oriya"
+  commit: "1f6ceddd27226ad9b6bb878b4c9d6c53ee9262b4"
 }

@@ -50,3 +50,18 @@ DM Sans shares the `googlefonts/dm-fonts` repository with DM Serif Display and D
 ## Issues Found
 
 None. The tracking data is accurate and complete. The METADATA.pb on main already has the correct commit hash, config_yaml, and branch.
+
+
+## Source-metadata correction (2026-06-02) — override config replaces a mis-indented upstream config
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `no config file was found` for dm-fonts. The dmsans `source { config_yaml }` pointed at the repo's `Sans/Source/config.yaml`, which at the pinned commit `d0520ba` is committed with an erroneous 4-space indentation on every line (no top-level key) — verified with `cat -A` (first line is `    sources:$`). That makes it invalid top-level YAML, so google-fonts-sources/fontc_crater cannot parse it and treats the family as having no config. The two declared sources (`Sans/Source/DMSans.glyphs`, `Sans/Source/DMSans-Italic.glyphs`) are both present at `d0520ba`, so the only blocker is the indentation.
+
+Fix:
+- Added an override `config.yaml` in this family directory — the same config, de-indented to valid YAML, with the two source paths made relative to the repository root.
+- Removed the now-redundant `config_yaml` field from METADATA.pb so google-fonts-sources auto-detects the local override instead of the broken upstream config.
+
+The pinned commit `d0520ba` is unchanged and is the true build commit (the gftools-packager binaries were committed to google/fonts ~3 minutes after it), so building from this corrected config should reproduce the shipped DM Sans (modulo tool versions) — this is a config-validity fix, not a refresh.
+
+(An upstream fix to `Sans/Source/config.yaml`'s indentation in googlefonts/dm-fonts would also resolve this at the source, but would additionally require bumping the pinned commit; the override is self-contained.)

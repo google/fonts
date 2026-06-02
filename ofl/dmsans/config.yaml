@@ -1,0 +1,111 @@
+# Override config.yaml for ofl/dmsans
+#
+# The upstream Sans/Source/config.yaml is committed with an erroneous 4-space
+# indentation on every line (no top-level key), so it is invalid top-level YAML
+# and fontc_crater reports "no config file was found". This override is the same
+# config, de-indented to valid YAML, with the two source paths made relative to
+# the repository root. The pinned commit (d0520ba) is unchanged.
+sources:
+  - Sans/Source/DMSans.glyphs
+  - Sans/Source/DMSans-Italic.glyphs
+axisOrder:
+  - opsz
+  - wght
+  - ital
+familyName: DM Sans
+stat:
+  DMSans[opsz,wght].ttf:
+  - name: Optical size
+    tag: opsz
+    values:
+    - name: 9pt
+      value: 9
+    - name: 14pt
+      value: 14
+    - name: 18pt
+      value: 18
+    - name: 24pt
+      value: 24
+    - name: 36pt
+      value: 36
+    - name: 40pt
+      value: 40
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
+    - name: ExtraBlack
+      value: 1000
+  - name: Italic
+    tag: ital
+    values:
+    - name: Roman
+      value: 0
+      linkedValue: 1
+      flags: 2
+  DMSans-Italic[opsz,wght].ttf:
+  - name: Optical size
+    tag: opsz
+    values:
+    - name: 9pt
+      value: 9
+    - name: 14pt
+      value: 14
+    - name: 18pt
+      value: 18
+    - name: 24pt
+      value: 24
+    - name: 36pt
+      value: 36
+    - name: 40pt
+      value: 40
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
+    - name: ExtraBlack
+      value: 1000
+  - name: Italic
+    tag: ital
+    values:
+    - name: Italic
+      value: 1
+      

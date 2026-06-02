@@ -41,6 +41,7 @@ axes {
 source {
   repository_url: "https://github.com/TheJonassss/Pliant"
   commit: "dc119b45f0b60597305af387b97b2f5a94b2e1e4"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

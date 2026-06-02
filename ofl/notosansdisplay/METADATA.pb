@@ -820,6 +820,6 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "217e0ab67385bc728b088f565c2c9b76633c01c5"
+  repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
+  commit: "41644bc7a679a27da9b44d1875e6a5f651c80674"
 }

@@ -27,5 +27,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/dm-fonts"
   commit: "027cea4e4f45827128860a4dec7b9a0852a295d7"
-  config_yaml: "Sans/Source/config.yaml"
 }

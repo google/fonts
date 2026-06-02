@@ -109,6 +109,6 @@ languages: "zlm_Arab"  # Malay, Arabic
 primary_script: "Arab"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "e30ce1b55b8f57a238edcf4bf906e6f3faeceef1"
+  repository_url: "https://github.com/notofonts/arabic"
+  commit: "78340846460d29a6d673bb2ae355e394a0d81a9d"
 }

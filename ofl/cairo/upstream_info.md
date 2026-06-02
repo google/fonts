@@ -63,3 +63,14 @@ The repo also contains `sources/cairoplay.yaml` for the Cairo Play variant and t
 ## Open Questions
 
 None. This family is fully documented and verified.
+
+
+## Source-metadata review (2026-06-02) — build-time-generated `.glyphs` (no `.ufoz`; PENDING upstream fix)
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reports `missing source 'sources/CairoNormal.glyphs'` for this family. Unlike the `.ufoz` families in this batch, **there is no committed `.ufoz` to declare**: `sources/CairoNormal.glyphs` is generated at build time from the committed `sources/Cairo.glyphs` by `scripts/makenormal.py` (run by `build.sh`, then `rm`-ed), so it is absent from the static tree.
+
+Declaring the raw `sources/Cairo.glyphs` directly is **not** a valid workaround — it would skip the `makenormal` transform and build the wrong product. So no override config is added here.
+
+**PENDING (work on later):** an upstream PR to `Gue3bara/Cairo` that commits the generated `sources/CairoNormal.glyphs` (conventionally under `sources/generated/`) and points `sources/cairo.yaml` at it. (This is the same `sources/generated/` pattern recommended for the other build-time-generated families.)

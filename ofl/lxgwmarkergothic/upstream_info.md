@@ -110,3 +110,17 @@ source {
 ```
 
 **Confidence**: HIGH — Binary hash match confirmed, commit hash verified (only commit in the fork), config path corrected in google/fonts history and now accurate.
+
+## Correction (2026-06-02) — override config builds from the committed `.ufoz`
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported `missing source 'temp/LXGWMarkerGothic-Regular.ufo'`: the upstream `sources/config.yaml` declares the build-time-extracted `temp/…ufo`, which the repo's Makefile produces by unzipping the committed `sources/LXGWMarkerGothic-Regular.ufoz` and then `.gitignore`s. fontc_crater never runs that Makefile, so the source appears absent.
+
+An override `config.yaml` was added in this family directory that builds **directly from the committed `sources/LXGWMarkerGothic-Regular.ufoz`** (a zipped UFO), with the path relative to the repository root. This removes the dependency on the build-time extraction step. The `.ufoz` is confirmed present at the pinned commit `fe83570`.
+
+Dependencies / caveats:
+- **fontmake** already reads `.ufoz`. Building this override in fontc_crater also relies on two pending PRs, and the override should land together with (or after) them:
+  - **[googlefonts/fontc#2028](https://github.com/googlefonts/fontc/pull/2028)** — `ufo2fontir` reads `.ufoz` (otherwise the fontc side reports an unrecognized extension).
+  - **[googlefonts/gftools#1192](https://github.com/googlefonts/gftools/pull/1192)** — `gftools.builder` recognises `.ufoz` as a font source (otherwise `File.family_name` crashes before the build starts).
+- The shipped binary is produced by gftools-builder **plus** `sources/post.py` (vertical-metrics / GASP / fsSelection overrides), which the config alone does not run. So a crater build from this override will *build successfully* but still differ from the shipped binary by those post-processing changes — i.e. it fixes the "missing source" failure but is not yet a byte-exact reproduction.

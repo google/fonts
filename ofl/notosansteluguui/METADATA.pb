@@ -32,6 +32,6 @@ languages: "wbq_Telu"  # Waddar
 primary_script: "Telu"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "1b5d974daaa002333b2a5a068d0a7f2d1121b3b7"
+  repository_url: "https://github.com/notofonts/telugu"
+  commit: "0d8cb2a9550d76f4349915664f1115ea4c42f4ed"
 }

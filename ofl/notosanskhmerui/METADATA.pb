@@ -29,6 +29,6 @@ languages: "km_Khmr"  # Khmer
 primary_script: "Khmr"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "4386f6f75598ac1a62e068b3f169cf19d6566363"
+  repository_url: "https://github.com/notofonts/khmer"
+  commit: "63b7c368a24767787e5b2665f43b726f01b81430"
 }

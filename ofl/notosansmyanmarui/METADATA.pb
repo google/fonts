@@ -96,6 +96,6 @@ languages: "shn_Mymr"  # Shan
 primary_script: "Mymr"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "442e7d208ce532bbe6ef41e1d89f35c21f415142"
+  repository_url: "https://github.com/notofonts/myanmar"
+  commit: "ed95e81c048ccf83bcbba0d409a78153bfa233d7"
 }

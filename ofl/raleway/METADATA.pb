@@ -23,7 +23,7 @@ fonts {
 }
 source {
   repository_url: "https://github.com/theleagueof/raleway"
-  commit: "7b288c6faaed52cd237ec3a2e82c637d2a941fa7"
+  commit: "938ac770222935d0d9d7b7b60e9373afd0cc5543"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

@@ -163,7 +163,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/intel/intel-one-mono"
-  commit: "cec102c3890991d35e3766424923fa4afc099a1d"
+  commit: "99e2d6ca170744c62bfb5f52547435f23720abe1"
   files {
     source_file: "article/ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

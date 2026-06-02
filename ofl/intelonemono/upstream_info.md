@@ -78,3 +78,17 @@ Per policy, when an override `config.yaml` exists locally, the `config_yaml` fie
 The `repository_url` was corrected to point to the canonical `intel/intel-one-mono` repo, but the `commit` hash `cec102c3` was not updated and is now incorrect — it belongs to the `googlefonts/intel-one-mono` mirror, not the canonical repo. The correct commit from `intel/intel-one-mono` that corresponds to version 1.004 needs to be identified. The override `config.yaml` in google/fonts correctly references the designspace sources.
 
 Action needed: Find the commit hash in `intel/intel-one-mono` that corresponds to version 1.004 (the version that was onboarded via the googlefonts mirror at `cec102c3`) and update the `commit` field in METADATA.pb.
+
+
+## Source-metadata correction (2026-06-02) — ⚠ REFRESH REQUIRED
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reported a `missing source` failure for this family because the pinned commit was not usable: it is either absent from the repository (a phantom/deleted hash) or predates the declared source, so the source could not be found.
+
+Corrected the METADATA.pb source block:
+- commit: `cec102c3890991d35e3766424923fa4afc099a1d` → `99e2d6ca170744c62bfb5f52547435f23720abe1` (2024-07-26)  (repository_url unchanged: `https://github.com/intel/intel-one-mono`)
+
+The declared source is confirmed present at the new commit.
+
+**⚠ REFRESH REQUIRED — this does NOT reproduce the shipped binary.** The shipped binary's exact build commit is not recoverable from the current upstream, so the source now resolves and the family becomes buildable, but a rebuild produces an **updated** font, not the originally-shipped artifact. Before shipping any rebuild, a human must QA the output for reflow / vertical-metric / glyph-coverage / version differences. The original build provenance (the exact source + commit that produced the shipped binary) is not recoverable from the current upstream.

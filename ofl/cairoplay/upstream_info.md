@@ -62,3 +62,14 @@ This is a variable font built from a Glyphs source. The `config_yaml` field in M
 ## Conclusion
 
 All source metadata is complete and verified. The repository URL, commit hash, and config_yaml path are all in place and confirmed by the gftools-packager commit message (PR #5972). Status is `complete`.
+
+
+## Source-metadata review (2026-06-02) — build-time-generated `.glyphs` (no `.ufoz`; PENDING upstream fix)
+
+**Model**: Claude Opus 4.8
+
+fontc_crater reports `missing source 'sources/CairoPlay.glyphs'` for this family. Unlike the `.ufoz` families in this batch, **there is no committed `.ufoz` to declare**: `sources/CairoPlay.glyphs` is generated at build time from the committed `sources/Cairo.glyphs` by `scripts/makeplay.py` (run by `build.sh`, then `rm`-ed), so it is absent from the static tree.
+
+Declaring the raw `sources/Cairo.glyphs` directly is **not** a valid workaround — it would skip the `makeplay` transform and build the wrong product. So no override config is added here.
+
+**PENDING (work on later):** an upstream PR to `Gue3bara/Cairo` that commits the generated `sources/CairoPlay.glyphs` (conventionally under `sources/generated/`) and points `sources/cairoplay.yaml` at it. (This is the same `sources/generated/` pattern recommended for the other build-time-generated families.)

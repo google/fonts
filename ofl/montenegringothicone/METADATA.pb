@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/MagicformDesign/montenegrin-gothic-one"
   commit: "7a9c8500be19a4b3c6050dd4ea6fcf184ca59173"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

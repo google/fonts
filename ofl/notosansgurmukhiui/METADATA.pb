@@ -29,6 +29,6 @@ languages: "pa_Guru"  # Punjabi
 primary_script: "Guru"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "f565665f15c72f0350773727b22b9f99742c5be2"
+  repository_url: "https://github.com/notofonts/gurmukhi"
+  commit: "231c5c6e9c622c4ef3792ead7a91045af0ee610a"
 }

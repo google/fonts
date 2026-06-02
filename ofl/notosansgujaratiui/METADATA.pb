@@ -91,6 +91,6 @@ languages: "gu_Gujr"  # Gujarati
 primary_script: "Gujr"
 
 source {
-  repository_url: "https://github.com/googlefonts/noto-fonts"
-  commit: "bda66ae5b76668ef2d3fad2c8d3607d1aa330431"
+  repository_url: "https://github.com/notofonts/gujarati"
+  commit: "442d6c6956f31b4a858c58eb685e2bf9601cb5a9"
 }

@@ -1,5 +1,5 @@
 name: "Gochi Hand"
-designer: "Huerta Tipográfica"
+designer: "HT Fonts"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-10-05"
@@ -10,7 +10,7 @@ fonts {
   filename: "GochiHand-Regular.ttf"
   post_script_name: "GochiHand-Regular"
   full_name: "Gochi Hand"
-  copyright: "Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Names \"Gochi\" and \"Gochi Hand\""
+  copyright: "Copyright (c) 2011, HT Fonts (www.htfonts.com info@htfonts.com), with Reserved Font Names \"Gochi\" and \"Gochi Hand\""
 }
 subsets: "menu"
 subsets: "latin"

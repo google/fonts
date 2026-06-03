@@ -10,7 +10,7 @@ fonts {
   filename: "Kadwa-Regular.ttf"
   post_script_name: "Kadwa-Regular"
   full_name: "Kadwa"
-  copyright: "Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)"
+  copyright: "Copyright (c) 2014-2015, Sol Matas (sol@sonnenshine.com.ar)"
 }
 fonts {
   name: "Kadwa"
@@ -19,7 +19,7 @@ fonts {
   filename: "Kadwa-Bold.ttf"
   post_script_name: "Kadwa-Bold"
   full_name: "Kadwa Bold"
-  copyright: "Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)"
+  copyright: "Copyright (c) 2014-2015, Sol Matas (sol@sonnenshine.com.ar)"
 }
 subsets: "menu"
 subsets: "devanagari"

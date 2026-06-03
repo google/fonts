@@ -3,7 +3,7 @@
 **Date investigated**: 2026-03-03
 **Model**: Claude Opus 4.6
 **Status**: complete
-**Designer**: Juan Pablo del Peral, Huerta Tipografica
+**Designer**: Juan Pablo del Peral, HT Fonts
 **METADATA.pb path**: `ofl/alegreyasans/METADATA.pb`
 
 ## Source Data

@@ -1,5 +1,5 @@
 name: "Cambo"
-designer: "Huerta Tipográfica"
+designer: "HT Fonts, Carolina Giovagnoli, Andres Torresi"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
@@ -15,9 +15,9 @@ fonts {
   filename: "Cambo-Regular.ttf"
   post_script_name: "Cambo-Regular"
   full_name: "Cambo"
-  copyright: "Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar), Copyright (c) 2011, Andres Torresi (andres@huertatipografica.com.ar), with Reserved Font Name Cambo."
+  copyright: "Copyright (c) 2011, Carolina Giovagnoli (carolina.giovagnoli@htfonts.com), Copyright (c) 2011, Andres Torresi (andres.torresi@htfonts.com), with Reserved Font Name Cambo."
 }
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-minisite_url: "https://huertatipografica.com/en/fonts/cambo-ht"
+minisite_url: "https://htfonts.com/en/fonts/cambo"

@@ -1,5 +1,5 @@
 name: "Caladea"
-designer: "Andrés Torresi, Carolina Giovagnoli"
+designer: "HT Fonts, Carolina Giovagnoli, Andrés Torresi"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-02-11"

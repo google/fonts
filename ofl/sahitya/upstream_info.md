@@ -10,7 +10,7 @@ The canonical upstream repository for Sahitya was identified at `huertatipografi
 ## Upstream Repository
 
 - **URL**: https://github.com/huertatipografica/sahitya
-- **Owner**: huertatipografica (Huerta Tipográfica)
+- **Owner**: huertatipografica (HT Fonts)
 - **Branch**: master
 - **Commit**: `c4b5b34d0fbad63654b1d9a6bff72e566bf9a2c6`
 - **Commit message**: "fixed some conjuncts"
@@ -24,7 +24,7 @@ The canonical upstream repository for Sahitya was identified at `huertatipografi
 
 ## Designer
 
-Sahitya was designed by Juan Pablo del Peral of Huerta Tipográfica (huertatipografica.com). The repository is hosted under the `huertatipografica` GitHub organization.
+Sahitya was designed by Juan Pablo del Peral of HT Fonts (htfonts.com). The repository is hosted under the `huertatipografica` GitHub organization.
 
 ## Investigation Notes
 

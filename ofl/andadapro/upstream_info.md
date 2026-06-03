@@ -3,7 +3,7 @@
 **Date investigated**: 2026-03-03
 **Model**: Claude Opus 4.6
 **Status**: complete
-**Designer**: Huerta Tipografica, Carolina Giovagnoli
+**Designer**: HT Fonts, Carolina Giovagnoli
 **METADATA.pb path**: `ofl/andadapro/METADATA.pb`
 
 ## Source Data

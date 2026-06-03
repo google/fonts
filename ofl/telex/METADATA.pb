@@ -1,5 +1,5 @@
 name: "Telex"
-designer: "Huerta Tipográfica"
+designer: "HT Fonts, Andres Torresi"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-18"
@@ -10,7 +10,7 @@ fonts {
   filename: "Telex-Regular.ttf"
   post_script_name: "Telex-Regular"
   full_name: "Telex Regular"
-  copyright: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar), with Reserved Font Name Telex."
+  copyright: "Copyright 2011 The Telex Project Authors (andres.torresi@htfonts.com), with Reserved Font Name Telex."
 }
 subsets: "latin"
 subsets: "latin-ext"

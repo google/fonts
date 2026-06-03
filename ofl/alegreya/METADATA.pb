@@ -1,5 +1,5 @@
 name: "Alegreya"
-designer: "Juan Pablo del Peral, Huerta Tipográfica"
+designer: "Juan Pablo del Peral, HT Fonts"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
@@ -51,4 +51,4 @@ source {
   }
   branch: "master"
 }
-minisite_url: "https://huertatipografica.com/en/fonts/alegreya-ht-pro"
+minisite_url: "https://htfonts.com/en/fonts/alegreya"

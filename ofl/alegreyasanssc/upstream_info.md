@@ -2,7 +2,7 @@
 
 **Status**: `missing_config`
 **Date**: 2026-02-25
-**Designer**: Juan Pablo del Peral, Huerta Tipográfica
+**Designer**: Juan Pablo del Peral, HT Fonts
 **License**: OFL
 **METADATA.pb**: `ofl/alegreyasanssc/METADATA.pb`
 

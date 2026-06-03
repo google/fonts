@@ -1,16 +1,17 @@
+use gf_metadata::{AxisProto, FallbackProto};
 use std::{collections::HashSet, ops::Index};
 
+#[cfg(feature = "fontations")]
+pub use fontations::read::FontRef; // Re-export our types for users
 #[cfg(feature = "fontations")]
 use fontations::skrifa::string::StringId;
 #[cfg(feature = "fontations")]
 use fontations::{
-    read::FontRef,
     read::{ReadError, TableProvider},
     write::FontBuilder,
 };
 use indexmap::IndexMap;
 
-include!(concat!(env!("OUT_DIR"), "/_.rs"));
 include!(concat!(env!("OUT_DIR"), "/data.rs"));
 
 const LINKED_VALUES: [(&str, (f32, f32)); 2] = [("wght", (400.0, 700.0)), ("ital", (0.0, 1.0))];
@@ -323,7 +324,7 @@ mod fontations_impl {
         Ok(new_name)
     }
 
-    fn build_variations_ps_name(newname: &mut Name, font: &FontRef, family_name: Option<&str>) {
+    pub fn build_variations_ps_name(newname: &mut Name, font: &FontRef, family_name: Option<&str>) {
         let fallback = best_familyname(font);
         let family_name = family_name.or(fallback.as_deref()).unwrap_or("New Font");
         let subfamily_name = best_subfamilyname(font).unwrap_or("Regular".to_string());

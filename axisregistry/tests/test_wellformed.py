@@ -2,8 +2,7 @@ import re
 import sys
 
 import pytest
-from axisregistry import AxisRegistry
-from axisregistry.axes_pb2 import AxisProto
+from axisregistry import AxisRegistry, AxisProto
 
 if sys.version_info < (3, 10):
     from importlib_resources import files

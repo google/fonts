@@ -176,7 +176,9 @@ Adamina,,/Serif/Old Style Garalde,80
 Advent Pro,,/Expressive/Active,5
 Advent Pro,,/Expressive/Awkward,30
 Advent Pro,,/Expressive/Calm,45
-Advent Pro,,/Expressive/Cute,10
+Advent Pro,wght@100,/Expressive/Cute,0
+Advent Pro,wght@400,/Expressive/Cute,10
+Advent Pro,wght@900,/Expressive/Cute,0
 Advent Pro,,/Expressive/Futuristic,20
 Advent Pro,wght@600,/Expressive/Loud,42
 Advent Pro,wght@900,/Expressive/Loud,77
@@ -383,7 +385,9 @@ Aladin,,/Theme/Art Nouveau,70
 Alan Sans,,/Expressive/Business,80
 Alan Sans,,/Expressive/Calm,50
 Alan Sans,,/Expressive/Competent,76
-Alan Sans,,/Expressive/Cute,10
+Alan Sans,wght@300,/Expressive/Cute,0
+Alan Sans,wght@400,/Expressive/Cute,10
+Alan Sans,wght@900,/Expressive/Cute,0
 Alan Sans,wght@600,/Expressive/Loud,46
 Alan Sans,wght@900,/Expressive/Loud,82
 Alan Sans,,/Expressive/Playful,20
@@ -613,7 +617,9 @@ Alkalami,,/Quality/Spacing,60
 Alkalami,,/Quality/Wordspace,100
 Alkatra,,/Expressive/Active,51
 Alkatra,,/Expressive/Calm,20
-Alkatra,,/Expressive/Cute,20
+Alkatra,wght@400,/Expressive/Cute,20
+Alkatra,wght@400,/Expressive/Cute,20
+Alkatra,wght@700,/Expressive/Cute,0
 Alkatra,,/Expressive/Excited,20
 Alkatra,,/Expressive/Happy,10
 Alkatra,,/Expressive/Loud,27
@@ -1460,7 +1466,9 @@ Aref Ruqaa,,/Quality/Drawing,70
 Aref Ruqaa,,/Quality/Spacing,60
 Aref Ruqaa,,/Quality/Wordspace,80
 Aref Ruqaa,,/Serif/Humanist Venetian,60
-Arima,,/Expressive/Cute,14
+Arima,wght@100,/Expressive/Cute,0
+Arima,wght@400,/Expressive/Cute,14
+Arima,wght@700,/Expressive/Cute,0
 Arima,,/Expressive/Excited,10
 Arima,,/Expressive/Happy,10
 Arima,,/Expressive/Playful,6
@@ -2040,6 +2048,17 @@ BIZ UDPMincho,,/Quality/Concept,70
 BIZ UDPMincho,,/Quality/Drawing,68
 BIZ UDPMincho,,/Quality/Spacing,70
 BIZ UDPMincho,,/Quality/Wordspace,100
+BJCree,,/Expressive/Business,90
+BJCree,,/Expressive/Calm,90
+BJCree,,/Expressive/Competent,80
+BJCree,,/Expressive/Rugged,40
+BJCree,,/Expressive/Sincere,75
+BJCree,,/Expressive/Stiff,10
+BJCree,,/Quality/Concept,100
+BJCree,,/Quality/Drawing,100
+BJCree,,/Quality/Spacing,100
+BJCree,,/Quality/Wordspace,100
+BJCree,,/Sans/Humanist,100
 Babylonica,,/Expressive/Active,76
 Babylonica,,/Expressive/Artistic,99
 Babylonica,,/Expressive/Awkward,94
@@ -3211,17 +3230,6 @@ Bitter,,/Quality/Spacing,70
 Bitter,,/Quality/Wordspace,100
 Bitter,,/Serif/Humanist Venetian,20
 Bitter,,/Serif/Scotch,80
-BJCree,,/Expressive/Business,90
-BJCree,,/Expressive/Calm,90
-BJCree,,/Expressive/Competent,80
-BJCree,,/Expressive/Rugged,40
-BJCree,,/Expressive/Sincere,75
-BJCree,,/Expressive/Stiff,10
-BJCree,,/Quality/Concept,100
-BJCree,,/Quality/Drawing,100
-BJCree,,/Quality/Spacing,100
-BJCree,,/Quality/Wordspace,100
-BJCree,,/Sans/Humanist,100
 Black And White Picture,,/Expressive/Active,10
 Black And White Picture,,/Expressive/Awkward,94
 Black And White Picture,,/Expressive/Cute,64
@@ -3579,7 +3587,9 @@ Bree Serif,,/Quality/Wordspace,100
 Bree Serif,,/Slab/Humanist,100
 Bricolage Grotesque,,/Expressive/Business,30
 Bricolage Grotesque,,/Expressive/Calm,20
-Bricolage Grotesque,,/Expressive/Cute,30
+Bricolage Grotesque,wght@200,/Expressive/Cute,0
+Bricolage Grotesque,wght@400,/Expressive/Cute,30
+Bricolage Grotesque,wght@800,/Expressive/Cute,0
 Bricolage Grotesque,,/Expressive/Happy,20
 Bricolage Grotesque,,/Expressive/Loud,3
 Bricolage Grotesque,,/Expressive/Playful,32
@@ -4329,7 +4339,9 @@ Caudex,,/Script/Handwritten,20
 Caudex,,/Script/Upright Script,10
 Caudex,,/Serif/Humanist Venetian,80
 Cause,,/Expressive/Childlike,80
-Cause,,/Expressive/Cute,100
+Cause,wght@100,/Expressive/Cute,0
+Cause,wght@400,/Expressive/Cute,100
+Cause,wght@900,/Expressive/Cute,0
 Cause,,/Expressive/Excited,10
 Cause,,/Expressive/Happy,63
 Cause,wght@600,/Expressive/Loud,30
@@ -4364,7 +4376,9 @@ Caveat,,/Expressive/Active,70
 Caveat,,/Expressive/Artistic,12
 Caveat,,/Expressive/Awkward,51
 Caveat,,/Expressive/Childlike,86
-Caveat,,/Expressive/Cute,24
+Caveat,wght@400,/Expressive/Cute,24
+Caveat,wght@400,/Expressive/Cute,24
+Caveat,wght@700,/Expressive/Cute,0
 Caveat,,/Expressive/Excited,51
 Caveat,,/Expressive/Happy,15
 Caveat,,/Expressive/Playful,35
@@ -4920,7 +4934,9 @@ Combo,,/Theme/Brush,40
 Combo,,/Theme/Wacky,50
 Comfortaa,,/Expressive/Business,20
 Comfortaa,,/Expressive/Calm,80
-Comfortaa,,/Expressive/Cute,25
+Comfortaa,wght@300,/Expressive/Cute,0
+Comfortaa,wght@400,/Expressive/Cute,25
+Comfortaa,wght@700,/Expressive/Cute,0
 Comfortaa,,/Expressive/Happy,20
 Comfortaa,,/Expressive/Loud,1
 Comfortaa,,/Expressive/Playful,15
@@ -5551,7 +5567,9 @@ Damion,,/Quality/Drawing,50
 Damion,,/Quality/Spacing,80
 Damion,,/Quality/Wordspace,100
 Dancing Script,,/Expressive/Artistic,80
-Dancing Script,,/Expressive/Cute,31
+Dancing Script,wght@400,/Expressive/Cute,31
+Dancing Script,wght@400,/Expressive/Cute,31
+Dancing Script,wght@700,/Expressive/Cute,0
 Dancing Script,,/Expressive/Excited,53
 Dancing Script,,/Expressive/Fancy,93
 Dancing Script,,/Expressive/Happy,22
@@ -5985,7 +6003,9 @@ DotGothic16,,/Sans/Glyphic,80
 DotGothic16,,/Sans/Grotesque,30
 DotGothic16,,/Theme/Techno,100
 Doto,,/Expressive/Awkward,54
-Doto,,/Expressive/Cute,5
+Doto,wght@100,/Expressive/Cute,0
+Doto,wght@400,/Expressive/Cute,5
+Doto,wght@900,/Expressive/Cute,0
 Doto,,/Expressive/Futuristic,40
 Doto,,/Expressive/Innovative,30
 Doto,wght@600,/Expressive/Loud,10
@@ -6033,7 +6053,9 @@ Duru Sans,,/Quality/Spacing,60
 Duru Sans,,/Quality/Wordspace,90
 Duru Sans,,/Sans/Humanist,100
 DynaPuff,,/Expressive/Awkward,41
-DynaPuff,,/Expressive/Cute,88
+DynaPuff,wght@400,/Expressive/Cute,88
+DynaPuff,wght@400,/Expressive/Cute,88
+DynaPuff,wght@700,/Expressive/Cute,0
 DynaPuff,,/Expressive/Excited,12
 DynaPuff,,/Expressive/Happy,92
 DynaPuff,,/Expressive/Innovative,30
@@ -6184,7 +6206,9 @@ Edu AU VIC WA NT Hand,,/Quality/Wordspace,100
 Edu AU VIC WA NT Hand,,/Script/Handwritten,100
 Edu AU VIC WA NT Hand,,/Script/Informal,60
 Edu AU VIC WA NT Pre,,/Expressive/Childlike,90
-Edu AU VIC WA NT Pre,,/Expressive/Cute,20
+Edu AU VIC WA NT Pre,wght@400,/Expressive/Cute,20
+Edu AU VIC WA NT Pre,wght@400,/Expressive/Cute,20
+Edu AU VIC WA NT Pre,wght@700,/Expressive/Cute,0
 Edu AU VIC WA NT Pre,,/Expressive/Playful,20
 Edu AU VIC WA NT Pre,,/Expressive/Rugged,10
 Edu AU VIC WA NT Pre,,/Expressive/Vintage,45
@@ -6256,7 +6280,9 @@ Edu QLD Hand,,/Script/Handwritten,100
 Edu QLD Hand,,/Script/Informal,60
 Edu SA Beginner,,/Expressive/Active,15
 Edu SA Beginner,,/Expressive/Childlike,90
-Edu SA Beginner,,/Expressive/Cute,20
+Edu SA Beginner,wght@400,/Expressive/Cute,20
+Edu SA Beginner,wght@400,/Expressive/Cute,20
+Edu SA Beginner,wght@700,/Expressive/Cute,0
 Edu SA Beginner,,/Expressive/Playful,20
 Edu SA Beginner,,/Expressive/Rugged,10
 Edu SA Beginner,,/Expressive/Vintage,45
@@ -6967,18 +6993,6 @@ Finger Paint,,/Quality/Concept,40
 Finger Paint,,/Quality/Drawing,60
 Finger Paint,,/Quality/Spacing,60
 Finger Paint,,/Quality/Wordspace,80
-Finlandica,,/Expressive/Active,20
-Finlandica,,/Expressive/Business,65
-Finlandica,,/Expressive/Calm,78
-Finlandica,,/Expressive/Competent,50
-Finlandica,,/Expressive/Loud,1
-Finlandica,,/Expressive/Rugged,50
-Finlandica,,/Expressive/Vintage,20
-Finlandica,,/Quality/Concept,70
-Finlandica,,/Quality/Drawing,50
-Finlandica,,/Quality/Spacing,60
-Finlandica,,/Quality/Wordspace,80
-Finlandica,,/Sans/Humanist,100
 Fira Code,,/Expressive/Business,20
 Fira Code,,/Expressive/Calm,45
 Fira Code,,/Expressive/Futuristic,25
@@ -7224,7 +7238,9 @@ Frank Ruhl Libre,,/Quality/Wordspace,90
 Frank Ruhl Libre,,/Seasonal/Hanukkah,99
 Frank Ruhl Libre,,/Serif/Modern,80
 Fraunces,,/Expressive/Business,20
-Fraunces,,/Expressive/Cute,13
+Fraunces,wght@100,/Expressive/Cute,0
+Fraunces,wght@400,/Expressive/Cute,13
+Fraunces,wght@900,/Expressive/Cute,0
 Fraunces,wght@600,/Expressive/Loud,48
 Fraunces,wght@900,/Expressive/Loud,82
 Fraunces,,/Expressive/Rugged,30
@@ -7269,7 +7285,9 @@ Fredericka the Great,,/Theme/Brush,10
 Fredericka the Great,,/Theme/Distressed,80
 Fredericka the Great,,/Theme/Wacky,20
 Fredoka,,/Expressive/Calm,89
-Fredoka,,/Expressive/Cute,18
+Fredoka,wght@300,/Expressive/Cute,0
+Fredoka,wght@400,/Expressive/Cute,18
+Fredoka,wght@700,/Expressive/Cute,0
 Fredoka,,/Expressive/Loud,1
 Fredoka,,/Expressive/Playful,25
 Fredoka,,/Expressive/Rugged,15
@@ -7488,7 +7506,9 @@ Ga Maamli,,/Quality/Wordspace,100
 Ga Maamli,,/Script/Handwritten,100
 Gabarito,,/Expressive/Business,62
 Gabarito,,/Expressive/Calm,72
-Gabarito,,/Expressive/Cute,10
+Gabarito,wght@400,/Expressive/Cute,10
+Gabarito,wght@400,/Expressive/Cute,10
+Gabarito,wght@900,/Expressive/Cute,0
 Gabarito,wght@600,/Expressive/Loud,51
 Gabarito,wght@900,/Expressive/Loud,85
 Gabarito,,/Expressive/Rugged,50
@@ -7963,7 +7983,9 @@ Glory,,/Sans/Neo Grotesque,40
 Glory,,/Sans/Superellipse,60
 Gluten,,/Expressive/Active,10
 Gluten,,/Expressive/Awkward,75
-Gluten,,/Expressive/Cute,64
+Gluten,wght@100,/Expressive/Cute,0
+Gluten,wght@400,/Expressive/Cute,64
+Gluten,wght@900,/Expressive/Cute,0
 Gluten,,/Expressive/Excited,17
 Gluten,,/Expressive/Happy,70
 Gluten,wght@600,/Expressive/Loud,51
@@ -8179,7 +8201,9 @@ Grandiflora One,,/Seasonal/Lunar New Year,67
 Grandiflora One,,/Slab/Geometric,100
 Grandstander,,/Expressive/Awkward,15
 Grandstander,,/Expressive/Business,20
-Grandstander,,/Expressive/Cute,20
+Grandstander,wght@100,/Expressive/Cute,0
+Grandstander,wght@400,/Expressive/Cute,20
+Grandstander,wght@900,/Expressive/Cute,0
 Grandstander,,/Expressive/Excited,39
 Grandstander,,/Expressive/Happy,71
 Grandstander,wght@600,/Expressive/Loud,46
@@ -8650,7 +8674,9 @@ Henny Penny,,/Seasonal/Halloween,100
 Henny Penny,,/Theme/Wacky,60
 Hepta Slab,,/Expressive/Business,50
 Hepta Slab,,/Expressive/Calm,48
-Hepta Slab,,/Expressive/Cute,15
+Hepta Slab,wght@1,/Expressive/Cute,0
+Hepta Slab,wght@400,/Expressive/Cute,15
+Hepta Slab,wght@900,/Expressive/Cute,0
 Hepta Slab,wght@600,/Expressive/Loud,35
 Hepta Slab,wght@900,/Expressive/Loud,93
 Hepta Slab,,/Expressive/Rugged,70
@@ -9477,17 +9503,6 @@ Inter,,/Quality/Wordspace,80
 Inter,,/Sans/Geometric,20
 Inter,,/Sans/Humanist,10
 Inter,,/Sans/Neo Grotesque,100
-Iosevka Charon,,/Expressive/Business,60
-Iosevka Charon,,/Expressive/Calm,75
-Iosevka Charon,,/Expressive/Futuristic,25
-Iosevka Charon,,/Expressive/Rugged,40
-Iosevka Charon,,/Expressive/Stiff,20
-Iosevka Charon,,/Expressive/Vintage,5
-Iosevka Charon,,/Quality/Concept,90
-Iosevka Charon,,/Quality/Drawing,90
-Iosevka Charon,,/Quality/Spacing,90
-Iosevka Charon,,/Quality/Wordspace,100
-Iosevka Charon,,/Sans/Neo Grotesque,80
 Iosevka Charon Mono,,/Expressive/Business,60
 Iosevka Charon Mono,,/Expressive/Calm,75
 Iosevka Charon Mono,,/Expressive/Futuristic,25
@@ -9500,6 +9515,17 @@ Iosevka Charon Mono,,/Quality/Drawing,90
 Iosevka Charon Mono,,/Quality/Spacing,90
 Iosevka Charon Mono,,/Quality/Wordspace,100
 Iosevka Charon Mono,,/Sans/Neo Grotesque,80
+Iosevka Charon,,/Expressive/Business,60
+Iosevka Charon,,/Expressive/Calm,75
+Iosevka Charon,,/Expressive/Futuristic,25
+Iosevka Charon,,/Expressive/Rugged,40
+Iosevka Charon,,/Expressive/Stiff,20
+Iosevka Charon,,/Expressive/Vintage,5
+Iosevka Charon,,/Quality/Concept,90
+Iosevka Charon,,/Quality/Drawing,90
+Iosevka Charon,,/Quality/Spacing,90
+Iosevka Charon,,/Quality/Wordspace,100
+Iosevka Charon,,/Sans/Neo Grotesque,80
 Irish Grover,,/Expressive/Awkward,91
 Irish Grover,,/Expressive/Cute,10
 Irish Grover,,/Expressive/Excited,82
@@ -9943,7 +9969,9 @@ Josefin Slab,,/Seasonal/Christmas,56
 Josefin Slab,,/Slab/Geometric,100
 Jost,,/Expressive/Business,30
 Jost,,/Expressive/Calm,82
-Jost,,/Expressive/Cute,5
+Jost,wght@100,/Expressive/Cute,0
+Jost,wght@400,/Expressive/Cute,5
+Jost,wght@900,/Expressive/Cute,0
 Jost,wght@600,/Expressive/Loud,44
 Jost,wght@900,/Expressive/Loud,86
 Jost,,/Expressive/Rugged,40
@@ -10202,7 +10230,9 @@ Kalam,,/Seasonal/Holi,100
 Kalam,,/Theme/Brush,100
 Kalnia Glaze,,/Expressive/Active,20
 Kalnia Glaze,,/Expressive/Awkward,55
-Kalnia Glaze,,/Expressive/Cute,42
+Kalnia Glaze,wght@100,/Expressive/Cute,0
+Kalnia Glaze,wght@400,/Expressive/Cute,42
+Kalnia Glaze,wght@700,/Expressive/Cute,0
 Kalnia Glaze,,/Expressive/Excited,10
 Kalnia Glaze,,/Expressive/Futuristic,10
 Kalnia Glaze,,/Expressive/Happy,40
@@ -10220,7 +10250,9 @@ Kalnia Glaze,,/Seasonal/Valentine's Day,88
 Kalnia Glaze,,/Theme/Inline,100
 Kalnia,,/Expressive/Active,20
 Kalnia,,/Expressive/Awkward,20
-Kalnia,,/Expressive/Cute,42
+Kalnia,wght@100,/Expressive/Cute,0
+Kalnia,wght@400,/Expressive/Cute,42
+Kalnia,wght@700,/Expressive/Cute,0
 Kalnia,,/Expressive/Excited,5
 Kalnia,,/Expressive/Happy,40
 Kalnia,,/Expressive/Playful,50
@@ -11184,7 +11216,9 @@ Lemon,,/Quality/Drawing,55
 Lemon,,/Quality/Spacing,50
 Lemon,,/Quality/Wordspace,90
 Lemon,,/Theme/Brush,100
-Lemonada,,/Expressive/Cute,10
+Lemonada,wght@300,/Expressive/Cute,0
+Lemonada,wght@400,/Expressive/Cute,10
+Lemonada,wght@700,/Expressive/Cute,0
 Lemonada,,/Expressive/Loud,3
 Lemonada,,/Expressive/Playful,12
 Lemonada,,/Expressive/Rugged,20
@@ -12331,7 +12365,9 @@ Margarine,,/Quality/Wordspace,80
 Margarine,,/Seasonal/Holi,54
 Margarine,,/Theme/Brush,100
 Marhey,,/Expressive/Active,10
-Marhey,,/Expressive/Cute,10
+Marhey,wght@300,/Expressive/Cute,0
+Marhey,wght@400,/Expressive/Cute,10
+Marhey,wght@700,/Expressive/Cute,0
 Marhey,,/Expressive/Happy,90
 Marhey,,/Expressive/Loud,6
 Marhey,,/Expressive/Playful,45
@@ -12495,6 +12531,8 @@ Maven Pro,,/Expressive/Rugged,44
 Maven Pro,,/Expressive/Sincere,40
 Maven Pro,,/Expressive/Stiff,20
 Maven Pro,,/Expressive/Vintage,10
+Maven Pro,wght@400,/Purpose/Easy Reading,10
+Maven Pro,wght@900,/Purpose/Easy Reading,100
 Maven Pro,wght@400,/Purpose/Easy Reading,10
 Maven Pro,wght@900,/Purpose/Easy Reading,100
 Maven Pro,,/Quality/Concept,50
@@ -13394,7 +13432,9 @@ Mozilla Headline,,/Expressive/Artistic,40
 Mozilla Headline,,/Expressive/Business,70
 Mozilla Headline,,/Expressive/Calm,50
 Mozilla Headline,,/Expressive/Competent,80
-Mozilla Headline,,/Expressive/Cute,20
+Mozilla Headline,wght@200,/Expressive/Cute,0
+Mozilla Headline,wght@400,/Expressive/Cute,20
+Mozilla Headline,wght@700,/Expressive/Cute,0
 Mozilla Headline,,/Expressive/Innovative,70
 Mozilla Headline,,/Quality/Concept,90
 Mozilla Headline,,/Quality/Drawing,90
@@ -13599,7 +13639,9 @@ Murecho,,/Quality/Wordspace,90
 Murecho,,/Sans/Humanist,100
 MuseoModerno,,/Expressive/Awkward,25
 MuseoModerno,,/Expressive/Calm,50
-MuseoModerno,,/Expressive/Cute,10
+MuseoModerno,wght@100,/Expressive/Cute,0
+MuseoModerno,wght@400,/Expressive/Cute,10
+MuseoModerno,wght@900,/Expressive/Cute,0
 MuseoModerno,,/Expressive/Futuristic,30
 MuseoModerno,,/Expressive/Happy,10
 MuseoModerno,wght@600,/Expressive/Loud,53
@@ -16774,7 +16816,9 @@ Nunito Sans,,/Sans/Rounded,100
 Nunito,,/Expressive/Business,70
 Nunito,,/Expressive/Calm,94
 Nunito,,/Expressive/Competent,60
-Nunito,,/Expressive/Cute,21
+Nunito,wght@200,/Expressive/Cute,0
+Nunito,wght@400,/Expressive/Cute,21
+Nunito,wght@1000,/Expressive/Cute,0
 Nunito,wght@600,/Expressive/Loud,34
 Nunito,wght@900,/Expressive/Loud,84
 Nunito,,/Expressive/Playful,1
@@ -16851,7 +16895,9 @@ Oi,,/Seasonal/Valentine's Day,70
 Oi,,/Slab/Clarendon,80
 Oi,,/Theme/Wacky,80
 Ojuju,,/Expressive/Awkward,30
-Ojuju,,/Expressive/Cute,24
+Ojuju,wght@200,/Expressive/Cute,0
+Ojuju,wght@400,/Expressive/Cute,24
+Ojuju,wght@800,/Expressive/Cute,0
 Ojuju,,/Expressive/Excited,20
 Ojuju,,/Expressive/Happy,40
 Ojuju,,/Expressive/Playful,45
@@ -17441,7 +17487,9 @@ Parkinsans,,/Expressive/Awkward,10
 Parkinsans,,/Expressive/Business,75
 Parkinsans,,/Expressive/Calm,80
 Parkinsans,,/Expressive/Competent,63
-Parkinsans,,/Expressive/Cute,20
+Parkinsans,wght@300,/Expressive/Cute,0
+Parkinsans,wght@400,/Expressive/Cute,20
+Parkinsans,wght@800,/Expressive/Cute,0
 Parkinsans,,/Expressive/Happy,30
 Parkinsans,,/Expressive/Loud,3
 Parkinsans,,/Expressive/Playful,15
@@ -21024,7 +21072,9 @@ Rye,,/Theme/Woodtype,100
 SN Pro,,/Expressive/Business,70
 SN Pro,,/Expressive/Calm,94
 SN Pro,,/Expressive/Competent,60
-SN Pro,,/Expressive/Cute,21
+SN Pro,wght@200,/Expressive/Cute,0
+SN Pro,wght@400,/Expressive/Cute,21
+SN Pro,wght@900,/Expressive/Cute,0
 SN Pro,wght@600,/Expressive/Loud,43
 SN Pro,wght@900,/Expressive/Loud,88
 SN Pro,,/Expressive/Playful,1
@@ -21161,19 +21211,6 @@ Saira Semi Condensed,,/Quality/Drawing,70
 Saira Semi Condensed,,/Quality/Spacing,70
 Saira Semi Condensed,,/Quality/Wordspace,80
 Saira Semi Condensed,,/Sans/Superellipse,80
-Saira Stencil One,,/Expressive/Awkward,12
-Saira Stencil One,,/Expressive/Futuristic,20
-Saira Stencil One,,/Expressive/Innovative,10
-Saira Stencil One,,/Expressive/Loud,34
-Saira Stencil One,,/Expressive/Rugged,90
-Saira Stencil One,,/Expressive/Stiff,66
-Saira Stencil One,,/Expressive/Vintage,60
-Saira Stencil One,,/Quality/Concept,70
-Saira Stencil One,,/Quality/Drawing,70
-Saira Stencil One,,/Quality/Spacing,70
-Saira Stencil One,,/Quality/Wordspace,80
-Saira Stencil One,,/Sans/Superellipse,80
-Saira Stencil One,,/Theme/Stencil,100
 Saira Stencil,wght@600,/Expressive/Loud,35
 Saira Stencil,wght@900,/Expressive/Loud,93
 Saira,,/Expressive/Business,70
@@ -21262,7 +21299,9 @@ Sansation,,/Quality/Wordspace,90
 Sansation,,/Sans/Humanist,90
 Sansation,,/Theme/Techno,70
 Sansita Swashed,,/Expressive/Active,68
-Sansita Swashed,,/Expressive/Cute,15
+Sansita Swashed,wght@300,/Expressive/Cute,0
+Sansita Swashed,wght@400,/Expressive/Cute,15
+Sansita Swashed,wght@900,/Expressive/Cute,0
 Sansita Swashed,,/Expressive/Happy,20
 Sansita Swashed,wght@600,/Expressive/Loud,34
 Sansita Swashed,wght@900,/Expressive/Loud,78
@@ -21374,7 +21413,9 @@ Satisfy,,/Script/Handwritten,40
 Satisfy,,/Script/Informal,70
 Savate,,/Expressive/Awkward,20
 Savate,,/Expressive/Calm,10
-Savate,,/Expressive/Cute,20
+Savate,wght@200,/Expressive/Cute,0
+Savate,wght@400,/Expressive/Cute,20
+Savate,wght@900,/Expressive/Cute,0
 Savate,,/Expressive/Excited,10
 Savate,,/Expressive/Happy,10
 Savate,,/Expressive/Innovative,10
@@ -21690,7 +21731,9 @@ Shalimar,,/Script/Formal,70
 Shantell Sans,,/Expressive/Active,10
 Shantell Sans,,/Expressive/Awkward,40
 Shantell Sans,,/Expressive/Childlike,82
-Shantell Sans,,/Expressive/Cute,16
+Shantell Sans,wght@300,/Expressive/Cute,0
+Shantell Sans,wght@400,/Expressive/Cute,16
+Shantell Sans,wght@800,/Expressive/Cute,0
 Shantell Sans,,/Expressive/Excited,68
 Shantell Sans,,/Expressive/Happy,67
 Shantell Sans,,/Expressive/Loud,3
@@ -22448,7 +22491,9 @@ Sorts Mill Goudy,,/Quality/Wordspace,90
 Sorts Mill Goudy,,/Serif/Old Style Garalde,100
 Sour Gummy,,/Expressive/Awkward,20
 Sour Gummy,,/Expressive/Childlike,10
-Sour Gummy,,/Expressive/Cute,74
+Sour Gummy,wght@100,/Expressive/Cute,0
+Sour Gummy,wght@400,/Expressive/Cute,74
+Sour Gummy,wght@900,/Expressive/Cute,0
 Sour Gummy,,/Expressive/Excited,18
 Sour Gummy,,/Expressive/Happy,73
 Sour Gummy,wght@600,/Expressive/Loud,45
@@ -23306,7 +23351,9 @@ Taviraj,,/Quality/Wordspace,90
 Taviraj,,/Serif/Modern,50
 Teachers,,/Expressive/Business,10
 Teachers,,/Expressive/Calm,15
-Teachers,,/Expressive/Cute,10
+Teachers,wght@400,/Expressive/Cute,10
+Teachers,wght@400,/Expressive/Cute,10
+Teachers,wght@800,/Expressive/Cute,0
 Teachers,,/Expressive/Loud,1
 Teachers,,/Expressive/Rugged,45
 Teachers,,/Expressive/Sincere,50
@@ -23809,7 +23856,9 @@ Trochut,,/Quality/Drawing,50
 Trochut,,/Quality/Spacing,70
 Trochut,,/Quality/Wordspace,60
 Truculenta,,/Expressive/Awkward,20
-Truculenta,,/Expressive/Cute,20
+Truculenta,wght@100,/Expressive/Cute,0
+Truculenta,wght@400,/Expressive/Cute,20
+Truculenta,wght@900,/Expressive/Cute,0
 Truculenta,,/Expressive/Excited,15
 Truculenta,,/Expressive/Happy,52
 Truculenta,wght@600,/Expressive/Loud,40
@@ -24673,7 +24722,9 @@ WindSong,,/Seasonal/Halloween,75
 Winky Rough,,/Expressive/Artistic,60
 Winky Rough,,/Expressive/Awkward,50
 Winky Rough,,/Expressive/Business,40
-Winky Rough,,/Expressive/Cute,16
+Winky Rough,wght@300,/Expressive/Cute,0
+Winky Rough,wght@400,/Expressive/Cute,16
+Winky Rough,wght@900,/Expressive/Cute,0
 Winky Rough,,/Expressive/Happy,12
 Winky Rough,wght@600,/Expressive/Loud,44
 Winky Rough,wght@900,/Expressive/Loud,88
@@ -24690,7 +24741,9 @@ Winky Rough,,/Sans/Rounded,100
 Winky Rough,,/Theme/Brush,60
 Winky Sans,,/Expressive/Awkward,50
 Winky Sans,,/Expressive/Business,40
-Winky Sans,,/Expressive/Cute,16
+Winky Sans,wght@300,/Expressive/Cute,0
+Winky Sans,wght@400,/Expressive/Cute,16
+Winky Sans,wght@900,/Expressive/Cute,0
 Winky Sans,,/Expressive/Happy,32
 Winky Sans,wght@600,/Expressive/Loud,48
 Winky Sans,wght@900,/Expressive/Loud,87
@@ -24974,7 +25027,9 @@ Yrsa,,/Serif/Transitional,100
 Ysabeau Infant,,/Expressive/Business,60
 Ysabeau Infant,,/Expressive/Calm,74
 Ysabeau Infant,,/Expressive/Competent,52
-Ysabeau Infant,,/Expressive/Cute,10
+Ysabeau Infant,wght@1,/Expressive/Cute,0
+Ysabeau Infant,wght@400,/Expressive/Cute,10
+Ysabeau Infant,wght@1000,/Expressive/Cute,0
 Ysabeau Infant,,/Expressive/Happy,10
 Ysabeau Infant,,/Expressive/Innovative,5
 Ysabeau Infant,wght@600,/Expressive/Loud,33
@@ -24990,7 +25045,9 @@ Ysabeau Infant,,/Sans/Humanist,100
 Ysabeau Office,,/Expressive/Business,65
 Ysabeau Office,,/Expressive/Calm,74
 Ysabeau Office,,/Expressive/Competent,52
-Ysabeau Office,,/Expressive/Cute,10
+Ysabeau Office,wght@1,/Expressive/Cute,0
+Ysabeau Office,wght@400,/Expressive/Cute,10
+Ysabeau Office,wght@1000,/Expressive/Cute,0
 Ysabeau Office,,/Expressive/Happy,10
 Ysabeau Office,wght@600,/Expressive/Loud,35
 Ysabeau Office,wght@900,/Expressive/Loud,82

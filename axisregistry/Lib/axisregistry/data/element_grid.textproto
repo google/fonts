@@ -1,0 +1,15 @@
+#Element Grid, based on https://github.com/rosettatype/handjet
+tag: "ELGR"
+display_name: "Element Grid"
+min_value: 1.0
+default_value: 1.0
+max_value: 2.0
+precision: -1
+fallback {
+  name: "Default"
+  value: 1.0
+}
+fallback_only: false
+description:
+  "In modular fonts, where glyphs are composed using multiple copies"
+  " of the same element, this axis controls how many elements are used per one grid unit."

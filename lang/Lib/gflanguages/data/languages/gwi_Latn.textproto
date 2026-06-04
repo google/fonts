@@ -1,0 +1,11 @@
+id: "gwi_Latn"
+language: "gwi"
+script: "Latn"
+name: "Gwichʼin"
+autonym: "Dinju Zhuh K’yuu"
+population: 565
+region: "CA"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ą È É Ę Ì Í Ò Ó Ǫ Ù Ú Ł a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ’ ù ú ł"
+  marks: "◌̀ ◌́ ◌̨"
+}

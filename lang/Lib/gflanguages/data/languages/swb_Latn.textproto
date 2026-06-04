@@ -1,0 +1,33 @@
+id: "swb_Latn"
+language: "swb"
+script: "Latn"
+name: "Maore Comorian, Latin"
+autonym: "Shimaore"
+population: 322000
+region: "KM"
+region: "MG"
+exemplar_chars {
+  base: "a A Ã ã b B Ɓ ɓ c C d D ɗ Ɗ e E ẽ Ẽ f F g G h H i I ĩ Ĩ j J k K l L m M n N o O p P r R s S t T u U v V {v̄} {V̄} w W y Y z Z"
+  marks: "◌́ ◌̃ ◌̄ ◌̱"
+  auxiliary: "â Â é É ê Ê î Î {v̱} {V̱}"
+}
+sample_text {
+  masthead_full: "HhAa"
+  masthead_partial: "Mm"
+  styles: "Kula mutru atsojua apare faida ya zihaki piya"
+  tester: "Indrola kaitsojua yafungiha ɓila mukuɓalishio wa kusudi wa ɓiɓi na ɓwana harusi."
+  poster_sm: "Mbeli na ĩzara"
+  poster_md: "Liɓaraza djimla"
+  poster_lg: "Daiɓadji"
+  specimen_48: "Kula mutru, ahika weke au ahika na udjamaã, ana haki ya ukana yahe miliki."
+  specimen_36: "Kula mutru ana haki ya uẽshi, ya ukana unafasi na ya uka hari mwa amani ya utru wahe."
+  specimen_32: "Kavhusi mutru atsolazimishiwawo ake murumwa au hari mwa urumwa. Namna yotsi itsokao, urumwa na ufanya ɓiashara ya warumwa ziɓalidziwa."
+  specimen_21: "Kula mutru atsojua apare faida ya zihaki piya na ya zinafasi piya zadhukurulwa hari mwa mutekelezeo unu, ɓila tafauti itsokao yotsi, hususwani ya kaɓila, ya range ya mwili, ya utruɓaɓa au utrumama, ya lugha, ya dini, ya mafikira ya shi siasa au mafikira itsokao yotsi yahusu aswili ya shi tsiju au ya shi udjama, ya utadjiri, ya mudzalio au heli itsokao yotsi."
+  specimen_16: "Kula mutru atsojua apare faida ya zihaki piya na ya zinafasi piya zadhukurulwa hari mwa mutekelezeo unu, ɓila tafauti itsokao yotsi, hususwani ya kaɓila, ya range ya mwili, ya utruɓaɓa au utrumama, ya lugha, ya dini, ya mafikira ya shi siasa au mafikira itsokao yotsi yahusu aswili ya shi tsiju au ya shi udjama, ya utadjiri, ya mudzalio au heli itsokao yotsi.\nArudi, kavhutsofanyishiha tafauti itsokao yotsi yawashiha hari mwa upandre wa shi siasa, wa shi mahakama, au wa shi ulemengu wa itsi au wa iardhwi ya mutru vhahanu alawa, na itsi inu au ardwi inu itsojua ike amba ya huru, au itawaliwa na tsi yangina, au kaidzishindri au ilio hari mwa mupaka itsokao yotsi ya ufalume."
+}
+source: "“Alphabet du Shimaorais = Alifuɓe ya Shimaore”, Ylangue - e-langue, ylangue.free.fr"
+source: "Association SHIME, Narifundrihe shimaore - Apprenons le shimaorais, Mayotte: CDP Mayotte, 2006"
+source: "Association SHIME, Narifundrihe shimaore - Apprenons le shimaorais, Mayotte: CDP Mayotte, 2012"
+source: "Marie Martigne-Lucas, Jean-Paul Razafindrakoto et al., Nisusoma shimaore = J’apprends le shimaoré, CASNAV, 2019"
+source: "Lavie Maturafi, “Le hors-norme à Mayotte. Productions écrites sur Facebook et sur les panneaux publicitaires”, A. Steuckardt & K. Collette, Écrits hors-normes, Sherbrooke: Les Éditions de l’Université de Sherbrooke, 2019, pp. 65-78"
+note: "Association SHIME 2006 and Ylangue use v̄. Martigne-Lucas, Razafindrakoto et al. 2019 uses v̱. Maturafi 2019 indicates Association SHIME 2006 uses v̄ and Association SHIME 2012 uses vh instead.\nThe orthography proposed by Groupe de Recherche sur le Plurilinguisme à Mayotte (GRPM) uses bb dd b d bv dy ê instead of Association SHIME 2006 b d ɓ ɗ v̄ ɗy ẽ.\nFranceTV uses a simplified orthography, but uses é. "

@@ -1,0 +1,23 @@
+id: "bci_Latn"
+language: "bci"
+script: "Latn"
+name: "Baoulé"
+population: 3022921
+region: "CI"
+exemplar_chars {
+  base: "A B C D E Ɛ F G I J K L M N O Ɔ P R S T U V W Y Z a b c d e ɛ f g i j k l m n o ɔ p r s t u v w y z"
+}
+sample_text {
+  masthead_full: "SsRr"
+  masthead_partial: "Aa"
+  styles: "Kɛ ɔ fin kɛ sran kwlakwa i sran bulɛ ɔ fin"
+  tester: "Kɛ ɔ fin kɛ sɛ be si\'a sran-mmla mun, nan sɛ be bu\'a be like fi, i"
+  poster_sm: "Kɛ ɔ fin kɛ"
+  poster_md: "Kɛ ɔ fin"
+  poster_lg: "Sran"
+  specimen_48: "Kɛ ɔ fin kɛ mɛn unmuan nun nvle mun be yali be wan be kan be"
+  specimen_36: "Kɛ ɔ fin kɛ nga ɔ ti kpa dan yɛlɛ kɛ sran mun be ngba be fa be ti be wlɛ sran-mmla ɔ nin sran-fɔundi be bo\'n ti"
+  specimen_32: "Sran mun be ngba, kɛ be wu be ɔ, be ngba be sɛ, fɔndi nun, sran-mmala nun. Be si akundanbu, be si su ɔ fata kɛ sran mun be tran\'n, be tran aniaan nun tranlɛ."
+  specimen_21: "Sran-mmla ɔ nin sran-fɔundi nga ɔ wo Ndɛ dan nun, sran kwlakwla kwla fa ye iliɛ; ɔ le\'a kɛ e ti sran nvle ngunmin, kɛ e wunnɛn ti\'a kun, e aniɛn ti\'a kun, e bo lika ti\'a kun, e like sɔwa ɔ ti i ngunmin, e politiki angundan ti\'a kun, e fin\'a lika kun, ɔ le\'a kɛ wie ti sikafuɛ, wie ti yalɛfuɛ, kɛ wie mun be osu ti wlengbi, wie mun be osu ti kanga."
+  specimen_16: "I kungba yekun, be kwla\'a kpaman sran mun be nun be se\'akɛ nga ti bue nga su sran, nga be wun\'ɛn i liɛ wlɛ\'n kpa, be wun\'an mɛn nga su ɔ fin ɔ: be kwla\'a be se\'a sɔ, kanzɛ sran fin nvle uflɛ suo, sɛ nvle sɔ ɔ le i fɔundio, kanze i ti wo mɛn uflɛ i bo o, ɔ nunmɛn i ti bo nun tilɛ o.\nSran kwalakwla, ɔ fata kɛ be sɛsɛ i nguan, be wukɛ i ɔ di i fɔundi, be sɛsɛ ibɔbɔ ba unmuan.\nBe kwla\'a be fa-man sran be kaci\'a kanga. Sran kanga yolɛ nin i fatɔ ɔ nin i ninge i fa sɔ mun be yowa, ba tanninnin be ngba be atin.\nBe kwla\'a be ye\'a sran fi like tɛtɛ mun, be wlɛ-mɛn i bisva, be kwla\'a be yo-mɛn i ninge nga mɔ ɔ ye sran finfin, mɔ ɔ kaci sran kɛ blo nnɛn mun be sa."
+}

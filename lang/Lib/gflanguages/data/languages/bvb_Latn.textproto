@@ -1,0 +1,12 @@
+id: "bvb_Latn"
+language: "bvb"
+script: "Latn"
+name: "Bube"
+population: 66058
+region: "GQ"
+exemplar_chars {
+  base: "a A á Á b B c C {ch} {CH} {dy} {DY} e E è È é É ë Ë f F g G h H i I í Í k K l L m M n ḿ Ḿ N ń Ń ñ Ñ o O ò Ò ó Ó ö Ö p P r R s S t T u U ú Ú v V w W y Y"
+  marks: "◌́ ◌̀ ◌̃ ◌̈"
+}
+source: "Justo Bolekia, Diccionario español-bubi / Ë Ribúkku ra Balláa béböbé-lëëpanná, Ediciones AKAL, 2009"
+note: "Bolekia 2009 indicates hM hN are used as digraphs."

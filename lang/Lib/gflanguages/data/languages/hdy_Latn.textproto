@@ -1,0 +1,12 @@
+id: "hdy_Latn"
+language: "hdy"
+script: "Latn"
+name: "Hadiyya"
+autonym: "Hadiyyisa"
+population: 2364000
+region: "ET"
+exemplar_chars {
+  base: "a A b B c C {ch} {CH} d D e E f F g G h H i I j J k K l L m M n N {ny} {NY} o O p P {ph} {PH} q Q r R s S {sh} {SH} t T {ts} {TS} u U v V w W x X y Y z Z {zh} {ZH} ’"
+  auxiliary: "ʼ"
+}
+source: "Shimelis Mazengia, “Some observations on Hadiyyisa orthography”, in Binyam Sisay Mendisu & Janne Bondi Johannessen (eds.) Multilingual Ethiopia: Linguistic Challenges and Capacity Building Efforts, Oslo Studies in Language 8(1), 2016, pp. 201–218"

@@ -1,0 +1,11 @@
+id: "mam_Latn"
+language: "mam"
+script: "Latn"
+name: "Mam"
+region: "GT"
+population: 600000
+exemplar_chars {
+  base: "a A {b’} {B’} {ch} {CH} {ch’} {CH’} e E i I j J k K {k’} {K’} {ky} {KY} {ky’} {KY’} l L m M n N o O p P q Q {q’} {Q’} r R s S t T {t’} {T’} {tx} {TX} {tx’} {TX’} {tz} {TZ} {tz’} {TZ’} u U w W x X ẍ Ẍ y Y ’"
+  marks: "◌̈"
+}
+source: "Rodolfo García Marroquín, Tu’jil Qyol Mam te Tkab’in Yol = Aprendiendo el Idioma Mam como L2, Ministerio de Educación de Guatemala, Subdirección Técnico-Pedagógica Bilingüe Intercultural, 2011"

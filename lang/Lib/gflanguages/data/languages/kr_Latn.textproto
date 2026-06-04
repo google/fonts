@@ -1,0 +1,26 @@
+id: "kr_Latn"
+language: "kr"
+script: "Latn"
+name: "Kanuri"
+population: 8845500
+region: "NG"
+region: "NE"
+region: "TD"
+region: "CM"
+exemplar_chars {
+  base: "A B C D E Ǝ F G H I J K L M N O P R Ɍ S T U W Y Z a b c d e ǝ f g h i j k l m n o p r ɍ s t u w y z"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Mm"
+  styles: "Adəgaima tada adamganabebe nəmngalwonzə kambaata"
+  tester: "Adəgaima hakkiwa adamganabero cistəgə ba-a fallaktə-abe sawowuro"
+  poster_sm: "Adəgaima awo"
+  poster_md: "Adəgaima"
+  poster_lg: "Adamgana"
+  specimen_48: "Adəgaima ummawa Lardəwa Tawakkata Dunyabeye suro Tawakamdəben"
+  specimen_36: "Ndu yaye hakkinzə howum duwo hakkiwa-a nambe-a suro Wowur adəben dəganadəga yita bayanzəginma gantobe mbeji."
+  specimen_32: "Adəgaima tada adamganabebe nəmngalwonzə kambaata adə-a nəmnduaso kalkalnzə-a hakkiwanzə Alanjo-adə shima ferno nəmkambe-a jirebe-a nəlefabe-aro dunya ngason asutəna,"
+  specimen_21: "Adəgaima tada adamganabebe nəmngalwonzə kambaata adə-a nəmnduaso kalkalnzə-a hakkiwanzə Alanjo-adə shima ferno nəmkambe-a jirebe-a nəlefabe-aro dunya ngason asutəna,\nAdəgaima hakkiwa adamganabero cistəgə ba-a fallaktə-abe sawowuro kəndowa halye kurzənyi waazə hangal adamganabero karega rozəgəna, kuru dunya duwo suron adamganasoye tamtam hakkinza manabe-a nzasarabe-a kuru nambe duwo dalil baaro citə-a jero-abedə shima awo talaawaye təmazana woro warmowotə,"
+  specimen_16: "Adəgaima tada adamganabebe nəmngalwonzə kambaata adə-a nəmnduaso kalkalnzə-a hakkiwanzə Alanjo-adə shima ferno nəmkambe-a jirebe-a nəlefabe-aro dunya ngason asutəna,\nAdəgaima hakkiwa adamganabero cistəgə ba-a fallaktə-abe sawowuro kəndowa halye kurzənyi waazə hangal adamganabero karega rozəgəna, kuru dunya duwo suron adamganasoye tamtam hakkinza manabe-a nzasarabe-a kuru nambe duwo dalil baaro citə-a jero-abedə shima awo talaawaye təmazana woro warmowotə,\nAdəgaima awo məradətənadə susu adamganaga dunon təkkə nəmzaləm-a njokuno-a kəriwutəbedəro howum maibeye hakkiwanzaga səliwodəma,"
+}

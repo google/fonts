@@ -1,0 +1,25 @@
+id: "fon_Latn"
+language: "fon"
+script: "Latn"
+name: "Fon"
+autonym: "fɔ̀ngbè"
+population: 3216150
+region: "BJ"
+exemplar_chars {
+  base: "A B C D E F G I J K L M N O P R S T U V W X Y Z Ɖ Ɛ Ɔ À Á È É Ì Í Ò Ó Ù Ú a b c d e f g i j k l m n o p r s t u v w x y z ɖ ɛ ɔ à á è é ì í ò ó ù ú"
+  marks: "◌̀ ◌́"
+}
+sample_text {
+  masthead_full: "AaCc"
+  masthead_partial: "Ɛɛ"
+  styles: "Ee nyi ɖɔ hɛnnu ɖokpo mɛ ɔ, mɛ ɖokpoɖokpo"
+  tester: "Ee nyi ɖɔ nukumamɔ jɛ numɛ kpodo wangbɛnu sɛn ɖeɖee na zɔn bɔ"
+  poster_sm: "Ee nyi ɖɔ é"
+  poster_md: "Ee nyi ɖɔ,"
+  poster_lg: "Acɛ,"
+  specimen_48: "Ee nyi ɖɔ to ɖokpoɖokpo yi gbe bo na ɖo sisi nu acɛ e gbɛtɔ lɛ"
+  specimen_36: "Enyi mɛɖe mɔ ɖɔ e yi acɛ e nyi etɔn bɔ sɛn dodo ee ɖoɔ nu do to tɔn nu ɔ n\'ɛ ɔ, e hɛn ɔ e na ylɔ hwɛ ɖo to tɔn mɛ."
+  specimen_32: "Gbɛtɔ bǐ ɖo acɛ bo na ɖo gbɔjɛhwe nu kpodo ayiɖeɖ\'ayi sin hwenu kpan Ganxuxo nabiɖe wɛ é ɖó na wa azɔ na. E ɖo na yi azɔgbɔjɛ hwɛhwɛ bɔ gbɔjɛ enɛ mɛ ɔ, e ka ɖo na nɔ sun akwɛ ɛ."
+  specimen_21: "Gbɛtɔ bǐ ɖo na ba tuto gbɔn nukɔnyiyi hɛnnu e mɛ ɖe e kpodo gbɛ ɔ bǐ kpan sin alinu bonu acɛ, sisi kpo jlokokonunɔ e xó e ɖɔ ɖɔ wema elɔ mɛ ɔ ni nɔ xwiji.\nYoɖè, kplekpleɖè, gbɛtɔ goɖokponɔɖè na yi huzu nu e ɖɔ do wema elɔ mɛ e ɖo alɔ tɔn ji bo na mɔ̀ tɛn bo ɖe walɔɖe alo ayiɖe tɔn ee na zɔn bɔ e na mɔ tɛn bo do kpo acɛ, sisi kpodo jlokokɔnunɔ ee xo e ɖɔ ɖo fi e bo hɛn gba ǎ."
+  specimen_16: "Ee nyi ɖɔ hɛnnu ɖokpo mɛ ɔ, mɛ ɖokpoɖokpo ka do susu tɔn, bɔ acɛ ɖokpo ɔ wɛ mɛbi ɖo bo e ma sixu kan fɛn kpon é ɖi mɛɖesusi jijɛ, hwɛjijɔzinzan, kpodo fifa ni tiin nu wɛkɛ ɔ bi e ɔ,\nEe nyi ɖɔ nukumamɔ jɛ numɛ kpodo wangbɛnu sɛn ɖeɖee na zɔn bɔ gbɛtɔ na do tiin nyi lɛ wɛ nɔ dɔn alannuwiwa ɖee nɔ zɔn bɔ gbɛtɔ nɔ fɔn gu e, lo bɔ nu taji ɖee hudo gbɛtɔ ɔ wɛ nyi ɖɔ gbɛ e mɛ gbɛtɔ lɛ ma na nɔ mɛkannu ɖo xoɖiɖɔ sin alinu kpodo nuɖiɖi lo bo na tɔn sin adohuhu kpodo ya kpo mɛ é ɔ,\nEe nyi ɖɔ dandanmɛ wɛ e ɖo na jɛ hun do sɛn ɖee na zɔn bɔ gbɛtɔ na do tiin nyi le gbɔn acɛɖiɖo sin alinu se na zɔn bɔ gbɛtɔ ma na lin ɖɔ emi ɖo na ɖe emiɖee sin mɛkannu kpo yadonumɛ kpo e ɔ,"
+}

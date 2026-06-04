@@ -1,0 +1,27 @@
+id: "pap_Latn"
+language: "pap"
+script: "Latn"
+name: "Papiamento"
+autonym: "Papiamentu"
+population: 211640
+region: "AW"
+region: "BQ"
+region: "CW"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È Ò Ù Ü Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z è ò ù ü ñ"
+  marks: "◌̀ ◌̃ ◌̈"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Rr"
+  styles: "Considerando cu reconocemento di e dignidad"
+  tester: "Considerando cu indiferencia y menosprecio pa derecho humano"
+  poster_sm: "Considerando"
+  poster_md: "Asamblea"
+  poster_lg: "Tur"
+  specimen_48: "Tur ser humano ta nace liber y igual den dignidad y den derecho."
+  specimen_36: "Considerando cu reconocemento di e dignidad inherente y di e derechonan igual y inalienabel di tur miembro"
+  specimen_32: "Considerando cu reconocemento di e dignidad inherente y di e derechonan igual y inalienabel di tur miembro di famia humano ta base di libertad, husticia y paz na mundo;"
+  specimen_21: "Considerando cu reconocemento di e dignidad inherente y di e derechonan igual y inalienabel di tur miembro di famia humano ta base di libertad, husticia y paz na mundo;\nConsiderando cu indiferencia y menosprecio pa derecho humano a resulta den actonan di barbarie cu a agredi consenshi di humanidad, y cu a proclama, como e aspiracion mas halto di ser humano, binimento di un mundo den cua hende, libera di temor y di miseria, lo disfruta di libertad di palabra y libertad di creencia;"
+  specimen_16: "Considerando cu reconocemento di e dignidad inherente y di e derechonan igual y inalienabel di tur miembro di famia humano ta base di libertad, husticia y paz na mundo;\nConsiderando cu indiferencia y menosprecio pa derecho humano a resulta den actonan di barbarie cu a agredi consenshi di humanidad, y cu a proclama, como e aspiracion mas halto di ser humano, binimento di un mundo den cua hende, libera di temor y di miseria, lo disfruta di libertad di palabra y libertad di creencia;\nConsiderando cu ta esencial pa derecho humano ta protegi pa un regimen di derecho, a fin cu ser humano no haya su mes obliga di recuri, na ultimo instancia, na rebelion contra tirania y opresion;"
+}

@@ -1,0 +1,12 @@
+id: "biv_Latn"
+language: "biv"
+script: "Latn"
+name: "Birifor, Southern"
+population: 190000
+region: "GH"
+region: "CI"
+exemplar_chars {
+  base: "a A ã Ã b B c C d D e E ẽ Ẽ ɛ Ɛ {ɛ̃} {Ɛ̃} f F g G h H i I ĩ Ĩ ɩ Ɩ {ɩ̃} {Ɩ̃} j J k K l L m M n N ŋ Ŋ o O õ Õ ɔ Ɔ {ɔ̃} {Ɔ̃}  p P r R s S t T u U ũ Ũ ʊ Ʊ {ʊ̃} {Ʊ̃} v V w W y Y"
+  marks: "◌̃"
+}
+source: "A Nãaŋmɩn Nɛtɩr Oaalaa Gãn, Bɩrfʊɔr, Wycliffe Bible Translators, 2006"

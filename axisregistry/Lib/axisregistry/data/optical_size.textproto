@@ -1,0 +1,100 @@
+# opsz based on https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz
+# fallbacks based on https://en.wikipedia.org/wiki/Traditional_point-size_names
+# plus discussion with dcrossland@
+tag: "opsz"
+display_name: "Optical Size"
+min_value: 5
+max_value: 1200
+default_value: 14
+precision: -1
+fallback {
+  name: "6pt"
+  value: 6
+}
+fallback {
+  name: "7pt"
+  value: 7
+}
+fallback {
+  name: "8pt"
+  value: 8
+}
+fallback {
+  name: "9pt"
+  value: 9
+}
+fallback {
+  name: "10pt"
+  value: 10
+}
+fallback {
+  name: "11pt"
+  value: 11
+}
+fallback {
+  name: "12pt"
+  value: 12
+}
+fallback {
+  name: "14pt"
+  value: 14
+}
+fallback {
+  name: "16pt"
+  value: 16
+}
+fallback {
+  name: "17pt"
+  value: 17
+}
+fallback {
+  name: "18pt"
+  value: 18
+}
+fallback {
+  name: "20pt"
+  value: 20
+}
+fallback {
+  name: "24pt"
+  value: 24
+}
+fallback {
+  name: "28pt"
+  value: 28
+}
+fallback {
+  name: "36pt"
+  value: 36
+}
+fallback {
+  name: "48pt"
+  value: 48
+}
+fallback {
+  name: "60pt"
+  value: 60
+}
+fallback {
+  name: "72pt"
+  value: 72
+}
+fallback {
+  name: "96pt"
+  value: 96
+}
+fallback {
+  name: "120pt"
+  value: 120
+}
+fallback {
+  name: "144pt"
+  value: 144
+}
+fallback_only: false
+illustration_url: "optical_size.svg"
+description:
+  "Adapt the style to specific text sizes. At smaller sizes, letters"
+  " typically become optimized for more legibility. At larger sizes,"
+  " optimized for headlines, with more extreme weights and widths."
+  " In CSS this axis is activated automatically when it is available."

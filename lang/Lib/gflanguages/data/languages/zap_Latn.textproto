@@ -1,0 +1,14 @@
+id: "zap_Latn"
+language: "zap"
+script: "Latn"
+name: "Zapotec"
+autonym: "Didxazá"
+population: 490000
+region: "MX"
+exemplar_chars {
+  base: "A a B b C c {Ch} {ch} D d {Dx} {dx} {Dz} {dz} E e Ë ë F f G g H h I i Ɨ ɨ J j L l M m N n Ñ ñ O o P p Q q R r {Rr} {rr} S s T t {Th} {th} {Ts} {ts} U u Ü ü W w X x {Xh} {xh} Y y Z z ʰ ’ :"
+  auxiliary : "Á É {Ë́} Í {Ɨ́} Ó Ú Ǘ á é {ë́} í {ɨ́} ó ú ǘ À È {Ë̀} Ì {Ɨ̀} Ò Ù Ǜ à è {ë̀} ì {ɨ̀} ò ù ǜ Â Ê {Ë̂} Î {Ɨ̂} Ô Û {Ü̂} â ê {ë̂} î {ɨ̂} ô û {ü̂} Ǎ Ě {Ë̌} Ǐ {Ɨ̌} Ǒ Ǔ Ǚ ǎ ě {ë̌} ǐ {ɨ̌} ǒ ǔ ǚ"
+  marks: "◌̀ ◌́ ◌̌ ◌̃ ◌̈"
+}
+source: "Oscar Méndez Espinosa, Diccionario del Idioma Zapoteco, vol. 1-4, Universidad del Istmo, 2018"
+note: "There is no clear standard unified orthography for Zapotec languages. Méndez 2018 may be used for the Zapotec group, specific orthographies are or have been used for specific languags. Tones are not always marked and are left in auxiliary."

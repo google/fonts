@@ -1,0 +1,11 @@
+id: "yas_Latn"
+language: "yas"
+script: "Latn"
+name: "Nugunu"
+population: 35000
+region: "CM"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E é É ɛ Ɛ f F g G h H i I í Í k K l L m M n N ŋ Ŋ o O ó Ó ɔ Ɔ p P s S t T u U ú Ú y Y"
+  marks: "◌́"
+  auxiliary: "j J q Q r R v V w W x X"
+}

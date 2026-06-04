@@ -1,0 +1,25 @@
+id: "mad_Latn"
+language: "mad"
+script: "Latn"
+name: "Madurese"
+autonym: "Madhurâ"
+population: 16822638
+region: "ID"
+exemplar_chars {
+  base: "A B C D Ḍ E G H I J K L M N O P R S T Ṭ U W Â a b c d ḍ e g h i j k l m n o p r s t ṭ u w â"
+  marks: "◌̂ ◌̣"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Dd"
+  styles: "Saestona pangakowan drajat secara koddrat"
+  tester: "Saestona manabi tak agateyagi sareng nganggep enteng hak-hak epon"
+  poster_sm: "Saestona hak-hak"
+  poster_md: "Saestona"
+  poster_lg: "Sadajana"
+  specimen_48: "Saestona bangsa-bangsa dhari Perserikatan Bangsa-Bangsa e dhalem"
+  specimen_36: "Sabban oreng agaduwi hak istirahat ban prei, tamasok batessa jam-jam alako, klaban are-are prei se opana tetep ebajar."
+  specimen_32: "Sabban oreng agadhuwi hak dha\' tatanan sosial ban internasional, se hak-hak ban kabebasan-kabebasan ekasebut dhalem Parnyataan paneka kengeng elakone sadajana."
+  specimen_21: "Tadha hal dhari dhalem Parnyataan paneka kengeng etafsiragi a beri\' sala settong nagara, kelompok otaba sala settong oreng, hak kaangguy e dhalem kalakoan ponapa bisaos, otaba alakone settong kalakoan se gadhuan tojjuan marosak hak-hak ban kabebasan-kabebasan se ka\'dimma bisaos kasebut dhalem Parnyataan paneka."
+  specimen_16: "Saestona pangakowan drajat secara koddrat klaban hak se dha-padha sareng muttlak dhari sadajana anggota kaluwarga manossa enggi panika dasar dhari kamardikaan, keadilan sareng perdamaian e dunnya.\nSaestona manabi tak agateyagi sareng nganggep enteng hak-hak epon manossa badhi adaddiyagi kalakowan-kalakowan bengges se bisa mapeggel ate nuraniepon umat manossa; wujudepon settong dhunnya, palenggiyanna manossa se badhi arassaagi kenikmatan, kebebasan angocappagi pamanggi ban keyakinan sareng kebebasan dhari rassa tako\' ban kemeskenan ampon daddi pernyataan aspirasi paleng tenggi dhari sadajana ra\'yat biyasa."
+}

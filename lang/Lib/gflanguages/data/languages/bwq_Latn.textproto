@@ -1,0 +1,12 @@
+id: "bwq_Latn"
+language: "bwq"
+script: "Latn"
+name: "Southern Bobo Madaré"
+autonym: "bɔbɔ"
+population: 180000
+region: "BF"
+exemplar_chars {
+  base: "A B D E Ɛ F G I K L M N Ɲ O Ɔ P R S T U V W Y Z a b d e ɛ f g i k l m n ɲ o ɔ p r s t u v w y z"
+}
+source: "Wikipedia"
+source: "https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages"

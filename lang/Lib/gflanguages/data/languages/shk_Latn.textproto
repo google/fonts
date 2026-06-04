@@ -1,0 +1,26 @@
+id: "shk_Latn"
+language: "shk"
+script: "Latn"
+name: "Shilluk"
+region: "SS"
+population: 570000
+exemplar_chars {
+  base: "a A à À á Á ä Ä b B c C d D e E è È é É ë Ë g G h H i I ì Ì í Í ï Ï j J k K l L m M n N o O ó Ó ö Ö ø Ø p P r R s S t T u U ù Ù ú Ú v V w W y Y"
+  marks: "◌̀ ◌́ ◌̈"
+  auxiliary: "q Q x X z Z"
+}
+sample_text {
+  masthead_full: "DdHh"
+  masthead_partial: "Aa"
+  styles: "Dhanhø bëne ba anywølø e path ki bäng, ge"
+  tester: "Dhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki"
+  poster_sm: "Dhanhø bëne"
+  poster_md: "Dhanhø"
+  poster_lg: "Dhanhø"
+  specimen_48: "Dhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø."
+  specimen_36: "Dhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø. gïn-a dwaddi kiper gen yï gen da rumi ki bëëdø mø göög gen ki pyëw akyel ga nyimëgg."
+  specimen_32: "Dhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø. gïn-a dwaddi kiper gen yï gen da rumi ki bëëdø mø göög gen ki pyëw akyel ga nyimëgg."
+  specimen_21: "Dhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø. gïn-a dwaddi kiper gen yï gen da rumi ki bëëdø mø göög gen ki pyëw akyel ga nyimëgg.\nDhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø. gïn-a dwaddi kiper gen yï gen da rumi ki bëëdø mø göög gen ki pyëw akyel ga nyimëgg."
+  specimen_16: "Dhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø. gïn-a dwaddi kiper gen yï gen da rumi ki bëëdø mø göög gen ki pyëw akyel ga nyimëgg.\nDhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø. gïn-a dwaddi kiper gen yï gen da rumi ki bëëdø mø göög gen ki pyëw akyel ga nyimëgg.\nDhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø. gïn-a dwaddi kiper gen yï gen da rumi ki bëëdø mø göög gen ki pyëw akyel ga nyimëgg.\nDhanhø bëne ba anywølø e path ki bäng, ge pär ki yij bëëdø geki dyërø. gïn-a dwaddi kiper gen yï gen da rumi ki bëëdø mø göög gen ki pyëw akyel ga nyimëgg."
+}
+source: "SIL International, “The Cøllø Alphabet”,  Cøllø (aka Shilluk) Dictionary, Webonary.org, 2016"

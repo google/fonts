@@ -1,0 +1,15 @@
+# BNCE based on https://github.com/arrowtype/shantell-sans
+tag: "BNCE"
+display_name: "Bounce"
+min_value: -100
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Shift glyphs up and down in the Y dimension, resulting "
+  "in an uneven, bouncy baseline."

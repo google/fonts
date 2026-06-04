@@ -1,0 +1,4 @@
+name: "Glyph"
+excerpt: "A single representation of a character, taking up one space in a font’s glyph table. A character can have multiple glyphs."
+related_lessons: "introducing_weights_styles"
+related_lessons: "open_type_features_in_practice"

@@ -1,0 +1,15 @@
+id: "lom_Latn"
+language: "lom"
+script: "Latn"
+name: "Loma, Liberia"
+population: 320000
+region: "LR"
+exemplar_chars {
+  base: "a A à À á Á ã Ã {ã̀} {Ã̀} b B ɓ Ɓ d D e E è È é É ê Ê ẽ Ẽ ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̃} {Ɛ̃} {ɛ̃̀} {Ɛ̃̀} {ɛ̃́} {Ɛ̃́} f F g G ɣ Ɣ i I ì Ì í Í ĩ Ĩ j J k K l L m M n N ŋ Ŋ o O ò Ò ó Ó õ Õ {õ̀} {Õ̀} ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̃} {Ɔ̃} p P s S t T u U ù Ù ú Ú ũ Ũ {ũ̀} {Ũ̀} ṹ Ṹ v V ʋ Ʋ w W y Y z Z"
+  auxiliary: "c C h H q Q r R x X ƃ Ƃ ẁ Ẁ"
+}
+source: "Deʋe Niinɛi = Loma New Testament, Monrovia: Bible Society of Liberia & British and Foreign Bible Society (BSL & BFBS), 1971"
+source: "David J. Dwyer, Pewu B. Bodegie & James D. Bague, A learner directed approach to Lorma, United States Peace Corps, 1981"
+source: "Lɔɔma dɔwɔ wɔlɔi = Loma Weekly, 1961"
+source: "Wesley Sadler & Valentin Vydrine, “A complete analysis of the Lɔɔma language (Interior Liberia, West Africa)”, Mandenkan, no. 42, 2006, pp. 5-109"
+note: "The digital version of Deʋe Niinɛi, BSL & BFBS, 1971 uses ƃ Ƃ for ɓ Ɓ as its capital looks like Ƃ. BSL & BFBS also has ẁ in some words but only before vowels with tilde “ẁõila”, “ẁũ”, “ẁõi”, “kẁɛ̃ni”, etc.; JW.org does not use and Lɔɔma dɔwɔ wɔlɔi doesn’t seem to have used ẁ in those words. Dwyer et al. 1981 uses a phonemic orthography with additional letters like β (or ꞵ), ɗ. Sadler & Vydrine 2006 uses ß instead of ʋ as the original Sadler 1946 or 1949 manuscript used ʋ for a consonsant and ʊ for a vowel."

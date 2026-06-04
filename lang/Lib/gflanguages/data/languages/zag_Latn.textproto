@@ -1,0 +1,13 @@
+id: "zag_Latn"
+language: "zag"
+script: "Latn"
+name: "Zaghawa"
+population: 350000
+region: "TD"
+region: "SD"
+exemplar_chars {
+  base: "a A b B d D e E f F g G h H i I ì Ì í Í î Î j J k K l L m M n N ñ Ñ o O r R s S t T u U û Û w W y Y"
+  marks: "◌̀ ◌́ ◌̂ ◌̃"
+  auxiliary: "c C p P q Q v V x X z Z"
+}
+source: "David Faris, Dictionnaire français-beria beria-francais, Iriba: Association pour le développement économique et social du département de Kobé (ADESK), 2007"

@@ -1,0 +1,10 @@
+id: "kqp_Latn"
+language: "kqp"
+script: "Latn"
+name: "Kimré"
+population: 20000
+region: "TD"
+exemplar_chars {
+  base: "a A à À á Á b B c C d D e E é É ê Ê g G h H i I j J k K l L m M n N o O ô Ô p P r R s S t T u U w W y Y ŋ Ŋ ɓ Ɓ ɗ Ɗ ɲ Ɲ"
+  marks: "◌̀ ◌́ ◌̂"
+}

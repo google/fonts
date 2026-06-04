@@ -1,0 +1,15 @@
+id: "sms_Latn"
+language: "sms"
+script: "Latn"
+name: "Skolt Sami"
+autonym: "Nuõrttsääʼmǩiõll"
+population: 612
+region: "FI"
+region: "RU"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ʼ ʹ"
+  auxiliary: "Å Ö Ø å ö ø ˊ ´ ˈ"
+  marks: "◌̂ ◌̃ ◌̈ ◌̊ ◌̌"
+}
+source: "Timothy Feist, A grammar of Skolt Saami, University of Manchester, 2010"
+note: "ʹ U+02B9 is used to indicate palatalization, ˊ U+02CA or ´ U+00B4 are sometimes used instead. ʼ U+02BC, or ’ U+2019, is used between consonants letters to indicate they are not a digraph: lʼj and nʼj. Some dictionaries use ˈ U+02C8, or ' U+0027, to indicate geminate consonants after diphthongs."

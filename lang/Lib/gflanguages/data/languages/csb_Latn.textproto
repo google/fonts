@@ -1,0 +1,26 @@
+id: "csb_Latn"
+language: "csb"
+script: "Latn"
+name: "Kashubian"
+autonym: "Kaszëbsczi"
+population: 49766
+region: "PL"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã É Ë Ò Ó Ô Ù Ą Ę Ł Ń Ś Ż a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż"
+  marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̇ ◌̈ ◌̨"
+}
+sample_text {
+  masthead_full: "WwSs"
+  masthead_partial: "Zz"
+  styles: "Wszëtczi lëdze rodzą sã wòlny ë równy w swòji"
+  tester: "Wszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich"
+  poster_sm: "Wszëtczi lëdze"
+  poster_md: "Wszëtczi"
+  poster_lg: "Wszëtczi"
+  specimen_48: "Wszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce"
+  specimen_36: "Wszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich prawach. Mają òni dostóne rozëm ë sëmienié ë nôlégô jima pòstãpòwac wobec drëdzich w dëchù bracënotë."
+  specimen_32: "Wszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich prawach. Mają òni dostóne rozëm ë sëmienié ë nôlégô jima pòstãpòwac wobec drëdzich w dëchù bracënotë."
+  specimen_21: "Wszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich prawach. Mają òni dostóne rozëm ë sëmienié ë nôlégô jima pòstãpòwac wobec drëdzich w dëchù bracënotë.\nWszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich prawach. Mają òni dostóne rozëm ë sëmienié ë nôlégô jima pòstãpòwac wobec drëdzich w dëchù bracënotë."
+  specimen_16: "Wszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich prawach. Mają òni dostóne rozëm ë sëmienié ë nôlégô jima pòstãpòwac wobec drëdzich w dëchù bracënotë.\nWszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich prawach. Mają òni dostóne rozëm ë sëmienié ë nôlégô jima pòstãpòwac wobec drëdzich w dëchù bracënotë.\nWszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich prawach. Mają òni dostóne rozëm ë sëmienié ë nôlégô jima pòstãpòwac wobec drëdzich w dëchù bracënotë.\nWszëtczi lëdze rodzą sã wòlny ë równy w swòji czëstnoce ë swòjich prawach. Mają òni dostóne rozëm ë sëmienié ë nôlégô jima pòstãpòwac wobec drëdzich w dëchù bracënotë."
+}
+historical: true

@@ -1,0 +1,15 @@
+id: "kam_Latn"
+language: "kam"
+script: "Latn"
+name: "Kamba"
+autonym: "Kikamba"
+population: 4068120
+region: "KE"
+exemplar_chars {
+  base: "a A b B d D e E g G h H i I ĩ Ĩ k K l L m M n N o O s S t T u U ũ Ũ v V w W y Y z Z"
+  marks: "◌̃"
+  auxiliary: "c C f F j J p P q Q r R x X"
+  index: "A B C D E F G H Ĩ I J K L M N O P Q R S T Ũ U V W X Y Z"
+}
+source: "John Harun Mwau, Kĩkamba Dictionary: Kĩkamba-English Kĩkamba-Kĩkamba English-Kĩkamba, 2006"
+source: "Nĩ kwakya 1: Kũsoma na kũandĩka Kĩkamba, Literacy & Evangelism Kenya, 2005"

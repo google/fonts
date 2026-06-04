@@ -1,0 +1,11 @@
+id: "toq_Latn"
+language: "toq"
+script: "Latn"
+name: "Toposa"
+population: 320000
+region: "SS"
+exemplar_chars {
+  base: "a A b B c C d D e E g G i I j J k K l L m M n N ŋ Ŋ o O p P r R s S t T u U w W y Y"
+  marks: "◌̱"
+  auxiliary: "f F h H q Q v V x X z Z"
+}

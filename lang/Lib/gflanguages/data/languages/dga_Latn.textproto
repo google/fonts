@@ -1,0 +1,27 @@
+id: "dga_Latn"
+language: "dga"
+script: "Latn"
+name: "Dagaare, Southern"
+population: 924000
+region: "GH"
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ f F g G {gb} {Gb} {gy} {Gy} h H i I k K {kp} {Kp} {ky} {Ky} l L m M n N {ng} {Ng} {ny} {Ny} {ngm} {Ngm} o O ɔ Ɔ p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "j J q Q x X"
+}
+sample_text {
+  masthead_full: "NnEe"
+  masthead_partial: "Gg"
+  styles: "Nengsaala zaa ba nang dɔge so la o menga,"
+  tester: "Nengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa"
+  poster_sm: "Nengsaala zaa"
+  poster_md: "Nengsaala"
+  poster_lg: "zaa"
+  specimen_48: "Nengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa"
+  specimen_36: "Nengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine.\nNengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine."
+  specimen_32: "Nengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine.\nNengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine."
+  specimen_21: "Nengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine.\nNengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine."
+  specimen_16: "Nengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine.\nNengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine.\nNengsaala zaa ba nang dɔge so la o menga, ka o ne o taaba zaa sengtaa noba emmo ane yɛlɛsoobo sobic poɔ. Ba dɔgɛɛ ba zaa ne yɛng ane yɛlɛ-iruu k\'a da seng ka ba erɛ yɛlɛ korɔ taa a nga yɔɔmine."
+}
+source: "Mark Ali, Scott Grimm & Adams Bodomo, A dictionary and grammatical sketch of Dagaare (African Language Grammars and Dictionaries 4), Berlin: Language Science Press, 2021"
+source: "Bureau of Ghana Languages, Language guide: Dagaare version, Accra: Bureau of Ghana Languages, 1991"
+source: "Wikipedia"

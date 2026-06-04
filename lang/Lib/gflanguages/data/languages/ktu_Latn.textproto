@@ -1,0 +1,25 @@
+id: "ktu_Latn"
+language: "ktu"
+script: "Latn"
+name: "Kituba"
+region: "CD"
+region: "CA"
+population: 12326000
+exemplar_chars {
+  base: "a A b B d D e E f F g G i I j J k K l L m M n N o O p P s S t T u U v V w W y Y z Z"
+  auxiliary: "c C h H q Q r R x X"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Nn"
+  styles: "Bantu nyonso, na mbutukulu kevwandaka na kimpwanza"
+  tester: "Bantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda"
+  poster_sm: "Bantu nyonso,"
+  poster_md: "Bantu nyonso"
+  poster_lg: "Bantu"
+  specimen_48: "Bantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe"
+  specimen_36: "Bantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe baluve ya mutindu mosi. Mayela na mbanzulu je na bawu, ni yawu yina bafwana kusalasana na bumpangi."
+  specimen_32: "Bantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe baluve ya mutindu mosi. Mayela na mbanzulu je na bawu, ni yawu yina bafwana kusalasana na bumpangi."
+  specimen_21: "Bantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe baluve ya mutindu mosi. Mayela na mbanzulu je na bawu, ni yawu yina bafwana kusalasana na bumpangi.\nBantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe baluve ya mutindu mosi. Mayela na mbanzulu je na bawu, ni yawu yina bafwana kusalasana na bumpangi."
+  specimen_16: "Bantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe baluve ya mutindu mosi. Mayela na mbanzulu je na bawu, ni yawu yina bafwana kusalasana na bumpangi.\nBantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe baluve ya mutindu mosi. Mayela na mbanzulu je na bawu, ni yawu yina bafwana kusalasana na bumpangi.\nBantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe baluve ya mutindu mosi. Mayela na mbanzulu je na bawu, ni yawu yina bafwana kusalasana na bumpangi.\nBantu nyonso, na mbutukulu kevwandaka na kimpwanza ya bawu, ngenda mpe baluve ya mutindu mosi. Mayela na mbanzulu je na bawu, ni yawu yina bafwana kusalasana na bumpangi."
+}

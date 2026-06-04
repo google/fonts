@@ -1,0 +1,11 @@
+id: "mql_Latn"
+language: "mql"
+script: "Latn"
+name: "Mbelime"
+population: 37600
+region: "BJ"
+exemplar_chars {
+  base: "a A á Á ā Ā b B c C d D e E é É ē Ē ɛ Ɛ f F h H i I í Í ī Ī ḭ Ḭ k K m M n N ń Ń o O ó Ó ō Ō ɔ Ɔ p P s S t T u U ú Ú ū Ū ṵ Ṵ w W y Y"
+  marks: "◌́ ◌̄ ◌̰"
+  auxiliary: "g G j J l L q Q r R v V x X z Z"
+}

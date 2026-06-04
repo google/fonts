@@ -1,0 +1,12 @@
+id: "lam_Latn"
+language: "lam"
+script: "Latn"
+name: "Lamba"
+autonym: "Ichilamba"
+population: 200000
+region: "ZM"
+exemplar_chars {
+  base: "a b c e f g i k l m n o p s t u w ŵ y A B C E F G I K L M N O P S T U W Ŵ Y ’"
+  auxiliary: "d D h H j J ŋ Ŋ q Q r R z Z"
+}
+source: "Amasiwi Aŵalesa, Lusaka, Bible Society of Zambia, 1990"

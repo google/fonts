@@ -1,0 +1,13 @@
+id: "mls_Latn"
+language: "mls"
+script: "Latn"
+name: "Masalit"
+population: 451059
+region: "SD"
+exemplar_chars {
+  base: "a A â Â b B c C {ch} {CH} d D e E ê Ê f F g G h H i I î Î j J k K l L m M {mb} {MB} n N {nd} {ND} {nj} {NJ} {n̰} {N̰} ŋ Ŋ {ŋg} {ŊG} o O ô Ô r R s S t T u U û Û w W y Y z Z"
+  marks: "◌̂"
+  auxiliary: "p P q Q v V x X"
+}
+source: "Katab geya kana masarak, SIL Tchad, 2013"
+source: "ABC Masarak, Abécédaire en langue massalit = Massalit Alphabet Chart, SIL Tchad, 2011"

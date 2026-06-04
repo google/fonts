@@ -1,0 +1,18 @@
+id: "sba_Latn"
+language: "sba"
+script: "Latn"
+name: "Ngambay"
+population: 1000000
+region: "CM"
+region: "NG"
+region: "TD"
+exemplar_chars {
+  base: "a A à À á Á {a̰} {A̰} {á̰} {Á̰} b B d D e E è È é É ḛ Ḛ {ḛ̀} {Ḛ̀} {ḛ́} {Ḛ́} ə Ə {ə́} {Ə́} {ə̰} {Ə̰} g G h H i I ḭ Ḭ j J k K l L m M n N o O ó Ó {o̰} {O̰} ɔ Ɔ p P r R s S t T u U ú Ú ṵ Ṵ v V w W y Y"
+  marks: "◌̀ ◌́ ◌̰"
+  auxiliary: "c C f F ǝ Ǝ {ǝ́} {Ǝ́} {ǝ̰} {Ǝ̰} ɨ Ɨ q Q x X z Z"
+}
+note: "Hartell 1982 show bb dd ɛ but LETAC 1983 or ABT 1989 don’t use bb dd ɛ and use ɓ ɗ ə, and Chata et al. 2012 uses ɓ ɗ ə ɨ. Tchad 2009 uses Ə, ABT 2015 uses its lowercase but uses uppercase Ǝ."
+source: "Alliance Biblique du Tchad, Maktub gə́ To gə Kəmee, first edition 1989, 2015"
+source: "Bernard Laumal ge Boukar Selim, Jean-Pierre Caprile & Khalil Alio, Lexiques thématiques de l’Afrique centrale (LETAC) : Tchad, Sara-Ngambay, Activité économiques et sociales 1, Paris: Yaoundé, Agence de coopération culturelle et technique, Centre régional de recherche et de documentation sur les traditions orales et pour le développement des langues africaines, 1983"
+source: "Nangone Jacob Chata, Simeon Mbayrem Djimadoum & John M. Keegan, Petit dictionnaire de la langue ngambaye, Cuenca: Morkeg Books, coll. The Sara Language Project, 2012"
+source: "Tchad, Décret fixant l’Alphabet National du Tchad, 2009"

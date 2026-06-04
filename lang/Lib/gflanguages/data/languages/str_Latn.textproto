@@ -1,0 +1,25 @@
+id: "str_Latn"
+language: "str"
+script: "Latn"
+name: "Straits Salish, Latin"
+population: 7
+region: "CA"
+exemplar_chars {
+  base: "A Á Ⱥ B C Ć Ȼ D E H I Í J K ₭ Ḵ Ḱ L Ƚ M N Ṉ O P Q S Ś T Ⱦ Ṯ Ŧ U W {W̱} X {X̱} Y Z s"
+  marks: "◌́ ◌̱"
+}
+sample_text {
+  masthead_full: "SsIi"
+  masthead_partial: "Oo"
+  styles: "SI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE,"
+  tester: "SI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID"
+  poster_sm: "SI,SI,OB BE₭OȻBIX̲"
+  poster_md: "SI,SI,OB BE"
+  poster_lg: "SI,SI,OB"
+  specimen_48: "SI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲"
+  specimen_36: "SI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ."
+  specimen_32: "SI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ."
+  specimen_21: "SI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ."
+  specimen_16: "SI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ.\nSI,SI,OB BE₭OȻBIX̲ ,UQEȾ. ,ESZUW̲IL ELQE,. ,ESTOLX ELQE, ESDUQUD ,ESXEĆBID ȽṮUBEX̲ ELQE, ŚÍISȽ ,ÁL,ÁLŦ."
+}
+note: "The exemplar characters and the sample text use the SENĆOŦEN orthography. Other orthographies are used for variations of Straits Salish."

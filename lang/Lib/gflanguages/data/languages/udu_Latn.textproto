@@ -1,0 +1,28 @@
+id: "udu_Latn"
+language: "udu"
+script: "Latn"
+name: "Uduk"
+region: "ET"
+region: "SS"
+population: 22000
+exemplar_chars {
+  base: "a A b B {ʼb} {ʼB} c C {c̱} {C̱} {ʼc} {ʼC} d D {ʼd} {ʼD} {dh} {DH} e E g G h H i I j J k K ḵ Ḵ {ʼk} {ʼK} l L m M n N ŋ Ŋ {ny} {NY} o O p P {p̱} {P̱} {ʼp} {ʼP} r R s S {sh} {SH} t T ṯ Ṯ {ʼt} {ʼT} {th} {TH} {t͟h} {T͟H} {ʼth} {ʼTH} u U w W y Y /"
+  marks: "◌̱ ◌͟"
+  auxiliary: "ẖ {H̱}"
+}
+sample_text {
+  masthead_full: "AaRr"
+  masthead_partial: "Ii"
+  styles: "Aris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany"
+  tester: "Aris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya"
+  poster_sm: "Aris ’kwaniny"
+  poster_md: "Aris"
+  poster_lg: "Aris"
+  specimen_48: "Aris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c"
+  specimen_36: "Aris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo.\nAris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo."
+  specimen_32: "Aris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo.\nAris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo."
+  specimen_21: "Aris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo.\nAris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo."
+  specimen_16: "Aris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo.\nAris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo.\nAris ’kwaniny’ceshi ’baar mo dho’thkunu ’baḵany mo dhali mmomiiya ṯu’c imonṯal ’de/ mo dhali mii ma ḵar/e mo. Uni mini ta gi gwo mo dhali mii mo dhali uni mini mii ka karambuye/ ’kup̱ ki cin tiya mo e shi/in mo dhali mii kun tanu ikam mo."
+}
+source: "Don Killian, Topics in Uduk Phonology and Morphosyntax, University of Helsinki, 2015"
+note: "Some references use ṯẖ instead of t͟h."

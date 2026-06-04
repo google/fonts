@@ -1,0 +1,11 @@
+id: "wja_Latn"
+language: "wja"
+script: "Latn"
+name: "Waja"
+population: 60000
+region: "NG"
+exemplar_chars {
+  base: "a A ā Ā ă Ă b B ɓ Ɓ c C d D ɗ Ɗ e E f F g G h H i I j J k K ƙ Ƙ l L m M n N o O p P r R s S t T u U v V w W y Y z Z"
+  marks: "◌̄ ◌̆"
+  auxiliary: "q Q x X"
+}

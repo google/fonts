@@ -1,0 +1,26 @@
+id: "rn_Latn"
+language: "rn"
+script: "Latn"
+name: "Rundi"
+autonym: "Ikirundi"
+population: 7475454
+region: "BI"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaBb"
+  masthead_partial: "Nn"
+  styles: "Ibonye ko kwemera ko abantu bose bategerezwa"
+  tester: "Ibonye ko kutemera n\'ukudakwirikiza ingingo zubahiriza zina muntu"
+  poster_sm: "Ibonye ko ari"
+  poster_md: "Isanze ko"
+  poster_lg: "Abantu"
+  specimen_48: "Ibonye ko ari nkenerwa gushigikira iterambere ry\'imigenderanire"
+  specimen_36: "Ibonye ko kwemera ko abantu bose bategerezwa guhabwa agateka n\'ukubahirizwa kimwe, ari ryo shingiro ryukwishira"
+  specimen_32: "Ibonye ko kwemera ko abantu bose bategerezwa guhabwa agateka n\'ukubahirizwa kimwe, ari ryo shingiro ryukwishira n\'ukwizana, ubutungane n\'amahoro kw\'isi."
+  specimen_21: "Ibonye ko kwemera ko abantu bose bategerezwa guhabwa agateka n\'ukubahirizwa kimwe, ari ryo shingiro ryukwishira n\'ukwizana, ubutungane n\'amahoro kw\'isi.\nIbonye ko kutemera n\'ukudakwirikiza ingingo zubahiriza zina muntu vyatumye hakorwa amabi atagira uko avugwa kandi ko isi izira ubwicanyi n\'amaganya, abantu bose bakavuga kandi bakemera uko bavyifuza ari yo yemejwe ko zina muntu wese anyotewe imbere ya vyose."
+  specimen_16: "Ibonye ko kwemera ko abantu bose bategerezwa guhabwa agateka n\'ukubahirizwa kimwe, ari ryo shingiro ryukwishira n\'ukwizana, ubutungane n\'amahoro kw\'isi.\nIbonye ko kutemera n\'ukudakwirikiza ingingo zubahiriza zina muntu vyatumye hakorwa amabi atagira uko avugwa kandi ko isi izira ubwicanyi n\'amaganya, abantu bose bakavuga kandi bakemera uko bavyifuza ari yo yemejwe ko zina muntu wese anyotewe imbere ya vyose.\nIbonye ko ari nkenerwa ko ingingo zubahiriza zina muntu zubahirizwa n\'amategeko atomoye kugira ngo umuntu, aburaniwe, ntaruhire kwiyamiriza agahotoro n\'akarenganyo,"
+}

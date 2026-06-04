@@ -1,0 +1,12 @@
+id: "ati_Latn"
+language: "ati"
+script: "Latn"
+region: "CI"
+name: "Attié"
+population: 739000
+exemplar_chars {
+  base: "a A b B c C d D {dzh} {DZH} e E ë Ë ɛ Ɛ f F g G {gb} {GB} h H i I j J k K {kp} {KP} l L m M n N o O ö Ö ɔ Ɔ p P r R s S {sh} {SH} t T {ts} {TS} {tsh} {TSH} u U v V w W y Y z Z ˗ ʼ ˮ "
+  marks: "◌̈"
+  auxiliary: "q Q x X"
+}
+source: "Firmin Ahoua & Patrice Achie Brouh, Parlons akyé bodin, Paris, L’Harmattan, 2009"

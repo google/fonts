@@ -1,0 +1,27 @@
+id: "gv_Latn"
+language: "gv"
+script: "Latn"
+name: "Manx"
+autonym: "Gaelg"
+population: 1719
+region: "IM"
+exemplar_chars {
+  base: "A B C Ç D E F G H I J K L M N O P Q R S T U V W X Y Z a b c ç d e f g h i j k l m n o p q r s t u v w x y z"
+  marks: "◌̧"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "TtAa"
+  masthead_partial: "Dd"
+  styles: "Fakin dy nee cur enney er ooashley beayn"
+  tester: "Fakin dy vel mee-ooashley da cairyssyn deiney as craid jeu er"
+  poster_sm: "Fakin dy vel"
+  poster_md: "Fakin dy"
+  poster_lg: "ruggit"
+  specimen_48: "Fakin dy vel pobbleyn ny Ashoonyn Unnaneyssit er hickyraghey"
+  specimen_36: "Cha bee unnane erbee er ny horchaghey ny surranse dellal ny kerraghey erbee dewil, neughooie ny oltooanagh."
+  specimen_32: "Ta cairys ec dy chooilley unnane gys fea as soccar, goaill stiagh lhiettalyn resoonagh er ooryn obbree as laghyn seyrey veih traa dy traa lesh eeck."
+  specimen_21: "Ta cairys ec dy chooilley unnane gys order sheshoil as eddyr-ashoonagh ayn oddys ny cairyssyn as ny seyrsnyssyn ta soit magh ’syn Ockley-magh shoh bishaghey dy slane.\nCha vod red erbee ’syn Ockley-magh shoh ve smooinit dy chur cairys erbee da State, sheshaght ny persoon erbee dy yannoo nhee erbee ta kiarit dy chur mow veg jeh ny cairyssyn as ny seyrsnyssyn ta soit magh ayns shoh."
+  specimen_16: "Fakin dy nee cur enney er ooashley beayn dy chooilley oltey jeh kynney sheelnaue as er nyn gairyssyn corrym nagh vod y ve goit ersooyl undin seyrsnys, cairys as shee ayns y theihll,\nFakin dy vel mee-ooashley da cairyssyn deiney as craid jeu er leeideil gys drogh-yannoo barbaragh t’er chur sneih er cooinsheanse sheelnaue, as dy vel toshiaght seihll raad ghoys deiney soylley jeh seyrsnys loayrt as credjue as seyrsnys veih aggle as egin er ve focklit magh myr yeearree syrjey yn phobble chadjin,\nFakin dy vel eh erskyn ooilley ymmyrchagh, mannagh bee dooinney eginit dy hyndaa, ec y jerrey, gys irree-magh noi tranlaase as eiyrtys, cairyssyn deiney dy v’er nyn goadey liorish reill y leigh,"
+}

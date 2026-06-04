@@ -1,0 +1,12 @@
+tag: "HEXP"
+display_name: "Hyper Expansion"
+min_value: 0.0
+default_value: 0.0
+max_value: 100.0
+precision: -1
+fallback {
+  name: "Default"
+  value: 0.0
+}
+fallback_only: false
+description: "Expansion of inner and outer space of glyphs."

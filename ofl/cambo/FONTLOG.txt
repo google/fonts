@@ -1,0 +1,53 @@
+FONTLOG for Cambo font
+
+This file provides detailed information on the Cambo font
+Software.
+
+This information should be distributed along with the Cambo
+font and any derivative works.
+
+Basic Font Information
+
+Cambo is a modern Latin typeface inspired by the contrast, 
+style and ornaments of Khmer typefaces and writing styles. Its 
+main objective is to be used to write Latin texts in a Khmer 
+context, but it is also an elegant choice for all kinds of texts.
+
+Designed by Carolina Giovagnoli and Andrés Torresi for 
+Huerta Tipográfica (http://www.huertatipografica.com.ar).
+
+To contribute to the project contact Carolina Giovagnoli and 
+Andrés Torresi at info@huertatipografica.com.ar
+
+There are three Source files:
+
+1. Cambo-Regular.vfb: Original Source files with contour
+   overlaps, anchors, etc.
+
+2. Cambo-Regular-OTF.vfb: Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. Cambo-Regular-TTF.sfd: Fontforge file with bezier 
+   quadratic curves and adjustments according to GWF 
+   specifications.
+
+ChangeLog
+
+17 Dec 2011 (Carolina Giovagnoli and Andrés Torresi) Cambo v2.001
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Carolina Giovagnoli
+E: caro@huertatipografica.com.ar
+W: www.huertatipografica.com.ar
+D: Type Designer
+
+N: Andrés Torresi
+E: andres@huertatipografica.com.ar
+W: www.huertatipografica.com.ar
+D: Type Designer

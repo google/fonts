@@ -1,0 +1,25 @@
+id: "men_Latn"
+language: "men"
+script: "Latn"
+name: "Mende"
+autonym: "Mɛnde yia"
+population: 1813082
+region: "LR"
+region: "SL"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I J K L M N O Ɔ P S T U V W Y a b d e ɛ f g h i j k l m n o ɔ p s t u v w y"
+}
+sample_text {
+  masthead_full: "NnUu"
+  masthead_partial: "Mm"
+  styles: "A jifa kiliyei na kɛ numu vuu kpɛlɛɛ ti maa"
+  tester: "A jifa ngawulɛɛhu kɛɛ baagbuala nuvugaa ti lɔnyisia ma ti wanga"
+  poster_sm: "A jifa maa"
+  poster_md: "Kɛɛ nuvuu"
+  poster_lg: "Kpɛlɛɛ"
+  specimen_48: "A jifa ndɔlei nasia ti dunyi hu ti lahei wumbua a ngoyila kɔɔ"
+  specimen_36: "Tao maa ii houni nduahu gɛ i waa nungaa luahu jifa tii gbuani ndɔlɔ yilahu, ɔɔ jifa tia heini ti yekpe va ɔɔ tii yekpe va."
+  specimen_32: "Maa ii houni ti numu gbi hou nduwɔya hu, ɔɔ ti ngi waa mɔnɛmɔnɛ hinda hu, maa ii houni nuu maajia va nduwɔya hu, tao gbɔma mahoungɔ nduwɔyei ye kɛyi kgbi lekee i gbɔyɔ."
+  specimen_21: "Maa ii houni kɔɔ ti kpaagba hinda la nuu gbi ma, tao kɔɔ ti hinda wee a numu na a kɛ kɛ nuvuu yaa a ngie.\nNuvuu gbi lee ngi lɔnya mia kɔɔ sawei i baagɔɔ ngi nuvuu ya ma mia leke gbi.\nNuvuu kpɛlɛɛ ti maahɛwungɔɛ sawei gulɔ, tao mahoungɔ sawei i ti mahu wɛɛ nahi gbi ɛɛ ti hu wɔyɔ. Mahoungɔ sawei i tɔ kɛ hugbatei ji ɛɛ numugbi gbukpuu."
+  specimen_16: "Nuu gbi ngi lɔnya mia kɔɔ sawa kpaambu ngaa yekpe ti ngi lɔnyɛi mavale a watii na ngi lɔnyi nasia ndɔɔ jawei keni numu a nyani ngi ma.\nMaa ii houni ti numu magba, ti ngi wu kpɛgbɛma ɔɔ ti ngi gbɛ ngi yee a baama hu we.\nNuu gbi ngi lɔnya mia nahii ti la nyɔngaa ngi ma tɛ i ngi maahinda gulanga kɔlɛhu ɔɔ i sawa kpoukpou nyaninga, kɔɔ ti ye njie na le fofohu, tao kɔɔ sawakpambu jein jein gɔngaa ti loo ngi va.\nMaa ii houni nuu i yɛ na nahi ta loko wili ngi bundu hinda hu, ngi ye pɛɛbu hinda, kɔlei kɛɛ ngowili na a pili ngitiwoma kia lee ti longɔla, kɛɛ kakpama a baagbuama hu we. Maa houngɔ sawei i nuu gbi maawɛɛ yɛɛ kakpamɛi ji bondayeya."
+}

@@ -1,0 +1,25 @@
+id: "cic_Latn"
+language: "cic"
+script: "Latn"
+name: "Chickasaw"
+autonym: "Chikashshanompa\'"
+population: 0
+region: "US"
+exemplar_chars {
+  base: "a A b B c C f F g G h H i I k K l L m M n N o O p P s S t T w W y Y {a̱} {A̱} {i̱} {I̱} {o̱} {O̱} \'"
+  marks: "◌̱"
+}
+sample_text {
+  masthead_full: "HhIi"
+  masthead_partial: "Mm"
+  styles: "Hattakat yaakni\' áyya\'shakat mó̱makat ittíllawwi"
+  tester: "Hookya nannalhpisa\' ihíngbittooka̱ ittimi̱lat taha. Himmaka̱ hattakat"
+  poster_sm: "Nannalhpisa\'"
+  poster_md: "Nanna mó̱maka̱"
+  poster_lg: "Himmaka\'"
+  specimen_48: "Himmaka\' nittakookano hattak yokasht toksalicha\'nikat ki\'yo. Hattak"
+  specimen_36: "Anompa kanihmo\'si yappa̱ hattakat haklocha kani̱hchit anokfilli bannakmat anokfilla\'ni. Nannaho̱ kanihmi bannakmat yahma\'ni."
+  specimen_32: "Hookya nannalhpisa\' ihíngbittooka̱ ittimi̱lat taha. Himmaka̱ hattakat aa-áyya\'shahookano ilaapo\' nanna anokfillikakoot nannikchokmoho̱ anokfillihootokoot yammako̱ yahmichi bannahoot áyya\'sha."
+  specimen_21: "Hattakat yaakni\' áyya\'shakat mó̱makat ittíllawwi bíyyi\'ka. Naalhpisa\'at hattak mó̱makat immi\'. A̱lhínchikma̱ hattak mó̱makat ishtayoppa\'ni.\nHookya nannalhpisa\' ihíngbittooka̱ ittimi̱lat taha. Himmaka̱ hattakat aa-áyya\'shahookano ilaapo\' nanna anokfillikakoot nannikchokmoho̱ anokfillihootokoot yammako̱ yahmichi bannahoot áyya\'sha."
+  specimen_16: "Hattakat yaakni\' áyya\'shakat mó̱makat ittíllawwi bíyyi\'ka. Naalhpisa\'at hattak mó̱makat immi\'. A̱lhínchikma̱ hattak mó̱makat ishtayoppa\'ni.\nHookya nannalhpisa\' ihíngbittooka̱ ittimi̱lat taha. Himmaka̱ hattakat aa-áyya\'shahookano ilaapo\' nanna anokfillikakoot nannikchokmoho̱ anokfillihootokoot yammako̱ yahmichi bannahoot áyya\'sha.\nNannalhpisa\' ihíngbittookookano kaniya\'chi ki\'yo. Immoot mahá̱a\'chi hattakat áyya\'sha aalhlhika̱.\nNannalhpisa\' ihíngbittooka̱ immoot mahá̱ahookya hattakat ikayoppa\'chokmat ibaachaffa ikbannokmat ilaapo\' nanna aanokfillikakoot yahmichi bannahoot áyya\'sha.\nHattak mó̱makat nannaka̱ ittibaachaffa bíyyi\'kakma̱ chokma\'ni. Hattak yaakni\' áyya\'shakat nannalhpisa\'a̱ naapiisa\' alhihaat mó̱makat ittibaachaffa bíyyi\'kakma̱ nanna mó̱makat alhpi\'sa bíyyi\'ka\'ni."
+}

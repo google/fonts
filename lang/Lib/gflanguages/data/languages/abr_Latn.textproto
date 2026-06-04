@@ -1,0 +1,10 @@
+id: "abr_Latn"
+language: "abr"
+script: "Latn"
+name: "Abron"
+autonym: "Brong"
+population: 1467010
+region: "GH"
+exemplar_chars {
+  base: "A B D E F G H I K L M N O P R S T U W Y Ɛ Ɔ a b d e f g h i k l m n o p r s t u w y ɛ ɔ"
+}

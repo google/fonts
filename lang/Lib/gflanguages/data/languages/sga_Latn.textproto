@@ -1,0 +1,21 @@
+id: "sga_Latn"
+language: "sga"
+script: "Latn"
+name: "Old Irish"
+population: 0
+region: "IE"
+sample_text {
+  masthead_full: "GgAa"
+  masthead_partial: "Ii"
+  styles: "Gainitir doini uili soir ocus cetnai isind"
+  tester: "Gainitir doini uili soir ocus cetnai isind airmitin ocus isnaib"
+  poster_sm: "Gainitir doini"
+  poster_md: "Gainitir"
+  poster_lg: "Gainitir"
+  specimen_48: "Gainitir doini uili soir ocus cetnai isind airmitin"
+  specimen_36: "Gainitir doini uili soir ocus cetnai isind airmitin ocus isnaib coirib. Taithiu etercnae ocus ingnae is eicen for cach a buith amal braithrea fri a cheile."
+  specimen_32: "Gainitir doini uili soir ocus cetnai isind airmitin ocus isnaib coirib. Taithiu etercnae ocus ingnae is eicen for cach a buith amal braithrea fri a cheile."
+  specimen_21: "Gainitir doini uili soir ocus cetnai isind airmitin ocus isnaib coirib. Taithiu etercnae ocus ingnae is eicen for cach a buith amal braithrea fri a cheile.\nGainitir doini uili soir ocus cetnai isind airmitin ocus isnaib coirib. Taithiu etercnae ocus ingnae is eicen for cach a buith amal braithrea fri a cheile."
+  specimen_16: "Gainitir doini uili soir ocus cetnai isind airmitin ocus isnaib coirib. Taithiu etercnae ocus ingnae is eicen for cach a buith amal braithrea fri a cheile.\nGainitir doini uili soir ocus cetnai isind airmitin ocus isnaib coirib. Taithiu etercnae ocus ingnae is eicen for cach a buith amal braithrea fri a cheile.\nGainitir doini uili soir ocus cetnai isind airmitin ocus isnaib coirib. Taithiu etercnae ocus ingnae is eicen for cach a buith amal braithrea fri a cheile.\nGainitir doini uili soir ocus cetnai isind airmitin ocus isnaib coirib. Taithiu etercnae ocus ingnae is eicen for cach a buith amal braithrea fri a cheile."
+}
+historical: true

@@ -1,0 +1,23 @@
+id: "ng_Latn"
+language: "ng"
+script: "Latn"
+name: "Ndonga"
+population: 552314
+region: "NA"
+exemplar_chars {
+  base: "A B D E F G H I J K L M N O P R S T U V W Y Z a b d e f g h i j k l m n o p r s t u v w y z"
+}
+sample_text {
+  masthead_full: "AaNn"
+  masthead_partial: "Tt"
+  styles: "Uuna mpoka pwa taambwa ko esimano lyomuntu"
+  tester: "Uuna mpoka uuthemba womuntu inaau simanekwa nowa dhinika e tau"
+  poster_sm: "Uuna mpoka"
+  poster_md: "Uuna aantu"
+  poster_lg: "Aantu"
+  specimen_48: "Uuna mpoka pe na euvoko Iyuuthemba mbuka nemanguluko nena osha"
+  specimen_36: "Omuntu kehe oku na uuthemba wokuvululukwa, osho wo okulonga ootundi dha yeleka nokukala e na omafudho ye ta futwa."
+  specimen_32: "Omuntu kehe oku na uuthemba welandulathano Iyopankalathano nolyomuuyuni moka uuthemba nemanguluko ndyoka Iya popiwa mOmushangwa nguka li na okugwanithwa."
+  specimen_21: "Inaku tolokwa nando sha meuvathano ndika kutya otashi gandja uuthemba kOshilongo kehe, ogundu yaantu okugandja uuthemba washa okwiitula miinima yi na elalakano Iyokuteya po uuthemba washa nemanguluko ndyoka Iya popiwa muka.\nUuna mpoka pwa taambwa ko esimano lyomuntu pavalo nuuthikepamwe osho wo uuthemba wopaumwene waantu ayehe yomezimo lyuuntu ogwo omukanka gwemanguluko, uuyuki nombili muuyuni."
+  specimen_16: "Uuna mpoka pwa taambwa ko esimano lyomuntu pavalo nuuthikepamwe osho wo uuthemba wopaumwene waantu ayehe yomezimo lyuuntu ogwo omukanka gwemanguluko, uuyuki nombili muuyuni.\nUuna mpoka uuthemba womuntu inaau simanekwa nowa dhinika e tau tanaukile monkalo yuupwidhi mboka tau yono po eiuvo lyuuntu nonkalo moka aantu taa ka nyanyukilwa nokukala ye na emanguluko lyokupopya neitaalo osho wo emanguluko kuutile nokoompumbwe ongoshilalakanenwa sha simana shaantu ayehe.\nUuna mpoka sha pumbiwa opo omuntu kaa thiminikwe a hogolole ongonkatu yahugunina opo a ninge oshipotha mokukondjitha uuhepeki nethiminiko, opo uuthemba wuuntu wu gamenwe pampango."
+}

@@ -1,0 +1,12 @@
+id: "bev_Latn"
+language: "bev"
+script: "Latn"
+name: "Bété, Daloa"
+population: 265000
+region: "CI"
+exemplar_chars {
+  base: "a A ä Ä b B {bh} {BH} c C d D e E ë Ë ɛ Ɛ f F g G {gb} {GB} {gh} {GH} i I ï Ï ɩ Ɩ j J k K {kp} {KP} l L m M n N {ng} {NG} {ny} {NY} o O ö Ö ɔ Ɔ p P s S t T u U v V ʋ Ʋ w W y Y z Z"
+  marks: "◌̈"
+  auxiliary: "h H q Q r R x X"
+}
+source: "SLDR"

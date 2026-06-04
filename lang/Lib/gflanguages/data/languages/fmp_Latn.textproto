@@ -1,0 +1,14 @@
+id: "fmp_Latn"
+language: "fmp"
+script: "Latn"
+name: "Fe’fe’"
+autonym: "Feʼfeʼ"
+population: 140000
+region: "CM"
+exemplar_chars {
+  base: "a A ɑ Ɑ b B c C d D e E ə Ə f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U ʉ Ʉ v V w W y Y z Z ʼ á Á à À ǎ Ǎ ā Ā {ɑ́} {Ɑ́} {ɑ̀} {Ɑ̀} {ɑ̌} {Ɑ̌} {ɑ̄} {Ɑ̄} é É è È ě Ě ē Ē {ə́} {Ə́} {ə̀} {Ə̀} {ə̌} {Ə̌} {ə̄} {Ə̄} í Í ì Ì ǐ Ǐ ī Ī ó Ó ò Ò ǒ Ǒ ō Ō {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̌} {Ɔ̌} {ɔ̄} {Ɔ̄} ú Ú ù Ù ǔ Ǔ ū Ū {ʉ́} {Ʉ́} {ʉ̀} {Ʉ̀} {ʉ̌} {Ʉ̌} {ʉ̄} {Ʉ̄}"
+  marks: "◌́ ◌̀ ◌̂ ◌̌ ◌̄"
+  auxiliary: "q Q r R x X"
+}
+source: "Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 75"
+source: "Wikipedia"

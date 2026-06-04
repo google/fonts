@@ -1,0 +1,21 @@
+id: "liv_Latn"
+language: "liv"
+script: "Latn"
+name: "Livonian"
+population: 0
+region: "LV"
+sample_text {
+  masthead_full: "AaMm"
+  masthead_partial: "Āā"
+  styles: "Amād rovzt attõ sindõnd brīd ja īdlizt eņtš"
+  tester: "Amād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks."
+  poster_sm: "Amād rovzt"
+  poster_md: "Amād rovzt"
+  poster_lg: "Amād"
+  specimen_48: "Amād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks"
+  specimen_36: "Amād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks. Näntõn um andtõd mūoštõks ja sidāmtundimi, ja näntõn um īdtuoisõ tuoimõmõst veļkub vaimsõ."
+  specimen_32: "Amād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks. Näntõn um andtõd mūoštõks ja sidāmtundimi, ja näntõn um īdtuoisõ tuoimõmõst veļkub vaimsõ."
+  specimen_21: "Amād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks. Näntõn um andtõd mūoštõks ja sidāmtundimi, ja näntõn um īdtuoisõ tuoimõmõst veļkub vaimsõ.\nAmād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks. Näntõn um andtõd mūoštõks ja sidāmtundimi, ja näntõn um īdtuoisõ tuoimõmõst veļkub vaimsõ."
+  specimen_16: "Amād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks. Näntõn um andtõd mūoštõks ja sidāmtundimi, ja näntõn um īdtuoisõ tuoimõmõst veļkub vaimsõ.\nAmād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks. Näntõn um andtõd mūoštõks ja sidāmtundimi, ja näntõn um īdtuoisõ tuoimõmõst veļkub vaimsõ.\nAmād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks. Näntõn um andtõd mūoštõks ja sidāmtundimi, ja näntõn um īdtuoisõ tuoimõmõst veļkub vaimsõ.\nAmād rovzt attõ sindõnd brīd ja īdlizt eņtš vǟrtitõks ja õigiztõks. Näntõn um andtõd mūoštõks ja sidāmtundimi, ja näntõn um īdtuoisõ tuoimõmõst veļkub vaimsõ."
+}
+historical: true

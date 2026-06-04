@@ -1,0 +1,26 @@
+id: "tw_akuapem_Latn"
+language: "tw"
+script: "Latn"
+name: "Akuapem Twi"
+population: 837000
+region: "GH"
+exemplar_chars {
+  base: "a A b B d D e E ɛ Ɛ f F g G h H i I k K l L m M n N o O ɔ Ɔ p P r R s S t T u U w W y Y"
+  auxiliary: "c C j J q Q v V z Z"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E Ɛ F G H I J K L M N O Ɔ P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "WwƆɔ"
+  masthead_partial: "Aa"
+  styles: "Wɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi."
+  tester: "Wɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi"
+  poster_sm: "Wɔawo adesamma"
+  poster_md: "Wɔawo"
+  poster_lg: "Wɔawo"
+  specimen_48: "Wɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne"
+  specimen_36: "Wɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom."
+  specimen_32: "Wɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom."
+  specimen_21: "Wɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom.\nWɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom.\nWɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom."
+  specimen_16: "Wɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom.\nWɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom.\nWɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom.\nWɔawo adesamma nyinaa sɛ nnipa a wɔwɔ ahofadi. Wɔn nyinaa wɔ nidi ne kyɛfa koro. Wɔwɔ adwene ne ahonim, na ɛsɛ sɛ wobu wɔn ho wɔn ho sɛ anuanom."
+}

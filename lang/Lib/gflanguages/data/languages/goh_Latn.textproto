@@ -1,0 +1,21 @@
+id: "goh_Latn"
+language: "goh"
+script: "Latn"
+name: "Old High German"
+population: 0
+region: "DE"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "Alle menniscon sint frī unti gilīh ana wirdī"
+  tester: "Alle menniscon sint frī unti gilīh ana wirdī unti rehten giboran."
+  poster_sm: "Alle menniscon"
+  poster_md: "Alle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen"
+  poster_lg: "Alle"
+  specimen_48: "Alle menniscon sint frī unti gilīh ana wirdī unti rehten"
+  specimen_36: "Alle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen."
+  specimen_32: "Alle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen."
+  specimen_21: "Alle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen.\nAlle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen."
+  specimen_16: "Alle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen.\nAlle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen.\nAlle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen.\nAlle menniscon sint frī unti gilīh ana wirdī unti rehten giboran. Siu sint mit fernumeste unti giwizzani giōtag unti sculan einandar in them geiste ther bruoderscaf bigaganen."
+}
+historical: true

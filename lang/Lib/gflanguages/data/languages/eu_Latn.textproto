@@ -1,0 +1,30 @@
+id: "eu_Latn"
+language: "eu"
+script: "Latn"
+name: "Basque"
+autonym: "Euskara"
+population: 1088518
+region: "ES"
+region: "FR"
+exemplar_chars {
+  base: "A B C Ç D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z a b c ç d e f g h i j k l m n ñ o p q r s t u v w x y z"
+  auxiliary: "Á À Ă Â Å Ä Ã Ā Æ É È Ĕ Ê Ë Ē Í Ì Ĭ Î Ï Ī Ó Ò Ŏ Ô Ö Ø Ō Œ Ú Ù Ŭ Û Ü Ū Ÿ á à ă â å ä ã ā æ é è ĕ ê ë ē í ì ĭ î ï ī ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū ÿ"
+  marks: "◌̃ ◌̈"
+  numerals: ", . % + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "GgIi"
+  masthead_partial: "Zz"
+  styles: "Kontuan izanik munduko askatasuna, justizia"
+  tester: "Kontuan izanik giza eskubideak ez ezagutzearen eta gutxiestearen"
+  poster_sm: "Kontuan izanik"
+  poster_md: "UNIBERTSAL"
+  poster_lg: "guztiak"
+  specimen_48: "Herri eta nazio guztiek izan beharreko jomuga legez, bai norbanakoek"
+  specimen_36: "Inor ez da izango besteren esklabu edo uztarpeko; debekatuta dago esklabutza eta esklabuen salerosketa oro."
+  specimen_32: "Pertsona orori dagozkio atsedenerako eskubidea, aisiarakoa, lanaldiaren iraupen mugatua izatekoa eta aldian-aldian ordaindutako oporrak izatekoa."
+  specimen_21: "Pertsona guztiei dagokien eskubidea da, Aldarrikapen honetan azaldutako eskubide eta askatasunak era eraginkorrean garatuko dituen gizarte mailako eta nazioarteko ordena ezar dadin.\nAldarrikapen honetan jasotako ezertan ezingo da ulertu Estatuari edo talde edo norbanakoren bati Aldarrikapen honetan bertan adierazitako edozein eskubide eta askatasun deuseztatzeko ekintzak edo ihardunak burutzeko eskubidea ematen zaionik."
+  specimen_16: "Kontuan izanik munduko askatasuna, justizia eta bakea giza familiako kide guztien berezko duintasunean eta eskubide berdin eta ukaezinetan oinarritzen direla;\nKontuan izanik giza eskubideak ez ezagutzearen eta gutxiestearen ondorioz, giza kontzientziari irain egiten dioten basakeriak gertatu izan direla; eta gizon-emakumeek, beldur eta gabezia orotik aske, hitz egiteko askatasuna eta sinesmen-askatasuna izango dituzten munduaren etorrera aldarrikatu dela gizakiaren helburu nagusi;\nKontuan izanik ezinbestekoa dela giza eskubideak zuzenbidezko erregimen batek babestea, gizakia-tirania eta zapalkuntzaren aurkako azken irtenbidea den matxinadara jo beharrean aurkitu ez dadin;"
+}

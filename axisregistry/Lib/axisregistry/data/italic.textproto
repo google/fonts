@@ -1,0 +1,21 @@
+# ital based on https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_ital
+tag: "ital"
+display_name: "Italic"
+min_value: 0
+max_value: 1
+default_value: 0
+precision: 0
+fallback {
+  name: "Roman"
+  value: 0
+}
+fallback {
+  name: "Italic"
+  value: 1
+}
+fallback_only: true
+illustration_url: "italic.svg"
+description:
+  "Adjust the style from roman to italic. This can be provided as"
+  " a continuous range within a single font file, like most axes, or as a"
+  " toggle between two roman and italic files that form a family as a pair."

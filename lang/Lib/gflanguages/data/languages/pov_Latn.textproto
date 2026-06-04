@@ -1,0 +1,30 @@
+id: "pov_Latn"
+language: "pov"
+script: "Latn"
+name: "Crioulo, Upper Guinea"
+region: "GW"
+region: "GM"
+region: "SN"
+region: "US"
+region: "NL"
+region: "PT"
+population: 541000
+exemplar_chars {
+  base: "a A b B {ch} {CH} d D {dj} {DJ} e E f F g G {gu} {GU} i I j J k K l L {li} {LI} m M n N {nh} {NH} {n’} {N’} ñ o O p P r R s S t T {tch} {TCH} u U v V x X z Z"
+  auxiliary: "h H q Q w W y Y"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Dd"
+  styles: "Tudu pekaduris ta padidu libri i igual na"
+  tester: "Tudu pekaduris ta padidu libri i igual na balur suma na diritus."
+  poster_sm: "Tudu pekaduris"
+  poster_md: "Tudu"
+  poster_lg: "Tudu"
+  specimen_48: "Tudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma"
+  specimen_36: "Tudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons."
+  specimen_32: "Tudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons."
+  specimen_21: "Tudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons.\nTudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons."
+  specimen_16: "Tudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons.\nTudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons.\nTudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons.\nTudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons."
+}
+source: "Luigi Scantamburlo, Proposta de Grafia para o Crioulo Guineense, 1999"

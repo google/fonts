@@ -1,0 +1,11 @@
+id: "bjt_Latn"
+language: "bjt"
+script: "Latn"
+name: "Balanta-Ganja"
+population: 95992
+region: "SN"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ d D e E f F g G h H i I j J l L m M n N ñ Ñ ŋ Ŋ o O r R s S t T ŧ Ŧ u U w W y Y"
+  auxiliary: "c C k K p P q Q v V x X z Z"
+}
+source: "République du Sénégal, Décret no 2005-979 relatif à l’orthographe et la séparation des mots en balant, 21 octobre 2005"

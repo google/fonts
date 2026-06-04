@@ -1,0 +1,28 @@
+id: "rm_Latn"
+language: "rm"
+script: "Latn"
+name: "Romansh"
+autonym: "Rumantsch"
+population: 42019
+region: "CH"
+exemplar_chars {
+  base: "A À B C D E É È F G H I Ì J K L M N O Ò P Q R S T U Ù V W X Y Z a à b c d e é è f g h i ì j k l m n o ò p q r s t u ù v w x y z"
+  auxiliary: "Á Ă Â Å Ä Ā Æ Ç Ĕ Ê Ë Ē Í Ĭ Î Ï Ī Ñ Ó Ŏ Ô Ö Ø Ō Œ Ú Ŭ Û Ü Ū Ÿ á ă â å ä ā æ ç ĕ ê ë ē í ĭ î ï ī ñ ó ŏ ô ö ø ō œ ú ŭ û ü ū ÿ"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  numerals: ". ’ % + − 0 1 2 3 4 5 6 7 8 9"
+  index: "A À B C D E É È F G H I Ì J K L M N O Ò P Q R S T U Ù V W X Y Z"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Oo"
+  styles: "Considerand cha l\'arcugnuschentscha da la"
+  tester: "Considerand cha la mancanza da la cugnuschentscha e\'l spredsch"
+  poster_sm: "Considerand"
+  poster_md: "proclama"
+  poster_lg: "Tuots"
+  specimen_48: "sco l\'ideal cumünaivel dad obtgnair per tuot ils pövels e tuot"
+  specimen_36: "Ingün nu po gnir tgnü in sclavitüd o in servitüd; sclavitüd e commerzi da sclavs sun scumandats in tuot lur appariziuns."
+  specimen_32: "Mincha persuna ha il dret ad ün uorden social ed internaziunal, i\'l qual ils drets e las libertats manzunats illa Decleranza preschainta pon gnir realisats plainamaing."
+  specimen_21: "Ingüna disposiziun da la Decleranza preschainta nu po gnir interpretada in quel sen chi resultess landroura per ün stadi, per üna gruppa o per üna persuna qualunque dret da pratichar una actività o dad accumplir ün fat chi vessan per mera da desdrüer ils drets e las libertats manzunadas in quista Decleranza."
+  specimen_16: "Considerand cha l\'arcugnuschentscha da la dignità immanenta in tuot ils members da la famiglia umana e da lur drets eguals ed inalienabels constituischa la fundamainta da la libertà, da la guistia e da la pasch in quist muond.\nConsiderand cha la mancanza da la cugnuschentscha e\'l spredsch dals drets da l\'uman han manà a fats da barbarissem chi offendan la conscienza da l\'umanità e cha la fuormaziun d\'ün muond, ingio cha\'ls umans saran libers da discuorrer e da crajer, liberats da la temma e da la misiergia, es gnu proclamà sco la mera la plü ota da l\'uman,\nConsiderand chi\'d es important, cha\'ls drets da l\'uman vegnan protets d\'ün regimaint da dret, per cha l\'uman nu vegna sforzà sco ultim mez a la revolta cunter la tirannia e l\'oppressiun,"
+}

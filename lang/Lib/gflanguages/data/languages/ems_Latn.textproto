@@ -1,0 +1,13 @@
+id: "ems_Latn"
+language: "ems"
+script: "Latn"
+name: "Alutiiq"
+autonym: "Sugt’stun"
+population: 80
+region: "US"
+exemplar_chars {
+  base: "A C E F G H I K L M N P R S T U W Y a c e f g h i k l m n p r s t u w y ʀ"
+}
+source: "April G.L. Counceller, Jeff Leer, The Alutiiq orthography: Kodiak dialect, Alutiiq Heritage Foundation, 2012, ISBN 978-1-929650-09-5"
+source: "Wikipedia"
+source: "Omniglot"

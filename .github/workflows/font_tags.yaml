@@ -1,0 +1,30 @@
+# Check font tags
+name: Check font tags
+
+on:
+  push:
+    paths:
+    - 'tags/all/families.csv'
+  pull_request:
+    paths:
+    - 'tags/all/families.csv'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test_font_tags:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: pip install pytest requests
+    - name: Check font tags
+      run: |
+        pytest .ci/test_font_tags.py

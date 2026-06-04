@@ -1,0 +1,13 @@
+id: "bfo_Latn"
+language: "bfo"
+script: "Latn"
+name: "Malba Birifor"
+autonym: "bɩrfʋɔr"
+population: 108000
+region: "BF"
+exemplar_chars {
+  base: "A Ã B Ɓ C D E Ẽ Ɛ {Ɛ̃} F G H I Ĩ Ɩ {Ɩ̃} J K L M N O Õ Ɔ {Ɔ̃} P R S T U Ũ Ʋ {Ʋ̃} V W Y Ƴ a ã b ɓ c d e ẽ ɛ {ɛ̃} f g h i ĩ ɩ {ɩ̃} j k l m n o õ ɔ {ɔ̃} p r s t u ũ ʋ {ʋ̃} v w y ƴ"
+  marks: "◌̃"
+}
+source: "Wikipedia"
+source: "https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages"

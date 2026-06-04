@@ -1,0 +1,17 @@
+id: "kib_Latn"
+language: "kib"
+script: "Latn"
+name: "Koalib"
+population: 150000
+region: "SD"
+exemplar_chars {
+  base: "a A b B c C d D ḏ Ḏ e E ə Ə f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R ɽ Ɽ s S t T ṯ Ṯ u U w W y Y z Z"
+  auxiliary: "à À á Á â Â ǎ Ǎ ɐ Ɐ {ɐ̀} {Ɐ̀} {ɐ́} {Ɐ́} {ɐ̂} {Ɐ̂} đ Đ è È é É ê Ê ě Ě ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} ò Ò ó Ó ô Ô ǒ Ǒ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} ţ Ţ ù Ù ú Ú û Û ǔ Ǔ v V x X @ ⓐ Ⓐ"
+  marks: "◌̀ ◌́ ◌̂ ◌̌ ◌̧ ◌̱"
+}
+note: "Quint 2009 indicates there is no standardized orthography. @ has been used as a letter in Bible Society of Sudan 1993 and other material. Unicode has rejected proposals to encode an uppercase or a new case pair and recommended using ⓐ Ⓐ instead. Earlier orthographies, such as that used in Bible Society of Sudan 1967, did not use the letter at. Quint 2006, Quint 2009 and other material use a phonologically-based transcription system, notably with ɐ, ɛ, ţ or accents on vowels. Kuku 2020 uses đ, other material does not as it represents the intervocalic realisation of /t/ which they transcribe with t."
+source: "https://www.unicode.org/review/resolved-pri.html#pri40"
+source: "Ismail Badur Kuku, Koalib Langue Lesson 2 (and Revision of lesson 1), Youtube, 2020"
+source: "Nicolas Quint, La phonologie de la langue koalib, Paris: L’Harmattan, 2006"
+source: "Nicolas Quint (in collaboration with Siddig A. Kokko), The Phonology of Koalib a Kordofanian Language of the Nuba Mountains (Sudan) = Tɔ́kwɽɔ́ tètè kànţècá kètè kwɐ̀ɐlîp, Köln: Rüdiger Köppe, 2009"
+source: "Antoine de Saint-Exupery, Nicolas Quint, Siddig Kurmali (Ali Karmal Koko), Ţɛ̀ɛlέny Ţɔ̀kkwóɽɔ̀ny, Tintenfaß, 2016"

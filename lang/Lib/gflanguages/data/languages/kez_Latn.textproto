@@ -1,0 +1,11 @@
+id: "kez_Latn"
+language: "kez"
+script: "Latn"
+name: "Kukele"
+population: 200000
+region: "NG"
+exemplar_chars {
+  base: "a A à À á Á b B c C d D e E è È é É ɛ Ɛ f F g G h H i I ì Ì í Í j J k K l L m M n N o O ò Ò ó Ó ɔ Ɔ p P r R s S t T u U ù Ù ú Ú v V w W y Y z Z"
+  marks: "◌̀ ◌́"
+  auxiliary: "q Q x X"
+}

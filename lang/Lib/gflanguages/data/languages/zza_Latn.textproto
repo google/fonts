@@ -1,0 +1,26 @@
+id: "zza_Latn"
+language: "zza"
+script: "Latn"
+name: "Zaza"
+preferred_name: "Dimli"
+autonym: "Dimlî"
+population: 1148245
+region: "TR"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Û Ü Ş Ǧ a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ"
+  marks: "◌̂ ◌̇ ◌̈ ◌̌ ◌̧"
+}
+sample_text {
+  masthead_full: "PpÊê"
+  masthead_partial: "Rr"
+  styles: "Pêr însanî azad û rûmet û mafan de seyyewbîno"
+  tester: "Pêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê"
+  poster_sm: "Pêr însanî"
+  poster_md: "Pêr însanî"
+  poster_lg: "Pêr"
+  specimen_48: "Pêr însanî azad û rûmet û mafan de seyyewbîno yenî"
+  specimen_36: "Pêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî."
+  specimen_32: "Pêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî."
+  specimen_21: "Pêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî.\nPêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî.\nPêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî."
+  specimen_16: "Pêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî.\nPêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî.\nPêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî.\nPêr însanî azad û rûmet û mafan de seyyewbîno yenî dunya. Ê wayerê aqil û wijdan î û ganî pê yewbîno verê be zihniyetêda birayîyê biluwenî."
+}

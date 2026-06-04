@@ -1,0 +1,12 @@
+id: "ikw_Latn"
+language: "ikw"
+script: "Latn"
+name: "Ikwere"
+population: 717000
+region: "NG"
+exemplar_chars {
+  base: "a A b B c C d D e E ẹ Ẹ f F g G h H i I ị Ị j J k K l L m M n N ṅ Ṅ o O ọ Ọ p P r R s S t T u U ụ Ụ v V w W y Y z Z à À è È {ẹ̀} {Ẹ̀} ì Ì {ị̀} {Ị̀} {m̀} {M̀} ǹ Ǹ ò Ò {ọ̀} {Ọ̀} ù Ù {ụ̀} {Ụ̀} á Á é É {ẹ́} {Ẹ́} í Í {ị́} {Ị́} ḿ Ḿ ń Ń ó Ó {ọ́} {Ọ́} ú Ú {ụ́} {Ụ́} â Â ê Ê ệ Ệ î Î {ị̂} {Ị̂} {m̂} {M̂} {n̂} {N̂} ô Ô ộ Ộ û Û {ụ̂} {Ụ̂} ā Ā ē Ē {ẹ̄} {Ẹ̄} ī Ī {ị̄} {Ị̄} {m̄} {M̄} {n̄} {N̄} ō Ō {ọ̄} {Ọ̄} ū Ū {ụ̄} {Ụ̄}"
+  marks: "◌́ ◌̀ ◌̂ ◌̄ ◌̇ ◌̣"
+  auxiliary: "q Q x X"
+}
+source: "S. O. Donwa-Ifode & S. A. Ekwulo, “Ikwere orthography”, R. N. Agheyisi, Orthographies of Nigerian Languages, Manual V, Lagos, National Language Centre, 1987, p. 39-56"

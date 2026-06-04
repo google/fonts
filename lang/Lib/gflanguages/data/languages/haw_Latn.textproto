@@ -1,0 +1,28 @@
+id: "haw_Latn"
+language: "haw"
+script: "Latn"
+name: "Hawaiian"
+autonym: "’Olelo Hawai’i"
+population: 29604
+region: "US"
+exemplar_chars {
+  base: "A Ā E Ē I Ī O Ō U Ū H K L M N P W a ā e ē i ī o ō u ū h k l m n p w ʻ"
+  auxiliary: "B C D F G J Q R S T V X Y Z b c d f g j q r s t v x y z"
+  marks: "◌̄"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A E I O U B C D F G H J K L M N P Q R S T V W ʻ X Y Z"
+}
+sample_text {
+  masthead_full: "HhĀā"
+  masthead_partial: "Nn"
+  styles: "‘Oiai, ‘o ka ho’omaopop ‘ana i ka hanohano, a me"
+  tester: "‘Oiai, ‘o ka hehikū a me ka ho’owahāwahā i ka pono kīvila o ke kanaka"
+  poster_sm: "‘Oiai, he mea"
+  poster_md: "‘Oiai, ‘o ka"
+  poster_lg: "Hānau"
+  specimen_48: "No laila, ke KUAHAUA nei KA ‘AHA ‘ŌLELO, ‘o ka HŌ’IKE I NĀ PONO KĪVILA"
+  specimen_36: "‘A’ole e noho kauā kaupa’a ke kanaka; ua pāpā ‘ia ka noho kauā kuapa’a, a me ka ho’okuapa’a ‘ana ma nā ‘ano apau loa."
+  specimen_32: "Ua noa i nā kānaka apau ka ho’oponopono ‘ia ‘ana e ka ‘aha lunakānāwai mākaukau o ke aupuni, o nā hana a ‘a’e ana i kona pono kīvila i hō’ike ‘ia ma ke kumukānāwai."
+  specimen_21: "‘A’ole e hopu, ho’opa’ahao, a ho’okuewa wale ‘ia ke kanaka me ke kumu ‘ole.\nUa noa i nā kānaka apau e ho’okolokolo pono ‘ia i mua o ka lehulehu e ka ‘aha lunakānāwai kū’oko’a a kaulike ho’i, no ka ho’oholo ‘ana i ka pono kīvila a me ke kuleana, a me nā mea i ho’opi’i ‘ia iā ia.\n‘A ‘ole e ‘āke’ake’a kumu ‘ole ‘ia nā mea pilikino, ka ‘ohana, ka home, a me ka ho’olaha ‘ike o ke kanaka, ‘a’ole ho’i e ho’āhewa wale ‘ia kona hanohano a me kona kūlana. Ua noa i nā kānaka apau ka palekana o ke kānāwai i ke ‘āke’ake’a a me ka ho’āhewa wale ‘ia."
+  specimen_16: "Ua noa i nā kānaka apau ke kū’oko’a o ka mana’o, ka luna’ikehala, a me ka ho’omana; ua noa nō ho’i ka ho’ololi ‘ana i kona ho’omana a i ‘ole kona mana’o, a ua noa ho’i i ke kanaka ho’okahi, a i ‘ole nā kānaka he nui ka hō’ike ‘ana i ka paulele i ka ho’omana, i mua o ka lehulehu a i ‘ole ma kahi ka’awale, ma o ke a’o a me ka haipule ‘ana i kona akua.\nUa noa i nā kānaka apau ke kū’oko’a o ka mana’o a me ka hō’ike ‘ana i ka mana’o; ‘a’ole ho’i e ho’opilikia ‘ia, a ua noa ho’i ka ‘imi, ka loa’a, a me ka ho’olaha ‘ana aku i ka ‘ike ma nā ‘ano apau, a i ‘ō aku ho’i o nā palena ‘āina apau.\nUa noa i nā kānaka apau ka ho’omaha a me ka luana ‘ana, a me nā hola hana i kaupalena pono ‘ia, a e uku ‘ia o ia no kekahi mau lā nui o ka makahiki."
+}

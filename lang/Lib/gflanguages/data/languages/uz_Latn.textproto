@@ -1,0 +1,30 @@
+id: "uz_Latn"
+language: "uz"
+script: "Latn"
+name: "Uzbek"
+autonym: "O‘zbekcha"
+population: 26480135
+region: "TM"
+region: "TR"
+region: "UZ"
+exemplar_chars {
+  base: "A B D E F G H I J K L M N O P Q R S T U V X Y Z {Oʻ} {Gʻ} {SH} {CH} a b d e f g h i j k l m n o p q r s t u v x y z {oʻ} {gʻ} {sh} {ch} ʼ"
+  auxiliary: "Á À Ă Â Å Ä Ã Ā Æ C Ç É È Ĕ Ê Ë Ē Í Ì Ĭ Î Ï Ī Ñ Ó Ò Ŏ Ô Ö Ø Ō Œ Ú Ù Ŭ Û Ü Ū W Ÿ á à ă â å ä ã ā æ c ç é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū w ÿ"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B D E F G H I J K L M N O P Q R S T U V X Y Z {Oʻ} {Gʻ} {Sh} {Ch}"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Rr"
+  styles: "Inson oilasi barcha aʼzolariga hos boʻlgan"
+  tester: "Inson huquqlarini mensimaslik va oyoq-osti qilish odamzod vijdonini"
+  poster_sm: "Inson soʻnggi"
+  poster_md: "Xalqlar"
+  poster_lg: "Barcha"
+  specimen_48: "Birlashgan Millatlarning xalqlari Ustavda insonning"
+  specimen_36: "Hech kim qullikda yoki qaramlikda saqlanishi mumkin emas; qullik va qul savdosining barcha turlari taqiqlanadi."
+  specimen_32: "Hech kim azob-uqubatga yoki vahshiylarcha, insonlikka isnod boʻlgan yoki qadr-qimmatni xoʻrlaydigan muomala va jazoga mustahiq boʻlmasligi kerak."
+  specimen_21: "Har bir inson, qayerda boʻlishidan qatʼi nazar, oʻzining huquq subyekti sifatida tan olinishi huquqiga egadir.\nBarcha odamlar qonun oldida tengdir va, sira ayirmachiliksiz, qonun tomonidan babbaravar muhofaza etilishi huquqiga egadir. Barcha odamlar mazkur Deklaratsiyani buzadigan har qanday kamsitishidan teng muhofaza qilinish huquqiga va ana shunday kamsitishga gij-gijlashdan teng muhofaza qilinish huquqiga egadirlar."
+  specimen_16: "Har bir inson, mabodo uning konstitutsiya yoki qonun berib qoʻygan asosiy huquqlari buzilgudek boʻlsa, nufuzli milliy sud tomonidan oʻz huquqlarining samarali tarzda tiklanishi huquqiga egadir.\nHech kim oʻzboshimchalik bilan qamalishi, ushlanishi yoki quvgʻin qilinishi mumkin emas.\nHar bir inson, uning huquqlari va burchlarini belgilash va unga qoʻyilgan jinoiy aybning nechogʻligi asoslanganligini aniqlash uchun, batamom tenglik asosida, oʻz ishi oshkora, adolatning barcha talablariga rioya etilib, mustaqil va xolis sud tomonidan koʻrib chiqilishi huquqiga egadir."
+}

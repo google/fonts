@@ -1,0 +1,9 @@
+id: "fuq_Latn"
+language: "fuq"
+script: "Latn"
+name: "Central-Eastern Niger Fulfulde"
+population: 1594068
+region: "NE"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U W Y X Ŋ Ƴ Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ"
+}

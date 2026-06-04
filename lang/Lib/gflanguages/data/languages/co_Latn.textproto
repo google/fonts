@@ -1,0 +1,25 @@
+id: "co_Latn"
+language: "co"
+script: "Latn"
+name: "Corsican"
+autonym: "Corsu"
+population: 162835
+region: "FR"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È Ì Ï Ü Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ï ü ò ù"
+  marks: "◌̀ ◌̂ ◌̈"
+}
+sample_text {
+  masthead_full: "NnAa"
+  masthead_partial: "Ss"
+  styles: "Cunsidarendu ch’ellu ci voli à ricunnoscia"
+  tester: "Cunsidarendu chì, ùn cunniscendu o sprizzendu i diritti di l’omu,"
+  poster_sm: "Cunsidarendu"
+  poster_md: "cum’è fini"
+  poster_lg: "Nascinu"
+  specimen_48: "Nascinu tutti l’omi libari è pari di dignità è di diritti. Pussedinu"
+  specimen_36: "In la schiavitù o in la sirvitù ùn sarà tinutu nimu; sò pruibiti a schiavitù è u cumerciu di i schiavi in qualunqua forma."
+  specimen_32: "Hà dirittu ogni parsona à u riposu è à u tempu libaru, vali à dì ch’ellu ùn devi essa troppu u so tempu di travagliu, è ch’ella devi avè i vacanzi à tempi fissi."
+  specimen_21: "Ogni parsona hà dirittu ch’ellu regni, in la sucità è trà i Stati, un ordini chì dessi tuttu u so pesu à i diritti è libertà ch’ella sprimi issa dichjarazioni.\nNisuna dispusizioni d’issa dichjarazioni pò essa capita cum’è s’ella dessi ad unu Statu, ad un gruppu o ad u individuu un dirittu qualunqua d’avè una attività o d’agiscia cù u scopu di fà spariscia i diritti è i libertà chì ci si trovanu scritti."
+  specimen_16: "Cunsidarendu ch’ellu ci voli à ricunnoscia a dignità propria di tutti i membri di a famiglia umana è i so diritti pari ed inalienabili par ch’elli sianu fundati a libertà, a ghjustizia è a paci ind’u mondu,\nCunsidarendu chì, ùn cunniscendu o sprizzendu i diritti di l’omu, si hè ghjuntu à atti barbari chì a cuscenza umana ni hè rivultata, è ch’ella hè stata chjamata a spiranza più alta di l’omu quilla di fà nascia un mondu duva elli saranu libari l’omi di parlà è di creda, libarati da u tarrori è da e miseria,\nCunsidarendu ch’ella hè una primura maiò ch’elli sianu prutetti i diritti di l’omu da un guvernu di dirittu, da ch’ellu ùn sia custrettu l’omu, ghjuntu à i punti stremi, à rivultà si contru à a tirannia è l’upprissioni,"
+}

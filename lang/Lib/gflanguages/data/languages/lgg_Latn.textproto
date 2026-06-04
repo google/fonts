@@ -1,0 +1,13 @@
+id: "lgg_Latn"
+language: "lgg"
+script: "Latn"
+name: "Lugbara"
+population: 2200000
+region: "CD"
+region: "UG"
+exemplar_chars {
+  base: "a A b B {’b} {’B} c C d D {’d} {’D} e E f F g G {gb} {GB} h H {hw} {HW} ’ i I ɨ Ɨ j J k K l L m M {mb} {MB} {mgb} {MGB} {mv} {MV} n N {nd} {ND} {ndr} {NDR} {ng} {NG} {ny} {NY} {nz} {NZ} ŋ Ŋ o O p P r R s S t T u U ʉ Ʉ v V w W {’w} {’W} y Y {’y} {’Y} z Z à À è È ì Ì {ɨ̀} {Ɨ̀} ò Ò ù Ù {ʉ̀} {Ʉ̀} á Á é É í Í {ɨ́} {Ɨ́} ó Ó ú Ú {ʉ́} {Ʉ́} ǎ Ǎ ě Ě ǐ Ǐ {ɨ̌} {Ɨ̌} ǒ Ǒ ǔ Ǔ {ʉ̌} {Ʉ̌} â Â ê Ê î Î {ɨ̂} {Ɨ̂} ô Ô û Û {ʉ̂} {Ʉ̂}"
+  marks: "◌̀ ◌́ ◌̌ ◌̂ ◌̈"
+  auxiliary: " ä Ä ɛ Ɛ ɩ Ɩ ɔ Ɔ q Q ʋ Ʋ ʊ Ʊ x X"
+}
+source: "Lugbarati Language Board, Lʉ́gbàràti orthography guide, 2013"

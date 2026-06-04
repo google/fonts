@@ -1,0 +1,11 @@
+id: "sok_Latn"
+language: "sok"
+script: "Latn"
+name: "Sokoro"
+population: 5000
+region: "TD"
+exemplar_chars {
+  base: "a A á Á b B ɓ Ɓ c C d D ɗ Ɗ e E ɛ Ɛ ə Ə g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U w W y Y ƴ Ƴ"
+  marks: "◌́ ◌̰"
+  auxiliary: "f F q Q v V x X z Z"
+}

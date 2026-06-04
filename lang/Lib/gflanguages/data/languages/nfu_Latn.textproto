@@ -1,0 +1,15 @@
+id: "nfu_Latn"
+language: "nfu"
+script: "Latn"
+name: "Mfumte"
+population: 79000
+region: "CM"
+exemplar_chars {
+  base: "a A à À á Á â Â ǎ Ǎ b B {ch} {CH} d D {dz} {DZ} e E è È é É ê Ê ě Ě ə Ə {ə̀} {Ə̀} {ə́} {Ə́} {ə̂} {Ə̂} {ə̌} {Ə̌} f F g G {gb} {GB} {gh} {GH} h H ’ i I ì Ì í Í î Î ǐ Ǐ ɨ Ɨ {ɨ̀} {Ɨ̀} {ɨ́} {Ɨ́} {ɨ̂} {Ɨ̂} {ɨ̌} {Ɨ̌} j J k K {kp} {KP} l L m M n N {ny} {NY} ŋ Ŋ o O ò Ò ó Ó ô Ô ǒ Ǒ ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} ø Ø {ø̀} {Ø̀} ǿ Ǿ {ø̂} {Ø̂} {ø̌} {Ø̌} p P r R s S {sh} {SH} t T {ts} {TS} u U ù Ù ú Ú û Û ǔ Ǔ ʉ Ʉ {ʉ̀} {Ʉ̀} {ʉ́} {Ʉ́} {ʉ̂} {Ʉ̂} {ʉ̌} {Ʉ̌} v V w W {wy} {WY} y Y z Z {zh} {ZH}"
+  marks: "◌̀ ◌́ ◌̂ ◌̌"
+  auxiliary: "c C q Q x X"
+  index: "A B {CH} D {DZ} E Ə F G {GB} {GH} H ’ I Ɨ J K {KP} L M N {NY} Ŋ O Ɔ Ø P R S {SH} T {TS} U Ʉ V W {WY} Y Z {ZH}"
+}
+source: "Robert Ernst Ulfers, A Practical Study of the Orthography of Compound Words in the Karang Language, 2000"
+source: "Robert Ernst Ulfers, Dictionnaire karang - français, 2007"
+

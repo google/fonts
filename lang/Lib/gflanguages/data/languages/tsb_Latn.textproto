@@ -1,0 +1,12 @@
+id: "tsb_Latn"
+language: "tsb"
+script: "Latn"
+name: "Tsamai"
+population: 51000
+region: "ET"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z ’"
+  auxiliary: "ʕ ʼ"
+}
+note: "Two distinct practical orthographies are used, SIL uses one in its literacy project, Graziano Savà & Pavel Mikeš use an another in their folktales project."
+source: "Graziano Savà, “Transcription and orthography in two endangered languages of Ethiopia: Ts’amakko and Ongota”, in Ilaria Micheli, Flavia Aiello, Maddalena Toscano, Amelia Pensabene, ATrA 7. Language and Identity Theories and experiences in lexicography and linguistic policies in a global world, EUT Edizioni Università di Trieste, 2021"

@@ -1,0 +1,16 @@
+id: "mgo_Latn"
+language: "mgo"
+script: "Latn"
+name: "Metaʼ"
+preferred_name: "Meta’"
+autonym: "Mɨta’"
+population: 130401
+region: "CM"
+exemplar_chars {
+  base: "a A à À b B {ch} {CH} d D e E è È ə Ə {ə̀} {Ə̀} f F g G {gh} {GH} i I ì Ì j J k K m M n N ŋ Ŋ o O ò Ò ɔ Ɔ {ɔ̀} {Ɔ̀} p P r R s S t T u U ù Ù w W y Y z Z ʼ"
+  auxiliary: "c C h H l L q Q v V x X"
+  marks: "◌̀"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: ", ; : ! ? . \' ‘ ’ \" “ ”"
+  index: "A B {CH} D E Ə F G {GH} I J K M N Ŋ O Ɔ P R S T U W Y Z ʼ"
+}

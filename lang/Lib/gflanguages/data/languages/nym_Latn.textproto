@@ -1,0 +1,23 @@
+id: "nym_Latn"
+language: "nym"
+script: "Latn"
+name: "Nyamwezi"
+population: 1932242
+region: "TZ"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I J L M N Ŋ O Ɔ P S T U V W Z a b d e ɛ f g h i j l m n ŋ o ɔ p s t u v w z"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Nn"
+  styles: "NGUNO Ubumanicha kubi banhu bose balin’ikujo"
+  tester: "NGUNO ukwihugija na kuleka kulondalonga haki ja banhu huko kwenheleja"
+  poster_sm: "NGUNO giki"
+  poster_md: "NGUNO kinhu"
+  poster_lg: "Banhu"
+  specimen_48: "NGUNO u ng’w’Ilagilo banhu ba mahanga bizunilija giki i haki ja"
+  specimen_36: "NGUNO banhu bose kumanicha wiyagalule na haki jinijo hu kinhu cha kwendya umu kuzimanicha kisoga na malagilo genayo."
+  specimen_32: "Kila munhu wina wiyagalule wa kuyomba isho aliganika bila kwingililwa na munhu bungi, kubokela na kusambaja mhola na miganika ga bangi ku nzila ya kwandika na kutangaja."
+  specimen_21: "Kila ng’wene mu kaya ina haki ya kulabadwa na kupiwa nsabo ja nsi kubitila wizunilija wa nsi na mahanga gose hu aweje kuhangama.\nKila munhu wina haki ya kwisuhya na kuyega hakimo na kupandika ninga ya kwisuhya na ninga ya kulipwa.\nKila munhu apiwe haki na wiyagalule giti umo Ihano linili lilihaya.\nNduhu nsi, luganda nulu munhu alatumile il’Ihano linili kukenanga haki na wiyagalule ubo wabalwa ng’w’Ihano linili."
+  specimen_16: "NGUNO Ubumanicha kubi banhu bose balin’ikujo na haki ja bulinganile hu chandyo cha kwiyagalula, kwenha haki na lubango,\nNGUNO ukwihugija na kuleka kulondalonga haki ja banhu huko kwenheleja mashito magakanazu ga kudacha na kumala masala banhu kukoba welelo i ya banhu bose balabi na buyegi wa kwiyagalula, kuyomba, kwinja boba na kupandika shose isho bushikobaga,\nNGUNO giki ulu abanhu bakasaziwagwa kuhaya basole mashilanga kuzitula bushimba, kulema kwibonelwa na bahanya ba nsi Ilagilo lya Nsi lilabade haki jabo,\nNGUNO kinhu kihannya hu kubejja na kukuja bunwani na nsi zingi,"
+}

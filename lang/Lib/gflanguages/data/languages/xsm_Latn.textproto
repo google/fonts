@@ -1,0 +1,25 @@
+id: "xsm_Latn"
+language: "xsm"
+script: "Latn"
+name: "Kasem"
+population: 250000
+region: "GH"
+exemplar_chars {
+  base: "a A b B {ch} {CH} d D e E ɛ Ɛ f F g G i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y z Z"
+  marks: "◌́"
+  auxiliary: "ǝ Ǝ ə Ə ɩ Ɩ ʋ Ʋ ʊ Ʊ"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Ll"
+  styles: "Ba loge nɔɔna maama se ba taa ye bedwe mo"
+  tester: "Ba loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega"
+  poster_sm: "Ba loge nɔɔna"
+  poster_md: "loge"
+  poster_lg: "loge"
+  specimen_48: "Ba loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini,"
+  specimen_36: "Ba loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini, ye fefeo teira kɔtaa. Wɛ pɛ ba swa de boboŋa mo se ba taa ye nubiu daane ye ba jege da ŋwaŋa."
+  specimen_32: "Ba loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini, ye fefeo teira kɔtaa. Wɛ pɛ ba swa de boboŋa mo se ba taa ye nubiu daane ye ba jege da ŋwaŋa."
+  specimen_21: "Ba loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini, ye fefeo teira kɔtaa. Wɛ pɛ ba swa de boboŋa mo se ba taa ye nubiu daane ye ba jege da ŋwaŋa.\nBa loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini, ye fefeo teira kɔtaa. Wɛ pɛ ba swa de boboŋa mo se ba taa ye nubiu daane ye ba jege da ŋwaŋa."
+  specimen_16: "Ba loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini, ye fefeo teira kɔtaa. Wɛ pɛ ba swa de boboŋa mo se ba taa ye nubiu daane ye ba jege da ŋwaŋa.\nBa loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini, ye fefeo teira kɔtaa. Wɛ pɛ ba swa de boboŋa mo se ba taa ye nubiu daane ye ba jege da ŋwaŋa.\nBa loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini, ye fefeo teira kɔtaa. Wɛ pɛ ba swa de boboŋa mo se ba taa ye nubiu daane ye ba jege da ŋwaŋa.\nBa loge nɔɔna maama se ba taa ye bedwe mo ba ŋwea de ba chega seini, ye fefeo teira kɔtaa. Wɛ pɛ ba swa de boboŋa mo se ba taa ye nubiu daane ye ba jege da ŋwaŋa."
+}

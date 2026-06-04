@@ -1,0 +1,15 @@
+id: "abi_Latn"
+language: "abi"
+script: "Latn"
+name: "Abidji"
+autonym: "ogbru"
+population: 50500
+region: "CI"
+exemplar_chars {
+  base: "a A á Á â Â ǎ Ǎ b B c C d D e E é É ê Ê ě Ě ɛ Ɛ f F g G i I í Í î Î ǐ Ǐ ɩ Ɩ j J k K l L m M n N o O ó Ó ô Ô ǒ Ǒ ɔ Ɔ p P r R s S t T u U ú Ú û Û ǔ Ǔ ʋ Ʋ w W y Y"
+  auxiliary: "q Q v V x X z Z Ʊ ʊ ʔ"
+  marks: "◌́ ◌̂ ◌̌"
+}
+source: "Rhonda L. Hartell, Alphabets of Africa, 1993, p. 128."
+source: "Wikipedia"
+source: "https://live.bible.is/bible/ABIWBT/MRK/1"

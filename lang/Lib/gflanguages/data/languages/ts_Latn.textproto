@@ -1,0 +1,27 @@
+id: "ts_Latn"
+language: "ts"
+script: "Latn"
+name: "Tsonga"
+autonym: "Xitsonga"
+population: 4880932
+region: "MZ"
+region: "SZ"
+region: "ZA"
+region: "ZW"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "VvAa"
+  masthead_partial: "Nn"
+  styles: "Tanihileswi ku tekeriwaka enhlokweni xindzhuti"
+  tester: "Tanihileswi ku nga ni ku honisiwaka na ku nyadziwa ka tifanelo"
+  poster_sm: "Tanihileswi"
+  poster_md: "Hikokwalaho"
+  poster_lg: "Vanhu"
+  specimen_48: "Tanihi xipimelo xa mani na mani lexi fikelelekaka xa vanhu hinkwavo"
+  specimen_36: "Tanihileswi swi nga swa nkoka ku tlakuseta nhluvuko wa vuxaka bya vunghana exikarhi ka matiko,\nNhlengeletanonkulu"
+  specimen_32: "Tanihileswi ku twisisa ka mani na mani ka tifanelo leti na mitshunxeko ya nkoka ya masungulo swi nga ni nkoka wukulu ku tlurisa leswaku ku tiboha loku ku fikeleleka,"
+  specimen_21: "Tanihileswi ku tekeriwaka enhlokweni xindzhuti xa ntumbuluko na tifanelo leti nga susekiki eka munhu un’wana na un’wana leswi ku nga swona tshaku kumbe masungulo ya ntshuxeko, vululami na ku rhula emisaveni,\nTanihileswi swi nga swa nkoka loko munhu a nga heteleli a sindzisiwile hi xiyimo ku va a hlawula ku pfukela mfumo wa tihanyi na ntshikelelo, kambe tifanelo ta ximunhu ti fanele ku sirheleriwa hi mfumo wa xinawu,"
+  specimen_16: "Tanihileswi ku tekeriwaka enhlokweni xindzhuti xa ntumbuluko na tifanelo leti nga susekiki eka munhu un’wana na un’wana leswi ku nga swona tshaku kumbe masungulo ya ntshuxeko, vululami na ku rhula emisaveni,\nTanihileswi ku nga ni ku honisiwaka na ku nyadziwa ka tifanelo ta ximunhu leswi tiseke mitirho ya tihanyi leyi onheke miehleketo ya rixaka ra vanhu emikarhini leyi ehansi ka misava, laha vanhu va faneleke ku tiphina hi ntshuxeko wo vulavula leswi va swi lavaka na ripfumelo leri va tihlawulelaka rona na ntshuxeko wo kala ku chavisetiwa ni wa swinavelo swi twarisiwile tanihi xinavelo lexikulukumba ngopfu eka xitshungu,"
+}

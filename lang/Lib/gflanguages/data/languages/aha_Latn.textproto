@@ -1,0 +1,13 @@
+id: "aha_Latn"
+language: "aha"
+script: "Latn"
+name: "Ahanta"
+autonym: "Ahanta"
+population: 245000
+region: "GH"
+exemplar_chars {
+  base: "a A b B d D e E ɛ Ɛ f F g G ɣ Ɣ h H i I ɩ Ɩ k K l L m M n N o O ɔ Ɔ p P s S t T u U ʋ Ʋ v V w W y Y z Z"
+  auxiliary: "c C j J q Q r R x X"
+}
+source: "I. E. Mensah, Anrindha-Erelenza nwuma mɔ di bɔmunli (Ahanta-English book one), Cape Coast, Mfantsiman Press, 1973"
+source: "Wikipedia"

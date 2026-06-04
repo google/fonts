@@ -1,0 +1,15 @@
+id: "mni_Beng"
+language: "mni"
+script: "Beng"
+name: "Manipuri"
+autonym: "মৈতৈলোন্‎"
+population: 1476590
+region: "BD"
+region: "IN"
+exemplar_chars {
+  base: "অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড {ড়} ঢ {ঢ়} ণ ত থ দ ধ ন প ফ ব ভ ম য {য়} র ল ৱ শ ষ স হ"
+  auxiliary: "‌‍"
+  marks: "◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ু ◌ে ◌ৈ ◌্ ◌ৗ ◌ী ◌ূ ◌ৃ ◌ো ◌ৌ"
+  numerals: "- , . % + 0০ 1১ 2২ 3৩ 4৪ 5৫ 6৬ 7৭ 8৮ 9৯"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+}

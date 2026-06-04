@@ -1,0 +1,12 @@
+id: "lag_Latn"
+language: "lag"
+script: "Latn"
+name: "Langi"
+autonym: "Kɨlaangi"
+population: 509409
+region: "TZ"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E é É f F g G h H i I í Í ɨ Ɨ j J k K l L m M n N o O ó Ó p P q Q r R s S t T u U ú Ú ʉ Ʉ v V w W x X y Y z Z"
+  marks: "◌́"
+  index: "A B C D E F G H I Ɨ J K L M N O P Q R S T U Ʉ V W X Y Z"
+}

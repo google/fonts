@@ -1,0 +1,110 @@
+# Generate report for google/fonts repo
+name: Google Fonts Report
+
+on:
+  workflow_dispatch:
+  # will run when modifying this file for testing purposes
+  pull_request:
+    paths:
+      - ".github/workflows/report.yaml"
+  schedule:
+    # Every day at 12am
+    - cron: "0 0 * * *"
+
+jobs:
+  gen_report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10"
+      - name: Install Cairo (Ubuntu)
+        run: sudo apt-get update && sudo apt-get install -y libcairo2-dev
+      - name: Setup requirements
+        run: pip3 install 'git+https://github.com/googlefonts/gftools'
+      - name: Setup duckdb
+        run: curl https://install.duckdb.org | sh
+        env:
+          DUCKDB_VERSION: "1.3.2"
+      - name: Grab fontspector database
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$CORVEL_SSH_PRIVATE_KEY" > ../private.key
+          sudo chmod 600 ../private.key
+          echo "$CORVEL_KNOWNHOSTS" > ~/.ssh/known_hosts
+          scp -i ../private.key fontspector@corvelsoftware.co.uk:fontspector.db .ci/dashboard/fontspector.db
+        shell: bash
+        env:
+          CORVEL_SSH_PRIVATE_KEY: ${{secrets.CORVEL_SSH_PRIVATE_KEY}}
+          CORVEL_KNOWNHOSTS: ${{secrets.CORVEL_KNOWNHOSTS}}
+      - name: Compact fontspector database
+        run: |
+          /home/runner/.duckdb/cli/1.3.2/duckdb .ci/dashboard/fontspector.db -f .ci/dashboard/scripts/tidy-database.sql && mv fontspector-new.db .ci/dashboard/fontspector.db
+      - name: Grab data files from last run
+        working-directory: .ci/dashboard/src/data/
+        run: |
+          curl https://google.github.io/fonts/_file/data/servers.json -o servers.json
+          curl https://google.github.io/fonts/_file/data/versionhistory.json -o versionhistory.json
+      - name: Write out secret
+        run: echo "${{ secrets.GF_PUSH_CONFIG }}" | base64 -d > ~/.gf_push_config.ini
+      - name: Update servers
+        run: python3 scripts/update_servers.py
+        env:
+          GF_PATH: /home/runner/work/fonts/fonts
+        working-directory: .ci/dashboard
+      # Now build the dashboard
+      - name: Install Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "20"
+      - name: Install dependencies
+        run: npm install
+        working-directory: .ci/dashboard
+      - name: Generate report
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          DEV_META_URL: ${{ secrets.DEV_META_URL }}
+          SANDBOX_META_URL: ${{ secrets.SANDBOX_META_URL }}
+          PRODUCTION_META_URL: ${{ secrets.PRODUCTION_META_URL }}
+          GF_PATH: /home/runner/work/fonts/fonts
+          GF_REPO_PATH: /home/runner/work/fonts/fonts
+        run: |
+          npm run build
+          gftools compare-meta --meta -o build/meta.html
+          cp ../tags.html build/tags.html
+          curl https://fonts.google.com/metadata/fonts > build/family_data.json
+          cp ../*.html build/
+          cp -r ../../ofl  build/ofl/
+          cp -r ../../apache  build/apache/
+          cp -r ../../ufl  build/ufl/
+        working-directory: .ci/dashboard
+      - name: Copy JSON files we need to well-known names
+        run: |
+          cp .ci/dashboard/build/_file/data/servers.*.json .ci/dashboard/build/_file/data/servers.json
+          cp .ci/dashboard/build/_file/data/versionhistory.*.json .ci/dashboard/build/_file/data/versionhistory.json
+      - name: Upload build artifacts
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: actions/upload-pages-artifact@v4.0.0
+        with:
+          path: .ci/dashboard/build
+  deploy:
+    needs: gen_report
+    if: ${{ github.ref == 'refs/heads/main' }}
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

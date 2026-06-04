@@ -1,0 +1,30 @@
+id: "lt_Latn"
+language: "lt"
+script: "Latn"
+name: "Lithuanian"
+autonym: "Lietuviškai"
+population: 2357094
+region: "LT"
+region: "PL"
+exemplar_chars {
+  base: "A Ą B C Č D E Ę Ė F G H I Į Y J K L M N O P R S Š T U Ų Ū V Z Ž a ą b c č d e ę ė f g h i į y j k l m n o p r s š t u ų ū v z ž"
+  auxiliary: "Á À Ã {Ą́} {Ą̃} {CH} {DZ} {DŽ} É È Ẽ {Ę́} {Ę̃} {Ė́} {Ė̃} {İ́} Í {İ̀} Ì {İ̃} Ĩ {Į́} {Į̇́} {Į̃} {Į̇̃} {J̃} {J̇̃} {L̃} {M̃} Ñ Ó Ò Õ Q {R̃} Ú Ù Ũ {Ų́} {Ų̃} {Ū́} {Ū̃} W X á à ã {ą́} {ą̃} {ch} {dz} {dž} é è ẽ {ę́} {ę̃} {ė́} {ė̃} {i̇́} í {i̇̀} ì {i̇̃} ĩ {į́} {į̇́} {į̃} {į̇̃} {j̃} {j̇̃} {l̃} {m̃} ñ ó ò õ q {r̃} ú ù ũ {ų́} {ų̃} {ū́} {ū̃} w x"
+  marks: "◌̄ ◌̇ ◌̌ ◌̨"
+  numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … “ „ ( ) [ ] { }"
+  index: "A Ą B C Č D E Ę Ė F G H I Į Y J K L M N O P R S Š T U Ų Ū V Z Ž"
+}
+sample_text {
+  masthead_full: "VvIi"
+  masthead_partial: "Ss"
+  styles: "Atsižvelgdama į tai, kad visiems žmonių giminės"
+  tester: "atsižvelgdama į tai, kad žmogaus teisių visiškas nepaisymas ir"
+  poster_sm: "atsižvelgdama"
+  poster_md: "Generalinė"
+  poster_lg: "Visi"
+  specimen_48: "skelbia ią Visuotinę žmogaus teisių deklaraciją, kaip visuotinį"
+  specimen_36: "Niekas negali būti kankinamas arba žiauriai, nežmoniškai žeminant jo orumą su juo elgiamasi ir jis baudžiamas."
+  specimen_32: "Atsižvelgdama į tai, kad visiems žmonių giminės nariams būdingo orumo ir lygių bei neatimamų teisių pripainimas yra laisvės, teisingumo ir taikos pasaulyje pagrindas;"
+  specimen_21: "Atsižvelgdama į tai, kad visiems žmonių giminės nariams būdingo orumo ir lygių bei neatimamų teisių pripainimas yra laisvės, teisingumo ir taikos pasaulyje pagrindas;\natsižvelgdama į tai, kad žmogaus teisių visiškas nepaisymas ir niekinimas pastūméjo vykdyti barbariškus aktus, piktinančius žmonijos sąžinę, o sukūrimas pasaulio, kuriame žmonės turės žodžio ir įsitikinimų laisvę ir bus išlaisvinti iš baimės ir skurdo pančių, paskelbtas kaip kilniausias žmogaus siekimas;"
+  specimen_16: "Atsižvelgdama į tai, kad visiems žmonių giminės nariams būdingo orumo ir lygių bei neatimamų teisių pripainimas yra laisvės, teisingumo ir taikos pasaulyje pagrindas;\natsižvelgdama į tai, kad žmogaus teisių visiškas nepaisymas ir niekinimas pastūméjo vykdyti barbariškus aktus, piktinančius žmonijos sąžinę, o sukūrimas pasaulio, kuriame žmonės turės žodžio ir įsitikinimų laisvę ir bus išlaisvinti iš baimės ir skurdo pančių, paskelbtas kaip kilniausias žmogaus siekimas;\natsižvelgdama į tai, jog būtinai reikia, kad žmogaus teises saugotų įstaymo galia, dėl to, kad jis nebūtų priverstas imtis, kaip kraštutinės priemonės, sukilimo prieš tironiją ir priespaudą;"
+}

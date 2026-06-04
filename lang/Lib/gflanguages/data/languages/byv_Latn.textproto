@@ -1,0 +1,15 @@
+id: "byv_Latn"
+language: "byv"
+script: "Latn"
+name: "Medumba"
+autonym: "Mə̀dʉ̂mbɑ̀"
+population: 305195
+region: "CM"
+exemplar_chars {
+  base: "A Ɑ B C D E Ə Ɛ F G {GH} H I J K L M N {NY} Ŋ O Ɔ S {SH} T {TS} U Ʉ V W Y Z a ɑ b c d e ə ɛ f g {gh} h i j k l m n {ny} ŋ o ɔ s {sh} t {ts} u ʉ v w y z ʼ À Â Ǎ È Ê Ě {Ɑ̀} {Ɑ̂} {Ɑ̌} {Ə̀} {Ə̂} {Ə̌} {Ɛ̀} {Ɛ̂} {Ɛ̌} Ì Î Ǐ Ò Ô Ǒ {Ɔ̀} {Ɔ̂} {Ɔ̌} Ù Û Ǔ {Ʉ̀} {Ʉ̂} {Ʉ̌} à â ǎ {ɑ̀} {ɑ̂} {ɑ̌} è ê ě {ə̀} {ə̂} {ə̌} {ɛ̀} {ɛ̂} {ɛ̌} ì î ǐ ò ô ǒ {ɔ̀} {ɔ̂} {ɔ̌} ù û ǔ {ʉ̀} {ʉ̂} {ʉ̌}"
+  index: "A Ɑ B C D E Ə Ɛ F G H I J K L M N Ŋ O Ɔ S T U Ʉ V W Y Z ʼ"
+  marks: "◌̀ ◌̂ ◌̌"
+}
+source: "http://www.webonary.org/mambelema"
+source: "Zenù Production, Cours Medumbà 01, 2021"
+source: "Wikipedia"

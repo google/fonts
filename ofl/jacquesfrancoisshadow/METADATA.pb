@@ -1,0 +1,22 @@
+name: "Jacques Francois Shadow"
+designer: "Cyreal"
+license: "OFL"
+category: "DISPLAY"
+date_added: "2012-09-07"
+fonts {
+  name: "Jacques Francois Shadow"
+  style: "normal"
+  weight: 400
+  filename: "JacquesFrancoisShadow-Regular.ttf"
+  post_script_name: "JacquesFrancoisShadow-Regular"
+  full_name: "Jacques Francois Shadow"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \'Jacques Francois\'"
+}
+subsets: "menu"
+subsets: "latin"
+source {
+  commit: "90c9f94cc747ac7c356d882d7553c07d344992f8"
+  repository_url: "https://github.com/cyrealtype/Jacques-Francois-Shadow"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

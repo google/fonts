@@ -1,0 +1,25 @@
+id: "oki_Latn"
+language: "oki"
+script: "Latn"
+name: "Okiek"
+region: "KE"
+population: 79000
+exemplar_chars {
+  base: "a A b B C c d D e E G g h H I i J j K k l L m M N n O o p P R r S s T t u U w W y Y"
+  auxiliary: "f F q Q v V x X"
+}
+sample_text {
+  masthead_full: "PpIi"
+  masthead_partial: "Kk"
+  styles: "Piik togol kosigotiik en katiagetapkei koguyet"
+  tester: "Piik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan"
+  poster_sm: "Piik togol"
+  poster_md: "Piik"
+  poster_lg: "Piik"
+  specimen_48: "Piik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit."
+  specimen_36: "Piik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit."
+  specimen_32: "Piik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit."
+  specimen_21: "Piik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit.\nPiik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit."
+  specimen_16: "Piik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit.\nPiik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit.\nPiik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit.\nPiik togol kosigotiik en katiagetapkei koguyet ak imandanyuwan koyuyosin togol kogigigochi ngomnotet ak koperuret en iyon konyolu koyochigei oteptop tupchondit."
+}
+source: "Peter Kiplangat Cheruiyot (Former OHCHR Fellow), Universal Declaration of Human Rights - Ogiek, The Office of the High Commissioner for Human Rights, 1996-2009"

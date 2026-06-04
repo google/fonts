@@ -1,0 +1,13 @@
+id: "kck_Latn"
+language: "kck"
+script: "Latn"
+name: "Kalanga"
+population: 770953
+region: "ZW"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N {n’} {N’} o O p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "q Q x X"
+}
+source: "Bible Society of Botswana, Bhaibhili Yakayengemala, Bible Society of Botswana, 2018 (2008)"
+source: "Andy Chebanne, Joyce Mathangwane & Rose Letsholo, “Kalanga”, Tomasz Kamusella & Finex Ndhlovu, The Social and Political History of Southern Africa's Languages, 2018, pp. 119-131"
+source: "Kalanga Orthography 2008, kalanga.org"

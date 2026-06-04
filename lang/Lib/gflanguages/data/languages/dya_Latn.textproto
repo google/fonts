@@ -1,0 +1,14 @@
+id: "dya_Latn"
+language: "dya"
+script: "Latn"
+name: "Dyan"
+autonym: "jãané"
+population: 14100
+region: "BF"
+exemplar_chars {
+  base: "A B Ɓ C D Ɗ E Ɛ F G H I J K L M N Ɲ O Ɔ P R S T U V W Y Z a b ɓ c d ɗ e ɛ f g h i j k l m n ɲ o ɔ p r s t u v w y z Ã Ẽ {Ɛ̃} Ĩ Õ {Ɔ̃} Ũ ã ẽ {ɛ̃} ĩ õ {ɔ̃} ũ"
+  auxiliary: "Q X q x"
+  marks: "◌̃"
+}
+source: "Wikipedia"
+source: "https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages"

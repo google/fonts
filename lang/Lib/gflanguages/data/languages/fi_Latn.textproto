@@ -1,0 +1,32 @@
+id: "fi_Latn"
+language: "fi"
+script: "Latn"
+name: "Finnish"
+autonym: "Suomi"
+population: 5736841
+region: "EE"
+region: "FI"
+region: "RU"
+region: "SE"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž Å Ä Ö a b c d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö"
+  auxiliary: "Á À Ă Â Ã Ą Ā Ć Č Ċ Ç Ď Ð Đ É È Ê Ě Ë Ė Ę Ē Ğ Ǧ Ģ Ǥ Ȟ Ħ Í Î Ï İ Į Ī I Ǩ Ķ Ĺ Ľ Ļ Ł Ń Ň Ñ Ņ Ŋ Ó Ò Ô Ő Õ Œ Ŕ Ř Ś Ŝ Ş Ș ẞ Ť Ţ Ț Ŧ Ú Ù Û Ů Ű Ų Ū Ý Ÿ Ü Ź Ż Ʒ Ǯ Þ Æ Ø á à ă â ã ą ā ć č ċ ç ď ð đ é è ê ě ë ė ę ē ğ ǧ ģ ǥ ȟ ħ í î ï į ī ı ǩ ķ ĺ ľ ļ ł ń ň ñ ņ ŋ ó ò ô ő õ œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż ʒ ǯ þ æ ø"
+  marks: "◌̈ ◌̊ ◌̃ ◌̌"
+  numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – , ; : ! ? . … ’ ” » ( ) [ ] @ * / \\ & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö"
+}
+sample_text {
+  masthead_full: "KkAa"
+  masthead_partial: "Ii"
+  styles: "Kun ihmiskunnan kaikkien jäsenten luonnollisen"
+  tester: "kun ihmisoikeuksia on väheksytty tai ne on jätetty huomiota vaille,"
+  poster_sm: "kun yhteinen"
+  poster_md: "Niin sen"
+  poster_lg: "Kaikki"
+  specimen_48: "antaa TÄMÄN IHMISOIKEUKSIEN YLEISMAAILMALLISEN JULISTUKSEN kaikkien"
+  specimen_36: "Jokaisella on oikeus lepoon ja vapaa-aikaan, työajan järkevään rajoittamiseen sekä määräaikaisiin palkallisiin lomiin."
+  specimen_32: "Jokaisella on oikeus sellaiseen yhteiskunnalliseen ja kansainväliseen järjestykseen, jonka puitteissa tässä julistuksessa esitetyt oikeudet ja velvollisuudet voivat täysin toteutua."
+  specimen_21: "Mitään tässä julistuksessa ei saa tulkita niin, että valtio, ryhmä tai yksityinen henkilö voi sen perusteella katsoa oikeudekseen tehdä sellaista, mikä voisi hävittää tässä määriteltyjä oikeuksia ja vapauksia.\nKun ihmiskunnan kaikkien jäsenten luonnollisen arvon ja heidän yhtäläisten ja luovuttamattomien oikeuksiensa tunnustaminen on vapauden, oikeudenmukaisuuden ja rauhan perustana maailmassa,"
+  specimen_16: "Kun ihmiskunnan kaikkien jäsenten luonnollisen arvon ja heidän yhtäläisten ja luovuttamattomien oikeuksiensa tunnustaminen on vapauden, oikeudenmukaisuuden ja rauhan perustana maailmassa,\nkun ihmisoikeuksia on väheksytty tai ne on jätetty huomiota vaille, on tapahtunut raakalaistekoja, jotka ovat järkyttäneet ihmiskunnan omaatuntoa, ja kun kansojen korkeimmaksi päämääräksi on julistettu sellaisen maailman luominen, missä ihmiset voivat vapaasti nauttia sanan ja uskon vapautta sekä elää vapaina pelosta ja puutteesta,\nkun on välttämätöntä, että ihmisoikeudet turvataan oikeusjärjestyksellä, jotta ihmisten ei olisi pakko viimeisenä keinona nousta kapinaan pakkovaltaa ja sortoa vastaan,"
+}

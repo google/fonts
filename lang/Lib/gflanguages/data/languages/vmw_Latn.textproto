@@ -1,0 +1,25 @@
+id: "vmw_Latn"
+language: "vmw"
+script: "Latn"
+name: "Makhuwa"
+autonym: "Emakhuwa"
+population: 3912766
+region: "MZ"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù"
+  marks: "◌̀"
+}
+sample_text {
+  masthead_full: "AaTt"
+  masthead_partial: "Hh"
+  styles: "Okhala wira osaamiha n’edignidade ya kunla"
+  tester: "Okhala wira ohisuwela n’ohisamiha edireito sa mutthu sinniiriha"
+  poster_sm: "Okhala wi itthu"
+  poster_md: "Okhala wi"
+  poster_lg: "Atthu"
+  specimen_48: "Okhala wi Mupapheloni Ipovo sa Nações Unidas Sihimmwe wiwelela"
+  specimen_36: "Okhala wi moota onsuwelehu edireito n’eliberdade iya etthu yuplupale wira naakhule saana epaphelo yasinanrehu;"
+  specimen_32: "Atthu othene aniyaria oolikana ni owilamula moota ontthunaya okhala, variyari v’edignidade ni edireito. Akhalanne esaria ni otthokelela, ahaana akhalasaka othene saya vamurettele."
+  specimen_21: "Atthu othene poti othyawelela edireito n’eliberdade silempwe mupapheloni mu ahithanliaka yakhala wira atthu ooripa walaa oottela, nnakhala muthiyana walaa mulopwana, opuro onkhala’we, oninlompa’we muluku, epoliitika entthara’we, muthajiri walaa musikhini.\nNenna vaa, khavo onrowa othanliwa mwaha wa epoliitika entthara’we, elapo awe, walaa nttetthe oyariwa’we, okhalana ni wihikhalana elapo yupum’we omantariwa n’atthu ookhopela."
+  specimen_16: "Wakunla pinatamu ohaana edireito ya ekumi, eliberdade ni wakiha erutthu awe.\nKhavo onrowa okhalihiwa epottha, makhalelo ya epottha, ni moota owakaliha epottha atthu enakhottihiya.\nKhavo onrowa ohoosiwa, nnakhala okhalihiwa moota wonanara.\nWakunla mutthu ohaana edireito yosaamihia makhalelo awe wakunla opuro onkhala’we.\nAtthu othene t’olikana variyari va elei, n’atthu othene attitthimihiweke n’elei. Atthu othene ahaana akhaviheriwaka, mwaha wale ahin’tthuna ottitthimiha edeklarasau ila.\nWakunla mutthu ohaana edireito yotthyawelela elei ya elapo enkhalawe wi akihiwe yakhala wira edireito sawe silempwe mwa elei yelapo awe kisettin’he saana."
+}

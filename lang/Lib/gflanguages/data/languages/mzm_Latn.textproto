@@ -1,0 +1,11 @@
+id: "mzm_Latn"
+language: "mzm"
+script: "Latn"
+name: "Mumuye"
+population: 400000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á à À â Â ǎ Ǎ ã Ã b B ɓ Ɓ c C d D ɗ Ɗ e E é É è È ê Ê ě Ě ɛ Ɛ g G h H i I í Í ì Ì î Î ǐ Ǐ ĩ Ĩ j J k K l L m M n N ǹ Ǹ ň Ň o O ó Ó ò Ò ô Ô ǒ Ǒ ɔ Ɔ p P r R s S t T u U ú Ú ù Ù û Û ǔ Ǔ ũ Ũ ṹ Ṹ v V w W y Y z Z"
+  marks: "◌́ ◌̀ ◌̂ ◌̌ ◌̃"
+  auxiliary: "f F q Q x X"
+}

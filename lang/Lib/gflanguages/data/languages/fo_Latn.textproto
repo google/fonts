@@ -1,0 +1,30 @@
+id: "fo_Latn"
+language: "fo"
+script: "Latn"
+name: "Faroese"
+autonym: "Føroyskt"
+population: 71350
+region: "DK"
+region: "FO"
+exemplar_chars {
+  base: "A Á B D Ð E F G H I Í J K L M N O Ó P R S T U Ú V Y Ý Æ Ø a á b d ð e f g h i í j k l m n o ó p r s t u ú v y ý æ ø"
+  auxiliary: "C Q W X Z c q w x z"
+  marks: "◌́ ◌̊"
+  numerals: ", . % + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A Á B C D Ð E F G H I Í J K L M N O Ó P Q R S T U Ú V W X Y Ý Z Æ Ø"
+}
+sample_text {
+  masthead_full: "ØøLl"
+  masthead_partial: "Mm"
+  styles: "Tað verður at viðurkenna, at menniskjuni er"
+  tester: "Har sum mannarættindini hava verið fyri vanbýti og vanvirðing,"
+  poster_sm: "Tað varðar"
+  poster_md: "Í sáttmáala"
+  poster_lg: "Øll"
+  specimen_48: "Limaríkini hava skyldubundið seg til, í samvinnu við Sameindu"
+  specimen_36: "Tað at allir partar skilja hesi rættindi og frælsi er fremsta treytin fyri, at henda skylda verður framd út í æsur."
+  specimen_32: "Tað varðar almikið um, mannarættindi verða vard við lógum, um fólk ikki skal verða noytt til sum evstu ráð at taka til uppreistur móti harðræði og kúgan."
+  specimen_21: "Tað verður at viðurkenna, at menniskjuni er virðing íborin, og at allir limir mannaættarinnar eiga somu ómissiligu rættindi, og hetta er støðið undir frælsi, rættvísi og friði í heiminum.\nHar sum mannarættindini hava verið fyri vanbýti og vanvirðing, hevur tað havt við sær ræðuligar gerðir, sum hava skakað samvitsku mannaættarinnar, og ein heimskipan, har sum fólk nýtur talu- og trúarfrælsi og frælsi frá ótta og neyð, hevur verið boðað sum menniskjunar hægsta mið og mál."
+  specimen_16: "Tað verður at viðurkenna, at menniskjuni er virðing íborin, og at allir limir mannaættarinnar eiga somu ómissiligu rættindi, og hetta er støðið undir frælsi, rættvísi og friði í heiminum.\nHar sum mannarættindini hava verið fyri vanbýti og vanvirðing, hevur tað havt við sær ræðuligar gerðir, sum hava skakað samvitsku mannaættarinnar, og ein heimskipan, har sum fólk nýtur talu- og trúarfrælsi og frælsi frá ótta og neyð, hevur verið boðað sum menniskjunar hægsta mið og mál.\nTað varðar almikið um, mannarættindi verða vard við lógum, um fólk ikki skal verða noytt til sum evstu ráð at taka til uppreistur móti harðræði og kúgan."
+}

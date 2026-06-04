@@ -1,0 +1,13 @@
+id: "zne_Latn"
+language: "zne"
+script: "Latn"
+name: "Zande"
+population: 1800000
+region: "CD"
+region: "CF"
+region: "TD"
+region: "SS"
+exemplar_chars {
+  base: "a A b B d D e E f F g G i I k K m M n N o O p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "c C h H j J l L q Q x X"
+}

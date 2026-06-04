@@ -1,0 +1,12 @@
+id: "bpy_Beng"
+language: "bpy"
+script: "Beng"
+name: "Bishnupriya"
+autonym: "বিষ্ণুপ্রিয়া মণিপুরী"
+population: 90174
+region: "IN"
+exemplar_chars {
+  base: "অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ"
+  marks: "◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ে ◌ৈ ◌্ ◌ৗ"
+  numerals: "০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯"
+}

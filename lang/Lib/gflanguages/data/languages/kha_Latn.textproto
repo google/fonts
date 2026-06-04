@@ -1,0 +1,25 @@
+id: "kha_Latn"
+language: "kha"
+script: "Latn"
+name: "Khasi"
+autonym: "Ka Ktien Khasi"
+population: 1060872
+region: "IN"
+exemplar_chars {
+  base: "A B K D E G H I Ï J L M N Ñ O P R S T U W Y a b k d e g h i ï j l m n ñ o p r s t u w y"
+  marks: "◌̃ ◌̈"
+}
+sample_text {
+  masthead_full: "ÏïAa"
+  masthead_partial: "Kk"
+  styles: "Kumba ka jingithuh ïa ka kyrdan long tynrai"
+  tester: "Kumba ka jingibeiñ bad jingbymsuidkhai ïa ki hok longbriew manbriew"
+  poster_sm: "Kumba ka long"
+  poster_md: "Kumba ka"
+  poster_lg: "bynriew"
+  specimen_48: "Kumba ki briew jong ka Synjuk Ki Ri ha ka Kyrmit ki la pynskhem"
+  specimen_36: "Kumba ka long kaba donkam ban kyntiew ïa ka jingroi ka jingïadei lok para ri,\nNamarkata, Mynta,\nKa Dorbar Bah,"
+  specimen_32: "Ym don uwei ne kawei ki ban shah teh mraw ne long mraw hano hano; la khang pyrshah ïa ka jinglongmraw bad ka jingkhaïi mraw la ki dei ha kano kano ka dur ne rukom."
+  specimen_21: "Kumba ka jingithuh ïa ka kyrdan long tynrai bad ïa ki marryngkat bad bashongkhien jong baroh ki dkhot longïing u dei ka tlong jong ka jinglaitluid, ka jingbishar hok, bad ka jingsuk shisnieh pyrthei,\nKumba ka long kaba donkam ba ïa u/ka briew ym dei ban pynbor ban shim ki lynti, kum ka khen khatduh, da ka jingïaleh pyrshah ïa ka jingbanbeiñ bad jingsynshar runar, ba ïa ki hok longbriew manbriew dei ban ïada da ka aiñ ka kanun,"
+  specimen_16: "Kumba ka jingithuh ïa ka kyrdan long tynrai bad ïa ki marryngkat bad bashongkhien jong baroh ki dkhot longïing u dei ka tlong jong ka jinglaitluid, ka jingbishar hok, bad ka jingsuk shisnieh pyrthei,\nKumba ka jingibeiñ bad jingbymsuidkhai ïa ki hok longbriew manbriew la pynkha ïa ki kam riewkhlaw kiba la pynkhih win ïa ka jingïatiplem u bynriew, bad ka jingkylla ka pyrthei ha kaba u khun bynriew un leh kmen laitluid ha ka kren ka khana bad jingngeit bad jinglaitluid na ka tieng ka syier bad ka kyrduh la pynbna kum ka jingangnud ba ha khlieh tam jong u luk u lak,"
+}

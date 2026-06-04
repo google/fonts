@@ -1,0 +1,14 @@
+id: "chy_Latn"
+language: "chy"
+script: "Latn"
+name: "Cheyenne"
+autonym: "Tsėhesenėstsestotse"
+population: 380
+region: "US"
+exemplar_chars {
+    base: "a A á Á ā Ā ȧ Ȧ e E é É ē Ē ė Ė h H k K ʼ m M n N o O ó Ó ō Ō ȯ Ȯ p P s S š Š t T v V x X"
+    marks: "◌́ ◌̇ ◌̂"
+    auxiliary: "â Â ã Ã ä Ä å Å b B c C d D ê Ê ẽ Ẽ ë Ë {e̊} {E̊} f F g G i I j J l L ô Ô õ Õ ö Ö {o̊} {O̊} q Q r R u U w W z Z"
+}
+source: "Louise Fisher, Wayne Leman, Leroy Pine Sr. and Marie Sanchez, Cheyenne Dictionary, Lame Deer: Chief Dull Knife College, 2017"
+source: "Wikipedia"

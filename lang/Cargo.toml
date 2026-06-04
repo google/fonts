@@ -1,0 +1,27 @@
+[package]
+name = "google-fonts-languages"
+version = "0.7.6"
+edition = "2021"
+description = "Google Fonts script and language support data"
+repository = "https://github.com/googlefonts/lang"
+license-file = "LICENSE.txt"
+
+[dependencies]
+bytes = "1.7.1"
+prost = "0.13"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[build-dependencies]
+prost-build = "0.13"
+protobuf-support = "3.7.1"
+protobuf = "3.7.1"
+protoc-bin-vendored = "3.1.0"
+protobuf-parse = "3.7.1"
+glob = "0"
+prettyplease = "0.2"
+quote = "1.0"
+proc-macro2 = "1.0"
+syn = "2.0"
+itertools = "0.13"
+serde_json = "1.0"

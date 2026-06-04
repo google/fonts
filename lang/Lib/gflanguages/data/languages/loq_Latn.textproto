@@ -1,0 +1,10 @@
+id: "loq_Latn"
+language: "loq"
+script: "Latn"
+name: "Lobala"
+population: 159000
+region: "CD"
+exemplar_chars {
+  base: "a A á Á b B ɓ Ɓ d D e E é É ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} f F g G h H i I k K l L m M n N ŋ Ŋ o O ó Ó ɔ Ɔ p P s S t T u U v V w W y Y z Z"
+  marks: "◌́ ◌̀"
+}

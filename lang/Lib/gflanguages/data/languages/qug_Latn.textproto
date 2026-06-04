@@ -1,0 +1,26 @@
+id: "qug_Latn"
+language: "qug"
+script: "Latn"
+name: "Chimborazo Highland Quichua"
+autonym: "Runa Simi"
+population: 963579
+region: "EC"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ñ"
+  auxiliary: "Č Ĉ Š Ž č ĉ š ž"
+  marks: "◌̃ ◌̂ ◌̌"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Kk"
+  styles: "Kawsaypi yuyashpa, kishpiriy, paktakay, allpapachapi"
+  tester: "Kawsaypi yuyashpa, piñashpa mana riksina, runakunapak hayñita saruy,"
+  poster_sm: "TINKIRISHKA"
+  poster_md: "Titikirishka"
+  poster_lg: "Tukuy"
+  specimen_48: "Tukuy runakunami maypipash kishpirishka, sumaykaypi(dignidad) paktapakta"
+  specimen_36: "Mana pi watashka, utushka, makashka kankachu. Mana pi, anchamillashka,.\nwiwatashina rikushka, kumurichishka, lIapishka kankachu."
+  specimen_32: "Kawsaypi yuyashpa, hayñi yuyaykuna, kishpirishka yuyay kuna tukuypi\ntiyachun, shina lIaktakuna arinishka kamachika, tukuysami kawsayta charik\nrunakunaman pampanta paktachun."
+  specimen_21: "Kawsaypi yuyashpa, kishpiriy, paktakay, allpapachapi kasikllakawsay tiksi\nkakpimi tukuy runakuna sumak kawsayta charichun nishpa riksin; shinallatak\nsumaykayta(dignidad), paktapakta hayñita ayllumanta mana pi kichuchunmi\nriksin.\nKawsaypi yuyashpa, runakunapak hayñitaka, paypak hayñimi nishpa shuktak\nkamachi lIikakuna kamashka kachun. Shina waKcha runakuna piñaywan\nhatarikpi, tikra charikkuna mana wakchakunata hawalla wichkana wasiman\npushachun, mana hawalla wañuchichunpash."
+  specimen_16: "Kawsaypi yuyashpa, kishpiriy, paktakay, allpapachapi kasikllakawsay tiksi\nkakpimi tukuy runakuna sumak kawsayta charichun nishpa riksin; shinallatak\nsumaykayta(dignidad), paktapakta hayñita ayllumanta mana pi kichuchunmi\nriksin.\nKawsaypi yuyashpa, piñashpa mana riksina, runakunapak hayñita saruy,\nrunapura wañunakuna yuyaymi tukuysami kawsaypi sapiyashka nin.\nChaymi tukuysami lIakikunata IIaktakunaman apamushka. Chaymantami\nrunakunaka tukuy IIaktakunapi kaparishpa kishpirishka kawsayta yuyashpa\nmashkay kallarin; wakcha runakuna, IIakta runakuna, upallalla kawsak\nrunakuna, shitashka runakuna kishpirinata munan. Mashná kay pachapi\nkawsakkunami kay amsa, ñawsa, milli kawsaymanta lIukshinata munan. Kipaka\nkishpiy rimayta, yuyayta charina kan."
+}

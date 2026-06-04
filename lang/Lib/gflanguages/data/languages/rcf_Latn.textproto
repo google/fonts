@@ -1,0 +1,24 @@
+id: "rcf_Latn"
+language: "rcf"
+script: "Latn"
+name: "Réunion Creole French"
+population: 559184
+region: "RE"
+exemplar_chars {
+  base: "a A b B d D e E ë Ë é É f F g G h H i I ï Ï k K l L m M n N {nÿ} {NŸ} o O {ou} {OU} p P r R s S t T {ui} {UI} v V w W y Y z Z"
+  auxiliary: "c C j J q Q u U x X ÿ Ÿ"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "Toute bann zumin y né lib et égo dan la dignité"
+  tester: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann"
+  poster_sm: "Toute bann"
+  poster_md: "Toute"
+  poster_lg: "Toute"
+  specimen_48: "Toute bann zumin y né lib et égo dan la dignité ek"
+  specimen_36: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité"
+  specimen_32: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité"
+  specimen_21: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité\nToute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité"
+  specimen_16: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité\nToute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité\nToute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité\nToute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité"
+}

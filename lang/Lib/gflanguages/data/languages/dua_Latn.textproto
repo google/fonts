@@ -1,0 +1,14 @@
+id: "dua_Latn"
+language: "dua"
+script: "Latn"
+name: "Duala"
+autonym: "Duálá"
+population: 133176
+region: "CM"
+exemplar_chars {
+  base: "a A á Á b B ɓ Ɓ c C d D ɗ Ɗ e E é É ɛ Ɛ {ɛ́} {Ɛ́} f F g G i I í Í j J k K l L m M n N {ny} {NY} ŋ Ŋ o O ó Ó ɔ Ɔ {ɔ́} {Ɔ́} p P r R s S t T u U ú Ú ū Ū w W y Y"
+  auxiliary: "h H q Q v V x X z Z"
+  marks: "◌́ ◌̄"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B Ɓ C D Ɗ E Ɛ F G I J K L M N Ŋ O Ɔ P S T U W Y"
+}

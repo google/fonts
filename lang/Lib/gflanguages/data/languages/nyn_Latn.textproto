@@ -1,0 +1,25 @@
+id: "nyn_Latn"
+language: "nyn"
+script: "Latn"
+name: "Nyankole"
+autonym: "Runyankore"
+population: 2724939
+region: "UG"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaBb"
+  masthead_partial: "Nn"
+  styles: "Ekitiinisa ky\'omuntu ekyobuhangwa nikiingana"
+  tester: "Obutagyendera ahaabugabe bw\'abantu burugiremi ebikorwa bibi ebisiisire"
+  poster_sm: "Abantu boona"
+  poster_md: "Buri muntu"
+  poster_lg: "Abantu"
+  specimen_48: "Tihariho muntu oshemereire kukwatirwa omubuhuuku. Obuhuuku, nobushubuzi"
+  specimen_36: "Buri muntu, naikirizibwa kutwaara enshonga ze omu mbuga zebiragiro ezihikire obugabe bwe bwaaba nibujogibwa."
+  specimen_32: "Buri muntu ahatari kushoroora naatekwa kuhozesibwa \"omu mushana\" omu kooti etaine kugweera orubaju rumwe kandi nokumanyisibwa omushango gwoona ogurikuba nigumutabaarizibwa."
+  specimen_21: "Ekitinisa kyomuntu, amakage, ab\'eka ye, ebihandiko bye hamwe namabaruhage tibishemereire kutahirirwa narishi kuzanirwaho. Buri muntu aine obushoborozi bwokweyambisa ebiragiro kuzibira abo abarikwenda kwetasya omu nshonga ze wenka.\nBuri muntu aine obugabe okwahura ekirungi aha kibi, nokurond ediini eyi arashome kandi aine obugabe we wenka narishi nabataahibe okuteeka omu nkora ebi arikwiikirizamu."
+  specimen_16: "Buri muntu aine obugabe kugira enteekateka ye kandi nokugamba narishi okuhandiika nkoku arikuteekateeka. Kandi buri muntu aine obugabe okurabya ebyarikutekyereza aha Radio, Television, empapura z\'amahurire, nemihanda endiijo.\nBuri munyansi aine obushoborozi kutuura n\'abantu bataahi be omu nisingye , eki kimbaasise kutereeza engyesho ze, nokuhika aha byaarikurubirira ebye kitiinisa nkomuntu arikuraba omu kukora kweihanga rye okurugiirira ahanteekateeka nenkozesa yobugaiga obweihanga omu byentasya, ebyemiturire ya bantu, nobuhangwa bwaabo, ebitarikubasa kunagiijurwa omu kukurakurana oku."
+}

@@ -1,0 +1,25 @@
+id: "pam_Latn"
+language: "pam"
+script: "Latn"
+name: "Pampanga"
+autonym: "Kapampangan"
+population: 2511162
+region: "PH"
+exemplar_chars {
+  base: "A B D E G H I K L M N O P R S T U W Y a b d e g h i k l m n o p r s t u w y"
+  auxiliary: "C F J Q V X Z c f j q v x z"
+}
+sample_text {
+  masthead_full: "DdIi"
+  masthead_partial: "Nn"
+  styles: "Uling ing pamangilala king likas a karangalan"
+  tester: "Dapat aintingdian ding sablang bibilug karing sablang pamilya"
+  poster_sm: "Uling e tamu"
+  poster_md: "Lebagan do"
+  poster_lg: "Ding"
+  specimen_48: "Uling tune maulaga, bang ing tau e mapilitang gumerang lumaban"
+  specimen_36: "Uling maulagang abalu ra ding sabla ding karapatan at kalayang iti bang pilming matupad ing pangakung iti."
+  specimen_32: "Ding sablang tau mibait lang malaya at pante-pante king karangalan at karapatan. Ila mipagkaluban lang katuliran at konsensiya ay dapat misaupan king diwang pamikapatiran."
+  specimen_21: "Ing balang metung atin iyang karapatan karing anggang karapatan at kalayang tikda na ning Proklamasyun a iti, king alang lalon ninu mang lahi, kule, pangatau, salita, reliyun, kapaniwalan king pulitika o aliwa pang pamaniwala penibatang bansa o lipunan, pibandian, kepaitan o aliwa pang kabilyan.\nDing balang metung atin lang karapatang mie kalayan at kaligtasan antimong tau."
+  specimen_16: "Alang ninu man ing dapat gawan alipan o busabus; makabawal la ding sablang bage pamanalipa at pamangalakal alipan.\nAlang ninu man ing mipailalam ya king labis a pamipasakit o pamagmalupit, a e makatau mababang pamanuring o pamamarusa.\nIng balang metung atin iyang karapatang kilalanan, nokarin man, anting metung a tau king arap ning batas.\nDing sabla pante-pante la king arap ning atas at atin lang karapatan king pante-pante proteksyun ning batas a alang pipilinan. Ding sabla atin lang karapatan king pante-pante laban king nanu mang pamimili a labag king Proklamasyun a iti at laban king nanu mang pamanulsul king mesabing pamamili."
+}

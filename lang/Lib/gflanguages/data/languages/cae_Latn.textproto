@@ -1,0 +1,15 @@
+id: "cae_Latn"
+language: "cae"
+script: "Latn"
+name: "Lehar"
+preferred_name: "Laalaa"
+autonym: "laalaa"
+population: 19000
+region: "SN"
+exemplar_chars {
+  base: "A a Á á B b Ɓ ɓ C c D d Ɗ ɗ E e É é Ë ë F f G g H h I i Í í J j K k L l M m N n Ñ ñ {NJ} {nj} Ŋ ŋ {NG} {ng} O o Ó ó P p R r S s T t U u Ú ú W w Y y Ƴ ƴ Ɂ '"
+  marks: "◌́ ◌̃ ◌̈"
+  auxiliary: "ꞌ ˈ"
+}
+source: "Christina Thornell, Ndiol Malick Tine, Roger Samba Faye & Gilbert Guilang Thiaw, Lexique langue cangin laalaa – français, Dakar: Sé Wínóo, SIL, 2016"
+note: "Ɂ ' are used as a casing pair in Thornell et al. 2016."

@@ -1,0 +1,20 @@
+id: "lfn_Latn"
+language: "lfn"
+script: "Latn"
+name: "Lingua Franca Nova, Latin"
+population: 0
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Aa"
+  styles: "Tota umanes nase libre e egal en dinia e"
+  tester: "Tota umanes nase libre e egal en dinia e diretos. Los es donada"
+  poster_sm: "Tota umanes"
+  poster_md: "Tota umanes"
+  poster_lg: "Tota"
+  specimen_48: "Tota umanes nase libre e egal en dinia e diretos. Los"
+  specimen_36: "Tota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia."
+  specimen_32: "Tota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia."
+  specimen_21: "Tota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia.\nTota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia.\nTota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia."
+  specimen_16: "Tota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia.\nTota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia.\nTota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia.\nTota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia.\nTota umanes nase libre e egal en dinia e diretos. Los es donada razona e consiensa e debe ata la un a la otra en un spirito de fratia."
+}
+historical: true

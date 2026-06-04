@@ -1,0 +1,25 @@
+id: "kbp_Latn"
+language: "kbp"
+script: "Latn"
+name: "Kabiyé"
+population: 1000000
+region: "TG"
+exemplar_chars {
+	base: "a A b B c C d D ɖ Ɖ e E ɛ Ɛ f F g G ɣ Ɣ h H i I ɩ Ɩ j J k K l L m M n N ñ Ñ ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V ʋ Ʋ w W y Y z Z"
+	marks: "◌̃"
+	auxiliary: "q Q r R x X"
+}
+sample_text {
+  masthead_full: "PpAa"
+  masthead_partial: "Ll"
+  styles: "Palʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ"
+  tester: "Palʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa."
+  poster_sm: "Palʊlʊʊ ɛyaaa"
+  poster_md: "Palʊlʊʊ"
+  poster_lg: "Palʊlʊʊ"
+  specimen_48: "Palʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa"
+  specimen_36: "Palʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ."
+  specimen_32: "Palʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ."
+  specimen_21: "Palʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ.\nPalʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ.\nPalʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ."
+  specimen_16: "Palʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ.\nPalʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ.\nPalʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ.\nPalʊlʊʊ ɛyaaa nɛ pa-tɩ yɔɔ wɛʊ kpaagbaa nɛ pɛwɛɛ kɩmaŋ wala ɛsɩndaa. Palʊlʊʊ-wɛ nɛ pɔ-lɔŋ nɛ pa-maɣzɩm; mbʊ yekina nɛ pɔsɔɔlɩ ɖama se pɛkɛ ɛyaa pa-tɩŋgɛ."
+}

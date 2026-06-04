@@ -1,0 +1,14 @@
+id: "ekp_Latn"
+language: "ekp"
+script: "Latn"
+name: "Ekpeye"
+population: 226000
+region: "NG"
+exemplar_chars {
+  base: "a A à À â Â ā Ā b B {bh} {BH} {ch} {CH} d D {dh} {DH} e E è È ê Ê ē Ē ẹ Ẹ {ẹ̀} {Ẹ̀} ệ Ệ {ẹ̄} {Ẹ̄} g G {gb} {GB} {gw} {GW} h H i I ì Ì î Î ī Ī ị Ị {ị̀} {Ị̀} {ị̂} {Ị̂} {ị̄} {Ị̄} j J k K {kp} {KP} {kw} {KW} l L m M n N {nw} {NW} {ny} {NY} o O ò Ò ô Ô ō Ō ọ Ọ {ọ̀} {Ọ̀} ộ Ộ {ọ̄} {Ọ̄} p P s S {sh} {SH} t T u U ù Ù û Û ū Ū ụ Ụ {ụ̀} {Ụ̀} {ụ̂} {Ụ̂} {ụ̄} {Ụ̄} w W {wh} {WH} y Y z Z {zh} {ZH}"
+  marks: "◌̀ ◌̂ ◌̄ ◌̌"
+  auxiliary: "ǎ Ǎ ě Ě {ẹ̌} {Ẹ̌} ǐ Ǐ {ị̌} {Ị̌} ǒ Ǒ {ọ̌} {Ọ̌} ǔ Ǔ {ụ̌} {Ụ̌}"
+}
+source: "Roger Blench, David Clark et Kay Williamson, A dictionary of Ẹkpẹyẹ : An Igboid language of Southern Nigeria, 2013"
+source: "Isaac Eyi Ngulube, “Ekpeye orthography”, Ozo-mekuri Ndimele, Orthographies of Nigerian Languages: Manual IX, Nigerian Educational Research and Development Council (NERDC), 2011, pp. 49-67"
+note: "Blench et al. 2013 uses ◌̌ for raising tone."

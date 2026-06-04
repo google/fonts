@@ -1,0 +1,29 @@
+id: "eo_Latn"
+language: "eo"
+script: "Latn"
+name: "Esperanto"
+autonym: "Esperanto"
+population: 301
+region: "SM"
+exemplar_chars {
+  base: "A B C Ĉ D E F G Ĝ H Ĥ I J Ĵ K L M N O P R S Ŝ T U Ŭ V Z a b c ĉ d e f g ĝ h ĥ i j ĵ k l m n o p r s ŝ t u ŭ v z"
+  auxiliary: "Q W X Y q w x y"
+  marks: "◌̂ ◌̆"
+  numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] { } /"
+  index: "A B C Ĉ D E F G Ĝ H Ĥ I J Ĵ K L M N O P R S Ŝ T U Ŭ V Z"
+}
+sample_text {
+  masthead_full: "ĈĉIi"
+  masthead_partial: "Uu"
+  styles: "Pro tio, ke agnosko de la esenca digno kaj"
+  tester: "Pro tio, ke malagnosko kaj malestimo de la homaj rajtoj rezultigis"
+  poster_sm: "Pro tio, ke"
+  poster_md: "La Ĝenerala"
+  poster_lg: "Ĉiuj"
+  specimen_48: "Proklamas tiun ĉi Universalan Deklaracion de Homaj Rajtoj kiel"
+  specimen_36: "Neniu estu tenata en sklaveco aŭ servuteco; sklaveco kaj sklavkomerco estu malpermesitaj en ĉiuj siaj formoj."
+  specimen_32: "Ĉiu rajtas ricevi de la kompetentaj naciaj tribunaloj efikan riparon pro agoj, kiuj kontraŭas la fundamentajn rajtojn, kiujn li havas laŭ la konstitucio aŭ la leĝoj."
+  specimen_21: "Neniu suferu arbitrajn areston, malliberigon aŭ ekzilon.\nĈiu en plena egaleco rajtas je justa kaj publika proceso antaŭ sendependa kaj senpartia tribunalo, por prijuĝo de liaj rajtoj kaj devoj kaj de kiu ajn kriminala akuzo kontraŭ li.\nNeniu suferu arbitrajn intervenojn en sian privatecon, familion, hejmon aŭ korespondadon, nek atakojn kontraŭ sia honoro aŭ reputacio. Ĉiu rajtas ricevi juran protekton kontraŭ tiaj intervenoj aŭ atakoj."
+  specimen_16: "Ĉiu havas la rajton je libereco de penso, konscienco kaj religio; tiu ĉi rajto inkluzivas la liberecon ŝanĝi sian religion aŭ kredon, kaj liberecon manifesti, ĉu sola ĉu kune kun aliaj, ĉu publike ĉu private, sian religion aŭ kredon per instruado, praktikado, adorado kaj observado.\nĈiu havas la rajton je libereco de opinio kaj esprimado; ĉi tiu rajto inkluzivas la liberecon havi opiniojn sen intervenoj de aliaj, kaj la rajton peti, ricevi kaj havigi informojn kaj ideojn per kiu ajn rimedo kaj senkonsidere pri la landlimoj.\nĈiu havas rajton je ripozo kaj libertempo, inkluzive racian limigon de la laborhoroj kaj periodajn feriojn kun salajro."
+}

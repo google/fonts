@@ -1,0 +1,11 @@
+id: "kkz_Latn"
+language: "kkz"
+script: "Latn"
+name: "Kaska"
+population: 125
+region: "CA"
+exemplar_chars {
+  base: "a A á Á ą Ą {ą́} {Ą́} ā Ā {ā́} {Ā́} â Â ǎ Ǎ {ą̄} {Ą̄} {ą̄́} {Ą̄́} {ą̂} {Ą̂} {ą̌} {Ą̌} b B {ch} {CH} {chʼ} {CHʼ} d D {dl} {DL} {dz} {DZ} e E é É ę Ę {ę́} {Ę́} ē Ē ḗ Ḗ ê Ê ě Ě {ę̄} {Ę̄} {ę̄́} {Ę̄́} {ę̂} {Ę̂} {ę̌} {Ę̌} f F g G {gh} {GH} h H i I í Í į Į {į́} {Į́} ī Ī {ī́} {Ī́} î Î ǐ Ǐ {į̄} {Į̄} {į̄́} {Į̄́} {į̂} {Į̂} {į̌} {Į̌} j J k K {kʼ} {Kʼ} l L ł Ł m M n N o O ó Ó ǫ Ǫ {ǫ́} {Ǫ́} ō Ō ṓ Ṓ ô Ô ǒ Ǒ ǭ Ǭ {ǭ́} {Ǭ́} {ǫ̂} {Ǫ̂} {ǫ̌} {Ǫ̌} p P r R s S {sh} {SH} t T {tʼ} {Tʼ} {tl} {TL} {tlʼ} {TLʼ} {ts} {TS} {tsʼ} {TSʼ} u U ú Ú ų Ų {ų́} {Ų́} ū Ū {ū́} {Ū́} û Û ǔ Ǔ {ų̄} {Ų̄} {ų̄́} {Ų̄́} {ų̂} {Ų̂} {ų̌} {Ų̌} y Y ÿ Ÿ z Z ʼ"
+  marks: "◌́ ◌̂ ◌̌ ◌̨"
+}
+source: "Yukon Native Language Centre, Kaska Alphabet, Council of Yukon First Nations, 2020"

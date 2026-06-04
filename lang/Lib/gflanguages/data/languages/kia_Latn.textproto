@@ -1,0 +1,13 @@
+id: "kia_Latn"
+language: "kia"
+script: "Latn"
+name: "Kim"
+population: 53000
+region: "TD"
+exemplar_chars {
+  base: "a A à À á Á ā Ā {a̰} {A̰} b B ɓ Ɓ c C d D ɗ Ɗ e E é É ḛ Ḛ f F g G h H i I ḭ Ḭ j J k K l L {ls} {LS} m M {mb} {MB} n N {nd} {ND} {nj} {NJ} ŋ Ŋ {ŋg} {ŊG} o O ó Ó {o̰} {O̰} p P r R s S t T u U ú Ú ṵ Ṵ v V w W y Y z Z"
+  auxiliary: "q Q x X"
+  marks: "◌́ ◌̄ ◌̰"
+}
+source: "Association pour la Promotion de la Langue Kim (APLK), Sigir Wak Kwasap (Les contes en langue kim), APLK Tchad, 2012"
+source: "CTBLK, Hate isi wak kwasap, vol. 1-2, CTBLK, 2010"

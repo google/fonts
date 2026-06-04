@@ -1,0 +1,14 @@
+id: "sbp_Latn"
+language: "sbp"
+script: "Latn"
+name: "Sangu"
+autonym: "Shisango"
+population: 117105
+region: "TZ"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P s S t T u U v V w W y Y"
+  auxiliary: "q Q r R x X z Z"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P S T U V W Y"
+}

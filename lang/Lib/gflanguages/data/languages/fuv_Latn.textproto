@@ -1,0 +1,23 @@
+id: "fuv_Latn"
+language: "fuv"
+script: "Latn"
+name: "Nigerian Fulfulde"
+population: 14339876
+region: "NG"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U W Y X Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ɓ ɗ"
+}
+sample_text {
+  masthead_full: "ƁɓIi"
+  masthead_partial: "Aa"
+  styles: "Nde laati tabitinki manngu e fotuki hakke"
+  tester: "Nde laati memba’en lesɗe duuniyaaru kooƴii alkawal e hoore maɓɓe"
+  poster_sm: "Ɓi-aadama fuu"
+  poster_md: "Ɓii-aadama"
+  poster_lg: "Ɓi-aadama"
+  specimen_48: "Ɓesdaari dow ɗu’m, walaa feerootirki waɗetee ngam mangu siyaasa,"
+  specimen_36: "Walaa koomoye wuurinte nder maccungaaku maa bo kuuɗe torra, resuki macuɓe e coggu maccuɓe e horɓe koo iri nguye haɗaama"
+  specimen_32: "Ɓii-aadama fuu fotay yeeso sari’a, nden boo woodi baawɗe walaa yawaare, o woodi deenal potoowal ngal sari’a. Moye fuu woodi deenal potoowal ngam yawaare e nyaakeeki neɗɗaaku."
+  specimen_21: "Koomoye woodi baawɗe e hakke maagooje naftirooje hukuumaaje ɗe nder lesdi ngam sari’aaji torrooje hakke ɓii-aadama ɗi siri laamu tabitanimo ma abo sarii’a.\nWalaa ɓii-aadama gooto nanngetee, haɓɓee maa bo riiwee diga lesdi muuɗum dow giɗaaɗi ɓernde goɗɗo feere.\nKoomoye woodi baawɗe naneeki no wooɗi yeeso ummaatoore no haani yeeso alkaaliijo daraniiɗo goonga e darnuki hake maako e wosinki ko o takkana fuu."
+  specimen_16: "Walaa neɗɗe gooto gaɗanteeɗo naatalmaaku nder lamaruuji maako, iyaalu maako,ɓaade maako be defte e ɗereeji maakonon nyaamki neɗaaku maako e mangu maako. Koomoye woodi baawɗe e neɗɗaaku deeneteeɗi be kiita dow naatalmaku ngun e torruki mo.\nKoomoye woodi baawɗe yaaki endimaaku e miillo maako, llamiiri maako, diina maako; bauɗe ɗe’e hawtuub e ndimaaku waylutuki diina maako, goongɗinki maako bee ndimaaku, feere maako maa bo nder ummaatoore bee woɓɓe bee kuuɓnol maa bo coondol, nden holla diina maako maa bo goongɗinki maako e janginki, huutirki, ibaada, e reentaaki."
+}

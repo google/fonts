@@ -1,0 +1,26 @@
+id: "ngh_Latn"
+language: "ngh"
+script: "Latn"
+region: "ZA"
+population: 1
+name: "Nǁng"
+exemplar_chars {
+  base: "A a E e G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u X x Y y Â â Î î Ô ô Û û ǀ ǁ ǂ ǃ ʘ ’"
+  marks: "◌̂"
+}
+sample_text {
+  masthead_full: "ʘQʘq"
+  masthead_partial: "ʘǂ"
+  styles: "Kua ǂxoa nǀa ku kyu. Na nǀii nǀa ng ts’axam."
+  tester: "Sa kyuu nǀa si ka nǂûi. Kinke dyaqn nǀa kin ka ǃx’uu."
+  poster_sm: "Na ǂxoa Nǀuu."
+  poster_md: "Na ǃaba."
+  poster_lg: "ǃHonkia"
+  specimen_48: "ǂXaeke ke ǁx’oo ʘooke. ǁHûike tyuuke ke ǀx’ôa. ǀEeki ke âi ʘoe."
+  specimen_36: "Ng ainki ke ʘuna. Ng ǁâu ke ǂaqe tiiviisi. ǂXaeke ke ǁx’oo ʘooke. ǁHûike tyuuke ke ǀx’ôa. ǀEeki ke âi ʘoe. ǁHûi ǀaa ke ǀa ǀoba."
+  specimen_32: "Ng ainki ke ʘuna. Ng ǁâu ke ǂaqe tiiviisi. ǂXaeke ke ǁx’oo ʘooke. ǁHûike tyuuke ke ǀx’ôa. ǀEeki ke âi ʘoe. ǁHûi ǀaa ke ǀa ǀoba. Na ǁ’ûi ǁ’ana dyaqna. Na dyaqn ng ǁ’ûi’a. Na ǁu si ǃhaeka dyaqn. "
+  specimen_21: "Ng ainki ke ʘuna. Ng ǁâu ke ǂaqe tiiviisi. ǂXaeke ke ǁx’oo ʘooke. ǁHûike tyuuke ke ǀx’ôa. ǀEeki ke âi ʘoe. ǁHûi ǀaa ke ǀa ǀoba. Na ǁ’ûi ǁ’ana dyaqna. Na dyaqn ng ǁ’ûi’a. Na ǁu si ǃhaeka dyaqn. Kyuixe a nǀii? Na ke nǀii lorriesi. Kin ke ǁ’ûi ǁ’ana seea nǀa donkiekarsi. Ku dyee ng ǁ’aa ng Kaapstad? Kua ke zeqea nǀa ǀurisi ǀqhuisi.\nNa ǀ’ee ǁhoo maari ng boksi ǁâa’î. "
+  specimen_16: "Ng ainki ke ʘuna. Ng ǁâu ke ǂaqe tiiviisi. ǂXaeke ke ǁx’oo ʘooke. ǁHûike tyuuke ke ǀx’ôa. ǀEeki ke âi ʘoe. ǁHûi ǀaa ke ǀa ǀoba. Na ǁ’ûi ǁ’ana dyaqna. Na dyaqn ng ǁ’ûi’a. Na ǁu si ǃhaeka dyaqn. Kyuixe a nǀii? Na ke nǀii lorriesi. Kin ke ǁ’ûi ǁ’ana seea nǀa donkiekarsi. Ku dyee ng ǁ’aa ng Kaapstad? Kua ke zeqea nǀa ǀurisi ǀqhuisi.\nNa ǀ’ee ǁhoo maari ng boksi ǁâa’î. Na nǃari ǁ’aa skool. Na kx’âi ǃqhaa. Na ǃ’anuǃ’anu ng kamersi. Ng ǃuiki ke ǀx’ee sa guuke ni kuria. Kinke ǀxoo. ǃOakekyarake ke sîisen. ǂXae ke ǁx’oo ʘooke. ǁHûike ǀaake ke ǀa ǀoeke. Sa sîisen ng ǁ’ûi’a. A ka ǃu ke ǀxaquka. Ku rokesi ke kuria. U baadjiesi ke ǃxooa. Kin broekeke ke ǂqôeia. Ts’axam ni ǀxaquka. Ka gǀâu ni ǀx’uuia. ǁHâi ni ǃ’anua. ǀHuuke ni ǀ’âa. Gǃan he ǀxaquka. Nǀum he ǀ’âa. Ka gǀâu ni ǃxooa."
+}
+note: "Base exemplar should likely be \"a aa ai âi b d dy e f g h i j jh k kh kx’ ky l m n ng ny p q r s t ty tyh tyx ts ts’ u v x z ʘ ʘ’ mʘ ʘx ʘq ǀ gǀ ǀ’ nǀ ǀh ǀ’h ǀx ǀq ǀqh ǀx’ ǃ gǃ ǃ’ nǃ ǃh ǃ’h ǃx ǃq ǃqh ǃx’ ǂ  gǂ ǂ’ nǂ ǂh ǂ’h ǂx ǂq ǂqh ǂx’ ǁ gǁ ǁ’ nǁ ǁh ǁ’h ǁx ǁq ǁqh ǁx’\" with uppercasing."
+source: "Sheena Shah, Matthias Brenzinger, Ouma Geelmeid ke kx'u ǁxaǁxa Nǀuu, Centre for African Language Diversity, 2016"

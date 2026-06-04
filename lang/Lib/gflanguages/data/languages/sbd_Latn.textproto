@@ -1,0 +1,13 @@
+id: "sbd_Latn"
+language: "sbd"
+script: "Latn"
+name: "Southern Samo"
+population: 85000
+region: "BF"
+exemplar_chars {
+  base: "A B C D E Ɛ Ə F I K L M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ ə f i k l m n ŋ o ɔ p r s t u w y À È {Ɛ̀} {Ə̀} Ì Ǹ Ò {Ɔ̀} Ù Á É {Ɛ́} {Ə́} Í Ń Ó {Ɔ́} Ú Ǎ Ě {Ə̌} {Ɛ̌} Ǐ Ǒ {Ɔ̌} Ǔ Ä Ë {Ɛ̈} {Ə̈} Ï Ö {Ɔ̈} Ü Ã Ĩ {Ɔ̃} Ũ à è {ɛ̀} {ə̀} ì ǹ ò {ɔ̀} ù á é {ɛ́} {ə́} í ń ó {ɔ́} ú ǎ ě {ɛ̌} {ə̌} ǐ ǒ {ɔ̌} ǔ ä ë {ɛ̈} {ə̈} ï ö {ɔ̈} ü ã ĩ {ɔ̃} ũ"
+  auxiliary: "G H J Q Z g h j q z"
+  marks: "◌̀ ◌́ ◌̌ ◌̈ ◌̃"
+}
+source: "Wikipedia"
+source: "https://www.webonary.org/san-sud"

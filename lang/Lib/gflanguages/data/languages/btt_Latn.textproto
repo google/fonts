@@ -1,0 +1,15 @@
+id: "btt_Latn"
+language: "btt"
+script: "Latn"
+name: "Bete-Bendi"
+population: 100000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á ā Ā à À ǎ Ǎ â Â {a᷅} {A᷅} {a᷆} {A᷆} b B c C d D e E é É ē Ē è È ě Ě ê Ê {e᷅} {E᷅} {e᷆} {E᷆} f F g G h H i I í Í ī Ī ì Ì ǐ Ǐ î Î {i᷅} {I᷅} {i᷆} {I᷆} j J k K l L m M n N o O ó Ó ō Ō ò Ò ǒ Ǒ ô Ô {o᷅} {O᷅} {o᷆} {O᷆} p P r R s S t T u U ú Ú ū Ū ù Ù ǔ Ǔ û Û {u᷅} {U᷅} {u᷆} {U᷆} v V w W y Y z Z"
+  marks: "◌́ ◌̄ ◌̀ ◌̌ ◌̂ ◌᷅ ◌᷆"
+  auxiliary: "q Q x X"
+}
+source: "SLDR"
+source: "Bete-Bendi Bible, Global Bible Apps (FCBH), 2023"
+note: "SLDR or ScriptSource.org do not include the following but they are used in the Bete-Bendi Bible translation: i᷅ in Matthew 3:7 “... ná ìshii᷅ ibibi ...”, o᷅ in Revelation 11:18 “... or, wo᷅ ngywo ...”, o᷆ in Matthew 8:19 “... ashi wo᷆ gye.”, u᷅ in Matthew 23:27 “bendi le 'inu᷅ng.”, u᷆ in Matthew 1:22 “... angwu u᷆ tye ...”."
+

@@ -1,0 +1,4 @@
+--index-url https://pypi.python.org/simple/
+protobuf==3.20.3
+importlib_resources ; python_version < '3.10'
+-e .

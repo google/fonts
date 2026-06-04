@@ -1,0 +1,11 @@
+id: "muh_Latn"
+language: "muh"
+script: "Latn"
+name: "Mündü"
+population: 26000
+region: "CD"
+region: "SS"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I ï Ï j J k K l L m M n N o O ö Ö p P r R s S t T u U ü Ü v V w W y Y z Z ꞌ Ꞌ"
+  marks: "◌̈"
+}

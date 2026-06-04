@@ -1,0 +1,17 @@
+id: "mhi_Latn"
+language: "mhi"
+script: "Latn"
+name: "Ma’di"
+population: 584000
+region: "UG"
+region: "SS"
+exemplar_chars {
+  base: "a A á Á â Â ã Ã b B {ʼb} {ʼB} c C d D {dr} {DR} {ʼd} {ʼD} e E é É ê Ê ẽ Ẽ ẹ Ẹ {ẹ́} {Ẹ́} ệ Ệ {ẹ̃} {Ẹ̃} f F {ʼgb} {ʼGB} i I í Í î Î ĩ Ĩ ị Ị {ị́} {Ị́} {ị̂} {Ị̂} {ị̃} {Ị̃} j J {ʼj} {ʼJ} l L m M {mb} {MB} {mgb} {MGB} {mv} {MV} n N {nd} {ND} {ndr} {NDR} {ng} {NG} {ny} {NY} {nz} {NZ} o O ó Ó ô Ô õ Õ ọ Ọ {ọ́} {Ọ́} ộ Ộ {ọ̃} {Ọ̃} p P r R s S t T {tr} {TR} u U ụ Ụ {ụ́} {Ụ́} {ụ̂} {Ụ̂} {ụ̃} {Ụ̃} v V {ʼw} {ʼW} z Z ʼ"
+  marks: "◌́ ◌̂ ◌̃ ◌̣"
+}
+note: "SLDR exemplar chararacters (with ä Ä ɛ Ɛ ɩ Ɩ ŋ Ŋ ɔ Ɔ ʋ Ʋ or even ʤ) do not correspond with the orthography description in Blackings & Fabb (2003). Kilpatrick (1985) and Kilpatrick (2005) use dotted vowels for -ATR and marks (◌́ ◌̂ ◌̃) for tones."
+source: "SLDR"
+source: "Mairi Blackings and Nigel Fabb, A grammar of Ma’di, Berlin: Mouton De Gruyter, 2003"
+source: "Eileen Kilpatrick, “Preliminary Notes on Ma'di Phonology”, Occasional Papers in the Study of Sudanese Languages, no. 4, Juba: Summer Institute of Linguistics and Institute of Regional Languages and College of Education, 1985, 119-132"
+source: "Eileen Kilpatrick, “Orthographies of Moru-Ma'di languages”, Occasional Papers in the Study of Sudanese Languages, no. 9, 2004, SIL-Sudan, 85-92"
+source: "https://www.madiaulogo.info"

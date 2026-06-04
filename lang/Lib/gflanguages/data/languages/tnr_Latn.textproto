@@ -1,0 +1,13 @@
+id: "tnr_Latn"
+language: "tnr"
+script: "Latn"
+name: "Ménik"
+autonym: "ménik"
+population: 3304
+region: "SN"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E é É ë Ë ė Ė f F g G h H i I j J k K l L m M n N ñ Ñ ŋ Ŋ o O ó Ó p P r R s S ŝ Ŝ t T u U w W y Y ƴ Ƴ"
+  marks: "◌̀ ◌́ ◌̂ ◌̈ ◌̃ ◌̇"
+}
+source: "République du Sénégal, Décret no 2005-985 relatif à l’orthographe et la séparation des mots en ménik, 21 octobre 2005"
+source: "Wikipedia"

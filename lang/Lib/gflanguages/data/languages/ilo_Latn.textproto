@@ -1,0 +1,25 @@
+id: "ilo_Latn"
+language: "ilo"
+script: "Latn"
+name: "Iloko"
+autonym: "Ilokano"
+population: 10481376
+region: "PH"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ñ"
+  marks: "◌̃"
+}
+sample_text {
+  masthead_full: "AaMm"
+  masthead_partial: "Ii"
+  styles: "Idinto ta bigbigen iti naisigsigud a dayaw"
+  tester: "Idinto ta iti saan nga panangi-kan-kano ken lalaisen dagiti kalinteganti"
+  poster_sm: "Idinto ta iti"
+  poster_md: "Ita, ngarud"
+  poster_lg: "Amin"
+  specimen_48: "Amin nga tao nga sibibiag ket naiyanak a siwawayawaya ken addaan"
+  specimen_36: "Awan ti siasinoman a mangparigat iti nalabes wenno mangranggas nga saan nga makatao wenno pananglalais wenno dusa."
+  specimen_32: "Kalintegan iti tunggal maysa ti aginana ken agliwliwa agraman ti nainkalintegan a naikeddeng nga oras ti panagtrabaho ken adda bayad dagiti aldaw ti piesta."
+  specimen_21: "Tunggal meysa ket maikari iti maysa nga gimong ken ti nailubongan a kinatalna nga isu dagiti kalintegan ken wayawaya nga nailanad iti deytoy a Pakdaar nga nasken a maamiris a naan-anay.\nAwan iti deytoy nga Pakdaar ti mabalin a naipatarus a kas ti pangilaw-lawag ti siasinoman nga Estado, grupo, tao, aniaman a kalintegan iti aniaman nga aramiden wenno panangiwayat iti aniaman nga pangpanggepen a mangdadael ti aniaman kadagiti kalintegan ken wayawaya a naituyang iti deytoy."
+  specimen_16: "Idinto ta bigbigen iti naisigsigud a dayaw ken panagpapada ken ti di maipaidam nga kalintegan dagiti amin a puli tao nga batayan ti wayawaya, hustisya ken ikakapya ti lubong.\nIdinto ta iti saan nga panangi-kan-kano ken lalaisen dagiti kalinteganti tao nga nagbanag iti panagsupiat a maibusor iti konsensya ti sangkataw-an, ken iti idadateng iti meysa nga lubong a laklak-amen dagiti tao ti wayawaya a panagsao ken pammati ken awanen ti panagamak ken panagrigrigat nga inda nga inar-arapa-ap nga impakdaar dagiti kadawyan a tao.\nIdinto ta deytoy ti kangrunaan, tapno saan a mapilitan ti tao nga mangriribok a maibusor ti kinaulpit ken pannakaidadanes, masapul nga masalakniban babaen kadagiti annuroten ti linteg."
+}

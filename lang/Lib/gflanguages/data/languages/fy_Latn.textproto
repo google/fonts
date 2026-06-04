@@ -1,0 +1,29 @@
+id: "fy_Latn"
+language: "fy"
+script: "Latn"
+name: "Western Frisian"
+autonym: "Frysk"
+population: 743057
+region: "NL"
+exemplar_chars {
+  base: "A Á À Â Ä B C D E É È Ê Ë F G H I Í Ï Y Ý J K L M N O Ó Ô Ö P R S T U Ú Û Ü V W Z a á à â ä b c d e é è ê ë f g h i í ï y ý j k l m n o ó ô ö p r s t u ú û ü v w z"
+  auxiliary: "Æ Ò Ù æ ò ù"
+  marks: "◌́ ◌̂ ◌̈"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P R S T U V W X Z"
+}
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "Yn betinken nommen dat it erkennen fan de"
+  tester: "Yn betinken nommen dat it oan \'e kant skowen en lytsachtsjen fan"
+  poster_sm: "Yn betinken"
+  poster_md: "Alle minsken"
+  poster_lg: "Alle"
+  specimen_48: "Elk hat oanspraak op alle rjochten en frijheden yn dizze Ferklearring"
+  specimen_36: "Nimmen sil yn slavemij of hearrigens hâlden wurde. Slavernij en slavehannel yn elke foarm binne ferbean."
+  specimen_32: "Elk hat rjocht op doeltreffende rjochtshelp fan foechhawwende nasjonale rjochtlike ynstânsjes tsjin hanlingen dy\'t yn striid binne mei de grûnrjochten him takend by grûnwet of wet."
+  specimen_21: "Nimmen sil ûnderwurpen wurde oan eigenwillige arrestaasje, detinsje of ferbanning.\nElk foar oar hat rjocht op in earlike en iepenbiere behanling fan syn saak troch in ûnôfhinklike en ûnpartidige rjochtlike ynstânsje by it fêststellen fan syn rjochten en ferplichtings en by it bepalen fan it grûndearre wêzen fan in tsjin him ynstelde strafferfolging."
+  specimen_16: "Nimmen sil ûnderwurpen wurde oan oarmans eigenwillich ynmingen yn syn persoanlike oangelegenheden, yn syn húshâlding, syn thús of syn briefwiksel, noch ien of oare oantaasting fan syn eare of goede namme. Elk hat rjocht op beskerming troch de wet tsjin sok ymningen of oantaasten.\nElk hat rjocht op frijheid fan tinken, gewisse en godstsjinst; dat rjocht hâldt teffens de frijheid yn om fan godstsjinst of oertsjûging te feroarjen, en de frijheid om òf allinne òf yn \'e mande mei oaren sawol yn it iepenbier as yn it partikuliere libben, foar syn godstsjinst of oertsjûging út te kommen troch dy te ûnderwizen, troch it praktysk tapassen, troch earetsjinst en it ûnderhâlden fan geboaden en foarskriften."
+}

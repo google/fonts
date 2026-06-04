@@ -1,0 +1,13 @@
+id: "bqp_Latn"
+language: "bqp"
+script: "Latn"
+name: "Bisã"
+population: 21000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á à À ã Ã {ã̀} {Ã̀} b B c C d D e E é É è È ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̃} {Ɛ̃} f F g G h H i I í Í ì Ì ĩ Ĩ {ĩ̀} {Ĩ̀} j J k K l L m M ḿ Ḿ n N ń Ń ǹ Ǹ o O ó Ó ò Ò ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̃} {Ɔ̃} {ɔ̃̀} {Ɔ̃̀} p P r R s S t T u U ú Ú ù Ù ũ Ũ {ũ̀} {Ũ̀} v V w W y Y z Z"
+  marks: "◌́ ◌̀ ◌̃"
+  auxiliary: "q Q x X"
+}
+source: "Bisã Bible, SIM International, 2005"
+source: "SLDR"

@@ -1,0 +1,12 @@
+id: "bqv_Latn"
+language: "bqv"
+script: "Latn"
+name: "Koro Wachi"
+population: 46717
+region: "CI"
+exemplar_chars {
+  base: "a A ã Ã b B c C d D e E ẽ Ẽ ɛ Ɛ {ɛ̃} {Ɛ̃} g G {gb} {GB} {gw} {GW} h H i I ĩ Ĩ j J k K {kp} {KP} l L m M {mb} {MB} n N {nd} {ND} ŋ Ŋ {ny} {NY} o O õ Õ ɔ Ɔ {ɔ̃} {Ɔ̃} p P r R {sh} {SH} t T u U ũ Ũ v V w W {wh} {WH} y Y {zh} {ZH}"
+  marks: "◌̃"
+  index: "A B C D E Ɛ G {GB} {GW} H I J K {KP} L M {MB} N {ND} Ŋ {NY} O Ɔ P R S T U V W Y Z"
+}
+source: "Ashɛ Translation and Language Development Project, Iletaa +ni Ihaa ni Ishɛ, SIL Nigeria, 2017"

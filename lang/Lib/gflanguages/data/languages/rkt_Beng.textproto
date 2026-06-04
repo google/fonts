@@ -1,0 +1,13 @@
+id: "rkt_Beng"
+language: "rkt"
+script: "Beng"
+name: "Rangpuri"
+autonym: "রংপুরী"
+population: 16274502
+region: "BD"
+region: "IN"
+exemplar_chars {
+  base: "৺ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ"
+  marks: "◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ে ◌ৈ ◌্ ◌ৗ"
+  numerals: "০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯"
+}

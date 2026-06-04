@@ -1,0 +1,19 @@
+id: "ttq_Latn"
+language: "ttq"
+script: "Latn"
+name: "Tawallammat Tamajaq"
+autonym: "Tawǝllǝmmǝt"
+population: 810000
+region: "ML"
+region: "NE"
+exemplar_chars {
+  base: "A Â Ă Ǝ B C D Ḍ E Ê F G Ǧ H I Î J {J̌} Ɣ K L Ḷ M N Ŋ O Ô Q R S Ṣ Š T Ṭ U Û W X Y Z Ẓ a â ă ǝ b c d ḍ e ê f g ǧ h i î j ǰ ɣ k l ḷ m n ŋ o ô q r s ṣ š t ṭ u û w x y z ẓ"
+  auxiliary: "Ɗ Ƭ P V Ḅ {F̣} {G̣} Ḥ {J̣} Ḳ Ṃ Ṇ Ṛ {Ṣ̌} ɗ ƭ p v ḅ {f̣} {g̣} ḥ {j̣} ḳ ṃ ṇ ṛ {ṣ̌} ẉ ʔ"
+  marks: "◌̂ ◌̆ ◌̌ ◌̣"
+}
+source: "Direction Nationale de l’Alphabétisation fonctionnelle et de la Linguistique appliquée (DNAFLA), Alphabets et règles d’orthographe des langues nationales. Bamako: D.N.A.F.L.A. 1993"
+source: "Chantal Enguehard, Alphabet tamajaq – arrêté no 214-99 de la République du Niger, 2007"
+source: "République du Niger, Ministère de l’Éducation nationale, arrêté no 0214/MEN/SPCNRE du 19 octobre 1999 fixant l’orthographe de la langue tamajaq, 1999"
+source: "Ǝlinjil ǝn Ɣaysa Ǝlmǝsix Itawann-as deɣ Arkawal wa Aynayan, Wycliffe Bible Translators, 2015"
+source: "Wikipedia"
+note: "Wycliffe Bible Translators (2015) uses ḳ ṇ ṛ. The hooked letters ɗ and ƭ, as well as l, s, z with hook not in Unicode, where used in the 1966 alphabet. The letters ɗ, ƭ are sometimes in some recent documents."

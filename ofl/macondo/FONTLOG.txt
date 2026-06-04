@@ -1,0 +1,54 @@
+FONTLOG for the Macondo font
+
+This file provides detailed information on the Macondo font
+Software.
+
+This information should be distributed along with the Macondo
+font and any derivative works.
+
+Basic Font Information
+
+Macondo. The first purpose of this typeface was to provide an 
+original and systematized style of calligraphy adapted into a 
+modern digital font. The forms are inspired by some illustrations 
+created for a tarot card game, itself inspired by the work of 
+Colombian literature Nobel prize winning author, Gabriel 
+García Márquez, «Cien Años de Soledad». Early versions of 
+this font were made in 1997, but recently in 2009 it was 
+substantially improved. Macondo includes several cap swashes 
+and other stylish alternates, and a sister family Macondo 
+Swash Caps is also available.
+
+Designed by John Vargas Beltrán.
+
+Macondo is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded to 
+support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1
+
+To contribute to the project contact John Vargas Beltrán
+at john.vargasbeltran@gmail.com
+
+There are 2 Source files:
+
+1. Macondo-Regular-OTF.vfb FontLab file with merged PostScript
+   outlines and optimized, corresponding to the OTF file
+
+2. Macondo-Regular-TTF.sfd FontForge file with TrueType 
+   outlines, corresponding to the TTF file
+
+ChangeLog 
+
+14 Dec 2011 (John Vargas Beltrán) Macondo v1.00
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: John Vargas Beltrán
+E: john.vargasbeltran@gmail.com
+W: www.johnvargasbeltran.com
+D: Graphic & Typeface Designer

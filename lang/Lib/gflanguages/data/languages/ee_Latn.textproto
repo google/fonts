@@ -1,0 +1,30 @@
+id: "ee_Latn"
+language: "ee"
+script: "Latn"
+name: "Ewe"
+autonym: "Èʋegbe"
+population: 4690856
+region: "GH"
+region: "TG"
+exemplar_chars {
+  base: "a A á Á à À ã Ã b B d D ɖ Ɖ e E é É è È ẽ Ẽ ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̃} {Ɛ̃} f F ƒ Ƒ g G ɣ Ɣ h H x X i I í Í ì Ì ĩ Ĩ k K l L m M n N ŋ Ŋ o O ó Ó ò Ò õ Õ ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̃} {Ɔ̃} p P r R s S t T u U ú Ú ù Ù ũ Ũ v V ʋ Ʋ w W y Y z Z"
+  auxiliary: "â Â æ Æ c C ç Ç ê Ê ë Ë î Î ï Ï j J ô Ô œ Œ q Q û Û ü Ü"
+  marks: "◌̀ ◌́ ◌̃ ◌̂ ◌̄ ◌̆ ◌̈ ◌̊ ◌̧"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] { } @ * / & #"
+  index: "A B D Ɖ E Ɛ F Ƒ G Ɣ H X I K L M N Ŋ O Ɔ P R S T U V Ʋ W Y Z"
+}
+sample_text {
+  masthead_full: "WwOo"
+  masthead_partial: "Dd"
+  styles: "Esi woɖe dzesi kɔtɛe be, amegbetɔwo katã ƒe"
+  tester: "Esi eme va kɔ ƒãa be, ablɔɖevinyenye si nye amegbetɔ ɖesiaɖe tɔ"
+  poster_sm: "Esi woɖo kpe"
+  poster_md: "Esi wohiã"
+  poster_lg: "Wodzi"
+  specimen_48: "Esi Xexeme Dukɔ Ƒoƒuawo ɖe adzɔgbe le woƒe Ɖoɖo si te wode asie"
+  specimen_36: "Womatsɔ ame aɖeke awɔ kluvie alo aɖoe awɔbae o, woatsi kluvinyenye kple kluvisitsatsa nu gbidii le mɔ vovovoawo nu."
+  specimen_32: "Gomekpɔkpɔ le amesiame si le dukɔa ƒe ʋɔnudrɔ̃ƒewo hena ɖɔɖɔɖowɔwɔ siwo ku ɖe eƒe ablɔɖevinyenye ƒe kuxiwo ŋu abe alesi wole dukplɔse la me ene."
+  specimen_21: "Womalé ame aɖeke akpasesẽtɔe, azi edzi ɖe gaxɔme, alo anyae le dukɔa me ɖe adzemadze dzi o.\nGomekpɔkpɔ sɔsɔe le amesiame si ŋu wotsɔ nya ɖo hekplɔe yi dukɔa ƒe ʋɔnudrɔ̃ƒe, afisi ʋɔnudrɔ̃la adodoe siwo matso afia ŋkunɔ o la, nade to eƒe nyawo me ku ɖe eƒe gomekpɔkpɔ, eƒe dɔdeasiwo kple hlɔ̃nya ɖesiaɖe ƒomevi si woatsɔ ɖe eŋu la me nɛ."
+  specimen_16: "Ame aɖeke mekpɔ mɔ atsɔ sesẽ ade nu ame bubu ƒe adzamegbenɔnya, eƒe ƒomenya, alo aƒemegbenɔnya me o. Ame aɖeke mekpɔ mɔ ato mɔ aɖeke dzi anya nu tso ame aɖe kple ame bubuwo dome kadodonyawo ŋuti o. Nenema ke ame aɖeke mekpɔ mɔ aƒo ɖi ame bubu ŋkɔ alo agblẽ eŋu o. Se la ɖe mɔ be ame aɖe si ŋu woaɖe afɔ sia ƒomevi ɖo la, naʋli eɖokui ta faa se la ŋudɔwɔwɔ me.\nMɔnukpɔkpɔ li na amesiame si nye dziɖuɖudɔwɔla be woana gbɔɖemee to mɔkeke nanae me le xeyixi tɔxɛ aɖewo dzi gake woaxe fetu dedi nɛ. Womaɖe ga aɖeke le eƒe fetu la me ɖe xeyixi siwo me menɔ dɔ me la ta o."
+}

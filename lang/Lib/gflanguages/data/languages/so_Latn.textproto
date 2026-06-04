@@ -1,0 +1,30 @@
+id: "so_Latn"
+language: "so"
+script: "Latn"
+name: "Somali"
+autonym: "Soomaali"
+population: 16731120
+region: "DJ"
+region: "ET"
+region: "KE"
+region: "SO"
+exemplar_chars {
+  base: "b B c C d D f F g G h H j J k K l L m M n N q Q r R s S t T w W x X y Y"
+  auxiliary: "a A e E i I o O p P u U v V z Z"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "B C D F G H J K L M N Q R S T W X Y"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Nn"
+  styles: "Iyadoo aqoonsiga sharafta uu ku dhashay iyo"
+  tester: "Iyadoo aqoonsi la\'aanta iyo ku tumashada xuquuqda aadanuhu ay"
+  poster_sm: "Iyadoo ay tahay"
+  poster_md: "Iyadoo ay"
+  poster_lg: "Aadanaha"
+  specimen_48: "Iyadoo dadyowga dunidu ay ku caddeeyeen mar kale Dastuurka Qaramada"
+  specimen_36: "Ma jiro qof loo hoysan karo addoon, addoonsiga iyo ka ganacsiga addoonta way reebanyihiin cayn kasta ay ku yimaadaan."
+  specimen_32: "Qof kasta wuxuu xaq u leeyahay inuu helo Maxkamadaha ku hawsha leh ee dalkiisa cawin celin dhab ah marka lagu xad-gudbo xuquuqda asaasiga ah oo uu dastuurka ama sharciga siiyay."
+  specimen_21: "Qofna looma xiri karo, looma hayn karo, ama looma masaafurin karo si sharci darro ah.\nQof Kastaa wuxuu xaq u leeyahay inuu helo sinnaan buuxda Maxkamad Caadil ah horteed marka la gaynayo xuquuqdiisa iyo waajibaadkiisa iyo marka ay dhacdo in loo haysto dacwo ciqaab ah.\nQof kasta wuxuu xaq u leeyahay nasasho oo ay ku jirto waqti kooban oo macquul ah oo laga jaro saacadaha shaqada iyo xilliyo fasax oo uu mushaar u socdo."
+  specimen_16: "Qof kastaa wuxuu xaq u leeyaday inuu helo nidaam bulsho iyo hab caalami ah oo xuquuqda iyo xorriyaadka lagu tilmaamay Baaqan si buuxda loogu dhaqan gelin karo.\nBaaqan kuma jiraan wax loo fasiri karo in micnahoodu yahay in Dawlad, koox ama qof xaq u leeyahay inuu ku kaco fal ama falal loola jeedo in lagu burburiyo xuquuqda ama xorriyaadka lagu qoray Baaqan.\nIyadoo aqoonsiga sharafta uu ku dhashay iyo xuquuqda maguurtada ah ee ay u siman-yihiin dadweynaha adduunku uu yahay saldhigga xorriyada, caddaaladda iyo nabadda dunida.\nIyadoo ay tahay lagama maarmaan in xuquuqda aadanuhu ay noqdaan kuwo sharcigu dhowro, si uusan qofku, ugu dambeynta, ugu baahan inuu xoog kaga soo horjeesto cadaadiska."
+}

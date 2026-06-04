@@ -1,0 +1,15 @@
+id: "tum_Latn"
+language: "tum"
+script: "Latn"
+name: "Tumbuka"
+autonym: "Chitumbuka"
+population: 2170000
+region: "MW"
+region: "ZA"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W Ŵ X Y Z a b c d e f g h i j k l m n o p q r s t u v w ŵ x y z"
+  marks: "◌̂"
+}
+source: "Centre for Language Studies, The orthography of Citumbuka, Blantyre, E+V Publications, 2005"
+source: "Jean Josephine Chavula, Verbal derivation and valency in Citumbuka, Utrecht: LOT, 2016 "
+note: "Malawi 2018 census has 1,615,000 Tumbuka. Zambia 2010 census has 290,000 Tumbuka speakers, 79,500 Senga speakers and 2,000 Yombe speakers, and national population increased by 49.8% in the 2022 census."

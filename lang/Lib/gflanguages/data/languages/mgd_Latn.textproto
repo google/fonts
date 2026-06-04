@@ -1,0 +1,15 @@
+id: "mgd_Latn"
+language: "mgd"
+script: "Latn"
+name: "Moru"
+autonym: "moru"
+population: 214000
+region: "SD"
+exemplar_chars {
+  base: "a A à À â Â ä Ä {ä̀} {Ä̀} b B {’b} {’B} c C d D {’d} {’D} {dr} {DR} e E è È f F g G {gb} {GB} i I ì Ì î Î j J k K {kp} {KP} l L m M n N {ny} {NY} ŋ Ŋ o O ò Ò p P r R ṛ Ṛ s S t T {tr} {TR} u U ù Ù v V {’w} {’W} {’y} {’Y} z Z"
+  marks: "◌̀ ◌̂ ◌̈"
+  auxiliary: "h H q Q w W x X"
+}
+source: "Eileen Kilpatrick, \"Orthographies of Moru-Ma'di languages\", Occasional Papers in the Study of Sudanese Languages, no. 9, 2004, p. 85-91"
+source: "Baibolo Alokado = The Bible in Moru, The Bible Society in the Sudan, 2000"
+note: "Kilpatrick 2004 lists additional digraphs and trigraphs: labialized with w, prenasalized with m, n or ŋ. High and mid tones are not marked. Low tone is marked with grave when distinguishing singular and plural, with circumflex when lexical. The 2000 Bible in Moru only hasoccurences of all vowel letters with grave but only a i with circumflex."

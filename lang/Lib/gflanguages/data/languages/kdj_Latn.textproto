@@ -1,0 +1,11 @@
+id: "kdj_Latn"
+language: "kdj"
+script: "Latn"
+name: "Karamojong"
+region: "UG"
+population: 97900
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ g G i I ɨ Ɨ j J k K l L m M n N {ny} {NY} ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U ʉ Ʉ w W y Y {a̱} {A̱} {e̱} {E̱} {ɛ̱} {Ɛ̱} {i̱} {I̱} {ɨ̱} {Ɨ̱} {o̱} {O̱} {ɔ̱} {Ɔ̱} {u̱} {U̱} {ʉ̱} {Ʉ̱}"
+}
+source: "Christian Bader, Parlons karimojong, Paris, L’Harmattan, 2008"
+source: "Research Triangle International, Teacher’s Guide Ŋakarɨmɔjɔŋ: Apedori ayɔŋ akisom ka akɨgɨr, USAID / Uganda School Health and Reading Program, Ministry of Education and Sports, 2015"

@@ -1,0 +1,14 @@
+id: "khq_Latn"
+language: "khq"
+script: "Latn"
+name: "Koyra Chiini"
+autonym: "Koyra Chiini"
+population: 332407
+region: "ML"
+exemplar_chars {
+  base: "a A b B c C d D e E ẽ Ẽ f F g G h H i I j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O õ Õ p P q Q r R s S š Š t T u U w W x X y Y z Z ž Ž"
+  marks: "◌̃ ◌̌"
+  auxiliary: "v V"
+  numerals: "- . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A Ã B C D E Ẽ F G H I J K L M N Ɲ Ŋ O Õ P Q R S Š T U W X Y Z Ž"
+}

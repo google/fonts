@@ -1,0 +1,10 @@
+id: "bsp_Latn"
+language: "bsp"
+script: "Latn"
+name: "Baga Sitemu"
+population: 44000
+region: "GN"
+exemplar_chars {
+  base: "a A b B c C d D e E ə Ə ɛ Ɛ f F g G h H i I k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y"
+}
+source: "SLDR"

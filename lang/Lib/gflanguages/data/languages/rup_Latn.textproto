@@ -1,0 +1,30 @@
+id: "rup_Latn"
+language: "rup"
+script: "Latn"
+name: "Aromanian"
+autonym: "Armani"
+population: 210000
+region: "AL"
+region: "BG"
+region: "GR"
+region: "MK"
+region: "RO"
+region: "RS"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ã Ă Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț"
+  marks: "◌̂ ◌̃ ◌̆ ◌̦"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Ii"
+  styles: "Ti-atsea câ pricânushtearea-a nâmuziljei nativâ"
+  tester: "Ti-atsea câ nitinjisearea shi atimusearea-a-andrepturlor a omlui"
+  poster_sm: "Ti-atsea câ"
+  poster_md: "Adunarea"
+  poster_lg: "Tuti"
+  specimen_48: "Uproclameadzâ aestâ Declaratsii Universalâ ti-ndrepturli-a omlui"
+  specimen_36: "Canâ nu poati s-hibâ tsânut tu sclâvilji icâ supuniri: sclâviljea shi comertslu cu sclavi s-azâptâseashti tu tuti formili."
+  specimen_32: "Cafi un ari-ndreptu câ tribunalili natsionali efectiv s-lu-apurâ di frândzearea-a-ndrepturlor fundamentali cari lj-suntu pricânâscuti cu constitutsia shi nomurli."
+  specimen_21: "Canâ nu poati dupâ vrearea-a vârnului s-hibâ âncljis, detsânut, niti avinat.\nCafi un ari-ndreptul egal didip la giudicarea-ndreaptâ shi publicâ dininti-a tribunalui independent shi obiectiv cari va s-detsidâ ti-ndrepturli-a lui shi obligatsiili sh-ti orighina-a cafi unlui act criminal tsi-lji si arucâ-a lui.\nCafi un ari-ndreptu la discurmari shi njirari, inclusiv shi limitarea cu chifiri-a oarâljei ti lucru shi advili perioditsi cu platâ."
+  specimen_16: "Cafi un ari-ndreptu la progres sotsial shi internatsional tu cari ândrepturli spusi tu aestâ Declaratsii pot ta s-hibâ realizati complet.\nNitsi unâ determinari dit aestâ Declaratsii nu poati s-hibâ tulmâcitâ ca-ndreptul ti cafi un stat, grupâ icâ insu ta s-u facâ cari tsi s-hibâ activitati icâ s-facâ catsi s-va s-hibâ lucru shutsâtâ la câlcarea-a-ndrepturlor shi-a libertâtslor cari suntu bâgati tu ea.\nTi-atsea câ pricânushtearea-a nâmuziljei nativâ shi-ndrepturli egali shi nealienabili-a tutâlor membrilji-a taifâljei a omlui easti fimelju-a li-bertatiljei, a-ndriptatiuljei shi-a irinjiljei din lumi,"
+}

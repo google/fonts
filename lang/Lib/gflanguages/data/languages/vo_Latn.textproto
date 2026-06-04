@@ -1,0 +1,25 @@
+id: "vo_Latn"
+language: "vo"
+script: "Latn"
+name: "Volapük"
+autonym: "Volapük"
+population: 0
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü"
+  marks: "◌̈"
+}
+sample_text {
+  masthead_full: "MmEe"
+  masthead_partial: "Nn"
+  styles: "Mens valik pemotons libiko e leigiko tefü"
+  tester: "Mens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons"
+  poster_sm: "Mens valik"
+  poster_md: "Mens valik"
+  poster_lg: "Mens"
+  specimen_48: "Mens valik pemotons libiko e leigiko tefü digäd e gitäts."
+  specimen_36: "Mens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl."
+  specimen_32: "Mens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl."
+  specimen_21: "Mens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl.\nMens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl.\nMens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl."
+  specimen_16: "Mens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl.\nMens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl.\nMens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl.\nMens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl.\nMens valik pemotons libiko e leigiko tefü digäd e gitäts. Labons tikäli e konsieni, e sötons kosädön ko ods siämü svistäl."
+}
+historical: true

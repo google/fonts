@@ -1,0 +1,23 @@
+id: "mos_Latn"
+language: "mos"
+script: "Latn"
+name: "Mossi"
+population: 8334160
+region: "BF"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I Ɩ L M N O P R S T U V Ʋ W Y Z a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z \'"
+}
+sample_text {
+  masthead_full: "NnIi"
+  masthead_partial: "Ss"
+  styles: "B wilgame tɩ ninsaal bʊʊd fãa tara a burkĩndlim"
+  tester: "B wilgame tɩ ninsaal sẽn da tog ne yel-segdɩ ninsã kaalmã waa"
+  poster_sm: "Tɩ sẽn yɩɩd"
+  poster_md: "D sẽn mi"
+  poster_lg: "fãa"
+  specimen_48: "D sẽn mi tɩ nasõzini (tẽmsã fãa lagem-n-taar kãsengã) le mooname"
+  specimen_36: "Pa tog n sɩbg ninsaal buudã fãa ye, pa tog n sɩbg ninsaal tɩ sɩbgrã yɩ toog wʊsgo, tɩ pa sẽn na maan ninsaal ye."
+  specimen_32: "Ned buud fãa tara sor n tõe n kẽng a tẽngẽ bʊʊd soog taoore n tɩ bʊ ne weoogre, sɩbgr buud fãa b sẽn maan-a, tɩ ninsaalb yel-segdɩ sebrã gɩdge, tɩ laloa mi tiiri."
+  specimen_21: "Pa tar sor n tõe n yõk ned zaalem, n pag-a roogo bɩ n yiis-a a tẽngẽ n tɩ ning zĩĩg a to tɩ laloa zɩ tiir ye.\nNed buud fãa tara sor wa laloa sẽn wilgã, t\'a yell ta bʊ-kaoodb sẽn so bʊʊdã, n tõe n kao tɩ pãn-dãmb ka lob b toogo, la sẽn bʊʊd sɩd taoore, tɩ b bʊ nin-buiid taoore n wilg a yel-segdɩ bɩ a tɩlae-yɛla, bɩ n wilg b sẽn yet tɩ yẽnda soabã maana bũmb ningã kongr sẽn taẽ."
+  specimen_16: "[Missing]\nNed fãa tara sor n tõe n tags a sẽn date, n bʊgs a sẽn date la a tũ wẽnd-sor ninga a sẽn date. Sor-kãng a sẽn tarã wɛɛngẽ a tõeeme n teem wẽnd-sor n tũ bɩ n teem tẽebo a le tõeeme n wilg a wẽnd-sor bɩ a tẽebo ne kaorengo, maana maanego tɩ yɩ yẽnda a ye bɩ n naag ne a taaba tɩ yɩ neb sʊka bɩ bãmb bal ne taaba.\nNed buud fãa tara sor n tõe n tẽ a sẽn date la a gom a sẽn date, rẽnda n kɩt tɩ ned pa tog n zoe rabeem ne a tẽeb wilgri, la a tar sor n tõe n bao n bãng kibay la a paam kibay n tall-b n piuug zĩĩg fãa n pa ges tẽmsã tods ye, tɩ yɩ ne rabay buud fãa a sẽn date."
+}

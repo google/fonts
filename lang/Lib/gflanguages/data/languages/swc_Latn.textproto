@@ -1,0 +1,10 @@
+id: "swc_Latn"
+language: "swc"
+script: "Latn"
+name: "Swahili, Congo"
+region: "CD"
+population: 11000000
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "q Q x X"
+}

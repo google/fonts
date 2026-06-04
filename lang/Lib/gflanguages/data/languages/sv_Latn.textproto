@@ -1,0 +1,32 @@
+id: "sv_Latn"
+language: "sv"
+script: "Latn"
+name: "Swedish"
+autonym: "Svenska"
+population: 12932871
+region: "AX"
+region: "DK"
+region: "FI"
+region: "SE"
+exemplar_chars {
+  base: "A À B C D E É F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö a à b c d e é f g h i j k l m n o p q r s t u v w x y z å ä ö"
+  auxiliary: "Á Â Ã Ā Ç È Ë Í Î Ï Ī Ñ Ó Ú Ÿ Ü Æ Ø á â ã ā ç è ë í î ï ī ñ ó ú ÿ ü æ ø"
+  marks: "◌̀ ◌́ ◌̈ ◌̊"
+  numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö"
+}
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Mm"
+  styles: "Enär erkännandet av det inneboende värdet"
+  tester: "enär ringaktning och förakt för de mänskliga rättigheterna lett"
+  poster_sm: "enär det är"
+  poster_md: "enär det"
+  poster_lg: "Alla"
+  specimen_48: "enär Förenta Nationernas folk i stadgan ånyo uttryckt sin tro"
+  specimen_36: "enär det är väsentligt att främja utvecklandet av vänskapliga förbindelser mellan nationerna,\nkungör\nGENERALFÖRSAMLINGEN"
+  specimen_32: "Enär erkännandet av det inneboende värdet hos alla medlemmar av människosläktet och av deras lika och oförytterliga rättigheter är grundvalen för frihet, rättvisa och fred i världen,"
+  specimen_21: "Enär erkännandet av det inneboende värdet hos alla medlemmar av människosläktet och av deras lika och oförytterliga rättigheter är grundvalen för frihet, rättvisa och fred i världen,\nenär ringaktning och förakt för de mänskliga rättigheterna lett till barbariska gärningar, som upprört mänsklighetens samvete, och enär skapandet av en värld, där människorna åtnjuta yttrandefrihet, trosfrihet samt frihet från fruktan och nöd, kungjorts som folkens högsta strävan,"
+  specimen_16: "Enär erkännandet av det inneboende värdet hos alla medlemmar av människosläktet och av deras lika och oförytterliga rättigheter är grundvalen för frihet, rättvisa och fred i världen,\nenär ringaktning och förakt för de mänskliga rättigheterna lett till barbariska gärningar, som upprört mänsklighetens samvete, och enär skapandet av en värld, där människorna åtnjuta yttrandefrihet, trosfrihet samt frihet från fruktan och nöd, kungjorts som folkens högsta strävan,\nenär det är väsentligt för att icke människan skall tvingas att som en sista utväg tillgripa uppror mot tyranni och förtryck, att de mänskliga rättigheterna skyddas genom lagens överhöghet,"
+}

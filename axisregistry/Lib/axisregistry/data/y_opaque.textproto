@@ -1,0 +1,15 @@
+# YOPQ based on https://variationsguide.typenetwork.com/#yopq
+tag: "YOPQ"
+display_name: "Thin Stroke"
+min_value: -1000
+max_value: 2000
+default_value: 116
+precision: 0
+fallback {
+  name: "Normal"
+  value: 116
+}
+fallback_only: false
+illustration_url: "y_opaque.svg"
+description:
+  "A parametric axis for varying thin stroke weights, such as bars and hairlines."

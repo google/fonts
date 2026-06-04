@@ -1,0 +1,61 @@
+FONTLOG for the Marko One font
+
+This file provides detailed information on the Marko One
+font Software.
+
+This information should be distributed along with the 
+Marko One fonts and any derivative works.
+
+Basic Font Information
+
+Marko One is a typeface designed for children's literature. 
+The initial idea was to create a typeface-companion for 
+<a href="http://cyreal.org/archives/696">Marko the Sparrow</a> 
+- a cartoon character by illustrator and type designer 
+Zhenya Spizhovyi. 
+
+Marko One is simple and smooth, has special inner tension 
+and eye-catchy detailing. The letterforms are based on 
+calligraphy and sketches - this is what makes Marko lively, 
+enchanting, and amiable. Marko One typeface will work best 
+in medium to large sizes and captivating headlines. 
+It is technically optimized for better performance on screen,
+while carefully adjusted outlines promise good quality in print too.
+
+Marko One is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+There are three .VFB Source files:
+1. MarkoOne-Regular.vfb (Original Source file with contour overlaps)
+2. MarkoOne-Regular-OTF.vfb (Merged and optimized file)
+3. MarkoOne-Regular-TTF.vfb (Manual Hinting in 9-54 range applied)
+
+ChangeLog
+
+24 November 2011 (Zhenya Spizhovyi) Marko One v. 1.000
+- Completed initial release in VBF format, Latin-1 encoding
+
+1 December 2011 (Alexei Vanyashin) Marko One v. 1.003
+- Made design and spacing adjustments
+- Mastered file from FontLab into ttf
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Zhenya Spizhovyi
+E: artkozel@ukr.net
+D: Designer
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Design and Mastering
+

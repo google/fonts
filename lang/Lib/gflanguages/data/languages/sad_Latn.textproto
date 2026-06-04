@@ -1,0 +1,11 @@
+id: "sad_Latn"
+language: "sad"
+script: "Latn"
+name: "Sandawe"
+population: 60000
+region: "TZ"
+exemplar_chars {
+  base: "a A ã Ã b B {bp} {BP} c C {ch} {CH} {c’} {C’} d D {dl} {DL} {dz} {DZ} e E ẽ Ẽ f F g G {gc} {GC} {gk} {GK} {gq} {GQ} {gx} {GX} h H i I ĩ Ĩ k K {kh} {KH} l L {lh} {LH} m M n N {nc} {NC} {nq} {NQ} {nx} {NX} o O õ Õ p P q Q {qh} {QH} {q’} {Q’} r R s S t T {tc} {TC} {tch} {TCH} {tl} {TL} {tl’} {TL’} {ts’} {TS’} u U ũ Ũ w W x X {xh} {XH} {x’} {X’} y Y ’"
+  marks: "◌"
+}
+source: "Daniel Hunziker, Elisabeth Hunziker, Helen Eaton, A Description of the Phonology of the Sandawe Language, SIL Electronic Working Papers, vol. 79. SIL, 2008"

@@ -1,0 +1,10 @@
+id: "lig_Latn"
+language: "lig"
+script: "Latn"
+name: "Ligbi"
+population: 19000
+region: "GH"
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V w W y Y"
+  auxiliary: "q Q r R x X"
+}

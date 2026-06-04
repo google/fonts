@@ -1,0 +1,20 @@
+id: "ext_Latn"
+language: "ext"
+script: "Latn"
+name: "Extremaduran"
+population: 245077
+region: "ES"
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Ll"
+  styles: "Tolos hombris nacin libris i egualis en digniá"
+  tester: "Tolos hombris nacin libris i egualis en digniá i derechus i, comu"
+  poster_sm: "Tolos hombris"
+  poster_md: "Tolos"
+  poster_lg: "Tolos"
+  specimen_48: "Tolos hombris nacin libris i egualis en digniá i derechus"
+  specimen_36: "Tolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus."
+  specimen_32: "Tolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus."
+  specimen_21: "Tolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus.\nTolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus.\nTolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus."
+  specimen_16: "Tolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus.\nTolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus.\nTolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus.\nTolos hombris nacin libris i egualis en digniá i derechus i, comu gastan razón i concéncia, ebin comportal-se comu hermanus los unus conos otrus."
+}

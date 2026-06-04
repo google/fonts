@@ -1,0 +1,9 @@
+id: "msc_Latn"
+language: "msc"
+script: "Latn"
+name: "Maninka, Sankaran"
+population: 110000
+region: "GN"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U w W y Y ɔ Ɔ ɛ Ɛ ɲ Ɲ"
+}

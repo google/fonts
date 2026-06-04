@@ -1,0 +1,82 @@
+on:
+  push:
+    tags:
+      - "v*" # Push events to matching `v*` version srings. e.g. v1.0, v20.15.10
+
+name: Create and Publish Release
+
+jobs:
+  build:
+    name: Build distribution
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install release dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade setuptools wheel build
+
+      - name: Get release notes
+        id: release_notes
+        run: |
+          # By default, GH Actions checkout will only fetch a single commit.
+          # For us to extract the release notes, we need to fetch the tags
+          # and tag annotations as well.
+          # https://github.com/actions/checkout/issues/290
+          git fetch --tags --force
+          TAG_NAME=${GITHUB_REF/refs\/tags\//}
+          echo "$(git tag -l --format='%(contents)' $TAG_NAME)" > "${{ runner.temp }}/CHANGELOG.md"
+
+      - name: Create GitHub release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+          body_path: "${{ runner.temp }}/CHANGELOG.md"
+          draft: false
+          prerelease: false
+
+      - name: Build a binary wheel and a source tarball
+        run: python3 -m build
+      - name: Store the distribution packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+
+  publish-to-pypi:
+    name: >-
+      Publish Python 🐍 distribution 📦 to PyPI
+    if: startsWith(github.ref, 'refs/tags/')  # only publish to PyPI on tag pushes
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/axisregistry
+    permissions:
+      id-token: write  # IMPORTANT: mandatory for trusted publishing
+    steps:
+      - name: Download all the dists
+        uses: actions/download-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+      - name: Publish distribution 📦 to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          # repository-url: https://test.pypi.org/legacy/ # for testing purposes
+          verify-metadata: false # twine previously didn't verify metadata when uploading

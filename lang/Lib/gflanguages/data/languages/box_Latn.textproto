@@ -1,0 +1,13 @@
+id: "box_Latn"
+language: "box"
+script: "Latn"
+name: "Buamu"
+autonym: "buamu"
+population: 268000
+region: "BF"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D e E ɛ Ɛ f F h H i I k K l L m M n N ɲ Ɲ o O ɔ Ɔ p P r R s S t T u U v V w W y Y z Z Á É {Ɛ́} Í Ó {Ɔ́} Ú Ń À È {Ɛ̀} Ì Ò {Ɔ̀} Ù á é {ɛ́} í ó {ɔ́} ú ń à è {ɛ̀} ì ò {ɔ̀} ù Ã {Ɛ̃} Ĩ {Ɔ̃} Ũ ã {ɛ̃} ĩ {ɔ̃} ũ {Ã̀} {Ɛ̃̀} {Ĩ̀} {Ɔ̃̀} {Ũ̀} {ã̀} {ɛ̃̀} {ĩ̀} {ɔ̃̀} {ũ̀} {Ã́} {Ɛ̃́} {Ĩ́} {Ɔ̃́} Ṹ {ã́} {ɛ̃́} {ĩ́} {ɔ̃́} ṹ"
+  marks: "◌̀ ◌́ ◌̃"
+}
+source: "Wikipedia"
+source: "https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages"

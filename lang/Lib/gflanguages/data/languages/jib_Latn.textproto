@@ -1,0 +1,11 @@
+id: "jib_Latn"
+language: "jib"
+script: "Latn"
+name: "Jibu"
+population: 30000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á à À b B c C d D e E é É è È f F g G h H i I í Í ì Ì j J k K l L m M ḿ Ḿ n N ń Ń ǹ Ǹ o O ó Ó ò Ò p P r R s S t T u U ú Ú ù Ù v V w W y Y z Z"
+  marks: "◌́ ◌̀"
+  auxiliary: "q Q x X"
+}

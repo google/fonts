@@ -1,0 +1,14 @@
+id: "mas_Latn"
+language: "mas"
+script: "Latn"
+name: "Masai"
+autonym: "Maa"
+population: 1734738
+region: "KE"
+region: "TZ"
+exemplar_chars {
+  base: "a A á Á à À â Â ā Ā b B c C d D e E é É è È ê Ê ē Ē ɛ Ɛ g G h H i I í Í ì Ì î Î ī Ī ɨ Ɨ j J k K l L m M n N {ny} {NY} ŋ Ŋ o O ó Ó ò Ò ô Ô ō Ō ɔ Ɔ p P r R {rr} {RR} s S {sh} {SH} t T u U ú Ú ù Ù û Û ū Ū ʉ Ʉ {ʉ́} {Ʉ́} w W {wu} {WU} y Y {yi} {YI}"
+  auxiliary: "f F q Q v V x X z Z"
+  marks: "◌̀ ◌́ ◌̂"
+  index: "A B C D E Ɛ G H I Ɨ J K L M N Ŋ O Ɔ P R S T U Ʉ W Y"
+}

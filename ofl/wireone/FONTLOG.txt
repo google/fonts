@@ -1,0 +1,47 @@
+FONTLOG for the Wire One font
+
+This file provides detailed information on the Vidaloka 
+font Software.
+
+This information should be distributed along with the 
+Vidaloka fonts and any derivative works.
+
+Basic Font Information
+
+Wire One is a condensed monoline sans designed by Alexei Vanyashin and Gayaneh Bagdasaryan from Cyreal Type Foundry.
+
+Its modular-based characters are flavored with a sense of art nouveau. Nearly hairline thickness suggests usage for body text above 12px. While at display sizes it reveals its tiny dot terminals to create a sharp mood in headlines.
+
+It is recommended to adjust letter-spacing for sizes below 30px to 0.033em and up. For 12 px we recommend the value of 0.085em.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+Source files:
+
+1. WireOne-OTF.vfb (Decomposed, merged and optimized file)
+2. WireOne-TTF.vbf (Mastered TTF file with manual hints)
+
+ChangeLog
+
+5 January 2016 (v. 1.012) Dave Crossland
+- Fixed GPOS table to ensure it works in Firefox 44
+- Roundtripping through TTX reduced the filesize dramatically
+
+16 November 2011 (v. 1.011) Alexei Vanyashin
+- Glyphs /S/, /s/, and /$/ balanced, eliminating backwards slope effect.
+- new Cyreal foundryicon 
+
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Original Design Concept and Mastering
+

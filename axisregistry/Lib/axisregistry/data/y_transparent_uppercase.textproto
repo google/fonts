@@ -1,0 +1,15 @@
+# YTUC based on https://variationsguide.typenetwork.com/#ytuc
+tag: "YTUC"
+display_name: "Uppercase Height"
+min_value: 0
+max_value: 1000
+default_value: 725
+precision: 0
+fallback {
+  name: "Normal"
+  value: 725
+}
+fallback_only: false
+illustration_url: "y_transparent_uppercase.svg"
+description:
+  "A parametric axis for varying the heights of uppercase letterforms."

@@ -1,0 +1,21 @@
+id: "gmh_Latn"
+language: "gmh"
+script: "Latn"
+name: "Middle High German"
+population: 0
+region: "DE"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "Alle Menschen sint vrie und geliche ane Wirde"
+  tester: "Alle Menschen sint vrie und geliche ane Wirde und Rehten geborne."
+  poster_sm: "Alle Menschen"
+  poster_md: "Alle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon"
+  poster_lg: "Alle"
+  specimen_48: "Alle Menschen sint vrie und geliche ane Wirde und Rehten"
+  specimen_36: "Alle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon."
+  specimen_32: "Alle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon."
+  specimen_21: "Alle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon.\nAlle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon."
+  specimen_16: "Alle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon.\nAlle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon.\nAlle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon.\nAlle Menschen sint vrie und geliche ane Wirde und Rehten geborne. Si sint Rate und Gewissen begebene und suln gegen einander in bruoderliche Geiste tuon."
+}
+historical: true

@@ -1,0 +1,12 @@
+id: "gng_Latn"
+language: "gng"
+script: "Latn"
+name: "Ngangam"
+population: 80000
+region: "TG"
+region: "BJ"
+exemplar_chars {
+  base: "a A à À á Á b B c C d D e E è È é É ɛ Ɛ f F g G h H i I ì Ì í Í j J k K l L m M n N ñ Ñ ŋ Ŋ o O ò Ò ó Ó ɔ Ɔ p P r R s S t T u U ù Ù ú Ú w W y Y ꞌ Ꞌ"
+  marks: "◌̀ ◌́ ◌̃"
+  auxiliary: "q Q v V x X z Z"
+}

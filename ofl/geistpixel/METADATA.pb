@@ -31,3 +31,5 @@ source {
 }
 minisite_url: "https://vercel.com/font"
 primary_script: "Latn"
+classifications: "DISPLAY"
+stroke: "SANS_SERIF"

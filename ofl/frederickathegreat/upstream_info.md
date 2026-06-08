@@ -104,3 +104,9 @@ The commit hash should ideally be corrected to `937ffb6bea2b78bf3d064cce27b3b0c1
 
 1. Is there a more authoritative source repository for this font? The `librefonts` organization repo only has TTX decompositions and a VFB file. The original designer (Crystal Kluge / Font Diner / Tart Workshop) may have the original design files in a modern format.
 2. Should the commit hash reference `937ffb6b` (initial content commit) or `6968170d` (HEAD, only CI changes)?
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/frederickathegreat/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `6968170d91`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

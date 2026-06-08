@@ -1,0 +1,35 @@
+# Legacy upstream sources (.sfd and/or .vfb).
+#
+# gftools-builder does not currently consume these formats. This config
+# is intentional -- it records which source files exist at the pinned
+# upstream commit so a future compatibility layer can pick them up.
+sources:
+  - Mukta-Devanagari/Bold/VFB/Mukta-Bold.vfb
+  - Mukta-Devanagari/ExtraBold/VFB/Mukta-Extrabold.vfb
+  - Mukta-Devanagari/ExtraLight/VFB/Mukta-Extralight.vfb
+  - Mukta-Devanagari/Light/VFB/Mukta-Light.vfb
+  - Mukta-Devanagari/Medium/VFB/Mukta-Medium.vfb
+  - Mukta-Devanagari/Regular/VFB/Mukta-Regular.vfb
+  - Mukta-Devanagari/SemiBold/VFB/Mukta-Semibold.vfb
+  - MuktaMahee-Gurmukhi/Bold/VFB/MuktaMahee-Bold.vfb
+  - MuktaMahee-Gurmukhi/ExtraBold/VFB/MuktaMahee-ExtraBold.vfb
+  - MuktaMahee-Gurmukhi/ExtraLight/VFB/MuktaMahee-ExtraLight.vfb
+  - MuktaMahee-Gurmukhi/Light/VFB/MuktaMahee-Light.vfb
+  - MuktaMahee-Gurmukhi/Medium/VFB/MuktaMahee-Medium.vfb
+  - MuktaMahee-Gurmukhi/Regular/VFB/MuktaMahee-Regular.vfb
+  - MuktaMahee-Gurmukhi/SemiBold/VFB/MuktaMahee-SemiBold.vfb
+  - MuktaMalar-Tamil/Bold/VFB/MuktaMalar-Bold.vfb
+  - MuktaMalar-Tamil/ExtraBold/VFB/MuktaMalar-ExtraBold.vfb
+  - MuktaMalar-Tamil/ExtraLight/VFB/MuktaMalar-Extralight.vfb
+  - MuktaMalar-Tamil/Light/VFB/MuktaMalar-Light.vfb
+  - MuktaMalar-Tamil/Medium/VFB/MuktaMalar-Medium.vfb
+  - MuktaMalar-Tamil/Regular/VFB/MuktaMalar-Regular.vfb
+  - MuktaMalar-Tamil/SemiBold/VFB/MuktaMalar-Semibold.vfb
+  - MuktaVaani-Gujarati/Bold/VFB/MuktaVaani-Bold.vfb
+  - MuktaVaani-Gujarati/ExtraBold/VFB/MuktaVaani-ExtraBold.vfb
+  - MuktaVaani-Gujarati/ExtraLight/VFB/MuktaVaani-Extralight.vfb
+  - MuktaVaani-Gujarati/Light/VFB/MuktaVaani-Light.vfb
+  - MuktaVaani-Gujarati/Medium/VFB/MuktaVaani-Medium.vfb
+  - MuktaVaani-Gujarati/Regular/VFB/MuktaVaani-Regular.vfb
+  - MuktaVaani-Gujarati/SemiBold/VFB/MuktaVaani-Semibold.vfb
+familyName: "Mukta Mahee"

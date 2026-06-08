@@ -51,3 +51,9 @@ SFD files are not compatible with gftools-builder, which requires .glyphs, .ufo,
 ## Confidence
 
 **HIGH** -- The repository URL is verified and the commit hash is unambiguous (single commit in repo). The "missing_config" status is due to SFD-only sources that are incompatible with gftools-builder; no override config.yaml can be created without source format conversion.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/eater/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `91120e636b`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

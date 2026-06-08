@@ -61,3 +61,9 @@ The upstream repo contains:
 - This is the only Delius variant with multiple weights (Regular + Bold), so source conversion would be more involved.
 - The source block for METADATA.pb has been prepared on branch `sources_info_2026-02-25` but is not yet merged.
 - The copyright string references Reserved Font Names: "Delius", "Delius Unicase", "Delius Swash Caps".
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/deliusunicase/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `cf094caecc`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

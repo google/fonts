@@ -49,3 +49,9 @@ The upstream repo contains only FontForge SFD sources (`src/Candal.sfd`, `src/Ca
 
 - No path to gftools-builder compatibility without source conversion from SFD/VFB format.
 - The font has not been updated since the initial onboarding (only metadata fixes).
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/candal/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `64c937069f`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

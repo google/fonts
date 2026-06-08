@@ -31,3 +31,9 @@ A source block was added to METADATA.pb pointing to this repository and commit.
 ## Confidence: Medium
 
 Librefonts TTX mirror; original design sources are not available. Alternative repos are empty or insufficient.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/lusitana/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `8fa070c2ac`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

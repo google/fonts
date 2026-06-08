@@ -1,0 +1,14 @@
+# Legacy upstream sources (.sfd and/or .vfb).
+#
+# gftools-builder does not currently consume these formats. This config
+# is intentional -- it records which source files exist at the pinned
+# upstream commit so a future compatibility layer can pick them up.
+sources:
+  - src/AlmendraSC-Bold-OTF.vfb
+  - src/AlmendraSC-Bold-TTF.sfd
+  - src/AlmendraSC-BoldItalic-OTF.vfb
+  - src/AlmendraSC-BoldItalic-TTF.sfd
+  - src/AlmendraSC-Italic-OTF.vfb
+  - src/AlmendraSC-Regular-OTF.vfb
+  - src/AlmendraSC-Regular-TTF.sfd
+familyName: "Almendra SC"

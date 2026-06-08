@@ -79,3 +79,9 @@ source {
 ### Status: no_config_possible
 
 VFB-only sources. The FontLab proprietary binary format is not compatible with gftools-builder, and creating a config.yaml is not possible without first converting the sources to UFO or Glyphs format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/hanalei/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `ec0b5be225`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

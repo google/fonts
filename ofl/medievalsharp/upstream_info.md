@@ -36,3 +36,9 @@ SFD-only sources. The gftools-builder toolchain does not support SFD as an input
 ### Actions Taken
 
 A source block was added to METADATA.pb pointing to commit `ee7510b` at wmk69/Medieval-Sharp, which is the designer's own repository with the canonical SFD sources.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/medievalsharp/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `ee7510b6b1`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

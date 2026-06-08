@@ -53,3 +53,9 @@ The root directory also contains TTX-decomposed files (`.ttx` table dumps of the
 ## Confidence
 
 **HIGH** -- The repository URL is confirmed as the only available upstream. The commit hash is the latest in a repo with only CI-related changes after the initial file import. The SFD-only source limitation is clearly verified. No config.yaml can be created for this font family.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/ericaone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `bde7cb1ee5`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

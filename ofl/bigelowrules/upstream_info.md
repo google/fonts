@@ -54,3 +54,9 @@ VFB files cannot be processed by gftools-builder. There are no `.glyphs`, `.ufo`
 ## Open Questions
 
 - This font cannot be rebuilt from source using gftools-builder due to VFB-only sources. The original designer (Astigmatic/Brian Bonislawsky) would need to provide sources in a buildable format (.glyphs, .ufo, or .designspace) for this to change.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/bigelowrules/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `f3ba7414e9`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -75,3 +75,9 @@ No override `config.yaml` exists in the google/fonts family directory either.
 - The font has never been updated in google/fonts since its initial inclusion.
 - To make this font buildable from source, the VFB files would need to be converted to a modern format (e.g., `.glyphs` or `.ufo`), which would require manual intervention or access to FontLab.
 - The designer's website (http://www.astigmatic.com/) is referenced in the font's name table.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/eaglelake/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `4e2b26479c`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

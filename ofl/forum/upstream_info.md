@@ -70,3 +70,9 @@ source {
 ```
 
 No `config_yaml` field is needed since there are no buildable sources.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/forum/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `e8efc0bcee`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

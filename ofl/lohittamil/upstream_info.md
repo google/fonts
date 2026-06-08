@@ -103,3 +103,9 @@ source {
 ## Commit Added (HIGH confidence)
 
 Commit `a403c9b7f509dad5e58dde85ef63b1c36fde3a21` was determined by **tag_match**. Matched a version tag in the upstream repo whose date is on or before the binary modification date in google/fonts (2015-03-07). This is the most reliable method.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/lohittamil/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `a403c9b7f5`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

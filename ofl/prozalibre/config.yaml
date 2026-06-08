@@ -1,0 +1,23 @@
+# Legacy upstream sources (.sfd and/or .vfb).
+#
+# gftools-builder does not currently consume these formats. This config
+# is intentional -- it records which source files exist at the pinned
+# upstream commit so a future compatibility layer can pick them up.
+sources:
+  - Sources/ProzaLibre-Italic-MM.vfb
+  - Sources/ProzaLibre-Roman-MM.vfb
+  - Sources/TTF/Proza-Libre-Extrabold.vfb
+  - Sources/TTF/Proza-Libre-Light.vfb
+  - Sources/TTF/Proza-Libre-LightItalic.vfb
+  - Sources/TTF/Proza-Libre-Regular.vfb
+  - Sources/TTF/ProzaLibre-Bold.vfb
+  - Sources/TTF/ProzaLibre-BoldItalic.vfb
+  - Sources/TTF/ProzaLibre-ExtraBold.vfb
+  - Sources/TTF/ProzaLibre-ExtraBoldItalic.vfb
+  - Sources/TTF/ProzaLibre-Italic.vfb
+  - Sources/TTF/ProzaLibre-Medium.vfb
+  - Sources/TTF/ProzaLibre-MediumItalic.vfb
+  - Sources/TTF/ProzaLibre-Regular.vfb
+  - Sources/TTF/ProzaLibre-SemiBold.vfb
+  - Sources/TTF/ProzaLibre-SemiBoldItalic.vfb
+familyName: "Proza Libre"

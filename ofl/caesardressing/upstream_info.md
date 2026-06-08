@@ -51,3 +51,9 @@ This family cannot be built with gftools-builder because the only source is in V
 
 1. Is there any plan to convert the VFB sources to a modern format (Glyphs/UFO) for this family?
 2. The designer "Open Window" (Dathan Boardman, dathanboardman@gmail.com per the copyright string) may have the original editable sources in a different format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/caesardressing/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `fb212a606b`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

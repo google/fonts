@@ -61,3 +61,9 @@ None of these formats (.sfd, .vfb) are compatible with gftools-builder, which re
 - The librefonts org created separate repos for `elsie` and `elsieswashcaps` in July 2014, each with only one commit (Travis CI config update by hash3g in October 2014).
 - Future source recovery would require contacting Alejandro Inler (alejandroinler@gmail.com) to obtain original editable sources in a modern format.
 - The font was originally added to Google Fonts on 2012-11-12.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/elsieswashcaps/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `f48faa350a`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

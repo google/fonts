@@ -52,3 +52,9 @@ The hotfix PR #855 by Marc Foley had an empty body. The librefonts repo's last c
 - Astigmatic (Brian Bonislawsky) designed many fonts for Google Fonts; it's unknown if more modern source formats are available from the designer
 - The tracking notes say "No buildable source files at recorded commit" which is correct -- VFB files require proprietary software to open
 - This font was added to Google Fonts in 2012 and has classification DISPLAY with SERIF stroke
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/berkshireswash/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `1a4fb49d51`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -50,3 +50,9 @@ The only source file in the repo is a VFB (FontLab) binary: `SRC/AtomicAge-Regul
 
 - The google/fonts version is v1.008 but the upstream only has v1.007. The v1.008 changes appear to be direct binary modifications (copyright and metadata updates per the METADATA.pb diff). Should the commit hash reference the latest upstream commit even though the actual binary diverges?
 - The VFB source would need to be converted to UFO or .glyphs format before a config.yaml could be useful. Is there a plan to convert the sources?
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/atomicage/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `bb96b179ca`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

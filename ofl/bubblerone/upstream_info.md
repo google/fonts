@@ -55,3 +55,9 @@ This is a legacy source format not compatible with gftools-builder. The repo als
 
 1. The font binary in google/fonts has been updated several times (hotfixes, version bumps) after the librefonts archive was created. The SFD source in the archive likely does not correspond to the current binary. To enable rebuilding, the sources would need to be converted to modern formats.
 2. The hotfix in PR #867 and subsequent updates suggest the font was modified directly at the binary level or from sources not present in the librefonts repo.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/bubblerone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `be2343608e`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -1,0 +1,20 @@
+# Legacy upstream sources (.sfd and/or .vfb).
+#
+# gftools-builder does not currently consume these formats. This config
+# is intentional -- it records which source files exist at the pinned
+# upstream commit so a future compatibility layer can pick them up.
+sources:
+  - assamese/Lohit-Assamese.sfd
+  - bengali/Lohit-Bengali.sfd
+  - devanagari/Lohit-Devanagari.sfd
+  - gujarati/Lohit-Gujarati.sfd
+  - kannada/Lohit-Kannada.sfd
+  - malayalam/Lohit-Malayalam.sfd
+  - marathi/Lohit-Marathi.sfd
+  - nepali/Lohit-Nepali.sfd
+  - oriya/Lohit-Oriya.sfd
+  - punjabi/Lohit-Punjabi.sfd
+  - tamil-classical/Lohit-Tamil-Classical.sfd
+  - tamil/Lohit-Tamil.sfd
+  - telugu/Lohit-Telugu.sfd
+familyName: "Lohit Bengali"

@@ -55,3 +55,9 @@ These source formats are not compatible with gftools-builder, which requires `.g
 - Since the source formats (SFD/VFB) are not gftools-builder compatible, is there a plan to convert the sources to a modern format?
 - Should METADATA.pb be updated to include a `source { }` block pointing to this repo, even though it cannot be built with gftools-builder?
 - The font has been in Google Fonts since 2011 and has not been updated since the initial commit. Is an update planned?
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/abrilfatface/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `5e899bfd99`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -42,3 +42,9 @@ No source block present in METADATA.pb.
 ## Notes
 
 No buildable source files at recorded commit
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/arvo/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `ae906e99ab`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

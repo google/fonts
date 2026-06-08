@@ -40,3 +40,9 @@ The source format is `.vfb` (FontLab Studio binary format), which is NOT compati
 ## Conclusion
 
 The upstream repository is `https://github.com/librefonts/jimnightshade` at commit `a04375d8b6c564c11f00a67fa5df1d7bf446527f`. However, the only sources available are `.vfb` (FontLab Studio) files, which are not gftools-builder compatible. No config.yaml is possible with these sources. A source block needs to be added to METADATA.pb but the status will remain `missing_config` until buildable sources become available.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/jimnightshade/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `a04375d8b6`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -52,3 +52,9 @@ Neither SFD nor VFB formats are compatible with gftools-builder. A `config.yaml`
 1. The sources are in legacy formats (SFD and VFB). To enable gftools-builder builds, these would need to be converted to `.glyphs` or `.ufo` format. This is not a trivial conversion and may require manual review by a type designer.
 2. The family was added to Google Fonts in 2011 (date_added: 2011-12-13). The upstream repository appears to be a post-hoc archive created in 2014, rather than the original development location.
 3. The designer "Fontstage" does not appear to have an active online presence. Any source conversion work would likely need to be done by the Google Fonts team.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/chango/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `ca58222d63`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

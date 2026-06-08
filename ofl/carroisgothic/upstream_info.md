@@ -47,3 +47,9 @@ No override config.yaml exists in the google/fonts family directory either.
 - The hotfix PR #874 (2017) updated the binary TTF in google/fonts but the upstream librefonts repo was never updated. The current binary in google/fonts may not match what can be built from the upstream sources.
 - VFB sources would need to be converted to an open format (e.g., UFO) before a config.yaml could be created. This is unlikely to happen unless someone undertakes a conversion project.
 - The status should remain `missing_config` as there are no gftools-builder-compatible sources.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/carroisgothic/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `09bb671388`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

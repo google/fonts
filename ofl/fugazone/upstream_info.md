@@ -56,3 +56,9 @@ source {
   commit: "d6fef0584e47767dc53d0144d0d41de77088184b"
 }
 ```
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/fugazone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `d6fef0584e`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

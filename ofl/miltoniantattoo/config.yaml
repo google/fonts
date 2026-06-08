@@ -1,0 +1,13 @@
+# Legacy upstream sources (.sfd and/or .vfb).
+#
+# gftools-builder does not currently consume these formats. This config
+# is intentional -- it records which source files exist at the pinned
+# upstream commit so a future compatibility layer can pick them up.
+sources:
+  - source/Miltonian-Regular-OTF.vfb
+  - source/Miltonian-Regular-TTF.vfb
+  - source/Miltonian-Regular.vfb
+  - source/MiltonianTattoo-Regular-OTF.vfb
+  - source/MiltonianTattoo-Regular-TTF.vfb
+  - source/MiltonianTattoo-Regular.vfb
+familyName: "Miltonian Tattoo"

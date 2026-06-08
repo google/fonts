@@ -37,3 +37,9 @@ The FONTLOG.txt mentions FontForge `.sfd` files as the source format, and the li
 ## Conclusion
 
 Judson has a librefonts mirror at `https://github.com/librefonts/judson` with commit `a80a2aecb86b334586bc8b956ddf8b1bf61e144b`. The sources are FontForge SFD files and FontLab VFB files, which are not compatible with gftools-builder. No `config.yaml` can be created for this family without first converting sources to a gftools-builder compatible format (.glyphs, .ufo, .designspace). The METADATA.pb needs a source block at minimum, but no config is possible with current sources. Status: no_config_possible.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/judson/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `a80a2aecb8`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

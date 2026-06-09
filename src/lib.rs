@@ -659,7 +659,7 @@ mod fontations_impl {
             .next();
         let min_slnt: Option<f32> = axes
             .iter()
-            .filter(|axis| axis.tag == "ital")
+            .filter(|axis| axis.tag == "slnt")
             .map(|axis| axis.min)
             .next();
 

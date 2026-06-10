@@ -89,6 +89,22 @@ jobs:
         run: |
           cp .ci/dashboard/build/_file/data/servers.*.json .ci/dashboard/build/_file/data/servers.json
           cp .ci/dashboard/build/_file/data/versionhistory.*.json .ci/dashboard/build/_file/data/versionhistory.json
+      - name: Push build to gh-pages branch
+        if: ${{ github.ref == 'refs/heads/main' }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          # .nojekyll stops GitHub Pages' Jekyll from ignoring files/dirs that
+          # start with an underscore (e.g. the _file/ tree).
+          touch .ci/dashboard/build/.nojekyll
+          cd .ci/dashboard/build
+          git init -q
+          git checkout -q -b gh-pages
+          git add -A
+          git -c user.name="github-actions[bot]" \
+              -c user.email="github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "Deploy report ($GITHUB_SHA)"
+          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
       - name: Upload build artifacts
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: actions/upload-pages-artifact@v4.0.0

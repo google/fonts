@@ -92,7 +92,7 @@ jobs:
       - name: Push build to gh-pages branch
         if: ${{ github.ref == 'refs/heads/main' }}
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # .nojekyll stops GitHub Pages' Jekyll from ignoring files/dirs that
           # start with an underscore (e.g. the _file/ tree).

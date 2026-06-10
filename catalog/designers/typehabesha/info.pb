@@ -1,5 +1,5 @@
 designer: "TypeHabesha"
 link: ""
 avatar {
-  file_name: "tyha.png"
+  file_name: "tyha.jpg"
 }

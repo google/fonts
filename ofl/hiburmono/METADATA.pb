@@ -30,6 +30,10 @@ source {
   }
   branch: "main"
 }
+languages: "ale_Latn"  # Aleut
+languages: "yap_Latn"  # Yapese
+languages: "guu_Latn"  # Yanomamö
+languages: "yua_Latn"  # Yucateco
 primary_script: "Ethi"
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

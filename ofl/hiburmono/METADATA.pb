@@ -10,7 +10,7 @@ fonts {
   filename: "HiburMono-Regular.ttf"
   post_script_name: "HiburMono-Regular"
   full_name: "Hibur Mono Regular"
-  copyright: "Copyright 2025-2026 The Hibur Mono Font Project Authors (https://github.com/typehabesha/HiburMono). Noto glyphs are Copyright 2015 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2025-2026 The Hibur Mono Font Project Authors (https://github.com/typehabesha/HiburMono)."
 }
 subsets: "ethiopic"
 subsets: "latin"

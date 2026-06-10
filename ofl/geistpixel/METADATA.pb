@@ -2,6 +2,7 @@ name: "Geist Pixel"
 designer: "Andrés Briganti, Evil Rabbit, Guillermo Rauch"
 license: "OFL"
 category: "DISPLAY"
+date_added: "2026-06-10"
 fonts {
   name: "Geist Pixel"
   style: "normal"
@@ -31,5 +32,5 @@ source {
 }
 minisite_url: "https://vercel.com/font"
 primary_script: "Latn"
-classifications: "DISPLAY"
 stroke: "SANS_SERIF"
+classifications: "DISPLAY"

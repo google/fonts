@@ -1,4 +1,4 @@
-"Shadow Length" (`SHLN` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that controls the length of a shadow applied to letterforms, allowing to add depth and dimension to a typeface.
+"Shadow Length" (`SHLN` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that controls the length of a shadow applied to letterforms, allowing one to add depth and dimension to a typeface.
 
 The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

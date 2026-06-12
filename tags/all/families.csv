@@ -32,7 +32,8 @@ ADLaM Display,,/Quality/Wordspace,80
 ADLaM Display,,/Sans/Humanist,70
 ADLaM Display,,/Sans/Rounded,20
 ADLaM Display,,/Theme/Wacky,20
-AR One Sans,,/Expressive/Active,5
+AR One Sans,wght@400,/Expressive/Active,20
+AR One Sans,wght@700,/Expressive/Active,23
 AR One Sans,wght@400,/Expressive/Business,75
 AR One Sans,wght@700,/Expressive/Business,70
 AR One Sans,,/Expressive/Calm,81
@@ -174,7 +175,9 @@ Adamina,,/Quality/Drawing,70
 Adamina,,/Quality/Spacing,80
 Adamina,,/Quality/Wordspace,90
 Adamina,,/Serif/Old Style Garalde,80
-Advent Pro,,/Expressive/Active,5
+Advent Pro,wght@100,/Expressive/Active,5
+Advent Pro,wght@400,/Expressive/Active,5
+Advent Pro,wght@900,/Expressive/Active,15
 Advent Pro,,/Expressive/Awkward,30
 Advent Pro,,/Expressive/Calm,45
 Advent Pro,,/Expressive/Cute,10
@@ -622,7 +625,8 @@ Alkalami,,/Quality/Concept,60
 Alkalami,,/Quality/Drawing,65
 Alkalami,,/Quality/Spacing,60
 Alkalami,,/Quality/Wordspace,100
-Alkatra,,/Expressive/Active,51
+Alkatra,wght@400,/Expressive/Active,51
+Alkatra,wght@700,/Expressive/Active,55
 Alkatra,,/Expressive/Calm,20
 Alkatra,,/Expressive/Cute,20
 Alkatra,,/Expressive/Excited,20
@@ -1449,7 +1453,8 @@ Archivo Black,,/Quality/Drawing,70
 Archivo Black,,/Quality/Spacing,70
 Archivo Black,,/Quality/Wordspace,70
 Archivo Black,,/Sans/Grotesque,70
-Archivo Narrow,,/Expressive/Active,10
+Archivo Narrow,wght@400,/Expressive/Active,20
+Archivo Narrow,wght@700,/Expressive/Active,24
 Archivo Narrow,wght@400,/Expressive/Business,30
 Archivo Narrow,wght@700,/Expressive/Business,24
 Archivo Narrow,,/Expressive/Calm,82
@@ -2878,7 +2883,9 @@ BhuTuka Expanded One,,/Quality/Spacing,70
 BhuTuka Expanded One,,/Quality/Wordspace,90
 BhuTuka Expanded One,,/Seasonal/Diwali,90
 BhuTuka Expanded One,,/Slab/Humanist,100
-Big Shoulders Inline,,/Expressive/Active,20
+Big Shoulders Inline,wght@100,/Expressive/Active,12
+Big Shoulders Inline,wght@400,/Expressive/Active,20
+Big Shoulders Inline,wght@900,/Expressive/Active,45
 Big Shoulders Inline,,/Expressive/Awkward,20
 Big Shoulders Inline,wght@100,/Expressive/Business,3
 Big Shoulders Inline,wght@400,/Expressive/Business,10
@@ -2902,7 +2909,9 @@ Big Shoulders Inline,,/Sans/Grotesque,30
 Big Shoulders Inline,,/Sans/Humanist,15
 Big Shoulders Inline,,/Sans/Superellipse,20
 Big Shoulders Inline,,/Theme/Inline,20
-Big Shoulders Stencil,,/Expressive/Active,20
+Big Shoulders Stencil,wght@100,/Expressive/Active,12
+Big Shoulders Stencil,wght@400,/Expressive/Active,20
+Big Shoulders Stencil,wght@900,/Expressive/Active,58
 Big Shoulders Stencil,,/Expressive/Awkward,20
 Big Shoulders Stencil,wght@100,/Expressive/Business,3
 Big Shoulders Stencil,wght@400,/Expressive/Business,10
@@ -2925,7 +2934,9 @@ Big Shoulders Stencil,,/Sans/Grotesque,30
 Big Shoulders Stencil,,/Sans/Humanist,15
 Big Shoulders Stencil,,/Sans/Superellipse,20
 Big Shoulders Stencil,,/Theme/Stencil,20
-Big Shoulders,,/Expressive/Active,20
+Big Shoulders,wght@100,/Expressive/Active,15
+Big Shoulders,wght@400,/Expressive/Active,20
+Big Shoulders,wght@900,/Expressive/Active,45
 Big Shoulders,wght@100,/Expressive/Business,3
 Big Shoulders,wght@400,/Expressive/Business,10
 Big Shoulders,wght@900,/Expressive/Business,4
@@ -4460,7 +4471,8 @@ Caveat Brush,,/Script/Handwritten,100
 Caveat Brush,,/Script/Informal,100
 Caveat Brush,,/Script/Upright Script,100
 Caveat Brush,,/Seasonal/Christmas,76
-Caveat,,/Expressive/Active,70
+Caveat,wght@400,/Expressive/Active,70
+Caveat,wght@700,/Expressive/Active,75
 Caveat,,/Expressive/Artistic,12
 Caveat,,/Expressive/Awkward,51
 Caveat,,/Expressive/Childlike,86
@@ -5683,7 +5695,8 @@ Dancing Script,,/Expressive/Excited,53
 Dancing Script,,/Expressive/Fancy,93
 Dancing Script,,/Expressive/Happy,22
 Dancing Script,,/Expressive/Playful,7
-Dancing Script,,/Expressive/Sophisticated,55
+Dancing Script,wght@400,/Expressive/Sophisticated,22
+Dancing Script,wght@700,/Expressive/Sophisticated,25
 Dancing Script,,/Expressive/Vintage,84
 Dancing Script,,/Quality/Concept,60
 Dancing Script,,/Quality/Drawing,75
@@ -6270,7 +6283,8 @@ Eczar,,/Quality/Drawing,75
 Eczar,,/Quality/Spacing,70
 Eczar,,/Quality/Wordspace,100
 Eczar,,/Serif/Old Style Garalde,60
-Edu AU VIC WA NT Arrows,,/Expressive/Active,10
+Edu AU VIC WA NT Arrows,wght@400,/Expressive/Active,10
+Edu AU VIC WA NT Arrows,wght@700,/Expressive/Active,25
 Edu AU VIC WA NT Arrows,,/Expressive/Childlike,90
 Edu AU VIC WA NT Arrows,,/Expressive/Playful,20
 Edu AU VIC WA NT Arrows,,/Expressive/Rugged,10
@@ -6282,7 +6296,8 @@ Edu AU VIC WA NT Arrows,,/Quality/Spacing,90
 Edu AU VIC WA NT Arrows,,/Quality/Wordspace,90
 Edu AU VIC WA NT Arrows,,/Script/Handwritten,100
 Edu AU VIC WA NT Arrows,,/Script/Informal,60
-Edu AU VIC WA NT Dots,,/Expressive/Active,15
+Edu AU VIC WA NT Dots,wght@400,/Expressive/Active,15
+Edu AU VIC WA NT Dots,wght@700,/Expressive/Active,20
 Edu AU VIC WA NT Dots,,/Expressive/Childlike,90
 Edu AU VIC WA NT Dots,,/Expressive/Playful,20
 Edu AU VIC WA NT Dots,,/Expressive/Rugged,10
@@ -6294,7 +6309,8 @@ Edu AU VIC WA NT Dots,,/Quality/Spacing,90
 Edu AU VIC WA NT Dots,,/Quality/Wordspace,100
 Edu AU VIC WA NT Dots,,/Script/Handwritten,100
 Edu AU VIC WA NT Dots,,/Script/Informal,60
-Edu AU VIC WA NT Guides,,/Expressive/Active,15
+Edu AU VIC WA NT Guides,wght@400,/Expressive/Active,15
+Edu AU VIC WA NT Guides,wght@700,/Expressive/Active,20
 Edu AU VIC WA NT Guides,,/Expressive/Childlike,90
 Edu AU VIC WA NT Guides,,/Expressive/Playful,20
 Edu AU VIC WA NT Guides,,/Expressive/Rugged,10
@@ -6306,7 +6322,8 @@ Edu AU VIC WA NT Guides,,/Quality/Spacing,90
 Edu AU VIC WA NT Guides,,/Quality/Wordspace,100
 Edu AU VIC WA NT Guides,,/Script/Handwritten,100
 Edu AU VIC WA NT Guides,,/Script/Informal,60
-Edu AU VIC WA NT Hand,,/Expressive/Active,10
+Edu AU VIC WA NT Hand,wght@400,/Expressive/Active,10
+Edu AU VIC WA NT Hand,wght@700,/Expressive/Active,20
 Edu AU VIC WA NT Hand,,/Expressive/Childlike,90
 Edu AU VIC WA NT Hand,,/Expressive/Playful,20
 Edu AU VIC WA NT Hand,,/Expressive/Rugged,10
@@ -6329,7 +6346,8 @@ Edu AU VIC WA NT Pre,,/Quality/Drawing,65
 Edu AU VIC WA NT Pre,,/Quality/Spacing,90
 Edu AU VIC WA NT Pre,,/Quality/Wordspace,100
 Edu AU VIC WA NT Pre,,/Script/Handwritten,100
-Edu NSW ACT Cursive,,/Expressive/Active,15
+Edu NSW ACT Cursive,wght@400,/Expressive/Active,15
+Edu NSW ACT Cursive,wght@700,/Expressive/Active,20
 Edu NSW ACT Cursive,,/Expressive/Childlike,90
 Edu NSW ACT Cursive,,/Expressive/Playful,20
 Edu NSW ACT Cursive,,/Expressive/Rugged,10
@@ -6341,7 +6359,8 @@ Edu NSW ACT Cursive,,/Quality/Spacing,90
 Edu NSW ACT Cursive,,/Quality/Wordspace,90
 Edu NSW ACT Cursive,,/Script/Handwritten,100
 Edu NSW ACT Cursive,,/Script/Informal,60
-Edu NSW ACT Foundation,,/Expressive/Active,53
+Edu NSW ACT Foundation,wght@400,/Expressive/Active,53
+Edu NSW ACT Foundation,wght@700,/Expressive/Active,58
 Edu NSW ACT Foundation,,/Expressive/Childlike,90
 Edu NSW ACT Foundation,,/Expressive/Playful,20
 Edu NSW ACT Foundation,,/Expressive/Rugged,10
@@ -6353,7 +6372,8 @@ Edu NSW ACT Foundation,,/Quality/Spacing,80
 Edu NSW ACT Foundation,,/Quality/Wordspace,100
 Edu NSW ACT Foundation,,/Script/Handwritten,100
 Edu NSW ACT Foundation,,/Script/Informal,60
-Edu NSW ACT Hand Pre,,/Expressive/Active,15
+Edu NSW ACT Hand Pre,wght@400,/Expressive/Active,15
+Edu NSW ACT Hand Pre,wght@700,/Expressive/Active,20
 Edu NSW ACT Hand Pre,,/Expressive/Childlike,90
 Edu NSW ACT Hand Pre,,/Expressive/Playful,20
 Edu NSW ACT Hand Pre,,/Expressive/Rugged,10
@@ -6365,7 +6385,8 @@ Edu NSW ACT Hand Pre,,/Quality/Spacing,90
 Edu NSW ACT Hand Pre,,/Quality/Wordspace,90
 Edu NSW ACT Hand Pre,,/Script/Handwritten,100
 Edu NSW ACT Hand Pre,,/Script/Informal,60
-Edu QLD Beginner,,/Expressive/Active,15
+Edu QLD Beginner,wght@400,/Expressive/Active,15
+Edu QLD Beginner,wght@700,/Expressive/Active,20
 Edu QLD Beginner,,/Expressive/Childlike,90
 Edu QLD Beginner,,/Expressive/Playful,20
 Edu QLD Beginner,,/Expressive/Rugged,10
@@ -6377,7 +6398,8 @@ Edu QLD Beginner,,/Quality/Spacing,70
 Edu QLD Beginner,,/Quality/Wordspace,90
 Edu QLD Beginner,,/Script/Handwritten,100
 Edu QLD Beginner,,/Script/Informal,60
-Edu QLD Hand,,/Expressive/Active,15
+Edu QLD Hand,wght@400,/Expressive/Active,15
+Edu QLD Hand,wght@700,/Expressive/Active,23
 Edu QLD Hand,,/Expressive/Childlike,90
 Edu QLD Hand,,/Expressive/Playful,20
 Edu QLD Hand,,/Expressive/Rugged,10
@@ -6389,7 +6411,8 @@ Edu QLD Hand,,/Quality/Spacing,90
 Edu QLD Hand,,/Quality/Wordspace,90
 Edu QLD Hand,,/Script/Handwritten,100
 Edu QLD Hand,,/Script/Informal,60
-Edu SA Beginner,,/Expressive/Active,15
+Edu SA Beginner,wght@400,/Expressive/Active,15
+Edu SA Beginner,wght@700,/Expressive/Active,17
 Edu SA Beginner,,/Expressive/Childlike,90
 Edu SA Beginner,,/Expressive/Cute,20
 Edu SA Beginner,,/Expressive/Playful,20
@@ -6402,7 +6425,8 @@ Edu SA Beginner,,/Quality/Spacing,70
 Edu SA Beginner,,/Quality/Wordspace,90
 Edu SA Beginner,,/Script/Handwritten,100
 Edu SA Beginner,,/Script/Informal,60
-Edu SA Hand,,/Expressive/Active,15
+Edu SA Hand,wght@400,/Expressive/Active,15
+Edu SA Hand,wght@700,/Expressive/Active,17
 Edu SA Hand,,/Expressive/Childlike,90
 Edu SA Hand,,/Expressive/Playful,20
 Edu SA Hand,,/Expressive/Rugged,10
@@ -6414,7 +6438,8 @@ Edu SA Hand,,/Quality/Spacing,70
 Edu SA Hand,,/Quality/Wordspace,90
 Edu SA Hand,,/Script/Handwritten,100
 Edu SA Hand,,/Script/Informal,60
-Edu TAS Beginner,,/Expressive/Active,15
+Edu TAS Beginner,wght@400,/Expressive/Active,15
+Edu TAS Beginner,wght@700,/Expressive/Active,18
 Edu TAS Beginner,,/Expressive/Childlike,90
 Edu TAS Beginner,,/Expressive/Playful,20
 Edu TAS Beginner,,/Expressive/Rugged,10
@@ -6426,7 +6451,8 @@ Edu TAS Beginner,,/Quality/Spacing,80
 Edu TAS Beginner,,/Quality/Wordspace,90
 Edu TAS Beginner,,/Script/Handwritten,100
 Edu TAS Beginner,,/Script/Informal,60
-Edu VIC WA NT Beginner,,/Expressive/Active,44
+Edu VIC WA NT Beginner,wght@400,/Expressive/Active,44
+Edu VIC WA NT Beginner,wght@700,/Expressive/Active,50
 Edu VIC WA NT Beginner,,/Expressive/Childlike,80
 Edu VIC WA NT Beginner,,/Expressive/Playful,20
 Edu VIC WA NT Beginner,,/Expressive/Rugged,10
@@ -6438,7 +6464,8 @@ Edu VIC WA NT Beginner,,/Quality/Spacing,70
 Edu VIC WA NT Beginner,,/Quality/Wordspace,90
 Edu VIC WA NT Beginner,,/Script/Handwritten,100
 Edu VIC WA NT Beginner,,/Script/Informal,60
-Edu VIC WA NT Hand Pre,,/Expressive/Active,15
+Edu VIC WA NT Hand Pre,wght@400,/Expressive/Active,15
+Edu VIC WA NT Hand Pre,wght@700,/Expressive/Active,18
 Edu VIC WA NT Hand Pre,,/Expressive/Childlike,90
 Edu VIC WA NT Hand Pre,,/Expressive/Playful,20
 Edu VIC WA NT Hand Pre,,/Expressive/Rugged,10
@@ -6450,7 +6477,8 @@ Edu VIC WA NT Hand Pre,,/Quality/Spacing,80
 Edu VIC WA NT Hand Pre,,/Quality/Wordspace,90
 Edu VIC WA NT Hand Pre,,/Script/Handwritten,100
 Edu VIC WA NT Hand Pre,,/Script/Informal,60
-Edu VIC WA NT Hand,,/Expressive/Active,15
+Edu VIC WA NT Hand,wght@400,/Expressive/Active,15
+Edu VIC WA NT Hand,wght@700,/Expressive/Active,17
 Edu VIC WA NT Hand,,/Expressive/Childlike,90
 Edu VIC WA NT Hand,,/Expressive/Playful,20
 Edu VIC WA NT Hand,,/Expressive/Rugged,10
@@ -7283,7 +7311,9 @@ Flow Rounded,,/Quality/Drawing,70
 Flow Rounded,,/Quality/Spacing,90
 Flow Rounded,,/Quality/Wordspace,100
 Flow Rounded,,/Special use/Redaction,100
-Foldit,,/Expressive/Active,20
+Foldit,wght@100,/Expressive/Active,1
+Foldit,wght@400,/Expressive/Active,20
+Foldit,wght@900,/Expressive/Active,48
 Foldit,,/Expressive/Awkward,84
 Foldit,,/Expressive/Futuristic,30
 Foldit,,/Expressive/Innovative,75
@@ -7857,7 +7887,9 @@ Gelasio,,/Quality/Drawing,70
 Gelasio,,/Quality/Spacing,80
 Gelasio,,/Quality/Wordspace,90
 Gelasio,,/Serif/Transitional,100
-Gemunu Libre,,/Expressive/Active,5
+Gemunu Libre,wght@200,/Expressive/Active,2
+Gemunu Libre,wght@400,/Expressive/Active,5
+Gemunu Libre,wght@800,/Expressive/Active,15
 Gemunu Libre,,/Expressive/Awkward,10
 Gemunu Libre,,/Expressive/Calm,60
 Gemunu Libre,,/Expressive/Futuristic,89
@@ -7935,7 +7967,9 @@ Geologica,,/Quality/Spacing,70
 Geologica,,/Quality/Wordspace,80
 Geologica,,/Sans/Geometric,10
 Geologica,,/Sans/Humanist,90
-Geom,,/Expressive/Active,20
+Geom,wght@300,/Expressive/Active,18
+Geom,wght@400,/Expressive/Active,20
+Geom,wght@900,/Expressive/Active,34
 Geom,,/Expressive/Awkward,10
 Geom,,/Expressive/Futuristic,20
 Geom,wght@600,/Expressive/Loud,53
@@ -8130,7 +8164,9 @@ Glory,,/Quality/Wordspace,70
 Glory,,/Sans/Humanist,20
 Glory,,/Sans/Neo Grotesque,40
 Glory,,/Sans/Superellipse,60
-Gluten,,/Expressive/Active,10
+Gluten,wght@100,/Expressive/Active,5
+Gluten,wght@400,/Expressive/Active,10
+Gluten,wght@900,/Expressive/Active,75
 Gluten,,/Expressive/Awkward,75
 Gluten,,/Expressive/Cute,64
 Gluten,,/Expressive/Excited,17
@@ -9425,7 +9461,9 @@ Idiqlat,,/Quality/Spacing,50
 Idiqlat,,/Quality/Wordspace,90
 Idiqlat,,/Serif/Old Style Garalde,30
 Idiqlat,,/Serif/Transitional,70
-Imbue,,/Expressive/Active,10
+Imbue,wght@100,/Expressive/Active,4
+Imbue,wght@400,/Expressive/Active,10
+Imbue,wght@900,/Expressive/Active,15
 Imbue,wght@100,/Expressive/Business,8
 Imbue,wght@400,/Expressive/Business,20
 Imbue,wght@900,/Expressive/Business,12
@@ -10414,7 +10452,9 @@ Kalam,,/Script/Informal,100
 Kalam,,/Seasonal/Diwali,89
 Kalam,,/Seasonal/Holi,100
 Kalam,,/Theme/Brush,100
-Kalnia Glaze,,/Expressive/Active,20
+Kalnia Glaze,wght@100,/Expressive/Active,5
+Kalnia Glaze,wght@400,/Expressive/Active,20
+Kalnia Glaze,wght@700,/Expressive/Active,45
 Kalnia Glaze,,/Expressive/Awkward,55
 Kalnia Glaze,,/Expressive/Cute,42
 Kalnia Glaze,,/Expressive/Excited,10
@@ -10432,7 +10472,9 @@ Kalnia Glaze,,/Seasonal/Diwali,98
 Kalnia Glaze,,/Seasonal/Holi,98
 Kalnia Glaze,,/Seasonal/Valentine's Day,88
 Kalnia Glaze,,/Theme/Inline,100
-Kalnia,,/Expressive/Active,20
+Kalnia,wght@100,/Expressive/Active,1
+Kalnia,wght@400,/Expressive/Active,20
+Kalnia,wght@700,/Expressive/Active,33
 Kalnia,,/Expressive/Awkward,20
 Kalnia,,/Expressive/Cute,42
 Kalnia,,/Expressive/Excited,5
@@ -10499,12 +10541,14 @@ Kantumruy Pro,,/Quality/Drawing,75
 Kantumruy Pro,,/Quality/Spacing,80
 Kantumruy Pro,,/Quality/Wordspace,80
 Kantumruy Pro,,/Sans/Grotesque,100
-Kapakana,,/Expressive/Active,20
+Kapakana,wght@300,/Expressive/Active,25
+Kapakana,wght@400,/Expressive/Active,27
 Kapakana,,/Expressive/Artistic,100
 Kapakana,,/Expressive/Fancy,79
 Kapakana,,/Expressive/Happy,10
 Kapakana,,/Expressive/Sincere,60
-Kapakana,,/Expressive/Sophisticated,89
+Kapakana,wght@300,/Expressive/Sophisticated,87
+Kapakana,wght@400,/Expressive/Sophisticated,89
 Kapakana,,/Expressive/Vintage,91
 Kapakana,,/Quality/Concept,70
 Kapakana,,/Quality/Drawing,60
@@ -12596,7 +12640,9 @@ Margarine,,/Quality/Spacing,70
 Margarine,,/Quality/Wordspace,80
 Margarine,,/Seasonal/Holi,54
 Margarine,,/Theme/Brush,100
-Marhey,,/Expressive/Active,10
+Marhey,wght@300,/Expressive/Active,8
+Marhey,wght@400,/Expressive/Active,10
+Marhey,wght@700,/Expressive/Active,58
 Marhey,,/Expressive/Cute,10
 Marhey,,/Expressive/Happy,90
 Marhey,,/Expressive/Loud,6
@@ -12767,6 +12813,8 @@ Maven Pro,,/Expressive/Stiff,20
 Maven Pro,,/Expressive/Vintage,10
 Maven Pro,wght@400,/Purpose/Easy Reading,10
 Maven Pro,wght@900,/Purpose/Easy Reading,100
+Maven Pro,wght@400,/Purpose/Easy Reading,10
+Maven Pro,wght@900,/Purpose/Easy Reading,100
 Maven Pro,,/Quality/Concept,50
 Maven Pro,,/Quality/Drawing,60
 Maven Pro,,/Quality/Spacing,40
@@ -12879,7 +12927,9 @@ Meie Script,,/Quality/Drawing,50
 Meie Script,,/Quality/Spacing,60
 Meie Script,,/Quality/Wordspace,60
 Meie Script,,/Script/Formal,100
-Menbere,,/Expressive/Active,5
+Menbere,wght@100,/Expressive/Active,5
+Menbere,wght@400,/Expressive/Active,5
+Menbere,wght@700,/Expressive/Active,5
 Menbere,wght@100,/Expressive/Business,70
 Menbere,wght@400,/Expressive/Business,88
 Menbere,wght@700,/Expressive/Business,71
@@ -12914,7 +12964,9 @@ Meow Script,,/Script/Handwritten,20
 Meow Script,,/Script/Informal,100
 Meow Script,,/Seasonal/Valentine's Day,67
 Meow Script,,/Theme/Brush,100
-Merienda,,/Expressive/Active,53
+Merienda,wght@300,/Expressive/Active,50
+Merienda,wght@400,/Expressive/Active,53
+Merienda,wght@900,/Expressive/Active,58
 Merienda,,/Expressive/Childlike,4
 Merienda,,/Expressive/Excited,34
 Merienda,,/Expressive/Happy,64
@@ -12952,7 +13004,9 @@ Merriweather Sans,,/Quality/Drawing,80
 Merriweather Sans,,/Quality/Spacing,70
 Merriweather Sans,,/Quality/Wordspace,100
 Merriweather Sans,,/Sans/Humanist,100
-Merriweather,,/Expressive/Active,10
+Merriweather,wght@300,/Expressive/Active,8
+Merriweather,wght@400,/Expressive/Active,10
+Merriweather,wght@900,/Expressive/Active,15
 Merriweather,wght@300,/Expressive/Business,84
 Merriweather,wght@400,/Expressive/Business,95
 Merriweather,wght@900,/Expressive/Business,84
@@ -13287,7 +13341,9 @@ Mogra,,/Quality/Wordspace,70
 Mogra,,/Script/Informal,50
 Mogra,,/Seasonal/Holi,100
 Mogra,,/Theme/Brush,100
-Mohave,,/Expressive/Active,10
+Mohave,wght@300,/Expressive/Active,8
+Mohave,wght@400,/Expressive/Active,10
+Mohave,wght@700,/Expressive/Active,14
 Mohave,wght@300,/Expressive/Business,27
 Mohave,wght@400,/Expressive/Business,30
 Mohave,wght@700,/Expressive/Business,25
@@ -17548,7 +17604,9 @@ Original Surfer,,/Quality/Spacing,70
 Original Surfer,,/Quality/Wordspace,80
 Original Surfer,,/Sans/Glyphic,80
 Original Surfer,,/Theme/Wacky,100
-Oswald,,/Expressive/Active,16
+Oswald,wght@200,/Expressive/Active,12
+Oswald,wght@400,/Expressive/Active,16
+Oswald,wght@700,/Expressive/Active,18
 Oswald,wght@200,/Expressive/Business,45
 Oswald,wght@400,/Expressive/Business,80
 Oswald,wght@700,/Expressive/Business,50
@@ -18372,7 +18430,9 @@ Playfair,wght@600,/Expressive/Loud,23
 Playfair,wght@900,/Expressive/Loud,77
 Playfair,,/Expressive/Rugged,15
 Playfair,,/Expressive/Sincere,45
-Playfair,,/Expressive/Sophisticated,60
+Playfair,wght@300,/Expressive/Sophisticated,58
+Playfair,wght@400,/Expressive/Sophisticated,60
+Playfair,wght@900,/Expressive/Sophisticated,55
 Playfair,,/Expressive/Vintage,55
 Playfair,,/Quality/Concept,80
 Playfair,,/Quality/Drawing,80
@@ -18511,7 +18571,8 @@ Playwrite AU NSW Guides,,/Quality/Drawing,70
 Playwrite AU NSW Guides,,/Quality/Spacing,70
 Playwrite AU NSW Guides,,/Quality/Wordspace,100
 Playwrite AU NSW Guides,,/Script/Handwritten,100
-Playwrite AU NSW,,/Expressive/Active,15
+Playwrite AU NSW,wght@100,/Expressive/Active,12
+Playwrite AU NSW,wght@400,/Expressive/Active,15
 Playwrite AU NSW,,/Expressive/Childlike,88
 Playwrite AU NSW,,/Expressive/Loud,1
 Playwrite AU NSW,,/Expressive/Playful,25
@@ -18739,7 +18800,8 @@ Playwrite CO Guides,,/Quality/Drawing,70
 Playwrite CO Guides,,/Quality/Spacing,80
 Playwrite CO Guides,,/Quality/Wordspace,100
 Playwrite CO Guides,,/Script/Handwritten,100
-Playwrite CO,,/Expressive/Active,15
+Playwrite CO,wght@100,/Expressive/Active,12
+Playwrite CO,wght@400,/Expressive/Active,15
 Playwrite CO,,/Expressive/Childlike,88
 Playwrite CO,,/Expressive/Playful,25
 Playwrite CO,,/Expressive/Rugged,10
@@ -18782,7 +18844,8 @@ Playwrite CZ Guides,,/Quality/Drawing,70
 Playwrite CZ Guides,,/Quality/Spacing,80
 Playwrite CZ Guides,,/Quality/Wordspace,100
 Playwrite CZ Guides,,/Script/Handwritten,100
-Playwrite CZ,,/Expressive/Active,15
+Playwrite CZ,wght@100,/Expressive/Active,13
+Playwrite CZ,wght@400,/Expressive/Active,15
 Playwrite CZ,,/Expressive/Childlike,88
 Playwrite CZ,,/Expressive/Playful,25
 Playwrite CZ,,/Expressive/Rugged,10
@@ -18830,7 +18893,8 @@ Playwrite DE LA Guides,,/Quality/Drawing,70
 Playwrite DE LA Guides,,/Quality/Spacing,80
 Playwrite DE LA Guides,,/Quality/Wordspace,100
 Playwrite DE LA Guides,,/Script/Handwritten,100
-Playwrite DE LA,,/Expressive/Active,15
+Playwrite DE LA,wght@100,/Expressive/Active,13
+Playwrite DE LA,wght@400,/Expressive/Active,15
 Playwrite DE LA,,/Expressive/Childlike,88
 Playwrite DE LA,,/Expressive/Playful,25
 Playwrite DE LA,,/Expressive/Rugged,10
@@ -18852,7 +18916,8 @@ Playwrite DE SAS Guides,,/Quality/Drawing,70
 Playwrite DE SAS Guides,,/Quality/Spacing,80
 Playwrite DE SAS Guides,,/Quality/Wordspace,100
 Playwrite DE SAS Guides,,/Script/Handwritten,100
-Playwrite DE SAS,,/Expressive/Active,15
+Playwrite DE SAS,wght@100,/Expressive/Active,13
+Playwrite DE SAS,wght@400,/Expressive/Active,15
 Playwrite DE SAS,,/Expressive/Childlike,88
 Playwrite DE SAS,,/Expressive/Playful,25
 Playwrite DE SAS,,/Expressive/Rugged,10
@@ -18874,7 +18939,8 @@ Playwrite DE VA Guides,,/Quality/Drawing,70
 Playwrite DE VA Guides,,/Quality/Spacing,80
 Playwrite DE VA Guides,,/Quality/Wordspace,100
 Playwrite DE VA Guides,,/Script/Handwritten,100
-Playwrite DE VA,,/Expressive/Active,6
+Playwrite DE VA,wght@100,/Expressive/Active,5
+Playwrite DE VA,wght@400,/Expressive/Active,6
 Playwrite DE VA,,/Expressive/Childlike,88
 Playwrite DE VA,,/Expressive/Playful,25
 Playwrite DE VA,,/Expressive/Rugged,10
@@ -19182,7 +19248,8 @@ Playwrite IE Guides,,/Quality/Drawing,70
 Playwrite IE Guides,,/Quality/Spacing,80
 Playwrite IE Guides,,/Quality/Wordspace,100
 Playwrite IE Guides,,/Script/Handwritten,100
-Playwrite IE,,/Expressive/Active,15
+Playwrite IE,wght@100,/Expressive/Active,12
+Playwrite IE,wght@400,/Expressive/Active,15
 Playwrite IE,,/Expressive/Childlike,88
 Playwrite IE,,/Expressive/Loud,1
 Playwrite IE,,/Expressive/Playful,25
@@ -19298,7 +19365,8 @@ Playwrite MX Guides,,/Quality/Drawing,70
 Playwrite MX Guides,,/Quality/Spacing,80
 Playwrite MX Guides,,/Quality/Wordspace,100
 Playwrite MX Guides,,/Script/Handwritten,100
-Playwrite MX,,/Expressive/Active,15
+Playwrite MX,wght@100,/Expressive/Active,12
+Playwrite MX,wght@400,/Expressive/Active,15
 Playwrite MX,,/Expressive/Childlike,88
 Playwrite MX,,/Expressive/Playful,25
 Playwrite MX,,/Expressive/Rugged,10
@@ -19343,7 +19411,8 @@ Playwrite NL Guides,,/Quality/Drawing,70
 Playwrite NL Guides,,/Quality/Spacing,80
 Playwrite NL Guides,,/Quality/Wordspace,100
 Playwrite NL Guides,,/Script/Handwritten,100
-Playwrite NL,,/Expressive/Active,15
+Playwrite NL,wght@100,/Expressive/Active,12
+Playwrite NL,wght@400,/Expressive/Active,15
 Playwrite NL,,/Expressive/Childlike,88
 Playwrite NL,,/Expressive/Playful,25
 Playwrite NL,,/Expressive/Rugged,10
@@ -19590,7 +19659,8 @@ Playwrite US Trad Guides,,/Quality/Drawing,70
 Playwrite US Trad Guides,,/Quality/Spacing,80
 Playwrite US Trad Guides,,/Quality/Wordspace,100
 Playwrite US Trad Guides,,/Script/Handwritten,100
-Playwrite US Trad,,/Expressive/Active,66
+Playwrite US Trad,wght@100,/Expressive/Active,60
+Playwrite US Trad,wght@400,/Expressive/Active,66
 Playwrite US Trad,,/Expressive/Childlike,88
 Playwrite US Trad,,/Expressive/Playful,25
 Playwrite US Trad,,/Expressive/Rugged,10
@@ -20829,7 +20899,9 @@ Road Rage,,/Quality/Spacing,60
 Road Rage,,/Quality/Wordspace,70
 Road Rage,,/Seasonal/Halloween,75
 Road Rage,,/Theme/Distressed,100
-Roboto Condensed,,/Expressive/Active,10
+Roboto Condensed,wght@100,/Expressive/Active,3
+Roboto Condensed,wght@400,/Expressive/Active,10
+Roboto Condensed,wght@900,/Expressive/Active,25
 Roboto Condensed,wght@100,/Expressive/Business,30
 Roboto Condensed,wght@400,/Expressive/Business,80
 Roboto Condensed,wght@900,/Expressive/Business,70
@@ -21439,7 +21511,8 @@ Rubik,,/Quality/Drawing,70
 Rubik,,/Quality/Spacing,80
 Rubik,,/Quality/Wordspace,80
 Rubik,,/Sans/Neo Grotesque,100
-Ruda,,/Expressive/Active,10
+Ruda,wght@400,/Expressive/Active,20
+Ruda,wght@900,/Expressive/Active,25
 Ruda,wght@400,/Expressive/Business,46
 Ruda,wght@900,/Expressive/Business,42
 Ruda,,/Expressive/Calm,62
@@ -21811,7 +21884,9 @@ Sansation,,/Quality/Spacing,70
 Sansation,,/Quality/Wordspace,90
 Sansation,,/Sans/Humanist,90
 Sansation,,/Theme/Techno,70
-Sansita Swashed,,/Expressive/Active,68
+Sansita Swashed,wght@300,/Expressive/Active,64
+Sansita Swashed,wght@400,/Expressive/Active,68
+Sansita Swashed,wght@900,/Expressive/Active,74
 Sansita Swashed,,/Expressive/Cute,15
 Sansita Swashed,,/Expressive/Happy,20
 Sansita Swashed,wght@600,/Expressive/Loud,34
@@ -22239,7 +22314,9 @@ Shalimar,,/Quality/Drawing,68
 Shalimar,,/Quality/Spacing,60
 Shalimar,,/Quality/Wordspace,70
 Shalimar,,/Script/Formal,70
-Shantell Sans,,/Expressive/Active,10
+Shantell Sans,wght@300,/Expressive/Active,8
+Shantell Sans,wght@400,/Expressive/Active,10
+Shantell Sans,wght@800,/Expressive/Active,35
 Shantell Sans,,/Expressive/Awkward,40
 Shantell Sans,,/Expressive/Childlike,82
 Shantell Sans,,/Expressive/Cute,16
@@ -22715,7 +22792,9 @@ Smokum,,/Quality/Spacing,60
 Smokum,,/Quality/Wordspace,100
 Smokum,,/Theme/Tuscan,80
 Smokum,,/Theme/Woodtype,60
-Smooch Sans,,/Expressive/Active,20
+Smooch Sans,wght@100,/Expressive/Active,5
+Smooch Sans,wght@400,/Expressive/Active,20
+Smooch Sans,wght@900,/Expressive/Active,40
 Smooch Sans,,/Expressive/Calm,20
 Smooch Sans,,/Expressive/Futuristic,72
 Smooch Sans,wght@600,/Expressive/Loud,46
@@ -22823,7 +22902,9 @@ Sofadi One,,/Quality/Spacing,60
 Sofadi One,,/Quality/Wordspace,90
 Sofadi One,,/Sans/Rounded,100
 Sofadi One,,/Theme/Blobby,20
-Sofia Sans Condensed,,/Expressive/Active,20
+Sofia Sans Condensed,wght@1,/Expressive/Active,12
+Sofia Sans Condensed,wght@400,/Expressive/Active,20
+Sofia Sans Condensed,wght@1000,/Expressive/Active,23
 Sofia Sans Condensed,wght@1,/Expressive/Business,12
 Sofia Sans Condensed,wght@400,/Expressive/Business,50
 Sofia Sans Condensed,wght@1000,/Expressive/Business,25
@@ -22841,7 +22922,9 @@ Sofia Sans Condensed,,/Quality/Spacing,90
 Sofia Sans Condensed,,/Quality/Wordspace,80
 Sofia Sans Condensed,,/Sans/Neo Grotesque,80
 Sofia Sans Condensed,,/Sans/Rounded,20
-Sofia Sans Extra Condensed,,/Expressive/Active,20
+Sofia Sans Extra Condensed,wght@1,/Expressive/Active,1
+Sofia Sans Extra Condensed,wght@400,/Expressive/Active,20
+Sofia Sans Extra Condensed,wght@1000,/Expressive/Active,40
 Sofia Sans Extra Condensed,wght@1,/Expressive/Business,15
 Sofia Sans Extra Condensed,wght@400,/Expressive/Business,55
 Sofia Sans Extra Condensed,wght@1000,/Expressive/Business,34
@@ -24300,7 +24383,9 @@ Tomorrow,,/Quality/Spacing,70
 Tomorrow,,/Quality/Wordspace,90
 Tomorrow,,/Sans/Geometric,80
 Tomorrow,,/Theme/Techno,50
-Tourney,,/Expressive/Active,73
+Tourney,wght@100,/Expressive/Active,70
+Tourney,wght@400,/Expressive/Active,73
+Tourney,wght@900,/Expressive/Active,68
 Tourney,,/Expressive/Awkward,20
 Tourney,,/Expressive/Futuristic,70
 Tourney,wght@600,/Expressive/Loud,88
@@ -25434,7 +25519,9 @@ Yaldevi,,/Quality/Spacing,60
 Yaldevi,,/Quality/Wordspace,100
 Yaldevi,,/Sans/Humanist,20
 Yaldevi,,/Sans/Neo Grotesque,80
-Yanone Kaffeesatz,,/Expressive/Active,20
+Yanone Kaffeesatz,wght@200,/Expressive/Active,18
+Yanone Kaffeesatz,wght@400,/Expressive/Active,20
+Yanone Kaffeesatz,wght@700,/Expressive/Active,23
 Yanone Kaffeesatz,wght@200,/Expressive/Business,45
 Yanone Kaffeesatz,wght@400,/Expressive/Business,70
 Yanone Kaffeesatz,wght@700,/Expressive/Business,65
@@ -25793,7 +25880,9 @@ Zain,,/Quality/Drawing,70
 Zain,,/Quality/Spacing,70
 Zain,,/Quality/Wordspace,60
 Zain,,/Sans/Rounded,40
-Zalando Sans Expanded,,/Expressive/Active,10
+Zalando Sans Expanded,wght@200,/Expressive/Active,7
+Zalando Sans Expanded,wght@400,/Expressive/Active,10
+Zalando Sans Expanded,wght@900,/Expressive/Active,25
 Zalando Sans Expanded,wght@200,/Expressive/Business,60
 Zalando Sans Expanded,wght@400,/Expressive/Business,70
 Zalando Sans Expanded,wght@900,/Expressive/Business,60

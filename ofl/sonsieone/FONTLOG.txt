@@ -1,0 +1,48 @@
+FONTLOG for the Sonsie font
+
+This file provides detailed information on the Sonsie font Software.
+This information should be distributed along with the Sonsie font
+and any derivative works.
+
+Basic Font Information
+
+Sonsie One is a heavy, medium contrast, large x height script font. 
+It was inspired by hand painted signs seen in Munich. Sonsie One 
+improves on its sources by adding warmth, smoother flow and of touch 
+of funkiness. Sonsie One is best used for display purposes at 
+medium to large sizes.
+
+Sonsie is a Unicode typeface family that supports languages that
+use the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release supports the following Unicode ranges: 
+Latin-1, Latin-2: Easern Europe, Turkish, Macintosh Character Set
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+4 Jan 2012 (Eben Sorkin) Sonsie v1.003
+- Removed overlaps in OTF/TTF files
+
+4 Jan 2012 (Eben Sorkin) Sonsie v1.001
+- Mastered Font from Fontlab VBF to TTF
+
+28 Dec 2010 (Riccardo De Franceschi) Sonsie v1.000
+- Completed first complete version of Sonsie in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Riccardo De Franceschi
+E: defranceschi@mail.com
+W: http://www.rdftype.it/
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

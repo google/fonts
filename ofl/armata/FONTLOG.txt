@@ -1,0 +1,44 @@
+FONTLOG for the Armata font
+
+This file provides detailed information on Armata Font Software. 
+This information should be distributed along with the Armata font 
+and any derivative works.
+
+Basic Font Information
+
+Armata is a low contrast sans serif text face. In Aramata we find a mixture of a the familiar shapes and an aesthetic steadiness and strength with a small number of innovative and delicate gestures. Armata can be used in a wide range of sizes.
+
+Armata is a Unicode typeface family that supports languages that use 
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release supports the following Unicode ranges: 
+Latin-1, Latin-2: Easern Europe, Turkish, Macintosh Character Set
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+8 April 2012 (Eben Sorkin) Armata v1.001
+- Added hinting using TTF Autohint v0.8
+
+15 Dec 2011 (Eben Sorkin) Armata v1.001
+- Mastered Font from Fontlab VBF to TTF
+
+8 Dec 2010 (Viktoriya Grabowska) Armata v1.000
+- Completed first complete version of Armata in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Viktoriya Grabowska
+E: vi_ga@wp.pl
+W: www.vikaniesiada.blogspot.com
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

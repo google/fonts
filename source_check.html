@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.4">
+<title>Fontc crater sources check | Google Fonts QA Dashboard</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/style.a52b67cd.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.f7bf0e12.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/style.a52b67cd.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.f7bf0e12.css">
+<link rel="modulepreload" href="./_observablehq/client.2bf8813d.js">
+<link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
+<link rel="modulepreload" href="./_npm/htl@1.0.0/87d6f6ef.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.3feeafb9.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/a96a6bbb.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/66d82917.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/87adea64.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.2/3785bf2d.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/720b7f0a.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.1.0/d4ec0aa1.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.3/42820bfa.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.2bf8813d.js";
+import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
+
+registerFile("./data/fontc.json", {"name":"./data/fontc.json","mimeType":"application/json","path":"./_file/data/fontc.53a17526.json","lastModified":1781400350339,"size":2854038});
+registerFile("./data/fontc_review.json", {"name":"./data/fontc_review.json","mimeType":"application/json","path":"./_file/data/fontc_review.0660943a.json","lastModified":1781400485669,"size":43695});
+registerFile("./data/metadata.json", {"name":"./data/metadata.json","mimeType":"application/json","path":"./_file/data/metadata.7b8ea48f.json","lastModified":1781400344580,"size":5600411});
+
+define({id: "03948221", inputs: ["FileAttachment"], outputs: ["fontc","metadata","reviewlist","family_to_directory","directory_to_family","fontcKeyToGithubAndSha","fontcResults","summary","successes","failures","insufficient","unknown","reviewed"], body: async (FileAttachment) => {
+const fontc = await FileAttachment("./data/fontc.json").json();
+const metadata = await FileAttachment("./data/metadata.json").json();
+const reviewlist = await FileAttachment("./data/fontc_review.json").json();
+
+const family_to_directory = Object.fromEntries(
+  Object.entries(metadata).map(([k, v]) => [v.name, k])
+);
+const directory_to_family = Object.fromEntries(
+  Object.entries(metadata).map(([k, v]) => [k, v.name])
+);
+
+function fontcKeyToGithubAndSha(key, state) {
+  let match = key.match(
+    /^([^\/]+)\/([^\/]+)\/.*\?([a-f0-9]+) \((\S+)\)/
+  );
+  if (match) {
+    let [_, owner, repo, sha, mode] = match;
+    return { repo: `${owner}/${repo}`, sha, state };
+  }
+}
+
+let fontcResults = [];
+for (let successKey of Object.keys(fontc.lastRun.success)) {
+  let githubAndSha = fontcKeyToGithubAndSha(successKey, "success");
+  if (githubAndSha) {
+    fontcResults.push(githubAndSha);
+  }
+}
+for (let failureKey of Object.keys(fontc.lastRun.failure)) {
+  let githubAndSha = fontcKeyToGithubAndSha(failureKey, "failure");
+  if (githubAndSha) {
+    fontcResults.push(githubAndSha);
+  }
+}
+
+const summary = Object.keys(metadata).map((directory) => {
+  const md = metadata[directory];
+  const family = md.name;
+  let source_state = "Good";
+  if (!md.source) {
+    source_state = "No source information";
+  } else if (!md.source.repositoryUrl) {
+    source_state = "Missing repository URL";
+  } else if (!md.source.commit) {
+    source_state = "Missing SHA";
+  } else if (!md.source.configYaml) {
+    source_state = "Missing config.yaml";
+  } else if (!md.source.commit.match(/^[0-9a-f]{40}$/)) {
+    source_state = "Invalid commit hash";
+  }
+  let github =
+    md.source?.repositoryUrl &&
+    md.source.repositoryUrl.match(/github.com\/([^/]+\/[^/]+)/)?.[1];
+  let fontcResult = fontcResults.find((r) => r.repo === github);
+  let fontcState = "unknown";
+  if (fontcResult) {
+    fontcState = fontcResult.state;
+  }
+  if (source_state != "Good" && fontcState == "unknown") {
+    fontcState = "insufficient source data: " + source_state;
+  }
+  return {
+    directory,
+    family,
+    slug:
+      source_state == "Good"
+        ? github + "/" + md.source?.configYaml + "@" + md.source?.commit
+        : "",
+    github,
+    sha: md.source?.commit,
+    source_state,
+    fontc_state: fontcState,
+    reviewed: reviewlist[directory],
+  };
+});
+
+let successes = summary.filter((s) => s.fontc_state == "success");
+let failures = summary.filter((s) => s.fontc_state == "failure");
+let insufficient = summary.filter((s) =>
+  s.fontc_state.startsWith("insufficient source data")
+);
+let unknown = summary.filter((s) => s.fontc_state == "unknown");
+let reviewed = summary.filter((s) => s.reviewed == "yes");
+return {fontc,metadata,reviewlist,family_to_directory,directory_to_family,fontcKeyToGithubAndSha,fontcResults,summary,successes,failures,insufficient,unknown,reviewed};
+}});
+
+define({id: "6c4ab592", mode: "inline", inputs: ["summary","display"], body: async (summary,display) => {
+display(await(
+ summary.length 
+))
+}});
+
+define({id: "57588742", mode: "inline", inputs: ["successes","display"], body: async (successes,display) => {
+display(await(
+ successes.length 
+))
+}});
+
+define({id: "2f227bc8", mode: "inline", inputs: ["failures","display"], body: async (failures,display) => {
+display(await(
+ failures.length
+))
+}});
+
+define({id: "3162abef", mode: "inline", inputs: ["successes","failures","display"], body: async (successes,failures,display) => {
+display(await(
+ successes.length + failures.length 
+))
+}});
+
+define({id: "3d306542", mode: "inline", inputs: ["insufficient","display"], body: async (insufficient,display) => {
+display(await(
+ insufficient.length 
+))
+}});
+
+define({id: "4dcd4bb7", mode: "inline", inputs: ["unknown","display"], body: async (unknown,display) => {
+display(await(
+ unknown.length 
+))
+}});
+
+define({id: "e31ce1bd", mode: "inline", inputs: ["reviewed","display"], body: async (reviewed,display) => {
+display(await(
+ reviewed.length 
+))
+}});
+
+define({id: "d637c4c4", mode: "inline", inputs: ["reviewed","summary","display"], body: async (reviewed,summary,display) => {
+display(await(
+ Math.floor(reviewed.length / summary.length * 100) 
+))
+}});
+
+define({id: "635b5083", inputs: ["display","Plot","summary"], outputs: ["domain"], body: (display,Plot,summary) => {
+const domain = ["success", "failure", "insufficient source data", "unknown"];
+display(
+  Plot.plot({
+    y: { percent: true },
+    color: { legend: true },
+    marks: [
+      Plot.waffleY(
+        summary,
+        Plot.groupX(
+          { y: "count" },
+          {
+            x: 0,
+            fill: (d) =>
+              d.fontc_state.replace(
+                /insufficient source data: (.+)/,
+                "insufficient source data"
+              ),
+            offset: "normalize",
+            order: domain,
+          }
+        )
+      ),
+    ],
+    width: 500,
+    height: 400,
+    color: {
+      domain,
+      range: ["#1a821aff", "#8d2929ff", "#4ee5f9ff", "#aaaaaa"],
+      legend: true,
+    },
+  })
+);
+return {domain};
+}});
+
+define({id: "b305fbd8", inputs: ["display","Inputs","summary","html"], body: (display,Inputs,summary,html) => {
+display(
+  Inputs.table(summary, {
+    rows: 200,
+    columns: ["directory", "family", "slug", "fontc_state", "reviewed"],
+    sort: "fontc_state",
+    reverse: true,
+    header: {
+      directory: "Directory",
+      family: "Family name",
+      slug: "Source",
+      fontc_state: "Fontc state",
+      reviewed: "Reviewed",
+    },
+    format: {
+      fontc_state: (d) => {
+        if (d == "success") {
+          return html`<span class="pass">${d}</span>`;
+        } else if (d == "failure") {
+          return html`<span class="fail">${d}</span>`;
+        } else if (d.startsWith("insufficient source data")) {
+          return html`<span class="insufficient"
+            >${d.replace("insufficient source data:", "")}</span
+          >`;
+        } else {
+          return html`<b>${d}</b>`;
+        }
+      },
+    },
+  })
+);
+}});
+
+</script>
+</head>
+<body>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">Google Fonts QA Dashboard</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./families.html">Family status</a></li>
+    <li class="observablehq-link"><a href="./fontc_crater.html">Fontc crater</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./source_check.html">Fontc crater sources check</a></li>
+    <li class="observablehq-link"><a href="./trends.html">Fontspector QA trends</a></li>
+    <li class="observablehq-link"><a href="./updates.html">Server moves</a></li>
+  </ol>
+</nav>
+<script>{const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<div class="observablehq observablehq--block"><!--:03948221:--></div>
+<div class="hero">
+  <h2> Total families: <span class="huge "><observablehq-loading></observablehq-loading><!--:6c4ab592:--></span></h2>
+    <h2> Ran: <span class="pass"><observablehq-loading></observablehq-loading><!--:57588742:--></span> + <span class="fail"><observablehq-loading></observablehq-loading><!--:2f227bc8:--></span> = <span class="huge"><observablehq-loading></observablehq-loading><!--:3162abef:--></span></h2>
+    <h2> Insufficient source data: <span class=""><observablehq-loading></observablehq-loading><!--:3d306542:--><br>
+    Unaccounted: <span class=""><observablehq-loading></observablehq-loading><!--:4dcd4bb7:--></span></span></h2>
+    <h2>Reviewed: <span class=""><observablehq-loading></observablehq-loading><!--:e31ce1bd:--> (<observablehq-loading></observablehq-loading><!--:d637c4c4:-->%)</span></h2>
+</div>
+<div class="observablehq observablehq--block"><!--:635b5083:--></div>
+<h2 id="details" tabindex="-1"><a class="observablehq-header-anchor" href="#details">Details</a></h2>
+<div class="observablehq observablehq--block"><!--:b305fbd8:--></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./fontc_crater.html"><span>Fontc crater</span></a><a rel="next" href="./trends.html"><span>Fontspector QA trends</span></a></nav>
+</footer>
+</div>
+</body>
+</html>

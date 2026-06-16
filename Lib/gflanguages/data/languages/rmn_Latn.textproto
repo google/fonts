@@ -13,6 +13,9 @@ region: "RU"
 region: "SI"
 region: "TR"
 region: "XK"
+exemplar_chars {
+  base: "A Ä Á B C Ć Č D E Ê É F Ğ H I Î Í J K L M N O Ö Ó P Ṗ Q R Ř S Š T U V W X Y Z a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z"
+}
 sample_text {
   masthead_full: "SsAa"
   masthead_partial: "Vv"

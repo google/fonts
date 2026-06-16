@@ -4,6 +4,10 @@ script: "Bugi"
 name: "Buginese (Buginese)"
 population: 0
 region: "ID"
+exemplar_chars {
+  base: "ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ"
+  marks: "◌ᨗ ◌ᨘ ◌ᨙ ◌ᨚ ◌ᨛ"
+}
 sample_text {
   masthead_full: "ᨔᨊᨑᨄ"
   masthead_partial: "ᨈᨕ"

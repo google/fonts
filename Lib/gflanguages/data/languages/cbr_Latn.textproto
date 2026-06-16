@@ -3,6 +3,9 @@ language: "cbr"
 script: "Latn"
 name: "Cashibo-Cacataibo"
 region: "PE"
+exemplar_chars {
+  base: "A B C E I M N O P Q R S T U X Ë Ï Õ Ñ a b c e i m n o p q r s t u x \' ë ï õ ñ"
+}
 sample_text {
   masthead_full: "UuIi"
   masthead_partial: "Nn"

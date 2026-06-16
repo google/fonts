@@ -3,6 +3,9 @@ language: "mto"
 script: "Latn"
 name: "Mixe, Totontepec"
 region: "MX"
+exemplar_chars {
+  base: "A C H D E Ë G I J M N O Ö P Q S T U Ü V X Y a c h d e ë g i j m n o ö p q s t u ü v x y"
+}
 sample_text {
   masthead_full: "TtUu"
   masthead_partial: "Mm"

@@ -138,7 +138,7 @@ def test_exemplars_bracketed_sequences(lang_code, exemplar_name):
     exemplar = getattr(lang.exemplar_chars, exemplar_name).split()
     for chars in exemplar:
         if len(chars) > 1:
-            assert chars.startswith("{") and chars.endswith("}")
+            assert chars.startswith("{") and chars.endswith("}"), f"'{chars}' in {lang_code} {exemplar_name} is not bracketed"
             assert len(chars[1:-1]) > 1
 
 

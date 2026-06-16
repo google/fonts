@@ -3,6 +3,9 @@ language: "lld"
 script: "Latn"
 name: "Ladin"
 region: "IT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ë Ì Î Ò Ó Ô Ö Ù Û Ü Ć Ś a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò ó ô ö ù û ü ć ś"
+}
 sample_text {
   masthead_full: "DdÖö"
   masthead_partial: "Tt"

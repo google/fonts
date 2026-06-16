@@ -4,6 +4,9 @@ script: "Latn"
 name: "Aguaruna"
 population: 65000
 region: "PE"
+exemplar_chars {
+  base: "A B C D E G H I J K M N P R S T U W Y Ã Ẽ Ĩ Ũ Í a b c d e g h i j k m n p r s t u w y ã ẽ ĩ ũ í"
+}
 sample_text {
   masthead_full: "AaSs"
   masthead_partial: "Hh"

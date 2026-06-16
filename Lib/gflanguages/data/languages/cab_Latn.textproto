@@ -6,6 +6,10 @@ region: "BZ"
 region: "HN"
 region: "NI"
 region: "GT"
+exemplar_chars {
+  base: "A B C D E F G H I K L M N O P R S T U W Y Ñ Ü a b c d e f g h i k l m n o p r s t u w y ñ ü"
+  marks: "◌́ ◌̃ ◌̈"
+}
 sample_text {
   masthead_full: "SsUu"
   masthead_partial: "Nn"

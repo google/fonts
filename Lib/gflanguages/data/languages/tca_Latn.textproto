@@ -5,6 +5,9 @@ name: "Ticuna"
 region: "BR"
 region: "CO"
 region: "PE"
+exemplar_chars {
+  base: "A B Č D E F G H I J K L M N Ñ O P R S T U Ü W X Y a b č d e f g h i j k l m n ñ o p r s t u ü w x y ʔ"
+}
 sample_text {
   masthead_full: "NnGg"
   masthead_partial: "Ẽẽ"

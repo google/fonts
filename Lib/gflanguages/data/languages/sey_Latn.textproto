@@ -4,6 +4,9 @@ script: "Latn"
 name: "Secoya"
 region: "EC"
 region: "PE"
+exemplar_chars {
+  base: "A D E Ë I J K M N Ñ O P S T U W Y a d e ë i j k m n ñ o p s t u w y \'"
+}
 sample_text {
   masthead_full: "SsIi"
   masthead_partial: "Aa"

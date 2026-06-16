@@ -3,6 +3,9 @@ language: "not"
 script: "Latn"
 name: "Nomatsiguenga"
 region: "PE"
+exemplar_chars {
+  base: "A B C E Ë G I J M N O P Q R S T Y a b c e ë g i j m n o p q r s t y"
+}
 sample_text {
   masthead_full: "AaNn"
   masthead_partial: "Tt"

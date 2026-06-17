@@ -8,6 +8,9 @@ region: "MO"
 region: "MM"
 region: "HK"
 region: "CN"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O Q R S T U V W X Y Z a b c d e f g h i j k l m n o q r s t u v w x y z"
+}
 sample_text {
   masthead_full: "AaQq"
   masthead_partial: "Ss"

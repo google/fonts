@@ -23,20 +23,20 @@ def main(args=None):
         for chars in marks:
             if not chars:
                 continue
-            if chars[0] != "\u25CC":
-                chars = "\u25CC" + chars
+            if chars[0] != "\u25cc":
+                chars = "\u25cc" + chars
             if chars not in new_marks:
                 new_marks.append(chars)
 
         for chars in bases:
             if not chars:
                 continue
-            if chars[0] == "\u25CC":
+            if chars[0] == "\u25cc":
                 chars = chars[1:]
             cat = unicodedata.category(chars[0])
             if cat in ["Mn", "Mc"]:
-                if chars[0] != "\u25CC":
-                    chars = "\u25CC" + chars
+                if chars[0] != "\u25cc":
+                    chars = "\u25cc" + chars
                 if chars not in new_marks:
                     new_marks.append(chars)
             else:

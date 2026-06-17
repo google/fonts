@@ -5,6 +5,9 @@ name: "Huitoto, Murui"
 region: "CO"
 region: "PE"
 region: "BR"
+exemplar_chars {
+  base: "A B C D E F G I J L M N O R S T V Ɨ Ñ a b c d e f g i j l m n o r s t v ɨ ñ"
+}
 sample_text {
   masthead_full: "NnAa"
   masthead_partial: "Cc"

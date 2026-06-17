@@ -3,6 +3,9 @@ language: "shp"
 script: "Latn"
 name: "Shipibo-Conibo"
 region: "PE"
+exemplar_chars {
+  base: "A B C E I J K L M N O P Q R S T U W Y a b c e i j k l m n o p q r s t u w y"
+}
 sample_text {
   masthead_full: "JjAa"
   masthead_partial: "Tt"

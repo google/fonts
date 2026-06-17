@@ -29,15 +29,12 @@ def main(args=None):
 
                 if clean_values != values:
                     if {len(set(values))} != {len(set(clean_values))}:
-                        print("before: "+ " ".join(values))
-                        print("after: "+ " ".join(clean_values))
+                        print("before: " + " ".join(values))
+                        print("after: " + " ".join(clean_values))
                         sys.exit("Failed fixing exemplar.")
                     setattr(language.exemplar_chars, attr, " ".join(clean_values))
                     changed = True
-                    exemplar_values[attr] = {
-                        "before": values,
-                        "after": clean_values
-                    }
+                    exemplar_values[attr] = {"before": values, "after": clean_values}
 
         if changed:
             for exemplar, values in exemplar_values.items():

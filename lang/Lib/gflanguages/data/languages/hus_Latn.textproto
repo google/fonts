@@ -3,6 +3,9 @@ language: "hus"
 script: "Latn"
 name: "Huastec, San Luís Potosí"
 region: "MX"
+exemplar_chars {
+  base: "A B C E I J K L M N O P R S T U W X Y Z a b c e i j k l m n o p r s t u w x y z \'"
+}
 sample_text {
   masthead_full: "PpAa"
   masthead_partial: "Tt"

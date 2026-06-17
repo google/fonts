@@ -3,6 +3,9 @@ language: "pbb"
 script: "Latn"
 name: "Páez"
 region: "CO"
+exemplar_chars {
+  base: "A Ã B C D E Ẽ F G I Ĩ J L M N Ñ P Q S T U Ũ V W Y Z a ã b c d e ẽ f g i ĩ j l m n ñ p q s t u ũ v w y z \'"
+}
 sample_text {
   masthead_full: "YyAa"
   masthead_partial: "Nn"

@@ -4,6 +4,9 @@ script: "Latn"
 name: "Awa-Cuaiquer"
 region: "CO"
 region: "EC"
+exemplar_chars {
+  base: "A Ã C E Ẽ I Ĩ Ɨ J K L M N Ñ P R S T U Ũ V W Y Z a ã c e ẽ i ĩ ɨ j k l m n ñ p r s t u ũ v w y z \'"
+}
 sample_text {
   masthead_full: "WwAa"
   masthead_partial: "Nn"

@@ -3,6 +3,9 @@ language: "lus"
 script: "Latn"
 name: "Mizo (Latin)"
 region: "IN"
+exemplar_chars {
+  base: "A Â Ã B C D E Ê F G H I J K L M N O P R S T Ṭ U V W Z a â ã b c d e ê f g h i j k l m n o p r s t ṭ u v w z"
+}
 sample_text {
   masthead_full: "MmIi"
   masthead_partial: "Zz"

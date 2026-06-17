@@ -3,6 +3,9 @@ language: "snn"
 script: "Latn"
 name: "Siona"
 region: "CO"
+exemplar_chars {
+  base: "A Ã B C D E Ë Ɛ G H I Ĩ Ɨ J K M N Ñ O Õ P R S T U Ũ W Y Z a ã b c d e ë ɛ g h i ĩ ɨ j k m n ñ o õ p r s t u ũ w y z \'"
+}
 sample_text {
   masthead_full: "SsIi"
   masthead_partial: "Aa"

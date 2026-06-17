@@ -4,6 +4,9 @@ script: "Latn"
 name: "Oroqen"
 region: "CN"
 region: "RU"
+exemplar_chars {
+  base: "A B D E F G H I J K L M N O P Q R S T U Ü W X Y a b d e f g h i j k l m n o p q r s t u ü w x y"
+}
 sample_text {
   masthead_full: "BbEe"
   masthead_partial: "Yy"

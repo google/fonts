@@ -2,8 +2,12 @@ use proc_macro2::TokenStream;
 use protobuf::reflect::{FieldDescriptor, ReflectValueRef};
 use quote::quote;
 use serde_json::Map;
-use std::io::{BufWriter, Write};
-use std::{env, fs::File, path::Path};
+use std::{
+    env,
+    fs::File,
+    io::{BufWriter, Write},
+    path::Path,
+};
 
 fn main() {
     // First we load up the descriptor using the protobuf crate
@@ -11,7 +15,7 @@ fn main() {
     let descriptors = protobuf_parse::Parser::new()
         .pure()
         .include(".")
-        .input("Lib/gflanguages/languages_public.proto")
+        .input("resources/protos/languages_public.proto")
         .file_descriptor_set()
         .expect("Could not parse languages_public.proto");
     let protofile = descriptors.file.first().expect("No file in descriptor");
@@ -36,8 +40,8 @@ fn main() {
     // Let's make our structs; this produces google.languages_public.rs
     config
         .compile_protos(
-            &["Lib/gflanguages/languages_public.proto"],
-            &["Lib/gflanguages/"],
+            &["resources/protos/languages_public.proto"],
+            &["resources/protos/"],
         )
         .expect("Could not compile languages_public.proto");
 
@@ -146,7 +150,7 @@ fn serialize_field(
         serialize_field_value(field, field.get_singular(message).unwrap())
     } else if field.has_field(message) {
         let value = serialize_field_value(field, field.get_singular(message).unwrap());
-        value.into()
+        value
     } else {
         serde_json::Value::Null
     }

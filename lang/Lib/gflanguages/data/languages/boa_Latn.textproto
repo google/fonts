@@ -4,6 +4,9 @@ script: "Latn"
 name: "Bora"
 region: "PE"
 region: "CO"
+exemplar_chars {
+  base: "A B C D E G H I J K L M N O P R S T U V W Y Ɨ Ñ a b c d e g h i j k l m n o p r s t u v w y ɨ ñ"
+}
 sample_text {
   masthead_full: "PpÁá"
   masthead_partial: "Mm"

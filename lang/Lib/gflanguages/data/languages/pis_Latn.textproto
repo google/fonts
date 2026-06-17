@@ -4,6 +4,9 @@ script: "Latn"
 name: "Pijin"
 region: "SB"
 region: "FJ"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W Æ a b c d e f g h i j k l m n o p r s t u v w æ"
+}
 sample_text {
   masthead_full: "EeVv"
   masthead_partial: "Rr"

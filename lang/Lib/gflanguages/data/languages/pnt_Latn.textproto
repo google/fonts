@@ -3,3 +3,7 @@ language: "pnt"
 script: "Latn"
 name: "Pontic (Latin)"
 population: 0
+exemplar_chars {
+  base: "A B C Ç Ğ D E F H İ I K L M N O P R S Ş T U Y X Z Þ a b c ç ğ d e f h {i̇} i k l m n o p r s ş t u y x z þ"
+  marks: "◌́"
+}

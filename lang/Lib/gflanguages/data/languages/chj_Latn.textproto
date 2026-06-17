@@ -3,6 +3,10 @@ language: "chj"
 script: "Latn"
 name: "Chinantec, Ojitlán"
 region: "MX"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U Ë Ø a b c d e f g h i j k l m n o p r s t u ë ø"
+  marks: "◌́ ◌̈"
+}
 sample_text {
   masthead_full: "LlAa"
   masthead_partial: "Jj"

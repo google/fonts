@@ -4,6 +4,9 @@ script: "Latn"
 name: "Mixtec, Metlatónoc"
 region: "MX"
 region: "US"
+exemplar_chars {
+  base: "A C D E G I Ɨ J K L M N Ñ O P R S T U V X Y a c d e g i ɨ j k l m n ñ o p r s t u v x y \'"
+}
 sample_text {
   masthead_full: "TtAa"
   masthead_partial: "Kk"

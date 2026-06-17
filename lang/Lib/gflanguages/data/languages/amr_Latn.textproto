@@ -3,6 +3,9 @@ language: "amr"
 script: "Latn"
 name: "Amarakaeri"
 region: "PE"
+exemplar_chars {
+  base: "A B E G H I J K M N O P R S T U Y a b e g h i j k m n o p r s t u y \'"
+}
 sample_text {
   masthead_full: "AaYy"
   masthead_partial: "Dd"

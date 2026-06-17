@@ -3,6 +3,9 @@ language: "mzi"
 script: "Latn"
 name: "Mazatec, Ixcatlán"
 region: "MX"
+exemplar_chars {
+  base: "A B C E F I J K L M N O P R S T U X Y Z a b c e f i j k l m n o p r s t u x y z \'"
+}
 sample_text {
   masthead_full: "NnGg"
   masthead_partial: "Aa"

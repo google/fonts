@@ -4,6 +4,9 @@ script: "Latn"
 name: "Tzeltal, Oxchuc"
 region: "MX"
 region: "US"
+exemplar_chars {
+  base: "A B C E H I J K L M N O P R T U W X Y Z a b c e h i j k l m n o p r t u w x y z \'"
+}
 sample_text {
   masthead_full: "SsPp"
   masthead_partial: "Ii"

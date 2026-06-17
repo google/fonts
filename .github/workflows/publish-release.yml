@@ -246,7 +246,7 @@ jobs:
       - name: Subtree pull from gflanguages main
         run: |
           git subtree pull \
-            --prefix=gflanguages \
+            --prefix=lang \
             https://github.com/googlefonts/gflanguages.git \
             main
 

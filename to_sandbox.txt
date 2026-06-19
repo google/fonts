@@ -1,55 +1,25 @@
 # New
-ofl/montenegringothicone # https://github.com/google/fonts/pull/10507
+ofl/geistpixel # https://github.com/google/fonts/pull/10591
+ofl/yuyu # https://github.com/google/fonts/pull/10595
+ofl/yuyushort # https://github.com/google/fonts/pull/10596
+
+# Upgrade
+ofl/cousine # https://github.com/google/fonts/pull/10604
+ofl/ebgaramond # https://github.com/google/fonts/pull/10639
 
 # Designer profile
-catalog/designers/andrestorresi # https://github.com/google/fonts/pull/10547
-catalog/designers/carolinagiovagnoli # https://github.com/google/fonts/pull/10547
-catalog/designers/fontbob # https://github.com/google/fonts/pull/10529
-catalog/designers/htfonts # https://github.com/google/fonts/pull/10547
-# Deleted: catalog/designers/huertatipografica # https://github.com/google/fonts/pull/10547
-
-# Axis Registry
-axisregistry/enlarge.textproto # https://github.com/google/fonts/pull/10532
-axisregistry/geometricform.textproto # https://github.com/google/fonts/pull/10532
-axisregistry/guidesopacity.textproto # https://github.com/google/fonts/pull/10532
+catalog/designers/behailuberento # https://github.com/google/fonts/pull/10606
+catalog/designers/juliagarcialopez # https://github.com/google/fonts/pull/10614
+catalog/designers/typehabesha # https://github.com/google/fonts/pull/10607
 
 # Knowledge
-cc-by-sa/knowledge/glossary/terms/parametric_font/content.md # https://github.com/google/fonts/pull/10544
+cc-by-sa/knowledge/glossary/terms/flar_axis/content.md # https://github.com/google/fonts/pull/10531
+cc-by-sa/knowledge/glossary/terms/shadowlength_axis/content.md # https://github.com/google/fonts/pull/10512
+cc-by-sa/knowledge/glossary/terms/shadowlength_axis/images/thumbnail.svg # https://github.com/google/fonts/pull/10512
+cc-by-sa/knowledge/glossary/terms/shadowlength_axis/term.textproto # https://github.com/google/fonts/pull/10512
+cc-by-sa/knowledge/glossary/terms/year_axis/content.md # https://github.com/google/fonts/pull/10531
+cc-by-sa/knowledge/modules/the_canadian_syllabics/lessons/inuktut_syllabics/content.md # https://github.com/google/fonts/pull/10531
 
 # Metadata / Description / License
-ofl/acme # https://github.com/google/fonts/pull/10569
-ofl/acme/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/alegreya # https://github.com/google/fonts/pull/10569
-ofl/alegreya/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/alegreyasans # https://github.com/google/fonts/pull/10569
-ofl/alegreyasans/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/alegreyasanssc # https://github.com/google/fonts/pull/10569
-ofl/alegreyasanssc/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/alegreyasc # https://github.com/google/fonts/pull/10569
-ofl/alegreyasc/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/andadapro # https://github.com/google/fonts/pull/10569
-ofl/andadapro/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/bitter # https://github.com/google/fonts/pull/10569
-ofl/caladea # https://github.com/google/fonts/pull/10569
-ofl/cambo # https://github.com/google/fonts/pull/10569
-ofl/cambo/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/encodesanscondensed # https://github.com/google/fonts/pull/10569
-ofl/encodesansexpanded # https://github.com/google/fonts/pull/10569
-ofl/encodesanssemicondensed # https://github.com/google/fonts/pull/10569
-ofl/encodesanssemiexpanded # https://github.com/google/fonts/pull/10569
-ofl/gochihand # https://github.com/google/fonts/pull/10569
-ofl/gochihand/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/gurajada # https://github.com/google/fonts/pull/10569
-ofl/kadwa # https://github.com/google/fonts/pull/10569
-ofl/kadwa/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/petrona # https://github.com/google/fonts/pull/10569
-ofl/piazzolla # https://github.com/google/fonts/pull/10569
-ofl/piazzolla/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/sahitya # https://github.com/google/fonts/pull/10569
-ofl/sahitya/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/sarala # https://github.com/google/fonts/pull/10569
-ofl/sarala/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/sura/upstream_info.md # https://github.com/google/fonts/pull/10569
-ofl/telex # https://github.com/google/fonts/pull/10569
-ofl/yanonekaffeesatz # https://github.com/google/fonts/pull/10569
-ofl/genos # https://github.com/google/fonts/pull/10627
+ofl/jomhuria # https://github.com/google/fonts/pull/10624
+ofl/ole # https://github.com/google/fonts/pull/10608

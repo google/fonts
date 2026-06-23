@@ -1,0 +1,11 @@
+id: "ulc_Cyrl"
+language: "ulc"
+script: "Cyrl"
+name: "Ulch"
+exemplar_chars {
+  base: "А Б В Г Д Дʼ Е Ё Ж З Ӡ И Й К Л М Н Нʼ Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д дʼ е ё ж з ӡ и й к л м н нʼ ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я"
+  auxiliary: "А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Э̄ Ю̄ Я̄ а̄ е̄ ё̄ ӣ о̄ ӯ э̄ ю̄ я̄"
+}
+source: "https://paratype.github.io/cyrillic-languages/index.html?lang=Ulch&ui=ru&pg=2"
+
+

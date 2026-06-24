@@ -13081,6 +13081,8 @@ Maven Pro,,/Expressive/Stiff,20
 Maven Pro,,/Expressive/Vintage,10
 Maven Pro,wght@400,/Purpose/Easy Reading,10
 Maven Pro,wght@900,/Purpose/Easy Reading,100
+Maven Pro,wght@400,/Purpose/Easy Reading,10
+Maven Pro,wght@900,/Purpose/Easy Reading,100
 Maven Pro,,/Quality/Concept,50
 Maven Pro,,/Quality/Drawing,60
 Maven Pro,,/Quality/Spacing,40
@@ -14016,9 +14018,10 @@ Mouse Memoirs,,/Sans/Glyphic,100
 Mouse Memoirs,,/Sans/Grotesque,20
 Mouse Memoirs,,/Seasonal/Kwanzaa,70
 Mouse Memoirs,,/Seasonal/Valentine's Day,70
-Mozilla Headline,wght@200,/Expressive/Artistic,8
-Mozilla Headline,wght@400,/Expressive/Artistic,40
-Mozilla Headline,wght@700,/Expressive/Artistic,45
+Mozilla Headline,"wght,wdth@200,75",/Expressive/Artistic,10
+Mozilla Headline,"wght,wdth@700,75",/Expressive/Artistic,11
+Mozilla Headline,"wght,wdth@200,125",/Expressive/Artistic,10
+Mozilla Headline,"wght,wdth@700,125",/Expressive/Artistic,11
 Mozilla Headline,wght@200,/Expressive/Business,50
 Mozilla Headline,wght@400,/Expressive/Business,70
 Mozilla Headline,wght@700,/Expressive/Business,35

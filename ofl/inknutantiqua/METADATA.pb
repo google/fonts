@@ -10,7 +10,7 @@ fonts {
   filename: "InknutAntiqua-Light.ttf"
   post_script_name: "InknutAntiqua-Light"
   full_name: "Inknut Antiqua Light"
-  copyright: "Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net)."
+  copyright: "Copyright 2014 The Inknut Antiqua Project Authors (https://github.com/clauseggers/Inknut-Antiqua)"
 }
 fonts {
   name: "Inknut Antiqua"
@@ -19,7 +19,7 @@ fonts {
   filename: "InknutAntiqua-Regular.ttf"
   post_script_name: "InknutAntiqua-Regular"
   full_name: "Inknut Antiqua Regular"
-  copyright: "Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net)."
+  copyright: "Copyright 2014 The Inknut Antiqua Project Authors (https://github.com/clauseggers/Inknut-Antiqua)"
 }
 fonts {
   name: "Inknut Antiqua"
@@ -28,7 +28,7 @@ fonts {
   filename: "InknutAntiqua-Medium.ttf"
   post_script_name: "InknutAntiqua-Medium"
   full_name: "Inknut Antiqua Medium"
-  copyright: "Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net)."
+  copyright: "Copyright 2014 The Inknut Antiqua Project Authors (https://github.com/clauseggers/Inknut-Antiqua)"
 }
 fonts {
   name: "Inknut Antiqua"
@@ -37,7 +37,7 @@ fonts {
   filename: "InknutAntiqua-SemiBold.ttf"
   post_script_name: "InknutAntiqua-SemiBold"
   full_name: "Inknut Antiqua SemiBold"
-  copyright: "Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net)."
+  copyright: "Copyright 2014 The Inknut Antiqua Project Authors (https://github.com/clauseggers/Inknut-Antiqua)"
 }
 fonts {
   name: "Inknut Antiqua"
@@ -46,7 +46,7 @@ fonts {
   filename: "InknutAntiqua-Bold.ttf"
   post_script_name: "InknutAntiqua-Bold"
   full_name: "Inknut Antiqua Bold"
-  copyright: "Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net)."
+  copyright: "Copyright 2014 The Inknut Antiqua Project Authors (https://github.com/clauseggers/Inknut-Antiqua)"
 }
 fonts {
   name: "Inknut Antiqua"
@@ -55,7 +55,7 @@ fonts {
   filename: "InknutAntiqua-ExtraBold.ttf"
   post_script_name: "InknutAntiqua-ExtraBold"
   full_name: "Inknut Antiqua ExtraBold"
-  copyright: "Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net)."
+  copyright: "Copyright 2014 The Inknut Antiqua Project Authors (https://github.com/clauseggers/Inknut-Antiqua)"
 }
 fonts {
   name: "Inknut Antiqua"
@@ -64,7 +64,7 @@ fonts {
   filename: "InknutAntiqua-Black.ttf"
   post_script_name: "InknutAntiqua-Black"
   full_name: "Inknut Antiqua Black"
-  copyright: "Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net)."
+  copyright: "Copyright 2014 The Inknut Antiqua Project Authors (https://github.com/clauseggers/Inknut-Antiqua)"
 }
 subsets: "devanagari"
 subsets: "latin"

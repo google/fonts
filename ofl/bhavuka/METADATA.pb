@@ -17,6 +17,7 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/10four/Bhavuka"
-  commit: "e4819c2a22da01f0bb124b26e3d1ab86d1e05587"
+  repository_url: "https://github.com/googlefonts/Bhavuka"
+  commit: "9a79127fc31dda5447e875d77c8bdb0aab77cc98"
+  config_yaml: "sources/config.yaml"
 }

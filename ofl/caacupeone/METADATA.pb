@@ -10,7 +10,7 @@ fonts {
   filename: "CaacupeOne-Regular.ttf"
   post_script_name: "CaacupeOne-Regular"
   full_name: "Caacupe One Regular"
-  copyright: "Copyright 2014-2026 The Caacupe Project Authors (https://github.com/googlefonts/caacupe)"
+  copyright: "Copyright 2014-2026 The Caacupe One Project Authors (https://github.com/googlefonts/caacupe)"
 }
 subsets: "latin"
 subsets: "latin-ext"

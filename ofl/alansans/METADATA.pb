@@ -12,6 +12,7 @@ fonts {
   full_name: "Alan Sans Light"
   copyright: "Copyright 2025 The Alan Sans Project Authors (https://github.com/alan-eu/Alan-Sans)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

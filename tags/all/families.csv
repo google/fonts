@@ -175,9 +175,10 @@ Adamina,,/Quality/Drawing,70
 Adamina,,/Quality/Spacing,80
 Adamina,,/Quality/Wordspace,90
 Adamina,,/Serif/Old Style Garalde,80
-Advent Pro,wght@100,/Expressive/Active,5
-Advent Pro,wght@400,/Expressive/Active,5
-Advent Pro,wght@900,/Expressive/Active,15
+Advent Pro,"wght,wdth@100,100",/Expressive/Active,18
+Advent Pro,"wght,wdth@900,100",/Expressive/Active,19
+Advent Pro,"wght,wdth@100,200",/Expressive/Active,21
+Advent Pro,"wght,wdth@900,200",/Expressive/Active,23
 Advent Pro,,/Expressive/Awkward,30
 Advent Pro,,/Expressive/Calm,45
 Advent Pro,wght@100,/Expressive/Cute,8
@@ -6292,8 +6293,7 @@ DotGothic16,,/Quality/Spacing,60
 DotGothic16,,/Quality/Wordspace,100
 DotGothic16,,/Sans/Glyphic,80
 DotGothic16,,/Sans/Grotesque,30
-DotGothic16,,/Theme/Pixel,100
-DotGothic16,,/Theme/Techno,90
+DotGothic16,,/Theme/Techno,100
 Doto,,/Expressive/Awkward,54
 Doto,wght@100,/Expressive/Cute,5
 Doto,wght@400,/Expressive/Cute,5
@@ -8952,8 +8952,7 @@ Handjet,,/Quality/Concept,70
 Handjet,,/Quality/Drawing,65
 Handjet,,/Quality/Spacing,70
 Handjet,,/Quality/Wordspace,100
-Handjet,,/Theme/Pixel,100
-Handjet,,/Theme/Techno,90
+Handjet,,/Theme/Techno,100
 Handlee,,/Expressive/Active,5
 Handlee,,/Expressive/Childlike,77
 Handlee,,/Expressive/Cute,50
@@ -10694,9 +10693,10 @@ Kalam,,/Script/Informal,100
 Kalam,,/Seasonal/Diwali,89
 Kalam,,/Seasonal/Holi,100
 Kalam,,/Theme/Brush,100
-Kalnia Glaze,wght@100,/Expressive/Active,5
-Kalnia Glaze,wght@400,/Expressive/Active,20
-Kalnia Glaze,wght@700,/Expressive/Active,45
+Kalnia Glaze,"wght,wdth@100,100",/Expressive/Active,26
+Kalnia Glaze,"wght,wdth@700,100",/Expressive/Active,31
+Kalnia Glaze,"wght,wdth@100,125",/Expressive/Active,30
+Kalnia Glaze,"wght,wdth@700,125",/Expressive/Active,32
 Kalnia Glaze,,/Expressive/Awkward,55
 Kalnia Glaze,wght@100,/Expressive/Cute,35
 Kalnia Glaze,wght@400,/Expressive/Cute,60
@@ -10720,9 +10720,10 @@ Kalnia Glaze,,/Seasonal/Diwali,98
 Kalnia Glaze,,/Seasonal/Holi,98
 Kalnia Glaze,,/Seasonal/Valentine's Day,88
 Kalnia Glaze,,/Theme/Inline,100
-Kalnia,wght@100,/Expressive/Active,1
-Kalnia,wght@400,/Expressive/Active,20
-Kalnia,wght@700,/Expressive/Active,33
+Kalnia,"wght,wdth@100,100",/Expressive/Active,26
+Kalnia,"wght,wdth@700,100",/Expressive/Active,31
+Kalnia,"wght,wdth@100,125",/Expressive/Active,30
+Kalnia,"wght,wdth@700,125",/Expressive/Active,32
 Kalnia,,/Expressive/Awkward,20
 Kalnia,wght@100,/Expressive/Cute,40
 Kalnia,wght@400,/Expressive/Cute,50
@@ -13081,6 +13082,8 @@ Maven Pro,,/Expressive/Stiff,20
 Maven Pro,,/Expressive/Vintage,10
 Maven Pro,wght@400,/Purpose/Easy Reading,10
 Maven Pro,wght@900,/Purpose/Easy Reading,100
+Maven Pro,wght@400,/Purpose/Easy Reading,10
+Maven Pro,wght@900,/Purpose/Easy Reading,100
 Maven Pro,,/Quality/Concept,50
 Maven Pro,,/Quality/Drawing,60
 Maven Pro,,/Quality/Spacing,40
@@ -13274,9 +13277,10 @@ Merriweather Sans,,/Quality/Drawing,80
 Merriweather Sans,,/Quality/Spacing,70
 Merriweather Sans,,/Quality/Wordspace,100
 Merriweather Sans,,/Sans/Humanist,100
-Merriweather,wght@300,/Expressive/Active,8
-Merriweather,wght@400,/Expressive/Active,10
-Merriweather,wght@900,/Expressive/Active,15
+Merriweather,"wght,wdth@300,87",/Expressive/Active,8
+Merriweather,"wght,wdth@900,87",/Expressive/Active,8
+Merriweather,"wght,wdth@300,112",/Expressive/Active,12
+Merriweather,"wght,wdth@900,112",/Expressive/Active,12
 Merriweather,wght@300,/Expressive/Business,84
 Merriweather,wght@400,/Expressive/Business,95
 Merriweather,wght@900,/Expressive/Business,84
@@ -18679,8 +18683,7 @@ Pixelify Sans,,/Quality/Concept,60
 Pixelify Sans,,/Quality/Drawing,60
 Pixelify Sans,,/Quality/Spacing,70
 Pixelify Sans,,/Quality/Wordspace,100
-Pixelify Sans,,/Theme/Pixel,100
-Pixelify Sans,,/Theme/Techno,90
+Pixelify Sans,,/Theme/Techno,100
 Plaster,,/Expressive/Active,22
 Plaster,,/Expressive/Artistic,91
 Plaster,,/Expressive/Awkward,83
@@ -20332,8 +20335,7 @@ Press Start 2P,,/Quality/Concept,70
 Press Start 2P,,/Quality/Drawing,50
 Press Start 2P,,/Quality/Spacing,70
 Press Start 2P,,/Quality/Wordspace,100
-Press Start 2P,,/Theme/Pixel,100
-Press Start 2P,,/Theme/Techno,90
+Press Start 2P,,/Theme/Techno,100
 Pridi,,/Expressive/Business,46
 Pridi,,/Expressive/Loud,3
 Pridi,,/Expressive/Rugged,40
@@ -21547,7 +21549,6 @@ Rubik Broken Fax,,/Quality/Concept,65
 Rubik Broken Fax,,/Quality/Drawing,40
 Rubik Broken Fax,,/Quality/Spacing,80
 Rubik Broken Fax,,/Quality/Wordspace,100
-Rubik Broken Fax,,/Theme/Pixel,20
 Rubik Broken Fax,,/Theme/Techno,40
 Rubik Bubbles,,/Expressive/Awkward,73
 Rubik Bubbles,,/Expressive/Cute,30
@@ -21678,7 +21679,6 @@ Rubik Iso,,/Quality/Drawing,40
 Rubik Iso,,/Quality/Spacing,80
 Rubik Iso,,/Quality/Wordspace,100
 Rubik Iso,,/Theme/Distressed,100
-Rubik Iso,,/Theme/Pixel,30
 Rubik Iso,,/Theme/Techno,80
 Rubik Iso,,/Theme/Wacky,40
 Rubik Lines,,/Expressive/Awkward,84
@@ -21770,8 +21770,7 @@ Rubik Pixels,,/Quality/Concept,50
 Rubik Pixels,,/Quality/Drawing,55
 Rubik Pixels,,/Quality/Spacing,70
 Rubik Pixels,,/Quality/Wordspace,100
-Rubik Pixels,,/Theme/Pixel,90
-Rubik Pixels,,/Theme/Techno,90
+Rubik Pixels,,/Theme/Techno,100
 Rubik Puddles,,/Expressive/Awkward,79
 Rubik Puddles,,/Expressive/Excited,78
 Rubik Puddles,,/Expressive/Happy,15
@@ -22959,8 +22958,7 @@ Silkscreen,,/Quality/Concept,70
 Silkscreen,,/Quality/Drawing,65
 Silkscreen,,/Quality/Spacing,90
 Silkscreen,,/Quality/Wordspace,50
-Silkscreen,,/Theme/Pixel,100
-Silkscreen,,/Theme/Techno,80
+Silkscreen,,/Theme/Techno,100
 Simonetta,,/Expressive/Happy,10
 Simonetta,,/Expressive/Innovative,5
 Simonetta,,/Expressive/Rugged,36
@@ -24785,9 +24783,10 @@ Tomorrow,,/Quality/Spacing,70
 Tomorrow,,/Quality/Wordspace,90
 Tomorrow,,/Sans/Geometric,80
 Tomorrow,,/Theme/Techno,50
-Tourney,wght@100,/Expressive/Active,70
-Tourney,wght@400,/Expressive/Active,73
-Tourney,wght@900,/Expressive/Active,68
+Tourney,"wght,wdth@100,75",/Expressive/Active,34
+Tourney,"wght,wdth@900,75",/Expressive/Active,36
+Tourney,"wght,wdth@100,125",/Expressive/Active,56
+Tourney,"wght,wdth@900,125",/Expressive/Active,58
 Tourney,,/Expressive/Awkward,20
 Tourney,wght@100,/Expressive/Futuristic,70
 Tourney,wght@400,/Expressive/Futuristic,70
@@ -25278,8 +25277,7 @@ VT323,,/Quality/Concept,70
 VT323,,/Quality/Drawing,70
 VT323,,/Quality/Spacing,90
 VT323,,/Quality/Wordspace,50
-VT323,,/Theme/Pixel,100
-VT323,,/Theme/Techno,90
+VT323,,/Theme/Techno,100
 Vampiro One,,/Expressive/Active,77
 Vampiro One,,/Expressive/Artistic,67
 Vampiro One,,/Expressive/Awkward,45

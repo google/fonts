@@ -68,3 +68,9 @@ No override `config.yaml` exists in the google/fonts family directory (`ofl/dyna
 - The copyright field contains a Reserved Font Name ("Dynalight").
 - The font is classified as both DISPLAY and HANDWRITING.
 - No PRs to google/fonts specifically reference Dynalight.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/dynalight/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `af7642053c`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

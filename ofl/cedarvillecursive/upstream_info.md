@@ -64,3 +64,9 @@ No override `config.yaml` exists in the google/fonts family directory either.
 ## Confidence
 
 **HIGH**: The repository URL is confirmed accessible, the commit hash is the only commit in the repo, and the source format limitation (VFB-only) is definitively verified. The font cannot be rebuilt from open-source tooling without source conversion work. The librefonts archive is the only known upstream for this font.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/cedarvillecursive/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `cd212b0e2d`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

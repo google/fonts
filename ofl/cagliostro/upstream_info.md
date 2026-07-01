@@ -52,3 +52,9 @@ This family cannot be built with gftools-builder because the only sources are in
 
 1. Is there any plan to convert the SFD/VFB sources to a modern format (Glyphs/UFO) for this family?
 2. The original designer Matthew Desmond (MADType) may have more recent source files.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/cagliostro/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `5c0de59bed`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

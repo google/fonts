@@ -1,0 +1,13 @@
+# Legacy upstream sources (.sfd and/or .vfb).
+#
+# gftools-builder does not currently consume these formats. This config
+# is intentional -- it records which source files exist at the pinned
+# upstream commit so a future compatibility layer can pick them up.
+sources:
+  - src/Asul-Bold-OTF.vfb
+  - src/Asul-Bold-TTF.sfd
+  - src/Asul-Bold.vfb
+  - src/Asul-Regular-OTF.vfb
+  - src/Asul-Regular-TTF.sfd
+  - src/Asul-Regular.vfb
+familyName: Asul

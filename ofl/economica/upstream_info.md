@@ -66,3 +66,9 @@ The .travis.yml references the legacy `fontbakery-build.py` tool from 2014, whic
 ## Confidence
 
 **MEDIUM** -- The repository URL is confirmed (librefonts/economica, accessible on GitHub) and the only commit hash is unambiguous. However, this is a librefonts batch-import repository, not the designer's canonical source. The font predates modern tooling and uses SFD/VFB sources that cannot be built with gftools-builder. Confidence is MEDIUM rather than HIGH because the librefonts repo is a secondary mirror, not the original designer's repository. No config.yaml can be provided.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/economica/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `6bf48e6858`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

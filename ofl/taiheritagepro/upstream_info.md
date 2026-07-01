@@ -13,3 +13,9 @@ The source block in METADATA.pb already contained a repository_url, archive_url 
 ## Notes
 - The source block uses an archive_url referencing the v2.600 release zip rather than direct file references from the repository tree. The commit hash recorded corresponds to the tagged release commit.
 - Repository is maintained by SIL International.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/taiheritagepro/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `1ac0dd04cf`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

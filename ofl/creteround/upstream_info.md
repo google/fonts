@@ -53,3 +53,9 @@ SFD and VFB files are not compatible with gftools-builder, so a config.yaml cann
 1. The source block (repository_url and commit hash) has not yet been merged to google/fonts main -- it is on the pending branch `felipesanches/sources_info_2026-02-25`.
 2. No config.yaml can be created from SFD/VFB sources without source conversion. This family will remain in `missing_config` status unless the sources are modernized.
 3. The font was designed by TypeTogether (Jose Scaglione and Veronika Burian). If there are more modern sources (e.g., .glyphs or .ufo) available from TypeTogether, those would be the preferred upstream.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/creteround/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `056740e1fe`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

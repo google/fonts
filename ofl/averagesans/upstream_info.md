@@ -52,3 +52,9 @@ These formats are not compatible with gftools-builder, which requires `.glyphs`,
 
 1. Does Eduardo Tunni have the Average Sans .glyphs source file? His "average" repo has `sources/Average.glyphs` for the serif family -- he may have a similar .glyphs file for Average Sans that was never published to GitHub.
 2. Should a new upstream repo be created (or the existing one updated) with modern source files to enable rebuilding?
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/averagesans/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `79216d6e94`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

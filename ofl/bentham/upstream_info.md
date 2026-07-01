@@ -52,3 +52,9 @@ The hotfix PR #854 by Marc Foley had an empty body, providing no context about t
 - SFD-only sources cannot be used with gftools-builder; this family would need a UFO/Glyphs conversion or an alternative build approach
 - The hotfix from 2017 may have used a process not reflected in the librefonts repo (which was last updated in 2014)
 - This font was added to Google Fonts in 2010, making it one of the original catalog fonts with limited source documentation
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/bentham/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `a89643ad52`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

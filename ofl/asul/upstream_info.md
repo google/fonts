@@ -46,3 +46,9 @@ Building from SFD sources would require a different build pipeline or a manual c
 1. Were the TTF files in google/fonts compiled from the SFD sources in this upstream repo, or were they provided separately by the designer?
 2. Is there a different upstream repository with the actual build sources (e.g., .glyphs or .ufo files)?
 3. The commit is from 2014 but the font was updated in google/fonts in 2017 -- was a newer version compiled from these same sources with updated tooling?
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/asul/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `687362de82`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

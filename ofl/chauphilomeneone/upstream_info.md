@@ -48,3 +48,9 @@ There are no `.glyphs`, `.ufo`, or `.designspace` files that would be compatible
 ## Open Questions
 
 None. The status is correctly `missing_config` because the source formats (SFD, VFB) are not compatible with gftools-builder. No action needed unless the font is eventually migrated to a modern source format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/chauphilomeneone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `ac51123e5c`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -54,3 +54,9 @@ The repo also contains TTX table dumps of the font, METADATA.json, and a DESCRIP
 2. Should a source block be added to METADATA.pb pointing to the librefonts repo, even though there is no config.yaml and the sources are in legacy formats?
 3. Could the SFD source be converted to a modern format (e.g., UFO) to enable gftools-builder compatibility, or is this font effectively in a "legacy binary only" state?
 4. The copyright lists reserved font name "Aguafina Script" -- does this affect any potential source modifications?
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/aguafinascript/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `45a8ce768b`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

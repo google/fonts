@@ -51,3 +51,9 @@ The font has not been rebuilt from sources using modern tooling. The binary in g
 ## Open Questions
 
 1. The font sources are in SFD/VFB format only. To enable rebuilding with gftools-builder, the sources would need to be converted to `.glyphs` or `.ufo` format and a new upstream repo or config.yaml created. This is a low priority for a single-weight static font that has not been updated since 2015.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/bubblegumsans/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `fcf8bdd5e8`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

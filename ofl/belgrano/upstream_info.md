@@ -56,3 +56,9 @@ The source files are in SFD (FontForge) and VFB (FontLab) formats, which are not
 
 - The METADATA.pb currently has no `source {}` block. A source block with `repository_url` and `commit` should be added, even without `config_yaml`, to document the upstream origin.
 - The font was added to Google Fonts in 2011 and last updated in 2017 (PR #851). The upstream repo appears abandoned with only one commit from 2014.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/belgrano/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `9637660aa3`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -45,3 +45,9 @@ These formats are not compatible with gftools-builder, which requires `.glyphs`,
 
 1. The v-metrics hotfix was applied directly to the binary in google/fonts without corresponding upstream changes. Should this be documented more formally?
 2. Would it be worthwhile to convert the SFD sources to a gftools-builder compatible format?
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/concertone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `c2160f498d`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

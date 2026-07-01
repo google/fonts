@@ -49,3 +49,9 @@ These formats are not compatible with gftools-builder, which requires `.glyphs`,
 ## Open Questions
 
 None. This family cannot have a config.yaml without source format conversion.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/chicle/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `4ee3e89dbb`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

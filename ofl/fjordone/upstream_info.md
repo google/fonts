@@ -81,3 +81,9 @@ The font was designed by Viktoriya Grabowska and mastered by Eben Sorkin at Sork
 ## Conclusion
 
 Fjord One has a source block with a verified repository URL and the only available commit hash. The upstream repo is a librefonts archive containing only SFD/VFB sources, which are not compatible with gftools-builder. No config.yaml is possible. The status is as complete as it can be for a font with SFD-only sources.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/fjordone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `90b0be2c47`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

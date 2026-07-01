@@ -58,3 +58,9 @@ Note: The original font name uses a variant spelling "Dr Sujiyama" in the VFB fi
 ## Recommendation
 
 The status should remain `missing_config` with the note "SFD-only sources (FontForge format), not gftools-builder compatible." A `source { }` block could be added to METADATA.pb referencing the librefonts repo, but no `config_yaml` can be set since the sources are incompatible with gftools-builder. The commit hash should reference `11d194b70af6df309a24c9395f64280172839879` (HEAD of master) since no source files changed across the repo's history.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/drsugiyama/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `11d194b70a`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

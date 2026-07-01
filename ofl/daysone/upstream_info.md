@@ -49,3 +49,9 @@ The upstream repository has only a single commit: `76642af05e1a7734f94e1b22abdbc
 
 - Would this font benefit from source conversion (SFD to .glyphs or .ufo) to enable gftools-builder compatibility?
 - The librefonts archive is a secondary source; the original designer (Jovanny Lemonad) may have the original source files in a different format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/daysone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `76642af05e`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

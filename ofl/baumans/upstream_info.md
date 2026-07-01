@@ -49,3 +49,9 @@ This font predates the gftools-builder workflow. The source files are in VFB for
 
 1. Should this family be considered "complete" despite having no buildable sources? The VFB format requires FontLab to convert, which is outside the gftools-builder workflow.
 2. The upstream repo appears to be a shallow clone - fetching full history might reveal additional commits that could help identify the exact onboarding commit.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/baumans/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `00e0253a48`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -123,3 +123,9 @@ The font binaries in google/fonts have been hotfixed multiple times (PR #884, PR
 1. **Update METADATA.pb**: Replace the invalid `"https://github.com/googlefonts/elsiefont (404)"` URL with `"https://github.com/librefonts/elsie"`.
 2. **Note in source block**: This is a SFD-only repo; no gftools-builder rebuild is possible without source format conversion.
 3. **PR #10266 update**: The currently open PR proposes removing the URL entirely. It could instead be updated to point to `librefonts/elsie` as the best available source repository.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/elsie/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `9734e9ff13`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -64,3 +64,9 @@ The VFB format is a proprietary FontLab Studio format that is **not supported by
 - The repo was created as part of the librefonts batch migration of early Google Fonts families
 - The `.travis.yml` references legacy tooling (fontbakery-build.py, fontcrunch, python 2.7)
 - This family cannot be rebuilt from source without the original FontLab Studio project or conversion of the VFB to a modern format (.glyphs, .ufo)
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/emilyscandy/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `6c0f2ad7e9`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

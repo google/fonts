@@ -68,3 +68,9 @@ The `.travis.yml` in the repo references `fontbakery-build.py` for building from
 - The librefonts/engagement repo is a third-party archive, not the original designer's repository
 - The font would need to be converted from VFB to a modern source format (.glyphs or .ufo) before a config.yaml could be created for gftools-builder
 - The copyright notice references "Astigmatic (AOETI)" with the Reserved Font Name "Engagement"
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/engagement/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `4a28e79422`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

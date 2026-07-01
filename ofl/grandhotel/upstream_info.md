@@ -33,3 +33,9 @@ A source block was added to METADATA.pb pointing to this repository and commit.
 ## Confidence: Medium
 
 Librefonts mirror with VFB source; not buildable with modern open-source tooling.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/grandhotel/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `b0716771fb`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -1,0 +1,9 @@
+# Legacy upstream sources (.sfd and/or .vfb).
+#
+# gftools-builder does not currently consume these formats. This config
+# is intentional -- it records which source files exist at the pinned
+# upstream commit so a future compatibility layer can pick them up.
+sources:
+  - src/GravitasOne-TTF.sfd
+  - src/GravitasOne.vfb
+familyName: "Gravitas One"

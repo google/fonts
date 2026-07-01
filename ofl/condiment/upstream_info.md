@@ -45,3 +45,9 @@ These formats are not compatible with gftools-builder. No override config.yaml e
 ## Open Questions
 
 None. This is a straightforward legacy font with SFD-only sources in a standard librefonts archive repository.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/condiment/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `0a1933e09c`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

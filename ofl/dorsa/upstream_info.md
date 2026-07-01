@@ -40,3 +40,9 @@ The Travis CI configuration (`.travis.yml`) shows the font was built using `font
 ## Confidence
 
 **HIGH**: The upstream repository at librefonts/dorsa is the canonical source archive for this font. It has only a single commit containing the complete SFD source, making commit identification unambiguous. The font copyright matches between the SFD file, METADATA.pb, and METADATA.json (Santiago Orozco, 2011). The repository URL is verified accessible. The only limitation is the lack of gftools-builder-compatible sources (SFD only), which means no config.yaml can be provided.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/dorsa/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `90d5bffc5b`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

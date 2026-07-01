@@ -49,3 +49,9 @@ Since SFD sources cannot be used with gftools-builder, a config.yaml is not appl
 ## Open Questions
 
 None. The status is correctly `missing_config` because the SFD source format is not compatible with gftools-builder. No action needed unless the font is eventually migrated to a modern source format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/chathura/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `f6944e361d`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

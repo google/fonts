@@ -80,3 +80,9 @@ Note: No `config_yaml` field is possible because the repository only contains VF
 
 ### Status: `no_config_possible`
 ### Confidence: HIGH
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/habibi/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `1c3eb60663`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

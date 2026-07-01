@@ -48,3 +48,9 @@ SFD files are not compatible with gftools-builder, so a config.yaml cannot be cr
 1. The source block (repository_url and commit hash) has not yet been merged to google/fonts main -- it is on the pending branch `felipesanches/sources_info_2026-02-25`.
 2. No config.yaml can be created from SFD sources without source conversion. This family will remain in `missing_config` status unless the sources are modernized.
 3. The copyright mentions "Font Diner, Inc DBA Sideshow" -- the designer credit uses "Sideshow" as the key in METADATA.pb.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/creepster/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `f6eec0d741`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

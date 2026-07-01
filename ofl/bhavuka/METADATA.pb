@@ -18,6 +18,6 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/Bhavuka"
-  commit: "9a79127fc31dda5447e875d77c8bdb0aab77cc98"
+  commit: "5a9c2de51b99f4a5735c1dba6a883a2d9be4caab"
   config_yaml: "sources/config.yaml"
 }

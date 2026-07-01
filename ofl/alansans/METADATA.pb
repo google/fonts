@@ -12,8 +12,8 @@ fonts {
   full_name: "Alan Sans Light"
   copyright: "Copyright 2025 The Alan Sans Project Authors (https://github.com/alan-eu/Alan-Sans)"
 }
+subsets: "arabic"
 subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"
@@ -22,7 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/alan-eu/Alan-Sans"
-  commit: "425d3a0674a49f0ad6bc6ceef5ca0c557b520838"
+  commit: "281c0703f74926de5a211b980e55e739986ace6f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -34,5 +34,5 @@ source {
   branch: "main"
   config_yaml: "sources/config.yaml"
 }
-stroke: "SANS_SERIF"
 minisite_url: "https://typeface.alan.com"
+stroke: "SANS_SERIF"

@@ -14,7 +14,6 @@ fonts {
 }
 subsets: "arabic"
 subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"

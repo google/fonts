@@ -1,0 +1,54 @@
+FONTLOG for the Rosario fonts
+
+This file provides detailed information on the Rosario Font Software.
+This information should be distributed along with the Rosario fonts
+and any derivative works.
+
+Basic Font Information
+
+Rosario is the name of the city of its type designer, 
+Hector Gatti. This is a new typeface of classic proportions, 
+subtle contrast and soft endings. Carefully produced, 
+elegant, ideal for magazines and academic journals.
+
+Rosario is a Unicode typeface family that supports languages that
+use the Latin script and its variants, and could be expanded to 
+support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+ChangeLog
+
+6 Jan 2016 (Omnibus-Type) Rosario  v1.004
+- Bold Italic GSUB error fixed
+- name table mac-encoded items removed
+- Regular name ID4 fixed
+
+15 May 2013 (Omnibus-Type) Rosario  v1.003
+- Adobe TypeKit updated all styles
+- No change to outlines
+- Improved hinting and other technical optimizations
+
+30 Aug 2011 (Hector Gatti) Rosario  v1.002
+- Updated Regular
+- Initial release of Italic style
+
+12 Jul 2011 (Hector Gatti) Rosario  v1.001
+- Initial release under SIL Open Font License
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Hector Gatti
+D: Designer
+W: www.omnibus-type.com
+
+N: Tim Ahrens (with administrative assistance from 
+   Greg Veen)
+E: gregveen@adobe.com
+D: Font Engineer
+W: www.typekit.com

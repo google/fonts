@@ -1,0 +1,20 @@
+# Override config.yaml for ofl/lxgwmarkergothic
+#
+# The upstream sources/config.yaml builds from `temp/LXGWMarkerGothic-Regular.ufo`,
+# an unzipped copy of the committed `sources/LXGWMarkerGothic-Regular.ufoz` that the
+# repo's Makefile produces at build time (and .gitignores). fontc_crater never runs
+# that Makefile, so it reported `missing source 'temp/LXGWMarkerGothic-Regular.ufo'`.
+#
+# This override builds directly from the committed `.ufoz` (a zipped UFO), with the
+# source path relative to the repository root. fontmake already reads `.ufoz`.
+#
+# Building it in fontc_crater also relies on two PRs:
+#   - googlefonts/fontc#2028   (ufo2fontir reads `.ufoz`)
+#   - googlefonts/gftools#1192 (builder recognises `.ufoz` sources)
+sources:
+  - sources/LXGWMarkerGothic-Regular.ufoz
+familyName: LXGW Marker Gothic
+autohintTTF: False
+buildOTF: False
+buildWebfont: False
+removeOutlineOverlaps: False

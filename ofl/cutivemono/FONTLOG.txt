@@ -1,0 +1,46 @@
+FONTLOG for Cutive fonts
+
+This file provides detailed information on the Cutive 
+Font Software.
+
+This information should be distributed along with the 
+Cutive fonts and any derivative works.
+
+Basic Font Information
+
+DESC
+
+Cutive is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+
+ChangeLog
+
+14 September 2016 Marc Foley Cutive Mono v1.100
+- Removed overlap in ‘Q’
+- Converted sources to Glyphs
+
+
+27th March 2012 Vernon Adams Cutive v1.001
+- Initial release
+
+23rd October 2012 Vernon Adams CutiveMono v1.001
+- Initial Release
+
+11th August 2016 Marc Foley CutiveMono v1.101
+- Fixed overlapping contour issue in 'Q'
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Vernon Adams
+E: vern@newtypography.co.uk
+W: http://code.newtypography.co.uk
+D: Original Type Designer

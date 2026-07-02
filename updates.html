@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.4">
+<title>Server moves | Google Fonts QA Dashboard</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/style.a52b67cd.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/style.a52b67cd.css">
+<link rel="modulepreload" href="./_observablehq/client.56b4b141.js">
+<link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.23790ac1.js">
+<link rel="modulepreload" href="./_npm/react@19.2.7/jsx-runtime.c6c547ca.js">
+<link rel="modulepreload" href="./_npm/react-dom@19.2.7/client.6dc349a5.js">
+<link rel="modulepreload" href="./_npm/scheduler@0.27.0/979855b9.js">
+<link rel="modulepreload" href="./_npm/react@19.2.7/be08cf74.js">
+<link rel="modulepreload" href="./_npm/react-dom@19.2.7/edd40955.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.56b4b141.js";
+import {registerFile} from "./_observablehq/stdlib.23790ac1.js";
+
+registerFile("./data/versionhistory.json", {"name":"./data/versionhistory.json","mimeType":"application/json","path":"./_file/data/versionhistory.e25c8309.json","lastModified":1782954939580,"size":880334});
+
+define({id: "86cd3b7d", mode: "jsx", inputs: ["FileAttachment","display"], outputs: ["jsx","jsxs","updates","movesbydate"], body: async (FileAttachment,display) => {
+const {jsx, jsxs} = await import("./_npm/react@19.2.7/jsx-runtime.c6c547ca.js");
+const updates = await FileAttachment("./data/versionhistory.json").json();
+var movesbydate = {};
+for (var [name, entries] of Object.entries(updates)) {
+  for (var [server, moves] of Object.entries(entries)) {
+    for (var move of moves) {
+      var date = move["date"].replace(/T.*/, "");
+      if (date == "1970-01-01") {
+        continue;
+      }
+      if (!(date in movesbydate)) {
+        movesbydate[date] = [];
+      }
+      var version = move["version"].replace(/;.*/, "").replace("Version", "version");
+      movesbydate[date].push([name, version, server]);
+    }
+  }
+}
+display(
+  Object.keys(movesbydate).sort().reverse().slice(0, 50).map((date) => /* @__PURE__ */ jsxs("div", { children: [
+    /* @__PURE__ */ jsx("h2", { children: date }),
+    /* @__PURE__ */ jsx("ul", { children: movesbydate[date].sort().map(([name, version, server]) => /* @__PURE__ */ jsxs("li", { children: [
+      /* @__PURE__ */ jsx("span", { class: server, children: name }),
+      " ",
+      version,
+      " \u2192",
+      " ",
+      /* @__PURE__ */ jsx("span", { class: server, children: server }),
+      " "
+    ] })) })
+  ] }))
+);
+return {jsx,jsxs,updates,movesbydate};
+}});
+
+</script>
+</head>
+<body>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">Google Fonts QA Dashboard</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./families.html">Family status</a></li>
+    <li class="observablehq-link"><a href="./fontc_crater.html">Fontc crater</a></li>
+    <li class="observablehq-link"><a href="./source_check.html">Fontc crater sources check</a></li>
+    <li class="observablehq-link"><a href="./trends.html">Fontspector QA trends</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./updates.html">Server moves</a></li>
+  </ol>
+  <details open>
+    <summary>Standalone pages</summary>
+    <ol>
+    <li class="observablehq-link"><a href="./meta.html">meta</a></li>
+    <li class="observablehq-link"><a href="./familyexplorer.html">familyexplorer</a></li>
+    <li class="observablehq-link"><a href="./opsz_classifier.html">opsz classifier</a></li>
+    <li class="observablehq-link"><a href="./opsz_classifier_v01.html">opsz classifier v01</a></li>
+    <li class="observablehq-link"><a href="./opsz_classifier_v02.html">opsz classifier v02</a></li>
+    <li class="observablehq-link"><a href="./opsz_prediction.html">opsz prediction</a></li>
+    <li class="observablehq-link"><a href="./quality-tag-review.html">quality tag review</a></li>
+    <li class="observablehq-link"><a href="./quality_gaps_analysis.html">quality gaps analysis</a></li>
+    <li class="observablehq-link"><a href="./quality_outperforming.html">quality outperforming</a></li>
+    <li class="observablehq-link"><a href="./quality_overview.html">quality overview</a></li>
+    <li class="observablehq-link"><a href="./quality_perception.html">quality perception</a></li>
+    <li class="observablehq-link"><a href="./quality_uplevel_analysis.html">quality uplevel analysis</a></li>
+    <li class="observablehq-link"><a href="./quality_usage.html">quality usage</a></li>
+    <li class="observablehq-link"><a href="./tags.html">tags</a></li>
+    <li class="observablehq-link"><a href="./vf-tag-demo-linear.html">vf tag demo linear</a></li>
+    <li class="observablehq-link"><a href="./vf-tag-demo2.html">vf tag demo2</a></li>
+    </ol>
+  </details>
+</nav>
+<script>{const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<div class="observablehq observablehq--block"><!--:86cd3b7d:--></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./trends.html"><span>Fontspector QA trends</span></a></nav>
+</footer>
+</div>
+</body>
+</html>

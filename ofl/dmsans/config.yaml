@@ -1,0 +1,109 @@
+# Override config.yaml for ofl/dmsans
+# The upstream config (Sans/Source/config.yaml in googlefonts/dm-fonts) has
+# valid content but every line is indented 4 spaces with no top-level key,
+# so it cannot be parsed ("no config file was found"). This override is the
+# same config de-indented to valid top-level YAML, with the source paths
+# made relative to the repository root.
+sources:
+  - Sans/Source/DMSans.glyphs
+  - Sans/Source/DMSans-Italic.glyphs
+axisOrder:
+  - opsz
+  - wght
+  - ital
+familyName: DM Sans
+stat:
+  DMSans[opsz,wght].ttf:
+  - name: Optical size
+    tag: opsz
+    values:
+    - name: 9pt
+      value: 9
+    - name: 14pt
+      value: 14
+    - name: 18pt
+      value: 18
+    - name: 24pt
+      value: 24
+    - name: 36pt
+      value: 36
+    - name: 40pt
+      value: 40
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
+    - name: ExtraBlack
+      value: 1000
+  - name: Italic
+    tag: ital
+    values:
+    - name: Roman
+      value: 0
+      linkedValue: 1
+      flags: 2
+  DMSans-Italic[opsz,wght].ttf:
+  - name: Optical size
+    tag: opsz
+    values:
+    - name: 9pt
+      value: 9
+    - name: 14pt
+      value: 14
+    - name: 18pt
+      value: 18
+    - name: 24pt
+      value: 24
+    - name: 36pt
+      value: 36
+    - name: 40pt
+      value: 40
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
+    - name: ExtraBlack
+      value: 1000
+  - name: Italic
+    tag: ital
+    values:
+    - name: Italic
+      value: 1

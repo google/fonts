@@ -55,3 +55,9 @@ The upstream repo contains:
 - Same situation as Delius and Delius Unicase: sources would need conversion to modern format for gftools-builder compatibility.
 - The copyright string references Reserved Font Names: "Delius", "Delius Unicase", "Delius Swash Caps" - all three variants share the same designer (Natalia Raices) and were created as a family.
 - The source block for METADATA.pb has been prepared on branch `sources_info_2026-02-25` but is not yet merged.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/deliusswashcaps/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `a18d931eb4`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -47,3 +47,9 @@ The font was originally added to google/fonts in the initial commit (`90abd17b4`
 
 1. The source block for this family has been prepared but is not yet merged to google/fonts main (pending PR on `sources_info_2026-02-25` branch).
 2. TypeTogether may have more recent sources for Bree Serif in a different format (Glyphs/UFO), but the librefonts repository only contains the legacy SFD sources.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/breeserif/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `86684a17aa`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

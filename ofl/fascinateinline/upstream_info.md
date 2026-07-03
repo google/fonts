@@ -90,3 +90,9 @@ Brian J. Bonislawsky operates as Astigmatic (AOETI). Website: http://www.astigma
 - **Confidence**: HIGH -- the librefonts repo is the only known upstream, and the commit is the only commit in the repo. The VFB sources match the font's original creation date (2011).
 
 No further action is possible regarding config.yaml without source format conversion by the original designer.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/fascinateinline/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `0319622bad`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

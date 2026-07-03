@@ -85,3 +85,9 @@ Note: This source block was already prepared on branch `sources_info_2026-02-25`
 ### Status: no_config_possible
 
 The upstream repository only contains VFB (FontLab proprietary) sources. No gftools-builder compatible sources exist, making a config.yaml impossible without source format conversion.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/gloriahallelujah/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `1fd8b2f0f0`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

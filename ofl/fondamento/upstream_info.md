@@ -87,3 +87,9 @@ Fondamento is a calligraphic handwriting font designed by Brian J. Bonislawsky (
 The repository URL and commit hash are verified with high confidence. The status is `missing_config` because there are no buildable source files that gftools-builder could use -- only VFB files that require FontLab Studio (proprietary software) to open.
 
 An override config.yaml is **not feasible** for this family because the upstream sources are VFB files, not a format supported by gftools-builder.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/fondamento/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `9220531062`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

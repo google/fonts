@@ -49,3 +49,9 @@ The upstream repo contains only FontForge SFD sources (`src/Cambo-Regular-TTF.sf
 
 - The original designer (HT Fonts) may have source files in other formats (e.g., .glyphs) that are not publicly available.
 - No path to gftools-builder compatibility without source conversion from SFD/VFB format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/cambo/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `3b97d12b34`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

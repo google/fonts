@@ -79,3 +79,9 @@ source {
 - **Status**: `complete` (SFD-only sources)
 - **Confidence**: HIGH
 - **Rationale**: Single-commit archive repo with only SFD/VFB sources. The repo URL is valid, the commit hash is the only commit, and the source files match the font metadata. No config.yaml is possible or needed.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/felipa/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `3489dd2445`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

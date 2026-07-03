@@ -38,3 +38,9 @@ The source format is `.vfb` (FontLab Studio), which is NOT compatible with gftoo
 ## Conclusion
 
 The upstream repository is `https://github.com/librefonts/jollylodger` at commit `06a3c7f44fc01a8d09ed73ea8c180a11018bdac8`. However, the only sources available are `.vfb` (FontLab Studio) files, which are not gftools-builder compatible. No config.yaml is possible with these sources. A source block needs to be added to METADATA.pb but the status will remain `missing_config` until buildable sources become available.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/jollylodger/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `06a3c7f44f`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

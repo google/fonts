@@ -38,3 +38,9 @@ The source format is `.sfd` (FontForge) and `.vfb` (FontLab Studio), which are N
 ## Conclusion
 
 The upstream repository is `https://github.com/librefonts/jockeyone` at commit `71261c6f0c80fb7269df32e4aa396669a038030f`. However, the only sources available are `.sfd` (FontForge) and `.vfb` (FontLab Studio) files, which are not gftools-builder compatible. No config.yaml is possible with these sources. A source block needs to be added to METADATA.pb but the status will remain `missing_config` until buildable sources become available.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/jockeyone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `71261c6f0c`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

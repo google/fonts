@@ -57,3 +57,9 @@ Neither SFD nor VFB formats are compatible with gftools-builder. There are no `.
 ## Open Questions
 
 - None. This is a legacy font with SFD-only sources. It would require source conversion to a modern format (e.g., .glyphs or .ufo) before a config.yaml could be created.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/chelaone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `cb9b95fc05`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

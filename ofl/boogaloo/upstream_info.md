@@ -53,3 +53,9 @@ The METADATA.pb currently has no `source { }` block with `config_yaml` -- only a
 ## Open Questions
 
 1. Could the SFD source be converted to a modern format (UFO or Glyphs) to enable gftools-builder compilation in the future? This would require creating an override config.yaml in google/fonts.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/boogaloo/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `9837380f88`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

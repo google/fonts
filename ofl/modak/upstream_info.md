@@ -29,3 +29,9 @@ VFB-only editable source. The TTX file is an XML representation of the compiled 
 ### Actions Taken
 
 A source block was added to METADATA.pb pointing to commit `143b2db` (2015-02-25), which is the latest commit in the repository and was present at the time of the initial google/fonts commit.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/modak/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `143b2db4fd`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

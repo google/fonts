@@ -43,3 +43,9 @@ No override `config.yaml` exists in the google/fonts directory.
 ## Conclusion
 
 Junge has a librefonts mirror at `https://github.com/librefonts/junge` with commit `1753e7a229f48ac314ad3c54da9fcfb2d7946f75`. The librefonts mirror contains only TTX-decompiled OTF files — no gftools-builder compatible sources. No `config.yaml` can be created without first identifying original editable source files from Cyreal. Status: no_config_possible.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/junge/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `1753e7a229`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -60,3 +60,9 @@ VFB is the proprietary FontLab 5 binary format. It is **not compatible with gfto
 ## Confidence
 
 **MEDIUM**: The repository URL is confirmed as the only known upstream source for Cantora One. However, the upstream repo only contains v1.001 sources while google/fonts has v1.002 (from a direct HOTFIX). The source files are in VFB format, which is incompatible with gftools-builder, so no config.yaml can be created. The commit hash is the only commit in the repo and represents the pre-HOTFIX state. A complete rebuild from source would require converting the VFB files to an open format first.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/cantoraone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `45d202afe1`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

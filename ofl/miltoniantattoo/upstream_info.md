@@ -34,3 +34,9 @@ VFB-only editable sources (FontLab Studio proprietary format). No `.glyphs`, `.u
 ### Actions Taken
 
 A source block was added to METADATA.pb pointing to commit `95d180e` at impallari/Miltonian.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/miltoniantattoo/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `95d180e874`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

@@ -64,3 +64,9 @@ source {
 ### Status: no_config_possible
 
 The upstream repo only has SFD sources, which are not compatible with gftools-builder. A `config_yaml` field cannot be set. The source block can still document the repository URL and commit for provenance tracking.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/geo/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `0d2a51963d`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

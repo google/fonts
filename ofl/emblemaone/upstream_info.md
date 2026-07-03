@@ -69,3 +69,9 @@ The repository also contains TTX (XML) dumps of the compiled font tables, but th
 - The `librefonts` archive repo was created in October 2014 by hash3g.
 - The DESCRIPTION.en_us.html references the now-defunct Google Code (`code.google.com/p/googlefontdirectory/`) as the source location, indicating this font predates the move to GitHub.
 - To make this font rebuildable with gftools-builder, someone would need to convert the SFD or VFB sources to a modern format (`.glyphs` or `.ufo`).
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/emblemaone/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `65d5dad636`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

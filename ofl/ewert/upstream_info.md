@@ -89,3 +89,9 @@ No `config_yaml` field is needed because the sources are SFD-only (FontForge for
 - The librefonts organization was a community effort by hash3g to split the monolithic Google Font Directory into individual per-family repositories with CI integration.
 - The SFD and VFB sources are legacy formats. If this font were to be rebuilt, the sources would need to be converted to a gftools-compatible format (.glyphs, .ufo, or .designspace).
 - The font has not been updated since its original onboarding in 2012.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/ewert/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `21fa9ed203`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

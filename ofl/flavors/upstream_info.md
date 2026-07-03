@@ -89,3 +89,9 @@ This is correct. No `config_yaml` field is needed since there are no buildable s
 ## Conclusion
 
 Flavors is a display font by Font Diner (Dave 'Squid' Cohen). The upstream repository at `librefonts/flavors` is a mirror with VFB-only sources. The font cannot be rebuilt with gftools-builder. The source block with repository URL and commit hash is correct and complete for this family's capabilities. Status is `no_buildable_sources` -- the VFB format is proprietary and not supported by modern open-source font build tooling.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/flavors/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `494aad3c70`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

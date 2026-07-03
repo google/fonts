@@ -72,3 +72,9 @@ The `.travis.yml` in the repo uses the old `fontbakery-build.py` tool from 2014,
 **HIGH** for repository_url and commit_hash identification. The librefonts/durusans repo is clearly the archival source repository for this font, with matching metadata, license, and supporting files. There is only one commit, so the hash is unambiguous.
 
 **N/A** for config_yaml. The sources are in legacy formats (VFB/SFD) incompatible with gftools-builder. No config.yaml can be meaningfully created without first converting the sources to a modern format.
+
+## Update (2026-04-24) -- Legacy source documentation
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/durusans/` listing the legacy source files (`.sfd`/`.vfb`) present in the upstream repo at the pinned commit `2895eb6c98`. These formats are not yet supported by gftools-builder; the config serves as documentation for future compatibility work and to distinguish legacy-sourced families from families genuinely missing a build recipe.

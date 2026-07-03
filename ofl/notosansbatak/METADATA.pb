@@ -18,8 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/batak"
-  commit: "fc86bc4c723d242557799aef77634ef49033b28e"
-  archive_url: "https://github.com/notofonts/batak/releases/download/NotoSansBatak-v2.004/NotoSansBatak-v2.004.zip"
+  commit: "139c2a6c256d72c560f894569c799d6bf090ba72"
+  archive_url: "https://github.com/notofonts/batak/releases/download/NotoSansBatak-v2.005/NotoSansBatak-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

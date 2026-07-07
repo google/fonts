@@ -1,0 +1,4213 @@
+{
+  "superfamilies": {
+    "Alegreya": {
+      "prefix": "Alegreya",
+      "totalCount": 4,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Alegreya",
+          "Alegreya SC"
+        ],
+        "SANS_SERIF": [
+          "Alegreya Sans",
+          "Alegreya Sans SC"
+        ]
+      },
+      "superfamily": [
+        "Alegreya",
+        "Alegreya SC",
+        "Alegreya Sans",
+        "Alegreya Sans SC"
+      ]
+    },
+    "Alike": {
+      "prefix": "Alike",
+      "totalCount": 2,
+      "categories": [
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Alike",
+          "Alike Angular"
+        ]
+      },
+      "superfamily": [
+        "Alike",
+        "Alike Angular"
+      ]
+    },
+    "Allerta": {
+      "prefix": "Allerta",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Allerta",
+          "Allerta Stencil"
+        ]
+      },
+      "superfamily": [
+        "Allerta",
+        "Allerta Stencil"
+      ]
+    },
+    "Almendra": {
+      "prefix": "Almendra",
+      "totalCount": 3,
+      "categories": [
+        "DISPLAY",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Almendra",
+          "Almendra SC"
+        ],
+        "DISPLAY": [
+          "Almendra Display"
+        ]
+      },
+      "superfamily": [
+        "Almendra",
+        "Almendra Display",
+        "Almendra SC"
+      ]
+    },
+    "Alumni Sans": {
+      "prefix": "Alumni Sans",
+      "totalCount": 5,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Alumni Sans",
+          "Alumni Sans SC"
+        ],
+        "DISPLAY": [
+          "Alumni Sans Collegiate One",
+          "Alumni Sans Inline One",
+          "Alumni Sans Pinstripe"
+        ]
+      },
+      "superfamily": [
+        "Alumni Sans",
+        "Alumni Sans Collegiate One",
+        "Alumni Sans Inline One",
+        "Alumni Sans Pinstripe",
+        "Alumni Sans SC"
+      ]
+    },
+    "Amiri": {
+      "prefix": "Amiri",
+      "totalCount": 2,
+      "categories": [
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Amiri",
+          "Amiri Quran"
+        ]
+      },
+      "superfamily": [
+        "Amiri",
+        "Amiri Quran"
+      ]
+    },
+    "Ancizar Sans": {
+      "prefix": "Ancizar Sans",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Ancizar Sans"
+        ],
+        "SERIF": [
+          "Ancizar Serif"
+        ]
+      },
+      "superfamily": [
+        "Ancizar Sans",
+        "Ancizar Serif"
+      ]
+    },
+    "Antic": {
+      "prefix": "Antic",
+      "totalCount": 3,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Antic"
+        ],
+        "SERIF": [
+          "Antic Didone",
+          "Antic Slab"
+        ]
+      },
+      "superfamily": [
+        "Antic",
+        "Antic Didone",
+        "Antic Slab"
+      ]
+    },
+    "Arbutus": {
+      "prefix": "Arbutus",
+      "totalCount": 2,
+      "categories": [
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Arbutus",
+          "Arbutus Slab"
+        ]
+      },
+      "superfamily": [
+        "Arbutus",
+        "Arbutus Slab"
+      ]
+    },
+    "Atkinson Hyperlegible": {
+      "prefix": "Atkinson Hyperlegible",
+      "totalCount": 3,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Atkinson Hyperlegible",
+          "Atkinson Hyperlegible Next"
+        ],
+        "MONOSPACE": [
+          "Atkinson Hyperlegible Mono"
+        ]
+      },
+      "superfamily": [
+        "Atkinson Hyperlegible",
+        "Atkinson Hyperlegible Mono",
+        "Atkinson Hyperlegible Next"
+      ]
+    },
+    "Averia Libre": {
+      "prefix": "Averia Libre",
+      "totalCount": 4,
+      "categories": [
+        "DISPLAY"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Averia Gruesa Libre",
+          "Averia Libre",
+          "Averia Sans Libre",
+          "Averia Serif Libre"
+        ]
+      },
+      "superfamily": [
+        "Averia Gruesa Libre",
+        "Averia Libre",
+        "Averia Sans Libre",
+        "Averia Serif Libre"
+      ]
+    },
+    "B612": {
+      "prefix": "B612",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "B612"
+        ],
+        "MONOSPACE": [
+          "B612 Mono"
+        ]
+      },
+      "superfamily": [
+        "B612",
+        "B612 Mono"
+      ]
+    },
+    "BIZ UDGothic": {
+      "prefix": "BIZ UDGothic",
+      "totalCount": 4,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "BIZ UDGothic",
+          "BIZ UDPGothic"
+        ],
+        "SERIF": [
+          "BIZ UDMincho",
+          "BIZ UDPMincho"
+        ]
+      },
+      "superfamily": [
+        "BIZ UDGothic",
+        "BIZ UDMincho",
+        "BIZ UDPGothic",
+        "BIZ UDPMincho"
+      ]
+    },
+    "Big Shoulders": {
+      "prefix": "Big Shoulders",
+      "totalCount": 3,
+      "categories": [
+        "DISPLAY"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Big Shoulders",
+          "Big Shoulders Inline",
+          "Big Shoulders Stencil"
+        ]
+      },
+      "superfamily": [
+        "Big Shoulders",
+        "Big Shoulders Inline",
+        "Big Shoulders Stencil"
+      ]
+    },
+    "Bpmf Huninn": {
+      "prefix": "Bpmf Huninn",
+      "totalCount": 3,
+      "categories": [
+        "HANDWRITING",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Bpmf Huninn",
+          "Bpmf Zihi Kai Std"
+        ],
+        "HANDWRITING": [
+          "Bpmf Iansui"
+        ]
+      },
+      "superfamily": [
+        "Bpmf Huninn",
+        "Bpmf Iansui",
+        "Bpmf Zihi Kai Std"
+      ]
+    },
+    "Bungee": {
+      "prefix": "Bungee",
+      "totalCount": 8,
+      "categories": [
+        "DISPLAY"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Bungee",
+          "Bungee Color",
+          "Bungee Hairline",
+          "Bungee Inline",
+          "Bungee Outline",
+          "Bungee Shade",
+          "Bungee Spice",
+          "Bungee Tint"
+        ]
+      },
+      "superfamily": [
+        "Bungee",
+        "Bungee Color",
+        "Bungee Hairline",
+        "Bungee Inline",
+        "Bungee Outline",
+        "Bungee Shade",
+        "Bungee Spice",
+        "Bungee Tint"
+      ]
+    },
+    "Cabin": {
+      "prefix": "Cabin",
+      "totalCount": 3,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Cabin",
+          "Cabin Condensed"
+        ],
+        "DISPLAY": [
+          "Cabin Sketch"
+        ]
+      },
+      "superfamily": [
+        "Cabin",
+        "Cabin Condensed",
+        "Cabin Sketch"
+      ]
+    },
+    "Cascadia Code": {
+      "prefix": "Cascadia Code",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "Cascadia Code",
+          "Cascadia Mono"
+        ]
+      },
+      "superfamily": [
+        "Cascadia Code",
+        "Cascadia Mono"
+      ]
+    },
+    "Castoro": {
+      "prefix": "Castoro",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Castoro"
+        ],
+        "DISPLAY": [
+          "Castoro Titling"
+        ]
+      },
+      "superfamily": [
+        "Castoro",
+        "Castoro Titling"
+      ]
+    },
+    "Changa": {
+      "prefix": "Changa",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Changa"
+        ],
+        "DISPLAY": [
+          "Changa One"
+        ]
+      },
+      "superfamily": [
+        "Changa",
+        "Changa One"
+      ]
+    },
+    "Chiron Hei HK": {
+      "prefix": "Chiron Hei HK",
+      "totalCount": 3,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Chiron GoRound TC",
+          "Chiron Hei HK"
+        ],
+        "SERIF": [
+          "Chiron Sung HK"
+        ]
+      },
+      "superfamily": [
+        "Chiron GoRound TC",
+        "Chiron Hei HK",
+        "Chiron Sung HK"
+      ]
+    },
+    "Chivo": {
+      "prefix": "Chivo",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Chivo"
+        ],
+        "MONOSPACE": [
+          "Chivo Mono"
+        ]
+      },
+      "superfamily": [
+        "Chivo",
+        "Chivo Mono"
+      ]
+    },
+    "Cinzel": {
+      "prefix": "Cinzel",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Cinzel"
+        ],
+        "DISPLAY": [
+          "Cinzel Decorative"
+        ]
+      },
+      "superfamily": [
+        "Cinzel",
+        "Cinzel Decorative"
+      ]
+    },
+    "Cutive": {
+      "prefix": "Cutive",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Cutive"
+        ],
+        "MONOSPACE": [
+          "Cutive Mono"
+        ]
+      },
+      "superfamily": [
+        "Cutive",
+        "Cutive Mono"
+      ]
+    },
+    "DM Mono": {
+      "prefix": "DM Mono",
+      "totalCount": 4,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "DM Mono"
+        ],
+        "SANS_SERIF": [
+          "DM Sans"
+        ],
+        "SERIF": [
+          "DM Serif Display",
+          "DM Serif Text"
+        ]
+      },
+      "superfamily": [
+        "DM Mono",
+        "DM Sans",
+        "DM Serif Display",
+        "DM Serif Text"
+      ],
+      "referencedFonts": [
+        "Poppins",
+        "Source Serif 4"
+      ]
+    },
+    "Edu SA Hand": {
+      "prefix": "Edu SA Hand",
+      "totalCount": 17,
+      "categories": [
+        "HANDWRITING"
+      ],
+      "membersByCategory": {
+        "HANDWRITING": [
+          "Edu AU VIC WA NT Arrows",
+          "Edu AU VIC WA NT Dots",
+          "Edu AU VIC WA NT Guides",
+          "Edu AU VIC WA NT Hand",
+          "Edu AU VIC WA NT Pre",
+          "Edu Australia VIC WA NT Hand Dots",
+          "Edu NSW ACT Cursive",
+          "Edu NSW ACT Foundation",
+          "Edu NSW ACT Hand Pre",
+          "Edu QLD Beginner",
+          "Edu QLD Hand",
+          "Edu SA Beginner",
+          "Edu SA Hand",
+          "Edu TAS Beginner",
+          "Edu VIC WA NT Beginner",
+          "Edu VIC WA NT Hand",
+          "Edu VIC WA NT Hand Pre"
+        ]
+      },
+      "superfamily": [
+        "Edu AU VIC WA NT Arrows",
+        "Edu AU VIC WA NT Dots",
+        "Edu AU VIC WA NT Guides",
+        "Edu AU VIC WA NT Hand",
+        "Edu AU VIC WA NT Pre",
+        "Edu Australia VIC WA NT Hand Dots",
+        "Edu NSW ACT Cursive",
+        "Edu NSW ACT Foundation",
+        "Edu NSW ACT Hand Pre",
+        "Edu QLD Beginner",
+        "Edu QLD Hand",
+        "Edu SA Beginner",
+        "Edu SA Hand",
+        "Edu TAS Beginner",
+        "Edu VIC WA NT Beginner",
+        "Edu VIC WA NT Hand",
+        "Edu VIC WA NT Hand Pre"
+      ]
+    },
+    "Epunda Sans": {
+      "prefix": "Epunda Sans",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Epunda Sans"
+        ],
+        "SERIF": [
+          "Epunda Slab"
+        ]
+      },
+      "superfamily": [
+        "Epunda Sans",
+        "Epunda Slab"
+      ]
+    },
+    "Fascinate": {
+      "prefix": "Fascinate",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Fascinate",
+          "Fascinate Inline"
+        ]
+      },
+      "superfamily": [
+        "Fascinate",
+        "Fascinate Inline"
+      ]
+    },
+    "Fira Code": {
+      "prefix": "Fira Code",
+      "totalCount": 5,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "Fira Code",
+          "Fira Mono"
+        ],
+        "SANS_SERIF": [
+          "Fira Sans",
+          "Fira Sans Condensed",
+          "Fira Sans Extra Condensed"
+        ]
+      },
+      "superfamily": [
+        "Fira Code",
+        "Fira Mono",
+        "Fira Sans",
+        "Fira Sans Condensed",
+        "Fira Sans Extra Condensed"
+      ]
+    },
+    "Flow Block": {
+      "prefix": "Flow Block",
+      "totalCount": 3,
+      "categories": [
+        "DISPLAY"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Flow Block",
+          "Flow Circular",
+          "Flow Rounded"
+        ]
+      },
+      "superfamily": [
+        "Flow Block",
+        "Flow Circular",
+        "Flow Rounded"
+      ]
+    },
+    "Funnel Sans": {
+      "prefix": "Funnel Sans",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Funnel Display"
+        ],
+        "SANS_SERIF": [
+          "Funnel Sans"
+        ]
+      },
+      "superfamily": [
+        "Funnel Display",
+        "Funnel Sans"
+      ]
+    },
+    "Geist": {
+      "prefix": "Geist",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Geist"
+        ],
+        "MONOSPACE": [
+          "Geist Mono"
+        ]
+      },
+      "superfamily": [
+        "Geist",
+        "Geist Mono"
+      ]
+    },
+    "Google Sans": {
+      "prefix": "Google Sans",
+      "totalCount": 30,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Google Sans",
+          "Google Sans Arabic",
+          "Google Sans Display",
+          "Google Sans Flex",
+          "Google Sans Flex ExtraExpanded",
+          "Google Sans Flex Normal",
+          "Google Sans Flex Rounded",
+          "Google Sans Flex SemiRounded",
+          "Google Sans Flex SuperCondensed",
+          "Google Sans Flex Text",
+          "Google Sans Flex UltraCondensed",
+          "Google Sans Hong Kong",
+          "Google Sans Japanese",
+          "Google Sans Khmer Loopless",
+          "Google Sans Korean",
+          "Google Sans Lao Loopless",
+          "Google Sans Myanmar",
+          "Google Sans Persian",
+          "Google Sans Platform 37",
+          "Google Sans Platform G",
+          "Google Sans Simplified Chinese",
+          "Google Sans Text",
+          "Google Sans Text_old",
+          "Google Sans Thai Loopless",
+          "Google Sans Traditional Chinese",
+          "Google Sans Urdu",
+          "Google Sans V27",
+          "Google Sans_old"
+        ],
+        "MONOSPACE": [
+          "Google Sans Code",
+          "Google Sans Mono"
+        ]
+      },
+      "superfamily": [
+        "Google Sans",
+        "Google Sans Arabic",
+        "Google Sans Code",
+        "Google Sans Display",
+        "Google Sans Flex",
+        "Google Sans Flex ExtraExpanded",
+        "Google Sans Flex Normal",
+        "Google Sans Flex Rounded",
+        "Google Sans Flex SemiRounded",
+        "Google Sans Flex SuperCondensed",
+        "Google Sans Flex Text",
+        "Google Sans Flex UltraCondensed",
+        "Google Sans Hong Kong",
+        "Google Sans Japanese",
+        "Google Sans Khmer Loopless",
+        "Google Sans Korean",
+        "Google Sans Lao Loopless",
+        "Google Sans Mono",
+        "Google Sans Myanmar",
+        "Google Sans Persian",
+        "Google Sans Platform 37",
+        "Google Sans Platform G",
+        "Google Sans Simplified Chinese",
+        "Google Sans Text",
+        "Google Sans Text_old",
+        "Google Sans Thai Loopless",
+        "Google Sans Traditional Chinese",
+        "Google Sans Urdu",
+        "Google Sans V27",
+        "Google Sans_old"
+      ]
+    },
+    "Gowun Dodum": {
+      "prefix": "Gowun Dodum",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Gowun Batang"
+        ],
+        "SANS_SERIF": [
+          "Gowun Dodum"
+        ]
+      },
+      "superfamily": [
+        "Gowun Batang",
+        "Gowun Dodum"
+      ]
+    },
+    "Grenze": {
+      "prefix": "Grenze",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Grenze"
+        ],
+        "DISPLAY": [
+          "Grenze Gotisch"
+        ]
+      },
+      "superfamily": [
+        "Grenze",
+        "Grenze Gotisch"
+      ]
+    },
+    "Hedvig Letters Sans": {
+      "prefix": "Hedvig Letters Sans",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Hedvig Letters Sans"
+        ],
+        "SERIF": [
+          "Hedvig Letters Serif"
+        ]
+      },
+      "superfamily": [
+        "Hedvig Letters Sans",
+        "Hedvig Letters Serif"
+      ]
+    },
+    "IBM Plex Mono": {
+      "prefix": "IBM Plex Mono",
+      "totalCount": 11,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "IBM Plex Mono"
+        ],
+        "SANS_SERIF": [
+          "IBM Plex Sans",
+          "IBM Plex Sans Arabic",
+          "IBM Plex Sans Condensed",
+          "IBM Plex Sans Devanagari",
+          "IBM Plex Sans Hebrew",
+          "IBM Plex Sans JP",
+          "IBM Plex Sans KR",
+          "IBM Plex Sans Thai",
+          "IBM Plex Sans Thai Looped"
+        ],
+        "SERIF": [
+          "IBM Plex Serif"
+        ]
+      },
+      "superfamily": [
+        "IBM Plex Mono",
+        "IBM Plex Sans",
+        "IBM Plex Sans Arabic",
+        "IBM Plex Sans Condensed",
+        "IBM Plex Sans Devanagari",
+        "IBM Plex Sans Hebrew",
+        "IBM Plex Sans JP",
+        "IBM Plex Sans KR",
+        "IBM Plex Sans Thai",
+        "IBM Plex Sans Thai Looped",
+        "IBM Plex Serif"
+      ]
+    },
+    "Inria Sans": {
+      "prefix": "Inria Sans",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Inria Sans"
+        ],
+        "SERIF": [
+          "Inria Serif"
+        ]
+      },
+      "superfamily": [
+        "Inria Sans",
+        "Inria Serif"
+      ]
+    },
+    "Instrument Sans": {
+      "prefix": "Instrument Sans",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Instrument Sans"
+        ],
+        "SERIF": [
+          "Instrument Serif"
+        ]
+      },
+      "superfamily": [
+        "Instrument Sans",
+        "Instrument Serif"
+      ],
+      "referencedFonts": [
+        "Inspiration"
+      ]
+    },
+    "Iosevka Charon": {
+      "prefix": "Iosevka Charon",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "Iosevka Charon",
+          "Iosevka Charon Mono"
+        ]
+      },
+      "superfamily": [
+        "Iosevka Charon",
+        "Iosevka Charon Mono"
+      ]
+    },
+    "Jacques Francois": {
+      "prefix": "Jacques Francois",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Jacques Francois"
+        ],
+        "DISPLAY": [
+          "Jacques Francois Shadow"
+        ]
+      },
+      "superfamily": [
+        "Jacques Francois",
+        "Jacques Francois Shadow"
+      ]
+    },
+    "Josefin Sans": {
+      "prefix": "Josefin Sans",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Josefin Sans"
+        ],
+        "SERIF": [
+          "Josefin Slab"
+        ]
+      },
+      "superfamily": [
+        "Josefin Sans",
+        "Josefin Slab"
+      ]
+    },
+    "Kalnia": {
+      "prefix": "Kalnia",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Kalnia"
+        ],
+        "DISPLAY": [
+          "Kalnia Glaze"
+        ]
+      },
+      "superfamily": [
+        "Kalnia",
+        "Kalnia Glaze"
+      ]
+    },
+    "Kumar One": {
+      "prefix": "Kumar One",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Kumar One",
+          "Kumar One Outline"
+        ]
+      },
+      "superfamily": [
+        "Kumar One",
+        "Kumar One Outline"
+      ]
+    },
+    "LXGW WenKai TC": {
+      "prefix": "LXGW WenKai TC",
+      "totalCount": 2,
+      "categories": [
+        "HANDWRITING",
+        "MONOSPACE"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "LXGW WenKai Mono TC"
+        ],
+        "HANDWRITING": [
+          "LXGW WenKai TC"
+        ]
+      },
+      "superfamily": [
+        "LXGW WenKai Mono TC",
+        "LXGW WenKai TC"
+      ]
+    },
+    "Libertinus Math": {
+      "prefix": "Libertinus Math",
+      "totalCount": 6,
+      "categories": [
+        "DISPLAY",
+        "MONOSPACE",
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Libertinus Keyboard",
+          "Libertinus Math",
+          "Libertinus Serif Display"
+        ],
+        "MONOSPACE": [
+          "Libertinus Mono"
+        ],
+        "SANS_SERIF": [
+          "Libertinus Sans"
+        ],
+        "SERIF": [
+          "Libertinus Serif"
+        ]
+      },
+      "superfamily": [
+        "Libertinus Keyboard",
+        "Libertinus Math",
+        "Libertinus Mono",
+        "Libertinus Sans",
+        "Libertinus Serif",
+        "Libertinus Serif Display"
+      ]
+    },
+    "Libre Caslon Text": {
+      "prefix": "Libre Caslon Text",
+      "totalCount": 2,
+      "categories": [
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Libre Caslon Display",
+          "Libre Caslon Text"
+        ]
+      },
+      "superfamily": [
+        "Libre Caslon Display",
+        "Libre Caslon Text"
+      ]
+    },
+    "Londrina Solid": {
+      "prefix": "Londrina Solid",
+      "totalCount": 4,
+      "categories": [
+        "DISPLAY"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Londrina Outline",
+          "Londrina Shadow",
+          "Londrina Sketch",
+          "Londrina Solid"
+        ]
+      },
+      "superfamily": [
+        "Londrina Outline",
+        "Londrina Shadow",
+        "Londrina Sketch",
+        "Londrina Solid"
+      ]
+    },
+    "Luxurious Roman": {
+      "prefix": "Luxurious Roman",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "HANDWRITING"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Luxurious Roman"
+        ],
+        "HANDWRITING": [
+          "Luxurious Script"
+        ]
+      },
+      "superfamily": [
+        "Luxurious Roman",
+        "Luxurious Script"
+      ]
+    },
+    "Martel": {
+      "prefix": "Martel",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Martel"
+        ],
+        "SANS_SERIF": [
+          "Martel Sans"
+        ]
+      },
+      "superfamily": [
+        "Martel",
+        "Martel Sans"
+      ],
+      "referencedFonts": [
+        "Merriweather"
+      ]
+    },
+    "Material Icons": {
+      "prefix": "Material Icons",
+      "totalCount": 6,
+      "categories": [
+        "DISPLAY"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Material Icons",
+          "Material Icons Extended",
+          "Material Symbols",
+          "Material Symbols Outlined",
+          "Material Symbols Rounded",
+          "Material Symbols Sharp"
+        ]
+      },
+      "superfamily": [
+        "Material Icons",
+        "Material Icons Extended",
+        "Material Symbols",
+        "Material Symbols Outlined",
+        "Material Symbols Rounded",
+        "Material Symbols Sharp"
+      ]
+    },
+    "Merriweather": {
+      "prefix": "Merriweather",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Merriweather"
+        ],
+        "SANS_SERIF": [
+          "Merriweather Sans"
+        ]
+      },
+      "superfamily": [
+        "Merriweather",
+        "Merriweather Sans"
+      ]
+    },
+    "Momo Signature": {
+      "prefix": "Momo Signature",
+      "totalCount": 3,
+      "categories": [
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Momo Signature",
+          "Momo Trust Display",
+          "Momo Trust Sans"
+        ]
+      },
+      "superfamily": [
+        "Momo Signature",
+        "Momo Trust Display",
+        "Momo Trust Sans"
+      ]
+    },
+    "Nanum Gothic": {
+      "prefix": "Nanum Gothic",
+      "totalCount": 5,
+      "categories": [
+        "HANDWRITING",
+        "MONOSPACE",
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "HANDWRITING": [
+          "Nanum Brush Script",
+          "Nanum Pen Script"
+        ],
+        "SANS_SERIF": [
+          "Nanum Gothic"
+        ],
+        "MONOSPACE": [
+          "Nanum Gothic Coding"
+        ],
+        "SERIF": [
+          "Nanum Myeongjo"
+        ]
+      },
+      "superfamily": [
+        "Nanum Brush Script",
+        "Nanum Gothic",
+        "Nanum Gothic Coding",
+        "Nanum Myeongjo",
+        "Nanum Pen Script"
+      ]
+    },
+    "Noto Sans": {
+      "prefix": "Noto Sans",
+      "totalCount": 214,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Noto Color Emoji",
+          "Noto Emoji",
+          "Noto Kufi Arabic",
+          "Noto Music",
+          "Noto Sans",
+          "Noto Sans Adlam",
+          "Noto Sans Adlam Unjoined",
+          "Noto Sans Anatolian Hieroglyphs",
+          "Noto Sans Arabic",
+          "Noto Sans Armenian",
+          "Noto Sans Avestan",
+          "Noto Sans Balinese",
+          "Noto Sans Bamum",
+          "Noto Sans Bassa Vah",
+          "Noto Sans Batak",
+          "Noto Sans Bengali",
+          "Noto Sans Bhaiksuki",
+          "Noto Sans Brahmi",
+          "Noto Sans Buginese",
+          "Noto Sans Buhid",
+          "Noto Sans Canadian Aboriginal",
+          "Noto Sans Carian",
+          "Noto Sans Caucasian Albanian",
+          "Noto Sans Chakma",
+          "Noto Sans Cham",
+          "Noto Sans Cherokee",
+          "Noto Sans Chorasmian",
+          "Noto Sans Coptic",
+          "Noto Sans Cuneiform",
+          "Noto Sans Cypriot",
+          "Noto Sans Cypro Minoan",
+          "Noto Sans Deseret",
+          "Noto Sans Devanagari",
+          "Noto Sans Duployan",
+          "Noto Sans Egyptian Hieroglyphs",
+          "Noto Sans Elbasan",
+          "Noto Sans Elymaic",
+          "Noto Sans Ethiopic",
+          "Noto Sans Georgian",
+          "Noto Sans Glagolitic",
+          "Noto Sans Gothic",
+          "Noto Sans Grantha",
+          "Noto Sans Gujarati",
+          "Noto Sans Gunjala Gondi",
+          "Noto Sans Gurmukhi",
+          "Noto Sans HK",
+          "Noto Sans Hanifi Rohingya",
+          "Noto Sans Hanunoo",
+          "Noto Sans Hatran",
+          "Noto Sans Hebrew",
+          "Noto Sans Imperial Aramaic",
+          "Noto Sans Indic Siyaq Numbers",
+          "Noto Sans Inscriptional Pahlavi",
+          "Noto Sans Inscriptional Parthian",
+          "Noto Sans JP",
+          "Noto Sans Javanese",
+          "Noto Sans KR",
+          "Noto Sans Kaithi",
+          "Noto Sans Kannada",
+          "Noto Sans Kawi",
+          "Noto Sans Kayah Li",
+          "Noto Sans Kharoshthi",
+          "Noto Sans Khmer",
+          "Noto Sans Khojki",
+          "Noto Sans Khudawadi",
+          "Noto Sans Lao",
+          "Noto Sans Lao Looped",
+          "Noto Sans Lepcha",
+          "Noto Sans Limbu",
+          "Noto Sans Linear A",
+          "Noto Sans Linear B",
+          "Noto Sans Lisu",
+          "Noto Sans Lycian",
+          "Noto Sans Lydian",
+          "Noto Sans Mahajani",
+          "Noto Sans Malayalam",
+          "Noto Sans Mandaic",
+          "Noto Sans Manichaean",
+          "Noto Sans Marchen",
+          "Noto Sans Masaram Gondi",
+          "Noto Sans Math",
+          "Noto Sans Mayan Numerals",
+          "Noto Sans Medefaidrin",
+          "Noto Sans Meetei Mayek",
+          "Noto Sans Mende Kikakui",
+          "Noto Sans Meroitic",
+          "Noto Sans Miao",
+          "Noto Sans Modi",
+          "Noto Sans Mongolian",
+          "Noto Sans Mono",
+          "Noto Sans Mro",
+          "Noto Sans Multani",
+          "Noto Sans Myanmar",
+          "Noto Sans NKo",
+          "Noto Sans NKo Unjoined",
+          "Noto Sans Nabataean",
+          "Noto Sans Nag Mundari",
+          "Noto Sans Nandinagari",
+          "Noto Sans New Tai Lue",
+          "Noto Sans Newa",
+          "Noto Sans Nushu",
+          "Noto Sans Ogham",
+          "Noto Sans Ol Chiki",
+          "Noto Sans Old Hungarian",
+          "Noto Sans Old Italic",
+          "Noto Sans Old North Arabian",
+          "Noto Sans Old Permic",
+          "Noto Sans Old Persian",
+          "Noto Sans Old Sogdian",
+          "Noto Sans Old South Arabian",
+          "Noto Sans Old Turkic",
+          "Noto Sans Oriya",
+          "Noto Sans Osage",
+          "Noto Sans Osmanya",
+          "Noto Sans Pahawh Hmong",
+          "Noto Sans Palmyrene",
+          "Noto Sans Pau Cin Hau",
+          "Noto Sans Phoenician",
+          "Noto Sans Psalter Pahlavi",
+          "Noto Sans Rejang",
+          "Noto Sans Runic",
+          "Noto Sans SC",
+          "Noto Sans Samaritan",
+          "Noto Sans Saurashtra",
+          "Noto Sans Sharada",
+          "Noto Sans Shavian",
+          "Noto Sans Siddham",
+          "Noto Sans SignWriting",
+          "Noto Sans Sinhala",
+          "Noto Sans Sogdian",
+          "Noto Sans Sora Sompeng",
+          "Noto Sans Soyombo",
+          "Noto Sans Sundanese",
+          "Noto Sans Sunuwar",
+          "Noto Sans Syloti Nagri",
+          "Noto Sans Symbols",
+          "Noto Sans Symbols 2",
+          "Noto Sans Syriac",
+          "Noto Sans Syriac Eastern",
+          "Noto Sans Syriac Western",
+          "Noto Sans TC",
+          "Noto Sans Tagalog",
+          "Noto Sans Tagbanwa",
+          "Noto Sans Tai Le",
+          "Noto Sans Tai Tham",
+          "Noto Sans Tai Viet",
+          "Noto Sans Takri",
+          "Noto Sans Tamil",
+          "Noto Sans Tamil Supplement",
+          "Noto Sans Tangsa",
+          "Noto Sans Telugu",
+          "Noto Sans Thaana",
+          "Noto Sans Thai",
+          "Noto Sans Thai Looped",
+          "Noto Sans Tifinagh",
+          "Noto Sans Tirhuta",
+          "Noto Sans Ugaritic",
+          "Noto Sans Vai",
+          "Noto Sans Vithkuqi",
+          "Noto Sans Wancho",
+          "Noto Sans Warang Citi",
+          "Noto Sans Yi",
+          "Noto Sans Zanabazar Square",
+          "Noto Traditional Nushu",
+          "Noto Znamenny Musical Notation"
+        ],
+        "DISPLAY": [
+          "Noto Emoji Color",
+          "Noto Sans Display",
+          "Noto Serif Display"
+        ],
+        "SERIF": [
+          "Noto Naskh Arabic",
+          "Noto Nastaliq Urdu",
+          "Noto Rashi Hebrew",
+          "Noto Serif",
+          "Noto Serif Ahom",
+          "Noto Serif Armenian",
+          "Noto Serif Balinese",
+          "Noto Serif Bengali",
+          "Noto Serif Devanagari",
+          "Noto Serif Dives Akuru",
+          "Noto Serif Dogra",
+          "Noto Serif Ethiopic",
+          "Noto Serif Georgian",
+          "Noto Serif Grantha",
+          "Noto Serif Gujarati",
+          "Noto Serif Gurmukhi",
+          "Noto Serif HK",
+          "Noto Serif Hebrew",
+          "Noto Serif Hentaigana",
+          "Noto Serif JP",
+          "Noto Serif KR",
+          "Noto Serif Kannada",
+          "Noto Serif Khitan Small Script",
+          "Noto Serif Khmer",
+          "Noto Serif Khojki",
+          "Noto Serif Lao",
+          "Noto Serif Makasar",
+          "Noto Serif Malayalam",
+          "Noto Serif Myanmar",
+          "Noto Serif NP Hmong",
+          "Noto Serif Nyiakeng Puachue Hmong",
+          "Noto Serif Old Uyghur",
+          "Noto Serif Oriya",
+          "Noto Serif Ottoman Siyaq",
+          "Noto Serif SC",
+          "Noto Serif Sinhala",
+          "Noto Serif TC",
+          "Noto Serif Tamil",
+          "Noto Serif Tangut",
+          "Noto Serif Telugu",
+          "Noto Serif Thai",
+          "Noto Serif Tibetan",
+          "Noto Serif Todhri",
+          "Noto Serif Toto",
+          "Noto Serif Vithkuqi",
+          "Noto Serif Yezidi"
+        ]
+      },
+      "superfamily": [
+        "Noto Color Emoji",
+        "Noto Emoji",
+        "Noto Emoji Color",
+        "Noto Kufi Arabic",
+        "Noto Music",
+        "Noto Naskh Arabic",
+        "Noto Nastaliq Urdu",
+        "Noto Rashi Hebrew",
+        "Noto Sans",
+        "Noto Sans Adlam",
+        "Noto Sans Adlam Unjoined",
+        "Noto Sans Anatolian Hieroglyphs",
+        "Noto Sans Arabic",
+        "Noto Sans Armenian",
+        "Noto Sans Avestan",
+        "Noto Sans Balinese",
+        "Noto Sans Bamum",
+        "Noto Sans Bassa Vah",
+        "Noto Sans Batak",
+        "Noto Sans Bengali",
+        "Noto Sans Bhaiksuki",
+        "Noto Sans Brahmi",
+        "Noto Sans Buginese",
+        "Noto Sans Buhid",
+        "Noto Sans Canadian Aboriginal",
+        "Noto Sans Carian",
+        "Noto Sans Caucasian Albanian",
+        "Noto Sans Chakma",
+        "Noto Sans Cham",
+        "Noto Sans Cherokee",
+        "Noto Sans Chorasmian",
+        "Noto Sans Coptic",
+        "Noto Sans Cuneiform",
+        "Noto Sans Cypriot",
+        "Noto Sans Cypro Minoan",
+        "Noto Sans Deseret",
+        "Noto Sans Devanagari",
+        "Noto Sans Display",
+        "Noto Sans Duployan",
+        "Noto Sans Egyptian Hieroglyphs",
+        "Noto Sans Elbasan",
+        "Noto Sans Elymaic",
+        "Noto Sans Ethiopic",
+        "Noto Sans Georgian",
+        "Noto Sans Glagolitic",
+        "Noto Sans Gothic",
+        "Noto Sans Grantha",
+        "Noto Sans Gujarati",
+        "Noto Sans Gunjala Gondi",
+        "Noto Sans Gurmukhi",
+        "Noto Sans HK",
+        "Noto Sans Hanifi Rohingya",
+        "Noto Sans Hanunoo",
+        "Noto Sans Hatran",
+        "Noto Sans Hebrew",
+        "Noto Sans Imperial Aramaic",
+        "Noto Sans Indic Siyaq Numbers",
+        "Noto Sans Inscriptional Pahlavi",
+        "Noto Sans Inscriptional Parthian",
+        "Noto Sans JP",
+        "Noto Sans Javanese",
+        "Noto Sans KR",
+        "Noto Sans Kaithi",
+        "Noto Sans Kannada",
+        "Noto Sans Kawi",
+        "Noto Sans Kayah Li",
+        "Noto Sans Kharoshthi",
+        "Noto Sans Khmer",
+        "Noto Sans Khojki",
+        "Noto Sans Khudawadi",
+        "Noto Sans Lao",
+        "Noto Sans Lao Looped",
+        "Noto Sans Lepcha",
+        "Noto Sans Limbu",
+        "Noto Sans Linear A",
+        "Noto Sans Linear B",
+        "Noto Sans Lisu",
+        "Noto Sans Lycian",
+        "Noto Sans Lydian",
+        "Noto Sans Mahajani",
+        "Noto Sans Malayalam",
+        "Noto Sans Mandaic",
+        "Noto Sans Manichaean",
+        "Noto Sans Marchen",
+        "Noto Sans Masaram Gondi",
+        "Noto Sans Math",
+        "Noto Sans Mayan Numerals",
+        "Noto Sans Medefaidrin",
+        "Noto Sans Meetei Mayek",
+        "Noto Sans Mende Kikakui",
+        "Noto Sans Meroitic",
+        "Noto Sans Miao",
+        "Noto Sans Modi",
+        "Noto Sans Mongolian",
+        "Noto Sans Mono",
+        "Noto Sans Mro",
+        "Noto Sans Multani",
+        "Noto Sans Myanmar",
+        "Noto Sans NKo",
+        "Noto Sans NKo Unjoined",
+        "Noto Sans Nabataean",
+        "Noto Sans Nag Mundari",
+        "Noto Sans Nandinagari",
+        "Noto Sans New Tai Lue",
+        "Noto Sans Newa",
+        "Noto Sans Nushu",
+        "Noto Sans Ogham",
+        "Noto Sans Ol Chiki",
+        "Noto Sans Old Hungarian",
+        "Noto Sans Old Italic",
+        "Noto Sans Old North Arabian",
+        "Noto Sans Old Permic",
+        "Noto Sans Old Persian",
+        "Noto Sans Old Sogdian",
+        "Noto Sans Old South Arabian",
+        "Noto Sans Old Turkic",
+        "Noto Sans Oriya",
+        "Noto Sans Osage",
+        "Noto Sans Osmanya",
+        "Noto Sans Pahawh Hmong",
+        "Noto Sans Palmyrene",
+        "Noto Sans Pau Cin Hau",
+        "Noto Sans Phoenician",
+        "Noto Sans Psalter Pahlavi",
+        "Noto Sans Rejang",
+        "Noto Sans Runic",
+        "Noto Sans SC",
+        "Noto Sans Samaritan",
+        "Noto Sans Saurashtra",
+        "Noto Sans Sharada",
+        "Noto Sans Shavian",
+        "Noto Sans Siddham",
+        "Noto Sans SignWriting",
+        "Noto Sans Sinhala",
+        "Noto Sans Sogdian",
+        "Noto Sans Sora Sompeng",
+        "Noto Sans Soyombo",
+        "Noto Sans Sundanese",
+        "Noto Sans Sunuwar",
+        "Noto Sans Syloti Nagri",
+        "Noto Sans Symbols",
+        "Noto Sans Symbols 2",
+        "Noto Sans Syriac",
+        "Noto Sans Syriac Eastern",
+        "Noto Sans Syriac Western",
+        "Noto Sans TC",
+        "Noto Sans Tagalog",
+        "Noto Sans Tagbanwa",
+        "Noto Sans Tai Le",
+        "Noto Sans Tai Tham",
+        "Noto Sans Tai Viet",
+        "Noto Sans Takri",
+        "Noto Sans Tamil",
+        "Noto Sans Tamil Supplement",
+        "Noto Sans Tangsa",
+        "Noto Sans Telugu",
+        "Noto Sans Thaana",
+        "Noto Sans Thai",
+        "Noto Sans Thai Looped",
+        "Noto Sans Tifinagh",
+        "Noto Sans Tirhuta",
+        "Noto Sans Ugaritic",
+        "Noto Sans Vai",
+        "Noto Sans Vithkuqi",
+        "Noto Sans Wancho",
+        "Noto Sans Warang Citi",
+        "Noto Sans Yi",
+        "Noto Sans Zanabazar Square",
+        "Noto Serif",
+        "Noto Serif Ahom",
+        "Noto Serif Armenian",
+        "Noto Serif Balinese",
+        "Noto Serif Bengali",
+        "Noto Serif Devanagari",
+        "Noto Serif Display",
+        "Noto Serif Dives Akuru",
+        "Noto Serif Dogra",
+        "Noto Serif Ethiopic",
+        "Noto Serif Georgian",
+        "Noto Serif Grantha",
+        "Noto Serif Gujarati",
+        "Noto Serif Gurmukhi",
+        "Noto Serif HK",
+        "Noto Serif Hebrew",
+        "Noto Serif Hentaigana",
+        "Noto Serif JP",
+        "Noto Serif KR",
+        "Noto Serif Kannada",
+        "Noto Serif Khitan Small Script",
+        "Noto Serif Khmer",
+        "Noto Serif Khojki",
+        "Noto Serif Lao",
+        "Noto Serif Makasar",
+        "Noto Serif Malayalam",
+        "Noto Serif Myanmar",
+        "Noto Serif NP Hmong",
+        "Noto Serif Nyiakeng Puachue Hmong",
+        "Noto Serif Old Uyghur",
+        "Noto Serif Oriya",
+        "Noto Serif Ottoman Siyaq",
+        "Noto Serif SC",
+        "Noto Serif Sinhala",
+        "Noto Serif TC",
+        "Noto Serif Tamil",
+        "Noto Serif Tangut",
+        "Noto Serif Telugu",
+        "Noto Serif Thai",
+        "Noto Serif Tibetan",
+        "Noto Serif Todhri",
+        "Noto Serif Toto",
+        "Noto Serif Vithkuqi",
+        "Noto Serif Yezidi",
+        "Noto Traditional Nushu",
+        "Noto Znamenny Musical Notation"
+      ]
+    },
+    "Nova Cut": {
+      "prefix": "Nova Cut",
+      "totalCount": 8,
+      "categories": [
+        "DISPLAY",
+        "MONOSPACE"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Nova Cut",
+          "Nova Flat",
+          "Nova Oval",
+          "Nova Round",
+          "Nova Script",
+          "Nova Slim",
+          "Nova Square"
+        ],
+        "MONOSPACE": [
+          "Nova Mono"
+        ]
+      },
+      "superfamily": [
+        "Nova Cut",
+        "Nova Flat",
+        "Nova Mono",
+        "Nova Oval",
+        "Nova Round",
+        "Nova Script",
+        "Nova Slim",
+        "Nova Square"
+      ]
+    },
+    "Nunito": {
+      "prefix": "Nunito",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Nunito",
+          "Nunito Sans"
+        ]
+      },
+      "superfamily": [
+        "Nunito",
+        "Nunito Sans"
+      ]
+    },
+    "Overpass": {
+      "prefix": "Overpass",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Overpass"
+        ],
+        "MONOSPACE": [
+          "Overpass Mono"
+        ]
+      },
+      "superfamily": [
+        "Overpass",
+        "Overpass Mono"
+      ]
+    },
+    "Oxygen": {
+      "prefix": "Oxygen",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Oxygen"
+        ],
+        "MONOSPACE": [
+          "Oxygen Mono"
+        ]
+      },
+      "superfamily": [
+        "Oxygen",
+        "Oxygen Mono"
+      ]
+    },
+    "PT Mono": {
+      "prefix": "PT Mono",
+      "totalCount": 6,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "PT Mono"
+        ],
+        "SANS_SERIF": [
+          "PT Sans",
+          "PT Sans Caption",
+          "PT Sans Narrow"
+        ],
+        "SERIF": [
+          "PT Serif",
+          "PT Serif Caption"
+        ]
+      },
+      "superfamily": [
+        "PT Mono",
+        "PT Sans",
+        "PT Sans Caption",
+        "PT Sans Narrow",
+        "PT Serif",
+        "PT Serif Caption"
+      ]
+    },
+    "Pathway Extreme": {
+      "prefix": "Pathway Extreme",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Pathway Extreme"
+        ],
+        "SANS_SERIF": [
+          "Pathway Gothic One"
+        ]
+      },
+      "superfamily": [
+        "Pathway Extreme",
+        "Pathway Gothic One"
+      ]
+    },
+    "Playfair": {
+      "prefix": "Playfair",
+      "totalCount": 3,
+      "categories": [
+        "DISPLAY",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Playfair"
+        ],
+        "SERIF": [
+          "Playfair Display",
+          "Playfair Display SC"
+        ]
+      },
+      "superfamily": [
+        "Playfair",
+        "Playfair Display",
+        "Playfair Display SC"
+      ],
+      "referencedFonts": [
+        "Gelasio"
+      ]
+    },
+    "Port Lligat Sans": {
+      "prefix": "Port Lligat Sans",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Port Lligat Sans"
+        ],
+        "SERIF": [
+          "Port Lligat Slab"
+        ]
+      },
+      "superfamily": [
+        "Port Lligat Sans",
+        "Port Lligat Slab"
+      ]
+    },
+    "Quattrocento": {
+      "prefix": "Quattrocento",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Quattrocento"
+        ],
+        "SANS_SERIF": [
+          "Quattrocento Sans"
+        ]
+      },
+      "superfamily": [
+        "Quattrocento",
+        "Quattrocento Sans"
+      ]
+    },
+    "Raleway": {
+      "prefix": "Raleway",
+      "totalCount": 2,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Raleway"
+        ],
+        "DISPLAY": [
+          "Raleway Dots"
+        ]
+      },
+      "superfamily": [
+        "Raleway",
+        "Raleway Dots"
+      ]
+    },
+    "Red Hat Mono": {
+      "prefix": "Red Hat Mono",
+      "totalCount": 3,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Red Hat Display",
+          "Red Hat Text"
+        ],
+        "MONOSPACE": [
+          "Red Hat Mono"
+        ]
+      },
+      "superfamily": [
+        "Red Hat Display",
+        "Red Hat Mono",
+        "Red Hat Text"
+      ]
+    },
+    "Reddit Mono": {
+      "prefix": "Reddit Mono",
+      "totalCount": 3,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "Reddit Mono"
+        ],
+        "SANS_SERIF": [
+          "Reddit Sans",
+          "Reddit Sans Condensed"
+        ]
+      },
+      "superfamily": [
+        "Reddit Mono",
+        "Reddit Sans",
+        "Reddit Sans Condensed"
+      ]
+    },
+    "Roboto": {
+      "prefix": "Roboto",
+      "totalCount": 6,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Roboto",
+          "Roboto Condensed",
+          "Roboto Flex"
+        ],
+        "MONOSPACE": [
+          "Roboto Mono"
+        ],
+        "SERIF": [
+          "Roboto Serif",
+          "Roboto Slab"
+        ]
+      },
+      "superfamily": [
+        "Roboto",
+        "Roboto Condensed",
+        "Roboto Flex",
+        "Roboto Mono",
+        "Roboto Serif",
+        "Roboto Slab"
+      ]
+    },
+    "Rubik": {
+      "prefix": "Rubik",
+      "totalCount": 29,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Rubik",
+          "Rubik Mono One",
+          "Rubik One"
+        ],
+        "DISPLAY": [
+          "Rubik 80s Fade",
+          "Rubik Beastly",
+          "Rubik Broken Fax",
+          "Rubik Bubbles",
+          "Rubik Burned",
+          "Rubik Dirt",
+          "Rubik Distressed",
+          "Rubik Doodle Shadow",
+          "Rubik Doodle Triangles",
+          "Rubik Gemstones",
+          "Rubik Glitch",
+          "Rubik Glitch Pop",
+          "Rubik Iso",
+          "Rubik Lines",
+          "Rubik Maps",
+          "Rubik Marker Hatch",
+          "Rubik Maze",
+          "Rubik Microbe",
+          "Rubik Moonrocks",
+          "Rubik Pixels",
+          "Rubik Puddles",
+          "Rubik Scribble",
+          "Rubik Spray Paint",
+          "Rubik Storm",
+          "Rubik Vinyl",
+          "Rubik Wet Paint"
+        ]
+      },
+      "superfamily": [
+        "Rubik",
+        "Rubik 80s Fade",
+        "Rubik Beastly",
+        "Rubik Broken Fax",
+        "Rubik Bubbles",
+        "Rubik Burned",
+        "Rubik Dirt",
+        "Rubik Distressed",
+        "Rubik Doodle Shadow",
+        "Rubik Doodle Triangles",
+        "Rubik Gemstones",
+        "Rubik Glitch",
+        "Rubik Glitch Pop",
+        "Rubik Iso",
+        "Rubik Lines",
+        "Rubik Maps",
+        "Rubik Marker Hatch",
+        "Rubik Maze",
+        "Rubik Microbe",
+        "Rubik Mono One",
+        "Rubik Moonrocks",
+        "Rubik One",
+        "Rubik Pixels",
+        "Rubik Puddles",
+        "Rubik Scribble",
+        "Rubik Spray Paint",
+        "Rubik Storm",
+        "Rubik Vinyl",
+        "Rubik Wet Paint"
+      ]
+    },
+    "SUSE": {
+      "prefix": "SUSE",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "SUSE"
+        ],
+        "MONOSPACE": [
+          "SUSE Mono"
+        ]
+      },
+      "superfamily": [
+        "SUSE",
+        "SUSE Mono"
+      ]
+    },
+    "Saira": {
+      "prefix": "Saira",
+      "totalCount": 6,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Saira",
+          "Saira Condensed",
+          "Saira Extra Condensed",
+          "Saira Semi Condensed"
+        ],
+        "DISPLAY": [
+          "Saira Stencil",
+          "Saira Stencil One"
+        ]
+      },
+      "superfamily": [
+        "Saira",
+        "Saira Condensed",
+        "Saira Extra Condensed",
+        "Saira Semi Condensed",
+        "Saira Stencil",
+        "Saira Stencil One"
+      ]
+    },
+    "Sansita": {
+      "prefix": "Sansita",
+      "totalCount": 3,
+      "categories": [
+        "DISPLAY",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Sansita"
+        ],
+        "DISPLAY": [
+          "Sansita One",
+          "Sansita Swashed"
+        ]
+      },
+      "superfamily": [
+        "Sansita",
+        "Sansita One",
+        "Sansita Swashed"
+      ]
+    },
+    "Sawarabi Gothic": {
+      "prefix": "Sawarabi Gothic",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Sawarabi Gothic"
+        ],
+        "SERIF": [
+          "Sawarabi Mincho"
+        ]
+      },
+      "superfamily": [
+        "Sawarabi Gothic",
+        "Sawarabi Mincho"
+      ]
+    },
+    "Sedgwick Ave": {
+      "prefix": "Sedgwick Ave",
+      "totalCount": 2,
+      "categories": [
+        "HANDWRITING"
+      ],
+      "membersByCategory": {
+        "HANDWRITING": [
+          "Sedgwick Ave",
+          "Sedgwick Ave Display"
+        ]
+      },
+      "superfamily": [
+        "Sedgwick Ave",
+        "Sedgwick Ave Display"
+      ]
+    },
+    "Share": {
+      "prefix": "Share",
+      "totalCount": 3,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Share",
+          "Share Tech"
+        ],
+        "MONOSPACE": [
+          "Share Tech Mono"
+        ]
+      },
+      "superfamily": [
+        "Share",
+        "Share Tech",
+        "Share Tech Mono"
+      ]
+    },
+    "Shippori Mincho": {
+      "prefix": "Shippori Mincho",
+      "totalCount": 4,
+      "categories": [
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Shippori Antique",
+          "Shippori Antique B1"
+        ],
+        "SERIF": [
+          "Shippori Mincho",
+          "Shippori Mincho B1"
+        ]
+      },
+      "superfamily": [
+        "Shippori Antique",
+        "Shippori Antique B1",
+        "Shippori Mincho",
+        "Shippori Mincho B1"
+      ]
+    },
+    "Slabo 13px": {
+      "prefix": "Slabo 13px",
+      "totalCount": 2,
+      "categories": [
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Slabo 13px",
+          "Slabo 27px"
+        ]
+      },
+      "superfamily": [
+        "Slabo 13px",
+        "Slabo 27px"
+      ]
+    },
+    "Smooch": {
+      "prefix": "Smooch",
+      "totalCount": 2,
+      "categories": [
+        "HANDWRITING",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "HANDWRITING": [
+          "Smooch"
+        ],
+        "SANS_SERIF": [
+          "Smooch Sans"
+        ]
+      },
+      "superfamily": [
+        "Smooch",
+        "Smooch Sans"
+      ]
+    },
+    "Sofia": {
+      "prefix": "Sofia",
+      "totalCount": 5,
+      "categories": [
+        "HANDWRITING",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "HANDWRITING": [
+          "Sofia"
+        ],
+        "SANS_SERIF": [
+          "Sofia Sans",
+          "Sofia Sans Condensed",
+          "Sofia Sans Extra Condensed",
+          "Sofia Sans Semi Condensed"
+        ]
+      },
+      "superfamily": [
+        "Sofia",
+        "Sofia Sans",
+        "Sofia Sans Condensed",
+        "Sofia Sans Extra Condensed",
+        "Sofia Sans Semi Condensed"
+      ]
+    },
+    "Source Sans 3": {
+      "prefix": "Source Sans 3",
+      "totalCount": 3,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "MONOSPACE": [
+          "Source Code Pro"
+        ],
+        "SANS_SERIF": [
+          "Source Sans 3"
+        ],
+        "SERIF": [
+          "Source Serif 4"
+        ]
+      },
+      "superfamily": [
+        "Source Code Pro",
+        "Source Sans 3",
+        "Source Serif 4"
+      ]
+    },
+    "Space Mono": {
+      "prefix": "Space Mono",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Space Grotesk"
+        ],
+        "MONOSPACE": [
+          "Space Mono"
+        ]
+      },
+      "superfamily": [
+        "Space Grotesk",
+        "Space Mono"
+      ]
+    },
+    "Spline Sans": {
+      "prefix": "Spline Sans",
+      "totalCount": 2,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Spline Sans"
+        ],
+        "MONOSPACE": [
+          "Spline Sans Mono"
+        ]
+      },
+      "superfamily": [
+        "Spline Sans",
+        "Spline Sans Mono"
+      ]
+    },
+    "Stack Sans Text": {
+      "prefix": "Stack Sans Text",
+      "totalCount": 3,
+      "categories": [
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Stack Sans Headline",
+          "Stack Sans Notch",
+          "Stack Sans Text"
+        ]
+      },
+      "superfamily": [
+        "Stack Sans Headline",
+        "Stack Sans Notch",
+        "Stack Sans Text"
+      ]
+    },
+    "Stint Ultra Expanded": {
+      "prefix": "Stint Ultra Expanded",
+      "totalCount": 2,
+      "categories": [
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Stint Ultra Condensed",
+          "Stint Ultra Expanded"
+        ]
+      },
+      "superfamily": [
+        "Stint Ultra Condensed",
+        "Stint Ultra Expanded"
+      ],
+      "referencedFonts": [
+        "Syncopate"
+      ]
+    },
+    "Syne": {
+      "prefix": "Syne",
+      "totalCount": 3,
+      "categories": [
+        "DISPLAY",
+        "MONOSPACE"
+      ],
+      "membersByCategory": {
+        "DISPLAY": [
+          "Syne",
+          "Syne Tactile"
+        ],
+        "MONOSPACE": [
+          "Syne Mono"
+        ]
+      },
+      "superfamily": [
+        "Syne",
+        "Syne Mono",
+        "Syne Tactile"
+      ]
+    },
+    "Tiro Tamil": {
+      "prefix": "Tiro Tamil",
+      "totalCount": 8,
+      "categories": [
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Tiro Bangla",
+          "Tiro Devanagari Hindi",
+          "Tiro Devanagari Marathi",
+          "Tiro Devanagari Sanskrit",
+          "Tiro Gurmukhi",
+          "Tiro Kannada",
+          "Tiro Tamil",
+          "Tiro Telugu"
+        ]
+      },
+      "superfamily": [
+        "Tiro Bangla",
+        "Tiro Devanagari Hindi",
+        "Tiro Devanagari Marathi",
+        "Tiro Devanagari Sanskrit",
+        "Tiro Gurmukhi",
+        "Tiro Kannada",
+        "Tiro Tamil",
+        "Tiro Telugu"
+      ]
+    },
+    "Ubuntu": {
+      "prefix": "Ubuntu",
+      "totalCount": 5,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Ubuntu",
+          "Ubuntu Condensed",
+          "Ubuntu Sans"
+        ],
+        "MONOSPACE": [
+          "Ubuntu Mono",
+          "Ubuntu Sans Mono"
+        ]
+      },
+      "superfamily": [
+        "Ubuntu",
+        "Ubuntu Condensed",
+        "Ubuntu Mono",
+        "Ubuntu Sans",
+        "Ubuntu Sans Mono"
+      ]
+    },
+    "Wix Madefor Text": {
+      "prefix": "Wix Madefor Text",
+      "totalCount": 2,
+      "categories": [
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "Wix Madefor Display",
+          "Wix Madefor Text"
+        ]
+      },
+      "superfamily": [
+        "Wix Madefor Display",
+        "Wix Madefor Text"
+      ]
+    },
+    "YouTube Sans": {
+      "prefix": "YouTube Sans",
+      "totalCount": 5,
+      "categories": [
+        "MONOSPACE",
+        "SANS_SERIF"
+      ],
+      "membersByCategory": {
+        "SANS_SERIF": [
+          "YouTube Rounded",
+          "YouTube Sans",
+          "YouTube Sans Italic",
+          "YouTube Sans Japanese"
+        ],
+        "MONOSPACE": [
+          "YouTube Sans Mono"
+        ]
+      },
+      "superfamily": [
+        "YouTube Rounded",
+        "YouTube Sans",
+        "YouTube Sans Italic",
+        "YouTube Sans Japanese",
+        "YouTube Sans Mono"
+      ]
+    },
+    "Yuji Mai": {
+      "prefix": "Yuji Mai",
+      "totalCount": 5,
+      "categories": [
+        "HANDWRITING",
+        "SERIF"
+      ],
+      "membersByCategory": {
+        "SERIF": [
+          "Yuji Boku",
+          "Yuji Mai",
+          "Yuji Syuku"
+        ],
+        "HANDWRITING": [
+          "Yuji Hentaigana Akari",
+          "Yuji Hentaigana Akebono"
+        ]
+      },
+      "superfamily": [
+        "Yuji Boku",
+        "Yuji Hentaigana Akari",
+        "Yuji Hentaigana Akebono",
+        "Yuji Mai",
+        "Yuji Syuku"
+      ]
+    }
+  },
+  "siblings": {
+    "Afacad": {
+      "prefix": "Afacad",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Afacad",
+        "Afacad Flux"
+      ]
+    },
+    "Agdasima": {
+      "prefix": "Agdasima",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Big Shoulders"
+      ]
+    },
+    "Akaya Kanadaka": {
+      "prefix": "Akaya Kanadaka",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Akaya Kanadaka",
+        "Akaya Telivigala"
+      ]
+    },
+    "Alexandria": {
+      "prefix": "Alexandria",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Montserrat"
+      ]
+    },
+    "Amiko": {
+      "prefix": "Amiko",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Rosario"
+      ]
+    },
+    "Amita": {
+      "prefix": "Amita",
+      "totalCount": 1,
+      "category": "HANDWRITING",
+      "referencedFonts": [
+        "Redressed"
+      ]
+    },
+    "Anek Odia": {
+      "prefix": "Anek Odia",
+      "totalCount": 10,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Anek Bangla",
+        "Anek Devanagari",
+        "Anek Gujarati",
+        "Anek Gurmukhi",
+        "Anek Kannada",
+        "Anek Latin",
+        "Anek Malayalam",
+        "Anek Odia",
+        "Anek Tamil",
+        "Anek Telugu"
+      ]
+    },
+    "Anton": {
+      "prefix": "Anton",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Anton",
+        "Anton SC"
+      ]
+    },
+    "Anuphan": {
+      "prefix": "Anuphan",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "IBM Plex Sans",
+        "IBM Plex Sans Thai"
+      ]
+    },
+    "Archivo": {
+      "prefix": "Archivo",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Archivo",
+        "Archivo Black",
+        "Archivo Narrow"
+      ]
+    },
+    "Aref Ruqaa": {
+      "prefix": "Aref Ruqaa",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Aref Ruqaa",
+        "Aref Ruqaa Ink"
+      ]
+    },
+    "Arsenal": {
+      "prefix": "Arsenal",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Arsenal",
+        "Arsenal SC"
+      ],
+      "referencedFonts": [
+        "Notable"
+      ]
+    },
+    "Asap": {
+      "prefix": "Asap",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Asap",
+        "Asap Condensed"
+      ]
+    },
+    "Asar": {
+      "prefix": "Asar",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Palanquin"
+      ]
+    },
+    "Average": {
+      "prefix": "Average",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Average Sans"
+      ]
+    },
+    "Average Sans": {
+      "prefix": "Average Sans",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Average"
+      ]
+    },
+    "BBH Bogle": {
+      "prefix": "BBH Bogle",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "BBH Bartle",
+        "BBH Bogle",
+        "BBH Hegarty"
+      ]
+    },
+    "Bacasime Antique": {
+      "prefix": "Bacasime Antique",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Playfair"
+      ]
+    },
+    "Bahianita": {
+      "prefix": "Bahianita",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Bahiana"
+      ]
+    },
+    "Baloo 2": {
+      "prefix": "Baloo 2",
+      "totalCount": 10,
+      "category": "DISPLAY",
+      "siblings": [
+        "Baloo 2",
+        "Baloo Bhai 2",
+        "Baloo Bhaijaan 2",
+        "Baloo Bhaina 2",
+        "Baloo Chettan 2",
+        "Baloo Da 2",
+        "Baloo Paaji 2",
+        "Baloo Tamma 2",
+        "Baloo Tammudu 2",
+        "Baloo Thambi 2"
+      ]
+    },
+    "Barlow": {
+      "prefix": "Barlow",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Barlow",
+        "Barlow Condensed",
+        "Barlow Semi Condensed"
+      ]
+    },
+    "Barriecito": {
+      "prefix": "Barriecito",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Barrio"
+      ]
+    },
+    "Baskervville": {
+      "prefix": "Baskervville",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Baskervville",
+        "Baskervville SC"
+      ]
+    },
+    "Belanosima": {
+      "prefix": "Belanosima",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Josefin Sans"
+      ]
+    },
+    "Bellota": {
+      "prefix": "Bellota",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Bellota",
+        "Bellota Text"
+      ]
+    },
+    "Benne": {
+      "prefix": "Benne",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "EB Garamond"
+      ]
+    },
+    "Betania Patmos": {
+      "prefix": "Betania Patmos",
+      "totalCount": 4,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Betania Patmos",
+        "Betania Patmos GDL",
+        "Betania Patmos In",
+        "Betania Patmos In GDL"
+      ]
+    },
+    "Bilbo": {
+      "prefix": "Bilbo",
+      "totalCount": 2,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Bilbo",
+        "Bilbo Swash Caps"
+      ]
+    },
+    "BioRhyme": {
+      "prefix": "BioRhyme",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "BioRhyme",
+        "BioRhyme Expanded"
+      ]
+    },
+    "Birthstone": {
+      "prefix": "Birthstone",
+      "totalCount": 2,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Birthstone",
+        "Birthstone Bounce"
+      ]
+    },
+    "Bitcount": {
+      "prefix": "Bitcount",
+      "totalCount": 12,
+      "category": "DISPLAY",
+      "siblings": [
+        "Bitcount",
+        "Bitcount Grid Double",
+        "Bitcount Grid Double Ink",
+        "Bitcount Grid Single",
+        "Bitcount Grid Single Ink",
+        "Bitcount Ink",
+        "Bitcount Prop Double",
+        "Bitcount Prop Double Ink",
+        "Bitcount Prop Single",
+        "Bitcount Prop Single Ink",
+        "Bitcount Single",
+        "Bitcount Single Ink"
+      ]
+    },
+    "Black And White Picture": {
+      "prefix": "Black And White Picture",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Flavors"
+      ]
+    },
+    "Blaka": {
+      "prefix": "Blaka",
+      "totalCount": 3,
+      "category": "DISPLAY",
+      "siblings": [
+        "Blaka",
+        "Blaka Hollow",
+        "Blaka Ink"
+      ]
+    },
+    "Bodoni Moda": {
+      "prefix": "Bodoni Moda",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Bodoni Moda",
+        "Bodoni Moda SC"
+      ]
+    },
+    "Bona Nova": {
+      "prefix": "Bona Nova",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Bona Nova",
+        "Bona Nova SC"
+      ]
+    },
+    "Bowlby One": {
+      "prefix": "Bowlby One",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Bowlby One",
+        "Bowlby One SC"
+      ]
+    },
+    "Bruno Ace": {
+      "prefix": "Bruno Ace",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Bruno Ace",
+        "Bruno Ace SC"
+      ]
+    },
+    "Cairo": {
+      "prefix": "Cairo",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Cairo",
+        "Cairo Play"
+      ]
+    },
+    "Cambay": {
+      "prefix": "Cambay",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Cantarell"
+      ]
+    },
+    "Caprasimo": {
+      "prefix": "Caprasimo",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Fraunces"
+      ]
+    },
+    "Carrois Gothic": {
+      "prefix": "Carrois Gothic",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Carrois Gothic",
+        "Carrois Gothic SC"
+      ]
+    },
+    "Catamaran": {
+      "prefix": "Catamaran",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Palanquin"
+      ]
+    },
+    "Caveat": {
+      "prefix": "Caveat",
+      "totalCount": 2,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Caveat",
+        "Caveat Brush"
+      ],
+      "referencedFonts": [
+        "Rosario"
+      ]
+    },
+    "Chathura": {
+      "prefix": "Chathura",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Rajdhani"
+      ]
+    },
+    "Comforter": {
+      "prefix": "Comforter",
+      "totalCount": 2,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Comforter",
+        "Comforter Brush"
+      ]
+    },
+    "Comme": {
+      "prefix": "Comme",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Oxygen"
+      ]
+    },
+    "Cormorant": {
+      "prefix": "Cormorant",
+      "totalCount": 6,
+      "category": "SERIF",
+      "siblings": [
+        "Cormorant",
+        "Cormorant Garamond",
+        "Cormorant Infant",
+        "Cormorant SC",
+        "Cormorant Unicase",
+        "Cormorant Upright"
+      ]
+    },
+    "Cossette Texte": {
+      "prefix": "Cossette Texte",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Cossette Texte",
+        "Cossette Titre"
+      ]
+    },
+    "Coustard": {
+      "prefix": "Coustard",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Tienne"
+      ]
+    },
+    "Crimson Pro": {
+      "prefix": "Crimson Pro",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Crimson Pro",
+        "Crimson Text"
+      ]
+    },
+    "Days One": {
+      "prefix": "Days One",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Numans"
+      ]
+    },
+    "Dekko": {
+      "prefix": "Dekko",
+      "totalCount": 1,
+      "category": "HANDWRITING",
+      "referencedFonts": [
+        "Short Stack"
+      ]
+    },
+    "Delius": {
+      "prefix": "Delius",
+      "totalCount": 3,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Delius",
+        "Delius Swash Caps",
+        "Delius Unicase"
+      ]
+    },
+    "Diplomata": {
+      "prefix": "Diplomata",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Diplomata",
+        "Diplomata SC"
+      ]
+    },
+    "El Messiri": {
+      "prefix": "El Messiri",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Philosopher"
+      ]
+    },
+    "Elsie": {
+      "prefix": "Elsie",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Elsie",
+        "Elsie Swash Caps"
+      ]
+    },
+    "Encode Sans": {
+      "prefix": "Encode Sans",
+      "totalCount": 6,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Encode Sans",
+        "Encode Sans Condensed",
+        "Encode Sans Expanded",
+        "Encode Sans SC",
+        "Encode Sans Semi Condensed",
+        "Encode Sans Semi Expanded"
+      ],
+      "referencedFonts": [
+        "Rosario"
+      ]
+    },
+    "Exo": {
+      "prefix": "Exo",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Exo",
+        "Exo 2"
+      ]
+    },
+    "Fasthand": {
+      "prefix": "Fasthand",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Seaweed Script"
+      ]
+    },
+    "Finlandica": {
+      "prefix": "Finlandica",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Finlandica",
+        "Finlandica Headline",
+        "Finlandica Text"
+      ]
+    },
+    "Fontdiner Swanky": {
+      "prefix": "Fontdiner Swanky",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Atomic Age"
+      ]
+    },
+    "Freehand": {
+      "prefix": "Freehand",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Seaweed Script"
+      ]
+    },
+    "Fuggles": {
+      "prefix": "Fuggles",
+      "totalCount": 1,
+      "category": "HANDWRITING",
+      "referencedFonts": [
+        "Inspiration",
+        "Sassy Frass",
+        "Waterfall"
+      ]
+    },
+    "Gabriela": {
+      "prefix": "Gabriela",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Kurale"
+      ]
+    },
+    "Galada": {
+      "prefix": "Galada",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Lobster"
+      ]
+    },
+    "Gentium Plus": {
+      "prefix": "Gentium Plus",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Gentium Book Plus",
+        "Gentium Plus"
+      ]
+    },
+    "Geostar": {
+      "prefix": "Geostar",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Geostar",
+        "Geostar Fill"
+      ]
+    },
+    "Gurajada": {
+      "prefix": "Gurajada",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Alegreya Sans"
+      ]
+    },
+    "Hanalei": {
+      "prefix": "Hanalei",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Hanalei",
+        "Hanalei Fill"
+      ]
+    },
+    "Heebo": {
+      "prefix": "Heebo",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Roboto"
+      ]
+    },
+    "Hind": {
+      "prefix": "Hind",
+      "totalCount": 6,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Hind",
+        "Hind Guntur",
+        "Hind Madurai",
+        "Hind Mysuru",
+        "Hind Siliguri",
+        "Hind Vadodara"
+      ]
+    },
+    "IM Fell DW Pica": {
+      "prefix": "IM Fell DW Pica",
+      "totalCount": 10,
+      "category": "SERIF",
+      "siblings": [
+        "IM Fell DW Pica",
+        "IM Fell DW Pica SC",
+        "IM Fell Double Pica",
+        "IM Fell Double Pica SC",
+        "IM Fell English",
+        "IM Fell English SC",
+        "IM Fell French Canon",
+        "IM Fell French Canon SC",
+        "IM Fell Great Primer",
+        "IM Fell Great Primer SC"
+      ]
+    },
+    "Inter": {
+      "prefix": "Inter",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Inter",
+        "Inter Tight"
+      ]
+    },
+    "Island Moments": {
+      "prefix": "Island Moments",
+      "totalCount": 1,
+      "category": "HANDWRITING",
+      "referencedFonts": [
+        "Babylonica"
+      ]
+    },
+    "Jacquard 12": {
+      "prefix": "Jacquard 12",
+      "totalCount": 4,
+      "category": "DISPLAY",
+      "siblings": [
+        "Jacquard 12",
+        "Jacquard 12 Charted",
+        "Jacquard 24",
+        "Jacquard 24 Charted"
+      ]
+    },
+    "Jacquarda Bastarda 9": {
+      "prefix": "Jacquarda Bastarda 9",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Jacquarda Bastarda 9",
+        "Jacquarda Bastarda 9 Charted"
+      ]
+    },
+    "Jaini": {
+      "prefix": "Jaini",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Jaini",
+        "Jaini Purva"
+      ]
+    },
+    "Jersey 10": {
+      "prefix": "Jersey 10",
+      "totalCount": 8,
+      "category": "DISPLAY",
+      "siblings": [
+        "Jersey 10",
+        "Jersey 10 Charted",
+        "Jersey 15",
+        "Jersey 15 Charted",
+        "Jersey 20",
+        "Jersey 20 Charted",
+        "Jersey 25",
+        "Jersey 25 Charted"
+      ]
+    },
+    "Kadwa": {
+      "prefix": "Kadwa",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Bitter"
+      ]
+    },
+    "Kaisei Opti": {
+      "prefix": "Kaisei Opti",
+      "totalCount": 4,
+      "category": "SERIF",
+      "siblings": [
+        "Kaisei Decol",
+        "Kaisei HarunoUmi",
+        "Kaisei Opti",
+        "Kaisei Tokumin"
+      ]
+    },
+    "Kantumruy Pro": {
+      "prefix": "Kantumruy Pro",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Work Sans"
+      ]
+    },
+    "Karla": {
+      "prefix": "Karla",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Karla",
+        "Karla Tamil Inclined",
+        "Karla Tamil Upright"
+      ]
+    },
+    "Kdam Thmor Pro": {
+      "prefix": "Kdam Thmor Pro",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Gemunu Libre"
+      ]
+    },
+    "Khula": {
+      "prefix": "Khula",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Open Sans"
+      ]
+    },
+    "Kosugi": {
+      "prefix": "Kosugi",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Kosugi",
+        "Kosugi Maru"
+      ]
+    },
+    "Kurale": {
+      "prefix": "Kurale",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Gabriela"
+      ]
+    },
+    "Lakki Reddy": {
+      "prefix": "Lakki Reddy",
+      "totalCount": 1,
+      "category": "HANDWRITING",
+      "referencedFonts": [
+        "Irish Grover"
+      ]
+    },
+    "Lekton": {
+      "prefix": "Lekton",
+      "totalCount": 1,
+      "category": "MONOSPACE",
+      "referencedFonts": [
+        "Antonio"
+      ]
+    },
+    "Lexend": {
+      "prefix": "Lexend",
+      "totalCount": 8,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Lexend",
+        "Lexend Deca",
+        "Lexend Exa",
+        "Lexend Giga",
+        "Lexend Mega",
+        "Lexend Peta",
+        "Lexend Tera",
+        "Lexend Zetta"
+      ]
+    },
+    "Libre Barcode 39": {
+      "prefix": "Libre Barcode 39",
+      "totalCount": 7,
+      "category": "DISPLAY",
+      "siblings": [
+        "Libre Barcode 128",
+        "Libre Barcode 128 Text",
+        "Libre Barcode 39",
+        "Libre Barcode 39 Extended",
+        "Libre Barcode 39 Extended Text",
+        "Libre Barcode 39 Text",
+        "Libre Barcode EAN13 Text"
+      ]
+    },
+    "Libre Franklin": {
+      "prefix": "Libre Franklin",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Rosario"
+      ]
+    },
+    "Linefont": {
+      "prefix": "Linefont",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Wavefont"
+      ]
+    },
+    "Lobster": {
+      "prefix": "Lobster",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Lobster",
+        "Lobster Two"
+      ]
+    },
+    "Lugrasimo": {
+      "prefix": "Lugrasimo",
+      "totalCount": 1,
+      "category": "HANDWRITING",
+      "referencedFonts": [
+        "Fondamento"
+      ]
+    },
+    "Lumanosimo": {
+      "prefix": "Lumanosimo",
+      "totalCount": 1,
+      "category": "HANDWRITING",
+      "referencedFonts": [
+        "Paprika"
+      ]
+    },
+    "Lunasima": {
+      "prefix": "Lunasima",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Noto Sans"
+      ]
+    },
+    "Macondo": {
+      "prefix": "Macondo",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Macondo",
+        "Macondo Swash Caps"
+      ]
+    },
+    "Mallanna": {
+      "prefix": "Mallanna",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Nunito"
+      ]
+    },
+    "Mandali": {
+      "prefix": "Mandali",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Nunito"
+      ]
+    },
+    "Marcellus": {
+      "prefix": "Marcellus",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Marcellus",
+        "Marcellus SC"
+      ]
+    },
+    "Mate": {
+      "prefix": "Mate",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Mate",
+        "Mate SC"
+      ]
+    },
+    "Metal": {
+      "prefix": "Metal",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Metal",
+        "Metal Mania"
+      ]
+    },
+    "Micro 5": {
+      "prefix": "Micro 5",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Micro 5",
+        "Micro 5 Charted"
+      ]
+    },
+    "Miltonian": {
+      "prefix": "Miltonian",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Miltonian",
+        "Miltonian Tattoo"
+      ]
+    },
+    "Mochiy Pop One": {
+      "prefix": "Mochiy Pop One",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Mochiy Pop One",
+        "Mochiy Pop P One"
+      ],
+      "referencedFonts": [
+        "Noto Sans",
+        "Noto Sans JP"
+      ]
+    },
+    "Modern Antiqua": {
+      "prefix": "Modern Antiqua",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "MedievalSharp"
+      ]
+    },
+    "Montserrat": {
+      "prefix": "Montserrat",
+      "totalCount": 4,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Montserrat",
+        "Montserrat Alternates",
+        "Montserrat Subrayada",
+        "Montserrat Underline"
+      ]
+    },
+    "Mooli": {
+      "prefix": "Mooli",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Mulish"
+      ]
+    },
+    "Mozilla Text": {
+      "prefix": "Mozilla Text",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Mozilla Headline",
+        "Mozilla Text"
+      ]
+    },
+    "Mr Dafoe": {
+      "prefix": "Mr Dafoe",
+      "totalCount": 3,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Mr Bedfort",
+        "Mr Dafoe",
+        "Mr De Haviland"
+      ]
+    },
+    "Mukta": {
+      "prefix": "Mukta",
+      "totalCount": 4,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Mukta",
+        "Mukta Mahee",
+        "Mukta Malar",
+        "Mukta Vaani"
+      ]
+    },
+    "Mulish": {
+      "prefix": "Mulish",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Allison"
+      ]
+    },
+    "NTR": {
+      "prefix": "NTR",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Varela",
+        "Varela Round"
+      ]
+    },
+    "Numans": {
+      "prefix": "Numans",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Days One"
+      ]
+    },
+    "Oleo Script": {
+      "prefix": "Oleo Script",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Oleo Script",
+        "Oleo Script Swash Caps"
+      ]
+    },
+    "Oranienbaum": {
+      "prefix": "Oranienbaum",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Modern Antiqua"
+      ]
+    },
+    "Overlock": {
+      "prefix": "Overlock",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Overlock",
+        "Overlock SC"
+      ]
+    },
+    "Padyakke Expanded One": {
+      "prefix": "Padyakke Expanded One",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "BioRhyme",
+        "BioRhyme Expanded"
+      ]
+    },
+    "Palanquin": {
+      "prefix": "Palanquin",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Palanquin",
+        "Palanquin Dark"
+      ]
+    },
+    "Patrick Hand": {
+      "prefix": "Patrick Hand",
+      "totalCount": 2,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Patrick Hand",
+        "Patrick Hand SC"
+      ]
+    },
+    "Pattaya": {
+      "prefix": "Pattaya",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Lobster"
+      ]
+    },
+    "Pavanam": {
+      "prefix": "Pavanam",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Pontano Sans"
+      ]
+    },
+    "Playpen Sans": {
+      "prefix": "Playpen Sans",
+      "totalCount": 5,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Playpen Sans",
+        "Playpen Sans Arabic",
+        "Playpen Sans Deva",
+        "Playpen Sans Hebrew",
+        "Playpen Sans Thai"
+      ]
+    },
+    "Playwrite AR": {
+      "prefix": "Playwrite AR",
+      "totalCount": 106,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Playwrite AR",
+        "Playwrite AR Guides",
+        "Playwrite AT",
+        "Playwrite AT Guides",
+        "Playwrite AU NSW",
+        "Playwrite AU NSW Guides",
+        "Playwrite AU QLD",
+        "Playwrite AU QLD Guides",
+        "Playwrite AU SA",
+        "Playwrite AU SA Guides",
+        "Playwrite AU TAS",
+        "Playwrite AU TAS Guides",
+        "Playwrite AU VIC",
+        "Playwrite AU VIC Guides",
+        "Playwrite Argentina Guides",
+        "Playwrite BE VLG",
+        "Playwrite BE VLG Guides",
+        "Playwrite BE WAL",
+        "Playwrite BE WAL Guides",
+        "Playwrite BR",
+        "Playwrite BR Guides",
+        "Playwrite CA",
+        "Playwrite CA Guides",
+        "Playwrite CL",
+        "Playwrite CL Guides",
+        "Playwrite CO",
+        "Playwrite CO Guides",
+        "Playwrite CU",
+        "Playwrite CU Guides",
+        "Playwrite CZ",
+        "Playwrite CZ Guides",
+        "Playwrite DE Grund",
+        "Playwrite DE Grund Guides",
+        "Playwrite DE LA",
+        "Playwrite DE LA Guides",
+        "Playwrite DE SAS",
+        "Playwrite DE SAS Guides",
+        "Playwrite DE VA",
+        "Playwrite DE VA Guides",
+        "Playwrite DK Loopet",
+        "Playwrite DK Loopet Guides",
+        "Playwrite DK Uloopet",
+        "Playwrite DK Uloopet Guides",
+        "Playwrite ES",
+        "Playwrite ES Deco",
+        "Playwrite ES Deco Guides",
+        "Playwrite ES Guides",
+        "Playwrite FR Moderne",
+        "Playwrite FR Moderne Guides",
+        "Playwrite FR Trad",
+        "Playwrite FR Trad Guides",
+        "Playwrite GB J",
+        "Playwrite GB J Guides",
+        "Playwrite GB S",
+        "Playwrite GB S Guides",
+        "Playwrite HR",
+        "Playwrite HR Guides",
+        "Playwrite HR Lijeva",
+        "Playwrite HR Lijeva Guides",
+        "Playwrite HU",
+        "Playwrite HU Guides",
+        "Playwrite ID",
+        "Playwrite ID Guides",
+        "Playwrite IE",
+        "Playwrite IE Guides",
+        "Playwrite IN",
+        "Playwrite IN Guides",
+        "Playwrite IS",
+        "Playwrite IS Guides",
+        "Playwrite IT Moderna",
+        "Playwrite IT Moderna Guides",
+        "Playwrite IT Trad",
+        "Playwrite IT Trad Guides",
+        "Playwrite MX",
+        "Playwrite MX Guides",
+        "Playwrite NG Modern",
+        "Playwrite NG Modern Guides",
+        "Playwrite NL",
+        "Playwrite NL Guides",
+        "Playwrite NO",
+        "Playwrite NO Guides",
+        "Playwrite NZ",
+        "Playwrite NZ Basic",
+        "Playwrite NZ Basic Guides",
+        "Playwrite NZ Guides",
+        "Playwrite PE",
+        "Playwrite PE Guides",
+        "Playwrite PL",
+        "Playwrite PL Guides",
+        "Playwrite PT",
+        "Playwrite PT Guides",
+        "Playwrite RO",
+        "Playwrite RO Guides",
+        "Playwrite SK",
+        "Playwrite SK Guides",
+        "Playwrite TZ",
+        "Playwrite TZ Guides",
+        "Playwrite US Modern",
+        "Playwrite US Modern Guides",
+        "Playwrite US Trad",
+        "Playwrite US Trad Guides",
+        "Playwrite VN",
+        "Playwrite VN Guides",
+        "Playwrite ZA",
+        "Playwrite ZA Guides",
+        "Playwrite Österreich Guides"
+      ]
+    },
+    "Pragati Narrow": {
+      "prefix": "Pragati Narrow",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Archivo",
+        "Archivo Narrow"
+      ]
+    },
+    "Protest Riot": {
+      "prefix": "Protest Riot",
+      "totalCount": 4,
+      "category": "DISPLAY",
+      "siblings": [
+        "Protest Guerrilla",
+        "Protest Revolution",
+        "Protest Riot",
+        "Protest Strike"
+      ]
+    },
+    "Public Sans": {
+      "prefix": "Public Sans",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Libre Franklin"
+      ]
+    },
+    "Radio Canada": {
+      "prefix": "Radio Canada",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Radio Canada",
+        "Radio Canada Big"
+      ]
+    },
+    "Rasa": {
+      "prefix": "Rasa",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Merriweather",
+        "Yrsa"
+      ]
+    },
+    "Ravi Prakash": {
+      "prefix": "Ravi Prakash",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Joti One"
+      ]
+    },
+    "Redacted": {
+      "prefix": "Redacted",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Redacted",
+        "Redacted Script"
+      ]
+    },
+    "Reem Kufi": {
+      "prefix": "Reem Kufi",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Reem Kufi",
+        "Reem Kufi Fun",
+        "Reem Kufi Ink"
+      ]
+    },
+    "Ribeye": {
+      "prefix": "Ribeye",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Ribeye",
+        "Ribeye Marrow"
+      ]
+    },
+    "Ruda": {
+      "prefix": "Ruda",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Sanchez"
+      ]
+    },
+    "STIX Two Math": {
+      "prefix": "STIX Two Math",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "STIX Two Math",
+        "STIX Two Text"
+      ]
+    },
+    "Sahitya": {
+      "prefix": "Sahitya",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Alegreya"
+      ]
+    },
+    "Sedan": {
+      "prefix": "Sedan",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Sedan",
+        "Sedan SC"
+      ]
+    },
+    "Seymour One": {
+      "prefix": "Seymour One",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Sigmar",
+        "Sigmar One"
+      ]
+    },
+    "Shadows Into Light": {
+      "prefix": "Shadows Into Light",
+      "totalCount": 2,
+      "category": "HANDWRITING",
+      "siblings": [
+        "Shadows Into Light",
+        "Shadows Into Light Two"
+      ]
+    },
+    "Sigmar": {
+      "prefix": "Sigmar",
+      "totalCount": 2,
+      "category": "DISPLAY",
+      "siblings": [
+        "Sigmar",
+        "Sigmar One"
+      ]
+    },
+    "Signika": {
+      "prefix": "Signika",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Signika",
+        "Signika Negative"
+      ]
+    },
+    "Sixtyfour": {
+      "prefix": "Sixtyfour",
+      "totalCount": 2,
+      "category": "MONOSPACE",
+      "siblings": [
+        "Sixtyfour",
+        "Sixtyfour Convergence"
+      ],
+      "referencedFonts": [
+        "Workbench"
+      ]
+    },
+    "Song Myung": {
+      "prefix": "Song Myung",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Source Serif 4"
+      ]
+    },
+    "Special Gothic": {
+      "prefix": "Special Gothic",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Special Gothic",
+        "Special Gothic Condensed One",
+        "Special Gothic Expanded One"
+      ]
+    },
+    "Spectral": {
+      "prefix": "Spectral",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Spectral",
+        "Spectral SC"
+      ]
+    },
+    "Sree Krushnadevaraya": {
+      "prefix": "Sree Krushnadevaraya",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Cantata One"
+      ]
+    },
+    "Suravaram": {
+      "prefix": "Suravaram",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Gurajada",
+        "Tienne"
+      ]
+    },
+    "TASA Orbiter": {
+      "prefix": "TASA Orbiter",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "TASA Explorer",
+        "TASA Orbiter"
+      ]
+    },
+    "Taprom": {
+      "prefix": "Taprom",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Seaweed Script"
+      ]
+    },
+    "Thasadith": {
+      "prefix": "Thasadith",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Srisakdi"
+      ]
+    },
+    "Tienne": {
+      "prefix": "Tienne",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Artifika"
+      ]
+    },
+    "Tilt Neon": {
+      "prefix": "Tilt Neon",
+      "totalCount": 3,
+      "category": "DISPLAY",
+      "siblings": [
+        "Tilt Neon",
+        "Tilt Prism",
+        "Tilt Warp"
+      ]
+    },
+    "UnifrakturCook": {
+      "prefix": "UnifrakturCook",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "UnifrakturMaguntia"
+      ]
+    },
+    "Varela": {
+      "prefix": "Varela",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Varela",
+        "Varela Round"
+      ]
+    },
+    "Vazirmatn": {
+      "prefix": "Vazirmatn",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Roboto"
+      ]
+    },
+    "Vollkorn": {
+      "prefix": "Vollkorn",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Vollkorn",
+        "Vollkorn SC"
+      ]
+    },
+    "WDXL Lubrifont SC": {
+      "prefix": "WDXL Lubrifont SC",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "WDXL Lubrifont JP N",
+        "WDXL Lubrifont SC",
+        "WDXL Lubrifont TC"
+      ]
+    },
+    "Winky Sans": {
+      "prefix": "Winky Sans",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Winky Rough",
+        "Winky Sans"
+      ]
+    },
+    "Workbench": {
+      "prefix": "Workbench",
+      "totalCount": 1,
+      "category": "MONOSPACE",
+      "referencedFonts": [
+        "Sixtyfour"
+      ]
+    },
+    "Yantramanav": {
+      "prefix": "Yantramanav",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Roboto"
+      ]
+    },
+    "Yarndings 12": {
+      "prefix": "Yarndings 12",
+      "totalCount": 4,
+      "category": "DISPLAY",
+      "siblings": [
+        "Yarndings 12",
+        "Yarndings 12 Charted",
+        "Yarndings 20",
+        "Yarndings 20 Charted"
+      ]
+    },
+    "Yrsa": {
+      "prefix": "Yrsa",
+      "totalCount": 1,
+      "category": "SERIF",
+      "referencedFonts": [
+        "Merriweather",
+        "Rasa"
+      ]
+    },
+    "Ysabeau": {
+      "prefix": "Ysabeau",
+      "totalCount": 4,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Ysabeau",
+        "Ysabeau Infant",
+        "Ysabeau Office",
+        "Ysabeau SC"
+      ],
+      "referencedFonts": [
+        "Cormorant",
+        "EB Garamond"
+      ]
+    },
+    "Yusei Magic": {
+      "prefix": "Yusei Magic",
+      "totalCount": 1,
+      "category": "SANS_SERIF",
+      "referencedFonts": [
+        "Permanent Marker"
+      ]
+    },
+    "Zalando Sans": {
+      "prefix": "Zalando Sans",
+      "totalCount": 3,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Zalando Sans",
+        "Zalando Sans Expanded",
+        "Zalando Sans SemiExpanded"
+      ]
+    },
+    "Zen Antique": {
+      "prefix": "Zen Antique",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Zen Antique",
+        "Zen Antique Soft"
+      ]
+    },
+    "Zen Kaku Gothic New": {
+      "prefix": "Zen Kaku Gothic New",
+      "totalCount": 2,
+      "category": "SANS_SERIF",
+      "siblings": [
+        "Zen Kaku Gothic Antique",
+        "Zen Kaku Gothic New"
+      ]
+    },
+    "Zen Tokyo Zoo": {
+      "prefix": "Zen Tokyo Zoo",
+      "totalCount": 1,
+      "category": "DISPLAY",
+      "referencedFonts": [
+        "Zen Loop"
+      ]
+    },
+    "Zilla Slab": {
+      "prefix": "Zilla Slab",
+      "totalCount": 2,
+      "category": "SERIF",
+      "siblings": [
+        "Zilla Slab",
+        "Zilla Slab Highlight"
+      ]
+    }
+  }
+}

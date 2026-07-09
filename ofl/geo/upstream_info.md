@@ -1,66 +1,26 @@
-# Investigation Report: Geo
+# Geo
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Geo is a geometric sans-serif display typeface designed by Ben Weiner, added to Google Fonts on 2010-11-30. The font was part of the initial commit (90abd17b) to the google/fonts repository. The upstream repository is at `https://github.com/librefonts/geo` and contains only SFD (FontForge) source files -- no `.glyphs`, `.ufo`, or `.designspace` files, and no `config.yaml`. Since SFD sources are not compatible with gftools-builder, no config.yaml can be provided.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Geo (Regular and Oblique) built from FontForge SFD sources at https://github.com/librefonts/geo. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-| Field              | Value                                                    |
-|--------------------|----------------------------------------------------------|
-| Family Name        | Geo                                                      |
-| Designer           | Ben Weiner                                               |
-| Date Added         | 2010-11-30                                               |
-| Repository URL     | https://github.com/librefonts/geo                        |
-| Commit Hash        | 0d2a51963d3c6e52d7b8edc50a5d7b457bb1a663 (only commit)  |
-| Config YAML        | None (SFD-only sources)                                  |
-| Source Files       | src/Geo-Regular-TTF.sfd, src/Geo-Oblique-TTF.sfd        |
-| Status             | no_config_possible                                       |
-| Confidence         | HIGH                                                     |
+## Actions taken
 
-## Investigation Details
+- The canonical FontForge SFD sources were converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/geo, building the fonts with gftools-builder3 + fontc.
+- An explicit OS/2 WeightClass override (500) was added to both styles (usWeightClass Medium).
+- The build was verified against the shipped binaries.
 
-### METADATA.pb Analysis
+## Final state
 
-The current METADATA.pb has no `source { }` block at all. The font was added in the initial commit of the google/fonts repository (90abd17b, dated 2015-03-07 in git, but `date_added` shows 2010-11-30). No repository_url, commit hash, or config_yaml are recorded.
+The source now lives at https://github.com/googlefonts/geo (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binaries.
 
-### Upstream Repository
+## Verification
 
-The upstream repository at `https://github.com/librefonts/geo` is cached at `upstream_repos/fontc_crater_cache/librefonts/geo/`. It has a single commit:
+Identical to the shipped binaries on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths.
 
-- `0d2a519` (2014-10-17): "update .travis.yml"
+## Original repository (dormant)
 
-This is a shallow/squashed history. The repo contains:
-- **Source files**: `src/Geo-Regular-TTF.sfd` and `src/Geo-Oblique-TTF.sfd` (FontForge SFD format)
-- **TTX decompositions**: Multiple `.ttx` files for both Regular and Oblique
-- **No config.yaml** anywhere in the repo
-- **No `.glyphs`, `.ufo`, or `.designspace` files**
-
-Since the repo has only one commit, that commit (0d2a519) is the only valid reference. The font files in google/fonts have never been updated since the initial commit.
-
-### Build Configuration
-
-The upstream sources are in SFD (FontForge) format only. SFD files are not compatible with gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` sources. Therefore, no config.yaml can be created -- neither as an upstream file nor as an override.
-
-### Google Fonts History
-
-The Geo font files (`Geo-Regular.ttf`, `Geo-Oblique.ttf`) have only been touched in the initial commit (90abd17b). No subsequent updates have been made to the binary fonts.
-
-## Conclusion
-
-### Recommended METADATA.pb Source Block
-
-```
-source {
-  repository_url: "https://github.com/librefonts/geo"
-  commit: "0d2a51963d3c6e52d7b8edc50a5d7b457bb1a663"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-}
-```
-
-### Status: no_config_possible
-
-The upstream repo only has SFD sources, which are not compatible with gftools-builder. A `config_yaml` field cannot be set. The source block can still document the repository URL and commit for provenance tracking.
+The original FontForge sources are at https://github.com/librefonts/geo (`.sfd`), latest at commit `0d2a51963d3c6e52d7b8edc50a5d7b457bb1a663`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/eater"
-  commit: "91120e636b79d400473167dae30ff31a7c03b813"
+  repository_url: "https://github.com/googlefonts/eater"
+  commit: "6c5ace2f3226138bc19b92312a0a82ff6cf6861f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Eater-Regular.ttf"
+    dest_file: "Eater-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

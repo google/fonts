@@ -26,7 +26,21 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/etunni/glegoo"
-  commit: "a6b0a10abfaf1b88feb4a9f9eb731beefbb4bbb8"
+  repository_url: "https://github.com/googlefonts/glegoo"
+  commit: "f33250e4771fc7535fbbe847c4d9787396dff0a9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Glegoo-Bold.ttf"
+    dest_file: "Glegoo-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Glegoo-Regular.ttf"
+    dest_file: "Glegoo-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SLAB_SERIF"

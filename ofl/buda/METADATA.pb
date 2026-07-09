@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2010-12-20"
 source {
-  repository_url: "https://github.com/librefonts/buda"
-  commit: "c632d6ba92f1c89f40f704c2cd873d5a9ede22a6"
+  repository_url: "https://github.com/googlefonts/buda"
+  commit: "c53669f67b2d293b48e43a1b394ef39ff08200de"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Buda-Light.ttf"
+    dest_file: "Buda-Light.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

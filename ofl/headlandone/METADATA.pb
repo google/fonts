@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/headlandone"
-  commit: "c5193604253d9cf325e43b44e88045a503b53cbf"
+  repository_url: "https://github.com/googlefonts/headlandone"
+  commit: "fe8d141e82ed1697ae76dcea8c524acb2eef0490"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/HeadlandOne-Regular.ttf"
+    dest_file: "HeadlandOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

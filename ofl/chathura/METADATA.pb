@@ -4,8 +4,34 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-05-09"
 source {
-  repository_url: "https://github.com/appajid/Chathura"
-  commit: "f6944e361db05f2cb3a33356e54615f4cf754de8"
+  repository_url: "https://github.com/googlefonts/Chathura"
+  commit: "e480434f75f149a18073913a0c5f041b0c2829c3"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Chathura-Bold.ttf"
+    dest_file: "Chathura-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Chathura-ExtraBold.ttf"
+    dest_file: "Chathura-ExtraBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Chathura-Light.ttf"
+    dest_file: "Chathura-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Chathura-Regular.ttf"
+    dest_file: "Chathura-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Chathura-Thin.ttf"
+    dest_file: "Chathura-Thin.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

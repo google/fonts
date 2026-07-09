@@ -29,6 +29,20 @@ primary_script: "Deva"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/antonxheight/Ranga"
-  commit: "15fadcc52c43bfbe15915c530b2409f8bcf244e4"
+  repository_url: "https://github.com/googlefonts/Ranga"
+  commit: "47116eb916be5a95fbf6ba6f3795badbc15a2265"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Ranga-Bold.ttf"
+    dest_file: "Ranga-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Ranga-Regular.ttf"
+    dest_file: "Ranga-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

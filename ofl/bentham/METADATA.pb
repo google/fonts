@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2010-11-30"
 source {
-  repository_url: "https://github.com/librefonts/bentham"
-  commit: "a89643ad524f785a73f5326e6ee901fb042fa765"
+  repository_url: "https://github.com/googlefonts/bentham"
+  commit: "e5fe7fcc66269491f3ccd6cf5ee69d7dfd3b8316"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Bentham-Regular.ttf"
+    dest_file: "Bentham-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

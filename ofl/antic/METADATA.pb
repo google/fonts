@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-31"
 source {
-  repository_url: "https://github.com/librefonts/antic"
-  commit: "928c13650dfb95b24baa3eb44edefadec9635423"
+  repository_url: "https://github.com/googlefonts/antic"
+  commit: "3ec1e049557adb294e645099745789a63feba703"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Antic-Regular.ttf"
+    dest_file: "Antic-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

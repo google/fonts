@@ -4,8 +4,30 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-05-18"
 source {
-  repository_url: "https://github.com/librefonts/caudex"
-  commit: "901fb15160f96cb5a2b91e48a6d89d9c18c6f6d5"
+  repository_url: "https://github.com/googlefonts/caudex"
+  commit: "2cd095f7ea63c324e8a5f0135acb6a330f2842f8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Caudex-Bold.ttf"
+    dest_file: "Caudex-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Caudex-BoldItalic.ttf"
+    dest_file: "Caudex-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Caudex-Italic.ttf"
+    dest_file: "Caudex-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Caudex-Regular.ttf"
+    dest_file: "Caudex-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

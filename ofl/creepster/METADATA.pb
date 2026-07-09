@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/creepster"
-  commit: "f6eec0d741fd8ecba905f403d77c073f2e8be7f6"
+  repository_url: "https://github.com/googlefonts/creepster"
+  commit: "1c79da6f4d0cc0835ba16d20aba5c113e6245e7e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Creepster-Regular.ttf"
+    dest_file: "Creepster-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

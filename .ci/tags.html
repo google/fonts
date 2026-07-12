@@ -213,32 +213,29 @@
   }
 
   class FontTag {
-    constructor(name, axes, category, score = 0, providence = "") {
+    constructor(name, axes, category, score = 0) {
         this.name = name;
         this.axes = axes;
         this.category = category;
         this.score = score;
-        this.providence = providence;
     }
     static fromCsv(line) {
-      const [name, axes, category, score, providence] = parseCSVLine(line);
-      return new FontTag(name, axes, category, score, providence || "");
+      const [name, axes, category, score] = parseCSVLine(line);
+      return new FontTag(name, axes, category, score);
     }
     isVF() {
       return this.axes.length > 0;
     }
 
     toCsv() {
-        const prov = this.providence ? `,${this.providence}` : "";
         if (this.axes.includes(",")) {
-          return `${this.name},"${this.axes}",${this.category},${this.score}${prov}`;
+          return `${this.name},"${this.axes}",${this.category},${this.score}`;
         }
-        return `${this.name},${this.axes},${this.category},${this.score}${prov}`;
+        return `${this.name},${this.axes},${this.category},${this.score}`;
     }
 
     toTag() {
-      const prov = this.providence ? `,${this.providence}` : "";
-      return `${this.name},${this.axes},${this.category},${this.score}${prov}`;
+      return `${this.name},${this.axes},${this.category},${this.score}`;
     }
     get tag() {
       return this.toTag();
@@ -815,7 +812,7 @@ function axesCombos(axes) {
           })
           .then(csvText => {
             this.tags = this.parseCSV(csvText);
-            csvText = "Family,Axes,Group/Tag,Weight,Providence\r\n" + csvText;
+            csvText = "Family,Axes,Group/Tag,Weight\r\n" + csvText;
         })
       },
       parseCSV(text) {

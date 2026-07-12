@@ -32,8 +32,8 @@ def main():
 	if len(args) > 1:
 		sys.exit("Too many args")
 
-	with open('families.csv', encoding='utf-8') as f:
-		reader = csv.DictReader(f, fieldnames=["Family", "Axes", "Group/Tag", "Weight", "Providence"])
+	with open('families.csv') as f:
+		reader = csv.DictReader(f)
 		records = [r for r in reader]
 
 	count_by_family = collections.defaultdict(int)

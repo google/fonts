@@ -24,7 +24,8 @@ def family_tags():
     for row in reader:
         if not row:
             continue
-        res.append([row[0], row[1], row[2], float(row[3])])
+        providence = row[4] if len(row) > 4 else ""
+        res.append([row[0], row[1], row[2], float(row[3]), providence])
     return res
 
 
@@ -59,7 +60,7 @@ def test_categories_exist(family_tags, tags_metadata):
     tags_metadata.csv file
     """
     meta_categories = set(tags_metadata)
-    families_categories = set(cat for _, _, cat, _ in family_tags)
+    families_categories = set(cat for _, _, cat, *_ in family_tags)
     missing = families_categories - meta_categories
     assert not missing, f"Missing categories: {missing}"
 
@@ -67,7 +68,7 @@ def test_categories_exist(family_tags, tags_metadata):
 def test_no_duplicate_families(family_tags):
     seen = set()
     dups = []
-    for family, axes, cat, _ in family_tags:
+    for family, axes, cat, *_ in family_tags:
         key = (family, axes, cat)
         if key in seen:
             dups.append(",".join(key))
@@ -77,7 +78,7 @@ def test_no_duplicate_families(family_tags):
 
 def test_tag_vals_in_range(family_tags):
     out_of_range = []
-    for family, axes, cat, val in family_tags:
+    for family, axes, cat, val, *_ in family_tags:
         # Default baseline instances (empty axes string) must be 1-100.
         # Variation coordinate overrides (non-empty axes) are allowed to be 0.
         min_allowed = 1 if axes == "" else 0

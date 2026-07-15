@@ -10,6 +10,7 @@ import glob
 import json
 import csv
 import time
+import threading
 import concurrent.futures
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,6 +23,8 @@ if ci_dir not in sys.path:
 
 from autoupdater.orchestrator import AutoUpdatePipeline
 from autoupdater.metadata_parser import load_metadata_pb
+
+pr_lock = threading.Lock()
 
 
 def format_eta(seconds: float) -> str:
@@ -121,9 +124,20 @@ def export_csv_report(results: List[Dict[str, Any]], output_filepath: str = "cat
 
 
 def process_single_family(item):
-    filepath, meta, pipeline = item
+    filepath, meta, pipeline, max_prs, pr_counter, base_branch = item
+
+    should_create_pr = False
+    if max_prs > 0:
+        with pr_lock:
+            if pr_counter[0] < max_prs:
+                should_create_pr = True
+
     try:
-        res = pipeline.process_family(filepath)
+        res = pipeline.process_family(filepath, create_pr=should_create_pr, base_branch=base_branch)
+        
+        if res.get("has_update") and res.get("pr_info") and res["pr_info"].get("created"):
+            with pr_lock:
+                pr_counter[0] += 1
         return res
     except Exception as e:
         return {
@@ -141,8 +155,9 @@ def run_full_catalog_audit(
     db_path: str = "gf_catalog_full_audit.db",
     progress_file: str = "gf_audit_progress.json",
     log_interval: int = 50,
+    max_prs: int = 1,
+    base_branch: str = "main",
 ) -> Dict[str, Any]:
-
     pattern = os.path.join(fonts_repo_path, "*", "*", "METADATA.pb")
     pb_files = glob.glob(pattern)
 
@@ -166,10 +181,11 @@ def run_full_catalog_audit(
         print("⚠️ No valid font families to process.")
         return {"catalog_summary": {"total_audited": 0}}
 
-    work_items = [(f, meta, pipeline) for f, meta in target_families]
+    pr_counter = [0]
+    work_items = [(f, meta, pipeline, max_prs, pr_counter, base_branch) for f, meta in target_families]
     results = []
 
-    print(f"\n🚀 Launching multi-threaded GFAU audit sweep ({total_count} families, {max_workers} worker threads)...")
+    print(f"\n🚀 Launching multi-threaded GFAU audit sweep ({total_count} families, {max_workers} worker threads, max PRs: {max_prs})...")
     print("=" * 95)
 
     start_time = time.time()
@@ -224,6 +240,7 @@ def run_full_catalog_audit(
                 "needs_review_count": needs_review_count,
                 "blocked_count": blocked_count,
                 "error_count": error_count,
+                "prs_created": pr_counter[0],
                 "last_processed": family_name,
                 "last_status": "UPDATED" if has_up else status,
             }
@@ -241,7 +258,7 @@ def run_full_catalog_audit(
                 sys.stdout.flush()
 
     print("=" * 95)
-    print("✅ Catalog audit sweep completed!")
+    print(f"✅ Catalog audit sweep completed! Created {pr_counter[0]} PR(s).")
 
     not_safe_count = needs_review_count + blocked_count
     total_elapsed = round(time.time() - start_time, 2)
@@ -258,6 +275,7 @@ def run_full_catalog_audit(
             "families_audited": total_count,
             "elapsed_time_seconds": total_elapsed,
             "average_rate_per_sec": round(total_count / total_elapsed, 2) if total_elapsed > 0 else 0,
+            "prs_created": pr_counter[0],
         },
         "update_breakdown": {
             "total_updated": updated_count,
@@ -276,7 +294,6 @@ def run_full_catalog_audit(
         "updated_families_list": updated_families[:25],
     }
 
-    # Generate human-readable exports
     generate_markdown_report(report, results, output_filepath="catalog_audit_report.md")
     export_csv_report(results, output_filepath="catalog_audit_report.csv")
     Path("catalog_audit_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
@@ -302,11 +319,25 @@ if __name__ == "__main__":
     if len(sys.argv) > 3:
         max_workers = int(sys.argv[3])
 
-    log_interval = 20
+    log_interval = 50
     if len(sys.argv) > 4:
         log_interval = int(sys.argv[4])
 
-    report = run_full_catalog_audit(fonts_repo, max_families=max_families, max_workers=max_workers, log_interval=log_interval)
+    max_prs = 1
+    if len(sys.argv) > 5:
+        max_prs = int(sys.argv[5])
+
+    base_branch = "main"
+    if len(sys.argv) > 6:
+        base_branch = sys.argv[6]
+
+    report = run_full_catalog_audit(
+        fonts_repo,
+        max_families=max_families,
+        max_workers=max_workers,
+        log_interval=log_interval,
+        max_prs=max_prs,
+        base_branch=base_branch,
+    )
     print("\n=================== FULL CATALOG AUDIT REPORT ===================")
     print(json.dumps(report, indent=2))
-

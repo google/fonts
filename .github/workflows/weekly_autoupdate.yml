@@ -20,6 +20,14 @@ on:
         description: 'Parallel worker threads'
         required: false
         default: '10'
+      max_prs:
+        description: 'Maximum PRs to submit (default: 1 for first located update)'
+        required: false
+        default: '1'
+      base_branch:
+        description: 'Base branch for PR submission (default: main)'
+        required: false
+        default: 'main'
 
 permissions:
   contents: write
@@ -54,20 +62,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install fontTools requests
 
-      - name: Run Upstream Update Audit Sweep
+      - name: Run Upstream Update Audit Sweep & Submit PR
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TARGET_FAMILY="${{ github.event.inputs.target_family }}"
           MAX_FAMILIES="${{ github.event.inputs.max_families || '2000' }}"
           MAX_WORKERS="${{ github.event.inputs.max_workers || '10' }}"
+          MAX_PRS="${{ github.event.inputs.max_prs || '1' }}"
+          BASE_BRANCH="${{ github.event.inputs.base_branch || 'main' }}"
           
           if [ -n "$TARGET_FAMILY" ]; then
-            echo "Running targeted update check on: $TARGET_FAMILY"
-            PYTHONPATH=.ci python3 -m autoupdater.cli --metadata "$TARGET_FAMILY"
+            echo "Running targeted update check on: $TARGET_FAMILY (creating PR to $BASE_BRANCH)..."
+            PYTHONPATH=.ci python3 -m autoupdater.cli --metadata "$TARGET_FAMILY" --create-pr --base-branch "$BASE_BRANCH"
           else
-            echo "Running full catalog update audit across $MAX_FAMILIES families ($MAX_WORKERS workers)..."
-            PYTHONPATH=.ci python3 .ci/autoupdater/catalog_audit.py . "$MAX_FAMILIES" "$MAX_WORKERS"
+            echo "Running full catalog update audit across $MAX_FAMILIES families ($MAX_WORKERS workers, max PRs: $MAX_PRS, base branch: $BASE_BRANCH)..."
+            PYTHONPATH=.ci python3 .ci/autoupdater/catalog_audit.py . "$MAX_FAMILIES" "$MAX_WORKERS" 50 "$MAX_PRS" "$BASE_BRANCH"
           fi
 
       - name: Publish Step Summary Report

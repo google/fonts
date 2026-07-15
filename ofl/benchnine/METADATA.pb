@@ -4,8 +4,26 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-24"
 source {
-  repository_url: "https://github.com/librefonts/benchnine"
-  commit: "0b2979e19186f9b477fd3bde7ae77932933707eb"
+  repository_url: "https://github.com/googlefonts/benchnine"
+  commit: "dd9d771443fa68ea48ef0819d28fc64e0fded42f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BenchNine-Bold.ttf"
+    dest_file: "BenchNine-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BenchNine-Light.ttf"
+    dest_file: "BenchNine-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BenchNine-Regular.ttf"
+    dest_file: "BenchNine-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

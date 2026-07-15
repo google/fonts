@@ -1,54 +1,26 @@
 # Average Sans
 
-**Date investigated**: 2026-02-26
-**Status**: missing_config
-**Designer**: Eduardo Tunni
-**METADATA.pb path**: `ofl/averagesans/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | -- |
-| Commit | -- |
-| Config YAML | -- |
-| Branch | -- |
+Google Fonts shipped Average Sans (Regular) built from FontForge SFD sources at https://github.com/librefonts/averagesans. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## How the Repository URL Was Found
+## Actions taken
 
-No repository URL is documented in the METADATA.pb (there is no `source { }` block at all). The designer Eduardo Tunni does not have an "averagesans" or "average-sans" repository on his GitHub account (etunni). His GitHub profile lists many font repos (including `average` for the serif sister family), but no Average Sans repo.
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The non-breaking space (U+00A0) advance width was corrected in the converted source.
+- A new Unified Font Repository was created at https://github.com/googlefonts/averagesans, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-A legacy `librefonts/averagesans` repository exists at https://github.com/librefonts/averagesans, created in July 2014. However, this is a legacy mirror containing only TTX (decompiled font) files and old binary sources (.vfb, .sfd). It has no `.glyphs`, `.designspace`, or `config.yaml` files, making it unsuitable as a build source for gftools-builder. The repo has not been updated since 2014.
+## Final state
 
-No other upstream repository with proper sources was found.
-
-## How the Commit Hash Was Identified
-
-N/A -- No proper upstream repository with build-compatible sources exists.
-
-The last TTF-modifying commit in google/fonts is `76f813683` ("hotfix-averagesans: v1.002 added", PR #835, by m4rc1e). This was a hotfix merged on 2017-08-07, with an empty PR body and no reference to an upstream commit.
-
-## How Config YAML Was Resolved
-
-No `config.yaml` exists in the upstream repo (librefonts/averagesans) or in the google/fonts family directory (`ofl/averagesans/`). The librefonts repo contains only legacy source files:
-- `src/AverageSans-Regular-OTF.vfb` (FontLab binary)
-- `src/AverageSans-Regular-TTF.sfd` (FontForge source)
-- TTX (decompiled font) files
-
-These formats are not compatible with gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` sources with a `config.yaml`.
+The source now lives at https://github.com/googlefonts/averagesans (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binaries.
 
 ## Verification
 
-- Commit exists in upstream repo: N/A
-- Commit date: N/A
-- Commit message: N/A
-- Source files at commit: Only legacy .vfb/.sfd in librefonts/averagesans
+The rebuilt font matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The sole difference is that 20 glyphs were renamed to their production names, which leaves glyph coverage unchanged; this is why the verdict is functional rather than byte-identical.
 
-## Confidence
+## Original repository (dormant)
 
-**High**: There is high confidence that no proper upstream repository with gftools-builder-compatible sources exists. Eduardo Tunni's GitHub has a repo for the serif "Average" family but not for "Average Sans". The only available repo (librefonts/averagesans) is a legacy mirror with no modern build sources.
-
-## Open Questions
-
-1. Does Eduardo Tunni have the Average Sans .glyphs source file? His "average" repo has `sources/Average.glyphs` for the serif family -- he may have a similar .glyphs file for Average Sans that was never published to GitHub.
-2. Should a new upstream repo be created (or the existing one updated) with modern source files to enable rebuilding?
+The original FontForge sources are at https://github.com/librefonts/averagesans (`.sfd`), latest at commit `79216d6e944c1c35f1b8f4a1a9f50ad9ee73868c`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

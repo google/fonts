@@ -154,3 +154,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Auto-updater runtime artifacts
+catalog_audit_report.*
+gf_audit_progress.json
+gf_catalog_full_audit.db
+gf_autoupdater_state.db
+

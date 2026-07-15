@@ -1,55 +1,26 @@
 # Boogaloo
 
-**Date investigated**: 2026-02-26
-**Status**: missing_config
-**Designer**: John Vargas Beltran
-**METADATA.pb path**: `ofl/boogaloo/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/boogaloo |
-| Commit | `9837380f883a9af75b9d4a9767020c1b1abc771a` |
-| Config YAML | N/A (SFD-only sources, not gftools-builder compatible) |
-| Branch | `master` |
+Google Fonts shipped Boogaloo (Regular) built from FontForge SFD sources at https://github.com/librefonts/boogaloo. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## How the Repository URL Was Found
+## Actions taken
 
-The repository URL `https://github.com/librefonts/boogaloo` was added to the METADATA.pb source block in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files", 2026-02-25) by Felipe Sanches. The `librefonts` GitHub organization hosts many libre/open font projects including Boogaloo.
+- The canonical FontForge SFD source (`Boogaloo-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The non-breaking space (U+00A0) advance width was corrected to match the space glyph (484 units).
+- A new Unified Font Repository was created at https://github.com/googlefonts/boogaloo, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-## How the Commit Hash Was Identified
+## Final state
 
-The commit hash `9837380f883a9af75b9d4a9767020c1b1abc771a` was added in the same batch commit `9a14639f3` (2026-02-25). This commit ("update .travis.yml") is the latest commit (HEAD) in the upstream repository.
-
-The font was last updated in google/fonts via PR #863 ("hotfix-boogaloo: v1.002 added") by Marc Foley (2017-08-07). The PR body was empty, providing no specific upstream commit reference. Given that the upstream repo contains only legacy sources (SFD format), the HEAD commit is the most reasonable reference point.
-
-The METADATA.pb does not have a full `source { }` block with files/branch/config_yaml -- only the repository_url and commit hash were added.
-
-## How Config YAML Was Resolved
-
-There is no `config.yaml` in the upstream repository and none is expected. The upstream contains only legacy FontForge source files:
-
-- `src/Boogaloo-Regular-TTF.sfd` (FontForge SFD format)
-- Various TTX table dumps at the repo root
-
-SFD sources are not compatible with gftools-builder, so no config.yaml can be created. There is also no override config.yaml in the google/fonts family directory (`ofl/boogaloo/`).
-
-The METADATA.pb currently has no `source { }` block with `config_yaml` -- only a bare source block with `repository_url` and `commit`.
+The source now lives at https://github.com/googlefonts/boogaloo (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
 ## Verification
 
-- Commit exists in upstream repo: Yes (HEAD of master)
-- Commit message: "update .travis.yml"
-- Source files at commit: `src/Boogaloo-Regular-TTF.sfd` (FontForge format)
-- No config.yaml in upstream repo: Confirmed
-- No override config.yaml in google/fonts: Confirmed
-- Source type: SFD only (not gftools-builder compatible)
+The rebuilt font matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that 15 glyphs were renamed to their production names; character coverage is unchanged, so this is accepted.
 
-## Confidence
+## Original repository (dormant)
 
-**High**: The repository URL is well-established under the `librefonts` organization. The commit hash is HEAD of the repo, which is appropriate for a legacy font with SFD-only sources. The lack of config.yaml is expected and correctly documented as `missing_config` status.
-
-## Open Questions
-
-1. Could the SFD source be converted to a modern format (UFO or Glyphs) to enable gftools-builder compilation in the future? This would require creating an override config.yaml in google/fonts.
+The original FontForge sources are at https://github.com/librefonts/boogaloo (`.sfd`), latest at commit `9837380f883a9af75b9d4a9767020c1b1abc771a`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

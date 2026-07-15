@@ -4,8 +4,22 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-02-16"
 source {
-  repository_url: "https://github.com/librefonts/astloch"
-  commit: "d15f7a51db3956d34a87ac47c532eae74237f07f"
+  repository_url: "https://github.com/googlefonts/astloch"
+  commit: "48ba7212e16d35d8f5991fac7f46c8c134106d30"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Astloch-Bold.ttf"
+    dest_file: "Astloch-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Astloch-Regular.ttf"
+    dest_file: "Astloch-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

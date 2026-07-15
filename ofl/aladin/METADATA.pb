@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-30"
 source {
-  repository_url: "https://github.com/librefonts/aladin"
-  commit: "0f5d0578e592bfa8431072ad4f1a557fb74c165b"
+  repository_url: "https://github.com/googlefonts/aladin"
+  commit: "b9b4da7c18ceab08e86942dd5a0a181a6f2d1be3"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Aladin-Regular.ttf"
+    dest_file: "Aladin-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

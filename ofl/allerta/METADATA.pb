@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-11-30"
 source {
-  repository_url: "https://github.com/librefonts/allerta"
-  commit: "88a8c57b949cb8224f24815d5d3aa05d4950de69"
+  repository_url: "https://github.com/googlefonts/allerta"
+  commit: "2efd2499258022f0a5b1887da95ecfc62a5793cd"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Allerta-Regular.ttf"
+    dest_file: "Allerta-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

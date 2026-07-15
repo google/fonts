@@ -27,6 +27,11 @@ def main():
         help="Path to family METADATA.pb file to check and process.",
     )
     parser.add_argument(
+        "--db",
+        default="gf_autoupdater_state.db",
+        help="Path to SQLite state database file (default: gf_autoupdater_state.db).",
+    )
+    parser.add_argument(
         "--create-pr",
         action="store_true",
         help="Create git feature branch and open Pull Request on GitHub.",
@@ -36,6 +41,7 @@ def main():
         default="main",
         help="Base branch for PR (default: main).",
     )
+
 
     args = parser.parse_args()
 

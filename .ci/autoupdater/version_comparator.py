@@ -127,6 +127,7 @@ def compare_version_numbers(v1: str, v2: str) -> int:
     """
     Compare numerical version strings v1 vs v2.
     Returns 1 if v1 > v2, -1 if v1 < v2, 0 if v1 == v2.
+    Accurately compares decimal values (e.g. 4.1 > 4.001) and dot-separated SemVer strings.
     """
     if not v1 and not v2:
         return 0
@@ -135,17 +136,37 @@ def compare_version_numbers(v1: str, v2: str) -> int:
     if not v2:
         return 1
 
-    def to_nums(v):
-        return [int(p) for p in re.findall(r'\d+', v)]
+    clean1 = v1.strip().lstrip("vV")
+    clean2 = v2.strip().lstrip("vV")
 
-    n1 = to_nums(v1)
-    n2 = to_nums(v2)
+    try:
+        f1 = float(clean1)
+        f2 = float(clean2)
+        if f1 > f2:
+            return 1
+        elif f1 < f2:
+            return -1
+        else:
+            return 0
+    except ValueError:
+        pass
 
-    if n1 > n2:
+    parts1 = clean1.split(".")
+    parts2 = clean2.split(".")
+    for p1, p2 in zip(parts1, parts2):
+        if p1.isdigit() and p2.isdigit():
+            i1, i2 = int(p1), int(p2)
+            if i1 != i2:
+                return 1 if i1 > i2 else -1
+            if len(p1) != len(p2):
+                return -1 if p1.startswith("0") else 1
+
+    if len(parts1) > len(parts2):
         return 1
-    elif n1 < n2:
+    elif len(parts1) < len(parts2):
         return -1
     return 0
+
 
 
 def compare_local_vs_upstream(

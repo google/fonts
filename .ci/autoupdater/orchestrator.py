@@ -76,6 +76,10 @@ class AutoUpdatePipeline:
             return {
                 "family_name": meta.name,
                 "has_update": False,
+                "current_version": check_result.current_version,
+                "upstream_version": check_result.upstream_version,
+                "current_commit": check_result.current_commit,
+                "upstream_commit": check_result.upstream_commit,
                 "status": status_str,
                 "error": check_result.error,
             }
@@ -94,6 +98,10 @@ class AutoUpdatePipeline:
                 return {
                     "family_name": meta.name,
                     "has_update": False,
+                    "current_version": check_result.current_version,
+                    "upstream_version": check_result.upstream_version,
+                    "current_commit": check_result.current_commit,
+                    "upstream_commit": check_result.upstream_commit,
                     "status": "NO_TTF_BINARY_CHANGE",
                     "message": "Candidate TTF binaries are 100% byte-for-byte identical to existing Google Fonts TTFs.",
                 }
@@ -115,6 +123,7 @@ class AutoUpdatePipeline:
         updated_pb_content = update_metadata_pb(meta, new_commit=check_result.upstream_commit)
 
         # Record pipeline completion
+        status_val = "PR_READY" if not should_auto_merge else "AUTO_MERGED"
         check_id = self.state_store.record_check_result(
             family_name=meta.name,
             has_update=True,
@@ -123,16 +132,22 @@ class AutoUpdatePipeline:
             upstream_commit=check_result.upstream_commit,
             safety_score=score_info.composite_score,
             safety_tier=score_info.safety_tier.value,
-            status="PR_READY" if not should_auto_merge else "AUTO_MERGED",
+            status=status_val,
         )
 
         return {
             "family_name": meta.name,
             "has_update": True,
             "check_id": check_id,
+            "current_version": check_result.current_version,
+            "upstream_version": check_result.upstream_version,
+            "current_commit": check_result.current_commit,
+            "upstream_commit": check_result.upstream_commit,
             "safety_score": score_info.composite_score,
             "safety_tier": score_info.safety_tier.value,
             "auto_merge_qualified": should_auto_merge,
+            "status": status_val,
             "pr_body": pr_body,
             "updated_pb_content": updated_pb_content,
         }
+

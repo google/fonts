@@ -68,7 +68,12 @@ class PRCreator:
             # 5. Add and commit METADATA.pb
             subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "add", str(meta_path)], check=True)
             commit_msg = f"Update {family_name} METADATA.pb to upstream {upstream_version or upstream_commit}"
-            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "commit", "-m", commit_msg], check=True)
+            subprocess.run([
+                "git", "-c", "core.hooksPath=/dev/null",
+                "-c", "user.name=github-actions[bot]",
+                "-c", "user.email=github-actions[bot]@users.noreply.github.com",
+                "commit", "-m", commit_msg
+            ], check=True)
 
             # 6. Push branch to origin
             subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "push", "origin", branch_name, "--force"], check=True)
@@ -120,7 +125,6 @@ class PRCreator:
             # Return to original branch
             subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", original_branch], check=False)
 
-
             return {
                 "created": True,
                 "branch_name": branch_name,
@@ -128,10 +132,12 @@ class PRCreator:
                 "status": "PR_CREATED",
             }
         except Exception as e:
-            # Return to original branch on failure
-            subprocess.run(["git", "checkout", original_branch], check=False)
+            # Revert any uncommitted/unstaged changes and restore original branch
+            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", "--", "."], check=False)
+            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", original_branch], check=False)
             return {
                 "created": False,
                 "error": str(e),
                 "status": "PR_CREATION_FAILED",
             }
+

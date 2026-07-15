@@ -62,7 +62,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install fontTools requests
 
+      - name: Configure Git Author Identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Run Upstream Update Audit Sweep & Submit PR
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

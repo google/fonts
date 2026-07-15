@@ -130,22 +130,30 @@ def process_single_family(item):
     if max_prs > 0:
         with pr_lock:
             if pr_counter[0] < max_prs:
+                pr_counter[0] += 1
                 should_create_pr = True
 
     try:
         res = pipeline.process_family(filepath, create_pr=should_create_pr, base_branch=base_branch)
         
-        if res.get("has_update") and res.get("pr_info") and res["pr_info"].get("created"):
-            with pr_lock:
-                pr_counter[0] += 1
+        # If we pre-allocated PR slot but family had no update or PR creation failed, release slot
+        if should_create_pr:
+            pr_created = res.get("has_update") and res.get("pr_info") and res["pr_info"].get("created")
+            if not pr_created:
+                with pr_lock:
+                    pr_counter[0] = max(0, pr_counter[0] - 1)
         return res
     except Exception as e:
+        if should_create_pr:
+            with pr_lock:
+                pr_counter[0] = max(0, pr_counter[0] - 1)
         return {
             "family_name": meta.name if meta else Path(filepath).parent.name,
             "has_update": False,
             "error": str(e),
             "status": "ERROR",
         }
+
 
 
 def run_full_catalog_audit(

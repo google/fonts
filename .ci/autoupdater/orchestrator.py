@@ -19,6 +19,7 @@ from .regression_engine import (
 )
 from .report_generator import generate_pr_body
 from .state_store import StateStore
+from .pr_creator import PRCreator
 
 
 class AutoUpdatePipeline:
@@ -29,6 +30,7 @@ class AutoUpdatePipeline:
         self.fetcher = ArtifactFetcher()
         self.regression_engine = RegressionEngine()
         self.state_store = StateStore(db_path=state_db_path)
+        self.pr_creator = PRCreator()
 
     def evaluate_auto_merge(self, score_info: SafetyScoreBreakdown, family_meta: FamilyMetadata) -> bool:
         """
@@ -47,6 +49,8 @@ class AutoUpdatePipeline:
         metadata_filepath: str,
         mock_diff_result: Optional[DiffenatorResult] = None,
         candidate_ttf_fonts: Optional[List[tuple]] = None,
+        create_pr: bool = False,
+        base_branch: str = "main",
     ) -> Dict[str, Any]:
         """
         Execute full end-to-end update workflow for a font family metadata file.
@@ -122,8 +126,26 @@ class AutoUpdatePipeline:
         pr_body = generate_pr_body(meta, check_result, score_info, diff_res, qa_res)
         updated_pb_content = update_metadata_pb(meta, new_commit=check_result.upstream_commit)
 
+        # Update METADATA.pb locally
+        meta_path.write_text(updated_pb_content, encoding="utf-8")
+
+        pr_info = None
+        if create_pr:
+            version_str = check_result.upstream_version or (check_result.upstream_commit[:7] if check_result.upstream_commit else "update")
+            pr_title = f"🤖 Update upstream font: {meta.name} v{version_str}"
+            pr_info = self.pr_creator.create_pull_request(
+                family_name=meta.name,
+                metadata_filepath=str(meta_path),
+                updated_pb_content=updated_pb_content,
+                pr_title=pr_title,
+                pr_body=pr_body,
+                upstream_version=check_result.upstream_version,
+                upstream_commit=check_result.upstream_commit,
+                base_branch=base_branch,
+            )
+
         # Record pipeline completion
-        status_val = "PR_READY" if not should_auto_merge else "AUTO_MERGED"
+        status_val = "PR_CREATED" if (pr_info and pr_info.get("created")) else ("PR_READY" if not should_auto_merge else "AUTO_MERGED")
         check_id = self.state_store.record_check_result(
             family_name=meta.name,
             has_update=True,
@@ -147,7 +169,9 @@ class AutoUpdatePipeline:
             "safety_tier": score_info.safety_tier.value,
             "auto_merge_qualified": should_auto_merge,
             "status": status_val,
+            "pr_info": pr_info,
             "pr_body": pr_body,
             "updated_pb_content": updated_pb_content,
         }
+
 

@@ -140,7 +140,7 @@ def run_full_catalog_audit(
     max_workers: int = 10,
     db_path: str = "gf_catalog_full_audit.db",
     progress_file: str = "gf_audit_progress.json",
-    log_interval: int = 20,
+    log_interval: int = 50,
 ) -> Dict[str, Any]:
 
     pattern = os.path.join(fonts_repo_path, "*", "*", "METADATA.pb")

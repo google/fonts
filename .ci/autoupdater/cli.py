@@ -27,9 +27,14 @@ def main():
         help="Path to family METADATA.pb file to check and process.",
     )
     parser.add_argument(
-        "--db",
-        default="gf_autoupdater_state.db",
-        help="Path to SQLite state database file (default: gf_autoupdater_state.db).",
+        "--create-pr",
+        action="store_true",
+        help="Create git feature branch and open Pull Request on GitHub.",
+    )
+    parser.add_argument(
+        "--base-branch",
+        default="main",
+        help="Base branch for PR (default: main).",
     )
 
     args = parser.parse_args()
@@ -39,8 +44,9 @@ def main():
         sys.exit(1)
 
     pipeline = AutoUpdatePipeline(state_db_path=args.db)
-    result = pipeline.process_family(args.metadata)
+    result = pipeline.process_family(args.metadata, create_pr=args.create_pr, base_branch=args.base_branch)
     print(json.dumps(result, indent=2))
+
 
 
 if __name__ == "__main__":

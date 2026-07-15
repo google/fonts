@@ -1,52 +1,26 @@
 # Arbutus
 
-**Status**: `missing_config`
-**Date**: 2026-02-25
-**Designer**: Karolina Lach
-**License**: OFL
-**METADATA.pb**: `ofl/arbutus/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/arbutus |
-| Commit | `413fe5b2122e7a4d1ce6c604000f368a6bf8f6ac` |
-| Config YAML | — |
-| Branch | `master` |
-| Source types | sfd |
+Google Fonts shipped Arbutus (Regular) built from FontForge SFD sources at https://github.com/librefonts/arbutus. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## Methodology
+## Actions taken
 
-### Repository URL
-Discovered via google/fonts commit history, PR references, or GitHub search.
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion the no-break space (U+00A0) advance width was corrected to 838 to match the space glyph.
+- A new Unified Font Repository was created at https://github.com/googlefonts/arbutus, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-### Commit Hash
-Used HEAD of upstream repository (latest commit at time of onboarding).
-- Commit date: 2014-10-17 13:29:22 +0300
-- Commit message: "update .travis.yml"
+## Final state
 
-### Config YAML
-Not applicable — upstream repo contains only FontForge .sfd sources, which are not compatible with gftools-builder.
+The source now lives at https://github.com/googlefonts/arbutus (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binaries.
 
-## Evidence
+## Verification
 
-### METADATA.pb source block
-No source block present in METADATA.pb.
+The rebuilt Arbutus Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets and advance widths. Remaining differences are benign: 22 glyphs were renamed to production names (coverage unchanged), and GDEF now classifies one real combining mark the shipped font missed (uni0326). Verdict: FUNCTIONAL parity.
 
-### google/fonts history
-- Last font modification: `703fd66d131c`
-- Date: 2017-08-07 21:30:16 +0100
-- Subject: "hotfix-arbutus: v1.003 added (#819)"
+## Original repository (dormant)
 
-### Upstream repo cache
-- Cached at: `librefonts/arbutus`
-- Commit `413fe5b2122e` verified ✓
-
-## Confidence
-
-**Medium**: URL discovered via research; commit verified in upstream repo
-
-## Notes
-
-SFD-only sources (FontForge format), not gftools-builder compatible
+The original FontForge sources are at https://github.com/librefonts/arbutus (`.sfd`), latest at commit `413fe5b2122e7a4d1ce6c604000f368a6bf8f6ac`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

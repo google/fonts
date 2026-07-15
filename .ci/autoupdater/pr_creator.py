@@ -30,13 +30,8 @@ class PRCreator:
         upstream_version: Optional[str] = None,
         upstream_commit: Optional[str] = None,
         base_branch: str = "main",
-        dry_run: bool = False,
     ) -> Dict[str, Any]:
         meta_path = Path(metadata_filepath)
-
-        # 1. Write updated METADATA.pb
-        meta_path.write_text(updated_pb_content, encoding="utf-8")
-
         family_slug = re.sub(r'[^a-zA-Z0-9_-]', '', family_name.lower().replace(" ", "-"))
         version_clean = re.sub(r'[^a-zA-Z0-9_.-]', '', upstream_version or "latest")
         commit_short = (upstream_commit[:7] if upstream_commit else "")
@@ -51,10 +46,11 @@ class PRCreator:
                 "dry_run": True,
                 "branch_name": branch_name,
                 "title": pr_title,
-                "message": "Dry-run mode: METADATA.pb updated locally, PR creation skipped.",
+                "message": "Dry-run mode: PR creation skipped.",
             }
 
         try:
+
             # 2. Record current branch
             curr_branch_res = subprocess.run(
                 ["git", "rev-parse", "--abbrev-ref", "HEAD"],
@@ -65,10 +61,14 @@ class PRCreator:
             # 3. Create and checkout feature branch
             subprocess.run(["git", "checkout", "-B", branch_name], check=True)
 
-            # 4. Add and commit METADATA.pb
+            # 4. Write updated METADATA.pb on the new feature branch
+            meta_path.write_text(updated_pb_content, encoding="utf-8")
+
+            # 5. Add and commit METADATA.pb
             subprocess.run(["git", "add", str(meta_path)], check=True)
             commit_msg = f"Update {family_name} METADATA.pb to upstream {upstream_version or upstream_commit}"
             subprocess.run(["git", "commit", "-m", commit_msg], check=True)
+
 
             # 5. Push branch to origin
             subprocess.run(["git", "push", "origin", branch_name, "--force"], check=True)

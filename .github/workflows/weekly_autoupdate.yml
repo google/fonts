@@ -2,6 +2,8 @@
 name: Weekly Font Upstream Auto-Updater
 
 on:
+  push:
+    branches: [auto_updater]
   schedule:
     - cron: '0 0 * * 0'  # Runs weekly every Sunday at 00:00 UTC
   workflow_dispatch:

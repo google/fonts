@@ -126,33 +126,48 @@ def export_csv_report(results: List[Dict[str, Any]], output_filepath: str = "cat
 def process_single_family(item):
     filepath, meta, pipeline, max_prs, pr_counter, base_branch = item
 
-    should_create_pr = False
-    if max_prs > 0:
-        with pr_lock:
-            if pr_counter[0] < max_prs:
-                pr_counter[0] += 1
-                should_create_pr = True
-
     try:
-        res = pipeline.process_family(filepath, create_pr=should_create_pr, base_branch=base_branch)
-        
-        # If we pre-allocated PR slot but family had no update or PR creation failed, release slot
-        if should_create_pr:
-            pr_created = res.get("has_update") and res.get("pr_info") and res["pr_info"].get("created")
-            if not pr_created:
-                with pr_lock:
-                    pr_counter[0] = max(0, pr_counter[0] - 1)
+        # Step 1: Run standard pipeline check in-memory without disk mutations
+        res = pipeline.process_family(filepath, create_pr=False, base_branch=base_branch)
+
+        # Step 2: If an update is available, claim PR slot if under max_prs limit
+        if res.get("has_update") and max_prs > 0:
+            should_create_pr = False
+            with pr_lock:
+                if pr_counter[0] < max_prs:
+                    pr_counter[0] += 1
+                    should_create_pr = True
+
+            if should_create_pr:
+                version_str = res.get("upstream_version") or (res.get("upstream_commit")[:7] if res.get("upstream_commit") else "update")
+                pr_title = f"🤖 Update upstream font: {meta.name} v{version_str}"
+                pr_info = pipeline.pr_creator.create_pull_request(
+                    family_name=meta.name,
+                    metadata_filepath=filepath,
+                    updated_pb_content=res.get("updated_pb_content", ""),
+                    pr_title=pr_title,
+                    pr_body=res.get("pr_body", ""),
+                    upstream_version=res.get("upstream_version"),
+                    upstream_commit=res.get("upstream_commit"),
+                    base_branch=base_branch,
+                )
+                res["pr_info"] = pr_info
+                if pr_info and pr_info.get("created"):
+                    res["status"] = "PR_CREATED"
+                else:
+                    # Release slot if PR creation failed so another family can try
+                    with pr_lock:
+                        pr_counter[0] = max(0, pr_counter[0] - 1)
+
         return res
     except Exception as e:
-        if should_create_pr:
-            with pr_lock:
-                pr_counter[0] = max(0, pr_counter[0] - 1)
         return {
             "family_name": meta.name if meta else Path(filepath).parent.name,
             "has_update": False,
             "error": str(e),
             "status": "ERROR",
         }
+
 
 
 

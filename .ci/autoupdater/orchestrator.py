@@ -140,12 +140,10 @@ class AutoUpdatePipeline:
                 upstream_commit=check_result.upstream_commit,
                 base_branch=base_branch,
             )
-        else:
-            meta_path.write_text(updated_pb_content, encoding="utf-8")
-
 
         # Record pipeline completion
         status_val = "PR_CREATED" if (pr_info and pr_info.get("created")) else ("PR_READY" if not should_auto_merge else "AUTO_MERGED")
+
         check_id = self.state_store.record_check_result(
             family_name=meta.name,
             has_update=True,

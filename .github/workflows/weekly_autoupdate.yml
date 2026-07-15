@@ -13,9 +13,10 @@ on:
         required: false
         default: ''
       max_families:
-        description: 'Maximum number of families to audit'
+        description: 'Maximum number of families to audit (0 for all catalog families)'
         required: false
-        default: '2000'
+        default: '0'
+
       max_workers:
         description: 'Parallel worker threads'
         required: false
@@ -73,7 +74,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TARGET_FAMILY="${{ github.event.inputs.target_family }}"
-          MAX_FAMILIES="${{ github.event.inputs.max_families || '2000' }}"
+          MAX_FAMILIES="${{ github.event.inputs.max_families || '0' }}"
+
           MAX_WORKERS="${{ github.event.inputs.max_workers || '10' }}"
           MAX_PRS="${{ github.event.inputs.max_prs || '1' }}"
           BASE_BRANCH="${{ github.event.inputs.base_branch || 'main' }}"

@@ -80,6 +80,7 @@ class PRCreator:
 
             # 7. Create PR via GitHub REST API
             pr_url = None
+            api_error = None
             if self.token:
                 url = f"https://api.github.com/repos/{self.repo_slug}/pulls"
                 payload = {
@@ -92,8 +93,8 @@ class PRCreator:
                     url,
                     data=json.dumps(payload).encode("utf-8"),
                     headers={
-                        "Authorization": f"token {self.token}",
-                        "Accept": "application/vnd.github.v3+json",
+                        "Authorization": f"Bearer {self.token}",
+                        "Accept": "application/vnd.github+json",
                         "User-Agent": "GoogleFonts-AutoUpdater/1.0.0",
                         "Content-Type": "application/json",
                     },
@@ -104,10 +105,20 @@ class PRCreator:
                         res_data = json.loads(resp.read().decode("utf-8"))
                         pr_url = res_data.get("html_url")
                 except urllib.error.HTTPError as e:
-                    pass
+                    err_text = e.read().decode("utf-8") if e.fp else str(e)
+                    api_error = f"GitHub REST API HTTP {e.code}: {err_text}"
+                    print(f"⚠️ PR Creation API Error: {api_error}")
+                except Exception as e:
+                    api_error = str(e)
+                    print(f"⚠️ PR Creation Network Error: {api_error}")
 
             if not pr_url:
                 # Fallback to gh CLI
+                env = os.environ.copy()
+                if self.token:
+                    env["GITHUB_TOKEN"] = self.token
+                    env["GH_TOKEN"] = self.token
+
                 gh_res = subprocess.run(
                     [
                         "gh", "pr", "create",
@@ -117,20 +128,34 @@ class PRCreator:
                         "--title", pr_title,
                         "--body", pr_body,
                     ],
-                    capture_output=True, text=True
+                    capture_output=True, text=True, env=env
                 )
                 if gh_res.returncode == 0:
                     pr_url = gh_res.stdout.strip()
+                else:
+                    gh_err = gh_res.stderr.strip() or gh_res.stdout.strip()
+                    print(f"⚠️ gh CLI PR Creation Error: {gh_err}")
+                    if not api_error:
+                        api_error = f"gh CLI Error: {gh_err}"
 
             # Return to original branch
             subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", original_branch], check=False)
 
-            return {
-                "created": True,
-                "branch_name": branch_name,
-                "pr_url": pr_url or f"https://github.com/{self.repo_slug}/pulls",
-                "status": "PR_CREATED",
-            }
+            if pr_url:
+                return {
+                    "created": True,
+                    "branch_name": branch_name,
+                    "pr_url": pr_url,
+                    "status": "PR_CREATED",
+                }
+            else:
+                return {
+                    "created": False,
+                    "branch_name": branch_name,
+                    "error": api_error or "Failed to open PR via API or gh CLI",
+                    "status": "PR_CREATION_FAILED",
+                }
+
         except Exception as e:
             # Revert any uncommitted/unstaged changes and restore original branch
             subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", "--", "."], check=False)

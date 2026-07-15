@@ -173,7 +173,7 @@ def process_single_family(item):
 
 def run_full_catalog_audit(
     fonts_repo_path: str = ".",
-    max_families: int = 2000,
+    max_families: int = 0,
     max_workers: int = 10,
     db_path: str = "gf_catalog_full_audit.db",
     progress_file: str = "gf_audit_progress.json",
@@ -197,7 +197,8 @@ def run_full_catalog_audit(
             pass
 
     print(f"🌐 Found {len(valid_families)} families with valid upstream repository URLs.")
-    target_families = valid_families[:max_families]
+    target_families = valid_families[:max_families] if (max_families and max_families > 0) else valid_families
+
     total_count = len(target_families)
 
     if total_count == 0:
@@ -334,9 +335,10 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         fonts_repo = sys.argv[1]
 
-    max_families = 2000
+    max_families = 0
     if len(sys.argv) > 2:
         max_families = int(sys.argv[2])
+
 
     max_workers = 10
     if len(sys.argv) > 3:

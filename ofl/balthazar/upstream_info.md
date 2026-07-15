@@ -1,45 +1,26 @@
 # Balthazar
 
-**Date investigated**: 2026-02-26
-**Status**: missing_config
-**Designer**: Dario Manuel Muhafara
-**METADATA.pb path**: `ofl/balthazar/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/balthazar |
-| Commit | `baa08c6f633b0fda1a83141ce7515441c56e9868` |
-| Config YAML | N/A (no config.yaml exists; sources are not gftools-builder compatible) |
-| Branch | `master` |
+## Initial state
 
-## How the Repository URL Was Found
-The METADATA.pb has no `source {}` block at all. The repository URL was found via the upstream repo cache at `upstream_repos/fontc_crater_cache/librefonts/balthazar/`. The remote URL `https://github.com/librefonts/balthazar` matches the expected pattern for librefonts-hosted legacy Google Fonts projects.
+Google Fonts shipped Balthazar (Regular) built from FontForge SFD sources at https://github.com/librefonts/balthazar. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## How the Commit Hash Was Identified
-The upstream repo has only a single commit: `baa08c6f633b0fda1a83141ce7515441c56e9868` (2014-10-17, "update .travis.yml" by hash3g). This is the only possible reference point. The tracking file already had this commit recorded.
+## Actions taken
 
-## How Config YAML Was Resolved
-No `config.yaml` exists anywhere in the upstream repository. The repository contains only legacy source formats:
-- `.vfb` (FontLab Studio format) - proprietary, cannot be used by gftools-builder
-- `.sfd` (FontForge format) - not directly supported by gftools-builder
-- `.ttx` (TTX/FontTools XML dumps)
+- The canonical FontForge SFD source (`src/Balthazar-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion, stray NUL bytes were stripped and a non-breaking space (U+00A0) was added to match the glyph FontForge used to synthesise at export time.
+- A new Unified Font Repository was created at https://github.com/googlefonts/balthazar, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The font was onboarded to Google Fonts in the very early era (date_added: 2011-12-13, initial commit in google/fonts: 2015-03-07). There is no way to build this font with gftools-builder without first converting the sources to .glyphs or .ufo format.
+## Final state
 
-No override config.yaml exists in the google/fonts family directory either.
+The source now lives at https://github.com/googlefonts/balthazar (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
 ## Verification
-- Commit exists in upstream repo: Yes (it is the only commit)
-- Commit date: 2014-10-17 13:30:20 +0300
-- Commit message: "update .travis.yml"
-- Source files at commit: `src/Balthazar-Regular.vfb`, `src/Balthazar-Regular-TTF.sfd`, various `.ttx` files
-- TTFs last updated in google/fonts: 2015-04-27 (commit 321eeddad, "Updating ofl/balthazar/*ttf with nbspace and fsType fixes")
-- The font binary was likely patched in google/fonts directly, not rebuilt from source
 
-## Confidence
-**High**: The repository URL and commit are confirmed. The status is correctly "missing_config" because the upstream repo lacks both a config.yaml and gftools-builder-compatible source formats.
+Matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. Two benign differences were accepted: the rebuild drops two FontForge legacy glyphs (`.null` and `nonmarkingreturn`) that carry no Unicode coverage, and 8 glyphs were renamed to their production names with no change to coverage.
 
-## Open Questions
-- This is a legacy font with only .vfb/.sfd sources. To make it buildable with gftools-builder, the sources would need to be converted to .glyphs or .ufo format. This is a significant effort and may not be prioritized.
-- The METADATA.pb has no `source {}` block. A source block with repository_url and commit could be added, though config_yaml would still be absent.
+## Original repository (dormant)
+
+The original FontForge sources are at https://github.com/librefonts/balthazar (`.sfd`), latest at commit `baa08c6f633b0fda1a83141ce7515441c56e9868`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

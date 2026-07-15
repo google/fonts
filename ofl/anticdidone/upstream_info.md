@@ -1,52 +1,25 @@
 # Antic Didone
 
-**Status**: `missing_config`
-**Date**: 2026-02-25
-**Designer**: Santiago Orozco
-**License**: OFL
-**METADATA.pb**: `ofl/anticdidone/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/anticdidone |
-| Commit | `604bfcda35327f03964cc6c55a281540ce40b0a0` |
-| Config YAML | — |
-| Branch | `master` |
-| Source types | sfd |
+Google Fonts shipped Antic Didone (Regular) built from FontForge SFD sources at https://github.com/librefonts/anticdidone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## Methodology
+## Actions taken
 
-### Repository URL
-Discovered via google/fonts commit history, PR references, or GitHub search.
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/anticdidone, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-### Commit Hash
-Used HEAD of upstream repository (latest commit at time of onboarding).
-- Commit date: 2014-10-17 13:29:09 +0300
-- Commit message: "update .travis.yml"
+## Final state
 
-### Config YAML
-Not applicable — upstream repo contains only FontForge .sfd sources, which are not compatible with gftools-builder.
+The source now lives at https://github.com/googlefonts/anticdidone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binaries.
 
-## Evidence
+## Verification
 
-### METADATA.pb source block
-No source block present in METADATA.pb.
+The built Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference was 4 glyphs renamed to their production names, which leaves cmap coverage unchanged and is accepted as benign.
 
-### google/fonts history
-- Last font modification: `64099f31be4a`
-- Date: 2017-08-07 21:30:41 +0100
-- Subject: "hotfix-anticdidone: v2.001 added (#817)"
+## Original repository (dormant)
 
-### Upstream repo cache
-- Cached at: `librefonts/anticdidone`
-- Commit `604bfcda3532` verified ✓
-
-## Confidence
-
-**Medium**: URL discovered via research; commit verified in upstream repo
-
-## Notes
-
-SFD-only sources (FontForge format), not gftools-builder compatible
+The original FontForge sources are at https://github.com/librefonts/anticdidone (`.sfd`), latest at commit `604bfcda35327f03964cc6c55a281540ce40b0a0`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

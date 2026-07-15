@@ -30,7 +30,9 @@ class PRCreator:
         upstream_version: Optional[str] = None,
         upstream_commit: Optional[str] = None,
         base_branch: str = "main",
+        dry_run: bool = False,
     ) -> Dict[str, Any]:
+
         meta_path = Path(metadata_filepath)
         family_slug = re.sub(r'[^a-zA-Z0-9_-]', '', family_name.lower().replace(" ", "-"))
         version_clean = re.sub(r'[^a-zA-Z0-9_.-]', '', upstream_version or "latest")

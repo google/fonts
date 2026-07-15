@@ -70,11 +70,21 @@ jobs:
             PYTHONPATH=.ci python3 .ci/autoupdater/catalog_audit.py . "$MAX_FAMILIES" "$MAX_WORKERS"
           fi
 
-      - name: Upload Audit State and Artifacts
+      - name: Publish Step Summary Report
+        if: always()
+        run: |
+          if [ -f catalog_audit_report.md ]; then
+            cat catalog_audit_report.md >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload Human-Readable Audit Artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: autoupdater-audit-report
+          name: autoupdater-human-readable-report
           path: |
+            catalog_audit_report.md
+            catalog_audit_report.csv
+            catalog_audit_report.json
+            gf_audit_progress.json
             gf_catalog_full_audit.db
-            gf_autoupdater_state.db

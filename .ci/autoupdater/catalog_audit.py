@@ -140,8 +140,9 @@ def run_full_catalog_audit(
     max_workers: int = 10,
     db_path: str = "gf_catalog_full_audit.db",
     progress_file: str = "gf_audit_progress.json",
-    log_interval: int = 10,
+    log_interval: int = 20,
 ) -> Dict[str, Any]:
+
     pattern = os.path.join(fonts_repo_path, "*", "*", "METADATA.pb")
     pb_files = glob.glob(pattern)
 
@@ -301,6 +302,11 @@ if __name__ == "__main__":
     if len(sys.argv) > 3:
         max_workers = int(sys.argv[3])
 
-    report = run_full_catalog_audit(fonts_repo, max_families=max_families, max_workers=max_workers, log_interval=5)
+    log_interval = 20
+    if len(sys.argv) > 4:
+        log_interval = int(sys.argv[4])
+
+    report = run_full_catalog_audit(fonts_repo, max_families=max_families, max_workers=max_workers, log_interval=log_interval)
     print("\n=================== FULL CATALOG AUDIT REPORT ===================")
     print(json.dumps(report, indent=2))
+

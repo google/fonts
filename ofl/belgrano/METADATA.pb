@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/belgrano"
-  commit: "9637660aa35d5ad59241a400f78d31413475bb77"
+  repository_url: "https://github.com/googlefonts/belgrano"
+  commit: "e79e00337ef13f738009b16d2909cc2dd17af344"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Belgrano-Regular.ttf"
+    dest_file: "Belgrano-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

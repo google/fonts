@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-03-09"
 source {
-  repository_url: "https://github.com/librefonts/architectsdaughter"
-  commit: "1a94ca0aea18288ee7685ed6aee918b58399a307"
+  repository_url: "https://github.com/googlefonts/architectsdaughter"
+  commit: "0912d302495d684898c33d02a4a0f24f32ec3da3"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ArchitectsDaughter-Regular.ttf"
+    dest_file: "ArchitectsDaughter-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

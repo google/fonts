@@ -4,8 +4,30 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/almendra"
-  commit: "4050b694e01eb3c6083d403d158dfec62f863b5b"
+  repository_url: "https://github.com/googlefonts/almendra"
+  commit: "988cfa73bbc740e8a263da7a9c94c405d1436530"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Almendra-BoldItalic.ttf"
+    dest_file: "Almendra-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Almendra-Bold.ttf"
+    dest_file: "Almendra-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Almendra-Italic.ttf"
+    dest_file: "Almendra-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Almendra-Regular.ttf"
+    dest_file: "Almendra-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

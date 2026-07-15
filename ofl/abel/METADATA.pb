@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-03"
 source {
-  repository_url: "https://github.com/librefonts/abel"
-  commit: "adf2c7e74ecde8ca41959c0d974f039789fe7b9d"
+  repository_url: "https://github.com/googlefonts/abel"
+  commit: "a68e5cfb801dfe266cdd8f5651e977f330757df2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Abel-Regular.ttf"
+    dest_file: "Abel-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

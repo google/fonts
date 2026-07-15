@@ -126,9 +126,6 @@ class AutoUpdatePipeline:
         pr_body = generate_pr_body(meta, check_result, score_info, diff_res, qa_res)
         updated_pb_content = update_metadata_pb(meta, new_commit=check_result.upstream_commit)
 
-        # Update METADATA.pb locally
-        meta_path.write_text(updated_pb_content, encoding="utf-8")
-
         pr_info = None
         if create_pr:
             version_str = check_result.upstream_version or (check_result.upstream_commit[:7] if check_result.upstream_commit else "update")
@@ -143,6 +140,9 @@ class AutoUpdatePipeline:
                 upstream_commit=check_result.upstream_commit,
                 base_branch=base_branch,
             )
+        else:
+            meta_path.write_text(updated_pb_content, encoding="utf-8")
+
 
         # Record pipeline completion
         status_val = "PR_CREATED" if (pr_info and pr_info.get("created")) else ("PR_READY" if not should_auto_merge else "AUTO_MERGED")

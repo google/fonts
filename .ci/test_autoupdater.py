@@ -23,6 +23,7 @@ from autoupdater.regression_engine import (
     QACheckResult,
     SafetyTier,
 )
+from autoupdater.catalog_audit import format_eta, make_progress_bar
 
 
 class TestInternalAutoUpdater(unittest.TestCase):
@@ -63,6 +64,12 @@ class TestInternalAutoUpdater(unittest.TestCase):
         score = engine.calculate_safety_score(diff_res, qa_res)
         self.assertEqual(score.safety_tier, SafetyTier.AUTO_APPROVE)
         self.assertGreaterEqual(score.composite_score, 95.0)
+
+    def test_progress_helpers(self):
+        self.assertEqual(format_eta(3665), "01:01:05")
+        self.assertEqual(format_eta(0), "--:--:--")
+        bar_half = make_progress_bar(50.0, width=10)
+        self.assertEqual(bar_half, "█████░░░░░")
 
 
 if __name__ == "__main__":

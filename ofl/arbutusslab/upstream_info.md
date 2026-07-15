@@ -1,52 +1,23 @@
 # Arbutus Slab
 
-**Status**: `missing_config`
-**Date**: 2026-02-25
-**Designer**: Karolina Lach
-**License**: OFL
-**METADATA.pb**: `ofl/arbutusslab/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/arbutusslab |
-| Commit | `2988f79c4d6965ef9fa35768ca00f02cddd5a50a` |
-| Config YAML | — |
-| Branch | `master` |
-| Source types | sfd |
+The upstream repository shipped only FontForge `.sfd` sources (`src/ArbutusSlab-Regular.ttf.sfd`) with no gftools-builder configuration. METADATA.pb recorded the repository and onboarding commit but no `config_yaml`, so the family could not be rebuilt with the current Rust pipeline.
 
-## Methodology
+## Actions taken
 
-### Repository URL
-Discovered via google/fonts commit history, PR references, or GitHub search.
+The repository adopted the Unified Font Repository template. The `.sfd` source for the Regular weight was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`), and a gftools-builder configuration was added. During conversion the no-break space (U+00A0) advance width was corrected to match the space glyph (838). The superseded FontForge sources and legacy build cruft were retired.
 
-### Commit Hash
-Used HEAD of upstream repository (latest commit at time of onboarding).
-- Commit date: 2014-10-17 13:29:24 +0300
-- Commit message: "update .travis.yml"
+## Final state
 
-### Config YAML
-Not applicable — upstream repo contains only FontForge .sfd sources, which are not compatible with gftools-builder.
+The family now builds from `sources/ArbutusSlab-Regular.glyphs` using gftools-builder3 and fontc, producing `fonts/ttf/ArbutusSlab-Regular.ttf`.
 
-## Evidence
+## Verification
 
-### METADATA.pb source block
-No source block present in METADATA.pb.
+The freshly built Regular was compared against the binary currently shipped in google/fonts. Glyph coverage, metrics and outlines matched. The only difference is that 24 glyphs were renamed to their production names; codepoint coverage is unchanged, so the verdict is functional parity.
 
-### google/fonts history
-- Last font modification: `dbe4135303df`
-- Date: 2017-08-07 21:30:05 +0100
-- Subject: "hotfix-arbutusslab: v1.002 added (#820)"
+## Original repository (dormant)
 
-### Upstream repo cache
-- Cached at: `librefonts/arbutusslab`
-- Commit `2988f79c4d69` verified ✓
-
-## Confidence
-
-**Medium**: URL discovered via research; commit verified in upstream repo
-
-## Notes
-
-SFD-only sources (FontForge format), not gftools-builder compatible
+Original upstream: https://github.com/librefonts/arbutusslab (branch `master`), latest commit `2988f79c4d6965ef9fa35768ca00f02cddd5a50a`, which is also the onboarding commit recorded in METADATA.pb.

@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2012-03-14"
 source {
-  repository_url: "https://github.com/librefonts/anticslab"
-  commit: "64168753771367673ec5efa56c747427648d9f29"
+  repository_url: "https://github.com/googlefonts/anticslab"
+  commit: "94821708c44ba2ac3c9bcd011141dbb888b0b26d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AnticSlab-Regular.ttf"
+    dest_file: "AnticSlab-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

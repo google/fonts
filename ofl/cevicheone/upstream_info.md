@@ -1,51 +1,26 @@
 # Ceviche One
 
-**Date investigated**: 2026-02-26
-**Status**: missing_config
-**Designer**: Miguel Hernandez
-**METADATA.pb path**: `ofl/cevicheone/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/cevicheone |
-| Commit | `afec42c6e7445edd88c3f45b7a51b5da6b43b027` |
-| Config YAML | N/A (SFD-only sources) |
-| Branch | `master` |
+Google Fonts shipped Ceviche One (Regular) built from FontForge SFD sources at https://github.com/librefonts/cevicheone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## How the Repository URL Was Found
+## Actions taken
 
-The repository URL `https://github.com/librefonts/cevicheone` was already documented in the tracking data. It was added to METADATA.pb in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files", 2026-02-25). The repository is part of the `librefonts` GitHub organization which hosts many Google Fonts upstream sources. Note that the METADATA.pb currently has no `source { }` block in the live version -- the source block was added as part of a batch enrichment.
+- The canonical FontForge SFD source (`src/CevicheOne-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A non-breaking space (U+00A0) was added to the converted source, restoring a glyph that FontForge used to synthesise at export time.
+- A new Unified Font Repository was created at https://github.com/googlefonts/cevicheone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-## How the Commit Hash Was Identified
+## Final state
 
-The commit `afec42c6e7445edd88c3f45b7a51b5da6b43b027` is the **only commit** in the upstream repository (message: "update .travis.yml"). This is a single-commit repository, making the hash unambiguous. The font files in google/fonts were last updated in commit `08e091b33` (2015-04-27, "Updating ofl/cevicheone/*ttf with nbspace and fsType fixes") by Dave Crossland, which was a minor binary fix. The original font was added in the initial commit `90abd17b4`.
-
-## How Config YAML Was Resolved
-
-No `config.yaml` exists in the upstream repository, and no override `config.yaml` exists in the google/fonts family directory (`ofl/cevicheone/`).
-
-The upstream repository contains only legacy source formats:
-- `src/CevicheOne-Regular-TTF.sfd` (FontForge SFD format)
-- `src/CevicheOne-Regular-OTF.vfb` (FontLab VFB format)
-- Various TTX decomposition files
-
-Neither SFD nor VFB formats are compatible with gftools-builder. A `config.yaml` cannot be created without first converting the sources to a modern format (`.glyphs` or `.ufo`).
+The source now lives at https://github.com/googlefonts/cevicheone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
 ## Verification
 
-- Repository URL accessible: Yes
-- Commit exists in upstream repo: Yes (it is the only commit)
-- Commit date: Not explicitly dated in log, but the repo has only this one commit
-- Commit message: "update .travis.yml"
-- Source files at commit: `src/CevicheOne-Regular-TTF.sfd`, `src/CevicheOne-Regular-OTF.vfb`
+The newly built Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference was that 8 glyphs were renamed to their production names; coverage was unchanged, so the verdict is functional equivalence.
 
-## Confidence
+## Original repository (dormant)
 
-**High**: The repository URL and commit hash are straightforward -- the repo has only one commit. The URL is confirmed by its presence in the librefonts organization. The lack of config.yaml is expected given the legacy source formats (SFD/VFB only).
-
-## Open Questions
-
-1. The sources are in legacy formats (SFD and VFB). To enable gftools-builder builds, these would need to be converted to `.glyphs` or `.ufo` format. This is not a trivial conversion and may require manual review by a type designer.
-2. The family was added to Google Fonts in 2011 (date_added: 2011-12-07). The upstream repository appears to be a post-hoc archive rather than the original development location.
+The original FontForge sources are at https://github.com/librefonts/cevicheone (`.sfd`), latest at commit `afec42c6e7445edd88c3f45b7a51b5da6b43b027`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

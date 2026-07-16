@@ -3,11 +3,23 @@ Report and PR description generation module for automated upstream updates.
 Located internally within google/fonts at .ci/autoupdater/report_generator.py.
 """
 
+import json
+import unicodedata
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 from datetime import datetime, timezone
 from .models import FamilyMetadata, UpdateCheckResult, SafetyTier
 from .regression_engine import SafetyScoreBreakdown, DiffenatorResult, QACheckResult
+
+
+def format_unicode_codepoint(cp: int) -> str:
+    """Format integer Unicode codepoint into 'U+XXXX ('char' - NAME)' string."""
+    try:
+        char = chr(cp)
+        name = unicodedata.name(char, "UNKNOWN")
+        return f"U+{cp:04X} (`{char}` - {name})"
+    except Exception:
+        return f"U+{cp:04X}"
 
 
 def generate_pr_body(
@@ -18,7 +30,7 @@ def generate_pr_body(
     qa_result: QACheckResult,
 ) -> str:
     """
-    Generate structured GitHub Pull Request Markdown body.
+    Generate structured GitHub Pull Request Markdown body with granular test suite data points.
     """
     tier_emoji = {
         SafetyTier.AUTO_APPROVE: "🟢 **AUTO_APPROVE** (High Confidence)",
@@ -33,16 +45,58 @@ def generate_pr_body(
     lines.append(f"**Decision Tier:** {tier_emoji}")
     lines.append("")
 
-    lines.append("### 💡 Concise Scoring Rationale")
-    lines.append(f"- **Decision Tier:** {tier_emoji} (Score `{score_info.composite_score} / 100`)")
-    lines.append(f"- **Max Vertical Metric Shift:** `{diff_result.max_vertical_metric_shift}` font units {'(⚠️ exceeds 10 unit threshold)' if diff_result.max_vertical_metric_shift > 10 else '(✅ Stable)'}")
-    lines.append(f"- **Advance Width Max Shift:** `{diff_result.max_advance_width_shift_pct * 100:.2f}%` {'(⚠️ exceeds 5% threshold)' if diff_result.max_advance_width_shift_pct > 0.05 else '(✅ Stable)'}")
-    lines.append(f"- **Deleted Unicodes:** `{len(diff_result.deleted_unicodes)}` {'(❌ CRITICAL BREAKING CHANGE)' if diff_result.deleted_unicodes else '(✅ Intact)'}")
-    lines.append(f"- **New QA Regressions:** 🔴 `{qa_result.new_fatal_count}` Fatal | 🔴 `{qa_result.new_error_count}` Error | 🟡 `{qa_result.new_warn_count}` Warn")
+    lines.append("### 💡 Test Suite Data Points & Scoring Rationale")
+    lines.append("")
+    lines.append("#### 🎨 1. `diffenator2` Rendering & Visual Specimen Data Points")
+    lines.append(f"- **Visual Pixel Shift Ratio ($S_{{visual}}$):** `{diff_result.visual_diff_pixel_ratio * 100:.2f}%` rendered specimen difference (Sub-Score: `{score_info.s_visual} / 100`)")
+    lines.append(f"- **Visual Stability Status:** {'🟢 Pass (< 5% shift)' if diff_result.visual_diff_pixel_ratio <= 0.05 else '⚠️ High rendering shift detected'}")
     lines.append("")
 
+    lines.append("#### 📐 2. `diffenator2` Metrics & Layout Data Points")
+    lines.append(f"- **Max Vertical Metric Shift:** `{diff_result.max_vertical_metric_shift}` font units {'(⚠️ EXCEEDS 10 unit threshold)' if diff_result.max_vertical_metric_shift > 10 else '(✅ Stable <= 10 units)'}")
+    lines.append(f"- **Advance Width Max Shift:** `{diff_result.max_advance_width_shift_pct * 100:.2f}%` {'(⚠️ EXCEEDS 5% threshold)' if diff_result.max_advance_width_shift_pct > 0.05 else '(✅ Stable <= 5%)'}")
+    lines.append(f"- **Layout Table Status:** GPOS: `{'⚠️ Shift' if diff_result.has_gpos_regression else '✅ Stable'}` | GSUB: `{'⚠️ Shift' if diff_result.has_gsub_regression else '✅ Stable'}`")
+    lines.append("")
+
+    lines.append("#### 🔤 3. `fontTools` Glyph Set & Unicode Retention Data Points")
+    if diff_result.deleted_unicodes:
+        lines.append(f"- **Deleted Unicodes (`{len(diff_result.deleted_unicodes)}` Total - ❌ CRITICAL BREAKING CHANGE):**")
+        for u in diff_result.deleted_unicodes[:10]:
+            lines.append(f"  - {format_unicode_codepoint(u)}")
+        if len(diff_result.deleted_unicodes) > 10:
+            lines.append(f"  - *...and {len(diff_result.deleted_unicodes) - 10} more deleted Unicodes*")
+    else:
+        lines.append("- **Unicode Retention Status:** 🟢 `100% Intact` (Zero deleted Unicodes)")
+
+    if diff_result.added_unicodes:
+        lines.append(f"- **Added Unicodes (`{len(diff_result.added_unicodes)}` Total):**")
+        for u in diff_result.added_unicodes[:5]:
+            lines.append(f"  - {format_unicode_codepoint(u)}")
+        if len(diff_result.added_unicodes) > 5:
+            lines.append(f"  - *...and {len(diff_result.added_unicodes) - 5} more added Unicodes*")
+    lines.append("")
+
+    lines.append("#### 📋 4. `Fontspector` QA Check Suite Data Points")
+    lines.append(f"- **Candidate Totals:** PASS: `{qa_result.pass_count}` | WARN: `{qa_result.warn_count}` | ERROR: `{qa_result.error_count}` | FATAL: `{qa_result.fatal_count}`")
+    lines.append(f"- **New Check Regressions Introduced:** 🔴 `{qa_result.new_fatal_count}` Fatal | 🔴 `{qa_result.new_error_count}` Error | 🟡 `{qa_result.new_warn_count}` Warn")
+    lines.append(f"- **Pre-existing Known Failures:** 🟡 `{qa_result.known_failure_count}` (Present in baseline installed font)")
+    if qa_result.fixed_failure_count > 0:
+        lines.append(f"- **Resolved / Fixed Failures:** 🟢 `{qa_result.fixed_failure_count}` (Failed in baseline, now passing!)")
+    lines.append("")
+
+    if qa_result.new_failures:
+        lines.append("##### 🔴 New QA Check Regressions:")
+        for item in qa_result.new_failures[:10]:
+            chk_id = item.get("check_id", "unknown")
+            st = item.get("status", "FAIL")
+            base_st = item.get("baseline_status", "PASS")
+            msg = item.get("message", "Check regression detected")
+            lines.append(f"- **`{chk_id}`** ({st}): Baseline was `{base_st}`")
+            lines.append(f"  > *{msg}*")
+        lines.append("")
+
     if score_info.blocking_reasons:
-        lines.append("#### ⚠️ Detailed Rationale & Warning Items:")
+        lines.append("#### ⚠️ Blocking Rationale & Warning Items:")
         for reason in score_info.blocking_reasons:
             lines.append(f"- {reason}")
         lines.append("")
@@ -64,33 +118,6 @@ def generate_pr_body(
     lines.append(f"| **QA Checks ($S_{{qa}}$)** | 15% | `Fontspector` | `{score_info.s_qa} / 100` | {'✅ Clean' if score_info.s_qa >= 90 else '⚠️ QA Issues'} |")
     lines.append("")
 
-    lines.append("### 🔍 `diffenator2` Primary Regression Summary")
-    lines.append(f"- **Visual Specimen Shift:** `{diff_result.visual_diff_pixel_ratio * 100:.2f}%` pixel difference")
-    lines.append(f"- **Max Vertical Metric Shift:** `{diff_result.max_vertical_metric_shift}` font units")
-    lines.append(f"- **Advance Width Max Shift:** `{diff_result.max_advance_width_shift_pct * 100:.2f}%`")
-    lines.append(f"- **Deleted Unicodes:** `{len(diff_result.deleted_unicodes)}` | **Added Unicodes:** `{len(diff_result.added_unicodes)}`")
-    lines.append("")
-
-    lines.append("### 📋 `Fontspector` QA Check Delta")
-    lines.append(f"- **Candidate Totals:** FATAL: `{qa_result.fatal_count}` | ERROR: `{qa_result.error_count}` | WARN: `{qa_result.warn_count}` | PASS: `{qa_result.pass_count}`")
-    lines.append(f"- **New Regressions:** 🔴 `{qa_result.new_fatal_count}` Fatal | 🔴 `{qa_result.new_error_count}` Error | 🟡 `{qa_result.new_warn_count}` Warn")
-    lines.append(f"- **Pre-existing Known Failures:** 🟡 `{qa_result.known_failure_count}` (Present in baseline installed font)")
-    if qa_result.fixed_failure_count > 0:
-        lines.append(f"- **Resolved / Fixed Failures:** 🟢 `{qa_result.fixed_failure_count}` (Failed in baseline, now passing!)")
-    lines.append("")
-
-    if qa_result.new_failures:
-        lines.append("#### 🔴 New QA Regressions Introduced:")
-        for item in qa_result.new_failures[:10]:
-            lines.append(f"- `{item['check_id']}` ({item['status']}): *Baseline was {item['baseline_status']}*")
-        lines.append("")
-
-    if qa_result.known_failures:
-        lines.append("#### 🟡 Pre-existing Known Failures (Inherited from Baseline):")
-        for item in qa_result.known_failures[:10]:
-            lines.append(f"- `{item['check_id']}` ({item['status']})")
-        lines.append("")
-
     lines.append("### 🔗 Upstream Source Metadata")
     lines.append(f"- **Upstream Repository:** {update_result.repository_url or 'N/A'}")
     if update_result.upstream_version:
@@ -107,7 +134,8 @@ def generate_pr_body(
 def generate_family_verification_report(result: Dict[str, Any], output_filepath: Optional[str] = None) -> str:
     """
     Generate detailed single-family verification report for testing against live repository.
-    Includes font file matching identification, binary diff status, and system operational mode.
+    Includes font file matching identification, binary diff status, naming identity, mapping flags,
+    and granular test suite data points.
     """
     family_name = result.get("family_name", "Unknown")
     has_update = result.get("has_update", False)
@@ -120,14 +148,33 @@ def generate_family_verification_report(result: Dict[str, Any], output_filepath:
     lines.append(f"**PR Submission Mode:** `DISABLED (Report / Verification Mode)` 🛑")
     lines.append("")
 
-    lines.append("## 📁 Font File Matching Identification")
+    lines.append("## 📁 Font File Naming & Matching Identification")
     lines.append("")
+
+    naming_status = matching.get("naming_identity_status", "N/A")
+    naming_badge = {
+        "IDENTICAL_NAMES": "🟢 **IDENTICAL_NAMES** (Ground truth and candidate filenames match 1:1)",
+        "MAPPED_NAMES": "🟡 **MAPPED_NAMES** (Filenames differ, but mapped via font_mappings.json)",
+        "UNMATCHED_NAMES": "🔴 **UNMATCHED_NAMES** (Filenames differ & require mapping file entry)",
+    }.get(naming_status, f"`{naming_status}`")
+
+    lines.append(f"- **Font Naming Identity Status:** {naming_badge}")
     lines.append(f"- **Overall Matching Status:** `{matching.get('status', 'N/A')}`")
     lines.append(f"- **Local TTF Count (in google/fonts):** `{matching.get('local_ttf_count', 0)}`")
     lines.append(f"- **Upstream Candidate TTF Count:** `{matching.get('candidate_ttf_count', 0)}`")
     lines.append(f"- **Filename Match Rate:** `{matching.get('match_rate_pct', 0.0)}%`")
-    lines.append(f"- **Binary Hash Differences Detected:** `{'YES (Updated Binary Content)' if matching.get('has_binary_changes') else 'NO (Byte-Identical Binaries)'}`")
+    lines.append(f"- **Binary Hash Differences:** `{'YES (Updated Binary Content)' if matching.get('has_binary_changes') else 'NO (Byte-Identical Binaries)'}`")
     lines.append("")
+
+    if matching.get("mapping_action_required"):
+        snippet = matching.get("suggested_mapping_snippet", {})
+        lines.append("> [!WARNING]")
+        lines.append("> **⚠️ ACTION REQUIRED: Font Name Mapping Missing**")
+        lines.append("> Upstream candidate font files do not match ground truth filenames. Add the following entry to `.ci/autoupdater/font_mappings.json`:")
+        lines.append("```json")
+        lines.append(json.dumps({family_name.lower().replace(" ", ""): snippet}, indent=2))
+        lines.append("```")
+        lines.append("")
 
     matched_pairs = matching.get("matched_pairs", [])
     if matched_pairs:
@@ -161,7 +208,7 @@ def generate_family_verification_report(result: Dict[str, Any], output_filepath:
     lines.append("")
     lines.append(f"- **Update Available:** `{'YES' if has_update else 'NO'}`")
     lines.append(f"- **Current Installed Version:** `{result.get('current_version', 'N/A')}`")
-    lines.append(f"- **Upstream Candidate Version:** `{result.get('upstream_version', 'N/A')}`")
+    lines.append(f"- **Upstream Candidate Version (from TTF binary):** `{result.get('upstream_version', 'N/A')}`")
     lines.append(f"- **Safe to Update (STU) Score:** `{result.get('safety_score', 'N/A')} / 100`")
     lines.append(f"- **Decision Tier:** `{result.get('safety_tier', 'N/A')}`")
     lines.append(f"- **Pipeline Status:** `{result.get('status', 'N/A')}`")
@@ -169,8 +216,6 @@ def generate_family_verification_report(result: Dict[str, Any], output_filepath:
 
     if "pr_body" in result:
         lines.append("---")
-        lines.append("## 📝 Simulated PR Description & Checklist Preview")
-        lines.append("")
         lines.append(result["pr_body"])
 
     content = "\n".join(lines)
@@ -186,6 +231,7 @@ def generate_live_repository_audit_report(
 ) -> str:
     """
     Generate comprehensive multi-family live repository verification report.
+    Includes full detailed Live Repository Verification Reports for EACH family that needs an update.
     """
     lines = []
     lines.append("# 🌐 Live Repository Verification Report: Google Fonts Catalog")
@@ -211,9 +257,9 @@ def generate_live_repository_audit_report(
     lines.append(f"| 🔴 **Mismatched / Unmatched Font Files** | {no_matches} | - |")
     lines.append("")
 
-    lines.append("## 🚀 Family Verification Results Detail")
+    lines.append("## 🚀 Summary Table of Audited Families")
     lines.append("")
-    lines.append("| Family Name | Upstream Update | Installed Ver | Upstream Ver | Font File Matching | STU Score | Decision Tier | Status |")
+    lines.append("| Family Name | Upstream Update | Installed Ver | Upstream Ver (TTF) | Font Naming Identity | STU Score | Decision Tier | Status |")
     lines.append("| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |")
 
     for r in results:
@@ -221,21 +267,35 @@ def generate_live_repository_audit_report(
         upd = "YES 🆕" if r.get("has_update") else "NO ✅"
         cur_v = r.get("current_version", "N/A") or "N/A"
         up_v = r.get("upstream_version", "N/A") or "N/A"
-        matching_status = r.get("font_matching_analysis", {}).get("status", "N/A")
-        match_rate = r.get("font_matching_analysis", {}).get("match_rate_pct", 0.0)
+        naming_status = r.get("font_matching_analysis", {}).get("naming_identity_status", "N/A")
         score = r.get("safety_score", "N/A")
         tier = r.get("safety_tier", "N/A")
         status = r.get("status", "CHECKED")
 
-        match_str = f"`{matching_status}` ({match_rate:.0f}%)"
-
-        lines.append(f"| **{fam}** | {upd} | `{cur_v}` | `{up_v}` | {match_str} | `{score}` | `{tier}` | `{status}` |")
+        lines.append(f"| **{fam}** | {upd} | `{cur_v}` | `{up_v}` | `{naming_status}` | `{score}` | `{tier}` | `{status}` |")
 
     lines.append("")
     lines.append("---")
+    lines.append("# 🔬 Live Repository Verification Reports for Updated Families")
+    lines.append("")
+
+    updated_results = [r for r in results if r.get("has_update")]
+    if updated_results:
+        for idx, res in enumerate(updated_families := updated_results, 1):
+            lines.append(f"## Family {idx} of {len(updated_families)}: `{res.get('family_name')}`")
+            lines.append("")
+            family_report = generate_family_verification_report(res)
+            lines.append(family_report)
+            lines.append("")
+            lines.append("---")
+    else:
+        lines.append("✅ **All audited font families are up to date! No updates detected.**")
+        lines.append("")
+
     lines.append("*Report generated automatically by Google Fonts Auto-Updater Live Repository Auditor*")
 
     content = "\n".join(lines)
     Path(output_filepath).write_text(content, encoding="utf-8")
     return content
+
 

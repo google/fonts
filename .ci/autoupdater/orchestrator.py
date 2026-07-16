@@ -31,7 +31,8 @@ def analyze_font_file_matching(
 ) -> Dict[str, Any]:
     """
     Analyze font file matching between existing local TTF files in Google Fonts repo
-    and acquired upstream candidate TTF files.
+    and acquired upstream candidate TTF files. Identifies filename identity, mapped files,
+    unmatched files, and flags required mapping entries in font_mappings.json.
     """
     local_ttf_paths = sorted(list(local_dir.glob("*.ttf")))
     local_filenames = [p.name for p in local_ttf_paths]
@@ -39,6 +40,9 @@ def analyze_font_file_matching(
     if not candidate_fonts:
         return {
             "status": "NO_CANDIDATE_FONTS",
+            "naming_identity_status": "NO_CANDIDATE_FONTS",
+            "are_filenames_identical": False,
+            "mapping_action_required": False,
             "local_ttf_count": len(local_filenames),
             "candidate_ttf_count": 0,
             "local_filenames": local_filenames,
@@ -46,6 +50,7 @@ def analyze_font_file_matching(
             "matched_pairs": [],
             "unmatched_local_filenames": local_filenames,
             "unmatched_candidate_filenames": [],
+            "suggested_mapping_snippet": {},
             "match_rate_pct": 0.0,
             "has_binary_changes": False,
         }
@@ -113,6 +118,23 @@ def analyze_font_file_matching(
 
     unmatched_candidate_list = sorted(list(unmatched_cand))
 
+    # Determine filename identity and mapping action requirements
+    are_filenames_identical = (sorted(local_filenames) == sorted(cand_filenames))
+    mapping_action_required = False
+    suggested_mapping_snippet = {}
+
+    if are_filenames_identical:
+        naming_identity_status = "IDENTICAL_NAMES"
+    elif all(p["match_type"] in ("EXACT_NAME", "MAPPED_NAME") for p in matched_pairs) and not unmatched_candidate_list:
+        naming_identity_status = "MAPPED_NAMES"
+    else:
+        naming_identity_status = "UNMATCHED_NAMES"
+        if unmatched_candidate_list:
+            mapping_action_required = True
+            for un_cand in unmatched_candidate_list:
+                # Suggest ground truth target fallback
+                suggested_mapping_snippet[un_cand] = local_filenames[0] if local_filenames else "TargetFont.ttf"
+
     if len(matched_pairs) == len(local_filenames) and not unmatched_candidate_list:
         status = "EXACT_MATCH"
     elif len(matched_pairs) > 0:
@@ -124,6 +146,10 @@ def analyze_font_file_matching(
 
     return {
         "status": status,
+        "naming_identity_status": naming_identity_status,
+        "are_filenames_identical": are_filenames_identical,
+        "mapping_action_required": mapping_action_required,
+        "suggested_mapping_snippet": suggested_mapping_snippet,
         "local_ttf_count": len(local_filenames),
         "candidate_ttf_count": len(cand_filenames),
         "local_filenames": local_filenames,
@@ -214,6 +240,16 @@ class AutoUpdatePipeline:
                 upstream_commit=check_result.upstream_commit,
             )
 
+        # Validate actual font version string from candidate TTF binary rather than relying solely on tag name
+        if candidate_ttf_fonts:
+            from .version_comparator import extract_ttf_font_version
+            for cand_item in candidate_ttf_fonts:
+                cand_path = Path(cand_item[0]) if isinstance(cand_item, (list, tuple)) else Path(cand_item)
+                name_ver, ver_num, rev = extract_ttf_font_version(cand_path)
+                if ver_num:
+                    check_result.upstream_version = ver_num
+                    break
+
         # Font File Matching Analysis
         font_matching_analysis = analyze_font_file_matching(
             local_dir=meta_path.parent,
@@ -243,6 +279,7 @@ class AutoUpdatePipeline:
                     "font_matching_analysis": font_matching_analysis,
                     "message": "Candidate TTF binaries are 100% byte-for-byte identical to existing Google Fonts TTFs.",
                 }
+
 
         # Phase 3: Run Regression Engine (diffenator2 & Fontspector QA)
         baseline_ttf_paths = [str(p) for p in meta_path.parent.glob("*.ttf")]

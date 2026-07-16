@@ -43,6 +43,30 @@ def parse_clean_version(name_version: Optional[str], font_revision: Optional[flo
     return None
 
 
+def extract_ttf_font_version(ttf_path: Path) -> Tuple[Optional[str], Optional[str], Optional[float]]:
+    """
+    Extract (name_version_string, clean_numerical_version, font_revision_float) from a single TTF binary file.
+    Validates actual font version embedded inside TTF tables (nameID 5 and head.fontRevision).
+    """
+    if not HAS_FONTTOOLS or not ttf_path.exists():
+        return None, None, None
+    try:
+        ttf = TTFont(str(ttf_path))
+        rev = ttf["head"].fontRevision if "head" in ttf else None
+        name_ver = None
+        if "name" in ttf:
+            for record in ttf["name"].names:
+                if record.nameID == 5:
+                    name_ver = record.toUnicode()
+                    break
+        if name_ver or rev is not None:
+            ver_num = parse_clean_version(name_ver, rev)
+            return name_ver, ver_num, rev
+    except Exception:
+        pass
+    return None, None, None
+
+
 def extract_local_font_version(family_dir: Path) -> Tuple[Optional[str], Optional[str], Optional[float]]:
     """
     Scan .ttf files in family_dir and extract:
@@ -56,22 +80,12 @@ def extract_local_font_version(family_dir: Path) -> Tuple[Optional[str], Optiona
         return None, None, None
 
     for ttf_path in ttf_files:
-        try:
-            ttf = TTFont(str(ttf_path))
-            rev = ttf["head"].fontRevision if "head" in ttf else None
-            name_ver = None
-            if "name" in ttf:
-                for record in ttf["name"].names:
-                    if record.nameID == 5:
-                        name_ver = record.toUnicode()
-                        break
-            if name_ver or rev:
-                ver_num = parse_clean_version(name_ver, rev)
-                return name_ver, ver_num, rev
-        except Exception:
-            continue
+        name_ver, ver_num, rev = extract_ttf_font_version(ttf_path)
+        if name_ver or ver_num:
+            return name_ver, ver_num, rev
 
     return None, None, None
+
 
 
 def extract_local_git_commit_date(family_dir: Path) -> Optional[str]:

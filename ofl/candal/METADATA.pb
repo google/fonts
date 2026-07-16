@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-03-09"
 source {
-  repository_url: "https://github.com/librefonts/candal"
-  commit: "64c937069fed67f562829846315a0e2e7789e6a6"
+  repository_url: "https://github.com/googlefonts/candal"
+  commit: "ed7ac22d003047196e34bcf6465f2ad5871493e8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Candal-Regular.ttf"
+    dest_file: "Candal.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -98,6 +98,18 @@ class AutoUpdatePipeline:
                 check_result.release_info, meta, cache_dir, check_result.upstream_commit
             )
 
+        family_slug = meta.name.lower().replace(" ", "")
+
+        # Phase 2: Acquire verbatim TTF binaries from upstream
+        if not candidate_ttf_fonts:
+            cache_dir = Path("download_cache") / family_slug
+            candidate_ttf_fonts = self.fetcher.acquire_upstream_binaries(
+                release=check_result.release_info,
+                family_meta=meta,
+                output_dir=cache_dir,
+                upstream_commit=check_result.upstream_commit,
+            )
+
         # Pre-Flight Binary Hash Check: If candidate TTFs are byte-for-byte identical to existing TTFs
         if candidate_ttf_fonts:
             existing_dir = meta_path.parent
@@ -124,8 +136,13 @@ class AutoUpdatePipeline:
         baseline_ttf_paths = [str(p) for p in meta_path.parent.glob("*.ttf")]
         cand_ttf_paths = [str(t[0]) for t in candidate_ttf_fonts] if candidate_ttf_fonts else baseline_ttf_paths
 
-        diff_res = mock_diff_result or run_diffenator_analysis(baseline_ttf_paths, cand_ttf_paths)
-
+        if mock_diff_result:
+            diff_res = mock_diff_result
+            unmatched_warnings = []
+        else:
+            diff_res, unmatched_warnings = run_diffenator_analysis(
+                baseline_ttf_paths, cand_ttf_paths, family_slug=family_slug
+            )
 
         baseline_qa_checks = run_fontspector(baseline_ttf_paths)
         candidate_qa_checks = run_fontspector(cand_ttf_paths) if cand_ttf_paths != baseline_ttf_paths else baseline_qa_checks
@@ -148,6 +165,9 @@ class AutoUpdatePipeline:
         )
 
         score_info = self.regression_engine.calculate_safety_score(diff_res, qa_res)
+        if unmatched_warnings:
+            score_info.blocking_reasons.extend(unmatched_warnings)
+
         should_auto_merge = self.evaluate_auto_merge(score_info, meta)
 
 

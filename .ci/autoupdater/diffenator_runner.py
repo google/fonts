@@ -17,28 +17,106 @@ from fontTools.ttLib import TTFont
 from .regression_engine import DiffenatorResult
 
 
+def load_font_mappings(family_slug: str) -> Dict[str, str]:
+    """
+    Load explicit font filename mappings for a family from .ci/autoupdater/font_mappings.json or font_mappings.json.
+    Mapping format: {"upstream_cand_filename.ttf": "installed_baseline_filename.ttf"}
+    """
+    for loc in [".ci/autoupdater/font_mappings.json", "font_mappings.json"]:
+        if os.path.exists(loc):
+            try:
+                with open(loc, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    if family_slug in data:
+                        return data[family_slug]
+            except Exception:
+                pass
+    return {}
+
+
+def pair_baseline_and_candidate_ttfs(
+    baseline_ttf_paths: List[str],
+    candidate_ttf_paths: List[str],
+    family_slug: Optional[str] = None,
+) -> Tuple[List[Tuple[str, str]], List[str]]:
+    """
+    Pair baseline TTF files against candidate TTF files.
+    Filters out non-TTFs, WOFFs, and macOS ._ AppleDouble junk files.
+    Returns (pairs, warnings).
+    """
+    valid_b = [
+        p for p in baseline_ttf_paths
+        if Path(p).name.endswith(".ttf") and not Path(p).name.startswith("._") and "__MACOSX" not in p
+    ]
+    valid_c = [
+        p for p in candidate_ttf_paths
+        if Path(p).name.endswith(".ttf") and not Path(p).name.startswith("._") and "__MACOSX" not in p
+    ]
+
+    if not valid_b or not valid_c:
+        return [], []
+
+    b_map = {Path(p).name: p for p in valid_b}
+    c_map = {Path(p).name: p for p in valid_c}
+
+    mappings = load_font_mappings(family_slug) if family_slug else {}
+    pairs = []
+    unmatched_warnings = []
+    matched_c = set()
+    matched_b = set()
+
+    if mappings:
+        for c_name, target_b_name in mappings.items():
+            if c_name in c_map and target_b_name in b_map:
+                pairs.append((b_map[target_b_name], c_map[c_name]))
+                matched_c.add(c_name)
+                matched_b.add(target_b_name)
+
+    for c_name, c_path in c_map.items():
+        if c_name in matched_c:
+            continue
+        if c_name in b_map:
+            pairs.append((b_map[c_name], c_path))
+            matched_c.add(c_name)
+            matched_b.add(c_name)
+
+    unmatched_c = set(c_map.keys()) - matched_c
+    unmatched_b = set(b_map.keys()) - matched_b
+
+    if len(unmatched_b) == 1 and len(unmatched_c) == 1:
+        single_b = list(unmatched_b)[0]
+        single_c = list(unmatched_c)[0]
+        pairs.append((b_map[single_b], c_map[single_c]))
+        matched_c.add(single_c)
+        matched_b.add(single_b)
+        unmatched_c.remove(single_c)
+        unmatched_b.remove(single_b)
+
+    for c_name in sorted(set(c_map.keys()) - matched_c):
+        warn = f"⚠️ UNMATCHED_TTF_FILENAME: Candidate TTF '{c_name}' could not be matched automatically to any baseline font in '{family_slug or 'family'}'. Please add a mapping to .ci/autoupdater/font_mappings.json."
+        unmatched_warnings.append(warn)
+
+    return pairs, unmatched_warnings
+
+
 def run_diffenator_analysis(
     baseline_ttf_paths: List[str],
     candidate_ttf_paths: List[str],
+    family_slug: Optional[str] = None,
     timeout: int = 180,
-) -> DiffenatorResult:
+) -> Tuple[DiffenatorResult, List[str]]:
     """
     Evaluates metric, cmap, and visual diffs between baseline and candidate TTFs.
     Uses diffenator2 CLI if available, with native fontTools inspection fallback.
+    Returns (diff_result, unmatched_warnings).
     """
     if not baseline_ttf_paths or not candidate_ttf_paths:
-        return DiffenatorResult()
+        return DiffenatorResult(), []
 
-    # Match baseline and candidate files by name
-    baseline_map = {Path(p).name: p for p in baseline_ttf_paths}
-    candidate_map = {Path(p).name: p for p in candidate_ttf_paths}
+    pairs, unmatched_warnings = pair_baseline_and_candidate_ttfs(
+        baseline_ttf_paths, candidate_ttf_paths, family_slug=family_slug
+    )
 
-    common_names = set(baseline_map.keys()).intersection(set(candidate_map.keys()))
-    if not common_names:
-        # If filenames differ, pair by index
-        pairs = list(zip(baseline_ttf_paths, candidate_ttf_paths))
-    else:
-        pairs = [(baseline_map[name], candidate_map[name]) for name in sorted(common_names)]
 
     all_deleted_unicodes: Set[int] = set()
     all_added_unicodes: Set[int] = set()
@@ -127,12 +205,16 @@ def run_diffenator_analysis(
         except Exception as e:
             print(f"⚠️ diffenator analysis warning for {b_path} vs {c_path}: {e}")
 
-    return DiffenatorResult(
-        visual_diff_pixel_ratio=round(visual_pixel_ratio, 4),
-        max_vertical_metric_shift=max_vert_shift,
-        max_advance_width_shift_pct=round(max_advance_shift_pct, 4),
-        deleted_unicodes=sorted(list(all_deleted_unicodes)),
-        added_unicodes=sorted(list(all_added_unicodes)),
-        has_gpos_regression=has_gpos_diff,
-        has_gsub_regression=has_gsub_diff,
+    return (
+        DiffenatorResult(
+            visual_diff_pixel_ratio=round(visual_pixel_ratio, 4),
+            max_vertical_metric_shift=max_vert_shift,
+            max_advance_width_shift_pct=round(max_advance_shift_pct, 4),
+            deleted_unicodes=sorted(list(all_deleted_unicodes)),
+            added_unicodes=sorted(list(all_added_unicodes)),
+            has_gpos_regression=has_gpos_diff,
+            has_gsub_regression=has_gsub_diff,
+        ),
+        unmatched_warnings,
     )
+

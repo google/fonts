@@ -21,11 +21,16 @@ def compute_sha256(filepath: str) -> str:
     return hasher.hexdigest()
 
 
-def is_font_file(filename: str) -> bool:
+def is_ttf_font_file(filename: str) -> bool:
     """
-    Check if file is a font binary (.ttf, .otf, .ttc, .woff, .woff2).
+    Check if file is a valid TTF font binary (.ttf).
+    Strictly excludes WOFF, WOFF2, OTF, EOT, and macOS metadata junk files (e.g. ._AbhayaLibre.ttf).
     """
-    return Path(filename).suffix.lower() in [".ttf", ".otf", ".ttc", ".woff", ".woff2"]
+    path = Path(filename)
+    name = path.name
+    if name.startswith("._") or "__MACOSX" in filename:
+        return False
+    return path.suffix.lower() == ".ttf"
 
 
 def compare_ttf_dir_hashes(existing_ttf_dir: Path, candidate_fonts: List[Tuple[Path, str]]) -> bool:
@@ -85,8 +90,8 @@ class ArtifactFetcher:
             for member in archive.infolist():
                 if member.is_dir():
                     continue
-                filename = Path(member.filename).name
-                if is_font_file(filename):
+                if is_ttf_font_file(member.filename):
+                    filename = Path(member.filename).name
                     out_path = output_dir / filename
                     with archive.open(member) as source_f, open(out_path, "wb") as target_f:
                         content = source_f.read()
@@ -108,7 +113,8 @@ class ArtifactFetcher:
 
         if release and release.assets:
             zip_assets = [a for a in release.assets if a.name.endswith(".zip")]
-            font_assets = [a for a in release.assets if is_font_file(a.name)]
+            font_assets = [a for a in release.assets if is_ttf_font_file(a.name)]
+
 
             if zip_assets:
                 asset = zip_assets[0]

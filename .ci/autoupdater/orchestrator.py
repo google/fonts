@@ -20,6 +20,7 @@ from .regression_engine import (
 from .report_generator import generate_pr_body
 from .state_store import StateStore
 from .pr_creator import PRCreator
+from .fontspector_runner import run_fontspector, compare_qa_results
 
 
 class AutoUpdatePipeline:
@@ -111,16 +112,39 @@ class AutoUpdatePipeline:
                 }
 
         # Phase 2: Acquire verbatim TTF binaries
-        # Phase 3: Run Regression Engine (diffenator2 & Fontspector)
+        # Phase 3: Run Regression Engine (diffenator2 & Fontspector QA)
         diff_res = mock_diff_result or DiffenatorResult(
             visual_diff_pixel_ratio=0.001,
             max_vertical_metric_shift=0,
             deleted_unicodes=[],
         )
-        qa_res = QACheckResult(fatal_count=0, error_count=0, warn_count=0, pass_count=120)
+
+        baseline_ttf_paths = [str(p) for p in meta_path.parent.glob("*.ttf")]
+        cand_ttf_paths = [t[0] for t in candidate_ttf_fonts] if candidate_ttf_fonts else baseline_ttf_paths
+
+        baseline_qa_checks = run_fontspector(baseline_ttf_paths)
+        candidate_qa_checks = run_fontspector(cand_ttf_paths) if cand_ttf_paths != baseline_ttf_paths else baseline_qa_checks
+
+        qa_diff = compare_qa_results(baseline_qa_checks, candidate_qa_checks)
+
+        qa_res = QACheckResult(
+            fatal_count=qa_diff.fatal_count,
+            error_count=qa_diff.error_count,
+            warn_count=qa_diff.warn_count,
+            pass_count=qa_diff.pass_count,
+            new_fatal_count=qa_diff.new_fatal_count,
+            new_error_count=qa_diff.new_error_count,
+            new_warn_count=qa_diff.new_warn_count,
+            known_failure_count=qa_diff.known_failure_count,
+            fixed_failure_count=qa_diff.fixed_failure_count,
+            new_failures=qa_diff.new_failures,
+            known_failures=qa_diff.known_failures,
+            fixed_failures=qa_diff.fixed_failures,
+        )
 
         score_info = self.regression_engine.calculate_safety_score(diff_res, qa_res)
         should_auto_merge = self.evaluate_auto_merge(score_info, meta)
+
 
         # Phase 4: Generate PR body and report artifacts
         pr_body = generate_pr_body(meta, check_result, score_info, diff_res, qa_res)

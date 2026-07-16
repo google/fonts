@@ -26,8 +26,14 @@ class QACheckResult:
     error_count: int = 0
     warn_count: int = 0
     pass_count: int = 0
-    new_fatal_issues: List[str] = field(default_factory=list)
-    new_error_issues: List[str] = field(default_factory=list)
+    new_fatal_count: int = 0
+    new_error_count: int = 0
+    new_warn_count: int = 0
+    known_failure_count: int = 0
+    fixed_failure_count: int = 0
+    new_failures: List[Dict[str, Any]] = field(default_factory=list)
+    known_failures: List[Dict[str, Any]] = field(default_factory=list)
+    fixed_failures: List[Dict[str, Any]] = field(default_factory=list)
 
 
 @dataclass
@@ -102,21 +108,28 @@ class RegressionEngine:
     def compute_s_qa(self, qa_res: QACheckResult, blocking_reasons: List[str]) -> float:
         """
         S_qa evaluates Fontspector / FontBakery checks delta.
+        Heavily penalizes NEW regressions, while noting pre-existing known failures.
         """
         score = 100.0
-        if qa_res.fatal_count > 0:
-            score -= 50.0 * qa_res.fatal_count
-            blocking_reasons.append(f"Fontspector QA identified {qa_res.fatal_count} FATAL check finding(s)")
+        # Penalize NEW regressions heavily
+        if qa_res.new_fatal_count > 0:
+            score -= 50.0 * qa_res.new_fatal_count
+            blocking_reasons.append(f"Fontspector QA identified {qa_res.new_fatal_count} NEW FATAL check regression(s)")
+        elif qa_res.fatal_count > 0:
+            score -= 25.0 * qa_res.fatal_count
+            blocking_reasons.append(f"Fontspector QA identified {qa_res.fatal_count} pre-existing FATAL check finding(s)")
 
-        if qa_res.error_count > 0:
-            score -= 20.0 * qa_res.error_count
-            if qa_res.error_count >= 2:
-                blocking_reasons.append(f"Fontspector QA identified {qa_res.error_count} ERROR check finding(s)")
+        if qa_res.new_error_count > 0:
+            score -= 20.0 * qa_res.new_error_count
+            blocking_reasons.append(f"Fontspector QA identified {qa_res.new_error_count} NEW ERROR check regression(s)")
+        elif qa_res.error_count > 0 and qa_res.error_count >= 3:
+            score -= 10.0
 
-        if qa_res.warn_count > 0:
-            score -= 5.0 * qa_res.warn_count
+        if qa_res.new_warn_count > 0:
+            score -= 3.0 * qa_res.new_warn_count
 
         return max(0.0, score)
+
 
     def calculate_safety_score(
         self, diff_res: DiffenatorResult, qa_res: QACheckResult

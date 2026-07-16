@@ -62,8 +62,25 @@ def generate_pr_body(
     lines.append("")
 
     lines.append("### 📋 `Fontspector` QA Check Delta")
-    lines.append(f"- **FATAL:** `{qa_result.fatal_count}` | **ERROR:** `{qa_result.error_count}` | **WARN:** `{qa_result.warn_count}` | **PASS:** `{qa_result.pass_count}`")
+    lines.append(f"- **Candidate Totals:** FATAL: `{qa_result.fatal_count}` | ERROR: `{qa_result.error_count}` | WARN: `{qa_result.warn_count}` | PASS: `{qa_result.pass_count}`")
+    lines.append(f"- **New Regressions:** 🔴 `{qa_result.new_fatal_count}` Fatal | 🔴 `{qa_result.new_error_count}` Error | 🟡 `{qa_result.new_warn_count}` Warn")
+    lines.append(f"- **Pre-existing Known Failures:** 🟡 `{qa_result.known_failure_count}` (Present in baseline installed font)")
+    if qa_result.fixed_failure_count > 0:
+        lines.append(f"- **Resolved / Fixed Failures:** 🟢 `{qa_result.fixed_failure_count}` (Failed in baseline, now passing!)")
     lines.append("")
+
+    if qa_result.new_failures:
+        lines.append("#### 🔴 New QA Regressions Introduced:")
+        for item in qa_result.new_failures[:10]:
+            lines.append(f"- `{item['check_id']}` ({item['status']}): *Baseline was {item['baseline_status']}*")
+        lines.append("")
+
+    if qa_result.known_failures:
+        lines.append("#### 🟡 Pre-existing Known Failures (Inherited from Baseline):")
+        for item in qa_result.known_failures[:10]:
+            lines.append(f"- `{item['check_id']}` ({item['status']})")
+        lines.append("")
+
 
     lines.append("### 🔗 Upstream Source Metadata")
     lines.append(f"- **Upstream Repository:** {update_result.repository_url or 'N/A'}")

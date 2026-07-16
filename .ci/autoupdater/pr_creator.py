@@ -27,6 +27,7 @@ class PRCreator:
         updated_pb_content: str,
         pr_title: str,
         pr_body: str,
+        candidate_ttf_fonts: Optional[List[Any]] = None,
         upstream_version: Optional[str] = None,
         upstream_commit: Optional[str] = None,
         base_branch: str = "main",
@@ -65,9 +66,18 @@ class PRCreator:
             # 4. Write updated METADATA.pb on the new feature branch
             meta_path.write_text(updated_pb_content, encoding="utf-8")
 
-            # 5. Add and commit METADATA.pb
-            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "add", str(meta_path)], check=True)
-            commit_msg = f"Update {family_name} METADATA.pb to upstream {upstream_version or upstream_commit}"
+            # 4b. Copy candidate TTF font binaries into family directory if provided
+            if candidate_ttf_fonts:
+                family_dir = meta_path.parent
+                for cand_item in candidate_ttf_fonts:
+                    cand_path = Path(cand_item[0]) if isinstance(cand_item, (list, tuple)) else Path(cand_item)
+                    if cand_path.exists() and cand_path.parent.resolve() != family_dir.resolve():
+                        dest_path = family_dir / cand_path.name
+                        dest_path.write_bytes(cand_path.read_bytes())
+
+            # 5. Add and commit METADATA.pb and updated font binaries
+            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "add", str(meta_path.parent)], check=True)
+            commit_msg = f"Update {family_name} font binaries and METADATA.pb to upstream {upstream_version or upstream_commit}"
             subprocess.run([
                 "git", "-c", "core.hooksPath=/dev/null",
                 "-c", "user.name=github-actions[bot]",

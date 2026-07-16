@@ -158,6 +158,7 @@ class AutoUpdatePipeline:
                 updated_pb_content=updated_pb_content,
                 pr_title=pr_title,
                 pr_body=pr_body,
+                candidate_ttf_fonts=candidate_ttf_fonts,
                 upstream_version=check_result.upstream_version,
                 upstream_commit=check_result.upstream_commit,
                 base_branch=base_branch,

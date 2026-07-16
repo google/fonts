@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-10-12"
 source {
-  repository_url: "https://github.com/librefonts/cookie"
-  commit: "15549218a2cb9d78b590471e0fe76644b33c986d"
+  repository_url: "https://github.com/googlefonts/cookie"
+  commit: "a86099c7b0fb4176bea1657e2b9e66ac3ab85513"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Cookie-Regular.ttf"
+    dest_file: "Cookie-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

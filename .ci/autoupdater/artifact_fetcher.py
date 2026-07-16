@@ -99,30 +99,53 @@ class ArtifactFetcher:
         return extracted_fonts
 
     def acquire_upstream_binaries(
-        self, release: UpstreamRelease, family_meta: FamilyMetadata, output_dir: Path
+        self, release: Optional[UpstreamRelease], family_meta: FamilyMetadata, output_dir: Path, upstream_commit: Optional[str] = None
     ) -> List[Tuple[Path, str]]:
         """
-        Acquire candidate update TTF font binaries from release assets verbatim.
+        Acquire candidate update TTF font binaries from release assets or commit archives verbatim.
         """
         output_dir.mkdir(parents=True, exist_ok=True)
         acquired_fonts: List[Tuple[Path, str]] = []
 
-        if not release.assets:
-            return []
+        if release and release.assets:
+            zip_assets = [a for a in release.assets if a.name.endswith(".zip")]
+            font_assets = [a for a in release.assets if is_font_file(a.name)]
 
-        zip_assets = [a for a in release.assets if a.name.endswith(".zip")]
-        font_assets = [a for a in release.assets if is_font_file(a.name)]
+            if zip_assets:
+                asset = zip_assets[0]
+                downloaded_zip = self.download_asset(asset)
+                extracted = self.extract_font_files_from_zip(downloaded_zip, output_dir)
+                if extracted:
+                    return extracted
+            elif font_assets:
+                for asset in font_assets:
+                    out_file = output_dir / asset.name
+                    self.download_asset(asset, target_path=str(out_file))
+                    file_hash = compute_sha256(str(out_file))
+                    acquired_fonts.append((out_file, file_hash))
+                if acquired_fonts:
+                    return acquired_fonts
 
-        if zip_assets:
-            asset = zip_assets[0]
-            downloaded_zip = self.download_asset(asset)
-            extracted = self.extract_font_files_from_zip(downloaded_zip, output_dir)
-            acquired_fonts.extend(extracted)
-        elif font_assets:
-            for asset in font_assets:
-                out_file = output_dir / asset.name
-                self.download_asset(asset, target_path=str(out_file))
-                file_hash = compute_sha256(str(out_file))
-                acquired_fonts.append((out_file, file_hash))
+        # Fallback for commit updates or missing release assets: Download repository archive zip
+        archive_url = None
+        if family_meta.source:
+            if family_meta.source.archive_url:
+                archive_url = family_meta.source.archive_url
+            elif family_meta.source.repository_url and upstream_commit:
+                repo_url = family_meta.source.repository_url.rstrip("/")
+                if "github.com" in repo_url:
+                    archive_url = f"{repo_url}/archive/{upstream_commit}.zip"
+                elif "gitlab.com" in repo_url:
+                    archive_url = f"{repo_url}/-/archive/{upstream_commit}/archive.zip"
+
+        if archive_url:
+            try:
+                asset = ReleaseAsset(name="archive.zip", download_url=archive_url)
+                downloaded_zip = self.download_asset(asset)
+                extracted = self.extract_font_files_from_zip(downloaded_zip, output_dir)
+                if extracted:
+                    return extracted
+            except Exception:
+                pass
 
         return acquired_fonts

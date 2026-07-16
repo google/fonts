@@ -31,8 +31,17 @@ def generate_pr_body(
     lines.append(f"**Decision Tier:** {tier_emoji}")
     lines.append("")
 
+    lines.append("### 💡 Concise Scoring Rationale")
+    if score_info.safety_tier == SafetyTier.AUTO_APPROVE:
+        lines.append(f"🟢 **AUTO_APPROVE** (Score `{score_info.composite_score}/100`): High-confidence safe update. `diffenator2` detected zero visual or vertical metric regressions ($S_{{visual}}={score_info.s_visual}$, $S_{{metric}}={score_info.s_metric}$), glyph unicodes remain 100% intact ($S_{{cmap}}={score_info.s_cmap}$), and `Fontspector` QA introduced zero new fatal/error checks ($S_{{qa}}={score_info.s_qa}$).")
+    elif score_info.safety_tier == SafetyTier.NEEDS_REVIEW:
+        lines.append(f"🟡 **NEEDS_REVIEW** (Score `{score_info.composite_score}/100`): Maintainer inspection recommended. Detected minor visual rendering shifts or QA check warnings ($S_{{visual}}={score_info.s_visual}$, $S_{{qa}}={score_info.s_qa}$) that warrant human verification before merging.")
+    else:
+        lines.append(f"🔴 **BLOCKED** (Score `{score_info.composite_score}/100`): Critical regression detected. Update hard-blocked due to visual rendering diffs, deleted glyph unicodes, or new fatal QA check failures.")
+    lines.append("")
+
     if score_info.blocking_reasons:
-        lines.append("#### ⚠️ Blocking / Attention Items:")
+        lines.append("#### ⚠️ Detailed Rationale & Warning Items:")
         for reason in score_info.blocking_reasons:
             lines.append(f"- {reason}")
         lines.append("")

@@ -73,8 +73,8 @@ def generate_markdown_report(report: Dict[str, Any], results: List[Dict[str, Any
     if updated_results:
         lines.append("## 🚀 Detected Upstream Font Updates")
         lines.append("")
-        lines.append("| Family Name | Installed Version | Upstream Version | STU Score | Decision Tier | Status |")
-        lines.append("| :--- | :--- | :--- | :--- | :--- | :--- |")
+        lines.append("| Family Name | Installed Version | Upstream Version | STU Score | Decision Tier | Scoring Rationale | Status |")
+        lines.append("| :--- | :--- | :--- | :--- | :--- | :--- | :--- |")
 
         for r in updated_results:
             fam = r.get("family_name", "Unknown")
@@ -90,7 +90,13 @@ def generate_markdown_report(report: Dict[str, Any], results: List[Dict[str, Any
                 "BLOCKED": "🔴 BLOCKED",
             }.get(tier, tier)
 
-            lines.append(f"| **{fam}** | `{cur_v}` | `{up_v}` | `{score} / 100` | {tier_badge} | `{status}` |")
+            rationale = {
+                "AUTO_APPROVE": "High confidence: zero visual regressions, stable metrics & clean QA",
+                "NEEDS_REVIEW": "Review needed: minor rendering shift or QA check warning detected",
+                "BLOCKED": "Hard-blocked: visual rendering regression or fatal QA error detected",
+            }.get(tier, "Evaluated")
+
+            lines.append(f"| **{fam}** | `{cur_v}` | `{up_v}` | `{score} / 100` | {tier_badge} | {rationale} | `{status}` |")
         lines.append("")
 
     lines.append("---")

@@ -91,10 +91,12 @@ class AutoUpdatePipeline:
             }
 
         # Phase 2: Acquire verbatim TTF binaries
-        if not candidate_ttf_fonts and check_result.release_info:
+        if not candidate_ttf_fonts:
             family_slug = meta.name.lower().replace(" ", "")
             cache_dir = Path("download_cache") / family_slug
-            candidate_ttf_fonts = self.fetcher.acquire_upstream_binaries(check_result.release_info, meta, cache_dir)
+            candidate_ttf_fonts = self.fetcher.acquire_upstream_binaries(
+                check_result.release_info, meta, cache_dir, check_result.upstream_commit
+            )
 
         # Pre-Flight Binary Hash Check: If candidate TTFs are byte-for-byte identical to existing TTFs
         if candidate_ttf_fonts:

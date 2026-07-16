@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-30"
 source {
-  repository_url: "https://github.com/librefonts/cagliostro"
-  commit: "5c0de59bedd45c878edfeeeb31e2105f987e7270"
+  repository_url: "https://github.com/googlefonts/cagliostro"
+  commit: "871f5caf05c9d0a09e8eb11f9c43e27bb8679673"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Cagliostro-Regular.ttf"
+    dest_file: "Cagliostro-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

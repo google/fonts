@@ -1,53 +1,26 @@
-# Cherry Swash - Investigation Report
+# Cherry Swash
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Cherry Swash |
-| Designer | Nataliya Kasatkina |
-| License | OFL |
-| Date Added | 2012-10-05 |
-| Repository URL | https://github.com/librefonts/cherryswash |
-| Commit | `84e28ad7cc2937ce20bac9dd6f2689cb42c6814a` |
-| Branch | master |
-| Config YAML | N/A |
-| Status | missing_config |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Cherry Swash (Regular and Bold) built from FontForge SFD sources at https://github.com/librefonts/cherryswash. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/cherryswash` was already documented in the tracking data. This is a librefonts mirror repository containing the font sources. The repo contains SFD (FontForge) and VFB source files along with TTX decompositions.
+## Actions taken
 
-## How Commit Determined
+- The canonical FontForge SFD sources (`CherrySwash-Regular-TTF.sfd` and `CherrySwash-Bold-TTF.sfd`) were converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- U+00A0 (no-break space) was added to both sources, since FontForge used to synthesise it at export time, and the Bold source had its OS/2 usWeightClass set to 700.
+- A new Unified Font Repository was created at https://github.com/googlefonts/cherryswash, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-The upstream repository has only a single commit:
-- `84e28ad7cc2937ce20bac9dd6f2689cb42c6814a` (2014-10-17) - "update .travis.yml"
+## Final state
 
-This is the one and only commit in the repository, so it is trivially the correct commit reference. The source block was added to METADATA.pb in commit `9a14639f3` as part of a batch update adding source blocks to 602 families.
-
-## Config YAML Status
-
-**No config.yaml exists** - neither in the upstream repository nor as an override in the google/fonts family directory.
-
-The upstream repo contains only legacy source formats:
-- `src/CherrySwash-Regular-TTF.sfd` (FontForge SFD)
-- `src/CherrySwash-Bold-TTF.sfd` (FontForge SFD)
-- `src/CherrySwash-Regular-OTF.vfb` (FontLab VFB)
-- `src/CherrySwash-Bold-OTF.vfb` (FontLab VFB)
-
-These formats are not compatible with gftools-builder, which requires `.glyphs`, `.glyphx`, `.ufo`, or `.designspace` sources. No config.yaml can be created without first converting the sources to a modern format.
+The source now lives at https://github.com/googlefonts/cherryswash (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binaries.
 
 ## Verification
 
-- Repository URL verified: accessible at https://github.com/librefonts/cherryswash
-- Commit hash verified: matches the only commit in the repository
-- Font files last modified in google/fonts: `35089d38b` (2015-04-27) - "nbspace and fsType fixes"
-- No source block exists in the current METADATA.pb on main (the batch update `9a14639f3` is in a pending PR branch)
+Both weights matched the shipped binaries on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that 8 glyphs were renamed to their production names; character coverage is unchanged, so the difference is cosmetic.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** - Repository URL and commit hash are definitively correct. The repo has only one commit, making verification trivial. The missing_config status is accurate since only SFD/VFB sources exist.
-
-## Open Questions
-
-None. This family cannot have a config.yaml without source format conversion.
+The original FontForge sources are at https://github.com/librefonts/cherryswash (`.sfd`), latest at commit `84e28ad7cc2937ce20bac9dd6f2689cb42c6814a`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

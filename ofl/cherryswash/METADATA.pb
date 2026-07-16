@@ -4,8 +4,22 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2012-10-05"
 source {
-  repository_url: "https://github.com/librefonts/cherryswash"
-  commit: "84e28ad7cc2937ce20bac9dd6f2689cb42c6814a"
+  repository_url: "https://github.com/googlefonts/cherryswash"
+  commit: "f1c0f2dbc3f64ef4f85e54544626e6d629599e4c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CherrySwash-Bold.ttf"
+    dest_file: "CherrySwash-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CherrySwash-Regular.ttf"
+    dest_file: "CherrySwash-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/cambo"
-  commit: "3b97d12b34a587e8868700ffa711df7dc6aa0d04"
+  repository_url: "https://github.com/googlefonts/cambo"
+  commit: "a2c35dbad5014c97b1ca438b895d95c7411e0e04"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Cambo-Regular.ttf"
+    dest_file: "Cambo-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

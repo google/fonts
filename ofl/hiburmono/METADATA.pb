@@ -18,8 +18,9 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/typehabesha/HiburMono"
-  commit: "ea9fe744a13815eb4efeb297c072ce61b4c335df"
+  commit: "b488a2e53fc5c214cd8d9629fd35e14c21175434"
   archive_url: "https://github.com/typehabesha/HiburMono/releases/download/v1.0.0/HiburMono-v1.0.0.zip"
+  branch: "main"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,8 +29,4 @@ source {
     source_file: "fonts/ttf/HiburMono-Regular.ttf"
     dest_file: "HiburMono-Regular.ttf"
   }
-  branch: "main"
 }
-primary_script: "Ethi"
-stroke: "SANS_SERIF"
-classifications: "MONOSPACE"

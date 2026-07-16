@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-07-10"
 source {
-  repository_url: "https://github.com/librefonts/courgette"
-  commit: "e9638c8874f097c75ff3206c5dfe15b6ef4c67b1"
+  repository_url: "https://github.com/googlefonts/courgette"
+  commit: "dcdd6f44e43530c55ae4d154b23b8f2fbb0e137f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Courgette-Regular.ttf"
+    dest_file: "Courgette-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

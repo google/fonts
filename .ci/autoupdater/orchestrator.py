@@ -90,6 +90,12 @@ class AutoUpdatePipeline:
                 "error": check_result.error,
             }
 
+        # Phase 2: Acquire verbatim TTF binaries
+        if not candidate_ttf_fonts and check_result.release_info:
+            family_slug = meta.name.lower().replace(" ", "")
+            cache_dir = Path("download_cache") / family_slug
+            candidate_ttf_fonts = self.fetcher.acquire_upstream_binaries(check_result.release_info, meta, cache_dir)
+
         # Pre-Flight Binary Hash Check: If candidate TTFs are byte-for-byte identical to existing TTFs
         if candidate_ttf_fonts:
             existing_dir = meta_path.parent
@@ -112,10 +118,9 @@ class AutoUpdatePipeline:
                     "message": "Candidate TTF binaries are 100% byte-for-byte identical to existing Google Fonts TTFs.",
                 }
 
-        # Phase 2: Acquire verbatim TTF binaries
         # Phase 3: Run Regression Engine (diffenator2 & Fontspector QA)
         baseline_ttf_paths = [str(p) for p in meta_path.parent.glob("*.ttf")]
-        cand_ttf_paths = [t[0] for t in candidate_ttf_fonts] if candidate_ttf_fonts else baseline_ttf_paths
+        cand_ttf_paths = [str(t[0]) for t in candidate_ttf_fonts] if candidate_ttf_fonts else baseline_ttf_paths
 
         diff_res = mock_diff_result or run_diffenator_analysis(baseline_ttf_paths, cand_ttf_paths)
 
@@ -193,6 +198,7 @@ class AutoUpdatePipeline:
             "pr_info": pr_info,
             "pr_body": pr_body,
             "updated_pb_content": updated_pb_content,
+            "candidate_ttf_fonts": candidate_ttf_fonts,
         }
 
 

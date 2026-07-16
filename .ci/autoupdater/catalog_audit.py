@@ -147,6 +147,7 @@ def process_single_family(item):
                     updated_pb_content=res.get("updated_pb_content", ""),
                     pr_title=pr_title,
                     pr_body=res.get("pr_body", ""),
+                    candidate_ttf_fonts=res.get("candidate_ttf_fonts"),
                     upstream_version=res.get("upstream_version"),
                     upstream_commit=res.get("upstream_commit"),
                     base_branch=base_branch,

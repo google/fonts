@@ -127,7 +127,7 @@ def compare_version_numbers(v1: str, v2: str) -> int:
     """
     Compare numerical version strings v1 vs v2.
     Returns 1 if v1 > v2, -1 if v1 < v2, 0 if v1 == v2.
-    Accurately compares decimal values (e.g. 4.1 > 4.001) and dot-separated SemVer strings.
+    Accurately compares component numbers, handling leading zeros (e.g. 2407.24 == 2407.024).
     """
     if not v1 and not v2:
         return 0
@@ -139,34 +139,22 @@ def compare_version_numbers(v1: str, v2: str) -> int:
     clean1 = v1.strip().lstrip("vV")
     clean2 = v2.strip().lstrip("vV")
 
-    try:
-        f1 = float(clean1)
-        f2 = float(clean2)
-        if f1 > f2:
-            return 1
-        elif f1 < f2:
-            return -1
-        else:
-            return 0
-    except ValueError:
-        pass
+    parts1 = [p for p in clean1.split(".") if p]
+    parts2 = [p for p in clean2.split(".") if p]
 
-    parts1 = clean1.split(".")
-    parts2 = clean2.split(".")
     for p1, p2 in zip(parts1, parts2):
         if p1.isdigit() and p2.isdigit():
-            i1, i2 = int(p1), int(p2)
+            i1 = int(p1.lstrip("0") or "0")
+            i2 = int(p2.lstrip("0") or "0")
             if i1 != i2:
                 return 1 if i1 > i2 else -1
-            if len(p1) != len(p2):
-                return -1 if p1.startswith("0") else 1
 
     if len(parts1) > len(parts2):
         return 1
     elif len(parts1) < len(parts2):
         return -1
-    return 0
 
+    return 0
 
 
 def compare_local_vs_upstream(
@@ -198,18 +186,18 @@ def compare_local_vs_upstream(
         "upstream_published_at": upstream_published,
     }
 
-    # Case 1: Release Version Comparison
+    # Case 1: Commit Hash Match Check (Highest Priority: Same commit = No Update)
+    if upstream_commit and installed_commit:
+        if upstream_commit.lower().startswith(installed_commit.lower()) or installed_commit.lower().startswith(upstream_commit.lower()):
+            return VersionComparisonStatus.COMMIT_UNCHANGED, info
+
+    # Case 2: Release Version Comparison
     if upstream_ver and installed_ver:
         cmp_res = compare_version_numbers(upstream_ver, installed_ver)
         if cmp_res > 0:
             return VersionComparisonStatus.UPDATE_AVAILABLE, info
         elif cmp_res < 0:
             return VersionComparisonStatus.LOCAL_IS_NEWER, info
-
-    # Case 2: Commit Hash Match Check
-    if upstream_commit and installed_commit:
-        if upstream_commit.lower().startswith(installed_commit.lower()) or installed_commit.lower().startswith(upstream_commit.lower()):
-            return VersionComparisonStatus.COMMIT_UNCHANGED, info
 
     # Case 3: Timestamp Comparison (Upstream published vs Local Git Commit Date)
     if upstream_published and installed_date:
@@ -225,3 +213,4 @@ def compare_local_vs_upstream(
         return VersionComparisonStatus.UPDATE_AVAILABLE, info
 
     return VersionComparisonStatus.UP_TO_DATE, info
+

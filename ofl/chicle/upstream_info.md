@@ -1,51 +1,23 @@
-# Chicle - Investigation Report
+# Chicle
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Chicle |
-| Designer | Sudtipos (Angel Koziupa, Alejandro Paul) |
-| License | OFL |
-| Date Added | 2011-11-30 |
-| Repository URL | https://github.com/librefonts/chicle |
-| Commit | `4ee3e89dbbdcfc0d56f7e1e3cc3d2de009219502` |
-| Branch | master |
-| Config YAML | N/A |
-| Status | missing_config |
+## Initial state
 
-## How URL Found
+The family shipped from FontForge `.sfd` sources with no gftools-builder configuration. METADATA.pb pointed at the librefonts mirror with an onboarding commit but no config_yaml, so the family could not be rebuilt with the current pipeline.
 
-The repository URL `https://github.com/librefonts/chicle` was already documented in the tracking data. This is a librefonts mirror repository containing the font sources. The repo contains SFD (FontForge) and VFB source files along with TTX decompositions.
+## Actions taken
 
-## How Commit Determined
+The FontForge source `src/Chicle-Regular-TTF.sfd` was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`), producing `sources/Chicle-Regular.glyphs`. During conversion 4 stray NUL bytes were stripped and a U+00A0 no-break space glyph was added, which FontForge used to synthesise at export time. A build configuration was added so the family builds with gftools-builder3 and fontc.
 
-The upstream repository has only a single commit:
-- `4ee3e89dbbdcfc0d56f7e1e3cc3d2de009219502` (2014-10-17) - "update .travis.yml"
+## Final state
 
-This is the one and only commit in the repository, so it is trivially the correct commit reference. The source block was added to METADATA.pb in commit `9a14639f3` as part of a batch update adding source blocks to 602 families.
-
-## Config YAML Status
-
-**No config.yaml exists** - neither in the upstream repository nor as an override in the google/fonts family directory.
-
-The upstream repo contains only legacy source formats:
-- `src/Chicle-Regular-TTF.sfd` (FontForge SFD)
-- `src/Chicle-Regular-OTF.vfb` (FontLab VFB)
-
-These formats are not compatible with gftools-builder, which requires `.glyphs`, `.glyphx`, `.ufo`, or `.designspace` sources. No config.yaml can be created without first converting the sources to a modern format.
+The repository was adopted into the Unified Font Repository template and now builds Chicle-Regular from the `.glyphs` source. The superseded `.sfd` sources and legacy build cruft were retired.
 
 ## Verification
 
-- Repository URL verified: accessible at https://github.com/librefonts/chicle
-- Commit hash verified: matches the only commit in the repository
-- Font files last modified in google/fonts: `b736f39c3` (2015-04-27) - "nbspace and fsType fixes"
-- No source block exists in the current METADATA.pb on main (the batch update `9a14639f3` is in a pending PR branch)
+The Rust-built `Chicle-Regular.ttf` was compared against the shipped binary. Codepoint coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths all agreed; the verdict is FUNCTIONAL. The only difference is benign: 7 glyphs were renamed to their production names, which leaves the codepoint coverage unchanged.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** - Repository URL and commit hash are definitively correct. The repo has only one commit, making verification trivial. The missing_config status is accurate since only SFD/VFB sources exist.
-
-## Open Questions
-
-None. This family cannot have a config.yaml without source format conversion.
+Original upstream: https://github.com/librefonts/chicle (branch `master`), latest commit `4ee3e89dbbdcfc0d56f7e1e3cc3d2de009219502`. This was also the onboarding commit recorded in the previous METADATA.pb source block.

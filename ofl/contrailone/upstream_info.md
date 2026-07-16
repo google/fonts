@@ -1,49 +1,25 @@
-# Contrail One - Investigation Report
+# Contrail One
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Contrail One |
-| Designer | Riccardo De Franceschi |
-| Repository URL | https://github.com/librefonts/contrailone |
-| Commit | 21ed60440130b6afcdd5e7555e9fe7c8c4344146 |
-| Branch | master |
-| Config YAML | N/A (SFD-only sources) |
-| Status | missing_config |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Contrail One (Regular) built from FontForge SFD sources at https://github.com/librefonts/contrailone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/contrailone` was identified from the librefonts organization. The initial bulk PR [#10270](https://github.com/google/fonts/pull/10270) ("Add source blocks to 602 more METADATA.pb files", branch `sources_info_2026-02-25`, commit `9a14639f3`) was closed without merge. The follow-up [PR #10271](https://github.com/google/fonts/pull/10271), which split the changes into one commit per family on branch `sources_per_family_2026-02-26`, was merged on 2026-02-26; the Contrail One source block was added by commit `6c7562912` in that PR.
+## Actions taken
 
-The copyright in METADATA.pb mentions Sorkin Type Co (Eben Sorkin) as the foundry.
+- The canonical FontForge SFD source (`src/ContrailOne-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/contrailone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-## How Commit Determined
+## Final state
 
-The commit `21ed60440130b6afcdd5e7555e9fe7c8c4344146` is the HEAD (and only commit in the shallow clone) of the `librefonts/contrailone` repository. The commit message is "update .travis.yml". This follows the standard librefonts repo pattern.
-
-## Config YAML Status
-
-No config.yaml exists in the upstream repository. The source files are:
-- `src/ContrailOne-Regular-TTF.sfd` (FontForge SFD format)
-- `src/ContrailOne-Regular.vfb` (FontLab VFB format)
-
-These formats are not compatible with gftools-builder. No override config.yaml exists in the google/fonts family directory.
+The source now lives at https://github.com/googlefonts/contrailone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
 ## Verification
 
-- Repository URL returns HTTP 200 (inferred from successful git clone in cache)
-- Commit hash matches the HEAD of the cached repo
-- The font binary has never been updated since the initial commit and the deploy commit
-- Added to Google Fonts on 2011-10-26
-- Source block exists in main-branch METADATA.pb, added via [PR #10271](https://github.com/google/fonts/pull/10271) (merge commit `bb77776a5`)
+The rebuilt Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets and advance widths. Three accepted differences remain: the two non-encoded FontForge legacy glyphs (`.null`, `nonmarkingreturn`) were dropped; 8 glyphs were renamed to production names with no change to coverage; and the GDEF table now classifies `uni0326` as a combining mark, which the shipped font had missed.
 
-## Confidence Level
+## Original repository (dormant)
 
-**High** for repository URL and commit hash.
-
-**N/A** for config.yaml - the sources are in legacy formats (SFD/VFB) not supported by gftools-builder.
-
-## Open Questions
-
-None. This is a straightforward legacy font with SFD/VFB sources in a standard librefonts archive repository.
+The original FontForge sources are at https://github.com/librefonts/contrailone (`.sfd`), latest at commit `21ed60440130b6afcdd5e7555e9fe7c8c4344146`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

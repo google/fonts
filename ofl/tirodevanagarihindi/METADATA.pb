@@ -27,7 +27,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/TiroTypeworks/Indigo"
-  commit: "98b5d3a01c534b7029af04a59d31e0d7d90be15a"
+  commit: "bb6971bd84133778068ed1070f0174cf1d1f60fd"
+  branch: "main"
   files {
     source_file: "fonts/OFL.txt"
     dest_file: "OFL.txt"
@@ -44,6 +45,4 @@ source {
     source_file: "fonts/TiroDevaHindi/TTF/TiroDevaHindi-Italic.ttf"
     dest_file: "TiroDevaHindi-Italic.ttf"
   }
-  branch: "main"
 }
-primary_script: "Deva"

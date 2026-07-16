@@ -14,7 +14,7 @@ if ci_dir not in sys.path:
     sys.path.insert(0, ci_dir)
 
 from autoupdater.orchestrator import AutoUpdatePipeline
-from autoupdater.report_generator import generate_family_verification_report
+from autoupdater.report_generator import generate_family_verification_report, package_out_of_date_reports
 
 
 def main():
@@ -62,10 +62,16 @@ def main():
     report_md = generate_family_verification_report(result, output_filepath=args.report_out)
     result["report_markdown_path"] = args.report_out
 
+    if result.get("has_update"):
+        zip_path, gen_files = package_out_of_date_reports([result])
+        result["zip_archive_path"] = zip_path
+        print(f"📦 Packaged out-of-date verification report into '{zip_path}'.")
+
     # Print summary result JSON
     printable_result = {k: v for k, v in result.items() if k not in ("pr_body", "updated_pb_content", "candidate_ttf_fonts")}
     print(json.dumps(printable_result, indent=2))
     print(f"\n📄 Verification report generated: {args.report_out}")
+
 
 
 if __name__ == "__main__":

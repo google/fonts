@@ -3,10 +3,13 @@ Report and PR description generation module for automated upstream updates.
 Located internally within google/fonts at .ci/autoupdater/report_generator.py.
 """
 
+import os
+import re
 import json
+import zipfile
 import unicodedata
 from pathlib import Path
-from typing import Optional, Dict, Any, List
+from typing import Optional, Dict, Any, List, Tuple
 from datetime import datetime, timezone
 from .models import FamilyMetadata, UpdateCheckResult, SafetyTier
 from .regression_engine import SafetyScoreBreakdown, DiffenatorResult, QACheckResult
@@ -134,8 +137,7 @@ def generate_pr_body(
 def generate_family_verification_report(result: Dict[str, Any], output_filepath: Optional[str] = None) -> str:
     """
     Generate detailed single-family verification report for testing against live repository.
-    Includes font file matching identification, binary diff status, naming identity, mapping flags,
-    and granular test suite data points.
+    Follows exact requested format for out-of-date font family verification.
     """
     family_name = result.get("family_name", "Unknown")
     has_update = result.get("has_update", False)
@@ -148,33 +150,14 @@ def generate_family_verification_report(result: Dict[str, Any], output_filepath:
     lines.append(f"**PR Submission Mode:** `DISABLED (Report / Verification Mode)` 🛑")
     lines.append("")
 
-    lines.append("## 📁 Font File Naming & Matching Identification")
+    lines.append("## 📁 Font File Matching Identification")
     lines.append("")
-
-    naming_status = matching.get("naming_identity_status", "N/A")
-    naming_badge = {
-        "IDENTICAL_NAMES": "🟢 **IDENTICAL_NAMES** (Ground truth and candidate filenames match 1:1)",
-        "MAPPED_NAMES": "🟡 **MAPPED_NAMES** (Filenames differ, but mapped via font_mappings.json)",
-        "UNMATCHED_NAMES": "🔴 **UNMATCHED_NAMES** (Filenames differ & require mapping file entry)",
-    }.get(naming_status, f"`{naming_status}`")
-
-    lines.append(f"- **Font Naming Identity Status:** {naming_badge}")
     lines.append(f"- **Overall Matching Status:** `{matching.get('status', 'N/A')}`")
     lines.append(f"- **Local TTF Count (in google/fonts):** `{matching.get('local_ttf_count', 0)}`")
     lines.append(f"- **Upstream Candidate TTF Count:** `{matching.get('candidate_ttf_count', 0)}`")
     lines.append(f"- **Filename Match Rate:** `{matching.get('match_rate_pct', 0.0)}%`")
-    lines.append(f"- **Binary Hash Differences:** `{'YES (Updated Binary Content)' if matching.get('has_binary_changes') else 'NO (Byte-Identical Binaries)'}`")
+    lines.append(f"- **Binary Hash Differences Detected:** `{'YES (Updated Binary Content)' if matching.get('has_binary_changes') else 'NO (Byte-Identical Binaries)'}`")
     lines.append("")
-
-    if matching.get("mapping_action_required"):
-        snippet = matching.get("suggested_mapping_snippet", {})
-        lines.append("> [!WARNING]")
-        lines.append("> **⚠️ ACTION REQUIRED: Font Name Mapping Missing**")
-        lines.append("> Upstream candidate font files do not match ground truth filenames. Add the following entry to `.ci/autoupdater/font_mappings.json`:")
-        lines.append("```json")
-        lines.append(json.dumps({family_name.lower().replace(" ", ""): snippet}, indent=2))
-        lines.append("```")
-        lines.append("")
 
     matched_pairs = matching.get("matched_pairs", [])
     if matched_pairs:
@@ -208,20 +191,48 @@ def generate_family_verification_report(result: Dict[str, Any], output_filepath:
     lines.append("")
     lines.append(f"- **Update Available:** `{'YES' if has_update else 'NO'}`")
     lines.append(f"- **Current Installed Version:** `{result.get('current_version', 'N/A')}`")
-    lines.append(f"- **Upstream Candidate Version (from TTF binary):** `{result.get('upstream_version', 'N/A')}`")
+    lines.append(f"- **Upstream Candidate Version:** `{result.get('upstream_version', 'N/A')}`")
     lines.append(f"- **Safe to Update (STU) Score:** `{result.get('safety_score', 'N/A')} / 100`")
     lines.append(f"- **Decision Tier:** `{result.get('safety_tier', 'N/A')}`")
     lines.append(f"- **Pipeline Status:** `{result.get('status', 'N/A')}`")
-    lines.append("")
 
-    if "pr_body" in result:
-        lines.append("---")
-        lines.append(result["pr_body"])
-
-    content = "\n".join(lines)
+    content = "\n".join(lines) + "\n"
     if output_filepath:
         Path(output_filepath).write_text(content, encoding="utf-8")
     return content
+
+
+def package_out_of_date_reports(
+    results: List[Dict[str, Any]],
+    output_dir: str = "out_of_date_reports",
+    zip_filepath: str = "autoupdate_verification_reports.zip",
+) -> Tuple[str, List[str]]:
+    """
+    Generate individual verification report files for each out-of-date font family
+    and package them into a single ZIP archive for GitHub Actions artifact upload.
+    """
+    out_path = Path(output_dir)
+    out_path.mkdir(parents=True, exist_ok=True)
+
+    generated_files: List[str] = []
+
+    for r in results:
+        if r.get("has_update"):
+            fam_name = r.get("family_name", "Unknown")
+            fam_slug = re.sub(r'[^a-zA-Z0-9_-]', '', fam_name.lower().replace(" ", "_"))
+            report_filename = f"{fam_slug}_verification_report.md"
+            filepath = out_path / report_filename
+
+            generate_family_verification_report(r, output_filepath=str(filepath))
+            generated_files.append(str(filepath))
+
+    zip_path = Path(zip_filepath)
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+        for f in generated_files:
+            p = Path(f)
+            zf.write(p, arcname=p.name)
+
+    return str(zip_path), generated_files
 
 
 def generate_live_repository_audit_report(
@@ -297,5 +308,6 @@ def generate_live_repository_audit_report(
     content = "\n".join(lines)
     Path(output_filepath).write_text(content, encoding="utf-8")
     return content
+
 
 

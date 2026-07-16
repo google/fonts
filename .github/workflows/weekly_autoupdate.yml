@@ -103,14 +103,19 @@ jobs:
             cat catalog_audit_report.md >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: Upload Human-Readable Audit Artifacts
+      - name: Upload Human-Readable Audit Artifacts & ZIP Reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: autoupdater-human-readable-report
+          name: autoupdater-verification-reports
           path: |
+            autoupdate_verification_reports.zip
+            out_of_date_reports/
+            live_repo_verification_report.md
+            family_verification_report.md
             catalog_audit_report.md
             catalog_audit_report.csv
             catalog_audit_report.json
             gf_audit_progress.json
             gf_catalog_full_audit.db
+

@@ -23,7 +23,7 @@ if ci_dir not in sys.path:
 
 from autoupdater.orchestrator import AutoUpdatePipeline
 from autoupdater.metadata_parser import load_metadata_pb
-from autoupdater.report_generator import generate_live_repository_audit_report
+from autoupdater.report_generator import generate_live_repository_audit_report, package_out_of_date_reports
 
 pr_lock = threading.Lock()
 
@@ -329,6 +329,7 @@ def run_full_catalog_audit(
     generate_markdown_report(report, results, output_filepath="catalog_audit_report.md")
     generate_live_repository_audit_report(report, results, output_filepath="live_repo_verification_report.md")
     export_csv_report(results, output_filepath="catalog_audit_report.csv")
+    zip_path, gen_files = package_out_of_date_reports(results)
     Path("catalog_audit_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
 
     print("📄 Generated human-readable report exports:")
@@ -336,6 +337,8 @@ def run_full_catalog_audit(
     print("  - Markdown Audit Summary: catalog_audit_report.md")
     print("  - CSV Table: catalog_audit_report.csv")
     print("  - JSON Data: catalog_audit_report.json")
+    print(f"  - ZIP Archive ({len(gen_files)} out-of-date reports): {zip_path}")
+
 
     return report
 

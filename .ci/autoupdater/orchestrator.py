@@ -10,7 +10,7 @@ from .models import FamilyMetadata, UpdateCheckResult, SafetyTier, UpdateType
 from .metadata_parser import load_metadata_pb
 from .metadata_updater import update_metadata_pb
 from .upstream_monitor import UpstreamMonitor
-from .artifact_fetcher import ArtifactFetcher, compare_ttf_dir_hashes
+from .artifact_fetcher import ArtifactFetcher, compare_ttf_dir_hashes, compute_sha256
 from .regression_engine import (
     RegressionEngine,
     DiffenatorResult,
@@ -21,7 +21,119 @@ from .report_generator import generate_pr_body
 from .state_store import StateStore
 from .pr_creator import PRCreator
 from .fontspector_runner import run_fontspector, compare_qa_results
-from .diffenator_runner import run_diffenator_analysis
+from .diffenator_runner import run_diffenator_analysis, load_font_mappings
+
+
+def analyze_font_file_matching(
+    local_dir: Path,
+    candidate_fonts: Optional[List[Any]],
+    family_slug: str,
+) -> Dict[str, Any]:
+    """
+    Analyze font file matching between existing local TTF files in Google Fonts repo
+    and acquired upstream candidate TTF files.
+    """
+    local_ttf_paths = sorted(list(local_dir.glob("*.ttf")))
+    local_filenames = [p.name for p in local_ttf_paths]
+
+    if not candidate_fonts:
+        return {
+            "status": "NO_CANDIDATE_FONTS",
+            "local_ttf_count": len(local_filenames),
+            "candidate_ttf_count": 0,
+            "local_filenames": local_filenames,
+            "candidate_filenames": [],
+            "matched_pairs": [],
+            "unmatched_local_filenames": local_filenames,
+            "unmatched_candidate_filenames": [],
+            "match_rate_pct": 0.0,
+            "has_binary_changes": False,
+        }
+
+    mappings = load_font_mappings(family_slug)
+
+    cand_tuples = []
+    for item in candidate_fonts:
+        if isinstance(item, (list, tuple)):
+            cand_path = Path(item[0])
+            cand_hash = str(item[1]) if len(item) > 1 else ""
+        else:
+            cand_path = Path(item)
+            cand_hash = ""
+        cand_tuples.append((cand_path, cand_hash))
+
+    cand_filenames = [c[0].name for c in cand_tuples]
+    cand_by_name = {c[0].name: c for c in cand_tuples}
+
+    matched_pairs = []
+    unmatched_local = []
+    unmatched_cand = set(cand_filenames)
+    has_binary_changes = False
+
+    for loc_path in local_ttf_paths:
+        loc_name = loc_path.name
+        loc_hash = ""
+        try:
+            loc_hash = compute_sha256(str(loc_path))
+        except Exception:
+            pass
+
+        cand_match_name = None
+        match_type = "UNMATCHED"
+
+        if loc_name in cand_by_name:
+            cand_match_name = loc_name
+            match_type = "EXACT_NAME"
+        else:
+            # Check if any candidate maps to loc_name via font_mappings
+            for cand_name, target_name in mappings.items():
+                if target_name == loc_name and cand_name in cand_by_name:
+                    cand_match_name = cand_name
+                    match_type = "MAPPED_NAME"
+                    break
+
+        if cand_match_name:
+            cand_path, cand_hash = cand_by_name[cand_match_name]
+            if cand_match_name in unmatched_cand:
+                unmatched_cand.remove(cand_match_name)
+            hash_changed = (loc_hash != cand_hash) if (loc_hash and cand_hash) else True
+            if hash_changed:
+                has_binary_changes = True
+
+            matched_pairs.append({
+                "local_filename": loc_name,
+                "candidate_filename": cand_match_name,
+                "match_type": match_type,
+                "local_sha256": loc_hash,
+                "candidate_sha256": cand_hash,
+                "binary_hash_changed": hash_changed,
+            })
+        else:
+            unmatched_local.append(loc_name)
+
+    unmatched_candidate_list = sorted(list(unmatched_cand))
+
+    if len(matched_pairs) == len(local_filenames) and not unmatched_candidate_list:
+        status = "EXACT_MATCH"
+    elif len(matched_pairs) > 0:
+        status = "PARTIAL_MATCH"
+    else:
+        status = "NO_MATCH"
+
+    match_rate = (len(matched_pairs) / len(local_filenames) * 100.0) if local_filenames else 0.0
+
+    return {
+        "status": status,
+        "local_ttf_count": len(local_filenames),
+        "candidate_ttf_count": len(cand_filenames),
+        "local_filenames": local_filenames,
+        "candidate_filenames": cand_filenames,
+        "matched_pairs": matched_pairs,
+        "unmatched_local_filenames": unmatched_local,
+        "unmatched_candidate_filenames": unmatched_candidate_list,
+        "match_rate_pct": round(match_rate, 2),
+        "has_binary_changes": has_binary_changes,
+    }
 
 
 class AutoUpdatePipeline:
@@ -90,14 +202,6 @@ class AutoUpdatePipeline:
                 "error": check_result.error,
             }
 
-        # Phase 2: Acquire verbatim TTF binaries
-        if not candidate_ttf_fonts:
-            family_slug = meta.name.lower().replace(" ", "")
-            cache_dir = Path("download_cache") / family_slug
-            candidate_ttf_fonts = self.fetcher.acquire_upstream_binaries(
-                check_result.release_info, meta, cache_dir, check_result.upstream_commit
-            )
-
         family_slug = meta.name.lower().replace(" ", "")
 
         # Phase 2: Acquire verbatim TTF binaries from upstream
@@ -109,6 +213,13 @@ class AutoUpdatePipeline:
                 output_dir=cache_dir,
                 upstream_commit=check_result.upstream_commit,
             )
+
+        # Font File Matching Analysis
+        font_matching_analysis = analyze_font_file_matching(
+            local_dir=meta_path.parent,
+            candidate_fonts=candidate_ttf_fonts,
+            family_slug=family_slug,
+        )
 
         # Pre-Flight Binary Hash Check: If candidate TTFs are byte-for-byte identical to existing TTFs
         if candidate_ttf_fonts:
@@ -129,6 +240,7 @@ class AutoUpdatePipeline:
                     "current_commit": check_result.current_commit,
                     "upstream_commit": check_result.upstream_commit,
                     "status": "NO_TTF_BINARY_CHANGE",
+                    "font_matching_analysis": font_matching_analysis,
                     "message": "Candidate TTF binaries are 100% byte-for-byte identical to existing Google Fonts TTFs.",
                 }
 
@@ -170,7 +282,6 @@ class AutoUpdatePipeline:
 
         should_auto_merge = self.evaluate_auto_merge(score_info, meta)
 
-
         # Phase 4: Generate PR body and report artifacts
         pr_body = generate_pr_body(meta, check_result, score_info, diff_res, qa_res)
         updated_pb_content = update_metadata_pb(meta, new_commit=check_result.upstream_commit)
@@ -192,7 +303,7 @@ class AutoUpdatePipeline:
             )
 
         # Record pipeline completion
-        status_val = "PR_CREATED" if (pr_info and pr_info.get("created")) else ("PR_READY" if not should_auto_merge else "AUTO_MERGED")
+        status_val = "PR_CREATED" if (pr_info and pr_info.get("created")) else ("PR_READY (DRY RUN)" if not create_pr else "PR_READY")
 
         check_id = self.state_store.record_check_result(
             family_name=meta.name,
@@ -217,10 +328,13 @@ class AutoUpdatePipeline:
             "safety_tier": score_info.safety_tier.value,
             "auto_merge_qualified": should_auto_merge,
             "status": status_val,
+            "pr_submission_enabled": create_pr,
             "pr_info": pr_info,
+            "font_matching_analysis": font_matching_analysis,
             "pr_body": pr_body,
             "updated_pb_content": updated_pb_content,
             "candidate_ttf_fonts": candidate_ttf_fonts,
         }
+
 
 

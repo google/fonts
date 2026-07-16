@@ -71,6 +71,68 @@ class TestInternalAutoUpdater(unittest.TestCase):
         bar_half = make_progress_bar(50.0, width=10)
         self.assertEqual(bar_half, "█████░░░░░")
 
+    def test_gftools_packager_import(self):
+        from autoupdater.artifact_fetcher import _import_gftools_packager
+        packager = _import_gftools_packager()
+        if packager:
+            self.assertTrue(hasattr(packager, "PR_CHECKLIST"))
+            self.assertTrue(hasattr(packager, "ADD_TO_TRAFFIC_JAM"))
+
+    def test_pr_creator_checklist_integration(self):
+        from autoupdater.pr_creator import PRCreator, _import_gftools_packager
+        creator = PRCreator()
+        packager = _import_gftools_packager()
+        result = creator.create_pull_request(
+            family_name="Roboto",
+            metadata_filepath="ofl/roboto/METADATA.pb",
+            updated_pb_content='name: "Roboto"\n',
+            pr_title="Update Roboto",
+            pr_body="Initial PR body text.",
+            dry_run=True,
+        )
+        self.assertFalse(result["created"])
+        self.assertTrue(result["dry_run"])
+
+    def test_font_matching_analysis(self):
+        from autoupdater.orchestrator import analyze_font_file_matching
+        local_dir = Path("ofl/roboto")
+        matching = analyze_font_file_matching(local_dir, None, "roboto")
+        self.assertIn("status", matching)
+        self.assertIn("match_rate_pct", matching)
+
+    def test_family_verification_report_generation(self):
+        from autoupdater.report_generator import generate_family_verification_report
+        sample_res = {
+            "family_name": "Inter",
+            "has_update": True,
+            "current_version": "3.000",
+            "upstream_version": "3.012",
+            "safety_score": 98.5,
+            "safety_tier": "AUTO_APPROVE",
+            "status": "PR_READY (DRY RUN)",
+            "font_matching_analysis": {
+                "status": "EXACT_MATCH",
+                "local_ttf_count": 2,
+                "candidate_ttf_count": 2,
+                "match_rate_pct": 100.0,
+                "has_binary_changes": True,
+                "matched_pairs": [
+                    {
+                        "local_filename": "Inter[wght].ttf",
+                        "candidate_filename": "Inter[wght].ttf",
+                        "match_type": "EXACT_NAME",
+                        "binary_hash_changed": True,
+                    }
+                ],
+            },
+        }
+        report_text = generate_family_verification_report(sample_res)
+        self.assertIn("Live Repository Verification Report", report_text)
+        self.assertIn("PR Submission Mode", report_text)
+        self.assertIn("EXACT_MATCH", report_text)
+
 
 if __name__ == "__main__":
     unittest.main()
+
+

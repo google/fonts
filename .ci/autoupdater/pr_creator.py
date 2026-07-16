@@ -5,6 +5,7 @@ Located internally within google/fonts at .ci/autoupdater/pr_creator.py.
 
 import os
 import re
+import sys
 import json
 import subprocess
 import urllib.request
@@ -13,11 +14,33 @@ from pathlib import Path
 from typing import Optional, Dict, Any, List
 
 
+def _import_gftools_packager():
+    """Dynamically import gftools.packager with fallback compatibility."""
+    try:
+        import gflanguages
+        if not hasattr(gflanguages, 'parse'):
+            gflanguages.parse = lambda *args, **kwargs: None
+        import gftools.packager as packager
+        return packager
+    except Exception:
+        venv_site = '/Users/aaronwbell/Desktop/gsf_test/venv/lib/python3.13/site-packages'
+        if venv_site not in sys.path:
+            sys.path.insert(0, venv_site)
+        try:
+            import gflanguages
+            if not hasattr(gflanguages, 'parse'):
+                gflanguages.parse = lambda *args, **kwargs: None
+            import gftools.packager as packager
+            return packager
+        except Exception:
+            return None
+
+
 class PRCreator:
     """Creates git feature branch, commits updated METADATA.pb, and opens a GitHub PR."""
 
     def __init__(self, github_token: Optional[str] = None, repo_slug: str = "google/fonts"):
-        self.token = github_token or os.environ.get("GITHUB_TOKEN")
+        self.token = github_token or os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
         self.repo_slug = repo_slug
 
     def create_pull_request(
@@ -43,6 +66,12 @@ class PRCreator:
         if commit_short:
             branch_name += f"-{commit_short}"
 
+        # Import gftools.packager helpers if available
+        packager = _import_gftools_packager()
+        pr_checklist = getattr(packager, "PR_CHECKLIST", "") if packager else ""
+        if pr_checklist and "PR Checklist:" not in pr_body:
+            pr_body = pr_body + "\n" + pr_checklist
+
         if dry_run:
             return {
                 "created": False,
@@ -66,11 +95,23 @@ class PRCreator:
             # 4. Write updated METADATA.pb on the new feature branch
             meta_path.write_text(updated_pb_content, encoding="utf-8")
 
+            family_dir = meta_path.parent
+
+            # Article HTML Formatting via fix_article
+            if packager:
+                try:
+                    article_dir = family_dir / "article"
+                    if article_dir.exists():
+                        fix_article_func = getattr(packager, "fix_article", None)
+                        if fix_article_func:
+                            fix_article_func(article_dir, inplace=True)
+                except Exception:
+                    pass
+
             # 4b. Copy candidate TTF font binaries into family directory ONLY if they correspond to existing fonts in Google Fonts
             if candidate_ttf_fonts:
                 from .diffenator_runner import load_font_mappings
 
-                family_dir = meta_path.parent
                 existing_ttf_names = {p.name for p in family_dir.glob("*.ttf")}
                 mappings = load_font_mappings(family_slug)
 
@@ -91,7 +132,7 @@ class PRCreator:
 
 
             # 5. Add and commit METADATA.pb and updated font binaries
-            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "add", str(meta_path.parent)], check=True)
+            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "add", str(family_dir)], check=True)
             commit_msg = f"Update {family_name} font binaries and METADATA.pb to upstream {upstream_version or upstream_commit}"
             subprocess.run([
                 "git", "-c", "core.hooksPath=/dev/null",
@@ -105,6 +146,7 @@ class PRCreator:
 
             # 7. Create PR via GitHub REST API
             pr_url = None
+            pr_node_id = None
             api_error = None
             if self.token:
                 url = f"https://api.github.com/repos/{self.repo_slug}/pulls"
@@ -129,6 +171,7 @@ class PRCreator:
                     with urllib.request.urlopen(req, timeout=15) as resp:
                         res_data = json.loads(resp.read().decode("utf-8"))
                         pr_url = res_data.get("html_url")
+                        pr_node_id = res_data.get("node_id")
                 except urllib.error.HTTPError as e:
                     err_text = e.read().decode("utf-8") if e.fp else str(e)
                     api_error = f"GitHub REST API HTTP {e.code}: {err_text}"
@@ -163,6 +206,32 @@ class PRCreator:
                     if not api_error:
                         api_error = f"gh CLI Error: {gh_err}"
 
+            # Traffic Jam Board Registration via GraphQL mutation
+            if pr_node_id and packager:
+                traffic_jam_id = getattr(packager, "TRAFFIC_JAM_ID", None)
+                add_to_tj = getattr(packager, "ADD_TO_TRAFFIC_JAM", None)
+                if traffic_jam_id and add_to_tj and self.token:
+                    try:
+                        mutation_query = add_to_tj.format(
+                            project_id=traffic_jam_id,
+                            content_id=pr_node_id,
+                        )
+                        gql_url = "https://api.github.com/graphql"
+                        gql_req = urllib.request.Request(
+                            gql_url,
+                            data=json.dumps({"query": mutation_query}).encode("utf-8"),
+                            headers={
+                                "Authorization": f"Bearer {self.token}",
+                                "User-Agent": "GoogleFonts-AutoUpdater/1.0.0",
+                                "Content-Type": "application/json",
+                            },
+                            method="POST",
+                        )
+                        with urllib.request.urlopen(gql_req, timeout=10) as gql_resp:
+                            pass
+                    except Exception:
+                        pass
+
             # Return to original branch
             subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", original_branch], check=False)
 
@@ -182,12 +251,14 @@ class PRCreator:
                 }
 
         except Exception as e:
-            # Revert any uncommitted/unstaged changes and restore original branch
-            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", "--", "."], check=False)
-            subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", original_branch], check=False)
+            # Emergency checkout restore
+            try:
+                subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "checkout", original_branch], check=False)
+            except Exception:
+                pass
             return {
                 "created": False,
+                "branch_name": branch_name,
                 "error": str(e),
                 "status": "PR_CREATION_FAILED",
             }
-

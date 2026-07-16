@@ -14,6 +14,7 @@ if ci_dir not in sys.path:
     sys.path.insert(0, ci_dir)
 
 from autoupdater.orchestrator import AutoUpdatePipeline
+from autoupdater.report_generator import generate_family_verification_report
 
 
 def main():
@@ -34,14 +35,19 @@ def main():
     parser.add_argument(
         "--create-pr",
         action="store_true",
-        help="Create git feature branch and open Pull Request on GitHub.",
+        default=False,
+        help="Create git feature branch and open Pull Request on GitHub (DISABLED by default).",
     )
     parser.add_argument(
         "--base-branch",
         default="main",
         help="Base branch for PR (default: main).",
     )
-
+    parser.add_argument(
+        "--report-out",
+        default="family_verification_report.md",
+        help="Output filepath for generated Markdown verification report (default: family_verification_report.md).",
+    )
 
     args = parser.parse_args()
 
@@ -51,9 +57,17 @@ def main():
 
     pipeline = AutoUpdatePipeline(state_db_path=args.db)
     result = pipeline.process_family(args.metadata, create_pr=args.create_pr, base_branch=args.base_branch)
-    print(json.dumps(result, indent=2))
 
+    # Generate verification report
+    report_md = generate_family_verification_report(result, output_filepath=args.report_out)
+    result["report_markdown_path"] = args.report_out
+
+    # Print summary result JSON
+    printable_result = {k: v for k, v in result.items() if k not in ("pr_body", "updated_pb_content", "candidate_ttf_fonts")}
+    print(json.dumps(printable_result, indent=2))
+    print(f"\n📄 Verification report generated: {args.report_out}")
 
 
 if __name__ == "__main__":
     main()
+

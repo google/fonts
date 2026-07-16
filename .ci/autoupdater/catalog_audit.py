@@ -23,6 +23,7 @@ if ci_dir not in sys.path:
 
 from autoupdater.orchestrator import AutoUpdatePipeline
 from autoupdater.metadata_parser import load_metadata_pb
+from autoupdater.report_generator import generate_live_repository_audit_report
 
 pr_lock = threading.Lock()
 
@@ -41,6 +42,7 @@ def make_progress_bar(pct: float, width: int = 20) -> str:
     filled = int(round(width * pct / 100))
     bar = "█" * filled + "░" * (width - filled)
     return bar
+
 
 
 def generate_markdown_report(report: Dict[str, Any], results: List[Dict[str, Any]], output_filepath: str = "catalog_audit_report.md") -> str:
@@ -107,6 +109,7 @@ def generate_markdown_report(report: Dict[str, Any], results: List[Dict[str, Any
     return content
 
 
+
 def export_csv_report(results: List[Dict[str, Any]], output_filepath: str = "catalog_audit_report.csv") -> None:
     """Export audit results table to CSV file."""
     fieldnames = [
@@ -151,8 +154,7 @@ def process_single_family(item):
                     family_name=meta.name,
                     metadata_filepath=filepath,
                     updated_pb_content=res.get("updated_pb_content", ""),
-                    pr_title=pr_title,
-                    pr_body=res.get("pr_body", ""),
+                    pr_title=res.get("pr_body", ""),
                     candidate_ttf_fonts=res.get("candidate_ttf_fonts"),
                     upstream_version=res.get("upstream_version"),
                     upstream_commit=res.get("upstream_commit"),
@@ -185,7 +187,7 @@ def run_full_catalog_audit(
     db_path: str = "gf_catalog_full_audit.db",
     progress_file: str = "gf_audit_progress.json",
     log_interval: int = 50,
-    max_prs: int = 1,
+    max_prs: int = 0,
     base_branch: str = "main",
 ) -> Dict[str, Any]:
     pattern = os.path.join(fonts_repo_path, "*", "*", "METADATA.pb")
@@ -235,11 +237,11 @@ def run_full_catalog_audit(
             results.append(res)
             completed += 1
 
-            status = res.get("status")
             has_up = res.get("has_update", False)
-            tier = res.get("safety_tier")
+            tier = res.get("safety_tier", "")
+            status = res.get("status", "")
 
-            if status == "ERROR":
+            if res.get("error") or status == "ERROR":
                 error_count += 1
             elif has_up:
                 updated_count += 1
@@ -251,12 +253,11 @@ def run_full_catalog_audit(
                     blocked_count += 1
 
             elapsed = time.time() - start_time
-            pct = (completed / total_count) * 100
             rate = completed / elapsed if elapsed > 0 else 0
-            remaining_sec = (total_count - completed) / rate if rate > 0 else 0
-            eta_str = format_eta(remaining_sec)
+            rem_sec = (total_count - completed) / rate if rate > 0 else 0
+            eta_str = format_eta(rem_sec)
+            pct = (completed / total_count) * 100.0
             bar = make_progress_bar(pct, width=15)
-
             family_name = res.get("family_name", "Unknown")
 
             progress_snap = {
@@ -326,11 +327,13 @@ def run_full_catalog_audit(
     }
 
     generate_markdown_report(report, results, output_filepath="catalog_audit_report.md")
+    generate_live_repository_audit_report(report, results, output_filepath="live_repo_verification_report.md")
     export_csv_report(results, output_filepath="catalog_audit_report.csv")
     Path("catalog_audit_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
 
     print("📄 Generated human-readable report exports:")
-    print("  - Markdown: catalog_audit_report.md")
+    print("  - Single/Multi Verification: live_repo_verification_report.md")
+    print("  - Markdown Audit Summary: catalog_audit_report.md")
     print("  - CSV Table: catalog_audit_report.csv")
     print("  - JSON Data: catalog_audit_report.json")
 
@@ -355,7 +358,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 4:
         log_interval = int(sys.argv[4])
 
-    max_prs = 1
+    max_prs = 0
     if len(sys.argv) > 5:
         max_prs = int(sys.argv[5])
 

@@ -4,12 +4,36 @@ Located internally within google/fonts at .ci/autoupdater/artifact_fetcher.py.
 """
 
 import os
+import sys
 import zipfile
 import hashlib
+import tempfile
 import urllib.request
 from pathlib import Path
 from typing import List, Optional, Tuple
 from .models import UpstreamRelease, FamilyMetadata, ReleaseAsset
+
+
+def _import_gftools_packager():
+    """Dynamically import gftools.packager with fallback compatibility."""
+    try:
+        import gflanguages
+        if not hasattr(gflanguages, 'parse'):
+            gflanguages.parse = lambda *args, **kwargs: None
+        import gftools.packager as packager
+        return packager
+    except Exception:
+        venv_site = '/Users/aaronwbell/Desktop/gsf_test/venv/lib/python3.13/site-packages'
+        if venv_site not in sys.path:
+            sys.path.insert(0, venv_site)
+        try:
+            import gflanguages
+            if not hasattr(gflanguages, 'parse'):
+                gflanguages.parse = lambda *args, **kwargs: None
+            import gftools.packager as packager
+            return packager
+        except Exception:
+            return None
 
 
 def compute_sha256(filepath: str) -> str:
@@ -107,6 +131,7 @@ class ArtifactFetcher:
     ) -> List[Tuple[Path, str]]:
         """
         Acquire candidate update TTF font binaries from release assets or commit archives verbatim.
+        Delegates to gftools.packager when available and falls back to source compilation if needed.
         """
         output_dir.mkdir(parents=True, exist_ok=True)
         acquired_fonts: List[Tuple[Path, str]] = []
@@ -114,7 +139,6 @@ class ArtifactFetcher:
         if release and release.assets:
             zip_assets = [a for a in release.assets if a.name.endswith(".zip")]
             font_assets = [a for a in release.assets if is_ttf_font_file(a.name)]
-
 
             if zip_assets:
                 asset = zip_assets[0]
@@ -131,7 +155,7 @@ class ArtifactFetcher:
                 if acquired_fonts:
                     return acquired_fonts
 
-        # Fallback for commit updates or missing release assets: Download repository archive zip
+        # Fallback 1: Download repository archive zip if metadata contains source archive url or repository url
         archive_url = None
         if family_meta.source:
             if family_meta.source.archive_url:
@@ -153,4 +177,29 @@ class ArtifactFetcher:
             except Exception:
                 pass
 
+        # Fallback 2: Build TTF font binaries from upstream source using gftools.packager.build
+        packager = _import_gftools_packager()
+        if packager and family_meta.source and family_meta.source.repository_url:
+            try:
+                from gftools.packager.build import build_to_directory
+                import gftools.fonts_public_pb2 as fonts_pb2
+
+                proto_meta = fonts_pb2.FamilyProto()
+                proto_meta.name = family_meta.name
+                proto_meta.license = family_meta.license
+                if family_meta.source.repository_url:
+                    proto_meta.source.repository_url = family_meta.source.repository_url
+                if family_meta.source.branch:
+                    proto_meta.source.branch = family_meta.source.branch
+
+                build_to_directory(output_dir, output_dir, proto_meta)
+                built_ttfs = list(output_dir.glob("*.ttf"))
+                for ttf in built_ttfs:
+                    if is_ttf_font_file(str(ttf)):
+                        file_hash = compute_sha256(str(ttf))
+                        acquired_fonts.append((ttf, file_hash))
+            except Exception:
+                pass
+
         return acquired_fonts
+

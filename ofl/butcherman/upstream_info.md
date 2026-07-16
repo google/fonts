@@ -1,48 +1,30 @@
-# Butcherman - Investigation Report
+# Butcherman
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| **Family Name** | Butcherman |
-| **Designer** | Typomondo |
-| **License** | OFL |
-| **Date Added** | 2011-12-19 |
-| **Repository URL** | https://github.com/librefonts/butcherman |
-| **Commit Hash** | `92a34525b5032c76484c49e652f649e52d1465e5` |
-| **Branch** | master |
-| **Config YAML** | N/A |
-| **Status** | missing_config |
+## Initial state
 
-## How URL Was Found
+Google Fonts shipped Butcherman (Regular) built from FontForge SFD sources at https://github.com/librefonts/butcherman. The shipped binary is pre-OpenType: it has no GSUB, no GPOS and no legacy kern table. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/butcherman` was added as part of a batch source block addition in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files"). The librefonts GitHub organization hosts mirrors/archives of many Google Fonts source repos. The URL is consistent with the standard librefonts naming convention for this family.
+## Actions taken
 
-## How Commit Was Determined
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The upstream SFD defines a Standard Ligatures (`liga`) lookup (`n n -> n_n`, `o o -> o_o`) that FontForge's TTF export had dropped, so the shipped binary never applied it. To keep this modernization a strict equivalence, that feature was removed from the converted source so the rebuild matches the shipped binary. Restoring it is proposed separately (see below).
+- A new Unified Font Repository was created at https://github.com/googlefonts/butcherman, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The recorded commit `92a34525b5032c76484c49e652f649e52d1465e5` is the **only commit** in the entire repository. The repo was initialized by hash3g on 2014-10-17 with the message "update .travis.yml". Since there is only one commit, it is trivially the correct reference point -- it represents the only state the repo has ever been in.
+## Final state
 
-The font binaries in google/fonts were last updated via PR #870 ("hotfix-butcherman: v1.004 added"), authored by m4rc1e and merged on 2017-08-07. This was a hotfix to the font file (66148 -> 66100 bytes), likely addressing minor issues.
-
-## Config YAML Status
-
-**No config.yaml exists** in the upstream repository and no override config.yaml exists in the google/fonts family directory.
-
-The repository contains only SFD (FontForge) source files at `src/Butcherman-Regular.sfd` and `src/Butcherman-Regular-TTF.sfd`. These are FontForge-format sources that are **not compatible with gftools-builder**, which requires `.glyphs`, `.ufo`, or `.designspace` sources.
-
-No config.yaml can be created for this family without first converting the sources to a gftools-compatible format.
+The source now lives at https://github.com/googlefonts/butcherman (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary. The rebuilt font has no GSUB, matching the shipped binary.
 
 ## Verification
 
-- **Repository URL**: Confirmed valid; repo is cloned at `upstream_repos/fontc_crater_cache/librefonts/butcherman/`
-- **Commit hash**: Verified -- it is the only commit in the repo (HEAD of master)
-- **Source files**: Only SFD files present (`src/Butcherman-Regular.sfd`, `src/Butcherman-Regular-TTF.sfd`)
-- **Font binary history**: Last updated in google/fonts via PR #870 (m4rc1e, 2017-08-07)
+The rebuilt Butcherman-Regular was compared against the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths, and had no blocking differences. Accepted differences: two FontForge legacy glyphs (`.null`, `nonmarkingreturn`) were dropped; 17 glyphs were renamed to their production names, with codepoint coverage unchanged; GDEF now classifies five real combining marks that the shipped font missed; and those five marks were given zero advance where the shipped font had assigned them spacing advances.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** -- The repository URL is correct and the commit hash is trivially verified as the sole commit. The missing_config status is accurate because only SFD sources exist, which cannot be built with gftools-builder.
+The original FontForge sources are at https://github.com/librefonts/butcherman (`.sfd`), latest at commit `92a34525b5032c76484c49e652f649e52d1465e5`. Preserved for provenance; the new `.glyphs` source supersedes it for building.
 
-## Open Questions
+## Pending improvement (separate review)
 
-None. The data is complete and verified. The family will remain in `missing_config` status unless the sources are converted to a gftools-compatible format.
+The `liga` lookup the shipped font lacks was recovered during conversion and is preserved on a separate branch. Restoring it changes rendering (the `nn` and `oo` doubles), so it is proposed as a follow-up that a Google Fonts onboarder must review and QA before it ships. It is not part of this equivalence modernization.

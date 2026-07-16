@@ -9,7 +9,7 @@ import os
 import subprocess
 from pathlib import Path
 from datetime import datetime
-from typing import Optional, Tuple, Dict, Any
+from typing import Optional, Tuple, Dict, Any, List
 from .models import FamilyMetadata, UpstreamRelease, VersionComparisonStatus
 
 try:
@@ -123,11 +123,26 @@ def parse_iso_date(date_str: Optional[str]) -> Optional[datetime]:
         return None
 
 
+def normalize_version_parts(v_str: str) -> List[int]:
+    """Extract integer components from a version string and trim trailing zero components."""
+    clean = v_str.strip().lstrip("vV")
+    parts = [p for p in clean.split(".") if p]
+    nums = []
+    for p in parts:
+        if p.isdigit():
+            nums.append(int(p))
+        else:
+            nums.append(0)
+    while len(nums) > 1 and nums[-1] == 0:
+        nums.pop()
+    return nums
+
+
 def compare_version_numbers(v1: str, v2: str) -> int:
     """
     Compare numerical version strings v1 vs v2.
     Returns 1 if v1 > v2, -1 if v1 < v2, 0 if v1 == v2.
-    Accurately compares decimal values (e.g. 4.1 > 4.001) and dot-separated SemVer strings.
+    Accurately compares decimal values (e.g. 4.1 > 4.001) and dot-separated SemVer strings (e.g. 1.0.0 == 1.000).
     """
     if not v1 and not v2:
         return 0
@@ -151,23 +166,19 @@ def compare_version_numbers(v1: str, v2: str) -> int:
     except ValueError:
         pass
 
-    parts1 = [p for p in clean1.split(".") if p]
-    parts2 = [p for p in clean2.split(".") if p]
+    n1 = normalize_version_parts(clean1)
+    n2 = normalize_version_parts(clean2)
 
-    for p1, p2 in zip(parts1, parts2):
-        if p1.isdigit() and p2.isdigit():
-            i1 = int(p1)
-            i2 = int(p2)
-            if i1 != i2:
-                return 1 if i1 > i2 else -1
+    for a, b in zip(n1, n2):
+        if a != b:
+            return 1 if a > b else -1
 
-    if len(parts1) > len(parts2):
+    if len(n1) > len(n2):
         return 1
-    elif len(parts1) < len(parts2):
+    elif len(n1) < len(n2):
         return -1
 
     return 0
-
 
 
 def compare_local_vs_upstream(
@@ -211,6 +222,9 @@ def compare_local_vs_upstream(
             return VersionComparisonStatus.UPDATE_AVAILABLE, info
         elif cmp_res < 0:
             return VersionComparisonStatus.LOCAL_IS_NEWER, info
+        else:
+            return VersionComparisonStatus.UP_TO_DATE, info
+
 
     # Case 3: Timestamp Comparison (Upstream published vs Local Git Commit Date)
     if upstream_published and installed_date:

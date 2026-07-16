@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/butcherman"
-  commit: "92a34525b5032c76484c49e652f649e52d1465e5"
+  repository_url: "https://github.com/googlefonts/butcherman"
+  commit: "f4f7f3e2cd993e09bb72e154c5fd34f3dc99d3c0"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Butcherman-Regular.ttf"
+    dest_file: "Butcherman-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

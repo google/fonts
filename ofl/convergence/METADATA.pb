@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-09"
 source {
-  repository_url: "https://github.com/librefonts/convergence"
-  commit: "475145997c07041d94fabe462233b89f15450a41"
+  repository_url: "https://github.com/googlefonts/convergence"
+  commit: "0f57768c9ddc32b357bf4d32897b8ea4e846d71e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Convergence-Regular.ttf"
+    dest_file: "Convergence-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -1,45 +1,25 @@
 # Cookie
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Cookie |
-| Repository URL | https://github.com/librefonts/cookie |
-| Commit Hash | `15549218a2cb9d78b590471e0fe76644b33c986d` |
-| Branch | master |
-| Config YAML | N/A (SFD-only sources) |
-| Status | missing_config |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Cookie (Regular) built from FontForge SFD sources at https://github.com/librefonts/cookie. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/cookie` is part of the librefonts GitHub organization, which hosts archival copies of early Google Fonts projects. The URL was already documented in the tracking data and matches the git remote of the cached upstream repo at `upstream_repos/fontc_crater_cache/librefonts/cookie`.
+## Actions taken
 
-## How Commit Determined
+- The canonical FontForge SFD source (`src/Cookie-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/cookie, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-The upstream repository contains exactly **one commit**: `15549218a2cb9d78b590471e0fe76644b33c986d` ("update .travis.yml"). Since this is the only commit in the repository, it is trivially the correct reference. The librefonts repos were created as archival snapshots of the font projects' state when they were onboarded to Google Fonts.
+## Final state
 
-The font file in google/fonts (`Cookie-Regular.ttf`) was added only in the initial commit (`90abd17b4`, 2015-03-07) and has never been modified since on the main branch.
-
-## Config YAML Status
-
-**No config.yaml exists** in the upstream repository. The source files are:
-- `src/Cookie-Regular-TTF.sfd` (FontForge SFD format)
-- `src/Cookie-Regular.vfb` (FontLab VFB format)
-
-These are legacy font formats that are **not compatible with gftools-builder**. No override `config.yaml` exists in the google/fonts family directory either.
+The source now lives at https://github.com/googlefonts/cookie (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binaries.
 
 ## Verification
 
-- **Repository accessible**: Yes (verified via git remote URL)
-- **Commit hash valid**: Yes - matches the only commit in the repo
-- **Font file unchanged since onboarding**: Yes - only modified in initial commit on main
-- **Source block in METADATA.pb**: Pending (exists on feature branch `sources_info_2026-02-25`, not yet merged to main)
+The rebuilt Cookie-Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. Two benign differences were accepted: the FontForge legacy `nonmarkingreturn` glyph was dropped (FontForge synthesised it at export time; it carries no encoded codepoint), and 7 glyphs were renamed to their AGL production names with unchanged coverage.
 
-## Confidence Level
+## Original repository (dormant)
 
-**High** - Single-commit librefonts archival repository. The commit hash is unambiguous.
-
-## Open Questions
-
-None. The family has SFD-only sources and cannot be rebuilt with gftools-builder without a source format conversion.
+The original FontForge sources are at https://github.com/librefonts/cookie (`.sfd`), latest at commit `15549218a2cb9d78b590471e0fe76644b33c986d`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

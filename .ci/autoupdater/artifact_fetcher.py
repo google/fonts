@@ -23,10 +23,9 @@ def compute_sha256(filepath: str) -> str:
 
 def is_font_file(filename: str) -> bool:
     """
-    Check if file is a TrueType font (.ttf).
-    Google Fonts exclusively uses TTF format files.
+    Check if file is a font binary (.ttf, .otf, .ttc, .woff, .woff2).
     """
-    return Path(filename).suffix.lower() == ".ttf"
+    return Path(filename).suffix.lower() in [".ttf", ".otf", ".ttc", ".woff", ".woff2"]
 
 
 def compare_ttf_dir_hashes(existing_ttf_dir: Path, candidate_fonts: List[Tuple[Path, str]]) -> bool:

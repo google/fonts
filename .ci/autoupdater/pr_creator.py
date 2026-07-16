@@ -66,14 +66,29 @@ class PRCreator:
             # 4. Write updated METADATA.pb on the new feature branch
             meta_path.write_text(updated_pb_content, encoding="utf-8")
 
-            # 4b. Copy candidate TTF font binaries into family directory if provided
+            # 4b. Copy candidate TTF font binaries into family directory ONLY if they correspond to existing fonts in Google Fonts
             if candidate_ttf_fonts:
+                from .diffenator_runner import load_font_mappings
+
                 family_dir = meta_path.parent
+                existing_ttf_names = {p.name for p in family_dir.glob("*.ttf")}
+                mappings = load_font_mappings(family_slug)
+
                 for cand_item in candidate_ttf_fonts:
                     cand_path = Path(cand_item[0]) if isinstance(cand_item, (list, tuple)) else Path(cand_item)
-                    if cand_path.exists() and cand_path.parent.resolve() != family_dir.resolve():
-                        dest_path = family_dir / cand_path.name
-                        dest_path.write_bytes(cand_path.read_bytes())
+                    cand_name = cand_path.name
+
+                    target_name = None
+                    if cand_name in mappings:
+                        target_name = mappings[cand_name]
+                    elif cand_name in existing_ttf_names:
+                        target_name = cand_name
+
+                    if target_name and target_name in existing_ttf_names:
+                        if cand_path.exists() and cand_path.parent.resolve() != family_dir.resolve():
+                            dest_path = family_dir / target_name
+                            dest_path.write_bytes(cand_path.read_bytes())
+
 
             # 5. Add and commit METADATA.pb and updated font binaries
             subprocess.run(["git", "-c", "core.hooksPath=/dev/null", "add", str(meta_path.parent)], check=True)

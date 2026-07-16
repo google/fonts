@@ -27,15 +27,10 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
-axes {
-  tag: "wght"
-  min_value: 400.0
-  max_value: 700.0
-}
 source {
   repository_url: "https://github.com/canonical/Ubuntu-Sans-Mono-fonts"
-  commit: "5f47c8f963e2863468e49d2bb5bb6e6c4eb18ef7"
-  config_yaml: "sources/config.yaml"
+  commit: "c57353c1772eb8aaab9c539e3d42c971a03a5fcd"
+  branch: "main"
   files {
     source_file: "LICENCE.txt"
     dest_file: "LICENCE.txt"
@@ -52,5 +47,9 @@ source {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
   }
-  branch: "main"
+}
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
 }

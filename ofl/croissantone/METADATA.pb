@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-12"
 source {
-  repository_url: "https://github.com/librefonts/croissantone"
-  commit: "ebcefa6161a0558f994a038105f90f304fe91ff7"
+  repository_url: "https://github.com/googlefonts/croissantone"
+  commit: "0747cf401c74b546f997a820cb036a39513ba09c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CroissantOne-Regular.ttf"
+    dest_file: "CroissantOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

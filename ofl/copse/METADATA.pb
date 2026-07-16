@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2010-12-15"
 source {
-  repository_url: "https://github.com/librefonts/copse"
-  commit: "cb3ef9c1cce0dcea7f5743e84e9ed7da7e259fd4"
+  repository_url: "https://github.com/googlefonts/copse"
+  commit: "3022d037cd17945ad478f853ce401fc51185f8d0"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Copse-Regular.ttf"
+    dest_file: "Copse-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -1,56 +1,26 @@
-# Investigation Report: Bowlby One
+# Bowlby One
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Bowlby One |
-| Designer | Vernon Adams |
-| License | OFL |
-| Date Added | 2011-07-13 |
-| Repository URL | https://github.com/librefonts/bowlbyone |
-| Commit Hash | `3aca9b57cf9c7b9688b635d5dcfb6d53948e26a2` |
-| Branch | master |
-| Config YAML | None |
-| Status | missing_config |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Bowlby One (Regular) built from FontForge SFD sources at https://github.com/librefonts/bowlbyone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/bowlbyone` was previously recorded in the tracking data. The librefonts organization hosts archival copies of many early Google Fonts projects. The repository is accessible and contains the original source files.
+## Actions taken
 
-## How Commit Determined
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion, stray NUL bytes were stripped from the source and the no-break space advance width was corrected.
+- A new Unified Font Repository was created at https://github.com/googlefonts/bowlbyone, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The repository has only 11 commits total, all from 2014. The recorded commit `3aca9b5` is the tip of master (the latest commit, from 2014-10-17: "update .travis.yml"). This is the only meaningful commit to use as a reference since the repo has not been updated since 2014.
+## Final state
 
-The font binary in google/fonts was last updated in two key commits:
-1. `efb2eb034` (2015-04-27) - nbspace and fsType fixes by Dave Crossland
-2. `5df13fc14` (2017-08-07) - "hotfix-bowlbyone: v1.001 added" by Marc Foley via PR #864
-
-The 2017 hotfix updated the font binary to v1.001. This update was made by Marc Foley (m4rc1e), likely regenerating or modifying the binary outside the upstream repo. The upstream repo was never updated to reflect this change.
-
-## Config YAML Status
-
-**No config.yaml exists** in either the upstream repository or as an override in google/fonts.
-
-The upstream repository only contains SFD (FontForge) and VFB (FontLab) source files:
-- `src/BowlbyOne-Regular-TTF.sfd`
-- `src/BowlbyOne-Regular.vfb`
-
-These formats are not compatible with gftools-builder. There are no `.glyphs`, `.ufo`, or `.designspace` files.
+The source now lives at https://github.com/googlefonts/bowlbyone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
 ## Verification
 
-- **Repository accessible**: Yes, `librefonts/bowlbyone` is accessible on GitHub
-- **Commit exists**: Yes, `3aca9b5` verified on GitHub (2014-10-17)
-- **Local cache**: Repo cached at `upstream_repos/fontc_crater_cache/librefonts/bowlbyone/`
-- **Commit matches tip**: Yes, the recorded commit is the latest commit in the repo
-- **Source files**: SFD and VFB only (not gftools-builder compatible)
+The rebuilt Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, and GSUB/GPOS feature sets. The differences are cosmetic and accepted: two FontForge legacy glyphs (`.null`, `nonmarkingreturn`) were dropped, six glyphs were renamed to production names with coverage unchanged, and three real combining marks (U+030F, U+0311, U+0326) were zeroed and correctly classified in GDEF, where the shipped font had left them with spurious spacing advances and no mark class.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** - The repository URL and commit hash are correct. The commit is the tip of an archival repo that has not been updated since 2014. The font binary in google/fonts was later modified independently (2015, 2017) without corresponding upstream changes.
-
-## Open Questions
-
-1. The 2017 hotfix (v1.001, PR #864) was done by Marc Foley. It is unclear where the updated source for v1.001 resides, if anywhere.
-2. Since only SFD/VFB sources exist, a config.yaml cannot be created for gftools-builder. This family may need to remain in "missing_config" status permanently, or an alternative build approach would need to be developed.
+The original FontForge sources are at https://github.com/librefonts/bowlbyone (`.sfd`), latest at commit `3aca9b57cf9c7b9688b635d5dcfb6d53948e26a2`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

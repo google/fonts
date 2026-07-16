@@ -58,10 +58,17 @@ jobs:
           restore-keys: |
             gf-autoupdater-state-
 
-      - name: Install Engine Dependencies
+      - name: Install Engine Dependencies & Fontspector
         run: |
           python -m pip install --upgrade pip
-          pip install fontTools requests fontspector
+          pip install fontTools requests fontbakery
+          
+          echo "Installing Fontspector binary release..."
+          mkdir -p /tmp/fontspector_dist
+          curl -L -s https://github.com/fonttools/fontspector/releases/download/fontspector-v1.7.3/fontspector-v1.7.3-x86_64-unknown-linux-gnu.tar.gz | tar -xz -C /tmp/fontspector_dist
+          sudo cp /tmp/fontspector_dist/*/fontspector /usr/local/bin/
+          fontspector --version || true
+
 
 
       - name: Configure Git Author Identity

@@ -1,47 +1,26 @@
-# Concert One - Investigation Report
+# Concert One
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Concert One |
-| Designer | Johan Kallas, Mihkel Virkus |
-| Repository URL | https://github.com/librefonts/concertone |
-| Commit | c2160f498dbb0ebf8394fbd117c21d2160cdef01 |
-| Branch | master |
-| Config YAML | N/A (SFD-only sources) |
-| Status | missing_config |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Concert One (Regular) built from FontForge SFD sources at https://github.com/librefonts/concertone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/concertone` was identified from the librefonts organization, which hosts mirrored source repositories for many early Google Fonts families. The initial bulk PR [#10270](https://github.com/google/fonts/pull/10270) ("Add source blocks to 602 more METADATA.pb files", branch `sources_info_2026-02-25`, commit `9a14639f3`) was closed without merge. The follow-up [PR #10271](https://github.com/google/fonts/pull/10271), which split the changes into one commit per family on branch `sources_per_family_2026-02-26`, was merged on 2026-02-26; the Concert One source block was added by commit `56d250fda` in that PR.
+## Actions taken
 
-## How Commit Determined
+- The canonical FontForge SFD source (`ConcertOne-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- Seven glyphs were renamed to their production names during conversion; character coverage was unchanged.
+- A new Unified Font Repository was created at https://github.com/googlefonts/concertone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The commit `c2160f498dbb0ebf8394fbd117c21d2160cdef01` is the HEAD (and only commit in the shallow clone) of the `librefonts/concertone` repository. The commit message is "update .travis.yml". This is a standard librefonts repo pattern where the single visible commit represents the latest state of the source archive.
+## Final state
 
-## Config YAML Status
-
-No config.yaml exists in the upstream repository. The source files are:
-- `src/ConcertOne-Regular-TTF.sfd` (FontForge SFD format)
-- `src/ConcertOne-Regular-OTF.vfb` (FontLab VFB format)
-
-These formats are not compatible with gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` sources. No override config.yaml exists in the google/fonts family directory either.
+The source now lives at https://github.com/googlefonts/concertone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
 ## Verification
 
-- Repository URL returns HTTP 200
-- Commit hash matches the HEAD of the cached repo
-- The font binary in google/fonts was last modified by a v-metrics hotfix (commit `dc96bd2ff`, May 2024, by Emma Marichal) applied directly to the binary - no upstream source changes
-- Source block exists in main-branch METADATA.pb, added via [PR #10271](https://github.com/google/fonts/pull/10271) (merge commit `bb77776a5`)
+Identical to the shipped ConcertOne-Regular.ttf on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that seven glyphs were renamed to production names, which leaves character coverage unchanged; the result is accepted as functionally equivalent.
 
-## Confidence Level
+## Original repository (dormant)
 
-**High** for repository URL and commit hash. The librefonts repo is the canonical source archive.
-
-**N/A** for config.yaml - the sources are in legacy formats (SFD/VFB) not supported by gftools-builder.
-
-## Open Questions
-
-1. The v-metrics hotfix was applied directly to the binary in google/fonts without corresponding upstream changes. Should this be documented more formally?
-2. Would it be worthwhile to convert the SFD sources to a gftools-builder compatible format?
+The original FontForge sources are at https://github.com/librefonts/concertone (`.sfd`), latest at commit `c2160f498dbb0ebf8394fbd117c21d2160cdef01`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

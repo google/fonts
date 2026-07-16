@@ -1,54 +1,31 @@
 # Chango
 
-**Date investigated**: 2026-02-26
-**Status**: missing_config
-**Designer**: Fontstage
-**METADATA.pb path**: `ofl/chango/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/chango |
-| Commit | `ca58222d6319223db35d6e76052ef9a78cca43f7` |
-| Config YAML | N/A (SFD-only sources) |
-| Branch | `master` |
+The family shipped from a FontForge project (`src/Chango-Regular-TTF.sfd`) with no gftools-builder configuration. METADATA.pb pointed at the librefonts repository but recorded no config_yaml, so the family could not be rebuilt with the current pipeline.
 
-## How the Repository URL Was Found
+## Actions taken
 
-The repository URL `https://github.com/librefonts/chango` was already documented in the tracking data. It was added to METADATA.pb in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files", 2026-02-25). The repository is part of the `librefonts` GitHub organization which hosts many Google Fonts upstream sources.
+The repository adopted the Unified Font Repository template. The FontForge source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`), producing `sources/Chango-Regular.glyphs`, and a gftools-builder configuration was added. The no-break space (U+00A0) advance width was corrected to 400 to match the space glyph. The superseded FontForge sources and legacy build cruft were retired.
 
-## How the Commit Hash Was Identified
+## Final state
 
-The commit `ca58222d6319223db35d6e76052ef9a78cca43f7` is the **only commit** in the upstream repository (2014-10-17, "update .travis.yml"). This is a single-commit repository, making the hash unambiguous.
-
-The font files in google/fonts have never been updated since the initial commit `90abd17b4`. The font was added to Google Fonts on 2011-12-13 (date_added field).
-
-## How Config YAML Was Resolved
-
-No `config.yaml` exists in the upstream repository, and no override `config.yaml` exists in the google/fonts family directory (`ofl/chango/`).
-
-The upstream repository contains only legacy source formats:
-- `src/Chango-Regular-TTF.sfd` (FontForge SFD format)
-- `src/Chango-Regular-OTF.vfb` (FontLab VFB format)
-- Various TTX decomposition files
-
-Neither SFD nor VFB formats are compatible with gftools-builder. A `config.yaml` cannot be created without first converting the sources to a modern format (`.glyphs` or `.ufo`).
+The repository builds Chango Regular from the `.glyphs` source with gftools-builder3 and fontc, driven by its build configuration.
 
 ## Verification
 
-- Repository URL accessible: Yes
-- Commit exists in upstream repo: Yes (it is the only commit)
-- Commit date: 2014-10-17 13:32:32 +0300
-- Commit message: "update .travis.yml"
-- Source files at commit: `src/Chango-Regular-TTF.sfd`, `src/Chango-Regular-OTF.vfb`
+The freshly built Chango Regular was compared against the binary currently shipped in Google Fonts. Glyph coverage, metrics and layout matched; the verdict was FUNCTIONAL with only benign differences:
 
-## Confidence
+- The FontForge legacy glyph `nonmarkingreturn` was dropped (FontForge synthesised it at export time; it carries no rendering meaning).
+- 13 glyphs were renamed to their AGL production names; coverage was unchanged.
+- The GDEF table now classifies two real combining marks that the shipped font missed (U+0307, U+0326).
+- One combining mark (U+0307) was zero-width, whereas the shipped font gave it a spacing advance.
 
-**High**: The repository URL and commit hash are straightforward -- the repo has only one commit. The URL is confirmed by its presence in the librefonts organization. The lack of config.yaml is expected given the legacy source formats (SFD/VFB only).
+No blocking differences were found.
 
-## Open Questions
+## Original repository (dormant)
 
-1. The sources are in legacy formats (SFD and VFB). To enable gftools-builder builds, these would need to be converted to `.glyphs` or `.ufo` format. This is not a trivial conversion and may require manual review by a type designer.
-2. The family was added to Google Fonts in 2011 (date_added: 2011-12-13). The upstream repository appears to be a post-hoc archive created in 2014, rather than the original development location.
-3. The designer "Fontstage" does not appear to have an active online presence. Any source conversion work would likely need to be done by the Google Fonts team.
+Original upstream: https://github.com/librefonts/chango
+Latest commit: ca58222d6319223db35d6e76052ef9a78cca43f7 (branch `master`)

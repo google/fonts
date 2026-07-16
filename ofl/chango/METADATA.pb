@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-13"
 source {
-  repository_url: "https://github.com/librefonts/chango"
-  commit: "ca58222d6319223db35d6e76052ef9a78cca43f7"
+  repository_url: "https://github.com/googlefonts/chango"
+  commit: "fed28f46958e46610efc52780476adcfc91745e6"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Chango-Regular.ttf"
+    dest_file: "Chango-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -4,8 +4,22 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-04-04"
 source {
-  repository_url: "https://github.com/librefonts/chauphilomeneone"
-  commit: "ac51123e5c7a33cd48b4fdf686b91922ea68c422"
+  repository_url: "https://github.com/googlefonts/chauphilomeneone"
+  commit: "d7246600bbdfd898596bb8ebab13c484e5b21a55"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ChauPhilomeneOne-Italic.ttf"
+    dest_file: "ChauPhilomeneOne-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ChauPhilomeneOne-Regular.ttf"
+    dest_file: "ChauPhilomeneOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

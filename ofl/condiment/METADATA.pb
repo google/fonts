@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-01-25"
 source {
-  repository_url: "https://github.com/librefonts/condiment"
-  commit: "0a1933e09c9008136f997c47c75ddf6b00a8d884"
+  repository_url: "https://github.com/googlefonts/condiment"
+  commit: "a89340dd6409f34edd3d00dba5326e870b910f2a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Condiment-Regular.ttf"
+    dest_file: "Condiment-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -22,6 +22,8 @@ from .state_store import StateStore
 from .pr_creator import PRCreator
 from .fontspector_runner import run_fontspector, compare_qa_results
 from .diffenator_runner import run_diffenator_analysis, load_font_mappings
+from .manual_instructions import ManualInstructions
+
 
 
 def analyze_font_file_matching(
@@ -171,6 +173,8 @@ class AutoUpdatePipeline:
         self.regression_engine = RegressionEngine()
         self.state_store = StateStore(db_path=state_db_path)
         self.pr_creator = PRCreator()
+        self.manual_instructions = ManualInstructions()
+
 
     def evaluate_auto_merge(self, score_info: SafetyScoreBreakdown, family_meta: FamilyMetadata) -> bool:
         """
@@ -250,12 +254,15 @@ class AutoUpdatePipeline:
                     check_result.upstream_version = ver_num
                     break
 
+        directives = self.manual_instructions.get_family_directives(meta.name)
+
         # Font File Matching Analysis
         font_matching_analysis = analyze_font_file_matching(
             local_dir=meta_path.parent,
             candidate_fonts=candidate_ttf_fonts,
             family_slug=family_slug,
         )
+        font_matching_analysis["is_variable_update_approved"] = directives["is_variable_update"]
 
         # Pre-Flight Binary Hash Check: If candidate TTFs are byte-for-byte identical to existing TTFs
         if candidate_ttf_fonts:
@@ -277,9 +284,10 @@ class AutoUpdatePipeline:
                     "upstream_commit": check_result.upstream_commit,
                     "status": "NO_TTF_BINARY_CHANGE",
                     "font_matching_analysis": font_matching_analysis,
+                    "is_human_approved": directives["is_human_approved"],
+                    "is_variable_update_approved": directives["is_variable_update"],
                     "message": "Candidate TTF binaries are 100% byte-for-byte identical to existing Google Fonts TTFs.",
                 }
-
 
         # Phase 3: Run Regression Engine (diffenator2 & Fontspector QA)
         baseline_ttf_paths = [str(p) for p in meta_path.parent.glob("*.ttf")]
@@ -368,10 +376,15 @@ class AutoUpdatePipeline:
             "pr_submission_enabled": create_pr,
             "pr_info": pr_info,
             "font_matching_analysis": font_matching_analysis,
+            "is_human_approved": directives["is_human_approved"],
+            "is_variable_update_approved": directives["is_variable_update"],
+            "qa_res": qa_res,
+            "diff_res": diff_res,
             "pr_body": pr_body,
             "updated_pb_content": updated_pb_content,
             "candidate_ttf_fonts": candidate_ttf_fonts,
         }
+
 
 
 

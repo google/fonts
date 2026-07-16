@@ -68,8 +68,12 @@ def main():
         print(f"📦 Packaged out-of-date verification report into '{zip_path}'.")
 
     # Print summary result JSON
-    printable_result = {k: v for k, v in result.items() if k not in ("pr_body", "updated_pb_content", "candidate_ttf_fonts")}
+    printable_result = {
+        k: v for k, v in result.items()
+        if k not in ("pr_body", "updated_pb_content", "candidate_ttf_fonts", "qa_res", "diff_res")
+    }
     print(json.dumps(printable_result, indent=2))
+
     print(f"\n📄 Verification report generated: {args.report_out}")
 
 

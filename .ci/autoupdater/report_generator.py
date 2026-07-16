@@ -137,11 +137,15 @@ def generate_pr_body(
 def generate_family_verification_report(result: Dict[str, Any], output_filepath: Optional[str] = None) -> str:
     """
     Generate detailed single-family verification report for testing against live repository.
-    Follows exact requested format for out-of-date font family verification.
+    Follows exact requested format for out-of-date font family verification, including
+    Fontspector QA test results and manual directives.
     """
     family_name = result.get("family_name", "Unknown")
     has_update = result.get("has_update", False)
     matching = result.get("font_matching_analysis", {})
+    qa_res: Optional[QACheckResult] = result.get("qa_res")
+    is_variable_update = result.get("is_variable_update_approved") or matching.get("is_variable_update_approved", False)
+    is_human_approved = result.get("is_human_approved", False)
 
     lines = []
     lines.append(f"# 🔍 Live Repository Verification Report: `{family_name}`")
@@ -157,6 +161,8 @@ def generate_family_verification_report(result: Dict[str, Any], output_filepath:
     lines.append(f"- **Upstream Candidate TTF Count:** `{matching.get('candidate_ttf_count', 0)}`")
     lines.append(f"- **Filename Match Rate:** `{matching.get('match_rate_pct', 0.0)}%`")
     lines.append(f"- **Binary Hash Differences Detected:** `{'YES (Updated Binary Content)' if matching.get('has_binary_changes') else 'NO (Byte-Identical Binaries)'}`")
+    if is_variable_update:
+        lines.append("- **Manual Directive (Variable Update):** 🟢 `Approved Static-to-Variable Upgrade` (Existing static fonts should be removed and replaced with the new variable version)")
     lines.append("")
 
     matched_pairs = matching.get("matched_pairs", [])
@@ -195,11 +201,44 @@ def generate_family_verification_report(result: Dict[str, Any], output_filepath:
     lines.append(f"- **Safe to Update (STU) Score:** `{result.get('safety_score', 'N/A')} / 100`")
     lines.append(f"- **Decision Tier:** `{result.get('safety_tier', 'N/A')}`")
     lines.append(f"- **Pipeline Status:** `{result.get('status', 'N/A')}`")
+    if is_human_approved:
+        lines.append("- **Manual Directive (Human Approval):** 🟢 `Human Reviewed & Evaluated as Safe to Update`")
+    lines.append("")
+
+    if qa_res:
+        lines.append("## 📋 Fontspector QA Test Results & Delta")
+        lines.append("")
+        lines.append(f"- **Candidate Check Totals:** PASS: `{qa_res.pass_count}` | WARN: `{qa_res.warn_count}` | ERROR: `{qa_res.error_count}` | FATAL: `{qa_res.fatal_count}`")
+        lines.append(f"- **New Check Regressions Introduced:** 🔴 `{qa_res.new_fatal_count}` Fatal | 🔴 `{qa_res.new_error_count}` Error | 🟡 `{qa_res.new_warn_count}` Warn")
+        lines.append(f"- **Pre-existing Known Failures:** 🟡 `{qa_res.known_failure_count}` (Inherited from baseline installed font)")
+        if qa_res.fixed_failure_count > 0:
+            lines.append(f"- **Resolved / Fixed Failures:** 🟢 `{qa_res.fixed_failure_count}` (Failed in baseline, now passing!)")
+        lines.append("")
+
+        if qa_res.new_failures:
+            lines.append("### 🔴 New QA Check Regressions Introduced")
+            for item in qa_res.new_failures[:10]:
+                chk_id = item.get("check_id", "unknown")
+                st = item.get("status", "FAIL")
+                base_st = item.get("baseline_status", "PASS")
+                msg = item.get("message", "Check regression detected")
+                lines.append(f"- **`{chk_id}`** ({st}): Baseline was `{base_st}`")
+                lines.append(f"  > *{msg}*")
+            lines.append("")
+
+        if qa_res.known_failures:
+            lines.append("### 🟡 Pre-existing Known Failures (Inherited from Baseline)")
+            for item in qa_res.known_failures[:10]:
+                chk_id = item.get("check_id", "unknown")
+                st = item.get("status", "FAIL")
+                lines.append(f"- **`{chk_id}`** ({st})")
+            lines.append("")
 
     content = "\n".join(lines) + "\n"
     if output_filepath:
         Path(output_filepath).write_text(content, encoding="utf-8")
     return content
+
 
 
 def package_out_of_date_reports(

@@ -1,61 +1,26 @@
-# Investigation: Carter One
+# Carter One
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Carter One |
-| Designer | Vernon Adams |
-| License | OFL |
-| Date Added | 2011-05-04 |
-| Repository URL | https://github.com/librefonts/carterone |
-| Commit Hash | `9943144e585a736a95509a85b92fbf2bb29060c2` |
-| Branch | master |
-| Config YAML | None |
-| Override Config | No |
-| Status | missing_config |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Carter One (Regular) built from FontForge SFD sources at https://github.com/librefonts/carterone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/carterone` was recorded in the tracking data and added to the METADATA.pb source block in commit `9a14639f3` on branch `sources_info_2026-02-25` (not yet merged to main). This is a librefonts mirror repository.
+## Actions taken
 
-## How Commit Determined
+- The canonical FontForge SFD source (`CarterOne-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion the outlines were mapped to standard production glyph names and the FontForge legacy `.null` glyph was dropped.
+- A new Unified Font Repository was created at https://github.com/googlefonts/carterone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The commit hash `9943144e585a736a95509a85b92fbf2bb29060c2` is the HEAD (and only) commit of the upstream repository, with the message "update .travis.yml". The repository has only a single commit.
+## Final state
 
-The font was part of the initial google/fonts commit (`90abd17b4`). No subsequent updates to the font binary have been made in google/fonts -- the TTF has remained unchanged since the initial commit.
+The source now lives at https://github.com/googlefonts/carterone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
 ## Verification
 
-- **Commit exists in upstream repo**: Yes. `9943144` is the HEAD and sole commit.
-- **Repository accessible**: Yes, cached at `upstream_repos/fontc_crater_cache/librefonts/carterone/`.
-- **Source files present**: The `src/` directory contains:
-  - `CarterOne-TTF.sfd` -- FontForge SFD format (buildable)
-  - `CarterOne.vfb` -- FontLab Studio binary format (not buildable by gftools-builder)
-  - `METADATA_comments.txt` and `VERSIONS.txt` -- documentation files
+Identical to the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only differences are benign: the FontForge legacy `.null` glyph was dropped, and 6 glyphs were renamed to standard production names with Unicode coverage unchanged.
 
-## Config YAML Status
+## Original repository (dormant)
 
-**SFD source available but no config.yaml.** Unlike the Carrois Gothic families which only have VFB files, Carter One has an SFD (FontForge Spline Font Database) file at `src/CarterOne-TTF.sfd`. SFD files can potentially be used with gftools-builder.
-
-However, no config.yaml exists in the upstream repository, and no override config.yaml exists in the google/fonts family directory.
-
-An override config.yaml could be created with:
-
-```yaml
-buildVariable: false
-sources:
-  - src/CarterOne-TTF.sfd
-```
-
-This would make the family buildable, similar to what was done for Carme.
-
-## Confidence Level
-
-**HIGH** -- The commit hash is the only commit in the single-commit repository. The repository URL is a standard librefonts mirror. The font binary in google/fonts has been unchanged since the initial commit, consistent with using the HEAD of the upstream.
-
-## Open Questions
-
-- An override config.yaml could be created in google/fonts to make this family buildable from SFD sources. This would change the status from `missing_config` to `complete`.
-- It should be verified that building from the SFD source produces output matching (or acceptably close to) the current binary in google/fonts before creating such an override.
-- Vernon Adams, the original designer, passed away in 2014. Any updates to this font would need to be handled by the community.
+The original FontForge sources are at https://github.com/librefonts/carterone (`.sfd`), latest at commit `9943144e585a736a95509a85b92fbf2bb29060c2`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

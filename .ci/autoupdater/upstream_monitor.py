@@ -229,13 +229,14 @@ class UpstreamMonitor:
 
         has_update = (cmp_status == VersionComparisonStatus.UPDATE_AVAILABLE)
         up_type = UpdateType.RELEASE if release else (UpdateType.COMMIT if head_sha else UpdateType.NONE)
+        up_version_str = (release.version if release else None) or (f"commit {head_sha[:7]}" if head_sha else None)
 
         return UpdateCheckResult(
             family_name=meta.name,
             has_update=has_update,
             update_type=up_type,
             current_version=meta.installed_version_num or meta.installed_version,
-            upstream_version=release.version if release else None,
+            upstream_version=up_version_str,
             current_commit=meta.source.commit,
             upstream_commit=head_sha,
             repository_url=meta.source.repository_url,
@@ -245,5 +246,6 @@ class UpstreamMonitor:
             upstream_published_at=release.published_at if release else head_date,
             error=rel_err if (rel_err and rel_err != "NO_RELEASES") else commit_err,
         )
+
 
 

@@ -139,10 +139,13 @@ def analyze_font_file_matching(
 
     if len(matched_pairs) == len(local_filenames) and not unmatched_candidate_list:
         status = "EXACT_MATCH"
+    elif len(matched_pairs) > 0 and all(p["match_type"] in ("EXACT_NAME", "MAPPED_NAME") for p in matched_pairs):
+        status = "MAPPED_MATCH"
     elif len(matched_pairs) > 0:
-        status = "PARTIAL_MATCH"
+        status = "FLAGGED_FOR_REVIEW"
     else:
-        status = "NO_MATCH"
+        status = "NO_MATCH_FOUND"
+        naming_identity_status = "NO_MATCH_FOUND"
 
     match_rate = (len(matched_pairs) / len(local_filenames) * 100.0) if local_filenames else 0.0
 
@@ -162,6 +165,7 @@ def analyze_font_file_matching(
         "match_rate_pct": round(match_rate, 2),
         "has_binary_changes": has_binary_changes,
     }
+
 
 
 class AutoUpdatePipeline:
@@ -263,6 +267,28 @@ class AutoUpdatePipeline:
             family_slug=family_slug,
         )
         font_matching_analysis["is_variable_update_approved"] = directives["is_variable_update"]
+
+        # 4th Category: NO_MATCH_FOUND exit in Step 3
+        if font_matching_analysis.get("status") == "NO_MATCH_FOUND" and not directives["is_variable_update"]:
+            self.state_store.record_check_result(
+                family_name=meta.name,
+                has_update=False,
+                update_type=check_result.update_type.value,
+                status="NO_MATCH_FOUND",
+            )
+            return {
+                "family_name": meta.name,
+                "has_update": False,
+                "current_version": check_result.current_version,
+                "upstream_version": check_result.upstream_version,
+                "current_commit": check_result.current_commit,
+                "upstream_commit": check_result.upstream_commit,
+                "status": "NO_MATCH_FOUND",
+                "font_matching_analysis": font_matching_analysis,
+                "is_human_approved": directives["is_human_approved"],
+                "is_variable_update_approved": directives["is_variable_update"],
+                "message": "Step 3 Exit: No matching font files found between candidate upstream binaries and local catalog fonts. Create mapping entry in font_mappings.json or manual_instructions.json.",
+            }
 
         # If unmatched candidate filenames exist and not approved for variable upgrade, flag for review
         if font_matching_analysis.get("mapping_action_required") and not directives["is_variable_update"]:

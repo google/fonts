@@ -191,12 +191,8 @@ def parse_metadata_pb(content: str, filepath: str = None) -> FamilyMetadata:
 
     if filepath:
         family_dir = Path(filepath).parent
-        ver_str, ver_num, rev = extract_local_font_version(family_dir)
-        meta.installed_version = ver_str
-        meta.installed_version_num = ver_num
-        meta.installed_font_revision = rev
-        meta.installed_git_commit_date = extract_local_git_commit_date(family_dir)
         meta.installed_modified_date = extract_local_file_mtime(family_dir)
+
 
         # Inventory catalog font files (lightweight file listing without binary hashing)
         from .models import CatalogFontFileInfo
@@ -222,6 +218,18 @@ def parse_metadata_pb(content: str, filepath: str = None) -> FamilyMetadata:
 
 
 
+def ensure_local_version_extracted(meta: FamilyMetadata) -> FamilyMetadata:
+    """Lazily populate installed_version and installed_git_commit_date for meta when needed."""
+    if meta.raw_filepath and not meta.installed_version_num:
+        family_dir = Path(meta.raw_filepath).parent
+        ver_str, ver_num, rev = extract_local_font_version(family_dir)
+        meta.installed_version = ver_str
+        meta.installed_version_num = ver_num
+        meta.installed_font_revision = rev
+        meta.installed_git_commit_date = extract_local_git_commit_date(family_dir)
+    return meta
+
+
 def load_metadata_pb(filepath: str) -> FamilyMetadata:
     """Load and parse METADATA.pb from a local file path."""
     path = Path(filepath)
@@ -229,3 +237,4 @@ def load_metadata_pb(filepath: str) -> FamilyMetadata:
         raise FileNotFoundError(f"METADATA.pb not found at: {filepath}")
     content = path.read_text(encoding="utf-8")
     return parse_metadata_pb(content, filepath=str(path.absolute()))
+

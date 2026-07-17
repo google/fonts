@@ -81,8 +81,9 @@ def generate_markdown_report(report: Dict[str, Any], results: List[Dict[str, Any
         for r in updated_results:
             fam = r.get("family_name", "Unknown")
             cur_v = r.get("current_version", "N/A") or "N/A"
-            up_v = r.get("upstream_version", "N/A") or "N/A"
+            up_v = r.get("upstream_version") or (f"commit {r['upstream_commit'][:7]}" if r.get("upstream_commit") else "N/A")
             score = r.get("safety_score", 0.0)
+
             tier = r.get("safety_tier", "UNKNOWN")
             status = r.get("status", "CHECKED")
 

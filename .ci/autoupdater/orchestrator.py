@@ -238,6 +238,12 @@ class AutoUpdatePipeline:
 
         family_slug = meta.name.lower().replace(" ", "")
 
+        # Lazily extract local installed version details for update candidate
+        from .metadata_parser import ensure_local_version_extracted
+        ensure_local_version_extracted(meta)
+        check_result.current_version = meta.installed_version_num or meta.installed_version
+
+
         # Phase 2: Acquire verbatim TTF binaries from upstream
         if not candidate_ttf_fonts:
             cache_dir = Path("download_cache") / family_slug

@@ -193,7 +193,6 @@ def parse_metadata_pb(content: str, filepath: str = None) -> FamilyMetadata:
         family_dir = Path(filepath).parent
         meta.installed_modified_date = extract_local_file_mtime(family_dir)
 
-
         # Inventory catalog font files (lightweight file listing without binary hashing)
         from .models import CatalogFontFileInfo
 
@@ -213,21 +212,23 @@ def parse_metadata_pb(content: str, filepath: str = None) -> FamilyMetadata:
             )
         meta.catalog_font_files = catalog_files
 
-
     return meta
-
 
 
 def ensure_local_version_extracted(meta: FamilyMetadata) -> FamilyMetadata:
-    """Lazily populate installed_version and installed_git_commit_date for meta when needed."""
-    if meta.raw_filepath and not meta.installed_version_num:
+    """Lazily populate installed_version, installed_version_num, and installed_git_commit_date on demand."""
+    if meta.raw_filepath and (not meta.installed_version_num or not meta.installed_git_commit_date):
         family_dir = Path(meta.raw_filepath).parent
-        ver_str, ver_num, rev = extract_local_font_version(family_dir)
-        meta.installed_version = ver_str
-        meta.installed_version_num = ver_num
-        meta.installed_font_revision = rev
-        meta.installed_git_commit_date = extract_local_git_commit_date(family_dir)
+        if not meta.installed_version_num:
+            ver_str, ver_num, rev = extract_local_font_version(family_dir)
+            meta.installed_version = ver_str
+            meta.installed_version_num = ver_num
+            meta.installed_font_revision = rev
+        if not meta.installed_git_commit_date:
+            meta.installed_git_commit_date = extract_local_git_commit_date(family_dir)
     return meta
+
+
 
 
 def load_metadata_pb(filepath: str) -> FamilyMetadata:

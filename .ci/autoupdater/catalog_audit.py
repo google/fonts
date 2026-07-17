@@ -81,8 +81,7 @@ def generate_markdown_report(report: Dict[str, Any], results: List[Dict[str, Any
         for r in updated_results:
             fam = r.get("family_name", "Unknown")
             cur_v = r.get("current_version") or "N/A"
-            up_v = r.get("upstream_version") or (f"commit {r['upstream_commit'][:7]}" if r.get("upstream_commit") else "N/A")
-
+            up_v = r.get("upstream_version") or "N/A"
             score = r.get("safety_score", 0.0)
 
             tier = r.get("safety_tier", "UNKNOWN")
@@ -112,13 +111,13 @@ def generate_markdown_report(report: Dict[str, Any], results: List[Dict[str, Any
         for r in no_match_results:
             fam = r.get("family_name", "Unknown")
             cur_v = r.get("current_version", "N/A") or "N/A"
-            up_v = r.get("upstream_version") or (f"commit {r['upstream_commit'][:7]}" if r.get("upstream_commit") else "N/A")
+            up_v = r.get("upstream_version") or "N/A"
             matching_info = r.get("font_matching_analysis", {})
             st = matching_info.get("status") or r.get("status", "NO_MATCH_FOUND")
             action = "🔴 Create mapping entry in font_mappings.json"
             lines.append(f"| **{fam}** | `{cur_v}` | `{up_v}` | `{st}` | {action} |")
-
         lines.append("")
+
 
 
     lines.append("---")

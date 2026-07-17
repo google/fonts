@@ -324,8 +324,9 @@ def generate_live_repository_audit_report(
         fam = r.get("family_name", "Unknown")
         upd = "YES 🆕" if r.get("has_update") else "NO ✅"
         cur_v = r.get("current_version", "N/A") or "N/A"
-        up_v = r.get("upstream_version") or (f"commit {r['upstream_commit'][:7]}" if r.get("upstream_commit") else "N/A")
+        up_v = r.get("upstream_version") or "N/A"
         naming_status = r.get("font_matching_analysis", {}).get("naming_identity_status", "N/A")
+
 
         score = r.get("safety_score", "N/A")
         tier = r.get("safety_tier", "N/A")

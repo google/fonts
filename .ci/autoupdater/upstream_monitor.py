@@ -48,18 +48,22 @@ def is_font_related_file(filepath: str) -> bool:
 
 class UpstreamMonitor:
     def __init__(self, github_token: Optional[str] = None):
-        self.token = github_token or os.environ.get("GITHUB_TOKEN")
+        self.token = github_token or os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
         self._etag_cache: Dict[str, Tuple[str, Any]] = {}
 
     def _make_github_request(self, endpoint: str) -> Tuple[Optional[Dict[str, Any]], int, Optional[str]]:
-        """Perform authenticated HTTP request to GitHub REST API with ETag support."""
+        """Perform authenticated HTTP request to GitHub REST API with Bearer/token support and ETag caching."""
         url = f"https://api.github.com{endpoint}"
         req = urllib.request.Request(url)
         req.add_header("User-Agent", "GoogleFonts-AutoUpdater/1.0.0")
         req.add_header("Accept", "application/vnd.github.v3+json")
 
-        if self.token:
-            req.add_header("Authorization", f"token {self.token}")
+        token = self.token or os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+        if token:
+            if token.startswith("ghs_") or token.startswith("ghp_") or token.startswith("github_pat_"):
+                req.add_header("Authorization", f"Bearer {token}")
+            else:
+                req.add_header("Authorization", f"token {token}")
 
         cached_etag = None
         if url in self._etag_cache:
@@ -80,7 +84,7 @@ class UpstreamMonitor:
             if e.code == 304 and url in self._etag_cache:
                 return self._etag_cache[url][1], 304, cached_etag
             err_msg = e.read().decode("utf-8") if e.fp else str(e)
-            return None, e.code, str(e)
+            return None, e.code, err_msg
         except Exception as e:
             return None, 500, str(e)
 
@@ -91,6 +95,8 @@ class UpstreamMonitor:
 
         if status == 404:
             return None, "NO_RELEASES"
+        if status in (403, 429):
+            return None, f"HTTP_{status}: Rate Limit Exceeded"
         if status != 200 or not data:
             return None, f"HTTP_{status}: {err}"
 
@@ -123,10 +129,20 @@ class UpstreamMonitor:
         )
         return release, None
 
-    def fetch_head_commit(self, owner: str, repo: str, branch: str = "main") -> Tuple[Optional[str], Optional[str], Optional[str]]:
-        """Fetch latest branch HEAD commit hash, author date, and status."""
-        endpoint = f"/repos/{owner}/{repo}/commits/{branch}"
+    def fetch_head_commit(self, owner: str, repo: str, branch: Optional[str] = None) -> Tuple[Optional[str], Optional[str], Optional[str]]:
+        """Fetch latest branch HEAD commit hash, author date, and status with automatic main/master fallback."""
+        target_branch = branch or "main"
+        endpoint = f"/repos/{owner}/{repo}/commits/{target_branch}"
         data, status, err = self._make_github_request(endpoint)
+
+        # Fallback to 'master' if 'main' fails with 404 or 422
+        if (status in (404, 422)) and (not branch or branch == "main"):
+            target_branch = "master"
+            endpoint = f"/repos/{owner}/{repo}/commits/{target_branch}"
+            data, status, err = self._make_github_request(endpoint)
+
+        if status in (403, 429):
+            return None, None, f"HTTP_{status}: Rate Limit Exceeded"
 
         if status != 200 or not data:
             return None, None, f"HTTP_{status}: {err}"
@@ -165,7 +181,24 @@ class UpstreamMonitor:
         
         # Priority 1: Check GitHub Releases
         release, rel_err = self.fetch_latest_release(owner, repo)
-        head_sha, head_date, commit_err = self.fetch_head_commit(owner, repo, branch=meta.source.branch or "main")
+        head_sha, head_date, commit_err = self.fetch_head_commit(owner, repo, branch=meta.source.branch)
+
+        # Flag explicit rate limit errors
+        is_rate_limited = (
+            (rel_err and ("HTTP_403" in rel_err or "HTTP_429" in rel_err)) or
+            (commit_err and ("HTTP_403" in commit_err or "HTTP_429" in commit_err))
+        )
+        if is_rate_limited:
+            return UpdateCheckResult(
+                family_name=meta.name,
+                has_update=False,
+                update_type=UpdateType.NONE,
+                current_version=meta.installed_version_num or meta.installed_version,
+                repository_url=meta.source.repository_url,
+                comparison_status=VersionComparisonStatus.UP_TO_DATE,
+                error="RATE_LIMITED (GitHub API Rate Limit Exceeded)",
+            )
+
 
         cmp_status, cmp_info = compare_local_vs_upstream(
             meta=meta,
@@ -190,5 +223,6 @@ class UpstreamMonitor:
             comparison_status=cmp_status,
             installed_modified_date=meta.installed_git_commit_date or meta.installed_modified_date,
             upstream_published_at=release.published_at if release else head_date,
-            error=rel_err if rel_err and "HTTP_403" in rel_err else None,
+            error=rel_err if (rel_err and rel_err != "NO_RELEASES") else commit_err,
         )
+

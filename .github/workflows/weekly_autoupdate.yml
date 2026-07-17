@@ -80,6 +80,8 @@ jobs:
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
         run: |
           TARGET_FAMILY="${{ github.event.inputs.target_family }}"
           MAX_FAMILIES="${{ github.event.inputs.max_families || '0' }}"

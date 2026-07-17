@@ -247,11 +247,11 @@ def compare_local_vs_upstream(
         if dt_up and dt_local:
             if dt_up > dt_local:
                 return VersionComparisonStatus.UPDATE_AVAILABLE, info
-            else:
-                return VersionComparisonStatus.UP_TO_DATE, info
 
-    if upstream_commit and upstream_commit != installed_commit:
+    # Case 4: Commit Hash Difference (if commits differ and local version wasn't explicitly newer)
+    if upstream_commit and installed_commit and upstream_commit.lower() != installed_commit.lower():
         return VersionComparisonStatus.UPDATE_AVAILABLE, info
 
     return VersionComparisonStatus.UP_TO_DATE, info
+
 

@@ -198,9 +198,7 @@ def parse_metadata_pb(content: str, filepath: str = None) -> FamilyMetadata:
         meta.installed_git_commit_date = extract_local_git_commit_date(family_dir)
         meta.installed_modified_date = extract_local_file_mtime(family_dir)
 
-        # Inventory catalog font files details
-        from .artifact_fetcher import compute_sha256
-        from .version_comparator import extract_ttf_font_version
+        # Inventory catalog font files (lightweight file listing without binary hashing)
         from .models import CatalogFontFileInfo
 
         catalog_files = []
@@ -208,12 +206,6 @@ def parse_metadata_pb(content: str, filepath: str = None) -> FamilyMetadata:
         for ttf_path in sorted(list(family_dir.glob("*.ttf"))):
             fname = ttf_path.name
             fobj = font_map.get(fname)
-            v_str, v_num, f_rev = extract_ttf_font_version(ttf_path)
-            h_val = ""
-            try:
-                h_val = compute_sha256(str(ttf_path))
-            except Exception:
-                pass
             catalog_files.append(
                 CatalogFontFileInfo(
                     filename=fname,
@@ -221,13 +213,10 @@ def parse_metadata_pb(content: str, filepath: str = None) -> FamilyMetadata:
                     post_script_name=fobj.post_script_name if fobj else None,
                     style=fobj.style if fobj else "normal",
                     weight=fobj.weight if fobj else 400,
-                    version_str=v_str,
-                    version_num=v_num,
-                    font_revision=f_rev,
-                    sha256_hash=h_val,
                 )
             )
         meta.catalog_font_files = catalog_files
+
 
     return meta
 

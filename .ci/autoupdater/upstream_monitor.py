@@ -130,16 +130,24 @@ class UpstreamMonitor:
         return release, None
 
     def fetch_head_commit(self, owner: str, repo: str, branch: Optional[str] = None) -> Tuple[Optional[str], Optional[str], Optional[str]]:
-        """Fetch latest branch HEAD commit hash, author date, and status with automatic main/master fallback."""
+        """Fetch latest branch HEAD commit hash, author date, and status with automatic branch fallback and default_branch resolution."""
         target_branch = branch or "main"
         endpoint = f"/repos/{owner}/{repo}/commits/{target_branch}"
         data, status, err = self._make_github_request(endpoint)
 
-        # Fallback to 'master' if 'main' fails with 404 or 422
-        if (status in (404, 422)) and (not branch or branch == "main"):
-            target_branch = "master"
-            endpoint = f"/repos/{owner}/{repo}/commits/{target_branch}"
+        # Fallback 1: Try alternate branch if 404/422
+        if status in (404, 422):
+            alt_branch = "master" if target_branch == "main" else "main"
+            endpoint = f"/repos/{owner}/{repo}/commits/{alt_branch}"
             data, status, err = self._make_github_request(endpoint)
+
+        # Fallback 2: Query repository root to discover repo's exact default_branch
+        if status in (404, 422):
+            repo_data, repo_status, _ = self._make_github_request(f"/repos/{owner}/{repo}")
+            if repo_status == 200 and repo_data and "default_branch" in repo_data:
+                def_branch = repo_data["default_branch"]
+                endpoint = f"/repos/{owner}/{repo}/commits/{def_branch}"
+                data, status, err = self._make_github_request(endpoint)
 
         if status in (403, 429):
             return None, None, f"HTTP_{status}: Rate Limit Exceeded"
@@ -199,6 +207,18 @@ class UpstreamMonitor:
                 error="RATE_LIMITED (GitHub API Rate Limit Exceeded)",
             )
 
+        # If neither a release nor a head commit hash could be fetched, no update can be confirmed
+        if not release and not head_sha:
+            err_summary = rel_err if (rel_err and rel_err != "NO_RELEASES") else (commit_err or "NO_RELEASE_OR_COMMIT_FOUND")
+            return UpdateCheckResult(
+                family_name=meta.name,
+                has_update=False,
+                update_type=UpdateType.NONE,
+                current_version=meta.installed_version_num or meta.installed_version,
+                repository_url=meta.source.repository_url,
+                comparison_status=VersionComparisonStatus.UP_TO_DATE,
+                error=err_summary,
+            )
 
         cmp_status, cmp_info = compare_local_vs_upstream(
             meta=meta,
@@ -225,4 +245,5 @@ class UpstreamMonitor:
             upstream_published_at=release.published_at if release else head_date,
             error=rel_err if (rel_err and rel_err != "NO_RELEASES") else commit_err,
         )
+
 

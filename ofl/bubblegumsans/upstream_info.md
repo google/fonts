@@ -1,53 +1,26 @@
 # Bubblegum Sans
 
-**Date investigated**: 2026-02-26
-**Status**: missing_config (SFD-only sources)
-**Designer**: Sudtipos
-**METADATA.pb path**: `ofl/bubblegumsans/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/bubblegumsans |
-| Commit | `fcf8bdd5e83b65186641b2b67fd957ff061666e3` |
-| Config YAML | N/A (SFD-only sources, not gftools-builder compatible) |
-| Branch | `master` |
+Google Fonts shipped Bubblegum Sans (Regular) built from FontForge SFD sources at https://github.com/librefonts/bubblegumsans. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## How the Repository URL Was Found
+## Actions taken
 
-The repository URL `https://github.com/librefonts/bubblegumsans` was identified from the `librefonts` organization, which hosts archived Google Fonts sources in a standardized structure. This was not added by gftools-packager but rather by the batch source block addition in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files", 2026-02-25). The METADATA.pb had no source block prior to this.
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A non-breaking space (U+00A0) was added to the source, matching the glyph that FontForge used to synthesise at export time.
+- A new Unified Font Repository was created at https://github.com/googlefonts/bubblegumsans, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-## How the Commit Hash Was Identified
+## Final state
 
-The commit `fcf8bdd5e83b65186641b2b67fd957ff061666e3` is the **only commit** in the repository (message: "update .travis.yml", by hash3g, 2014-10-17). This is a single-commit archive repository under the `librefonts` organization. Since there is only one commit, identification is unambiguous.
-
-The font was originally added to google/fonts in the initial commit `90abd17b4` and last had its binary updated in commit `75e7dd823` ("Updating ofl/bubblegumsans/*ttf with nbspace and fsType fixes", 2015-04-27 by Dave Crossland). These updates were done directly in the google/fonts repo, not via gftools-packager from the upstream repo. The librefonts repo serves as an archive of the original source files.
-
-## How Config YAML Was Resolved
-
-No `config.yaml` exists in the upstream repository. The source files are:
-- `src/BubblegumSans-Regular-TTF.sfd` (FontForge SFD format)
-- `src/BubblegumSans-Regular-OTF.vfb` (FontLab VFB format)
-
-These are legacy source formats that are not compatible with gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` sources. No override config.yaml exists in the google/fonts family directory either.
-
-The font has not been rebuilt from sources using modern tooling. The binary in google/fonts was originally added and later patched directly.
+The source now lives at https://github.com/googlefonts/bubblegumsans (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
 ## Verification
 
-- Commit exists in upstream repo: Yes (it is the only commit)
-- Commit date: 2014-10-17 13:31:31 +0300
-- Commit message: "update .travis.yml"
-- Commit author: hash3g
-- Source files at commit: `src/BubblegumSans-Regular-TTF.sfd`, `src/BubblegumSans-Regular-OTF.vfb`
-- Config YAML: Does not exist
-- No gftools-packager history: Font was added before the packager workflow existed
+The rebuilt Bubblegum Sans Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. Remaining differences are benign: 7 glyphs renamed to production names (coverage unchanged), and two FontForge legacy glyphs (`.null`, `nonmarkingreturn`) dropped as they carry no encoded characters. Verdict: FUNCTIONAL parity.
 
-## Confidence
+## Original repository (dormant)
 
-**Medium**: The repository URL is correct for the librefonts archive. The commit hash is trivially correct (only one commit). However, the relationship between the upstream repo and the binary in google/fonts is weak -- the font binary was likely compiled outside of this repo and the repo serves primarily as an archive of source files and TTX dumps. The font cannot be rebuilt with gftools-builder from these sources.
-
-## Open Questions
-
-1. The font sources are in SFD/VFB format only. To enable rebuilding with gftools-builder, the sources would need to be converted to `.glyphs` or `.ufo` format and a new upstream repo or config.yaml created. This is a low priority for a single-weight static font that has not been updated since 2015.
+The original FontForge sources are at https://github.com/librefonts/bubblegumsans (`.sfd`), latest at commit `fcf8bdd5e83b65186641b2b67fd957ff061666e3`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

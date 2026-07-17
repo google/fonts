@@ -1,54 +1,26 @@
-# Cagliostro - Investigation Report
+# Cagliostro
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Cagliostro |
-| Designer | MADType |
-| License | OFL |
-| Date Added | 2011-11-30 |
-| Repository URL | https://github.com/librefonts/cagliostro |
-| Commit Hash | 5c0de59bedd45c878edfeeeb31e2105f987e7270 |
-| Config YAML | None |
-| Status | missing_config |
+## Initial state
 
-## How URL Was Found
+Google Fonts shipped Cagliostro (Regular) built from FontForge SFD sources at https://github.com/librefonts/cagliostro. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/cagliostro` was added as part of the bulk source block addition in commit `9a14639f3` (2026-02-25). The librefonts GitHub organization hosts archived copies of many early Google Fonts projects. This is a standard librefonts archive repository.
+## Actions taken
 
-## How Commit Was Determined
+- The canonical FontForge SFD source (`src/Cagliostro-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The converted source was cleaned up: stray NUL bytes were stripped and the no-break space (U+00A0) advance was corrected to 250.
+- A new Unified Font Repository was created at https://github.com/googlefonts/cagliostro, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The commit hash `5c0de59bedd45c878edfeeeb31e2105f987e7270` is the only commit in the repository (and therefore HEAD). It was made on 2014-10-17 with the message "update .travis.yml". This is a single-commit archive repository.
+## Final state
 
-Cagliostro was part of the initial commit (`90abd17b4`) in the google/fonts repository, making it one of the earliest families in the collection. The librefonts repository is an archive, not an active development repository.
-
-## Config YAML Status
-
-**No config.yaml exists** in the upstream repository and none is expected. The repository contains:
-- `src/Cagliostro-Regular-TTF.sfd` (FontForge SFD format) - This is a legacy format not supported by gftools-builder.
-- `src/Cagliostro-Regular.vfb` (FontLab format) - Also a legacy format not supported by gftools-builder.
-- TTX decompositions of the OTF font in the root directory and src directory.
-- Standard metadata files (DESCRIPTION, FONTLOG, OFL, METADATA.json).
-
-There is no override `config.yaml` in the google/fonts family directory either.
-
-This family cannot be built with gftools-builder because the only sources are in SFD (FontForge) and VFB (FontLab) formats, neither of which is a supported input format.
+The source now lives at https://github.com/googlefonts/cagliostro (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
 ## Verification
 
-- **Repository URL**: Valid. The librefonts/cagliostro repository exists and is accessible.
-- **Commit Hash**: Verified. The hash `5c0de59bedd45c878edfeeeb31e2105f987e7270` is the sole commit in the repository.
-- **Source Files**: SFD and VFB formats only (legacy, not gftools-buildable).
-- **Font Origin**: This is a very early Google Fonts family (initial commit). The librefonts repo is an archive.
+The rebuilt Cagliostro Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle and the GSUB/GPOS feature sets. The remaining differences are cosmetic and expected from the conversion: two synthetic FontForge legacy glyphs (`.null`, `nonmarkingreturn`) were dropped, 9 glyphs were renamed to production names with no change in coverage, GDEF now correctly classifies two combining marks the shipped font missed (uni0307, uni0326), and two combining marks (U+0307, U+F6C3) had their spacing advances zeroed to match their combining-mark role.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** for the repository URL and commit hash. The librefonts repo is a well-known archive with only one commit, so there is no ambiguity.
-
-**Note**: The designer is listed as "MADType" (Matthew Desmond, mattdesmond@gmail.com per the copyright string, http://www.madtype.com).
-
-## Open Questions
-
-1. Is there any plan to convert the SFD/VFB sources to a modern format (Glyphs/UFO) for this family?
-2. The original designer Matthew Desmond (MADType) may have more recent source files.
+The original FontForge sources are at https://github.com/librefonts/cagliostro (`.sfd`), latest at commit `5c0de59bedd45c878edfeeeb31e2105f987e7270`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

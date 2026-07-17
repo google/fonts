@@ -4,8 +4,22 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/creteround"
-  commit: "056740e1fea281c2e72adeae3d3753083b87d22c"
+  repository_url: "https://github.com/googlefonts/creteround"
+  commit: "65f7a13699e262832f4fa0cd2a61908da6da811d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CreteRound-Italic.ttf"
+    dest_file: "CreteRound-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CreteRound-Regular.ttf"
+    dest_file: "CreteRound-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

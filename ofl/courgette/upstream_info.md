@@ -1,51 +1,26 @@
-# Courgette - Investigation Report
+# Courgette
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Courgette |
-| Repository URL | https://github.com/librefonts/courgette |
-| Commit Hash | e9638c8874f097c75ff3206c5dfe15b6ef4c67b1 |
-| Branch | master |
-| Config YAML | N/A (SFD-only sources) |
-| Designer | Karolina Lach |
-| License | OFL |
-| Date Added | 2012-07-10 |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Courgette (Regular) built from FontForge SFD sources at https://github.com/librefonts/courgette. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/courgette` was identified from the librefonts organization on GitHub, which hosts many legacy Google Fonts source repositories. The source block was added in commit 9a14639f3 ("Add source blocks to 602 more METADATA.pb files", 2026-02-25).
+## Actions taken
 
-## How Commit Determined
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion the no-break space (U+00A0) advance width was corrected to match the space glyph.
+- A new Unified Font Repository was created at https://github.com/googlefonts/courgette, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-The commit `e9638c8874f097c75ff3206c5dfe15b6ef4c67b1` is the HEAD (latest) commit of the upstream repository. The commit message is "update .travis.yml". Since the font binary files in google/fonts have never been updated since the initial commit (90abd17b4, 2015-03-07), and the upstream repo only contains legacy SFD/VFB sources with CI configuration updates, HEAD is used as the reference point for the repository state.
+## Final state
 
-The font binary was part of the initial google/fonts repository commit and has never been updated since.
-
-## Config YAML Status
-
-**No config.yaml exists** in the upstream repository, and no override config exists in the google/fonts family directory.
-
-The upstream repository contains only legacy source formats:
-- `src/Courgette-Regular-OTF.sfd` (FontForge SFD format)
-- `src/Courgette-Regular-TTF.sfd` (FontForge SFD format)
-- `src/Courgette-Regular.vfb` (FontLab VFB format)
-
-These are not compatible with gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` sources.
+The source now lives at https://github.com/googlefonts/courgette (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binaries.
 
 ## Verification
 
-- **Repository accessible**: Yes - cloned at `upstream_repos/fontc_crater_cache/librefonts/courgette/`
-- **Commit exists**: Yes - `e9638c8` is HEAD of the upstream repo
-- **Config exists at commit**: No - no config.yaml anywhere in the repo
-- **Source files present**: Only SFD/VFB legacy formats
-- **Font binary history**: Only modified in the initial google/fonts commit (2015-03-07)
+The rebuilt Courgette Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, and GSUB/GPOS feature sets. Remaining differences are benign: 23 glyphs were renamed to production names (coverage unchanged); GDEF now classifies one real combining mark the shipped font missed (uni0326); and one combining mark (U+F6C3) was zeroed after the shipped font left it with a spacing advance. Verdict: FUNCTIONAL parity.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** for repository URL and commit hash. The librefonts/courgette repo is the canonical upstream source. The status of "missing_config" is correct since only legacy SFD/VFB sources exist.
-
-## Open Questions
-
-None. This is a legacy font with SFD-only sources that cannot be rebuilt with modern tooling without a source conversion effort.
+The original FontForge sources are at https://github.com/librefonts/courgette (`.sfd`), latest at commit `e9638c8874f097c75ff3206c5dfe15b6ef4c67b1`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

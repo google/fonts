@@ -1,59 +1,26 @@
-# Chela One - Investigation Report
+# Chela One
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| **Family Name** | Chela One |
-| **Designer** | Miguel Hernandez |
-| **License** | OFL |
-| **Category** | DISPLAY |
-| **Date Added** | 2012-10-05 |
-| **Repository URL** | https://github.com/librefonts/chelaone |
-| **Commit Hash** | cb9b95fc0510c91bc45664e5a62ed3893c09bfba |
-| **Branch** | master |
-| **Config YAML** | N/A |
-| **Status** | missing_config |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Chela One (Regular) built from FontForge SFD sources at https://github.com/librefonts/chelaone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/chelaone` was identified from the librefonts organization on GitHub, which hosts mirrors/archives of many early Google Fonts families. The upstream repo is cloned at `upstream_repos/fontc_crater_cache/librefonts/chelaone/`.
+## Actions taken
 
-The repository remote confirms: `origin https://github.com/librefonts/chelaone`.
+- The canonical FontForge SFD source (`ChelaOne-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A no-break space (U+00A0) was added to the source, matching the glyph FontForge used to synthesise at export time.
+- A new Unified Font Repository was created at https://github.com/googlefonts/chelaone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-## How Commit Determined
+## Final state
 
-The repository has only a single commit:
-
-```
-cb9b95f update .travis.yml
-```
-
-HEAD is `cb9b95fc0510c91bc45664e5a62ed3893c09bfba`, which is the only commit in the repository. This makes commit verification trivial -- there is only one commit, so it must be the correct one.
-
-The font was originally added to google/fonts in commit `90abd17b4` ("Initial commit") and was last updated for binary fixes in `c72712175` ("Updating ofl/chelaone/*ttf with nbspace and fsType fixes", 2015-04-27). A source block was added to METADATA.pb on a pending PR branch (`sources_info_2026-02-25`) via commit `9a14639f3`, but this has not yet been merged to google/fonts main.
-
-## Config YAML Status
-
-**No config.yaml possible.** The upstream repository contains only legacy source formats:
-- `src/ChelaOne-Regular-TTF.sfd` (FontForge SFD format)
-- `src/ChelaOne-Regular-OTF.vfb` (FontLab VFB format)
-
-Neither SFD nor VFB formats are compatible with gftools-builder. There are no `.glyphs`, `.ufo`, or `.designspace` source files. A config.yaml cannot be created without first converting the sources to a modern format.
+The source now lives at https://github.com/googlefonts/chelaone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
 ## Verification
 
-- **Repository URL**: Verified - cloned and accessible at `upstream_repos/fontc_crater_cache/librefonts/chelaone/`
-- **Commit hash**: Verified - matches HEAD, and is the only commit in the repo
-- **Source block**: Pending merge via PR branch `sources_info_2026-02-25`
-- **METADATA.pb on main**: Currently has no source block (pending PR)
+The rebuilt Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that 8 glyphs were renamed to their production names, which leaves character coverage unchanged; this is why the verdict is functional rather than byte-identical.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** for repository URL and commit hash. The librefonts repo is the recognized upstream, and with only one commit, the hash is unambiguous.
-
-**N/A** for config.yaml -- SFD-only sources make this impossible without source conversion.
-
-## Open Questions
-
-- None. This is a legacy font with SFD-only sources. It would require source conversion to a modern format (e.g., .glyphs or .ufo) before a config.yaml could be created.
+The original FontForge sources are at https://github.com/librefonts/chelaone (`.sfd`), latest at commit `cb9b95fc0510c91bc45664e5a62ed3893c09bfba`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

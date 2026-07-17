@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/cantataone"
-  commit: "947c3dd6e969867a02166335a27c48c0a7f9123d"
+  repository_url: "https://github.com/googlefonts/cantataone"
+  commit: "12fb64c8cad39f95d18ea97713683cdebe08693a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CantataOne-Regular.ttf"
+    dest_file: "CantataOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

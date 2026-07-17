@@ -1,51 +1,26 @@
-# Candal - Investigation Report
+# Candal
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Candal |
-| Designer | Vernon Adams |
-| License | OFL |
-| Date Added | 2011-03-09 |
-| Repository URL | https://github.com/librefonts/candal |
-| Commit Hash | 64c937069fed67f562829846315a0e2e7789e6a6 |
-| Branch | master |
-| Config YAML | N/A |
-| Status | missing_config |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Candal (Regular) built from FontForge SFD sources at https://github.com/librefonts/candal. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/candal` was added as part of the batch source blocks commit (9a14639f3, "Add source blocks to 602 more METADATA.pb files"). The librefonts organization hosts mirrors of many Google Fonts projects. The METADATA.pb in google/fonts previously had no source block.
+## Actions taken
 
-Vernon Adams, the original designer, passed away in 2014. His fonts were preserved in the librefonts mirrors.
+- The canonical FontForge SFD source (`src/Candal-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The no-break space (U+00A0) advance width was corrected to 713 units to match the space glyph, replacing the value FontForge previously synthesised at export.
+- A new Unified Font Repository was created at https://github.com/googlefonts/candal, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-## How Commit Determined
+## Final state
 
-The commit `64c937069fed67f562829846315a0e2e7789e6a6` is the HEAD (and only commit) of the librefonts/candal repository, dated 2014-10-17. The commit message is "update .travis.yml". This is a single-commit repo.
-
-The font binary in google/fonts was last updated in commit cfa69ab46 (2015-04-27, "Updating ofl/candal/*ttf with nbspace and fsType fixes" by Dave Crossland), which was a metadata-only fix (file size unchanged), not a rebuild from sources. The initial font was added in 90abd17b4 ("Initial commit").
-
-Since the librefonts repo has only one commit, the recorded hash is the only valid option.
-
-## Config YAML Status
-
-No `config.yaml` exists in the upstream repository. No override `config.yaml` exists in google/fonts either.
-
-The upstream repo contains only FontForge SFD sources (`src/Candal.sfd`, `src/Candal-TTF.sfd`) and VFB files (`src/Candal-TTF.vfb`, `src/Candal.vfb`). These are not gftools-builder compatible formats.
+The source now lives at https://github.com/googlefonts/candal (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
 ## Verification
 
-- **Commit hash verified**: The hash `64c9370` exists in the librefonts/candal repository and is HEAD of master. CONFIRMED.
-- **Repository accessible**: librefonts/candal is a valid GitHub repository. CONFIRMED.
-- **Source files**: Only SFD and VFB formats available, no .glyphs/.ufo/.designspace sources.
-- **Single-commit repo**: Only one commit in the entire history (2014-10-17).
+The rebuilt Candal Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle and GSUB/GPOS feature sets. The accepted differences are all benign: 15 glyphs were renamed to production names with unchanged coverage; GDEF now classifies 5 real combining marks (uni0307, uni030F, uni0311, uni0326, uni0326.1) that the shipped font failed to mark; and 4 combining marks (U+0307, U+030F, U+0311, U+0326) were given zero advance widths, correcting the spacing advances the shipped font wrongly assigned them.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** - The repository URL and commit hash are correct. The librefonts mirror is the only known upstream, and Vernon Adams (the designer) is deceased, so no additional source repo is expected.
-
-## Open Questions
-
-- No path to gftools-builder compatibility without source conversion from SFD/VFB format.
-- The font has not been updated since the initial onboarding (only metadata fixes).
+The original FontForge sources are at https://github.com/librefonts/candal (`.sfd`), latest at commit `64c937069fed67f562829846315a0e2e7789e6a6`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

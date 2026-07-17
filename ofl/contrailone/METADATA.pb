@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-10-26"
 source {
-  repository_url: "https://github.com/librefonts/contrailone"
-  commit: "21ed60440130b6afcdd5e7555e9fe7c8c4344146"
+  repository_url: "https://github.com/googlefonts/contrailone"
+  commit: "755f2a5959072b2ce7e09b555cc55917bf3c7ce0"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ContrailOne-Regular.ttf"
+    dest_file: "ContrailOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

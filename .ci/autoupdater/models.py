@@ -62,6 +62,19 @@ class AxisConfig:
 
 
 @dataclass
+class CatalogFontFileInfo:
+    filename: str
+    filepath: str
+    post_script_name: Optional[str] = None
+    style: str = "normal"
+    weight: int = 400
+    version_str: Optional[str] = None
+    version_num: Optional[str] = None
+    font_revision: Optional[float] = None
+    sha256_hash: str = ""
+
+
+@dataclass
 class FamilyMetadata:
     name: str
     designer: str = ""
@@ -70,6 +83,7 @@ class FamilyMetadata:
     date_added: str = ""
     subsets: List[str] = field(default_factory=list)
     fonts: List[FontFile] = field(default_factory=list)
+    catalog_font_files: List[CatalogFontFileInfo] = field(default_factory=list)
     source: Optional[UpstreamSource] = None
     axes: List[AxisConfig] = field(default_factory=list)
     raw_filepath: Optional[str] = None
@@ -78,6 +92,7 @@ class FamilyMetadata:
     installed_font_revision: Optional[float] = None
     installed_modified_date: Optional[str] = None
     installed_git_commit_date: Optional[str] = None
+
 
 
 @dataclass

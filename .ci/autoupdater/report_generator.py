@@ -167,17 +167,25 @@ def generate_family_verification_report(result: Dict[str, Any], output_filepath:
 
     matched_pairs = matching.get("matched_pairs", [])
     if matched_pairs:
-        lines.append("### 📑 Detailed Font File Mapping & Hash Table")
+        lines.append("### 📑 Detailed Font File Mapping, Version & Hash Table")
         lines.append("")
-        lines.append("| Local Font Filename | Candidate Upstream Filename | Match Strategy | Binary Hash Status |")
-        lines.append("| :--- | :--- | :--- | :--- |")
+        lines.append("| Local Font Filename | Candidate Upstream Filename | Catalog Version | Upstream Version | Version Comparison | Binary Hash Status |")
+        lines.append("| :--- | :--- | :--- | :--- | :--- | :--- |")
         for p in matched_pairs:
             loc_f = p.get("local_filename", "")
             cand_f = p.get("candidate_filename", "")
-            m_type = p.get("match_type", "UNMATCHED")
+            cat_v = p.get("catalog_ttf_version", "N/A") or "N/A"
+            cand_v = p.get("candidate_ttf_version", "N/A") or "N/A"
+            v_cmp = p.get("version_comparison", "N/A")
+            v_badge = {
+                "UPDATE_CONFIRMED": "🟢 Update Confirmed",
+                "UP_TO_DATE": "🟡 Up to Date",
+                "LOCAL_IS_NEWER": "🔴 Local Newer",
+            }.get(v_cmp, f"`{v_cmp}`")
             hash_chg = "🔴 Changed / Updated" if p.get("binary_hash_changed") else "🟢 Identical (No Change)"
-            lines.append(f"| `{loc_f}` | `{cand_f}` | `{m_type}` | {hash_chg} |")
+            lines.append(f"| `{loc_f}` | `{cand_f}` | `{cat_v}` | `{cand_v}` | {v_badge} | {hash_chg} |")
         lines.append("")
+
 
     unmatched_local = matching.get("unmatched_local_filenames", [])
     if unmatched_local:

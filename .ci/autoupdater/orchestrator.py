@@ -256,13 +256,17 @@ class AutoUpdatePipeline:
 
         directives = self.manual_instructions.get_family_directives(meta.name)
 
-        # Font File Matching Analysis
+        # Step 3: Font File Matching Analysis & Mapping Flagging
         font_matching_analysis = analyze_font_file_matching(
             local_dir=meta_path.parent,
             candidate_fonts=candidate_ttf_fonts,
             family_slug=family_slug,
         )
         font_matching_analysis["is_variable_update_approved"] = directives["is_variable_update"]
+
+        # If unmatched candidate filenames exist and not approved for variable upgrade, flag for review
+        if font_matching_analysis.get("mapping_action_required") and not directives["is_variable_update"]:
+            font_matching_analysis["status"] = "FLAGGED_FOR_REVIEW"
 
         # Pre-Flight Binary Hash Check: If candidate TTFs are byte-for-byte identical to existing TTFs
         if candidate_ttf_fonts:
@@ -288,6 +292,75 @@ class AutoUpdatePipeline:
                     "is_variable_update_approved": directives["is_variable_update"],
                     "message": "Candidate TTF binaries are 100% byte-for-byte identical to existing Google Fonts TTFs.",
                 }
+
+        # Step 4: Embedded Binary Version Validation (Upstream TTF vs Catalog TTF)
+        from .version_comparator import extract_ttf_font_version, compare_version_numbers
+
+        has_newer_binary = False
+        latest_upstream_ttf_ver = None
+        latest_catalog_ttf_ver = None
+
+        matched_pairs = font_matching_analysis.get("matched_pairs", [])
+        for pair in matched_pairs:
+            loc_path = meta_path.parent / pair["local_filename"]
+            # Find candidate path
+            cand_path = None
+            if candidate_ttf_fonts:
+                for c in candidate_ttf_fonts:
+                    cp = Path(c[0]) if isinstance(c, (list, tuple)) else Path(c)
+                    if cp.name == pair["candidate_filename"]:
+                        cand_path = cp
+                        break
+
+            if loc_path.exists() and cand_path and cand_path.exists():
+                _, loc_ver, _ = extract_ttf_font_version(loc_path)
+                _, cand_ver, _ = extract_ttf_font_version(cand_path)
+
+                pair["catalog_ttf_version"] = loc_ver
+                pair["candidate_ttf_version"] = cand_ver
+
+                if cand_ver:
+                    latest_upstream_ttf_ver = cand_ver
+                if loc_ver:
+                    latest_catalog_ttf_ver = loc_ver
+
+                if cand_ver and loc_ver:
+                    cmp_res = compare_version_numbers(cand_ver, loc_ver)
+                    if cmp_res > 0:
+                        pair["version_comparison"] = "UPDATE_CONFIRMED"
+                        has_newer_binary = True
+                    elif cmp_res == 0:
+                        pair["version_comparison"] = "UP_TO_DATE"
+                    else:
+                        pair["version_comparison"] = "LOCAL_IS_NEWER"
+                elif cand_ver:
+                    has_newer_binary = True
+
+        if latest_upstream_ttf_ver:
+            check_result.upstream_version = latest_upstream_ttf_ver
+
+        # If candidate TTF version is NOT newer than catalog font version and no binary changes, stop
+        if matched_pairs and not has_newer_binary and not directives["is_human_approved"]:
+            self.state_store.record_check_result(
+                family_name=meta.name,
+                has_update=False,
+                update_type=check_result.update_type.value,
+                status="VERSION_NOT_NEWER",
+            )
+            return {
+                "family_name": meta.name,
+                "has_update": False,
+                "current_version": latest_catalog_ttf_ver or check_result.current_version,
+                "upstream_version": latest_upstream_ttf_ver or check_result.upstream_version,
+                "current_commit": check_result.current_commit,
+                "upstream_commit": check_result.upstream_commit,
+                "status": "VERSION_NOT_NEWER",
+                "font_matching_analysis": font_matching_analysis,
+                "is_human_approved": directives["is_human_approved"],
+                "is_variable_update_approved": directives["is_variable_update"],
+                "message": f"Upstream candidate font binary version ({latest_upstream_ttf_ver}) is not newer than installed catalog font version ({latest_catalog_ttf_ver}).",
+            }
+
 
         # Phase 3: Run Regression Engine (diffenator2 & Fontspector QA)
         baseline_ttf_paths = [str(p) for p in meta_path.parent.glob("*.ttf")]

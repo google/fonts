@@ -202,13 +202,13 @@ def compare_local_vs_upstream(
     upstream_commit_date: Optional[str] = None,
 ) -> Tuple[VersionComparisonStatus, Dict[str, Any]]:
     """
-    Comprehensive comparison of local installed font versions, modification dates,
-    and upstream update timestamps.
+    Step 2 Fast-Ramp Evaluation:
+    Compares upstream HEAD commit vs local source.commit recorded in METADATA.pb.
+    If commits match, returns COMMIT_UNCHANGED (No Update).
+    Skips release tag version string evaluation in Step 2.
     """
     installed_ver = meta.installed_version_num
-    installed_rev = meta.installed_font_revision
     installed_commit = meta.source.commit if meta.source else None
-    installed_date = meta.installed_git_commit_date or meta.installed_modified_date
 
     upstream_ver = upstream_release.version if upstream_release else None
     upstream_published = upstream_release.published_at if upstream_release else upstream_commit_date
@@ -216,42 +216,19 @@ def compare_local_vs_upstream(
     info = {
         "installed_version": meta.installed_version,
         "installed_version_num": installed_ver,
-        "installed_font_revision": installed_rev,
         "installed_commit": installed_commit,
-        "installed_date": installed_date,
         "upstream_version": upstream_ver,
         "upstream_commit": upstream_commit,
         "upstream_published_at": upstream_published,
     }
 
-    # Case 1: Commit Hash Match Check (Highest Priority: Same commit = No Update)
+    # Step 2 Fast-Ramp: If commits match, immediately return COMMIT_UNCHANGED
     if upstream_commit and installed_commit:
         if upstream_commit.lower().startswith(installed_commit.lower()) or installed_commit.lower().startswith(upstream_commit.lower()):
             return VersionComparisonStatus.COMMIT_UNCHANGED, info
 
-    # Case 2: Release Version Comparison
-    if upstream_ver and installed_ver:
-        cmp_res = compare_version_numbers(upstream_ver, installed_ver)
-        if cmp_res > 0:
-            return VersionComparisonStatus.UPDATE_AVAILABLE, info
-        elif cmp_res < 0:
-            return VersionComparisonStatus.LOCAL_IS_NEWER, info
-        else:
-            return VersionComparisonStatus.UP_TO_DATE, info
+    # If upstream commit differs or commit hash isn't available, proceed to fetch binary & validate
+    return VersionComparisonStatus.UPDATE_AVAILABLE, info
 
-
-    # Case 3: Timestamp Comparison (Upstream published vs Local Git Commit Date)
-    if upstream_published and installed_date:
-        dt_up = parse_iso_date(upstream_published)
-        dt_local = parse_iso_date(installed_date)
-        if dt_up and dt_local:
-            if dt_up > dt_local:
-                return VersionComparisonStatus.UPDATE_AVAILABLE, info
-
-    # Case 4: Commit Hash Difference (if commits differ and local version wasn't explicitly newer)
-    if upstream_commit and installed_commit and upstream_commit.lower() != installed_commit.lower():
-        return VersionComparisonStatus.UPDATE_AVAILABLE, info
-
-    return VersionComparisonStatus.UP_TO_DATE, info
 
 

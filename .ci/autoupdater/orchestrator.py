@@ -206,6 +206,10 @@ class AutoUpdatePipeline:
         meta_path = Path(metadata_filepath)
         meta = load_metadata_pb(str(meta_path))
 
+        # Ensure local installed version is extracted before upstream check
+        from .metadata_parser import ensure_local_version_extracted
+        ensure_local_version_extracted(meta)
+
         # Register family in state store
         self.state_store.register_family(
             family_name=meta.name,
@@ -217,6 +221,7 @@ class AutoUpdatePipeline:
 
         # Phase 1: Upstream Monitor Check
         check_result = self.monitor.check_for_updates(meta)
+
         if not check_result.has_update:
             status_str = "RATE_LIMITED" if check_result.error and "RATE_LIMITED" in check_result.error else "NO_UPDATE"
             self.state_store.record_check_result(

@@ -156,7 +156,7 @@ def compare_version_numbers(v1: str, v2: str) -> int:
     """
     Compare numerical version strings v1 vs v2.
     Returns 1 if v1 > v2, -1 if v1 < v2, 0 if v1 == v2.
-    Accurately compares decimal values (e.g. 4.1 > 4.001) and dot-separated SemVer strings (e.g. 1.0.0 == 1.000).
+    Accurately compares decimal values (e.g. 4.1 > 4.001, 1.4.0 > 1.005) and dot-separated SemVer strings.
     """
     if not v1 and not v2:
         return 0
@@ -168,17 +168,28 @@ def compare_version_numbers(v1: str, v2: str) -> int:
     clean1 = v1.strip().lstrip("vV")
     clean2 = v2.strip().lstrip("vV")
 
-    try:
-        f1 = float(clean1)
-        f2 = float(clean2)
+    def to_decimal_float(s: str) -> Optional[float]:
+        try:
+            return float(s)
+        except ValueError:
+            parts = s.split(".")
+            if len(parts) == 3 and parts[2] == "0":
+                try:
+                    return float(f"{parts[0]}.{parts[1]}")
+                except ValueError:
+                    pass
+            return None
+
+    f1 = to_decimal_float(clean1)
+    f2 = to_decimal_float(clean2)
+    if f1 is not None and f2 is not None:
         if f1 > f2:
             return 1
         elif f1 < f2:
             return -1
         else:
             return 0
-    except ValueError:
-        pass
+
 
     n1 = normalize_version_parts(clean1)
     n2 = normalize_version_parts(clean2)
@@ -227,8 +238,14 @@ def compare_local_vs_upstream(
         if upstream_commit.lower().startswith(installed_commit.lower()) or installed_commit.lower().startswith(upstream_commit.lower()):
             return VersionComparisonStatus.COMMIT_UNCHANGED, info
 
-    # If upstream commit differs or commit hash isn't available, proceed to fetch binary & validate
+    # If upstream version is lower than installed catalog version, ignore (LOCAL_IS_NEWER)
+    if upstream_ver and installed_ver:
+        if compare_version_numbers(upstream_ver, installed_ver) < 0:
+            return VersionComparisonStatus.LOCAL_IS_NEWER, info
+
+    # If upstream commit differs or candidate update is available, proceed to fetch binary & validate
     return VersionComparisonStatus.UPDATE_AVAILABLE, info
+
 
 
 

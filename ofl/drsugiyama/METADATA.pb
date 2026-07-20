@@ -18,6 +18,16 @@ subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/drsugiyama"
-  commit: "11d194b70af6df309a24c9395f64280172839879"
+  repository_url: "https://github.com/googlefonts/drsugiyama"
+  commit: "67e9b2e25cd7b9bde6ea5d5001fce5da54a9e877"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DrSugiyama-Regular.ttf"
+    dest_file: "DrSugiyama-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

@@ -45,6 +45,28 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/economica"
-  commit: "6bf48e6858755227cdd104ee4b44e9e2e4bb197b"
+  repository_url: "https://github.com/googlefonts/economica"
+  commit: "03c3c4473a043aa560421b3d54d67f66d4a98a31"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Economica-BoldItalic.ttf"
+    dest_file: "Economica-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Economica-Bold.ttf"
+    dest_file: "Economica-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Economica-Italic.ttf"
+    dest_file: "Economica-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Economica-Regular.ttf"
+    dest_file: "Economica-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

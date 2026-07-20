@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-04-14"
 source {
-  repository_url: "https://github.com/librefonts/dawningofanewday"
-  commit: "45ea90b8015692ee7fe07e417ea1c88392373ce3"
+  repository_url: "https://github.com/googlefonts/dawningofanewday"
+  commit: "a0c504721994bbcde597e453115c481419e7c43f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DawningofaNewDay-Regular.ttf"
+    dest_file: "DawningofaNewDay.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

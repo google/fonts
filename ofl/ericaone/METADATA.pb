@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/ericaone"
-  commit: "bde7cb1ee528f936a9bae89a746742983531d9f8"
+  repository_url: "https://github.com/googlefonts/ericaone"
+  commit: "34ddbe60f433f69a959c8200e97b8b9be4499900"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/EricaOne-Regular.ttf"
+    dest_file: "EricaOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

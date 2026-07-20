@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-16"
 source {
-  repository_url: "https://github.com/librefonts/devonshire"
-  commit: "7d88bb81c76ccd1b7d48a15ae97a00c45f9ffb01"
+  repository_url: "https://github.com/googlefonts/devonshire"
+  commit: "7a5ccf2a745c1b08c55181ce87fb522dedcbe631"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Devonshire-Regular.ttf"
+    dest_file: "Devonshire-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2012-11-26"
 source {
-  repository_url: "https://github.com/librefonts/donegalone"
-  commit: "b0af18fd94255bfdfe07e90db984167564abd565"
+  repository_url: "https://github.com/googlefonts/donegalone"
+  commit: "3fccfd33ed0b9eefdb158aef321fc2e604127a2c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DonegalOne-Regular.ttf"
+    dest_file: "DonegalOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

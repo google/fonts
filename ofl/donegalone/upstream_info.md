@@ -1,45 +1,30 @@
 # Donegal One
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Donegal One is a serif font designed by Gary Lonergan, distributed by Sorkin Type Co. The upstream repository contains only SFD (FontForge) sources, which are not compatible with gftools-builder.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Donegal One (Regular) built from FontForge SFD sources at https://github.com/librefonts/donegalone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-| Field | Value |
-|-------|-------|
-| **Family Name** | Donegal One |
-| **Designer** | Gary Lonergan |
-| **License** | OFL |
-| **Date Added** | 2012-11-26 |
-| **Repository URL** | https://github.com/librefonts/donegalone |
-| **Commit Hash** | `b0af18fd94255bfdfe07e90db984167564abd565` |
-| **Config YAML** | None (SFD-only sources) |
-| **Status** | missing_config |
+## Actions taken
 
-## Investigation Details
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The converted source was corrected: the `aalt` feature was rebuilt, and the no-break space (U+00A0) advance width was fixed to 684.
+- A new Unified Font Repository was created at https://github.com/googlefonts/donegalone, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-### Onboarding History
+## Final state
 
-Donegal One was added to Google Fonts in the initial commit (`90abd17b4`) by Dave Crossland on 2015-03-07. The font binary has only been modified once since, in a deploy commit (`76adaf1d2`).
+The source now lives at https://github.com/googlefonts/donegalone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binaries.
 
-A source block with repository_url and commit hash is being added via a pending PR on the `sources_info_2026-02-25` branch (commit `9a14639f3`).
+## Verification
 
-### Upstream Repository
+The rebuilt font matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle and GSUB/GPOS feature sets, and had no blocking differences. Three benign differences were accepted:
 
-The upstream repo at https://github.com/librefonts/donegalone contains:
-- `src/DonegalOne-Regular-TTF.sfd` - FontForge SFD source (TrueType)
-- `src/DonegalOne-Regular-OTF.sfd` - FontForge SFD source (OpenType)
-- `src/DonegalOne-Regular.vfb` - FontLab VFB source (proprietary format)
-- TTX dumps of the compiled font
-- No `.glyphs`, `.ufo`, or `.designspace` files
+- 27 glyphs were renamed to production names; cmap coverage is unchanged.
+- GDEF now classifies U+0326 (combining comma below) as a mark, which the shipped font failed to classify. This is a correction.
+- The combining mark at U+F6C3 was given a zero advance; the shipped font gave it a spacing advance.
 
-The repo has a single commit (`b0af18f`, "update .travis.yml") visible in the shallow clone. The remote URL is https://github.com/librefonts/donegalone.
+## Original repository (dormant)
 
-### Config YAML
-
-No config.yaml exists in either the upstream repository or as an override in the google/fonts family directory. The SFD source format is not supported by gftools-builder, so a config.yaml cannot be created without source format conversion.
-
-## Conclusion
-
-Donegal One has a known upstream repository with correct commit hash, but the sources are in SFD (FontForge) format only. A config.yaml cannot be created without first converting the sources to a gftools-builder compatible format (UFO, .glyphs, or .designspace). The status remains `missing_config` with the note that this is an SFD-only repository.
+The original FontForge sources are at https://github.com/librefonts/donegalone (`.sfd`), latest at commit `b0af18fd94255bfdfe07e90db984167564abd565`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

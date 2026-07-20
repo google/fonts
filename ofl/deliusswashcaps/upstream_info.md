@@ -1,57 +1,23 @@
-# Delius Swash Caps - Investigation Report
+# Delius Swash Caps
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Delius Swash Caps |
-| Designer | Natalia Raices |
-| License | OFL |
-| Repository URL | https://github.com/librefonts/deliusswashcaps |
-| Commit Hash | a18d931eb4b66533df5df07d91e0851938a96121 |
-| Branch | master |
-| Config YAML | N/A (SFD-only sources) |
-| Status | missing_config |
-| Date Added | 2011-08-03 |
+## Initial state
 
-## How URL Found
+The family shipped a single static TTF (Delius Swash Caps Regular) whose only upstream source was a FontForge `.sfd` file (`src/DeliusSwashCaps-Regular-TTF.sfd`). METADATA.pb pointed at the dormant librefonts repository and carried no `config_yaml`, so the family could not be rebuilt with the current Google Fonts tooling.
 
-The repository URL `https://github.com/librefonts/deliusswashcaps` was identified through the librefonts GitHub organization. Like the other Delius variants (Delius, Delius Unicase), each variant has its own separate repository under the librefonts organization. A source block was prepared in commit `9a14639f3` (on PR branch `sources_info_2026-02-25`, not yet merged to main).
+## Actions taken
 
-## How Commit Determined
+The repository was re-based on the Unified Font Repository template. The FontForge source was converted to Glyphs (`DeliusSwashCaps-Regular.glyphs`) with babelfont-rs (upstream commit `219c0bb`), a `config.yaml` was added for gftools-builder3, and the superseded `.sfd` sources and legacy build cruft were retired. During conversion the no-break space (U+00A0) advance width was corrected to match the space glyph (238 units).
 
-The commit `a18d931eb4b66533df5df07d91e0851938a96121` is the HEAD of the master branch in the upstream repo (the only visible commit in the shallow clone: "update .travis.yml"). This is a legacy font added to the Google Fonts catalog on 2011-08-03 and present since the initial google/fonts commit (2015-03-07).
+## Final state
 
-The TTF file in google/fonts was last modified in the deploy commit `76adaf1d2` (2021-11-01). Before that, it was in the initial commit.
-
-The upstream repo contains:
-- `src/DeliusSwashCaps-Regular-TTF.sfd` (FontForge source)
-- `src/DeliusSwashCaps-Regular.vfb` (FontLab source)
-- TTX decompositions of the font tables
-- No modern build sources (.glyphs, .ufo, .designspace)
-
-## Config YAML Status
-
-- No `config.yaml` exists in the upstream repository
-- No override `config.yaml` exists in google/fonts at `ofl/deliusswashcaps/`
-- The upstream repo only contains SFD (FontForge) and VFB (FontLab) source formats
-- These formats are not compatible with gftools-builder
-- A config.yaml cannot be created without converting the sources to a modern format first
+The repository builds Delius Swash Caps Regular from the `.glyphs` source through gftools-builder3 + fontc. The `source { }` block in METADATA.pb now points at the modernized googlefonts repository, branch and build config.
 
 ## Verification
 
-- Repository URL is valid and accessible
-- Upstream repo cloned at `upstream_repos/fontc_crater_cache/librefonts/deliusswashcaps/` (shallow clone)
-- Commit `a18d931` verified as HEAD of master
-- No modern source files found (.glyphs, .ufo, .designspace)
-- METADATA.pb in google/fonts main branch currently has no source block (a PR branch adds one)
+The freshly built Regular was compared against the shipped `DeliusSwashCaps-Regular.ttf`. Character-map coverage matched. The verdict is FUNCTIONAL, with only benign differences: the FontForge legacy helper glyphs (`.null`, `nonmarkingreturn`) were dropped; 11 glyphs were renamed to production names with no change in coverage; GDEF now correctly classifies one combining mark (U+0326) that the shipped font left unclassified; and the private-use combining glyph U+F6C3 was zeroed to a true mark advance (the shipped font gave it a spacing advance). No blocking differences were found.
 
-## Confidence Level
+## Original repository (dormant)
 
-**High** for repository URL. **Medium** for commit hash (HEAD of shallow clone). **N/A** for config_yaml (legacy source format only).
-
-## Open Questions
-
-- Same situation as Delius and Delius Unicase: sources would need conversion to modern format for gftools-builder compatibility.
-- The copyright string references Reserved Font Names: "Delius", "Delius Unicase", "Delius Swash Caps" - all three variants share the same designer (Natalia Raices) and were created as a family.
-- The source block for METADATA.pb has been prepared on branch `sources_info_2026-02-25` but is not yet merged.
+The original upstream lived at https://github.com/librefonts/deliusswashcaps (branch `master`), latest commit `a18d931eb4b66533df5df07d91e0851938a96121`, which is the same commit recorded for the original onboarding.

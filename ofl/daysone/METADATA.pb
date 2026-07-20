@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-17"
 source {
-  repository_url: "https://github.com/librefonts/daysone"
-  commit: "76642af05e1a7734f94e1b22abdbc37b6bfb933c"
+  repository_url: "https://github.com/googlefonts/daysone"
+  commit: "5a4d7f229c497dd3f4cf1b8c23da954c3e45e2cf"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DaysOne-Regular.ttf"
+    dest_file: "DaysOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

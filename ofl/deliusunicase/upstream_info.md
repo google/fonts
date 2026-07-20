@@ -1,63 +1,26 @@
-# Delius Unicase - Investigation Report
+# Delius Unicase
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Delius Unicase |
-| Designer | Natalia Raices |
-| License | OFL |
-| Repository URL | https://github.com/librefonts/deliusunicase |
-| Commit Hash | cf094caecc96589701f341db1994fd10642e3c88 |
-| Branch | master |
-| Config YAML | N/A (SFD-only sources) |
-| Status | missing_config |
-| Date Added | 2011-10-12 |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Delius Unicase (Regular and Bold) built from FontForge SFD sources at https://github.com/librefonts/deliusunicase. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/deliusunicase` was identified through the librefonts GitHub organization. This is the third variant in the Delius family (alongside Delius and Delius Swash Caps), each hosted in its own repository. A source block was prepared in commit `9a14639f3` (on PR branch `sources_info_2026-02-25`, not yet merged to main).
+## Actions taken
 
-## How Commit Determined
+- The canonical FontForge SFD sources (`DeliusUnicase-Regular-TTF.sfd` and `DeliusUnicase-Bold-TTF.sfd`) were converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The no-break space (U+00A0) advance width was corrected, and the Bold master had its OS/2 usWeightClass set to 700.
+- A new Unified Font Repository was created at https://github.com/googlefonts/deliusunicase, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-The commit `cf094caecc96589701f341db1994fd10642e3c88` is the HEAD of the master branch in the upstream repo (the only visible commit in the shallow clone: "update .travis.yml"). This is a legacy font added to the Google Fonts catalog on 2011-10-12.
+## Final state
 
-Unlike the other Delius variants which have only one weight, Delius Unicase has two weights:
-- DeliusUnicase-Regular.ttf (400)
-- DeliusUnicase-Bold.ttf (700)
-
-The TTF files in google/fonts were last modified in the deploy commit `76adaf1d2` (2021-11-01). Before that, they were in the initial commit.
-
-The upstream repo contains:
-- `src/DeliusUnicase-Regular-TTF.sfd` and `src/DeliusUnicase-Bold-TTF.sfd` (FontForge sources)
-- `src/DeliusUnicase-Regular.vfb` and `src/DeliusUnicase-Bold.vfb` (FontLab sources)
-- TTX decompositions of the font tables for both weights
-- No modern build sources (.glyphs, .ufo, .designspace)
-
-## Config YAML Status
-
-- No `config.yaml` exists in the upstream repository
-- No override `config.yaml` exists in google/fonts at `ofl/deliusunicase/`
-- The upstream repo only contains SFD (FontForge) and VFB (FontLab) source formats
-- These formats are not compatible with gftools-builder
-- A config.yaml cannot be created without converting the sources to a modern format first
+The source now lives at https://github.com/googlefonts/deliusunicase (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binaries.
 
 ## Verification
 
-- Repository URL is valid and accessible
-- Upstream repo cloned at `upstream_repos/fontc_crater_cache/librefonts/deliusunicase/` (shallow clone)
-- Commit `cf094ca` verified as HEAD of master
-- No modern source files found (.glyphs, .ufo, .designspace)
-- Source files for both Regular and Bold weights are present in `src/` directory
-- METADATA.pb in google/fonts main branch currently has no source block (a PR branch adds one)
+Both weights matched the shipped binaries on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, and GSUB/GPOS feature sets. The accepted differences are benign: the FontForge legacy glyph `nonmarkingreturn` was dropped; 11 glyphs were renamed to production names with coverage unchanged; GDEF now classifies the real combining mark uni0326 that the shipped font had missed; and the combining mark U+F6C3, which the shipped font gave a spacing advance, was zeroed.
 
-## Confidence Level
+## Original repository (dormant)
 
-**High** for repository URL. **Medium** for commit hash (HEAD of shallow clone). **N/A** for config_yaml (legacy source format only).
-
-## Open Questions
-
-- Same situation as Delius and Delius Swash Caps: sources would need conversion to modern format for gftools-builder compatibility.
-- This is the only Delius variant with multiple weights (Regular + Bold), so source conversion would be more involved.
-- The source block for METADATA.pb has been prepared on branch `sources_info_2026-02-25` but is not yet merged.
-- The copyright string references Reserved Font Names: "Delius", "Delius Unicase", "Delius Swash Caps".
+The original FontForge sources are at https://github.com/librefonts/deliusunicase (`.sfd`), latest at commit `cf094caecc96589701f341db1994fd10642e3c88`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

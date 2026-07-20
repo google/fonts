@@ -1,51 +1,26 @@
-# Dawning of a New Day - Investigation Report
+# Dawning of a New Day
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Dawning of a New Day |
-| Designer | Kimberly Geswein |
-| Repository URL | https://github.com/librefonts/dawningofanewday |
-| Commit Hash | `45ea90b8015692ee7fe07e417ea1c88392373ce3` |
-| Branch | master |
-| Config YAML | None (no gftools-builder compatible sources) |
-| Status | missing_config |
-| Date Added | 2011-04-14 |
+## Initial state
 
-## How URL Found
+Google Fonts shipped Dawning of a New Day (Regular) built from FontForge SFD sources at https://github.com/librefonts/dawningofanewday. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/dawningofanewday` is a librefonts archive repository. These repos were created by the Google Fonts team (hash3g) as archives of the font source files in TTX/SFD/VFB format.
+## Actions taken
 
-## How Commit Determined
+- The canonical FontForge SFD source (`DawningofaNewDay-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion, embedded NUL bytes were stripped from the source and the no-break space (U+00A0) advance width was corrected.
+- A new Unified Font Repository was created at https://github.com/googlefonts/dawningofanewday, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The upstream repository has only a single commit: `45ea90b8015692ee7fe07e417ea1c88392373ce3` (hash3g, Oct 17 2014, "update .travis.yml"). This is the only commit and therefore the HEAD of the master branch. The font binary in google/fonts has not been updated since the initial commit (90abd17b4).
+## Final state
 
-## Config YAML Status
-
-- **No config.yaml in upstream**: The upstream repository does not contain a config.yaml file
-- **No override config.yaml in google/fonts**: None exists
-- **Source files are not gftools-builder compatible**: The upstream contains:
-  - `src/DawningofaNewDay-TTF.sfd` (FontForge SFD format)
-  - `src/DawningofaNewDay.vfb` (FontLab VFB format)
-  - Various TTX decompositions
-- These source formats (SFD, VFB) are not supported by gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` files
-- **No source block in METADATA.pb**: The current METADATA.pb has no `source { }` block
+The source now lives at https://github.com/googlefonts/dawningofanewday (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
 ## Verification
 
-- Repository URL is valid and accessible: https://github.com/librefonts/dawningofanewday
-- Commit `45ea90b` is the only commit in the repo and matches HEAD
-- The upstream repo is cached at `upstream_repos/fontc_crater_cache/librefonts/dawningofanewday/`
-- This is a legacy font (added 2011-04-14) that predates gftools-builder infrastructure
+The rebuilt font matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. Two benign differences were accepted: the FontForge legacy `nonmarkingreturn` glyph was dropped (it carried no cmap coverage), and 5 glyphs were renamed to their production names with no change to coverage.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** for URL and commit. The librefonts archive is the only known upstream. The commit is trivially correct as there is only one commit.
-
-**N/A** for config_yaml - there is no gftools-builder compatible source, so no config.yaml can be created without converting the sources first.
-
-## Open Questions
-
-- Would this font benefit from source conversion (SFD to .glyphs or .ufo) to enable gftools-builder compatibility?
-- The librefonts archive is a secondary source; the original designer (Kimberly Geswein) may have the original source files in a different format.
+The original FontForge sources are at https://github.com/librefonts/dawningofanewday (`.sfd`), latest at commit `45ea90b8015692ee7fe07e417ea1c88392373ce3`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

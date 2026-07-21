@@ -259,6 +259,20 @@ class AutoUpdatePipeline:
                 upstream_commit=check_result.upstream_commit,
             )
 
+        directives = self.manual_instructions.get_family_directives(meta.name)
+
+        # If catalog family is variable or variable update is approved, filter candidate binaries to variable fonts only
+        is_catalog_variable = any("[" in f.filename for f in meta.catalog_font_files)
+        if candidate_ttf_fonts and (is_catalog_variable or directives["is_variable_update"]):
+            var_candidates = [
+                c for c in candidate_ttf_fonts
+                if "[" in (Path(c[0]).name if isinstance(c, (list, tuple)) else Path(c).name)
+                or "variable" in (Path(c[0]).name if isinstance(c, (list, tuple)) else Path(c).name).lower()
+                or "vf" in (Path(c[0]).name if isinstance(c, (list, tuple)) else Path(c).name).lower()
+            ]
+            if var_candidates:
+                candidate_ttf_fonts = var_candidates
+
         # Validate actual font version string from candidate TTF binary rather than relying solely on tag name
         if candidate_ttf_fonts:
             from .version_comparator import extract_ttf_font_version
@@ -269,7 +283,6 @@ class AutoUpdatePipeline:
                     check_result.upstream_version = ver_num
                     break
 
-        directives = self.manual_instructions.get_family_directives(meta.name)
 
         # Step 3: Font File Matching Analysis & Mapping Flagging
         font_matching_analysis = analyze_font_file_matching(

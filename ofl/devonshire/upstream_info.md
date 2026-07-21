@@ -1,42 +1,30 @@
 # Devonshire
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Devonshire is a handwriting/display typeface designed by Brian J. Bonislawsky (Astigmatic). The only known upstream repo is a librefonts mirror containing TTX-decomposed files and legacy source formats (SFD/VFB). No gftools-compatible sources exist.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Devonshire (Regular) built from FontForge SFD sources at https://github.com/librefonts/devonshire. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-- **Designer**: Astigmatic (Brian J. Bonislawsky)
-- **Date added to Google Fonts**: 2011-11-16
-- **Repository URL**: https://github.com/librefonts/devonshire
-- **Commit**: `7d88bb81c76ccd1b7d48a15ae97a00c45f9ffb01` (single commit "update .travis.yml")
-- **Source formats available**: SFD (FontForge), VFB (FontLab), TTX decomposed files
-- **config_yaml**: None (not applicable - no gftools-buildable sources)
-- **Override config.yaml**: None in google/fonts
+## Actions taken
 
-## Repository Analysis
+- The canonical FontForge SFD source (`Devonshire-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion the `aalt` feature was repaired and the no-break space (U+00A0) advance width was corrected to 202.
+- A new Unified Font Repository was created at https://github.com/googlefonts/devonshire, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The librefonts/devonshire repo is a mirror repository created by Mikhail Kashkin. It contains:
-- TTX-decomposed font tables (the binary .ttf decompiled into XML)
-- `src/Devonshire-Regular-TTF.sfd` - FontForge source
-- `src/Devonshire-Regular-OTF.vfb` - FontLab Studio source (binary, proprietary format)
-- Standard metadata files (FONTLOG.txt, METADATA.json, OFL.txt)
+## Final state
 
-The repo has a single commit in its history (after unshallowing): `7d88bb8 update .travis.yml`.
+The source now lives at https://github.com/googlefonts/devonshire (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
-The FONTLOG.txt in google/fonts mentions two VFB source files as the canonical sources, indicating the font was originally designed in FontLab Studio.
+## Verification
 
-## google/fonts History
+The rebuilt Devonshire-Regular was compared against the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. It was functionally equivalent, with no blocking differences, and with the following accepted differences:
 
-The font binary has not been updated since the initial commit (90abd17b4) of the google/fonts repository. The source block was added in commit 9a14639f3 (2026-02-25) as part of a batch update.
+- Two FontForge legacy glyphs (`.null`, `nonmarkingreturn`) were dropped; they carry no cmap coverage.
+- 20 glyphs were renamed to their production names; codepoint coverage is unchanged.
+- GDEF now classifies three real combining marks (U+0312, U+0315, U+0326) as marks, which the shipped font missed, and those marks were given zero advance; the shipped font had incorrectly assigned them spacing advances.
 
-## Status
+## Original repository (dormant)
 
-- **repository_url**: Correct (https://github.com/librefonts/devonshire)
-- **commit**: `7d88bb8` is the only/latest commit in the repo
-- **config_yaml**: N/A - SFD/VFB sources are not gftools-builder compatible
-- **Overall**: missing_config (SFD-only sources, not gftools-builder compatible)
-
-## Recommendation
-
-Status should remain `missing_config` with the note that sources are SFD/VFB format only. The font would need to be converted to .glyphs or .ufo format and a config.yaml created before it could be built with gftools-builder.
+The original FontForge sources are at https://github.com/librefonts/devonshire (`.sfd`), latest at commit `7d88bb81c76ccd1b7d48a15ae97a00c45f9ffb01`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

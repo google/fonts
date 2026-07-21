@@ -1,55 +1,26 @@
 # Erica One
 
-**Date investigated**: 2026-02-27
-**Status**: missing_config (SFD-only sources)
-**Designer**: Miguel Hernandez (LatinoType)
-**METADATA.pb path**: `ofl/ericaone/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/ericaone |
-| Commit | `bde7cb1ee528f936a9bae89a746742983531d9f8` |
-| Config YAML | None (SFD-only sources, not gftools-builder compatible) |
-| Branch | `master` |
+Google Fonts shipped Erica One (Regular) built from FontForge SFD sources at https://github.com/librefonts/ericaone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## How the Repository URL Was Found
+## Actions taken
 
-The repository URL `https://github.com/librefonts/ericaone` was identified from the fontc_crater_cache at `librefonts/ericaone`. The repo was created on 2014-07-16 by Mikhail Kashkin (hash3g) with the initial commit message "Move ericaone font files to separate repository", indicating it was split out from a larger googlefontdirectory collection into its own repository. This is a librefonts mirror, not the original designer's repository.
+- The canonical FontForge SFD source (`EricaOne-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- Seven glyphs were renamed to their standard production names during conversion; codepoint coverage was unchanged.
+- A new Unified Font Repository was created at https://github.com/googlefonts/ericaone, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-No other upstream repository exists for this font. A GitHub search found only the librefonts mirror and a google-fonts-bower package (which is just a bower distribution, not a source repo).
+## Final state
 
-## How the Commit Hash Was Identified
-
-The upstream repository has 11 commits, all by Mikhail Kashkin (hash3g):
-
-1. `b8d3a3e` (2014-07-16) - Initial commit: "Move ericaone font files to separate repository" -- adds all font source files, TTX decomposed files, METADATA.json, license, and description
-2. `19e03a5` through `bde7cb1` (2014-08-19 to 2014-10-17) - 10 subsequent commits all exclusively modifying `.travis.yml` for CI configuration
-
-Since the font sources were only ever present in the initial commit, and all later commits only touched CI configuration, the latest commit `bde7cb1` is used as the reference because it represents the final state of the repository with no source file changes.
-
-The font binary in google/fonts (`ofl/ericaone/EricaOne-Regular.ttf`) has never been modified since the initial bulk import commit `90abd17b4` (2015-03-07, by Dave Crossland). The font's head table shows creation and modification dates of 2012-01-24, consistent with the `date_added` of 2012-01-18 in METADATA.pb. This was a very early Google Fonts addition, predating the librefonts mirror by over two years.
-
-## How Config YAML Was Resolved
-
-No `config.yaml` exists in the upstream repository. The source files available are:
-
-- `src/EricaOne-Regular-TTF.sfd` -- FontForge Spline Font Database (version 3.0)
-- `src/EricaOne-Regular-OTF.vfb` -- FontLab binary source
-
-Neither SFD nor VFB formats are supported by gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` sources. An override config.yaml cannot be created because there are no compatible source files to reference.
-
-The root directory also contains TTX-decomposed files (`.ttx` table dumps of the compiled fonts), but these are not editable font sources.
+The source now lives at https://github.com/googlefonts/ericaone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
 ## Verification
 
-- **Repository URL**: Verified accessible via `gh repo view` -- created 2014-07-16, not archived
-- **Commit hash**: `bde7cb1` confirmed as HEAD of master branch with `git rev-parse HEAD`
-- **Source files**: Confirmed SFD (FontForge) and VFB (FontLab) only -- no `.glyphs`, `.ufo`, or `.designspace` files present
-- **Font binary unchanged**: The TTF in google/fonts has only one entry in git log (the initial commit `90abd17b4`), confirming it was never updated
-- **Font version**: Version 1.003 per `src/VERSIONS.txt`; font head table creation date 2012-01-24
+The rebuilt font matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference was seven glyphs renamed to their standard production names, which leaves codepoint coverage unchanged and is therefore accepted.
 
-## Confidence
+## Original repository (dormant)
 
-**HIGH** -- The repository URL is confirmed as the only available upstream. The commit hash is the latest in a repo with only CI-related changes after the initial file import. The SFD-only source limitation is clearly verified. No config.yaml can be created for this font family.
+The original FontForge sources are at https://github.com/librefonts/ericaone (`.sfd`), latest at commit `bde7cb1ee528f936a9bae89a746742983531d9f8`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

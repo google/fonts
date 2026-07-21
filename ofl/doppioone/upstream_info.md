@@ -1,45 +1,26 @@
 # Doppio One
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Doppio One is a sans-serif font by Szymon Celej, distributed by Sorkin Type Co. The upstream repository contains only SFD (FontForge) sources, which are not compatible with gftools-builder.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Doppio One (Regular) built from FontForge SFD sources at https://github.com/librefonts/doppioone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-| Field | Value |
-|-------|-------|
-| **Family Name** | Doppio One |
-| **Designer** | Szymon Celej |
-| **License** | OFL |
-| **Date Added** | 2012-02-22 |
-| **Repository URL** | https://github.com/librefonts/doppioone |
-| **Commit Hash** | `14bdd2e78b5b8e4f5bc5a39e5f1b02d398883a99` |
-| **Config YAML** | None (SFD-only sources) |
-| **Status** | missing_config |
+## Actions taken
 
-## Investigation Details
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The no-break space (U+00A0) advance width was corrected to 410 to match the space glyph.
+- A new Unified Font Repository was created at https://github.com/googlefonts/doppioone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-### Onboarding History
+## Final state
 
-Doppio One was added to Google Fonts in the initial commit (`90abd17b4`) by Dave Crossland on 2015-03-07. The font binary has only been modified once since, in a deploy commit (`76adaf1d2`).
+The source now lives at https://github.com/googlefonts/doppioone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
-A source block with repository_url and commit hash is being added via a pending PR on the `sources_info_2026-02-25` branch (commit `9a14639f3`).
+## Verification
 
-### Upstream Repository
+Identical to the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets and advance widths. Two benign differences were accepted: 22 glyphs were renamed to their production names (coverage unchanged), and the GDEF table now classifies the combining mark uni0326 that the shipped font had left unclassified.
 
-The upstream repo at https://github.com/librefonts/doppioone contains:
-- `src/DoppioOne-Regular-TTF.sfd` - FontForge SFD source (TrueType)
-- `src/DoppioOne-Regular-OTF.sfd` - FontForge SFD source (OpenType)
-- `src/DoppioOne-Regular.vfb` - FontLab VFB source (proprietary format)
-- TTX dumps of the compiled font
-- No `.glyphs`, `.ufo`, or `.designspace` files
+## Original repository (dormant)
 
-The repo has a single commit (`14bdd2e`, "update .travis.yml") visible in the shallow clone. The remote URL is https://github.com/librefonts/doppioone.
-
-### Config YAML
-
-No config.yaml exists in either the upstream repository or as an override in the google/fonts family directory. The SFD source format is not supported by gftools-builder, so a config.yaml cannot be created without source format conversion.
-
-## Conclusion
-
-Doppio One has a known upstream repository with correct commit hash, but the sources are in SFD (FontForge) format only. A config.yaml cannot be created without first converting the sources to a gftools-builder compatible format (UFO, .glyphs, or .designspace). The status remains `missing_config` with the note that this is an SFD-only repository.
+The original FontForge sources are at https://github.com/librefonts/doppioone (`.sfd`), latest at commit `14bdd2e78b5b8e4f5bc5a39e5f1b02d398883a99`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

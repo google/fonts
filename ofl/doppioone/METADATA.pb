@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-22"
 source {
-  repository_url: "https://github.com/librefonts/doppioone"
-  commit: "14bdd2e78b5b8e4f5bc5a39e5f1b02d398883a99"
+  repository_url: "https://github.com/googlefonts/doppioone"
+  commit: "34f9329a27b33de4a879733d65daaee5e7eb61d5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DoppioOne-Regular.ttf"
+    dest_file: "DoppioOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

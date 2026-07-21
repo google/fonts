@@ -48,13 +48,19 @@ def compute_sha256(filepath: str) -> str:
 def is_ttf_font_file(filename: str) -> bool:
     """
     Check if file is a valid TTF font binary (.ttf).
-    Strictly excludes WOFF, WOFF2, OTF, EOT, and macOS metadata junk files (e.g. ._AbhayaLibre.ttf).
+    Strictly excludes OTF, WOFF, WOFF2, EOT, webfonts, and macOS metadata junk files.
     """
     path = Path(filename)
     name = path.name
-    if name.startswith("._") or "__MACOSX" in filename:
+    fn_lower = filename.lower()
+
+    if name.startswith("._") or "__macosx" in fn_lower:
         return False
-    return path.suffix.lower() == ".ttf"
+    if path.suffix.lower() != ".ttf":
+        return False
+    if "webfont" in fn_lower or "woff" in fn_lower or "otf" in fn_lower or "specimen" in fn_lower or "documentation" in fn_lower or "test" in fn_lower:
+        return False
+    return True
 
 
 def compare_ttf_dir_hashes(existing_ttf_dir: Path, candidate_fonts: List[Tuple[Path, str]]) -> bool:
@@ -104,27 +110,57 @@ class ArtifactFetcher:
 
     def extract_font_files_from_zip(self, zip_path: Path, output_dir: Path) -> List[Tuple[Path, str]]:
         """
-        Extract TTF font binaries from a ZIP archive directly without modifications.
-        Returns list of (extracted_file_path, sha256_hash).
+        Search and extract TTF font binaries from a ZIP archive directly without modifications.
+        Discards OTF, webfonts, and test/specimen files.
+        Prioritizes Variable font binaries first, Static TTF binaries second.
+        Returns list of (extracted_ttf_file_path, sha256_hash).
         """
         extracted_fonts: List[Tuple[Path, str]] = []
         output_dir.mkdir(parents=True, exist_ok=True)
 
         with zipfile.ZipFile(zip_path, "r") as archive:
-            for member in archive.infolist():
-                if member.is_dir():
-                    continue
-                if is_ttf_font_file(member.filename):
-                    filename = Path(member.filename).name
-                    out_path = output_dir / filename
-                    with archive.open(member) as source_f, open(out_path, "wb") as target_f:
-                        content = source_f.read()
-                        target_f.write(content)
+            ttf_members = [
+                m for m in archive.infolist()
+                if not m.is_dir() and is_ttf_font_file(m.filename)
+            ]
 
-                    file_hash = compute_sha256(str(out_path))
-                    extracted_fonts.append((out_path, file_hash))
+            if not ttf_members:
+                return []
+
+            # Prioritize Variable fonts first (0), Static TTF fonts second (1-2)
+            def member_priority(m: zipfile.ZipInfo) -> int:
+                fn = m.filename.lower()
+                name = Path(m.filename).name.lower()
+                # Priority 1: Variable font binaries
+                if "variable" in fn or "vf" in fn or "[" in name:
+                    return 0
+                # Priority 2: Static TTF font binaries
+                if "fonts/ttf" in fn or "build/ttf" in fn or "ttf" in fn or "release/" in fn:
+                    return 1
+                if "fonts/" in fn or "ofl/" in fn:
+                    return 2
+                return 3
+
+            ttf_members.sort(key=member_priority)
+
+
+            extracted_names = set()
+            for member in ttf_members:
+                filename = Path(member.filename).name
+                if filename in extracted_names:
+                    continue  # Keep the highest priority version
+
+                out_path = output_dir / filename
+                with archive.open(member) as source_f, open(out_path, "wb") as target_f:
+                    content = source_f.read()
+                    target_f.write(content)
+
+                file_hash = compute_sha256(str(out_path))
+                extracted_fonts.append((out_path, file_hash))
+                extracted_names.add(filename)
 
         return extracted_fonts
+
 
     def acquire_upstream_binaries(
         self, release: Optional[UpstreamRelease], family_meta: FamilyMetadata, output_dir: Path, upstream_commit: Optional[str] = None
@@ -135,6 +171,7 @@ class ArtifactFetcher:
         """
         output_dir.mkdir(parents=True, exist_ok=True)
         acquired_fonts: List[Tuple[Path, str]] = []
+        family_slug = family_meta.name.lower().replace(" ", "")
 
         if release and release.assets:
             zip_assets = [a for a in release.assets if a.name.endswith(".zip")]
@@ -142,7 +179,8 @@ class ArtifactFetcher:
 
             if zip_assets:
                 asset = zip_assets[0]
-                downloaded_zip = self.download_asset(asset)
+                target_zip = output_dir / f"{family_slug}_{asset.name}"
+                downloaded_zip = self.download_asset(asset, target_path=str(target_zip))
                 extracted = self.extract_font_files_from_zip(downloaded_zip, output_dir)
                 if extracted:
                     return extracted
@@ -169,13 +207,15 @@ class ArtifactFetcher:
 
         if archive_url:
             try:
-                asset = ReleaseAsset(name="archive.zip", download_url=archive_url)
-                downloaded_zip = self.download_asset(asset)
+                target_zip = output_dir / f"{family_slug}_repository_archive.zip"
+                asset = ReleaseAsset(name=target_zip.name, download_url=archive_url)
+                downloaded_zip = self.download_asset(asset, target_path=str(target_zip))
                 extracted = self.extract_font_files_from_zip(downloaded_zip, output_dir)
                 if extracted:
                     return extracted
             except Exception:
                 pass
+
 
         # Fallback 2: Build TTF font binaries from upstream source using gftools.packager.build
         packager = _import_gftools_packager()

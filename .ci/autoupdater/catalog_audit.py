@@ -93,17 +93,31 @@ def generate_markdown_report(report: Dict[str, Any], results: List[Dict[str, Any
                 "BLOCKED": "🔴 BLOCKED",
             }.get(tier, tier)
 
-            rationale = {
-                "AUTO_APPROVE": "High confidence: zero visual regressions, stable metrics & clean QA",
-                "NEEDS_REVIEW": "Review needed: minor rendering shift or QA check warning detected",
-                "BLOCKED": "Hard-blocked: visual rendering regression or fatal QA error detected",
-            }.get(tier, "Evaluated")
+            blocking = r.get("blocking_reasons", [])
+            if tier == "AUTO_APPROVE":
+                rationale = "High confidence: zero visual regressions, stable metrics & clean QA"
+            elif blocking:
+                qa_reasons = [b for b in blocking if "Fontspector" in b or "QA" in b]
+                diff_reasons = [b for b in blocking if "Fontspector" not in b and "QA" not in b]
+                parts = []
+                if qa_reasons:
+                    parts.append(f"Fontspector: {'; '.join(qa_reasons)}")
+                if diff_reasons:
+                    parts.append(f"Diffenator2: {'; '.join(diff_reasons)}")
+                rationale = " | ".join(parts) if parts else "; ".join(blocking)
+            else:
+                rationale = {
+                    "NEEDS_REVIEW": "Review needed: minor rendering shift or QA check warning detected",
+                    "BLOCKED": "Hard-blocked: visual rendering regression or fatal QA error detected",
+                }.get(tier, "Evaluated")
 
             lines.append(f"| **{fam}** | `{cur_v}` | `{up_v}` | `{score} / 100` | {tier_badge} | {rationale} | `{status}` |")
         lines.append("")
 
-    no_match_results = [r for r in results if r.get("status") in ("NO_MATCH_FOUND", "FLAGGED_FOR_REVIEW") or r.get("font_matching_analysis", {}).get("status") in ("NO_MATCH_FOUND", "FLAGGED_FOR_REVIEW")]
+
+    no_match_results = [r for r in results if r.get("status") == "NO_MATCH_FOUND" or r.get("font_matching_analysis", {}).get("status") == "NO_MATCH_FOUND"]
     if no_match_results:
+
         lines.append("## ⚠️ Step 3 Font File Matching Attention Needed")
         lines.append("")
         lines.append("| Family Name | Installed Version | Upstream Version | Matching Status | Required Action |")

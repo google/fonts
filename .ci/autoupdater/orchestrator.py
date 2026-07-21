@@ -376,13 +376,13 @@ class AutoUpdatePipeline:
         if latest_upstream_ttf_ver:
             check_result.upstream_version = latest_upstream_ttf_ver
 
-        # If candidate TTF version is NOT newer than catalog font version and no binary changes, stop
-        if matched_pairs and not has_newer_binary and not directives["is_human_approved"]:
+        # If candidate TTF version is NOT newer than catalog font version (or 0 candidate TTFs acquired), stop
+        if not has_newer_binary and not directives["is_human_approved"]:
             self.state_store.record_check_result(
                 family_name=meta.name,
                 has_update=False,
                 update_type=check_result.update_type.value,
-                status="VERSION_NOT_NEWER",
+                status="VERSION_NOT_NEWER" if candidate_ttf_fonts else "NO_MATCH_FOUND",
             )
             return {
                 "family_name": meta.name,
@@ -391,12 +391,13 @@ class AutoUpdatePipeline:
                 "upstream_version": latest_upstream_ttf_ver or check_result.upstream_version,
                 "current_commit": check_result.current_commit,
                 "upstream_commit": check_result.upstream_commit,
-                "status": "VERSION_NOT_NEWER",
+                "status": "VERSION_NOT_NEWER" if candidate_ttf_fonts else "NO_MATCH_FOUND",
                 "font_matching_analysis": font_matching_analysis,
                 "is_human_approved": directives["is_human_approved"],
                 "is_variable_update_approved": directives["is_variable_update"],
-                "message": f"Upstream candidate font binary version ({latest_upstream_ttf_ver}) is not newer than installed catalog font version ({latest_catalog_ttf_ver}).",
+                "message": f"Upstream candidate font binary version ({latest_upstream_ttf_ver}) is not newer than installed catalog font version ({latest_catalog_ttf_ver})." if candidate_ttf_fonts else "No candidate .ttf font binaries found in upstream repository or release assets.",
             }
+
 
 
         # Phase 3: Run Regression Engine (diffenator2 & Fontspector QA)
@@ -481,8 +482,10 @@ class AutoUpdatePipeline:
             "upstream_commit": check_result.upstream_commit,
             "safety_score": score_info.composite_score,
             "safety_tier": score_info.safety_tier.value,
+            "blocking_reasons": score_info.blocking_reasons,
             "auto_merge_qualified": should_auto_merge,
             "status": status_val,
+
             "pr_submission_enabled": create_pr,
             "pr_info": pr_info,
             "font_matching_analysis": font_matching_analysis,

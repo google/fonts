@@ -108,27 +108,23 @@ class RegressionEngine:
     def compute_s_qa(self, qa_res: QACheckResult, blocking_reasons: List[str]) -> float:
         """
         S_qa evaluates Fontspector / FontBakery checks delta.
-        Heavily penalizes NEW regressions, while noting pre-existing known failures.
+        Strictly penalizes NEW regressions, ignoring pre-existing findings.
         """
         score = 100.0
-        # Penalize NEW regressions heavily
+        # Penalize ONLY NEW regressions
         if qa_res.new_fatal_count > 0:
             score -= 50.0 * qa_res.new_fatal_count
             blocking_reasons.append(f"Fontspector QA identified {qa_res.new_fatal_count} NEW FATAL check regression(s)")
-        elif qa_res.fatal_count > 0:
-            score -= 25.0 * qa_res.fatal_count
-            blocking_reasons.append(f"Fontspector QA identified {qa_res.fatal_count} pre-existing FATAL check finding(s)")
 
         if qa_res.new_error_count > 0:
             score -= 20.0 * qa_res.new_error_count
             blocking_reasons.append(f"Fontspector QA identified {qa_res.new_error_count} NEW ERROR check regression(s)")
-        elif qa_res.error_count > 0 and qa_res.error_count >= 3:
-            score -= 10.0
 
         if qa_res.new_warn_count > 0:
             score -= 3.0 * qa_res.new_warn_count
 
         return max(0.0, score)
+
 
 
     def calculate_safety_score(

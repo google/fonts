@@ -261,9 +261,12 @@ class AutoUpdatePipeline:
 
         directives = self.manual_instructions.get_family_directives(meta.name)
 
-        # If catalog family is variable or variable update is approved, filter candidate binaries to variable fonts only
+        # Unconditionally prioritize variable fonts over static fonts if a variable font is located upstream
         is_catalog_variable = any("[" in f.filename for f in meta.catalog_font_files)
-        if candidate_ttf_fonts and (is_catalog_variable or directives["is_variable_update"]):
+        has_upstream_variable_upgrade = False
+        upstream_variable_font_name = None
+
+        if candidate_ttf_fonts:
             var_candidates = [
                 c for c in candidate_ttf_fonts
                 if "[" in (Path(c[0]).name if isinstance(c, (list, tuple)) else Path(c).name)
@@ -272,6 +275,9 @@ class AutoUpdatePipeline:
             ]
             if var_candidates:
                 candidate_ttf_fonts = var_candidates
+                if not is_catalog_variable:
+                    has_upstream_variable_upgrade = True
+                    upstream_variable_font_name = Path(var_candidates[0][0] if isinstance(var_candidates[0], (list, tuple)) else var_candidates[0]).name
 
         # Validate actual font version string from candidate TTF binary rather than relying solely on tag name
         if candidate_ttf_fonts:
@@ -282,6 +288,7 @@ class AutoUpdatePipeline:
                 if ver_num:
                     check_result.upstream_version = ver_num
                     break
+
 
 
         # Step 3: Font File Matching Analysis & Mapping Flagging
@@ -448,8 +455,13 @@ class AutoUpdatePipeline:
         score_info = self.regression_engine.calculate_safety_score(diff_res, qa_res)
         if unmatched_warnings:
             score_info.blocking_reasons.extend(unmatched_warnings)
+        if has_upstream_variable_upgrade:
+            score_info.blocking_reasons.append(
+                f"💡 Upstream variable font available: '{upstream_variable_font_name}' is available to update static catalog fonts."
+            )
 
         should_auto_merge = self.evaluate_auto_merge(score_info, meta)
+
 
         # Phase 4: Generate PR body and report artifacts
         pr_body = generate_pr_body(meta, check_result, score_info, diff_res, qa_res)

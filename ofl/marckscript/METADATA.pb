@@ -19,6 +19,16 @@ subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/marckscript"
-  commit: "699f31478702f9901c943b7be7caa6e38b6535b7"
+  repository_url: "https://github.com/googlefonts/marckscript"
+  commit: "b85fe9173d03ac8c339274ead43f34f0752c0819"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/MarckScript-Regular.ttf"
+    dest_file: "MarckScript-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

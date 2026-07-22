@@ -1,33 +1,26 @@
-# Lusitana — Source Repository Investigation
+# Lusitana
 
-**Model**: Claude Opus 4.6
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Repository
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository | https://github.com/librefonts/lusitana |
-| Commit | `8fa070c2ac2963f13feee142e2001777ac48e774` |
-| Confidence | Medium |
+Google Fonts shipped Lusitana (Regular and Bold) built from FontForge SFD sources at https://github.com/librefonts/lusitana. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## Source Types
+## Actions taken
 
-The repository contains TTX-decompiled sources only.
+- The canonical FontForge SFD sources were converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The Bold source's OS/2 usWeightClass was set to 700, which the conversion had not preserved.
+- A new Unified Font Repository was created at https://github.com/googlefonts/lusitana, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-## Build Compatibility
+## Final state
 
-Not buildable with gftools-builder. The TTX files are decompiled binary font dumps, not original editable design sources.
+The source now lives at https://github.com/googlefonts/lusitana (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binaries.
 
-## Investigation Notes
+## Verification
 
-This is a librefonts mirror repository containing TTX-decompiled binary dumps. Two other repositories were investigated: googlefonts/lusitana exists but appears to be empty (size=0), and fontalternative/lusitana exists but is very small (56KB). Neither alternative provides usable original design sources.
+The rebuilt Regular and Bold matched the shipped binaries on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that 4 glyphs in each weight were renamed to their production names; character coverage is unchanged, so this is benign.
 
-**Note on librefonts TTX mirrors**: These repositories contain TTX (XML) representations of the compiled font binaries. They are mechanically decompiled from the .ttf files and do not represent original design sources. They cannot be used for font development or rebuilding with gftools-builder.
+## Original repository (dormant)
 
-The binary in google/fonts dates from the initial commit (2015-03-07).
-
-A source block was added to METADATA.pb pointing to this repository and commit.
-
-## Confidence: Medium
-
-Librefonts TTX mirror; original design sources are not available. Alternative repos are empty or insufficient.
+The original FontForge sources are at https://github.com/librefonts/lusitana (`.sfd`), latest at commit `8fa070c2ac2963f13feee142e2001777ac48e774`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

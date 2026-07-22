@@ -1,70 +1,26 @@
-# Investigation Report: Fresca
+# Fresca
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Fresca is a sans-serif display font designed by Ivan Moreno of Fontstage, added to Google Fonts on 2011-12-07. The font has never been updated since its initial inclusion in the google/fonts repository. The only known upstream repository is `librefonts/fresca`, which is a mirror containing TTX decompositions and legacy source files (VFB and SFD formats). There are no gftools-builder compatible sources (.glyphs, .ufo, .designspace), so no config.yaml can be created.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Fresca (Regular) built from FontForge SFD sources at https://github.com/librefonts/fresca. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-| Field             | Value                                              |
-|-------------------|----------------------------------------------------|
-| Family Name       | Fresca                                             |
-| Designer          | Fontstage (Ivan Moreno)                            |
-| Repository URL    | https://github.com/librefonts/fresca               |
-| Commit Hash       | ca8ad60bad380c425ebe357ee8a3a71770a849b4           |
-| Branch            | master                                             |
-| Config YAML       | None (no gftools-builder compatible sources)       |
-| Status            | no_config_possible                                 |
-| Confidence        | HIGH                                               |
+## Actions taken
 
-## Investigation Details
+- The canonical FontForge SFD source (`src/Fresca-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The converted source was corrected: the non-breaking space (U+00A0) advance width was fixed to match the space glyph (253).
+- A new Unified Font Repository was created at https://github.com/googlefonts/fresca, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-### METADATA.pb Analysis
+## Final state
 
-The current METADATA.pb has no source block. The font was added on 2011-12-07, predating the source metadata system.
+The source now lives at https://github.com/googlefonts/fresca (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
-### google/fonts Commit History
+## Verification
 
-The font binary `Fresca-Regular.ttf` was added in the initial commit (`90abd17b4`) on 2015-03-07 (when the repo was created on GitHub) and has never been modified since. The only other commits touching the fresca directory are metadata updates (METADATA.json removal, METADATA.pb updates for language support, stroke/classifications).
+The rebuilt Fresca-Regular was compared against the shipped binary and matched on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle and the GSUB/GPOS feature sets. The verdict is FUNCTIONAL, with these accepted differences: the FontForge legacy glyph `nonmarkingreturn` was dropped; 14 glyphs were renamed to production names with coverage unchanged; the new GDEF correctly classifies two combining marks (U+0307, U+0326) that the shipped font failed to mark; and one combining mark (U+0307) had its advance zeroed, where the shipped font had given it a spacing advance.
 
-### Upstream Repository
+## Original repository (dormant)
 
-The only upstream repository found is `librefonts/fresca` (https://github.com/librefonts/fresca). This is a librefonts mirror with a single commit (`ca8ad60`, dated 2014-10-17, by hash3g, message: "update .travis.yml").
-
-The repository contains:
-- **Source files**: `src/Fresca-Regular-OTF.vfb` (FontLab format) and `src/Fresca-Regular-TTF.sfd` (FontForge format)
-- **TTX decompositions**: Multiple `.ttx` files decomposed from the binary
-- **Standard metadata**: FONTLOG.txt, OFL.txt, DESCRIPTION.en_us.html, METADATA.json
-
-The source files are in legacy formats (VFB, SFD) that are not compatible with gftools-builder. No `.glyphs`, `.ufo`, or `.designspace` files exist.
-
-### Designer Information
-
-The FONTLOG identifies Ivan Moreno (info@fontstage.com, www.fontstage.com) as the type designer. No other GitHub repositories from Fontstage were found.
-
-### Search for Alternative Upstream Repos
-
-- No repository found under googlefonts organization
-- No repository found under any other GitHub organization
-- GitHub search for "fresca font" returned no relevant results
-- The librefonts mirror is the only known repository
-
-## Conclusion
-
-Fresca has a known upstream repository (`librefonts/fresca`) but it only contains legacy VFB/SFD sources, not gftools-builder compatible formats. No config.yaml can be created. The source block should document the repository URL and commit for reference purposes, noting the absence of buildable sources.
-
-### Recommended METADATA.pb Source Block
-
-```
-source {
-  repository_url: "https://github.com/librefonts/fresca"
-  commit: "ca8ad60bad380c425ebe357ee8a3a71770a849b4"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  branch: "master"
-}
-```
-
-**Note**: No `config_yaml` field because the repository only contains VFB/SFD sources, which are not gftools-builder compatible. The font binary in google/fonts predates the librefonts mirror and was likely compiled manually from the VFB source.
+The original FontForge sources are at https://github.com/librefonts/fresca (`.sfd`), latest at commit `ca8ad60bad380c425ebe357ee8a3a71770a849b4`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

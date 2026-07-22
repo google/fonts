@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/fenix"
-  commit: "b5107c124ba8762eeaccd00b73a7302897d4367e"
+  repository_url: "https://github.com/googlefonts/fenix"
+  commit: "cfae6dd0422933ef47db060c6710166fb5ed30d1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Fenix-Regular.ttf"
+    dest_file: "Fenix-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

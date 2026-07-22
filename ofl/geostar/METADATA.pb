@@ -17,6 +17,16 @@ subsets: "latin"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/geostar"
-  commit: "ca481fdb49204442916697e3d7b1cf6fda792b77"
+  repository_url: "https://github.com/googlefonts/geostar"
+  commit: "cd70b3170a6db347032f02d4f773e2f0ecff25a3"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Geostar-Regular.ttf"
+    dest_file: "Geostar-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

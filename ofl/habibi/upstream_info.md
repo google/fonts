@@ -1,82 +1,26 @@
-# Investigation Report: Habibi
+# Habibi
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Habibi is a high-contrast serif typeface designed by Magnus Gaarde and mastered by Eben Sorkin (Sorkin Type Co). It was added to Google Fonts on 2011-12-19 as part of the initial commit of the google/fonts repository. The upstream repository at `librefonts/habibi` is a legacy mirror (originally from Google Code) containing only VFB and SFD source files -- no gftools-builder compatible sources exist.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Habibi (Regular) built from FontForge SFD sources at https://github.com/librefonts/habibi. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-| Field             | Value |
-|-------------------|-------|
-| **Family Name**   | Habibi |
-| **Designer**      | Magnus Gaarde |
-| **Repository URL**| https://github.com/librefonts/habibi |
-| **Commit Hash**   | `1c3eb606631e9da373f1017f7972765a7ab32bd5` (only commit) |
-| **Config YAML**   | None (SFD/VFB-only sources) |
-| **Status**        | no_config_possible |
-| **Confidence**    | HIGH |
+## Actions taken
 
-## Investigation Details
+- The canonical FontForge SFD source (`Habibi-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The non-breaking space (U+00A0) advance width was corrected to match the space glyph (686 units).
+- A new Unified Font Repository was created at https://github.com/googlefonts/habibi, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-### METADATA.pb Review
+## Final state
 
-The current METADATA.pb in `ofl/habibi/` has no `source { }` block. Key fields:
-- Name: "Habibi"
-- Designer: "Magnus Gaarde"
-- License: OFL
-- Date added: 2011-12-19
-- Copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)"
+The source now lives at https://github.com/googlefonts/habibi (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
-### Google Fonts Repository History
+## Verification
 
-The font file history in google/fonts shows only metadata-related changes after the initial commit:
+Identical to the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets and advance widths. Two benign differences were accepted: 22 glyphs were renamed to their production names (coverage unchanged), and the GDEF table now classifies two real combining marks (uni0326 and uni0326.cap) that the shipped font had left unclassified.
 
-| Commit | Date | Description |
-|--------|------|-------------|
-| `90abd17b4` | 2015-03-07 | Initial commit (contains Habibi-Regular.ttf) |
-| `480630de3` | -- | Tentative update to METADATA.pb textprotos |
-| `27f377ab0` | -- | Update copyright field in METADATA.pb |
-| `633ebadbf` | -- | Add language support metadata |
-| `701bd391b` | -- | Undo rollback, remove languages from METADATA |
+## Original repository (dormant)
 
-The font binary (`Habibi-Regular.ttf`) has not been updated since the initial commit. This is a legacy font from 2011 that predates the modern gftools-packager workflow.
-
-### Upstream Repository Analysis
-
-The repository at `https://github.com/librefonts/habibi` is a `librefonts` mirror, likely auto-generated from the old Google Code font directory. It contains a single commit:
-
-- **Commit**: `1c3eb606631e9da373f1017f7972765a7ab32bd5` (2014-10-17)
-- **Author**: hash3g
-- **Message**: "update .travis.yml"
-
-The repository contains TTX decompositions of the font alongside source files:
-
-**Source files found:**
-- `src/Habibi-Regular.vfb` -- FontLab VFB format (proprietary binary)
-- `src/Habibi-Regular-TTF.sfd` -- FontForge SFD format
-
-**No gftools-builder compatible sources found** -- no `.glyphs`, `.ufo`, or `.designspace` files. The VFB format requires FontLab (proprietary) and the SFD format is a FontForge format not supported by gftools-builder/fontmake.
-
-The repository also includes a `.travis.yml` for fontbakery CI and a `FONTLOG.txt` documenting the design history.
-
-### Build Configuration
-
-No `config.yaml` exists in the upstream repository, and none can be created because the source files (VFB/SFD) are not compatible with gftools-builder. The font was mastered manually from FontLab VFB to TTF in December 2011.
-
-## Conclusion
-
-Habibi is a legacy font from 2011 with only VFB/SFD source files in the `librefonts/habibi` mirror repository. No gftools-builder configuration is possible because the source formats are incompatible. The font has never been updated since its initial inclusion.
-
-### Recommended METADATA.pb source block
-
-```
-source {
-  repository_url: "https://github.com/librefonts/habibi"
-  commit: "1c3eb606631e9da373f1017f7972765a7ab32bd5"
-}
-```
-
-Note: No `config_yaml` field is possible because the repository only contains VFB and SFD source files, which are not compatible with gftools-builder.
-
-### Status: `no_config_possible`
-### Confidence: HIGH
+The original FontForge sources are at https://github.com/librefonts/habibi (`.sfd`), latest at commit `1c3eb606631e9da373f1017f7972765a7ab32bd5`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

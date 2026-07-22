@@ -17,6 +17,16 @@ subsets: "latin"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/gochihand"
-  commit: "e202a9f4b7cd6f9c84440e684f0a3d0b5dd234e0"
+  repository_url: "https://github.com/googlefonts/gochihand"
+  commit: "af523d983cfa89c7216edbb907db7e39cef756d2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GochiHand-Regular.ttf"
+    dest_file: "GochiHand-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

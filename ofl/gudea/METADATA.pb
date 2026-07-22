@@ -34,6 +34,24 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/gudea"
-  commit: "0eb36c75099c39430192adf41887965fdc51e819"
+  repository_url: "https://github.com/googlefonts/gudea"
+  commit: "7651bdceeaa8148f45ee5781d87914346be8e9bc"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Gudea-Bold.ttf"
+    dest_file: "Gudea-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Gudea-Italic.ttf"
+    dest_file: "Gudea-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Gudea-Regular.ttf"
+    dest_file: "Gudea-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

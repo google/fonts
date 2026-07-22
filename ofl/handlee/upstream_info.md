@@ -1,81 +1,25 @@
-# Investigation Report: Handlee
+# Handlee
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Handlee is a handwriting font designed by Joe Prince (Admix Designs), added to Google Fonts on 2011-12-13. The font was included in the initial commit of the google/fonts repository and has never been updated. The upstream repository is `librefonts/handlee` on GitHub, which contains an SFD (FontForge) source file and a VFB (FontLab) source file. Neither format is compatible with gftools-builder. No `.glyphs`, `.ufo`, or `.designspace` sources exist, making it impossible to create a config.yaml for building.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Handlee (Regular) built from FontForge SFD sources at https://github.com/librefonts/handlee. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-| Field | Value |
-|---|---|
-| **Family Name** | Handlee |
-| **Designer** | Joe Prince |
-| **Date Added** | 2011-12-13 |
-| **Repository URL** | https://github.com/librefonts/handlee |
-| **Commit Hash** | d937cfc17b0389d9847b8a865060b7241af7c654 |
-| **Config YAML** | None (SFD/VFB-only sources) |
-| **Status** | no_config_possible |
-| **Confidence** | HIGH |
+## Actions taken
 
-## Investigation Details
+- The canonical FontForge SFD source (`src/Handlee-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/handlee, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-### METADATA.pb Analysis
+## Final state
 
-The current METADATA.pb has no `source { }` block. The font has a single weight (Regular) with filename `Handlee-Regular.ttf`. Classifications include HANDWRITING and stroke SANS_SERIF.
+The source now lives at https://github.com/googlefonts/handlee (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
-### Git History in google/fonts
+## Verification
 
-The font binary was added in the initial commit:
-- `90abd17b4` (2015-03-07) - "Initial commit" by Dave Crossland
+The fontc build matched the shipped Handlee-Regular.ttf on every dimension checked, with two accepted differences: two legacy FontForge helper glyphs (`.null` and `nonmarkingreturn`) were dropped, and one glyph was renamed to its production name. Both leave the Unicode cmap coverage unchanged, so rendering is unaffected.
 
-The font file has only been touched once more:
-- `76adaf1d2` (2021-11-01) - "deploy: c7e2740188205a85323c7385547f6f59b4f2245a" - gh-pages deployment, not a font update.
+## Original repository (dormant)
 
-The binary has never been updated since the initial commit.
-
-### Upstream Repository
-
-The upstream repository at `https://github.com/librefonts/handlee` (cached at `librefonts/handlee`) has only a single commit:
-- `d937cfc17b0389d9847b8a865060b7241af7c654` (2014-10-17) - "update .travis.yml"
-
-The repository contains:
-- **Font files**: TTX decompositions of the TTF file (various table-level files)
-- **Source files** in `src/`:
-  - `Handlee-Regular-TTF.sfd` - FontForge SFD source
-  - `Handlee-Regular-OTF.vfb` - FontLab VFB source
-  - Various OTF TTX decompositions
-- **No gftools-builder compatible sources**: No `.glyphs`, `.ufo`, or `.designspace` files exist
-- **No config.yaml**
-
-### Source Compatibility
-
-The source files are SFD (FontForge) and VFB (FontLab) formats. Neither is compatible with gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` files. Creating an override config.yaml is not feasible without compatible source files.
-
-### Commit Hash Rationale
-
-The upstream repository has only one commit (`d937cfc`), so this is the only possible commit to reference. The repository predates the google/fonts initial commit.
-
-### librefonts Organization Context
-
-The `librefonts` organization on GitHub hosts decomposed (TTX) versions of many Google Fonts with their original source files. These repos typically have a single commit with Travis CI configuration for automated font building/testing. They serve as archival repositories rather than active development repos.
-
-## Conclusion
-
-Handlee has an identifiable upstream repository at `librefonts/handlee`, but it only contains SFD and VFB sources, making gftools-builder incompatible. The source block should reference the repository and commit, but no config.yaml is possible.
-
-### Recommended METADATA.pb Source Block
-
-```
-source {
-  repository_url: "https://github.com/librefonts/handlee"
-  commit: "d937cfc17b0389d9847b8a865060b7241af7c654"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-}
-```
-
-Note: The font binary in google/fonts was compiled from the original SFD/VFB sources. Since these formats are not supported by gftools-builder, no `config_yaml` field should be included.
-
-**Status**: no_config_possible (SFD/VFB-only sources, no gftools-builder compatible files)
+The original FontForge sources are at https://github.com/librefonts/handlee (`.sfd`), latest at commit `d937cfc17b0389d9847b8a865060b7241af7c654`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

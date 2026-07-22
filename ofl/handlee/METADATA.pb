@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/handlee"
-  commit: "d937cfc17b0389d9847b8a865060b7241af7c654"
+  repository_url: "https://github.com/googlefonts/handlee"
+  commit: "f9930b13dd4ace03636c6260d73cacb5fa30a107"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Handlee-Regular.ttf"
+    dest_file: "Handlee-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

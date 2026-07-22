@@ -1,72 +1,25 @@
-# Investigation: Geostar Fill
+# Geostar Fill
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Geostar Fill is a display serif font designed by Joe Prince (Admix Designs), added to Google Fonts on 2011-08-10. It is the filled variant of the Geostar family. The font was part of the initial bulk import of the google/fonts repository. The upstream repository is https://github.com/librefonts/geostarfill, a single-commit archive containing TTX decompositions and legacy source files (SFD, VFB). No gftools-builder compatible sources exist, so no config.yaml is possible. The METADATA.pb currently has no source block.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Geostar Fill (Regular) built from FontForge SFD sources at https://github.com/librefonts/geostarfill. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-| Field             | Value |
-|-------------------|-------|
-| **Family Name**   | Geostar Fill |
-| **Designer**      | Joe Prince |
-| **Repository URL**| https://github.com/librefonts/geostarfill |
-| **Commit Hash**   | `48dc43d804ebfd6743caa51e2d42d17dd34b275c` |
-| **Config YAML**   | none (SFD/VFB-only sources) |
-| **Branch**        | master |
-| **Status**        | no_config_possible |
-| **Confidence**    | HIGH |
+## Actions taken
 
-## Investigation Details
+- The canonical FontForge SFD source (`GeostarFill-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/geostarfill, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-### METADATA.pb Current State
+## Final state
 
-No source block exists. The METADATA.pb contains only basic metadata:
-- Name: "Geostar Fill"
-- Designer: "Joe Prince"
-- License: OFL
-- Category: DISPLAY
-- Date added: 2011-08-10
-- Single font file: `GeostarFill-Regular.ttf`
+The source now lives at https://github.com/googlefonts/geostarfill (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
-### Onboarding History in google/fonts
+## Verification
 
-The font was added in commit `90abd17b4` ("Initial commit", 2015-03-07 by Dave Crossland). This was a bulk import of the entire Google Fonts library into the repository. The font was originally added to the Google Fonts catalog on 2011-08-10, before this repository existed. There have been no font file updates since the initial commit -- only metadata changes (METADATA.json to .pb conversions, language support, stroke/classification updates).
+The rebuilt font matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GDEF classes and advance widths. Two benign differences were accepted: four glyphs were renamed to their production names (coverage unchanged), and the legacy `kern` table (3796 pairs) was modernized into a GPOS `kern` feature.
 
-### Upstream Repository
+## Original repository (dormant)
 
-The repo at https://github.com/librefonts/geostarfill (cached at `upstream_repos/fontc_crater_cache/librefonts/geostarfill`) contains:
-- Single commit: `48dc43d` ("update .travis.yml")
-- This is a librefonts archive repo with squashed history
-
-### Source Files
-
-The repo contains only legacy format sources:
-- `src/GeostarFill-Regular-TTF.sfd` -- FontForge SFD file
-- `src/GeostarFill-Regular.vfb` -- FontLab VFB file
-- TTX decompositions of the TrueType and OpenType binaries
-- No `.glyphs`, `.ufo`, or `.designspace` files
-
-Since the sources are SFD and VFB only, gftools-builder cannot process them. No config.yaml is possible.
-
-### Copyright Information
-
-The font copyright states: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Geostar."
-
-Note that both Geostar and Geostar Fill share the same copyright notice with Reserved Font Name "Geostar" (not "Geostar Fill").
-
-## Conclusion
-
-Geostar Fill has an identifiable upstream repository (librefonts/geostarfill), but it only contains legacy SFD/VFB source files. A source block can be added to METADATA.pb with the repository URL and commit hash, but no config.yaml can be provided since gftools-builder does not support SFD or VFB sources.
-
-### Recommended METADATA.pb Source Block
-
-```
-source {
-  repository_url: "https://github.com/librefonts/geostarfill"
-  commit: "48dc43d804ebfd6743caa51e2d42d17dd34b275c"
-}
-```
-
-**Status**: no_config_possible
-**Confidence**: HIGH
+The original FontForge sources are at https://github.com/librefonts/geostarfill (`.sfd`), latest at commit `48dc43d804ebfd6743caa51e2d42d17dd34b275c`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

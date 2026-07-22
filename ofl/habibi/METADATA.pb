@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/habibi"
-  commit: "1c3eb606631e9da373f1017f7972765a7ab32bd5"
+  repository_url: "https://github.com/googlefonts/habibi"
+  commit: "dca56369c22e74471cceec90e257533271629472"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Habibi-Regular.ttf"
+    dest_file: "Habibi-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

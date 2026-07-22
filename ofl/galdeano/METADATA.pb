@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/galdeano"
-  commit: "0325c647c669479930cc9126131a78ca5b942db9"
+  repository_url: "https://github.com/googlefonts/galdeano"
+  commit: "41268aaf05c1ab2716d0b4a8114aa6b7beff8e31"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Galdeano-Regular.ttf"
+    dest_file: "Galdeano-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

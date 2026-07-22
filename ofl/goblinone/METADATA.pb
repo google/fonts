@@ -17,6 +17,16 @@ subsets: "latin"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/goblinone"
-  commit: "446c2b743e1eda33533ad624c543cfd623eb7c90"
+  repository_url: "https://github.com/googlefonts/goblinone"
+  commit: "82b0d4b4f5e17c953c5a6e42e73d2e93ea2ea9e2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GoblinOne-Regular.ttf"
+    dest_file: "GoblinOne.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

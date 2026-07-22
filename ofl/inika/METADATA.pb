@@ -25,6 +25,20 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  commit: "bccbe87bf5a91ebb43d149cd786cdabde71c8e52"
-  repository_url: "https://github.com/librefonts/inika"
+  repository_url: "https://github.com/googlefonts/inika"
+  commit: "07bb78b80a644c3e4979fbd4b6a6a6548d5a2934"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Inika-Bold.ttf"
+    dest_file: "Inika-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Inika-Regular.ttf"
+    dest_file: "Inika-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

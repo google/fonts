@@ -1,42 +1,26 @@
-# Investigation: Inder
+# Inder
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Inder |
-| Slug | inder |
-| License Dir | ofl |
-| Repository URL | https://github.com/librefonts/inder |
-| Commit Hash | unknown |
-| Config YAML | none |
-| Status | no_config_possible |
-| Confidence | HIGH |
+## Initial state
 
-## Source Data (METADATA.pb)
+Google Fonts shipped Inder (Regular) built from FontForge SFD sources at https://github.com/librefonts/inder. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-```
-No source block
-```
+## Actions taken
 
-## Investigation
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The no-break space (U+00A0) advance width was corrected to match the space glyph.
+- A new Unified Font Repository was created at https://github.com/googlefonts/inder, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The METADATA.pb for Inder (at `google/fonts/ofl/inder/METADATA.pb`) contains no source block. The family was added in the initial commit to google/fonts (commit `90abd17b4`, dated 2015-03-07 by Dave Crossland), predating the modern source tracking infrastructure.
+## Final state
 
-The git log for `ofl/inder/Inder-Regular.ttf` shows only the initial commit `90abd17b4`, confirming the font has not been updated since the original onboarding.
+The source now lives at https://github.com/googlefonts/inder (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
-The upstream repository was identified as `https://github.com/librefonts/inder` (confirmed by the cached repo at `upstream_repos/fontc_crater_cache/librefonts/inder/` with remote URL `https://github.com/librefonts/inder`).
+## Verification
 
-The librefonts/inder repository structure:
-- Root level: `DESCRIPTION.en_us.html`, `FONTLOG.txt`, `Inder-Regular.ttf`, `OFL.txt`, `METADATA.json`, `src/`
-- `src/` directory contains: FontForge `.sfd` files (`Inder-Regular-TTF.sfd`, `Inder-Regular-OTF.vfb`, `Inder-Regular.vfb`) and TTX decompiled files
+The rebuilt Inder Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets and advance widths. The remaining differences are benign: 22 glyphs were renamed to production names with coverage unchanged, and GDEF now classifies two real combining marks the shipped font missed (uni0326, uni0326.cap).
 
-The HEAD commit of the upstream repo is `5620f4744158d400ba1286612d14d49c43597033` (message: "update .travis.yml").
+## Original repository (dormant)
 
-The `.sfd` (Spline Font Database) files are FontForge format. While they contain the original font source data, they are NOT compatible with gftools-builder, which only supports `.glyphs`, `.ufo`, and `.designspace` formats. Therefore, no `config.yaml` can be created for automated gftools-builder rebuilds.
-
-The font was designed by Sorkin Type (Eben Sorkin), as indicated in the copyright notice: "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com)".
-
-## Conclusion
-
-No source block can be completed for Inder. The upstream repository (`librefonts/inder`) only contains FontForge `.sfd` source files, which are not compatible with gftools-builder. Status: `no_config_possible`. A source block with `repository_url` only could be added to document the upstream location, but no `config_yaml` can be provided.
+The original FontForge sources are at https://github.com/librefonts/inder (`.sfd`), latest at commit `5620f4744158d400ba1286612d14d49c43597033`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

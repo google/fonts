@@ -1,58 +1,25 @@
-# Investigation Report: Fugaz One
+# Fugaz One
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-Fugaz One is a display typeface designed by LatinoType, added to Google Fonts on 2011-12-19. The upstream repository is at `https://github.com/librefonts/fugazone`, which contains only SFD and VFB source files. No gftools-builder compatible sources exist, so no config.yaml is possible. The repo has a single commit.
+## Initial state
 
-## Key Findings
+Google Fonts shipped Fugaz One (Regular) built from FontForge SFD sources at https://github.com/librefonts/fugazone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-| Field             | Value |
-|-------------------|-------|
-| Family Name       | Fugaz One |
-| Designer          | LatinoType |
-| Repository URL    | https://github.com/librefonts/fugazone |
-| Commit Hash       | d6fef0584e47767dc53d0144d0d41de77088184b |
-| Config YAML       | N/A (SFD-only sources) |
-| Status            | **no_config_possible** |
-| Confidence        | HIGH |
+## Actions taken
 
-## Investigation Details
+- The canonical FontForge SFD source (`FugazOne-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`). Four glyphs were renamed to their production names during conversion; glyph coverage was unchanged.
+- A new Unified Font Repository was created at https://github.com/googlefonts/fugazone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-### Google Fonts History
+## Final state
 
-The font was part of the initial commit to the google/fonts repository (commit `90abd17b4`, dated 2015-03-07, by Dave Crossland). The font was originally added to Google Fonts on 2011-12-19 per METADATA.pb.
+The source now lives at https://github.com/googlefonts/fugazone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
-No source block exists in the current METADATA.pb on the main branch. A source block was added in commit `9a14639f3` ("Add source blocks to 602 more METADATA.pb files") but this commit appears to be on a local branch, not yet merged to the upstream google/fonts main.
+## Verification
 
-### Upstream Repository
+Matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that 4 glyphs were renamed to their production names, which leaves coverage and rendering unchanged.
 
-- **URL**: https://github.com/librefonts/fugazone
-- **Cached at**: `upstream_repos/fontc_crater_cache/librefonts/fugazone`
-- **Single commit**: `d6fef05` (2014-10-17) - "update .travis.yml"
-- The repo was created as a migration/archive of the original font sources
+## Original repository (dormant)
 
-### Source Files
-
-The repository contains:
-- `src/FugazOne-Regular-TTF.sfd` - Spline Font Database (FontForge format)
-- `src/FugazOne-Regular-OTF.vfb` - FontLab VFB binary format
-- TTX decomposed font tables in root and `src/` directories
-
-No `.glyphs`, `.ufo`, or `.designspace` files exist. The sources are in legacy formats (SFD, VFB) that are not compatible with gftools-builder.
-
-### Config YAML
-
-No config.yaml exists in the upstream repository, and none can be created because the sources are in SFD/VFB format only, which gftools-builder does not support.
-
-## Conclusion
-
-The source metadata is straightforward. The repository URL and commit hash are verified. No config.yaml is possible due to SFD-only sources.
-
-### Recommended METADATA.pb source block
-
-```
-source {
-  repository_url: "https://github.com/librefonts/fugazone"
-  commit: "d6fef0584e47767dc53d0144d0d41de77088184b"
-}
-```
+The original FontForge sources are at https://github.com/librefonts/fugazone (`.sfd`), latest at commit `d6fef0584e47767dc53d0144d0d41de77088184b`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

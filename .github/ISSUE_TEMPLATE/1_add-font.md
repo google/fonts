@@ -22,6 +22,7 @@ assignees: ''
 By opening this issue, I confirm the project meets the following requirements:
 
 - [ ] The entire font project is available in a Github repository (repo) and licensed under the [OFL](https://openfontlicense.org/open-font-license-official-text/)
+- [ ] I confirm that by 'entire font project', no "plus" or "pro" or other larger version of the project exists as a retail font anywhere
 - [ ] The source files are available in the repo
 - [ ] I am the sole copyright author of the entire project, or all other copyright authors have licensed their work to me under the OFL, and I commit to clearly disclosing if AI tools were used in the creation of this project.
 - [ ] There are no "Reserved Font Names" in the OFL license information, or in the project documentation of any known upstream projects. If there are RFNs, they are not used in whole or in part in this family name, or, I want to discuss how Google can work with my use of them.

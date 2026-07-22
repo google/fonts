@@ -1,51 +1,26 @@
-# Investigation: Just Me Again Down Here
+# Just Me Again Down Here
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Just Me Again Down Here |
-| Slug | just-me-again-down-here |
-| License Dir | ofl |
-| Repository URL | https://github.com/librefonts/justmeagaindownhere |
-| Commit Hash | 63543cec6964e5061ece828c63948d1910e0dbdd |
-| Config YAML | none (OTF-only sources in librefonts mirror) |
-| Status | no_config_possible |
-| Confidence | MEDIUM |
+## Initial state
 
-## Source Data (METADATA.pb)
+Google Fonts shipped Just Me Again Down Here (Regular) built from FontForge SFD sources at https://github.com/librefonts/justmeagaindownhere. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-```
-No source block
-```
+## Actions taken
 
-## Investigation
+- The canonical FontForge SFD source (`JustMeAgainDownHere-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion, stray NUL bytes were stripped from the SFD and the no-break space was given its correct advance width.
+- A new Unified Font Repository was created at https://github.com/googlefonts/justmeagaindownhere, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The METADATA.pb for Just Me Again Down Here has no source block. The font was designed by Kimberly Geswein (kimberlygeswein@gmail.com), a prolific handwriting font designer with many fonts in the Google Fonts catalog.
+## Final state
 
-The git history in google/fonts shows:
-- Initial commit `90abd17b4` (earliest record, pre-dating 2011)
-- `883939708` — "Remove METADATA.json files"
-- `480630de3` — "Tentative update to METADATA.pb textprotos"
-- `27f377ab0` — "Update copyright field in METADATA.pb"
-- Several language/metadata-only changes since then
+The source now lives at https://github.com/googlefonts/justmeagaindownhere (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
-The copyright reads: "Copyright (c) 2011 by Kimberly Geswein (kimberlygeswein@gmail.com). All rights reserved."
+## Verification
 
-The DESCRIPTION.en_us.html describes the font as created shortly after the designer's family moved to China in 2010/2011, created using a Wacom Tablet and Adobe Illustrator. No GitHub repository URL is mentioned.
+The build matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, and GSUB/GPOS feature sets. The accepted differences are cosmetic or corrective: the FontForge legacy glyph `nonmarkingreturn` was dropped; 21 glyphs were renamed to production names with unchanged coverage; the GDEF table now classifies the combining mark uni0326 that the shipped font had missed; and the private-use combining mark U+F6C3 was zeroed where the shipped font had given it a spacing advance.
 
-A `librefonts` mirror exists in the cache at `upstream_repos/fontc_crater_cache/librefonts/justmeagaindownhere/`. This contains TTX-decompiled OTF files and a `src/` directory with more OTF TTX files. No Glyphs, UFO, or gftools-builder compatible sources are present. The commit `63543cec6964e5061ece828c63948d1910e0dbdd` is recorded in the tracking JSON.
+## Original repository (dormant)
 
-The DESCRIPTION.en_us.html confirms the font was created using a Wacom Tablet and Adobe Illustrator, suggesting the original sources are in Illustrator's proprietary format (AI or EPS), which is not compatible with gftools-builder.
-
-The font file structure in google/fonts contains only:
-- `JustMeAgainDownHere.ttf`
-- `METADATA.pb`
-- `OFL.txt`
-- `DESCRIPTION.en_us.html`
-
-No override `config.yaml` exists in the google/fonts directory.
-
-## Conclusion
-
-Just Me Again Down Here has a librefonts mirror at `https://github.com/librefonts/justmeagaindownhere` with commit `63543cec6964e5061ece828c63948d1910e0dbdd`. The librefonts mirror contains only TTX-decompiled OTF files — no gftools-builder compatible sources. The font was originally created in Adobe Illustrator, so no `.glyphs` or `.ufo` sources are expected to exist. Status: no_config_possible.
+The original FontForge sources are at https://github.com/librefonts/justmeagaindownhere (`.sfd`), latest at commit `63543cec6964e5061ece828c63948d1910e0dbdd`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

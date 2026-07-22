@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/jockeyone"
-  commit: "71261c6f0c80fb7269df32e4aa396669a038030f"
+  repository_url: "https://github.com/googlefonts/jockeyone"
+  commit: "4f6087374d94a145a80a2b297f27db8b52e52dd9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/JockeyOne-Regular.ttf"
+    dest_file: "JockeyOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

@@ -24,6 +24,20 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/librefonts/flamenco"
-  commit: "908f93e92b13062e172153d04b96a9301ca1c7c5"
+  repository_url: "https://github.com/googlefonts/flamenco"
+  commit: "457c24c5400c78afac2d6cb6c24e1fec4d3cfbb6"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Flamenco-Light.ttf"
+    dest_file: "Flamenco-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Flamenco-Regular.ttf"
+    dest_file: "Flamenco-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

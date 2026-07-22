@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  commit: "21fa9ed2031b8f7f1bec75cb3f91ad495e3b2370"
-  repository_url: "https://github.com/librefonts/ewert"
+  repository_url: "https://github.com/googlefonts/ewert"
+  commit: "1fdc40c5b4f330020515d69ca4e3d1fd18e1df64"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Ewert-Regular.ttf"
+    dest_file: "Ewert-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

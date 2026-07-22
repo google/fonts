@@ -15,6 +15,16 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
-  repository_url: "https://github.com/librefonts/giveyouglory"
-  commit: "2787317ad77bac728fea1ca0c4ce7f0d3ba273d5"
+  repository_url: "https://github.com/googlefonts/giveyouglory"
+  commit: "79ab8c04f2f381fa7439e09957fe3257ff113333"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GiveYouGlory-Regular.ttf"
+    dest_file: "GiveYouGlory.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

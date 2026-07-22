@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/juliussansone"
-  commit: "8aadb0e8d6ef7f45aa2844ccd99f7e28f0cd1498"
+  repository_url: "https://github.com/googlefonts/juliussansone"
+  commit: "6e629197948d3aef530fba4cfa8f9e754b947cc1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/JuliusSansOne-Regular.ttf"
+    dest_file: "JuliusSansOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

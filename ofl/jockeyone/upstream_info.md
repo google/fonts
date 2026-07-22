@@ -1,40 +1,26 @@
-# Investigation: Jockey One
+# Jockey One
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Jockey One |
-| Slug | jockey-one |
-| License Dir | ofl |
-| Repository URL | https://github.com/librefonts/jockeyone |
-| Commit Hash | 71261c6f0c80fb7269df32e4aa396669a038030f |
-| Config YAML | none |
-| Status | missing_config |
-| Confidence | HIGH |
+## Initial state
 
-## Source Data (METADATA.pb)
+Google Fonts shipped Jockey One (Regular) built from FontForge SFD sources at https://github.com/librefonts/jockeyone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-No source block
+## Actions taken
 
-## Investigation
+- The canonical FontForge SFD source (`src/JockeyOne-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The no-break space (U+00A0) advance width was corrected to 160 in the converted source.
+- A new Unified Font Repository was created at https://github.com/googlefonts/jockeyone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The `ofl/jockeyone/` directory in google/fonts contains `DESCRIPTION.en_us.html`, `JockeyOne-Regular.ttf`, `METADATA.pb`, and `OFL.txt`. The METADATA.pb has only basic metadata — no `source { }` block.
+## Final state
 
-The git log shows the font has been in google/fonts since the initial commit (`90abd17b4`, 2015-03-07). No font file updates have been pushed since then.
+The source now lives at https://github.com/googlefonts/jockeyone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
-The copyright reads: "Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved Font Names 'Jockey' and 'Jockey One'."
+## Verification
 
-The tracking JSON (`data/gfonts_library_sources.json`) records the upstream repository as `https://github.com/librefonts/jockeyone` at commit `71261c6f0c80fb7269df32e4aa396669a038030f` (subject: "update .travis.yml"). This is the librefonts GitHub organization's mirror repository. Notes indicate: "SFD-only sources (FontForge format), not gftools-builder compatible".
+The rebuilt Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle and GSUB/GPOS feature sets. Three benign differences were accepted: the FontForge-only helper glyph `nonmarkingreturn` was dropped; 13 glyphs were renamed to their production names with no change in coverage; and GDEF now classifies two real combining marks (uni0326 and uni0326.cap) that the shipped font had left unclassified.
 
-The upstream repository is cached at `upstream_repos/fontc_crater_cache/librefonts/jockeyone`. The local clone has only one commit (shallow clone). The repository contains:
-- `JockeyOne-Regular.ttf` (binary font)
-- `src/JockeyOne-Regular-TTF.sfd` (FontForge source, SFD format)
-- `src/JockeyOne-Regular.vfb` (FontLab Studio source)
-- TTX decompositions of the fonts
+## Original repository (dormant)
 
-The source format is `.sfd` (FontForge) and `.vfb` (FontLab Studio), which are NOT compatible with gftools-builder. No `.glyphs`, `.ufo`, or `.designspace` files exist.
-
-## Conclusion
-
-The upstream repository is `https://github.com/librefonts/jockeyone` at commit `71261c6f0c80fb7269df32e4aa396669a038030f`. However, the only sources available are `.sfd` (FontForge) and `.vfb` (FontLab Studio) files, which are not gftools-builder compatible. No config.yaml is possible with these sources. A source block needs to be added to METADATA.pb but the status will remain `missing_config` until buildable sources become available.
+The original FontForge sources are at https://github.com/librefonts/jockeyone (`.sfd`), latest at commit `71261c6f0c80fb7269df32e4aa396669a038030f`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

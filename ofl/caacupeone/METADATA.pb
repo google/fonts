@@ -1,5 +1,5 @@
 name: "Caacupe One"
-designer: "Magdalena Alonso"
+designer: "Magdalena Alonso Rebollo"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2026-07-01"

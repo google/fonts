@@ -1,0 +1,40 @@
+FONTLOG for the Rambla font
+
+This file provides detailed information on the Rambla font
+Software.
+
+This information should be distributed along with the Rambla and any derivative works.
+
+Basic Font Information
+
+Rambla is a humanist sans for medium-long texts. It’s slightly condensed, with
+a generous x-height and short ascenders and descenders. Its proportions are
+economical in both height and width. It’s elegant at large sizes and legible
+at the same time, with a lot of rhythm in small sizes.
+
+Rambla is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+There is two source files:
+
+1. Rambla-Regular-OTF.vfb Merged contours and 
+   optimized file corresponding to the OTF file
+
+2. Rambla-Regular-TTF.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+Source files are available from
+http://code.google.com/p/googlefontdirectory/
+
+To contribute to the project contact Martin Sommaruga
+at martin@estudiotrama.com
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Martin Sommaruga
+E: martin@estudiotrama.com
+W: www.estudiotrama.com
+D: Type Designer

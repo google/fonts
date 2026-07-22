@@ -1,0 +1,61 @@
+FONTLOG for Dhyana fonts
+
+This file provides detailed information on the Dhyana 
+Font Software.
+
+This information should be distributed along with the 
+Dhyana fonts and any derivative works. 
+
+
+Basic Font Information
+
+Dhyana is designed to be used freely across the 
+internet by web browsers on desktop computers, 
+laptops and mobile devices.
+
+Dhyana is a Unicode typeface family that supports 
+languages that use the Lao script, and could be 
+expanded to support other scripts. It includes
+a Latin character set, available separately as 
+the Nobile family. 
+
+More specifically, this release supports the following 
+Unicode ranges: Latin, Lao
+
+There are 4 Source files:
+
+1. src/Dhyana-Regular.sfd 
+   Original Source Files in PostScript curves.
+
+2. src/Dhyana-Regular.ufo 
+   Source Files in UFO format.
+
+3. src/Dhyana-Bold.sfd 
+   Original Source Files in PostScript curves.
+
+4. src/Dhyana-Bold.ufo 
+   Source Files in UFO format.
+
+To contribute to the project contact Vernon Adams
+at vern@newtypography.co.uk and use the gitHub 
+repository at https://github.com/vernnobile/DhyanaFont
+
+ChangeLog
+
+30 March 2012 (Vernon Adams) Dhyana v1.002
+- Updated to fix some design issues with some characters
+  based on native reader feedback
+
+27 March 2012 (Vernon Adams) Dhyana v1.001
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Vernon Adams
+E: vern@newtypography.co.uk
+W: code.newtypography.co.uk
+D: Original Type Designer

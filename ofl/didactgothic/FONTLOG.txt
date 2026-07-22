@@ -1,0 +1,48 @@
+FONTLOG
+Didact Gothic font
+==========================
+
+This file provides detailed information on the Didact Gothic font.
+This information should be distributed along with the Didact Gothic font and
+any derivative works.
+
+
+Basic Font Information
+----------------------
+
+Didact Gothic is a sans-serif font designed to present each letter in its
+simplest form. This makes it very suitable for literacy efforts.
+
+ChangeLog
+---------
+2010-12-22	Added Greek range; kerned r + round letters; improved Icelandic
+2010-11-23	Improved Cyrillic breve; added extended Cyrillic
+2010-11-19	Added Cyrillic range
+2010-10-27	Initial release
+
+
+Information for Contributors
+----------------------------
+
+This font is licensed under the Open Font License (OFL).  There are no Reserved
+Font Names declared for the Didact Gothic font. 
+
+You can read more about the OFL here:
+http://scripts.sil.org/OFL
+
+If you'd like to make changes to the original font, you are free to contact
+the author of the original font (for contact information, please see the
+"Contributors" section below).  Glyph changes should be in a FontForge .sfd
+file (please make sure your version of FontForge is reasonably up-to-date).
+Please send *only* the changed glyphs, not the entire font range.  The author
+reserves the right to reject or modify any contributions.  If your contribution
+is accepted, your name will appear in the Contributors section (unless you
+specify otherwise).
+
+
+Contributors
+------------
+
+Daniel Johnson (font maintainer)
+il.basso.buffo at gmail dot com
+http://io.debian.net/~danielj/

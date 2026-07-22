@@ -1,0 +1,7 @@
+/**
+ * Bundled by jsDelivr using Rollup v4.62.2 and esbuild v0.28.1.
+ * Original file: /npm/binary-search-bounds@2.0.5/search-bounds.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+var s,g;function p(){if(g)return s;g=1;function c(i,u,r,e,n){for(var f=n+1;e<=n;){var t=e+n>>>1,a=i[t],d=r!==void 0?r(a,u):a-u;d>=0?(f=t,n=t-1):e=t+1}return f}function l(i,u,r,e,n){for(var f=n+1;e<=n;){var t=e+n>>>1,a=i[t],d=r!==void 0?r(a,u):a-u;d>0?(f=t,n=t-1):e=t+1}return f}function q(i,u,r,e,n){for(var f=e-1;e<=n;){var t=e+n>>>1,a=i[t],d=r!==void 0?r(a,u):a-u;d<0?(f=t,e=t+1):n=t-1}return f}function w(i,u,r,e,n){for(var f=e-1;e<=n;){var t=e+n>>>1,a=i[t],d=r!==void 0?r(a,u):a-u;d<=0?(f=t,e=t+1):n=t-1}return f}function B(i,u,r,e,n){for(;e<=n;){var f=e+n>>>1,t=i[f],a=r!==void 0?r(t,u):t-u;if(a===0)return f;a<=0?e=f+1:n=f-1}return-1}function o(i,u,r,e,n,f){return typeof r=="function"?f(i,u,r,e===void 0?0:e|0,n===void 0?i.length-1:n|0):f(i,u,void 0,r===void 0?0:r|0,e===void 0?i.length-1:e|0)}return s={ge:function(i,u,r,e,n){return o(i,u,r,e,n,c)},gt:function(i,u,r,e,n){return o(i,u,r,e,n,l)},lt:function(i,u,r,e,n){return o(i,u,r,e,n,q)},le:function(i,u,r,e,n){return o(i,u,r,e,n,w)},eq:function(i,u,r,e,n){return o(i,u,r,e,n,B)}},s}var v=p(),S=v.eq,E=v.ge,R=v.gt,b=v.le,j=v.lt;export{v as default,S as eq,E as ge,R as gt,b as le,j as lt};

@@ -1,0 +1,24 @@
+name: "Sawarabi Gothic"
+designer: "mshio"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2018-05-17"
+fonts {
+  name: "Sawarabi Gothic"
+  style: "normal"
+  weight: 400
+  filename: "SawarabiGothic-Regular.ttf"
+  post_script_name: "SawarabiGothic-Regular"
+  full_name: "Sawarabi Gothic"
+  copyright: "Copyright 2016 The Sawarabi Gothic Project Authors."
+}
+subsets: "cyrillic"
+subsets: "japanese"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/sawarabi-mincho"
+  commit: "397399cfaf018172046c936c0d774de0c5cbba82"
+}

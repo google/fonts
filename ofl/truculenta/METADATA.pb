@@ -1,0 +1,46 @@
+name: "Truculenta"
+designer: "Omnibus-Type"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2020-12-16"
+fonts {
+  name: "Truculenta"
+  style: "normal"
+  weight: 400
+  filename: "Truculenta[opsz,wdth,wght].ttf"
+  post_script_name: "Truculenta-Regular"
+  full_name: "Truculenta Regular"
+  copyright: "Copyright 2020 The Truculenta Project Authors (https://github.com/Omnibus-Type/Truculenta)"
+}
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "opsz"
+  min_value: 12.0
+  max_value: 72.0
+}
+axes {
+  tag: "wdth"
+  min_value: 75.0
+  max_value: 125.0
+}
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/Omnibus-Type/Truculenta"
+  files {
+    source_file: "fonts/variable/Truculenta[opsz,wdth,wght].ttf"
+    dest_file: "Truculenta[opsz,wdth,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+  commit: "7ce6b921fc5418882e99f7e1f32688c49cb5acd5"
+}

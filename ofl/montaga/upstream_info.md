@@ -1,42 +1,26 @@
-# Montaga - Source Repository Investigation
+# Montaga
 
-**Model**: Claude Opus 4.6
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Repository
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| **Repository** | [librefonts/montaga](https://github.com/librefonts/montaga) |
-| **Commit** | `1c439c4e7d38e452718e8e67834c810641d1685a` |
-| **Confidence** | medium |
-| **Source Types** | ttx |
-| **Has config.yaml** | No |
+Google Fonts shipped Montaga (Regular) built from FontForge SFD sources at https://github.com/librefonts/montaga. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## Investigation Summary
+## Actions taken
 
-METADATA.pb for Montaga had no source block. A source block was added pointing to the librefonts mirror repository.
+- The canonical FontForge SFD source (`src/Montaga-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- The non-breaking space (U+00A0) glyph handling was normalized during conversion.
+- A new Unified Font Repository was created at https://github.com/googlefonts/montaga, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-## Source Analysis
+## Final state
 
-The repository at https://github.com/librefonts/montaga is a **librefonts mirror**. These repositories contain TTX (XML) files that were mechanically decompiled from the binary TTF fonts, not original design sources. They do not contain the original .glyphs, .ufo, .sfd, or other editable source files that the designer used to create the font.
+The source now lives at https://github.com/googlefonts/montaga (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binary.
 
-**Available source types**: ttx (decompiled from binaries)
+## Verification
 
-## Build Status
+The build matched the shipped Montaga-Regular.ttf on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that 9 glyphs carry their canonical production names (coverage unchanged), which is why the verdict is FUNCTIONAL rather than byte-for-byte identical.
 
-This family is **not buildable** with gftools-builder from these sources. The TTX files in librefonts mirrors are binary round-trips, not design sources. No config.yaml was created because there are no compatible sources to build from.
+## Original repository (dormant)
 
-## Notes
-
-librefonts mirror with TTX sources.
-
-## Binary History in google/fonts
-
-```
-2015-03-07 05:14:52 +0530 90abd17b4f97671435798b6147b698aa9087612f Initial commit
-```
-
-## Actions Taken
-
-1. A `source { }` block was added to METADATA.pb with the librefonts mirror repository URL and commit hash.
-2. No config.yaml was created because the repository contains only TTX decompiled binary dumps, not original design sources suitable for gftools-builder.
+The original FontForge sources are at https://github.com/librefonts/montaga (`.sfd`), latest at commit `1c439c4e7d38e452718e8e67834c810641d1685a`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

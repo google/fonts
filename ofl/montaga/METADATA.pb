@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/montaga"
-  commit: "1c439c4e7d38e452718e8e67834c810641d1685a"
+  repository_url: "https://github.com/googlefonts/montaga"
+  commit: "c01e6e195c2d67a0b9d5c3091f3c436991cafd90"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Montaga-Regular.ttf"
+    dest_file: "Montaga-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

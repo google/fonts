@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/hammersmithone"
-  commit: "a5fae41a3eabe8ec4e1d8ff7b3fa6dfde5c4fa87"
+  repository_url: "https://github.com/googlefonts/hammersmithone"
+  commit: "fa842a5d78963d24a139bb95c3b5d81d3a307c2b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/HammersmithOne-Regular.ttf"
+    dest_file: "HammersmithOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

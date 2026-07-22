@@ -15,6 +15,16 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
-  repository_url: "https://github.com/librefonts/fjordone"
-  commit: "90b0be2c47a5acd683621f38ce4f046f741abafb"
+  repository_url: "https://github.com/googlefonts/fjordone"
+  commit: "a6c1784e33666b26db68a0170055b9f41086240e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FjordOne-Regular.ttf"
+    dest_file: "FjordOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

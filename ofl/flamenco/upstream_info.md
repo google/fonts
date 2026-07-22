@@ -1,100 +1,26 @@
-# Investigation Report: Flamenco
+# Flamenco
 
-## Family Details
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-- **Family name**: Flamenco
-- **Designer**: LatinoType (Luciano Vergara)
-- **Category**: Display
-- **Date added to Google Fonts**: 2011-12-19
-- **License**: OFL
-- **Weights**: Light (300), Regular (400)
-- **Current version in Google Fonts**: 1.003
-- **Google Fonts path**: ofl/flamenco
+## Initial state
 
-## Upstream Repository
+Google Fonts shipped Flamenco (Light and Regular) built from FontForge SFD sources at https://github.com/librefonts/flamenco. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-- **URL**: https://github.com/librefonts/flamenco
-- **Status**: Active (not archived), publicly accessible
-- **Default branch**: master
-- **Total commits**: 1 (single commit: `908f93e`)
-- **Last push**: 2014-10-17
+## Actions taken
 
-## Source Files Analysis
+- The canonical FontForge SFD sources (`Flamenco-Light-TTF.sfd` and `Flamenco-Regular-TTF.sfd`) were converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- In conversion the non-breaking space advance width was corrected and OS/2 usWeightClass was set to 300 on the Light source.
+- A new Unified Font Repository was created at https://github.com/googlefonts/flamenco, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-The upstream repository contains only legacy source formats:
+## Final state
 
-- `src/Flamenco-Light-TTF.sfd` (FontForge SFD)
-- `src/Flamenco-Regular-TTF.sfd` (FontForge SFD)
-- `src/Flamenco-Light-OTF.vfb` (FontLab VFB)
-- `src/Flamenco-Regular-OTF.vfb` (FontLab VFB)
+The source now lives at https://github.com/googlefonts/flamenco (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binaries.
 
-No `.glyphs`, `.glyphx`, `.ufo`, or `.designspace` files exist. No `config.yaml` is present. These sources are **not compatible with gftools-builder**.
+## Verification
 
-The repo also contains TTX dumps of the font tables (in both the root directory and `src/`) and a `.travis.yml` for legacy fontbakery CI.
+Both weights matched the shipped binaries on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that 5 glyphs were renamed to their production names in each weight, which leaves cmap coverage unchanged and is therefore accepted (verdict: FUNCTIONAL).
 
-## Version History
+## Original repository (dormant)
 
-| Version | Location | Notes |
-|---------|----------|-------|
-| 1.002 | Upstream repo (SFD/VFB sources, TTX dumps) | Only version in the repo |
-| 1.003 | google/fonts (current binaries) | Updated via PR #887 (May 2017) |
-
-## Commit Hash Verification
-
-The upstream repo has only a single commit:
-
-- **Commit**: `908f93e92b13062e172153d04b96a9301ca1c7c5`
-- **Date**: 2014-10-17
-- **Author**: hash3g (hash.3g@gmail.com)
-- **Message**: "update .travis.yml"
-
-This is an initial import commit that added all files at once (72 files). Since there is only one commit in the entire repo, this is trivially the correct reference point.
-
-## Google Fonts History
-
-1. **Initial commit** (`90abd17b4`, 2015-03-07): Font first added to google/fonts repo.
-2. **PR #887** (`f1fe299e0`, 2017-05-08): Marc Foley updated fonts to v1.003 ("hotfix-flamenco: v1.003 added"). This updated both .ttf files and adjusted METADATA.pb. The PR body was empty -- no link to upstream sources or details about what was fixed.
-3. **Copyright fixup** (`ac5149724`, 2017-05-08): Dave Crossland fixed a double-space in copyright strings in METADATA.pb.
-4. Various METADATA.pb-only changes (language support, formatting, etc.)
-
-The v1.003 binaries in google/fonts do **not** correspond to any commit in the upstream repo, which only contains v1.002 sources. The v1.003 update was done by Marc Foley directly without updating the upstream repo.
-
-## METADATA.pb Source Block
-
-Current METADATA.pb on upstream/main has **no source block**.
-
-A source block was added on the local branch `sources_info_2026-02-25`:
-
-```
-source {
-  repository_url: "https://github.com/librefonts/flamenco"
-  commit: "908f93e92b13062e172153d04b96a9301ca1c7c5"
-}
-```
-
-## Config.yaml Assessment
-
-**No config.yaml can be created.** The upstream repo has only SFD (FontForge) and VFB (FontLab) sources. These formats are not supported by gftools-builder, so no override config.yaml is applicable.
-
-## Findings
-
-- The upstream repo `librefonts/flamenco` is the correct source repository for this font family.
-- The repo has a single commit (`908f93e`) which is the only possible reference point.
-- The current fonts in google/fonts (v1.003) were updated beyond what the upstream repo contains (v1.002). The v1.003 hotfix by Marc Foley was done without updating the upstream repo.
-- Sources are SFD/VFB only -- not gftools-builder compatible. No config.yaml is needed or possible.
-
-## Recommended Source Block
-
-```
-source {
-  repository_url: "https://github.com/librefonts/flamenco"
-  commit: "908f93e92b13062e172153d04b96a9301ca1c7c5"
-}
-```
-
-## Status
-
-- **Status**: no_config (SFD-only sources)
-- **Confidence**: HIGH
-- The repository URL and commit hash are verified. The single-commit repo makes hash verification trivial.
-- No config.yaml is applicable due to SFD/VFB-only sources.
+The original FontForge sources are at https://github.com/librefonts/flamenco (`.sfd`), latest at commit `908f93e92b13062e172153d04b96a9301ca1c7c5`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

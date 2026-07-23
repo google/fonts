@@ -1,5 +1,5 @@
 name: "Alan Sans"
-designer: "Raphaël Ronot"
+designer: "Raphaël Ronot, Samar Zureik"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-09-05"

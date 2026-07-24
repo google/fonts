@@ -78,7 +78,10 @@ def test_no_duplicate_families(family_tags):
 def test_tag_vals_in_range(family_tags):
     out_of_range = []
     for family, axes, cat, val in family_tags:
-        if val <= 0 or val > 100:
+        # Default baseline instances (empty axes string) must be 1-100.
+        # Variation coordinate overrides (non-empty axes) are allowed to be 0.
+        min_allowed = 1 if axes == "" else 0
+        if val < min_allowed or val > 100:
             out_of_range.append((family, cat, val))
     assert not out_of_range, f"Values out of range 1-100: {out_of_range}"
 

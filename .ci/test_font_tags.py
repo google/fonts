@@ -3,6 +3,8 @@ import json
 import requests
 import csv
 import os
+from collections import defaultdict
+from itertools import product
 
 @pytest.fixture
 def family_metadata():
@@ -92,3 +94,47 @@ def test_tags_for_unknown_families(family_tags, family_metadata):
     tagged_families = set(f[0] for f in family_tags)
     unknown_families = sorted(tagged_families - sb_families)
     assert not unknown_families, f"Unknown families found: {unknown_families}"
+
+
+def test_vf_tags_are_cross_product(family_tags):
+    """VF tag positions must form a complete cross product of their axis values.
+    Single axis needs min 2 positions, two axes need min 4, three need min 8, etc.
+    If a family+tag has wdth values {75, 125} and wght values {100, 400},
+    all 4 combinations must be present.
+    """
+    groups = defaultdict(list)
+    for family, axes, cat, val in family_tags:
+        if "@" in axes:
+            groups[(family, cat)].append(axes)
+
+    violations = []
+    for (family, cat), locs in groups.items():
+        axis_values = defaultdict(set)
+        parsed = []
+        for loc in locs:
+            parts = loc.split("@")
+            ax = parts[0].split(",")
+            vals = parts[1].split(",")
+            if len(ax) != len(vals):
+                violations.append(f"{family},{cat}: malformed axis entry '{loc}'")
+                continue
+            entry = dict(zip(ax, vals))
+            parsed.append(entry)
+            for a, v in entry.items():
+                axis_values[a].add(v)
+
+        axis_names = sorted(axis_values.keys())
+        value_lists = [sorted(axis_values[a]) for a in axis_names]
+        expected = {tuple(c) for c in product(*value_lists)}
+        actual = {tuple(e.get(a, "") for a in axis_names) for e in parsed}
+
+        missing = expected - actual
+        if missing:
+            for m in sorted(missing):
+                loc_str = ",".join(axis_names) + "@" + ",".join(m)
+                violations.append(f"{family},{cat}: missing position {loc_str}")
+
+    assert not violations, (
+        f"VF tags with incomplete cross product ({len(violations)} missing):\n"
+        + "\n".join(violations)
+    )

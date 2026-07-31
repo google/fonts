@@ -6390,10 +6390,6 @@ Darumadrop One,,/Quality/Spacing,80
 Darumadrop One,,/Quality/Wordspace,90
 Darumadrop One,,/Theme/Distressed,80
 Darumadrop One,,/Theme/Wacky,20
-Datatype,"wdth,wght@50,100",/Expressive/Active,0
-Datatype,"wdth,wght@50,900",/Expressive/Active,0
-Datatype,"wdth,wght@150,100",/Expressive/Active,0
-Datatype,"wdth,wght@150,900",/Expressive/Active,0
 Datatype,"wdth,wght@50,100",/Expressive/Artistic,5
 Datatype,"wdth,wght@50,900",/Expressive/Artistic,5
 Datatype,"wdth,wght@150,100",/Expressive/Artistic,5
@@ -6405,10 +6401,6 @@ Datatype,"wdth,wght@150,900",/Expressive/Awkward,5
 Datatype,wght@100,/Expressive/Business,70
 Datatype,wght@400,/Expressive/Business,70
 Datatype,wght@900,/Expressive/Business,70
-Datatype,"wdth,wght@50,100",/Expressive/Calm,0
-Datatype,"wdth,wght@50,900",/Expressive/Calm,0
-Datatype,"wdth,wght@150,100",/Expressive/Calm,0
-Datatype,"wdth,wght@150,900",/Expressive/Calm,0
 Datatype,wght@600,/Expressive/Loud,10
 Datatype,wght@900,/Expressive/Loud,10
 Datatype,,/Expressive/Rugged,40
@@ -13057,14 +13049,6 @@ Linefont,"wdth,wght@25,4",/Expressive/Artistic,15
 Linefont,"wdth,wght@25,1000",/Expressive/Artistic,15
 Linefont,"wdth,wght@200,4",/Expressive/Artistic,15
 Linefont,"wdth,wght@200,1000",/Expressive/Artistic,15
-Linefont,"wdth,wght@25,4",/Expressive/Awkward,0
-Linefont,"wdth,wght@25,1000",/Expressive/Awkward,0
-Linefont,"wdth,wght@200,4",/Expressive/Awkward,0
-Linefont,"wdth,wght@200,1000",/Expressive/Awkward,0
-Linefont,"wdth,wght@25,4",/Expressive/Calm,0
-Linefont,"wdth,wght@25,1000",/Expressive/Calm,0
-Linefont,"wdth,wght@200,4",/Expressive/Calm,0
-Linefont,"wdth,wght@200,1000",/Expressive/Calm,0
 Linefont,,/Expressive/Sincere,5
 Linefont,,/Quality/Concept,80
 Linefont,,/Quality/Drawing,70

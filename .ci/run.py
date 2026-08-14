@@ -94,22 +94,23 @@ def main():
 
         elif check_type == CheckType.NEW_FAMILY:
             print(f"Checking new family: {directory}")
-            run_fontspector(fonts, out, args.pr_number)
             subprocess.run(
                 qa_cmd_prefix + ["--interpolations"], check=True
             )
+            run_fontspector(fonts, out, args.pr_number)
 
         elif check_type == CheckType.MODIFIED_FAMILY:
             print(f"Checking modified family: {directory}")
-            run_fontspector(fonts, out, args.pr_number)
             subprocess.run(
                 qa_cmd_prefix
                 + ["-gfb", "--diffenator", "--interpolations"],
                 check=True,
             )
+            run_fontspector(fonts, out, args.pr_number)
 
         elif check_type == CheckType.MODIFIED_FAMILY_METADATA:
             print(f"Checking modified family metadata: {directory}")
+            subprocess.run(qa_cmd_prefix + ["--proof"], check=True)
             run_fontspector(fonts, out, args.pr_number)
 
         elif check_type == CheckType.DESIGNER:

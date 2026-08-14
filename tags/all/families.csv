@@ -205,6 +205,10 @@ Advent Pro,"wdth,wght@100,100",/Expressive/Cute,1
 Advent Pro,"wdth,wght@100,900",/Expressive/Cute,1
 Advent Pro,"wdth,wght@200,100",/Expressive/Cute,2
 Advent Pro,"wdth,wght@200,900",/Expressive/Cute,2
+Advent Pro,"wdth,wght@100,100",/Expressive/Excited,1
+Advent Pro,"wdth,wght@100,900",/Expressive/Excited,12
+Advent Pro,"wdth,wght@200,100",/Expressive/Excited,1
+Advent Pro,"wdth,wght@200,900",/Expressive/Excited,1
 Advent Pro,wght@100,/Expressive/Futuristic,15
 Advent Pro,wght@400,/Expressive/Futuristic,20
 Advent Pro,wght@900,/Expressive/Futuristic,18
@@ -933,6 +937,7 @@ Alumni Sans SC,wght@100,/Expressive/Calm,18
 Alumni Sans SC,wght@900,/Expressive/Calm,14
 Alumni Sans SC,wght@100,/Expressive/Competent,29
 Alumni Sans SC,wght@900,/Expressive/Competent,29
+Alumni Sans SC,,/Expressive/Excited,10
 Alumni Sans SC,,/Expressive/Happy,10
 Alumni Sans SC,wght@600,/Expressive/Loud,55
 Alumni Sans SC,wght@900,/Expressive/Loud,75
@@ -956,6 +961,7 @@ Alumni Sans,wght@100,/Expressive/Calm,40
 Alumni Sans,wght@900,/Expressive/Calm,36
 Alumni Sans,wght@100,/Expressive/Competent,44
 Alumni Sans,wght@900,/Expressive/Competent,44
+Alumni Sans,,/Expressive/Excited,10
 Alumni Sans,wght@100,/Expressive/Futuristic,12
 Alumni Sans,wght@400,/Expressive/Futuristic,15
 Alumni Sans,wght@900,/Expressive/Futuristic,17
@@ -1708,6 +1714,7 @@ Antonio,wght@100,/Expressive/Calm,38
 Antonio,wght@700,/Expressive/Calm,36
 Antonio,wght@100,/Expressive/Competent,55
 Antonio,wght@700,/Expressive/Competent,55
+Antonio,,/Expressive/Excited,10
 Antonio,wght@100,/Expressive/Futuristic,10
 Antonio,wght@400,/Expressive/Futuristic,10
 Antonio,wght@700,/Expressive/Futuristic,10
@@ -1770,8 +1777,10 @@ Anybody,"wdth,wght@50,100",/Expressive/Cute,1
 Anybody,"wdth,wght@50,900",/Expressive/Cute,3
 Anybody,"wdth,wght@150,100",/Expressive/Cute,3
 Anybody,"wdth,wght@150,900",/Expressive/Cute,15
-Anybody,wght@100,/Expressive/Excited,18
-Anybody,wght@900,/Expressive/Excited,22
+Anybody,"wdth,wght@50,100",/Expressive/Excited,1
+Anybody,"wdth,wght@50,900",/Expressive/Excited,12
+Anybody,"wdth,wght@150,100",/Expressive/Excited,8
+Anybody,"wdth,wght@150,900",/Expressive/Excited,14
 Anybody,,/Expressive/Happy,10
 Anybody,wght@600,/Expressive/Loud,54
 Anybody,wght@900,/Expressive/Loud,81
@@ -2126,6 +2135,10 @@ Asap,"wdth,wght@75,100",/Expressive/Cute,14
 Asap,"wdth,wght@75,900",/Expressive/Cute,32
 Asap,"wdth,wght@125,100",/Expressive/Cute,20
 Asap,"wdth,wght@125,900",/Expressive/Cute,38
+Asap,"wdth,wght@75,100",/Expressive/Excited,1
+Asap,"wdth,wght@75,900",/Expressive/Excited,11
+Asap,"wdth,wght@125,100",/Expressive/Excited,1
+Asap,"wdth,wght@125,900",/Expressive/Excited,12
 Asap,wght@600,/Expressive/Loud,52
 Asap,wght@900,/Expressive/Loud,75
 Asap,,/Expressive/Rugged,40
@@ -3479,6 +3492,7 @@ Big Shoulders Inline,wght@100,/Expressive/Business,3
 Big Shoulders Inline,wght@400,/Expressive/Business,10
 Big Shoulders Inline,wght@900,/Expressive/Business,3
 Big Shoulders Inline,,/Expressive/Calm,40
+Big Shoulders Inline,,/Expressive/Excited,5
 Big Shoulders Inline,wght@100,/Expressive/Futuristic,30
 Big Shoulders Inline,wght@400,/Expressive/Futuristic,56
 Big Shoulders Inline,wght@900,/Expressive/Futuristic,63
@@ -3507,6 +3521,7 @@ Big Shoulders Stencil,,/Expressive/Awkward,20
 Big Shoulders Stencil,wght@100,/Expressive/Business,3
 Big Shoulders Stencil,wght@400,/Expressive/Business,10
 Big Shoulders Stencil,wght@900,/Expressive/Business,3
+Big Shoulders Stencil,,/Expressive/Excited,5
 Big Shoulders Stencil,wght@100,/Expressive/Futuristic,34
 Big Shoulders Stencil,wght@400,/Expressive/Futuristic,56
 Big Shoulders Stencil,wght@900,/Expressive/Futuristic,65
@@ -3538,6 +3553,7 @@ Big Shoulders,wght@100,/Expressive/Business,3
 Big Shoulders,wght@400,/Expressive/Business,10
 Big Shoulders,wght@900,/Expressive/Business,4
 Big Shoulders,,/Expressive/Calm,60
+Big Shoulders,,/Expressive/Excited,5
 Big Shoulders,wght@100,/Expressive/Futuristic,25
 Big Shoulders,wght@400,/Expressive/Futuristic,56
 Big Shoulders,wght@900,/Expressive/Futuristic,58
@@ -3651,8 +3667,10 @@ BioRhyme,"wdth,wght@100,200",/Expressive/Cute,28
 BioRhyme,"wdth,wght@100,800",/Expressive/Cute,32
 BioRhyme,"wdth,wght@125,200",/Expressive/Cute,33
 BioRhyme,"wdth,wght@125,800",/Expressive/Cute,35
-BioRhyme,wght@200,/Expressive/Excited,10
-BioRhyme,wght@800,/Expressive/Excited,14
+BioRhyme,"wdth,wght@100,200",/Expressive/Excited,1
+BioRhyme,"wdth,wght@100,800",/Expressive/Excited,22
+BioRhyme,"wdth,wght@125,200",/Expressive/Excited,1
+BioRhyme,"wdth,wght@125,800",/Expressive/Excited,24
 BioRhyme,wght@200,/Expressive/Futuristic,5
 BioRhyme,wght@400,/Expressive/Futuristic,10
 BioRhyme,wght@800,/Expressive/Futuristic,8
@@ -3723,6 +3741,7 @@ Bitcount Grid Double Ink,wght@100,/Expressive/Artistic,26
 Bitcount Grid Double Ink,wght@400,/Expressive/Artistic,90
 Bitcount Grid Double Ink,wght@900,/Expressive/Artistic,98
 Bitcount Grid Double Ink,,/Expressive/Awkward,70
+Bitcount Grid Double Ink,,/Expressive/Excited,10
 Bitcount Grid Double Ink,wght@100,/Expressive/Futuristic,12
 Bitcount Grid Double Ink,wght@400,/Expressive/Futuristic,80
 Bitcount Grid Double Ink,wght@900,/Expressive/Futuristic,89
@@ -3746,6 +3765,7 @@ Bitcount Grid Double,wght@100,/Expressive/Artistic,80
 Bitcount Grid Double,wght@400,/Expressive/Artistic,90
 Bitcount Grid Double,wght@900,/Expressive/Artistic,95
 Bitcount Grid Double,,/Expressive/Awkward,70
+Bitcount Grid Double,,/Expressive/Excited,10
 Bitcount Grid Double,wght@100,/Expressive/Futuristic,75
 Bitcount Grid Double,wght@400,/Expressive/Futuristic,80
 Bitcount Grid Double,wght@900,/Expressive/Futuristic,85
@@ -3769,6 +3789,7 @@ Bitcount Grid Single Ink,wght@100,/Expressive/Artistic,26
 Bitcount Grid Single Ink,wght@400,/Expressive/Artistic,90
 Bitcount Grid Single Ink,wght@900,/Expressive/Artistic,98
 Bitcount Grid Single Ink,,/Expressive/Awkward,70
+Bitcount Grid Single Ink,,/Expressive/Excited,10
 Bitcount Grid Single Ink,wght@100,/Expressive/Futuristic,12
 Bitcount Grid Single Ink,wght@400,/Expressive/Futuristic,80
 Bitcount Grid Single Ink,wght@900,/Expressive/Futuristic,89
@@ -3792,6 +3813,7 @@ Bitcount Grid Single,wght@100,/Expressive/Artistic,50
 Bitcount Grid Single,wght@400,/Expressive/Artistic,76
 Bitcount Grid Single,wght@900,/Expressive/Artistic,88
 Bitcount Grid Single,,/Expressive/Awkward,70
+Bitcount Grid Single,,/Expressive/Excited,10
 Bitcount Grid Single,wght@100,/Expressive/Futuristic,75
 Bitcount Grid Single,wght@400,/Expressive/Futuristic,80
 Bitcount Grid Single,wght@900,/Expressive/Futuristic,85
@@ -3815,6 +3837,7 @@ Bitcount Ink,wght@100,/Expressive/Artistic,26
 Bitcount Ink,wght@400,/Expressive/Artistic,90
 Bitcount Ink,wght@900,/Expressive/Artistic,98
 Bitcount Ink,,/Expressive/Awkward,70
+Bitcount Ink,,/Expressive/Excited,10
 Bitcount Ink,wght@100,/Expressive/Futuristic,12
 Bitcount Ink,wght@400,/Expressive/Futuristic,80
 Bitcount Ink,wght@900,/Expressive/Futuristic,89
@@ -3838,6 +3861,7 @@ Bitcount Prop Double Ink,wght@100,/Expressive/Artistic,26
 Bitcount Prop Double Ink,wght@400,/Expressive/Artistic,90
 Bitcount Prop Double Ink,wght@900,/Expressive/Artistic,98
 Bitcount Prop Double Ink,,/Expressive/Awkward,70
+Bitcount Prop Double Ink,,/Expressive/Excited,10
 Bitcount Prop Double Ink,wght@100,/Expressive/Futuristic,12
 Bitcount Prop Double Ink,wght@400,/Expressive/Futuristic,80
 Bitcount Prop Double Ink,wght@900,/Expressive/Futuristic,89
@@ -3861,6 +3885,7 @@ Bitcount Prop Double,wght@100,/Expressive/Artistic,30
 Bitcount Prop Double,wght@400,/Expressive/Artistic,75
 Bitcount Prop Double,wght@900,/Expressive/Artistic,80
 Bitcount Prop Double,,/Expressive/Awkward,70
+Bitcount Prop Double,,/Expressive/Excited,10
 Bitcount Prop Double,wght@100,/Expressive/Futuristic,75
 Bitcount Prop Double,wght@400,/Expressive/Futuristic,80
 Bitcount Prop Double,wght@900,/Expressive/Futuristic,85
@@ -3884,6 +3909,7 @@ Bitcount Prop Single Ink,wght@100,/Expressive/Artistic,26
 Bitcount Prop Single Ink,wght@400,/Expressive/Artistic,90
 Bitcount Prop Single Ink,wght@900,/Expressive/Artistic,96
 Bitcount Prop Single Ink,,/Expressive/Awkward,70
+Bitcount Prop Single Ink,,/Expressive/Excited,10
 Bitcount Prop Single Ink,wght@100,/Expressive/Futuristic,12
 Bitcount Prop Single Ink,wght@400,/Expressive/Futuristic,80
 Bitcount Prop Single Ink,wght@900,/Expressive/Futuristic,89
@@ -3907,6 +3933,7 @@ Bitcount Prop Single,wght@100,/Expressive/Artistic,24
 Bitcount Prop Single,wght@400,/Expressive/Artistic,50
 Bitcount Prop Single,wght@900,/Expressive/Artistic,76
 Bitcount Prop Single,,/Expressive/Awkward,70
+Bitcount Prop Single,,/Expressive/Excited,10
 Bitcount Prop Single,wght@100,/Expressive/Futuristic,75
 Bitcount Prop Single,wght@400,/Expressive/Futuristic,80
 Bitcount Prop Single,wght@900,/Expressive/Futuristic,85
@@ -3930,6 +3957,7 @@ Bitcount Single Ink,wght@100,/Expressive/Artistic,26
 Bitcount Single Ink,wght@400,/Expressive/Artistic,90
 Bitcount Single Ink,wght@900,/Expressive/Artistic,96
 Bitcount Single Ink,,/Expressive/Awkward,70
+Bitcount Single Ink,,/Expressive/Excited,10
 Bitcount Single Ink,wght@100,/Expressive/Futuristic,12
 Bitcount Single Ink,wght@400,/Expressive/Futuristic,80
 Bitcount Single Ink,wght@900,/Expressive/Futuristic,89
@@ -3953,6 +3981,7 @@ Bitcount Single,wght@100,/Expressive/Artistic,24
 Bitcount Single,wght@400,/Expressive/Artistic,50
 Bitcount Single,wght@900,/Expressive/Artistic,76
 Bitcount Single,,/Expressive/Awkward,70
+Bitcount Single,,/Expressive/Excited,10
 Bitcount Single,wght@100,/Expressive/Futuristic,75
 Bitcount Single,wght@400,/Expressive/Futuristic,80
 Bitcount Single,wght@900,/Expressive/Futuristic,85
@@ -3976,6 +4005,7 @@ Bitcount,wght@100,/Expressive/Artistic,80
 Bitcount,wght@400,/Expressive/Artistic,86
 Bitcount,wght@900,/Expressive/Artistic,95
 Bitcount,,/Expressive/Awkward,70
+Bitcount,,/Expressive/Excited,10
 Bitcount,wght@100,/Expressive/Futuristic,75
 Bitcount,wght@400,/Expressive/Futuristic,80
 Bitcount,wght@900,/Expressive/Futuristic,85
@@ -4403,6 +4433,10 @@ Bricolage Grotesque,"wdth,wght@75,200",/Expressive/Cute,4
 Bricolage Grotesque,"wdth,wght@75,800",/Expressive/Cute,9
 Bricolage Grotesque,"wdth,wght@100,200",/Expressive/Cute,4
 Bricolage Grotesque,"wdth,wght@100,800",/Expressive/Cute,9
+Bricolage Grotesque,"wdth,wght@75,200",/Expressive/Excited,1
+Bricolage Grotesque,"wdth,wght@75,800",/Expressive/Excited,8
+Bricolage Grotesque,"wdth,wght@100,200",/Expressive/Excited,1
+Bricolage Grotesque,"wdth,wght@100,800",/Expressive/Excited,8
 Bricolage Grotesque,,/Expressive/Happy,20
 Bricolage Grotesque,,/Expressive/Loud,3
 Bricolage Grotesque,,/Expressive/Playful,32
@@ -7133,8 +7167,10 @@ DynaPuff,"wdth,wght@75,400",/Expressive/Cute,86
 DynaPuff,"wdth,wght@75,700",/Expressive/Cute,88
 DynaPuff,"wdth,wght@100,400",/Expressive/Cute,88
 DynaPuff,"wdth,wght@100,700",/Expressive/Cute,89
-DynaPuff,wght@400,/Expressive/Excited,12
-DynaPuff,wght@700,/Expressive/Excited,1
+DynaPuff,"wdth,wght@75,400",/Expressive/Excited,12
+DynaPuff,"wdth,wght@75,700",/Expressive/Excited,18
+DynaPuff,"wdth,wght@100,400",/Expressive/Excited,12
+DynaPuff,"wdth,wght@100,700",/Expressive/Excited,22
 DynaPuff,,/Expressive/Happy,92
 DynaPuff,wght@400,/Expressive/Innovative,30
 DynaPuff,wght@700,/Expressive/Innovative,40
@@ -8724,6 +8760,10 @@ Fredoka,"wdth,wght@75,300",/Expressive/Cute,38
 Fredoka,"wdth,wght@75,700",/Expressive/Cute,52
 Fredoka,"wdth,wght@125,300",/Expressive/Cute,42
 Fredoka,"wdth,wght@125,700",/Expressive/Cute,45
+Fredoka,"wdth,wght@75,300",/Expressive/Excited,1
+Fredoka,"wdth,wght@75,700",/Expressive/Excited,5
+Fredoka,"wdth,wght@125,300",/Expressive/Excited,5
+Fredoka,"wdth,wght@125,700",/Expressive/Excited,8
 Fredoka,,/Expressive/Loud,1
 Fredoka,,/Expressive/Playful,25
 Fredoka,,/Expressive/Rugged,15
@@ -9831,6 +9871,7 @@ Grandstander,wght@900,/Expressive/Competent,33
 Grandstander,wght@100,/Expressive/Cute,18
 Grandstander,wght@400,/Expressive/Cute,20
 Grandstander,wght@900,/Expressive/Cute,30
+Grandstander,,/Expressive/Excited,39
 Grandstander,,/Expressive/Happy,71
 Grandstander,wght@600,/Expressive/Loud,46
 Grandstander,wght@900,/Expressive/Loud,87
@@ -11008,6 +11049,7 @@ Imbue,wght@900,/Expressive/Awkward,35
 Imbue,wght@100,/Expressive/Business,8
 Imbue,wght@400,/Expressive/Business,20
 Imbue,wght@900,/Expressive/Business,12
+Imbue,,/Expressive/Excited,20
 Imbue,wght@600,/Expressive/Loud,50
 Imbue,wght@900,/Expressive/Loud,73
 Imbue,,/Expressive/Rugged,65
@@ -12114,8 +12156,10 @@ Kalnia Glaze,"wdth,wght@100,100",/Expressive/Cute,15
 Kalnia Glaze,"wdth,wght@100,700",/Expressive/Cute,21
 Kalnia Glaze,"wdth,wght@125,100",/Expressive/Cute,15
 Kalnia Glaze,"wdth,wght@125,700",/Expressive/Cute,24
-Kalnia Glaze,wght@100,/Expressive/Excited,20
-Kalnia Glaze,wght@700,/Expressive/Excited,26
+Kalnia Glaze,"wdth,wght@100,100",/Expressive/Excited,12
+Kalnia Glaze,"wdth,wght@100,700",/Expressive/Excited,16
+Kalnia Glaze,"wdth,wght@125,100",/Expressive/Excited,13
+Kalnia Glaze,"wdth,wght@125,700",/Expressive/Excited,18
 Kalnia Glaze,wght@100,/Expressive/Futuristic,5
 Kalnia Glaze,wght@400,/Expressive/Futuristic,10
 Kalnia Glaze,wght@700,/Expressive/Futuristic,15
@@ -12158,8 +12202,10 @@ Kalnia,"wdth,wght@100,100",/Expressive/Cute,8
 Kalnia,"wdth,wght@100,700",/Expressive/Cute,12
 Kalnia,"wdth,wght@125,100",/Expressive/Cute,11
 Kalnia,"wdth,wght@125,700",/Expressive/Cute,13
-Kalnia,wght@100,/Expressive/Excited,12
-Kalnia,wght@700,/Expressive/Excited,14
+Kalnia,"wdth,wght@100,100",/Expressive/Excited,2
+Kalnia,"wdth,wght@100,700",/Expressive/Excited,6
+Kalnia,"wdth,wght@125,100",/Expressive/Excited,5
+Kalnia,"wdth,wght@125,700",/Expressive/Excited,8
 Kalnia,,/Expressive/Happy,40
 Kalnia,,/Expressive/Playful,50
 Kalnia,,/Expressive/Rugged,6
@@ -20523,6 +20569,10 @@ Nunito Sans,"wdth,wght@75,200",/Expressive/Cute,7
 Nunito Sans,"wdth,wght@75,1000",/Expressive/Cute,7
 Nunito Sans,"wdth,wght@125,200",/Expressive/Cute,7
 Nunito Sans,"wdth,wght@125,1000",/Expressive/Cute,7
+Nunito Sans,"wdth,wght@75,200",/Expressive/Excited,1
+Nunito Sans,"wdth,wght@75,1000",/Expressive/Excited,1
+Nunito Sans,"wdth,wght@125,200",/Expressive/Excited,1
+Nunito Sans,"wdth,wght@125,1000",/Expressive/Excited,6
 Nunito Sans,wght@600,/Expressive/Loud,42
 Nunito Sans,wght@900,/Expressive/Loud,82
 Nunito Sans,,/Expressive/Rugged,50
@@ -21913,6 +21963,7 @@ Playpen Sans Thai,wght@800,/Expressive/Calm,1
 Playpen Sans Thai,,/Expressive/Childlike,95
 Playpen Sans Thai,wght@100,/Expressive/Competent,30
 Playpen Sans Thai,wght@800,/Expressive/Competent,30
+Playpen Sans Thai,,/Expressive/Excited,7
 Playpen Sans Thai,,/Expressive/Happy,40
 Playpen Sans Thai,,/Expressive/Loud,1
 Playpen Sans Thai,,/Expressive/Playful,22
@@ -24845,6 +24896,10 @@ Roboto Flex,"wdth,wght@25,100",/Expressive/Cute,5
 Roboto Flex,"wdth,wght@25,1000",/Expressive/Cute,5
 Roboto Flex,"wdth,wght@151,100",/Expressive/Cute,5
 Roboto Flex,"wdth,wght@151,1000",/Expressive/Cute,5
+Roboto Flex,"wdth,wght@25,100",/Expressive/Excited,1
+Roboto Flex,"wdth,wght@25,1000",/Expressive/Excited,6
+Roboto Flex,"wdth,wght@151,100",/Expressive/Excited,1
+Roboto Flex,"wdth,wght@151,1000",/Expressive/Excited,1
 Roboto Flex,wght@600,/Expressive/Loud,54
 Roboto Flex,wght@900,/Expressive/Loud,89
 Roboto Flex,,/Expressive/Rugged,50
@@ -27320,8 +27375,10 @@ Sour Gummy,"wdth,wght@100,100",/Expressive/Cute,80
 Sour Gummy,"wdth,wght@100,900",/Expressive/Cute,82
 Sour Gummy,"wdth,wght@125,100",/Expressive/Cute,82
 Sour Gummy,"wdth,wght@125,900",/Expressive/Cute,86
-Sour Gummy,wght@100,/Expressive/Excited,20
-Sour Gummy,wght@900,/Expressive/Excited,24
+Sour Gummy,"wdth,wght@100,100",/Expressive/Excited,48
+Sour Gummy,"wdth,wght@100,900",/Expressive/Excited,50
+Sour Gummy,"wdth,wght@125,100",/Expressive/Excited,54
+Sour Gummy,"wdth,wght@125,900",/Expressive/Excited,60
 Sour Gummy,,/Expressive/Happy,73
 Sour Gummy,wght@600,/Expressive/Loud,45
 Sour Gummy,wght@900,/Expressive/Loud,85
@@ -27743,6 +27800,7 @@ Stack Sans Notch,wght@200,/Expressive/Calm,24
 Stack Sans Notch,wght@700,/Expressive/Calm,12
 Stack Sans Notch,wght@200,/Expressive/Competent,36
 Stack Sans Notch,wght@700,/Expressive/Competent,36
+Stack Sans Notch,,/Expressive/Excited,50
 Stack Sans Notch,,/Expressive/Playful,50
 Stack Sans Notch,,/Quality/Concept,100
 Stack Sans Notch,,/Quality/Drawing,100
@@ -28895,6 +28953,10 @@ Trispace,"wdth,wght@75,100",/Expressive/Cute,2
 Trispace,"wdth,wght@75,800",/Expressive/Cute,2
 Trispace,"wdth,wght@125,100",/Expressive/Cute,2
 Trispace,"wdth,wght@125,800",/Expressive/Cute,2
+Trispace,"wdth,wght@75,100",/Expressive/Excited,1
+Trispace,"wdth,wght@75,800",/Expressive/Excited,1
+Trispace,"wdth,wght@125,100",/Expressive/Excited,6
+Trispace,"wdth,wght@125,800",/Expressive/Excited,9
 Trispace,wght@100,/Expressive/Futuristic,22
 Trispace,wght@400,/Expressive/Futuristic,22
 Trispace,wght@800,/Expressive/Futuristic,22
@@ -28956,8 +29018,10 @@ Truculenta,"wdth,wght@75,100",/Expressive/Cute,21
 Truculenta,"wdth,wght@75,900",/Expressive/Cute,25
 Truculenta,"wdth,wght@125,100",/Expressive/Cute,24
 Truculenta,"wdth,wght@125,900",/Expressive/Cute,30
-Truculenta,wght@100,/Expressive/Excited,54
-Truculenta,wght@900,/Expressive/Excited,58
+Truculenta,"wdth,wght@75,100",/Expressive/Excited,48
+Truculenta,"wdth,wght@75,900",/Expressive/Excited,60
+Truculenta,"wdth,wght@125,100",/Expressive/Excited,50
+Truculenta,"wdth,wght@125,900",/Expressive/Excited,65
 Truculenta,,/Expressive/Happy,52
 Truculenta,wght@600,/Expressive/Loud,40
 Truculenta,wght@900,/Expressive/Loud,82
@@ -29133,6 +29197,10 @@ Ubuntu Sans,"wdth,wght@75,100",/Expressive/Cute,5
 Ubuntu Sans,"wdth,wght@75,800",/Expressive/Cute,5
 Ubuntu Sans,"wdth,wght@100,100",/Expressive/Cute,5
 Ubuntu Sans,"wdth,wght@100,800",/Expressive/Cute,5
+Ubuntu Sans,"wdth,wght@75,100",/Expressive/Excited,2
+Ubuntu Sans,"wdth,wght@75,800",/Expressive/Excited,4
+Ubuntu Sans,"wdth,wght@100,100",/Expressive/Excited,4
+Ubuntu Sans,"wdth,wght@100,800",/Expressive/Excited,5
 Ubuntu Sans,wght@100,/Expressive/Futuristic,45
 Ubuntu Sans,wght@400,/Expressive/Futuristic,48
 Ubuntu Sans,wght@800,/Expressive/Futuristic,45
@@ -29197,6 +29265,7 @@ Unbounded,wght@200,/Expressive/Calm,25
 Unbounded,wght@900,/Expressive/Calm,12
 Unbounded,wght@200,/Expressive/Competent,40
 Unbounded,wght@900,/Expressive/Competent,35
+Unbounded,,/Expressive/Excited,20
 Unbounded,wght@600,/Expressive/Loud,55
 Unbounded,wght@900,/Expressive/Loud,85
 Unbounded,,/Expressive/Rugged,60
@@ -30094,6 +30163,7 @@ Yaldevi,wght@200,/Expressive/Calm,44
 Yaldevi,wght@700,/Expressive/Calm,42
 Yaldevi,wght@200,/Expressive/Competent,55
 Yaldevi,wght@700,/Expressive/Competent,55
+Yaldevi,,/Expressive/Excited,10
 Yaldevi,,/Expressive/Happy,30
 Yaldevi,,/Expressive/Loud,1
 Yaldevi,,/Expressive/Rugged,40

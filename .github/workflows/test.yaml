@@ -98,7 +98,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install pytest
-          pip install "gftools[qa]"
+          pip install gftools
           pip install diffenator3
         shell: bash
       - name: Set up Fontspector

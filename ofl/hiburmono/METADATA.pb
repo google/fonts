@@ -18,8 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/typehabesha/HiburMono"
-  commit: "ea9fe744a13815eb4efeb297c072ce61b4c335df"
-  archive_url: "https://github.com/typehabesha/HiburMono/releases/download/v1.0.0/HiburMono-v1.0.0.zip"
+  commit: "ff7211ea4674598efa977f266bd61f1ee6b9e5d2"
+  archive_url: "https://github.com/typehabesha/HiburMono/releases/download/v1.0.1/HiburMono-v1.0.1.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

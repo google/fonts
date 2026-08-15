@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Capital_Letter_I_WIT.1" format="2">
+  <advance width="235"/>
+  <unicode hex="1ECA"/>
+  <outline>
+    <contour>
+      <point x="175" y="700" type="curve"/>
+      <point x="175" y="700"/>
+      <point x="60" y="700"/>
+      <point x="60" y="700" type="curve"/>
+      <point x="60" y="700"/>
+      <point x="60" y="0"/>
+      <point x="60" y="0" type="curve"/>
+      <point x="60" y="0"/>
+      <point x="175" y="0"/>
+      <point x="175" y="0" type="curve"/>
+      <point x="175" y="0"/>
+      <point x="175" y="700"/>
+    </contour>
+    <contour>
+      <point x="177" y="-114" type="curve" smooth="yes"/>
+      <point x="177" y="-79"/>
+      <point x="151" y="-55"/>
+      <point x="118" y="-55" type="curve" smooth="yes"/>
+      <point x="85" y="-55"/>
+      <point x="58" y="-82"/>
+      <point x="58" y="-114" type="curve" smooth="yes"/>
+      <point x="58" y="-147"/>
+      <point x="83" y="-174"/>
+      <point x="118" y="-174" type="curve" smooth="yes"/>
+      <point x="154" y="-174"/>
+      <point x="177" y="-149"/>
+    </contour>
+  </outline>
+</glyph>

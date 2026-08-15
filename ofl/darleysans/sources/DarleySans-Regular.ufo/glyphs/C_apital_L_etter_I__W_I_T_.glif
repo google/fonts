@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Capital_Letter_I_WIT" format="2">
+  <advance width="235"/>
+  <unicode hex="1EC8"/>
+  <outline>
+    <contour>
+      <point x="175" y="700" type="curve"/>
+      <point x="175" y="700"/>
+      <point x="60" y="700"/>
+      <point x="60" y="700" type="curve"/>
+      <point x="60" y="700"/>
+      <point x="60" y="0"/>
+      <point x="60" y="0" type="curve"/>
+      <point x="60" y="0"/>
+      <point x="175" y="0"/>
+      <point x="175" y="0" type="curve"/>
+      <point x="175" y="0"/>
+      <point x="175" y="700"/>
+    </contour>
+    <contour>
+      <point x="45" y="813" type="curve"/>
+      <point x="64" y="822"/>
+      <point x="79" y="826"/>
+      <point x="90" y="826" type="curve" smooth="yes"/>
+      <point x="99" y="826"/>
+      <point x="105" y="824"/>
+      <point x="109" y="819" type="curve" smooth="yes"/>
+      <point x="118" y="808"/>
+      <point x="118" y="779"/>
+      <point x="80" y="750" type="curve"/>
+      <point x="80" y="750"/>
+      <point x="152" y="750"/>
+      <point x="152" y="750" type="curve"/>
+      <point x="206" y="794"/>
+      <point x="192" y="837"/>
+      <point x="182" y="856" type="curve" smooth="yes"/>
+      <point x="168" y="884"/>
+      <point x="144" y="897"/>
+      <point x="114" y="897" type="curve" smooth="yes"/>
+      <point x="93" y="897"/>
+      <point x="70" y="890"/>
+      <point x="45" y="878" type="curve"/>
+      <point x="45" y="878"/>
+      <point x="45" y="813"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="SMALL_LIGATURE_FF" format="2">
+  <advance width="648"/>
+  <unicode hex="FB00"/>
+  <outline>
+    <contour>
+      <point x="50" y="0" type="curve"/>
+      <point x="50" y="0"/>
+      <point x="160" y="0"/>
+      <point x="160" y="0" type="curve"/>
+      <point x="160" y="0"/>
+      <point x="160" y="381"/>
+      <point x="160" y="381" type="curve"/>
+      <point x="160" y="381"/>
+      <point x="364" y="381"/>
+      <point x="364" y="381" type="curve"/>
+      <point x="364" y="381"/>
+      <point x="364" y="0"/>
+      <point x="364" y="0" type="curve"/>
+      <point x="364" y="0"/>
+      <point x="474" y="0"/>
+      <point x="474" y="0" type="curve"/>
+      <point x="474" y="0"/>
+      <point x="474" y="381"/>
+      <point x="474" y="381" type="curve"/>
+      <point x="474" y="381"/>
+      <point x="623" y="381"/>
+      <point x="623" y="381" type="curve"/>
+      <point x="623" y="381"/>
+      <point x="623" y="488"/>
+      <point x="623" y="488" type="curve"/>
+      <point x="623" y="488"/>
+      <point x="476" y="488"/>
+      <point x="476" y="488" type="curve"/>
+      <point x="491" y="560"/>
+      <point x="554" y="593"/>
+      <point x="623" y="593" type="curve"/>
+      <point x="623" y="593"/>
+      <point x="623" y="700"/>
+      <point x="623" y="700" type="curve"/>
+      <point x="479" y="700"/>
+      <point x="379" y="627"/>
+      <point x="366" y="488" type="curve"/>
+      <point x="366" y="488"/>
+      <point x="162" y="488"/>
+      <point x="162" y="488" type="curve"/>
+      <point x="177" y="560"/>
+      <point x="240" y="593"/>
+      <point x="309" y="593" type="curve"/>
+      <point x="309" y="593"/>
+      <point x="309" y="700"/>
+      <point x="309" y="700" type="curve"/>
+      <point x="153" y="700"/>
+      <point x="50" y="616"/>
+      <point x="50" y="455" type="curve"/>
+      <point x="50" y="455"/>
+      <point x="50" y="0"/>
+    </contour>
+  </outline>
+</glyph>

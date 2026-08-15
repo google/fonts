@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Small_Letter_R_with_" format="2">
+  <advance width="328"/>
+  <unicode hex="0157"/>
+  <outline>
+    <contour>
+      <point x="159" y="0" type="curve"/>
+      <point x="159" y="0"/>
+      <point x="159" y="245"/>
+      <point x="159" y="245" type="curve"/>
+      <point x="159" y="337"/>
+      <point x="219" y="381"/>
+      <point x="307" y="381" type="curve"/>
+      <point x="307" y="381"/>
+      <point x="307" y="488"/>
+      <point x="307" y="488" type="curve"/>
+      <point x="152" y="488"/>
+      <point x="49" y="404"/>
+      <point x="49" y="243" type="curve"/>
+      <point x="49" y="243"/>
+      <point x="49" y="0"/>
+      <point x="49" y="0" type="curve"/>
+      <point x="49" y="0"/>
+      <point x="159" y="0"/>
+    </contour>
+    <contour>
+      <point x="22" y="-212" type="curve"/>
+      <point x="22" y="-212"/>
+      <point x="109" y="-212"/>
+      <point x="109" y="-212" type="curve"/>
+      <point x="109" y="-212"/>
+      <point x="164" y="-131"/>
+      <point x="164" y="-131" type="curve"/>
+      <point x="173" y="-116"/>
+      <point x="183" y="-102"/>
+      <point x="183" y="-85" type="curve" smooth="yes"/>
+      <point x="183" y="-56"/>
+      <point x="154" y="-34"/>
+      <point x="115" y="-34" type="curve" smooth="yes"/>
+      <point x="75" y="-34"/>
+      <point x="43" y="-57"/>
+      <point x="43" y="-86" type="curve" smooth="yes"/>
+      <point x="43" y="-105"/>
+      <point x="56" y="-120"/>
+      <point x="76" y="-129" type="curve"/>
+      <point x="76" y="-129"/>
+      <point x="22" y="-212"/>
+    </contour>
+  </outline>
+</glyph>

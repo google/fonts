@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="MODIFIER_LETTER_MACR" format="2">
+  <advance width="350"/>
+  <unicode hex="02C9"/>
+  <outline>
+    <contour>
+      <point x="40" y="578" type="curve"/>
+      <point x="40" y="578"/>
+      <point x="310" y="578"/>
+      <point x="310" y="578" type="curve"/>
+      <point x="310" y="578"/>
+      <point x="310" y="658"/>
+      <point x="310" y="658" type="curve"/>
+      <point x="310" y="658"/>
+      <point x="40" y="658"/>
+      <point x="40" y="658" type="curve"/>
+      <point x="40" y="658"/>
+      <point x="40" y="578"/>
+    </contour>
+  </outline>
+</glyph>

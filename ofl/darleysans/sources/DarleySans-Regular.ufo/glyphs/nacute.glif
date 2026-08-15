@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nacute" format="2">
+  <advance width="566"/>
+  <unicode hex="0144"/>
+  <outline>
+    <contour>
+      <point x="154" y="0" type="curve"/>
+      <point x="154" y="0"/>
+      <point x="154" y="246"/>
+      <point x="154" y="246" type="curve"/>
+      <point x="154" y="330"/>
+      <point x="189" y="395"/>
+      <point x="282" y="395" type="curve" smooth="yes"/>
+      <point x="375" y="395"/>
+      <point x="410" y="330"/>
+      <point x="410" y="246" type="curve"/>
+      <point x="410" y="246"/>
+      <point x="410" y="0"/>
+      <point x="410" y="0" type="curve"/>
+      <point x="410" y="0"/>
+      <point x="520" y="0"/>
+      <point x="520" y="0" type="curve"/>
+      <point x="520" y="0"/>
+      <point x="520" y="265"/>
+      <point x="520" y="265" type="curve"/>
+      <point x="520" y="396"/>
+      <point x="425" y="502"/>
+      <point x="282" y="502" type="curve" smooth="yes"/>
+      <point x="139" y="502"/>
+      <point x="44" y="396"/>
+      <point x="44" y="265" type="curve"/>
+      <point x="44" y="265"/>
+      <point x="44" y="0"/>
+      <point x="44" y="0" type="curve"/>
+      <point x="44" y="0"/>
+      <point x="154" y="0"/>
+    </contour>
+    <contour>
+      <point x="276" y="555" type="curve"/>
+      <point x="276" y="555"/>
+      <point x="391" y="674"/>
+      <point x="391" y="674" type="curve"/>
+      <point x="391" y="674"/>
+      <point x="248" y="674"/>
+      <point x="248" y="674" type="curve"/>
+      <point x="248" y="674"/>
+      <point x="173" y="555"/>
+      <point x="173" y="555" type="curve"/>
+      <point x="173" y="555"/>
+      <point x="276" y="555"/>
+    </contour>
+  </outline>
+</glyph>

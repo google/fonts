@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Small_Letter_L_with_" format="2">
+  <advance width="210"/>
+  <unicode hex="013C"/>
+  <outline>
+    <contour>
+      <point x="159" y="0" type="curve"/>
+      <point x="159" y="0"/>
+      <point x="159" y="700"/>
+      <point x="159" y="700" type="curve"/>
+      <point x="159" y="700"/>
+      <point x="49" y="700"/>
+      <point x="49" y="700" type="curve"/>
+      <point x="49" y="700"/>
+      <point x="49" y="0"/>
+      <point x="49" y="0" type="curve"/>
+      <point x="49" y="0"/>
+      <point x="159" y="0"/>
+    </contour>
+    <contour>
+      <point x="23" y="-212" type="curve"/>
+      <point x="23" y="-212"/>
+      <point x="110" y="-212"/>
+      <point x="110" y="-212" type="curve"/>
+      <point x="110" y="-212"/>
+      <point x="165" y="-131"/>
+      <point x="165" y="-131" type="curve"/>
+      <point x="174" y="-116"/>
+      <point x="184" y="-102"/>
+      <point x="184" y="-85" type="curve" smooth="yes"/>
+      <point x="184" y="-56"/>
+      <point x="155" y="-34"/>
+      <point x="116" y="-34" type="curve" smooth="yes"/>
+      <point x="76" y="-34"/>
+      <point x="44" y="-57"/>
+      <point x="44" y="-86" type="curve" smooth="yes"/>
+      <point x="44" y="-105"/>
+      <point x="57" y="-120"/>
+      <point x="77" y="-129" type="curve"/>
+      <point x="77" y="-129"/>
+      <point x="23" y="-212"/>
+    </contour>
+  </outline>
+</glyph>

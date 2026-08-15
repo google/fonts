@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tcaron" format="2">
+  <advance width="657"/>
+  <unicode hex="0164"/>
+  <outline>
+    <contour>
+      <point x="385" y="591" type="curve"/>
+      <point x="385" y="591"/>
+      <point x="626" y="591"/>
+      <point x="626" y="591" type="curve"/>
+      <point x="626" y="591"/>
+      <point x="626" y="700"/>
+      <point x="626" y="700" type="curve"/>
+      <point x="626" y="700"/>
+      <point x="29" y="700"/>
+      <point x="29" y="700" type="curve"/>
+      <point x="29" y="700"/>
+      <point x="29" y="591"/>
+      <point x="29" y="591" type="curve"/>
+      <point x="29" y="591"/>
+      <point x="270" y="591"/>
+      <point x="270" y="591" type="curve"/>
+      <point x="270" y="591"/>
+      <point x="270" y="0"/>
+      <point x="270" y="0" type="curve"/>
+      <point x="270" y="0"/>
+      <point x="385" y="0"/>
+      <point x="385" y="0" type="curve"/>
+      <point x="385" y="0"/>
+      <point x="385" y="591"/>
+    </contour>
+    <contour>
+      <point x="284" y="874" type="curve"/>
+      <point x="284" y="874"/>
+      <point x="181" y="874"/>
+      <point x="181" y="874" type="curve"/>
+      <point x="181" y="874"/>
+      <point x="285" y="755"/>
+      <point x="285" y="755" type="curve"/>
+      <point x="285" y="755"/>
+      <point x="371" y="755"/>
+      <point x="371" y="755" type="curve"/>
+      <point x="371" y="755"/>
+      <point x="475" y="874"/>
+      <point x="475" y="874" type="curve"/>
+      <point x="475" y="874"/>
+      <point x="372" y="874"/>
+      <point x="372" y="874" type="curve"/>
+      <point x="372" y="874"/>
+      <point x="328" y="828"/>
+      <point x="328" y="828" type="curve"/>
+      <point x="328" y="828"/>
+      <point x="284" y="874"/>
+    </contour>
+  </outline>
+</glyph>

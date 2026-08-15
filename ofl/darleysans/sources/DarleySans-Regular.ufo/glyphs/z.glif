@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z" format="2">
+  <advance width="500"/>
+  <unicode hex="007A"/>
+  <outline>
+    <contour>
+      <point x="35" y="107" type="curve"/>
+      <point x="35" y="107"/>
+      <point x="35" y="0"/>
+      <point x="35" y="0" type="curve"/>
+      <point x="35" y="0"/>
+      <point x="465" y="0"/>
+      <point x="465" y="0" type="curve"/>
+      <point x="465" y="0"/>
+      <point x="465" y="107"/>
+      <point x="465" y="107" type="curve"/>
+      <point x="465" y="107"/>
+      <point x="184" y="107"/>
+      <point x="184" y="107" type="curve"/>
+      <point x="184" y="107"/>
+      <point x="465" y="381"/>
+      <point x="465" y="381" type="curve"/>
+      <point x="465" y="381"/>
+      <point x="465" y="487"/>
+      <point x="465" y="487" type="curve"/>
+      <point x="465" y="487"/>
+      <point x="35" y="487"/>
+      <point x="35" y="487" type="curve"/>
+      <point x="35" y="487"/>
+      <point x="35" y="381"/>
+      <point x="35" y="381" type="curve"/>
+      <point x="35" y="381"/>
+      <point x="316" y="381"/>
+      <point x="316" y="381" type="curve"/>
+      <point x="316" y="381"/>
+      <point x="35" y="107"/>
+    </contour>
+  </outline>
+</glyph>

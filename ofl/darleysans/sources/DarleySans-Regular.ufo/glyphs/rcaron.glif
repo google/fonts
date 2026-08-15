@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rcaron" format="2">
+  <advance width="328"/>
+  <unicode hex="0159"/>
+  <outline>
+    <contour>
+      <point x="159" y="0" type="curve"/>
+      <point x="159" y="0"/>
+      <point x="159" y="245"/>
+      <point x="159" y="245" type="curve"/>
+      <point x="159" y="337"/>
+      <point x="219" y="381"/>
+      <point x="307" y="381" type="curve"/>
+      <point x="307" y="381"/>
+      <point x="307" y="488"/>
+      <point x="307" y="488" type="curve"/>
+      <point x="152" y="488"/>
+      <point x="49" y="404"/>
+      <point x="49" y="243" type="curve"/>
+      <point x="49" y="243"/>
+      <point x="49" y="0"/>
+      <point x="49" y="0" type="curve"/>
+      <point x="49" y="0"/>
+      <point x="159" y="0"/>
+    </contour>
+    <contour>
+      <point x="179" y="674" type="curve"/>
+      <point x="179" y="674"/>
+      <point x="76" y="674"/>
+      <point x="76" y="674" type="curve"/>
+      <point x="76" y="674"/>
+      <point x="180" y="555"/>
+      <point x="180" y="555" type="curve"/>
+      <point x="180" y="555"/>
+      <point x="266" y="555"/>
+      <point x="266" y="555" type="curve"/>
+      <point x="266" y="555"/>
+      <point x="370" y="674"/>
+      <point x="370" y="674" type="curve"/>
+      <point x="370" y="674"/>
+      <point x="267" y="674"/>
+      <point x="267" y="674" type="curve"/>
+      <point x="267" y="674"/>
+      <point x="223" y="628"/>
+      <point x="223" y="628" type="curve"/>
+      <point x="223" y="628"/>
+      <point x="179" y="674"/>
+    </contour>
+  </outline>
+</glyph>

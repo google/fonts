@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacron" format="2">
+  <advance width="566"/>
+  <unicode hex="016B"/>
+  <outline>
+    <contour>
+      <point x="282" y="-15" type="curve" smooth="yes"/>
+      <point x="425" y="-15"/>
+      <point x="520" y="91"/>
+      <point x="520" y="222" type="curve"/>
+      <point x="520" y="222"/>
+      <point x="520" y="487"/>
+      <point x="520" y="487" type="curve"/>
+      <point x="520" y="487"/>
+      <point x="410" y="487"/>
+      <point x="410" y="487" type="curve"/>
+      <point x="410" y="487"/>
+      <point x="410" y="241"/>
+      <point x="410" y="241" type="curve"/>
+      <point x="410" y="157"/>
+      <point x="375" y="92"/>
+      <point x="282" y="92" type="curve" smooth="yes"/>
+      <point x="189" y="92"/>
+      <point x="154" y="157"/>
+      <point x="154" y="241" type="curve"/>
+      <point x="154" y="241"/>
+      <point x="154" y="487"/>
+      <point x="154" y="487" type="curve"/>
+      <point x="154" y="487"/>
+      <point x="44" y="487"/>
+      <point x="44" y="487" type="curve"/>
+      <point x="44" y="487"/>
+      <point x="44" y="222"/>
+      <point x="44" y="222" type="curve"/>
+      <point x="44" y="91"/>
+      <point x="139" y="-15"/>
+    </contour>
+    <contour>
+      <point x="122" y="568" type="curve"/>
+      <point x="122" y="568"/>
+      <point x="442" y="568"/>
+      <point x="442" y="568" type="curve"/>
+      <point x="442" y="568"/>
+      <point x="442" y="664"/>
+      <point x="442" y="664" type="curve"/>
+      <point x="442" y="664"/>
+      <point x="122" y="664"/>
+      <point x="122" y="664" type="curve"/>
+      <point x="122" y="664"/>
+      <point x="122" y="568"/>
+    </contour>
+  </outline>
+</glyph>

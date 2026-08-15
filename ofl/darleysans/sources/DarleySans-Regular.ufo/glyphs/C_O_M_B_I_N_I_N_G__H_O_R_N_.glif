@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="COMBINING_HORN" format="2">
+  <advance width="204"/>
+  <unicode hex="031B"/>
+  <outline>
+    <contour>
+      <point x="60" y="665" type="curve"/>
+      <point x="63" y="632"/>
+      <point x="44" y="615"/>
+      <point x="0" y="617" type="curve"/>
+      <point x="0" y="617"/>
+      <point x="91" y="573"/>
+      <point x="91" y="573" type="curve"/>
+      <point x="136" y="581"/>
+      <point x="158" y="620"/>
+      <point x="154" y="665" type="curve"/>
+      <point x="154" y="665"/>
+      <point x="60" y="665"/>
+    </contour>
+  </outline>
+</glyph>

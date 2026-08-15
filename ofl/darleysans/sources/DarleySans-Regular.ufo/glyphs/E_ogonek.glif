@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eogonek" format="2">
+  <advance width="560"/>
+  <unicode hex="0118"/>
+  <outline>
+    <contour>
+      <point x="454" y="0" type="curve"/>
+      <point x="431" y="-25"/>
+      <point x="420" y="-52"/>
+      <point x="420" y="-80" type="curve" smooth="yes"/>
+      <point x="420" y="-135"/>
+      <point x="461" y="-180"/>
+      <point x="530" y="-180" type="curve" smooth="yes"/>
+      <point x="546" y="-180"/>
+      <point x="562" y="-177"/>
+      <point x="581" y="-172" type="curve"/>
+      <point x="581" y="-172"/>
+      <point x="581" y="-92"/>
+      <point x="581" y="-92" type="curve"/>
+      <point x="574" y="-94"/>
+      <point x="567" y="-95"/>
+      <point x="560" y="-95" type="curve" smooth="yes"/>
+      <point x="531" y="-95"/>
+      <point x="512" y="-76"/>
+      <point x="512" y="-48" type="curve" smooth="yes"/>
+      <point x="512" y="-33"/>
+      <point x="517" y="-17"/>
+      <point x="528" y="0" type="curve"/>
+      <point x="528" y="0"/>
+      <point x="529" y="0"/>
+      <point x="529" y="0" type="curve"/>
+      <point x="529" y="0"/>
+      <point x="529" y="109"/>
+      <point x="529" y="109" type="curve"/>
+      <point x="529" y="109"/>
+      <point x="174" y="109"/>
+      <point x="174" y="109" type="curve"/>
+      <point x="174" y="109"/>
+      <point x="174" y="296"/>
+      <point x="174" y="296" type="curve"/>
+      <point x="174" y="296"/>
+      <point x="499" y="296"/>
+      <point x="499" y="296" type="curve"/>
+      <point x="499" y="296"/>
+      <point x="499" y="405"/>
+      <point x="499" y="405" type="curve"/>
+      <point x="499" y="405"/>
+      <point x="174" y="405"/>
+      <point x="174" y="405" type="curve"/>
+      <point x="174" y="405"/>
+      <point x="174" y="591"/>
+      <point x="174" y="591" type="curve"/>
+      <point x="174" y="591"/>
+      <point x="529" y="591"/>
+      <point x="529" y="591" type="curve"/>
+      <point x="529" y="591"/>
+      <point x="529" y="700"/>
+      <point x="529" y="700" type="curve"/>
+      <point x="529" y="700"/>
+      <point x="59" y="700"/>
+      <point x="59" y="700" type="curve"/>
+      <point x="59" y="700"/>
+      <point x="59" y="0"/>
+      <point x="59" y="0" type="curve"/>
+      <point x="59" y="0"/>
+      <point x="454" y="0"/>
+    </contour>
+  </outline>
+</glyph>

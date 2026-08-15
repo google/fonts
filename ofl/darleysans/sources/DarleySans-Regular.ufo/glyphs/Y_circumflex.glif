@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ycircumflex" format="2">
+  <advance width="692"/>
+  <unicode hex="0176"/>
+  <outline>
+    <contour>
+      <point x="537" y="700" type="curve"/>
+      <point x="537" y="700"/>
+      <point x="342" y="373"/>
+      <point x="342" y="373" type="curve"/>
+      <point x="342" y="373"/>
+      <point x="148" y="700"/>
+      <point x="148" y="700" type="curve"/>
+      <point x="148" y="700"/>
+      <point x="19" y="700"/>
+      <point x="19" y="700" type="curve"/>
+      <point x="19" y="700"/>
+      <point x="288" y="251"/>
+      <point x="288" y="251" type="curve"/>
+      <point x="288" y="251"/>
+      <point x="288" y="0"/>
+      <point x="288" y="0" type="curve"/>
+      <point x="288" y="0"/>
+      <point x="403" y="0"/>
+      <point x="403" y="0" type="curve"/>
+      <point x="403" y="0"/>
+      <point x="403" y="253"/>
+      <point x="403" y="253" type="curve"/>
+      <point x="403" y="253"/>
+      <point x="671" y="700"/>
+      <point x="671" y="700" type="curve"/>
+      <point x="671" y="700"/>
+      <point x="537" y="700"/>
+    </contour>
+    <contour>
+      <point x="301" y="755" type="curve"/>
+      <point x="301" y="755"/>
+      <point x="345" y="801"/>
+      <point x="345" y="801" type="curve"/>
+      <point x="345" y="801"/>
+      <point x="389" y="755"/>
+      <point x="389" y="755" type="curve"/>
+      <point x="389" y="755"/>
+      <point x="492" y="755"/>
+      <point x="492" y="755" type="curve"/>
+      <point x="492" y="755"/>
+      <point x="388" y="874"/>
+      <point x="388" y="874" type="curve"/>
+      <point x="388" y="874"/>
+      <point x="302" y="874"/>
+      <point x="302" y="874" type="curve"/>
+      <point x="302" y="874"/>
+      <point x="198" y="755"/>
+      <point x="198" y="755" type="curve"/>
+      <point x="198" y="755"/>
+      <point x="301" y="755"/>
+    </contour>
+  </outline>
+</glyph>

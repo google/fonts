@@ -1,0 +1,135 @@
+name: "Dh Goleine"
+designer: "Jamaludin Achmad Sahestya Dharma"
+license: "OFL"
+category: "SERIF"
+date_added: "2026-08-18"
+fonts {
+  name: "Dh Goleine"
+  style: "normal"
+  weight: 100
+  filename: "DhGoleine-Thin.ttf"
+  post_script_name: "DhGoleine-Thin"
+  full_name: "Dh Goleine Thin"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "italic"
+  weight: 100
+  filename: "DhGoleine-ThinItalic.ttf"
+  post_script_name: "DhGoleine-ThinItalic"
+  full_name: "Dh Goleine Thin Italic"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "normal"
+  weight: 200
+  filename: "DhGoleine-ExtraLight.ttf"
+  post_script_name: "DhGoleine-ExtraLight"
+  full_name: "Dh Goleine ExtraLight"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "italic"
+  weight: 200
+  filename: "DhGoleine-ExtraLightItalic.ttf"
+  post_script_name: "DhGoleine-ExtraLightItalic"
+  full_name: "Dh Goleine ExtraLight Italic"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "normal"
+  weight: 300
+  filename: "DhGoleine-Light.ttf"
+  post_script_name: "DhGoleine-Light"
+  full_name: "Dh Goleine Light"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "italic"
+  weight: 300
+  filename: "DhGoleine-LightItalic.ttf"
+  post_script_name: "DhGoleine-LightItalic"
+  full_name: "Dh Goleine Light Italic"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "normal"
+  weight: 400
+  filename: "DhGoleine-Regular.ttf"
+  post_script_name: "DhGoleine-Regular"
+  full_name: "Dh Goleine Regular"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "italic"
+  weight: 400
+  filename: "DhGoleine-Italic.ttf"
+  post_script_name: "DhGoleine-Italic"
+  full_name: "Dh Goleine Italic"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "normal"
+  weight: 500
+  filename: "DhGoleine-Medium.ttf"
+  post_script_name: "DhGoleine-Medium"
+  full_name: "Dh Goleine Medium"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "italic"
+  weight: 500
+  filename: "DhGoleine-MediumItalic.ttf"
+  post_script_name: "DhGoleine-MediumItalic"
+  full_name: "Dh Goleine Medium Italic"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "normal"
+  weight: 600
+  filename: "DhGoleine-SemiBold.ttf"
+  post_script_name: "DhGoleine-SemiBold"
+  full_name: "Dh Goleine SemiBold"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "italic"
+  weight: 600
+  filename: "DhGoleine-SemiBoldItalic.ttf"
+  post_script_name: "DhGoleine-SemiBoldItalic"
+  full_name: "Dh Goleine SemiBold Italic"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "normal"
+  weight: 700
+  filename: "DhGoleine-Bold.ttf"
+  post_script_name: "DhGoleine-Bold"
+  full_name: "Dh Goleine Bold"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "italic"
+  weight: 700
+  filename: "DhGoleine-BoldItalic.ttf"
+  post_script_name: "DhGoleine-BoldItalic"
+  full_name: "Dh Goleine Bold Italic"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "normal"
+  weight: 800
+  filename: "DhGoleine-ExtraBold.ttf"
+  post_script_name: "DhGoleine-ExtraBold"
+  full_name: "Dh Goleine ExtraBold"
+}
+fonts {
+  name: "Dh Goleine"
+  style: "italic"
+  weight: 800
+  filename: "DhGoleine-ExtraBoldItalic.ttf"
+  post_script_name: "DhGoleine-ExtraBoldItalic"
+  full_name: "Dh Goleine ExtraBold Italic"
+}
+subsets: "latin"
+subsets: "latin-ext"

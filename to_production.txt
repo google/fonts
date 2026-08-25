@@ -1,30 +1,35 @@
-# Axis Registry
-axisregistry/jitter.textproto # https://github.com/google/fonts/pull/10786
-
 # New
+ofl/asapsharp # https://github.com/google/fonts/pull/10800
 ofl/nevermind # https://github.com/google/fonts/pull/10736
 ofl/scoutiesans # https://github.com/google/fonts/pull/10669
 ofl/valleysans # https://github.com/google/fonts/pull/10755
 
 # Upgrade
 ofl/alansans # https://github.com/google/fonts/pull/10665
+ofl/hiburmono # https://github.com/google/fonts/pull/10795
 ofl/mashanzheng # https://github.com/google/fonts/pull/10726
 ofl/notosansbatak # https://github.com/google/fonts/pull/10675
 ofl/notosansmiao # https://github.com/google/fonts/pull/10772
+ofl/onest # https://github.com/google/fonts/pull/10765
 ofl/qahiri # https://github.com/google/fonts/pull/10737
 
 # Designer profile
+catalog/designers/larimoro # https://github.com/google/fonts/pull/10806
 catalog/designers/lycorporation # https://github.com/google/fonts/pull/10730
 catalog/designers/magdalenaalonsorebollo # https://github.com/google/fonts/pull/10723
 catalog/designers/rixfont # https://github.com/google/fonts/pull/10731
 catalog/designers/samarzureik # https://github.com/google/fonts/pull/10657
 
+# Axis Registry
+axisregistry/jitter.textproto # https://github.com/google/fonts/pull/10786
+
 # Metadata / Description / License
 ofl/caacupeone # https://github.com/google/fonts/pull/10724
 ofl/lineseedjp # https://github.com/google/fonts/pull/10732
 ofl/murecho # https://github.com/google/fonts/pull/10729
-ofl/notocoloremoji # https://github.com/google/fonts/pull/10718
 ofl/sawarabigothic # https://github.com/google/fonts/pull/10727
+ofl/yuyu # https://github.com/google/fonts/pull/10832
+ofl/yuyushort # https://github.com/google/fonts/pull/10833
 
 # Tags
 tags/all/families.csv

@@ -23,8 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/toto"
-  commit: "654cc6c340ccd33ea8935bfe936933861eb998b1"
-  archive_url: "https://github.com/notofonts/toto/releases/download/NotoSerifToto-v2.002/NotoSerifToto-v2.002.zip"
+  commit: "042c58bb4b55535aa3329aff3f1aabec7bae447c"
+  archive_url: "https://github.com/notofonts/toto/releases/download/NotoSerifToto-v2.003/NotoSerifToto-v2.003.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -37,5 +37,5 @@ source {
   config_yaml: "sources/config-serif-toto.yaml"
 }
 is_noto: true
-languages: "txo_Toto"
+languages: "txo_Toto"  # Toto
 primary_script: "Toto"

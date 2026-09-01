@@ -1,0 +1,30 @@
+id: "gkp_Latn"
+language: "gkp"
+script: "Latn"
+name: "Kpelle, Guinea"
+region: "GN"
+population: 622000
+exemplar_chars {
+  base: "a A à À á Á â Â ã Ã b B ɓ Ɓ d D e E è È é É ê Ê ə Ə {ə̀} {Ə̀} {ə́} {Ə́} {ə̂} {Ə̂} ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̃} {Ɛ̃} f F g G {gb} {GB} {gw} {GW} ɠ Ɠ h H {hw} {HW} i I ì Ì í Í î Î ĩ Ĩ j J k K {kp} {KP} {kw} {KW} l L m M n N ɲ Ɲ ŋ Ŋ o O ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̃} {Ɔ̃} p P r R s S t T u U ù Ù ú Ú û Û ũ Ũ v V w W y Y"
+  marks: "◌́ ◌̀ ◌̂ ◌̃"
+  auxiliary: "c C ë Ë ė Ė ö Ö q Q x X z Z ą Ą {ą́} {Ą́} ę Ę {ə̨} {Ə̨} {ə̨́} {Ə̨́} {ɛ̨} {Ɛ̨} {ɛ̨́} {Ɛ̨́} į Į {į́} {Į́} ǫ Ǫ {ɔ̨} {Ɔ̨} {ɔ̨́} {Ɔ̨́} ų Ų {ų́} {Ų́}"
+}
+sample_text {
+  masthead_full: "NnUu"
+  masthead_partial: "Kk"
+  styles: "Nukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle"
+  tester: "Nukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da"
+  poster_sm: "Nukan gele"
+  poster_md: "Nukan"
+  poster_lg: "Nukan"
+  specimen_48: "Nukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi"
+  specimen_36: "Nukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi gaa ɲei yɛnɛyii hu kɛpələ kaalɔ tanɔn; di kɛmɛni a nukan ŋaa ɓə gɛɛ hwəkɛli wɛlikɛmaa ə lɔ di luwai."
+  specimen_32: "Nukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi gaa ɲei yɛnɛyii hu kɛpələ kaalɔ tanɔn; di kɛmɛni a nukan ŋaa ɓə gɛɛ hwəkɛli wɛlikɛmaa ə lɔ di luwai."
+  specimen_21: "Nukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi gaa ɲei yɛnɛyii hu kɛpələ kaalɔ tanɔn; di kɛmɛni a nukan ŋaa ɓə gɛɛ hwəkɛli wɛlikɛmaa ə lɔ di luwai.\nNukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi gaa ɲei yɛnɛyii hu kɛpələ kaalɔ tanɔn; di kɛmɛni a nukan ŋaa ɓə gɛɛ hwəkɛli wɛlikɛmaa ə lɔ di luwai."
+  specimen_16: "Nukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi gaa ɲei yɛnɛyii hu kɛpələ kaalɔ tanɔn; di kɛmɛni a nukan ŋaa ɓə gɛɛ hwəkɛli wɛlikɛmaa ə lɔ di luwai.\nNukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi gaa ɲei yɛnɛyii hu kɛpələ kaalɔ tanɔn; di kɛmɛni a nukan ŋaa ɓə gɛɛ hwəkɛli wɛlikɛmaa ə lɔ di luwai.\nNukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi gaa ɲei yɛnɛyii hu kɛpələ kaalɔ tanɔn; di kɛmɛni a nukan ŋaa ɓə gɛɛ hwəkɛli wɛlikɛmaa ə lɔ di luwai.\nNukan gele kaa pələ kaa tanɔn, yiliɓa nu kəle maawiyə pələ da tɔɔi gaa ɲei yɛnɛyii hu kɛpələ kaalɔ tanɔn; di kɛmɛni a nukan ŋaa ɓə gɛɛ hwəkɛli wɛlikɛmaa ə lɔ di luwai."
+}
+source: "Académie des langues, République de Guinée, Alphabet national des langues de la République de Guinée, 1976"
+source: "Alliance biblique en Guinée, Yálá laawoo hɛɓɛ, Alliance biblique en Guinée, 2010"
+source: "Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, [2015]"
+source: "Maria Konoshenko, “Dictionnaire kpele de la Guinée (guerzé) – français avec un index français – kpele”, Mandenkan, vol. 62, 2019"
+note: "Académie des langues 1976 used bh ë ė ë gh dy ny nh ö; Institut de recherches linguistiques appliquées 2015 (1989) ɓ ə ɛ ɠ j ɲ ŋ ɔ.\nAlliance biblique en Guinée 2010 uses ogonek to indicated vowel nasalization instead of n as a suffix."

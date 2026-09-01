@@ -1,0 +1,10 @@
+id: "lwo_Latn"
+language: "lwo"
+script: "Latn"
+name: "Luwo"
+population: 260000
+region: "SS"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E g G h H i I j J k K l L m M n N o O p P r R t T u U w W y Y"
+  marks: "◌́"
+}

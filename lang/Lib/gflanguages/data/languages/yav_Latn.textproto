@@ -1,0 +1,14 @@
+id: "yav_Latn"
+language: "yav"
+script: "Latn"
+name: "Yangben"
+autonym: "Nuasue"
+population: 2302
+region: "CM"
+exemplar_chars {
+  base: "a A á Á à À â Â ǎ Ǎ ā Ā b B c C d D e E é É è È ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} f F h H i I í Í ì Ì î Î ī Ī k K l L m M {mb} {MB} n N {ny} {NY} ŋ Ŋ {ŋg} {ŊG} o O ó Ó ò Ò ô Ô ǒ Ǒ ō Ō ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} p P s S t T u U ú Ú ù Ù û Û ǔ Ǔ ū Ū v V w W y Y"
+  auxiliary: "g G j J q Q r R x X z Z"
+  marks: "◌̀ ◌́ ◌̂ ◌̄ ◌̌"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E Ɛ F H I K L M N Ŋ O Ɔ P S T U V W Y"
+}

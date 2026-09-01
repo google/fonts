@@ -1,0 +1,23 @@
+id: "tzo_Latn"
+language: "tzo"
+script: "Latn"
+name: "Tzotzil, Chamula"
+region: "MX"
+region: "US"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ’"
+}
+sample_text {
+  masthead_full: "SsKk"
+  masthead_partial: "Oo"
+  styles: "Skotol vinik o ants ta spejel balumile k’olem"
+  tester: "Skotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta"
+  poster_sm: "Skotol vinik"
+  poster_md: "Skotol"
+  poster_lg: "Skotol"
+  specimen_48: "Skotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal"
+  specimen_36: "Skotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal i sderechoetik i, skotol k’ux-elan oyike oy srasonik y slekilalik, sventa skuxijik leknóo ta ju jun ju ju vo."
+  specimen_32: "Skotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal i sderechoetik i, skotol k’ux-elan oyike oy srasonik y slekilalik, sventa skuxijik leknóo ta ju jun ju ju vo."
+  specimen_21: "Skotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal i sderechoetik i, skotol k’ux-elan oyike oy srasonik y slekilalik, sventa skuxijik leknóo ta ju jun ju ju vo.\nSkotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal i sderechoetik i, skotol k’ux-elan oyike oy srasonik y slekilalik, sventa skuxijik leknóo ta ju jun ju ju vo."
+  specimen_16: "Skotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal i sderechoetik i, skotol k’ux-elan oyike oy srasonik y slekilalik, sventa skuxijik leknóo ta ju jun ju ju vo.\nSkotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal i sderechoetik i, skotol k’ux-elan oyike oy srasonik y slekilalik, sventa skuxijik leknóo ta ju jun ju ju vo.\nSkotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal i sderechoetik i, skotol k’ux-elan oyike oy srasonik y slekilalik, sventa skuxijik leknóo ta ju jun ju ju vo.\nSkotol vinik o ants ta spejel balumile k’olem x-hayan i ko’ol ta sch’ulal i sderechoetik i, skotol k’ux-elan oyike oy srasonik y slekilalik, sventa skuxijik leknóo ta ju jun ju ju vo."
+}

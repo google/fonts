@@ -1,0 +1,18 @@
+#Size of Paint 2, based on https://github.com/petrvanblokland/TYPETR-Bitcount
+tag: "SZP2"
+display_name: "Size of Paint 2"
+min_value: -100
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description: 
+  "Modifies the size of a paint element going from an initial size (0)"
+  " to positive values that increase the size (100%)"
+  " or negative values that shrink it down (-100%)."
+  " Reducing the size can create transparency."
+  " Paint 2 is in front of Paint 1."

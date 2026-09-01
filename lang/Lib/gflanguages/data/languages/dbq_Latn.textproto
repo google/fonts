@@ -1,0 +1,11 @@
+id: "dbq_Latn"
+language: "dbq"
+script: "Latn"
+name: "Daba"
+population: 25000
+region: "CM"
+region: "NG"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ ə Ə e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "q Q x X"
+}

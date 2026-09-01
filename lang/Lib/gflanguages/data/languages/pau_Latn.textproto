@@ -1,0 +1,25 @@
+id: "pau_Latn"
+language: "pau"
+script: "Latn"
+name: "Palauan"
+autonym: "a tekoi er a Belau"
+population: 16046
+region: "PW"
+exemplar_chars {
+  base: "A B C D E Ę F I K L M N O P R S T U Z a b c d e ę f i k l m n o p r s t u z"
+  marks: "◌̨"
+}
+sample_text {
+  masthead_full: "AaRr"
+  masthead_partial: "Oo"
+  styles: "Alewaisei ea klaolengei ra chemolt \'l omengull"
+  tester: "Alewaisei ea omengitel ma temellel aikal llemalt rar chad a mla"
+  poster_sm: "Alewaisei eng"
+  poster_md: "Alewaisei"
+  poster_lg: "rogui"
+  specimen_48: "Alewaisei ear chad ra United Nations a mla lmuut el kudmeklii"
+  specimen_36: "Alewaisei ea klou \'l klaodengei ra ikal llemalt ma ilmokl a klou a belkul ra rolel omengedmeklel aikal tegoi."
+  specimen_32: "A rogui \'l chad el mechell a ngarngii a ilmokl er tir ra diosisiu el llemalt. Ngarngii er tir a uldesuir mete mo meruul el mo rar bebil lokiu a ungil \'l omeruul ra klauchad."
+  specimen_21: "Ar bek \'l chad a ngarngii a llemeltir ra ikal mla medung \'l ilmokl ma llemalt, \'l diak a ngodech lolkebai er tir, \'l ua uchelel a chad, ma iro, ma klechad, ma klaodengei ra tegoi, ma uldesuel, ma belual, ma klalou, ma klechelid, ma blekerdelel a cherellel.\nE dirrek el diak lebol uchul ea chad a choriid aikang el dimle uchul a tegoi ra buai \'l lengarngii malechub eng belulachad er ngii, al dokurits ma lak eng diosisiu, malechub engdi ngodech el blekeradel ra beluu."
+  specimen_16: "Ar bek \'l chad a ngarngii a llemeltir ra klengar, ma ilmokl, ma budech ra klechad er tir.\nNgdiak a chad \'l mo sibai malechub engmo meruul a urrerel a sibai; ma rolel a siobai ra oterullel ma ocheral ar sibai amo mekull.\nNgdiak a chad \'l mo mukcharm malechub engmo obals ra meringel \'l omeruul el ngii a diak el kirel el mora chad.\nAr bek \'l chad a morngii a llemeltir ra klechad ra medal a llach ra ngidil bashio.\nA rogui \'l chad a diosisiu a klisichir ra medal a llach mete me mekegar ra llach el dimo chosisiu a omengkar el mor tir. Ma rogui \'l chad a diosisiu a llemeltir mete mo mekegar el diosisiu a blekerdelir alsekum tial subed a ngarngii a metemall er ngii."
+}

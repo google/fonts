@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 50% Fonts Tag Distribution</title>
+    <style>
+        /* --- LAYOUT --- */
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; 
+            background: #f8f9fa; 
+            color: #202124;
+            font-family: 'Google Sans', Roboto, sans-serif; 
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header-section {
+            flex: 0 0 auto;
+            margin-bottom: 20px;
+        }
+
+        h1 { margin: 0 0 5px 0; }
+        p.subtitle { color: #5f6368; margin: 0 0 15px 0; font-size: 0.9rem; }
+
+        /* --- CARD & TABLE --- */
+        .card {
+            flex: 1;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .card-header {
+            padding: 15px 20px;
+            background: #f1f3f4;
+            border-bottom: 1px solid #ddd;
+            font-weight: 600;
+            color: #202124;
+            font-size: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .table-container {
+            flex: 1;
+            overflow: auto;
+        }
+
+        table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 800px; }
+        
+        th { 
+            background-color: #fff; 
+            position: sticky; top: 0; z-index: 10; 
+            font-size: 0.75rem; 
+            text-transform: uppercase; letter-spacing: 0.5px; 
+            padding: 12px 16px; border-bottom: 2px solid #eee; 
+            text-align: left; color: #5f6368;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        th:hover { background-color: #f1f3f4; color: #202124; }
+        
+        /* Sort indicators */
+        th::after { content: ' \2195'; color: #ccc; font-size: 0.8em; margin-left: 5px; }
+        th.asc::after { content: ' \2191'; color: #202124; }
+        th.desc::after { content: ' \2193'; color: #202124; }
+
+        td { 
+            padding: 10px 16px; 
+            border-bottom: 1px solid #f0f0f0; 
+            font-size: 0.9rem; 
+            vertical-align: middle;
+        }
+
+        td.num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 500; }
+        td.tag { color: #1a73e8; font-weight: 500; }
+        .ratio-context { font-size: 0.8em; color: #888; margin-left: 6px; font-weight: normal; }
+
+        tr:hover td { background-color: #f8f9fa; }
+
+        /* Visual Bars */
+        .bar-container { display: flex; align-items: center; justify-content: flex-end; gap: 10px; }
+        .bar-bg { width: 100px; height: 6px; background: #eee; border-radius: 3px; }
+        .bar-fill { height: 100%; background: #1a73e8; border-radius: 3px; transition: width 0.3s; }
+
+        #status { padding: 10px; margin-bottom: 15px; border-radius: 4px; display: none; }
+        .loading { background-color: #e8f0fe; color: #1967d2; display: block !important; }
+        .error { background-color: #fce8e6; color: #c5221f; display: block !important; }
+        
+        /* Modal */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-active { display: flex; }
+        .modal-content { background: white; width: 90%; max-width: 500px; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; }
+        .modal-header { padding: 16px 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; background: #f1f3f4; }
+        .modal-title { margin: 0; font-size: 1.1rem; color: #202124; }
+        .close-btn { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #5f6368; }
+        .modal-body { padding: 20px; overflow-y: auto; }
+        ul.font-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+        ul.font-list li a { text-decoration: none; color: #1a73e8; font-size: 0.9rem; display: block; padding: 4px 10px; background:#e8f0fe; border-radius: 12px; }
+        ul.font-list li a:hover { background-color: #d2e3fc; }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <h1>Top 50% Fonts Tag Distribution</h1>
+        <p class="subtitle">Analyzing which tags are represented by the top 50% font families by usage.</p>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Tag Analysis
+            <span style="font-size:0.8rem; color:#5f6368; font-weight:normal;">Click headers to sort</span>
+        </div>
+        <div class="table-container">
+            <table id="main-table">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('tag')" id="th-tag">Tag Category</th>
+                        <th onclick="sortTable('count')" id="th-count" style="text-align:right">Top 50% Count</th>
+                        <th onclick="sortTable('ratio')" id="th-ratio" style="text-align:right">Ratio (vs Total)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title">Fonts List</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul id="font-list" class="font-list"></ul>
+            </div>
+        </div>
+    </div>
+
+<script>
+    // --- Configuration ---
+    const METADATA_URL = "catalog_metadata.json";
+    const TAGS_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv";
+    const USAGE_URL = "usage_data.csv"; 
+
+    // Global Data Storage
+    let TABLE_DATA = [];
+    if(!window.TAG_LOOKUP) window.TAG_LOOKUP = {};
+
+    // --- Main Execution ---
+    document.addEventListener("DOMContentLoaded", async () => {
+        const statusDiv = document.getElementById('status');
+        try {
+            const [metaRes, tagsRes, usageRes] = await Promise.all([ 
+                fetch(METADATA_URL), 
+                fetch(TAGS_URL),
+                fetch(USAGE_URL)
+            ]);
+
+            if (!metaRes.ok) throw new Error(`Metadata Error: ${metaRes.status}`);
+            if (!tagsRes.ok) throw new Error(`Tags CSV Error: ${tagsRes.status}`);
+            if (!usageRes.ok) throw new Error(`Usage CSV Error: ${usageRes.status}`);
+
+            const metadata = await metaRes.json();
+            const tagsText = await tagsRes.text();
+            const usageText = await usageRes.text();
+
+            const fontTagsMap = parseTags(tagsText);
+            const usageMap = parseUsageCSV(usageText);
+
+            // 1. Identify Top 50% Fonts
+            const top50Fonts = getTop50PercentFonts(metadata.familyMetadataList, usageMap);
+
+            // 2. Aggregation
+            const tagCountsTop50 = countTagsInSet(top50Fonts, fontTagsMap);
+            const tagCountsTotal = countTotalTags(metadata.familyMetadataList, fontTagsMap);
+
+            // 3. Merge Data for Table
+            TABLE_DATA = mergeData(tagCountsTop50, tagCountsTotal);
+
+            // 4. Initial Render (Sort by Count Descending)
+            sortTable('count'); 
+            statusDiv.style.display = 'none';
+
+        } catch (err) {
+            console.error(err);
+            statusDiv.innerHTML = `<strong>Error:</strong> ${err.message}<br><small>Note: usage_data.csv must be in the same folder.</small>`;
+            statusDiv.className = 'error';
+        }
+    });
+
+    // --- Data Processing ---
+
+    function parseCSVLine(line) {
+        let parts = [];
+        let current = '';
+        let inQuotes = false;
+        for (let i = 0; i < line.length; i++) {
+            let char = line[i];
+            if (char === '"') { inQuotes = !inQuotes; } 
+            else if (char === ',' && !inQuotes) { parts.push(current); current = ''; } 
+            else { current += char; }
+        }
+        parts.push(current);
+        return parts.map(p => p.trim().replace(/^"|"$/g, ''));
+    }
+
+    function parseTags(csvText) {
+        const lines = csvText.split('\n');
+        const fontTags = {}; 
+
+        for (let i = 1; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if(!line) continue;
+            const parts = parseCSVLine(line);
+            if (parts.length < 3) continue;
+
+            const family = parts[0]; 
+            let rawTag = parts[2];
+            
+            if (!rawTag && parts[1] && parts[1].includes('/')) rawTag = parts[1];
+            if (!rawTag) continue;
+
+            if (rawTag.includes("Quality/")) continue; 
+
+            let cleanTag = rawTag.replace(/^\/+/g, '');
+            
+            if (!fontTags[family]) fontTags[family] = new Set();
+            fontTags[family].add(cleanTag);
+        }
+        return fontTags;
+    }
+
+    function parseUsageCSV(csvText) {
+        const lines = csvText.split('\n');
+        const usage = {}; 
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if (!line) continue;
+            const parts = parseCSVLine(line);
+            if (parts.length < 2) continue;
+            const family = parts[0];
+            const views = parseInt(parts[1].replace(/,/g, ''));
+            if (!isNaN(views)) usage[family] = views;
+        }
+        return usage;
+    }
+
+    function getTop50PercentFonts(fontList, usageMap) {
+        let allFonts = fontList.map(f => ({
+            family: f.family,
+            views: usageMap[f.family] || 0
+        }));
+        allFonts.sort((a, b) => b.views - a.views);
+        const medianIndex = Math.floor(allFonts.length / 2);
+        return allFonts.slice(0, medianIndex); 
+    }
+
+    function countTagsInSet(fontList, fontTagsMap) {
+        const counts = {};
+        fontList.forEach(font => {
+            const tags = fontTagsMap[font.family];
+            if (tags) {
+                tags.forEach(tag => {
+                    if (!counts[tag]) counts[tag] = { tag: tag, count: 0, fonts: [] };
+                    counts[tag].count++;
+                    counts[tag].fonts.push(font.family);
+                });
+            }
+        });
+        return Object.values(counts);
+    }
+
+    function countTotalTags(fontList, fontTagsMap) {
+        const totals = {};
+        fontList.forEach(font => {
+            const tags = fontTagsMap[font.family];
+            if (tags) {
+                tags.forEach(tag => {
+                    totals[tag] = (totals[tag] || 0) + 1;
+                });
+            }
+        });
+        return totals;
+    }
+
+    function mergeData(top50Data, totalData) {
+        // top50Data is array of objects {tag, count, fonts[]}
+        // We map over it to add total and ratio
+        return top50Data.map(item => {
+            const total = totalData[item.tag] || item.count;
+            return {
+                ...item,
+                total: total,
+                ratio: total > 0 ? (item.count / total) : 0
+            };
+        });
+    }
+
+    // --- Rendering ---
+
+    function renderTable() {
+        const tbody = document.querySelector('#main-table tbody');
+        tbody.innerHTML = '';
+
+        // Find max count for bar chart scaling
+        const maxCount = Math.max(...TABLE_DATA.map(d => d.count), 1);
+
+        TABLE_DATA.forEach(row => {
+            const tr = document.createElement('tr');
+            
+            const pct = (row.count / maxCount) * 100;
+            const ratioPercent = (row.ratio * 100).toFixed(0);
+
+            tr.innerHTML = `
+                <td class="tag">${row.tag}</td>
+                
+                <td class="num" style="cursor:pointer" onclick="openModal('${row.tag}')">
+                    <div class="bar-container">
+                        <span>${row.count}</span>
+                        <div class="bar-bg">
+                            <div class="bar-fill" style="width:${pct}%"></div>
+                        </div>
+                    </div>
+                </td>
+
+                <td class="num">
+                    ${ratioPercent}%
+                    <span class="ratio-context">(${row.count}/${row.total})</span>
+                </td>
+            `;
+            tbody.appendChild(tr);
+            
+            // Populate global lookup for modal
+            window.TAG_LOOKUP[row.tag] = row.fonts;
+        });
+    }
+
+    // --- Sorting ---
+    let currentSort = { col: 'count', dir: 'desc' };
+
+    window.sortTable = function(col) {
+        // Toggle direction if clicking same column
+        if (currentSort.col === col) {
+            currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
+        } else {
+            currentSort.col = col;
+            currentSort.dir = 'desc'; // Default desc for new sorts
+        }
+
+        // Update Header Styles
+        document.querySelectorAll('th').forEach(th => th.className = '');
+        const activeHeader = document.getElementById(`th-${col}`);
+        if(activeHeader) activeHeader.classList.add(currentSort.dir);
+
+        // Sort Data
+        TABLE_DATA.sort((a, b) => {
+            let valA = a[col];
+            let valB = b[col];
+
+            // String sort for Tag
+            if (col === 'tag') {
+                return currentSort.dir === 'asc' 
+                    ? valA.localeCompare(valB) 
+                    : valB.localeCompare(valA);
+            }
+            // Numeric sort for Count/Ratio
+            return currentSort.dir === 'asc' ? valA - valB : valB - valA;
+        });
+
+        renderTable();
+    }
+
+    // --- Modal Logic ---
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const fontListEl = document.getElementById('font-list');
+
+    window.openModal = function(tag) {
+        const fonts = window.TAG_LOOKUP[tag];
+        if(!fonts) return;
+
+        modalTitle.textContent = `${tag} (Top 50%) — ${fonts.length} Fonts`;
+        fontListEl.innerHTML = '';
+        
+        fonts.sort((a, b) => a.localeCompare(b));
+        
+        fonts.forEach(font => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = font;
+            a.href = `https://fonts.google.com/specimen/${font.replace(/ /g, '+')}`;
+            a.target = "_blank";
+            li.appendChild(a);
+            fontListEl.appendChild(li);
+        });
+
+        modal.classList.add('modal-active');
+    }
+
+    window.closeModal = function() {
+        modal.classList.remove('modal-active');
+    }
+    
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+
+</script>
+</body>
+</html>

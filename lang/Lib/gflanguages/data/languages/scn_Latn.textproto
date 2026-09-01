@@ -1,0 +1,25 @@
+id: "scn_Latn"
+language: "scn"
+script: "Latn"
+name: "Sicilian"
+autonym: "Sicilianu"
+population: 4700000
+region: "IT"
+exemplar_chars {
+  base: "A B C D Ḍ E F G H I J K L M N O P Q R S T U V W X Y Z À Â È Ê Ì Î Ò Ô Ù Û a b c d ḍ e f g h i j k l m n o p q r s t u v w x y z à â è ê ì î ò ô ù û"
+  marks: "◌̀ ◌̂"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Ii"
+  styles: "Tutti l\'èssiri umani nàscinu lìbbiri"
+  tester: "Tutti l\'èssiri umani nàscinu lìbbiri e avali ntâ dignitati e nnê diritti"
+  poster_sm: "Lìbbiri"
+  poster_md: "Lìbbiri"
+  poster_lg: "Lìbbiri"
+  specimen_48: "Tutti l\'èssiri umani nàscinu lìbbiri e avali nnâ dignitati e nnê diritti."
+  specimen_36: "Tutti l\'èssiri umani nàscinu lìbbiri e avali nnâ dignitati e nnê diritti."
+  specimen_32: "Tutti l\'èssiri umani nàscinu lìbbiri e avali nnâ dignitati e nnê diritti. Sunnu dutati di raciuni e cuscenza e s\'ànnu a cumpurtari unu cu n\'autru cu spirdu di fratirnitati."
+  specimen_21: "Tutti l\'èssiri umani nàscinu lìbbiri e avali nnâ dignitati e nnê diritti. Sunnu dutati di raciuni e cuscenza e s\'ànnu a cumpurtari unu cu n\'autru cu spirdu di fratirnitati."
+  specimen_16: "Tutti l\'èssiri umani nàscinu lìbbiri e avali nnâ dignitati e nnê diritti. Sunnu dutati di raciuni e cuscenza e s\'ànnu a cumpurtari unu cu n\'autru cu spirdu di fratirnitati."
+}

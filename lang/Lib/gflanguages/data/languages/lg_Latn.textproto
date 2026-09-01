@@ -1,0 +1,28 @@
+id: "lg_Latn"
+language: "lg"
+script: "Latn"
+name: "Ganda"
+autonym: "Luganda"
+population: 5622890
+region: "UG"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G i I j J k K l L m M n N {ny} {NY} ŋ Ŋ o O p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "h H q Q x X"
+  index: "A B C D E F G I J K L M N Ŋ O P R S T U V W Y Z"
+}
+sample_text {
+  masthead_full: "AaBb"
+  masthead_partial: "Nn"
+  styles: "Ekitiibwa ky’omuntu eky’obutonde; okwenkanankana,"
+  tester: "Obanga abantu sibakikozesa kujeema ’ngeky’ okulwanyisa ekisembayo,"
+  poster_sm: "Okutegeera"
+  poster_md: "Abantu bonna"
+  poster_lg: "Abantu"
+  specimen_48: "Abantu bazaalibwa nga balina eddembe n’obuyinza ebyenkanankana,"
+  specimen_36: "Tewali muntu asanidde, kutulugunnyizibwa okubonerezebwa oba okuyisibwa mu ngeri eteri ya buntu emutyoboola."
+  specimen_32: "Buli muntu ateekwa okukkirizibwa okutwala ensonga ze mu mbuga entuufu ez’eggwanga zikolebweko singa nga eddembe lyerimuweebwa mu Constitution ne mu mateeka liba lijolongeddwa."
+  specimen_21: "Tewali muntu anakwatibwanga oba okusibibwanga oba okusibibwa oba okuwangangusibwa mu ngeri etegoberera mateeka.\nBuli muntu awatali kusosola, ateekwa okuwozesebwa mu lwatu ate mu bwenkanya mu kooti eyeemala era eterina kyekubira, bwabanga annonya okukakasa onuyinza obumuweebwa mu mateeka singa waliwo omusango ogumenya amateeka ogumuvunaanibwa."
+  specimen_16: "Eddembe ly’omuntu yenna eyo gyabera amaka ge era n’ebbaluwa ze tebitaataganyizzibwe nga oba okwazibwa mu ngeri etegoberera mateeka, so n’erinnya lye teriweebuulwenga oba okulebulwa. Buli muntu ateekwa okukuumibwa amateeka aleme kutaataaganyizibwa oba okulumbibwa mu ngeri eyo.\nBuli muntu alina eddembe ery’okwerowooleza okwawula ekirungi n\'ekibi n\'okulondawo eddini gyanasoma. Eddembe lino lizingiramu obuyinza okukyusa eddini oba enzikiriza ye, n\'obuyinza obubwe ku lulwe oba wamu n\'abantu abalala, mu lwatu oba mu kyama, okwolesa eddini oba enzikiriza ye, ngayigiriza oba ngateeka mu nkola eddini ye byemulagira, nga asinza oba ngakuuma byemugamba."
+}
+source: "R. A. Snoxall, Luganda-English dictionary, Oxford: Clarendon Press, 1967"
+note: "Tones are usualy not marked. When marks ◌́, ◌̀, ◌̂ are used for high, low and falling tones in dictionaries."

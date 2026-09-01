@@ -1,0 +1,15 @@
+# INFM based on https://github.com/arrowtype/shantell-sans
+tag: "INFM"
+display_name: "Informality"
+min_value: 0
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Adjusts overall design from formal and traditional (0%)"
+  " to informal and unconventional (up to 100%)."

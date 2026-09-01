@@ -1,0 +1,26 @@
+id: "koo_Latn"
+language: "koo"
+script: "Latn"
+name: "Konjo"
+region: "UG"
+region: "CD"
+population: 1535000
+exemplar_chars {
+  base: "a A b B d D e E f F g G h H i I k K l L m M n N o O p P q Q r R s S t T u U v V w W y Y z Z"
+  auxiliary: "c C j J x X"
+}
+sample_text {
+  masthead_full: "AaBb"
+  masthead_partial: "Nn"
+  styles: "Abandu omububuthiranwa bakabuthawa ibanawithe"
+  tester: "Abandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho"
+  poster_sm: "Abandu"
+  poster_md: "Abandu"
+  poster_lg: "Abandu"
+  specimen_48: "Abandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe.\nAbandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe."
+  specimen_36: "Abandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe.\nAbandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe."
+  specimen_32: "Abandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe.\nAbandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe."
+  specimen_21: "Abandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe.\nAbandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe."
+  specimen_16: "Abandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe.\nAbandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe.\nAbandu omububuthiranwa bakabuthawa ibanawithe obuthoki nobuholho obulingirirene, mobahangikwa ibanawithe amenge, neryo ibakathoka erighabania abathya ekibuya nekisandire. Nokweryo buli muyima atholere eryanza munyikiwe ngababuthenwe."
+}
+source: "Balinandi Kambale, Lhukonzo literature grammar, Kisubi: Marianum Presss, 2007"

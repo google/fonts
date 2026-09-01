@@ -1,0 +1,11 @@
+id: "nat_Latn"
+language: "nat"
+script: "Latn"
+name: "Cahungwarya"
+population: 20000
+region: "NG"
+exemplar_chars {
+  base: "a A b B c C d D e E g G h H i I j J k K l L m M n N o O p P r R s S t T u U w W y Y z Z"
+  marks: "◌̱"
+  auxiliary: "f F q Q v V x X"
+}

@@ -1,0 +1,20 @@
+id: "gem_Latn"
+language: "gem"
+script: "Latn"
+name: "Germanic languages, Latin"
+historical: true
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ii"
+  styles: "Allai manniz frijai galīkaihw midi werþō"
+  tester: "Allai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai"
+  poster_sm: "Allai manniz"
+  poster_md: "Allai"
+  poster_lg: "Allai"
+  specimen_48: "Allai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi."
+  specimen_36: "Allai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi. Þaimaz atgebanō sindi midwissį̄ gahugdizuh, auk anþiraimaz anadanų brōþurlīkanǭ augijaną skulun."
+  specimen_32: "Allai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi. Þaimaz atgebanō sindi midwissį̄ gahugdizuh, auk anþiraimaz anadanų brōþurlīkanǭ augijaną skulun."
+  specimen_21: "Allai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi. Þaimaz atgebanō sindi midwissį̄ gahugdizuh, auk anþiraimaz anadanų brōþurlīkanǭ augijaną skulun.\nAllai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi. Þaimaz atgebanō sindi midwissį̄ gahugdizuh, auk anþiraimaz anadanų brōþurlīkanǭ augijaną skulun."
+  specimen_16: "Allai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi. Þaimaz atgebanō sindi midwissį̄ gahugdizuh, auk anþiraimaz anadanų brōþurlīkanǭ augijaną skulun.\nAllai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi. Þaimaz atgebanō sindi midwissį̄ gahugdizuh, auk anþiraimaz anadanų brōþurlīkanǭ augijaną skulun.\nAllai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi. Þaimaz atgebanō sindi midwissį̄ gahugdizuh, auk anþiraimaz anadanų brōþurlīkanǭ augijaną skulun.\nAllai manniz frijai galīkaihw midi werþō rehtamizuh gaburanai sindi. Þaimaz atgebanō sindi midwissį̄ gahugdizuh, auk anþiraimaz anadanų brōþurlīkanǭ augijaną skulun."
+}
+note: "Samples are Proto-Germanic (reconstructed) and used on Omniglot.com."

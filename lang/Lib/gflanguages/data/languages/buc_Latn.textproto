@@ -1,0 +1,32 @@
+id: "buc_Latn"
+language: "buc"
+script: "Latn"
+name: "Bushi"
+autonym: "Shibushi"
+population: 57762
+region: "YT"
+exemplar_chars {
+  base: "A À B Ɓ D Ɗ E È F G H I Ì J K L M N Ŋ O Ò P R S T U Ù V W X Y Z a à b ɓ d ɗ e è f g h i ì j k l m n ŋ o ò p r s t u ù v w x y z"
+  auxiliary: "C c Ƀ ƀ Đ đ Ĵ ĵ {N̂} {n̂} {N̈} {n̈} Ô ô Q q Ŝ ŝ Ẑ ẑ"
+  marks: "◌̀ ◌̂ ◌̃ ◌̈"
+}
+sample_text {
+  masthead_full: "ƁɓIi"
+  masthead_partial: "Ŋŋ"
+  styles: "An-fahitaŋa amba, fikuɓaliaŋa amba ɓinadamu"
+  tester: "An-fahitaŋa amba, tsifahizaŋa ndreka fipuzisaŋa haki-l-adamì ro mikutsonga"
+  poster_sm: "An-An- fahitaŋa"
+  poster_md: "An- fahitaŋa"
+  poster_lg: "Ɓinadamu"
+  specimen_48: "An- fahitaŋa amba, fikutrugaŋa djumla nin-sharia ndreka nafasi retu"
+  specimen_36: "Tsisi huluŋu mbu atou andevu au andivuzaŋa : fandivuzaŋa ndreka kula kalite nin-fanyiraha ki andevu, tsi kuruhusuŋu."
+  specimen_32: "Kula huluŋu misi haki an-faŋabwahaŋa vaha ndreka fangalaŋa nafasi, amin’ni zenyi, an-faŋanovaŋa mupaka mikustahiki amin’ni muda nin-hasa ndreka anfaŋabwahaŋa vaha ifaŋa nim-muda."
+  specimen_21: "Kula huluŋu misi haki an-faŋanovaŋa modeli atà utrilivu amin’ni maisha ki ɓinadamu ndreka amin’ni ulemengu ikuɓala atà haki ndreka unafasi nikudukuruŋu aŋatim- Matekelezo itì, ikurumianaŋa namuna nin-kulazimu.\nTsisi atà sharia areki nim-Matekelezo itì mbu heti kutafaswirinyi amin’ni lalaŋa mikuruhusu, Daula, shikao au huluŋu areki, ihisi haki itsokao yotsi nin-faŋanovaŋa mahafala au ãmali mandrubaka haki ndreka unafasi nikudukuruŋu etu."
+  specimen_16: "An-fahitaŋa amba, fikuɓaliaŋa amba ɓinadamu djabi nitirahinyi ndreka usheu ndreka haki meraŋa nandzari ro musingi nin-nafasi, nin-haki ndreka usalama duniani ;\nAn-fahitaŋa amba, tsifahizaŋa ndreka fipuzisaŋa haki-l-adamì ro mikutsonga faŋanovaŋa shitrendro ki katili maneitri rohu nin-umati djabi, amin’ni zenyi, fitunga nin-ulemengu mbu kuruhusu ɓinadamu ivulaŋa ndreka ikwamini aminnafasi, ɓilà tahutru wala taãɓu nin-ufukara, ro nikutekelezaŋa kirasimi, ustaãraɓu beheben-djabi ninhulumbelu ;\nAn- fahitaŋa amba, Daula Aŋatin-shama itì ndreka shama nin-Uvumoja nin-Twaifa (Shama nin-Daula nin-Ulemengu) nangala wahadi an-ndreu aŋaraka kaɓaru retu atà haki-ladamì ndreka nafasi musingi ikustehinyi nankitinyi amin’ni dunia mafia ;"
+}
+source: "Département de Mayotte, Alphabets des langues mahoraises, 2020"
+source: "Département de Mayotte, Recueil des actes administratifs, 20 avril 2020"
+source: "N. J. Gueunier, Dictionnaire du dialecte malgache de Mayotte (Comores), Moroni: KomEDIT, 2016"
+source: "N. J. Gueunier & Madjidhoubi Said, Contes comoriens en dialecte malgache de l’île de Mayotte, vol. 1-3, Peeters, vol. 4, Karthala, 1990-2011"
+source: "R. Janet, Dictionnaire Kibushi, Webonary.org, 2020"
+note: "Gueunier 2016 and earlier work propose and use ƀ (with a middle stroke), đ (with a middle stroke, or ꟈ) and uses ĵ, n̂, n̈, ô, ŝ, ẑ as linguists from the Malagasy department of the Université d‘Antananarivo. Gueunier 2016 also uses tilde for nasalisation of vowels but . In 2020, the Département de Mayotte adopted a different alphabet consistent with the Shimaore alphabet, using ɓ, ɗ, ŋ (or gn), several digraphs, tilde accent for nasalisation of vowels, and with o, u instead of ô, u. The grave accent is typically used for indicating stress when irregular and necessary for disambiguation, like in Malagasy, but it’s not clear if it is combined with other diacritics in practice."

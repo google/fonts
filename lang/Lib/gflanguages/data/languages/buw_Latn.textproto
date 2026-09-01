@@ -1,0 +1,13 @@
+id: "buw_Latn"
+language: "buw"
+script: "Latn"
+name: "gevové"
+population: 4000
+region: "GA"
+exemplar_chars {
+    base: "a A b B d D e E ɛ Ɛ g G i I k K l L m M {mb} {Mb} n N {nd} {Nd} {ng} {Ng} {nz} {Nz} ɲ Ɲ o O ɔ Ɔ p P s S t T {ts} {Ts} u U v V w W y Y"
+    auxiliary: "ꞵ Ꞵ ɣ Ɣ {dy} {Dy} {ny} {Ny}"
+}
+source: "Roger Mickala Manfoumbi, Lexique pove-français français-pove, éditions Raponda Walker, 2004"
+source: "Hugues Steve Ndinga-Koumba-Binza, “Lexique Pove–Français/Français–Pove, Mickala Manfoumbi: Seconde Note de Lecture”, Lexikos 16, 2006, 293-308"
+source: "Lolke J. Van der Veen, “Ɣeꞵoꞵe”, Revue gabonaise des sciences de l’Homme, no. 2 “Actes du séminaire des experts : Alphabet scientifique des langues du Gabon (20/24 février 1989)”, 1990, 192‒195"

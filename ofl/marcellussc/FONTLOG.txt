@@ -1,0 +1,52 @@
+FONTLOG for the Marcellus SC fonts
+
+This file provides detailed information on the Marcellus SC 
+Font Software.
+
+This information should be distributed along with the Marcellus SC fonts
+and any derivative works.
+
+Basic Font Information
+
+Marcellus and Marcellus SC (small caps) are a set of flared 
+serif typeface, inspired by classic Roman inscription letterforms. 
+While the SC family leans more towards the titling style of 
+Trajan, the Regular version lends itself to a wider range of usage.
+These elegant typefaces, when combined in use, exude clarity and beauty
+for both on screen and printed materials.
+
+Designed by Astigmatic (AOETI).
+
+Marcellus SC is a Unicode typeface family that supports languages that 
+use the Latin script and its variants, and could be expanded to 
+support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+There are 3 source files:
+
+1. MarcellusSC-Regular.vfb Original Source files with contour overlaps
+
+2. MarcellusSC-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. MarcellusSC-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+ChangeLog
+
+7 April 2012 (Brian J. Bonislawsky) Marcellus SC v1.001
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface and Software Designer

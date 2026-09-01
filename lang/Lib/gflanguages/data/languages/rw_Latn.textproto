@@ -1,0 +1,28 @@
+id: "rw_Latn"
+language: "rw"
+script: "Latn"
+name: "Kinyarwanda"
+autonym: "Kinyarwanda"
+population: 11083625
+region: "CD"
+region: "RW"
+region: "UG"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaBb"
+  masthead_partial: "Nn"
+  styles: "- Ugushyira ukizana, ituze n\'ubutungane mu bihugu"
+  tester: "- Gusuzugura no kwirengagiza ako gaciro n\'icyubahiro bya buli muntu"
+  poster_sm: "- Ali ngombwa"
+  poster_md: "- Ibihugu"
+  poster_lg: "Abantu"
+  specimen_48: "- Ibihugu byose byunz\'ubumwe byarahiliye gufasha umuryango wa l\'ONU"
+  specimen_36: "Abantu bose bavuka aliko bakwiye agaciro no kwubahwa kimwe. Bose bavukana ubwenge n\'umutima, bagomba kugilirana kivandimwe."
+  specimen_32: "Kandi nta muntu uruta undi, ngo kuko baba bakomoka mu bihugu batareshya. Ali abaturage b\'ibihugu byigenga cyanga se bigitwarwa, bikiyoborwa n\'ibindi, bose ni abantu kimwe."
+  specimen_21: "Umuntu wese agomba kubaho, gushyira akizana no kutarengana.\nNta muntu ukwiye guhinduka imbohe cyanga umuja. Kugira abantu abaja cyanga se kubacururuza biraciwe rwose.\nNta muntu ugomba kugilirwa urugomo, kuzira agashinyaguro, kwicwa urupfu rubi.\nAho umuntu ali hose agomba kurengerwa n\'amategeko y\'igihugu.\nAbantu bose ni kimwe ku byerekeye amategeko, kandi bose niki agomba kubarengera kimwe, akabalinda akarengane gaciye ukubili n\'ili Tangazo, akabalinda ndetse n\'ibishobora byose gutera ako karengane."
+  specimen_16: "Buli muntu afite ububasha bwo kuregera inkiko imigenzereze yose iciye ku burenganzira yahawe n\'amategeko.\nNtawe ushobora gufunga umuntu ku karengane cyanga se kumuca mu gihugu.\nUrubanza rw\'umuntu wese, mbere yo gucibwa, rugomba kwumvikana ku mugaragaro, nta karengane, abacamanza bakabona kurukiranura batabera.\nNtawe ugomba kwirohera nta mpamvu mu byerekeye imibereho y\'umuntu n\'iy\'abe, mu rugo rwe no mu nzandiko ze, cyanga se ngo amusebye. Muli ibyo byose kandi amategeko y\'igihugu agomba kulinda umuntu wese akarengane.\nMu bitekerezo by\'umuntu, mu bimutunganiye idini, buli muntu agomba gushyira akizana. Nukuvuga ko ashobora guhindura ibitekezo bye n\'idini, kubigaragaza mu ruhame cyanga ahiherereye, kubyigisha na kubikulikiza, ku mutima no mu mihango ibigaragaza."
+}

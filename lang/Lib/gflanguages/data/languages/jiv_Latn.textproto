@@ -1,0 +1,22 @@
+id: "jiv_Latn"
+language: "jiv"
+script: "Latn"
+name: "Shuar, Ecuador (Latin)"
+region: "EC"
+exemplar_chars {
+  base: "A C E H I J K M N Ñ P R S T U W Y Ã Ẽ Ĩ Ũ a c e h i j k m n ñ p r s t u w y \' ã ẽ ĩ ũ"
+}
+sample_text {
+  masthead_full: "PpEe"
+  masthead_partial: "Nn"
+  styles: "Penker inintimsamka mash aintsti ankan, matekrin"
+  tester: "Penker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin"
+  poster_sm: "Penker"
+  poster_md: "Penker"
+  poster_lg: "Penker"
+  specimen_48: "Penker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak."
+  specimen_36: "Penker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak."
+  specimen_32: "Penker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak."
+  specimen_21: "Penker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak.\nPenker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak.\nPenker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak."
+  specimen_16: "Penker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak.\nPenker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak.\nPenker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak.\nPenker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak.\nPenker inintimsamka mash aintsti ankan, matekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti aratukmau atinuitji mai matekrak."
+}

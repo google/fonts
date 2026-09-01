@@ -1,0 +1,26 @@
+id: "mh_Latn"
+language: "mh"
+script: "Latn"
+name: "Marshallese"
+autonym: "Kajin Ṃajeḷ"
+population: 56879
+region: "MH"
+exemplar_chars {
+  base: "A Ā B D E I J K L Ļ Ḷ M {M̧} Ṃ N Ņ Ṇ {N̄} O Ō {O̧} Ọ P R T U Ū W a ā b d e i j k l ļ ḷ m {m̧} ṃ n ņ ṇ {n̄} o ō {o̧} ọ p r t u ū w"
+  marks: "◌̄ ◌̦ ◌̧ ◌̨ ◌̣"
+}
+note: "Letters with cedilla have been replaced by letters with dot below as in the Marshallese-English Online Dictionary. Nevertheless, they should have a consistent cedilla when used."
+sample_text {
+  masthead_full: "AaRr"
+  masthead_partial: "Mm"
+  styles: "Kinke watoke utiej eo ej mottan maron ko"
+  tester: "Kinke ne ej ejelok lemnok kaki im kwo-wan maron ko an armij enwij"
+  poster_sm: "Kinke ekanuij"
+  poster_md: "Kinke elap"
+  poster_lg: "Armij"
+  specimen_48: "Kinke armij ro otemmjej air United Nations emwij air bar kabine"
+  specimen_36: "Kinke melele eo einwot juon kin maron kein im anemkwoj kein ej men eo elaptata tokjen non kotobrak kalimur in,"
+  specimen_32: "En ejelok en ej dri komakoko ak ber ilo jerbel in komakoko; jerbal in komakoko ak wiakake armij non jerbal in komakoko en mo komoni ilo jabrewot wawin ko."
+  specimen_21: "En ejelol armij en ej ber ilo intan im kokkure non enbwin eo an lak ilo wawin ko rellej, ak kaje kin wawin ko ejelok ilo mantin mour an armij ak ilo wawin eo ej men in lelok non e jerata.\nKajojo armij eor an maron bwe en wor watoke ijoko otemjej ke e ej bar juon armij iman kien.\nKajojo armij eor an maron in kajitok ak bukot wawin ko non lomoren ilo iman dri ekajet ro ak jikin ekajet ko ilo lol ko air nae wawin ko rej kokkure maron ko air rellaptata im kien ko ak jemen e ko rar lilok non e."
+  specimen_16: "En ejelok armij en ej balbuj, ber ilo balbuj ak emwij jilkinlok e jen ailin eo kin kilan jeb.\nKajojo armij eor im jonon an maron wot bar ro jet bwe en ber im jutak iman dri ekajet ro ak ilo jikin ekajet eo emon im ejelok jeb, ilo bukot maron ko an im ijoko kwonan kin jabrewot nana eo ear komone im eor liakelok e kake.\nEn ejelok armij en ej ber ilo aban kin kilan jeb nae mour im men ko an make, bamle eo an, kabijuknen eo an ak leta ko an, ak bareinwot en ejelok men in kokkure utiej eo an im mwilin. Kajojo armij otemjej eor an maron bwe kien en kejbarok e jen men in aban ak kokkure."
+}

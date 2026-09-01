@@ -1,0 +1,29 @@
+id: "mt_Latn"
+language: "mt"
+script: "Latn"
+name: "Maltese"
+autonym: "Malti"
+population: 457267
+region: "MT"
+exemplar_chars {
+  base: "A À B Ċ D E È F Ġ G {GĦ} H Ħ I Ì J K L M N O Ò P Q R S T U Ù V W X Ż Z a à b ċ d e è f ġ g {għ} h ħ i ì j k l m n o ò p q r s t u ù v w x ż z"
+  auxiliary: "C Y c y"
+  marks: "◌̀ ◌̂ ◌̇"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { }"
+  index: "A B Ċ C D E F Ġ G {GĦ} H Ħ I {IE*} J K L M N O P Q R S T U V W X Y Ż Z"
+}
+sample_text {
+  masthead_full: "IiLl"
+  masthead_partial: "Bb"
+  styles: "Billi l-għarfien tad-dinjità proprja tal-membri"
+  tester: "Billi t-tkasbir u ż-żebliħ tal-jeddijiet tal-bniedem ġabu magħhom"
+  poster_sm: "Billi fl-Istatut"
+  poster_md: "Billi fehma"
+  poster_lg: "kollha"
+  specimen_48: "Għaldaqstant, l-ASSEMBLEA ĠENERALI xxandar DIN L-ISTQARRIJA UNIVERALI"
+  specimen_36: "Ħadd m’għandu jingħata tortura jew kastig jew trattament aħrax, li ma jixraqx lill-bniedem jew li jbaxxih."
+  specimen_32: "Kulħadd għandu l-jedd quddiem it-tribunali nazzjonali kompetenti għal rimedji effettivi kontra l-ksur tal-jeddijiet fondamentali li lilu huma magħrufa mill-kostituzzjoni jew mil-liġi."
+  specimen_21: "Ħadd m’għandu jitħalla jkun imħarrek, miżmum il-ħabs jew itturufnat għalxejn b’xejn.\nKulħadd għandu l-jedd b’ugwaljanza sħiħa li jkun mismugħ bil-ħaqq u fil-pubbliku minn tribunal indipendenti u imparzjali, li jiddeċiedi l-jeddijiet u d-dmirijiet tiegħu jew xi akkuża kriminali kontrieh.\nKulħadd għandu l-jedd għall-mistrieħ u għall-btajjel, kif ukoll għal limitazzjoni ta’ ħin raġjonevoli ta’ xogħol u għal vaganzi perjodiċi mħallsin."
+  specimen_16: "Kulħadd hu intitolat għal ordni soċjali u internazzjonali li fih il-jeddijiet u l-libertajiet imxandra f’din l-Istqarrija jkunu jistgħu jitwettqu tassew.\nXejn f’din l-Istqarrija ma jista’ jkun mifhum li jagħti lil xi Stat, għaqda jew persuna l-jedd li tagħmel xi ħidma jew li twettaq xi għemil bil-għan li teqred xi jeddijiet jew libertajiet li huma mxandra hawnhekk.\nBilli l-għarfien tad-dinjità proprja tal-membri kollha tal-familja umana u tad-drittijiet tagħhom ugwali li ma jistgħux jitteħdulhom hu s-sies tal-ħelsien, tal-ħaqq u tal-paċi fid-dinja,\nBilli hu essenzjali li l-jeddijiet tal-bniedem ikunu mħarsa bil-ħakma tal-liġi biex il-bniedem ma jkunx imġiegħel, fl-aħħar mill-aħħar, li jqum kontra t-tirannija u l-moħqrija,"
+}

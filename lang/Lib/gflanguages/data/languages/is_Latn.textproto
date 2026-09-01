@@ -1,0 +1,29 @@
+id: "is_Latn"
+language: "is"
+script: "Latn"
+name: "Icelandic"
+autonym: "Íslenska"
+population: 350734
+region: "IS"
+exemplar_chars {
+  base: "A Á B D Ð E É F G H I Í J K L M N O Ó P R S T U Ú V X Y Ý Þ Æ Ö a á b d ð e é f g h i í j k l m n o ó p r s t u ú v x y ý þ æ ö"
+  auxiliary: "C Q W Z c q w z"
+  marks: "◌́ ◌̈ ◌̨"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ‚ \" “ „ ( ) [ ] @ * / & #"
+  index: "A Á B C D Ð E É F G H I Í J K L M N O Ó P Q R S T U Ú V W X Y Ý Z Þ Æ Ö"
+}
+sample_text {
+  masthead_full: "HhVv"
+  masthead_partial: "Ee"
+  styles: "Það ber að viðurkenna, að hver maður sé jafnborinn"
+  tester: "Hafi mannréttindi verið fyrir borð borin og lítilsvirt, hefur"
+  poster_sm: "Mannréttindi"
+  poster_md: "Í stofnskrá"
+  poster_lg: "Hver"
+  specimen_48: "Aðildarríkin hafa bundizt samtökum um að efla almenna virðingu"
+  specimen_36: "Engan mann skal hneppa í þrældóm né nauðungarvinnu. Þrælahald og þrælaverzlun, hverju nafni sem nefnist, skulu bönnuð."
+  specimen_32: "Hverjum manni ber réttur til þess þjóðfélags- og milliþjóðaskipulags, er virði og framkvæmi að fullu mannréttindi þau, sem í yfirlýsingu þessari eru upp talin."
+  specimen_21: "Ekkert atriði þessarar yfirlýsingar má túlka á þann veg, að nokkru ríki, flokki manna eða einstaklingi sé heimilt að aðhafast nokkuð það, er stefni að því að gera að engu nokkur þeirra mannréttinda, sem hér hafa verið upp talin.\nÞað ber að viðurkenna, að hver maður sé jafnborinn til virðingar og réttinda, er eigi verði af honum tekin, og er þetta undirstaða frelsis, réttlætis og friðar i heiminum."
+  specimen_16: "Það ber að viðurkenna, að hver maður sé jafnborinn til virðingar og réttinda, er eigi verði af honum tekin, og er þetta undirstaða frelsis, réttlætis og friðar i heiminum.\nHafi mannréttindi verið fyrir borð borin og lítilsvirt, hefur slíkt haft í för með sér siðlausar athafnir, er ofboðið hafa samvizku mannkynsins, enda hefur því verið yfir lýst, að æðsta markmið almennings um heim allan sé að skapa veröld, þar sem menn fái notið málfrelsis , trúfrelsis og óttaleysis um einkalíf afkomu.\nMannréttindi á að vernda með lögum. Að öðrum kosti hljóta menn að grípa til þess örþrifaráðs að rísa upp gegn kúgun og ofbeldi."
+}

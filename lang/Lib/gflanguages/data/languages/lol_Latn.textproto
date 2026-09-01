@@ -1,0 +1,15 @@
+id: "lol_Latn"
+language: "lol"
+script: "Latn"
+name: "Mongo"
+population: 620858
+region: "CD"
+exemplar_chars {
+  base: "a A à À á Á â Â ǎ Ǎ b B d D e E è È é É ê Ê ě Ě ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} f F g G h H i I ì Ì í Í î Î ǐ Ǐ k K l L m M n N o O ò Ò ó Ó ô Ô ǒ Ǒ ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} p P t T u U ù Ù ú Ú û Û ǔ Ǔ w W y Y z Z"
+  marks: "◌̀ ◌́ ◌̂ ◌̌"
+  auxiliary: "c C j J q Q r R s S v V x X"
+}
+source: "Gustaaf Hulstaert, Dictionnaire lɔmɔ́ngɔ-français, vol. 1 : A-J, Tervuren: Musée royal du Congo belge (MRAC), 1952"
+source: "Gustaaf Hulstaert, Dictionnaire lɔmɔ́ngɔ-français, vol. 2 : K-Z, Tervuren: Musée royal du Congo belge (MRAC), 1957"
+source: "SBZ, Bonkanda wa Nazakomba, Société Biblique du Zaïre (Société Biblique du Zaïre de la R.D. Congo), 1987"
+note: "SBZ 1987 does not use ɛ ɔ nor accents to mark tones."

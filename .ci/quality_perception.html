@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Perception</title>
+    <style>
+        /* --- LAYOUT --- */
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; 
+            background: #f8f9fa; 
+            color: #202124;
+            font-family: 'Google Sans', Roboto, sans-serif; 
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header-section {
+            flex: 0 0 auto;
+            margin-bottom: 15px;
+        }
+
+        h1 { margin: 0 0 5px 0; }
+        p.subtitle { color: #5f6368; margin: 0 0 15px 0; font-size: 0.9rem; }
+
+        /* --- CHART SECTION --- */
+        .chart-section {
+            flex: 0 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+            padding: 15px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chart-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #5f6368;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        /* INCREASED HEIGHT & PADDING HERE */
+        .chart-container {
+            height: 180px; /* Taller to fit labels */
+            display: flex;
+            align-items: flex-end;
+            gap: 4px;
+            overflow-x: auto; 
+            padding-bottom: 120px; /* More space for rotated text */
+            scrollbar-width: thin;
+            scrollbar-color: #ccc transparent;
+
+            background-image: linear-gradient(
+                to bottom,
+                transparent 89px,
+                #dadce0 89px,
+                #dadce0 90px,
+                transparent 90px
+            );
+            background-attachment: local;
+            background-attachment: scroll;
+            background-repeat: no-repeat
+        }
+        
+        .chart-container::-webkit-scrollbar { height: 6px; }
+        .chart-container::-webkit-scrollbar-thumb { background-color: #ccc; border-radius: 3px; }
+
+        .chart-bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 30px; 
+            height: 100%;
+            justify-content: flex-end;
+            position: relative;
+        }
+
+        .chart-bar {
+            width: 18px;
+            background-color: #34a853;
+            border-radius: 3px 3px 0 0;
+            transition: height 0.3s ease;
+            position: relative;
+        }
+        
+        .chart-bar:hover { background-color: #2d9147; }
+        
+        .chart-bar:hover::after {
+            content: attr(data-val);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 4px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            white-space: nowrap;
+            margin-bottom: 4px;
+            z-index: 10;
+        }
+
+        /* ADJUSTED LABEL POSITIONING */
+        .chart-label {
+            margin-top: 10px; /* Shift down */
+            font-size: 9px;
+            color: #5f6368;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 120px; /* Wider */
+            text-align: left;
+            
+            /* Rotate 45deg (down-right) from the top-left corner */
+            transform: rotate(45deg);
+            transform-origin: left top; 
+            
+            position: absolute;
+            top: 100%;
+            left: 50%; /* Start at center of bar */
+            margin-left: -2px; /* Slight centering adjustment */
+        }
+        
+        /* --- TABLE SECTION --- */
+        .table-container { 
+            flex: 1; 
+            overflow: auto; 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+            position: relative;
+        }
+
+        table { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 1000px; }
+        
+        th { 
+            background-color: #f1f3f4; 
+            position: sticky; top: 0; z-index: 10; 
+            font-weight: 600; color: #5f6368; font-size: 0.75rem; 
+            text-transform: uppercase; letter-spacing: 0.5px; 
+            padding: 12px 16px; border-bottom: 1px solid #ddd; 
+            text-align: left; 
+            cursor: pointer;
+        }
+        
+        th:hover { background-color: #e8eaed; color: #202124; }
+
+        td { font-size: 0.9rem; padding: 12px 16px; border-bottom: 1px solid #eee; vertical-align: middle; }
+        td.num { text-align: right; font-variant-numeric: tabular-nums; }
+        td.tag-name { font-weight: 500; color: #1a73e8; }
+        td.rank { color: #5f6368; font-weight: bold; }
+
+        .bar-container { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+        .bar { height: 6px; border-radius: 3px; min-width: 2px; }
+        .bar-high { background-color: #34a853; } 
+        .bar-mid  { background-color: #fbbc04; } 
+        .bar-low  { background-color: #ea4335; } 
+        .count-label { font-size: 0.85rem; color: #202124; min-width: 30px; text-align: right; }
+
+        #status { padding: 10px; margin-bottom: 15px; border-radius: 4px; display: none; }
+        .loading { background-color: #e8f0fe; color: #1967d2; display: block !important; }
+        .error { background-color: #fce8e6; color: #c5221f; display: block !important; }
+
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-active { display: flex; }
+        .modal-content { background: white; width: 90%; max-width: 600px; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; }
+        .modal-header { padding: 16px 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; background: #f1f3f4; }
+        .modal-title { margin: 0; font-size: 1.1rem; color: #202124; }
+        .close-btn { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #5f6368; }
+        .modal-body { padding: 20px; overflow-y: auto; }
+        ul.font-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+        ul.font-list li a { text-decoration: none; color: #1a73e8; font-size: 0.95rem; display: block; padding: 4px 8px; border-radius: 4px; }
+        ul.font-list li a:hover { background-color: #e8f0fe; }
+
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <h1>Tag Perception</h1>
+        <p class="subtitle">Ranked by Usage, sorted by Ratio of good fonts to total fonts.</p>
+    </div>
+
+    <div class="chart-section">
+        <div class="chart-title">High Quality Ratio (>70) by Tag</div>
+        <div id="ratio-chart" class="chart-container">
+            </div>
+    </div>
+
+    <div class="table-container">
+        <table id="dashboard">
+            <thead>
+                <tr>
+                    <th onclick="sortTable('tag')">Tag / Category</th>
+                    <th onclick="sortTable('viewRank')" class="num" title="Fixed Rank by Total Views">Usage Rank</th>
+                    <th onclick="sortTable('views')" class="num">Total Monthly Views</th>
+                    <th onclick="sortTable('high')" class="num" title="Score >= 70">Score &ge; 70</th>
+                    <th onclick="sortTable('mid')" class="num" title="50 <= Score < 70">Score 50–70</th>
+                    <th onclick="sortTable('low')" class="num" title="Score < 50">Score &lt; 50</th>
+                    <th onclick="sortTable('ratio')" class="num">Ratio > 70</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title">Fonts List</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul id="font-list" class="font-list"></ul>
+            </div>
+        </div>
+    </div>
+
+<script>
+    // --- Configuration ---
+    const METADATA_URL = "catalog_metadata.json";
+    const TAGS_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv";
+    const USAGE_URL = "usage_data.csv"; 
+
+    const WEIGHTS = { "Concept": 0.4, "Drawing": 0.3, "Spacing": 0.2, "Wordspace": 0.1 };
+
+    let TABLE_DATA = [];
+
+    // --- Main Execution ---
+    document.addEventListener("DOMContentLoaded", async () => {
+        const statusDiv = document.getElementById('status');
+        try {
+            const [metaRes, tagsRes, usageRes] = await Promise.all([ 
+                fetch(METADATA_URL), 
+                fetch(TAGS_URL),
+                fetch(USAGE_URL)
+            ]);
+
+            if (!metaRes.ok) throw new Error(`Metadata Error: ${metaRes.status}`);
+            if (!tagsRes.ok) throw new Error(`Tags CSV Error: ${tagsRes.status}`);
+            if (!usageRes.ok) throw new Error(`Usage CSV Error: ${usageRes.status}`);
+
+            const metadata = await metaRes.json();
+            const tagsText = await tagsRes.text();
+            const usageText = await usageRes.text();
+
+            const { scores, fontTags } = parseTagsData(tagsText);
+            const usageMap = parseUsageCSV(usageText);
+
+            TABLE_DATA = aggregateData(metadata.familyMetadataList, scores, fontTags, usageMap);
+            
+            renderTable(TABLE_DATA);
+            statusDiv.style.display = 'none';
+
+        } catch (err) {
+            console.error(err);
+            statusDiv.innerHTML = `<strong>Error:</strong> ${err.message}<br><small>Note: usage_data.csv must be in the same folder.</small>`;
+            statusDiv.className = 'error';
+        }
+    });
+
+    // --- Parsing Logic ---
+
+    function parseCSVLine(line) {
+        let parts = [];
+        let current = '';
+        let inQuotes = false;
+        for (let i = 0; i < line.length; i++) {
+            let char = line[i];
+            if (char === '"') { inQuotes = !inQuotes; } 
+            else if (char === ',' && !inQuotes) { parts.push(current); current = ''; } 
+            else { current += char; }
+        }
+        parts.push(current);
+        return parts.map(p => p.trim().replace(/^"|"$/g, ''));
+    }
+
+    function parseTagsData(csvText) {
+        const lines = csvText.split('\n');
+        const rawQualityValues = {}; 
+        const fontTags = {}; 
+
+        for (let i = 1; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if(!line) continue;
+            
+            const parts = parseCSVLine(line);
+            if (parts.length < 3) continue;
+
+            const family = parts[0]; 
+            let rawTag = parts[2];
+            let weightStr = parts[3];
+            
+            if (!rawTag && parts[1] && parts[1].includes('/')) {
+                rawTag = parts[1];
+                weightStr = parts[2];
+            }
+
+            if (!rawTag) continue;
+
+            if (rawTag.includes("Quality/")) {
+                const type = rawTag.split("Quality/")[1];
+                const weight = parseFloat(weightStr || 0);
+                if (type && !isNaN(weight)) {
+                    if (!rawQualityValues[family]) rawQualityValues[family] = {};
+                    rawQualityValues[family][type] = weight;
+                }
+            } else {
+                // Show full tag (remove only leading slash)
+                let cleanTag = rawTag.replace(/^\/+/g, '');
+                
+                if (!fontTags[family]) fontTags[family] = new Set();
+                fontTags[family].add(cleanTag);
+            }
+        }
+
+        const scores = {};
+        for (const [family, cats] of Object.entries(rawQualityValues)) {
+            let s = 0;
+            s += (cats['Concept'] || 0) * WEIGHTS['Concept'];
+            s += (cats['Drawing'] || 0) * WEIGHTS['Drawing'];
+            s += (cats['Spacing'] || 0) * WEIGHTS['Spacing'];
+            s += (cats['Wordspace'] || 0) * WEIGHTS['Wordspace'];
+            scores[family] = s;
+        }
+        
+        return { scores, fontTags };
+    }
+
+    function parseUsageCSV(csvText) {
+        const lines = csvText.split('\n');
+        const usage = {}; 
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if (!line) continue;
+            const parts = parseCSVLine(line);
+            if (parts.length < 2) continue;
+            const family = parts[0];
+            const views = parseInt(parts[1].replace(/,/g, ''));
+            if (!isNaN(views)) usage[family] = views;
+        }
+        return usage;
+    }
+
+    // --- Aggregation Logic ---
+
+    function aggregateData(fontList, scores, fontTagsMap, usageMap) {
+        const tagStats = {}; 
+
+        fontList.forEach(font => {
+            const family = font.family;
+            const views = usageMap[family] || 0;
+            const score = scores[family] || 0;
+            const tags = fontTagsMap[family];
+
+            if (tags) {
+                tags.forEach(tag => {
+                    if (!tagStats[tag]) {
+                        tagStats[tag] = { 
+                            tag: tag, 
+                            views: 0, 
+                            high: 0, mid: 0, low: 0,
+                            fontsHigh: [], fontsMid: [], fontsLow: []
+                        };
+                    }
+
+                    tagStats[tag].views += views;
+
+                    if (score >= 70) {
+                        tagStats[tag].high++;
+                        tagStats[tag].fontsHigh.push(family);
+                    } else if (score >= 50) {
+                        tagStats[tag].mid++;
+                        tagStats[tag].fontsMid.push(family);
+                    } else {
+                        tagStats[tag].low++;
+                        tagStats[tag].fontsLow.push(family);
+                    }
+                });
+            }
+        });
+
+        const result = Object.values(tagStats).map(t => {
+            const total = t.high + t.mid + t.low;
+            t.ratio = total > 0 ? (t.high / total) : 0;
+            return t;
+        });
+
+        // 1. Assign Usage Rank
+        result.sort((a, b) => b.views - a.views);
+        result.forEach((item, index) => {
+            item.viewRank = index + 1;
+        });
+        
+        // 2. Initial Sort by Ratio Descending
+        result.sort((a, b) => b.ratio - a.ratio);
+
+        return result;
+    }
+
+    // --- Rendering ---
+
+    function renderTable(data) {
+        const tbody = document.querySelector('#dashboard tbody');
+        tbody.innerHTML = '';
+
+        renderChart(data);
+
+        data.forEach(row => {
+            const tr = document.createElement('tr');
+            const totalFonts = row.high + row.mid + row.low;
+            const ratioPercent = (row.ratio * 100).toFixed(1) + '%';
+            
+            const createBarCell = (count, type, fontList) => {
+                const percent = totalFonts > 0 ? (count / totalFonts) * 100 : 0;
+                const width = Math.max(2, percent * 0.8); 
+                
+                let barClass = type === 'high' ? 'bar-high' : type === 'mid' ? 'bar-mid' : 'bar-low';
+                let cursor = count > 0 ? 'pointer' : 'default';
+                let onclick = count > 0 ? `onclick="openModal('${row.tag}', '${type}', this)"` : '';
+
+                return `
+                    <td class="num" style="cursor:${cursor}" ${onclick}>
+                        <div class="bar-container">
+                            <div class="count-label">${count}</div>
+                            <div class="bar ${barClass}" style="width: ${width}px; opacity: ${count ? 1 : 0.1}"></div>
+                        </div>
+                    </td>
+                `;
+            };
+
+            tr.innerHTML = `
+                <td class="tag-name">${row.tag}</td>
+                <td class="num rank">#${row.viewRank}</td>
+                <td class="num"><strong>${row.views.toLocaleString()}</strong></td>
+                ${createBarCell(row.high, 'high', row.fontsHigh)}
+                ${createBarCell(row.mid, 'mid', row.fontsMid)}
+                ${createBarCell(row.low, 'low', row.fontsLow)}
+                <td class="num" style="font-weight:bold;">${ratioPercent}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    function renderChart(data) {
+        const container = document.getElementById('ratio-chart');
+        container.innerHTML = '';
+
+        data.forEach(row => {
+            const pct = (row.ratio * 100).toFixed(1);
+            const height = Math.max(2, row.ratio * 100); 
+
+            const barGroup = document.createElement('div');
+            barGroup.className = 'chart-bar-group';
+            
+            barGroup.innerHTML = `
+                <div class="chart-bar" style="height:${height}%" data-val="${pct}%"></div>
+                <div class="chart-label">${row.tag}</div>
+            `;
+            container.appendChild(barGroup);
+        });
+    }
+
+    // --- Modal Logic ---
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const fontListEl = document.getElementById('font-list');
+
+    window.openModal = function(tag, type, el) {
+        const rowData = TABLE_DATA.find(r => r.tag === tag);
+        if(!rowData) return;
+
+        let fonts = [];
+        let label = "";
+
+        if(type === 'high') { fonts = rowData.fontsHigh; label = "Score >= 70"; }
+        else if(type === 'mid') { fonts = rowData.fontsMid; label = "Score 50-70"; }
+        else { fonts = rowData.fontsLow; label = "Score < 50"; }
+
+        if(fonts.length === 0) return;
+
+        modalTitle.textContent = `${tag} — ${label} (${fonts.length})`;
+        fontListEl.innerHTML = '';
+        
+        fonts.sort((a, b) => a.localeCompare(b));
+        
+        fonts.forEach(font => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = font;
+            a.href = `https://fonts.google.com/specimen/${font.replace(/ /g, '+')}`;
+            a.target = "_blank";
+            li.appendChild(a);
+            fontListEl.appendChild(li);
+        });
+
+        modal.classList.add('modal-active');
+    }
+
+    window.closeModal = function() {
+        modal.classList.remove('modal-active');
+    }
+    
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+
+    // --- Sorting ---
+    let currentSort = { col: 'ratio', dir: 'desc' };
+
+    window.sortTable = function(col) {
+        if (currentSort.col === col) {
+            currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
+        } else {
+            currentSort.col = col;
+            currentSort.dir = 'desc'; 
+        }
+
+        TABLE_DATA.sort((a, b) => {
+            let valA = a[col];
+            let valB = b[col];
+
+            if (col === 'tag') {
+                return currentSort.dir === 'asc' 
+                    ? valA.localeCompare(valB) 
+                    : valB.localeCompare(valA);
+            }
+            return currentSort.dir === 'asc' ? valA - valB : valB - valA;
+        });
+
+        renderTable(TABLE_DATA);
+    }
+
+</script>
+</body>
+</html>

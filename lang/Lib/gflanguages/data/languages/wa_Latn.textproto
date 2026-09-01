@@ -1,0 +1,25 @@
+id: "wa_Latn"
+language: "wa"
+script: "Latn"
+name: "Walloon"
+autonym: "Walon"
+population: 679800
+region: "BE"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Å Ç È É Ê Î Ô Û a b c d e f g h i j k l m n o p q r s t u v w x y z â å ç è é ê î ô û"
+  marks: "◌̀ ◌́ ◌̂ ◌̊ ◌̧"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Ss"
+  styles: "Qui l\'fondemint dè-l\'lîbèté, dè-l djustice èt"
+  tester: "Qui l\'fêt\' dè n\'in rik\'nohe ou dè foler ås pîds les dreûts d\'l\'ome"
+  poster_sm: "Qui l\'pus grand"
+  poster_md: "Qu\'i fåt mète"
+  poster_lg: "Tos"
+  specimen_48: "Qui lès peûpes dès Nåcions-Unies ont volou r\'dîre chal leû fwé"
+  specimen_36: "Qu\'ine minme îdèye di cès dreûts èt d\'cès lîbèrtés-chal èst dè-l\'pus hôte importance po poleûr tini vrêmint ciste ègadj\'mint-la."
+  specimen_32: "Nolu n\'sèrè t\'nou come èsclåve ou ovrî sins salêre, l\'èclavadje di tote sôrt, tot come dè fé martichî dès-èsclåves di tot l\'minme quéle manîre sont disfindous."
+  specimen_21: "Nolu n\'pôrèt-èsse må trêti, mètou a-l\'torteûre, ou rabahi avou dès cruwélès ponnes nin dègnes d\'in-ome.\nChaskeun\' a l\'dreût d\'èsse rik\'nohou tot-avå po çou qu\'il èst sorlon si lwè tot come sès dreûts.\nChaskeun\' a l\'dreût d\'s\'aler plinde èt d\'èsse ètindou po d\'bon dè-l\'justice compétinte di s\'payis, di tot çou qu\'sèreût fêt po mète a må lès mêsses dreûts qu\'lî sont rik\'nohous dè-l\'constitucion ou bin dès lwès."
+  specimen_16: "Nolu n\'pout-èsse sins rêzon tchoûki è-l\'pote, tinou èprîh\'né ou tchèssi foû di s\'payis.\nChaskeun\' a l\'dreût d\'èsse ètindou d\'ine minme manîre, divant tot l\'monde èt sins totès fêtès-îdèyes, divant on tribunål indépendant èt djusse qui dècid\'ré d\'sès dreûts ou bin d\'sès d\'vwérs, tot come lî r\'vint l\'dreût di s\'disfinde di çou qu\'on lî r\'proche ou bin d\'çou qu\'on l\'acuse.\nNouk ni pôrê aler hèrer s\'narène divins l\'vicårèye, li famile d\'in-ôte, brokî ê s\'mohone ou bin nahî d\'vins sès lètes èt sès papîs, ni l\'ac\'sûre divins si-oneûr ou s\'réputåcion. Chaskeun\'a l\'dreût d\'èsse protéjé dès lwès disconte dès s\'fêtès manîres."
+}

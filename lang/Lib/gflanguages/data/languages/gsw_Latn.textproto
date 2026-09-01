@@ -1,0 +1,31 @@
+id: "gsw_Latn"
+language: "gsw"
+script: "Latn"
+name: "Swiss German"
+autonym: "Schwyzerdütsch"
+population: 7956951
+region: "CH"
+region: "DE"
+region: "FR"
+region: "LI"
+exemplar_chars {
+  base: "A Ä B C D E F G H I J K L M N O Ö P Q R S T U Ü V W X Y Z a ä b c d e f g h i j k l m n o ö p q r s t u ü v w x y z"
+  auxiliary: "Á À Ă Â Å Ā Æ Ç É È Ĕ Ê Ë Ē Í Ì Ĭ Î Ï Ī Ñ Ó Ò Ŏ Ô Ø Ō Œ Ú Ù Ŭ Û Ū Ÿ á à ă â å ā æ ç é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ø ō œ ú ù ŭ û ū ÿ"
+  marks: "◌̈"
+  numerals: ". ’ % + − 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "ÀàLl"
+  masthead_partial: "Ii"
+  styles: "Wil d’Fréiheit, d’Gerachtichkeit ùn de Frìdde"
+  tester: "Wil ’s do, wo mr d’Menscherachte nìt gekannt ùn nìt reschpektìert"
+  poster_sm: "Wil d’Vélliker"
+  poster_md: "Wil d’Stààte,"
+  poster_lg: "Àlli"
+  specimen_48: "Wil e gemeinsàmi Ùfffàssùng ìwwer dìe Rachte ùn Fréiheite vìehmaßi"
+  specimen_36: "Mr derf nìemes ìn Sklàveréi odder ìn Knachtschàft hàlte; d’Sklàveréi ùn de Sklàvehàndel sìnn ìn àlle ìhre Forme verbotte."
+  specimen_32: "E jeder Mensch het s Racht, àss eso-n-e soziàli ùn ìnternàtionàli Ordnùng herrscht, wo d’Rachte ùn d’Fréiheite, wie ìn dëre Erklärùng ùffgezehlt wùrre sìnn, vollstandi kénne wìrike."
+  specimen_21: "Gàr ke Bstìmmùng vùn dëre Erklärùng derf eso üssgelëjt ware, wie wànn’s ìme Stààt, ìnere Grùppe odder ìnere Parson egàl wells Racht tat gann, ebbs ze triwe odder Tàte ze begehn, wovùn s Zìel ìsch, d’Rachte ùn d’Fréiheite, wie do genannt sìnn, ze vernìchte.\nWil d’Fréiheit, d’Gerachtichkeit ùn de Frìdde ùff de Walt sich ùff d’Ànerkannùng vùn de Wìrde stìtze, wie ìn àlle Litt vùn de Menschefàmìli zükùmmt, sowie ùff ìhri gliche ùn ùnverüsserliche Rachte,"
+  specimen_16: "Wil d’Fréiheit, d’Gerachtichkeit ùn de Frìdde ùff de Walt sich ùff d’Ànerkannùng vùn de Wìrde stìtze, wie ìn àlle Litt vùn de Menschefàmìli zükùmmt, sowie ùff ìhri gliche ùn ùnverüsserliche Rachte,\nWil ’s do, wo mr d’Menscherachte nìt gekannt ùn nìt reschpektìert het, zü ùnmenschliche Tàte gebroocht het, wie s Gewìsse vùn de gànze Menschheit revoltìere, ùn wil ’s proklàmìert wùrre ìsch, àss de Mensch vor àllem ùff e néji Walt blàngt, wo d’Litt fréi sìnn, ze redde ùn ze gloewe wie se welle, ùn wo se vùn Schrecke ùn Not befréit sìnn,\nWil ’s notwandich ìsch, àss d’Menscherachte dùrich e Rachtssyschtem gschìtzt ware, fer àss de Mensch nìt gezwùnge wùrd, sich àls letschter Üsswaj gejje d’Tyrànnéi ùn d’Ùnterdrìckùng ze revoltìere,"
+}

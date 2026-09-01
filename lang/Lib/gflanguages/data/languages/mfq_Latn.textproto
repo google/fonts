@@ -1,0 +1,32 @@
+id: "mfq_Latn"
+language: "mfq"
+script: "Latn"
+name: "Moba"
+region: "BF"
+region: "TG"
+population: 504000
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ f F g G {gb} {GB} h H i I j J k K {kp} {KP} l L m M n N ń Ń {ny} {NY} ŋ Ŋ {ŋm} {ŊM} o O ɔ Ɔ p P r R s S t T u U w W y Y"
+  auxiliary: "q Q v V x X z Z"
+  marks: "◌̀ ◌́ ◌̃ ◌̄"
+}
+sample_text {
+  masthead_full: "NnIi"
+  masthead_partial: "Ff"
+  styles: "Nifoi kul maal yendu buam po i, k b yudand"
+  tester: "Nifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja."
+  poster_sm: "Nifoi kul maal"
+  poster_md: "Nifoi kul"
+  poster_lg: "Nifoi"
+  specimen_48: "Nifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B"
+  specimen_36: "Nifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i."
+  specimen_32: "Nifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i."
+  specimen_21: "Nifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i.\nNifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i.\nNifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i."
+  specimen_16: "Nifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i.\nNifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i.\nNifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i.\nNifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i.\nNifoi kul maal yendu buam po i, k b yudand yen b yiko-nba biɛ ja. B mɔg maalm g ban yal g ŋan, g biɛ baa bu yen lieb naataann n ninŋ i."
+}
+source: "ATAPEB, Alphabet ben (moba), Association des Traducteurs et Alphabétiseurs pour la Promotion des Écritures en Ben (ATAPEB), 2002"
+source: "ATAPEB, Dictionnaire moba (ben), Webonary.org, 2016"
+source: "Nakane Mindri, Yambame Pouguinimpo, David Roberts & Carin Boone, Vers une orthographe appropriée du ton pour le moba, SIL Togo-Bénin, 2022"
+source: "Peace Corps Togo, Moba O.P.L. Workbook (Oral Proficiency Learning), Peace Corps Togo, 2010"
+source: "Pierre Reinhart, Parlons Moba : Langue du Nord-Togo, Paris, L’Harmattan, 2009"
+note: "Peace Corps Togo 2010 uses an orthography, with high tone á é ɛ́ í ɩ́ ó ɔ́ ú and nasal ã ẽ ĩ õ, different from the orthography used by ATEPEB.\nReinhart 2009 indicates tones in all caseswith ◌̀ ◌́ ◌̄, ATEPEB 2002 and ATEPEB 2016 do so on ń.\nMindri et al. 2022 proposes using â à k̀ ḱ ǹ ń ˖ ꞊"

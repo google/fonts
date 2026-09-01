@@ -1,0 +1,52 @@
+FONTLOG for the Original Surfer font
+
+This file provides detailed information on the Original Surfer font
+Software.
+
+This information should be distributed along with the Original Surfer
+font and any derivative works.
+
+Basic Font Information
+
+Original Surfer is an offbeat sans serif font with loads of personality.
+Inspired by a vintage advertisement for the "California Cliffs Caravan
+Park", this font exudes all of the fun of a summer vacation anytime of
+the year. The letterforms are clear and cleanly legible, while nothing
+is formal or uptight about this font.
+
+Designed by Brian J. Bonislawsky for Astigmatic (AOETI).
+
+Original Surfer is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded to 
+support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are three Source files:
+
+1. OriginalSurfer-Regular.vfb Original Source files with contour
+   overlaps
+
+2. OriginalSurfer-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. OriginalSurfer-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+ChangeLog
+
+6 December. (v.1.01) (Brian J. Bonislawsky)
+— Minor design adjustments: reworked /t/ and all t composites
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

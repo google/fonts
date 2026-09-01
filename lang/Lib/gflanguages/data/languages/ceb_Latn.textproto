@@ -1,0 +1,27 @@
+id: "ceb_Latn"
+language: "ceb"
+script: "Latn"
+name: "Cebuano"
+autonym: "Binisaya"
+population: 26203440
+region: "PH"
+exemplar_chars {
+  base: "A B D E G H I K L M N O P R S T U W Y a b d e g h i k l m n o p r s t u w y"
+  auxiliary: "C F J Ñ Q V X Z c f j ñ q v x z"
+  punctuation: "- , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaNn"
+  masthead_partial: "Gg"
+  styles: "Samtamg ang pag-ila sa tiunay nga kabililhon"
+  tester: "Samtang ang wala pagtagad ug pagbiaybiay sa mga tawhanong katungod"
+  poster_sm: "Samtang kini"
+  poster_md: "Samtang ang"
+  poster_lg: "Ang"
+  specimen_48: "Samtang ang mga sakop sa mga nasud nanumpa sa ilang kaugalingon"
+  specimen_36: "Samtang yanong gikasabutan niining mga katungod ug mga kagawasan ang sangputanan sa bug-os nga pagtuman sa maong saad."
+  specimen_32: "Ang tanang katawhan gipakatawo nga may kagawasan ug managsama sa kabililhon. Sila gigasahan sa salabutan ug tanlag og mag-ilhanay isip managsoon sa usa\'g-usa diha sa diwa sa ospiritu."
+  specimen_21: "Ang matag usa adunay luna sa tanang mga katungod ug mga kagawasan gihan-ay niining Deklarasyon, sa walay pagpihig sa bisan unsa, sama sa kaliwat, tribu, bulok sekso, pinulongan, relihiyon, politikal o sosyal nga kagikan, kabtangan, pagkatawo o uban pang kahimtang.\nAng matag usa adunay katungod sa kinabuhi, kaugalingnan ug seguridad sa pagkatawo."
+  specimen_16: "Walay bisan kinsa nga ibanlod sa pagkaulipon o pugson sa paghimo sa bug-at nga buluhaton kay ginadili ang tanang matang sa paghimo niini.\nWalay bisan kinsa ang ibutang sa kasakit o sa sinalbahis, dili makatawo o pagpakaulaw o kastiguhon.\nAng matag usa adunay katungod nga ilhon isip tawo atubangan sa balaod.\nAng tanan managsama atubangan sa balaod ug may katungod sa walay pagpihig sa managsamang panalipod sa balaod. Ang tanan adunay katungod sa managsamang panalipod batok sa bisan unsang pagpihig nga makapalas niining Deklarasyon ug batok sa bisan unsang hinungdan sa maong pagpihig."
+}

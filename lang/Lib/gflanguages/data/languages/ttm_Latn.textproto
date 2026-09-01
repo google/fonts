@@ -1,0 +1,12 @@
+id: "ttm_Latn"
+language: "ttm"
+script: "Latn"
+name: "Northern Tutchone"
+population: 85
+region: "CA"
+exemplar_chars {
+  base: "a A ä Ä b B {ch} {CH} {ch’} {CH’} d D {dh} {DH} {ddh} {DDH} {dl} {DL} {dz} {DZ} e E g G {gw} {GW} {gh} {GH} {ghw} {GHW} h H i I j J k K {kw} {KW} {k’} {K’} {k’w} {K’W} {kh} {KH} {khw} {KHW} l L ł Ł m M {mb} {MB} n N {nd} {ND} {nj} {NJ} o O r R s S {sh} {SH} t T {t’} {T’} {th} {TH} {tl} {TL} {tl’} {TL’} {ts} {TS} {ts’} {TS’} {tth} {TTH} {tth’} {TTH’} u U w W y Y z Z {zh} {ZH} á Á ā Ā ǎ Ǎ {ä́} {Ä́} ǟ Ǟ {ä̌} {Ä̌} é É ē Ē ě Ě í Í ī Ī ǐ Ǐ ó Ó ō Ō ǒ Ǒ ú Ú ū Ū ǔ Ǔ {ą́} {Ą́} {ą̄} {Ą̄} {ą̌} {Ą̌} {ą̈́} {Ą̈́} {ą̈̄} {Ą̈̄} {ą̈̌} {Ą̈̌} {ę́} {Ę́} {ę̄} {Ę̄} {ę̌} {Ę̌} {į́} {Į́} {į̄} {Į̄} {į̌} {Į̌} {ǫ́} {Ǫ́} ǭ Ǭ {ǫ̌} {Ǫ̌} {ų́} {Ų́} {ų̄} {Ų̄} {ų̌} {Ų̌}"
+  auxiliary: "f F p P q Q v V"
+  marks: "◌́ ◌̄ ◌̈ ◌̌ ◌̨"
+}
+source: "Northern Tutchone Alphabet, Yukon Native Language Centre, 2020"

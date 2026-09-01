@@ -1,0 +1,30 @@
+id: "ijs_Latn"
+language: "ijs"
+script: "Latn"
+name: "Ijo, Southeast"
+region: "NG"
+population: 2471000
+exemplar_chars {
+  base: "a A á Á b B ḅ Ḅ d D ḍ Ḍ e E é É ẹ Ẹ {ẹ́} {Ẹ́} f F g G {gb} {GB} {gh} {GH} h H i I í Í ị Ị {ị́} {Ị́} j J k K l L m M n N {ng} {NG} o O ó Ó ọ Ọ {ọ́} {Ọ́} p P r R s S t T u U ú Ú ụ Ụ {ụ́} {Ụ́} v V w W y Y z Z"
+  marks: "◌́ ◌̣ ◌̱"
+  auxiliary: "c C q Q x X"
+}
+sample_text {
+  masthead_full: "KkIi"
+  masthead_partial: "Mm"
+  styles: "Kim’ owoumo se, keni bara ki na, pa zimi, ose"
+  tester: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se"
+  poster_sm: "Kim’ owoumo"
+  poster_md: "Kim’"
+  poster_lg: "Kim’"
+  specimen_48: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye"
+  specimen_36: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri."
+  specimen_32: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri."
+  specimen_21: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri."
+  specimen_16: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri."
+}
+source: "Timotheus D. D. Ikoko-Ọkparan, S. C. Awakị-Gam Dede & Sylester Mangị-Pẹgị, Nembe Numerals, Onyoma Research Publications for Nembe Cultural Association, 2007"
+source: "M.H.I. Kaliai, A Nembe-English dictionary, Institute of African Studies, University of Ibadan, 1964"
+source: "M.H.I. Kaliai, Roger Blench, A Nembe-English dictionary, Malam Dendo, 2008"
+source: "Kay Williamson, “Ịjọ Orthography”, in Kay Williamson, Orthographies of Nigerian languages: manual II, Lagos, Federal Ministry of Education, National Language Centre, 1983"
+note: "Kaliai 1964 uses macron below instead of dot below and lists c in the alphabet. Williamson 1983, Ikoko-Ọkparan, Dede & Mangị-Pẹgị 2007, and Kaliai & Blench 2008 use dot below.\nThe sample text is taken from the UDHR translation which only uses macron below in 4 words and no dot below ; it needs to be verified."

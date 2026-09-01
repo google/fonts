@@ -1,0 +1,23 @@
+id: "tsz_Latn"
+language: "tsz"
+script: "Latn"
+name: "Purepecha"
+region: "MX"
+exemplar_chars {
+  base: "A B C D E G H I Ï J K M N O P R S T U X a b c d e g h i ï j k m n o p r s t u x \'"
+  marks: "◌́"
+}
+sample_text {
+  masthead_full: "IiAa"
+  masthead_partial: "Mm"
+  styles: "Iamendu k\'uiripuecha janguarhiparini ka majku"
+  tester: "Iamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha"
+  poster_sm: "Iamendu k"
+  poster_md: "Iamendu k"
+  poster_lg: "Iamendu"
+  specimen_48: "Iamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka.\nIamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka."
+  specimen_36: "Iamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka.\nIamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka."
+  specimen_32: "Iamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka.\nIamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka."
+  specimen_21: "Iamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka.\nIamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka."
+  specimen_16: "Iamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka.\nIamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka.\nIamendu k\'uiripuecha janguarhiparini ka majku jarhati ka jurhimbekuecha jingoni kueraaŋasondikso ka, juajtakuarhisïndiksï ambakiti eratsekua ka kaxumbikua, jatsistiksï eskaksï sesi arhijperaaka."
+}

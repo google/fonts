@@ -1,0 +1,29 @@
+id: "kea_Latn"
+language: "kea"
+script: "Latn"
+name: "Kabuverdianu"
+autonym: "Kabuverdianu"
+population: 530762
+region: "CV"
+exemplar_chars {
+  base: "A B D {DJ} E F G H I J K L {LH} M N Ñ {NH} O P R S T {TX} U V X Y Z a b d {dj} e f g h i j k l {lh} m n ñ {nh} o p r s t {tx} u v x y z"
+  auxiliary: "Á À Â Ã C Ç É È Ê Í Ì Î {N̈} Ó Ò Ô Õ Q {RR} Ú Ù Û W ª á à â ã c ç é è ê í ì î {n̈} º ó ò ô q {rr} ú ù û w"
+  marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” « » ( ) [ ] @ * / & # "
+  index: "A B D E F G H I J K L M N O P R S T U V X Z"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Dd"
+  styles: "Nu ta considrâ qui, riconhecimento di dignidadi"
+  tester: "Nu ta considrâ qui, disconhecimento e disprezo di drêto di tudo"
+  poster_sm: "Nu ta considrâ"
+  poster_md: "Assembleia"
+  poster_lg: "Tudo"
+  specimen_48: "Tudo ser humano na ês mundo nacê libri e igual na sê dignidade"
+  specimen_36: "Ninguêm al podê ficâ scrabo ô na catibêro; ficâ scrabo ô tráto di scrabo ê ca pirmitido, di calquer manêra qui bem ta ser."
+  specimen_32: "Ninguêm podê, di calquer manêra, bai sêr lebádo pa prison, ô ficâ na prison, ô ser mandado di castigo pa longe di sê téra. (Es cusa li ê ta tchomado di \"exílio\")."
+  specimen_21: "Tudo péssoa tem drêto, por igual, qui sê causa bem ta ser judiciado na igualdade e publicamenti julgado num tribunal indipendenti e justo qui ta bem dicidi di sês drêto e di sês obrigaçon ô di razon di calquer acusaçon na assunto di tribunal qui ês bem pô contra el.\nTudo péssoa tem drêto pâ discansa e pa sê lazer e, naturalmente, ê tem limitaçon qui nu ta cêta, qui ê quel di duraçon di trabadjo e di féria, qui ês tem obrigaçon di pagano."
+  specimen_16: "Tudo péssoa tem drêto pâ bem pô, na plano social e na plano internacional, um órdi qui podê ser capaz di tornâ completamente efectivo tudo drêto e liberdadi qui nu cabà di flâ nês Declaraçon li.\nNingum disposiçon di êss Declaraçon li, podê bem ta ser intendido di um manêra qui podê bem involvê pa calquer Estado, grupo di guente ô um sô péssoa, quel drêto di bem fazê calquer actividade ô di particâ algum cusa qui podê bem destroncâ drêto e liberdadi qui nu sa tâ cabâ di flâ.\nNu ta considrâ qui, riconhecimento di dignidadi qui ta fazê parti di tudo membro di família humano e di sês drêto qui ê igual e qui nu ca podê squecê, nem ficâ separado di el, ê fundamento di liberdadi, di justiça e di paz di riba di ês mundo;"
+}

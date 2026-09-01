@@ -1,0 +1,14 @@
+# Extrusion Depth, based on https://github.com/justvanrossum/nabla
+tag: "EDPT"
+display_name: "Extrusion Depth"
+min_value: 0
+default_value: 100 # Taken from Nabla, but expected to be per-family
+max_value: 1000
+precision: 0
+description:
+  "Controls the 3D depth on contours."
+fallback {
+  name: "Default"
+  value: 100
+}
+fallback_only: false

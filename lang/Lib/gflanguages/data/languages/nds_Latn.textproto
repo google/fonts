@@ -1,0 +1,30 @@
+id: "nds_Latn"
+language: "nds"
+script: "Latn"
+name: "Low German"
+autonym: "Niedersächsisch"
+population: 11520008
+region: "DE"
+region: "NL"
+exemplar_chars {
+  base: "A Å Ä B C D E F G H I J K L M N O Ö P Q R S ẞ T U Ü V W X Y Z a å ä b c d e f g h i j k l m n o ö p q r s ß t u ü v w x y z"
+  auxiliary: "Á À Ă Â Ā Æ Ç É È Ĕ Ê Ë Ę Ē Í Ì Ĭ Î Ï Ī Ñ Ó Ò Ŏ Ô Ø Ō Œ Ú Ù Ŭ Û Ū Ÿ á à ă â ā æ ç é è ĕ ê ë ę ē í ì ĭ î ï ī ñ ó ò ŏ ô ø ō œ ú ù ŭ û ū ÿ"
+  marks: "◌̈"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ‚ \" “ „ « » ( ) [ ] { } @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S ẞ T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Dd"
+  styles: "Vunwegen wat dat Anerkennen vun de Wüürd,"
+  tester: "vunwegen wat dat Verkennen un Minnachten vun de Minschen rechten"
+  poster_sm: "vunwegen wat"
+  poster_md: "vunwegen"
+  poster_lg: "All"
+  specimen_48: "vunwegen wat de Völker vun de Vereenten Natschonen mit düsse"
+  specimen_36: "Vunwegen wat dat Anerkennen vun de Wüürd, mit de all Minschen baren sünd, un de Rechten, de all Maten vun"
+  specimen_32: "vunwegen wat dat nödig is, de Minschenrechten dörch dat Regeern vun’t Recht Schuul geven, dat de Minsch nich dwungen as lest Middel Wedderpart to hollen Tyrannei un Ünnerdrücken,"
+  specimen_21: "Vunwegen wat dat Anerkennen vun de Wüürd, mit de all Minschen baren sünd, un de Rechten, de all Maten vun de Gemeenschupp vun de Minschen hebbt un de gliek un nich to verköpen sünd, de Grundlaag vun Frieheit un Freden in de Welt is, un wat dat recht und billig togeiht,\nvunwegen wat dat nödig is, de Minschenrechten dörch dat Regeern vun’t Recht Schuul geven, dat de Minsch nich dwungen as lest Middel Wedderpart to hollen Tyrannei un Ünnerdrücken,"
+  specimen_16: "Vunwegen wat dat Anerkennen vun de Wüürd, mit de all Minschen baren sünd, un de Rechten, de all Maten vun de Gemeenschupp vun de Minschen hebbt un de gliek un nich to verköpen sünd, de Grundlaag vun Frieheit un Freden in de Welt is, un wat dat recht und billig togeiht,\nvunwegen wat dat Verkennen un Minnachten vun de Minschen rechten to unminschlich Doon föhrt hett, un dat Geweten vun de Minschen daarvun vull is vun Schann, is dat vör nehmste Wark vun de Minschen dat Buen vun een Welt, wo elk un een seggen un gloven dröff, wat he will un he frie is vun Bang sien un Noot,"
+}

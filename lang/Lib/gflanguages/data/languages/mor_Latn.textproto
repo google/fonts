@@ -1,0 +1,28 @@
+id: "mor_Latn"
+language: "mor"
+script: "Latn"
+name: "Moro"
+region: "SS"
+population: 86000
+exemplar_chars {
+  base: "a A b B c C d D ḏ Ḏ đ Đ ꟈ Ꟈ e E ë Ë ə Ə f F g G i I j J k K l L m M n N ñ Ñ ŋ Ŋ o O p P r R ɽ Ɽ s S t T ṯ Ṯ u U w W y Y"
+  auxiliary: "h H q Q v V x X z Z"
+  marks: "◌̈ ◌̃ ◌̱"
+}
+sample_text {
+  masthead_full: "LlEe"
+  masthead_partial: "Đđ"
+  styles: "Leđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo"
+  tester: "Leđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na"
+  poster_sm: "Leđa pređ"
+  poster_md: "Leđa pređ"
+  poster_lg: "Leđa"
+  specimen_48: "Leđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen"
+  specimen_36: "Leđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba.\nLeđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba."
+  specimen_32: "Leđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba.\nLeđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba."
+  specimen_21: "Leđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba.\nLeđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba."
+  specimen_16: "Leđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba.\nLeđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba.\nLeđa pređ lalǝŋǝnia lëbǝrëinialo na lǝɽǝwaṯo eŋen ŋǝđamia na eŋen pređ iŋi ŋǝrcađaṯo ṯa leđa alǝfiđi. Lënŋulu pređ lananëinu đǝnaca đame ɽetǝɽeto na ara gǝŋǝra ŋenŋanṯa alǝɽǝwađaṯe alamǝđaiđe bǝɽan usilaga gǝŋǝlǝŋǝnia na gǝŋorba."
+}
+note: "In some documents đ Đ is used but should have the shape of ꟈ Ꟈ."
+source: "Roger Blench, A dictionary of the Moro language of the Nuba hills, Sudan, 2005"
+source: "Elizabeth Guest, Moro phonology, 1997"

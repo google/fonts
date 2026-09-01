@@ -1,0 +1,25 @@
+id: "dag_Latn"
+language: "dag"
+script: "Latn"
+name: "Dagbani"
+population: 1160000
+region: "GH"
+exemplar_chars {
+  base: "' a A b B c C d D e E ɛ Ɛ f F g G ɣ Ɣ h H i I ɨ Ɨ j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y z Z ʒ Ʒ"
+  auxiliary: "q Q x X"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Ll"
+  styles: "Sal\' la sala. Bɛhig\' be sokam sanimi, din pa"
+  tester: "Sal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be"
+  poster_sm: "Sal\' la sala."
+  poster_md: "Sal\' la sala"
+  poster_lg: "Sal\'"
+  specimen_48: "Sal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam"
+  specimen_36: "Sal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni.\nSal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni."
+  specimen_32: "Sal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni.\nSal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni."
+  specimen_21: "Sal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni.\nSal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni."
+  specimen_16: "Sal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni.\nSal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni.\nSal\' la sala. Bɛhig\' be sokam sanimi, din pa la amii. Suhizɔbo be sokam sani; ka nambɔɣu beni. Suhubɔhibo mi bi lan kɔŋ yigunaadam kam sani. Dinzuɣu dimbɔŋɔ zaa wuhiya ka dama di tu kamaata ka ti zaa yu tab\' hali ni ti puuni."
+}
+source: "Sergio Baldi and Mahmoud Adam, Dagbani basic and cultural vocabulary, Università degli studi di Napoli, 2005"

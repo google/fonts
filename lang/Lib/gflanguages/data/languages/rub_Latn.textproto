@@ -1,0 +1,13 @@
+id: "rub_Latn"
+language: "rub"
+script: "Latn"
+name: "Gungu"
+population: 49000
+region: "UG"
+exemplar_chars {
+  base: "a A b B {b̯} {B̯} c C d D e E f F g G h H i I {i̱} {I̱} j J k K l L m M n N {ngh} {NGH} {ny} {NY} o O p P r R s S t T u U {u̱} {U̱} v V w W y Y z Z"
+  marks: "◌̯ ◌̱"
+  auxiliary: "ŋ Ŋ"
+}
+source: "Lugungu Bible Translation and Literacy Association, Lugungu orthography guide, Entebbe: Lugungu Bible Translation and Literacy Association, SIL international, 2006"
+source: "Lugungu Bible Translation and Literacy Association, “The Lugungu Alphabet”, Lugungu Dictionary, Webonary, 2016"

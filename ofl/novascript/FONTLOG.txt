@@ -1,0 +1,77 @@
+This is the FONTLOG file for the NovaScript Font.
+
+
+This file provides detailed information on the NovaScript Font Software.
+This information should be distributed along with the NovaScript fonts
+and any derivative works.
+
+
+Basic Font Information
+
+NovaScript Font is a part of the eight fonts family. There are: NovaCut, NovaFlat,
+NovaOval, NovaRound, NovaSlim, NovaSquare, NovaMono and NovaScript.
+All these fonts you'll find at: http://openfontlibrary.org.
+
+NovaScript Font is created with FontForge.
+
+NovaScript Font is a Unicode typeface family that supports all languages that
+use the Latin script and its variants, and could be expanded to support other
+scripts.
+
+
+More specifically, this release supports the following Unicode ranges:
+
+ - Controls and Basic Latin - 0000-007F (all)
+
+ - Latin 1 - 0080-00FF (all)
+
+ - Latin A - 0100-017F (all)
+
+ - Latin B - 0192, 01E4, 01E5, 0218-021B
+
+ - Greek - 0394, 03A0, 03A3, 03A9, 03BC, 03C0
+
+ - General Punctuation - 2010-2015, 2017-2027, 2030, 2032-2037,
+                         2039, 203A, 2043, 2044
+
+ - Currency Symbols - 20AC
+
+ - Letterlike Symbols - 2105, 2113, 2122, 2126, 212E
+
+ - Mathematical Operators - 2202, 2206, 2207, 220F-2212, 2215, 2217-221B,
+                            221E, 2248, 2260, 2261, 2264, 2265
+
+ - Geometric Shapes - 25CA
+
+
+This release contains:
+
+ - NovaScript.ttf
+ - NovaScript.sfd
+ - FONTLOG.txt
+ - OFL.txt - official license text
+
+
+ChangeLog
+
+04 Sept 2011 wmk69 (wmk69@o2.pl) NovaScript Version 2.0
+- design review
+
+14 Feb 2011 wmk69 (wmk69@o2.pl) NovaScript Version 1.0
+- Initial release
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D).
+
+
+History
+
+NovaScript is my newest font. It's based on NovaOval font, and it's a part of
+Nova Font family. I created it, cause in the Nova family was missing an oblique
+font. Now the Nova family is completed.
+
+
+04 Sept 2011 wmk69 (wmk69@o2.pl)

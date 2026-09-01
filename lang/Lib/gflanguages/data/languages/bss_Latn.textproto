@@ -1,0 +1,14 @@
+id: "bss_Latn"
+language: "bss"
+script: "Latn"
+name: "Akoose"
+autonym: "Akɔɔse"
+population: 149823
+region: "CM"
+exemplar_chars {
+  base: "A B D E F G H I J K L M N O P R S T U V W Y a b d e f g h i j k l m n o p r s t u v w y Á Â É Ê Í Î Ó Ô Ú Û Ǎ Ě Ǐ Ǒ Ǔ á â é ê í î ó ô ú û ǎ ě ǐ ǒ ǔ Ŋ ŋ Ɔ Ə Ɛ ɔ ə ɛ ʼ"
+  marks: "◌́ ◌̂ ◌̌"
+}
+source: "Bakossi Language Committee, E’kii bé Akɔɔse (The Bakossi Alphabet), SIL Camerun, 1995"
+source: "Wikipedia"
+source: "https://www.webonary.org/akoose"

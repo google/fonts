@@ -1,0 +1,11 @@
+id: "ckl_Latn"
+language: "ckl"
+script: "Latn"
+name: "Kibaku"
+population: 200000
+region: "NG"
+exemplar_chars {
+  base: "a A ā Ā ă Ă á Á b B ɓ Ɓ c C d D ɗ Ɗ e E ɛ Ɛ ǝ Ǝ f F g G h H i I j J k K ƙ Ƙ l L m M n N o O p P r R s S t T u U ū Ū v V w W y Y z Z"
+  marks: "◌̄ ◌̆ ◌́"
+  auxiliary: "q Q x X"
+}

@@ -1,0 +1,10 @@
+id: "ber_Latn"
+language: "ber"
+script: "Latn"
+name: "Berber (Latin)"
+exemplar_chars {
+  base: "a A b B ḇ Ḇ {bʷ} {Bʷ} {bh} {BH} c C {c̣} {C̣} č Č d D ḍ Ḍ ḏ Ḏ e E f F g G ǧ Ǧ ḡ Ḡ {gʷ} {Gʷ} h H ḥ Ḥ i I j J {j̣} {J̣} k K ḵ Ḵ {kʷ} {Kʷ} l L ḷ Ḷ m M {mʷ} {Mʷ} n N ɲ Ɲ ŋ Ŋ p P {pʷ} {Pʷ} q Q {qʷ} {Qʷ} r R ṛ Ṛ s S ṣ Ṣ š Š {ṣ̌} {Ṣ̌} t T ț Ț ṭ Ṭ ṯ Ṯ u U w W x X {x̣} {X̣} {xʷ} {Xʷ} y Y z Z ẓ Ẓ ž Ž ɛ Ɛ ɣ Ɣ {ɣʷ} {Ɣʷ} {z̦} {Z̦}"
+  auxiliary: "ə Ə ţ Ţ ʿ ʾ ġ Ġ {z̧} {Z̧}"
+  marks: "◌̄ ◌̌ ◌̣ ◌̦ ◌̧ ◌̱"
+}
+source: "Samir El-Arifi, Tamazight de l’Atlas Blidéen, Office des publications universitaires, 2020"

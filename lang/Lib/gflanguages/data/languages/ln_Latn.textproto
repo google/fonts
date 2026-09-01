@@ -1,0 +1,31 @@
+id: "ln_Latn"
+language: "ln"
+script: "Latn"
+name: "Lingala"
+autonym: "Lingala"
+population: 3514491
+region: "AO"
+region: "CD"
+region: "CF"
+region: "CG"
+exemplar_chars {
+  base: "a A á Á â Â ǎ Ǎ b B c C d D e E é É ê Ê ě Ě ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} f F g G {gb} {GB} h H i I í Í î Î ǐ Ǐ k K l L m M {mb} {MB} {mp} {MP} n N {nd} {ND} {ng} {NG} {nk} {NK} {ns} {NS} {nt} {NT} {ny} {NY} {nz} {NZ} o O ó Ó ô Ô ǒ Ǒ ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} p P r R s S t T u U ú Ú v V w W y Y z Z"
+  auxiliary: "j J q Q x X"
+  marks: "◌́ ◌̂ ◌̌"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E Ɛ F G {Gb} H I K L M {Mb} {Mp} N {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} O Ɔ P R S T U V W Y Z"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Tt"
+  styles: "Na botáláká ’te kondima limɛmya ya bato nyɔ́nsɔ"
+  tester: "Na botáláká ’te na káti ya Mokandá ya Mibéko ya Lisangá ya Bikólo"
+  poster_sm: "Na botáláká"
+  poster_md: "Bato nyɔ́nsɔ"
+  poster_lg: "Bato"
+  specimen_48: "Moto nyɔ́nsɔ azalí na makokí mpé bonsɔ́mí nyɔ́nsɔ óyo elimbólámí"
+  specimen_36: "Moto nyɔ́nsɔ azalí na likokí ya kozala na bomɔi, na kozala nsɔ́mí mpé kozala motéma nsɛi na bomoto na yě."
+  specimen_32: "Moto nyɔ́nsɔ azalí na likokí ya bopémisi mpé bopémisi nzóto, míngi ya bozwi eleko ya sémbo ya boúmélí na mosálá mpé na bozwi lifúta na bakonzi ya mbala na mbala."
+  specimen_21: "Moto nyɔ́nsɔ azalí na likokí ’te káti ya bato mpé bikólo, nyɔ́nsɔ ebóngá mpɔ̂ te makokí mpé bonsɔ́mí oyo ekomámí káti ya Lisakoli oyo elónga.\nMobéko atá mɔ̌kɔ́ tɛ́ ya Lisangá óyo ekokí kozala mpɔ̂ na Lɛ́ta, na lisangá ya bato, tǒ na moto, likokí ya kosála likambo óyo ekonyata makokí mpé bonsɔ́mí áwa.\nNa botáláká ’te esengélí koléndisa boyókani na káti ya bikólo,"
+  specimen_16: "Na botáláká ’te kondima limɛmya ya bato nyɔ́nsɔ ya molɔ́ngɔ́ mpé makokí ma bangó óyo ezalí ndéngé mɔ̌kɔ́ mpé bakokí kopímela moto tɛ́ ezalí ntína ya bonsɔ́mí, bosémbo mpé kímyá káti ya molɔ́ngɔ́. Na botáláká ’te komɔ́na mpámba mpé kobóya kotósa esengeli ya moto ebátelama na bokonzi ya bosémbo mpɔ̂ ’te, na sima yangó, moto ákóma na botɔmbɔki esóngó na minyɔ́kɔli tɛ́,\nNa botáláká ’te esengélí koléndisa boyókani na káti ya bikólo,\nNa botáláká ’te kozala bato nyɔ́nsɔ na makanisi ndéngé mɔ̌kɔ́ mpɔ̂ na makokí mpé bonsɔ́mí yangó, ezalí na ntína monɛ́nɛ mpɔ̂ ’te óyo bakáni elónga,\nBato nyɔ́nsɔ na mbótama bazalí nsɔ́mí mpé bakókání na limɛmya mpé makokí. Bazalí na mayɛ́lɛ mpé basengélí kovánda na bondeko o káti na bangó."
+}

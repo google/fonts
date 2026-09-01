@@ -1,0 +1,166 @@
+Unifraktur Cook FontLog
+=======================
+
+Unifraktur Cook is created by j. 'mach' wust 
+(j_mach_wust at shared-files dot de) and published 
+originally at http://unifraktur.sourceforge.net/cook.html
+
+Unifraktur Cook is a modification of Peter Wiegel's font Koch 
+Fette Deutsche Schrift UNZ1A, version 1.000 2009 initial 
+release, that can be found at the following site
+ (retrieved 2010-05-25):
+
+http://www.peter-wiegel.de/KochFraktur.html
+
+Unifraktur Cook is basically identical to Wiegel's font, 
+but the glyphs are given other codepoints so they are 
+in accordance with the Unicode standard. Additionally, 
+smart font rendering has been added in order to 
+generate the font's ligatures.
+
+
+Purpose
+=======
+
+Unifraktur Cook has been created in order to provide a 
+Fraktur typeface that may be embedded on websites. It is 
+in accordance with the Unicode standard. It has suitable 
+font licenses (GPL with font exception and OFL). It comes
+with ready-made TTF, EOT and SVG versions.
+
+This version is published via Google Web Fonts and
+has minor changes for vertical metrics, hinting, and
+other metadata and distributed under the SIL Open
+Font License v1.1
+
+Files
+=====
+
+* UnifrakturCook.ttf
+A TrueType font version of Unifraktur Cook. This is the 
+main font file you will want to install. It includes 
+OpenType, Apple Advanced Typography and SIL Graphite 
+features.
+
+The following files are available from 
+http://unifraktur.sourceforge.net/cook.html
+
+* UnifrakturCook.woff
+A Web Open Font Format version of UnifrakturCook. 
+This is a the W3C's "strong favourite" for standardization 
+of embedded internet fonts. It is currently supported 
+by Firefox. It has been created by using the Font 
+Squirrel's @font-face generator
+( http://www.fontsquirrel.com/fontface/generator ).
+
+* UnifrakturCook.eot
+An Embedded OpenType version of Unifraktur Cook. This is 
+a special font file for the Windows Internet Explorer. 
+It has been created by using the Font Squirrel's @font-face 
+generator ( http://www.fontsquirrel.com/fontface/generator ).
+
+* UnifrakturCook.svg
+An Embedded OpenType version of Unifraktur Cook. This is 
+a special font file for the iPhone. It has been created 
+by using the Font Squirrel's @font-face generator 
+( http://www.fontsquirrel.com/fontface/generator ).
+
+* UnifrakturCook.sfd
+The FontForge source file of Unifraktur Cook. FontForge is 
+a free font editor ( http://fontforge.sourceforge.net/ ). 
+FontForge has been used to add OpenType features and to 
+generate UnifrakturCook.ttf
+
+* UnifrakturCook.mif
+The Morph Input File of Unifraktur Cook. This file has been 
+used to add Apple Advanced Typography features to 
+UnifrakturCook.ttf
+
+* UnifrakturCook.gdl
+The Grapite description language file of Unifraktur Cook. 
+This file has been used to add SIL Graphite features to 
+UnifrakturCook.ttf
+
+* GPL.txt
+The GPL as required by the GNU Public License GPL
+
+* Open Font License.txt
+The Open Font License as required by the Open Font License.
+
+* FontLog.txt
+This FontLog file.
+
+
+License
+=======
+
+There are two licenses to this font: GPL3 with additional font 
+exception and OFL. Note that both of these licenses are suited 
+for embedding Unicode on webpages.
+
+* GPL3 with additional font exception:
+
+Unifraktur Cook is free software: You can redistribute it and/or 
+modify it under the terms of the GNU General Public License as 
+published by the Free Software Foundation, either version 3 of 
+the License, or (at your option) any later version.
+
+Unifraktur Cook is distributed in the hope that they will be 
+useful, but WITHOUT ANY WARRANTY; without even the implied 
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License 
+along with Unifraktur Cook. If not, 
+see <http://www.gnu.org/licenses/>.
+
+As a special exception, if you create a document which uses 
+Unifraktur Cook, and embed that font or unaltered portions of 
+that font into the document, that font does not by itself cause 
+the resulting document to be covered by the GNU General Public 
+License. This exception does not however invalidate any other 
+reasons why the document might be covered by the GNU General 
+Public License. If you modify that font, you may extend this 
+exception to your version of that font, but you are not 
+obligated to do so. If you do not wish to do so, delete 
+this exception statement from your version.
+
+
+Unifraktur Cook change list
+===========================
+
+* 2011-09-01
+    Dave Crossland mastered a version for Google Web Fonts
+    with changed vertical metrics (to avoid clipping in Windows)
+    metadata and hinting tables ('magic' PREP and GASP) and
+    set weight metadata to 'bold'
+
+* 2010-08-17
+    Ligatures may now be forced with ZWJ as recommended by Unicode.
+
+* 2010-07-21
+    Added longs-t to required ligatures. Duplicated rlig ligatures 
+    in liga for pango compatibility.
+
+* 2010-06-19
+    Made ligatures of ch, ck and tz required ligatures, so correct 
+    letterspacing is now possible.
+
+* 2010-06-01
+    Replaced README.txt by FontLog.txt, added new WOFF, SVG and EOT 
+    generated with Font Squirrel's @font-face generator.
+
+* 2010-05-25
+    Included new glyps from Peter Wiegel's Koch Fraktur_UNZ1A.ttf; 
+    changed the name from Unicook to Unifraktur Cook; new SVG version.
+
+* 2010-03-17
+    The right bearing of the glyph "ff" has been corrected so it 
+    now is identical to the right bearing of the glyph "f" (thanks 
+    to Peter Wiegel). The FONTLOG.txt has been included within 
+    the font. The characters "ampersand c period" now form the 
+    font's etc. ligature.
+
+* 2010-03-14
+    Unicook has been created by j. 'mach' wust, as a modification 
+    of Peter Wiegel's font Koch fette deutsche Schrift.

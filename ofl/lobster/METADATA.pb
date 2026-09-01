@@ -1,0 +1,26 @@
+name: "Lobster"
+designer: "Impallari Type"
+license: "OFL"
+category: "DISPLAY"
+date_added: "2010-05-17"
+fonts {
+  name: "Lobster"
+  style: "normal"
+  weight: 400
+  filename: "Lobster-Regular.ttf"
+  post_script_name: "Lobster-Regular"
+  full_name: "Lobster Regular"
+  copyright: "Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name \"Lobster\"."
+}
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/impallari/The-Lobster-Font"
+  commit: "0796aa8aa42f6cbc89fa61be4a2a12fdcd2b8998"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

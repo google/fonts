@@ -1,0 +1,13 @@
+# GDOP based on https://github.com/SorkinType/Briem-Hand
+tag: "GDOP"
+display_name: "Guides Opacity"
+min_value: 0
+default_value: 100
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 100
+}
+fallback_only: false
+description: "Adjust opacity of guides from 100 (fully visible) down to 0 (fully invisible)."

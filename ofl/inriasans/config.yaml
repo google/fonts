@@ -1,0 +1,9 @@
+sources:
+  - masters/INRIA-SANS/InriaSans-Light.ufo
+  - masters/INRIA-SANS/InriaSans-LightItalic.ufo
+  - masters/INRIA-SANS/InriaSans-Regular.ufo
+  - masters/INRIA-SANS/InriaSans-Italic.ufo
+  - masters/INRIA-SANS/InriaSans-Bold.ufo
+  - masters/INRIA-SANS/InriaSans-BoldItalic.ufo
+familyName: "Inria Sans"
+buildVariable: false

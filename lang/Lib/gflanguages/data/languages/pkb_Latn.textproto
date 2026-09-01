@@ -1,0 +1,13 @@
+id: "pkb_Latn"
+language: "pkb"
+script: "Latn"
+name: "Pokomo"
+region: "KE"
+population: 117000
+exemplar_chars {
+  base: "a A b B ḅ Ḅ {bv} {BV} {ch} {CH} d D ḍ Ḍ {d̯} {D̯} {dh} {DH} {dz} {DZ} e E f F g G {gh} {GH} h H {hw} {HW} i I j J k K l L m M n N {ny} {NY} o O p P {pf} {PF} r R {rh} {RH} s S {sh} {SH} t T {t̯} {T̯} {ts} {TS} u U v V w W y Y z Z"
+  marks: "◌̣ ◌̯"
+  auxiliary: "c C q Q x X"
+}
+source: "Abeched̯e ya Kipfokomo, Bible Translation and Literacy, 2009"
+note: "Upper Pokomo uses apostrophe, suffixed h or double leters instead of letters with diacritics like Lower Pokomo."

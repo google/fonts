@@ -1,0 +1,11 @@
+id: "tvd_Latn"
+language: "tvd"
+script: "Latn"
+name: "Tsuvadi"
+population: 130000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E é É f F g G h H i I í Í j J k K l L m M n N ñ Ñ o O ó Ó p P r R s S t T u U ú Ú v V w W y Y z Z"
+  marks: "◌́ ◌̃"
+  auxiliary: "q Q x X"
+}

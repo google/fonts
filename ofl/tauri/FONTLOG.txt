@@ -1,0 +1,70 @@
+FONTLOG for the Tauri font
+
+This file provides detailed information on Tauri Font Software. 
+This information should be distributed along with the Tauri font 
+and any derivative works.
+
+Basic Font Information
+
+Tauri is a semi condensed sans typeface with a sense of restraint, 
+clarity and rigor. Tauri's unique qualities do not shout and 
+instead emerge slowly and organically as it is used. Tauri is 
+useful from small to medium sizes but has enough subtle detail 
+to be used at large sizes as well if it is more tightly spaced.
+
+Tauri is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release partially supports the following 
+Unicode ranges: Latin-1
+
+There are four source files:
+
+1. Tauri.vfb Original Source Files with 
+   contour overlaps
+
+2. Tauri-Regular_otf.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. Tauri-Regular_ttf.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+4. Tauri.otf PostScript outlines OTF-CFF font.
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+23 Jan 2013 (Eben Sorkin) Tauri v1.003
+- Added hinting using TTFautohint version 0.93.8-669f
+- Mastered typeface to TTF and OTF
+- Improved PS hinting of the Q
+- Made the sidebearings of all diacritic glyphs 50 units
+
+09 Jan 2013 (Eben Sorkin) Tauri v1.002
+- Removed custom Cmap and excess OpenType tables
+- Mastered typeface to TTF and OTF
+- Added hinting using TTFautohint version 0.93.8-669f
+
+11 September 2012 (Eben Sorkin) Tauri v1.001
+- Mastered Font from Fontlab VBF to TTF
+- Added true type hinting using TTF Autohint version 0.92
+
+28 August 2012 (Yvonne Schüttler) Tauri v1.000
+- Completed first complete version of Tauri in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Yvonne Schüttler
+E: ysch@mac.com
+W: www.ysch.de
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Spacing and Mastering

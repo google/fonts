@@ -1,0 +1,11 @@
+id: "moe_Latn"
+language: "moe"
+script: "Latn"
+name: "Innu"
+autonym: "Innu Aimun"
+population: 12439
+region: "CA"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Û a b c d e f g h i j k l m n o p q r s t u v w x y z â î û"
+  marks: "◌̂"
+}

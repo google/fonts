@@ -1,0 +1,13 @@
+id: "itl_Cyrl"
+language: "itl"
+script: "Cyrl"
+name: "Itelmen"
+region: "RU"
+population: 808
+exemplar_chars {
+base: "А а Б б В в Г г Д д Е е Ё ё Ж ж З з И и Й й К к {Кʼ} {кʼ} Қ қ {Қʼ} {қʼ} Л л Љ љ Ԯ ԯ М м Н н Њ њ Ң ң О о П п {Пʼ} {пʼ} Р р С с Т т {Тʼ} {тʼ} У у Ф ф Х х Ҳ ҳ Ц ц Ч ч {Чʼ} {чʼ} Ш ш Щ щ Ъ ъ Ы ы Ь ь Ә ә Э э Ю ю Я я"
+  auxiliary: "Ӑ ӑ Ӄ ӄ {Ӄʼ} {ӄʼ} {О̆} {о̆} Ў ў Ԓ ԓ Ӈ ӈ Ӽ ӽ"
+  marks: "◌"
+}
+source: "К.Н. Халоймова, А.П. Володин, Букварь для 1 класса ительменских школ, Санкт-Петербург, Просвещение, 1999"
+note: "Letter with hooks (Ӄ ӄ Ԓ ԓ Ӈ ӈ Ӽ ӽ) can be considered glyph variants of letters with descenders (Қ қ Ԯ ԯ Ң ң Ҳ ҳ). Some users prefer those forms."

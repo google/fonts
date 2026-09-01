@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.2", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "axisregistry"
+dynamic = ["version"]
+description = "A python API to access data from the Google Fonts variable fonts axis registry."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE.txt" }
+authors = [
+  { name = "Felipe Sanches", email = "juca@members.fsf.org" },
+  { name = "Simon Cozens", email = "simon@simon-cozens.org" },
+  { name = "Marc Foley", email = "m.foley.88@gmail.com" }
+]
+
+classifiers = [
+  "Intended Audience :: Developers",
+  "Topic :: Text Processing :: Fonts",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3"
+]
+dependencies = [
+  "fonttools",
+  "gfmetadata",
+  "importlib_resources ; python_version < '3.10'"
+]
+
+[project.urls]
+Homepage = "https://github.com/googlefonts/axisregistry/"
+Repository = "https://github.com/googlefonts/axisregistry/"
+
+[project.optional-dependencies]
+test = [
+  "pytest>=4.5.0",
+  "coverage>=5",
+  "black",
+  "isort",
+  "flake8-bugbear"
+]
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["Lib"]
+
+[tool.setuptools.package-data]
+axisregistry = ["data/*.textproto"]
+
+[tool.setuptools_scm]
+version_file = "Lib/axisregistry/_version.py"

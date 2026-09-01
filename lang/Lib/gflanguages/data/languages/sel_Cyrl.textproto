@@ -1,0 +1,11 @@
+id: "sel_Cyrl"
+language: "sel"
+script: "Cyrl"
+name: "Selkup"
+autonym: "Шӧльӄумыт"
+population: 0
+exemplar_chars {
+  base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Җ Ӄ Ӈ A Ӣ Ӧ Ө Ӭ Ӯ Ӱ Ӷ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ a ӣ ӧ ө ӭ ӯ ӱ ӷ"
+  marks: "◌̄ ◌̆ ◌̇ ◌̈ ◌̊"
+}
+historical: true

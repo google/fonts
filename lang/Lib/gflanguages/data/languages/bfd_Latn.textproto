@@ -1,0 +1,13 @@
+id: "bfd_Latn"
+language: "bfd"
+script: "Latn"
+name: "Bafut"
+population: 158146
+region: "CM"
+exemplar_chars {
+  base: "a A à À á Á â Â ǎ Ǎ b B d D e E è È é É ê Ê ě Ě ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} ə Ə {ə̀} {Ə̀} {ə́} {Ə́} {ə̂} {Ə̂} {ə̌} {Ə̌} f F g G {gh} {GH} i I ì Ì í Í î Î ǐ Ǐ ɨ Ɨ {ɨ̀} {Ɨ̀} {ɨ́} {Ɨ́} {ɨ̂} {Ɨ̂} {ɨ̌} {Ɨ̌} j J k K ’ l L m M n N ŋ Ŋ {ŋy} {ŊY} o O ò Ò ó Ó ô Ô ǒ Ǒ ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} r R s S t T {ts} {TS} u U ù Ù ú Ú û Û ǔ Ǔ w W y Y z Z"
+  marks: "◌̀ ◌́ ◌̂ ◌̌"
+  auxiliary: "ʼ"
+}
+source: "Gratien Gualbert Atindogbe, Standardization and harmonization of Cameroonian languages, Cape Town: Centre for Advanced Studies of African Society (CASAS), 2003"
+source: "Maurice Tadadjeu & Étienne Sadembouo, Alphabet général des langues camerounaises, Yaoundé, Université de Yaoundé, 1984"

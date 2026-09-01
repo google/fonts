@@ -1,0 +1,11 @@
+id: "nfr_Latn"
+language: "nfr"
+script: "Latn"
+name: "Nafaanra"
+population: 89000
+region: "GH"
+region: "CI"
+exemplar_chars {
+  base: "a A b B d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "q Q x X"
+}

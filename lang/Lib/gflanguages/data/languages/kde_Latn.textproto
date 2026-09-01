@@ -1,0 +1,25 @@
+id: "kde_Latn"
+language: "kde"
+script: "Latn"
+name: "Makonde"
+autonym: "Chimakonde"
+population: 1463820
+region: "TZ"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "VvAa"
+  masthead_partial: "Nn"
+  styles: "Lisiku lya 10 Disemba 1948, Lukumbi Lukulu"
+  tester: "Ili kuhinikiha kuchidono wasa wa vanu unawuniwa, na Tansania inaunila"
+  poster_sm: "Vanu vohevohe"
+  poster_md: "Kila munu"
+  poster_lg: "Vanu"
+  specimen_48: "Kila munu alembelewa kwikala pachilambo alitukutwile na wunu"
+  specimen_36: "Vitukutuku vyohevyohe vin’nimbidya munu ulitukutula kama chilembelewa n’katiba au n’shelia, vilonjelewe n’ding’umbi dya shelia."
+  specimen_32: "Munu avele na wasa wa kuwuniwa na a’chilambo mwave, na vanu vohevohe vatumbame kukumilana na vilambo vinji kulunda vitukutuku vyohevyohe vilembelewa na umi wa kila munu."
+  specimen_21: "Munu ave na wasa wa mbone wa kupumulila na chipindi chimaikana cha madengo. Wasa wapumulila van’tomolele (van’nipe).\nMunu atungumane n’kaya, mulongo, n’nitawa n’chilambo na n’milambo mwohemwohe, utungumana kulandana na lilove alino.\nChinapawe chohechohe n’nilove alino chionekana na chilambo chohecho, vanu au munu wohewo upokonyola wasa uhauliwidye."
+  specimen_16: "Lisiku lya 10 Disemba 1948, Lukumbi Lukulu lwa Umoja wa Vilambo lunihaula na kuhumya lilove lya vilambo lya wasa wa vanu. Lilove alino lihumile baada ya chilambo chohechohe kupanyana ding’ondo ding’ulu dimbili. Lukumbi anelwo lulembedile kila chilambo chihumye lilove alino livahwikile vanu vake kwa kulangudya, kusomesa, kusomela, kuhaula n’disule na n’disehemu dinji kuvele na ilimu.\nIli kuhinikiha kuchidono wasa wa vanu unawuniwa, na Tansania inaunila wasa anewo, lilove alino lihumile M’chimakonde ili valembela usoma vavike wasa wene mun’tima mwavo vene na vanu vanji. Koka chive chihinde cha kukonyelela kuwuniwa kwa wasa wene m’manu na lyene lipanda."
+}

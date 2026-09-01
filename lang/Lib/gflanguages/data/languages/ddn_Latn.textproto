@@ -1,0 +1,24 @@
+id: "ddn_Latn"
+language: "ddn"
+script: "Latn"
+name: "Dendi"
+region: "BJ"
+population: 270000
+exemplar_chars {
+  base: "a A à À á Á ā Ā b B c C d D e E è È é É ē Ē ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̄} {Ɛ̄} f F g G {gb} {GB} h H i I ì Ì í Í ī Ī j J k K {kp} {KP} l L m M n N {ny} {NY} ŋ Ŋ {ŋw} {ŊW} {ŋm} {ŊM} o O ò Ò ó Ó ō Ō ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̄} {Ɔ̄} p P r R s S t T w W y Y z Z"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Uu"
+  styles: "Aduniya kuna n gu ibuna damayo hɛi nɔ dei-dei"
+  tester: "Aduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ"
+  poster_sm: "Aduniya kuna"
+  poster_md: "Aduniya"
+  poster_lg: "Aduniya"
+  specimen_48: "Aduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ."
+  specimen_36: "Aduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ."
+  specimen_32: "Aduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ."
+  specimen_21: "Aduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ.\nAduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ.\nAduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ."
+  specimen_16: "Aduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ.\nAduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ.\nAduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ.\nAduniya kuna n gu ibuna damayo hɛi nɔ dei-dei nn daama nna n burucinitɛrɛ fɔ, n lasabu nna laakari ya nam nn mɔ huro cɛrɛ kuna nyanze tɛrɛ bɔŋɔɔ."
+}
+source: "Centre national de linguistique appliquée (CENALA), Alphabet des langues nationales béninoises, Cotonou, CENALA & Initiative francophone pour la formation à distance des maîtres (IFADEM), 2008"

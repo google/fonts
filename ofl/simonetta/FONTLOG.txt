@@ -1,0 +1,76 @@
+FONTLOG for the Simonetta font
+
+This file provides detailed information on the Simonetta font
+Software.
+
+This information should be distributed along with the Simonetta
+font and any derivative works.
+
+Basic Font Information
+
+The Simonetta font is named in honour of Simonetta Vespucci. 
+She was considered to be the most beautiful woman in Renaissance 
+Florence and was nicknamed 'La Bella Simonetta.' She was a model 
+for Sandro Botticelli's painting 'The Birth of Venus' and many 
+of his other female characters.
+
+The Simonetta font is inspired by Italian Humanistic typefaces, 
+but it is contemporary and has many original features. 
+It has one-sided serifs and soft drops, is slightly slanted 
+(some two degrees) and the Italics have the same slant. The 
+Romans and Italics differ from each other only in their shapes,
+with the italics being much more calligraphic and angular.
+
+Designed by Gayaneh Bagdasaryan for BrownFox.
+
+
+Simonetta is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+There are eight Source files:
+
+1. Simonetta-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+2. Simonetta-Regular-PS.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+3. Simonetta-Italic-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+4. Simonetta-Italic-PS.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+5. Simonetta-Black-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+6. Simonetta-Black-PS.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+7. Simonetta-BlackItalic-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+8. Simonetta-BlackItalic-PS.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+To contribute to the project contact Gayaneh Bagdasaryan
+at gayaneh.b@gmail.com
+
+ChangeLog
+
+2 April 2012 (Gayaneh Bagdasaryan) Simonetta v1.002
+- Extended character set
+- Initial release of Black and Black Italic
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Gayaneh Bagdasaryan
+E: gayaneh.b@gmail.com
+W: www.brownfox.org
+D: Designer
+
+N: Igino Marini
+E: mail@iginomarini.com
+W: http://www.ikern.com
+D: Spacing and Kerning

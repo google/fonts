@@ -1,0 +1,11 @@
+id: "gel_Latn"
+language: "gel"
+script: "Latn"
+name: "ut-Ma’in"
+population: 36000
+region: "NG"
+exemplar_chars {
+  base: "a A à À á Á b B c C d D e E è È é É f F g G h H i I ì Ì í Í j J k K l L m M n N ń Ń o O ò Ò ó Ó p P r R s S t T u U ù Ù ú Ú w W y Y z Z"
+  marks: "◌̀ ◌́ ◌̱"
+  auxiliary: "q Q x X"
+}

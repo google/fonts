@@ -1,0 +1,11 @@
+id: "fbl_Latn"
+language: "fbl"
+script: "Latn"
+name: "West Albay Bikol"
+autonym: "Pandan Bikol"
+population: 2511162
+region: "PH"
+exemplar_chars {
+  base: "A B D G H I K L M N O P R S T U W Y a b d g h i k l m n o p r s t u w y"
+  auxiliary: "C E F J Q V X Z c e f j q v x z"
+}

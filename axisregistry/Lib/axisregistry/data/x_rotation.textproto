@@ -1,0 +1,15 @@
+# Rotation in X, based on https://github.com/googlefonts/Tilt-Fonts
+tag: "XROT"
+display_name: "Rotation in X"
+min_value: -180
+default_value: 0
+max_value: 180
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Glyphs rotate left and right, negative values to the left"
+  " and positive values to the right, in the X dimension."

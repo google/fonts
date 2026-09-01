@@ -1,0 +1,13 @@
+id: "cou_Latn"
+language: "cou"
+script: "Latn"
+name: "Wamey"
+autonym: "wamey"
+population: 38000
+region: "GN"
+region: "SN"
+exemplar_chars {
+  base: "A B D E F G H I K L M N O P R S T U W X Y a b d e f g h i k l m n o p r s t u w x y Ŋ ŋ Ɔ Ǝ Ɛ Ɲ ǝ ɔ ɛ ɲ"
+}
+source: "Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015"
+source: "Wikipedia"

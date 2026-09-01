@@ -1,0 +1,73 @@
+syntax = "proto2";
+
+/**
+ * languages/regions/scripts proto formats.
+ */
+package google.languages_public;
+
+// A region or territory as defined in the CLDR
+message RegionProto {
+  optional string id = 1;  // Region codes defined by CLDR
+  optional string name = 2;
+  optional int32 population = 3;
+  repeated string region_group = 4;
+
+  // Next = 5;
+}
+
+message ScriptProto {
+  optional string id = 1;  // Script codes defined by CLDR
+  optional string name = 2;
+  optional bool historical = 3;
+  optional bool fictional = 4;
+  optional string family = 5;
+  optional string summary = 6;
+  // Next = 6;
+}
+
+message LanguageProto {
+  optional string id = 1;  // Either ${lang} or ${lang}_${script}
+  optional string language = 2;  // BCP 47
+  optional string script = 3;
+  optional string name = 4;
+  optional string preferred_name = 5;
+  optional string autonym = 6;  // Name of language as written in that language
+  optional int32 population = 7;
+  repeated string region = 8;
+  optional ExemplarCharsProto exemplar_chars = 9;
+  optional SampleTextProto sample_text = 10;
+  optional bool historical = 11;
+  repeated string source = 12;
+  optional string note = 13;
+
+  // Next = 12;
+}
+
+// Space-separated lists of characters representative of a given language.
+message ExemplarCharsProto {
+  optional string base = 1;
+  optional string auxiliary = 2;
+  optional string marks = 3;
+  optional string numerals = 4;
+  optional string punctuation = 5;
+  optional string index = 6;
+  optional string not_required = 7;  // Base characters which can be ignored when determining language support
+
+  // Next = 8;
+}
+
+message SampleTextProto {
+  optional string masthead_full = 1;
+  optional string masthead_partial = 2;
+  optional string styles = 3;
+  optional string tester = 4;
+  optional string poster_sm = 5;
+  optional string poster_md = 6;
+  optional string poster_lg = 7;
+  optional string specimen_48 = 8;
+  optional string specimen_36 = 9;
+  optional string specimen_32 = 10;
+  optional string specimen_21 = 11;
+  optional string specimen_16 = 12;
+  optional string note = 13;
+}

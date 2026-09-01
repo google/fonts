@@ -1,0 +1,25 @@
+id: "szl_Latn"
+language: "szl"
+script: "Latn"
+name: "Silesian"
+autonym: "Ślůnsko godka"
+population: 497669
+region: "PL"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ń Ř Ś Š Ů Ź Ż Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž"
+  marks: "◌́ ◌̇ ◌̊ ◌̌"
+}
+sample_text {
+  masthead_full: "WwŠš"
+  masthead_partial: "Yy"
+  styles: "Wšyjske ludźe rodzům śe swobodne a růwne"
+  tester: "Wšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach."
+  poster_sm: "Wšyjske ludźe"
+  poster_md: "Wšyjske"
+  poster_lg: "Wšyjske"
+  specimen_48: "Wšyjske ludźe rodzům śe swobodne a růwne we swojim"
+  specimen_36: "Wšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach. Sům uůne uobdařůne filipym a sůmńyńym a majům powinność wzglyndym inkšych jak brat s bratym postympować."
+  specimen_32: "Wšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach. Sům uůne uobdařůne filipym a sůmńyńym a majům powinność wzglyndym inkšych jak brat s bratym postympować."
+  specimen_21: "Wšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach. Sům uůne uobdařůne filipym a sůmńyńym a majům powinność wzglyndym inkšych jak brat s bratym postympować.\nWšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach. Sům uůne uobdařůne filipym a sůmńyńym a majům powinność wzglyndym inkšych jak brat s bratym postympować."
+  specimen_16: "Wšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach. Sům uůne uobdařůne filipym a sůmńyńym a majům powinność wzglyndym inkšych jak brat s bratym postympować.\nWšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach. Sům uůne uobdařůne filipym a sůmńyńym a majům powinność wzglyndym inkšych jak brat s bratym postympować.\nWšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach. Sům uůne uobdařůne filipym a sůmńyńym a majům powinność wzglyndym inkšych jak brat s bratym postympować.\nWšyjske ludźe rodzům śe swobodne a růwne we swojim werće a prawach. Sům uůne uobdařůne filipym a sůmńyńym a majům powinność wzglyndym inkšych jak brat s bratym postympować."
+}

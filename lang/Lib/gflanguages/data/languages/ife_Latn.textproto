@@ -1,0 +1,14 @@
+id: "ife_Latn"
+language: "ife"
+script: "Latn"
+name: "Ifè"
+autonym: "ifɛ̀"
+population: 111909
+region: "TG"
+exemplar_chars {
+  base: "A B D Ɖ E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U W Y Z a b d ɖ e ɛ f g h i k l m n ŋ o ɔ p r s t u w y z Ã {Ɛ̃} Ĩ {Ɔ̃} Ũ {Ã̀} {Ɛ̃̀} {Ĩ̀} {Ɔ̃̀} {Ũ̀} {Ã́} {Ɛ̃́} {Ĩ́} {Ɔ̃́} Ṹ ã {ɛ̃} ĩ {ɔ̃} ũ {ã̀} {ɛ̃̀} {ĩ̀} {ɔ̃̀} {ũ̀} {ã́} {ɛ̃́} {ĩ́} {ɔ̃́} ṹ"
+  auxiliary: "C J Q X c j q x"
+  marks: "◌̀ ◌́ ◌̃"
+}
+source: "Wikipedia"
+source: "https://www.webonary.org/ife"

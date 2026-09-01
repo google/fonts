@@ -1,0 +1,28 @@
+id: "tzm_Latn"
+language: "tzm"
+script: "Latn"
+name: "Central Atlas Tamazight"
+autonym: "Tamaziɣt"
+population: 3485046
+region: "MA"
+exemplar_chars {
+  base: "a A b B c C d D ḍ Ḍ e E ɛ Ɛ f F g G {gʷ} {Gʷ} ɣ Ɣ h H ḥ Ḥ i I j J k K {kʷ} {Kʷ} l L m M n N q Q r R ṛ Ṛ s S ṣ Ṣ t T ṭ Ṭ u U w W x X y Y z Z"
+  auxiliary: "o O p P v V"
+  marks: "◌̣"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D Ḍ E Ɛ F G Ɣ H Ḥ I J K L M N Q R Ṛ S Ṣ T Ṭ U W X Y Z"
+}
+sample_text {
+  masthead_full: "IiMm"
+  masthead_partial: "Dd"
+  styles: "Imi asmussen n lḥwerma i ttalasen akkw yâggalen"
+  tester: "Imi kra n widn nesmussun ara izerfan n wemdan d widn iḥeqqren"
+  poster_sm: "Imi tebbwi"
+  poster_md: "Imi yessefk"
+  poster_lg: "Imdanen,"
+  specimen_48: "Imi di lqanun izerfan n wemdan imudan n ledjnas yedduklen berrḥen"
+  specimen_36: "Imi afham amechruk n tlella d yizerfan agi degs lqima tameqwrant i wakken ad uqment leqder tmura leqder i lâhd n sent."
+  specimen_32: "Akkw indamen msawan zdat lqanun u ghur sen lḥeqq bla afraz i wakkn atn iḥudd lqanun - ghur sen irkwelli lḥeqq i uḥuddu, akken ma llan ḍedd tarayit ur nwufq ara tiṣerriḥt agi."
+  specimen_21: "Kull amdan ghur-s lḥeqq ad ichetki i tnehkamin tighelnawin yettuk\'ellfen i wakkn ad fkent lḥeqq ḍedd tneḥyafin ur nettqadar ara izerfan ilsasiyen is yettak udustur d lqanun.\nUla d yiwen ur yezmir ad yettwaṭṭef, nagh ad yettwaḥbes nagh ad yet twanfu s ldjur.\nKull amdan ghur-s lḥeqq ad-tâddi tluft is zdat tnehkamt, âinani, bla tneḥyaft i wakkn ad - tseyyi ma seḥḥant telzimin is d yizerfan is nagh ma d-tidett wayn - idd gren fell as deg wennar n lâqubat."
+  specimen_16: "Ur yezmir ḥedd ad yessekchem iman is s ldjur di tudert n wemdan, di twachult is; deg wekkham is, timuzniwin is nagh ad yessims lḥwerma-s d nnif is; kull amdan ghur-s lḥeqq at iḥudd lqanun si tiytiwin yechban tigi.\nKull amdan ghur-s lḥeqq i tlelli n tedmi, tamsakwit d ddiyana, lḥeqq agi tetteski deg-s tlelli ubeddel n ddiyana akkw d wayn is yettamen, wehd es nagh gar medden âinani nagh di sser, s uselmed s tegdimin, s wâbâd d umares n lemdaheb.\nKull amdan ghur-s lḥeqq n tlelli di ṛṛay d lmenṭeq anda yetteski lḥeqq ubeggen n ṛṛay bla ma yettuchebbwel u daghen tebbwi yas-dd ad inadi, ad yeṭṭef, u ad yefser di yall tamurt isallen d- tedmiwin s yall ttawil n wenṭaq."
+}

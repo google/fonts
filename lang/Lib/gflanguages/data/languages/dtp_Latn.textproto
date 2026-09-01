@@ -1,0 +1,20 @@
+id: "dtp_Latn"
+language: "dtp"
+script: "Latn"
+name: "Central Dusun"
+population: 182851
+region: "MY"
+sample_text {
+  masthead_full: "NnOo"
+  masthead_partial: "Ss"
+  styles: "Nosusu no do tuhun ngaavi i koidu om kopiagahan"
+  tester: "Nosusu no do tuhun ngaavi i koidu om kopiagahan doid kotinguhan"
+  poster_sm: "Nosusu no do"
+  poster_md: "Nosusu"
+  poster_lg: "Nosusu"
+  specimen_48: "Nosusu no do tuhun ngaavi i koidu om kopiagahan doid"
+  specimen_36: "Nosusu no do tuhun ngaavi i koidu om kopiagahan doid kotinguhan om sanganu. Kikasaavan om topiumanan ginavo zioho om minooi o tumindak id piahatan do iso suvai do sunduvan i kopiobpinazan."
+  specimen_32: "Nosusu no do tuhun ngaavi i koidu om kopiagahan doid kotinguhan om sanganu. Kikasaavan om topiumanan ginavo zioho om minooi o tumindak id piahatan do iso suvai do sunduvan i kopiobpinazan."
+  specimen_21: "Nosusu no do tuhun ngaavi i koidu om kopiagahan doid kotinguhan om sanganu. Kikasaavan om topiumanan ginavo zioho om minooi o tumindak id piahatan do iso suvai do sunduvan i kopiobpinazan.\nNosusu no do tuhun ngaavi i koidu om kopiagahan doid kotinguhan om sanganu. Kikasaavan om topiumanan ginavo zioho om minooi o tumindak id piahatan do iso suvai do sunduvan i kopiobpinazan."
+  specimen_16: "Nosusu no do tuhun ngaavi i koidu om kopiagahan doid kotinguhan om sanganu. Kikasaavan om topiumanan ginavo zioho om minooi o tumindak id piahatan do iso suvai do sunduvan i kopiobpinazan.\nNosusu no do tuhun ngaavi i koidu om kopiagahan doid kotinguhan om sanganu. Kikasaavan om topiumanan ginavo zioho om minooi o tumindak id piahatan do iso suvai do sunduvan i kopiobpinazan.\nNosusu no do tuhun ngaavi i koidu om kopiagahan doid kotinguhan om sanganu. Kikasaavan om topiumanan ginavo zioho om minooi o tumindak id piahatan do iso suvai do sunduvan i kopiobpinazan."
+}

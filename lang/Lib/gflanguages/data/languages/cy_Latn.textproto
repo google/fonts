@@ -1,0 +1,30 @@
+id: "cy_Latn"
+language: "cy"
+script: "Latn"
+name: "Welsh"
+autonym: "Cymraeg"
+population: 536376
+region: "AR"
+region: "GB"
+exemplar_chars {
+  base: "A Á À Â Ä B C {CH} D {DD} E É È Ê Ë F {FF} G {NG} H I Í Ì Î Ï J L {LL} M N O Ó Ò Ô Ö P {PH} R {RH} S T {TH} U Ú Ù Û Ü W Ẃ Ẁ Ŵ Ẅ Y Ý Ỳ Ŷ Ÿ a á à â ä b c {ch} d {dd} e é è ê ë f {ff} g {ng} h i í ì î ï j l {ll} m n o ó ò ô ö p {ph} r {rh} s t {th} u ú ù û ü w ẃ ẁ ŵ ẅ y ý ỳ ŷ ÿ"
+  auxiliary: "Ă Å Ã Ā Æ Ç Ĕ Ē Ĭ Ī K Ñ Ŏ Ø Ō Œ Q Ŭ Ū V X Z ă å ã ā æ ç ĕ ē ĭ ī k ñ ŏ ø ō œ q ŭ ū v x z"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C {CH} D {DD} E F {FF} G {NG} H I J K L {LL} M N O P {PH} Q R {RH} S T {TH} U V W X Y Z"
+}
+sample_text {
+  masthead_full: "GgEe"
+  masthead_partial: "Nn"
+  styles: "Gan mai cydnabod urddas cynhenid a hawliau"
+  tester: "Gan i anwybyddu a dirmygu hawliau dynol arwain at weithredoedd"
+  poster_sm: "Gan fod yn"
+  poster_md: "Gan fod y"
+  poster_lg: "Genir"
+  specimen_48: "Gan fod deall yr hawliau a’r rhyddfreintiau hyn gan bawb o’r pwys"
+  specimen_36: "Y mae gan bawb hawl i orffwys a hamdden gan gynnwys cyfyngiad rhesymol ar oriau gwaith, ac i wyliau cyfnodol gyda thâl."
+  specimen_32: "Gan fod yn rhaid amddiffyn hawliau dynol a rheolaeth cyfraith, os nad yw pob unigolyn dan orfod yn y pendraw i wrthryfela yn erbyn gormes a thrais,"
+  specimen_21: "Gan mai cydnabod urddas cynhenid a hawliau cydradd a phriod holl aelodau’r teulu dynol yw sylfaen rhyddid, cyfiawnder a heddwch yn y byd,\nGan i anwybyddu a dirmygu hawliau dynol arwain at weithredoedd barbaraidd a dreisiodd gydwybod dynolryw, a bod dyfodiad byd lle y gall pob unigolyn fwynhau rhyddid i siarad a chredu a rhyddid rhag ofn ac angau wedi ei gyhoeddi yn ddyhead uchaf y bobl gyffredin,"
+  specimen_16: "Gan mai cydnabod urddas cynhenid a hawliau cydradd a phriod holl aelodau’r teulu dynol yw sylfaen rhyddid, cyfiawnder a heddwch yn y byd,\nGan i anwybyddu a dirmygu hawliau dynol arwain at weithredoedd barbaraidd a dreisiodd gydwybod dynolryw, a bod dyfodiad byd lle y gall pob unigolyn fwynhau rhyddid i siarad a chredu a rhyddid rhag ofn ac angau wedi ei gyhoeddi yn ddyhead uchaf y bobl gyffredin,\nGan fod yn rhaid amddiffyn hawliau dynol a rheolaeth cyfraith, os nad yw pob unigolyn dan orfod yn y pendraw i wrthryfela yn erbyn gormes a thrais,\nGan fod yn rhaid hyrwyddo cysylltiadau cyfeillgar rhwng Cenhedloedd,"
+}

@@ -1,0 +1,12 @@
+id: "ndc_Latn"
+language: "ndc"
+script: "Latn"
+name: "Ndau"
+population: 3867046
+region: "MZ"
+region: "ZW"
+exemplar_chars {
+  base: "a A b B {bh} {BH} {bv} {BV} c C d D {dh} {DH} {dl} {DL} {dz} {DZ} {dzv} {DZV} e E f F g G h H {hl} {HL} i I j J {jh} {JH} k K m M n N {n’} {N’} {ny} {NY} o O p P {pf} {PF} r R s S {sh} {SH} {sv} {SV} t T {ts} {TS} {tsv} {TSV} u U v V {vh} {VH} w W y Y z Z {zv} {ZV}"
+  auxiliary: "l L q Q x X"
+}
+source: "Introdução a ortografia de cindau, Maputo, MIAF & SIL Moçambique, 2010"

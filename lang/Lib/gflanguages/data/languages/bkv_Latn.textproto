@@ -1,0 +1,11 @@
+id: "bkv_Latn"
+language: "bkv"
+script: "Latn"
+name: "Bekwarra"
+population: 200000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á ā Ā à À â Â ǎ Ǎ b B c C d D e E é É ē Ē è È ě Ě f F g G h H i I í Í ī Ī ì Ì î Î j J k K l L ḿ Ḿ m M n N ń Ń ǹ Ǹ o O ó Ó ō Ō ò Ò p P r R s S t T u U ú Ú ū Ū ù Ù û Û w W y Y"
+  marks: "◌́ ◌̄ ◌̀ ◌̂ ◌̌"
+  auxiliary: "q Q v V x X z Z"
+}

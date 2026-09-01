@@ -1,0 +1,33 @@
+id: "af_Latn"
+language: "af"
+script: "Latn"
+name: "Afrikaans"
+autonym: "Afrikaans"
+population: 9318845
+region: "BW"
+region: "NA"
+region: "ZA"
+exemplar_chars {
+  base: "a A á Á ä Ä b B c C d D e E é É è È ê Ê ë Ë f F g G h H i I í Í î Î ï Ï j J k K l L m M n N o O ó Ó ò Ò ô Ô ö Ö p P q Q r R s S t T u U ú Ú û Û ü Ü v V w W x X y Y ý Ý z Z"
+  auxiliary: "à À â Â å Å ã Ã æ Æ œ Œ ç Ç ì Ì ñ Ñ ù Ù"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "AANGESIEN erkenning vir die inherente waardigheid"
+  tester: "AANGESIEN minagting vir menseregte barbaarse dade wat die gewete"
+  poster_sm: "AANGESIEN dit"
+  poster_md: "AANGESIEN"
+  poster_lg: "Alle"
+  specimen_48: "AANGESIEN die volke wat lid van die Verenigde Volke Organisasie"
+  specimen_36: "AANGESIEN ’n algemene begrip van hierdie regte en vryhede van groot belang vir die bereiking van hierdie voorneme is,"
+  specimen_32: "Hierdie Universele Verklaring van Menseregte as ’n algemene standaard vir die verwesenliking deur alle mense en nasies, om te verseker dat elke individu en elke"
+  specimen_21: "deel van die gemeenskap hierdie Verklaring in ag sal neem en deur opvoeding, respek vir hierdie regte en vryhede te bevorder, op nasionale en internasionale vlak, daarna sal strewe om die universele en effektiewe erkenning en agting van hierdie regte te verseker, nie net vir die mense van die Lidstate nie, maar ook vir die mense in die gebiede onder hul jurisdiksie."
+  specimen_16: "Alle menslike wesens word vry, met gelyke waardigheid en regte, gebore. Hulle het rede en gewete en behoort in die gees van broederskap teenoor mekaar op te tree.\nElke persoon het die reg tot al die regte en vryhede soos in die Verklaring vervat is, sonder uitsondering van enige aard soos op grond van ras, geslag, kleur, taal, godsdiens, geboorte of enige ander status.\nDaarbenewens sal geen onderskeid op grond van politieke, geregtelike of internasionale status van die land of gebied waartoe ’n persoon behoort gemaak word nie, hetsy dit ’n onafhanklike trust, nie-selfregerend of onder enige ander beperking van soewereiniteit is."
+}
+source: "E.F. Kotzé et al, Afrikaanse Woordelys en Spelreëls, NB Uitgewers, 2009"
+note: "Acute is used to indicate different meaning (ál/al, nóú/nou) or to mark stress on the letters of vowels (a, e, i, o, u, y). The acute is not used when another mark is already present, for example 'dié' or 'die', 'kóéël' for 'koeël'. Diaeresis is used to mark a sequence is not a digraph (a, e, i, o, u): kontraäksie, beëdig, geïn, koöperasie, reünie. Grave is used on e to indicate the pronunciation [ɛ] or in proper names. Grave was used in 'òf ... òf' and 'nòg ... nòg' until the 1991 spelling and are now spelled with acute, some people still use the old spelling. Circumflex is used to indicate long mid-close vowels (e, i, o, u). Borrowed words like 'tête-à-tête', 'maître d’hôtel', 'El Niño', 'ångström' in the official spelling, or like 'pâtissier' occur but are not in the official spelling. These are not frequent their rare characters can be in auxiliary. AWS 2009 has  ° ℓ Ω £ $ ¢ € µ ² ³, previous editions also had ƒ (for 'floryn', now as 'f.' or 'fl.')."

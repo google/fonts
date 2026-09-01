@@ -1,0 +1,16 @@
+# SCAN based on https://github.com/jenskutilek/homecomputer-fonts
+tag: "SCAN"
+display_name: "Scanlines"
+min_value: -100
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Break up shapes into horizontal segments without any changes in overall width,"
+  " letter spacing, or kerning, so there are no line breaks or page layout changes."
+  " Negative values make the scanlines thinner, and positive values make them thicker."

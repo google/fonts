@@ -1,0 +1,21 @@
+# Override config.yaml for ofl/notosansdisplay
+# Copied from notofonts/latin-greek-cyrillic (sources/config-sans.yaml)
+# NOTE: This config references the CURRENT notofonts/ per-script repo sources,
+# which may produce a newer version than the binary currently shipped in google/fonts.
+# The shipped binary was built from the older googlefonts/noto-fonts monorepo.
+# This config serves as a starting point for reproducible build attempts.
+#
+buildVariable: true
+familyName: Noto Sans
+googleFonts: true
+includeSubsets:
+- force: true
+  from: Noto Sans Devanagari
+  layoutHandling: closure
+  ranges:
+  - end: 2431
+    start: 2304
+recipeProvider: noto
+sources:
+- sources/NotoSans.glyphspackage
+- sources/NotoSans-Italic.glyphspackage

@@ -1,0 +1,25 @@
+id: "lia_Latn"
+language: "lia"
+script: "Latn"
+name: "Limba, West-Central"
+population: 446000
+region: "GN"
+region: "SL"
+exemplar_chars {
+  base: "a A b B d D e E ɛ Ɛ f F {gb} {GB} h H i I k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T {th} {TH} u U w W y Y"
+}
+sample_text {
+  masthead_full: "BbIi"
+  masthead_partial: "Yy"
+  styles: "Biya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ"
+  tester: "Biya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki."
+  poster_sm: "Biya-mɛti fooma"
+  poster_md: "Biya-mɛti"
+  poster_lg: "Biya-mɛti"
+  specimen_48: "Biya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ"
+  specimen_36: "Biya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande."
+  specimen_32: "Biya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande."
+  specimen_21: "Biya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande.\nBiya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande.\nBiya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande."
+  specimen_16: "Biya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande.\nBiya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande.\nBiya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande.\nBiya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande.\nBiya-mɛti fooma be kiyo ka kuyankaŋ iŋ kasɛmbɛ mɛnɛ in ka yiki. Bindɛ kiŋ ba niyɔ in masimɔkɔ, maka yiina wo ka hu wɛndi yande."
+}
+source: "Rhonda L. Hartell, Alphabets de langues africaines, Dakar, BREDA (UNESCO) & Summer Institute of Linguistics, 1993"

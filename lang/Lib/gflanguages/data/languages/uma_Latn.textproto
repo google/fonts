@@ -1,0 +1,15 @@
+id: "uma_Latn"
+language: "uma"
+script: "Latn"
+name: "Umatilla"
+population: 25
+region: "US"
+exemplar_chars {
+  base: "ˀ a A c C {c̓} {C̓} č Č {č̓} {Č̓} h H i I ɨ Ɨ k K {k̓} {K̓} {kʷ} {Kʷ} {k̓ʷ} {K̓ʷ} l L ł Ł m M n N p P {p̓} {P̓} q Q {q̓} {Q̓} {qʷ} {Qʷ} {q̓ʷ} {Q̓ʷ} s S š Š t T {t̓} {T̓} ƛ {ƛ̓} u U w W x X {x̣} {X̣} {xʷ} {Xʷ} {x̣ʷ} {X̣ʷ} y Y"
+  marks: "◌̓ ◌̣"
+  auxiliary: "ʔ"
+}
+source: "Joana Worth Jansen, Grammar Of Yakima Ichishkíin/Sahaptin (thèse de Ph.D.), University of Oregon, 2010"
+source: "Noel Rude & Confederated Tribes of the Umatilla Indian Reservation, Umatilla dictionary, Confederated Tribes of the Umatilla Indian Reservation & University of Washington Press, 2014"
+source: "Confederated Tribes of the Umatilla Indian Reservation, Umatilla Language Online Dictionary, Confederated Tribes of the Umatilla Indian Reservation, 2014-2024"
+note: "The glottal stop represented by U+02C0 ˀ in the Umatilla Language Online Dictionary is shown as U+0294 ʔ in Jansen 2010 and has the form of a dotless question mark (sometimes also used for U+0294 ʔ) in Rude & CTUIR (2014). Uppercase letters are used in proper nouns in the Rude & CTUIR (2014) and Umatilla Language Online Dictionary (2014-2024)."

@@ -1,0 +1,15 @@
+id: "one_Latn"
+language: "one"
+script: "Latn"
+name: "Oneida"
+population: 250
+region: "CA"
+region: "US"
+exemplar_chars {
+  base: "a A e E h H i I k K l L n N o O s S t T u U ʌ Ʌ w W y Y ’ ˀ"
+  marks: "◌́ ◌̱"
+  auxiliary: "ʼ"
+}
+source: "Clifford Abbott, Oneida teaching grammar, University of Wisconsin - Green Bay, 2006"
+source: "Oneida Language and Cultural Centre, Oneida Sounds & Pronunciation, Southwold (Ontario), 2012"
+note: "Abbott 2006 uses ˀ, Oneida Language and Cultural Centre uses ’."

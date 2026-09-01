@@ -1,0 +1,26 @@
+id: "ht_Latn"
+language: "ht"
+script: "Latn"
+name: "Haitian Creole"
+autonym: "Kreyòl Ayisyen"
+population: 8964918
+region: "HT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z È Ò a b c d e f g h i j k l m n o p r s t u v w y z è ò"
+  auxiliary: "Q X À Á É Ó q x à á é ó"
+  marks: "◌̀ ◌́"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "Lè nou sonje ke desizyon rekonèt valè chak"
+  tester: "Lè nou sonje ke inyorans ak mepri dwa moun, konn lakòz divès move"
+  poster_sm: "Lè nou sonje"
+  poster_md: "Deklarasyon"
+  poster_lg: "Tout"
+  specimen_48: "Tout moun sou tè a fèt tou lib. Tout gen menm valè (nan je lasosyete),"
+  specimen_36: "Yo pa gen dwa rete konsa pou yo arete yon moun, ni pou yo fèmen li nan prizon ni pou yo ekzile li san kòz."
+  specimen_32: "Tout moun gen dwa pran repo epi jwenn tan pou li anmize li. Se dwa moun nan pou li pa travay depase limit epi pou li gen peryòd konje peye si li se yon anplwaye."
+  specimen_21: "Se dwa chak moun pou li fè presyon sou lasosyete, ni nan peyi li, ni nan lòt peyi, pou lasosyete ranje zafè yo yon fason, dekwa pou dwa ak libète y ap pale non Deklarasyon Dwa Moun sa a, ka reyalize tout bon vre.\nPa gen youn nan dispozisyon ki nan Deklarasyon sa a, yo ka bay yon sans ki pou ta otorize yon nasyon, yon gwoup moun, oswa yon endividi mennen yon aktivite oswa komèt yon zak k ap chache detwi dwa ak libète ki nan Deklarasyon sila a."
+  specimen_16: "Lè nou sonje ke desizyon rekonèt valè chak moun genyen nan li menm-menm kòm moun, desizyon rekonèt tout moun gen menm dwa egalego, dwa pèsonn pa ka wete nan men yo, desizyon sa a se veritab baz libète, veritab baz lajistis ak lapè sou tè a.\nLè nou sonje ke inyorans ak mepri dwa moun, konn lakòz divès move zak sovaj, zak ki revolte konsyans mezi moun sou tè a, san nou pa bliye ke, pi gwo espwa nou kòm moun, sèke yon jou va rive lè chak kretyen-vivan va gen libète lapawòl, libète pou li gen konviksyon pèsonel li, yon jou lè tout moun va santi yo debarase ak lapèrèz ak lamizè sou tè a."
+}

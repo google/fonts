@@ -1,0 +1,28 @@
+id: "smn_Latn"
+language: "smn"
+script: "Latn"
+name: "Inari Sami"
+autonym: "Anarâškielâ"
+population: 612
+region: "FI"
+exemplar_chars {
+  base: "A Â B C Č D Đ E F G H I J K L M N Ŋ O P R S Š T U V Y Z Ž Ä Á a â b c č d đ e f g h i j k l m n ŋ o p r s š t u v y z ž ä á"
+  auxiliary: "À Ç É È Í Ñ Ń Ó Ò Q Ú Ü W X Æ Ø Å Ã Ö à ç é è í ñ ń ó ò q ú ü w x æ ø å ã ö"
+  marks: "◌́ ◌̂ ◌̈ ◌̊ ◌̌"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A Â B C Č D Đ E F G H I J K L M N Ŋ O P R S Š T U V Y Z Ž Ä Á"
+}
+sample_text {
+  masthead_full: "BbUu"
+  masthead_partial: "Oo"
+  styles: "Buot olbmot leat riegádan friddjan ja olmmošárvvu"
+  tester: "Buot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid"
+  poster_sm: "Buot olbmot"
+  poster_md: "Buot olbmot"
+  poster_lg: "Buot"
+  specimen_48: "Buot olbmot leat riegádan friddjan ja olmmošárvvu ja"
+  specimen_36: "Buot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus . Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat."
+  specimen_32: "Buot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus . Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat."
+  specimen_21: "Buot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus . Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat.\nBuot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus . Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat."
+  specimen_16: "Buot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus . Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat.\nBuot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus . Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat.\nBuot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus . Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat.\nBuot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus . Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat."
+}

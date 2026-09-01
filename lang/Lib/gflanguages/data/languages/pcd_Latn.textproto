@@ -1,0 +1,25 @@
+id: "pcd_Latn"
+language: "pcd"
+script: "Latn"
+name: "Picard"
+autonym: "Picard"
+population: 746330
+region: "FR"
+exemplar_chars {
+  base: "A Â Å B C Ç D E Ê É È F G I Î Ï K L H J M N O Ô P Q R S T U Û V W Y Ŷ Z Æ Œ a â å b c ç d e ê é è f g i î ï k l h j m n o ô p q r s t u û v w y ŷ z æ œ"
+  marks: "◌̀ ◌́ ◌̂ ◌̈ ◌̊ ◌̧"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Ss"
+  styles: "Considèrant qui l\' rèspèt dèl dignité, qu\'apartint"
+  tester: "considèrant qu\' fåte dè k\'nohe èt d\' rèspècter lès dreûts d\' l\'ome,"
+  poster_sm: "considèrant"
+  poster_md: "li jènèrale"
+  poster_lg: "Tos"
+  specimen_48: "prôclame cisse Dèclaråcion dès dreûts d\' l\'ome come riprézintant"
+  specimen_36: "In-ome n\'a måy li dreût d\'assèrvi in-ôte ome, d\'ènnè fé in-èsclåve èt \'ne martchandèye qu\'on pout vinde ou atch\'ter."
+  specimen_32: "Chaskeun\' deût-èsse vrèyemint lîbe d\'atre°re divant lès djudjes di s\' payis tot lès cis qu\'adjihèt conte lès me°sses dreûts rik\'nohous d\'vins l\'constitucion ou d\'vins li lwè."
+  specimen_21: "Nouk ni pout, sins nole bone re°zon, èsse arèsté, rèssèré, ou bin tchèssî foû di s\' payis.\nTot l\'monde a parèlièmint l\' dreût d\' ple°tî s\' cåse divant on tribunål qui seûye lîbe èt sins parti-pris. Et li d\'vwèr dè tribunål, ci sèrè d\' décîder so lès dreûts èt so lès obligåcions dès ple°tieûs ou bin d\' djudjî si l\' acuzé èst coupåbe ou ènocint di çou qu\'on l\' amète."
+  specimen_16: "Il èst disfindou d\' s\'intrimète sins re°zon d\'vins lès-afe°res d\'ine saquî ou di s\' famile, di brokî è s\' mohone, di nahî d\'vins lès lètes qu\'i r\'çût ou qu\'il èvôye. Il èst disfindou d\' l\' ac\'sûre divins si-oneûr ou d\'vins s\' réputåcion. A d\' fåt d\' çoula, chaskeun\' a l\' dreût d\' rèclamer l\'pretècsion dès lwès.\nChaskeun\' èst me°sse di sès-îdèyes, di s\' consyinca, di s\' rilidjon. Coula vout dîre qu\'il èst lîbe dè régler s\' vèye so sès prôpés-îdèyes èt so s\' rilidjon, tot seû ou bin avou dès-ôtes, è s\' mohone come å d\' foû, avou l\'ansègnemint, lès pratiques, lès-ûzances èt lès cèrèmon\'rèyes qui l\'agrèyèt."
+}

@@ -1,0 +1,15 @@
+id: "tik_Latn"
+language: "tik"
+script: "Latn"
+name: "Tikar"
+autonym: "lɛ̀ꞌ Tikarì"
+population: 110000
+region: "CM"
+exemplar_chars {
+  base: "a A æ Æ b B ɓ Ɓ c C d D ɗ Ɗ e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V w W y Y z Z ꞌ Ꞌ À {Æ̀} È {Ɛ̀} Ì {M̀} Ǹ {Ŋ̀} Ò Ù Â {Æ̂} Ê {Ɛ̂} Î Ô Û Ǎ {Æ̌} Ě {Ɛ̌} Ǐ Ǒ Ǔ à {æ̀} è {ɛ̀} ì {m̀} ǹ {ŋ̀} ò ù â {æ̂} ê {ɛ̂} î ô û ǎ {æ̌} ě {ɛ̌} ǐ ǒ ǔ"
+  auxiliary: "q Q r R x X"
+  marks: "◌́ ◌̂ ◌̌"
+}
+source: "Carol Stanley-Thorne, Ɗèwà ŋkònndi kon ŋgɔꞌ twùmwù = Manuel pour lire et écrire la langue tikar, Yaoundé, SIL, Ministère de la Recherche scientifique et de l’Innovation, 2012."
+source: "Wikipedia"
+source: "https://www.webonary.org/tikar"

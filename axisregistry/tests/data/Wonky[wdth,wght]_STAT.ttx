@@ -1,0 +1,74 @@
+<Version value="0x00010001"/>
+<DesignAxisRecordSize value="8"/>
+<!-- DesignAxisCount=2 -->
+<DesignAxisRecord>
+  <Axis index="0">
+    <AxisTag value="wght"/>
+    <AxisNameID value="256"/>  <!-- Weight -->
+    <AxisOrdering value="0"/>
+  </Axis>
+  <Axis index="1">
+    <AxisTag value="wdth"/>
+    <AxisNameID value="257"/>  <!-- Width -->
+    <AxisOrdering value="1"/>
+  </Axis>
+</DesignAxisRecord>
+<!-- AxisValueCount=9 -->
+<AxisValueArray>
+  <AxisValue index="0" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="259"/>  <!-- Light -->
+    <Value value="300.0"/>
+  </AxisValue>
+  <AxisValue index="1" Format="3">
+    <AxisIndex value="0"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="2"/>  <!-- Regular -->
+    <Value value="400.0"/>
+    <LinkedValue value="700.0"/>
+  </AxisValue>
+  <AxisValue index="2" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="280"/>  <!-- Medium -->
+    <Value value="500.0"/>
+  </AxisValue>
+  <AxisValue index="3" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="261"/>  <!-- SemiBold -->
+    <Value value="600.0"/>
+  </AxisValue>
+  <AxisValue index="4" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="262"/>  <!-- Bold -->
+    <Value value="700.0"/>
+  </AxisValue>
+  <AxisValue index="5" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="263"/>  <!-- ExtraBold -->
+    <Value value="800.0"/>
+  </AxisValue>
+  <AxisValue index="6" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="281"/>  <!-- Condensed -->
+    <Value value="75.0"/>
+  </AxisValue>
+  <AxisValue index="7" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="282"/>  <!-- SemiCondensed -->
+    <Value value="87.5"/>
+  </AxisValue>
+  <AxisValue index="8" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="283"/>  <!-- Normal -->
+    <Value value="100.0"/>
+  </AxisValue>
+</AxisValueArray>
+<ElidedFallbackNameID value="2"/>  <!-- Regular -->

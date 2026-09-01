@@ -1,0 +1,12 @@
+id: "kmg_Latn"
+language: "kmg"
+script: "Latn"
+name: "Kâte"
+population: 30000
+region: "PG"
+exemplar_chars {
+  base: "a A â Â b B d D e E f F g G h H i I j J ʒ Ʒ k K l L m M n N ŋ Ŋ o O p P q Q ɋ Ɋ r R s S t T u U w W y Y z Z"
+  auxiliary: "c C v V x X"
+  marks: "◌̂"
+}
+source: "Kaija Olkkonen and Soini Olkkonen, Somba-Siawari (Burum Mindik)—English dictionary, SIL, 2007"

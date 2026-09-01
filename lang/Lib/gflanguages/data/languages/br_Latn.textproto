@@ -1,0 +1,29 @@
+id: "br_Latn"
+language: "br"
+script: "Latn"
+name: "Breton"
+autonym: "Brezhoneg"
+population: 563140
+region: "FR"
+exemplar_chars {
+  base: "A B {CʼH} {CH} D E Ê F G H I J K L M N Ñ O P R S T U Ù V W X Y Z a b {cʼh} {ch} d e ê f g h i j k l m n ñ o p r s t u ù v w x y z"
+  auxiliary: "Á À Ă Â Å Ä Ã Ā Æ C Ç É È Ĕ Ë Ē Í Ì Ĭ Î Ï Ī Ó Ò Ŏ Ô Ö Ø Ō Œ Q Ú Ŭ Û Ü Ū Ÿ á à ă â å ä ã ā æ c ç é è ĕ ë ē í ì ĭ î ï ī ó ò ŏ ô ö ø ō œ q ú ŭ û ü ū ÿ"
+  marks: "◌̀ ◌̂ ◌̃"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- , ; : ! ? . ( ) [ ] { }"
+  index: "A B C D E F G H I J K L M N O P R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "DdIi"
+  masthead_partial: "Ee"
+  styles: "–O vezañ ma’z eo war anaout an dellezegezh"
+  tester: "–o vezañ ma’z eo war dizanaout ha dismegañsiñ gwirioù mab-den eo"
+  poster_sm: "–o vezañ ma’z"
+  poster_md: "-o vezañ ma’z"
+  poster_lg: "Dieub"
+  specimen_48: "evel uhelvennad boutin da vezañ diraezet gant an holl bobloù"
+  specimen_36: "Ne vo dalc’het den er sklaverezh nag er sujidigezh; berzet e vo kement stumm a sklaverezh hag a werzhañ-sklaved."
+  specimen_32: "Pep hini en deus gwir da gaout digoll gwirion dirak lezioù-barn broadel kenveliek evit oberoù o dije torret ar gwirioù diazez anavezet dezhañ gant ar Vonreizh pa al lezenn."
+  specimen_21: "Den ebet ne vo harzet, bac’het pe harluet diouzh c’hoant.\nUr gwir par da hini ar re all a zo gant pep hini da vezañ klevet dirak an holl ha gant reizhded gant ul lez-varn dizalc’h ha neptu, dezhi da dermenañ e wirioù ha dleadoù hag an tamalloù graet dezhañ.\nDen ebet ne vo emellet diouzh c’hoant en e vuhez prevez, e diegezh, e annez pe e lizhiri, ha ne vo ket stoket ouzh e enor nag ouzh e vrud. Pep hini en deus gwir da gaout gwarez digant al lezenn diouzh emelladennoù ha tagadennoù a seurt-se."
+  specimen_16: "Pep den en deus gwir da gaout frankiz ar soñj, ar goustiañs hag ar relijion; er gwir-mañ emañ ivez ar frankiz da gemmañ e relijion pe e gredenn, hag ivez ar frankiz da ziskuliañ e relijion pe e gredenn, eunan pe a-stroll, dirak an holl pe en-prevez, dre ar c’helenn, an oberoù, an azeulerezh pe al liderezh.\nPep hini en deus gwir d’ar frankiz d’ober e veno ha d’en disklêriañ, da lavarout eo gwir da chom hep bezañ trubuilhet en abeg d’e vennozhioù, gwir da glask, da resev ha da skignañ keleier ha mennozhioù, dre n’eus forzh pe zoare disklêriañ, hep teurel pled ouzh an harzoù."
+}

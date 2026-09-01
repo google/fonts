@@ -1,0 +1,14 @@
+id: "so_Arab"
+language: "so"
+script: "Arab"
+name: "Somali (Arabic)"
+autonym: "اف صومالِ"
+population: 24000000
+region: "SO"
+region: "DJ"
+region: "ET"
+region: "KE"
+exemplar_chars {
+  base: "ا ب پ ت ث ج چ ح خ د ذ ڎ ر ز س ش ص ض ط ظ ع غ ݝ ڠ ف ق ك گ ل م ن و ه ي ء "
+  marks: "◌ُ ◌ٗ ◌ِ ◌َِ ◌َ ◌ٛ"
+}

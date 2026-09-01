@@ -1,0 +1,25 @@
+id: "umb_Latn"
+language: "umb"
+script: "Latn"
+name: "Umbundu"
+autonym: "Úmbúndú"
+population: 9431467
+region: "AO"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W Y Ã Ẽ Õ Ú Ũ a b c d e f g h i j k l m n o p r s t u v w y ã ẽ õ ú ũ"
+  marks: "◌́ ◌̃"
+}
+sample_text {
+  masthead_full: "OoMm"
+  masthead_partial: "Aa"
+  styles: "Okukolela ukulihiso ekalo lityamela kovimata"
+  tester: "Okukolela eci kacakulihiwile kwenda esepwiso lyomoko yomunu, lyatwala"
+  poster_sm: "Okukolela okuti"
+  poster_md: "Olukolela"
+  poster_lg: "Omanu"
+  specimen_48: "Okukolela okuti omunga yimwe yolomoko evi kwenda ayovo lyavelapo"
+  specimen_36: "Omanu vosi valisoka kocihandeleko. Kwenda vakwete omoko. Kayalitepele yalisoka kokutatiwa kwocihandeko."
+  specimen_32: "Omunu eye omunu okwete omoko yeci avyala, kesokiyo lyowiñgi kwenda kesokiyo lyolwali, ocihandeleko cimwe ndeci omoko kwenda ombembwa yipopiwa vukanda owu mupita eci calingiwa."
+  specimen_21: "Lalimwe ekalo lyukande owu litava okuti lilombolwiwa, okuti likatangisa uvyali, elyongolwilo limwe ale omunu umwe, omoko yimwe yañgo yokutyamêla kupange umwe ale okutelisa elinga limwe lyokunyõla olomoko kwenda eyovo, vyatumiwa ndeti mulo.\nOkukolela ukulihiso ekalo lityamela kovimata mata vyepata lyomanu kwenda omoko yasoka kwavosi. Kwenda yesunga yilinga ombembwa yimwe yapana yesunga kwenda yombembwa v’olwali."
+  specimen_16: "Okukolela ukulihiso ekalo lityamela kovimata mata vyepata lyomanu kwenda omoko yasoka kwavosi. Kwenda yesunga yilinga ombembwa yimwe yapana yesunga kwenda yombembwa v’olwali.\nOkukolela eci kacakulihiwile kwenda esepwiso lyomoko yomunu, lyatwala kokuponda, okungwalisa olondunge vyowiñgi kwenda ekalu lyolwali lumwe muna vakwamwenyo vakaliyela okuvangula kwenda okulitava, vayovoka kusumba kwenda kusuka , yalombolwiwa ndeyi yavelapo hayo yalelapo vali keswimo liwa lyomunu.\nOkukolela okuti cavelapo okweca ulongo kokwamako okulyeca kukamba wolofeka.\nOkukolela okuti olofeka vyalityamela vyatyamela okukwata, okulikwatisako l’elisokiyo lyolofeka vilikwete omunga, esumbilo lyolwali kwenda owingi womoko yulume kwenda ayovo avelapo."
+}

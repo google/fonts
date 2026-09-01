@@ -1,0 +1,25 @@
+id: "nv_Latn"
+language: "nv"
+script: "Latn"
+name: "Navajo"
+autonym: "Diné Bizaad"
+population: 166319
+region: "US"
+exemplar_chars {
+  base: "A Á Ą {Ą́} B C D E É Ę {Ę́} G H I Í Į {Į́} J K L Ł M N O Ó Ǫ {Ǫ́} S T W X Y Z a á ą {ą́} b c d e é ę {ę́} g h i í į {į́} j k l ł m n o ó ǫ {ǫ́} s t w x y z ʼ"
+  marks: "◌́ ◌̨"
+}
+sample_text {
+  masthead_full: "BbIi"
+  masthead_partial: "Ll"
+  styles: "Kótʼéego Hazʼaah: Baá akohwiindzingo éí ílį́go"
+  tester: "Kótʼéego Hazʼaah: Diné doo ílį́įgo baa nitsahakeesgo adeesdeeʼ"
+  poster_sm: "Kʼad Kótʼe"
+  poster_md: "Tsídí tʼáá"
+  poster_lg: "tʼáá"
+  specimen_48: "Tsídí tʼáá ájítʼé bee háhazʼą́ iináʼázhdoolííłgo áádóó ʼałdó tʼáá"
+  specimen_36: "Łaʼdah éí doo naalteehʼé dooleełda dóó dooháida yá naal aʼí dooleeł da dóó doo naaltehʼé adoolniiłgo doo bee hazʼą́ąda."
+  specimen_32: "Tsíʼdí tʼáá ájíłtsoh bee háhazʼą́ tʼáa dooleʼé há hashtʼe doolníiłgo wááshindoon áájí yá ʼééhósinígíí ákótʼéego bee hazʼáanii bee háʼahootʼíʼ yę́ę biłaszihgo."
+  specimen_21: "Tʼáá háida éí biniinaanii ádingo doo biʼdidool tsoołda dóó doo yahʼadooltʼeeł da dóó doo chʼi dinóol cheeł da.\nTʼáá ájíłtsoh bee háʼahóótʼíʼ tʼáá aheeł tʼéego diné binááł há baahwinitʼį́įgo doo háájída achʼíhjí nilíígíí binááł éí há yaa nídáastʼįįdgo yee nidahodooʼááł bee há ahootʼígíí dóó bee hóholnígíí dóó haʼátʼííshį́į́ awáalyahjí bee hakʼehástʼahígíí."
+  specimen_16: "Tʼáá héiida bił hazʼánígíí báʼ áłchínííní dah bighan dah doo háii tʼáaodah éíí baa tį́į́ʼdoodáałdah. Tʼáá ajiłtsoh bee hazʼą́ąnii bikʼehgo bee háhóchį́.\nTʼáá ájíłtsoh bee baʼahóótʼiʼ tʼáá hó adahnahojitʼáago dóó nitsijikeesgo dóó hweʼoodląʼ hólóogo díí bee háʼahootʼiʼígíí naanáłahjį́ʼ hweʼoodląʼígíí beeʼizhdidooʼgáałgo bee hazʼą́. Dinétahjį́ hweʼoodląʼígíí bee hwééhozín doo áádóó bee nazhnitin doo. Áádóó ałdóʼ áájį́ bá hozhdísin doo.\nTʼáá ájíłtsoh tʼáadooleʼé baa ntsíjíkeesgo bee hazdoodzihgo bee háhazʼą́. Díí baa ntsíjíkeesígíí éí héídah doo hániʼ iidoolííłda. Áádóó bikah nazhnitáago dóó nízhdiiláago bee hadeesdzih jinizingo béésh halneʼé, naalkidídah doodaiiʼ naaltsoos biyiʼjį́ʼ bee hazdoodzihgo bee háhazʼą́."
+}

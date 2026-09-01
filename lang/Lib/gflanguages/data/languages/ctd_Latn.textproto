@@ -1,0 +1,23 @@
+id: "ctd_Latn"
+language: "ctd"
+script: "Latn"
+name: "Tedim Chin"
+population: 0
+region: "MM"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "MmIi"
+  masthead_partial: "Hh"
+  styles: "Leitung mihing innkuan khempeuh in pianpih"
+  tester: "Mihing thuneihnate thulimsim saklo-in simmawhbawl sakna hangin"
+  poster_sm: "Mi khatpeuh"
+  poster_md: "Gam khat"
+  poster_lg: "Mihingte"
+  specimen_48: "Leitung gambup Kipawlna ah a lut mipite in mihingte’ thuneihna"
+  specimen_36: "Hih kiciamna tangtunsak zawh nading in hih thuneihna leh suahtakna teltheih leh laksiam ciatna in athupi pen ahihman in,"
+  specimen_32: "Mikim in a kilawm zah tawh kituak in a nai ciangtan zah nasep sep hun a neih theih ciat ban-ah a hun hun in khasum tawh awl hun leh tawlngak hun zong nei thei hi."
+  specimen_21: "Mikim in hih tangkona laipi sungah kihel thuneihna leh suahtaknate a tangtun sak nading in amau sung leh leitung dong in thupiak sawlna ah lawhcing sak ding hi.\nHih thutangkona sungah akihel thuneihna leh suahtakna a siat theih nading ngimna tawh gam khat ading in hitaleh, mi pawlkhat ading in hitaleh, milip ading in hitaleh, kihel in sem thei lel hi ci-in deihkaih in khia theilo ding hi."
+  specimen_16: "Leitung mihing innkuan khempeuh in pianpih thupitna leh liangko kikim a thuneihnate aneih uh ciaptehsakna in mi khempeuh ii suahtakna, diktatna leh leitung ah kilemna ii abulpi ahihmah bang in,\nMihing thuneihnate thulimsim saklo-in simmawhbawl sakna hangin mite lungsimtawng sukha in thangpaihna tawh ngongtatna piangsak ahih manin, suakta takin thu gentheihna ding, upna leh kimuanna neih theih nading, lauthawnna leh giautauna omlo a nuntak theihna apiangsak leitung khat hong suah zawh nading in mikim ii lunggulh pen hi ci-in kipulak khiata ahihmah bang in,"
+}

@@ -1,0 +1,31 @@
+id: "ig_Latn"
+language: "ig"
+script: "Latn"
+name: "Igbo"
+autonym: "Igbo"
+population: 27823640
+region: "NG"
+exemplar_chars {
+  base: "a A b B {ch} {CH} d D e E ẹ Ẹ f F g G {gb} {GB} {gh} {GH} {gw} {GW} h H i I ị Ị j J k K {kp} {KP} {kw} {KW} l L m M n N ṅ Ṅ {nw} {NW} {ny} {NY} o O ọ Ọ p P r R s S {sh} {SH} t T u U ụ Ụ v V w W y Y z Z"
+  auxiliary: "á Á à À ā Ā c C é É è È ē Ē í Í ì Ì ī Ī {ị́} {Ị́} {ị̀} {Ị̀} ḿ Ḿ {m̀} {M̀} ń Ń ǹ Ǹ ó Ó ò Ò ō Ō {ọ́} {Ọ́} {ọ̀} {Ọ̀} q Q ú Ú ù Ù ū Ū {ụ́} {Ụ́} {ụ̀} {Ụ̀} x X ɛ Ɛ ɵ Ɵ ŋ Ŋ"
+  marks: "◌̀ ◌́ ◌̄ ◌̇ ◌̣"
+  punctuation: "- , ; : ! ? . ‘ ’ “ ” ( ) [ ] { }"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaMm"
+  masthead_partial: "Ụụ"
+  styles: "Ebe ọ bụ na nghọta ugwu ekere uwa na ikike"
+  tester: "Ebe nleghara anya na nleli ikike mmadu nwegasịrị emeela ka e"
+  poster_sm: "Ebe ọ dị mkpa,"
+  poster_md: "Ebe ọ dị"
+  poster_lg: "mụrụ"
+  specimen_48: "Ebe ndi otu jikọtara mba ụwa nile bụ United Nations, n\'ime Chata"
+  specimen_36: "Ebe nghọta onye ọ bụla banyere ikike na ohere ndi a kachasị dịrị mkpa maka imejupụta nkwekọrịta nke a."
+  specimen_32: "A mụrụ mmadụ nile n\'ohere nakwa nha anya ugwu na ikike. E nyere ha uche na mmụọ ime ihe ziri ezi nke na ha kwesiri ịkpaso ibe ha agwa n\'obi nwanne na nwanne."
+  specimen_21: "Onye ọ bụla tozuru iwe ikike na ohere nile e wepụtara na Nkwuwapụta nke a , n\'enweghi ịkpa oke ọ bụla dị ka nke agbụrụ; ụcha akpụkpọ ahụ, ịbụ nwoke ma ọ bụ nwanyị, asụsụ, okpukpe chi, echiche banyere ọchịchị ma ọ bụ ihe ọzọ, obodo ma ọ bụ ọ n\'obodo akụ, ọnọdụ ọmụmụ ma ọ bụ ọnọdụ ọzọ.\nOnye ọ bụla nwere ikike inwe ndụ, ohere na nchedo nke onwe ya."
+  specimen_16: "Ọ dịghị onye a ga-ejigide n\'ọnọdu ohu ma ọ bụ odibọ a ga-amachi ịkpa ma ọ bụ ire ohu n\'ụdị ọ bụla.\nỌ dịghị onye a ga-akwagide n\'oke ntaramahụhụ, ma ọ bụ na mmeso omume na ntaramahụhụ obi ọjọọ, obi tara mmiri ma ọ bụ nke naz-ewetu ugwu mmadụ.\nOnye ọ bụla nwere ikike nkwanyere ugwu dị ka mmadụ ebe ọ bụla n\'usoro iwu.\nMadụ nile ha otu n\'usoro iwu, tozukwa oke n\'enweghi ịkpa oke ọ bụla inweta nchedo nha anya n\'usoro iwu. Madụ nile tozukwara oke nchedo nha anya megide ụdị ịkpa oke ọ bụla mebiri Nkwuwapụta nke a ma megidekwa ikwanye mmadụ ọ bụla n\'ụdị ikpa oke a.\nOnye ọ bụla nwere ikike ikpe mmezi ga-enwe nkawado ọha na eze nke ndi ụlọ ikpe tozuru etozu nke obodo ma e nwee omume ndi megidere ikike ntọala nke e nyegasịrị ya site n\'usoro ọchịchị ma ọbụ iwu."
+}
+source: "Margaret Mackeson Green, A descriptive grammar of Igbo, Berlin: Adakemie-Verlag, 1963"
+source: "E. Nolue Emenanjo, F. C. Ogbalu, “Igbo Orthography”, Ayo Bamgbose, Orthographies of Nigerian Languages, Manual I, Lagos: Federal Ministry of Education, National Language Center, 1982"
+note: "1936-1961 orthography used ɛ ɔ ɵ ŋ c instead of ị o u n ch."

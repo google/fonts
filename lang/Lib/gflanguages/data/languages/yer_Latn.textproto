@@ -1,0 +1,11 @@
+id: "yer_Latn"
+language: "yer"
+script: "Latn"
+name: "Tarok"
+population: 300000
+region: "NG"
+exemplar_chars {
+  base: "á Á à À â Â a A b B ɓ Ɓ c C d D ɗ Ɗ e E é É è È ê Ê ə Ə f F g G h H i I í Í ì Ì î Î j J k K l L m M ḿ Ḿ n N ń Ń ǹ Ǹ ñ Ñ o O ó Ó ò Ò ô Ô p P r R s S t T u U ú Ú ù Ù û Û v V w W y Y z Z"
+  marks: "◌́ ◌̀ ◌̂ ◌̱ ◌̃"
+  auxiliary: "q Q x X"
+}

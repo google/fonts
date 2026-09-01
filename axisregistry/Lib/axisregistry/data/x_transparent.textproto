@@ -1,0 +1,15 @@
+# XTRA based on https://variationsguide.typenetwork.com/#xtra
+tag: "XTRA"
+display_name: "Counter Width"
+min_value: -1000
+max_value: 2000
+default_value: 400
+precision: 0
+fallback {
+  name: "Normal"
+  value: 400
+}
+fallback_only: false
+illustration_url: "x_transparent.svg"
+description:
+  "A parametric axis for varying counter widths in the X dimension."

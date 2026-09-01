@@ -1,0 +1,11 @@
+id: "lui_Latn"
+language: "lui"
+script: "Latn"
+name: "Luiseno"
+population: 0
+historical: true
+exemplar_chars {
+  base: "ꞌ Ꞌ a A {ch} {CH} e E h H i I k K {kw} {KW} m M n N {ng} {NG} o O p P q Q {qw} {QW} r R s S ꟍ Ꟍ {sh} {SH} {th} {TH} t T u U v V w W x X {xw} {XW} y Y"
+  auxiliary: "b B c C d D f F g G j J l L z Z"
+}
+source: "Raymond Basquez Sr, Neal Ibanez & Myra Masiel-Zamora, ꞌAtáaxum Alphabet, Great Oak Press, Pechanga Band of Luiseño Mission Indians, 2018."

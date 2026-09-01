@@ -1,0 +1,30 @@
+id: "fil_Latn"
+language: "fil"
+script: "Latn"
+name: "Filipino"
+autonym: "Filipino"
+population: 66905683
+region: "PH"
+region: "US"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N Ñ {NG} O P Q R S T U V W X Y Z a b c d e f g h i j k l m n ñ {ng} o p q r s t u v w x y z"
+  auxiliary: "Á À Â É È Ê Í Ì Î Ó Ò Ô Ú Ù Û á à â é è ê í ì î ó ò ô ú ù û"
+  marks: "◌̃"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] * / & #"
+  index: "A B C D E F G H I J K L M N Ñ {Ng} O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaNn"
+  masthead_partial: "Gg"
+  styles: "Ang lahat ng tao\'y isinilang na malaya at"
+  tester: "Ang lahat ng tao\'y isinilang na malaya at pantay-pantay sa karangalan"
+  poster_sm: "Ang lahat ng"
+  poster_md: "Ang lahat"
+  poster_lg: "Ang"
+  specimen_48: "Ang lahat ng tao\'y isinilang na malaya at pantay-pantay"
+  specimen_36: "Ang lahat ng tao\'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila\'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa\'t isa sa diwa ng pagkakapatiran."
+  specimen_32: "Ang lahat ng tao\'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila\'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa\'t isa sa diwa ng pagkakapatiran."
+  specimen_21: "Ang lahat ng tao\'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila\'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa\'t isa sa diwa ng pagkakapatiran.\nAng lahat ng tao\'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila\'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa\'t isa sa diwa ng pagkakapatiran."
+  specimen_16: "Ang lahat ng tao\'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila\'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa\'t isa sa diwa ng pagkakapatiran.\nAng lahat ng tao\'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila\'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa\'t isa sa diwa ng pagkakapatiran.\nAng lahat ng tao\'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila\'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa\'t isa sa diwa ng pagkakapatiran."
+}

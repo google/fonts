@@ -1,0 +1,54 @@
+FONTLOG for the Plaster font
+
+This file provides detailed information on Plaster Font Software.This information should be distributed along with the Plaster font and any derivative works.
+
+Basic Font Information
+
+Plaster is a Unicode typeface family that supports languages that use the Latin script and its variants, and could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode ranges: Latin-1, Latin-2: Easern Europe, Turkish, Macintosh Character Set
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+22 Dec 2011 (Eben Sorkin) Plaster v1.007
+- Added cmap needed for correct glyph matching in the extended glyph set.
+- Added the ".notdef" glyph.
+- Fixed discritics that extended beyond the vertcal max & min
+- Remastered Font
+
+6 Dec 2011 (Eben Sorkin) Plaster v1.006
+- Reduced the spaced between letters at the request of GFD.
+- Made letter shapes horizontally bolder to compensate for ruduced letter spaces.
+- Reduced file size!
+- Remastered Font
+
+5 Dec 2011 (Eben Sorkin) Plaster v1.005
+- Adjustments to thin glyphs especially punctuation.
+- Remastered Font
+
+4 Dec 2011 (Eben Sorkin) Plaster v1.004
+- Adjusted wordspace.
+- Remastered Font
+
+29 Nov 2011 (Eben Sorkin) Plaster v1.003
+- Adjusted diacritics.
+- Remastered Font
+
+29 Nov 2011 (Eben Sorkin) Plaster v1.002
+- Mastered Font from Fontlab VBF to TTF
+
+
+28 Nov 2011 (Eben Sorkin) Plaster v1.000
+- Completed first complete version of Plaster in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Designer and Mastering

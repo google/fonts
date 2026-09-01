@@ -1,0 +1,13 @@
+#GEOM based on ([Cal Sans UI & Cal Sans Text](https://github.com/calcom/sans-ui))
+tag: "GEOM"
+display_name: "Geometric Form"
+min_value: 0 
+default_value:  0
+max_value: 100
+precision: 1
+fallback {
+  name: "Default"
+  value: 0.00
+}
+fallback_only: false
+description: "It transforms complex letterforms into simplified geometric shapes like circles, triangles, and squares. This transition can occurs through gradual structural shifting and/or character swaps at specific intervals."

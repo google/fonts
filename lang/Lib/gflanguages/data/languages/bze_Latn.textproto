@@ -1,0 +1,12 @@
+id: "bze_Latn"
+language: "bze"
+script: "Latn"
+name: "Jenaama Bozo"
+autonym: "bozo-jenaama"
+population: 166203
+region: "ML"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ"
+}
+source: "Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-djenama et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010"
+source: "Wikipedia"

@@ -1,0 +1,11 @@
+id: "bex_Latn"
+language: "bex"
+script: "Latn"
+name: "Jur Modo"
+population: 100000
+region: "SS"
+exemplar_chars {
+  base: "a A b B c C d D e E ë Ë f F g G h H i I ï Ï j J k K l L m M n N ŋ Ŋ o O ö Ö ɔ Ɔ p P r R s S t T u U w W y Y z Z ꞌ Ꞌ"
+  marks: "◌̈"
+  auxiliary: "f F h H q Q v V x X"
+}

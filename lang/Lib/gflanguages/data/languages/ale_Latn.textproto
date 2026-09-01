@@ -1,0 +1,27 @@
+id: "ale_Latn"
+language: "ale"
+script: "Latn"
+name: "Aleut"
+autonym: "Unangam Tunuu"
+population: 150
+region: "US"
+exemplar_chars {
+  base: "A B D F G H I K L M N O Q R S T U V W X Y Z a b d f g h i k l m n o q r s t u v w x y z Ĝ ĝ"
+  marks: "◌̂"
+}
+sample_text {
+  masthead_full: "AaNn"
+  masthead_partial: "Ĝĝ"
+  styles: "Anĝaĝinam huzungis agaxtakuu ingisxigikux̂"
+  tester: "Anĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada."
+  poster_sm: "Anĝaĝinam huzungis"
+  poster_md: "Anĝaĝinam"
+  poster_lg: "huzungis"
+  specimen_48: "Anĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂"
+  specimen_36: "Anĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada. Txin sakaaĝatal anagis mataxchx̂ida inaqamchix̂ agangudaganasaaĝiiĝutakus ludaangan huzuu ngaan quĝasaatakus."
+  specimen_32: "Anĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada. Txin sakaaĝatal anagis mataxchx̂ida inaqamchix̂ agangudaganasaaĝiiĝutakus ludaangan huzuu ngaan quĝasaatakus."
+  specimen_21: "Anĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada. Txin sakaaĝatal anagis mataxchx̂ida inaqamchix̂ agangudaganasaaĝiiĝutakus ludaangan huzuu ngaan quĝasaatakus.\nAnĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada. Txin sakaaĝatal anagis mataxchx̂ida inaqamchix̂ agangudaganasaaĝiiĝutakus ludaangan huzuu ngaan quĝasaatakus."
+  specimen_16: "Anĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada. Txin sakaaĝatal anagis mataxchx̂ida inaqamchix̂ agangudaganasaaĝiiĝutakus ludaangan huzuu ngaan quĝasaatakus.\nAnĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada. Txin sakaaĝatal anagis mataxchx̂ida inaqamchix̂ agangudaganasaaĝiiĝutakus ludaangan huzuu ngaan quĝasaatakus.\nAnĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada. Txin sakaaĝatal anagis mataxchx̂ida inaqamchix̂ agangudaganasaaĝiiĝutakus ludaangan huzuu ngaan quĝasaatakus.\nAnĝaĝinam huzungis agaxtakuu ingisxigikux̂ ama liidax̂ nagan sahnganaxtada. Txin sakaaĝatal anagis mataxchx̂ida inaqamchix̂ agangudaganasaaĝiiĝutakus ludaangan huzuu ngaan quĝasaatakus."
+}
+source: "Wikipedia"
+source: "Knut Bergsland, Aleut Dictionary = Unangam Tunudgusii an unabridged lexicon of the Aleutian, Pribilof, and Commander Islands Aleut language, Fairbanks, AK: Alaska Native Language Center, University of Alaska, 1994"

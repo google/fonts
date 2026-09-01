@@ -1,0 +1,12 @@
+id: "saf_Latn"
+language: "saf"
+script: "Latn"
+name: "Safaliba"
+population: 4107
+region: "GH"
+exemplar_chars {
+  base: "a A b B {ch} {CH} d D e E {e̱} {E̱} ɛ Ɛ f F g G {gb} {GB} h H i I j J k K {kp} {KP} l L m M n N {ny} {NY} ŋ Ŋ {ŋm} {ŊM} o O {o̱} {O̱} ɔ Ɔ p P r R s S t T u U v V w W y Y z Z"
+  marks: "◌̱"
+}
+source: "Safale̱ba sɛbe̱ bie = Alphabet card, Safale̱ba Are̱mbo̱ Yala, Mandari, 2014"
+source: "Paul Alan Schaefer, Narrative storyline marking in Safaliba: determining the meaning and discourse function of a typologically-suspect pronoun set, University of Texas at Arlington, 2009"

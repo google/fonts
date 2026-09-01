@@ -1,0 +1,19 @@
+id: "dzg_Latn"
+language: "dzg"
+script: "Latn"
+name: "Dazaga"
+population: 582000
+region: "LY"
+region: "NE"
+region: "SD"
+region: "TD"
+exemplar_chars {
+  base: "a A ã Ã b B c C č Č d D e E ê Ê ɛ Ɛ ə Ə f F g G h H i I î Î ĩ Ĩ j J k K l L m M n N ŋ Ŋ ñ Ñ o O ô Ô ɔ Ɔ p P r R s S š Š t T u U û Û ũ Ũ w W y Y z Z"
+  marks: "◌̣ ◌̂ ◌̃ ◌̌"
+  auxiliary: "ẹ Ẹ ɨ Ɨ ọ Ọ q Q v V x X"
+}
+source: "Rhonda L. Hartell, Alphabets of Africa, Dakar: BREDA (UNESCO) & Summer Institute of Linguistics, 1993"
+source: "Charles Le Cœur, Marguerite Le Cœur, Grammaire et textes teda-daza, IFAN, 1956"
+source: "Kevin Walters, Dînaã cûrou = Le monde est vaste en tubu (dazaga) du Niger, Niamey: SIL Niger, 2009"
+source: "Kevin Walters, Dictionnaire Dazaga, Webonary, 2024"
+note: "Various orthographies have been used. Hartell (1993) shows Le Cœur & Le Cœur (1956) using ẹ ɛ ọ ɔ. Walters (2009) and Walters (2024) use vowels with circumflex instead. Walters (2009) additionally used ɨ."

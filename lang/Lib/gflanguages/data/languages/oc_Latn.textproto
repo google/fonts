@@ -1,0 +1,26 @@
+id: "oc_Latn"
+language: "oc"
+script: "Latn"
+name: "Occitan"
+preferred_name: "Occitan"
+autonym: "Occitan"
+population: 2035446
+region: "FR"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Ç È É Ë Í Ï Ò Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó ú ü"
+  marks: "◌̀ ◌́ ◌̈ ◌̧"
+}
+sample_text {
+  masthead_full: "TtÓó"
+  masthead_partial: "Uu"
+  styles: "Tóuti lis uman naisson libre. Soun egau pèrla"
+  tester: "Tout èsse uman a tóuti li liberta e tóuti lidre prouclama dins"
+  poster_sm: "En mai, se fara"
+  poster_md: "Degun sara"
+  poster_lg: "Tóuti"
+  specimen_48: "Degun sara soumés à la tourturo nimai à depeno o de tratamen"
+  specimen_36: "Cadun a dre de se pausa e de s\'espaça. A dreà uno tanco resounablo de la journado de travai, à de counget regulié e paga."
+  specimen_32: "Touto persouno a lou dre de viéure dins unmitan souciau e internaciounau proun ourdouna, que li dre esplica dins aquestodeclaracioun d\'aqui se ié poscon aplica en plen."
+  specimen_21: "Res, ni Estat ni groupamen nimai unopersouno, poudra assaja de tira d\'aquesto declaracioun lou dre de fairequaucarèn pèr escracha li dre e li liberta que ié soun esplica.\nTóuti lis uman naisson libre. Soun egau pèrla digneta e li dre. An tóuti uno resoun e uno counsciènci. Se dèvon tenifreirenau lis un \'mé lis autre."
+  specimen_16: "Tóuti lis uman naisson libre. Soun egau pèrla digneta e li dre. An tóuti uno resoun e uno counsciènci. Se dèvon tenifreirenau lis un \'mé lis autre.\nTout èsse uman a tóuti li liberta e tóuti lidre prouclama dins aquesto declaracioun, sènso ges li destria pèr de raço, decoulour, de sèisse, de lengo, de religioun, d\'idèio poulitico o d\'autro meno,d\'óurigino naciounalo o soucialo, de richesso, de neissènço o d\'àutricoundicioun.\nEn mai, se fara ges de destriamen foundasubre l\'estatut pouliti, amenistratiéu o internaciounau dóu païs o de l\'endréde la persouno, fugue aquel endré independènt o sa soubeiraneta countourrouladoo limitado d\'un biais o d\'un autre."
+}

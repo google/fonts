@@ -1,0 +1,11 @@
+id: "aeb_Latn"
+language: "aeb"
+script: "Latn"
+name: "Tunisian Darija"
+population: 11000000
+region: "TN"
+exemplar_chars {
+  base: "a A ā Ā b B c C d D đ Đ e E ē Ē ɛ Ɛ f F g G ɣ Ɣ h H ħ Ħ i I ī Ī j J k K l L m M n N o O p P q Q r R s S ṣ Ṣ t T ṭ Ṭ ŧ Ŧ u U ū Ū v V w W x X y Y z Z"
+  marks: "◌̄ ◌̣ ◌̀"
+  auxiliary: "à À ḅ Ḅ ḍ Ḍ è È ḕ Ḕ ì Ì ḷ Ḷ ṃ Ṃ ò Ò ṛ Ṛ ù Ù ẓ Ẓ"
+}

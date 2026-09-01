@@ -1,0 +1,15 @@
+# YTAS based on https://variationsguide.typenetwork.com/#ytas
+tag: "YTAS"
+display_name: "Ascender Height"
+min_value: 0
+max_value: 1000
+default_value: 750
+precision: 0
+fallback {
+  name: "Normal"
+  value: 750
+}
+fallback_only: false
+illustration_url: "y_transparent_ascender.svg"
+description:
+  "A parametric axis for varying the height of lowercase ascenders."

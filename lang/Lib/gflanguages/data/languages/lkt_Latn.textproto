@@ -1,0 +1,31 @@
+id: "lkt_Latn"
+language: "lkt"
+script: "Latn"
+name: "Lakota"
+autonym: "Lakȟótiyapi"
+population: 8315
+region: "US"
+region: "CA"
+exemplar_chars {
+  base: "a A á Á {aŋ} {AŊ} b B č Č {čh} {ČH} {čʼ} {Čʼ} e E é É g G ǧ Ǧ h H ȟ Ȟ i I í Í {iŋ} {IŊ} k K {kh} {KH} {kȟ} {KȞ} {kʼ} {Kʼ} l L m M n N ŋ Ŋ o O ó Ó p P {ph} {PH} {pȟ} {PȞ} {pʼ} {Pʼ} s S š Š t T {th} {TH} {tȟ} {TȞ} {tʼ} {Tʼ} u U ú Ú {uŋ} {UŊ} w W y Y z Z ž Ž ʼ"
+  auxiliary: "c C d D f F {ȟʼ} {Ȟʼ} j J ƞ Ƞ q Q r R {sʼ} {Sʼ} {šʼ} {Šʼ} v V x X"
+  marks: "◌́ ◌̌"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . \" “ ” ( ) [ ] @ * / & #"
+  index: "A B Č E G Ǧ H Ȟ I K L M N Ŋ O P S Š T U W Y Z Ž"
+}
+sample_text {
+  masthead_full: "WwIi"
+  masthead_partial: "Čč"
+  styles: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ"
+  tester: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel"
+  poster_sm: "Wičháša na"
+  poster_md: "Wičháša"
+  poster_lg: "Wičháša"
+  specimen_48: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi."
+  specimen_36: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha."
+  specimen_32: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha."
+  specimen_21: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha."
+  specimen_16: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha."
+}
+note: "The 1982 orthography uses ƞ Ƞ and is used in some communities. The nasalization is indicated with ŋ Ŋ in the 2008 New Lakota Dictionary and is used by Sitting Bull College, Standing Rock Sioux and Cheyenne River Sioux tribes, and schools in Pine Ridge and Rosebud"

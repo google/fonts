@@ -1,0 +1,357 @@
+<Version value="0x00010001"/>
+<DesignAxisRecordSize value="8"/>
+<!-- DesignAxisCount=13 -->
+<DesignAxisRecord>
+  <Axis index="0">
+    <AxisTag value="wght"/>
+    <AxisNameID value="309"/>  <!-- Weight -->
+    <AxisOrdering value="0"/>
+  </Axis>
+  <Axis index="1">
+    <AxisTag value="wdth"/>
+    <AxisNameID value="310"/>  <!-- Width -->
+    <AxisOrdering value="1"/>
+  </Axis>
+  <Axis index="2">
+    <AxisTag value="opsz"/>
+    <AxisNameID value="320"/>  <!-- Optical Size -->
+    <AxisOrdering value="2"/>
+  </Axis>
+  <Axis index="3">
+    <AxisTag value="GRAD"/>
+    <AxisNameID value="340"/>  <!-- Grade -->
+    <AxisOrdering value="3"/>
+  </Axis>
+  <Axis index="4">
+    <AxisTag value="slnt"/>
+    <AxisNameID value="341"/>  <!-- Slant -->
+    <AxisOrdering value="4"/>
+  </Axis>
+  <Axis index="5">
+    <AxisTag value="XTRA"/>
+    <AxisNameID value="343"/>  <!-- Counter Width -->
+    <AxisOrdering value="5"/>
+  </Axis>
+  <Axis index="6">
+    <AxisTag value="XOPQ"/>
+    <AxisNameID value="344"/>  <!-- Thick Stroke -->
+    <AxisOrdering value="6"/>
+  </Axis>
+  <Axis index="7">
+    <AxisTag value="YOPQ"/>
+    <AxisNameID value="345"/>  <!-- Thin Stroke -->
+    <AxisOrdering value="7"/>
+  </Axis>
+  <Axis index="8">
+    <AxisTag value="YTLC"/>
+    <AxisNameID value="346"/>  <!-- Lowercase Height -->
+    <AxisOrdering value="8"/>
+  </Axis>
+  <Axis index="9">
+    <AxisTag value="YTUC"/>
+    <AxisNameID value="347"/>  <!-- Uppercase Height -->
+    <AxisOrdering value="9"/>
+  </Axis>
+  <Axis index="10">
+    <AxisTag value="YTAS"/>
+    <AxisNameID value="348"/>  <!-- Ascender Height -->
+    <AxisOrdering value="10"/>
+  </Axis>
+  <Axis index="11">
+    <AxisTag value="YTDE"/>
+    <AxisNameID value="349"/>  <!-- Descender Depth -->
+    <AxisOrdering value="11"/>
+  </Axis>
+  <Axis index="12">
+    <AxisTag value="YTFI"/>
+    <AxisNameID value="350"/>  <!-- Figure Height -->
+    <AxisOrdering value="12"/>
+  </Axis>
+</DesignAxisRecord>
+<!-- AxisValueCount=47 -->
+<AxisValueArray>
+  <AxisValue index="0" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="269"/>  <!-- Thin -->
+    <Value value="100.0"/>
+  </AxisValue>
+  <AxisValue index="1" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="270"/>  <!-- ExtraLight -->
+    <Value value="200.0"/>
+  </AxisValue>
+  <AxisValue index="2" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="271"/>  <!-- Light -->
+    <Value value="300.0"/>
+  </AxisValue>
+  <AxisValue index="3" Format="3">
+    <AxisIndex value="0"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="2"/>  <!-- Regular -->
+    <Value value="400.0"/>
+    <LinkedValue value="700.0"/>
+  </AxisValue>
+  <AxisValue index="4" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="273"/>  <!-- Medium -->
+    <Value value="500.0"/>
+  </AxisValue>
+  <AxisValue index="5" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="274"/>  <!-- SemiBold -->
+    <Value value="600.0"/>
+  </AxisValue>
+  <AxisValue index="6" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="275"/>  <!-- Bold -->
+    <Value value="700.0"/>
+  </AxisValue>
+  <AxisValue index="7" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="276"/>  <!-- ExtraBold -->
+    <Value value="800.0"/>
+  </AxisValue>
+  <AxisValue index="8" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="0"/>
+    <ValueNameID value="277"/>  <!-- Black -->
+    <Value value="900.0"/>
+  </AxisValue>
+  <AxisValue index="9" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="311"/>  <!-- SuperCondensed -->
+    <Value value="25.0"/>
+  </AxisValue>
+  <AxisValue index="10" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="312"/>  <!-- UltraCondensed -->
+    <Value value="50.0"/>
+  </AxisValue>
+  <AxisValue index="11" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="313"/>  <!-- ExtraCondensed -->
+    <Value value="62.5"/>
+  </AxisValue>
+  <AxisValue index="12" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="314"/>  <!-- Condensed -->
+    <Value value="75.0"/>
+  </AxisValue>
+  <AxisValue index="13" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="315"/>  <!-- SemiCondensed -->
+    <Value value="87.5"/>
+  </AxisValue>
+  <AxisValue index="14" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="100.0"/>
+  </AxisValue>
+  <AxisValue index="15" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="317"/>  <!-- SemiExpanded -->
+    <Value value="112.5"/>
+  </AxisValue>
+  <AxisValue index="16" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="318"/>  <!-- Expanded -->
+    <Value value="125.0"/>
+  </AxisValue>
+  <AxisValue index="17" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="319"/>  <!-- ExtraExpanded -->
+    <Value value="150.0"/>
+  </AxisValue>
+  <AxisValue index="18" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="321"/>  <!-- 8pt -->
+    <Value value="8.0"/>
+  </AxisValue>
+  <AxisValue index="19" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="322"/>  <!-- 9pt -->
+    <Value value="9.0"/>
+  </AxisValue>
+  <AxisValue index="20" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="323"/>  <!-- 10pt -->
+    <Value value="10.0"/>
+  </AxisValue>
+  <AxisValue index="21" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="324"/>  <!-- 11pt -->
+    <Value value="11.0"/>
+  </AxisValue>
+  <AxisValue index="22" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="325"/>  <!-- 12pt -->
+    <Value value="12.0"/>
+  </AxisValue>
+  <AxisValue index="23" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="326"/>  <!-- 14pt -->
+    <Value value="14.0"/>
+  </AxisValue>
+  <AxisValue index="24" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="327"/>  <!-- 16pt -->
+    <Value value="16.0"/>
+  </AxisValue>
+  <AxisValue index="25" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="328"/>  <!-- 17pt -->
+    <Value value="17.0"/>
+  </AxisValue>
+  <AxisValue index="26" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="329"/>  <!-- 18pt -->
+    <Value value="18.0"/>
+  </AxisValue>
+  <AxisValue index="27" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="330"/>  <!-- 20pt -->
+    <Value value="20.0"/>
+  </AxisValue>
+  <AxisValue index="28" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="331"/>  <!-- 24pt -->
+    <Value value="24.0"/>
+  </AxisValue>
+  <AxisValue index="29" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="332"/>  <!-- 28pt -->
+    <Value value="28.0"/>
+  </AxisValue>
+  <AxisValue index="30" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="333"/>  <!-- 36pt -->
+    <Value value="36.0"/>
+  </AxisValue>
+  <AxisValue index="31" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="334"/>  <!-- 48pt -->
+    <Value value="48.0"/>
+  </AxisValue>
+  <AxisValue index="32" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="335"/>  <!-- 60pt -->
+    <Value value="60.0"/>
+  </AxisValue>
+  <AxisValue index="33" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="336"/>  <!-- 72pt -->
+    <Value value="72.0"/>
+  </AxisValue>
+  <AxisValue index="34" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="337"/>  <!-- 96pt -->
+    <Value value="96.0"/>
+  </AxisValue>
+  <AxisValue index="35" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="338"/>  <!-- 120pt -->
+    <Value value="120.0"/>
+  </AxisValue>
+  <AxisValue index="36" Format="1">
+    <AxisIndex value="2"/>
+    <Flags value="0"/>
+    <ValueNameID value="339"/>  <!-- 144pt -->
+    <Value value="144.0"/>
+  </AxisValue>
+  <AxisValue index="37" Format="1">
+    <AxisIndex value="3"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="0.0"/>
+  </AxisValue>
+  <AxisValue index="38" Format="1">
+    <AxisIndex value="4"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="342"/>  <!-- Default -->
+    <Value value="0.0"/>
+  </AxisValue>
+  <AxisValue index="39" Format="1">
+    <AxisIndex value="5"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="400.0"/>
+  </AxisValue>
+  <AxisValue index="40" Format="1">
+    <AxisIndex value="6"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="88.0"/>
+  </AxisValue>
+  <AxisValue index="41" Format="1">
+    <AxisIndex value="7"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="116.0"/>
+  </AxisValue>
+  <AxisValue index="42" Format="1">
+    <AxisIndex value="8"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="500.0"/>
+  </AxisValue>
+  <AxisValue index="43" Format="1">
+    <AxisIndex value="9"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="725.0"/>
+  </AxisValue>
+  <AxisValue index="44" Format="1">
+    <AxisIndex value="10"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="750.0"/>
+  </AxisValue>
+  <AxisValue index="45" Format="1">
+    <AxisIndex value="11"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="-250.0"/>
+  </AxisValue>
+  <AxisValue index="46" Format="1">
+    <AxisIndex value="12"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="316"/>  <!-- Normal -->
+    <Value value="600.0"/>
+  </AxisValue>
+</AxisValueArray>
+<ElidedFallbackNameID value="2"/>  <!-- Regular -->

@@ -1,0 +1,15 @@
+# XOPQ based on https://variationsguide.typenetwork.com/#xopq
+tag: "XOPQ"
+display_name: "Thick Stroke"
+min_value: -1000
+max_value: 2000
+default_value: 88
+precision: 0
+fallback {
+  name: "Normal"
+  value: 88
+}
+fallback_only: false
+illustration_url: "x_opaque.svg"
+description:
+  "A parametric axis for varying thick stroke weights, such as stems."

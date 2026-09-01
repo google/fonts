@@ -1,0 +1,14 @@
+# Edge Highlight, based on https://github.com/justvanrossum/nabla
+tag: "EHLT"
+display_name: "Edge Highlight"
+min_value: 0
+default_value: 12 # Taken from Nabla, but expected to be per-family
+max_value: 1000
+precision: 0
+description:
+  "Controls thickness of edge highlight details."
+fallback {
+  name: "Default"
+  value: 12
+}
+fallback_only: false

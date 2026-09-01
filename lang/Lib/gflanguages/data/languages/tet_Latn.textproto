@@ -1,0 +1,25 @@
+id: "tet_Latn"
+language: "tet"
+script: "Latn"
+name: "Tetum"
+autonym: "Lia Tetun"
+population: 816394
+region: "TL"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ Á Ó É Í a b c d e f g h i j k l m n o p q r s t u v w x y z ñ á ó é í"
+  marks: "◌́ ◌̃"
+}
+sample_text {
+  masthead_full: "EeMm"
+  masthead_partial: "Aa"
+  styles: "Hanesan hatene tuir dignidade ho direitu"
+  tester: "Hanesan la interese ho la fo laran ba diretus ema nia, sai hahaluk"
+  poster_sm: "Hanesan ne\'e"
+  poster_md: "Hanesan ema"
+  poster_lg: "Ema"
+  specimen_48: "Hanesan Rai Estadu Hotu, sira hotu fo sira nia lia fuan atu hetan"
+  specimen_36: "Ema hotu iha direitu atu simu husin tribunal nasaun nia ha haluk nebe halu at nia direitus, tuir lei ka konstituisaun."
+  specimen_32: "Ema hotu iha direitu hanesan ba tuir julgamentu iha tribunal atu rona ka tesi lian, tribunal tenki independente no mos imparsial, hare nia direitu ho obrigasoens, sala nebe hasoru nia."
+  specimen_21: "Ema ida labele iha interferensia arbitraria ho nia privasidade, familia, uma, corespondensia, ka hatete at ninia onra ho reputasaun. Ema hotu iha direitu atu hetan satan husin lei hasoru iha interferensia ka halu at.\nEma hotu iha direitu ba liberdade ho hanoin, neon ho relijaun, nia direitu iha mos liberdade atu troka nia relijaun, nia fiar, liberdade mesak ka ho komunidade iha publiku ka privadu, hatudu nia relijaun nia fiar iha hanorin, hahaluk loro loron, harohan nor tuir loron bot."
+  specimen_16: "Ema hotu iha direitu ba liberdade ho nia opiniaun, espresaun; direitu ida ne\'e liberdade atu rai nia opiniaun la iha interferensia, atu buka simu, fo informasaun, hanoin, iha media lalika hare ba fatin hela nebe.\nEma hotu hanesan membru sosiedade nia, iha direitu ba seguransa sosial iha realizasaun, husi nasaun nia forsa ka coperasaun internasional, tuir organizasaun ho riku rai idak nia, iha ekonomia, sosial ho direitus kulturais, ba nia dignidade nos mos livre desenvolvimentu ba nia personalidade.\nEma hotu iha direitu atu deskansa ho halimar, tuir oras ba serbisu nia, loron ferias nia ho selu."
+}

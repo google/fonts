@@ -1,0 +1,32 @@
+id: "ca_Latn"
+language: "ca"
+script: "Latn"
+name: "Catalan"
+autonym: "Català"
+population: 8679138
+region: "AD"
+region: "ES"
+region: "FR"
+region: "IT"
+exemplar_chars {
+  base: "· A À B C Ç D E É È F G H I Í Ï J K L M N O Ó Ò P Q R S T U Ú Ü V W X Y Z a à b c ç d e é è f g h i í ï j k l m n o ó ò p q r s t u ú ü v w x y z"
+  auxiliary: "Á Ă Â Å Ä Ã Ā Æ Ĕ Ê Ë Ē Ì Ĭ Î Ī Ŀ Ñ Ŏ Ô Ö Ø Ō Œ Ù Ŭ Û Ū Ÿ á ă â å ä ã ā æ ĕ ê ë ē ì ĭ î ī ŀ ñ º ŏ ô ö ø ō œ ù ŭ û ū ÿ"
+  marks: "◌̀ ◌́ ◌̈ ◌̧"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ¡ ? ¿ . … \' ‘ ’ \" “ ” « » ( ) [ ] @ * / \\ & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Ss"
+  styles: "Considerant que el reconeixement de la dignitat"
+  tester: "Considerant que el desconeixement i el menyspreu dels drets humans"
+  poster_sm: "Considerant"
+  poster_md: "L’Assemblea"
+  poster_lg: "Tots"
+  specimen_48: "Proclama aquesta Declaració Universal de Drets Humans com l’ideal"
+  specimen_36: "Ningú no serà sotmès a esclavitud o servitud: l’esclavitud i el tràfic d’esclaus són prohibits en totes llurs formes."
+  specimen_32: "Tota persona té dret al descans i al lleure i, particularment, a una limitació raonable de la jornada de treball i a vacances periòdiques pagades."
+  specimen_21: "Tota persona té dret a un ordre social i internacional en què els drets i llibertats proclamats en aquesta Declaració puguin ser plenament efectius.\nRes en aquesta Declaració no podrà interpretar-se en el sentit que doni cap dret a un Estat, a un grup o a una persona a emprendre activitats o a realitzar actes que tendeixin a la supressió de qualsevol dels drets i llibertats que s’hi enuncien."
+  specimen_16: "Considerant que el reconeixement de la dignitat inherent i dels drets iguals i inalienables de tots els membres de la família humana és el fonament de la llibertat, la justícia i la pau en el món,\nConsiderant que el desconeixement i el menyspreu dels drets humans han originat actes de barbàrie que han ultratjat la consciència de la humanitat; i que s’ha proclamat com l’aspiració més elevada de tothom l’adveniment d’un món on els éssers humans, deslliurats del temor i la misèria, puguin gaudir de llibertat d’expressió i de creença,\nConsiderant que és essencial que els drets humans siguin protegits per un règim de dret per tal que les persones no es vegin forçades, com a últim recurs, a la rebel·lió contra la tirania i l’opressió,"
+}

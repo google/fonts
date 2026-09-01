@@ -1,0 +1,25 @@
+id: "vro_Latn"
+language: "vro"
+script: "Latn"
+name: "Võro"
+autonym: "Võro"
+population: 70031
+region: "EE"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž \'"
+  marks: "◌̃ ◌̈ ◌̌"
+}
+sample_text {
+  masthead_full: "KkÕõ"
+  masthead_partial: "Ii"
+  styles: "Kõik inemiseq sünnüseq avvo ja õiguisi poolõst"
+  tester: "Kõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist."
+  poster_sm: "Kõik inemiseq"
+  poster_md: "Kõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma"
+  poster_lg: "Kõik"
+  specimen_48: "Kõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist."
+  specimen_36: "Kõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma."
+  specimen_32: "Kõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma."
+  specimen_21: "Kõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma.\nKõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma.\nKõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma."
+  specimen_16: "Kõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma.\nKõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma.\nKõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma.\nKõik inemiseq sünnüseq avvo ja õiguisi poolõst ütesugumaidsist. Näile om annõt mudsu ja süämetun\'stus ja nä piät ütstõõsõga vele muudu läbi kjauma."
+}

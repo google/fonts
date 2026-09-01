@@ -1,0 +1,26 @@
+id: "st_Latn"
+language: "st"
+script: "Latn"
+name: "Southern Sotho"
+autonym: "Sesotho"
+population: 6390567
+region: "LS"
+region: "ZA"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á É È Ē Ō Ò Š a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š"
+  marks: "◌̀ ◌́ ◌̄ ◌̌"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Tt"
+  styles: "Ka hona he, ho amohela seriti seo motho a"
+  tester: "Ka hona he, ho se natse le ho tella ditokelo tsa botho, ho tswetse"
+  poster_sm: "Ka hona he,"
+  poster_md: "Seboka se"
+  poster_lg: "Batho"
+  specimen_48: "Se phatlalatsa Totobatso e Akaretsang ya Ditokelo tsa Botho e"
+  specimen_36: "Ha ho motho ya tla etswa lekgoba kapa mohlanka ; bokgoba le kgwebo ya makgoba di tla hanelwa ka hohlehohle."
+  specimen_32: "Motho e mong le e mong o na le tokelo ya phomolo le boikgathollo, ho kenyelletswa le dihora tsa mosebetsi tse beetsweng meedi, ha mmoho le matsatsi a phomolo a lefellwang."
+  specimen_21: "Motho e mong le e mong o lokelwa ke tokelo ya setjhaba le matjhaba eo ho yona ditokelo le bolokolohi, tse hlahang Phatlalatsong ena, di fumanehang ka botlalo.\nHa ho letho Phatlalatsong ena le tshwanetseng ho hlalosa hore naha efeng kapa efeng, batho kapa motho, ba na le tokelo ya ho itshunya kapa ho etsa ketso efeng kapa efeng eo sepheo sa yona e leng ho heletsa ditokelo le bolokolohi bofeng kapa bofeng bo ngotsweng mona."
+  specimen_16: "Ka hona he, ho amohela seriti seo motho a tswalwang le sona ha mmoho le ditokelo tse lekanang tseo motho a ke keng a di amohuwa tsa batho bohle, ke mohlodi wa tokoloho, toka le kgotso lefatsheng.\nKa hona he, ho se natse le ho tella ditokelo tsa botho, ho tswetse diketso tsa bohlaha tse tamukantseng letswalo la batho, mme tsena di entse hore ho labalabelwe lefatshe leo ho lona batho ba tlang ho thabela bolokolohi ba ho bua le tumelo, le bolokolohi ditlamong tsa matswalo le bohloki. Tsena he ho thwe ke tabatabelo e hodimodimo ya batho ka kakaretso.\nKa hona he, taba ya bohlokwa ke ho kgothallesta ntshetsopele ya dikamano tsa setwalle matjhabeng."
+}

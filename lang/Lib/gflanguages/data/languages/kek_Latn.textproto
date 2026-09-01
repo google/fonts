@@ -1,0 +1,23 @@
+id: "kek_Latn"
+language: "kek"
+script: "Latn"
+name: "Qʼeqchiʼ"
+region: "GT"
+region: "BZ"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ’"
+}
+sample_text {
+  masthead_full: "CcHh"
+  masthead_partial: "Ii"
+  styles: "Chijunil li poyanam juntaqʼeet wankil xloqʼal"
+  tester: "Chijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ"
+  poster_sm: "Chijunil li"
+  poster_md: "Chijunil"
+  poster_lg: "Chijunil"
+  specimen_48: "Chijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak"
+  specimen_36: "Chijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak rehebʼ naq wan xnaʼlebʼeb ut nakeʼreekʼa ribʼ, tento naq teʼxkʼam ribʼ saʼ usilal chiribʼilribʼebʼ."
+  specimen_32: "Chijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak rehebʼ naq wan xnaʼlebʼeb ut nakeʼreekʼa ribʼ, tento naq teʼxkʼam ribʼ saʼ usilal chiribʼilribʼebʼ."
+  specimen_21: "Chijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak rehebʼ naq wan xnaʼlebʼeb ut nakeʼreekʼa ribʼ, tento naq teʼxkʼam ribʼ saʼ usilal chiribʼilribʼebʼ.\nChijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak rehebʼ naq wan xnaʼlebʼeb ut nakeʼreekʼa ribʼ, tento naq teʼxkʼam ribʼ saʼ usilal chiribʼilribʼebʼ."
+  specimen_16: "Chijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak rehebʼ naq wan xnaʼlebʼeb ut nakeʼreekʼa ribʼ, tento naq teʼxkʼam ribʼ saʼ usilal chiribʼilribʼebʼ.\nChijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak rehebʼ naq wan xnaʼlebʼeb ut nakeʼreekʼa ribʼ, tento naq teʼxkʼam ribʼ saʼ usilal chiribʼilribʼebʼ.\nChijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak rehebʼ naq wan xnaʼlebʼeb ut nakeʼreekʼa ribʼ, tento naq teʼxkʼam ribʼ saʼ usilal chiribʼilribʼebʼ.\nChijunil li poyanam juntaqʼeet wankil xloqʼal naq nakeʼyoʼla, ut kamaʼ ak rehebʼ naq wan xnaʼlebʼeb ut nakeʼreekʼa ribʼ, tento naq teʼxkʼam ribʼ saʼ usilal chiribʼilribʼebʼ."
+}

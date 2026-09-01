@@ -1,0 +1,25 @@
+id: "la_Latn"
+language: "la"
+script: "Latn"
+name: "Latin"
+autonym: "Latin"
+population: 820
+region: "VA"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "OoMm"
+  masthead_partial: "Nn"
+  styles: "Cum dignitatis infixae omnibus humanae familiae"
+  tester: "Cum hominis jurum mala cognitio contemptioque barbariae facta,"
+  poster_sm: "Cum praecipuum"
+  poster_md: "Cum in Carta"
+  poster_lg: "Omnes"
+  specimen_48: "Cum sociae civitates pollicitae sint se affirmaturas esse verecundiam"
+  specimen_36: "Cum quaedam communis conceptio horum jurum et libertatum gravissima sit, ut obligatio haec plane expleatur,"
+  specimen_32: "Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione conscientiaque praediti sunt et alii erga alios cum fraternitate se gerere debent."
+  specimen_21: "Quisque potest sibi assumere libertates omnes omnesque jures in hac declaratione pronuntiatos, sine ulla distinctione gentis, coloris, sexus, linguae, religionis, politicae sententiae aut omnis generis sententiae, nationis originis aut civitatis, divitiarum aut ortus aut omnis generis situs.\nQuisque jus habet vivere, liber esse et in tuto vivere."
+  specimen_16: "Nemo servitudine tenebitur. Omnes servitudines omnibus modis prohibentur.\nNullus cruciabitur neque poenis nec tractationibus, quae humanae sunt, objicietur.\nQuisque jus habet suam juridicam personam in omnibus locis accipi.\nOmnes ante legem aequi sunt et sine ulla distinctione jus habent aequum praesidium legis habere. Omnes jus habent praesidio aequo contra omnem discrimen qui hanc Declarationem violet et contra omnem incitationem ad talem discrimen.\nOmnis jus habet recurrere pro idoneo judice gentis contra facta violantia jures suffundatos quae sibi recognescuntur a constitutione aut lege."
+}
+historical: true

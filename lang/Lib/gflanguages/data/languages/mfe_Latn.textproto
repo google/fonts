@@ -1,0 +1,27 @@
+id: "mfe_Latn"
+language: "mfe"
+script: "Latn"
+name: "Morisyen"
+preferred_name: "Mauritian Creole"
+autonym: "Kreol Morisien"
+population: 1241433
+region: "MU"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z"
+  numerals: "- . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "Tou bann imin ne lib ek egal dan dinite ek"
+  tester: "Tou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot"
+  poster_sm: "Tou bann imin"
+  poster_md: "Tou bann"
+  poster_lg: "Tou"
+  specimen_48: "Tou bann imin ne lib ek egal dan dinite ek dan bann"
+  specimen_36: "Tou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel."
+  specimen_32: "Tou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel."
+  specimen_21: "Tou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel.\nTou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel.\nTou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel."
+  specimen_16: "Tou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel.\nTou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel.\nTou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel.\nTou bann imin ne lib ek egal dan dinite ek dan bann drwa. Zot ena larezon ek konsians ek zot bizin azir anver lezot dan enn lespri fraternel."
+}

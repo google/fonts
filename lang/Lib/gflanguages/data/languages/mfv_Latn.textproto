@@ -1,0 +1,13 @@
+id: "mfv_Latn"
+language: "mfv"
+script: "Latn"
+name: "Mandjak"
+autonym: "manjak"
+population: 121170
+region: "SN"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E ë Ë f F g G h H i I í Í j J k K l L m M n N ñ Ñ ŋ Ŋ o O ó Ó p P r R s S ŝ Ŝ t T ţ Ţ u U ú Ú w W y Y z Z"
+  marks: "◌́ ◌̂ ◌̈ ◌̃ ◌̧"
+}
+source: "République du Sénégal, Décret no 2005-983 relatif à l’orthographe et la séparation des mots en manjakú, 21 octobre 2005"
+source: "Wikipedia"

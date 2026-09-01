@@ -1,0 +1,29 @@
+id: "id_Latn"
+language: "id"
+script: "Latn"
+name: "Indonesian"
+autonym: "Indonesia"
+population: 171207687
+region: "ID"
+region: "NL"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+  auxiliary: "Å å"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "SsEe"
+  masthead_partial: "Mm"
+  styles: "Menimbang bahwa pengakuan atas martabat alamiah"
+  tester: "Menimbang bahwa mengabaikan dan memandang rendah hak-hak asasi"
+  poster_sm: "Menimbang bahwa"
+  poster_md: "Menimbang"
+  poster_lg: "Semua"
+  specimen_48: "Menimbang bahwa bangsa-bangsa dari Perserikatan Bangsa-Bangsa sekali"
+  specimen_36: "Menimbang bahwa pengakuan atas martabat alamiah dan hak-hak yang sama dan mutlak dari semua anggota keluarga"
+  specimen_32: "Menimbang bahwa pengakuan atas martabat alamiah dan hak-hak yang sama dan mutlak dari semua anggota keluarga manusia adalah dasar kemerdekaan, keadilan dan perdamaian di dunia,"
+  specimen_21: "Menimbang bahwa pengakuan atas martabat alamiah dan hak-hak yang sama dan mutlak dari semua anggota keluarga manusia adalah dasar kemerdekaan, keadilan dan perdamaian di dunia,\nMenimbang bahwa hak-hak asasi manusia perlu dilindungi oleh peraturan hukum supaya orang tidak akan terpaksa memilih pemberontakan sebagai usaha terakhir guna menentang kelaliman dan penindasan,"
+  specimen_16: "Menimbang bahwa pengakuan atas martabat alamiah dan hak-hak yang sama dan mutlak dari semua anggota keluarga manusia adalah dasar kemerdekaan, keadilan dan perdamaian di dunia,\nMenimbang bahwa mengabaikan dan memandang rendah hak-hak asasi manusia telah mengakibatkan perbuatan-perbuatan bengis yang menimbulkan rasa kemarahan hati nurani umat manusia, dan terbentuknya suatu dunia tempat manusia akan mengecap kenikmatan kebebasan berbicara dan beragama serta kebebasan dari ketakutan dan kekurangan telah dinyatakan sebagai cita-cita tertinggi dari rakyat biasa,"
+}

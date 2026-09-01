@@ -1,0 +1,94 @@
+FONTLOG for Cuprum fonts
+
+This file provides detailed information on the Cuprum 
+Font Software.
+
+This information should be distributed along with the 
+Cuprum fonts and any derivative works.
+
+Basic Font Information
+
+Cuprum was created in 2006 based on the works Miles 
+Newlyn. Cuprum is a narrow grotesque. It is quite 
+versatile. Mostly how it is now, I do not like myself, 
+because as time passed and since then I have learned 
+to make fonts much better. An interesting history of 
+the appearance of his name: Cuprum is copper, not 
+gold or silver. Copper is too noble, but it is much 
+cheaper and copper is not used for medals – only pots.
+
+Купрум я создал в 2006 году по мотивам работ Miles 
+Newlyn. Купрум это узкий гротеск. Шрифт достаточно 
+универсален. Местами он теперь не нравится Интересная 
+история появления его названия: купрум это медь, не 
+золото и не серебро. Медь тоже благородна, 
+медалей - только тазы.
+
+Cuprum is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1, Cyrillic
+
+There are eight Source files:
+
+1. Cuprum-Regular-OTF.vfb Merged contours and 
+  optimized file corresponding to the OTF file
+
+2. Cuprum-Regular-TTF.vfb TrueType outlines with 
+  hinting adjustments corresponding to the TTF file
+
+3. Cuprum-Italic-OTF.vfb Merged contours and 
+  optimized file corresponding to the OTF file
+
+4. Cuprum-Italic-TTF.vfb TrueType outlines with 
+  hinting adjustments corresponding to the TTF file
+
+5. Cuprum-Bold-OTF.vfb Merged contours and 
+  optimized file corresponding to the OTF file
+
+6. Cuprum-Bold-TTF.vfb TrueType outlines with 
+  hinting adjustments corresponding to the TTF file
+
+7. Cuprum-BoldItalic-OTF.vfb Merged contours and 
+  optimized file corresponding to the OTF file
+
+8. Cuprum-BoldItalic-TTF.vfb TrueType outlines with 
+  hinting adjustments corresponding to the TTF file
+
+To contribute to the project contact Jovanny Lemonad
+at lemonad@jovanny.ru
+
+ChangeLog
+
+14 October 2016 (Font Raisins Team) v.2.000
+— Expanded glyph set to GF Cyrillic Plus
+— Ported sources files to Glyphs
+— Added kerning classes, compressed and optimised kerning
+— Added glyphs ˚⁴∕⁄ required for Google Latin support
+— Added Vietnamese support (by Nhung Nguyen)
+
+31 March 2012 (Jovanny Lemonad) Cuprum v1.002
+- Release of 4 style family with Latin, Extended Latin
+ and Cyrillic character sets.
+
+May 2010 (Jovanny Lemonad) Cuprum v1.000
+- Initial release of Regular style in Latin and Cyrillic
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Jovanny Lemonad
+E: lemonad@jovanny.ru
+D: Original Type Designer
+
+N: Font Raisins Team
+D: Expansion to GF Cyrillic Plus
+
+N: Nhung Nguyen
+E: vns.wonderland@gmail.com
+D: Adding Vietnamese support 

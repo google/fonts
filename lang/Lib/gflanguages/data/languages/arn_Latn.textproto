@@ -1,0 +1,25 @@
+id: "arn_Latn"
+language: "arn"
+script: "Latn"
+name: "Mapuche"
+autonym: "Mapudungun"
+population: 272802
+region: "CL"
+exemplar_chars {
+  base: "A B C D E F G I J K L M N O P Q R S T U W X Y Z Ü Ñ a b c d e f g i j k l m n o p q r s t u w x y z ü ñ"
+  marks: "◌̃ ◌̈"
+}
+sample_text {
+  masthead_full: "KkOo"
+  masthead_partial: "Mm"
+  styles: "Kimnieel fij mapu mew tañi kimgen kvme felen"
+  tester: "Gewenonmu yamuwvn, zuamgewenonmu kvme felen, goymagenmu nor felen"
+  poster_sm: "Tañi mvlenoam"
+  poster_md: "Ka kimnieel"
+  poster_lg: "Kom"
+  specimen_48: "Femueci mvlcy ñi kimniegeael kom mapu mew nor kvme felen ka kisugvnew"
+  specimen_36: "EPU. Kom pu xokiñ ce, cem az mogengeayrume mvlelu fij mapu, ka femueci xvr nvwkvley tvfaci Fvxa Cijka mew."
+  specimen_32: "Kom femgey ce wigka ñi wirikon zugu mew (\"Ley\" pi ta wigka) fey mew kom pu ce pepi nvway tvfaci zugu mew. Yamgerumenole cuci sugu rume wirintukulelu tvfaci \"Fvxa Cijka\" mew."
+  specimen_21: "Pu wigka mew mvley kiñe ruka cew ñi norvmgekemum ixofij wezake zugu; fey mew pepi nvway kom pu ce tañi igkañmageam, yamvñmagenole tvfeyci nor zugu wirintukulelu fvta cijka mew \"Constitución\" pigelu, nielu kom pu xokiñke ce fij mapu.\nGelay iney rume ñi koraltukugeael ka wemvnentugeael ka wemvnentugeael tañi mapu mew wezakamekenole."
+  specimen_16: "Tvfeyci wigka norvmzuguwe ruka mew, kom pu ce mvley ajkvtuñmageael ñi zugu, tañi kimgeam ñi weza femvn kam femnon ka tañi kimgeam cumueci ñi feletuael ragi kakelu pu ce.\nWigka ñi wirikon zugu mew (\"Ley\" pi ta wigka) nvwkvley kom pu ce ka fey mew mvley ñi igkañmageael egvn kake ce zugukonle ñi mogen mew, kam ka ce pekanka lef konle ñi ruka mew, kom tañi felen mew ka wezaka zuguyekañmagele.\nCem rakizuam rume cem feyentun rume nieay fij pu ce gelayay cumuelu ñi mvntuñmageael ka takuñmageael. Kisuzuam kvpa konle kake feyentun mew femay mvten, kvpa kimelle ñi rakizuam ka feyentun ka pepi kimelafi."
+}

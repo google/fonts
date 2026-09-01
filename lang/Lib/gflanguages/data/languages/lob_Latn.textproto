@@ -1,0 +1,29 @@
+id: "lob_Latn"
+language: "lob"
+script: "Latn"
+name: "Lobi"
+region: "CI"
+region: "BF"
+region: "GH"
+population: 723000
+exemplar_chars {
+  base: "a A ã Ã b B ɓ Ɓ c C d D e E ẽ Ẽ ɛ Ɛ {ɛ̃} {Ɛ̃} ǝ Ǝ {ǝ̃} {Ǝ̃} f F g G {gb} {GB} h H i I ĩ Ĩ ɩ Ɩ {ɩ̃} {Ɩ̃} j J k K {kh} {KH} {kp} {KP} l L {’l} {’L} m M n N {ny} {NY} o O õ Õ ɔ Ɔ {ɔ̃} {Ɔ̃} p P {ph} {PH} r R s S t T {th} {TH} u U ũ Ũ ʋ Ʋ {ʋ̃} {Ʋ̃} v V w W ⱳ Ⱳ y Y ƴ Ƴ"
+  marks: "◌̀ ◌́ ◌̃"
+  auxiliary: "à À á Á ä Ä {’w} {’W} ʔ ˈ"
+}
+sample_text {
+  masthead_full: "TtEe"
+  masthead_partial: "Hh"
+  styles: "Teehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ"
+  tester: "Teehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ"
+  poster_sm: "Teehuu sʋnɔ"
+  poster_md: "Teehuu"
+  poster_lg: "Teehuu"
+  specimen_48: "Teehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na"
+  specimen_36: "Teehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na nà hʋ tɩnɛpar rà. Thangba ti yɛr à pɛ yɛr jɩɩr nà fɩlwɛ sɩ a teena waan fʋkha omkhaa."
+  specimen_32: "Teehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na nà hʋ tɩnɛpar rà. Thangba ti yɛr à pɛ yɛr jɩɩr nà fɩlwɛ sɩ a teena waan fʋkha omkhaa."
+  specimen_21: "Teehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na nà hʋ tɩnɛpar rà. Thangba ti yɛr à pɛ yɛr jɩɩr nà fɩlwɛ sɩ a teena waan fʋkha omkhaa.\nTeehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na nà hʋ tɩnɛpar rà. Thangba ti yɛr à pɛ yɛr jɩɩr nà fɩlwɛ sɩ a teena waan fʋkha omkhaa."
+  specimen_16: "Teehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na nà hʋ tɩnɛpar rà. Thangba ti yɛr à pɛ yɛr jɩɩr nà fɩlwɛ sɩ a teena waan fʋkha omkhaa.\nTeehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na nà hʋ tɩnɛpar rà. Thangba ti yɛr à pɛ yɛr jɩɩr nà fɩlwɛ sɩ a teena waan fʋkha omkhaa.\nTeehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na nà hʋ tɩnɛpar rà. Thangba ti yɛr à pɛ yɛr jɩɩr nà fɩlwɛ sɩ a teena waan fʋkha omkhaa.\nTeehuu sʋnɔ n ther ɛɛ nɩɩ bʋnɔ wa n do deeaʔ sɩ wʋ n makha samɩnɩ na nà hʋ tɩnɛpar rà. Thangba ti yɛr à pɛ yɛr jɩɩr nà fɩlwɛ sɩ a teena waan fʋkha omkhaa."
+}
+source: "ANTBA, ’Lobiir caca sɛbɛ, Ouagadougou, Association nationale pour la traduction de la Bible et l’alphabétisation (ANTBA), 2012"
+note: "The ⱳ used to be written ’w and ’ was sometimes written ʔ. ANTBA 2012 uses ⱳ and ’.\nThe UDHR translation uses à á ä but these are not in ANTBA 2012."

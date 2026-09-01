@@ -1,0 +1,24 @@
+id: "ibb_Latn"
+language: "ibb"
+script: "Latn"
+name: "Ibibio"
+population: 2996392
+region: "NG"
+exemplar_chars {
+  base: "A B D E F G H I Ị K M N Ñ O Ọ P R S T U Ʌ W Y a b d e f g h i ị k m n ñ o ọ p r s t u ʌ w y"
+  marks: "◌̃ ◌̣"
+}
+sample_text {
+  masthead_full: "KkPp"
+  masthead_partial: "Uu"
+  styles: "Kpukpuru owo emana ye ukemukem ye asana asana"
+  tester: "Mboho Edidiana Kiet Ofuri Ekondo enehede ebiere ndimum nkama,"
+  poster_sm: "Ke nwed Edisuan"
+  poster_md: "Mme unen"
+  poster_lg: "Kpukpuru"
+  specimen_48: "Mbufo emehe ye mme mbet ye mme unen emi enyun enwam ndisuan etop"
+  specimen_36: "Koro kpupuru owo ndidiono mme unen ye mme usuñ uboho-ufin edi ata akpan nkpo ndida nam enwono emi oworo usun,"
+  specimen_32: "Owo inyeneke ndisin owo ndomokiet ke idak ndutuho ye ibak. Nko owo inyeneke ndino owo ufen emi midotke ndino owo, mme ufen emi edide nkpo but ye esuene."
+  specimen_21: "Kpupuru owo enyene unen ndiworo nda ke ebiet kiet ekededi nte owo emi enyende unen ke iso mbet.\nKpukpuru owo, owo isoho owo eto, edi ukem ukem ke iso mbet enyung eyene unen ndibo ukem ukpeme otode ke mbet. Kpupuru owo enyene unen ndibo ukpeme, edieke owo esinde asari emi ekemede ndibiat mme mbet emi edude ke nwed Edisuan Etop Mbana Mme Unen Mme Owo emi, mme ndinam nkpo emi ekemeke ndida oruk asari oro ndi."
+  specimen_16: "Kpukpuru owo enyene unen ndiyom ukpan mme unen nto mme esop ndunhode emi edude ndise mbana mme edinam emi ekemede ndibiat mme ndamana unen emi enode owo otode ke akwa nwed mbet, ye mme mbet eken.\nOwo inyenke unen ndimum owo ndomokiet ke ini akpan ntak miduhe, mme ndikobi, mme ndibin owo nsio ke obio esie.\nKpukpuru owo enyene unen ndida ke iso ikpe nyung ntin iko idem mmo anwa anwa ke iso asana asana esop ubiereikpe emi minamke asari, ke ndiyom mme unen ye mme isoutom mmo, ye ndiyom unen mbana mme idiok ikpe ekededi emi owo enyende.\nOwo ekededi enyene unen ndiduok odudu mme ndibo inem uwem, ndiyun nyene akpan ini emi enye anamde utom emi minionke ikaha, ndiyung mbo ukpe ke ini utom, kpa ye ini nduokodudu."
+}

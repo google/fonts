@@ -1,0 +1,26 @@
+id: "bvi_Latn"
+language: "bvi"
+script: "Latn"
+name: "Belanda Viri, Latin"
+region: "SS"
+population: 73000
+exemplar_chars {
+  base: "a A á Á ã Ã ä Ä {ä́} {Ä́} {ä̃} {Ä̃} {’b} {’B} d D {’d} {’D} e E é É ẽ Ẽ ë Ë {ë́} {Ë́} {ë̃} {Ë̃} f F g G {gb} {GB} i I í Í ĩ Ĩ ï Ï ḯ Ḯ {ï̃} {Ï̃} k K {kp} {KP} l L m M {mgb} {MGB} n N {nd} {ND} {ng} {NG} {nv} {NV} {nz} {NZ} o O ó Ó õ Õ ö Ö {ö́} {Ö́} {ö̃} {Ö̃} r R s S t T u U ú Ú ũ Ũ ü Ü ǘ Ǘ {ü̃} {Ü̃} v V w W y Y z Z"
+  marks: "◌́ ◌̃"
+  auxiliary: "ʼ"
+}
+sample_text {
+  masthead_full: "AaJj"
+  masthead_partial: "Oo"
+  styles: "A jo kánako murutǘkpí nó njee, tí ká favä́ŋ,"
+  tester: "A jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí"
+  poster_sm: "A jo kánako"
+  poster_md: "kánako"
+  poster_lg: "kánako"
+  specimen_48: "A jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií."
+  specimen_36: "A jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií. Joki taa je muru ta njonvé jindí, ndi só wáa bowo tí \'dó gbí nvóko tíndí ta ganve laká winvee njee."
+  specimen_32: "A jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií. Joki taa je muru ta njonvé jindí, ndi só wáa bowo tí \'dó gbí nvóko tíndí ta ganve laká winvee njee."
+  specimen_21: "A jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií. Joki taa je muru ta njonvé jindí, ndi só wáa bowo tí \'dó gbí nvóko tíndí ta ganve laká winvee njee.\nA jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií. Joki taa je muru ta njonvé jindí, ndi só wáa bowo tí \'dó gbí nvóko tíndí ta ganve laká winvee njee."
+  specimen_16: "A jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií. Joki taa je muru ta njonvé jindí, ndi só wáa bowo tí \'dó gbí nvóko tíndí ta ganve laká winvee njee.\nA jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií. Joki taa je muru ta njonvé jindí, ndi só wáa bowo tí \'dó gbí nvóko tíndí ta ganve laká winvee njee.\nA jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií. Joki taa je muru ta njonvé jindí, ndi só wáa bowo tí \'dó gbí nvóko tíndí ta ganve laká winvee njee.\nA jo kánako murutǘkpí nó njee, tí ká favä́ŋ, taká yindí ta yee ndí tatií. Joki taa je muru ta njonvé jindí, ndi só wáa bowo tí \'dó gbí nvóko tíndí ta ganve laká winvee njee."
+}
+source: "Clement Murba Wau Bilal, “The Adamawa - Ubangi Languages in Sudan”, in Leoma C. Gilley, Occasional Papers in the Study of Sudanese Languages No. 9, 2004, p. 175-183"

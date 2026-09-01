@@ -1,0 +1,70 @@
+FONTLOG for the Pinyon Script font
+
+This file provides detailed information on Pinyon Script 
+Font Software. This information should be distributed along with 
+the Pinyon Script font and any derivative works.
+
+Basic Font Information
+
+Pinyon Script is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release supports the following Unicode 
+ranges: Latin-1
+
+To contribute to the project contact Eben Sorkin at 
+sorkineben@gmail.com
+
+ChangeLog
+
+23 Sept 2011 (Eben Sorkin) Pinyon Script v1.007
+- Removed italic angle from TTF and TTF-SFD
+- Simplified curves to reduce filesize
+
+6 Sept 2011 (Eben Sorkin) Pinyon Script v1.005
+- Mastered Font from Fontlab VBF to TTF
+- Made descders shorter so that they would not be 
+  chopped off in Windows
+- Set Grid Fitting to "No Grid Fit" to further smooth 
+  screen rendering in Windows
+- Adjusted the spacing of the punctuation
+
+5 Sept 2011 (Eben Sorkin) Pinyon Script v1.004
+- Mastered Font from Fontlab VBF to TTF
+- Adjusted overall weight to be slightly heavier to avoid 
+  drop outs of then letter parts in Windows
+- Made similar heights more similar for better screen rendering.
+
+5 Sept 2011 (Eben Sorkin) Pinyon Script v1.003
+- Mastered Font from Fontlab VBF to TTF
+- Adjusted thins for consistency especially in the caps, 
+- Adjusted the slant of the lower loops of p,g,j,y 
+- Adjusted the slant of the U by a lot and a few other caps 
+  very slightly
+- Adjusted the spacing of the punctuation
+
+1 Sept 2011 (Eben Sorkin) Pinyon Script v1.002
+- Mastered Font from Fontlab VBF to TTF
+- Adjusted scale, joins, corrected outlines that 
+  created subpaths when merged.
+
+28 August 2011 (Nicole Fally) Pinyon Script v1.000
+- Completed first complete version of Pinyon Script 
+  in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Nicole Fally
+E: nf@t-g-d.at
+W: www.t-g-d.at
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Spacing and Mastering

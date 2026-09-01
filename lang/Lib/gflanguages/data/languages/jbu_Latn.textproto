@@ -1,0 +1,12 @@
+id: "jbu_Latn"
+language: "jbu"
+script: "Latn"
+name: "Jukun Takum"
+population: 2400
+region: "CM"
+region: "NG"
+exemplar_chars {
+  base: "á Á ā Ā a A à À â Â b B ḅ Ḅ c C d D é É ē Ē e E è È ê Ê f F g G h H í Í ī Ī i I ì Ì î Î j J k K ḳ Ḳ l L ḿ Ḿ m M ń Ń n N ǹ Ǹ ó Ó ō Ō o O ò Ò ô Ô p P r R s S t T ú Ú ū Ū u U ù Ù û Û v V w W y Y z Z"
+  marks: "◌́ ◌̄ ◌̀ ◌̂ ◌̣"
+  auxiliary: "q Q x X"
+}

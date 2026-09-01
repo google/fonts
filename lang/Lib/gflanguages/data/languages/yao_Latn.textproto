@@ -1,0 +1,25 @@
+id: "yao_Latn"
+language: "yao"
+script: "Latn"
+name: "Yao"
+autonym: "chiYao"
+population: 722356
+region: "MZ"
+exemplar_chars {
+  base: "A B C D E G H I J K L M N O P S T U W Ŵ Y a b c d e g h i j k l m n o p s t u w ŵ y"
+  marks: "◌̂"
+}
+sample_text {
+  masthead_full: "WwAa"
+  masthead_partial: "Nn"
+  styles: "Aga ni maufulu gakasapagwa nago mundu jwalijose"
+  tester: "Pa 10 December, 1948, chiwanja cha United Nations chajitichisye"
+  poster_sm: "Chiwanja cha"
+  poster_md: "Wandu wosope"
+  poster_lg: "Wandu"
+  specimen_48: "Mkamulanowu wagopolekwe mchiyawo ni chikamuchisyo chakutyochela"
+  specimen_36: "Mundu akasakamulikwa ukaidi pamagongo gangalumbana nambo soni akasatoposyekwa mchilambo pa magongo gangamanyika chenene."
+  specimen_32: "Mundu akwete ufulu wakwimbikwa magambo panganya jijili jakulumbana mwangalola ngope mwakuwanjilana ni ufulu wa mundujo, ulemwa wakwe ni yindu yine yakusosekwa kuti mundujo ayigose."
+  specimen_21: "Mundu akole ufulu wakutama mwangasokonesyekwa pewasa lyakwe ni panyumba jakwe. Ikalata yakwe soni ikasiiunguligwa ni wandu wane. Mundu amsunjile uchimbichimbi wakwe ndawi syosope, m\'yoyo mundu atetelekwe ni malamusi kuti yindu yeleyi ikasiyitendekwaga.\nMundu akwete ufulu wakupumula nambo soni ng\'anda. Mundujo soni, akasakamuliskwa masengo ndawi jajilewu mnope. Akoleje soni ndawi jakupumula jajilewu (Holiday), mundawi jeleji mundujo apocheleje soni malipilo."
+  specimen_16: "Mundu jwalijose akwete ufulu wakutama mchilambo mwamtendele kuti akomboleche kuwa ni maufulu gagali mumkamulano awu.\nMkamulunano awu ngaukupeleka ufulu kwa chilambo chine chilichose, likuga, kapena mundu jwalijose wakutenda chindu chine chilichose chimpaka chayochesye wandu maufulu gawo gagali mumkamulanowu.\nAga ni maufulu gakasapagwa nago mundu jwalijose gigalembekwe ni chiwanja cha United Nations mumkamulano wakolanjikwa Universal Declaration of Human Rights.\nWandu wosope akasapagwa ni ufulu ni uchimbichimbi wakulandana. Asapagwa ni lunda, niwakupakombola ganisya, m\'yoyo kukusosekwa kuti mundu jwalijose am\'woneje mundu jwimwe mpela mlongomjakwe."
+}

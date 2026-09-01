@@ -1,0 +1,31 @@
+id: "taq_Latn"
+language: "taq"
+script: "Latn"
+name: "Tamasheq (Latin)"
+region: "ML"
+population: 914000
+exemplar_chars {
+  base: "a A â Â ă Ă ǝ Ǝ b B c C d D ḍ Ḍ e E ê Ê f F g G ǧ Ǧ h H ʔ i I î Î j J ǰ {J̌} ɣ Ɣ k K l L ḷ Ḷ m M n N ŋ Ŋ o O ô Ô q Q r R s S ṣ Ṣ š Š t T ṭ Ṭ u U û Û w W x X y Y z Z ž Ž ẓ Ẓ"
+  marks: "◌̌ ◌̆ ◌̣"
+  auxiliary: "ḅ Ḅ ə Ə ñ Ñ ʃ Ʃ ʒ Ʒ"
+}
+sample_text {
+  masthead_full: "MmDd"
+  masthead_partial: "Aa"
+  styles: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən"
+  tester: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full"
+  poster_sm: "Mdan ddunt"
+  poster_md: "Mdan"
+  poster_lg: "Mdan"
+  specimen_48: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed"
+  specimen_36: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət."
+  specimen_32: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət."
+  specimen_21: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət."
+  specimen_16: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət."
+}
+source: "Chantal Enguehard, “Alphabet tamajaq – arrêté no 214-99 de la République du Niger”, 2007"
+source: "République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Règles d’orthographe des langues nationales, Bamako, DNAFLA, 1982"
+source: "République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d'orthographe des langues nationales, Bamako, DNAFLA, 1993"
+source: "République du Niger, Ministère de l’Éducation nationale, arrêté no 0214/MEN/SPCNRE du 19 octobre 1999 fixant l’orthographe de la langue tamajaq, 1999"
+source: "Issak Oukafi Cheikh, Déclaration universelle des droits de l’Homme = Tamule n amḍal n lxəqqən n awadəm = Universal Declaration of Human Rights, Association Tagazt, 2006"
+note: "Mali’s DNAFLA 1993 and Niger’s arrêté no 0214/MEN/SPCNRE differ and have slightly different orders. In Mali ʔ ž are used (ə or ǝ as only lowercase is shown in DNAFLA 1993), in Niger â ê ǝ/Ǝ  ǧ î ǰ ô û are used.\nThe UDHR translation (Cheikh 2006) uses ə/Ə ñ. DNAFLA 1982 used ʃ ʒ and DNAFLA 1993 uses sh zh instead."

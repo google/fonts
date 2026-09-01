@@ -1,0 +1,38 @@
+FONTLOG for the Asset font
+
+This file provides detailed information on the Asset font Software.
+This information should be distributed along with the Asset fonts
+and any derivative works.
+
+Basic Font Information
+
+Asset is a Unicode typeface family that supports languages that
+use the Latin script and its variants, and could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode ranges: Latin-1
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+20 June 2011 (Eben Sorkin) Asset v1.001
+- Adusted glyph heights to make them completely consistent.
+- Mastered Font from Fontlab to TTF
+
+02 July 2010 (Riccardo De Franceschi) Asset v1.001
+- Completed first complete version of Asset in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Riccardo De Franceschi
+E: defranceschi@mail.com
+W: http://www.rdftype.it/
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Spacing and Mastering

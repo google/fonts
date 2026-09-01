@@ -1,0 +1,158 @@
+FONTLOG
+Lekton font family
+========================
+
+
+This file provides detailed information on the Lekton family of fonts.
+This information should be distributed along with the Lekton fonts and any
+derivative works.
+
+
+Basic Font Information
+----------------------
+
+The typeface has been originally designed at Isia Urbino by the students Luna Castroni, Stefano Faoro, Emilio Macchia, Elena Papassissa, Michela Povoleri, Tobias Seemiller, and the teacher Luciano Perondi (aka galacticus ineffabilis). 
+
+This typeface has been designed in 8 hours, and was inspired by some of the typefaces used on the Olivetti typewriters.
+
+The glyphs are “trispaced”. It means that the space are modular, 250, 500, 750, this allow a better spacing between characters, but allow also a vertical alignment similar to the one possible with a monospaced font.
+We were thinking it was a bright new idea, but we discovered that was usual for Olivetti typewriters working with “Margherita”.
+
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+10 July 2009 (Riccardo Lorusso)  Lekton version 22
+- Fixed the old style figure classes for the jumping numbers
+- Fixed the height and the spacing of the smallcaps group
+- Added and compiled the smallcaps opentype function
+- Added "f_f_i" and "f_f_l" ligatures
+
+03 July 2009 (Luciano Perondi)  Lekton version 22
+- Redesigned bold master of "b" "d" "g" "p" "q" glyphs
+
+13 May 2009 (Riccardo Lorusso and Sabrina Campagna)  Lekton version 19
+- Revisioned the diacritical system
+- Included FontLab source files
+- Fixed some multiple master bold glyphs
+- Added the small caps alphabet
+- Added the opentype feature "Ligatures" for c_k, c_t and p_t
+
+10 May 2009 (Paolo Mazzetti)  Lekton version 19
+- Changed licensing to the SIL Open Font License
+- Included FontLab source files
+- Fixed some glyphs names which included spaces
+- Rounded glyph widths to proper values where necessary
+
+
+
+Information for Contributors
+----------------------------
+
+This has yet to be written.
+See Gentium's FONTLOG.txt file for a detailed example
+ 
+
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications
+be sure to add your name (N), email (E), web-address (W) and description
+(D). This list is sorted by last name in alphabetical order.)
+
+N: Elisa Ansuini
+E: /
+W: /
+D: Sudent
+
+N: Jan Henrik Arnold
+E: janhenrikarnold AT gmx DOT net
+W: /
+D: Sudent
+
+N: Sabrina Campagna
+E: sabrina.campagna AT gmail DOT com
+W: /
+D: Sudent
+
+N: Antonio Cavedoni
+E: antonio AT cavedoni DOT org
+W: http://cavedoni.com/
+D: Type designer
+
+N: Daniele Capo
+E: capo.daniele AT gmail DOT com
+W: http://danielecapo.com/wp/
+D: Graphic designer
+
+N: Luna Castroni
+E: luna.castroni AT gmail DOT com
+W: http://www.lunacastroni.com/
+D: Sudent
+
+N: Marco Comastri
+E: comastri AT gmail DOT com
+W: http://marcomastri.altervista.org/
+D: Graphic designer
+
+N: Mariangela Di Pinto
+E: /
+W: /
+D: Sudent
+
+N: Stefano Faoro
+E: stfn.faoro AT gmail DOT com
+W: http://www.stefanofaoro.com/
+D: Sudent
+
+N: Raffaele Flaùto
+E: /
+W: /
+D: Sudent
+
+N: Riccardo Lorusso
+E: riccardo.lorusso AT hotmail DOT it
+W: /
+D: Sudent
+
+N: Paolo Mazzetti
+E: paolo.mazzetti AT scriptype DOT net
+W: http://www.scriptype.net
+D: Revisioner and tech support
+
+N: Emilio Macchia
+E: me AT emiliomacchia DOT com
+W: http://www.emiliomacchia.com/
+D: Sudent
+
+N: Elena Papassissa
+E: elenapapass@yahoo.it
+W: /
+D: Sudent
+
+N: Luciano Perondi
+E: luciano.perondi@campivisivi.net
+W: http://www.molotro.com/
+D: Director of the project
+
+N: Michela Povoleri
+E: /
+W: http://www.michelapovoleri.com/
+D: Sudent
+
+N: Tobias Seemiller
+E: /
+W: /
+D: Sudent
+
+For more information please visit the Lekton page on ISIA Urbino's blog website:
+http://lekton.blog.isiaurbino.it/
+
+or the Google Group:
+http://groups.google.it/group/lekton
+
+or the new website:
+http://lekton.info/
+
+or send an email to <lekton AT googlegroups DOT com>

@@ -1,0 +1,13 @@
+id: "nup_Latn"
+language: "nup"
+script: "Latn"
+name: "Nupe-Nupe-Tako"
+population: 2025000
+region: "NG"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z"
+  marks: "◌́ ◌̀"
+  auxiliary: "q Q x X á Á à À é É è È í Í ì Ì ḿ Ḿ {m̀} {M̀} ń Ń ǹ Ǹ ó Ó ò Ò ú Ú ù Ù"
+}
+source: "Isaac S. George Madugu, “Nupe Orthography”, in A. Banjo, Orthographies of Nigerian Languages, Manual III, Lagos, National Language Center, 1985, pp. 25-43"
+note: "Digraphs in the 1985 orthography are dz gb kp sh ts zh and an in un for nasal vowels. Tones are only marked in technical or linguistic works. There has been various previous orthographies using dot below or tilde, or even caron in the earliest ones."

@@ -1,0 +1,23 @@
+id: "kri_Latn"
+language: "kri"
+script: "Latn"
+name: "Krio"
+population: 6293683
+region: "SL"
+exemplar_chars {
+  base: "A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z"
+}
+sample_text {
+  masthead_full: "ƐɛVv"
+  masthead_partial: "Rr"
+  styles: "Soso we if wi sabi ɛn gri se if ɔlman gɛt"
+  tester: "Di tiŋ we di kɔmɔn man want pas ɔltin na di wɔl tide na fɔ mek"
+  poster_sm: "If man fɔ liv"
+  poster_md: "Na semweso"
+  poster_lg: "ɛvribɔdi"
+  specimen_48: "We di Yunaytɛd Neshɔn dɛn sɛf si dis nain mek dɛn put am tranga"
+  specimen_36: "Fɔ mek dis wanwɔd ol wata ɔloba di wɔl, ɛvribɔdi fɔɔndastand wetin dɛn rayt ɛn dɛn fridɔm, jɔstis ɛn pis yaso min."
+  specimen_32: "ɛvribɔdi bɔn fri ɛn gɛt in yon rayt, nɔn wan nɔ pas in kɔmpin. Wi ɔl ebul fɔ tink ɛn fɛnɔt wetin rayt ɛn rɔŋ pantap dat wi fɔ sabi aw fɔ liv lɛk wan big famili."
+  specimen_21: "ɛvribɔdi fɔ gɛt di sem rayt ɛn fridom we dis stetmɛnt tɔk bɔt, nɔ mata wɛda in na wetman ɔ blakman, man ɔ uman, bukman ɔ yu nɔ sabi rid ɛn rayt, poman ɔ mɔniman, kristiɛn ɔ muslim.\nPantap dat, di kɔntri we di pɔsin bɔn sɛf nɔ fɔ bi baria na in we. I fɔ gɛt ikwal rayt lɛk ɛni ɔda pɔsin na di bɛst divɛlop kɔntri na di wɔl."
+  specimen_16: "Evribɔdi fɔ ebul fɔ liv in layf, fɔ fil fri ɛn fɔ fil sɛf se nɔbɔdi ɔ natin nɔ go denja in layf.\nNɔbɔdi nɔ fɔ mek in kɔmpin in slev – dis, ɔɛnitiŋ sɛf we fiba am fɔ tap.\nNɔbɔdi nɔ fɔ mek in kɔmpin sɔfa bita wikɛd pen na bɔdi ɔ shem sote i lɔs da in yon yon rɛspɛkt.\nɛvribɔdi gɛt rayt fɔ mek pipul dɛn rɛspɛkt am as mɔtalman ɛnisay na di wɔl ɛn, sɛf, fɔ mek di lɔɛp am gɛt dis rɛspɛkt.\nɛvribɔdi ikwal ɛn di lɔ fɔ ebul protɛkt ɛniwan wantɛm we ɔda pipul dɛn na trit wan du am wetin in mɔtalman rayt nɔ gri fɔɔ if bad pipul se ɔda wan agens am.\nɛvribɔdi we tink se dɛn dɔn go agens in rayt we dis stetmɛnt tɔk bɔt, fɔ ebul gɛt ɔl di ɛp we i nid frɔm ɛni kotos we gɛt pawa na in kɔntri."
+}

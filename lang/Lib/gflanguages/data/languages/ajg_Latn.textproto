@@ -1,0 +1,28 @@
+id: "ajg_Latn"
+language: "ajg"
+script: "Latn"
+name: "Aja"
+population: 550000
+region: "BJ"
+exemplar_chars {
+  base: "a A á Á à À b B c C d D ɖ Ɖ e E é É è È ɛ Ɛ f F g G ɣ Ɣ h H i I í Í ì Ì j J k K l L m M n N ŋ Ŋ o O ó Ó ò Ò ɔ Ɔ p P r R s S t T u U ú Ú ù Ù v V w W x X y Y z Z ʒ Ʒ"
+  marks: "◌́ ◌̀"
+  auxiliary: "q Q"
+}
+sample_text {
+  masthead_full: "AaGg"
+  masthead_partial: "Bb"
+  styles: "Agbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ,"
+  tester: "Agbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi"
+  poster_sm: "Agbetɔwo pleŋu"
+  poster_md: "Agbetɔwo"
+  poster_lg: "Agbetɔwo"
+  specimen_48: "Agbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko"
+  specimen_36: "Agbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko acɛwo gomɛ; wo xɔnɔ susunywin ko jimɛnywi so esexwe. Wo ɖo a wɛ nɔvi ɖaɖa wowo nɔnɔwo gbɔ."
+  specimen_32: "Agbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko acɛwo gomɛ; wo xɔnɔ susunywin ko jimɛnywi so esexwe. Wo ɖo a wɛ nɔvi ɖaɖa wowo nɔnɔwo gbɔ."
+  specimen_21: "Agbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko acɛwo gomɛ; wo xɔnɔ susunywin ko jimɛnywi so esexwe. Wo ɖo a wɛ nɔvi ɖaɖa wowo nɔnɔwo gbɔ.\nAgbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko acɛwo gomɛ; wo xɔnɔ susunywin ko jimɛnywi so esexwe. Wo ɖo a wɛ nɔvi ɖaɖa wowo nɔnɔwo gbɔ."
+  specimen_16: "Agbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko acɛwo gomɛ; wo xɔnɔ susunywin ko jimɛnywi so esexwe. Wo ɖo a wɛ nɔvi ɖaɖa wowo nɔnɔwo gbɔ.\nAgbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko acɛwo gomɛ; wo xɔnɔ susunywin ko jimɛnywi so esexwe. Wo ɖo a wɛ nɔvi ɖaɖa wowo nɔnɔwo gbɔ.\nAgbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko acɛwo gomɛ; wo xɔnɔ susunywin ko jimɛnywi so esexwe. Wo ɖo a wɛ nɔvi ɖaɖa wowo nɔnɔwo gbɔ.\nAgbetɔwo pleŋu vanɔ gbɛmɛ ko vovoɖeka gbeswɛgbeswɛ, sɔto amɛnyinyi ko acɛwo gomɛ; wo xɔnɔ susunywin ko jimɛnywi so esexwe. Wo ɖo a wɛ nɔvi ɖaɖa wowo nɔnɔwo gbɔ."
+}
+source: "Virginia Beavon-Ham, Emile Ega, Lire et écrire l'ajagbe (Guide pratique pour ceux qui savent lire le français), 2007"
+source: "Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008"
+source: "Eric A. Morley, A Grammar of Ajagbe, 2010"

@@ -1,0 +1,10 @@
+id: "bqj_Latn"
+language: "bqj"
+script: "Latn"
+name: "Bandial"
+population: 13000
+region: "SN"
+exemplar_chars {
+  base: "a A á Á b B c C ĉ Ĉ d D e E é É f F g G h H i I í Í j J k K l L m M n N ñ Ñ ŋ Ŋ o O ó Ó p P ᵽ Ᵽ r R s S t T u U ú Ú v V w W y Y"
+  marks: "◌́ ◌̂ ◌̃"
+}

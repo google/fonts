@@ -1,0 +1,11 @@
+id: "rng_Latn"
+language: "rng"
+script: "Latn"
+name: "Ronga"
+population: 1023338
+region: "MZ"
+exemplar_chars {
+  base: "a A à À á Á b B {b’} {B’} {bv} {BV} {bz} {BZ} c C d D {d’} {D’} {dl} {DL} {dz} {DZ} {dr} {DR} e E è È é É f F g G {gq} {GQ} h H {hl} {HL} i I ì Ì í Í j J k K l L {lh} {LH} m M n N {n’} {N’} {n’q} {N’Q} {ny} {NY} o O ò Ò ó Ó p P {pf} {PF} {ps} {PS} q Q r R s S {sv} {SV} t T {tl} {TL} {tr} {TR} {ts} {TS} u U ù Ù ú Ú v V {vh} {VH} w W x X {xj} {XJ} y Y z Z {zv} {ZV}"
+  punctuation: "- – — , ; : ! ? . … \' ’ \" “ ” « » ( ) [ ] @ * / #"
+}
+source: "Armindo Ngunga & Osvaldo G. Faquir, Padronização da ortografia de línguas moçambicanas: relatório do III seminário, Maputo: Centro de Estudos Africanos (CEA) - UEM, 2011"

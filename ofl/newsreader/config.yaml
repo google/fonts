@@ -1,0 +1,6 @@
+buildVariable: true
+sources:
+  - sources/NewsreaderVF-upright.designspace
+  - sources/NewsreaderVF-italics.designspace
+  - sources/NewsreaderStatic-upright.designspace
+  - sources/NewsreaderStatic-italics.designspace

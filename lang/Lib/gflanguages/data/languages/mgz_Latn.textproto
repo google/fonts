@@ -1,0 +1,16 @@
+id: "mgz_Latn"
+language: "mgz"
+script: "Latn"
+name: "Mbugwe"
+autonym: "Keemboowɛ"
+population: 50000
+region: "TZ"
+exemplar_chars {
+  base: "A a {AA} {aa} B b {CH} {ch} D d E e {EE} {ee} Ɛ ɛ {ƐƐ} {ɛɛ} F f G g H h I i {II} {ii} J j K k L l M m N n {NG'} {ng'} {NY} {ny} O o {OO} {oo} Ɔ ɔ {ƆƆ} {ɔɔ} P p R r S s {SH} {sh} T t U u {UU} {uu} V v W w Y y ˆ Á á Ä ä É é Ë ë {Ɛ́} {ɛ́} {Ɛ̈} {ɛ̈} Ó ó Ö ö {Ɔ̈} {ɔ̈}"
+  marks: "◌́ ◌̈ ◌̃ ◌̄"
+  auxiliary: "Ā ā Ã ã Ē ē Ẽ ẽ Ō ō Õ õ"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & # ^"
+}
+note: "^ or ˆ is used before verbs to mark present or past tense in contrast with future tense. The Bible translation uses tilde and macron instead of acute and dieresis, but does use dieresis on ɛ."
+source: "Maandishi ya Kimbugwe, SIL, 2020"
+

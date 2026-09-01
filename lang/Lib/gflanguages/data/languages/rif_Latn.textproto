@@ -1,0 +1,17 @@
+id: "rif_Latn"
+language: "rif"
+script: "Latn"
+name: "Riffian (Latin)"
+population: 1949888
+region: "MA"
+region: "NL"
+region: "FR"
+region: "ES"
+region: "DE"
+region: "BE"
+exemplar_chars {
+    base: "a A b B c C č Č d D ḍ Ḍ e E ɛ Ɛ f F g G ǧ Ǧ ɣ Ɣ h H ḥ Ḥ i I j J k K l L m M n N q Q r R ṛ Ṛ s S ṣ Ṣ t T ṭ Ṭ u U w W x X y Y z Z ẓ Ẓ"
+    auxiliary: "ḏ Ḏ ƹ Ƹ ȓ Ȓ"
+    marks: "◌̑ ◌̣ ◌̱"
+}
+note: "Riffian (Latin) Bible translation and other religious material, like Awar n Arebbi, uses ḏ ƹ ȓ. Some documents use the Greek γ Γ or their shapes for ɣ."

@@ -1,0 +1,25 @@
+id: "bfa_Latn"
+language: "bfa"
+script: "Latn"
+name: "Bari"
+region: "SS"
+population: 865000
+exemplar_chars {
+  base: "a A b B {ʼb} {ʼB} d D {ʼd} {ʼD} e E g G j J i I y Y {ʼy} {ʼY} k K l L m M n N ŋ Ŋ {ny} {NY} o O ö Ö p P r R s S t T u U w W"
+}
+sample_text {
+  masthead_full: "ŊŋUu"
+  masthead_partial: "Tt"
+  styles: "Ŋutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi"
+  tester: "Ŋutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki"
+  poster_sm: "Ŋutu liŋ a"
+  poster_md: "Ŋutu liŋ"
+  poster_lg: "Ŋutu"
+  specimen_48: "Ŋutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko"
+  specimen_36: "Ŋutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok."
+  specimen_32: "Ŋutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok."
+  specimen_21: "Ŋutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok.\nŊutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok.\nŊutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok."
+  specimen_16: "Ŋutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok.\nŊutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok.\nŊutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok.\nŊutu liŋ a yuŋwe kana, jojo i to’diri ko ’dekesi ko ti se tokitaki ko ’börik ko mulökötyo lo toluŋaseran. Se a ’doka ko denet na kulya na’but ko narok."
+}
+source: "Samuel Jada, Jujumbu kendya ko Bari, YouTube, 2019"
+source: "Summer Institute of Linguistics, Room to Learn South Sudan: Roadmap for Early Grade Literacy Instruction in Four National Languages and a Transition to English Language Literacy in South Sudan, Winrock International, 2016"

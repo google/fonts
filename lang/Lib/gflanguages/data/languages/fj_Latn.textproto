@@ -1,0 +1,24 @@
+id: "fj_Latn"
+language: "fj"
+script: "Latn"
+name: "Fijian"
+autonym: "Vakaviti"
+population: 365029
+region: "FJ"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "EeRr"
+  masthead_partial: "Aa"
+  styles: "Ni yavu ni galala, lewa dodonu kei na sautu"
+  tester: "Ni na tubu na itovo vakadomobula e sokanu kina na lewaeloma ni"
+  poster_sm: "vakawaleni"
+  poster_md: "Ni dodonu"
+  poster_lg: "Era"
+  specimen_48: "Nira sa vakadeitaka na lewe ni Matabose Levu kei Vuravura ena"
+  specimen_36: "Ni rui bibi me matata vinaka vei keda kece na dodonu kei na galala oqo me vakayacori rawa kina na vosa ni yalayala oqo,"
+  specimen_32: "E dodonu ni tamata kece me lewe ni itikotiko e tuvanaki maqosa ena nona vanua se vanua tani me muri kina vakavinaka na dodonu kei na galala e virikotori ena Lawa oqo."
+  specimen_21: "Me kua ni vakadewa e dua na ka ena Lawa Raraba oqo me nanuma kina e dua na Matanitu, ilawalawa, se tamata ni solia na dodonu me vakaitavi se cakava e dua na ka me vakaleqa kina na dodonu kei na galala era virikotori e ke.\nNi yavu ni galala, lewa dodonu kei na sautu ena vuravura na noda vakadinata ni dodonu mera dokai mera raici tale ga vakatautauvata na lewe kece ga ni vuvale kawatamata,"
+  specimen_16: "Ni yavu ni galala, lewa dodonu kei na sautu ena vuravura na noda vakadinata ni dodonu mera dokai mera raici tale ga vakatautauvata na lewe kece ga ni vuvale kawatamata,\nNi na tubu na itovo vakadomobula e sokanu kina na lewaeloma ni kawatamata ke\nvakawaleni qai beci na dodonu ni kawatamata kei na kena vakatakilai ni ka levu duadua era nuitaka tu na lewenivanua na vuravura era na marautaka kina na tamata yadua na galala ni vosa kei na galala ni vakabauta vaka kina na galala mai na rere kei na leqa,\nNi dodonu me taqomaki vinaka ena lawa na dodonu ni lewenivanua, me kua kina ni vakasaurarataki na tamata ena nodra vaqara bula mera saqata na veiliutaki e voravora qai ca,"
+}

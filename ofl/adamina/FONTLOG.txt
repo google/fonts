@@ -1,0 +1,55 @@
+FONTLOG for the Adamina font
+
+This file provides detailed information on the Adamina font Software.
+
+This information should be distributed along with the 
+Adamina fonts and any derivative works.
+
+Basic Font Information
+
+Adamina is a typeface designed for text setting in small sizes. For this purpose the x-height is increased and contrast lowered. Proportions are transitional and compact. Refined design features like one-sided flaring and asymmetrical serifs
+are there to provide a pleasant reading experience.
+
+Designed by Alexei Vanyashin for Cyreal.
+
+Adamina is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a (at) cyreal.org
+
+There are three .vfb Source files:
+
+1. Adamina-Regular.vfb Original Source files with contour overlaps
+
+2. Adamina-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. Adamina-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+ChangeLog
+
+20 January 2016 (v.1.012) (Alexei Vanyashin)
+— Updated to fix GPOS error detected by ot-sanitise
+
+9 September 2011 (v.1.010) (Alexei Vanyashin)
+— Minor design adjustments: reworked /r/ and /s/
+— Fully Hinted
+
+12 May 2013 (v.1.011) (Alexei Vanyashin)
+— Extended /emdash/ glyph
+
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Alexei Vanyashin
+E: a (at) cyreal.org
+W: www.cyreal.org
+D: Designer and Mastering

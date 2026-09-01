@@ -1,0 +1,13 @@
+id: "kpe_Latn"
+language: "kpe"
+script: "Latn"
+name: "Kpelle"
+population: 1186303
+region: "GN"
+region: "LR"
+exemplar_chars {
+  base: "a A à À á Á â Â ã Ã b B ɓ Ɓ d D e E è È é É ê Ê ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̃} {Ɛ̃} f F g G {gb} {GB} ɣ Ɣ i I ì Ì í Í î Î ĩ Ĩ k K {kp} {KP} l L m M n N {ny} {NY} ŋ Ŋ o O ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̃} {Ɔ̃} p P r R s S t T u U ù Ù ú Ú û Û ũ Ũ v V w W y Y"
+  marks: "◌́ ◌̀ ◌̂ ◌̃"
+  auxiliary: "c C h H j J q Q x X z Z"
+}
+source: "Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 28"

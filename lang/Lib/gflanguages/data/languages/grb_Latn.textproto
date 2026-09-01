@@ -1,0 +1,19 @@
+id: "grb_Latn"
+language: "grb"
+script: "Latn"
+name: "Grebo"
+population: 495000
+region: "CI"
+region: "LR"
+exemplar_chars {
+  base: "a A à À ä Ä ǎ Ǎ b B {ch} {CH} d D e E è È ë Ë ě Ě ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ̈} {Ɛ̈} {ɛ̌} {Ɛ̌} f F {gb} {GB} h H i I ì Ì ï Ï ǐ Ǐ j J k K {kp} {KP} l L m M n N {ngm} {NGM} {ny} {NY} o O ò Ò ö Ö ǒ Ǒ ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ̈} {Ɔ̈} {ɔ̌} {Ɔ̌} p P s S t T u U ù Ù ü Ü ǔ Ǔ w W"
+  marks: "◌̀ ◌̈ ◌̌"
+  auxiliary: "ḛ Ḛ ŋ Ŋ {o̰} {O̰}"
+}
+source: "Matthew Carlton, Orthography construction, 1984"
+source: "Matthew Carlton, Grebo dictionary, 1985"
+source: "Grebo Literacy Association, Bä chen klépo Win slélɛ̀ lkee chlechlɛ̀ = Let’s learn how to read and write Grebo, Monrovia, Liberia Bible Translation and Literacy Organization (LIBTRALO) & Grebo Literacy Association, 1997"
+source: "Rhonda L. Hartell, Alphabets de langues africaines, Dakar, BREDA (UNESCO) and Summer Institute of Linguistics, 1993"
+source: "Gordon Innes, A Grebo–English dictionary, Cambridge University Press, 1967"
+source: "BSL, Nyesoaa Kuo Win Jajle = Grebo New Testament, Bible Society in Liberia (BSL), 1989"
+note: "Hartell 1993 shows the alphabet used in Carlton 1984 and Carlton 1985.\nCarlton 1984 doesn’t use ɛ ɔ and marks extra-high and low tones with * and : before syllables.\nInnes 1967 uses ɛ ɔ and also ḛ ŋ o̰.\nGLA & LIBTRALO 1997 use grave, caron and diaresis."

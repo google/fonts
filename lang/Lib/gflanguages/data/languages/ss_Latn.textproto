@@ -1,0 +1,26 @@
+id: "ss_Latn"
+language: "ss"
+script: "Latn"
+name: "Swati"
+autonym: "Siswati"
+population: 2212379
+region: "LS"
+region: "SZ"
+region: "ZA"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "BbOo"
+  masthead_partial: "Nn"
+  styles: "kwatiswa ngekubakhona ngekwemvelo kwesitfunti"
+  tester: ", kunganaki nekwedzelela emalungelo ebuntfu kugcine sekudale tento"
+  poster_sm: "Nanjengoba"
+  poster_md: "kwekutsi"
+  poster_lg: "Bonkhe"
+  specimen_48: "bantfu bakaMhlabuhlangene kulencwadzi yetivumelwano (i-Charter)"
+  specimen_36: "Wonkhe umuntfu unelilungelo lekutsi abonakale kuyo yonkhe indzawo atsatfwe njengentfo lehamba embili kunemtsetfo."
+  specimen_32: "Kute namunye umuntfu longaphatfwa ngekuvisa buhlungu noma aphatfwe ngelunya, noma ngendlela lengenabo buntfu noma ngekumehlisa sitfunti noma ngekumjezisa."
+  specimen_21: "Njengoba\nkwatiswa ngekubakhona ngekwemvelo kwesitfunti sebuntfu, nekulingana lokufananako, nangekuba nemalungelo langenakwemukwa noma langenakutsatfwa kulelo nalelo lilunga lelingumndeni webuntfu, konkhe loku-ke kungumgogodla noma kusisekelo senkhululeko, sekwenta lokulungile nesekuba nekuthula emhlabeni wonkhe jikelele,"
+  specimen_16: "Njengoba\nkwatiswa ngekubakhona ngekwemvelo kwesitfunti sebuntfu, nekulingana lokufananako, nangekuba nemalungelo langenakwemukwa noma langenakutsatfwa kulelo nalelo lilunga lelingumndeni webuntfu, konkhe loku-ke kungumgogodla noma kusisekelo senkhululeko, sekwenta lokulungile nesekuba nekuthula emhlabeni wonkhe jikelele,\nNanjengoba\n, kunganaki nekwedzelela emalungelo ebuntfu kugcine sekudale tento letinelunya nebulwane kwabuye futsi kwatfukutselisa nembeza wesintfu sonkhe, kwashabalalisa sifiso nekulobitela kwekutsi etikhatsini letitako sintfu sitawutfokotela kuba nenkhululeko yekukhuluma, nekukholwa, nenkhululeko yekuhlala ngaphandle kokwesaba nekweswela, konkhe loku-ke sekumenyetelwe njengetifiso letimcoka kabi eluntfwini,"
+}

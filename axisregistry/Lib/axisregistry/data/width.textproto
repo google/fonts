@@ -1,0 +1,55 @@
+# wdth based on https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_wdth
+tag: "wdth"
+display_name: "Width"
+min_value: 25
+max_value: 200
+default_value: 100
+precision: -1
+# Instance values based on https://docs.microsoft.com/en-us/typography/opentype/spec/os2#uswidthclass
+fallback {
+  name: "SuperCondensed"
+  value: 25
+}
+fallback {
+  name: "UltraCondensed"
+  value: 50
+}
+fallback {
+  name: "ExtraCondensed"
+  value: 62.5
+}
+fallback {
+  name: "Condensed"
+  value: 75
+}
+fallback {
+  name: "SemiCondensed"
+  value: 87.5
+}
+fallback {
+  name: "Normal"
+  value: 100
+}
+fallback {
+  name: "SemiExpanded"
+  value: 112.5
+}
+fallback {
+  name: "Expanded"
+  value: 125
+}
+fallback {
+  name: "ExtraExpanded"
+  value: 150
+}
+fallback {
+  name: "UltraExpanded"
+  value: 200
+}
+fallback_only: false
+illustration_url: "width.svg"
+description:
+  "Adjust the style from narrower to wider, by varying the proportions of"
+  " counters, strokes, spacing and kerning, and other aspects of the type."
+  " This typically changes the typographic color in a subtle way, and so"
+  " may be used in conjunction with Weight and Grade axes."

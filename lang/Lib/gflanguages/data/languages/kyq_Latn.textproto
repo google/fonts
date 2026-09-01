@@ -1,0 +1,13 @@
+id: "kyq_Latn"
+language: "kyq"
+script: "Latn"
+name: "Kenga"
+population: 125000
+region: "TD"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E ɛ Ɛ g G i I j J ƴ Ƴ k K l L m M n N ŋ Ŋ {n̰} {N̰} o O ɔ Ɔ p P r R s S t T u U w W y Y z Z"
+  auxiliary: "f F h H q Q v V x X ə Ə á Á é É {ə́} {Ə́} {ɛ́} {Ɛ́} í Í ḿ Ḿ ń Ń {ŋ́} {Ŋ́} {ń̰} {Ń̰} ó Ó {ɔ́} {Ɔ́} ŕ Ŕ ú Ú ý Ý à À è È {ə̀} {Ə̀} {ɛ̀} {Ɛ̀} ì Ì {m̀} {M̀} ǹ Ǹ {ŋ̀} {Ŋ̀} {ǹ̰} {Ǹ̰} ò Ò {ɔ̀} {Ɔ̀} {r̀} {R̀} ù Ù ỳ Ỳ ā Ā ē Ē {ə̄} {Ə̄} {ɛ̄} {Ɛ̄} ī Ī {m̄} {M̄} {n̄} {N̄} {ŋ̄} {Ŋ̄} {n̰̄} {N̰̄} ō Ō {ɔ̄} {Ɔ̄} {r̄} {R̄} ū Ū ȳ Ȳ"
+  marks: "◌̰ ◌́ ◌̀ ◌̄"
+}
+source: "Giijn̰ Taar Cɛŋɛ: Dictionnaire kenga-français, N’Djaména, Association pour la Promotion de la Langue Kenga (APLK), 2023"
+source: "Pierre Palayer, Adoum Goudja Kodngargue & Charles Vandame, Dictionnaire kenga (Tchad), Peeters, 2004"

@@ -1,0 +1,19 @@
+id: "mxi_Latn"
+language: "mxi"
+script: "Latn"
+name: "Mozarabic"
+historical: true
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Ss"
+  styles: "Totos les esseres humanos nascent libberos"
+  tester: "Totos les esseres humanos nascent libberos et eguales in dignitate"
+  poster_sm: "Totos les"
+  poster_md: "Totos les"
+  poster_lg: "Totos"
+  specimen_48: "Totos les esseres humanos nascent libberos et eguales in dignitate e"
+  specimen_36: "Totos les esseres humanos nascent libberos et eguales in dignitate e dretos e, dotatos commo stant de racione e conscientia, devent comportarse in germanitate les unos con les altros."
+  specimen_32: "Totos les esseres humanos nascent libberos et eguales in dignitate e dretos e, dotatos commo stant de racione e conscientia, devent comportarse in germanitate les unos con les altros."
+  specimen_21: "Totos les esseres humanos nascent libberos et eguales in dignitate e dretos e, dotatos commo stant de racione e conscientia, devent comportarse in germanitate les unos con les altros.\nTotos les esseres humanos nascent libberos et eguales in dignitate e dretos e, dotatos commo stant de racione e conscientia, devent comportarse in germanitate les unos con les altros."
+  specimen_16: "Totos les esseres humanos nascent libberos et eguales in dignitate e dretos e, dotatos commo stant de racione e conscientia, devent comportarse in germanitate les unos con les altros.\nTotos les esseres humanos nascent libberos et eguales in dignitate e dretos e, dotatos commo stant de racione e conscientia, devent comportarse in germanitate les unos con les altros.\nTotos les esseres humanos nascent libberos et eguales in dignitate e dretos e, dotatos commo stant de racione e conscientia, devent comportarse in germanitate les unos con les altros.\nTotos les esseres humanos nascent libberos et eguales in dignitate e dretos e, dotatos commo stant de racione e conscientia, devent comportarse in germanitate les unos con les altros."
+}

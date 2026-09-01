@@ -1,0 +1,16 @@
+# MORF based on https://github.com/Vectro-Type-Foundry/kablammo 
+tag: "MORF"
+display_name: "Morph"
+min_value: 0
+default_value: 0
+max_value: 60
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Letterforms morph: Changing in unconventional ways,"
+  " that don't alter other attributes, like width or weight."
+  " The range from 0 to 60 can be understood as seconds."

@@ -1,0 +1,14 @@
+id: "blo_Latn"
+language: "blo"
+script: "Latn"
+name: "Anii"
+population: 49000
+region: "BJ"
+region: "GH"
+region: "TG"
+exemplar_chars {
+  base: "a A á Á à À â Â ǝ Ǝ {ǝ́} {Ǝ́} {ǝ̀} {Ǝ̀} {ǝ̂} {Ǝ̂} b B c C ɖ Ɖ e E é É è È ê Ê ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̂} {Ɛ̂} f F g G h H i I í Í ì Ì î Î ɩ Ɩ {ɩ́} {Ɩ́} {ɩ̀} {Ɩ̀} {ɩ̂} {Ɩ̂} j J k K l L m M n N ŋ Ŋ o O ó Ó ò Ò ô Ô ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̂} {Ɔ̂} p P r R s S t T u U ú Ú ù Ù û Û ʊ Ʊ {ʊ́} {Ʊ́} {ʊ̀} {Ʊ̀} {ʊ̂} {Ʊ̂} w W y Y"
+  auxiliary: "d D q Q v V x X z Z"
+  marks: "◌̀ ◌́ ◌̂"
+}
+source: "Stefanie Zaske & Hakimou Atti Kalam, Écriture de la langue anii, vol. 4 “Orthographe standardisée”, Bassila: SIL, 2014"

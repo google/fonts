@@ -1,0 +1,12 @@
+id: "gah_Latn"
+language: "gah"
+script: "Latn"
+name: "Alekano"
+autonym: "Gahuku"
+population: 25000
+region: "PG"
+exemplar_chars {
+  base: "A E G H I K L M N O P R S T U V Z a e g h i k l m n o p r s t u v z"
+}
+source: "Ellis W. Deibler, Dictionaries of Alekano-English and English-Alekano, Ukarumpa: Summer Institute of Linguistics, 2008"
+source: "Wikipedia"

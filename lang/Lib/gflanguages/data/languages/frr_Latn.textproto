@@ -1,0 +1,20 @@
+id: "frr_Latn"
+language: "frr"
+script: "Latn"
+name: "Northern Frisian"
+population: 9619
+region: "DE"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "Ale mensken san frei, likwäärtig an mä dönsalew"
+  tester: "Ale mensken san frei, likwäärtig an mä dönsalew rochten bäären."
+  poster_sm: "Ale mensken"
+  poster_md: "Ale mensken"
+  poster_lg: "Ale"
+  specimen_48: "Ale mensken san frei, likwäärtig an mä dönsalew rochten"
+  specimen_36: "Ale mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed."
+  specimen_32: "Ale mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed."
+  specimen_21: "Ale mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed.\nAle mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed.\nAle mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed."
+  specimen_16: "Ale mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed.\nAle mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed.\nAle mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed.\nAle mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed.\nAle mensken san frei, likwäärtig an mä dönsalew rochten bäären. Jo haa ferstant an geweeten mäfingen an skul enöler üüs breler uunjintreed."
+}

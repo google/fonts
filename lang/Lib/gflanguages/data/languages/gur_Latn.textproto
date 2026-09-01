@@ -1,0 +1,14 @@
+id: "gur_Latn"
+language: "gur"
+script: "Latn"
+name: "Frafra"
+autonym: "ninkãrɛ"
+population: 1026907
+region: "GH"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z Ã Ẽ {Ɛ̃} Ĩ Õ {Ɔ̃} Ũ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ v w y z ã ẽ {ɛ̃} ĩ õ {ɔ̃} ũ"
+  marks: "◌̃"
+}
+source: "Wikipedia"
+source: "https://www.webonary.org/ninkare"
+source: "https://frafra-ninkare.com"

@@ -1,0 +1,24 @@
+id: "nr_Latn"
+language: "nr"
+script: "Latn"
+name: "South Ndebele"
+autonym: "isiNdebele"
+population: 903417
+region: "ZA"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "AaBb"
+  masthead_partial: "Nn"
+  styles: "Loba isimilo lenhlonipho lamalungelo agcweleyo"
+  tester: "Loba ukunganaki lokungahloniphi amalungelo abantu kubangele izenzo"
+  poster_sm: "Loba ukuze"
+  poster_md: "Loba abantu"
+  poster_lg: "Abantu"
+  specimen_48: "Loba amazwe ami wodwa ezimisela uKumanyana laMazwe aManyaneyo"
+  specimen_36: "Lobanje ulwazi lwamalungelo blwenkululeko kuyinto eqakathekileyo, ukuze amalungelo lenkululeko kwaziwe,"
+  specimen_32: "Lesisivumelwano samalungelo oluntu silotshiwe ukuze umuntu lezigaba zabantu jikelele zigcine lesi sivumelwano engqondweni, yizizwe zonke lamazwe asabuswa ngamanye."
+  specimen_21: "Abantu bonke bazalwa bekhululekile njalo belingana kumalungelo abo. Balesipho sikanembeza, ngakho bamele baphathane ngomoya otshengisa ubuhlobo lobunye.\nWonke umuntu ulelungelo lokuthola inkululeko lamalungelo alotshwe kulesi sivumelwano hngokupheleleyo kunganakwa ubuhlobo, umbala, ukuthi uyindoda kumbe ngumfazi, ulimi, ukholo, ezimayelana lombangazwe, lenotho kanye lasipi lasiphi isimo phakathi kwabantu."
+  specimen_16: "Njalo kakusoze kube lomahluko ekuphathweni kwabantu emthethweni loba ngowaliphi ilizwe loba yisiphi lesimo selizwe lapho umuntu avela khona - lanxa lelolizwe lizibusa kumbe libuswa ngelinye.\nWonke umuntu ulelungelo lempilo, lelenkululeko lelenhlalakahle.\nKakho umuntu ozakwenziwa isigqili, kumbe isithunjwa; ubugqili lokuthengisa izichaka kuzanqatshelwa ngazo zonke indlela.\nAkula muntu ozahlutshwa ahlukuluzwe loba aphathwe ngesihluku langendlela eyangisayo kumbe elocuku.\nWonke umuntu ulelungelo emthethweni lokuphathwa njengomuntu.\nBonke abantu bayalingana phambi komthetho, kungekho bandlululo. Abantu bonke bayavikelwa ekubandlululweni. Ubandlululo luvunyelwa yisivumelwano lesi njalo akuvunyelwa ukubasela ubandlululo."
+}

@@ -1,0 +1,23 @@
+id: "nzi_Latn"
+language: "nzi"
+script: "Latn"
+name: "Nzima"
+population: 293402
+region: "GH"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i k l m n o ɔ p r s t u v w y z"
+}
+sample_text {
+  masthead_full: "MmEe"
+  masthead_partial: "Nn"
+  styles: "Wɔ mekɛ ala mɔɔ Maanle Maanle mɔɔ wɔ Eku"
+  tester: "Wɔ mekɛ ala mɔɔ menli ɛmbu sonla nwo adenlenyianlɛ ne mɔ bie"
+  poster_sm: "Wɔ mekɛ ala"
+  poster_md: "MAAMGBOLE"
+  poster_lg: "Menli"
+  specimen_48: "le debie ko mɔɔ yelie yedo nu yemaa awie biala nee Maanle biala,"
+  specimen_36: "Ɔnle kɛ bɛkile awie biala nyane anzɛɛ bɛyɛ ye atisesebɛ, amumuyɛ anzɛɛ bɛgua ɔ nyunlu aze anzɛɛ bɛtwi ɔ nyunlu."
+  specimen_32: "Sonla biala lɛ adenle kɛ saa awie yɛ debie mɔɔ tia anwoadenlenyianlɛ ne mɔ mɔɔ maamulɛ nwo mɛla anzɛɛ mɛla ɛva ɛmaa ye la a, ɔwɔ kɛ kɔɔto ne mɔ pepɛ die ye."
+  specimen_21: "Ɔnle kɛ bɛkye sonla, bɛfa sonla bɛsie anzɛɛ bɛye sonla bɛfi maanle ne anu wɔ mekɛ mɔɔ ɔtɛfonle mɛla anzɛɛ mɛla ɛmmaa adenle la.\nWɔ awie biala adenlenyianlɛ nee ye gyima ne mɔ anwo adwenlevalɛ nwo anzɛɛ saa bɛka kɛ awie biala ɛyɛ ɛtane a ɔwɔ kɛ kɔɔto mɔɔ di ɔ ti anwo na ɔnli mɔguazo la di ye edwɛkɛ wɔ bagua nu."
+  specimen_16: "Ɔnle kɛ menli fa bɛ nloa wulowula awie feabo, ye abusua, ye sua nu edwɛkɛ nu anzɛɛ ɔnle kɛ bɛkenga ye ahɛlata anzɛɛ bɛbɔ ye anyiemgba bɛsɛkye ye anyunlunyia. Sonla zɛhae lɛ adenle maa mɛla ne pepɛ die ye anzɛɛ bɔ ɔ nwo bane wɔ zɛhae akpɔsemadi ɛbɛla ne mɔ anwo.\nSonla biala lɛ adenle kɛ ɔdwenle adwenle biala na ɔsonle debie biala mɔɔ ɔkulo la, eza ɔlɛ adenle ɔkakyi ye Nyamenlezonlenlɛ ne anzɛɛ ye diedi ne nee fanwodi, yɛɛ akee noko ɔlɛ ɔ nwo adenle kɛ ɔ ngome anzɛɛ ɔ nee menli wɔ bagua anzɛɛ fealera nu ɔkile yɛ asɔne anzɛɛ ye diedi ne wɔ ngilehilelɛ, nyɛleɛ, ɛzonlenlɛ nee boɛnleanlɛ nu."
+}

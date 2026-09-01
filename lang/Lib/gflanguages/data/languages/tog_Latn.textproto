@@ -1,0 +1,11 @@
+id: "tog_Latn"
+language: "tog"
+script: "Latn"
+name: "Nyasa Tonga"
+population: 207726
+region: "MW"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I k K l L m M n N o O p P r R s S t T u U v V w W ŵ Ŵ y Y z Z"
+  auxiliary: "j J q Q x X"
+}
+source: "Centre for Language Studies, Language mapping survey of Northern Malawi, University of Malawi, Centre for Language Studies, 2006"

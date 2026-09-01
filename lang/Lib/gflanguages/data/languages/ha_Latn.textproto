@@ -1,0 +1,33 @@
+id: "ha_Latn"
+language: "ha"
+script: "Latn"
+name: "Hausa"
+autonym: "Hausa"
+population: 37412649
+region: "GH"
+region: "NE"
+region: "NG"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E f F g G h H i I j J k K ƙ Ƙ l L m M n N o O r R s S {sh} {SH} t T {ts} {TS} u U w W y Y ƴ Ƴ z Z ʼ"
+  auxiliary: "á Á à À â Â é É è È ê Ê í Í ì Ì î Î ó Ó ò Ò ô Ô p P q Q {r̃} {R̃} ú Ú ù Ù û Û v V x X"
+  marks: "◌̃ ◌̀ ◌́ ◌̂"
+  punctuation: "- , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { }"
+  index: "A B Ɓ C D Ɗ E F G H I J K Ƙ L M N O R S T U W Y Ƴ Z"
+}
+sample_text {
+  masthead_full: "DdUu"
+  masthead_partial: "Kk"
+  styles: "Duk ’yan’adan ana haihuwarsu ne a matsayin"
+  tester: "Duk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun ’ya’ya, kuma"
+  poster_sm: "Duk ’yan’adan"
+  poster_md: "Duk ’yan’adan"
+  poster_lg: "Duk"
+  specimen_48: "Duk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun"
+  specimen_36: "Duk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun ’ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ’yan’uwantaka a tsakani."
+  specimen_32: "Duk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun ’ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ’yan’uwantaka a tsakani."
+  specimen_21: "Duk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun ’ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ’yan’uwantaka a tsakani.\nDuk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun ’ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ’yan’uwantaka a tsakani."
+  specimen_16: "Duk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun ’ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ’yan’uwantaka a tsakani.\nDuk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun ’ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ’yan’uwantaka a tsakani.\nDuk ’yan’adan ana haihuwarsu ne a matsayin ’yantattun ’ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ’yan’uwantaka a tsakani."
+}
+source: "Malam M. Garba, \"Hausa Orthography\", in Ayo Bamgbose (dir.), Orthographies of Nigerian languages: manual I, Lagos, Federal Ministry of Education, National Language Centre, 1982"
+source: "République du Niger, Ministère de l’Éducation nationale, arrêté no 0212/MEN/SPCNRE du 19 octobre 1999 modifiant et complétant l’arrêté no 01/MEN/MJSC/MESR/M.INF/MDR/MI du 15 mars 1981 relatif à l’orthographe de la langue hausa, 1999"
+note: "Garba 1982 gives y’ as a letter but in practice ’y or ƴ are used in Nigeria. Note that ƴ is the official letter in Niger."

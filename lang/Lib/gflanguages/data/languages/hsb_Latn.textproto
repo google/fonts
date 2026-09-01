@@ -1,0 +1,29 @@
+id: "hsb_Latn"
+language: "hsb"
+script: "Latn"
+name: "Upper Sorbian"
+autonym: "Hornjoserbšćina"
+population: 12825
+region: "DE"
+exemplar_chars {
+  base: "A B C Č Ć D {DŹ} E Ě F G H {CH} I J K Ł L M N Ń O Ó P Q R Ř S Š T U V W X Y Z Ž a b c č ć d {dź} e ě f g h {ch} i j k ł l m n ń o ó p q r ř s š t u v w x y z ž"
+  auxiliary: "Á À Ă Â Å Ä Ã Ą Ā Æ Ç Ď Đ É È Ĕ Ê Ë Ė Ę Ē Ğ Í Ì Ĭ Î Ï İ Ī I Ĺ Ľ Ň Ñ Ò Ŏ Ô Ö Ő Ø Ō Œ Ŕ Ś Ş ẞ Ť Ú Ù Ŭ Û Ů Ü Ű Ū Ý Ÿ Ż Ź á à ă â å ä ã ą ā æ ç ď đ é è ĕ ê ë ė ę ē ğ í ì ĭ î ï ī ı ĺ ľ ň ñ ò ŏ ô ö ő ø ō œ ŕ ś ş ß ť ú ù ŭ û ů ü ű ū ý ÿ ż ź"
+  marks: "◌́ ◌̌"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ ‚ \" “ „ « » ( ) [ ] { } @ * / & #"
+  index: "A B C Č Ć D {DŹ} E F G H {CH} I J K Ł L M N O P Q R S Š T U V W X Y Z Ž"
+}
+sample_text {
+  masthead_full: "WwŠš"
+  masthead_partial: "Ii"
+  styles: "Dokelž twori płipóznaće wšěm čłonam čłowjeskeje"
+  tester: "dokelž stej njedopóznaće a znajechanje čłowječich prawow k aktam"
+  poster_sm: "dokelž su ludy"
+  poster_md: "dokelž su"
+  poster_lg: "Wšitcy"
+  specimen_48: "dokelž je zhromadne měnjenje wo tutych prawach a swobodach płewšo"
+  specimen_36: "Nichtó njesmě so podćisnyć ćwělowanju abo surowemu, nječłowjeskemu abo ponižowacemu wobchadźenju abo chłostanju."
+  specimen_32: "Dokelž twori płipóznaće wšěm čłonam čłowjeskeje swójby płisłušaceje dostojnosće a jich jenakich a njeparujomnych prawow zakład swobody, sprawnosće a měra w swěće,"
+  specimen_21: "Dokelž twori płipóznaće wšěm čłonam čłowjeskeje swójby płisłušaceje dostojnosće a jich jenakich a njeparujomnych prawow zakład swobody, sprawnosće a měra w swěće,\ndokelž stej njedopóznaće a znajechanje čłowječich prawow k aktam barbarstwa wjedłoj, kotrež su swědomje člowjestwa hłuboko zranili, a dokelž je so wutworjenje swěta, w kotrymž spožči so člowjekam, swobodnym wot stracha a nuzy, swoboda rěčenja a wěry, jako najwyše prócowanje čłowjestwa wozjewiło,"
+  specimen_16: "Dokelž twori płipóznaće wšěm čłonam čłowjeskeje swójby płisłušaceje dostojnosće a jich jenakich a njeparujomnych prawow zakład swobody, sprawnosće a měra w swěće,\ndokelž stej njedopóznaće a znajechanje čłowječich prawow k aktam barbarstwa wjedłoj, kotrež su swědomje člowjestwa hłuboko zranili, a dokelž je so wutworjenje swěta, w kotrymž spožči so člowjekam, swobodnym wot stracha a nuzy, swoboda rěčenja a wěry, jako najwyše prócowanje čłowjestwa wozjewiło,\ndokelž je bytostne, člowječe prawa z knjejstwom prawa škitać, zo njeby so čłowjek k zběžkej płećiwo tyranstwu a potłóčowanju jako poslednjemu srědkej nuzował,"
+}

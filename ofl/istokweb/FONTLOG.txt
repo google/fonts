@@ -1,0 +1,167 @@
+Istok is a new sans serif typeface. At present it has the four fonts with
+support for Latin and Cyrillic. Most glyphs are manually instructed
+using xgridfit but other ones are autoinstructed in fontforge.
+
+The fonts are distributed under the terms of Open Font License or GNU
+General Public License Version 3 with the following exception:
+
+As a special exception, if you create a document which uses this font,
+and embed this font or unaltered portions of this font into the
+document, this font does not by itself cause the resulting document to
+be covered by the GNU General Public License. This exception does not
+however invalidate any other reasons why the document might be covered
+by the GNU General Public License. If you modify this font, you may
+extend this exception to your version of the font, but you are not
+obligated to do so. If you do not wish to do so, delete this exception
+statement from your version.
+
+The font sources have only GNU General Public License Version 3.
+The sources and truetype fonts are available at
+http://code.google.com/p/istok/
+Tarballs are compressed with xz (http://tukaani.org/xz/).
+
+Build and install instructions
+==============================
+
+You need fontforge (http://fontforge.sourceforge.net/), TTX/FontTools
+(http://sourceforge.net/projects/fonttools/), xgridfit
+(http://xgridfit.sourceforge.net/ - version as of April 2010) and
+font-helpers (http://code.google.com/p/font-helpers/ ) in order to build
+the truetype fonts from the sources. Also you should have the GNU make and
+coreutils. At first you must unpack/copy the files from font-helpers into
+the directory where *.sfd files are located. Then type
+
+make
+
+and the truetype fonts will be produced. On systems with X.Org you may do
+
+make install
+
+as root to install the fonts system-wide (/usr/share/fonts/TTF). Otherwise
+copy the *.ttf files into the ~/.fonts/ directory. Then run fc-cache if you have
+fontconfig.
+
+The history of the font
+=======================
+
+The modified version of the CM Bright font was used for design of several
+letters as raw material, other charaters are designed from scratch.
+
+				Andrey V. Panov <panov@canopus.iacp.dvo.ru>
+
+2014-06-10 Andrey V. Panov
+	Added several mathematical symbols.
+	Added ruble sign.
+	Improved LaTeX support.
+	Version 1.0.2 is released.
+
+2012-09-20 Andrey V. Panov
+	Smoothed contours of "a".
+	Fixed an issue with rendering "four", Cyrillic ya.
+	Version 1.0.1 is released.
+
+2012-03-16 Andrey V. Panov
+	Added more smallcaps.
+	Added more extended Latin glyphs.
+	Manually instructed more characters (mostly extended Latin and Cyrillic).
+	Fixed several issues in manual instructions.
+	Version 1.0 is released.
+
+2011-06-23 Andrey V. Panov
+	Manually instructed several glyphs.
+	Changed Win and HHead OS/2 metrics.
+	Version 0.4.2 is released.
+
+2011-06-07 Andrey V. Panov
+	Added several Latin and Cyrillic extended glyphs, "yen" sign.
+	Added OFL version of the fonts.
+	Version 0.4.1 is released.
+
+2011-01-18 Andrey V. Panov
+	Added proportional and tabular oldstyle, superior figures to all the 
+	fonts.
+	Added more glyphs, mostly Latin and Cyrillic extended ones.
+	Added more vulgar fractions.
+	Added kerning in BoldItalic.
+	Version 0.4 is released.
+
+2010-10-26 Andrey V. Panov
+	All the fonts have manual instructions.
+	Added proportional and tabular oldstyle figures to Regular.
+	Added more glyphs, mostly Latin and Cyrillic extended ones.
+	Changed spacing of small capitals.
+	Version 0.3 is released.
+
+2010-04-29 Andrey V. Panov
+
+	Added Bold Italic font.
+	Regular font is mostly manually instructed.
+	The second beta version (0.2) is released.
+
+2009-08-14 Andrey V. Panov
+	
+	Tuned several kerning pairs.
+
+2009-08-09 Andrey V. Panov
+
+	Added "copyright" sign (U+A9), "cedilla", "Ccedilla", "ccedilla".
+	The first beta version (0.1) is released.
+
+2009-08-07 Andrey V. Panov
+
+	Added old style kerning ('kern' table).
+
+2009-07-31 Andrey V. Panov
+
+	Added kerning to basic Latin and Cyrillic in Italic.
+	Added kerning to small caps in Regular.
+
+2009-07-30 Andrey V. Panov
+
+	Added kerning to basic Latin and Cyrillic in Bold.
+	Changed design of several lowercase letters to more curly style in 
+	Italic. The previous variants are saved as stylistic set 01.
+
+2009-07-27 Andrey V. Panov
+
+	Added "fi" and "fl" ligatures.
+
+2009-07-18 Andrey V. Panov
+
+	Added kerning to basic Latin and Cyrillic in Regular.
+
+2009-07-17 Andrey V. Panov
+
+	Added small caps to Regular.
+
+2009-07-01 Andrey V. Panov
+
+	Added substitutions for tabular numbers and signs.
+
+2009-06-29 Andrey V. Panov
+
+	Added Bold font.
+
+2009-06-23 Andrey V. Panov
+
+	Manually instructed U+414, U+41B, U+434, U+43B, U+2116 in Regular.
+
+2009-06-22 Andrey V. Panov
+
+	Manually instructed "W", "w" in Regular.
+
+2009-06-10 Andrey V. Panov
+
+	Manually instructed glyphs with diagonals excepting "W", "w" in Regular.
+
+2009-01-09 Andrey V. Panov
+
+	Added Italic font.
+
+2008-12-21 Andrey V. Panov
+
+	Enlarged x-height by 10 em units.
+
+2008-12-02 Andrey V. Panov
+
+	Finished more or less basic set of glyphs in Regular font.

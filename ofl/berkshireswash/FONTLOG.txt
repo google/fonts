@@ -1,0 +1,44 @@
+FONTLOG for the Berkshire Swash fonts
+
+This file provides detailed information on the Berkshire Swash font
+Software.
+
+This information should be distributed along with the Berkshire Swash
+fonts and any derivative works.
+
+Basic Font Information
+
+Berkshire Swash is an alluring semi-sweet typestyle with a bold yet
+feminine flair to it.
+
+Designed by Astigmatic (AOETI).
+
+Berkshire Swash is a Unicode typeface family that supports languages
+that use the Latin script and its variants, and could be expanded
+to support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are three Source files:
+
+1. BerkshireSwash-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+2. BerkshireSwash-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. BerkshireSwash-Regular.vfb Original Source files with contour overlaps
+
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

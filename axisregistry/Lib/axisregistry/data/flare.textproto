@@ -1,0 +1,14 @@
+tag: "FLAR"
+display_name: "Flare"
+min_value: 0
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description: 
+  "As the flare axis grows, the stem terminals go from"
+  " straight (0%) to develop a swelling (100%)."

@@ -1,0 +1,22 @@
+id: "toj_Latn"
+language: "toj"
+script: "Latn"
+name: "Tojolabal"
+region: "MX"
+exemplar_chars {
+  base: "A B C D E G I J K L M N O P R S T U W X Y Ꞌ a b c d e g i j k l m n o p r s t u w x y ꞌ"
+}
+sample_text {
+  masthead_full: "SsPp"
+  masthead_partial: "Ee"
+  styles: "Spetsanal ja swinkil ja lu’um k’inali junxta"
+  tester: "Spetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok"
+  poster_sm: "Spetsanal ja"
+  poster_md: "Spetsanal"
+  poster_lg: "swinkil"
+  specimen_48: "Spetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja"
+  specimen_36: "Spetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa.\nSpetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa."
+  specimen_32: "Spetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa.\nSpetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa."
+  specimen_21: "Spetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa.\nSpetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa."
+  specimen_16: "Spetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa.\nSpetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa.\nSpetsanal ja swinkil ja lu’um k’inali junxta wax jul schonjel, sok ja sijpanub’ali, ja yuj ojni b’ob’ sk’u’luk ja jas sk’ana-i ja b’as lekilali, ja yuj ja ay sk’ujoli sok ay spensari t’ilan oj yilsb’aje lek sok ja smoj jumasa."
+}

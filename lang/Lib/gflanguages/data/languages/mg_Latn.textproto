@@ -1,0 +1,33 @@
+id: "mg_Latn"
+language: "mg"
+script: "Latn"
+name: "Malagasy"
+autonym: "Malagasy"
+population: 24260130
+region: "MG"
+exemplar_chars {
+  base: "a A à À b B d D e E è È f F g G h H i I ì Ì j J k K l L m M n N o O ò Ò ô Ô p P r R s S t T v V y Y ỳ Ỳ z Z"
+  auxiliary: "á Á â Â c C é É ê Ê ë Ë î Î ï Ï ñ Ñ {n̂} {N̂} {n̈} {N̈} ó Ó ö Ö ồ Ồ q Q u U w W x X ý Ý ÿ Ÿ"
+  marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̈"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B D E F G H I J K L M N O P R S T V Y Z"
+}
+sample_text {
+  masthead_full: "TtEe"
+  masthead_partial: "Rr"
+  styles: "Heverina fa ny fankatoavana ny fahamendrehan’olombelona"
+  tester: "Firenena Mikambana izy amin’izany, Heverina fa tao anatin’ny Dina"
+  poster_sm: "Teraka afaka"
+  poster_md: "Samy afaka"
+  poster_lg: "Teraka"
+  specimen_48: "Ambonin’izany, tsy tokony hahatonga fanavahana mihitsy izay sata"
+  specimen_36: "Manan-jo hitaky ny fankatoavana ny maha-olona azy araka ny voafaritry ny lalna ny tsirairay na aiza na aiza toerana aleany."
+  specimen_32: "Manan-jo hitory amin’ny Fitsarana misy ao amin’ny taniny ny olona tsirairay raha mahatsapa fa hosena ny zo fototra nomen’ny lalam- panorenana azy."
+  specimen_21: "Tsy misy olona azo samborina tsy amin’antony na tazonim-poana na atao sesi-tany tsy voameloka.\nManan-jo ny olon-drehetra mba hohenoin’ny Fitsarana am-pahibemaso sy tsy am-piangarana ny heviny, ka ho fitsarana mahaleo tena sy tsy miangatra no hametra ny zony sy ny mahamarim-pototra na tsia ny fiampangana atao aminy."
+  specimen_16: "Tsy misy olona azo hitsabahana ny fiainany manokana, ny fianankaviany, ny fonenany, ny taratasy ifandefasany na hitsahana ny voninahiny sy ny lazany. Zon’ny olona ny harovan’ny lalna eo anatrehan’ny fanitsakitsahana tsy ara-drariny sy tsy ara-dalna rehetra.\nMalalaka amin’ny heviny sy amin’ny fivavahana hinoany ary manan-jo hiheno ny feon’ny fieritreretany ny olon-drehetra. Io zo io dia mamela azy malalaka hiova fivavahana na firehana samihafa. Ny olon-drehetra koa dia manan-jo haneho izany finoany na firehany izany am-pahabemaso na ho an’olom-bitsy ; amin’ny alalan’ny fampianarana na fanaovana fomba..."
+}
+source: "Noël J. Gueunier, Solo Raharinjanahary, “Rakibolana ho an’ny Ankizy. Miampy Rakipahalalana. 8 taona miakatra. Atolotr’i Manoa, Retsihisatse ary Velo [« Dictionnaire pour les Enfants. Suivi d’une Encyclopédie. 8 ans et au-dessus. Présenté par Manoa, Retsihisatse et Velo »]”, Études océan Indien, vol. 45, 2010"
+source: "Penelope Howe, Central Malagasy, Journal of International Phonetic Association, vol. 51, no. 1, 2021"
+source: "Gérard Poirot, Dictionnaire vezo-français suivi d’un index français-vezo, 2011"
+source: "Narivelo Rajaonarimanana, Dictionnaire du malgache contemporain: malgache-français français-malgache, Karthala, 1995"
+note: "Some standard orthography characters are commonly substituted with non accented letters or those accessible on keyboards. The velar n̂ (used in Masikoro [mg-msh]) and the palatal n̈ (used in Northern Betsimisaraka [mg-bmm], Tsimihety [mg-xmv]) are substituted with ñ and n. Similary, the vowel of stressed syllable, when marked with grave, is often replaced with what is available on keyboard layouts. The ồ is extremely rare in corpora."

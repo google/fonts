@@ -1,0 +1,11 @@
+id: "bla_Latn"
+language: "bla"
+script: "Latn"
+name: "Siksika"
+population: 2900
+region: "US"
+region: "CA"
+exemplar_chars {
+    base: "a A h H i I k K m M n N o O p P s S t T w W y Y ʼ"
+    auxiliary: "b B c C d D e E f F g G j J l L q Q r R u U v V x X z Z"
+}

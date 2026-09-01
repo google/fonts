@@ -1,0 +1,52 @@
+FONTLOG for the Cabin Condensed fonts
+
+This file provides detailed information on the Cabin Condensed 
+Font Software.
+
+This information should be distributed along with the 
+Cabin Condensed fonts and any derivative works.
+
+Basic Font Information
+
+Cabin is a Unicode typeface family that supports languages that
+use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+Documentation can be found at www.impallari.com/cabin
+To contribute to the project contact Pablo Impallari 
+at impallari@gmail.com
+
+ChangeLog
+
+06 Nov 2016 (Kalapi Gajjar-Bordawekar) Cabin v2.001
+- Fixes issue #7 [https://github.com/impallari/Cabin/issues/7]
+- Fixes issue #8 [https://github.com/impallari/Cabin/issues/8]
+
+27 Sep 2016 (Kalapi Gajjar-Bordawekar) Cabin v2.000 (Cabin, Cabin Italic, and Cabin Condensed)
+- Updated the glyph-set to Google Pro
+- Updated vertical metrics as per Khaled's scheme
+- Updated OpenType layout code (automated by Glyphs)
+
+29 Nov 2011 (Pablo Impallari & Igino Marini) Cabin Condensed v1.006
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Igino Marini
+E: mail@iginomarini.com
+W: http://www.ikern.com
+D: Spacing and Kerning
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+
+

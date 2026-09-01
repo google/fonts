@@ -1,0 +1,26 @@
+id: "bm_Latn"
+language: "bm"
+script: "Latn"
+name: "Bambara"
+autonym: "Bamanankan"
+population: 8994564
+region: "ML"
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U w W y Y z Z"
+  auxiliary: "q Q v V x X"
+  index: "A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U W Y Z"
+}
+sample_text {
+  masthead_full: "HhAa"
+  masthead_partial: "Dd"
+  styles: "K’a d’a kan ko dine hɔrɔnɲa ni tilennenɲa ni"
+  tester: "K’a d’a kan ko hadamaden josiraw n’u kɔnni kɛra dannajuguya caman"
+  poster_sm: "K’a d’a kan ko"
+  poster_md: "K’a d’a kan"
+  poster_lg: "bɛɛ"
+  specimen_48: "K’a d’a kan ko Diɲe kabilatɔn y’a ɲaniya dantigɛ kokura, kabilaw"
+  specimen_36: "Bɛɛ ka kan i lafiɲɛ ni ɲɛnajɛ ye, ani baarawaati dannen hakɛ la, ani waati ni waati sɛgɛnnabɔ min tɛ sara la."
+  specimen_32: "Bɛɛ jo bɛ k’a ɲini labɛn ka kɛ maaya la ani jamanaw cɛ la, min b’a to josira ni hɔrɔnɲa baju minnu dantigɛlen filɛ Dantigɛkan in kɔnɔ, olu ka sira sɔrɔ a ɲɛ ma."
+  specimen_21: "Jɔyɔrɔ fɛn o fɛn dantigɛlen ye nin Dantigɛkan in kɔnɔ, Fanga wali jɛkulu wali mɔgɔ kelen sijo tɛ k’o minɛ yamaruya ye ka sira taama, wali ka walekɛ, min kun ye hadamaden josira ni hɔrɔnɲasira jiralen ninnu tiɲɛni ye.\nK’a d’a kan ko dine hɔrɔnɲa ni tilennenɲa ni lafiya sintin ye hadamaden bɛɛ danbe dɔnni n’u josiraw danmakɛɲneni ye,"
+  specimen_16: "K’a d’a kan ko dine hɔrɔnɲa ni tilennenɲa ni lafiya sintin ye hadamaden bɛɛ danbe dɔnni n’u josiraw danmakɛɲneni ye,\nK’a d’a kan ko hadamaden josiraw n’u kɔnni kɛra dannajuguya caman sababu ye minnu bɛ maaya ɲugun, ani ko hadamaden haju bɛɛ la gɛlɛnman ye de ka diɲe kura dabali min den si tɛ bali k’a hakilila fɔ nink’a dannasira batu, min den bɛɛ tangalen bɛ bagabagali ni ɲani ma,\nK’a d’a kan ko a tɛ ɲɛ fo hadamaden josiraw ka lakana sariyabatufanga de fe yaasa muruti kana kɛ mɔgɔ ma jagoya ye tɔɲɔn ni degun kanma,\nK’a d’a kan ko kanu jiidili ka kan ka kɔkɔrɔdon kabilaw ni ɲɔgɔn cɛ,"
+}

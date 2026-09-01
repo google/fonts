@@ -1,0 +1,27 @@
+id: "nba_Latn"
+language: "nba"
+script: "Latn"
+name: "Nyemba"
+region: "AO"
+region: "NA"
+population: 1135000
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W x X y Y z Z"
+  auxiliary: "q Q"
+}
+sample_text {
+  masthead_full: "VvAa"
+  masthead_partial: "Nn"
+  styles: "Vanu voxe vakasemuka mu cizango co mumo lika"
+  tester: "Vanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena."
+  poster_sm: "Vanu voxe"
+  poster_md: "Vanu voxe"
+  poster_lg: "Vanu"
+  specimen_48: "Vanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena"
+  specimen_36: "Vanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena. Vakevo vakala na mangana co na mbunge co vana pande kulinga vamo na vakwavo na mbunge ya vuna yina."
+  specimen_32: "Vanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena. Vakevo vakala na mangana co na mbunge co vana pande kulinga vamo na vakwavo na mbunge ya vuna yina."
+  specimen_21: "Vanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena. Vakevo vakala na mangana co na mbunge co vana pande kulinga vamo na vakwavo na mbunge ya vuna yina.\nVanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena. Vakevo vakala na mangana co na mbunge co vana pande kulinga vamo na vakwavo na mbunge ya vuna yina."
+  specimen_16: "Vanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena. Vakevo vakala na mangana co na mbunge co vana pande kulinga vamo na vakwavo na mbunge ya vuna yina.\nVanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena. Vakevo vakala na mangana co na mbunge co vana pande kulinga vamo na vakwavo na mbunge ya vuna yina.\nVanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena. Vakevo vakala na mangana co na mbunge co vana pande kulinga vamo na vakwavo na mbunge ya vuna yina.\nVanu voxe vakasemuka mu cizango co mumo lika mu vulemu co kulimanena. Vakevo vakala na mangana co na mbunge co vana pande kulinga vamo na vakwavo na mbunge ya vuna yina."
+}
+source: "United Nations Educational, Scientific and Cultural Organization, Angola, Universal Declaration of Human Rights - Ngangela (Nyemba), The Office of the High Commissioner for Human Rights, 1996-2009"
+note: "The one ñ in UDHR translation seems to be a mistake."

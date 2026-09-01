@@ -1,0 +1,11 @@
+id: "lem_Latn"
+language: "lem"
+script: "Latn"
+name: "Nomaande"
+population: 19000
+region: "CM"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E é É ɛ Ɛ f F g G h H i I í Í n N j J k K l L m M ŋ Ŋ o O ó Ó ɔ Ɔ s S t T u U ú Ú w W y Y"
+  marks: "◌́"
+  auxiliary: "n N p P q Q r R v V x X z Z"
+}

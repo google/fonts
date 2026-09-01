@@ -1,0 +1,24 @@
+id: "quc_Latn"
+language: "quc"
+script: "Latn"
+name: "Kʼicheʼ"
+autonym: "Qatzijob\'al"
+population: 1200731
+region: "GT"
+exemplar_chars {
+  base: "A B C E H I J K L M N O P Q R S T U W X Y Z a b c e h i j k l m n o p q r s t u w x y z \'"
+}
+sample_text {
+  masthead_full: "KkOo"
+  masthead_partial: "Nn"
+  styles: "Rumal che ri uchokonsab\'exik ri ya\'talik kab\'anik,"
+  tester: "Rumal che ri man qas ta eta\'matalik, etzelam uwach xuq man k\'amo\'wan"
+  poster_sm: "Rumal che ri"
+  poster_md: "Rumal che"
+  poster_lg: "Konojel"
+  specimen_48: "Rumal che ri e tinamit pa we uwachulew kik\'amo\'wan kiq\'alajisam"
+  specimen_36: "Maj jun winaq ya\'tal ta chech kab\'an k\'ax chech, xuq kupatanij ta ne jun chik winaq we man kaya ta tojb\'al rech."
+  specimen_32: "Maj jun winaq ya\'tal ta chech xaq k\'ate\' kachapatajik, xuq kokisax pa che\' we maj umak ub\'anom; xuqe kelesaxik, xuq koqatax b\'i chupam pa ri utinamit."
+  specimen_21: "Ronojel winaq ya\'tal chech katatab\'exik jasa je\' ri karaj kuya uch\'ob\'ik; xuqe katob\'an ri q\'atb\'altzij ruk\' xa jeri\' junam ri q\'atoj tzij kaq\'at pa kiwi\'.\nMaj jun winaq ya\'tal ta chech kab\'an jalum tzij, q\'ab\'am tzij pa ri uk\'aslemal, pa ri rachoch; xuq kajelk\'atix ta ne ri jastaq rech. Xuqe\' man ya\'tal taj kakichik, kayoq\'ik; are k\'u we jewa\' kuk\'ulmaj rajawaxik kuya utob\'anik ri q\'atb\'altzij chech."
+  specimen_16: "Ronojel winaq ya\'tal chech kub\'an ronojel uwach jachke na k\'u ri kumajab\'ej chwach; utz kub\'ij, kuq\'alajisaj jachke ri k\'o pa ri uchomanik, xuqe\' kutzukuj, kucha\'o jachke ri ukojonik kumajab\'ej chwach. Ya\'tal xuq chech kuchokonsab\'ej, kuk\'utunsaj jachke ri\' ri ukojb\'al. Kuq\'alajisaj chkiwach nik\'aj winaq chik we jeri\' kape pa ri uchomanik xa ta apawije\' kariqitaj wi.\nRonojel winaq ya\'tal chech kub\'ij, kuq\'alajisaj jasa je k\'o pa ri uchomanik, ronojel jasa je ri kuto, karilo; xuq man ya\'tal ta k\'ut chi ketzelax rumal ri uchomanik kuya\'o; ya\'tal xuq chech kusol uxe\', kareta\'maj jachke ri karaj jeri\' kub\'an chech, la je k\'ut pine ta ne k\'ate\' ri are taq wa\' kuya chi na ub\'ixik, uq\'alajisaxik xa ta apawije\' karaj kub\'an wi."
+}

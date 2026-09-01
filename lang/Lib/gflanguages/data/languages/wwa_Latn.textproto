@@ -1,0 +1,27 @@
+id: "wwa_Latn"
+language: "wwa"
+script: "Latn"
+name: "Waama"
+region: "BJ"
+region: "TG"
+population: 153000
+exemplar_chars {
+  base: "a A à À ã Ã b B c C d D e E è È ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ̃} {Ɛ̃} f F i I ì Ì k K m M n N ǹ Ǹ ŋ Ŋ o O ò Ò ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ̃} {Ɔ̃} p P r R s S t T u U ù Ù ũ Ũ w W y Y"
+  marks: "◌̀ ◌̃"
+}
+sample_text {
+  masthead_full: "YyIi"
+  masthead_partial: "Rr"
+  styles: "Yiriba na bà sikindo dare bà mɛɛri, da seena"
+  tester: "Yiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta"
+  poster_sm: "Yiriba na bà"
+  poster_md: "Yiriba na"
+  poster_lg: "Yiriba"
+  specimen_48: "Yiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da"
+  specimen_36: "Yiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba."
+  specimen_32: "Yiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba."
+  specimen_21: "Yiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba."
+  specimen_16: "Yiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba.\nYiriba na bà sikindo dare bà mɛɛri, da seena yirimma mii bà ta da i nɛki bà tɔɔba."
+}
+source: "Commission béninoise des Droits de l’Homme, Benin, Universal Declaration of Human Rights - Wama, The Office of the High Commissioner for Human Rights, 1996-2009"
+source: "SIL Bénin & le Centre National de Linguistique Appliquée (CENALA), Dictionnaire waama, Webonary.org, SIL International, 2014"

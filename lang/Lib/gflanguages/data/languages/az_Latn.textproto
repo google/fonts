@@ -1,0 +1,31 @@
+id: "az_Latn"
+language: "az"
+script: "Latn"
+name: "Azerbaijani"
+autonym: "azərbaycan (latın)"
+population: 9690091
+region: "AM"
+region: "AZ"
+region: "TR"
+exemplar_chars {
+  base: "A B C Ç D E Ə F G Ğ H X I İ J K Q L M N O Ö P R S Ş T U Ü V Y Z a b c ç d e ə f g ğ h x ı i j k q l m n o ö p r s ş t u ü v y z"
+  auxiliary: "W w"
+  marks: "◌̆ ◌̇ ◌̈ ◌̧"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C Ç D E Ə F G Ğ H X I İ J K Q L M N O Ö P R S Ş T U Ü V Y Z W"
+}
+sample_text {
+  masthead_full: "BbÜü"
+  masthead_partial: "Tt"
+  styles: "Bəşər ailəsinin bütün üzvlərinə xas olan"
+  tester: "insan hüquqlarına etinasızlıq və nifrətin bəşəriyyəti dəhşətə"
+  poster_sm: "insanın son"
+  poster_md: "xalqlar"
+  poster_lg: "Bütün"
+  specimen_48: "Birləşmiş Millətlərin xalqlarının BMT Nizamnaməsində"
+  specimen_36: "Heç kim kölə və ya asılı vəziyyətdə saxlanıla bilməz; quldarlıq və qul ticarəti bütün formalarda qadağan edilir."
+  specimen_32: "Hər bir şəxs Konstitusiyanın və ya qanunun ona verdiyi hüquqların pozulması zamanı sələahiyyətli milli məhkəmələr tərəfindən hüquqlarının bərpa olunması hüququna malikdir."
+  specimen_21: "Heç kim özbaşına həbsə, tutulmaya və ya sürgünə məruz qala bilməz.\nHər bir şəxs onun hüquq və vəzifələrinin təyini və ona qarşı irəli sürülmüş cinayət ittihamının əsaslılığının müəyyənləşdirilməsi üçün onun işinin müstəqil və bitərəf məhkəmədə, tam bərabərlik əsasında, aşkarlıq və ədalətin bütün tələblərinin gözlənilməsi şəraitində baxılması hüququna malikdir."
+  specimen_16: "Heç kim şəxsi və ailə həyatına müdaxiləyə, evinin toxunulmazlığına, məktublaşmasının gizliliyinə, şərəf və nüfuzuna özbaşına qəsdə məruz qala bilməz. Hər bir şəxsin belə müdaxilə və qəsdən qanun tərəfindən müdafiə olunmaq hüququ var.\nHər bir şəxs düşüncə, vicdan və din azadlığı hüququna malikdir; bu hüquqa öz dinini və etiqadını dəyişmək azadlığı və öz dininə və inanclarına təhsil, dua və dini və ritual ayinlər zamanı təklikdə və ya başqaları ilə birlikdə, aşkar və ya fərdi şəkildə etiqad etmək azadlığı daxildir.\nHər bir şəxsin istirahət və asudə vaxt, o cümlədən iş gününün ağlabatan hüdudu və ödənilən mütamadi məzuniyyət hüququ var."
+}

@@ -1,0 +1,12 @@
+id: "ndz_Latn"
+language: "ndz"
+script: "Latn"
+name: "Ndogo"
+population: 48000
+region: "SS"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G i I j J k K l L m M n N o O p P r R ṛ Ṛ s S t T u U v V w W y Y z Z ŋ Ŋ ꞌ Ꞌ"
+  marks: "◌̣ ◌̀ ◌́ ◌̂"
+}
+source: "Ndogo Bible, Wycliffe Bible Translators, 2001"
+source: "ScriptSource.org"

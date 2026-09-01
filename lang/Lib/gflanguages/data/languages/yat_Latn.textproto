@@ -1,0 +1,11 @@
+id: "yat_Latn"
+language: "yat"
+script: "Latn"
+name: "Yambeta"
+population: 3700
+region: "CM"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E é É ɛ Ɛ ə Ə f F g G i I í Í j J k K l L m M n N ŋ Ŋ o O ó Ó ɔ Ɔ p P s S t T u U ú Ú w W y Y"
+  marks: "◌́"
+  auxiliary: "h H q Q r R v V x X z Z"
+}

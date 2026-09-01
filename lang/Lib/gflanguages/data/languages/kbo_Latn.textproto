@@ -1,0 +1,14 @@
+id: "kbo_Latn"
+language: "kbo"
+script: "Latn"
+name: "Keliko"
+population: 63000
+region: "CD"
+region: "SS"
+region: "UG"
+exemplar_chars {
+  base: "a A b B {ꞌb} {ꞋB} c C d D {ꞌd} {ꞋD} {dr} {DR} e E ẹ Ẹ f F g G {gb} {GB} h H i I ị Ị j J {kp} {KP} l L m M {mb} {MB} {mgb} {MGB} {mv} {MV} n N {nd} {ND} {ndr} {NDR} {ng} {NG} {nj} {NJ} {ny} {NY} ŋ Ŋ {ŋm} {ŊM} o O p P r R s S t T {tr} {TR} u U ụ Ụ v V w W {ꞌw} {ꞋW} y Y {ꞌy} {ꞋY} z Z á Á é É í Í ó Ó ú Ú {ẹ́} {Ẹ́} {ị́} {Ị́} {ọ́} {Ọ́} {ụ́} {Ụ́} ã Ã ẽ Ẽ ĩ Ĩ õ Õ ũ Ũ {ẹ̃} {Ẹ̃} {ị̃} {Ị̃} {ọ̃} {Ọ̃} {ụ̃} {Ụ̃}"
+  marks: "◌́ ◌̃"
+  auxiliary: "k K q Q x X"
+}
+source: "Keliko Bible Translation and Literacy Project, Búkũ Tãfí Ụ̃nị̃zú Ni Kẹ̃lị̃kọ́ Tị Sĩ Ímbápi Vé Búkũ = Keliko Alphabet Book Teacher’s Guide, Entebbe, 2024"

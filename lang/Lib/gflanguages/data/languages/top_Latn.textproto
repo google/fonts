@@ -1,0 +1,23 @@
+id: "top_Latn"
+language: "top"
+script: "Latn"
+name: "Totonac, Papantla"
+region: "MX"
+exemplar_chars {
+  base: "A C E I J K L M N O P R S T U W X Y a c e i j k l m n o p r s t u w x y \'"
+  marks: "◌́"
+}
+sample_text {
+  masthead_full: "WwAa"
+  masthead_partial: "Kk"
+  styles: "Wakg lakch\'ixkuwin talakgawan nak ka\'unin niti"
+  tester: "Wakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit"
+  poster_sm: "Wakg lakch"
+  poster_md: "Wakg"
+  poster_lg: "Wakg"
+  specimen_48: "Wakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna"
+  specimen_36: "Wakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya.\nWakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya."
+  specimen_32: "Wakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya.\nWakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya."
+  specimen_21: "Wakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya.\nWakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya."
+  specimen_16: "Wakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya.\nWakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya.\nWakg lakch\'ixkuwin talakgawan nak ka\'unin niti ka\'akgch\'apawalinit nachuna wakg takg\'alhi ixtamaxanatkan chu tu kaminini, je\'e wanp\'utun xlakata wakg talakpuwanan, talalakgk\'atsan liwakg, talakask\'ini xlakata wakg natalamakgtaya."
+}

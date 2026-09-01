@@ -1,0 +1,24 @@
+# STIX Two Text — Source Metadata Investigation
+
+**Model**: Claude Opus 4.6
+**Date**: 2026-03-12
+
+## Source Repository
+- **URL**: https://github.com/stipub/stixfonts
+- **Commit**: `c4afdf3fa5390159ef24aca1db5e957487c23897`
+- **Status**: Commit hash was added to existing source block
+
+## What Was Done
+The upstream repository at https://github.com/stipub/stixfonts was identified as the source for STIX Two Text. The latest commit on the master branch was retrieved via the GitHub API and added to the `source` block in METADATA.pb. Tagged releases were found (latest: `v2.13b171`).
+
+## Build System
+The repository contains a `build.sh` shell script at the root level, along with a `tools/` directory and `requirements.in`/`requirements.txt` files indicating a Python-based build toolchain. Pre-built fonts are available in `fonts/static_ttf/` and `fonts/variable_ttf/` directories.
+
+## Notes
+STIX Two Text is a variable serif text font from the STIX Fonts project, designed by Tiro Typeworks, Ross Mills, John Hudson, and Paul Hanslow. It includes roman and italic variable fonts with a `wght` axis ranging from 400 to 700. It shares its upstream repository with STIX Two Math; both families were updated with the same commit hash. The METADATA.pb source block already included file mappings and a branch specification (`master`); only the commit hash was missing.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/stixtwotext/` referencing the upstream gftools-builder-compatible source at the pinned commit `c4afdf3` (`source/STIXTwoTextVF-Roman.designspace`, `source/STIXTwoTextVF-Italic.designspace`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

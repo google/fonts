@@ -1,0 +1,26 @@
+id: "bem_Latn"
+language: "bem"
+script: "Latn"
+name: "Bemba"
+autonym: "Chibemba"
+population: 5402246
+region: "ZM"
+exemplar_chars {
+  base: "a A b B c C e E f F g G i I j J k K l L m M n N o O p P s S {sh} {SH} t T u U w W y Y"
+  auxiliary: "d D h H q Q r R v V x X z Z"
+  index: "A B C E F G I J K L M N O P S {SH} T U W Y"
+}
+sample_text {
+  masthead_full: "AaBb"
+  masthead_partial: "Nn"
+  styles: "Apo kwaba ukwishiba ubucindami bwa muntu"
+  tester: "Apo uku kana posako mano nokusula insambu sha muntu fya lenga"
+  poster_sm: "Apo cikankala,"
+  poster_md: "Apo caba"
+  poster_lg: "Abantu"
+  specimen_48: "Apo abantu bamu kabungwe kafyalo fyaikatana muli kalata balibwekeshapo"
+  specimen_36: "Apo pakwishiba ishi nsambu nobuntungwa ecikankala sana pakuti ici cilayo cinga fikilishiwa ukupwililika,"
+  specimen_32: "Abantu bonse bafyalwa abalubuka nokulingana mu mucinshi nensambu. Balikwata amano nokutontonkanya, eico bafwile ukulacita ifintu ku banabo mu mutima wa bwananyina."
+  specimen_21: "Cila muntu ali linga ukukwata ishi nsambu no buntungwa filelondololwa, ukwabula akapatulula kali konse ngaka mutuntu, inkanda, umwaume nangu umwanakashi, ululimi, uko apepa, ifyo atontonkanya pa fikansa fya calo, uko atula ku calo, ifyuma akwata, uko afyalwa nangu akapatulula akali konse.\nKabili, takuli kapatulula kali nokucitwa pa mulandu wafikansa fya calo, ifyo balubulula imilandu nangu umucinshi icalo afumako cakwata ku fyalo fimbi, cibe cila iteka, cilatekwa nangu capelwa ku calo cimbi ukutekwa."
+  specimen_16: "Cila muntu alikwata insabu ya mweo, ukucita ico alefwaya elyo noku icingilila umwine.\nTakuli nangu umo ukuba umusha nangu mu busha. Ubusha nokushitishana mu busha fili nokubindwa mu nshila ili yonse.\nTapali nangu umo atwile kucitwa kunkalwe, ukucushiwa nokucitwa nge nama paku kandwa.\nOnse alikwata insambu ukwishibikwa ukuli konse ngo muntu pa menso ya cilye.\nBonse bali lingana pa menso ya cilye kabili balikwata insambu ukwabula akapatulula, ukupokolwa mu mulinganya pa menso ya cilye. Bonse balikwata insambu yakupokololwa mu mulinganya ku kapatulula akali konse ukupula muli uku kusosa ukubikapo ukupokololwa nakuli balya batunka bambi ukuti bale patulula."
+}

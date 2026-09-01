@@ -1,0 +1,6 @@
+# Override config.yaml for ofl/peddana
+# NOTE: This is a best-effort starting point for reproducible builds.
+# The shipped binary may have been built with different tools/versions.
+#
+sources:
+  - Peddana-Regular.ufo

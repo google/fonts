@@ -1,0 +1,48 @@
+FONTLOG for the Karla font
+
+This file provides detailed information on Karla Font Software.
+This information should be distributed along with the Kelly 
+font and any derivative works.
+
+Basic Font Information
+
+Karla is a Unicode grotesque sans serif typeface family 
+that supports languages that use the Latin script and 
+the Tamil script. This is the Latin script subset of 
+the family.
+
+The source release includes Multiple Master FontLab source 
+files,
+
+    Karla-Italic-MM.vfb
+    Karla-Regular-MM.vfb
+
+pre-export FontLab source files, 
+
+Karla-Bold.vfb
+Karla-BoldItalic.vfb
+
+and converted TTF FontForge source files:
+
+Karla-Bold-TTF.sfd
+Karla-BoldItalic-TTF.sfd
+Karla-Italic-TTF.sfd
+Karla-Regular-TTF.sfd
+
+To contribute to the project contact Jonathan Pinhorn
+jonpinhorn.typedesign@gmail.com
+
+ChangeLog
+
+11 March 2012 (Jonathan Pinhorn) Karla v1.000
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Jonathan Pinhorn
+E: jonpinhorn.typedesign@gmail.com
+D: Designer

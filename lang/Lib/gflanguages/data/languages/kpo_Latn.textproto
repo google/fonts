@@ -1,0 +1,11 @@
+id: "kpo_Latn"
+language: "kpo"
+script: "Latn"
+name: "Ikposo"
+population: 160000
+region: "TG"
+region: "GH"
+exemplar_chars {
+  base: "a A ǝ Ǝ b B d D e E ɛ Ɛ f F g G ɣ Ɣ h H i I ɩ Ɩ k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U ʊ Ʊ v V w W y Y z Z"
+  auxiliary: "c C j J q Q x X"
+}

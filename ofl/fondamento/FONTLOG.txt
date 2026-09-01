@@ -1,0 +1,58 @@
+FONTLOG for the Fondamento and Fondamento Italic fonts
+
+This file provides detailed information on the Fondamento font
+Software.
+
+This information should be distributed along with the Fondamento fonts
+and any derivative works.
+
+Basic Font Information
+
+Fondamento & Fondamento Italic are calligraphic lettering styles based
+on the traditional Foundational Hand, a basic teaching style created 
+by Edward Johnston in the early 20th century. The letterforms are clear
+and cleanly legible, basic and formal.
+
+Designed by Brian J. Bonislawsky for Astigmatic (AOETI).
+
+Fondamento and Fondamento Italic are a Unicode typeface family that
+supports languages that use the Latin script and its variants, and
+could be expanded to support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are six Source files:
+
+1. Fondamento-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+2. Fondamento-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. Fondamento-Regular.ai Adobe Illustrator contours with overlaps
+
+4. Fondamento-Italic-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+5. Fondamento-Italic-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+6. Fondamento-Italic.ai Adobe Illustrator contours with overlaps
+
+ChangeLog
+
+17 November. (v.1.01) (Brian J. Bonislawsky)
+— Minor design adjustments: reworked /W/ /w/ and /Z/ /z/
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

@@ -1,0 +1,27 @@
+id: "idu_Latn"
+language: "idu"
+script: "Latn"
+name: "Idoma"
+autonym: "Idoma"
+population: 980000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á ā Ā b B c C d D e E é É ē Ē ẹ Ẹ ɛ Ɛ f F g G h H i I í Í ī Ī j J k K l L m M n N ŋ Ŋ o O ó Ó ō Ō ọ Ọ ɔ Ɔ p P r R s S t T u U ú Ú ū Ū v V w W y Y z Z"
+  marks: "◌́ ◌̄ ◌̣"
+}
+sample_text {
+  masthead_full: "ĘęGg"
+  masthead_partial: "Nn"
+  styles: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa"
+  tester: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgɔ ma acę duu"
+  poster_sm: "Ęgę ni modudu"
+  poster_md: "Ęgę"
+  poster_lg: "Ęgę"
+  specimen_48: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgɔ ma acę duu jonjilę"
+  specimen_36: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgɔ ma acę duu jonjilę ipu kocęgba nɔcę cęgba męml’ojonjilę ipu ɔdah ni yabɔ ɔcę nya. Odudu acę kwu ђwule ml’ohili otu męml’ocai kęla jɔcę ɔha ni yipu ɔtu ɔcę aa, higbɔ ma ɔcę higbo yɔda męml’ ɔmpa gunu lę bɔinę nu ma."
+  specimen_32: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgɔ ma acę duu jonjilę ipu kocęgba nɔcę cęgba męml’ojonjilę ipu ɔdah ni yabɔ ɔcę nya. Odudu acę kwu ђwule ml’ohili otu męml’ocai kęla jɔcę ɔha ni yipu ɔtu ɔcę aa, higbɔ ma ɔcę higbo yɔda męml’ ɔmpa gunu lę bɔinę nu ma."
+  specimen_21: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgɔ ma acę duu jonjilę ipu kocęgba nɔcę cęgba męml’ojonjilę ipu ɔdah ni yabɔ ɔcę nya. Odudu acę kwu ђwule ml’ohili otu męml’ocai kęla jɔcę ɔha ni yipu ɔtu ɔcę aa, higbɔ ma ɔcę higbo yɔda męml’ ɔmpa gunu lę bɔinę nu ma."
+  specimen_16: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgɔ ma acę duu jonjilę ipu kocęgba nɔcę cęgba męml’ojonjilę ipu ɔdah ni yabɔ ɔcę nya. Odudu acę kwu ђwule ml’ohili otu męml’ocai kęla jɔcę ɔha ni yipu ɔtu ɔcę aa, higbɔ ma ɔcę higbo yɔda męml’ ɔmpa gunu lę bɔinę nu ma.\nĘgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgɔ ma acę duu jonjilę ipu kocęgba nɔcę cęgba męml’ojonjilę ipu ɔdah ni yabɔ ɔcę nya. Odudu acę kwu ђwule ml’ohili otu męml’ocai kęla jɔcę ɔha ni yipu ɔtu ɔcę aa, higbɔ ma ɔcę higbo yɔda męml’ ɔmpa gunu lę bɔinę nu ma."
+}
+source: "R.C. Abraham, Idoma orthography, in Ayo Banjo, Orthographies of Nigerian Languages: Manual III, Lagos, National Language Center, 1985"
+source: "Wikipedia"

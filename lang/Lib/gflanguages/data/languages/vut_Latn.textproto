@@ -1,0 +1,12 @@
+id: "vut_Latn"
+language: "vut"
+script: "Latn"
+name: "Vute"
+population: 21000
+region: "CM"
+exemplar_chars {
+  base: "a A {a̧} {A̧} {á̧} {Á̧} {à̧} {À̧} {â̧} {Â̧} b B ɓ Ɓ c C d D ɗ Ɗ e E ȩ Ȩ {ȩ́} {Ȩ́} {ȩ̀} {Ȩ̀} {ȩ̂} {Ȩ̂} ə Ə {ə̧} {Ə̧} {ə̧́} {Ə̧́} {ə̧̀} {Ə̧̀} {ə̧̂} {Ə̧̂} f F g G h H i I {i̧} {I̧} {í̧} {Í̧} {ì̧} {Ì̧} {î̧} {Î̧} ɨ Ɨ {ɨ̧} {Ɨ̧} {ɨ̧́} {Ɨ̧́} {ɨ̧̀} {Ɨ̧̀} {ɨ̧̂} {Ɨ̧̂} j J k K l L m M n N ŋ Ŋ o O {o̧} {O̧} {ó̧} {Ó̧} {ò̧} {Ò̧} {ô̧} {Ô̧} ɔ Ɔ {ɔ̧} {Ɔ̧} {ɔ̧́} {Ɔ̧́} {ɔ̧̀} {Ɔ̧̀} {ɔ̧̂} {Ɔ̧̂} p P r R s S t T u U {u̧} {U̧} {ú̧} {Ú̧} {ù̧} {Ù̧} {û̧} {Û̧} v V w W y Y"
+  auxiliary: "q Q x X z Z"
+  marks: "◌̀ ◌́ ◌̂ ◌̧"
+}
+source: "Rhonda Ann Thwing, Vute orthography statement, SIL Cameroon, 2004"

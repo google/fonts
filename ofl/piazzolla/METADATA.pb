@@ -1,0 +1,61 @@
+name: "Piazzolla"
+designer: "Juan Pablo del Peral, HT Fonts"
+license: "OFL"
+category: "SERIF"
+date_added: "2020-08-27"
+fonts {
+  name: "Piazzolla"
+  style: "normal"
+  weight: 400
+  filename: "Piazzolla[opsz,wght].ttf"
+  post_script_name: "Piazzolla-Thin"
+  full_name: "Piazzolla Thin"
+  copyright: "Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)"
+}
+fonts {
+  name: "Piazzolla"
+  style: "italic"
+  weight: 400
+  filename: "Piazzolla-Italic[opsz,wght].ttf"
+  post_script_name: "Piazzolla-ThinItalic"
+  full_name: "Piazzolla Thin Italic"
+  copyright: "Copyright 2018 The Piazzolla Project Authors (https://github.com/huertatipografica/piazzolla)"
+}
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
+subsets: "greek-ext"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "opsz"
+  min_value: 8.0
+  max_value: 30.0
+}
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/huertatipografica/piazzolla"
+  commit: "fbd775f98a0a27570de0eaf20206860021c68b6b"
+  files {
+    source_file: "fonts/variable/ttf/Piazzolla[opsz,wght].ttf"
+    dest_file: "Piazzolla[opsz,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/ttf/Piazzolla-Italic[opsz,wght].ttf"
+    dest_file: "Piazzolla-Italic[opsz,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "google_prs"
+}
+minisite_url: "https://piazzolla.htfonts.com/"
+stroke: "SERIF"
+classifications: "DISPLAY"

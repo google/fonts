@@ -1,0 +1,12 @@
+id: "oma_Latn"
+language: "oma"
+script: "Latn"
+name: "Omaha-Ponca"
+autonym: "Umaⁿhaⁿ"
+population: 85
+region: "US"
+exemplar_chars {
+  base: "A B C D E G H I J K M N O P Q S T U W X Z a b c d e g h i j k m n o p q s t u w x z ʰ ’ ⁿ"
+}
+source: "Omaha & Ponca Digital Dictionary"
+source: "Wikipedia"

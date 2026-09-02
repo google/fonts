@@ -348,3 +348,16 @@ def test_id_well_formed(lang_code):
         return
     lang = LANGUAGES[lang_code]
     assert lang.id.startswith(lang.language + "_" + lang.script)
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES.keys())
+def test_sample_texts_no_double_encoding(lang_code):
+    lang = LANGUAGES[lang_code]
+    if not lang.sample_text.ListFields():
+        pytest.skip("No sample text for language " + lang_code)
+        return
+    for field in SampleText.fields:
+        sample = getattr(lang.sample_text, field.name)
+        assert (
+            "\\\\" not in sample
+        ), f"Doubly encoded backslash in {field.name} {lang_code}"

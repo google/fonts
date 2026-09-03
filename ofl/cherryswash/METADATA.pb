@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2012-10-05"
 source {
   repository_url: "https://github.com/googlefonts/cherryswash"
-  commit: "f1c0f2dbc3f64ef4f85e54544626e6d629599e4c"
+  commit: "d676530fe73151137f5e69519a1ee4beb0c12c49"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

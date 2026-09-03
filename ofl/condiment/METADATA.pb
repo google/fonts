@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2012-01-25"
 source {
   repository_url: "https://github.com/googlefonts/condiment"
-  commit: "a89340dd6409f34edd3d00dba5326e870b910f2a"
+  commit: "e9c65b8fd13846909ca137e6c36112ba2d959807"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

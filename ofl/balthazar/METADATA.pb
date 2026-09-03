@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2011-12-13"
 source {
   repository_url: "https://github.com/googlefonts/balthazar"
-  commit: "40ec71e48349bc565c42eb3c750b50a5d8d19087"
+  commit: "3aa1b5a856e450e64d0f9c088bc1d9dd40c74a50"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

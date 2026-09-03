@@ -19,7 +19,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/macondoswashcaps"
-  commit: "bd29bdafaab2e21ae4bdcc16106b15f2365bca61"
+  commit: "6a61c5175a68a2449241a70bc7dbcbaee45f2a8a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

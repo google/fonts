@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2012-11-12"
 source {
   repository_url: "https://github.com/googlefonts/croissantone"
-  commit: "0747cf401c74b546f997a820cb036a39513ba09c"
+  commit: "62d7d39fdbd2c94bc1ab7593d4c984ce327146eb"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

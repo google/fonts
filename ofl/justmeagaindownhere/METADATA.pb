@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/justmeagaindownhere"
-  commit: "23514049cb37c16431521835a69aa7cfe5d9b709"
+  commit: "bc6529922d3d9ced792726d687ed7c613a25c6f3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

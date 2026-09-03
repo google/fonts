@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-05-04"
 source {
   repository_url: "https://github.com/googlefonts/carterone"
-  commit: "dfb0d97f8eb2fa66680b6098cdde15277b069b2b"
+  commit: "7055fdb03b89cff87481cd41dfee324ab89b5a7d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

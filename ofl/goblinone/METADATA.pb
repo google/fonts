@@ -18,7 +18,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/goblinone"
-  commit: "82b0d4b4f5e17c953c5a6e42e73d2e93ea2ea9e2"
+  commit: "7c9287369c25fb772486d41b574a4dc0ae6340f5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

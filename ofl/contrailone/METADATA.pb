@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-10-26"
 source {
   repository_url: "https://github.com/googlefonts/contrailone"
-  commit: "755f2a5959072b2ce7e09b555cc55917bf3c7ce0"
+  commit: "7a15438313700f49eaabd97d35a71d6987c8f6d6"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

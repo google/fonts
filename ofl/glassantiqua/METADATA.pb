@@ -19,7 +19,7 @@ stroke: "SERIF"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/glassantiqua"
-  commit: "64763eadb6bf4a38f7fe638b06683ef7cea15266"
+  commit: "b1c269f4671ac3926d35635dd6d87db0945dd9d8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

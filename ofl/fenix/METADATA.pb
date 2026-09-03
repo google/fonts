@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/fenix"
-  commit: "cfae6dd0422933ef47db060c6710166fb5ed30d1"
+  commit: "4b215f7cc3c4a4be844dcbcb504d271c8a5086a1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

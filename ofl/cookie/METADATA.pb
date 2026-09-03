@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2011-10-12"
 source {
   repository_url: "https://github.com/googlefonts/cookie"
-  commit: "a86099c7b0fb4176bea1657e2b9e66ac3ab85513"
+  commit: "04beabaf5fe9a6c83b63514600b85190ffac4401"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

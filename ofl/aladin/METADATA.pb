@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-11-30"
 source {
   repository_url: "https://github.com/googlefonts/aladin"
-  commit: "b9b4da7c18ceab08e86942dd5a0a181a6f2d1be3"
+  commit: "acd3f4b4e28fc7b6a6932a1ff3110c53d09bc987"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

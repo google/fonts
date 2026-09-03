@@ -26,7 +26,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/inika"
-  commit: "07bb78b80a644c3e4979fbd4b6a6a6548d5a2934"
+  commit: "445fa596f166fc6c91c293eccd75b588d9b1fef4"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

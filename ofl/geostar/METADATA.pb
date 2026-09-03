@@ -18,7 +18,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/geostar"
-  commit: "cd70b3170a6db347032f02d4f773e2f0ecff25a3"
+  commit: "9204e39b28291c336ee12fd2e3235e3a9436ebed"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

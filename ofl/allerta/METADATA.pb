@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2010-11-30"
 source {
   repository_url: "https://github.com/googlefonts/allerta"
-  commit: "2efd2499258022f0a5b1887da95ecfc62a5793cd"
+  commit: "bdd9557493a2cdd003d2dcbc9a37d47868ec3606"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

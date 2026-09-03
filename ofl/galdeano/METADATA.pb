@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/galdeano"
-  commit: "41268aaf05c1ab2716d0b4a8114aa6b7beff8e31"
+  commit: "79cf98b98a74be1aac08d719abd22e7986ee9949"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

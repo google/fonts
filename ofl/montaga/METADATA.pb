@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/montaga"
-  commit: "c01e6e195c2d67a0b9d5c3091f3c436991cafd90"
+  commit: "90712149c2d25ebaff039e96e375b7bb2bc2f7f7"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

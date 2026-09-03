@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2011-11-09"
 source {
   repository_url: "https://github.com/googlefonts/convergence"
-  commit: "0f57768c9ddc32b357bf4d32897b8ea4e846d71e"
+  commit: "343573d0ed24387f782b02c8536316f243ac03d2"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

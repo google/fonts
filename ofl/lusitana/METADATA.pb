@@ -27,7 +27,7 @@ subsets: "latin-ext"
 
 source {
   repository_url: "https://github.com/googlefonts/lusitana"
-  commit: "393d85168ac2026bfc47c6c15bcb3868e279d92b"
+  commit: "cae968a717a2e73cdf7b76fac5c339d5e45cbf93"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

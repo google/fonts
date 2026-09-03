@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/germaniaone"
-  commit: "8c373b1705299e083f48de2a4c5a818b35c83ad4"
+  commit: "fea6803846d3270d2fde56a8678004cf67841852"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

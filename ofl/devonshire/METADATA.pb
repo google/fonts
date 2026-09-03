@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2011-11-16"
 source {
   repository_url: "https://github.com/googlefonts/devonshire"
-  commit: "7a5ccf2a745c1b08c55181ce87fb522dedcbe631"
+  commit: "b13788b9f4b6975f7286e3fa0784f36944a3c3b0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

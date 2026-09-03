@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2012-10-05"
 source {
   repository_url: "https://github.com/googlefonts/chelaone"
-  commit: "cb7da0a381984ec348a9c88e2095f9592149c838"
+  commit: "b0f6d8fe1f2023702a20caeb83f74e2b5245749c"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

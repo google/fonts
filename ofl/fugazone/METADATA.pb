@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/fugazone"
-  commit: "cc513bad4e98bf35e593423ddcbe6a71ec532143"
+  commit: "a569b175e4b89e8915708a55c2796debdfe46aeb"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

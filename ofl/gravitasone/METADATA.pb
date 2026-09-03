@@ -18,7 +18,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/gravitasone"
-  commit: "feede2e8781269a901f8bddb91f05965d294e5a9"
+  commit: "8eb45dc3e5bdf6cbf377f906554ea01f0e54f92f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/belgrano"
-  commit: "e79e00337ef13f738009b16d2909cc2dd17af344"
+  commit: "e302859418e7d9bde89fa08de47658bab32d6559"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

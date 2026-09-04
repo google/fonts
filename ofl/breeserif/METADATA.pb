@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/breeserif"
-  commit: "80b004f6325a65a90f50de70facec1c98d36ff9d"
+  commit: "31562b2b04ee21afb0c750ca2343fb761ae36dfb"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

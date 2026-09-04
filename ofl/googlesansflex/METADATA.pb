@@ -22,7 +22,6 @@ subsets: "symbols"
 subsets: "syriac"
 subsets: "tifinagh"
 subsets: "vietnamese"
-experiments: "layout_features=dlig,dnom,frac,liga,lnum,numr,ordn,pnum,sinf,ss01,ss02,subs,sups,tnum,zero"
 axes {
   tag: "GRAD"
   min_value: 0.0

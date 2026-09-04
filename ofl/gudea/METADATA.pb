@@ -35,7 +35,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/gudea"
-  commit: "7651bdceeaa8148f45ee5781d87914346be8e9bc"
+  commit: "84926eb57483e1748fbdeab9d337db348dafa88d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

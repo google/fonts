@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2011-08-17"
 source {
   repository_url: "https://github.com/googlefonts/daysone"
-  commit: "5a4d7f229c497dd3f4cf1b8c23da954c3e45e2cf"
+  commit: "4a7c150f858a8de260b27e12d95902e4de213286"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

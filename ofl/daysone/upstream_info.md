@@ -2,6 +2,8 @@
 
 Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
+Sources rebuilt 2026-09: the 2026-07 conversion was back-fitted (post-conversion scripts copied values out of the shipped binary) and carried undocumented source edits. The upstream repository now carries an explicit commit series: the `.sfd` restored byte-identical from the repository's own history, each documented edit (version bump, metric or naming correction) as its own commit with its justification, then the conversion to `.glyphs`. METADATA.pb references the conversion commit `4a7c150f858a`; diffenator3 1.1.4 reports zero glyph, word and pixel differences against the shipped binaries on every style.
+
 ## Initial state
 
 Google Fonts shipped Days One (Regular) built from FontForge SFD sources at https://github.com/librefonts/daysone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.

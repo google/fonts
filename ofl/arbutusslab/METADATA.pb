@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2012-09-18"
 source {
   repository_url: "https://github.com/googlefonts/arbutusslab"
-  commit: "9188ac0bb9ae152e9c4e6ee8c726f4636babb86f"
+  commit: "17c26d3b3abd75c24119a0fc87dd491ece7c2af5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

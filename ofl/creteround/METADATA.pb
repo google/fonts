@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/creteround"
-  commit: "65f7a13699e262832f4fa0cd2a61908da6da811d"
+  commit: "64e1c753a1216a4f5b71198ec15fde39a9016af5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

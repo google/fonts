@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/cantataone"
-  commit: "12fb64c8cad39f95d18ea97713683cdebe08693a"
+  commit: "d5dba9030c571d45e9e9e6971ffa20d4336529ff"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

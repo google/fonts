@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2011-08-03"
 source {
   repository_url: "https://github.com/googlefonts/abel"
-  commit: "a68e5cfb801dfe266cdd8f5651e977f330757df2"
+  commit: "287af627694c877eed0e2fe6d375378e7d00720d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

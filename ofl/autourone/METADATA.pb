@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2012-05-15"
 source {
   repository_url: "https://github.com/googlefonts/autourone"
-  commit: "11d97fbce17c2eb0a2eb88eb560c4ecf8e7645ac"
+  commit: "2773d8996d23617e284fcad81a8b396f2f098696"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

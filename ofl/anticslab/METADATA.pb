@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2012-03-14"
 source {
   repository_url: "https://github.com/googlefonts/anticslab"
-  commit: "94821708c44ba2ac3c9bcd011141dbb888b0b26d"
+  commit: "53727d3f8f4e4ab3bf0f28aace4ecf7c8eecfb34"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

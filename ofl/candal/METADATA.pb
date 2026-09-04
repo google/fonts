@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2011-03-09"
 source {
   repository_url: "https://github.com/googlefonts/candal"
-  commit: "ed7ac22d003047196e34bcf6465f2ad5871493e8"
+  commit: "bfbce57a92b0b258efd685880d366d2c81e85777"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

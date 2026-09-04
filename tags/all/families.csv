@@ -224,8 +224,6 @@ Advent Pro,"wdth,wght@100,100",/Expressive/Futuristic,1
 Advent Pro,"wdth,wght@100,900",/Expressive/Futuristic,5
 Advent Pro,"wdth,wght@200,100",/Expressive/Futuristic,1
 Advent Pro,"wdth,wght@200,900",/Expressive/Futuristic,1
-Advent Pro,wght@100,/Expressive/Happy,5
-Advent Pro,wght@900,/Expressive/Happy,8
 Advent Pro,"wdth,wght@100,100",/Expressive/Loud,2
 Advent Pro,"wdth,wght@100,900",/Expressive/Loud,80
 Advent Pro,"wdth,wght@200,100",/Expressive/Loud,4
@@ -1009,6 +1007,7 @@ Alumni Sans SC,wght@900,/Expressive/Calm,14
 Alumni Sans SC,wght@100,/Expressive/Competent,29
 Alumni Sans SC,wght@900,/Expressive/Competent,29
 Alumni Sans SC,,/Expressive/Excited,10
+Alumni Sans SC,,/Expressive/Happy,10
 Alumni Sans SC,wght@600,/Expressive/Loud,55
 Alumni Sans SC,wght@900,/Expressive/Loud,75
 Alumni Sans SC,wght@100,/Expressive/Playful,1
@@ -1040,6 +1039,7 @@ Alumni Sans,,/Expressive/Excited,10
 Alumni Sans,wght@100,/Expressive/Futuristic,12
 Alumni Sans,wght@400,/Expressive/Futuristic,15
 Alumni Sans,wght@900,/Expressive/Futuristic,17
+Alumni Sans,,/Expressive/Happy,10
 Alumni Sans,wght@600,/Expressive/Loud,50
 Alumni Sans,wght@900,/Expressive/Loud,76
 Alumni Sans,wght@100,/Expressive/Playful,1
@@ -1979,8 +1979,10 @@ Anybody,"wdth,wght@50,100",/Expressive/Futuristic,2
 Anybody,"wdth,wght@50,900",/Expressive/Futuristic,5
 Anybody,"wdth,wght@150,100",/Expressive/Futuristic,1
 Anybody,"wdth,wght@150,900",/Expressive/Futuristic,1
-Anybody,wght@100,/Expressive/Happy,32
-Anybody,wght@900,/Expressive/Happy,35
+Anybody,"wdth,wght@50,100",/Expressive/Happy,1
+Anybody,"wdth,wght@50,900",/Expressive/Happy,1
+Anybody,"wdth,wght@150,100",/Expressive/Happy,25
+Anybody,"wdth,wght@150,900",/Expressive/Happy,25
 Anybody,"wdth,wght@50,100",/Expressive/Loud,1
 Anybody,"wdth,wght@50,900",/Expressive/Loud,90
 Anybody,"wdth,wght@150,100",/Expressive/Loud,8
@@ -2131,8 +2133,10 @@ Archivo,"wdth,wght@62,100",/Expressive/Cute,4
 Archivo,"wdth,wght@62,900",/Expressive/Cute,4
 Archivo,"wdth,wght@125,100",/Expressive/Cute,4
 Archivo,"wdth,wght@125,900",/Expressive/Cute,4
-Archivo,wght@100,/Expressive/Happy,18
-Archivo,wght@900,/Expressive/Happy,20
+Archivo,"wdth,wght@62,100",/Expressive/Happy,1
+Archivo,"wdth,wght@62,900",/Expressive/Happy,1
+Archivo,"wdth,wght@125,100",/Expressive/Happy,6
+Archivo,"wdth,wght@125,900",/Expressive/Happy,6
 Archivo,"wdth,wght@62,100",/Expressive/Loud,20
 Archivo,"wdth,wght@62,900",/Expressive/Loud,75
 Archivo,"wdth,wght@125,100",/Expressive/Loud,22
@@ -2367,8 +2371,10 @@ Asap,"wdth,wght@75,100",/Expressive/Excited,1
 Asap,"wdth,wght@75,900",/Expressive/Excited,11
 Asap,"wdth,wght@125,100",/Expressive/Excited,1
 Asap,"wdth,wght@125,900",/Expressive/Excited,12
-Asap,wght@100,/Expressive/Happy,12
-Asap,wght@900,/Expressive/Happy,16
+Asap,"wdth,wght@75,100",/Expressive/Happy,6
+Asap,"wdth,wght@75,900",/Expressive/Happy,45
+Asap,"wdth,wght@125,100",/Expressive/Happy,20
+Asap,"wdth,wght@125,900",/Expressive/Happy,25
 Asap,"wdth,wght@75,100",/Expressive/Loud,11
 Asap,"wdth,wght@75,900",/Expressive/Loud,73
 Asap,"wdth,wght@125,100",/Expressive/Loud,12
@@ -3991,8 +3997,10 @@ BioRhyme,"wdth,wght@100,200",/Expressive/Excited,1
 BioRhyme,"wdth,wght@100,800",/Expressive/Excited,22
 BioRhyme,"wdth,wght@125,200",/Expressive/Excited,1
 BioRhyme,"wdth,wght@125,800",/Expressive/Excited,24
-BioRhyme,wght@200,/Expressive/Happy,8
-BioRhyme,wght@800,/Expressive/Happy,12
+BioRhyme,"wdth,wght@100,200",/Expressive/Happy,6
+BioRhyme,"wdth,wght@100,800",/Expressive/Happy,12
+BioRhyme,"wdth,wght@125,200",/Expressive/Happy,40
+BioRhyme,"wdth,wght@125,800",/Expressive/Happy,45
 BioRhyme,wght@200,/Expressive/Innovative,45
 BioRhyme,wght@400,/Expressive/Innovative,55
 BioRhyme,wght@800,/Expressive/Innovative,60
@@ -4785,8 +4793,10 @@ Bricolage Grotesque,"wdth,wght@75,200",/Expressive/Futuristic,4
 Bricolage Grotesque,"wdth,wght@75,800",/Expressive/Futuristic,12
 Bricolage Grotesque,"wdth,wght@100,200",/Expressive/Futuristic,4
 Bricolage Grotesque,"wdth,wght@100,800",/Expressive/Futuristic,8
-Bricolage Grotesque,wght@200,/Expressive/Happy,33
-Bricolage Grotesque,wght@800,/Expressive/Happy,35
+Bricolage Grotesque,"wdth,wght@75,200",/Expressive/Happy,9
+Bricolage Grotesque,"wdth,wght@75,800",/Expressive/Happy,9
+Bricolage Grotesque,"wdth,wght@100,200",/Expressive/Happy,22
+Bricolage Grotesque,"wdth,wght@100,800",/Expressive/Happy,25
 Bricolage Grotesque,"wdth,wght@75,200",/Expressive/Loud,10
 Bricolage Grotesque,"wdth,wght@75,800",/Expressive/Loud,70
 Bricolage Grotesque,"wdth,wght@100,200",/Expressive/Loud,14
@@ -5164,8 +5174,10 @@ Cabin,"wdth,wght@75,400",/Expressive/Cute,4
 Cabin,"wdth,wght@75,700",/Expressive/Cute,4
 Cabin,"wdth,wght@100,400",/Expressive/Cute,4
 Cabin,"wdth,wght@100,700",/Expressive/Cute,4
-Cabin,wght@400,/Expressive/Happy,10
-Cabin,wght@700,/Expressive/Happy,1
+Cabin,"wdth,wght@75,400",/Expressive/Happy,10
+Cabin,"wdth,wght@75,700",/Expressive/Happy,12
+Cabin,"wdth,wght@100,400",/Expressive/Happy,10
+Cabin,"wdth,wght@100,700",/Expressive/Happy,14
 Cabin,"wdth,wght@75,400",/Expressive/Loud,18
 Cabin,"wdth,wght@75,700",/Expressive/Loud,45
 Cabin,"wdth,wght@100,400",/Expressive/Loud,20
@@ -7631,8 +7643,10 @@ DynaPuff,"wdth,wght@75,400",/Expressive/Excited,12
 DynaPuff,"wdth,wght@75,700",/Expressive/Excited,18
 DynaPuff,"wdth,wght@100,400",/Expressive/Excited,12
 DynaPuff,"wdth,wght@100,700",/Expressive/Excited,22
-DynaPuff,wght@400,/Expressive/Happy,92
-DynaPuff,wght@700,/Expressive/Happy,96
+DynaPuff,"wdth,wght@75,400",/Expressive/Happy,92
+DynaPuff,"wdth,wght@75,700",/Expressive/Happy,93
+DynaPuff,"wdth,wght@100,400",/Expressive/Happy,92
+DynaPuff,"wdth,wght@100,700",/Expressive/Happy,94
 DynaPuff,wght@400,/Expressive/Innovative,30
 DynaPuff,wght@700,/Expressive/Innovative,40
 DynaPuff,"wdth,wght@75,400",/Expressive/Loud,11
@@ -9326,8 +9340,10 @@ Fredoka,"wdth,wght@75,300",/Expressive/Excited,1
 Fredoka,"wdth,wght@75,700",/Expressive/Excited,5
 Fredoka,"wdth,wght@125,300",/Expressive/Excited,5
 Fredoka,"wdth,wght@125,700",/Expressive/Excited,8
-Fredoka,wght@300,/Expressive/Happy,40
-Fredoka,wght@700,/Expressive/Happy,45
+Fredoka,"wdth,wght@75,300",/Expressive/Happy,50
+Fredoka,"wdth,wght@75,700",/Expressive/Happy,55
+Fredoka,"wdth,wght@125,300",/Expressive/Happy,54
+Fredoka,"wdth,wght@125,700",/Expressive/Happy,58
 Fredoka,"wdth,wght@75,300",/Expressive/Loud,42
 Fredoka,"wdth,wght@75,700",/Expressive/Loud,75
 Fredoka,"wdth,wght@125,300",/Expressive/Loud,52
@@ -10023,8 +10039,10 @@ Georama,"wdth,wght@62.5,100",/Expressive/Cute,3
 Georama,"wdth,wght@62.5,900",/Expressive/Cute,8
 Georama,"wdth,wght@150,100",/Expressive/Cute,9
 Georama,"wdth,wght@150,900",/Expressive/Cute,12
-Georama,wght@100,/Expressive/Happy,8
-Georama,wght@900,/Expressive/Happy,12
+Georama,"wdth,wght@62.5,100",/Expressive/Happy,2
+Georama,"wdth,wght@62.5,900",/Expressive/Happy,3
+Georama,"wdth,wght@150,100",/Expressive/Happy,33
+Georama,"wdth,wght@150,900",/Expressive/Happy,30
 Georama,"wdth,wght@62.5,100",/Expressive/Loud,12
 Georama,"wdth,wght@62.5,900",/Expressive/Loud,79
 Georama,"wdth,wght@150,100",/Expressive/Loud,25
@@ -11852,6 +11870,10 @@ Inconsolata,"wdth,wght@50,200",/Expressive/Futuristic,25
 Inconsolata,"wdth,wght@50,900",/Expressive/Futuristic,25
 Inconsolata,"wdth,wght@200,200",/Expressive/Futuristic,30
 Inconsolata,"wdth,wght@200,900",/Expressive/Futuristic,30
+Inconsolata,"wdth,wght@50,200",/Expressive/Happy,1
+Inconsolata,"wdth,wght@50,900",/Expressive/Happy,1
+Inconsolata,"wdth,wght@200,200",/Expressive/Happy,12
+Inconsolata,"wdth,wght@200,900",/Expressive/Happy,12
 Inconsolata,"wdth,wght@50,200",/Expressive/Loud,12
 Inconsolata,"wdth,wght@50,900",/Expressive/Loud,60
 Inconsolata,"wdth,wght@200,200",/Expressive/Loud,70
@@ -12003,6 +12025,10 @@ Instrument Sans,"wdth,wght@75,400",/Expressive/Cute,4
 Instrument Sans,"wdth,wght@75,700",/Expressive/Cute,4
 Instrument Sans,"wdth,wght@100,400",/Expressive/Cute,4
 Instrument Sans,"wdth,wght@100,700",/Expressive/Cute,4
+Instrument Sans,"wdth,wght@75,400",/Expressive/Happy,1
+Instrument Sans,"wdth,wght@75,700",/Expressive/Happy,1
+Instrument Sans,"wdth,wght@100,400",/Expressive/Happy,6
+Instrument Sans,"wdth,wght@100,700",/Expressive/Happy,6
 Instrument Sans,"wdth,wght@75,400",/Expressive/Loud,1
 Instrument Sans,"wdth,wght@75,700",/Expressive/Loud,50
 Instrument Sans,"wdth,wght@100,400",/Expressive/Loud,1
@@ -12934,8 +12960,10 @@ Kalnia Glaze,"wdth,wght@100,100",/Expressive/Fancy,20
 Kalnia Glaze,"wdth,wght@100,700",/Expressive/Fancy,52
 Kalnia Glaze,"wdth,wght@125,100",/Expressive/Fancy,30
 Kalnia Glaze,"wdth,wght@125,700",/Expressive/Fancy,50
-Kalnia Glaze,wght@100,/Expressive/Happy,45
-Kalnia Glaze,wght@700,/Expressive/Happy,50
+Kalnia Glaze,"wdth,wght@100,100",/Expressive/Happy,24
+Kalnia Glaze,"wdth,wght@100,700",/Expressive/Happy,22
+Kalnia Glaze,"wdth,wght@125,100",/Expressive/Happy,66
+Kalnia Glaze,"wdth,wght@125,700",/Expressive/Happy,68
 Kalnia Glaze,wght@100,/Expressive/Innovative,70
 Kalnia Glaze,wght@400,/Expressive/Innovative,75
 Kalnia Glaze,wght@700,/Expressive/Innovative,89
@@ -12988,8 +13016,10 @@ Kalnia,"wdth,wght@100,100",/Expressive/Fancy,13
 Kalnia,"wdth,wght@100,700",/Expressive/Fancy,45
 Kalnia,"wdth,wght@125,100",/Expressive/Fancy,24
 Kalnia,"wdth,wght@125,700",/Expressive/Fancy,38
-Kalnia,wght@100,/Expressive/Happy,15
-Kalnia,wght@700,/Expressive/Happy,20
+Kalnia,"wdth,wght@100,100",/Expressive/Happy,14
+Kalnia,"wdth,wght@100,700",/Expressive/Happy,12
+Kalnia,"wdth,wght@125,100",/Expressive/Happy,56
+Kalnia,"wdth,wght@125,700",/Expressive/Happy,58
 Kalnia,"wdth,wght@100,100",/Expressive/Loud,20
 Kalnia,"wdth,wght@100,700",/Expressive/Loud,82
 Kalnia,"wdth,wght@125,100",/Expressive/Loud,70
@@ -15617,6 +15647,10 @@ Martian Mono,"wdth,wght@75,100",/Expressive/Futuristic,18
 Martian Mono,"wdth,wght@75,800",/Expressive/Futuristic,45
 Martian Mono,"wdth,wght@112.5,100",/Expressive/Futuristic,20
 Martian Mono,"wdth,wght@112.5,800",/Expressive/Futuristic,44
+Martian Mono,"wdth,wght@75,100",/Expressive/Happy,1
+Martian Mono,"wdth,wght@75,800",/Expressive/Happy,1
+Martian Mono,"wdth,wght@112.5,100",/Expressive/Happy,5
+Martian Mono,"wdth,wght@112.5,800",/Expressive/Happy,5
 Martian Mono,"wdth,wght@75,100",/Expressive/Loud,20
 Martian Mono,"wdth,wght@75,800",/Expressive/Loud,70
 Martian Mono,"wdth,wght@112.5,100",/Expressive/Loud,40
@@ -15924,6 +15958,7 @@ Merriweather Sans,wght@800,/Expressive/Competent,82
 Merriweather Sans,wght@300,/Expressive/Futuristic,10
 Merriweather Sans,wght@400,/Expressive/Futuristic,10
 Merriweather Sans,wght@800,/Expressive/Futuristic,12
+Merriweather Sans,,/Expressive/Happy,5
 Merriweather Sans,,/Expressive/Loud,6
 Merriweather Sans,wght@300,/Expressive/Playful,1
 Merriweather Sans,wght@800,/Expressive/Playful,1
@@ -21745,8 +21780,10 @@ Nunito Sans,"wdth,wght@75,200",/Expressive/Excited,1
 Nunito Sans,"wdth,wght@75,1000",/Expressive/Excited,1
 Nunito Sans,"wdth,wght@125,200",/Expressive/Excited,1
 Nunito Sans,"wdth,wght@125,1000",/Expressive/Excited,6
-Nunito Sans,wght@200,/Expressive/Happy,6
-Nunito Sans,wght@1000,/Expressive/Happy,8
+Nunito Sans,"wdth,wght@75,200",/Expressive/Happy,11
+Nunito Sans,"wdth,wght@75,1000",/Expressive/Happy,12
+Nunito Sans,"wdth,wght@125,200",/Expressive/Happy,44
+Nunito Sans,"wdth,wght@125,1000",/Expressive/Happy,45
 Nunito Sans,"wdth,wght@75,200",/Expressive/Loud,12
 Nunito Sans,"wdth,wght@75,1000",/Expressive/Loud,76
 Nunito Sans,"wdth,wght@125,200",/Expressive/Loud,16
@@ -23130,6 +23167,10 @@ Playfair,"wdth,wght@87.5,300",/Expressive/Cute,8
 Playfair,"wdth,wght@87.5,900",/Expressive/Cute,8
 Playfair,"wdth,wght@112.5,300",/Expressive/Cute,8
 Playfair,"wdth,wght@112.5,900",/Expressive/Cute,8
+Playfair,"wdth,wght@87.5,300",/Expressive/Happy,14
+Playfair,"wdth,wght@87.5,900",/Expressive/Happy,16
+Playfair,"wdth,wght@112.5,300",/Expressive/Happy,16
+Playfair,"wdth,wght@112.5,900",/Expressive/Happy,18
 Playfair,"wdth,wght@87.5,300",/Expressive/Loud,20
 Playfair,"wdth,wght@87.5,900",/Expressive/Loud,45
 Playfair,"wdth,wght@112.5,300",/Expressive/Loud,20
@@ -25783,6 +25824,7 @@ Raleway,wght@100,/Expressive/Calm,77
 Raleway,wght@900,/Expressive/Calm,70
 Raleway,wght@100,/Expressive/Competent,75
 Raleway,wght@900,/Expressive/Competent,75
+Raleway,,/Expressive/Happy,20
 Raleway,wght@600,/Expressive/Loud,42
 Raleway,wght@900,/Expressive/Loud,88
 Raleway,wght@100,/Expressive/Playful,1
@@ -29028,8 +29070,10 @@ Sour Gummy,"wdth,wght@100,100",/Expressive/Excited,48
 Sour Gummy,"wdth,wght@100,900",/Expressive/Excited,50
 Sour Gummy,"wdth,wght@125,100",/Expressive/Excited,54
 Sour Gummy,"wdth,wght@125,900",/Expressive/Excited,60
-Sour Gummy,wght@100,/Expressive/Happy,60
-Sour Gummy,wght@900,/Expressive/Happy,80
+Sour Gummy,"wdth,wght@100,100",/Expressive/Happy,80
+Sour Gummy,"wdth,wght@100,900",/Expressive/Happy,83
+Sour Gummy,"wdth,wght@125,100",/Expressive/Happy,88
+Sour Gummy,"wdth,wght@125,900",/Expressive/Happy,90
 Sour Gummy,"wdth,wght@100,100",/Expressive/Loud,30
 Sour Gummy,"wdth,wght@100,900",/Expressive/Loud,83
 Sour Gummy,"wdth,wght@125,100",/Expressive/Loud,35
@@ -30342,6 +30386,10 @@ TikTok Sans,"wdth,wght@75,300",/Expressive/Cute,3
 TikTok Sans,"wdth,wght@75,900",/Expressive/Cute,3
 TikTok Sans,"wdth,wght@150,300",/Expressive/Cute,3
 TikTok Sans,"wdth,wght@150,900",/Expressive/Cute,3
+TikTok Sans,"wdth,wght@75,300",/Expressive/Happy,2
+TikTok Sans,"wdth,wght@75,900",/Expressive/Happy,6
+TikTok Sans,"wdth,wght@150,300",/Expressive/Happy,6
+TikTok Sans,"wdth,wght@150,900",/Expressive/Happy,12
 TikTok Sans,"wdth,wght@75,300",/Expressive/Loud,12
 TikTok Sans,"wdth,wght@75,900",/Expressive/Loud,70
 TikTok Sans,"wdth,wght@150,300",/Expressive/Loud,35
@@ -30793,8 +30841,10 @@ Truculenta,"wdth,wght@75,100",/Expressive/Excited,48
 Truculenta,"wdth,wght@75,900",/Expressive/Excited,60
 Truculenta,"wdth,wght@125,100",/Expressive/Excited,50
 Truculenta,"wdth,wght@125,900",/Expressive/Excited,65
-Truculenta,wght@100,/Expressive/Happy,68
-Truculenta,wght@900,/Expressive/Happy,74
+Truculenta,"wdth,wght@75,100",/Expressive/Happy,70
+Truculenta,"wdth,wght@75,900",/Expressive/Happy,74
+Truculenta,"wdth,wght@125,100",/Expressive/Happy,74
+Truculenta,"wdth,wght@125,900",/Expressive/Happy,78
 Truculenta,"wdth,wght@75,100",/Expressive/Loud,50
 Truculenta,"wdth,wght@75,900",/Expressive/Loud,83
 Truculenta,"wdth,wght@125,100",/Expressive/Loud,60
@@ -32239,6 +32289,7 @@ Ysabeau SC,wght@1,/Expressive/Calm,18
 Ysabeau SC,wght@1000,/Expressive/Calm,14
 Ysabeau SC,wght@1,/Expressive/Competent,32
 Ysabeau SC,wght@1000,/Expressive/Competent,32
+Ysabeau SC,,/Expressive/Happy,10
 Ysabeau SC,wght@600,/Expressive/Loud,27
 Ysabeau SC,wght@900,/Expressive/Loud,84
 Ysabeau SC,wght@1,/Expressive/Playful,1
@@ -32456,6 +32507,7 @@ Zalando Sans Expanded,wght@200,/Expressive/Calm,42
 Zalando Sans Expanded,wght@900,/Expressive/Calm,36
 Zalando Sans Expanded,wght@200,/Expressive/Competent,40
 Zalando Sans Expanded,wght@900,/Expressive/Competent,40
+Zalando Sans Expanded,,/Expressive/Happy,10
 Zalando Sans Expanded,wght@600,/Expressive/Loud,54
 Zalando Sans Expanded,wght@900,/Expressive/Loud,89
 Zalando Sans Expanded,wght@200,/Expressive/Playful,1

@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2011-12-13"
 source {
   repository_url: "https://github.com/googlefonts/bilboswashcaps"
-  commit: "ee601350e786d859e659a17d05934e1a62cb4785"
+  commit: "43f17107cce1c680ccf6d8e959f26dc4ac7d1823"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -26,7 +26,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/elsie"
-  commit: "32783244780b4fdd904d5a1aa3f45a25c76ed15f"
+  commit: "5dc3946767fc57b80f3aec071dc15d5bff1fe491"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

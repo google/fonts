@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/inder"
-  commit: "e4d4209a92fbe490892b0a6dbac6d61369f32f60"
+  commit: "0021128e5c59fff5b5df39abf96267d089922311"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

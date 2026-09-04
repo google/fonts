@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/cambo"
-  commit: "a2c35dbad5014c97b1ca438b895d95c7411e0e04"
+  commit: "b011c20463fc7ab1930253d978d6504da299e848"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

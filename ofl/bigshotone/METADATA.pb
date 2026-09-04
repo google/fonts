@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-05-04"
 source {
   repository_url: "https://github.com/googlefonts/bigshotone"
-  commit: "354d1d8880d46e04cf3b57980e6d56d1a5e1400d"
+  commit: "f29b15c2cb862fd0f2cadbe1929dc0786ac87225"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2010-12-07"
 source {
   repository_url: "https://github.com/googlefonts/coveredbyyourgrace"
-  commit: "705a49490c07c9e76f1ba8dc2d4f56d1b7bbf42c"
+  commit: "ec5beabb11b92f63abd716bac8d181b763bc366e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

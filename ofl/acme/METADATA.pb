@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/acme"
-  commit: "d78cd61343e6d3bb3d00d8836d727fa1b7ac02fa"
+  commit: "33ccde2d61442c1f6c09125ba26fe4ff0ccee834"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

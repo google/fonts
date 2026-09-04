@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/almendrasc"
-  commit: "e4303f5636ecd733268fc4ae29dd16d2c894cc3d"
+  commit: "1b444171b7021e5d011427d7404387cf31bd88fc"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

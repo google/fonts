@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/durusans"
-  commit: "d1fe3f7222addb4f12bf8fd244a26e9304a7a376"
+  commit: "43875057a510192707f378af813ecd280b6bbc02"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

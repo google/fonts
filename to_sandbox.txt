@@ -9,8 +9,6 @@ ofl/akshar # https://github.com/google/fonts/pull/10888
 ofl/hedvigletterssans # https://github.com/google/fonts/pull/10844
 ofl/hedviglettersserif # https://github.com/google/fonts/pull/10845
 ofl/notocoloremoji # https://github.com/google/fonts/pull/10891
-ofl/notokufiarabic # https://github.com/google/fonts/pull/9920
-ofl/notosansarabic # https://github.com/google/fonts/pull/9919
 ofl/notoseriftoto # https://github.com/google/fonts/pull/10840
 
 # Designer profile
@@ -28,3 +26,6 @@ lang/languages/kjh_Cyrl.textproto # https://github.com/google/fonts/pull/10864
 
 # Other
 ofl/yomogi # https://github.com/google/fonts/pull/10802
+
+# Tags
+tags/all/families.csv

@@ -19,7 +19,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/drsugiyama"
-  commit: "67e9b2e25cd7b9bde6ea5d5001fce5da54a9e877"
+  commit: "277b8789c528b1d6deb4d4e8a89646f33eb2c0bf"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

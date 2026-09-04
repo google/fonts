@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-11-23"
 source {
   repository_url: "https://github.com/googlefonts/concertone"
-  commit: "b002b9370c7365b13d6a79e4718eb6aa8e3d0dc6"
+  commit: "d68fc365f489c262c4fb6c3d8488f06f6941c569"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

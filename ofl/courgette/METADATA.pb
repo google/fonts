@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2012-07-10"
 source {
   repository_url: "https://github.com/googlefonts/courgette"
-  commit: "dcdd6f44e43530c55ae4d154b23b8f2fbb0e137f"
+  commit: "c7884413c3ff6401df0abd685b20e7d419db2684"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

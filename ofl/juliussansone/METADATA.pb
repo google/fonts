@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/juliussansone"
-  commit: "6e629197948d3aef530fba4cfa8f9e754b947cc1"
+  commit: "cc06b179d53ad0be099838f083c556b5d1415ca6"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

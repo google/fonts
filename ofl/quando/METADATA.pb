@@ -19,7 +19,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/quando"
-  commit: "bba03c60be43e46037df543ccce62fe7c7582b64"
+  commit: "097ef0d66cfa4118a3e05bc76d55ccf103129e82"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

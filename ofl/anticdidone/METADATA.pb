@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2012-03-14"
 source {
   repository_url: "https://github.com/googlefonts/anticdidone"
-  commit: "a69ba5c398a94f60b93bf779c1d9c2dc27975258"
+  commit: "078e3e73a45ea71a9b0b1b67e7df91ce0e0b2f9b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

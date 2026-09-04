@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/asul"
-  commit: "d3179dc9cff2434b299a698af0183d191e31e925"
+  commit: "bdc50bf9e7acedd365c0e33e84a5ae7f5c09a5c9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

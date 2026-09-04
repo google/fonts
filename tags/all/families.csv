@@ -2205,8 +2205,10 @@ Archivo,"wdth,wght@62,100",/Expressive/Sincere,1
 Archivo,"wdth,wght@62,900",/Expressive/Sincere,1
 Archivo,"wdth,wght@125,100",/Expressive/Sincere,20
 Archivo,"wdth,wght@125,900",/Expressive/Sincere,1
-Archivo,wght@100,/Expressive/Stiff,1
-Archivo,wght@900,/Expressive/Stiff,1
+Archivo,"wdth,wght@62,100",/Expressive/Stiff,60
+Archivo,"wdth,wght@62,900",/Expressive/Stiff,40
+Archivo,"wdth,wght@125,100",/Expressive/Stiff,60
+Archivo,"wdth,wght@125,900",/Expressive/Stiff,30
 Archivo,,/Quality/Concept,70
 Archivo,,/Quality/Drawing,75
 Archivo,,/Quality/Spacing,70
@@ -4878,8 +4880,10 @@ Bricolage Grotesque,"wdth,wght@75,200",/Expressive/Sincere,1
 Bricolage Grotesque,"wdth,wght@75,800",/Expressive/Sincere,1
 Bricolage Grotesque,"wdth,wght@100,200",/Expressive/Sincere,18
 Bricolage Grotesque,"wdth,wght@100,800",/Expressive/Sincere,1
-Bricolage Grotesque,wght@200,/Expressive/Stiff,5
-Bricolage Grotesque,wght@800,/Expressive/Stiff,5
+Bricolage Grotesque,"wdth,wght@75,200",/Expressive/Stiff,50
+Bricolage Grotesque,"wdth,wght@75,800",/Expressive/Stiff,40
+Bricolage Grotesque,"wdth,wght@100,200",/Expressive/Stiff,45
+Bricolage Grotesque,"wdth,wght@100,800",/Expressive/Stiff,35
 Bricolage Grotesque,,/Quality/Concept,80
 Bricolage Grotesque,,/Quality/Drawing,80
 Bricolage Grotesque,,/Quality/Spacing,90
@@ -5263,8 +5267,10 @@ Cabin,"wdth,wght@75,400",/Expressive/Sincere,30
 Cabin,"wdth,wght@75,700",/Expressive/Sincere,10
 Cabin,"wdth,wght@100,400",/Expressive/Sincere,30
 Cabin,"wdth,wght@100,700",/Expressive/Sincere,22
-Cabin,wght@400,/Expressive/Stiff,5
-Cabin,wght@700,/Expressive/Stiff,5
+Cabin,"wdth,wght@75,400",/Expressive/Stiff,42
+Cabin,"wdth,wght@75,700",/Expressive/Stiff,42
+Cabin,"wdth,wght@100,400",/Expressive/Stiff,45
+Cabin,"wdth,wght@100,700",/Expressive/Stiff,45
 Cabin,,/Quality/Concept,70
 Cabin,,/Quality/Drawing,70
 Cabin,,/Quality/Spacing,80
@@ -5715,6 +5721,7 @@ Catamaran,wght@900,/Expressive/Loud,80
 Catamaran,wght@100,/Expressive/Playful,4
 Catamaran,wght@900,/Expressive/Playful,12
 Catamaran,,/Expressive/Rugged,50
+Catamaran,,/Expressive/Stiff,18
 Catamaran,,/Quality/Concept,70
 Catamaran,,/Quality/Drawing,70
 Catamaran,,/Quality/Spacing,70
@@ -6536,6 +6543,7 @@ Comme,wght@900,/Expressive/Loud,82
 Comme,wght@100,/Expressive/Playful,1
 Comme,wght@900,/Expressive/Playful,1
 Comme,,/Expressive/Rugged,50
+Comme,,/Expressive/Stiff,5
 Comme,,/Quality/Concept,70
 Comme,,/Quality/Drawing,65
 Comme,,/Quality/Spacing,70
@@ -6555,6 +6563,7 @@ Commissioner,wght@100,/Expressive/Playful,2
 Commissioner,wght@900,/Expressive/Playful,8
 Commissioner,wght@100,/Expressive/Rugged,2
 Commissioner,wght@900,/Expressive/Rugged,25
+Commissioner,,/Expressive/Stiff,10
 Commissioner,,/Quality/Concept,80
 Commissioner,,/Quality/Drawing,80
 Commissioner,,/Quality/Spacing,90
@@ -7623,6 +7632,7 @@ Dosis,wght@200,/Expressive/Happy,10
 Dosis,wght@800,/Expressive/Happy,12
 Dosis,,/Expressive/Playful,6
 Dosis,,/Expressive/Rugged,30
+Dosis,,/Expressive/Stiff,20
 Dosis,,/Quality/Concept,50
 Dosis,,/Quality/Drawing,40
 Dosis,,/Quality/Spacing,70
@@ -8641,6 +8651,7 @@ Estedad,wght@100,/Expressive/Playful,1
 Estedad,wght@900,/Expressive/Playful,1
 Estedad,wght@100,/Expressive/Rugged,1
 Estedad,wght@900,/Expressive/Rugged,6
+Estedad,,/Expressive/Stiff,10
 Estedad,,/Quality/Concept,70
 Estedad,,/Quality/Drawing,70
 Estedad,,/Quality/Spacing,70
@@ -9495,6 +9506,10 @@ Fredoka,"wdth,wght@125,700",/Expressive/Loud,78
 Fredoka,,/Expressive/Playful,25
 Fredoka,wght@300,/Expressive/Sincere,10
 Fredoka,wght@700,/Expressive/Sincere,10
+Fredoka,"wdth,wght@75,300",/Expressive/Stiff,12
+Fredoka,"wdth,wght@75,700",/Expressive/Stiff,4
+Fredoka,"wdth,wght@125,300",/Expressive/Stiff,6
+Fredoka,"wdth,wght@125,700",/Expressive/Stiff,8
 Fredoka,wght@300,/Expressive/Vintage,12
 Fredoka,wght@700,/Expressive/Vintage,15
 Fredoka,,/Quality/Concept,70
@@ -9891,6 +9906,7 @@ Gantari,wght@100,/Expressive/Playful,1
 Gantari,wght@900,/Expressive/Playful,1
 Gantari,wght@100,/Expressive/Rugged,5
 Gantari,wght@900,/Expressive/Rugged,20
+Gantari,,/Expressive/Stiff,20
 Gantari,,/Quality/Concept,70
 Gantari,,/Quality/Drawing,68
 Gantari,,/Quality/Spacing,60
@@ -10059,6 +10075,7 @@ Genos,wght@100,/Expressive/Playful,26
 Genos,wght@900,/Expressive/Playful,30
 Genos,wght@100,/Expressive/Rugged,5
 Genos,wght@900,/Expressive/Rugged,20
+Genos,,/Expressive/Stiff,65
 Genos,,/Quality/Concept,60
 Genos,,/Quality/Drawing,65
 Genos,,/Quality/Spacing,60
@@ -10113,6 +10130,7 @@ Geologica,wght@100,/Expressive/Playful,1
 Geologica,wght@900,/Expressive/Playful,1
 Geologica,wght@100,/Expressive/Rugged,8
 Geologica,wght@900,/Expressive/Rugged,40
+Geologica,,/Expressive/Stiff,20
 Geologica,wght@100,/Expressive/Vintage,10
 Geologica,wght@900,/Expressive/Vintage,10
 Geologica,,/Quality/Concept,70
@@ -10200,6 +10218,7 @@ Georama,"wdth,wght@62.5,100",/Expressive/Sincere,1
 Georama,"wdth,wght@62.5,900",/Expressive/Sincere,1
 Georama,"wdth,wght@150,100",/Expressive/Sincere,4
 Georama,"wdth,wght@150,900",/Expressive/Sincere,1
+Georama,,/Expressive/Stiff,20
 Georama,,/Quality/Concept,60
 Georama,,/Quality/Drawing,50
 Georama,,/Quality/Spacing,70
@@ -10545,6 +10564,10 @@ Google Sans Flex,"wdth,wght@25,1",/Expressive/Sincere,1
 Google Sans Flex,"wdth,wght@25,1000",/Expressive/Sincere,1
 Google Sans Flex,"wdth,wght@151,1",/Expressive/Sincere,3
 Google Sans Flex,"wdth,wght@151,1000",/Expressive/Sincere,1
+Google Sans Flex,"wdth,wght@25,1",/Expressive/Stiff,50
+Google Sans Flex,"wdth,wght@25,1000",/Expressive/Stiff,40
+Google Sans Flex,"wdth,wght@151,1",/Expressive/Stiff,50
+Google Sans Flex,"wdth,wght@151,1000",/Expressive/Stiff,45
 Google Sans Flex,,/Quality/Concept,100
 Google Sans Flex,,/Quality/Drawing,100
 Google Sans Flex,,/Quality/Spacing,100
@@ -11107,6 +11130,7 @@ Hanken Grotesk,wght@100,/Expressive/Playful,1
 Hanken Grotesk,wght@900,/Expressive/Playful,1
 Hanken Grotesk,wght@100,/Expressive/Rugged,1
 Hanken Grotesk,wght@900,/Expressive/Rugged,20
+Hanken Grotesk,,/Expressive/Stiff,20
 Hanken Grotesk,,/Quality/Concept,70
 Hanken Grotesk,,/Quality/Drawing,65
 Hanken Grotesk,,/Quality/Spacing,70
@@ -11460,6 +11484,7 @@ Host Grotesk,wght@300,/Expressive/Playful,1
 Host Grotesk,wght@800,/Expressive/Playful,1
 Host Grotesk,wght@300,/Expressive/Rugged,1
 Host Grotesk,wght@800,/Expressive/Rugged,12
+Host Grotesk,,/Expressive/Stiff,5
 Host Grotesk,,/Quality/Concept,70
 Host Grotesk,,/Quality/Drawing,70
 Host Grotesk,,/Quality/Spacing,70
@@ -11523,6 +11548,10 @@ Hubot Sans,"wdth,wght@75,200",/Expressive/Sincere,1
 Hubot Sans,"wdth,wght@75,900",/Expressive/Sincere,1
 Hubot Sans,"wdth,wght@125,200",/Expressive/Sincere,24
 Hubot Sans,"wdth,wght@125,900",/Expressive/Sincere,1
+Hubot Sans,"wdth,wght@75,200",/Expressive/Stiff,52
+Hubot Sans,"wdth,wght@75,900",/Expressive/Stiff,54
+Hubot Sans,"wdth,wght@125,200",/Expressive/Stiff,50
+Hubot Sans,"wdth,wght@125,900",/Expressive/Stiff,50
 Hubot Sans,,/Quality/Concept,70
 Hubot Sans,,/Quality/Drawing,70
 Hubot Sans,,/Quality/Spacing,80
@@ -11727,6 +11756,7 @@ IBM Plex Sans,"wdth,wght@100,100",/Expressive/Loud,8
 IBM Plex Sans,"wdth,wght@100,700",/Expressive/Loud,62
 IBM Plex Sans,wght@100,/Expressive/Playful,1
 IBM Plex Sans,wght@700,/Expressive/Playful,1
+IBM Plex Sans,,/Expressive/Stiff,20
 IBM Plex Sans,,/Quality/Concept,70
 IBM Plex Sans,,/Quality/Drawing,70
 IBM Plex Sans,,/Quality/Spacing,79
@@ -12038,8 +12068,10 @@ Inconsolata,"wdth,wght@200,200",/Expressive/Loud,70
 Inconsolata,"wdth,wght@200,900",/Expressive/Loud,80
 Inconsolata,wght@200,/Expressive/Playful,1
 Inconsolata,wght@900,/Expressive/Playful,1
-Inconsolata,wght@200,/Expressive/Stiff,70
-Inconsolata,wght@900,/Expressive/Stiff,74
+Inconsolata,"wdth,wght@50,200",/Expressive/Stiff,60
+Inconsolata,"wdth,wght@50,900",/Expressive/Stiff,60
+Inconsolata,"wdth,wght@200,200",/Expressive/Stiff,42
+Inconsolata,"wdth,wght@200,900",/Expressive/Stiff,42
 Inconsolata,,/Monospace/Monospace,100
 Inconsolata,,/Quality/Concept,60
 Inconsolata,,/Quality/Drawing,50
@@ -12195,6 +12227,10 @@ Instrument Sans,"wdth,wght@75,400",/Expressive/Sincere,63
 Instrument Sans,"wdth,wght@75,700",/Expressive/Sincere,40
 Instrument Sans,"wdth,wght@100,400",/Expressive/Sincere,63
 Instrument Sans,"wdth,wght@100,700",/Expressive/Sincere,45
+Instrument Sans,"wdth,wght@75,400",/Expressive/Stiff,54
+Instrument Sans,"wdth,wght@75,700",/Expressive/Stiff,52
+Instrument Sans,"wdth,wght@100,400",/Expressive/Stiff,50
+Instrument Sans,"wdth,wght@100,700",/Expressive/Stiff,48
 Instrument Sans,wght@400,/Expressive/Vintage,20
 Instrument Sans,wght@700,/Expressive/Vintage,20
 Instrument Sans,,/Quality/Concept,70
@@ -13262,6 +13298,7 @@ Kantumruy Pro,wght@100,/Expressive/Playful,1
 Kantumruy Pro,wght@700,/Expressive/Playful,1
 Kantumruy Pro,wght@100,/Expressive/Rugged,1
 Kantumruy Pro,wght@700,/Expressive/Rugged,12
+Kantumruy Pro,,/Expressive/Stiff,20
 Kantumruy Pro,,/Quality/Concept,70
 Kantumruy Pro,,/Quality/Drawing,75
 Kantumruy Pro,,/Quality/Spacing,80
@@ -13342,6 +13379,7 @@ Karla,wght@200,/Expressive/Playful,1
 Karla,wght@800,/Expressive/Playful,1
 Karla,wght@200,/Expressive/Rugged,6
 Karla,wght@800,/Expressive/Rugged,13
+Karla,,/Expressive/Stiff,20
 Karla,wght@200,/Expressive/Vintage,20
 Karla,wght@800,/Expressive/Vintage,30
 Karla,,/Quality/Concept,70
@@ -15386,6 +15424,7 @@ Mada,wght@900,/Expressive/Loud,83
 Mada,wght@200,/Expressive/Playful,1
 Mada,wght@900,/Expressive/Playful,1
 Mada,,/Expressive/Rugged,40
+Mada,,/Expressive/Stiff,8
 Mada,,/Quality/Concept,70
 Mada,,/Quality/Drawing,70
 Mada,,/Quality/Spacing,70
@@ -15603,6 +15642,7 @@ Manuale,wght@300,/Expressive/Rugged,4
 Manuale,wght@800,/Expressive/Rugged,14
 Manuale,wght@300,/Expressive/Sincere,78
 Manuale,wght@800,/Expressive/Sincere,76
+Manuale,,/Expressive/Stiff,20
 Manuale,wght@300,/Expressive/Vintage,21
 Manuale,wght@800,/Expressive/Vintage,30
 Manuale,,/Quality/Concept,60
@@ -16137,6 +16177,7 @@ Merriweather Sans,wght@300,/Expressive/Rugged,3
 Merriweather Sans,wght@800,/Expressive/Rugged,13
 Merriweather Sans,wght@300,/Expressive/Sincere,35
 Merriweather Sans,wght@800,/Expressive/Sincere,33
+Merriweather Sans,,/Expressive/Stiff,10
 Merriweather Sans,,/Quality/Concept,80
 Merriweather Sans,,/Quality/Drawing,80
 Merriweather Sans,,/Quality/Spacing,70
@@ -16693,6 +16734,10 @@ Mona Sans,"wdth,wght@75,200",/Expressive/Sincere,8
 Mona Sans,"wdth,wght@75,900",/Expressive/Sincere,3
 Mona Sans,"wdth,wght@125,200",/Expressive/Sincere,26
 Mona Sans,"wdth,wght@125,900",/Expressive/Sincere,6
+Mona Sans,"wdth,wght@75,200",/Expressive/Stiff,54
+Mona Sans,"wdth,wght@75,900",/Expressive/Stiff,54
+Mona Sans,"wdth,wght@125,200",/Expressive/Stiff,50
+Mona Sans,"wdth,wght@125,900",/Expressive/Stiff,50
 Mona Sans,,/Quality/Concept,65
 Mona Sans,,/Quality/Drawing,70
 Mona Sans,,/Quality/Spacing,70
@@ -17065,8 +17110,10 @@ Mozilla Headline,"wdth,wght@125,200",/Expressive/Loud,30
 Mozilla Headline,"wdth,wght@125,700",/Expressive/Loud,79
 Mozilla Headline,wght@200,/Expressive/Playful,6
 Mozilla Headline,wght@700,/Expressive/Playful,8
-Mozilla Headline,wght@200,/Expressive/Stiff,70
-Mozilla Headline,wght@700,/Expressive/Stiff,72
+Mozilla Headline,"wdth,wght@75,200",/Expressive/Stiff,60
+Mozilla Headline,"wdth,wght@75,700",/Expressive/Stiff,52
+Mozilla Headline,"wdth,wght@125,200",/Expressive/Stiff,50
+Mozilla Headline,"wdth,wght@125,700",/Expressive/Stiff,50
 Mozilla Headline,,/Quality/Concept,90
 Mozilla Headline,,/Quality/Drawing,90
 Mozilla Headline,,/Quality/Spacing,90
@@ -17740,6 +17787,7 @@ Nokora,wght@100,/Expressive/Playful,1
 Nokora,wght@900,/Expressive/Playful,1
 Nokora,wght@100,/Expressive/Rugged,1
 Nokora,wght@900,/Expressive/Rugged,14
+Nokora,,/Expressive/Stiff,10
 Nokora,,/Quality/Concept,60
 Nokora,,/Quality/Drawing,65
 Nokora,,/Quality/Spacing,70
@@ -17850,6 +17898,7 @@ Noto Kufi Arabic,wght@900,/Expressive/Loud,82
 Noto Kufi Arabic,wght@100,/Expressive/Playful,1
 Noto Kufi Arabic,wght@900,/Expressive/Playful,1
 Noto Kufi Arabic,,/Expressive/Rugged,40
+Noto Kufi Arabic,,/Expressive/Stiff,10
 Noto Kufi Arabic,,/Quality/Concept,70
 Noto Kufi Arabic,,/Quality/Drawing,70
 Noto Kufi Arabic,,/Quality/Spacing,70
@@ -17941,6 +17990,7 @@ Noto Sans Adlam Unjoined,wght@700,/Expressive/Playful,1
 Noto Sans Adlam Unjoined,,/Expressive/Rugged,40
 Noto Sans Adlam Unjoined,wght@400,/Expressive/Sincere,35
 Noto Sans Adlam Unjoined,wght@700,/Expressive/Sincere,35
+Noto Sans Adlam Unjoined,,/Expressive/Stiff,10
 Noto Sans Adlam Unjoined,,/Quality/Concept,70
 Noto Sans Adlam Unjoined,,/Quality/Drawing,70
 Noto Sans Adlam Unjoined,,/Quality/Spacing,70
@@ -17962,6 +18012,7 @@ Noto Sans Adlam,wght@700,/Expressive/Playful,1
 Noto Sans Adlam,,/Expressive/Rugged,40
 Noto Sans Adlam,wght@400,/Expressive/Sincere,35
 Noto Sans Adlam,wght@700,/Expressive/Sincere,35
+Noto Sans Adlam,,/Expressive/Stiff,10
 Noto Sans Adlam,,/Quality/Concept,70
 Noto Sans Adlam,,/Quality/Drawing,70
 Noto Sans Adlam,,/Quality/Spacing,70
@@ -18018,6 +18069,7 @@ Noto Sans Arabic,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Arabic,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Arabic,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Arabic,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Arabic,,/Expressive/Stiff,10
 Noto Sans Arabic,,/Quality/Concept,70
 Noto Sans Arabic,,/Quality/Drawing,70
 Noto Sans Arabic,,/Quality/Spacing,70
@@ -18061,6 +18113,7 @@ Noto Sans Armenian,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Armenian,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Armenian,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Armenian,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Armenian,,/Expressive/Stiff,10
 Noto Sans Armenian,,/Quality/Concept,70
 Noto Sans Armenian,,/Quality/Drawing,70
 Noto Sans Armenian,,/Quality/Spacing,70
@@ -18095,6 +18148,7 @@ Noto Sans Balinese,wght@700,/Expressive/Playful,1
 Noto Sans Balinese,,/Expressive/Rugged,40
 Noto Sans Balinese,wght@400,/Expressive/Sincere,35
 Noto Sans Balinese,wght@700,/Expressive/Sincere,35
+Noto Sans Balinese,,/Expressive/Stiff,10
 Noto Sans Balinese,,/Quality/Concept,70
 Noto Sans Balinese,,/Quality/Drawing,70
 Noto Sans Balinese,,/Quality/Spacing,70
@@ -18116,6 +18170,7 @@ Noto Sans Bamum,wght@700,/Expressive/Playful,1
 Noto Sans Bamum,,/Expressive/Rugged,40
 Noto Sans Bamum,wght@400,/Expressive/Sincere,35
 Noto Sans Bamum,wght@700,/Expressive/Sincere,35
+Noto Sans Bamum,,/Expressive/Stiff,10
 Noto Sans Bamum,,/Quality/Concept,70
 Noto Sans Bamum,,/Quality/Drawing,70
 Noto Sans Bamum,,/Quality/Spacing,70
@@ -18137,6 +18192,7 @@ Noto Sans Bassa Vah,wght@700,/Expressive/Playful,1
 Noto Sans Bassa Vah,,/Expressive/Rugged,40
 Noto Sans Bassa Vah,wght@400,/Expressive/Sincere,35
 Noto Sans Bassa Vah,wght@700,/Expressive/Sincere,35
+Noto Sans Bassa Vah,,/Expressive/Stiff,10
 Noto Sans Bassa Vah,,/Quality/Concept,70
 Noto Sans Bassa Vah,,/Quality/Drawing,70
 Noto Sans Bassa Vah,,/Quality/Spacing,70
@@ -18193,6 +18249,7 @@ Noto Sans Bengali,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Bengali,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Bengali,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Bengali,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Bengali,,/Expressive/Stiff,10
 Noto Sans Bengali,,/Quality/Concept,70
 Noto Sans Bengali,,/Quality/Drawing,70
 Noto Sans Bengali,,/Quality/Spacing,70
@@ -18270,6 +18327,7 @@ Noto Sans Canadian Aboriginal,wght@900,/Expressive/Playful,1
 Noto Sans Canadian Aboriginal,,/Expressive/Rugged,40
 Noto Sans Canadian Aboriginal,wght@100,/Expressive/Sincere,35
 Noto Sans Canadian Aboriginal,wght@900,/Expressive/Sincere,35
+Noto Sans Canadian Aboriginal,,/Expressive/Stiff,10
 Noto Sans Canadian Aboriginal,,/Quality/Concept,70
 Noto Sans Canadian Aboriginal,,/Quality/Drawing,70
 Noto Sans Canadian Aboriginal,,/Quality/Spacing,70
@@ -18328,6 +18386,7 @@ Noto Sans Cham,wght@900,/Expressive/Playful,1
 Noto Sans Cham,,/Expressive/Rugged,40
 Noto Sans Cham,wght@100,/Expressive/Sincere,35
 Noto Sans Cham,wght@900,/Expressive/Sincere,35
+Noto Sans Cham,,/Expressive/Stiff,10
 Noto Sans Cham,,/Quality/Concept,70
 Noto Sans Cham,,/Quality/Drawing,70
 Noto Sans Cham,,/Quality/Spacing,70
@@ -18350,6 +18409,7 @@ Noto Sans Cherokee,wght@900,/Expressive/Playful,1
 Noto Sans Cherokee,,/Expressive/Rugged,40
 Noto Sans Cherokee,wght@100,/Expressive/Sincere,35
 Noto Sans Cherokee,wght@900,/Expressive/Sincere,35
+Noto Sans Cherokee,,/Expressive/Stiff,10
 Noto Sans Cherokee,,/Quality/Concept,70
 Noto Sans Cherokee,,/Quality/Drawing,70
 Noto Sans Cherokee,,/Quality/Spacing,70
@@ -18465,6 +18525,7 @@ Noto Sans Devanagari,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Devanagari,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Devanagari,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Devanagari,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Devanagari,,/Expressive/Stiff,10
 Noto Sans Devanagari,,/Quality/Concept,70
 Noto Sans Devanagari,,/Quality/Drawing,70
 Noto Sans Devanagari,,/Quality/Spacing,70
@@ -18508,6 +18569,7 @@ Noto Sans Display,"wdth,wght@62.5,100",/Expressive/Sincere,20
 Noto Sans Display,"wdth,wght@62.5,900",/Expressive/Sincere,22
 Noto Sans Display,"wdth,wght@100,100",/Expressive/Sincere,24
 Noto Sans Display,"wdth,wght@100,900",/Expressive/Sincere,24
+Noto Sans Display,,/Expressive/Stiff,10
 Noto Sans Display,,/Quality/Concept,70
 Noto Sans Display,,/Quality/Drawing,70
 Noto Sans Display,,/Quality/Spacing,80
@@ -18599,6 +18661,7 @@ Noto Sans Ethiopic,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Ethiopic,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Ethiopic,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Ethiopic,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Ethiopic,,/Expressive/Stiff,10
 Noto Sans Ethiopic,,/Quality/Concept,70
 Noto Sans Ethiopic,,/Quality/Drawing,70
 Noto Sans Ethiopic,,/Quality/Spacing,70
@@ -18642,6 +18705,7 @@ Noto Sans Georgian,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Georgian,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Georgian,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Georgian,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Georgian,,/Expressive/Stiff,10
 Noto Sans Georgian,,/Quality/Concept,70
 Noto Sans Georgian,,/Quality/Drawing,70
 Noto Sans Georgian,,/Quality/Spacing,70
@@ -18721,6 +18785,7 @@ Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Gujarati,,/Expressive/Stiff,10
 Noto Sans Gujarati,,/Quality/Concept,70
 Noto Sans Gujarati,,/Quality/Drawing,70
 Noto Sans Gujarati,,/Quality/Spacing,70
@@ -18740,6 +18805,7 @@ Noto Sans Gunjala Gondi,wght@700,/Expressive/Playful,1
 Noto Sans Gunjala Gondi,,/Expressive/Rugged,40
 Noto Sans Gunjala Gondi,wght@400,/Expressive/Sincere,35
 Noto Sans Gunjala Gondi,wght@700,/Expressive/Sincere,35
+Noto Sans Gunjala Gondi,,/Expressive/Stiff,10
 Noto Sans Gunjala Gondi,,/Quality/Concept,70
 Noto Sans Gunjala Gondi,,/Quality/Drawing,70
 Noto Sans Gunjala Gondi,,/Quality/Spacing,70
@@ -18783,6 +18849,7 @@ Noto Sans Gurmukhi,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Gurmukhi,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Gurmukhi,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Gurmukhi,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Gurmukhi,,/Expressive/Stiff,10
 Noto Sans Gurmukhi,,/Quality/Concept,70
 Noto Sans Gurmukhi,,/Quality/Drawing,70
 Noto Sans Gurmukhi,,/Quality/Spacing,70
@@ -18805,6 +18872,7 @@ Noto Sans HK,wght@900,/Expressive/Playful,1
 Noto Sans HK,,/Expressive/Rugged,40
 Noto Sans HK,wght@100,/Expressive/Sincere,35
 Noto Sans HK,wght@900,/Expressive/Sincere,35
+Noto Sans HK,,/Expressive/Stiff,10
 Noto Sans HK,,/Quality/Concept,70
 Noto Sans HK,,/Quality/Drawing,70
 Noto Sans HK,,/Quality/Spacing,70
@@ -18824,6 +18892,7 @@ Noto Sans Hanifi Rohingya,wght@700,/Expressive/Playful,1
 Noto Sans Hanifi Rohingya,,/Expressive/Rugged,40
 Noto Sans Hanifi Rohingya,wght@400,/Expressive/Sincere,35
 Noto Sans Hanifi Rohingya,wght@700,/Expressive/Sincere,35
+Noto Sans Hanifi Rohingya,,/Expressive/Stiff,10
 Noto Sans Hanifi Rohingya,,/Quality/Concept,70
 Noto Sans Hanifi Rohingya,,/Quality/Drawing,70
 Noto Sans Hanifi Rohingya,,/Quality/Spacing,70
@@ -18891,6 +18960,7 @@ Noto Sans Hebrew,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Hebrew,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Hebrew,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Hebrew,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Hebrew,,/Expressive/Stiff,10
 Noto Sans Hebrew,,/Quality/Concept,70
 Noto Sans Hebrew,,/Quality/Drawing,70
 Noto Sans Hebrew,,/Quality/Spacing,70
@@ -18961,6 +19031,7 @@ Noto Sans JP,wght@900,/Expressive/Playful,1
 Noto Sans JP,,/Expressive/Rugged,40
 Noto Sans JP,wght@100,/Expressive/Sincere,35
 Noto Sans JP,wght@900,/Expressive/Sincere,35
+Noto Sans JP,,/Expressive/Stiff,10
 Noto Sans JP,,/Quality/Concept,70
 Noto Sans JP,,/Quality/Drawing,70
 Noto Sans JP,,/Quality/Spacing,80
@@ -18980,6 +19051,7 @@ Noto Sans Javanese,wght@700,/Expressive/Playful,1
 Noto Sans Javanese,,/Expressive/Rugged,40
 Noto Sans Javanese,wght@400,/Expressive/Sincere,35
 Noto Sans Javanese,wght@700,/Expressive/Sincere,35
+Noto Sans Javanese,,/Expressive/Stiff,10
 Noto Sans Javanese,,/Quality/Concept,70
 Noto Sans Javanese,,/Quality/Drawing,70
 Noto Sans Javanese,,/Quality/Spacing,70
@@ -19002,6 +19074,7 @@ Noto Sans KR,wght@900,/Expressive/Playful,1
 Noto Sans KR,,/Expressive/Rugged,40
 Noto Sans KR,wght@100,/Expressive/Sincere,35
 Noto Sans KR,wght@900,/Expressive/Sincere,35
+Noto Sans KR,,/Expressive/Stiff,10
 Noto Sans KR,,/Quality/Concept,70
 Noto Sans KR,,/Quality/Drawing,70
 Noto Sans KR,,/Quality/Spacing,70
@@ -19057,6 +19130,7 @@ Noto Sans Kannada,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Kannada,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Kannada,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Kannada,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Kannada,,/Expressive/Stiff,10
 Noto Sans Kannada,,/Quality/Concept,70
 Noto Sans Kannada,,/Quality/Drawing,70
 Noto Sans Kannada,,/Quality/Spacing,70
@@ -19076,6 +19150,7 @@ Noto Sans Kawi,wght@700,/Expressive/Playful,1
 Noto Sans Kawi,,/Expressive/Rugged,40
 Noto Sans Kawi,wght@400,/Expressive/Sincere,35
 Noto Sans Kawi,wght@700,/Expressive/Sincere,35
+Noto Sans Kawi,,/Expressive/Stiff,10
 Noto Sans Kawi,,/Quality/Concept,70
 Noto Sans Kawi,,/Quality/Drawing,70
 Noto Sans Kawi,,/Quality/Spacing,70
@@ -19095,6 +19170,7 @@ Noto Sans Kayah Li,wght@700,/Expressive/Playful,1
 Noto Sans Kayah Li,,/Expressive/Rugged,40
 Noto Sans Kayah Li,wght@400,/Expressive/Sincere,35
 Noto Sans Kayah Li,wght@700,/Expressive/Sincere,35
+Noto Sans Kayah Li,,/Expressive/Stiff,10
 Noto Sans Kayah Li,,/Quality/Concept,70
 Noto Sans Kayah Li,,/Quality/Drawing,70
 Noto Sans Kayah Li,,/Quality/Spacing,70
@@ -19150,6 +19226,7 @@ Noto Sans Khmer,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Khmer,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Khmer,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Khmer,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Khmer,,/Expressive/Stiff,10
 Noto Sans Khmer,,/Quality/Concept,70
 Noto Sans Khmer,,/Quality/Drawing,70
 Noto Sans Khmer,,/Quality/Spacing,70
@@ -19217,6 +19294,7 @@ Noto Sans Lao Looped,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Lao Looped,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Lao Looped,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Lao Looped,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Lao Looped,,/Expressive/Stiff,10
 Noto Sans Lao Looped,,/Quality/Concept,70
 Noto Sans Lao Looped,,/Quality/Drawing,70
 Noto Sans Lao Looped,,/Quality/Spacing,70
@@ -19260,6 +19338,7 @@ Noto Sans Lao,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Lao,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Lao,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Lao,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Lao,,/Expressive/Stiff,10
 Noto Sans Lao,,/Quality/Concept,70
 Noto Sans Lao,,/Quality/Drawing,70
 Noto Sans Lao,,/Quality/Spacing,70
@@ -19327,6 +19406,7 @@ Noto Sans Lisu,wght@700,/Expressive/Playful,1
 Noto Sans Lisu,,/Expressive/Rugged,50
 Noto Sans Lisu,wght@400,/Expressive/Sincere,35
 Noto Sans Lisu,wght@700,/Expressive/Sincere,35
+Noto Sans Lisu,,/Expressive/Stiff,10
 Noto Sans Lisu,,/Quality/Concept,70
 Noto Sans Lisu,,/Quality/Drawing,70
 Noto Sans Lisu,,/Quality/Spacing,70
@@ -19405,6 +19485,7 @@ Noto Sans Malayalam,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Malayalam,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Malayalam,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Malayalam,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Malayalam,,/Expressive/Stiff,10
 Noto Sans Malayalam,,/Quality/Concept,70
 Noto Sans Malayalam,,/Quality/Drawing,70
 Noto Sans Malayalam,,/Quality/Spacing,70
@@ -19496,6 +19577,7 @@ Noto Sans Medefaidrin,wght@700,/Expressive/Playful,1
 Noto Sans Medefaidrin,,/Expressive/Rugged,50
 Noto Sans Medefaidrin,wght@400,/Expressive/Sincere,35
 Noto Sans Medefaidrin,wght@700,/Expressive/Sincere,35
+Noto Sans Medefaidrin,,/Expressive/Stiff,10
 Noto Sans Medefaidrin,,/Quality/Concept,70
 Noto Sans Medefaidrin,,/Quality/Drawing,70
 Noto Sans Medefaidrin,,/Quality/Spacing,70
@@ -19518,6 +19600,7 @@ Noto Sans Meetei Mayek,wght@900,/Expressive/Playful,1
 Noto Sans Meetei Mayek,,/Expressive/Rugged,50
 Noto Sans Meetei Mayek,wght@100,/Expressive/Sincere,35
 Noto Sans Meetei Mayek,wght@900,/Expressive/Sincere,35
+Noto Sans Meetei Mayek,,/Expressive/Stiff,10
 Noto Sans Meetei Mayek,,/Quality/Concept,70
 Noto Sans Meetei Mayek,,/Quality/Drawing,70
 Noto Sans Meetei Mayek,,/Quality/Spacing,70
@@ -19690,6 +19773,7 @@ Noto Sans Myanmar,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Myanmar,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Myanmar,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Myanmar,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Myanmar,,/Expressive/Stiff,10
 Noto Sans Myanmar,,/Quality/Concept,70
 Noto Sans Myanmar,,/Quality/Drawing,70
 Noto Sans Myanmar,,/Quality/Spacing,70
@@ -19709,6 +19793,7 @@ Noto Sans NKo Unjoined,wght@700,/Expressive/Playful,1
 Noto Sans NKo Unjoined,,/Expressive/Rugged,50
 Noto Sans NKo Unjoined,wght@400,/Expressive/Sincere,35
 Noto Sans NKo Unjoined,wght@700,/Expressive/Sincere,35
+Noto Sans NKo Unjoined,,/Expressive/Stiff,10
 Noto Sans NKo Unjoined,,/Quality/Concept,70
 Noto Sans NKo Unjoined,,/Quality/Drawing,70
 Noto Sans NKo Unjoined,,/Quality/Spacing,70
@@ -19752,6 +19837,7 @@ Noto Sans Nag Mundari,wght@700,/Expressive/Playful,1
 Noto Sans Nag Mundari,,/Expressive/Rugged,50
 Noto Sans Nag Mundari,wght@400,/Expressive/Sincere,35
 Noto Sans Nag Mundari,wght@700,/Expressive/Sincere,35
+Noto Sans Nag Mundari,,/Expressive/Stiff,10
 Noto Sans Nag Mundari,,/Quality/Concept,70
 Noto Sans Nag Mundari,,/Quality/Drawing,70
 Noto Sans Nag Mundari,,/Quality/Spacing,70
@@ -19783,6 +19869,7 @@ Noto Sans New Tai Lue,wght@700,/Expressive/Playful,1
 Noto Sans New Tai Lue,,/Expressive/Rugged,50
 Noto Sans New Tai Lue,wght@400,/Expressive/Sincere,35
 Noto Sans New Tai Lue,wght@700,/Expressive/Sincere,35
+Noto Sans New Tai Lue,,/Expressive/Stiff,10
 Noto Sans New Tai Lue,,/Quality/Concept,70
 Noto Sans New Tai Lue,,/Quality/Drawing,70
 Noto Sans New Tai Lue,,/Quality/Spacing,70
@@ -19838,6 +19925,7 @@ Noto Sans Ol Chiki,wght@700,/Expressive/Playful,1
 Noto Sans Ol Chiki,,/Expressive/Rugged,50
 Noto Sans Ol Chiki,wght@400,/Expressive/Sincere,35
 Noto Sans Ol Chiki,wght@700,/Expressive/Sincere,35
+Noto Sans Ol Chiki,,/Expressive/Stiff,10
 Noto Sans Ol Chiki,,/Quality/Concept,70
 Noto Sans Ol Chiki,,/Quality/Drawing,70
 Noto Sans Ol Chiki,,/Quality/Spacing,70
@@ -19977,6 +20065,7 @@ Noto Sans Oriya,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Oriya,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Oriya,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Oriya,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Oriya,,/Expressive/Stiff,10
 Noto Sans Oriya,,/Quality/Concept,70
 Noto Sans Oriya,,/Quality/Drawing,70
 Noto Sans Oriya,,/Quality/Spacing,70
@@ -20119,6 +20208,7 @@ Noto Sans SC,wght@900,/Expressive/Playful,1
 Noto Sans SC,,/Expressive/Rugged,50
 Noto Sans SC,wght@100,/Expressive/Sincere,35
 Noto Sans SC,wght@900,/Expressive/Sincere,35
+Noto Sans SC,,/Expressive/Stiff,10
 Noto Sans SC,,/Quality/Concept,70
 Noto Sans SC,,/Quality/Drawing,70
 Noto Sans SC,,/Quality/Spacing,80
@@ -20234,6 +20324,7 @@ Noto Sans Sinhala,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Sinhala,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Sinhala,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Sinhala,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Sinhala,,/Expressive/Stiff,10
 Noto Sans Sinhala,,/Quality/Concept,70
 Noto Sans Sinhala,,/Quality/Drawing,70
 Noto Sans Sinhala,,/Quality/Spacing,80
@@ -20265,6 +20356,7 @@ Noto Sans Sora Sompeng,wght@700,/Expressive/Playful,1
 Noto Sans Sora Sompeng,,/Expressive/Rugged,50
 Noto Sans Sora Sompeng,wght@400,/Expressive/Sincere,35
 Noto Sans Sora Sompeng,wght@700,/Expressive/Sincere,35
+Noto Sans Sora Sompeng,,/Expressive/Stiff,10
 Noto Sans Sora Sompeng,,/Quality/Concept,70
 Noto Sans Sora Sompeng,,/Quality/Drawing,70
 Noto Sans Sora Sompeng,,/Quality/Spacing,80
@@ -20296,6 +20388,7 @@ Noto Sans Sundanese,wght@700,/Expressive/Playful,1
 Noto Sans Sundanese,,/Expressive/Rugged,50
 Noto Sans Sundanese,wght@400,/Expressive/Sincere,35
 Noto Sans Sundanese,wght@700,/Expressive/Sincere,35
+Noto Sans Sundanese,,/Expressive/Stiff,10
 Noto Sans Sundanese,,/Quality/Concept,70
 Noto Sans Sundanese,,/Quality/Drawing,70
 Noto Sans Sundanese,,/Quality/Spacing,70
@@ -20349,6 +20442,7 @@ Noto Sans Symbols,wght@900,/Expressive/Competent,1
 Noto Sans Symbols,wght@100,/Expressive/Playful,1
 Noto Sans Symbols,wght@900,/Expressive/Playful,1
 Noto Sans Symbols,,/Expressive/Rugged,50
+Noto Sans Symbols,,/Expressive/Stiff,10
 Noto Sans Symbols,,/Quality/Concept,70
 Noto Sans Symbols,,/Quality/Drawing,70
 Noto Sans Symbols,,/Quality/Spacing,70
@@ -20372,6 +20466,7 @@ Noto Sans Syriac Eastern,wght@900,/Expressive/Playful,1
 Noto Sans Syriac Eastern,,/Expressive/Rugged,50
 Noto Sans Syriac Eastern,wght@100,/Expressive/Sincere,35
 Noto Sans Syriac Eastern,wght@900,/Expressive/Sincere,35
+Noto Sans Syriac Eastern,,/Expressive/Stiff,10
 Noto Sans Syriac Eastern,,/Quality/Concept,70
 Noto Sans Syriac Eastern,,/Quality/Drawing,70
 Noto Sans Syriac Eastern,,/Quality/Spacing,70
@@ -20394,6 +20489,7 @@ Noto Sans Syriac Western,wght@900,/Expressive/Playful,1
 Noto Sans Syriac Western,,/Expressive/Rugged,50
 Noto Sans Syriac Western,wght@100,/Expressive/Sincere,35
 Noto Sans Syriac Western,wght@900,/Expressive/Sincere,35
+Noto Sans Syriac Western,,/Expressive/Stiff,10
 Noto Sans Syriac Western,,/Quality/Concept,70
 Noto Sans Syriac Western,,/Quality/Drawing,70
 Noto Sans Syriac Western,,/Quality/Spacing,70
@@ -20416,6 +20512,7 @@ Noto Sans Syriac,wght@900,/Expressive/Playful,1
 Noto Sans Syriac,,/Expressive/Rugged,50
 Noto Sans Syriac,wght@100,/Expressive/Sincere,35
 Noto Sans Syriac,wght@900,/Expressive/Sincere,35
+Noto Sans Syriac,,/Expressive/Stiff,10
 Noto Sans Syriac,,/Quality/Concept,70
 Noto Sans Syriac,,/Quality/Drawing,70
 Noto Sans Syriac,,/Quality/Spacing,70
@@ -20438,6 +20535,7 @@ Noto Sans TC,wght@900,/Expressive/Playful,1
 Noto Sans TC,,/Expressive/Rugged,50
 Noto Sans TC,wght@100,/Expressive/Sincere,35
 Noto Sans TC,wght@900,/Expressive/Sincere,35
+Noto Sans TC,,/Expressive/Stiff,10
 Noto Sans TC,,/Quality/Concept,70
 Noto Sans TC,,/Quality/Drawing,70
 Noto Sans TC,,/Quality/Spacing,80
@@ -20493,6 +20591,7 @@ Noto Sans Tai Tham,wght@700,/Expressive/Playful,1
 Noto Sans Tai Tham,,/Expressive/Rugged,50
 Noto Sans Tai Tham,wght@400,/Expressive/Sincere,35
 Noto Sans Tai Tham,wght@700,/Expressive/Sincere,35
+Noto Sans Tai Tham,,/Expressive/Stiff,10
 Noto Sans Tai Tham,,/Quality/Concept,70
 Noto Sans Tai Tham,,/Quality/Drawing,70
 Noto Sans Tai Tham,,/Quality/Spacing,70
@@ -20576,6 +20675,7 @@ Noto Sans Tamil,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Tamil,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Tamil,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Tamil,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Tamil,,/Expressive/Stiff,10
 Noto Sans Tamil,,/Quality/Concept,70
 Noto Sans Tamil,,/Quality/Drawing,70
 Noto Sans Tamil,,/Quality/Spacing,70
@@ -20597,6 +20697,7 @@ Noto Sans Tangsa,wght@700,/Expressive/Playful,1
 Noto Sans Tangsa,,/Expressive/Rugged,50
 Noto Sans Tangsa,wght@400,/Expressive/Sincere,35
 Noto Sans Tangsa,wght@700,/Expressive/Sincere,35
+Noto Sans Tangsa,,/Expressive/Stiff,10
 Noto Sans Tangsa,,/Quality/Concept,70
 Noto Sans Tangsa,,/Quality/Drawing,70
 Noto Sans Tangsa,,/Quality/Spacing,70
@@ -20640,6 +20741,7 @@ Noto Sans Telugu,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Telugu,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Telugu,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Telugu,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Telugu,,/Expressive/Stiff,10
 Noto Sans Telugu,,/Quality/Concept,70
 Noto Sans Telugu,,/Quality/Drawing,70
 Noto Sans Telugu,,/Quality/Spacing,80
@@ -20665,6 +20767,7 @@ Noto Sans Thaana,wght@900,/Expressive/Playful,1
 Noto Sans Thaana,,/Expressive/Rugged,50
 Noto Sans Thaana,wght@100,/Expressive/Sincere,35
 Noto Sans Thaana,wght@900,/Expressive/Sincere,35
+Noto Sans Thaana,,/Expressive/Stiff,10
 Noto Sans Thaana,,/Quality/Concept,70
 Noto Sans Thaana,,/Quality/Drawing,70
 Noto Sans Thaana,,/Quality/Spacing,70
@@ -20708,6 +20811,7 @@ Noto Sans Thai Looped,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Thai Looped,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Thai Looped,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Thai Looped,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Thai Looped,,/Expressive/Stiff,10
 Noto Sans Thai Looped,,/Quality/Concept,70
 Noto Sans Thai Looped,,/Quality/Drawing,70
 Noto Sans Thai Looped,,/Quality/Spacing,70
@@ -20751,6 +20855,7 @@ Noto Sans Thai,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans Thai,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans Thai,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans Thai,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans Thai,,/Expressive/Stiff,10
 Noto Sans Thai,,/Quality/Concept,70
 Noto Sans Thai,,/Quality/Drawing,70
 Noto Sans Thai,,/Quality/Spacing,70
@@ -20824,6 +20929,7 @@ Noto Sans Vithkuqi,wght@700,/Expressive/Playful,1
 Noto Sans Vithkuqi,,/Expressive/Rugged,50
 Noto Sans Vithkuqi,wght@400,/Expressive/Sincere,35
 Noto Sans Vithkuqi,wght@700,/Expressive/Sincere,35
+Noto Sans Vithkuqi,,/Expressive/Stiff,10
 Noto Sans Vithkuqi,,/Quality/Concept,70
 Noto Sans Vithkuqi,,/Quality/Drawing,70
 Noto Sans Vithkuqi,,/Quality/Spacing,70
@@ -20919,6 +21025,7 @@ Noto Sans,"wdth,wght@62.5,100",/Expressive/Sincere,18
 Noto Sans,"wdth,wght@62.5,900",/Expressive/Sincere,20
 Noto Sans,"wdth,wght@100,100",/Expressive/Sincere,22
 Noto Sans,"wdth,wght@100,900",/Expressive/Sincere,22
+Noto Sans,,/Expressive/Stiff,10
 Noto Sans,,/Quality/Concept,70
 Noto Sans,,/Quality/Drawing,70
 Noto Sans,,/Quality/Spacing,70
@@ -22023,6 +22130,7 @@ Noto Traditional Nushu,wght@700,/Expressive/Playful,1
 Noto Traditional Nushu,,/Expressive/Rugged,40
 Noto Traditional Nushu,wght@300,/Expressive/Sincere,35
 Noto Traditional Nushu,wght@700,/Expressive/Sincere,35
+Noto Traditional Nushu,,/Expressive/Stiff,10
 Noto Traditional Nushu,,/Quality/Concept,70
 Noto Traditional Nushu,,/Quality/Drawing,70
 Noto Traditional Nushu,,/Quality/Spacing,70
@@ -22197,6 +22305,10 @@ Nunito Sans,"wdth,wght@75,200",/Expressive/Sincere,12
 Nunito Sans,"wdth,wght@75,1000",/Expressive/Sincere,6
 Nunito Sans,"wdth,wght@125,200",/Expressive/Sincere,24
 Nunito Sans,"wdth,wght@125,1000",/Expressive/Sincere,8
+Nunito Sans,"wdth,wght@75,200",/Expressive/Stiff,24
+Nunito Sans,"wdth,wght@75,1000",/Expressive/Stiff,9
+Nunito Sans,"wdth,wght@125,200",/Expressive/Stiff,20
+Nunito Sans,"wdth,wght@125,1000",/Expressive/Stiff,4
 Nunito Sans,,/Quality/Concept,70
 Nunito Sans,,/Quality/Drawing,75
 Nunito Sans,,/Quality/Spacing,70
@@ -22468,6 +22580,7 @@ Open Sans,"wdth,wght@75,300",/Expressive/Sincere,24
 Open Sans,"wdth,wght@75,800",/Expressive/Sincere,12
 Open Sans,"wdth,wght@100,300",/Expressive/Sincere,45
 Open Sans,"wdth,wght@100,800",/Expressive/Sincere,14
+Open Sans,,/Expressive/Stiff,10
 Open Sans,,/Quality/Concept,70
 Open Sans,,/Quality/Drawing,70
 Open Sans,,/Quality/Spacing,80
@@ -23359,6 +23472,7 @@ Phudu,wght@300,/Expressive/Playful,18
 Phudu,wght@900,/Expressive/Playful,44
 Phudu,wght@300,/Expressive/Rugged,20
 Phudu,wght@900,/Expressive/Rugged,41
+Phudu,,/Expressive/Stiff,20
 Phudu,,/Quality/Concept,55
 Phudu,,/Quality/Drawing,65
 Phudu,,/Quality/Spacing,60
@@ -23554,6 +23668,7 @@ Playfair Display,wght@900,/Expressive/Playful,1
 Playfair Display,,/Expressive/Rugged,15
 Playfair Display,wght@400,/Expressive/Sincere,90
 Playfair Display,wght@900,/Expressive/Sincere,88
+Playfair Display,,/Expressive/Stiff,5
 Playfair Display,wght@400,/Expressive/Vintage,55
 Playfair Display,wght@900,/Expressive/Vintage,56
 Playfair Display,,/Quality/Concept,80
@@ -25581,6 +25696,10 @@ Pliant,"wdth,wght@100,100",/Expressive/Sincere,30
 Pliant,"wdth,wght@100,900",/Expressive/Sincere,15
 Pliant,"wdth,wght@125,100",/Expressive/Sincere,45
 Pliant,"wdth,wght@125,900",/Expressive/Sincere,20
+Pliant,"wdth,wght@100,100",/Expressive/Stiff,28
+Pliant,"wdth,wght@100,900",/Expressive/Stiff,20
+Pliant,"wdth,wght@125,100",/Expressive/Stiff,25
+Pliant,"wdth,wght@125,900",/Expressive/Stiff,18
 Pliant,,/Quality/Concept,75
 Pliant,,/Quality/Drawing,70
 Pliant,,/Quality/Spacing,80
@@ -25756,6 +25875,7 @@ Pontano Sans,wght@300,/Expressive/Playful,1
 Pontano Sans,wght@700,/Expressive/Playful,1
 Pontano Sans,wght@300,/Expressive/Rugged,1
 Pontano Sans,wght@700,/Expressive/Rugged,4
+Pontano Sans,,/Expressive/Stiff,10
 Pontano Sans,,/Quality/Concept,60
 Pontano Sans,,/Quality/Drawing,50
 Pontano Sans,,/Quality/Spacing,70
@@ -26027,6 +26147,7 @@ Public Sans,wght@100,/Expressive/Playful,1
 Public Sans,wght@900,/Expressive/Playful,1
 Public Sans,wght@100,/Expressive/Rugged,1
 Public Sans,wght@900,/Expressive/Rugged,8
+Public Sans,,/Expressive/Stiff,10
 Public Sans,,/Quality/Concept,65
 Public Sans,,/Quality/Drawing,70
 Public Sans,,/Quality/Spacing,80
@@ -26162,6 +26283,7 @@ Quicksand,,/Expressive/Playful,20
 Quicksand,,/Expressive/Rugged,40
 Quicksand,wght@300,/Expressive/Sincere,40
 Quicksand,wght@700,/Expressive/Sincere,39
+Quicksand,,/Expressive/Stiff,5
 Quicksand,,/Quality/Concept,60
 Quicksand,,/Quality/Drawing,65
 Quicksand,,/Quality/Spacing,80
@@ -26233,6 +26355,7 @@ REM,wght@900,/Expressive/Loud,88
 REM,wght@100,/Expressive/Playful,1
 REM,wght@900,/Expressive/Playful,1
 REM,,/Expressive/Rugged,30
+REM,,/Expressive/Stiff,31
 REM,,/Quality/Concept,60
 REM,,/Quality/Drawing,72
 REM,,/Quality/Spacing,70
@@ -26305,6 +26428,7 @@ Radio Canada,"wdth,wght@75,300",/Expressive/Sincere,38
 Radio Canada,"wdth,wght@75,700",/Expressive/Sincere,20
 Radio Canada,"wdth,wght@100,300",/Expressive/Sincere,40
 Radio Canada,"wdth,wght@100,700",/Expressive/Sincere,24
+Radio Canada,,/Expressive/Stiff,10
 Radio Canada,,/Quality/Concept,70
 Radio Canada,,/Quality/Drawing,70
 Radio Canada,,/Quality/Spacing,70
@@ -26374,6 +26498,7 @@ Raleway,wght@100,/Expressive/Playful,1
 Raleway,wght@900,/Expressive/Playful,1
 Raleway,wght@100,/Expressive/Rugged,4
 Raleway,wght@900,/Expressive/Rugged,50
+Raleway,,/Expressive/Stiff,8
 Raleway,,/Quality/Concept,70
 Raleway,,/Quality/Drawing,70
 Raleway,,/Quality/Spacing,80
@@ -26517,6 +26642,7 @@ Rasa,wght@300,/Expressive/Rugged,1
 Rasa,wght@700,/Expressive/Rugged,16
 Rasa,wght@300,/Expressive/Sincere,60
 Rasa,wght@700,/Expressive/Sincere,58
+Rasa,,/Expressive/Stiff,10
 Rasa,wght@300,/Expressive/Vintage,23
 Rasa,wght@700,/Expressive/Vintage,26
 Rasa,,/Quality/Concept,70
@@ -26554,6 +26680,7 @@ Readex Pro,wght@160,/Expressive/Playful,1
 Readex Pro,wght@700,/Expressive/Playful,1
 Readex Pro,wght@160,/Expressive/Rugged,1
 Readex Pro,wght@700,/Expressive/Rugged,8
+Readex Pro,,/Expressive/Stiff,10
 Readex Pro,,/Purpose/Easy Reading,100
 Readex Pro,,/Quality/Concept,70
 Readex Pro,,/Quality/Drawing,70
@@ -26598,6 +26725,7 @@ Red Hat Display,wght@300,/Expressive/Playful,1
 Red Hat Display,wght@900,/Expressive/Playful,1
 Red Hat Display,wght@300,/Expressive/Rugged,1
 Red Hat Display,wght@900,/Expressive/Rugged,14
+Red Hat Display,,/Expressive/Stiff,10
 Red Hat Display,,/Quality/Concept,70
 Red Hat Display,,/Quality/Drawing,70
 Red Hat Display,,/Quality/Spacing,80
@@ -26641,6 +26769,7 @@ Red Hat Text,wght@300,/Expressive/Playful,1
 Red Hat Text,wght@700,/Expressive/Playful,1
 Red Hat Text,wght@300,/Expressive/Rugged,1
 Red Hat Text,wght@700,/Expressive/Rugged,12
+Red Hat Text,,/Expressive/Stiff,10
 Red Hat Text,,/Quality/Concept,70
 Red Hat Text,,/Quality/Drawing,70
 Red Hat Text,,/Quality/Spacing,80
@@ -26727,6 +26856,7 @@ Reddit Sans Condensed,wght@900,/Expressive/Loud,83
 Reddit Sans Condensed,wght@200,/Expressive/Playful,1
 Reddit Sans Condensed,wght@900,/Expressive/Playful,1
 Reddit Sans Condensed,,/Expressive/Rugged,55
+Reddit Sans Condensed,,/Expressive/Stiff,10
 Reddit Sans Condensed,,/Quality/Concept,70
 Reddit Sans Condensed,,/Quality/Drawing,70
 Reddit Sans Condensed,,/Quality/Spacing,70
@@ -26848,6 +26978,7 @@ Rethink Sans,wght@400,/Expressive/Playful,1
 Rethink Sans,wght@800,/Expressive/Playful,1
 Rethink Sans,wght@400,/Expressive/Rugged,8
 Rethink Sans,wght@800,/Expressive/Rugged,24
+Rethink Sans,,/Expressive/Stiff,20
 Rethink Sans,,/Quality/Concept,70
 Rethink Sans,,/Quality/Drawing,65
 Rethink Sans,,/Quality/Spacing,70
@@ -26976,6 +27107,7 @@ Roboto Condensed,wght@100,/Expressive/Playful,1
 Roboto Condensed,wght@900,/Expressive/Playful,1
 Roboto Condensed,wght@100,/Expressive/Rugged,6
 Roboto Condensed,wght@900,/Expressive/Rugged,42
+Roboto Condensed,,/Expressive/Stiff,20
 Roboto Condensed,,/Quality/Concept,70
 Roboto Condensed,,/Quality/Drawing,80
 Roboto Condensed,,/Quality/Spacing,80
@@ -27027,6 +27159,7 @@ Roboto Flex,"wdth,wght@25,100",/Expressive/Sincere,5
 Roboto Flex,"wdth,wght@25,1000",/Expressive/Sincere,5
 Roboto Flex,"wdth,wght@151,100",/Expressive/Sincere,20
 Roboto Flex,"wdth,wght@151,1000",/Expressive/Sincere,20
+Roboto Flex,,/Expressive/Stiff,10
 Roboto Flex,,/Quality/Concept,80
 Roboto Flex,,/Quality/Drawing,72
 Roboto Flex,,/Quality/Spacing,80
@@ -27097,6 +27230,10 @@ Roboto Serif,"wdth,wght@50,100",/Expressive/Sincere,60
 Roboto Serif,"wdth,wght@50,900",/Expressive/Sincere,45
 Roboto Serif,"wdth,wght@150,100",/Expressive/Sincere,65
 Roboto Serif,"wdth,wght@150,900",/Expressive/Sincere,50
+Roboto Serif,"wdth,wght@50,100",/Expressive/Stiff,45
+Roboto Serif,"wdth,wght@50,900",/Expressive/Stiff,40
+Roboto Serif,"wdth,wght@150,100",/Expressive/Stiff,40
+Roboto Serif,"wdth,wght@150,900",/Expressive/Stiff,35
 Roboto Serif,wght@100,/Expressive/Vintage,25
 Roboto Serif,wght@900,/Expressive/Vintage,26
 Roboto Serif,,/Quality/Concept,70
@@ -27167,6 +27304,10 @@ Roboto,"wdth,wght@75,100",/Expressive/Sincere,24
 Roboto,"wdth,wght@75,900",/Expressive/Sincere,14
 Roboto,"wdth,wght@100,100",/Expressive/Sincere,25
 Roboto,"wdth,wght@100,900",/Expressive/Sincere,15
+Roboto,"wdth,wght@75,100",/Expressive/Stiff,65
+Roboto,"wdth,wght@75,900",/Expressive/Stiff,50
+Roboto,"wdth,wght@100,100",/Expressive/Stiff,60
+Roboto,"wdth,wght@100,900",/Expressive/Stiff,45
 Roboto,,/Quality/Concept,70
 Roboto,,/Quality/Drawing,75
 Roboto,,/Quality/Spacing,80
@@ -27298,6 +27439,7 @@ Rosario,wght@300,/Expressive/Playful,1
 Rosario,wght@700,/Expressive/Playful,1
 Rosario,wght@300,/Expressive/Rugged,1
 Rosario,wght@700,/Expressive/Rugged,2
+Rosario,,/Expressive/Stiff,8
 Rosario,,/Quality/Concept,70
 Rosario,,/Quality/Drawing,68
 Rosario,,/Quality/Spacing,60
@@ -28097,8 +28239,10 @@ Saira Stencil,"wdth,wght@50,100",/Expressive/Rugged,22
 Saira Stencil,"wdth,wght@50,900",/Expressive/Rugged,89
 Saira Stencil,"wdth,wght@125,100",/Expressive/Rugged,25
 Saira Stencil,"wdth,wght@125,900",/Expressive/Rugged,90
-Saira Stencil,wght@100,/Expressive/Stiff,80
-Saira Stencil,wght@900,/Expressive/Stiff,88
+Saira Stencil,"wdth,wght@50,100",/Expressive/Stiff,68
+Saira Stencil,"wdth,wght@50,900",/Expressive/Stiff,90
+Saira Stencil,"wdth,wght@125,100",/Expressive/Stiff,60
+Saira Stencil,"wdth,wght@125,900",/Expressive/Stiff,88
 Saira Stencil,wght@100,/Expressive/Vintage,20
 Saira Stencil,wght@900,/Expressive/Vintage,24
 Saira,"wdth,wght@50,100",/Expressive/Active,21
@@ -28365,6 +28509,7 @@ Savate,wght@900,/Expressive/Loud,87
 Savate,,/Expressive/Playful,30
 Savate,wght@200,/Expressive/Rugged,22
 Savate,wght@900,/Expressive/Rugged,40
+Savate,,/Expressive/Stiff,10
 Savate,wght@200,/Expressive/Vintage,8
 Savate,wght@900,/Expressive/Vintage,12
 Savate,,/Quality/Concept,90
@@ -28432,6 +28577,7 @@ Schibsted Grotesk,wght@400,/Expressive/Playful,1
 Schibsted Grotesk,wght@900,/Expressive/Playful,1
 Schibsted Grotesk,wght@400,/Expressive/Rugged,12
 Schibsted Grotesk,wght@900,/Expressive/Rugged,19
+Schibsted Grotesk,,/Expressive/Stiff,10
 Schibsted Grotesk,,/Quality/Concept,70
 Schibsted Grotesk,,/Quality/Drawing,72
 Schibsted Grotesk,,/Quality/Spacing,80
@@ -28975,6 +29121,7 @@ Signika Negative,wght@300,/Expressive/Playful,24
 Signika Negative,wght@700,/Expressive/Playful,34
 Signika Negative,wght@300,/Expressive/Rugged,3
 Signika Negative,wght@700,/Expressive/Rugged,14
+Signika Negative,,/Expressive/Stiff,22
 Signika Negative,,/Quality/Concept,70
 Signika Negative,,/Quality/Drawing,50
 Signika Negative,,/Quality/Spacing,70
@@ -28998,6 +29145,7 @@ Signika,wght@300,/Expressive/Playful,24
 Signika,wght@700,/Expressive/Playful,34
 Signika,wght@300,/Expressive/Rugged,3
 Signika,wght@700,/Expressive/Rugged,14
+Signika,,/Expressive/Stiff,22
 Signika,,/Quality/Concept,70
 Signika,,/Quality/Drawing,50
 Signika,,/Quality/Spacing,70
@@ -29366,6 +29514,7 @@ Sofia Sans Condensed,wght@1,/Expressive/Playful,1
 Sofia Sans Condensed,wght@1000,/Expressive/Playful,1
 Sofia Sans Condensed,wght@1,/Expressive/Rugged,5
 Sofia Sans Condensed,wght@1000,/Expressive/Rugged,20
+Sofia Sans Condensed,,/Expressive/Stiff,40
 Sofia Sans Condensed,,/Quality/Concept,70
 Sofia Sans Condensed,,/Quality/Drawing,72
 Sofia Sans Condensed,,/Quality/Spacing,90
@@ -29394,6 +29543,7 @@ Sofia Sans Extra Condensed,wght@1,/Expressive/Playful,1
 Sofia Sans Extra Condensed,wght@1000,/Expressive/Playful,1
 Sofia Sans Extra Condensed,wght@1,/Expressive/Rugged,1
 Sofia Sans Extra Condensed,wght@1000,/Expressive/Rugged,18
+Sofia Sans Extra Condensed,,/Expressive/Stiff,5
 Sofia Sans Extra Condensed,,/Quality/Concept,70
 Sofia Sans Extra Condensed,,/Quality/Drawing,72
 Sofia Sans Extra Condensed,,/Quality/Spacing,80
@@ -29419,6 +29569,7 @@ Sofia Sans Semi Condensed,wght@1,/Expressive/Playful,1
 Sofia Sans Semi Condensed,wght@1000,/Expressive/Playful,1
 Sofia Sans Semi Condensed,wght@1,/Expressive/Rugged,5
 Sofia Sans Semi Condensed,wght@1000,/Expressive/Rugged,20
+Sofia Sans Semi Condensed,,/Expressive/Stiff,30
 Sofia Sans Semi Condensed,,/Quality/Concept,70
 Sofia Sans Semi Condensed,,/Quality/Drawing,72
 Sofia Sans Semi Condensed,,/Quality/Spacing,70
@@ -29441,6 +29592,7 @@ Sofia Sans,wght@1,/Expressive/Playful,1
 Sofia Sans,wght@1000,/Expressive/Playful,1
 Sofia Sans,wght@1,/Expressive/Rugged,5
 Sofia Sans,wght@1000,/Expressive/Rugged,20
+Sofia Sans,,/Expressive/Stiff,30
 Sofia Sans,,/Quality/Concept,70
 Sofia Sans,,/Quality/Drawing,72
 Sofia Sans,,/Quality/Spacing,70
@@ -29833,6 +29985,7 @@ Special Gothic,"wdth,wght@75,400",/Expressive/Sincere,30
 Special Gothic,"wdth,wght@75,700",/Expressive/Sincere,20
 Special Gothic,"wdth,wght@125,400",/Expressive/Sincere,30
 Special Gothic,"wdth,wght@125,700",/Expressive/Sincere,24
+Special Gothic,,/Expressive/Stiff,9
 Special Gothic,,/Quality/Concept,70
 Special Gothic,,/Quality/Drawing,70
 Special Gothic,,/Quality/Spacing,80
@@ -30290,8 +30443,10 @@ Strichpunkt Sans,"wdth,wght@100,400",/Expressive/Sincere,20
 Strichpunkt Sans,"wdth,wght@100,900",/Expressive/Sincere,12
 Strichpunkt Sans,"wdth,wght@200,400",/Expressive/Sincere,20
 Strichpunkt Sans,"wdth,wght@200,900",/Expressive/Sincere,14
-Strichpunkt Sans,wght@400,/Expressive/Stiff,20
-Strichpunkt Sans,wght@900,/Expressive/Stiff,12
+Strichpunkt Sans,"wdth,wght@100,400",/Expressive/Stiff,50
+Strichpunkt Sans,"wdth,wght@100,900",/Expressive/Stiff,60
+Strichpunkt Sans,"wdth,wght@200,400",/Expressive/Stiff,40
+Strichpunkt Sans,"wdth,wght@200,900",/Expressive/Stiff,50
 Strichpunkt Sans,,/Quality/Concept,70
 Strichpunkt Sans,,/Quality/Drawing,70
 Strichpunkt Sans,,/Quality/Spacing,60
@@ -30957,6 +31112,10 @@ TikTok Sans,"wdth,wght@75,300",/Expressive/Sincere,32
 TikTok Sans,"wdth,wght@75,900",/Expressive/Sincere,15
 TikTok Sans,"wdth,wght@150,300",/Expressive/Sincere,30
 TikTok Sans,"wdth,wght@150,900",/Expressive/Sincere,18
+TikTok Sans,"wdth,wght@75,300",/Expressive/Stiff,36
+TikTok Sans,"wdth,wght@75,900",/Expressive/Stiff,40
+TikTok Sans,"wdth,wght@150,300",/Expressive/Stiff,32
+TikTok Sans,"wdth,wght@150,900",/Expressive/Stiff,36
 TikTok Sans,,/Quality/Concept,70
 TikTok Sans,,/Quality/Drawing,70
 TikTok Sans,,/Quality/Spacing,90
@@ -31410,6 +31569,7 @@ Truculenta,"wdth,wght@75,900",/Expressive/Loud,83
 Truculenta,"wdth,wght@125,100",/Expressive/Loud,60
 Truculenta,"wdth,wght@125,900",/Expressive/Loud,88
 Truculenta,,/Expressive/Playful,34
+Truculenta,,/Expressive/Stiff,30
 Truculenta,wght@100,/Expressive/Vintage,58
 Truculenta,wght@900,/Expressive/Vintage,60
 Truculenta,,/Quality/Concept,70
@@ -31599,6 +31759,7 @@ Ubuntu Sans,"wdth,wght@100,100",/Expressive/Loud,12
 Ubuntu Sans,"wdth,wght@100,800",/Expressive/Loud,62
 Ubuntu Sans,wght@100,/Expressive/Playful,1
 Ubuntu Sans,wght@800,/Expressive/Playful,1
+Ubuntu Sans,,/Expressive/Stiff,38
 Ubuntu Sans,,/Quality/Concept,70
 Ubuntu Sans,,/Quality/Drawing,70
 Ubuntu Sans,,/Quality/Spacing,70
@@ -31664,6 +31825,7 @@ Unbounded,wght@200,/Expressive/Playful,48
 Unbounded,wght@900,/Expressive/Playful,50
 Unbounded,wght@200,/Expressive/Rugged,1
 Unbounded,wght@900,/Expressive/Rugged,9
+Unbounded,,/Expressive/Stiff,25
 Unbounded,,/Quality/Concept,75
 Unbounded,,/Quality/Drawing,70
 Unbounded,,/Quality/Spacing,80
@@ -31905,6 +32067,7 @@ Varta,wght@700,/Expressive/Competent,55
 Varta,wght@300,/Expressive/Playful,1
 Varta,wght@700,/Expressive/Playful,1
 Varta,,/Expressive/Rugged,45
+Varta,,/Expressive/Stiff,7
 Varta,,/Quality/Concept,75
 Varta,,/Quality/Drawing,75
 Varta,,/Quality/Spacing,70
@@ -32482,6 +32645,7 @@ Wix Madefor Display,wght@400,/Expressive/Playful,1
 Wix Madefor Display,wght@800,/Expressive/Playful,1
 Wix Madefor Display,wght@400,/Expressive/Rugged,1
 Wix Madefor Display,wght@800,/Expressive/Rugged,7
+Wix Madefor Display,,/Expressive/Stiff,10
 Wix Madefor Display,,/Quality/Concept,70
 Wix Madefor Display,,/Quality/Drawing,65
 Wix Madefor Display,,/Quality/Spacing,90
@@ -32501,6 +32665,7 @@ Wix Madefor Text,wght@400,/Expressive/Playful,1
 Wix Madefor Text,wght@800,/Expressive/Playful,1
 Wix Madefor Text,wght@400,/Expressive/Rugged,1
 Wix Madefor Text,wght@800,/Expressive/Rugged,8
+Wix Madefor Text,,/Expressive/Stiff,10
 Wix Madefor Text,,/Quality/Concept,70
 Wix Madefor Text,,/Quality/Drawing,65
 Wix Madefor Text,,/Quality/Spacing,60
@@ -32527,6 +32692,7 @@ Work Sans,wght@100,/Expressive/Playful,6
 Work Sans,wght@900,/Expressive/Playful,9
 Work Sans,wght@100,/Expressive/Rugged,1
 Work Sans,wght@900,/Expressive/Rugged,22
+Work Sans,,/Expressive/Stiff,10
 Work Sans,,/Quality/Concept,70
 Work Sans,,/Quality/Drawing,70
 Work Sans,,/Quality/Spacing,80
@@ -32605,6 +32771,7 @@ Yanone Kaffeesatz,wght@200,/Expressive/Playful,9
 Yanone Kaffeesatz,wght@700,/Expressive/Playful,12
 Yanone Kaffeesatz,wght@200,/Expressive/Rugged,1
 Yanone Kaffeesatz,wght@700,/Expressive/Rugged,4
+Yanone Kaffeesatz,,/Expressive/Stiff,30
 Yanone Kaffeesatz,,/Quality/Concept,75
 Yanone Kaffeesatz,,/Quality/Drawing,80
 Yanone Kaffeesatz,,/Quality/Spacing,70
@@ -33131,6 +33298,10 @@ Zalando Sans,"wdth,wght@125,200",/Expressive/Loud,24
 Zalando Sans,"wdth,wght@125,900",/Expressive/Loud,73
 Zalando Sans,wght@200,/Expressive/Playful,1
 Zalando Sans,wght@900,/Expressive/Playful,1
+Zalando Sans,"wdth,wght@75,200",/Expressive/Stiff,54
+Zalando Sans,"wdth,wght@75,900",/Expressive/Stiff,52
+Zalando Sans,"wdth,wght@125,200",/Expressive/Stiff,50
+Zalando Sans,"wdth,wght@125,900",/Expressive/Stiff,50
 Zalando Sans,,/Quality/Concept,70
 Zalando Sans,,/Quality/Drawing,80
 Zalando Sans,,/Quality/Spacing,70

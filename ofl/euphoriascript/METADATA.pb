@@ -19,7 +19,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/euphoriascript"
-  commit: "78d99652827fb969c23ab117ca38d93152b32bce"
+  commit: "5c641480f1c300fc9424db0fe888bf5cfc285e10"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

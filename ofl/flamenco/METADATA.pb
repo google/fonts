@@ -25,7 +25,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/flamenco"
-  commit: "457c24c5400c78afac2d6cb6c24e1fec4d3cfbb6"
+  commit: "f6d683a8829b264edea2566800df007a19cb2069"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

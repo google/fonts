@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/gafata"
-  commit: "145c6761d3cf3aa1522f0bcec92b5378f67e4139"
+  commit: "d3a34e7cacb38c4cde02605a7f1d8168e6cfd32a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

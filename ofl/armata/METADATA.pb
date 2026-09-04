@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/armata"
-  commit: "acd66b422a3b61baae8fee57c197e9f782b87f57"
+  commit: "8594fe9afcf0f561d1150067067ddca7e44e91c9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

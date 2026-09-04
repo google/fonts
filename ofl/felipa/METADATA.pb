@@ -19,7 +19,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/felipa"
-  commit: "1ba44f83532b9074cc71a2c13c526dea5118bb50"
+  commit: "43b2f5ee04fe88c90359d44ec195e13be4d0eab1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

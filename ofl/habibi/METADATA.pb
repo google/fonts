@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/habibi"
-  commit: "dca56369c22e74471cceec90e257533271629472"
+  commit: "f84251c19559b3f2aae7053bb271ea0758b85c27"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

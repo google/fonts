@@ -28,7 +28,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/elsieswashcaps"
-  commit: "411b5d70587edced2c2c23f9d4c1393be55bf5d4"
+  commit: "2b557e85ca905af987167cea3c279fc7f51e15ed"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

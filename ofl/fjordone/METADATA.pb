@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/googlefonts/fjordone"
-  commit: "a6c1784e33666b26db68a0170055b9f41086240e"
+  commit: "2ca608793920a72b6d11a00ca83a2f04b15d89b8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

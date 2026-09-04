@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2012-05-09"
 source {
   repository_url: "https://github.com/googlefonts/bubblerone"
-  commit: "110b02cb1d151f5c8288d01c98121bab0094da19"
+  commit: "340ec8e1db5757ed5255633684a491769e8025de"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

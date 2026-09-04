@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2012-09-24"
 source {
   repository_url: "https://github.com/googlefonts/benchnine"
-  commit: "dd9d771443fa68ea48ef0819d28fc64e0fded42f"
+  commit: "c8159512c8ad0159a551fd074c00b60c044c3748"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

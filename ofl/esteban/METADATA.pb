@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/esteban"
-  commit: "6e017f92549326738359a4c43c5ac7302ca773f7"
+  commit: "c268b4f87279884fe0765e8d40eb65e0d17621ef"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

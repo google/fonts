@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-12-07"
 source {
   repository_url: "https://github.com/googlefonts/cevicheone"
-  commit: "1af833a0fd47b174386916453a54e6bf1f6d5a34"
+  commit: "72a6df0567207a62272bd172230a8a089197036b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

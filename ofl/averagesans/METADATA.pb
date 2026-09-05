@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2012-10-26"
 source {
   repository_url: "https://github.com/googlefonts/averagesans"
-  commit: "25392b948053363b34308e1f95e29c5401997b00"
+  commit: "1b1058cd63195d26fe2ccc70a7662d90220373ac"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

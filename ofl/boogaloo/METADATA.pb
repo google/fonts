@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/boogaloo"
-  commit: "254753cf202453c11d1aa39066b9ca5294d2dc5f"
+  commit: "c06afd6c55940a7cb72a434450a77575142f0249"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/hammersmithone"
-  commit: "fa842a5d78963d24a139bb95c3b5d81d3a307c2b"
+  commit: "6459b0722c0ab3bdfb742cb5672dbaf572f4eca5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

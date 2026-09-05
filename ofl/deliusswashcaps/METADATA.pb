@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2011-08-03"
 source {
   repository_url: "https://github.com/googlefonts/deliusswashcaps"
-  commit: "2bcc0f94b70fdc0c94bc30d803f8c646224c1eab"
+  commit: "d5570948565c7ed27cfeaaf163cb3835f6742445"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

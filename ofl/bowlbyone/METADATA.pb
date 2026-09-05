@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-07-13"
 source {
   repository_url: "https://github.com/googlefonts/bowlbyone"
-  commit: "d469e83e10f7c1e7294e5586da5da1d9725f417c"
+  commit: "8e8163e23a6573833332ef4f10b2c48d78be2c7b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

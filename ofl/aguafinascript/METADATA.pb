@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2011-11-30"
 source {
   repository_url: "https://github.com/googlefonts/aguafinascript"
-  commit: "0cd0eecf14f34e946400cb472a9241616e4833ac"
+  commit: "723ec37b4f2657506b004f6db007c482f3a8af02"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

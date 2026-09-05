@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2012-04-04"
 source {
   repository_url: "https://github.com/googlefonts/chauphilomeneone"
-  commit: "d7246600bbdfd898596bb8ebab13c484e5b21a55"
+  commit: "a1f00e1a92747fb44b1120ddaa31d3421e31ed69"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

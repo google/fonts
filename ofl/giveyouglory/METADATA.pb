@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/googlefonts/giveyouglory"
-  commit: "79ab8c04f2f381fa7439e09957fe3257ff113333"
+  commit: "3a257cd1804b255dc7caac164c6cd2965c0119fc"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

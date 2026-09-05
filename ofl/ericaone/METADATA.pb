@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/ericaone"
-  commit: "34ddbe60f433f69a959c8200e97b8b9be4499900"
+  commit: "7b144141a0c64f8345146826f0132ea2f15a8866"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

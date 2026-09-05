@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-12-19"
 source {
   repository_url: "https://github.com/googlefonts/butcherman"
-  commit: "f4f7f3e2cd993e09bb72e154c5fd34f3dc99d3c0"
+  commit: "6101b20d2e2ba2773da7d92f0c92c1ce707b6287"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

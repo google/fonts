@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/jockeyone"
-  commit: "4f6087374d94a145a80a2b297f27db8b52e52dd9"
+  commit: "328c36706235aca94efbd2c56d2ee7b69d494bb0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

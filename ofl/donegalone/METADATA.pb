@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2012-11-26"
 source {
   repository_url: "https://github.com/googlefonts/donegalone"
-  commit: "3fccfd33ed0b9eefdb158aef321fc2e604127a2c"
+  commit: "1789bdc47a7611ddd5bff9216bfc12655a32ad27"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

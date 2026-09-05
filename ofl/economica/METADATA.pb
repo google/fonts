@@ -46,7 +46,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/economica"
-  commit: "03c3c4473a043aa560421b3d54d67f66d4a98a31"
+  commit: "97d9d775227f19b63adc1b073ecc073f43cebefc"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -5,7 +5,7 @@ category: "SANS_SERIF"
 date_added: "2012-02-22"
 source {
   repository_url: "https://github.com/googlefonts/doppioone"
-  commit: "34f9329a27b33de4a879733d65daaee5e7eb61d5"
+  commit: "f2fcd625359c4aa7d2b76aa5ab99b760707f6669"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/emblemaone"
-  commit: "79205499f351bf5c95c8dcf6121180c18789f62f"
+  commit: "70b9d48e6e1d27d74cc177bf7f12f958fe13dd28"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

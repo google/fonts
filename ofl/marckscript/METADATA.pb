@@ -20,7 +20,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/marckscript"
-  commit: "b85fe9173d03ac8c339274ead43f34f0752c0819"
+  commit: "f4e66d73d1cc7190be547d491b99a0979c60fb10"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

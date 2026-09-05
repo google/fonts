@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-12-13"
 source {
   repository_url: "https://github.com/googlefonts/chango"
-  commit: "fed28f46958e46610efc52780476adcfc91745e6"
+  commit: "cc5a73fc2986d109343d4a42aacaf5428274ad12"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

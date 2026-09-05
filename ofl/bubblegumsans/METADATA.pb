@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-11-23"
 source {
   repository_url: "https://github.com/googlefonts/bubblegumsans"
-  commit: "ad8f70f6b46d0c3e66f2e38f943435eb2b6bb625"
+  commit: "a2d0062318639fe63f2a8ffd78fec793ee8e6248"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

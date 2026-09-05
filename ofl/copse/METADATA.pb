@@ -5,7 +5,7 @@ category: "SERIF"
 date_added: "2010-12-15"
 source {
   repository_url: "https://github.com/googlefonts/copse"
-  commit: "3022d037cd17945ad478f853ce401fc51185f8d0"
+  commit: "53eac2d38908f158fbbf0cc1863240a5fc8bc7a4"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

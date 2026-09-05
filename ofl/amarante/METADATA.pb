@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2012-07-10"
 source {
   repository_url: "https://github.com/googlefonts/amarante"
-  commit: "46979134e6b96a867f1441e91d06bbecc3eba8d2"
+  commit: "0eda1ae2955c3b3a56da48abf1517afac0e8391f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

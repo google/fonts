@@ -18,7 +18,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/geostarfill"
-  commit: "61aec9b9308292407c258a90b15a66b0449135bc"
+  commit: "4bee66afd797da22ee772995c2344fce81817c6e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

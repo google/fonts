@@ -18,7 +18,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/gochihand"
-  commit: "af523d983cfa89c7216edbb907db7e39cef756d2"
+  commit: "3b094579959c9489e3b401d001c895cb2dfaad02"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

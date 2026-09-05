@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-07-06"
 source {
   repository_url: "https://github.com/googlefonts/bowlbyonesc"
-  commit: "7fc977deba6f6a55ede3fd17ebfc9d299afdfd83"
+  commit: "7cdb4c893d50681fe94144c3de09a285f01f8845"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

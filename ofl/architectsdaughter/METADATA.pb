@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2011-03-09"
 source {
   repository_url: "https://github.com/googlefonts/architectsdaughter"
-  commit: "0912d302495d684898c33d02a4a0f24f32ec3da3"
+  commit: "55246f9edaf98669853e024e60e0575bd9d52ada"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

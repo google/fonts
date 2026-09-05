@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/fresca"
-  commit: "6f0f0d00ca1fc37032e87cb12c365a1a31bea443"
+  commit: "c21be75086b74f71a72e992977f05243c9c99ef3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

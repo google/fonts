@@ -5,7 +5,7 @@ category: "HANDWRITING"
 date_added: "2011-10-12"
 source {
   repository_url: "https://github.com/googlefonts/deliusunicase"
-  commit: "2440c19ebfa6d4a898d9b8d439e9888e7d2fd71f"
+  commit: "b4e89d5702b05d66107280bc250f2502ac97b947"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

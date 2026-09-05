@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2011-11-30"
 source {
   repository_url: "https://github.com/googlefonts/chicle"
-  commit: "f68c0fa9e45e089b7cb3fb7bbef873b9e7bf8123"
+  commit: "07b8112c518449245b5c2c195c31f73cd993ab64"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

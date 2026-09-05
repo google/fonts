@@ -19,7 +19,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/ewert"
-  commit: "1fdc40c5b4f330020515d69ca4e3d1fd18e1df64"
+  commit: "2923c2b66dd871ce269cccaba064c6621d1dec0e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

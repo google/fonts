@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2012-11-12"
 source {
   repository_url: "https://github.com/googlefonts/almendradisplay"
-  commit: "d0f84bf66891b9e398cec31f5f7314897f897ee2"
+  commit: "6a40f5fc91d58ab9cbd9a92e1a037dc9d71fa1aa"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

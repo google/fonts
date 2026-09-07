@@ -4,11 +4,14 @@
 // We're uninterested in anything other than 3/1/0x409, so we use Strings instead
 // of the more correct NameSpec.
 
-use fontations::write::{
-    tables::{name::NameRecord, stat as write_stat},
+use std::collections::HashMap;
+use write_fonts::{
+    tables::{
+        name::NameRecord,
+        stat::{self as write_stat},
+    },
     types::{Fixed, NameId, Tag},
 };
-use std::collections::HashMap;
 
 use crate::nametable::find_or_add_name;
 
@@ -97,7 +100,8 @@ impl StatBuilder {
                 .iter()
                 .flat_map(|x| x.iter())
             {
-                let flags = write_stat::AxisValueTableFlags::from_bits(axis_value.flags).unwrap();
+                let flags = write_stat::AxisValueTableFlags::from_bits(axis_value.flags)
+                    .unwrap_or_default();
                 let name_id = find_or_add_name(name_records, &axis_value.name);
 
                 let value = match &axis_value.location {
@@ -127,7 +131,8 @@ impl StatBuilder {
             .unwrap_or_default()
             .into_iter()
             .map(|format4| {
-                let flags = write_stat::AxisValueTableFlags::from_bits(format4.flags).unwrap();
+                let flags =
+                    write_stat::AxisValueTableFlags::from_bits(format4.flags).unwrap_or_default();
                 let name_id = find_or_add_name(name_records, &format4.name);
 
                 let AxisLocation::Four(values) = &format4.location else {

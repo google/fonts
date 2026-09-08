@@ -26,5 +26,8 @@ jobs:
     - name: Install dependencies
       run: pip install pytest requests
     - name: Check font tags
+      env:
+        SB_USERNAME: ${{ secrets.SB_USERNAME }}
+        SB_PASSWORD: ${{ secrets.SB_PASSWORD }}
       run: |
         pytest .ci/test_font_tags.py

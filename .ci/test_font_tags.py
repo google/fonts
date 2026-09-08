@@ -8,14 +8,19 @@ from itertools import product
 
 @pytest.fixture
 def family_metadata():
-    data = requests.get("https://fonts.google.com/metadata/fonts").json()
-    return data["familyMetadataList"]
-
-
-@pytest.fixture
-def sb_family_metadata():
-    data = requests.get("https://fonts.sandbox.google.com/metadata/fonts").json()
-    return data["familyMetadataList"]
+    username = os.environ.get("SB_USERNAME")
+    password = os.environ.get("SB_PASSWORD")
+    if not username or not password:
+        pytest.fail(
+            "SB_USERNAME and SB_PASSWORD environment variables must be set "
+            "to access https://fonts.sandbox.google.com/metadata/fonts"
+        )
+    response = requests.get(
+        "https://fonts.sandbox.google.com/metadata/fonts",
+        auth=(username, password),
+    )
+    response.raise_for_status()
+    return response.json()["familyMetadataList"]
 
 
 @pytest.fixture

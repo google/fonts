@@ -28,9 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/devanagari"
-  commit: "bb8d2566a1708ef2dcc6396ee2eb261a18967f76"
-  archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSansDevanagari-v2.006/NotoSansDevanagari-v2.006.zip"
-  config_yaml: "sources/config-sans-devanagari.yaml"
+  commit: "e123d230c160ebe949d731cc19017cdb354180d1"
+  archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSansDevanagari-v2.007/NotoSansDevanagari-v2.007.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
@@ -48,11 +47,12 @@ source {
     dest_file: "NotoSansDevanagari[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-devanagari.yaml"
 }
 is_noto: true
 languages: "anp_Deva"  # Angika
 languages: "awa_Deva"  # Awadhi
-languages: "bap_Deva"  # Bantawa
+languages: "bap_Deva"  # Bantawa (Devanagari)
 languages: "bfy_Deva"  # Bagheli
 languages: "bgc_Deva"  # Haryanvi
 languages: "bhb_Deva"  # Bhili
@@ -62,15 +62,15 @@ languages: "bjj_Deva"  # Kanauji
 languages: "bra_Deva"  # Braj
 languages: "brx_Deva"  # Bodo
 languages: "btv_Deva"  # Bateri
-languages: "byh_Deva"  # Bhujel, Devanagari
-languages: "chx_Deva"  # Chantyal, Devanagari
-languages: "dhi_Deva"  # Dhimal, Devanagari
-languages: "dhw_Deva"  # Dhanwar, Nepal, Devanagari
+languages: "byh_Deva"  # Bhujel (Devanagari)
+languages: "chx_Deva"  # Chantyal (Devanagari)
+languages: "dhi_Deva"  # Dhimal (Devanagari)
+languages: "dhw_Deva"  # Dhanwar, Nepal (Devanagari)
 languages: "doi_Deva"  # Dogri
 languages: "dty_Deva"  # Dotyali
 languages: "gbm_Deva"  # Garhwali
 languages: "ggn_Deva"  # Eastern Gurung
-languages: "gju_Deva"  # Gujari, Devanagari
+languages: "gju_Deva"  # Gujari (Devanagari)
 languages: "gom_Deva"  # Goan Konkani
 languages: "gon_Deva"  # Gondi
 languages: "gvr_Deva"  # Gurung
@@ -84,11 +84,11 @@ languages: "kfr_Deva"  # Kachhi
 languages: "kfy_Deva"  # Kumaoni
 languages: "kgj_Deva"  # Gamale Kham, Devanagari
 languages: "khn_Deva"  # Khandesi
-languages: "khr_Deva"  # Kharia, Devanagari
+languages: "khr_Deva"  # Kharia (Devanagari)
 languages: "kok_Deva"  # Konkani
 languages: "kru_Deva"  # Kurukh
-languages: "ks_Deva"  # Kashmiri, Devanagari
-languages: "lhm_Deva"  # Lhomi, Devanagari
+languages: "ks_Deva"  # Kashmiri (Devanagari)
+languages: "lhm_Deva"  # Lhomi (Devanagari)
 languages: "lif_Deva"  # Limbu
 languages: "mag_Deva"  # Magahi
 languages: "mai_Deva"  # Maithili
@@ -102,11 +102,11 @@ languages: "new_Deva"  # Newari
 languages: "nnp_Deva"  # Wancho Naga, Devanagari
 languages: "noe_Deva"  # Nimadi
 languages: "pi_Deva"  # Pali
-languages: "rab_Deva"  # Camling, Devanagari
+languages: "rab_Deva"  # Camling (Devanagari)
 languages: "raj_Deva"  # Rajasthani
 languages: "rjs_Deva"  # Rajbanshi
 languages: "sa_Deva"  # Sanskrit
-languages: "sat_Deva"  # Santali, Devanagari
+languages: "sat_Deva"  # Santali (Devanagari)
 languages: "sck_Deva"  # Sadri
 languages: "sd_Deva"  # Sindhi (Devanagari)
 languages: "srx_Deva"  # Sirmauri
@@ -114,18 +114,18 @@ languages: "swv_Deva"  # Shekhawati
 languages: "taj_Deva"  # Eastern Tamang
 languages: "tdg_Deva"  # Western Tamang
 languages: "tdh_Deva"  # Thulung
-languages: "thf_Deva"  # Thangmi, Devanagari
+languages: "thf_Deva"  # Thangmi (Devanagari)
 languages: "thl_Deva"  # Dangaura Tharu
 languages: "thq_Deva"  # Kochila Tharu
 languages: "thr_Deva"  # Rana Tharu
-languages: "ths_Deva"  # Thakali, Devanagari
+languages: "ths_Deva"  # Thakali (Devanagari)
 languages: "tkt_Deva"  # Kathoriya Tharu
 languages: "tsf_Deva"  # Southwestern Tamang
 languages: "unr_Deva"  # Mundari (Devanagari)
-languages: "unx_Deva"  # Munda, Devanagari
+languages: "unx_Deva"  # Munda (Devanagari)
 languages: "wbr_Deva"  # Wagdi
 languages: "wtm_Deva"  # Mewati
 languages: "xnr_Deva"  # Kangri
 languages: "xsr_Deva"  # Sherpa
-languages: "ybh_Deva"  # Yakha, Devanagari
+languages: "ybh_Deva"  # Yakha (Devanagari)
 primary_script: "Deva"

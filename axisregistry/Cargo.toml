@@ -1,6 +1,6 @@
 [package]
 name = "google-fonts-axisregistry"
-version = "0.4.19"
+version = "0.5.0"
 edition = "2021"
 description = "Google Fonts font axis support data"
 repository = "https://github.com/googlefonts/axisregistry"
@@ -8,13 +8,15 @@ license-file = "LICENSE.txt"
 
 [features]
 default = ["fontations"]
+fontations = ["dep:skrifa", "dep:write-fonts"]
 
 [dependencies]
 bytes = "1.11.1"
 gf-metadata = "0.2.4"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-fontations = { version = "0.3.0", optional = true }
+write-fonts = { version = "0.52.0", optional = true }
+skrifa = { version = "0.46.2", optional = true }
 indexmap = "2.7.0"
 
 [dev-dependencies]
@@ -28,3 +30,8 @@ proc-macro2 = "1.0"
 syn = "2.0"
 itertools = "0.13"
 gf-metadata = "0.2.4"
+serde_json = "1.0"
+
+[lints.clippy]
+unwrap_used = "deny"
+indexing_slicing = "deny"

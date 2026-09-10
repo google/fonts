@@ -1,20 +1,14 @@
-# New
-ofl/claritycity # https://github.com/google/fonts/pull/10848
-ofl/isometra # https://github.com/google/fonts/pull/10834
-ofl/kripa # https://github.com/google/fonts/pull/10865
-ofl/librecasloncondensed # https://github.com/google/fonts/pull/10801
-
 # Upgrade
-ofl/akshar # https://github.com/google/fonts/pull/10888
-ofl/hedvigletterssans # https://github.com/google/fonts/pull/10844
-ofl/hedviglettersserif # https://github.com/google/fonts/pull/10845
 ofl/notocoloremoji # https://github.com/google/fonts/pull/10891
-ofl/notoseriftoto # https://github.com/google/fonts/pull/10840
+ofl/notokufiarabic # https://github.com/google/fonts/pull/9920
 
 # Designer profile
-catalog/designers/ertekinerdin # https://github.com/google/fonts/pull/10883
 catalog/designers/inesgarrido # https://github.com/google/fonts/pull/10807
-catalog/designers/kedargadge # https://github.com/google/fonts/pull/10884
+
+# Axis Registry
+axisregistry/spacing.textproto # https://github.com/google/fonts/pull/10941
+axisregistry/width.textproto # https://github.com/google/fonts/pull/10941
+axisregistry/x_transparent.textproto # https://github.com/google/fonts/pull/10941
 
 # Sample texts
 lang/languages/cnr_Cyrl.textproto # https://github.com/google/fonts/pull/10864
@@ -26,6 +20,3 @@ lang/languages/kjh_Cyrl.textproto # https://github.com/google/fonts/pull/10864
 
 # Other
 ofl/yomogi # https://github.com/google/fonts/pull/10802
-
-# Tags
-tags/all/families.csv

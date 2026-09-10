@@ -10,7 +10,7 @@ fonts {
   filename: "Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf"
   post_script_name: "Tiny5Duo-Regular"
   full_name: "Tiny5 Duo Regular"
-  copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)"
+  copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
 }
 fonts {
   name: "Tiny5 Duo"
@@ -19,7 +19,7 @@ fonts {
   filename: "Tiny5Duo-Italic[BLED,JITT,ROND,wdth,wght].ttf"
   post_script_name: "Tiny5Duo-Italic"
   full_name: "Tiny5 Duo Italic"
-  copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)"
+  copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

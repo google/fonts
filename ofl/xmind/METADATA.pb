@@ -33,7 +33,7 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/lamzhonghang/nevermind"
+  repository_url: "https://github.com/lamzhonghang/xmind"
   commit: "b2e4ee3f61453fefe11c694028ccdb472c994e83"
   files {
     source_file: "OFL.txt"

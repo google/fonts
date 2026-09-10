@@ -1,16 +1,25 @@
+//! Rust port of the Google Fonts [Axis Registry](https://github.com/googlefonts/axisregistry).
+//!
+//! Provides a read-only view of every axis registered with Google Fonts, plus
+//! helpers for working with the axes implemented by a font. The registry data
+//! is compiled into the crate at build time from the
+//! `Lib/axisregistry/data/*.textproto` sources.
+//!
+//! With the `fontations` feature (enabled by default) it can also rebuild a
+//! font's `name`, `fvar` and `STAT` tables to conform to the Google Fonts
+//! naming and instance specifications.
+
 use gf_metadata::{AxisProto, FallbackProto};
 use std::{collections::HashSet, ops::Index};
 
-#[cfg(feature = "fontations")]
-pub use fontations::read::FontRef; // Re-export our types for users
-#[cfg(feature = "fontations")]
-use fontations::skrifa::string::StringId;
-#[cfg(feature = "fontations")]
-use fontations::{
-    read::{ReadError, TableProvider},
-    write::FontBuilder,
-};
 use indexmap::IndexMap;
+#[cfg(feature = "fontations")]
+use skrifa::string::StringId;
+#[cfg(feature = "fontations")]
+use skrifa::{
+    raw::FontRef,
+    raw::{ReadError, TableProvider},
+};
 
 include!(concat!(env!("OUT_DIR"), "/data.rs"));
 
@@ -57,44 +66,62 @@ const PROTECTED_IDS: [StringId; 9] = [
     StringId::VARIATIONS_POSTSCRIPT_NAME_PREFIX,
 ];
 
+/// The Google Fonts Axis Registry.
+///
+/// A read-only collection of every axis registered with Google Fonts, keyed by
+/// its four-character `tag`.
 pub struct AxisRegistry {
     axes: BTreeMap<String, Box<AxisProto>>,
 }
 
+/// A design axis as implemented by a font's `fvar` table.
 #[derive(Debug, Clone)]
 pub struct FontAxis {
+    /// The axis tag (e.g. `"wght"`).
     pub tag: String,
+    /// The minimum value of the axis.
     pub min: f32,
+    /// The maximum value of the axis.
     pub max: f32,
+    /// The default value of the axis.
     pub default: f32,
 }
 
+/// A named component used to compose axis-based style names.
 #[derive(Debug, Clone)]
 pub struct NameParticle {
+    /// The readable name, if one is known for this value.
     pub name: Option<String>,
+    /// The axis value this particle represents.
     pub value: f32,
+    /// Whether this particle is omitted from the composed name.
     pub elided: bool,
 }
 
 impl AxisRegistry {
+    /// Creates a registry containing all axes in the Google Fonts Axis Registry.
     pub fn new() -> Self {
         Self {
             axes: (*AXES).clone(),
         }
     }
 
+    /// Returns the registered axis for the given `tag`, if present.
     pub fn get(&self, tag: &str) -> Option<&AxisProto> {
         self.axes.get(tag).map(|v| &**v)
     }
 
+    /// Returns whether an axis with the given `tag` is registered.
     pub fn contains_key(&self, tag: &str) -> bool {
         self.axes.contains_key(tag)
     }
 
+    /// Iterates over all `(tag, axis)` pairs in the registry.
     pub fn iter(&self) -> impl Iterator<Item = (&String, &AxisProto)> {
         self.axes.iter().map(|(k, v)| (k, &**v))
     }
 
+    /// Returns the first fallback named `name`, as its `(axis tag, fallback)`.
     pub fn get_fallback<'a>(&'a self, name: &str) -> Option<(&'a str, &'a FallbackProto)> {
         self.axes
             .iter()
@@ -108,7 +135,11 @@ impl AxisRegistry {
             .next()
     }
 
-    // This is fallbacks_in_fvar, but without assuming any particular font representation
+    /// For each of the given font axes, yields its registered fallbacks whose
+    /// values fall within the axis' `min`..`max` range.
+    ///
+    /// This is `fallbacks_in_fvar` from the Python original, without assuming
+    /// any particular font representation.
     pub fn fallbacks<'a>(
         &'a self,
         font_axes: &'a [FontAxis],
@@ -128,7 +159,11 @@ impl AxisRegistry {
         })
     }
 
-    // This is fallbacks_in_name_table, but without assuming any particular font representation
+    /// Yields fallbacks whose names appear as tokens in the given family and
+    /// subfamily names, skipping any of the given font axes.
+    ///
+    /// This is `fallbacks_in_name_table` from the Python original, without
+    /// assuming any particular font representation.
     pub fn name_table_fallbacks<'a>(
         &'a self,
         family_name: &'a str,
@@ -145,6 +180,7 @@ impl AxisRegistry {
             .filter(move |(tag, _)| !axis_names.contains(tag))
     }
 
+    /// Returns the registered fallback with the given `value` on `axis_tag`, if any.
     pub fn fallback_for_value<'a>(
         &'a self,
         axis_tag: &str,
@@ -154,6 +190,8 @@ impl AxisRegistry {
             .and_then(|axis| axis.fallback.iter().find(|f| f.value == Some(value)))
     }
 
+    /// Returns axis tags in canonical Google Fonts order: custom axes
+    /// alphabetically, then `opsz`, `wdth`, `wght`, `ital`, `slnt`.
     pub fn axis_order(&self) -> Vec<&str> {
         let mut axis_tags: Vec<&str> = self
             .axes
@@ -166,7 +204,8 @@ impl AxisRegistry {
         axis_tags
     }
 
-    // This is the old "_fvar_dflts"
+    /// Builds a name particle for each of the given font axes from the axis'
+    /// default values (the former `_fvar_dflts` in the Python original).
     pub fn name_particles<'a>(&self, font_axes: &'a [FontAxis]) -> IndexMap<&'a str, NameParticle> {
         let mut particles = IndexMap::new();
         for axis in font_axes {
@@ -185,7 +224,8 @@ impl AxisRegistry {
                     NameParticle {
                         name: fallback.name.clone(),
                         value: axis.default,
-                        elided: (fallback.value() == self.get(&axis.tag).unwrap().default_value())
+                        elided: (Some(fallback.value())
+                            == self.get(&axis.tag).map(|axis| axis.default_value()))
                             && !(["Regular", "Italic", "14pt"].contains(&fallback.name())),
                     },
                 );
@@ -227,59 +267,74 @@ mod stat;
 #[cfg(feature = "fontations")]
 mod fontations_impl {
     use super::*;
-    use fontations::{
-        skrifa::{string::StringId, MetadataProvider, Tag},
-        write::{
-            from_obj::ToOwnedTable,
-            tables::{
-                fvar::{Fvar, InstanceRecord},
-                name::{Name, NameRecord},
-                os2::Os2,
-                stat::Stat,
-            },
-            types::Fixed,
-        },
-    };
     use monkeypatching::{AxisValueNameId, SetAxisValueNameId};
     use nametable::{
         add_name, best_familyname, best_subfamilyname, find_or_add_name, rewrite_or_insert,
     };
+    use skrifa::{string::StringId, MetadataProvider, Tag};
     use stat::{AxisLocation, AxisRecord, AxisValue, StatBuilder};
     use std::{cmp::Reverse, collections::HashMap};
+    use write_fonts::{
+        from_obj::ToOwnedTable,
+        tables::{
+            fvar::{Fvar, InstanceRecord},
+            name::{Name, NameRecord},
+            os2::Os2,
+            stat::Stat,
+        },
+        types::Fixed,
+        FontBuilder,
+    };
 
+    /// How aggressively an existing `name` table is rewritten.
     #[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
     pub enum RenameAggressiveness {
+        /// Replace the old family name in every record that mentions it.
         #[default]
         Aggressive,
+        /// Leave records this build does not explicitly set untouched.
         Conservative,
     }
 
+    /// Rewrites a font's `name` table (and OS/2 weight class) to conform to the
+    /// Google Fonts naming scheme, returning the updated font as bytes.
+    ///
+    /// Variable fonts derive their style name from the registry's fallback
+    /// names; static fonts use the version 1 (RIBBI) naming scheme. When
+    /// `family_name`/`style_name` are `None`, they are read from the font.
     pub fn build_name_table(
-        font: FontRef,
+        font: &[u8],
         family_name: Option<&str>,
         style_name: Option<&str>,
         siblings: &[FontRef],
         aggressive: Option<RenameAggressiveness>,
     ) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
+        let fontref = FontRef::new(font)?;
         let mut new_font = FontBuilder::new();
         let family_name = family_name
             .map(|x| x.to_string())
-            .unwrap_or_else(|| best_familyname(&font).unwrap_or("Unknown".to_string()));
+            .unwrap_or_else(|| best_familyname(&fontref).unwrap_or("Unknown".to_string()));
         let style_name = style_name
             .map(|x| x.to_string())
-            .unwrap_or_else(|| best_subfamilyname(&font).unwrap_or("Regular".to_string()));
+            .unwrap_or_else(|| best_subfamilyname(&fontref).unwrap_or("Regular".to_string()));
 
-        let mut new_name = if font.table_data(Tag::new(b"fvar")).is_some() {
-            build_vf_name_table(&mut new_font, &font, &family_name, siblings, aggressive)?
+        let mut new_name = if fontref.table_data(Tag::new(b"fvar")).is_some() {
+            build_vf_name_table(&mut new_font, &fontref, &family_name, siblings, aggressive)?
         } else {
-            build_static_name_table_v1(&mut new_font, &font, &family_name, &style_name, aggressive)?
+            build_static_name_table_v1(
+                &mut new_font,
+                &fontref,
+                &family_name,
+                &style_name,
+                aggressive,
+            )?
         };
 
         let mut styles: Vec<_> = GF_STATIC_STYLES.iter().collect();
         styles.sort_by_key(|(name, _weight)| Reverse(name.len()));
         for (name, weight) in styles.iter() {
             if style_name.contains(name) {
-                let mut new_os2: Os2 = font.os2()?.to_owned_table();
+                let mut new_os2: Os2 = fontref.os2()?.to_owned_table();
                 new_os2.us_weight_class = *weight;
                 new_font.add_table(&new_os2)?;
                 break;
@@ -288,7 +343,7 @@ mod fontations_impl {
         // Set RIBBI bits
         new_name.name_record.sort();
         new_font.add_table(&new_name)?;
-        Ok(new_font.copy_missing_tables(font).build())
+        Ok(new_font.copy_missing_tables(fontref).build())
     }
 
     fn fvar_instance_collisions(font: &FontRef, siblings: &[FontRef]) -> bool {
@@ -438,6 +493,7 @@ mod fontations_impl {
                     && r.encoding_id == 1
                     && r.language_id == 0x409
             }) {
+                #[allow(clippy::indexing_slicing)] // We just found it, so it's safe to index
                 removed_names.insert(name_id, records[existing].string.to_string());
                 to_delete.push(existing);
             }
@@ -529,7 +585,7 @@ mod fontations_impl {
     }
 
     fn font_axes(font: &FontRef) -> Result<Vec<FontAxis>, ReadError> {
-        let fvar = font.fvar().unwrap();
+        let fvar = font.fvar()?;
         let mut axes = vec![];
         for axis in fvar.axes()? {
             let tag = axis.axis_tag().to_string();
@@ -578,15 +634,16 @@ mod fontations_impl {
     }
 
     /// Return a font with an fvar table which conforms to the Google Fonts instance spec:
-    /// https://github.com/googlefonts/gf-docs/tree/main/Spec#fvar-instances
+    /// <https://github.com/googlefonts/gf-docs/tree/main/Spec#fvar-instances>
     pub fn build_fvar_instances(
-        font: FontRef,
+        font: &[u8],
         axis_dflts: Option<HashMap<String, f32>>,
     ) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
+        let font = FontRef::new(font)?;
         let axis_registry = AxisRegistry::new();
         let mut new_font = FontBuilder::new();
-        let mut fvar: Fvar = font.fvar().unwrap().to_owned_table();
-        let mut name_table: Name = font.name().unwrap().to_owned_table();
+        let mut fvar: Fvar = font.fvar()?.to_owned_table();
+        let mut name_table: Name = font.name()?.to_owned_table();
         let family_name = best_familyname(&font).unwrap_or("New Font".to_string());
         let style_name = best_subfamilyname(&font).unwrap_or("Regular".to_string());
         // Protect name IDs which are shared with the STAT table
@@ -638,6 +695,7 @@ mod fontations_impl {
         let mut fallbacks: HashMap<String, Vec<FallbackProto>> =
             axis_registry.fallbacks(&axes).collect();
         if !fvar_defaults.contains_key("wght") {
+            #[allow(clippy::unwrap_used)] // We know wght is in the registry
             fallbacks.insert(
                 "wght".to_string(),
                 axis_registry
@@ -673,14 +731,14 @@ mod fontations_impl {
         };
         for italic in do_italic.into_iter() {
             for fallback in wght_fallbacks.iter() {
-                let mut name = fallback.name.as_ref().unwrap().to_string();
+                let mut name = fallback.name().to_string();
                 if italic {
                     name += " Italic";
                 }
                 name = name.replace("Regular Italic", "Italic");
                 let mut coordinates = axis_dflts.clone();
                 if fvar_defaults.contains_key("wght") {
-                    coordinates.insert("wght".to_string(), fallback.value.unwrap());
+                    coordinates.insert("wght".to_string(), fallback.value());
                 }
                 if italic {
                     if let Some(min) = min_ital {
@@ -716,11 +774,20 @@ mod fontations_impl {
         Ok(new_font.copy_missing_tables(font).build())
     }
 
-    // All right, let's do it
+    /// Builds a Google Fonts-conformant `STAT` table for a variable font,
+    /// returning the updated font as bytes.
+    ///
+    /// Axis values come from the font's axes, its family/style names and its
+    /// `siblings`; the font's `name` table is updated to match.
     pub fn build_stat(
-        font: FontRef,
-        siblings: &[FontRef],
+        font: &[u8],
+        siblings: &[&[u8]],
     ) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
+        let font = FontRef::new(font)?;
+        let siblings = siblings
+            .iter()
+            .map(|s| FontRef::new(s))
+            .collect::<Result<Vec<_>, _>>()?;
         let mut new_font = FontBuilder::new();
         let axes = font_axes(&font)?;
         let axis_registry = AxisRegistry::new();
@@ -729,9 +796,9 @@ mod fontations_impl {
 
         let mut fallbacks_in_siblings: Vec<(String, FallbackProto)> = vec![];
         for fnt in siblings {
-            let family_name = best_familyname(fnt).unwrap_or("New Font".to_string());
-            let subfamily_name = best_subfamilyname(fnt).unwrap_or("Regular".to_string());
-            let font_axes = font_axes(fnt).unwrap_or_default();
+            let family_name = best_familyname(&fnt).unwrap_or("New Font".to_string());
+            let subfamily_name = best_subfamilyname(&fnt).unwrap_or("Regular".to_string());
+            let font_axes = font_axes(&fnt).unwrap_or_default();
             fallbacks_in_siblings.extend(
                 axis_registry
                     .name_table_fallbacks(&family_name, &subfamily_name, &font_axes)
@@ -744,8 +811,8 @@ mod fontations_impl {
         let fallbacks_in_names =
             axis_registry.name_table_fallbacks(&family_name, &subfamily_name, &axes);
 
-        let fvar: Fvar = font.fvar().unwrap().to_owned_table();
-        let mut name: Name = font.name().unwrap().to_owned_table();
+        let fvar: Fvar = font.fvar()?.to_owned_table();
+        let mut name: Name = font.name()?.to_owned_table();
         let fvar_name_ids: HashSet<StringId> = fvar
             .axis_instance_arrays
             .instances
@@ -799,6 +866,8 @@ mod fontations_impl {
             }
         }
 
+        #[allow(clippy::indexing_slicing, clippy::unwrap_used)]
+        // We know the fallback axis is in the registry so it's correct
         for (axis, fallbacks) in fallbacks_in_fvar.iter() {
             let tag = Tag::new_checked(&axis.as_bytes()[0..4])?;
             let ar_axis = axis_registry.get(axis).unwrap();
@@ -827,6 +896,7 @@ mod fontations_impl {
             }
         }
 
+        #[allow(clippy::indexing_slicing, clippy::unwrap_used)]
         for (axis, fallback) in fallbacks_in_names {
             let tag = Tag::new_checked(&axis.as_bytes()[0..4])?;
             if seen_axes.contains(&tag) {
@@ -852,6 +922,7 @@ mod fontations_impl {
             });
         }
 
+        #[allow(clippy::indexing_slicing, clippy::unwrap_used)]
         for (axis, _fallback) in fallbacks_in_siblings {
             let tag = Tag::new_checked(&axis.as_bytes()[0..4])?;
             if seen_axes.contains(&tag) {
@@ -890,7 +961,13 @@ mod fontations_impl {
         Ok(new_font.copy_missing_tables(font).build())
     }
 
-    pub fn build_filename(font: FontRef, extension: &str) -> String {
+    /// Returns the Google Fonts filename for a font, e.g.
+    /// `"RobotoFlex[GRAD,opsz,wdth,wght].ttf"`.
+    pub fn build_filename(
+        font: &[u8],
+        extension: &str,
+    ) -> Result<String, Box<dyn std::error::Error>> {
+        let font = FontRef::new(font)?;
         let family_name = best_familyname(&font)
             .unwrap_or("New Font".to_string())
             .replace(" ", "");
@@ -905,34 +982,33 @@ mod fontations_impl {
                 .collect::<Vec<_>>();
             axes.sort();
             let axes = axes.join(",");
-            return format!(
+            return Ok(format!(
                 "{}{}[{}].{}",
                 family_name,
                 if is_italic { "-Italic" } else { "" },
                 axes,
                 extension
-            );
+            ));
         }
-        format!("{family_name}-{style_name}.{extension}").replace(" ", "")
+        Ok(format!("{family_name}-{style_name}.{extension}").replace(" ", ""))
     }
 }
 
 #[cfg(feature = "fontations")]
 pub use fontations_impl::*;
 
+#[allow(clippy::indexing_slicing, clippy::unwrap_used)] // It's a test, knock yourself out
 #[cfg(test)]
 mod tests {
-    use fontations::{
-        skrifa::{string::StringId, MetadataProvider, Tag},
-        write::{
-            from_obj::ToOwnedTable,
-            tables::{
-                name::Name,
-                stat::{AxisValue, Stat},
-            },
+    use pretty_assertions::assert_eq;
+    use skrifa::{string::StringId, MetadataProvider, Tag};
+    use write_fonts::{
+        from_obj::ToOwnedTable,
+        tables::{
+            name::Name,
+            stat::{AxisValue, Stat},
         },
     };
-    use pretty_assertions::assert_eq;
 
     use super::*;
 
@@ -1277,14 +1353,13 @@ mod tests {
 
     fn run_name_table_tests(cases: &[NameTableTestCase], aggression: Option<RenameAggressiveness>) {
         for (ix, case) in cases.iter().enumerate() {
-            let font = FontRef::new(case.binary).expect("Failed to read font");
             let siblings: Vec<FontRef> = case
                 .siblings
                 .iter()
                 .map(|b| FontRef::new(b).unwrap())
                 .collect();
             let result = build_name_table(
-                font,
+                case.binary,
                 Some(case.family_name),
                 case.subfamily_name,
                 &siblings,
@@ -1403,11 +1478,11 @@ mod tests {
     #[test]
     fn test_build_stat() {
         let font_data = build_stat(
-            FontRef::new(OPEN_SANS).unwrap(),
+            OPEN_SANS,
             &[
-                FontRef::new(OPEN_SANS_ITALIC).unwrap(),
-                FontRef::new(OPEN_SANS_CONDENSED).unwrap(),
-                FontRef::new(OPEN_SANS_CONDENSED_ITALIC).unwrap(),
+                OPEN_SANS_ITALIC,
+                OPEN_SANS_CONDENSED,
+                OPEN_SANS_CONDENSED_ITALIC,
             ],
         )
         .unwrap();
@@ -1443,12 +1518,8 @@ mod tests {
     #[test]
     fn test_build_stat2() {
         let font_data = build_stat(
-            FontRef::new(OPEN_SANS_ITALIC).unwrap(),
-            &[
-                FontRef::new(OPEN_SANS).unwrap(),
-                FontRef::new(OPEN_SANS_CONDENSED).unwrap(),
-                FontRef::new(OPEN_SANS_CONDENSED_ITALIC).unwrap(),
-            ],
+            OPEN_SANS_ITALIC,
+            &[OPEN_SANS, OPEN_SANS_CONDENSED, OPEN_SANS_CONDENSED_ITALIC],
         )
         .unwrap();
         let new_font = FontRef::new(&font_data).unwrap();
@@ -1482,30 +1553,39 @@ mod tests {
 
     #[test]
     fn test_build_filename() {
-        let maven_pro = FontRef::new(MAVEN_PRO).unwrap();
-        assert_eq!(build_filename(maven_pro, "ttf"), "MavenPro-Regular.ttf");
-        let open_sans = FontRef::new(OPEN_SANS).unwrap();
-        assert_eq!(build_filename(open_sans, "ttf"), "OpenSans[wdth,wght].ttf");
-        let open_sans_italic = FontRef::new(OPEN_SANS_ITALIC).unwrap();
+        let maven_pro = MAVEN_PRO;
         assert_eq!(
-            build_filename(open_sans_italic, "ttf"),
+            build_filename(maven_pro, "ttf").unwrap(),
+            "MavenPro-Regular.ttf"
+        );
+        let open_sans = OPEN_SANS;
+        assert_eq!(
+            build_filename(open_sans, "ttf").unwrap(),
+            "OpenSans[wdth,wght].ttf"
+        );
+        let open_sans_italic = OPEN_SANS_ITALIC;
+        assert_eq!(
+            build_filename(open_sans_italic, "ttf").unwrap(),
             "OpenSans-Italic[wdth,wght].ttf"
         );
-        let open_sans_condensed = FontRef::new(OPEN_SANS_CONDENSED).unwrap();
+        let open_sans_condensed = OPEN_SANS_CONDENSED;
         assert_eq!(
-            build_filename(open_sans_condensed, "ttf"),
+            build_filename(open_sans_condensed, "ttf").unwrap(),
             "OpenSansCondensed[wght].ttf"
         );
-        let open_sans_condensed_italic = FontRef::new(OPEN_SANS_CONDENSED_ITALIC).unwrap();
+        let open_sans_condensed_italic = OPEN_SANS_CONDENSED_ITALIC;
         assert_eq!(
-            build_filename(open_sans_condensed_italic, "ttf"),
+            build_filename(open_sans_condensed_italic, "ttf").unwrap(),
             "OpenSansCondensed-Italic[wght].ttf"
         );
-        let wonky = FontRef::new(WONKY).unwrap();
-        assert_eq!(build_filename(wonky, "ttf"), "Wonky[wdth,wght].ttf");
-        let playfair = FontRef::new(PLAYFAIR).unwrap();
+        let wonky = WONKY;
         assert_eq!(
-            build_filename(playfair, "ttf"),
+            build_filename(wonky, "ttf").unwrap(),
+            "Wonky[wdth,wght].ttf"
+        );
+        let playfair = PLAYFAIR;
+        assert_eq!(
+            build_filename(playfair, "ttf").unwrap(),
             "Playfair[opsz,wdth,wght].ttf"
         );
     }

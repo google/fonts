@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/TiroTypeworks/Castoro"
-  commit: "58a386a96e522b6d47c566175c7ee799d4c8d14f"
+  commit: "4a1cb086e613f8a731229f78f4996982349e3f3b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,7 +28,7 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   files {
-    source_file: "fonts/CastoroTitling/TTF/CastoroTitling-Regular.ttf"
+    source_file: "googlefonts/fonts/ttf/CastoroTitling-Regular.ttf"
     dest_file: "CastoroTitling-Regular.ttf"
   }
   branch: "master"

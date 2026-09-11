@@ -1,10 +1,7 @@
 name: "Google Sans"
 designer: "Google"
-license: "GOOGLE_RESTRICTED"
-visibility: "INTERNAL"
 category: "SANS_SERIF"
-date_added: 1496646000000  # 2017-06-05
-version: "v36"  # repository commit: 30c287b193bc2e253f011bcf1b5b119b2946aaab
+date_added: "2017-06-05"
 fonts {
   name: "Google Sans"
   style: "normal"
@@ -12,7 +9,7 @@ fonts {
   filename: "GoogleSans[GRAD,opsz,wght].ttf"
   post_script_name: "GoogleSans-Regular"
   full_name: "Google Sans Regular"
-  [google.fonts.copyright]: "Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/googlesans)"
+  copyright: "Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/googlesans)"
 }
 fonts {
   name: "Google Sans"
@@ -21,7 +18,7 @@ fonts {
   filename: "GoogleSans-Italic[GRAD,opsz,wght].ttf"
   post_script_name: "GoogleSans-Italic"
   full_name: "Google Sans Italic"
-  [google.fonts.copyright]: "Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/googlesans)"
+  copyright: "Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/googlesans)"
 }
 subset: "adlam"
 subset: "arabic"
@@ -62,8 +59,6 @@ subset: "telugu"
 subset: "thai"
 subset: "tifinagh"
 subset: "vietnamese"
-foundry: "GOOGLE"
-android_version: "v26"
 axes {
   tag: "GRAD"
   min_value: -50
@@ -83,4 +78,3 @@ registry_default_overrides {
   key: "opsz"
   value: 18
 }
-[google.fonts.size]: 6618400

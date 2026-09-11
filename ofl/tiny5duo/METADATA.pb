@@ -21,6 +21,7 @@ fonts {
   full_name: "Tiny5 Duo Italic"
   copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
 }
+subsets: "armenian"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"

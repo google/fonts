@@ -9,7 +9,7 @@ fonts {
   filename: "GoogleSans[GRAD,opsz,wght].ttf"
   post_script_name: "GoogleSans-Regular"
   full_name: "Google Sans Regular"
-  copyright: "Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/googlesans)"
+  copyright: "Copyright 2025 The Google Sans Project Authors (github.com/googlefonts/googlesans)"
 }
 fonts {
   name: "Google Sans"
@@ -18,56 +18,42 @@ fonts {
   filename: "GoogleSans-Italic[GRAD,opsz,wght].ttf"
   post_script_name: "GoogleSans-Italic"
   full_name: "Google Sans Italic"
-  copyright: "Copyright 2025 The Google Sans Project Authors (https://github.com/googlefonts/googlesans)"
+  copyright: "Copyright 2025 The Google Sans Project Authors (github.com/googlefonts/googlesans)"
 }
-subset: "adlam"
-subset: "arabic"
-subset: "armenian"
-subset: "bengali"
-subset: "canadian-aboriginal"
-subset: "caucasian-albanian"
-subset: "cherokee"
-subset: "cyrillic"
-subset: "cyrillic-ext"
-subset: "devanagari"
-subset: "ethiopic"
-subset: "georgian"
-subset: "grantha"
-subset: "greek"
-subset: "greek-ext"
-subset: "gujarati"
-subset: "gurmukhi"
-subset: "hebrew"
-subset: "kannada"
-subset: "khmer"
-subset: "lao"
-subset: "latin"
-subset: "latin-ext"
-subset: "malayalam"
-subset: "math"
-subset: "menu"
-subset: "mongolian"
-subset: "nushu"
-subset: "old-permic"
-subset: "oriya"
-subset: "sinhala"
-subset: "syloti-nagri"
-subset: "symbols"
-subset: "syriac"
-subset: "tamil"
-subset: "telugu"
-subset: "thai"
-subset: "tifinagh"
-subset: "vietnamese"
+subsets: "armenian"
+subsets: "bengali"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "devanagari"
+subsets: "ethiopic"
+subsets: "georgian"
+subsets: "greek"
+subsets: "greek-ext"
+subsets: "gujarati"
+subsets: "gurmukhi"
+subsets: "hebrew"
+subsets: "kannada"
+subsets: "khmer"
+subsets: "lao"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "malayalam"
+subsets: "menu"
+subsets: "oriya"
+subsets: "sinhala"
+subsets: "tamil"
+subsets: "telugu"
+subsets: "thai"
+subsets: "vietnamese"
 axes {
   tag: "GRAD"
-  min_value: -50
-  max_value: 200
+  min_value: -50.0
+  max_value: 200.0
 }
 axes {
   tag: "opsz"
-  min_value: 17
-  max_value: 18
+  min_value: 17.0
+  max_value: 18.0
 }
 axes {
   tag: "wght"
@@ -76,5 +62,5 @@ axes {
 }
 registry_default_overrides {
   key: "opsz"
-  value: 18
+  value: 18.0
 }

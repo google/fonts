@@ -79,7 +79,6 @@ jobs:
           GF_REPO_PATH: /home/runner/work/fonts/fonts
         run: |
           npm run build
-          gftools compare-meta --meta -o build/meta.html
           cp ../tags.html build/tags.html
           curl https://fonts.google.com/metadata/fonts > build/family_data.json
           cp ../*.html build/

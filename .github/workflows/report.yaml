@@ -58,6 +58,8 @@ jobs:
         run: python3 scripts/update_servers.py
         env:
           GF_PATH: /home/runner/work/fonts/fonts
+          SANDBOX_USER: ${{ secrets.SB_USERNAME }}
+          SANDBOX_PASSWORD: ${{ secrets.SB_PASSWORD }}
         working-directory: .ci/dashboard
       # Now build the dashboard
       - name: Install Node.js

@@ -306,54 +306,80 @@ async function copyCSV() {
   const btn = document.getElementById("copy-csv");
   btn.textContent = "Loading...";
 
-  // Fetch existing CSV and keep non-opsz rows
-  let kept = [];
+  // Fetch existing CSV, preserving original order
+  let existingLines = [];
   try {
     const resp = await fetch(QUANT_CSV_URL);
     if (resp.ok) {
       const text = await resp.text();
-      for (const line of text.split("\n")) {
-        if (!line.trim()) continue;
-        const fields = parseCSVLine(line);
-        if (fields[2] === "/quant/opsz_min" || fields[2] === "/quant/opsz_max") continue;
-        kept.push(line);
-      }
+      existingLines = text.split("\n").filter(l => l.trim());
     }
   } catch { /* proceed with labels only */ }
 
-  // Add opsz rows from current labels
-  const opszLines = [];
+  // Build new opsz rows keyed by "name|loc"
+  const newOpsz = new Map();
   state.entries
     .filter(e => state.labels[entryId(e)])
-    .sort((a, b) => a.name.localeCompare(b.name) || formatLocation(a.location).localeCompare(formatLocation(b.location)))
     .forEach(e => {
       const bucket = state.labels[entryId(e)];
       const [ptMin, ptMax] = BUCKET_BOUNDS[bucket];
       const loc = csvEscape(formatLocation(e.location));
-      opszLines.push(`${e.name},${loc},/quant/opsz_min,${ptMin}`);
-      opszLines.push(`${e.name},${loc},/quant/opsz_max,${ptMax}`);
+      const key = `${e.name}|${loc}`;
+      newOpsz.set(key, [
+        `${e.name},${loc},/quant/opsz_min,${ptMin}`,
+        `${e.name},${loc},/quant/opsz_max,${ptMax}`,
+      ]);
     });
 
-  // Group by family, sort within by (location, tag), sort groups by casefold of first line
-  const groups = new Map();
-  for (const line of kept.concat(opszLines)) {
-    const fam = parseCSVLine(line)[0];
-    if (!groups.has(fam)) groups.set(fam, []);
-    groups.get(fam).push(line);
-  }
-  for (const [, rows] of groups) {
-    rows.sort((a, b) => {
-      const fa = parseCSVLine(a), fb = parseCSVLine(b);
-      return fa[1].localeCompare(fb[1]) || fa[2].localeCompare(fb[2]);
-    });
-  }
-  const sortedFams = [...groups.keys()].sort((a, b) =>
-    groups.get(a)[0].toLowerCase().localeCompare(groups.get(b)[0].toLowerCase())
-  );
-  const all = sortedFams.flatMap(f => groups.get(f));
+  // Walk existing lines: keep non-opsz as-is, track last line index per family,
+  // track which opsz keys already existed (so we insert replacements in place)
+  const result = [];
+  const insertedKeys = new Set();
+  const familyLastIndex = new Map();
 
-  navigator.clipboard.writeText(all.join("\n") + "\n").then(() => {
-    btn.textContent = `Copied ${all.length} lines`;
+  for (const line of existingLines) {
+    const fields = parseCSVLine(line);
+    const fam = fields[0];
+    const isOpsz = fields[2] === "/quant/opsz_min" || fields[2] === "/quant/opsz_max";
+
+    if (isOpsz) {
+      // Replace: find the matching new opsz entry and insert it once
+      const key = `${fam}|${fields[1]}`;
+      if (newOpsz.has(key) && !insertedKeys.has(key)) {
+        result.push(...newOpsz.get(key));
+        insertedKeys.add(key);
+      }
+      // Drop old opsz line (replaced or removed)
+    } else {
+      result.push(line);
+    }
+    familyLastIndex.set(fam, result.length);
+  }
+
+  // Insert new opsz entries for families that had rows but no prior opsz
+  // (insert after the family's last row)
+  const pendingInserts = [];
+  for (const [key, lines] of newOpsz) {
+    if (insertedKeys.has(key)) continue;
+    const fam = key.split("|")[0];
+    if (familyLastIndex.has(fam)) {
+      pendingInserts.push({ idx: familyLastIndex.get(fam), lines });
+      insertedKeys.add(key);
+    }
+  }
+  // Insert in reverse order so indices stay valid
+  pendingInserts.sort((a, b) => b.idx - a.idx);
+  for (const { idx, lines } of pendingInserts) {
+    result.splice(idx, 0, ...lines);
+  }
+
+  // Append any remaining new families not in the existing file
+  for (const [key, lines] of newOpsz) {
+    if (!insertedKeys.has(key)) result.push(...lines);
+  }
+
+  navigator.clipboard.writeText(result.join("\n") + "\n").then(() => {
+    btn.textContent = `Copied ${result.length} lines`;
     setTimeout(() => btn.textContent = "Copy CSV", 2000);
     window.open("https://github.com/google/fonts/blob/main/tags/all/quant.csv", "_blank");
   });

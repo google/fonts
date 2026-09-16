@@ -1,5 +1,6 @@
 name: "Google Sans Flex"
 designer: "Google"
+license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-11-21"
 fonts {

@@ -8,7 +8,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 <figure>
 
-![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
+![An image showing three type specimens, each with an axis slider underneath. The specimen on the left shows no element expansion. The specimen in the middle shows a medium amount of element expansion. The specimen on the right shows maximum element expansion.](images/thumbnail.svg)
 
 <figcaption>Typeface: <a href="https://fonts.google.com/specimen/Bitcount">Bitcount</a></figcaption>
 

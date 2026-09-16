@@ -8,7 +8,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 <figure>
 
-![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
+![An image showing three type specimens, each with an axis slider underneath. The specimen on the left shows letters with no guidelines, the specimen in the middle shows light guidelines, and the specimen on the right shows fully visible guidelines.](images/thumbnail.svg)
 
 <figcaption>Typeface: <a href="https://fonts.google.com/specimen/Briem+Hand">Briem Hand</a></figcaption>
 

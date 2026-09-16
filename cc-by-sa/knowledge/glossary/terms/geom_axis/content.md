@@ -8,7 +8,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 <figure>
 
-![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
+![An image showing three type specimens, each with an axis slider underneath. The specimen on the left shows the default letterforms, the specimen in the middle shows that the 'a' and the 'u' have become geometric, and the specimen on the right shows that 't' is now also geometric.](images/thumbnail.svg)
 
 <figcaption>Typeface: <a href="https://fonts.google.com/specimen/Cal+Sans">Cal Sans</a></figcaption>
 

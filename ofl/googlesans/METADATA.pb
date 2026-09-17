@@ -1,6 +1,6 @@
 name: "Google Sans"
 designer: "Google"
-licence: "OFL"
+license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-06-05"
 fonts {

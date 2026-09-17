@@ -82,6 +82,7 @@ jobs:
           cp ../tags.html build/tags.html
           curl https://fonts.google.com/metadata/fonts > build/family_data.json
           cp ../*.html build/
+          cp ../*.json build/
           # fontdiffai wasm bundle (loaded by fontdiffai.html)
           cp -r ../fontdiffai build/fontdiffai
           cp -r ../../ofl  build/ofl/

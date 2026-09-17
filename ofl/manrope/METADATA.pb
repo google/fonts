@@ -10,7 +10,7 @@ fonts {
   filename: "Manrope[wght].ttf"
   post_script_name: "Manrope-ExtraLight"
   full_name: "Manrope ExtraLight"
-  copyright: "Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)"
+  copyright: "Copyright 2019 The Manrope Project Authors (https://github.com/googlefonts/manrope)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -25,7 +25,7 @@ axes {
   max_value: 800.0
 }
 source {
-  repository_url: "https://github.com/aaronbell/manrope"
+  repository_url: "https://github.com/googlefonts/manrope"
   commit: "6f81ebecdf65e4463b798cc07b16a4f8d5216917"
   config_yaml: "sources/config.yaml"
 }

@@ -1,5 +1,6 @@
 name: "Google Sans"
 designer: "Google"
+licence: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-06-05"
 fonts {
@@ -61,8 +62,4 @@ axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
-}
-registry_default_overrides {
-  key: "opsz"
-  value: 18.0
 }

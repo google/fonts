@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>opsz labeller</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 <style>
-  :root { --blue:#2563EB; --green:#16A34A; --yellow:#EAB308; --red:#DC2626; --grey:#6B7280; }
+  :root { --blue:#2563EB; --yellow:#B45309; --red:#DC2626; --grey:#6B7280; }
   * { box-sizing: border-box; }
   body { font-family: -apple-system, sans-serif; margin: 0; background: #F5F5F5; color: #111; }
   header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid #E5E7EB; padding: 10px 16px; }
@@ -12,115 +13,90 @@
   .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 13px; }
   .row label { color: var(--grey); }
   .row input[type=search], .row select { font: inherit; padding: 4px 8px; border: 1px solid #D1D5DB; border-radius: 4px; }
-  .row input[type=search] { width: 220px; }
-  .row button { font: inherit; padding: 4px 10px; border: 1px solid #D1D5DB; background: #fff; border-radius: 4px; cursor: pointer; }
-  .row button.primary { background: var(--blue); color: #fff; border-color: var(--blue); }
+  .row input[type=search] { width: 200px; }
+  .row button { font: inherit; padding: 4px 10px; border: 1px solid var(--blue); background: var(--blue); color: #fff; border-radius: 4px; cursor: pointer; }
   .counter { color: var(--grey); margin-left: auto; }
   .counter b { color: #111; font-variant-numeric: tabular-nums; }
   main { padding: 12px 16px 200px; max-width: 1100px; margin: 0 auto; }
-
   .card { background: #fff; border-radius: 6px; padding: 12px 16px; margin: 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,.04); border: 2px solid transparent; }
   .card.focused { border-color: var(--blue); }
-  .card.lab-Text     { background: #EFF6FF; }
-  .card.lab-Display  { background: #FEF3C7; }
-  .card[class*="lab-Display\\+"], .card.lab-DisplayPlus { background: #FEE2E2; }
+  .card.lab-Text { background: #EFF6FF; }
+  .card.lab-Display { background: #FEF3C7; }
+  .card.lab-DisplayPlus { background: #FEE2E2; }
   .meta { display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; color: var(--grey); margin-bottom: 6px; }
   .meta .name { font-weight: 600; color: #111; font-size: 14px; }
-  .meta .cat { font-family: ui-monospace, monospace; }
-  .samples { color: #111; }
   .sample { line-height: 1.3; margin: 8px 0; max-width: 60ch; }
-  .s8  { font-size: 8pt; }
-  .s24 { font-size: 24pt; }
-  .s48 { font-size: 48pt; }
+  .s8 { font-size: 8pt; } .s24 { font-size: 24pt; } .s48 { font-size: 48pt; }
   .radios { margin-top: 10px; display: flex; gap: 6px; }
   .radios label { cursor: pointer; padding: 4px 10px; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 13px; background: #fff; user-select: none; }
   .radios input { display: none; }
-  .radios input:checked + span { font-weight: 600; }
-  .radios label.t-Text     input:checked ~ span { color: var(--blue); }
-  .radios label.t-Display  input:checked ~ span { color: var(--yellow); }
-  .radios label.t-DisplayPlus input:checked ~ span { color: var(--red); }
-  .radios label:has(input:checked) { background: #F3F4F6; }
-
-  .hint { font-size: 12px; color: var(--grey); margin-left: 12px; }
+  .radios label.on { background: #F3F4F6; font-weight: 600; }
+  .radios label.on.t-Text { color: var(--blue); }
+  .radios label.on.t-Display { color: var(--yellow); }
+  .radios label.on.t-DisplayPlus { color: var(--red); }
+  .hint { font-size: 12px; color: var(--grey); }
   kbd { font-family: ui-monospace, monospace; background: #F3F4F6; border: 1px solid #D1D5DB; border-bottom-width: 2px; border-radius: 3px; padding: 1px 5px; font-size: 11px; }
 </style>
 </head>
 <body>
-
-<header>
-  <h1>opsz labeller — 3-bucket (Text / Display / Display+)</h1>
-  <div class="row">
-    <label>Show
-      <select id="filter-status">
-        <option value="all">all</option>
-        <option value="unlabelled" selected>unlabelled only</option>
-        <option value="labelled">labelled only</option>
-        <option value="vf-extremes">VF extremes (all)</option>
-        <option value="vf-unlabelled">VF extremes (unlabelled)</option>
-        <option value="Text">label = Text</option>
-        <option value="Display">label = Display</option>
-        <option value="Display+">label = Display+</option>
-      </select>
-    </label>
-    <label>Category
-      <select id="filter-cat">
-        <option value="ALL">ALL</option>
-        <option value="DISPLAY">DISPLAY</option>
-        <option value="HANDWRITING">HANDWRITING</option>
-        <option value="SERIF">SERIF</option>
-        <option value="SANS_SERIF">SANS_SERIF</option>
-        <option value="MONOSPACE">MONOSPACE</option>
-      </select>
-    </label>
-    <input id="search" type="search" placeholder="search by name...">
-    <button id="export" class="primary">Export JSON</button>
-    <button id="copy-csv">Copy CSV</button>
-    <span class="hint"><kbd>t</kbd>/<kbd>d</kbd>/<kbd>p</kbd> label · <kbd>j</kbd>/<kbd>k</kbd> next/prev · <kbd>n</kbd> next unlabelled</span>
-    <span class="counter">
-      labelled <b id="c-lab">0</b> / <b id="c-tot">0</b>
-      · T <b id="c-T">0</b> · D <b id="c-D">0</b> · D+ <b id="c-Dp">0</b>
-      · families <b id="c-fam">0</b>/<b id="c-fam-tot">0</b>
-      · VF extremes <b id="c-vfe">0</b>/<b id="c-vfe-tot">0</b>
-    </span>
-  </div>
-</header>
-
-<main id="list"></main>
+<div id="app">
+  <header>
+    <h1>opsz labeller — Text / Display / Display+</h1>
+    <div class="row">
+      <label>Show
+        <select v-model="view">
+          <option value="untagged">untagged families</option>
+          <option value="tagged">tagged families</option>
+        </select>
+      </label>
+      <label>Category
+        <select v-model="cat">
+          <option value="ALL">ALL</option>
+          <option v-for="c in categories" :value="c">{{ c }}</option>
+        </select>
+      </label>
+      <input type="search" v-model.trim="q" placeholder="search by name...">
+      <button @click="copyCSV">{{ copyLabel }}</button>
+      <span class="hint"><kbd>t</kbd>/<kbd>d</kbd>/<kbd>p</kbd> label · <kbd>j</kbd>/<kbd>k</kbd> next/prev · <kbd>n</kbd> next unlabelled</span>
+      <span class="counter">
+        labelled <b>{{ labelledCount }}</b> / <b>{{ entries.length }}</b>
+        · families <b>{{ taggedFamilies.size }}</b>/<b>{{ familyCount }}</b>
+      </span>
+    </div>
+  </header>
+  <main>
+    <div v-for="e in visible" :key="e.id"
+         class="card" :class="[bucketClass(labels[e.id]), { focused: e.id === focusedId }]"
+         :data-id="e.id" :data-family="e.family"
+         @click="focusedId = e.id">
+      <div class="meta">
+        <span class="name">{{ e.family }}<template v-if="e.loc"> @ {{ e.loc }}</template></span>
+        <span>{{ e.category }}</span>
+      </div>
+      <div :style="sampleStyle(e)">
+        <div class="sample s8">{{ SAMPLE_8 }}</div>
+        <div class="sample s24">{{ SAMPLE_24 }}</div>
+        <div class="sample s48">{{ SAMPLE_48 }}</div>
+      </div>
+      <div class="radios">
+        <label v-for="b in BUCKETS" :class="['t-' + b.replace('+','Plus'), { on: labels[e.id] === b }]">
+          <input type="radio" :value="b" :checked="labels[e.id] === b" @change="setLabel(e.id, b)">
+          {{ b }}
+        </label>
+      </div>
+    </div>
+  </main>
+</div>
 
 <script>
-const SAMPLE_8  = "Body text sits at the heart of any page. At small sizes a typeface must hold its own: counters stay open, stroke contrast stays readable, and spacing keeps the rhythm steady. If letters start to clog or dazzle here, the face belongs somewhere larger. Judge this paragraph the way a reader would — scanning, not staring. 0123456789 &amp; fi fl";
-const SAMPLE_24 = "Subheadings guide the eye between sections. At this size, personality starts to show — quirky terminals, unusual proportions, stylistic flourishes all become visible without overwhelming the reader.";
-const SAMPLE_48 = "Display text commands attention. Details that vanish at small sizes — ink traps, hairline strokes, decorative swashes — can finally sing.";
-const state = {
-  entries: [],           // full index
-  labels: {},            // id -> bucket
-  focused: null,         // id of currently focused card
-  filter: { status: "unlabelled", cat: "ALL", q: "" },
-  loadedFonts: new Set(),
-  vfFamilies: new Set(), // dirs that have VF extreme entries
-};
-
-function safeFamily(dir) { return "F_" + dir.replace(/[^a-zA-Z0-9]/g, "_"); }
-
-function loadFontFor(entry) {
-  if (state.loadedFonts.has(entry.dir)) return;
-  state.loadedFonts.add(entry.dir);
-  // Encode path components so brackets in VF filenames (e.g. Roboto[wdth,wght].ttf)
-  // don't trip strict URL parsers in @font-face src.
-  const url = entry.file.split("/").map(encodeURIComponent).join("/").replace(/%2F/g, "/");
-  const style = document.createElement("style");
-  style.textContent =
-    `@font-face { font-family: '${safeFamily(entry.dir)}'; ` +
-    `src: url('${url}') format('truetype-variations'), ` +
-    `url('${url}') format('truetype'); ` +
-    `font-display: block; }`;
-  document.head.appendChild(style);
-}
-
-function entryId(e) { return e.id || e.dir; }
-
-const QUANT_CSV_URL = "https://raw.githubusercontent.com/google/fonts/main/tags/all/quant.csv";
-const REVERSE_BOUNDS = { "5,24": "Text", "24,48": "Display", "48,300": "Display+" };
+const QUANT_CSV_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/quant.csv";
+const EDIT_URL = "https://github.com/google/fonts/edit/main/tags/all/quant.csv";
+const BUCKETS = ["Text", "Display", "Display+"];
+const BOUNDS = { "Text": [5, 24], "Display": [24, 48], "Display+": [48, 300] };
+const REVERSE = { "5,24": "Text", "24,48": "Display", "48,300": "Display+" };
+const SAMPLE_8  = "Body text sits at the heart of any page. At small sizes a typeface must hold its own: counters stay open, stroke contrast stays readable, and spacing keeps the rhythm steady. If letters start to clog or dazzle here, the face belongs somewhere larger. 0123456789 & fi fl";
+const SAMPLE_24 = "Subheadings guide the eye between sections. At this size, personality starts to show.";
+const SAMPLE_48 = "Display text commands attention.";
 
 function parseCSVLine(line) {
   const fields = [];
@@ -133,325 +109,203 @@ function parseCSVLine(line) {
   fields.push(cur);
   return fields;
 }
+function csvField(s) { return s.includes(",") ? `"${s}"` : s; }
 
-async function loadQuantCSV() {
-  let resp;
-  try { resp = await fetch(QUANT_CSV_URL); } catch { return; }
-  if (!resp.ok) return;
-  const text = await resp.text();
-  const pairs = {};
-  for (const line of text.split("\n")) {
-    if (!line.trim()) continue;
-    const [name, loc, tag, value] = parseCSVLine(line);
-    if (tag !== "/quant/opsz_min" && tag !== "/quant/opsz_max") continue;
-    const key = `${name}|${loc}`;
-    const p = pairs[key] = pairs[key] || {};
-    if (tag === "/quant/opsz_min") p.min = parseInt(value);
-    else p.max = parseInt(value);
+// Cross product of each axis' [min, max]; axes in ASCII order (same as the CSV).
+function corners(axes) {
+  const sorted = [...axes].sort((a, b) => a.tag < b.tag ? -1 : 1);
+  let locs = [[]];
+  for (const ax of sorted) {
+    const next = [];
+    for (const loc of locs)
+      for (const v of [ax.min, ax.max])
+        next.push([...loc, v]);
+    locs = next;
   }
-  const csvBuckets = {};
-  for (const [key, p] of Object.entries(pairs)) {
-    if (p.min != null && p.max != null) {
-      const bucket = REVERSE_BOUNDS[`${p.min},${p.max}`];
-      if (bucket) csvBuckets[key] = bucket;
+  const tags = sorted.map(a => a.tag);
+  const seen = new Set();
+  const out = [];
+  for (const vals of locs) {
+    const loc = tags.join(",") + "@" + vals.join(",");
+    if (seen.has(loc)) continue;
+    seen.add(loc);
+    out.push({ loc, settings: tags.map((t, i) => `'${t}' ${vals[i]}`).join(", ") });
+  }
+  return out;
+}
+
+// css2 URL: axis tags in ASCII order with min..max ranges.
+function css2Url(fam) {
+  let spec = fam.family.replace(/ /g, "+");
+  if (fam.axes.length) {
+    const sorted = [...fam.axes].sort((a, b) => a.tag < b.tag ? -1 : 1);
+    spec += ":" + sorted.map(a => a.tag).join(",") +
+            "@" + sorted.map(a => `${a.min}..${a.max}`).join(",");
+  }
+  return `https://fonts.googleapis.com/css2?family=${spec}&display=swap`;
+}
+
+Vue.createApp({
+  data() {
+    return {
+      BUCKETS, SAMPLE_8, SAMPLE_24, SAMPLE_48,
+      entries: [],        // {id, family, category, loc, settings}
+      labels: {},         // id -> bucket
+      keptLines: [],      // csv lines passed through verbatim on export
+      view: "untagged",
+      csvTagged: new Set(),  // families tagged in quant.csv at load; keeps the
+                             // untagged queue stable while labelling in-session
+      cat: "ALL",
+      q: "",
+      focusedId: null,
+      copyLabel: "Copy CSV",
+    };
+  },
+  computed: {
+    categories() { return [...new Set(this.entries.map(e => e.category))].sort(); },
+    // family -> true if it has at least one labelled entry
+    taggedFamilies() {
+      const s = new Set();
+      for (const e of this.entries) if (this.labels[e.id]) s.add(e.family);
+      return s;
+    },
+    familyCount() { return new Set(this.entries.map(e => e.family)).size; },
+    labelledCount() { return this.entries.filter(e => this.labels[e.id]).length; },
+    visible() {
+      const q = this.q.toLowerCase();
+      return this.entries.filter(e => {
+        const tagged = this.csvTagged.has(e.family);
+        if (this.view === "untagged" && tagged) return false;
+        if (this.view === "tagged" && !tagged) return false;
+        if (this.cat !== "ALL" && e.category !== this.cat) return false;
+        if (q && !e.family.toLowerCase().includes(q)) return false;
+        return true;
+      });
+    },
+  },
+  methods: {
+    bucketClass(b) { return b ? "lab-" + b.replace("+", "Plus") : ""; },
+    sampleStyle(e) {
+      let s = `font-family: '${e.family}', sans-serif;`;
+      if (e.settings) s += ` font-variation-settings: ${e.settings};`;
+      return s;
+    },
+    setLabel(id, bucket) { this.labels[id] = bucket; },
+    focusStep(dir) {
+      const vis = this.visible;
+      if (!vis.length) return;
+      const i = vis.findIndex(e => e.id === this.focusedId);
+      const next = vis[i < 0 ? 0 : i + dir];
+      if (next) this.focus(next.id);
+    },
+    focusNextUnlabelled() {
+      const vis = this.visible.filter(e => !this.labels[e.id]);
+      if (!vis.length) return;
+      const i = vis.findIndex(e => e.id === this.focusedId);
+      this.focus((vis[i + 1] || vis[0]).id);
+    },
+    focus(id) {
+      this.focusedId = id;
+      this.$nextTick(() => {
+        const el = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+        if (el) el.scrollIntoView({ block: "center" });
+      });
+    },
+    async copyCSV() {
+      const lines = [...this.keptLines];
+      for (const e of this.entries) {
+        const b = this.labels[e.id];
+        if (!b) continue;
+        const [min, max] = BOUNDS[b];
+        const loc = csvField(e.loc);
+        lines.push(`${e.family},${loc},/quant/opsz_min,${min}`);
+        lines.push(`${e.family},${loc},/quant/opsz_max,${max}`);
+      }
+      lines.sort();  // raw line sort, same as python's sorted(lines)
+      await navigator.clipboard.writeText(lines.join("\n") + "\n");
+      this.copyLabel = `Copied ${lines.length} lines`;
+      setTimeout(() => this.copyLabel = "Copy CSV", 2000);
+      window.open(EDIT_URL, "_blank");
+    },
+  },
+  async mounted() {
+    // 1. families
+    const data = await (await fetch("family_data.json")).json();
+    const fams = data.familyMetadataList;
+    const entries = [];
+    for (const f of fams) {
+      if (!f.axes.length) {
+        entries.push({ id: `${f.family}|`, family: f.family, category: f.category, loc: "", settings: "" });
+      } else if (f.axes.length < 4) {
+        for (const c of corners(f.axes))
+          entries.push({ id: `${f.family}|${c.loc}`, family: f.family, category: f.category, loc: c.loc, settings: c.settings });
+      }
+      // 4+ axes: out of scope
     }
-  }
-  let loaded = 0;
-  for (const e of state.entries) {
-    const loc = formatLocation(e.location);
-    const key = `${e.name}|${loc}`;
-    if (csvBuckets[key]) { state.labels[entryId(e)] = csvBuckets[key]; loaded++; }
-  }
-  if (loaded) console.log(`Loaded ${loaded} labels from quant.csv`);
-}
+    this.entries = entries;
+    const known = new Set(entries.map(e => e.id));
 
-function bucketClass(b) { return b ? "lab-" + b.replace("+", "Plus") : ""; }
+    // 2. quant.csv: opsz rows matching an entry become labels; everything else
+    //    (stroke_width rows, opsz rows for out-of-scope families) is kept verbatim.
+    try {
+      const text = await (await fetch(QUANT_CSV_URL)).text();
+      const pairs = {};
+      for (const line of text.split("\n")) {
+        if (!line.trim()) continue;
+        const [fam, loc, tag, value] = parseCSVLine(line);
+        const isOpsz = tag === "/quant/opsz_min" || tag === "/quant/opsz_max";
+        const id = `${fam}|${loc}`;
+        if (!isOpsz || !known.has(id)) { this.keptLines.push(line); continue; }
+        const p = pairs[id] = pairs[id] || {};
+        p[tag.endsWith("min") ? "min" : "max"] = value;
+      }
+      for (const [id, p] of Object.entries(pairs)) {
+        this.csvTagged.add(id.split("|")[0]);
+        const b = REVERSE[`${p.min},${p.max}`];
+        if (b) this.labels[id] = b;
+        else this.keptLines.push(  // unknown bounds: keep verbatim
+          `${id.split("|")[0]},${csvField(id.split("|")[1])},/quant/opsz_min,${p.min}`,
+          `${id.split("|")[0]},${csvField(id.split("|")[1])},/quant/opsz_max,${p.max}`);
+      }
+    } catch (e) { console.error("quant.csv load failed:", e); }
 
-function fvsStyle(loc) {
-  if (!loc) return "";
-  return "font-variation-settings: " +
-    Object.entries(loc).map(([k,v]) => `'${k}' ${v}`).join(", ") + ";";
-}
+    // 3. lazy-load fonts via the css2 API as cards enter the viewport
+    const byName = Object.fromEntries(fams.map(f => [f.family, f]));
+    const loaded = new Set();
+    const io = new IntersectionObserver(ents => {
+      for (const ent of ents) {
+        if (!ent.isIntersecting) continue;
+        const name = ent.target.dataset.family;
+        if (loaded.has(name)) continue;
+        loaded.add(name);
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = css2Url(byName[name]);
+        document.head.appendChild(link);
+      }
+    }, { rootMargin: "300px" });
+    const observeAll = () => document.querySelectorAll(".card").forEach(c => io.observe(c));
+    this.$nextTick(observeAll);
+    this.$watch(() => this.visible, () => this.$nextTick(observeAll));
 
-function locationLabel(loc) {
-  if (!loc) return "";
-  return " @ " + Object.entries(loc).map(([k,v]) => `${k}=${Number.isInteger(v)?v:v.toFixed(1)}`).join(", ");
-}
-
-function makeCard(entry) {
-  const fam = safeFamily(entry.dir);
-  const eid = entryId(entry);
-  const card = document.createElement("div");
-  card.className = "card " + bucketClass(state.labels[eid]);
-  card.dataset.id = eid;
-  card.dataset.dir = entry.dir;
-  card.dataset.cat = entry.category;
-  card.dataset.name = entry.name.toLowerCase();
-  if (entry.location) card.dataset.vfExtreme = "1";
-  const displayName = entry.name + locationLabel(entry.location);
-  const radioName = CSS.escape(eid);
-  card.innerHTML =
-    `<div class="meta">
-       <span class="name">${displayName}</span>
-       <span class="cat">${entry.category} · ${entry.dir}</span>
-     </div>
-     <div class="samples" style="font-family: '${fam}', system-ui; ${fvsStyle(entry.location)}">
-       <div class="sample s8">${SAMPLE_8}</div>
-       <div class="sample s24">${SAMPLE_24}</div>
-       <div class="sample s48">${SAMPLE_48}</div>
-     </div>
-     <div class="radios">
-       <label class="t-Text"><input type="radio" name="b_${radioName}" value="Text"><span>Text</span></label>
-       <label class="t-Display"><input type="radio" name="b_${radioName}" value="Display"><span>Display</span></label>
-       <label class="t-DisplayPlus"><input type="radio" name="b_${radioName}" value="Display+"><span>Display+</span></label>
-     </div>`;
-  const cur = state.labels[eid];
-  if (cur) {
-    const inp = card.querySelector(`input[value="${cur}"]`);
-    if (inp) inp.checked = true;
-  }
-  card.querySelectorAll("input[type=radio]").forEach(inp => {
-    inp.addEventListener("change", () => setLabel(eid, inp.value));
-  });
-  card.addEventListener("click", () => focusCard(eid));
-  return card;
-}
-
-function setLabel(id, bucket) {
-  state.labels[id] = bucket;
-  const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
-  if (card) {
-    card.classList.remove("lab-Text","lab-Display","lab-DisplayPlus");
-    card.classList.add(bucketClass(bucket));
-    const inp = card.querySelector(`input[value="${bucket}"]`);
-    if (inp) inp.checked = true;
-  }
-  updateCounters();
-  applyFilter();
-}
-
-function focusCard(id) {
-  state.focused = id;
-  document.querySelectorAll(".card.focused").forEach(c => c.classList.remove("focused"));
-  const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
-  if (card) card.classList.add("focused");
-}
-
-function nextVisibleCard(currentId, direction) {
-  const cards = [...document.querySelectorAll(".card")].filter(c => c.style.display !== "none");
-  if (cards.length === 0) return null;
-  if (!currentId) return cards[0].dataset.id;
-  const idx = cards.findIndex(c => c.dataset.id === currentId);
-  if (idx < 0) return cards[0].dataset.id;
-  const next = cards[idx + direction];
-  return next ? next.dataset.id : null;
-}
-
-function applyFilter() {
-  const { status, cat, q } = state.filter;
-  document.querySelectorAll(".card").forEach(card => {
-    const id = card.dataset.id;
-    const lab = state.labels[id];
-    let show = true;
-    if (status === "unlabelled") {
-      show = !lab;
-      if (show && !card.dataset.vfExtreme && state.vfFamilies.has(card.dataset.dir)) show = false;
-    }
-    else if (status === "labelled") show = !!lab;
-    else if (status === "vf-extremes") show = !!card.dataset.vfExtreme;
-    else if (status === "vf-unlabelled") show = !!card.dataset.vfExtreme && !lab;
-    else if (status === "Text" || status === "Display" || status === "Display+") show = lab === status;
-    if (show && cat !== "ALL") show = card.dataset.cat === cat;
-    if (show && q) show = card.dataset.name.includes(q);
-    card.style.display = show ? "" : "none";
-  });
-}
-
-function updateCounters() {
-  const t = Object.values(state.labels).filter(v => v === "Text").length;
-  const d = Object.values(state.labels).filter(v => v === "Display").length;
-  const dp = Object.values(state.labels).filter(v => v === "Display+").length;
-  document.getElementById("c-lab").textContent = t + d + dp;
-  document.getElementById("c-tot").textContent = state.entries.length;
-  document.getElementById("c-T").textContent = t;
-  document.getElementById("c-D").textContent = d;
-  document.getElementById("c-Dp").textContent = dp;
-
-  const allFamilies = new Set(state.entries.map(e => e.dir));
-  const taggedFamilies = new Set(state.entries.filter(e => state.labels[entryId(e)]).map(e => e.dir));
-  document.getElementById("c-fam").textContent = taggedFamilies.size;
-  document.getElementById("c-fam-tot").textContent = allFamilies.size;
-
-  const vfExtremes = state.entries.filter(e => e.location);
-  const vfTagged = vfExtremes.filter(e => state.labels[entryId(e)]);
-  document.getElementById("c-vfe").textContent = vfTagged.length;
-  document.getElementById("c-vfe-tot").textContent = vfExtremes.length;
-}
-
-const BUCKET_BOUNDS = { "Text": [5, 24], "Display": [24, 48], "Display+": [48, 300] };
-
-function formatLocation(loc) {
-  if (!loc) return "";
-  const axes = Object.keys(loc).sort();
-  return axes.join(",") + "@" + axes.map(a => {
-    const v = loc[a]; return Number.isInteger(v) ? v : v.toFixed(1);
-  }).join(",");
-}
-
-function csvEscape(field) {
-  return field.includes(",") ? `"${field}"` : field;
-}
-
-async function copyCSV() {
-  const btn = document.getElementById("copy-csv");
-  btn.textContent = "Loading...";
-
-  // Fetch existing CSV, preserving original order
-  let existingLines = [];
-  try {
-    const resp = await fetch(QUANT_CSV_URL);
-    if (resp.ok) {
-      const text = await resp.text();
-      existingLines = text.split("\n").filter(l => l.trim());
-    }
-  } catch { /* proceed with labels only */ }
-
-  // Build new opsz rows keyed by "name|loc"
-  const newOpsz = new Map();
-  state.entries
-    .filter(e => state.labels[entryId(e)])
-    .forEach(e => {
-      const bucket = state.labels[entryId(e)];
-      const [ptMin, ptMax] = BUCKET_BOUNDS[bucket];
-      const loc = csvEscape(formatLocation(e.location));
-      const key = `${e.name}|${loc}`;
-      newOpsz.set(key, [
-        `${e.name},${loc},/quant/opsz_min,${ptMin}`,
-        `${e.name},${loc},/quant/opsz_max,${ptMax}`,
-      ]);
+    // 4. keyboard
+    document.addEventListener("keydown", e => {
+      if (["INPUT", "SELECT", "TEXTAREA"].includes(e.target.tagName)) return;
+      let bucket = null;
+      if (e.key === "t") bucket = "Text";
+      else if (e.key === "d") bucket = "Display";
+      else if (e.key === "p") bucket = "Display+";
+      if (bucket && this.focusedId) {
+        e.preventDefault();
+        this.setLabel(this.focusedId, bucket);
+        this.focusStep(1);
+      }
+      else if (e.key === "j" || e.key === "ArrowDown") { e.preventDefault(); this.focusStep(1); }
+      else if (e.key === "k" || e.key === "ArrowUp") { e.preventDefault(); this.focusStep(-1); }
+      else if (e.key === "n") { e.preventDefault(); this.focusNextUnlabelled(); }
     });
-
-  // Walk existing lines: keep non-opsz as-is; existing opsz rows are
-  // replaced in place, everything else new is appended at the end
-  // (the file is unsorted, so mid-file insertion has no meaning)
-  const result = [];
-  const insertedKeys = new Set();
-
-  for (const line of existingLines) {
-    const fields = parseCSVLine(line);
-    const fam = fields[0];
-    const isOpsz = fields[2] === "/quant/opsz_min" || fields[2] === "/quant/opsz_max";
-
-    if (isOpsz) {
-      // Replace: find the matching new opsz entry and insert it once
-      const key = `${fam}|${fields[1]}`;
-      if (newOpsz.has(key) && !insertedKeys.has(key)) {
-        result.push(...newOpsz.get(key));
-        insertedKeys.add(key);
-      }
-      // Drop old opsz line (replaced or removed)
-    } else {
-      result.push(line);
-    }
-  }
-
-  // Append all new opsz entries at the end
-  for (const [key, lines] of newOpsz) {
-    if (!insertedKeys.has(key)) result.push(...lines);
-  }
-
-  navigator.clipboard.writeText(result.join("\n") + "\n").then(() => {
-    btn.textContent = `Copied ${result.length} lines`;
-    setTimeout(() => btn.textContent = "Copy CSV", 2000);
-    window.open("https://github.com/google/fonts/blob/main/tags/all/quant.csv", "_blank");
-  });
-}
-
-function exportJson() {
-  const out = state.entries
-    .filter(e => state.labels[entryId(e)])
-    .map(e => ({ id: entryId(e), dir: e.dir, file: e.file, name: e.name,
-                 category: e.category, location: e.location || null,
-                 label: state.labels[entryId(e)] }));
-  const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = "labels_export.json";
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-
-async function init() {
-  state.entries = await (await fetch("opsz_labeller_index.json")).json();
-  state.entries.forEach(e => { if (e.location) state.vfFamilies.add(e.dir); });
-  await loadQuantCSV();
-
-  const list = document.getElementById("list");
-  const frag = document.createDocumentFragment();
-  state.entries.forEach(e => frag.appendChild(makeCard(e)));
-  list.appendChild(frag);
-
-  // lazy-load fonts as cards enter viewport (keyed by dir — one @font-face per font file)
-  const io = new IntersectionObserver((entries) => {
-    for (const ent of entries) {
-      if (ent.isIntersecting) {
-        const id = ent.target.dataset.id;
-        const entry = state.entries.find(x => entryId(x) === id);
-        if (entry) loadFontFor(entry);
-      }
-    }
-  }, { rootMargin: "300px" });
-  document.querySelectorAll(".card").forEach(c => io.observe(c));
-
-  // filters
-  document.getElementById("filter-status").addEventListener("change", e => {
-    state.filter.status = e.target.value; applyFilter();
-  });
-  document.getElementById("filter-cat").addEventListener("change", e => {
-    state.filter.cat = e.target.value; applyFilter();
-  });
-  document.getElementById("search").addEventListener("input", e => {
-    state.filter.q = e.target.value.trim().toLowerCase(); applyFilter();
-  });
-  document.getElementById("export").addEventListener("click", exportJson);
-  document.getElementById("copy-csv").addEventListener("click", copyCSV);
-
-  // keyboard
-  document.addEventListener("keydown", (e) => {
-    if (["INPUT","SELECT","TEXTAREA"].includes(e.target.tagName)) return;
-    let bucket = null;
-    if (e.key === "t" || e.key === "1") bucket = "Text";
-    else if (e.key === "d" || e.key === "2") bucket = "Display";
-    else if (e.key === "p" || e.key === "3" || e.key === "+") bucket = "Display+";
-    if (bucket && state.focused) {
-      e.preventDefault();
-      setLabel(state.focused, bucket);
-      const nextId = nextVisibleCard(state.focused, 1);
-      if (nextId) { focusCard(nextId); document.querySelector(`.card[data-id="${CSS.escape(nextId)}"]`).scrollIntoView({ block: "center" }); }
-      return;
-    }
-    if (e.key === "j" || e.key === "ArrowDown") {
-      const id = nextVisibleCard(state.focused, 1);
-      if (id) { e.preventDefault(); focusCard(id); document.querySelector(`.card[data-id="${CSS.escape(id)}"]`).scrollIntoView({ block: "center" }); }
-    } else if (e.key === "k" || e.key === "ArrowUp") {
-      const id = nextVisibleCard(state.focused, -1);
-      if (id) { e.preventDefault(); focusCard(id); document.querySelector(`.card[data-id="${CSS.escape(id)}"]`).scrollIntoView({ block: "center" }); }
-    } else if (e.key === "n") {
-      const cards = [...document.querySelectorAll(".card")].filter(c => c.style.display !== "none" && !state.labels[c.dataset.id]);
-      const idx = state.focused ? cards.findIndex(c => c.dataset.id === state.focused) : -1;
-      const next = cards[idx + 1] || cards[0];
-      if (next) { e.preventDefault(); focusCard(next.dataset.id); next.scrollIntoView({ block: "center" }); }
-    }
-  });
-
-  applyFilter();
-  updateCounters();
-  const first = nextVisibleCard(null, 1);
-  if (first) focusCard(first);
-}
-
-
-init();
+  },
+}).mount("#app");
 </script>
 </body>
 </html>

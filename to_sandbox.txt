@@ -1,25 +1,131 @@
 # Upgrade
+ofl/castoro # https://github.com/google/fonts/pull/10953
+ofl/castorotitling # https://github.com/google/fonts/pull/10954
+ofl/googlesansflex # https://github.com/google/fonts/pull/10926
+ofl/googlesansflex/TRADEMARKS.md # https://github.com/google/fonts/pull/10926
+ofl/manrope # https://github.com/google/fonts/pull/10964
 ofl/notocoloremoji # https://github.com/google/fonts/pull/10891
-ofl/notokufiarabic # https://github.com/google/fonts/pull/9920
+ofl/notosansdevanagari # https://github.com/google/fonts/pull/10946
 
 # Designer profile
 catalog/designers/inesgarrido # https://github.com/google/fonts/pull/10807
 
-# Axis Registry
-axisregistry/spacing.textproto # https://github.com/google/fonts/pull/10941
-axisregistry/width.textproto # https://github.com/google/fonts/pull/10941
-axisregistry/x_transparent.textproto # https://github.com/google/fonts/pull/10941
+# Knowledge
+cc-by-sa/knowledge/glossary/terms/elxp_axis/content.md # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/elxp_axis/images/thumbnail.svg # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/elxp_axis/term.textproto # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/enla_axis/content.md # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/enla_axis/images/thumbnail.svg # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/enla_axis/term.textproto # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/gdop_axis/content.md # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/gdop_axis/images/thumbnail.svg # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/gdop_axis/term.textproto # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/geom_axis/content.md # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/geom_axis/images/thumbnail.svg # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/geom_axis/term.textproto # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/jitt_axis/content.md # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/jitt_axis/images/thumbnail.svg # https://github.com/google/fonts/pull/10853
+cc-by-sa/knowledge/glossary/terms/jitt_axis/term.textproto # https://github.com/google/fonts/pull/10853
+
+# Metadata / Description / License
+ofl/hiburmono # https://github.com/google/fonts/pull/10957
 
 # Sample texts
+lang/languages/aa_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/agr_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/ain_Kana.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/ain_Latn.textproto # https://github.com/google/fonts/pull/10638
+# Deleted: lang/languages/ak_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/amc_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/ame_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/ami_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/amr_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/arl_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/auc_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/azj_Cyrl.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/bax_Bamu.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/bjn_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/boa_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/box_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/bug_Bugi.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/byn_Ethi.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cab_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cak_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cbi_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cbk_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cbr_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cbs_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cbt_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cbu_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/cfm_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/chj_Latn.textproto # https://github.com/google/fonts/pull/10638
 lang/languages/cnr_Cyrl.textproto # https://github.com/google/fonts/pull/10864
 lang/languages/cnr_Latn.textproto # https://github.com/google/fonts/pull/10864
+lang/languages/dyu_Nkoo.textproto # https://github.com/google/fonts/pull/10638
 lang/languages/ee_Latn.textproto # https://github.com/google/fonts/pull/10864
+lang/languages/esu_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/evn_Cyrl.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/fa_Arab.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/fmp_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/gcf_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/guu_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/hak_Latn.textproto # https://github.com/google/fonts/pull/10638
 lang/languages/haw_Latn.textproto # https://github.com/google/fonts/pull/10864
+lang/languages/hea_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/hms_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/hni_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/hus_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/huu_Latn.textproto # https://github.com/google/fonts/pull/10638
 lang/languages/ja_Jpan.textproto # https://github.com/google/fonts/pull/10864
+lang/languages/jbo_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/jiv_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/kek_Latn.textproto # https://github.com/google/fonts/pull/10638
 lang/languages/kjh_Cyrl.textproto # https://github.com/google/fonts/pull/10864
+lang/languages/kkh_Lana.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/kn_Knda.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/kwi_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/lad_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/lld_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/lus_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/mcd_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/mcf_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/miq_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/mns_Cyrl.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/mnw_Mymr.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/mto_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/mxv_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/mzi_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/nhn_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/not_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/oaa_Cyrl.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/orh_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/ote_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/pbb_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/pis_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/piu_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/pnt_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/prq_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/rmn_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/sey_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/shn_Mymr.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/shp_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/snn_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tca_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tdt_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tig_Ethi.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tlh_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tli_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tob_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/toj_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/top_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tsz_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tzh_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/tzo_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/ura_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/xdq_Cyrl.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/yad_Latn.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/ykg_Cyrl.textproto # https://github.com/google/fonts/pull/10638
+lang/languages/zro_Latn.textproto # https://github.com/google/fonts/pull/10638
 
 # Other
 ofl/yomogi # https://github.com/google/fonts/pull/10802
-
-# Tags
-tags/all/families.csv

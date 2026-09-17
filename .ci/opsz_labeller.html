@@ -331,11 +331,11 @@ async function copyCSV() {
       ]);
     });
 
-  // Walk existing lines: keep non-opsz as-is, track last line index per family,
-  // track which opsz keys already existed (so we insert replacements in place)
+  // Walk existing lines: keep non-opsz as-is; existing opsz rows are
+  // replaced in place, everything else new is appended at the end
+  // (the file is unsorted, so mid-file insertion has no meaning)
   const result = [];
   const insertedKeys = new Set();
-  const familyLastIndex = new Map();
 
   for (const line of existingLines) {
     const fields = parseCSVLine(line);
@@ -353,27 +353,9 @@ async function copyCSV() {
     } else {
       result.push(line);
     }
-    familyLastIndex.set(fam, result.length);
   }
 
-  // Insert new opsz entries for families that had rows but no prior opsz
-  // (insert after the family's last row)
-  const pendingInserts = [];
-  for (const [key, lines] of newOpsz) {
-    if (insertedKeys.has(key)) continue;
-    const fam = key.split("|")[0];
-    if (familyLastIndex.has(fam)) {
-      pendingInserts.push({ idx: familyLastIndex.get(fam), lines });
-      insertedKeys.add(key);
-    }
-  }
-  // Insert in reverse order so indices stay valid
-  pendingInserts.sort((a, b) => b.idx - a.idx);
-  for (const { idx, lines } of pendingInserts) {
-    result.splice(idx, 0, ...lines);
-  }
-
-  // Append any remaining new families not in the existing file
+  // Append all new opsz entries at the end
   for (const [key, lines] of newOpsz) {
     if (!insertedKeys.has(key)) result.push(...lines);
   }

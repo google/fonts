@@ -10,7 +10,7 @@ fonts {
   filename: "Xmind[wght].ttf"
   post_script_name: "Xmind-Regular"
   full_name: "Xmind Regular"
-  copyright: "Copyright 2025 The Xmind Project Authors (https://github.com/xmindltd/xmind)"
+  copyright: "Copyright 2025 The Xmind Project Authors (https://github.com/lamzhonghang/xmind)"
 }
 fonts {
   name: "Xmind"
@@ -19,7 +19,7 @@ fonts {
   filename: "Xmind-Italic[wght].ttf"
   post_script_name: "Xmind-Italic"
   full_name: "Xmind Italic"
-  copyright: "Copyright 2025 The Xmind Project Authors (https://github.com/xmindltd/xmind)"
+  copyright: "Copyright 2025 The Xmind Project Authors (https://github.com/lamzhonghang/xmind)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

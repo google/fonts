@@ -1,0 +1,46 @@
+FONTLOG for the Changa fonts
+
+This file provides detailed information on the Changa Font Software.
+This information should be distributed along with the Changa fonts
+and any derivative works.
+
+Basic Font Information
+
+Changa is intended for titles, with its short ascenders 
+and descenders and a set of lowercase letters inscribed 
+within a square. The uppercases case gains slightly more 
+in height and develops its morphology in a single height 
+in order to make it possible to create text composition 
+with minimum line spacing.
+
+Its counter-shapes are rectangular, featuring small 
+curvatures in opposite vertexes which accompany and break 
+the shapes, thus evoking a modern style.
+
+There are 2 Source files:
+
+1. Changa-Regular-OTF.vfb Merged contours and 
+   optimized file corresponding to the OTF file
+
+2. Changa-Regular-TTF.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+Source files are available from
+http://code.google.com/p/googlefontdirectory/
+
+
+
+ChangeLog
+
+2 Sept 2011 (Eduardo Tunni) Changa v1.001
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Eduardo Tunni
+W: http://www.tipo.net.ar
+D: Designer

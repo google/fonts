@@ -1,0 +1,8 @@
+# Override config.yaml for ofl/fragmentmono
+# The upstream sources/config.yaml lists the source as "Fragment-Mono.glyphs",
+# a path correct only relative to the config's own sources/ directory. This
+# override makes the path repo-root-relative for the build harness.
+sources:
+  - sources/Fragment-Mono.glyphs
+familyName: Fragment Mono
+buildVariable: false

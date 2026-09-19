@@ -1,0 +1,16 @@
+# Override config.yaml for ofl/montserratsubrayada
+# NOTE: This is a best-effort starting point for reproducible builds.
+# The shipped binary may have been built with different tools/versions.
+#
+# "Subrayada" = "Underline" in Spanish
+# Config from upstream JulietaUla/Montserrat sources/config-underline.yaml
+sources:
+  - sources/MontserratUnderline.glyphs
+  - sources/MontserratUnderline-Italic.glyphs
+axisOrder:
+  - wght
+  - ital
+familyName: "Montserrat Underline"
+flattenComponents: True
+buildStatic: True
+buildSmallCap: False

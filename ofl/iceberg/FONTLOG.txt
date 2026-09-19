@@ -1,0 +1,60 @@
+FONTLOG for the Iceberg font
+
+This file provides detailed information on the Iceberg 
+font Software.
+
+This information should be distributed along with the 
+Iceberg fonts and any derivative works.
+
+Basic Font Information
+
+Iceberg is a slim condensed decorative webfont
+by Victor Kharyk suitable for medium to large sizes.
+It is monolinear and mostly monospaced, has long ascenders
+and descenders, and a modular construction that builds a rhythm. 
+These features improve overall readability. Its monolinear 
+strokes and 45 degree cuts echo letters made from folded tape.
+
+Iceberg is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a at cyreal.org
+
+There are two .vfb Source files:
+
+1. Iceberg-Regular-OTF.vfb (Merged and optimized file for OTF)
+
+2. Iceberg-Regular-TTF.vfb (Merged and optimized file for TTF)
+
+ChangeLog
+
+29 September 2011 (Victor Kharyk) Iceberg v. 1.000
+— Completed initial release in Fontographer format
+
+5 December 2011 (Alexei Vanyashin) Iceberg v. 1.001
+— Fixed glyph /t/
+— Mastered TTF file
+— Added GASP table
+
+19 January 2012 (Alexei Vanyashin) Iceberg v 1.002
+— scaled font 10% larger
+- Hinted with ttfautohint
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Viktor Kharyk
+E: kharyk@gmx.de
+D: Designer
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Mastering
+

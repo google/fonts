@@ -1,0 +1,52 @@
+FONTLOG for the Grand Hotel font
+
+This file provides detailed information on the Grand Hotel font
+Software.
+
+This information should be distributed along with the Grand Hotel
+font and any derivative works.
+
+Basic Font Information
+
+Grand Hotel finds its inspiration from the title screen of the 1937
+film "Cafe Metropole" starring Tyrone Power. This condensed upright
+connecting script has a classic vibe to it. 
+
+It has a wonderful weight to it that feels subtly tied to Holiday
+and Bakery themed designs, even though it can work outside that genre.
+
+Designed by Brian J. Bonislawsky and Jim Lyles for Astigmatic (AOETI).
+
+Grand Hotel is a Unicode typeface family that supports languages that use
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are three Source files:
+
+1. GrandHotel-Regular.vfb Original Source files with contour overlaps
+
+2. GrandHotel-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. GrandHotel-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+ChangeLog
+
+27 November 2012 (Brian J. Bonislawsky) Grand Hotel v1.000
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

@@ -1,0 +1,42 @@
+FONTLOG for the Metamorphous font
+
+This file provides detailed information on Metamorphous Font Software.This information should be distributed along with the Metamorphous font and any derivative works.
+
+Basic Font Information
+
+Metamorphous is a medium contrast design taking style cues from a wide variety of sources. It draws on and mixes together Romanesque, Gothic and the more familiar Renaissance letter shapes. Originally inspired by display fonts including the free font Morpheous designed by Kiwi Media as well as the work of Jonathan Barnbrook; Metamorphous is designed to be useful in a broad range of applications and sizes.
+
+Metamorphous is a Unicode typeface family that supports languages that use 
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release supports the following Unicode ranges: 
+Latin-1, Latin-2: Easern Europe, Turkish, Macintosh Character Set
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+9 April 2012 (Eben Sorkin) Metamorphous v1.002
+- Added hinting using TTF Autohint v0.8
+
+5 Dec 2011 (Eben Sorkin) Metamorphous v1.001
+- Mastered Font from Fontlab VBF to TTF
+
+22 Nov 2010 (James Grieshaber) Metamorphous v1.000
+- Completed first complete version of Metamorphous in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: James Grieshaber
+E: james@typeco.com
+W: http://www.typeco.com/
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

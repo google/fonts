@@ -1,0 +1,40 @@
+FONTLOG for Amaranth fonts
+
+This file provides detailed information on the Amaranth Font Software.
+This information should be distributed along with the Amaranth fonts
+and any derivative works.
+
+Basic Font Information
+
+Amaranth is a Unicode typeface family that supports languages that
+use the Latin script and its variants, and could be expanded to 
+support other scripts.
+
+
+ChangeLog
+
+21 July 2017 (Marc Foley)
+- Added ellipsis
+
+30 Apr 2011 (Gesine Todt  and Camille Boulouis) Amaranth v2
+- Added italic, bold and bold italic weights
+- Regular refined
+
+01 Feb 2011 (Gesine Todt) Amaranth v1
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E)
+web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Gesine Todt
+E: see website
+W: http://www.gesine-todt.de
+D:  v1/v2 Design, kerning
+
+N: Camille Boulouis
+E: see website
+W: http://www.camilleboulouis.com
+D: v2 executive work and design, kerning

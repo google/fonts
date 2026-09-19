@@ -1,0 +1,25 @@
+name: "Kavivanar"
+designer: "Tharique Azeez"
+license: "OFL"
+category: "HANDWRITING"
+date_added: "2016-06-20"
+fonts {
+  name: "Kavivanar"
+  style: "normal"
+  weight: 400
+  filename: "Kavivanar-Regular.ttf"
+  post_script_name: "Kavivanar-Regular"
+  full_name: "Kavivanar Regular"
+  copyright: "Copyright (c) 2015, Tharique Azeez (http://thariqueazeez.com|zeezat@gmail.com)"
+}
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "tamil"
+primary_script: "Taml"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/enathu/kavivanar"
+  commit: "689a10bac6313880ae05b86aea2ad91979c9880d"
+}

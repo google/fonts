@@ -28,13 +28,13 @@ source {
   branch: "master"
 }
 sample_text {
-  masthead_full: "abcdefghij"
-  masthead_partial: "abcd"
-  styles: "abcdefghij x012345678 23456789 klmnopqrst"
-  tester: "abcdefghij x012345678 23456789 klmnopqrst"
-  poster_sm: "abcdefghij x012345678 23456789"
-  poster_md: "abcdefghij x012345678"
-  poster_lg: "23456789"
+  masthead_full: "112358132134?"
+  masthead_partial: "112358132134?"
+  styles: "112358132134? 314159265359? 271828182845? 161803398874?"
+  tester: "112358132134? 314159265359? 271828182845? 161803398874?"
+  poster_sm: "112358132134? 314159265359? 271828182845?"
+  poster_md: "112358132134? 314159265359?"
+  poster_lg: "112358132134?"
 }
 classifications: "DISPLAY"
 classifications: "SYMBOLS"

@@ -1,8 +1,14 @@
 # Upgrade
 ofl/castoro # https://github.com/google/fonts/pull/10953
 ofl/castorotitling # https://github.com/google/fonts/pull/10954
-ofl/googlesans # https://github.com/google/fonts/pull/10960
-ofl/googlesansflex # https://github.com/google/fonts/pull/10926
+
+# Evan Adams commented out ofl/googlesans and ofl/googlesansflex because
+# their registry_default_overrides were removed from the METADATA.pb files
+# and that removal is causing an error in git2sandbox which runs automatically
+# so we're seeing a steady stream of failures.
+# ofl/googlesans # https://github.com/google/fonts/pull/10960
+# ofl/googlesansflex # https://github.com/google/fonts/pull/10926
+
 # ofl/googlesansflex/TRADEMARKS.md # https://github.com/google/fonts/pull/10926
 ofl/manrope # https://github.com/google/fonts/pull/10964
 ofl/notocoloremoji # https://github.com/google/fonts/pull/10891

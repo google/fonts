@@ -1,0 +1,50 @@
+FONTLOG for the Hanalei Fill font
+
+This file provides detailed information on the Hanalei Fill font
+Software.
+
+This information should be distributed along with the Hanalei Fill
+font and any derivative works.
+
+Basic Font Information
+
+Hanalei Fill is for the Polynesian fan. Inspired by the bamboo lettering
+of the iconic Mai Kai restaurant logo, Hanalei Fill has all the flavor
+of the genre without compromise. Great for titling and larger
+typesetting. Hanalei Fill is a compliment to Hanalei (the outline version)
+
+Designed by Brian J. Bonislawsky for Astigmatic (AOETI).
+
+Hanalei Fill is a Unicode typeface family that supports languages that use
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are three Source files:
+
+1. HanaleiFill-Regular.vfb Original Source files with contour overlaps
+
+2. HanaleiFill-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. HanaleiFill-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+ChangeLog
+
+16 November 2012 (Brian J. Bonislawsky) Hanalei Fill v1.000
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

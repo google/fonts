@@ -1,0 +1,61 @@
+FONTLOG for the Vampiro One font
+
+This file provides detailed information on Vampiro Font Software. This
+information should be distributed along with the Vampiro font and any
+derivative works.
+
+Basic Font Information
+
+Vampiro One is a low contrast script font. It was inspired by the 20th century
+Italian tradition of monoline scripts. Vampiro One is best used for display
+purposes at medium to large sizes.
+
+Vampiro is a Unicode typeface family that supports languages that use the
+Latin script and its variants, and could be expanded to support other scripts.
+
+More specifically, this release partially supports the following Unicode
+ranges: Latin-1
+
+There are four source files:
+
+1. VampiroOne-Regular.vfb Original Source Files with 
+   contour overlaps
+
+2. VampiroOne-Regular_otf.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. VampiroOne-Regular_ttf.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+4. VampiroOne-Regular.otf PostScript outlines OTF-CFF font.
+
+To contribute to the project contact Eben Sorkin at 
+sorkineben@gmail.com
+
+ChangeLog
+
+21 Sep 2015 (Dave Crossland) Vampiro v1.002
+
+25 Nov 2012 (Eben Sorkin) Vampiro v1.001
+- Mastered VBF to TTF and other formats.
+- hinted font Using TTFAutohint version 0.92
+
+25 Oct 2012 (Riccardo De Franceschi) Vampiro v1.000
+- Completed first complete version of Vampiro in Fontlab 
+( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email 
+(E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Riccardo De Franceschi
+E: defranceschi@mail.com
+W: http://www.rdftype.it/
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

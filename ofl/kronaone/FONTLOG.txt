@@ -1,0 +1,53 @@
+FONTLOG for the Krona One font
+
+This file provides detailed information on Krona One Font Software. 
+
+This information should be distributed along with the Krona One 
+font and any derivative works.
+
+Basic Font Information
+
+Krona is a low contrast semi-extended style sans serif. 
+Krona is both readable and full of personality. Krona can 
+be used from small sizes to larger display settings. 
+Krona was inspired by hand lettering on early 20th 
+century Swedish posters.
+
+Krona is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1, Latin-2: Easern Europe, Turkish, 
+Macintosh Character Set.
+
+To contribute to the project contact Eben Sorkin at 
+sorkineben@gmail.com
+
+ChangeLog
+
+17 Feb 2012 (Eben Sorkin) Krona v1.003
+
+- Mastered Font from Fontlab VBF to TTF
+- optimized TT tables for screen.
+
+20 Nov 2011 (Yvonne Schuettler) Krona v1.002
+- Completed Latin A plus Latin B ( VBF format )
+
+10 Nov 2011 (Yvonne Schuettler) Krona v1.001
+- Completed first complete version of Krona in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Yvonne Schuettler
+E: ysch@mac.com
+W: www.ysch.de
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Spacing and Mastering

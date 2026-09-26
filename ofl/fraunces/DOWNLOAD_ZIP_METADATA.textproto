@@ -1,0 +1,27 @@
+ordered_custom_axes: "opsz"
+ordered_custom_axes: "SOFT"
+ordered_custom_axes: "WONK"
+
+axis_positions {
+  axis_tag: "opsz"
+  positions: 9
+  positions: 72
+  positions: 144
+}
+
+axis_positions {
+  axis_tag: "SOFT"
+  positions: 0
+  positions: 50
+  positions: 100
+}
+
+axis_positions {
+  axis_tag: "wght"
+  positions: 100
+  positions: 300
+  positions: 400
+  positions: 600
+  positions: 700
+  positions: 900
+}

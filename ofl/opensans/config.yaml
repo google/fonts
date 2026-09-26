@@ -1,0 +1,6 @@
+sources:
+  - sources/OpenSans-Roman.designspace
+  - sources/OpenSans-Italic.designspace
+familyName: Open Sans
+buildVariable: true
+buildOTF: false

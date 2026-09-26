@@ -1,0 +1,69 @@
+FONTLOG for the Electrolize font
+
+This file provides detailed information on the Electrolize 
+font Software.
+
+This information should be distributed along with the 
+Electrolize fonts and any derivative works.
+
+Basic Font Information
+
+Lettering in a Russian commuter train inspired designer 
+Valery Zaveryaev to create Electrolize typeface with an 
+accurate techno character. It came out solid enought to work 
+well in any size from body copy to headlines. 
+
+Electrolize can be best described as a squarish geometric 
+typeface with humanistic proportions. It has an accurate 
+techno character, holds the baseline well because of its 
+rectangular modular-based construction. At display sizes 
+its detailing in terminals become noticeable.
+
+It is optimized for screen, and will work well in print
+thank to its simple and straight outlines.
+
+
+Electrolize is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin 
+at a@cyreal.org
+
+There are three .vfb Source files:
+
+1. Electrolize-Regular.vfb (Original Source files with 
+   contour overlaps)
+
+2. Electrolize-Regular-OTF.vfb (Merged and optimized file)
+
+3. Electrolize-Regular-TTF.vfb (TTF hinted file)
+
+ChangeLog
+
+24 November 2011 (Alexei Vanyashin) Electrolize v. 1.002
+- Minor design and spacing adjustments
+- Changed proportions in glyphs O, N, M
+— Adjusted tail of Q, added rounded terminal endings in 
+  lowercase horizontals: t, f, z, y
+- Mastered TTF file from VBF
+
+17 November 2011 (Valery Zaveryaev) Electrolize v. 1.000
+- Completed initial release in VFB format
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Valery Zaveryaev
+E: zaveryaev@gmail.com
+D: Designer
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Mastering
+

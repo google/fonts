@@ -1,0 +1,24 @@
+name: "Press Start 2P"
+designer: "CodeMan38"
+license: "OFL"
+category: "DISPLAY"
+date_added: "2012-04-04"
+fonts {
+  name: "Press Start 2P"
+  style: "normal"
+  weight: 400
+  filename: "PressStart2P-Regular.ttf"
+  post_script_name: "PressStart2P-Regular"
+  full_name: "Press Start 2P Regular"
+  copyright: "Copyright 2012 The Press Start 2P Project Authors (cody@zone38.net), with Reserved Font Name \"Press Start 2P\""
+}
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
+  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+}

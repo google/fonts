@@ -1,0 +1,43 @@
+FONTLOG for the Fjord font
+
+This file provides detailed information on Fjord Font Software. 
+This information should be distributed along with the Fjord font 
+and any derivative works.
+
+Basic Font Information
+
+Fjord is a Unicode typeface family that supports languages that 
+use the Latin script and its variants, and could be expanded to 
+support other scripts.
+
+More specifically, this release supports the following Unicode 
+ranges: Latin-1
+
+To contribute to the project contact Eben Sorkin
+at sorkineben@gmail.com
+
+ChangeLog
+
+28 October 2011 (Eben Sorkin) Fjord v1.002
+
+- Mastered Font from Fontlab VBF to TTF
+
+27 October 2010 (Viktoriya Grabowska) Fjord v1.001
+- Completed first complete version of Fjord in 
+  Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Viktoriya Grabowska
+E: vi_ga@wp.pl
+W: www.vikaniesiada.blogspot.com
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

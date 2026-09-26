@@ -1,0 +1,59 @@
+FONTLOG for the Atomic Age font
+
+This file provides detailed information on the Atomic Age font Software. This information should be distributed along with the Atomic Age font and any derivative works.
+
+Basic Font Information
+
+Basic is a Unicode typeface family that supports languages that use the Latin script and its variants, and could be expanded to support other scripts.
+
+More specifically, this release supports the following glyph 
+ranges: Latin-1, Latin-2, Turkish, Windows Baltic, Macintosh Character Set.
+
+To contribute to the project contact Eben Sorkin 
+at sorkineben@gmail.com
+
+ChangeLog
+
+15 Jan 2016 (Dave Crossland) Atomic Age v1.007
+- Fix vertical metrics
+
+11 Jan 2016 (Dave Crossland) Atomic Age v1.006
+- Update name table to remove platformID=1 items
+
+11 Jan 2016 (Eben Sorkin) Atomic Age v1.005
+- Added some Open Type features
+- Added TTFA hinting using version 1.4.1
+
+11 Jan 2016 (Eben Sorkin) Atomic Age v1.004
+- Altered spacing to fit a high resolution/print rather than a low resoultion screen use 
+- Altered some glyph shapes to provide better visual variety and clarity
+- Added glyphs to support many more languages
+- For diacritics added and used "comb" 0300 unicodes with zero width to make letters with component accents instead of the old full width
+- Altered vertical metrics
+
+7 Dec 2011 (Eben Sorkin) Atomic Age v1.003
+- Incorporated fixes to merged glyph shapes from Grieshaber 
+- Added glyphs to support a few more languages
+- Added Fontlab style hinting
+
+20 October 2011 (Eben Sorkin) Atomic Age v1.002
+- Adjusted spacing for web browsers.
+- Mastered VFB to TTF.
+
+14 October 2011 (James Grieshaber) Atomic Age v1.000
+- Completed first complete version of Atomic Age in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: James Grieshaber
+E: james@typeco.com
+W: http://www.typeco.com/
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Some Design, Spacing and Mastering

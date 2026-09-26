@@ -1,0 +1,53 @@
+FONTLOG for the Germania One font
+
+This file provides detailed information on the Germania One
+font Software.
+
+This information should be distributed along with the 
+Germania One font and any derivative works.
+
+Basic Font Information
+
+Germania One is a hybrid between two historical and functional 
+concepts found in German typography, the old fraktur and the 
+simplified geometric sans serif forms from the Bauhaus. I 
+sought to create a new font that mixes these two styles to 
+provide a new and original typeface. Something modern and 
+at the same time old, reworking the geometric forms in a 
+contemporary and expressive way.
+
+Designed by John Vargas Beltrán
+
+Germania One is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded to 
+support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1
+
+To contribute to the project contact John Vargas Beltrán
+at john.vargasbeltran@gmail.com
+
+There are three Source files:
+
+1. GermaniaOne-Regular-OTF.vfb Merged contours and optimized file 
+corresponding to the OTF file
+
+2. GermaniaOne-Regular-TTF.vfb TrueType outlines with hinting 
+adjustments corresponding to the TTF file
+
+3. GermaniaOne-Regular.vfb Original Source files with component shapes
+
+ChangeLog 
+
+First release - 14 December. (v.1.0) (John Vargas Beltrán)
+
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: John Vargas Beltrán
+E: john.vargasbeltran@gmail.com
+W: www.johnvargasbeltran.com
+D: Graphic & Typeface Designer

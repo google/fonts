@@ -1,0 +1,7 @@
+/**
+ * Bundled by jsDelivr using Rollup v4.62.2 and esbuild v0.28.1.
+ * Original file: /npm/d3-polygon@3.0.1/src/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+function x(r){for(var e=-1,t=r.length,n,l=r[t-1],i=0;++e<t;)n=l,l=r[e],i+=n[1]*l[0]-n[0]*l[1];return i/2}function g(r){for(var e=-1,t=r.length,n=0,l=0,i,u=r[t-1],h,a=0;++e<t;)i=u,u=r[e],a+=h=i[0]*u[1]-u[0]*i[1],n+=(i[0]+u[0])*h,l+=(i[1]+u[1])*h;return a*=3,[n/a,l/a]}function d(r,e,t){return(e[0]-r[0])*(t[1]-r[1])-(e[1]-r[1])*(t[0]-r[0])}function v(r,e){return r[0]-e[0]||r[1]-e[1]}function o(r){const e=r.length,t=[0,1];let n=2,l;for(l=2;l<e;++l){for(;n>1&&d(r[t[n-2]],r[t[n-1]],r[l])<=0;)--n;t[n++]=l}return t.slice(0,n)}function w(r){if((t=r.length)<3)return null;var e,t,n=new Array(t),l=new Array(t);for(e=0;e<t;++e)n[e]=[+r[e][0],+r[e][1],e];for(n.sort(v),e=0;e<t;++e)l[e]=[n[e][0],-n[e][1]];var i=o(n),u=o(l),h=u[0]===i[0],a=u[u.length-1]===i[i.length-1],f=[];for(e=i.length-1;e>=0;--e)f.push(r[n[i[e]][2]]);for(e=+h;e<u.length-a;++e)f.push(r[n[u[e]][2]]);return f}function y(r,e){for(var t=r.length,n=r[t-1],l=e[0],i=e[1],u=n[0],h=n[1],a,f,s=!1,c=0;c<t;++c)n=r[c],a=n[0],f=n[1],f>i!=h>i&&l<(u-a)*(i-f)/(h-f)+a&&(s=!s),u=a,h=f;return s}function p(r){for(var e=-1,t=r.length,n=r[t-1],l,i,u=n[0],h=n[1],a=0;++e<t;)l=u,i=h,n=r[e],u=n[0],h=n[1],l-=u,i-=h,a+=Math.hypot(l,i);return a}export{x as polygonArea,g as polygonCentroid,y as polygonContains,w as polygonHull,p as polygonLength};

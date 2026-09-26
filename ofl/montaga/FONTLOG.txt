@@ -1,0 +1,56 @@
+FONTLOG for the Montaga font.
+
+This file provides detailed information on the Montaga 
+font Software.
+
+This information should be distributed along with the 
+Montaga fonts and any derivative works.
+
+Basic Font Information
+
+Montage is an Old Style font, inspired by Venetian 
+calligraphy. Her main feature is the strong inclination 
+in the modulation axis, that generates shapes with marked 
+stress. This gives her a strong personality. The
+uppercases are slender and arrogant, and the narrowness 
+of shapes provide optimum performance.
+
+Montaga is evolving and will be updated.
+As of now there is only Regular style. 
+
+Montaga is a work in progress and will be improved 
+regularly. This means you can request improvements and 
+even fund specific features if they are outside of 
+the current scope of work.
+
+For more information follow: 
+
+http://twitter.com/ale_guez
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alejandra Rodriguez at 
+ale_guez@yahoo.com.ar
+
+ChangeLog
+
+1 January 2012 (Alejandra Rodriguez) Montaga v 1.1
+
+- Altered and improved 90% of the glyphs. Some in minor ways 
+  and other in fairly significant ways. For example: 
+  The lc a was a small change.
+  The changes to the numbers corrected weight consistency issues 
+  were more significant. 
+- Added glyphs to support texts originating from Windows
+  ANSI and Mac Roman encodings. 
+- Adjusted diacritics further
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Alejandra Rodriguez
+E: ale_guez@yahoo.com.ar
+W: twitter.com/ale_guez
+D: Designer

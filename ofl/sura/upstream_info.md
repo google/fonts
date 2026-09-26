@@ -1,0 +1,39 @@
+**Model**: Claude Opus 4.6
+
+# Sura — Upstream Source Investigation
+
+## Summary
+
+The canonical upstream repository for Sura was identified at `https://github.com/huertatipografica/sura`, maintained by HT Fonts (Carolina Giovagnoli's type foundry). The repository contained a Glyphs source file (`Sura.glyphs`).
+
+## Repository Details
+
+- **Repository**: https://github.com/huertatipografica/sura
+- **Owner**: huertatipografica (HT Fonts / Carolina Giovagnoli)
+- **License**: OFL
+- **Source format**: Glyphs (.glyphs)
+- **Latest commit**: `d20d15fe0de4a84a9d3a944f87e9c35d4c9da612`
+- **Commit message**: "OT Fixes"
+- **Default branch**: master
+- **Description**: "Devanagari typeface based on Andada ht"
+
+## Source Files
+
+The repository root contained:
+- `Sura.glyphs`
+- `fonts/`
+- `pdf/`
+
+## Confidence
+
+**High** — The repository was found in the `huertatipografica` GitHub organization. The METADATA.pb designer was listed as "Carolina Giovagnoli," and HT Fonts is her type foundry. The repository description confirmed the Devanagari nature of the font. The copyright notice in the font confirmed "Carolina Giovagnoli" as author. The Glyphs source file was present.
+
+## Action Taken
+
+A `source` block was added to `METADATA.pb` pointing to `https://github.com/huertatipografica/sura` at commit `d20d15fe0de4a84a9d3a944f87e9c35d4c9da612`.
+
+## Update (2026-04-24) — Override config.yaml
+
+**Model**: Claude Opus 4.7 (1M context)
+
+Added an override `config.yaml` in `ofl/sura/` referencing the upstream gftools-builder-compatible source at the pinned commit `d20d15f` (`Sura.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.

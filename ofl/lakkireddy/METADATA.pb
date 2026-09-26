@@ -1,0 +1,24 @@
+name: "Lakki Reddy"
+designer: "Appaji Ambarisha Darbha"
+license: "OFL"
+category: "HANDWRITING"
+date_added: "2015-01-12"
+fonts {
+  name: "Lakki Reddy"
+  style: "normal"
+  weight: 400
+  filename: "LakkiReddy-Regular.ttf"
+  post_script_name: "LakkiReddy"
+  full_name: "Lakki Reddy"
+  copyright: "Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2010 by Font Diner, Inc DBA Sideshow."
+}
+subsets: "menu"
+subsets: "latin"
+subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/lakkireddy"
+  commit: "bf2dceb7e47e591aa7e76d7e268636ea67d66986"
+}
+primary_script: "Telu"
+stroke: "SERIF"
+classifications: "DISPLAY"

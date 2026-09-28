@@ -27,6 +27,7 @@ source {
     dest_file: "AlienBlock-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

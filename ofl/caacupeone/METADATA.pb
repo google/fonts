@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/caacupe"
-  commit: "07166dbe0310593a587ac99055a97b32f70b1630"
+  commit: "9c4e9828f887cbf1bafdae5232d86c644777576e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -27,6 +27,7 @@ source {
     dest_file: "CaacupeOne-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Caacupé One"
 stroke: "SANS_SERIF"

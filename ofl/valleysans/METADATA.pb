@@ -45,5 +45,6 @@ source {
     dest_file: "ValleySans-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

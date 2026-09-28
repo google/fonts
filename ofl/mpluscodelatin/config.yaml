@@ -1,0 +1,22 @@
+# Override config.yaml for ofl/mpluscodelatin
+#
+# The upstream sources/MPLUSCodeLatin/config.yaml builds
+# merged_ufo/MPLUSCodeLatin.designspace, which is not committed: the repo
+# Makefile (make prep merge) generates it by converting
+# sources/MPLUS1Code/MPLUS1-code.glyphs to UFO masters and renaming the family
+# to "M PLUS Code Latin" (sources/scripts/merge.py). fontc_crater does not run
+# the Makefile, so the upstream config has no buildable source.
+#
+# This override builds the committed .glyphs source directly (path relative to
+# the repository root) and applies the family rename after compilation.
+# gftools-builder3 ignores postCompile and emits the font under the source's
+# family name (M PLUS 1 Code). Both builders name the output file after the
+# source: MPLUS1-code[wdth,wght].ttf.
+sources:
+  - sources/MPLUS1Code/MPLUS1-code.glyphs
+postCompile:
+  - operation: rename
+    name: M PLUS Code Latin
+buildVariable: true
+buildStatic: false
+autohintTTF: false

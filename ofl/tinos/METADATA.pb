@@ -52,4 +52,5 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/tinos"
   commit: "3b4482a99b80ea5fc75f187b1be3120a3f5905b3"
+  config_yaml: "sources/config.yaml"
 }

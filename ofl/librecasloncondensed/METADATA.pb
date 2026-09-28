@@ -45,5 +45,6 @@ source {
     dest_file: "LibreCaslonCondensed-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

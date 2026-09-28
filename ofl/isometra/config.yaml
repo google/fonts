@@ -1,0 +1,13 @@
+# Override config.yaml for ofl/isometra
+#
+# The upstream sources/config.yaml lists "Isometra.glyphs", but the committed
+# source file is sources/isometra.glyphs (lowercase). The name only resolves on
+# a case-insensitive filesystem; on Linux, gftools-builder and fontc_crater
+# cannot find the source.
+#
+# This override keeps the upstream settings and points at the committed file
+# (path relative to the repository root).
+sources:
+  - sources/isometra.glyphs
+familyName: Isometra
+cleanUp: true

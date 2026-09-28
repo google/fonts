@@ -42,6 +42,7 @@ source {
     dest_file: "NotoSansSyriacWestern[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-syriac-western.yaml"
 }
 is_noto: true
 languages: "aii_Syrc"  # Assyrian Neo-Aramaic

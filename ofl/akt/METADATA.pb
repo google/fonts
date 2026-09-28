@@ -37,5 +37,6 @@ source {
     dest_file: "Akt[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

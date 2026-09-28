@@ -134,6 +134,7 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "symbols2"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/plex"

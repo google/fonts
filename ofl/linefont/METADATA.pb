@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/dy/linefont"
-  commit: "347effeda6955b1aa7febc34e17dcce3e04f5e15"
+  commit: "ef58ea1d11e6bbd82581031a6ba9ff21bdef04bf"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

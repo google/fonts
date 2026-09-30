@@ -63,3 +63,7 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+registry_default_overrides {
+  key: "opsz"
+  value: 18
+}

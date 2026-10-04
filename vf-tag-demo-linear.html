@@ -1,0 +1,334 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+            .recursive {
+                font-size: 64pt;
+                font-family: "Recursive", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                    "slnt" 0,
+                    "CASL" 0,
+                    "CRSV" 0,
+                    "MONO" 0;
+                }
+            .roboto-slab {
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+            #results {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            body {
+                font-family: "courier";
+            }
+            .slider-container {
+                margin: 10px 0;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .slider-container label {
+                width: 150px;
+                display: inline-block;
+            }
+            .slider-container input {
+                flex: 1;
+                margin: 0 10px;
+            }
+            .value-display {
+                min-width: 60px;
+                font-weight: bold;
+                background: #f0f0f0;
+                padding: 2px 6px;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Variable Font Tag Demo - Piecewise Linear Interpolation</h1>
+        
+        <div class="slider-container">
+            <label for="wght">Weight (wght):</label>
+            <input type="range" id="wght" name="wght" min="300" max="1000" value="400">
+            <span class="value-display" id="wght-value">400</span>
+        </div>
+        <div class="slider-container">
+            <label for="slnt">Slant (slnt):</label>
+            <input type="range" id="slnt" name="slnt" min="-15" max="0" value="0">
+            <span class="value-display" id="slnt-value">0</span>
+        </div>
+        <div class="slider-container">
+            <label for="CASL">Casual (CASL):</label>
+            <input type="range" id="CASL" name="CASL" min="0" max="1" step="0.01" value="0">
+            <span class="value-display" id="CASL-value">0</span>
+        </div>
+        <div class="slider-container">
+            <label for="CRSV">Cursive (CRSV):</label>
+            <input type="range" id="CRSV" name="CRSV" min="0" max="1" step="0.01" value="0">
+            <span class="value-display" id="CRSV-value">0</span>
+        </div>
+        <div class="slider-container">
+            <label for="MONO">Monospace (MONO):</label>
+            <input type="range" id="MONO" name="MONO" min="0" max="1" step="0.01" value="0">
+            <span class="value-display" id="MONO-value">0</span>
+        </div>
+        
+        <p><span class="recursive" id="text">Hamburgevons</span></p>
+        
+        <b>Results</b>
+        <div id="results"></div>
+        
+        <b>Tags defined (Linear Interpolation)</b>
+        <div id="tags"></div>
+    </body>
+    <script type="module">
+
+    // Piecewise Linear Interpolation Implementation
+    class LinearInterpolator {
+        constructor(points) {
+            // points is an array of {coords: {axis: value, ...}, score: number}
+            this.points = points;
+            this.axes = this.getAxes();
+        }
+
+        getAxes() {
+            const axesSet = new Set();
+            this.points.forEach(point => {
+                Object.keys(point.coords).forEach(axis => axesSet.add(axis));
+            });
+            return Array.from(axesSet);
+        }
+
+        // Linear interpolation between two points in n-dimensional space
+        interpolate(coords) {
+            // Find the closest points for interpolation
+            const relevantPoints = this.points.filter(point => {
+                // Only use points that have coordinates for the same axes as our query
+                return this.axes.every(axis => 
+                    point.coords.hasOwnProperty(axis) && coords.hasOwnProperty(axis)
+                );
+            });
+
+            if (relevantPoints.length === 0) return 0;
+            if (relevantPoints.length === 1) return relevantPoints[0].score;
+
+            // Check if the query point is within the convex hull of our data points
+            // For simplicity, we'll check if it's within the bounding box for each axis
+            for (const axis of this.axes) {
+                if (coords[axis] !== undefined) {
+                    const axisValues = relevantPoints
+                        .filter(point => point.coords[axis] !== undefined)
+                        .map(point => point.coords[axis]);
+                    
+                    if (axisValues.length > 0) {
+                        const min = Math.min(...axisValues);
+                        const max = Math.max(...axisValues);
+                        
+                        // If the coordinate is outside the range, return 0
+                        if (coords[axis] < min || coords[axis] > max) {
+                            return 0;
+                        }
+                    }
+                }
+            }
+
+            // For points within range, use inverse distance weighting
+            let result = 0;
+            let totalWeight = 0;
+
+            for (const point of relevantPoints) {
+                // Calculate distance in normalized coordinate space
+                let distance = 0;
+                let validAxes = 0;
+
+                for (const axis of this.axes) {
+                    if (point.coords[axis] !== undefined && coords[axis] !== undefined) {
+                        // Normalize the distance based on the axis range
+                        const axisRange = this.getAxisRange(axis);
+                        const normalizedDist = Math.abs(coords[axis] - point.coords[axis]) / axisRange;
+                        distance += normalizedDist * normalizedDist;
+                        validAxes++;
+                    }
+                }
+
+                if (validAxes > 0) {
+                    distance = Math.sqrt(distance / validAxes);
+                    
+                    // Use inverse distance weighting with a small epsilon to avoid division by zero
+                    const weight = 1 / (distance + 0.001);
+                    result += point.score * weight;
+                    totalWeight += weight;
+                }
+            }
+
+            return totalWeight > 0 ? result / totalWeight : 0;
+        }
+
+        getAxisRange(axis) {
+            const values = this.points
+                .filter(point => point.coords[axis] !== undefined)
+                .map(point => point.coords[axis]);
+            
+            if (values.length === 0) return 1;
+            
+            const min = Math.min(...values);
+            const max = Math.max(...values);
+            return max - min || 1; // Return 1 if min === max to avoid division by zero
+        }
+    }
+
+    function getTags(userCoords, tagDefinitions) {
+        const results = [];
+        
+        // Group tags by category
+        const categorizedTags = {};
+        tagDefinitions.forEach(tag => {
+            if (!categorizedTags[tag.category]) {
+                categorizedTags[tag.category] = [];
+            }
+            categorizedTags[tag.category].push(tag);
+        });
+
+        // For each category, perform linear interpolation
+        Object.entries(categorizedTags).forEach(([category, tags]) => {
+            const interpolator = new LinearInterpolator(tags);
+            
+            // Filter user coordinates to only include axes relevant to this category
+            const relevantCoords = {};
+            const categoryAxes = interpolator.axes;
+            
+            categoryAxes.forEach(axis => {
+                if (userCoords[axis] !== undefined) {
+                    relevantCoords[axis] = userCoords[axis];
+                }
+            });
+
+            if (Object.keys(relevantCoords).length > 0) {
+                const score = interpolator.interpolate(relevantCoords);
+                
+                if (score > 0) {
+                    results.push({
+                        name: category,
+                        score: Math.round(score * 100) / 100 // Round to 2 decimal places
+                    });
+                }
+            }
+        });
+
+        return results.sort((a, b) => b.score - a.score); // Sort by score descending
+    }
+
+    // Tag definitions with linear interpolation points
+    const tags = [
+        // /Expressive/Loud
+        {"category": "/Expressive/Loud", "coords": {"wght": 700}, "score": 10},
+        {"category": "/Expressive/Loud", "coords": {"wght": 1000}, "score": 95},
+
+        // /Monospace/Monospace
+        {"category": "/Monospace/Monospace", "coords": {"MONO": 0.99999}, "score": 0},
+        {"category": "/Monospace/Monospace", "coords": {"MONO": 1.0}, "score": 100},
+
+        // /Script/Handwritten
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": 0, "CASL": 0, "CRSV": 0}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": 0, "CASL": 0, "CRSV": 0}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": -14, "CASL": 0, "CRSV": 0}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": -14, "CASL": 0, "CRSV": 0}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": 0, "CASL": 1, "CRSV": 0}, "score": 30},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": 0, "CASL": 1, "CRSV": 0}, "score": 30},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": -14, "CASL": 1, "CRSV": 0}, "score": 40},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": -14, "CASL": 1, "CRSV": 0}, "score": 40},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": 0, "CASL": 0, "CRSV": 1}, "score": -3},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": 0, "CASL": 0, "CRSV": 1}, "score": -3},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": -14, "CASL": 0, "CRSV": 1}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": -14, "CASL": 0, "CRSV": 1}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": 0, "CASL": 1, "CRSV": 1}, "score": 50},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": 0, "CASL": 1, "CRSV": 1}, "score": 50},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": -14, "CASL": 1, "CRSV": 1}, "score": 60},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": -14, "CASL": 1, "CRSV": 1}, "score": 60},
+    ]
+
+    const textElement = document.getElementById('text');
+    const sliders = ['wght', 'slnt', 'CASL', 'CRSV', 'MONO'];
+
+    sliders.forEach(slider => {
+        document.getElementById(slider).addEventListener('input', updateFontVariations);
+    });
+
+    function updateFontVariations() {
+        const wght = document.getElementById('wght').value;
+        const slnt = document.getElementById('slnt').value;
+        const CASL = document.getElementById('CASL').value;
+        const CRSV = document.getElementById('CRSV').value;
+        const MONO = document.getElementById('MONO').value;
+        
+        // Update coordinate value displays
+        document.getElementById('wght-value').textContent = wght;
+        document.getElementById('slnt-value').textContent = slnt;
+        document.getElementById('CASL-value').textContent = CASL;
+        document.getElementById('CRSV-value').textContent = CRSV;
+        document.getElementById('MONO-value').textContent = MONO;
+        
+        const sliderCoords = {
+            "wght": Number(wght), 
+            "slnt": Number(slnt), 
+            "CASL": Number(CASL), 
+            "CRSV": Number(CRSV), 
+            "MONO": Number(MONO)
+        };
+        
+        textElement.style.fontVariationSettings = `"wght" ${wght}, "slnt" ${slnt}, "CASL" ${CASL}, "CRSV" ${CRSV}, "MONO" ${MONO}`;
+        
+        const results = getTags(sliderCoords, tags);
+        const resultsElement = document.getElementById('results');
+        resultsElement.innerHTML = '';
+        
+        results.forEach(result => {
+            const resultElement = document.createElement('div');
+            resultElement.innerHTML = `Recursive,${result.name},${result.score}`;
+            resultsElement.appendChild(resultElement);
+        });
+    }
+
+    // Initialize the display
+    updateFontVariations();
+
+    // Display tag definitions in a table
+    const tagsElement = document.getElementById('tags');
+    tagsElement.innerHTML = `
+        <table border="1" style="border-collapse: collapse; margin-top: 10px;">
+            <thead>
+                <tr>
+                    <th style="padding: 5px;">Category</th>
+                    <th style="padding: 5px;">wght</th>
+                    <th style="padding: 5px;">slnt</th>
+                    <th style="padding: 5px;">CASL</th>
+                    <th style="padding: 5px;">CRSV</th>
+                    <th style="padding: 5px;">MONO</th>
+                    <th style="padding: 5px;">Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${tags.map(tag => `
+                    <tr>
+                        <td style="padding: 5px;">${tag.category}</td>
+                        <td style="padding: 5px;">${tag.coords.wght || '-'}</td>
+                        <td style="padding: 5px;">${tag.coords.slnt || '-'}</td>
+                        <td style="padding: 5px;">${tag.coords.CASL || '-'}</td>
+                        <td style="padding: 5px;">${tag.coords.CRSV || '-'}</td>
+                        <td style="padding: 5px;">${tag.coords.MONO || '-'}</td>
+                        <td style="padding: 5px;">${tag.score}</td>
+                    </tr>
+                `).join('')}
+            </tbody>
+        </table>
+    `;
+    </script>
+</html>

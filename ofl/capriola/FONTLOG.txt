@@ -1,0 +1,84 @@
+FONTLOG for the Capriola font
+
+This file provides detailed information on Capriola Font Software. 
+This information should be distributed along with the Capriola font 
+and any derivative works.
+
+Basic Font Information
+
+Capriola is a sans-serif typeface whose unique style draws upon 
+forms seen in handwriting and italic types. Skeletons of the most 
+characteristic glyphs are inspired by quick handwriting and based 
+on a single hand movement (G,a,g,k,e). Capriola ambitiously seeks 
+to push the boundaries of originality in the genre without losing 
+legibility. 
+
+The unusual glyphs are quite noticeable in large sizes which allows 
+for distinctive headlines. However in small sizes these gestures 
+become less noticeable making it possible to set longer texts. The 
+name "Capriola" means somersault in English. Such glyphs as "a", 
+"e" or "G" are the real acrobats and the "g" makes a double salto! 
+Capriola was spaced for web. Capriola's originality combined 
+with utility makes it ideal for a wide range of uses.
+
+Capriola is a Unicode typeface family that supports languages that use 
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release supports the following Unicode ranges: 
+Latin-1, Latin-2: Eastern Europe, Turkish, Macintosh Character Set
+
+There are three Source files:
+
+1. Capriola-Regular.vfb Original Source Files with 
+   contour overlaps
+
+2. Capriola-Regular-OTF.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. Capriola-Regular-TTF.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+To contribute to the project contact Eben Sorkin at 
+sorkineben@gmail.com
+
+ChangeLog
+
+5 June 2012 (Eben Sorkin) Capriola v1.007
+- Mastered typeface to TTF and OTF
+- Added hinting using TTF Autohint v0.8
+
+4 June 2012 (Viktoriya Grabowska) Capriola v1.005
+- refined shapes and spacing
+
+25 May 2012 (Viktoriya Grabowska) Capriola v1.004
+- refined shapes and spacing
+
+15 May 2012 (Viktoriya Grabowska) Capriola v1.003
+- refined shapes and spacing
+
+5 April 2012 (Viktoriya Grabowska) Capriola v1.002
+- refined shapes and spacing
+
+30 March 2012 (Viktoriya Grabowska) Capriola v1.001
+- refined shapes
+
+22 March 2012 (Viktoriya Grabowska) Capriola v1.000
+- Completed first complete version of Capriola in 
+  Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Viktoriya Grabowska
+E: vi_ga@wp.pl
+W: www.vikaniesiada.blogspot.com
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

@@ -1,0 +1,63 @@
+FONTLOG for the Magra fonts
+
+This file provides detailed information on the Magra 
+font Software.
+
+This information should be distributed along with the 
+Magra fonts and any derivative works.
+
+Basic Font Information
+
+Magra is a sans serif typeface designed for contexts in 
+which both spatial economy and multiple composition 
+styles are required. Its neutral personality and humanist 
+features makes it a perfect candidate for corporate uses 
+too. Its large x-height and robust stems provide good 
+legibility and economy, plus great behavior in smaller 
+sizes. Magra was selected to be part of the German 
+editorial project Typodarium 2012.
+
+Designed by Viviana Monsalve for FontFuror (www.fontfuror.com).
+
+Magra is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Basic Latin, Latin-1 Supplement, Latin 
+Extended-A, and Latin Extended-B.
+
+To contribute to the project contact Viviana Monsalve 
+at info@fontfuror.com or viv@fontfuror.com
+
+There are five Source files:
+
+1. Magra-Regular-OTF.vfb Merged contours and optimized 
+   file corresponding to the OTF file
+
+2. Magra-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. Magra-Regular.vfb Original Source files with 
+   contour overlaps
+
+4. Magra-Bold-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+5. Magra-Bold-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+Note: There is no VFB file with overlaps for the Bold style 
+because Magra is a Multiple Master Family, so I have just 
+included the output file of the FontLab "Merge" command.
+
+ChangeLog
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Viviana Monsalve
+E: info@fontfuror.com, viv@fontfuror.com
+W: www.fontfuror.com
+D: Typeface Designers

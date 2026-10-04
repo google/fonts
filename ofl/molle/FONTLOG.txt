@@ -1,0 +1,58 @@
+FONTLOG for the Molle font
+
+This file provides detailed information on Molle Font Software. 
+This information should be distributed along with the Molle 
+font and any derivative works.
+
+Basic Font Information
+
+Molle is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release partially supports the following Unicode 
+ranges: Latin-1
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+There are four Source files:
+
+1. Molle.vfb Original Source Files with 
+   contour overlaps
+
+2. Molle-OTF.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. Molle-TTF.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+4. Molle-OTF Merged contours and 
+   optimized Opentype-CFF file
+
+ChangeLog
+
+21 Sept 2015 (Dave Crossland) Molle v1.002
+- Fixed metadata in macStyle, fsSelection, italicAngle
+- Updated hinting using TTFAutohint v1.3
+
+13 Sept 2012 (Eben Sorkin) Molle v1.001
+- Mastered typeface to TTF and OTF
+- Added hinting using TTF Autohint v0.92
+
+28 August 2010 (Elena Albertoni) Molle v1.000
+- Completed first complete version of Molle in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Elena Albertoni
+E: elena@anatoletype.net
+W: www.anatoletype.net
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

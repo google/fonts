@@ -1,0 +1,47 @@
+FONTLOG for the Spinnaker font
+
+This file provides detailed information on Spinnaker Font Software. 
+This information should be distributed along with the Spinnaker 
+font and any derivative works.
+
+Basic Font Information
+
+Spinnaker is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release supports the following Unicode 
+ranges: Latin-1
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+12 Dec 2011 (Eben Sorkin) Spinnaker v1.003
+
+- Fixed Brackets in the and Brace and Braces in the Brackets
+- Used Fontforge "simplify" command to reduce file size.
+- Tested Fontlab Autohinting but rejected it - this font again uses Google "magic tables" in the "prep" TT table.
+
+12 August 2011 (Eben Sorkin) Spinnaker v1.002
+
+- Mastered Font from Fontlab VBF to TTF
+- optimized TT tables for screen.
+
+8 Sept 2010 (Elena Albertoni) Spinnaker v1.001
+- Completed first complete version of Spinnaker in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Elena Albertoni
+E: elena@anatoletype.net
+W: www.anatoletype.net
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

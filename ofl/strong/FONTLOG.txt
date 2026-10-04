@@ -1,0 +1,57 @@
+FONTLOG for the Strong font
+
+This file provides detailed information on the Strong 
+font Software.
+
+This information should be distributed along with the 
+Strong fonts and any derivative works.
+
+Basic Font Information
+
+Strong is a clean contemporary geometrical sans with humanist 
+proportions. It is designed mainly for headlines, navigation 
+and short blocks of text over 14 px.
+
+Its features like splayed terminals and contour inflections 
+improve the overall dymamics of letterforms,
+which is especially appreciated in Cyrillic script.
+
+Designed by Roman Shchyukin from Gaslight.
+
+Strong is a Unicode typeface family that supports 
+languages that use the Latin and Cyrillic script and its 
+variants, and could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1, Cyrillic (ISO 8859-5 Cyrillic)
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+Source files:
+
+1. Strong-Regular.vfb (Original Source files with contour 
+   overlaps and components)
+2. Strong-Regular-OTF.vfb (Decomposed, merged 
+   and optimized file)
+3. Strong-Regular-TTF.vbf (Mastered TTF file with manual hints)
+
+ChangeLog
+
+19 November 2011 (v. 1.001) Alexei Vanyashin
+— Made design and spacing adjustments and corrections
+- Mastered file from PS format into TT format.
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Mastering
+
+N: Roman Shchyukin
+E: gaslighttypefoundry@gmail.com
+W: http://new.myfonts.com/foundry/Gaslight/
+D: Original Design Concept

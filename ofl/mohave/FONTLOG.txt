@@ -1,0 +1,62 @@
+FONTLOG for Mohave Typefaces.
+
+This file provides detailed information on the Mohave font.
+This information should be distributed along with the Mohave font(s) and any
+derivative works.
+
+
+Basic Font Information
+
+Initially designed by Gumpita Rahayu. as all-caps display fonts in 2013, it was expanded into a 4 weights family including matched italic in 2018.
+
+Mohave is a titling display typeface, built with smooth height and dynamic glyph. This typeface is designed for large points setting and contains four weights. with each letterform is nearly monolinear, with fewer corrections applied to stroke and joints to maintain the typefaces structure remain visible. The new version has new body shapes, with more neutral and modulated forms, including some alternates in the uppercase and lowercase and equipped with OpenType Pro encoding.
+
+The Latin designed by Gumpita Rahayu. To contribute, see github.com/tokotype/mohave-typefaces
+
+
+
+ChangeLog
+
+30 January 2020 (Mirko Velimirovic) Built variable font versions of Mohave, expanded characterset, and PR'd to Google Fonts.
+
+3 May 2018 (Gumpita Rahayu) Mohave Typefaces v2.002
+-Fixed bug on dollar sign and cent, replacing a with a.salt on italic
+
+3 May 2018 (Gumpita Rahayu) Mohave Typefaces v2.002
+- Open sourced.
+- Reworked and Fine tuned all glyphs.
+- Adding OpenType Latin Pro encoding.
+- Improve Spacing and Kerning.
+- Change OT features.
+- Change other settings.
+
+
+There are some missing update information after v1.100
+
+23 Dec 2017 (Gumpita Rahayu) Mohave Typefaces v1.800
+- Reworked glyphs shape, adding lowercase, alternates, etc.
+
+11 Nov 2013 (Gumpita Rahayu) Mohave Typefaces v1.100
+- Renamed font name, Fix bugs of spacing.
+
+12 Jul 2013 (Gumpita Rahayu) Mojave v1.000
+- Initial Release.
+
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and
+description (D). This list is in alphabetical order.
+
+N: Gumpita Rahayu
+E: abc@tokotypefaces.com
+W: https://www.tokotypefaces.com
+D: Original designer
+
+N: Mirko Velimirovic
+E: bghryct@gmail.com
+W: mirkovelimirovic.com
+D: contributing designer
+

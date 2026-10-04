@@ -1,0 +1,77 @@
+FONTLOG for the Signika fonts
+
+This file provides detailed information on the Signika 
+Font Software.
+
+This information should be distributed along with the 
+Signika fonts and any derivative works.
+
+Basic Font Information
+
+Signika is a sans-serif with a gentle character, developed for wayfinding, 
+signage, and other media where clarity of information is required. 
+Its low contrast and tall x-height help readability of texts 
+in small sizes and in large distances from the reader.
+
+All weights from Light to Bold have alternative Negative 
+versions created to compensate for the effect of juxtaposed 
+positive and negative text setting, where a white text 
+on a dark background tends to look bolder than a dark 
+text on a white background.
+
+The typeface comes with a wide character set supporting 
+over 220 languages including most of the Latin-based European languages, 
+some African languages, and Vietnamese. It offers advanced typographic 
+tools like ligatures, small caps, and case sensitive punctuation. 
+There are two sets of figures and currency symbols: shorter, 
+for long-form reading, and taller, fully-aligned with capitals, 
+for signage and titling. Since the 2020 update, 
+Signika also includes 250 pictograms and 60 combinable arrows.
+
+
+Signika is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, 
+and could be expanded to support other scripts.
+
+To contribute to the project contact Anna Giedryś, 
+anna@ancymonic.com
+
+ChangeLog
+
+12 May 2020
+– Language extension to full support of the Google Pro encoding (Anna Giedryś).
+- Additional set of over 300 arrows and pictograms designed by (Anna Giedryś and Peter Machaj)
+
+18 Dec 2018
+- Upgrade font to variable font with Weight and "Negative" axes, otherwise preserving original designs
+- Includes glyph extensions and font refinements made by Anna, including expanded language support and small caps
+
+
+24 Oct 2011 (Anna Giedryś) Signika v1.000
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your 
+name (N), email (E), web-address (if you have one) (W) 
+and description (D). This list is in alphabetical order.
+
+N: Anna Giedryś
+E: anna@ancymonic.com
+W: http://www.ancymonic.com
+D: Designer
+
+N: Johannes Neumeier
+E: hello@underscoretype.com
+W: http://underscoretype.com
+D: Post-production
+
+N: Peter Machaj
+E: petermachaj.dizajn@gmail.com
+W: https://www.behance.net/petermachaj
+D: Designer (pictograms co-design)
+
+N: Stephen Nixon
+E: stephen@thundernixon.com
+W: http://www.thundernixon.com
+D: Variable Font Mastering

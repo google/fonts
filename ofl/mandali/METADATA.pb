@@ -1,0 +1,22 @@
+name: "Mandali"
+designer: "Purushoth Kumar Guttula"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2014-12-10"
+fonts {
+  name: "Mandali"
+  style: "normal"
+  weight: 400
+  filename: "Mandali-Regular.ttf"
+  post_script_name: "Mandali"
+  full_name: "Mandali"
+  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nunito"
+}
+subsets: "menu"
+subsets: "latin"
+subsets: "telugu"
+source {
+  commit: "b5d09820cc850e98417250895a11bf0605ab2510"
+  repository_url: "https://github.com/appajid/mandali"
+}
+primary_script: "Telu"

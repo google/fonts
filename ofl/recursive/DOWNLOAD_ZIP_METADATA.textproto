@@ -1,0 +1,27 @@
+ordered_custom_axes: "MONO"
+ordered_custom_axes: "CASL"
+ordered_custom_axes: "CRSV"
+ordered_custom_axes: "slnt"
+
+axis_positions {
+  axis_tag: "MONO"
+  positions: 0
+  positions: 1
+}
+
+axis_positions {
+  axis_tag: "CASL"
+  positions: 0
+  positions: 1
+}
+
+axis_positions {
+  axis_tag: "wght"
+  positions: 300
+  positions: 400
+  positions: 500
+  positions: 600
+  positions: 700
+  positions: 800
+  positions: 900
+}

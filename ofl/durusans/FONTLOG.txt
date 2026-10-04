@@ -1,0 +1,61 @@
+FONTLOG for the Duru Sans font
+
+This file provides detailed information on the Duru Sans font Software.
+This information should be distributed along with the Duru Sans font
+and any derivative works.
+
+Duru Sans Font Information
+
+Duru Sans is a classic low contrast 20th century style sans design. 
+Duru is a new take on mixing the humanist urge with the modernist one. 
+Duru also somehow manages to be elegant and a workhorse type at the 
+same time. Duru can be used at a wide range of sizes.
+
+Duru Sans is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, 
+and could be expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1, Latin-2: Easern Europe, Turkish, 
+Macintosh Character Set.
+
+There are two Source files:
+
+1. Duru Sans-Regular.vfb 
+Original Source Files with contour overlaps
+
+2. Duru Sans-Regular-otf.sfd
+Merged contours and optimized file corresponding to the OTF file
+
+3. Duru Sans-Regular-ttf.sfd 
+TrueType outlines with hinting adjustments corresponding to the 
+TTF file
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+13 Dec 2011 (Eben Sorkin) Duru Sans v1.002
+- Added Hinting to the TTF
+- Corrected description
+
+13 Dec 2011 (Eben Sorkin) Duru Sans v1.001
+- Mastered Font from Fontlab VBF to TTF
+
+10 Dec 2011 (Onur Yazõcõgil) Duru Sans v1.000
+- Completed first complete version of Duru Sans in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Onur Yazõcõgil
+E: oyazicigil@sabanciuniv.edu
+W: onuryazicigil.com
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

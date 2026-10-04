@@ -1,0 +1,49 @@
+FONTLOG
+Megrim font
+==========================
+
+This file provides detailed information on the Megrim font.
+This information should be distributed along with the Megrim font and any
+derivative works.
+
+
+Basic Font Information
+----------------------
+
+Megrim is an experimental font covering most of the basic ASCII glyphset, plus
+enough characters for writing most Latin-alphabet European languages.
+
+ChangeLog
+---------
+2010-08-31  Added glyphs without top- or bottom-bars as ss01; added Turkish
+			glyphs and a few others.
+2010-07-02	Improved lowercase Icelandic glyphs; added more glyphs with
+			diacritics
+2010-05-11	Initial release
+
+
+Information for Contributors
+----------------------------
+
+The Megrim font is licensed under the Open Font License. There are no Reserved
+Font Names declared for the Megrim font.
+
+You can read more about the OFL here:
+http://scripts.sil.org/OFL
+
+If you'd like to make changes to the original font, you are free to contact
+the author of the original font (for contact information, please see the
+"Contributors" section below).  Glyph changes should be in a FontForge .sfd
+file (please make sure your version of FontForge is reasonably up-to-date).
+Please send *only* the changed glyphs, not the entire font range.  The author
+reserves the right to reject or modify any contributions.  If your contribution
+is accepted, your name will appear in the Contributors section (unless you
+specify otherwise).
+
+
+Contributors
+------------
+
+Daniel Johnson (font maintainer)
+il.basso.buffo at gmail dot com
+http://io.debian.net/~danielj/

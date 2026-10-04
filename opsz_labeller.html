@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>opsz labeller</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<style>
+  :root { --blue:#2563EB; --yellow:#B45309; --red:#DC2626; --grey:#6B7280; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, sans-serif; margin: 0; background: #F5F5F5; color: #111; }
+  header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid #E5E7EB; padding: 10px 16px; }
+  header h1 { margin: 0 0 6px; font-size: 16px; }
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 13px; }
+  .row label { color: var(--grey); }
+  .row input[type=search], .row select { font: inherit; padding: 4px 8px; border: 1px solid #D1D5DB; border-radius: 4px; }
+  .row input[type=search] { width: 200px; }
+  .row button { font: inherit; padding: 4px 10px; border: 1px solid var(--blue); background: var(--blue); color: #fff; border-radius: 4px; cursor: pointer; }
+  .counter { color: var(--grey); margin-left: auto; }
+  .counter b { color: #111; font-variant-numeric: tabular-nums; }
+  main { padding: 12px 16px 200px; max-width: 1100px; margin: 0 auto; }
+  .card { background: #fff; border-radius: 6px; padding: 12px 16px; margin: 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,.04); border: 2px solid transparent; }
+  .card.focused { border-color: var(--blue); }
+  .card.lab-Text { background: #EFF6FF; }
+  .card.lab-Display { background: #FEF3C7; }
+  .card.lab-DisplayPlus { background: #FEE2E2; }
+  .meta { display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; color: var(--grey); margin-bottom: 6px; }
+  .meta .name { font-weight: 600; color: #111; font-size: 14px; }
+  .sample { line-height: 1.3; margin: 8px 0; max-width: 60ch; }
+  .s8 { font-size: 8pt; } .s24 { font-size: 24pt; } .s48 { font-size: 48pt; }
+  .radios { margin-top: 10px; display: flex; gap: 6px; }
+  .radios label { cursor: pointer; padding: 4px 10px; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 13px; background: #fff; user-select: none; }
+  .radios input { display: none; }
+  .radios label.on { background: #F3F4F6; font-weight: 600; }
+  .radios label.on.t-Text { color: var(--blue); }
+  .radios label.on.t-Display { color: var(--yellow); }
+  .radios label.on.t-DisplayPlus { color: var(--red); }
+  .hint { font-size: 12px; color: var(--grey); }
+  kbd { font-family: ui-monospace, monospace; background: #F3F4F6; border: 1px solid #D1D5DB; border-bottom-width: 2px; border-radius: 3px; padding: 1px 5px; font-size: 11px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>opsz labeller — Text / Display / Display+</h1>
+    <div class="row">
+      <label>Show
+        <select v-model="view">
+          <option value="untagged">untagged families</option>
+          <option value="tagged">tagged families</option>
+        </select>
+      </label>
+      <label>Category
+        <select v-model="cat">
+          <option value="ALL">ALL</option>
+          <option v-for="c in categories" :value="c">{{ c }}</option>
+        </select>
+      </label>
+      <input type="search" v-model.trim="q" placeholder="search by name...">
+      <button @click="copyCSV">{{ copyLabel }}</button>
+      <span class="hint"><kbd>t</kbd>/<kbd>d</kbd>/<kbd>p</kbd> label · <kbd>j</kbd>/<kbd>k</kbd> next/prev · <kbd>n</kbd> next unlabelled</span>
+      <span class="counter">
+        labelled <b>{{ labelledCount }}</b> / <b>{{ entries.length }}</b>
+        · families <b>{{ taggedFamilies.size }}</b>/<b>{{ familyCount }}</b>
+      </span>
+    </div>
+  </header>
+  <main>
+    <div v-for="e in visible" :key="e.id"
+         class="card" :class="[bucketClass(labels[e.id]), { focused: e.id === focusedId }]"
+         :data-id="e.id" :data-family="e.family"
+         @click="focusedId = e.id">
+      <div class="meta">
+        <span class="name">{{ e.family }}<template v-if="e.loc"> @ {{ e.loc }}</template></span>
+        <span>{{ e.category }}</span>
+      </div>
+      <div :style="sampleStyle(e)">
+        <div class="sample s8">{{ SAMPLE_8 }}</div>
+        <div class="sample s24">{{ SAMPLE_24 }}</div>
+        <div class="sample s48">{{ SAMPLE_48 }}</div>
+      </div>
+      <div class="radios">
+        <label v-for="b in BUCKETS" :class="['t-' + b.replace('+','Plus'), { on: labels[e.id] === b }]">
+          <input type="radio" :value="b" :checked="labels[e.id] === b" @change="setLabel(e.id, b)">
+          {{ b }}
+        </label>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+const QUANT_CSV_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/quant.csv";
+const EDIT_URL = "https://github.com/google/fonts/edit/main/tags/all/quant.csv";
+const BUCKETS = ["Text", "Display", "Display+"];
+const BOUNDS = { "Text": [5, 24], "Display": [24, 48], "Display+": [48, 300] };
+const REVERSE = { "5,24": "Text", "24,48": "Display", "48,300": "Display+" };
+const SAMPLE_8  = "Body text sits at the heart of any page. At small sizes a typeface must hold its own: counters stay open, stroke contrast stays readable, and spacing keeps the rhythm steady. If letters start to clog or dazzle here, the face belongs somewhere larger. 0123456789 & fi fl";
+const SAMPLE_24 = "Subheadings guide the eye between sections. At this size, personality starts to show.";
+const SAMPLE_48 = "Display text commands attention.";
+
+function parseCSVLine(line) {
+  const fields = [];
+  let cur = "", q = false;
+  for (const ch of line) {
+    if (ch === '"') { q = !q; continue; }
+    if (ch === ',' && !q) { fields.push(cur); cur = ""; continue; }
+    cur += ch;
+  }
+  fields.push(cur);
+  return fields;
+}
+function csvField(s) { return s.includes(",") ? `"${s}"` : s; }
+
+// Cross product of each axis' [min, max]; axes in ASCII order (same as the CSV).
+function corners(axes) {
+  const sorted = [...axes].sort((a, b) => a.tag < b.tag ? -1 : 1);
+  let locs = [[]];
+  for (const ax of sorted) {
+    const next = [];
+    for (const loc of locs)
+      for (const v of [ax.min, ax.max])
+        next.push([...loc, v]);
+    locs = next;
+  }
+  const tags = sorted.map(a => a.tag);
+  const seen = new Set();
+  const out = [];
+  for (const vals of locs) {
+    const loc = tags.join(",") + "@" + vals.join(",");
+    if (seen.has(loc)) continue;
+    seen.add(loc);
+    out.push({ loc, settings: tags.map((t, i) => `'${t}' ${vals[i]}`).join(", ") });
+  }
+  return out;
+}
+
+// css2 URL: axis tags in ASCII order with min..max ranges.
+function css2Url(fam) {
+  let spec = fam.family.replace(/ /g, "+");
+  if (fam.axes.length) {
+    const sorted = [...fam.axes].sort((a, b) => a.tag < b.tag ? -1 : 1);
+    spec += ":" + sorted.map(a => a.tag).join(",") +
+            "@" + sorted.map(a => `${a.min}..${a.max}`).join(",");
+  }
+  return `https://fonts.googleapis.com/css2?family=${spec}&display=swap`;
+}
+
+Vue.createApp({
+  data() {
+    return {
+      BUCKETS, SAMPLE_8, SAMPLE_24, SAMPLE_48,
+      entries: [],        // {id, family, category, loc, settings}
+      labels: {},         // id -> bucket
+      keptLines: [],      // csv lines passed through verbatim on export
+      view: "untagged",
+      csvTagged: new Set(),  // families tagged in quant.csv at load; keeps the
+                             // untagged queue stable while labelling in-session
+      cat: "ALL",
+      q: "",
+      focusedId: null,
+      copyLabel: "Copy CSV",
+    };
+  },
+  computed: {
+    categories() { return [...new Set(this.entries.map(e => e.category))].sort(); },
+    // family -> true if it has at least one labelled entry
+    taggedFamilies() {
+      const s = new Set();
+      for (const e of this.entries) if (this.labels[e.id]) s.add(e.family);
+      return s;
+    },
+    familyCount() { return new Set(this.entries.map(e => e.family)).size; },
+    labelledCount() { return this.entries.filter(e => this.labels[e.id]).length; },
+    visible() {
+      const q = this.q.toLowerCase();
+      return this.entries.filter(e => {
+        const tagged = this.csvTagged.has(e.family);
+        if (this.view === "untagged" && tagged) return false;
+        if (this.view === "tagged" && !tagged) return false;
+        if (this.cat !== "ALL" && e.category !== this.cat) return false;
+        if (q && !e.family.toLowerCase().includes(q)) return false;
+        return true;
+      });
+    },
+  },
+  methods: {
+    bucketClass(b) { return b ? "lab-" + b.replace("+", "Plus") : ""; },
+    sampleStyle(e) {
+      let s = `font-family: '${e.family}', sans-serif;`;
+      if (e.settings) s += ` font-variation-settings: ${e.settings};`;
+      return s;
+    },
+    setLabel(id, bucket) { this.labels[id] = bucket; },
+    focusStep(dir) {
+      const vis = this.visible;
+      if (!vis.length) return;
+      const i = vis.findIndex(e => e.id === this.focusedId);
+      const next = vis[i < 0 ? 0 : i + dir];
+      if (next) this.focus(next.id);
+    },
+    focusNextUnlabelled() {
+      const vis = this.visible.filter(e => !this.labels[e.id]);
+      if (!vis.length) return;
+      const i = vis.findIndex(e => e.id === this.focusedId);
+      this.focus((vis[i + 1] || vis[0]).id);
+    },
+    focus(id) {
+      this.focusedId = id;
+      this.$nextTick(() => {
+        const el = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+        if (el) el.scrollIntoView({ block: "center" });
+      });
+    },
+    async copyCSV() {
+      const lines = [...this.keptLines];
+      for (const e of this.entries) {
+        const b = this.labels[e.id];
+        if (!b) continue;
+        const [min, max] = BOUNDS[b];
+        const loc = csvField(e.loc);
+        lines.push(`${e.family},${loc},/quant/opsz_min,${min}`);
+        lines.push(`${e.family},${loc},/quant/opsz_max,${max}`);
+      }
+      lines.sort();  // raw line sort, same as python's sorted(lines)
+      await navigator.clipboard.writeText(lines.join("\n") + "\n");
+      this.copyLabel = `Copied ${lines.length} lines`;
+      setTimeout(() => this.copyLabel = "Copy CSV", 2000);
+      window.open(EDIT_URL, "_blank");
+    },
+  },
+  async mounted() {
+    // 1. families
+    const data = await (await fetch("family_data.json")).json();
+    const fams = data.familyMetadataList;
+    const entries = [];
+    for (const f of fams) {
+      if (!f.axes.length) {
+        entries.push({ id: `${f.family}|`, family: f.family, category: f.category, loc: "", settings: "" });
+      } else if (f.axes.length < 4) {
+        for (const c of corners(f.axes))
+          entries.push({ id: `${f.family}|${c.loc}`, family: f.family, category: f.category, loc: c.loc, settings: c.settings });
+      }
+      // 4+ axes: out of scope
+    }
+    this.entries = entries;
+    const known = new Set(entries.map(e => e.id));
+
+    // 2. quant.csv: opsz rows matching an entry become labels; everything else
+    //    (stroke_width rows, opsz rows for out-of-scope families) is kept verbatim.
+    try {
+      const text = await (await fetch(QUANT_CSV_URL)).text();
+      const pairs = {};
+      for (const line of text.split("\n")) {
+        if (!line.trim()) continue;
+        const [fam, loc, tag, value] = parseCSVLine(line);
+        const isOpsz = tag === "/quant/opsz_min" || tag === "/quant/opsz_max";
+        const id = `${fam}|${loc}`;
+        if (!isOpsz || !known.has(id)) { this.keptLines.push(line); continue; }
+        const p = pairs[id] = pairs[id] || {};
+        p[tag.endsWith("min") ? "min" : "max"] = value;
+      }
+      for (const [id, p] of Object.entries(pairs)) {
+        this.csvTagged.add(id.split("|")[0]);
+        const b = REVERSE[`${p.min},${p.max}`];
+        if (b) this.labels[id] = b;
+        else this.keptLines.push(  // unknown bounds: keep verbatim
+          `${id.split("|")[0]},${csvField(id.split("|")[1])},/quant/opsz_min,${p.min}`,
+          `${id.split("|")[0]},${csvField(id.split("|")[1])},/quant/opsz_max,${p.max}`);
+      }
+    } catch (e) { console.error("quant.csv load failed:", e); }
+
+    // 3. lazy-load fonts via the css2 API as cards enter the viewport
+    const byName = Object.fromEntries(fams.map(f => [f.family, f]));
+    const loaded = new Set();
+    const io = new IntersectionObserver(ents => {
+      for (const ent of ents) {
+        if (!ent.isIntersecting) continue;
+        const name = ent.target.dataset.family;
+        if (loaded.has(name)) continue;
+        loaded.add(name);
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = css2Url(byName[name]);
+        document.head.appendChild(link);
+      }
+    }, { rootMargin: "300px" });
+    const observeAll = () => document.querySelectorAll(".card").forEach(c => io.observe(c));
+    this.$nextTick(observeAll);
+    this.$watch(() => this.visible, () => this.$nextTick(observeAll));
+
+    // 4. keyboard
+    document.addEventListener("keydown", e => {
+      if (["INPUT", "SELECT", "TEXTAREA"].includes(e.target.tagName)) return;
+      let bucket = null;
+      if (e.key === "t") bucket = "Text";
+      else if (e.key === "d") bucket = "Display";
+      else if (e.key === "p") bucket = "Display+";
+      if (bucket && this.focusedId) {
+        e.preventDefault();
+        this.setLabel(this.focusedId, bucket);
+        this.focusStep(1);
+      }
+      else if (e.key === "j" || e.key === "ArrowDown") { e.preventDefault(); this.focusStep(1); }
+      else if (e.key === "k" || e.key === "ArrowUp") { e.preventDefault(); this.focusStep(-1); }
+      else if (e.key === "n") { e.preventDefault(); this.focusNextUnlabelled(); }
+    });
+  },
+}).mount("#app");
+</script>
+</body>
+</html>

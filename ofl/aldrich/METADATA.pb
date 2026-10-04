@@ -1,0 +1,23 @@
+name: "Aldrich"
+designer: "MADType"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2011-08-17"
+source {
+  repository_url: "https://github.com/librefonts/aldrich"
+  commit: "ec28a1d125f17139f1a0685025dc43a775bed76f"
+}
+
+fonts {
+  name: "Aldrich"
+  style: "normal"
+  weight: 400
+  filename: "Aldrich-Regular.ttf"
+  post_script_name: "Aldrich-Regular"
+  full_name: "Aldrich Regular"
+  copyright: "Copyright (c) Matthew Desmond, 2011. All rights reserved."
+}
+subsets: "latin"
+subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

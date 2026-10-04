@@ -1,0 +1,65 @@
+FONTLOG for the Jacques Francois Shadow font
+
+This file provides detailed information on the Jacques Francois Shadow
+font Software.
+
+This information should be distributed along with the 
+Jacques Francois fonts and any derivative works.
+
+Basic Font Information
+
+Jacques Francois Shadow is an incised variant of the Jacques Francois font.
+
+Jacques Francois revives the c. 1760 Enschedé no. 811 type specimen by Jacques
+François Rosart (1714-1774), made for Enschedé Printing House. The concept was
+to create a contemporary webfont with an even typographic color while
+preserving the essential historic peculiarities and expanding the character
+set. Compared to the historic specimen the x-height is generously increased
+and contrast lowered.
+
+Jacques Francois Shadow is designed for large sizes and manually instructed
+for better screen performance starting from 24 ppem. This means that on Window
+machines it will work best from 18pt (at 96ppi) or 15pt (at 120ppi) and from
+24pt on Mac (at 72ppi.)
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a at cyreal.org
+
+There are two .vfb Source files:
+
+1. JacquesFrancois-Regular-OTF.vfb
+- Merged and optimized file
+
+2. JacquesFrancois-Regular-TTF.vfb
+- File with TTF countours and manual TT hints
+
+ChangeLog
+
+10 November 2011 (Nikita Kanarev) Jacques Francois v. 1.000
+— Completed initial version in VBF format based on 
+  Jacques Francois Regular font
+
+6 December 2011 (Alexei Vanyashin) Jacques Francois v. 1.001
+— Reduced drops in letters a, c, j, ccedilla, ae, two
+— Mastered file from VBF into TTF
+
+7 September 2012  (Alexei Vanyashin) Jacques Francois v. 1.003
+- Vertical metrics adjusted for web
+- Copyright notices updated
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Nikita Kanarev
+E: i@xarsok.ru
+W: http://xarsok.ru
+D: Designer
+
+N: Alexei Vanyashin
+E: a at cyreal.org
+W: www.cyreal.org
+D: Design and Mastering

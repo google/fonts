@@ -1,0 +1,55 @@
+FONTLOG for the Carrois Gothic fonts
+
+This file provides detailed information on the Carrois Gothic
+font Software.
+
+This information should be distributed along with the 
+DuGothic fonts and any derivative works.
+
+Basic Font Information
+
+Carrois Gothic was designed by Ralph du Carrois.
+
+Carrois Gothic is a well balanced and modern gothic type family. Clean and
+beautiful. What more do you need? There is the Small Caps sister family too,
+useful for all noble and significant applications.
+
+Carrois Gothic is a Unicode typeface that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+To contribute to the project contact Ralph du Carrois at 
+post@carrois.com
+
+For each style there are three .VFB Source files:
+1. Family-Style.vfb (Original Source file with contour overlaps)
+2. Family-Style-OTF.vfb (Merged contours and optimized file 
+                         corresponding to the OTF file)
+3. Family-Style-TTF.vfb (TrueType outlines with hinting 
+                         adjustments corresponding to the TTF file)
+
+ChangeLog
+
+10 December 2011 (Ralph du Carrois) Carrois Gothic v. 1.001
+- Completed initial design in VBF format, Latin-1 encoding
+
+29 September 2012 (Andreas Eigendorf) Carrois Gothic v. 1.001
+- Completed mastering for initial release, Latin-1 encoding
+
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Ralph du Carrois
+E: post@carrois.com
+W: www.carrois.com
+D: Design
+
+N: Andreas Eigendorf
+E: mail@e-font.de
+W: www.e-font.de
+D: Mastering

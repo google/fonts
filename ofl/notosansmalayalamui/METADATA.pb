@@ -1,0 +1,34 @@
+name: "Noto Sans Malayalam UI"
+designer: "Google"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2020-11-19"
+fonts {
+  name: "Noto Sans Malayalam UI"
+  style: "normal"
+  weight: 400
+  filename: "NotoSansMalayalamUI[wdth,wght].ttf"
+  post_script_name: "NotoSansMalayalamUI-Regular"
+  full_name: "Noto Sans Malayalam UI Regular"
+  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+}
+subsets: "malayalam"
+subsets: "menu"
+axes {
+  tag: "wdth"
+  min_value: 62.5
+  max_value: 100.0
+}
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}
+is_noto: true
+languages: "ml_Mlym"  # Malayalam
+primary_script: "Mlym"
+
+source {
+  repository_url: "https://github.com/notofonts/malayalam"
+  commit: "0fd65e553a6af3dc1c09ed39dfe8933e01c17b32"
+}

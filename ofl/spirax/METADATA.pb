@@ -15,6 +15,16 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/spirax"
+  commit: "b651a4d37206c14dbddb7356c9f049879caef175"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Spirax-Regular.ttf"
+    dest_file: "Spirax-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

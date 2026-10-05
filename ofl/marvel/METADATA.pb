@@ -44,6 +44,28 @@ subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/marvel"
+  commit: "1fd5b632dcc4a406092c481a4be24808347930d4"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Marvel-Bold.ttf"
+    dest_file: "Marvel-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Marvel-BoldItalic.ttf"
+    dest_file: "Marvel-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Marvel-Italic.ttf"
+    dest_file: "Marvel-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Marvel-Regular.ttf"
+    dest_file: "Marvel-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

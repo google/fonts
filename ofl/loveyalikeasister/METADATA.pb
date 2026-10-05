@@ -18,6 +18,16 @@ subsets: "menu"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/loveyalikeasister"
+  commit: "d71a0630e29e3baf487f53a0c59b894f2c1c3791"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/LoveYaLikeASister-Regular.ttf"
+    dest_file: "LoveYaLikeASister.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

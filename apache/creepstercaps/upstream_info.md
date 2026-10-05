@@ -1,6 +1,59 @@
-# Investigation Report: Creepster Caps
+# Creepster Caps
 
-## Source Repository
+**Model**: Claude Opus 5.5
+**Date**: 2026-10-05
+
+Sources modernized 2026-10: the FontForge `.sfd` sources were converted to Glyphs
+(`.glyphs`) and build with gftools-builder and fontc. The repository, commit and config
+are in the `source { }` block of METADATA.pb.
+
+## Initial state
+
+Google Fonts shipped Creepster Caps built from FontForge `.sfd` sources in the family's
+directory in the googlefontdirectory-hg monorepo
+(https://github.com/googlefonts/googlefontdirectory-hg, `apache/creepstercaps` at commit
+`52f780bc9d197280a9f430574e179a5f233c56b6`); it had no repository of its own. There was
+no source that builds with fontc. The shipped binary carries FontForge's `FFTM` table,
+so FontForge generated it.
+
+## Actions taken
+
+- The family's files were imported unmodified as the first commit of
+  https://github.com/googlefonts/creepstercaps.
+- The `.sfd` needed no change: it was converted exactly as the designer left it.
+- The `.sfd` was converted with babelfont-rs, using only filters that reproduce
+  FontForge's own export, as the last commit.
+
+## Final state
+
+The source is https://github.com/googlefonts/creepstercaps at `d2ba0c45feb2`. Builds
+with gftools-builder (gftools-rust ade8776, fontc 1.0.0) and matches the binaries
+google/fonts b5efa9c32e8f ships: 0 blocking rows under tools/table_gate.py, exactly the
+release's codepoints, and functionally equivalent under tools/functional_gate.py (cmap,
+shaping, rendering, names, line spacing, advances, GDEF), 1 style. Those tools:
+https://github.com/felipesanches/gf-source-modernization at `541f72b`.
+
+`d2ba0c45feb2` is the equivalence commit: its build is functionally equivalent to the
+binaries Google Fonts ships. Source modernization adds no features. Where the shipped
+binaries differ from the source, the difference is reproduced by a documented commit
+before the conversion, never silently corrected. Any improvement is a later commit that
+needs its own QA, and is left as future work for an onboarder to review in a font-update
+PR.
+
+## Original repository (dormant)
+
+The source block this replaces, preserved for provenance:
+
+    source {
+      repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
+      commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+    }
+
+## Previous investigation
+
+## Investigation Report: Creepster Caps
+
+### Source Repository
 
 | Field | Value |
 |-------|-------|
@@ -18,7 +71,7 @@ The SFD file has a `-TTF` suffix in its filename, suggesting it was derived from
 
 No gftools-builder compatible sources (.glyphs, .ufo, .designspace) are present. The original design sources were likely in a proprietary format (FontLab .vfb or similar) used by Font Diner and never published.
 
-## Key Findings
+### Key Findings
 
 | Field              | Value |
 |--------------------|-------|
@@ -31,9 +84,9 @@ No gftools-builder compatible sources (.glyphs, .ufo, .designspace) are present.
 | Status             | no_config_possible |
 | Confidence         | HIGH |
 
-## Investigation Details
+### Investigation Details
 
-### Current State in google/fonts
+#### Current State in google/fonts
 
 - **Directory**: `apache/creepstercaps/`
 - **Files**: CreepsterCaps-Regular.ttf, DESCRIPTION.en_us.html, LICENSE.txt, METADATA.pb
@@ -42,7 +95,7 @@ No gftools-builder compatible sources (.glyphs, .ufo, .designspace) are present.
 - **Copyright**: "Copyright (c) 2011 by Font Diner, Inc. All rights reserved."
 - **Vendor**: Font Diner, Inc
 
-### Git History in google/fonts
+#### Git History in google/fonts
 
 | Commit | Date | Author | Description |
 |--------|------|--------|-------------|
@@ -50,29 +103,29 @@ No gftools-builder compatible sources (.glyphs, .ufo, .designspace) are present.
 
 Creepster Caps has never been updated since the initial commit. All subsequent commits touching this directory were metadata-only changes (METADATA.pb language data, etc.).
 
-### Relationship to "Creepster" (OFL)
+#### Relationship to "Creepster" (OFL)
 
 There is a separate font called "Creepster" (without "Caps") in `ofl/creepster/`. That font is also by Font Diner/Sideshow and has a similar horror theme. These are two distinct fonts:
 - **Creepster Caps** (Apache 2.0, in `apache/creepstercaps/`) — this investigation
 - **Creepster** (OFL, in `ofl/creepster/`) — separate font
 
-### Cached Mirror: librefonts/creepstercaps
+#### Cached Mirror: librefonts/creepstercaps
 
 The librefonts mirror at `https://github.com/librefonts/creepstercaps` contains TTX dumps and the same SFD source file found in googlefontdirectory-hg. Single commit by hash3g: "update .travis.yml". This is an automated dump, not a proper upstream repository.
 
-### Search for Upstream Repository
+#### Search for Upstream Repository
 
 - No googlefonts/creepstercaps or similar repository exists
 - fontdiner/fonts exists but is empty (LICENSE and README.md only)
 - Font Diner is a commercial foundry; the original design sources were never made publicly available
 
-### Config.yaml Assessment
+#### Config.yaml Assessment
 
 No config.yaml can be created. The only source format available is SFD (FontForge), which is not compatible with gftools-builder.
 
-## Conclusion
+### Conclusion
 
 Creepster Caps has no buildable upstream sources. The googlefontdirectory-hg monorepo and the librefonts mirror both contain only an SFD file (likely reverse-engineered from the TTF) and metadata. The font was produced by Font Diner and delivered as a compiled binary. No gftools-builder compatible sources or build configuration exist.
 
-### Status: no_config_possible
-### Confidence: HIGH
+#### Status: no_config_possible
+#### Confidence: HIGH

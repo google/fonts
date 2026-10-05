@@ -17,6 +17,16 @@ subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/sixcaps"
+  commit: "7f3c2a230b8feff463b35bb738f0f85dc6005808"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/SixCaps-Regular.ttf"
+    dest_file: "SixCaps.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

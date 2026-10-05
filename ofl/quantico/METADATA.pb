@@ -45,6 +45,28 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/quantico"
+  commit: "072c8f63d1f2c4e9507586b8948cb95686e65526"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Quantico-Bold.ttf"
+    dest_file: "Quantico-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Quantico-BoldItalic.ttf"
+    dest_file: "Quantico-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Quantico-Italic.ttf"
+    dest_file: "Quantico-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Quantico-Regular.ttf"
+    dest_file: "Quantico-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

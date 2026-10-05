@@ -42,6 +42,28 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/puritan"
+  commit: "df5efccea9a03aebe4b974adb39054b4fb7f781c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Puritan-Bold.ttf"
+    dest_file: "Puritan-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Puritan-BoldItalic.ttf"
+    dest_file: "Puritan-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Puritan-Italic.ttf"
+    dest_file: "Puritan-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Puritan-Regular.ttf"
+    dest_file: "Puritan-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

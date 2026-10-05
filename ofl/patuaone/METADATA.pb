@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/patuaone"
+  commit: "d380c3be2b3de6c22c6793bf00ad755f19f04229"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PatuaOne-Regular.ttf"
+    dest_file: "PatuaOne-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

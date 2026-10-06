@@ -67,3 +67,18 @@ registry_default_overrides {
   key: "opsz"
   value: 18
 }
+source {
+  repository_url: "https://github.com/googlefonts/googlesans"
+  commit: "5c8f512c5fb42a7be099b951a7c097f96209c78e"
+  archive_url: "https://github.com/googlefonts/googlesans/releases/download/v14.000/GoogleSans-v14.000.zip"
+  config_yaml: "sources/config.yaml"
+  files {
+    source_file: "build/GoogleSans/variable/GoogleSans[GRAD,opsz,wght].ttf"
+    dest_file: "GoogleSans[GRAD,opsz,wght].ttf"
+  }
+  files {
+    source_file: "build/GoogleSans/variable/GoogleSans-Italic[GRAD,opsz,wght].ttf"
+    dest_file: "GoogleSans-Italic[GRAD,opsz,wght].ttf"
+  }
+  branch: "main"
+}

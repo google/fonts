@@ -32,8 +32,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/sursly/scoutie"
-  commit: "16e9d47c52f3d02bb8f840aa2136ce5a5d311bf3"
-  archive_url: "https://github.com/sursly/scoutie/releases/download/v1.002/scoutie-v1.002.zip"
+  commit: "bac79adfafa587663c134599c2afc31b00c402c0"
+  archive_url: "https://github.com/sursly/scoutie/releases/download/v1.003/scoutie-v1.003.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

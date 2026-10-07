@@ -118,7 +118,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/Tor-Production/nambli-font"
-  commit: "7492b115b65043f99475c65374ff7cad39543cfa"
+  commit: "8083e024eb3e74493b255b83f0d7b0f5e677ab23"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -170,5 +170,25 @@ source {
   files {
     source_file: "fonts/ttf/Nambli-SemiBoldItalic.ttf"
     dest_file: "Nambli-SemiBoldItalic.ttf"
+  }
+  files {
+    source_file: "documentation/article/ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "documentation/article/nambli-rounded.jpg"
+    dest_file: "article/nambli-rounded.jpg"
+  }
+  files {
+    source_file: "documentation/article/nambli-multilingual.jpg"
+    dest_file: "article/nambli-multilingual.jpg"
+  }
+  files {
+    source_file: "documentation/article/nambli-12-styles.jpg"
+    dest_file: "article/nambli-12-styles.jpg"
+  }
+  files {
+    source_file: "documentation/image-license.txt"
+    dest_file: "article/image-license.txt"
   }
 }

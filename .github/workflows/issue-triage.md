@@ -6,6 +6,7 @@ on:
   issues:
     types: [opened, reopened]
     names: ["II Submission", "I New Font"]
+  roles: all
   reaction: eyes
 
 permissions:

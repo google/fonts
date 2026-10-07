@@ -118,57 +118,57 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/Tor-Production/nambli-font"
-  commit: "8083e024eb3e74493b255b83f0d7b0f5e677ab23"
+  commit: "eafe6884f5c75aaa395479cc0176b54b7ed9b6d5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/ttf/Nambli-Bold.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-Bold.ttf"
     dest_file: "Nambli-Bold.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-BoldItalic.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-BoldItalic.ttf"
     dest_file: "Nambli-BoldItalic.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-ExtraBold.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-ExtraBold.ttf"
     dest_file: "Nambli-ExtraBold.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-ExtraBoldItalic.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-ExtraBoldItalic.ttf"
     dest_file: "Nambli-ExtraBoldItalic.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-Italic.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-Italic.ttf"
     dest_file: "Nambli-Italic.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-Light.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-Light.ttf"
     dest_file: "Nambli-Light.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-LightItalic.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-LightItalic.ttf"
     dest_file: "Nambli-LightItalic.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-Medium.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-Medium.ttf"
     dest_file: "Nambli-Medium.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-MediumItalic.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-MediumItalic.ttf"
     dest_file: "Nambli-MediumItalic.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-Regular.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-Regular.ttf"
     dest_file: "Nambli-Regular.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-SemiBold.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-SemiBold.ttf"
     dest_file: "Nambli-SemiBold.ttf"
   }
   files {
-    source_file: "fonts/ttf/Nambli-SemiBoldItalic.ttf"
+    source_file: "fonts/candidates/1.001/ttf/Nambli-SemiBoldItalic.ttf"
     dest_file: "Nambli-SemiBoldItalic.ttf"
   }
   files {

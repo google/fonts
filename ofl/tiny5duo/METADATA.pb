@@ -10,7 +10,7 @@ fonts {
   filename: "Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf"
   post_script_name: "Tiny5Duo-Regular"
   full_name: "Tiny5 Duo Regular"
-  copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
+  copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)"
 }
 fonts {
   name: "Tiny5 Duo"
@@ -19,7 +19,7 @@ fonts {
   filename: "Tiny5Duo-Italic[BLED,JITT,ROND,wdth,wght].ttf"
   post_script_name: "Tiny5Duo-Italic"
   full_name: "Tiny5 Duo Italic"
-  copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
+  copyright: "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)"
 }
 subsets: "armenian"
 subsets: "cyrillic"
@@ -48,16 +48,16 @@ axes {
 axes {
   tag: "wdth"
   min_value: 50.0
-  max_value: 150.0
+  max_value: 200.0
 }
 axes {
   tag: "wght"
   min_value: 100.0
-  max_value: 700.0
+  max_value: 900.0
 }
 source {
   repository_url: "https://github.com/Gissio/font_tiny5"
-  commit: "cd350d50285f80abb885160e5054353d02397129"
+  commit: "42560bb39e6c5daddc958bf0c5df1c04ccedbe9e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

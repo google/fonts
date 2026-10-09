@@ -16,8 +16,17 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/impallari/The-Lobster-Font"
-  commit: "9101378a660fa0b93a03372467df8dfd15647fd9"
+  repository_url: "https://github.com/simoncozens/pushster"
+  commit: "dfafa10ae7fd09fe7498a5255948c8773af60f96"
+  files {
+    source_file: "sources/config.yaml"
+    dest_file: "config.yaml"
+  }
+  files {
+    source_file: "sources/Lobster.glyphs"
+    dest_file: "Lobster.glyphs"
+  }
+  branch: "main"
 }
 languages: "en_Latn"  # English
 languages: "eo_Latn"  # Esperanto

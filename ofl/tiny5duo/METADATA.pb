@@ -48,16 +48,16 @@ axes {
 axes {
   tag: "wdth"
   min_value: 50.0
-  max_value: 150.0
+  max_value: 200.0
 }
 axes {
   tag: "wght"
   min_value: 100.0
-  max_value: 700.0
+  max_value: 900.0
 }
 source {
   repository_url: "https://github.com/Gissio/font_tiny5"
-  commit: "cd350d50285f80abb885160e5054353d02397129"
+  commit: "42560bb39e6c5daddc958bf0c5df1c04ccedbe9e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

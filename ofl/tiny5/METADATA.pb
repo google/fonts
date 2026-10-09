@@ -48,12 +48,12 @@ axes {
 axes {
   tag: "wdth"
   min_value: 50.0
-  max_value: 150.0
+  max_value: 200.0
 }
 axes {
   tag: "wght"
   min_value: 100.0
-  max_value: 700.0
+  max_value: 900.0
 }
 source {
   repository_url: "https://github.com/Gissio/font_tiny5"

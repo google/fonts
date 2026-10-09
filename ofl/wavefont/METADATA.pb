@@ -38,7 +38,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/dy/wavefont"
-  commit: "76d6e2cb12f3cbea3fb2766ae3f849a061a54227"
+  commit: "76c80f21363cba19c35882f25afac3aa7399ace5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -1,13 +1,14 @@
+# New
+ofl/xmind # https://github.com/google/fonts/pull/10956
+
 # Upgrade
-ofl/castoro # https://github.com/google/fonts/pull/10953
-ofl/castorotitling # https://github.com/google/fonts/pull/10954
 ofl/googlesans # https://github.com/google/fonts/pull/10960
 ofl/googlesansflex # https://github.com/google/fonts/pull/10926
-
-# ofl/googlesansflex/TRADEMARKS.md # https://github.com/google/fonts/pull/10926
-ofl/manrope # https://github.com/google/fonts/pull/10964
-ofl/notocoloremoji # https://github.com/google/fonts/pull/10891
-ofl/notosansdevanagari # https://github.com/google/fonts/pull/10946
+ofl/kodemono # https://github.com/google/fonts/pull/11054
+ofl/linefont # https://github.com/google/fonts/pull/11051
+ofl/namdhinggo # https://github.com/google/fonts/pull/10854
+ofl/scoutiesans # https://github.com/google/fonts/pull/11078
+ofl/wavefont # https://github.com/google/fonts/pull/11050
 
 # Designer profile
 catalog/designers/inesgarrido # https://github.com/google/fonts/pull/10807
@@ -30,7 +31,7 @@ cc-by-sa/knowledge/glossary/terms/jitt_axis/images/thumbnail.svg # https://githu
 cc-by-sa/knowledge/glossary/terms/jitt_axis/term.textproto # https://github.com/google/fonts/pull/10853
 
 # Metadata / Description / License
-ofl/hiburmono # https://github.com/google/fonts/pull/10957
+ofl/ibmplexmono # https://github.com/google/fonts/pull/11057
 
 # Sample texts
 lang/languages/aa_Latn.textproto # https://github.com/google/fonts/pull/10638
@@ -128,6 +129,3 @@ lang/languages/xdq_Cyrl.textproto # https://github.com/google/fonts/pull/10638
 lang/languages/yad_Latn.textproto # https://github.com/google/fonts/pull/10638
 lang/languages/ykg_Cyrl.textproto # https://github.com/google/fonts/pull/10638
 lang/languages/zro_Latn.textproto # https://github.com/google/fonts/pull/10638
-
-# Other
-ofl/yomogi # https://github.com/google/fonts/pull/10802

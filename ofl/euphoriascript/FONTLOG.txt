@@ -1,0 +1,68 @@
+FONTLOG for the Euphoria Script font
+
+This file provides detailed information on the Euphoria Script 
+font Software.
+
+This information should be distributed along with the 
+Euphoria Script font and any derivative works.
+
+Basic Font Information
+ 
+Euphoria Script is an informal 
+script type. It began with letterform sketches 
+made by hand with a copperplate nib, which were 
+redrawn digitally with the stroke endings of a 
+brush script. This makes the type seem playful, 
+which is important in casual scripts.
+
+It has very fast curves, thanks to the slight 
+slant angle, but it remains highly legible. It will 
+be perfect for titles and short phrases in branding, 
+magazines, content about food, fashion, music - 
+anything which is as lively as the font itself.
+
+Designed by Sabrina Mariela Lopez for TypeSenses
+
+www.typesenses.com
+www.facebook.com/Typesenses
+www.twitter.com/typesenses 
+plus.google.com/117943011442530153302/about
+typesenses@live.com.ar
+
+Euphoria Script is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+Source files for the final TTF include:
+
+* EuphoriaScript-Regular.vfb - original drawing file in 
+  FontLab format with overlaps
+* EuphoriaScript-Regular-OTF.vfb - source used to generate OTF in 
+  FontLab format without overlaps
+* EuphoriaScript-Regular.otf - OpenType font with PostScript outlines
+* EuphoriaScript-Regular-TTF.sfd - FontForge source used to generate
+  final TTF file
+
+To contribute to the project contact Sabrina Mariela Lopez at
+typesenses@live.com.ar
+
+ChangeLog
+
+6 Feb 2012 (Sabrina Mariela Lopez) Euphoria Script v1.002
+- Rescaled to improve web rendering
+
+24 Jan 2012 (Sabrina Mariela Lopez) Euphoria Script v1.001
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Sabrina Mariela Lopez
+E: typesenses@live.com.ar
+W: www.typesenses.com
+D: Type Designer

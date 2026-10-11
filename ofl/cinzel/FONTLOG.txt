@@ -1,0 +1,55 @@
+FONTLOG for the Cinzel font
+
+This file provides detailed information on Cinzel Font Software. 
+
+This information should be distributed along with the Cinzel font 
+and any derivative works.
+
+Basic Font Information
+
+Cinzel is a typeface inspired in first century roman inscriptions, and based
+on classical proportions. However it’s not a simple revival. While it conveys
+all the ancient history of the Latin alphabet, it is also infused with a
+contemporary feel. This is a regular family, and there is a 
+small caps sister family.
+
+Cinzel is a Unicode typeface family that supports languages that use 
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+To contribute to the project contact Natanael Gama
+
+Email info@ndiscovered.com
+
+Twitter https://twitter.com/thendiscovered
+
+Google+ https://plus.google.com/103484739462740834539/about
+
+All the source files are in UFO format. The font was designed in Glyphs, and
+UFO is an interchangeable source format supported natively by Fontforge and
+with a plug-in for FontLab.
+
+There are three files for each style in the family:
+
+1. Family-Style.ufo - Masters as originally drawn with contour overlaps 
+   and composed components
+
+2. Family-Style-OTF.ufo Each individual weight, with decomposed 
+   components and overlaps removed, corresponding to the OTF file
+
+3. Family-Style.otf - The final OTF file
+
+ChangeLog
+
+06 Oct 2012 (Natanael Gama) Cinzel v1.001
+- Completed first complete version of Cinzel
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Natanael Gama
+E: info@ndiscovered.com
+W: www.ndiscovered.com
+D: Designer

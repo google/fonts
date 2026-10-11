@@ -1,0 +1,90 @@
+FONTLOG
+Judson font
+==========================
+
+This file provides detailed information on the Judson font.
+This information should be distributed along with the Judson font and any
+derivative works.
+
+
+Basic Font Information
+----------------------
+
+Judson is a serif font designed for African literacy. It contains as many glyphs
+and precomposed combinations that I know of for all African languages written in
+Latin-derived alphabets.  It uses OpenType tables for correct placement of
+diacritical marks, including stacked marks.  Care has been taken so that all
+characters are easily distinguished, even in the italic face.  The medium roman
+face also contains support for the International Phonetic Alphabet (IPA).
+
+Currently Judson is only available in roman, italic and bold faces; at this
+time there is no bold italic.
+
+Judson is not suitable for setting Icelandic or Old/Middle English texts,
+because the uppercase Eth (U+00D0) takes a unique African form.
+
+ChangeLog
+---------
+- 2011-08-31  Restored some references that had been lost when font was re-
+              spaced. Added a few glyphs in use in some African languages.
+	      Hinted with ttfautohint.
+- 2011-04-26  Re-spaced and re-kerned entire font. First Google web font API
+              release.
+- 2011-01-27  Widened digit 1; improved digit 8 in bold; brought figure-height
+              up to cap-height.
+- 2010-09-03  Added IPA glyphs to medium roman face
+- 2010-09-01  Added italic face; improved spacing of capital J
+- 2010-08-31  Improved Vietnamese stacked diacritic placement based on the
+              recommendations found at
+              http://www.riverland.net.au/~clytie/viet/fonts.html
+- 2010-08-30  Added bold weight and standard ligatures
+- 2010-08-24  Widened bowl of lowercase b and g; Added a few precomposed glyphs
+              from the Latin Ext. B range
+- 2010-08-18  Initial release
+
+Unicode Glyph Ranges
+--------------------
+
+- U+0000 - U+007E  Basic Latin       Full coverage
+- U+00A0 - U+00FF  Latin-1 Supp.     Full Coverage
+- U+0100 - U+017F  Latin Ext. A      127/128
+- U+0180 - U+024F  Latin Ext. B      85/208
+- U+0250 - U+02AF  IPA Extensions    27/96, 79/96 in Roman
+- U+02B0 - U+02FF  Spacing Modifiers 65/80
+- U+0300 - U+036F  Comb. Diacritics  74/112
+- U+0370 - U+03FF  Greek             4/134
+- U+1DC0 - U+1DFF  Comb. Diac. Supp. 4/42
+- U+1E00 - U+1EFF  Latin Ext. Add'l  161/256
+- U+2000 - U+206F  Gen. Punctuation  16/107
+- U+2070 - U+209F  Super/Subscripts  17/42
+- U+20A0 - U+20CF  Currency          3/25
+- U+2100 - U+214F  Letterlike Sym.   5/80
+- U+2C60 - U+2C7F  Latin Ext. C      4/32
+- U+A720 - U+A7FF  Latin Ext. D      5/129
+- U+FB00 - U+FB06  Latin Ligatures   5/7 (in upright faces only)
+
+Information for Contributors
+----------------------------
+
+This font is licensed under the Open Font License (OFL).  There are no
+Reserved Font Names declared for the Judson fonts.
+
+You can read more about the OFL here:
+http://scripts.sil.org/OFL
+
+If you'd like to make changes to the original font, you are free to contact
+the author of the original font (for contact information, please see the
+"Contributors" section below).  Glyph changes should be in a FontForge .sfd
+file (please make sure your version of FontForge is reasonably up-to-date).
+Please send *only* the changed glyphs, not the entire font range.  The author
+reserves the right to reject or modify any contributions.  If your contribution
+is accepted, your name will appear in the Contributors section (unless you
+specify otherwise).
+
+
+Contributors
+------------
+
+Daniel Johnson (font maintainer)
+il.basso.buffo at gmail dot com
+http://io.debian.net/~danielj/

@@ -1,0 +1,25 @@
+# Override config.yaml for ofl/chocolateclassicalsans
+#
+# The upstream source/config.yaml builds from `temp/ChocolateClassicalSans-Regular.ufo`,
+# an extracted + processed copy of the committed `source/ChocolateClassicalSans-Regular.ufoz` that the repo's build.sh
+# produces at build time (and .gitignores). fontc_crater never runs build.sh, so it
+# reported `missing source 'temp/ChocolateClassicalSans-Regular.ufo'`.
+#
+# This override declares the committed `.ufoz` (a zipped UFO) directly, repo-root-relative.
+# fontmake already reads `.ufoz`; the fontc side needs googlefonts/fontc#2028, and gftools
+# recognises `.ufoz` via googlefonts/gftools#1192.
+#
+# KNOWN-INCOMPLETE: the upstream build also runs `source/fcp_ufo_process.py` on the
+# extracted UFO before building (it repairs Font Creator 15 export defects and adds the
+# meta/BASE tables -- see upstream_info.md). This override builds from the RAW .ufoz and
+# does NOT run that step, so the build may fail or differ from the shipped binary.
+sources:
+  - source/ChocolateClassicalSans-Regular.ufoz
+familyName: "Chocolate Classical Sans"
+removeOutlineOverlaps: True
+extraFontmakeArgs: "--production-names --overlaps-backend pathops"
+autohintOTF: False
+autohintTTF: False
+buildWebfont: False
+buildSmallCap: False
+version: 1.005

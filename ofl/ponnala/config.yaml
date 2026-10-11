@@ -1,0 +1,6 @@
+# Override config.yaml for ofl/ponnala
+# NOTE: This is a best-effort starting point for reproducible builds.
+# The shipped binary may have been built with different tools/versions.
+#
+sources:
+  - Ponnala.ufo

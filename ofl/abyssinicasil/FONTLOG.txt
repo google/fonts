@@ -1,0 +1,153 @@
+FONTLOG
+Abyssinica SIL font family
+========================
+
+
+This file provides detailed information on the Abyssinica SIL font.
+This information should be distributed along with the Abyssinica SIL font and
+any derivative works.
+
+
+Basic Font Information
+----------------------
+
+Abyssinica SIL has a single face - regular. 
+
+The goal for this product was to provide a single Unicode-based font 
+that would contain a comprehensive inventory of glyphs needed for almost any
+Ethiopic-based writing system. In addition, there is provision for other 
+Latin characters and symbols. This font makes use of state-of-the-art font
+technologies to support the need to position arbitrary combinations of 
+*Ethiopic* base glyphs and combining marks optimally. It also supports
+almost 200 kerning pairs. This version of the font also supports Stylistic
+Sets and Character Variants (OpenType) or Features (Graphite) which make 
+glyph alternates available for a number of Ethiopic and punctuation 
+characters. See the AbyssinicaSILOpenTypeFontFeatures.pdf, 
+AbyssinicaSILGraphiteFontFeatures.pdf and AbyssinicaSILTypeTunerGuide.pdf
+for details on applications which support Stylistic Sets and how to access them.
+
+One font from this typeface family is included in this release:
+
+     * Abyssinica SIL Regular 
+
+
+A Note Regarding the Open Font License and TypeTuner
+----------------------------------------------------
+
+The OFL prohibits the use of Reserved Font Names "Abyssinica" and "SIL" in
+the name of any font that is derived from the Original Version of 
+Abyssinica SIL. However, SIL International (the Copyright Holder) grants 
+through this separate written agreement the right to use the Reserved Font
+Names in any Modified Version of this font created by using TypeTuner as 
+long as the feature information contained in the Original Version is used, 
+unmodified, as the source for TypeTuner feature information, and 
+"Abyssinica" is not the resulting font family name.
+
+TypeTuner-produced fonts created in this manner are still bound by the
+terms of the OFL. Specifically, the use of Reserved Font Names is
+prohibited when making derivatives of a TypeTuner-produced font. Anyone
+making a derivative of a TypeTuner font will need to find a different
+name. For example a TypeTuner-produced font may be named 
+"Abyssinica SIL SomeFarAwayPlace" but a derivative of that font made 
+with other tools would not be allowed to use the "Abyssinica" and "SIL" 
+Reserved Font Names and would have to be named something like "Nations Ethiopic".
+
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+13 December 2013 (Lorna Priest Evans) Abyssinica SIL version 1.500
+- Improved design of U+1396 and U+1399 (metrics changed for these characters)
+- Added character variants
+- Added variant glyphs for U+2D93..U+2D96 (for Blin)
+- Added variant glyphs for U+12E0..U+12E6 and U+1335 (historical usage)
+- Changed Graphite feature identifiers from integers to 4-character 
+  alphanumeric tags
+
+13 December 2010 (Lorna Priest) Abyssinica SIL version 1.200
+- Updated for Unicode 6.0 (U+AB00..U+AB2F)
+- Added Stylistic Sets and Graphite Features
+- Removed AAT support
+
+1 June 2006 (Jonathan Kew)
+- AAT source added
+
+25 May 2006 (SIL NRSI team)  Abyssinica SIL version 1.0
+- First version released under the SIL Open Font License
+
+
+Information for Contributors
+----------------------------
+
+The release of Abyssinica SIL version 1.0 under the OFL license provides a
+means for people to contribute to the project. For information on what
+you're allowed to change or modify, consult the OFL and OFL-FAQ. The OFL-FAQ
+also gives a very general rationale regarding why you would want to
+contribute to the project.
+
+Anyone can make their own modified version of Abyssinica SIL (using a different
+name), but SIL International will continue to maintain and develop the
+canonical version of the Abyssinica SIL font. As the package maintainer, we
+warmly welcome contributions. Here are some things to keep in mind:
+
+Format: We are open to contributions in various formats, but if you want to
+maximise the chances of us including your work, please make it available to
+us (via email or a URL) as either a FontLab database (preferred) or a
+PostScript Type 1 (or OT-CFF) font.
+
+Source files: We're including the FontLab database used in
+developing the font. The font, however, was not solely built from
+this FontLab database, so a simple "Generate Font" will not give you an
+identical result. The database is provided not as canonical source but
+as an aid to anyone who might find it useful to have access to it. For those
+who may find them useful, we are also providing the Graphite GDL file
+(ETKernComb.gdl), VOLT project files (Abyssinica_SIL.vtp, AboveMarks.vtg, 
+Kern.vtl, Mark.vtl) and an AAT perl script (abyssinica-aat.pl - this is run with 
+the .ttf and .xml files as input, and writes the actual table source, then runs one 
+of Apple's font tools to compile the tables and add them to the .ttf. (So it can  
+only be run on a Mac, with the Apple tools installed.)).
+ 
+Copyright attribution: If you submit something for inclusion in the main
+Abyssinica SIL fonts, we will ask you to affirm that it is your original work,
+and ask you to assign the copyright of your work to SIL International. This
+is to ensure that future releases can be made under improved versions of the
+OFL without needing to track you down for further permission. This follows
+the same principle used by the FSF. Keep in mind that we are a
+not-for-profit organization committed to free/libre and open source
+software, and that any contributions incorporated in the fonts will always
+be available under the OFL or a similar license.
+
+Quality: Because we want to be able to guarantee a high level of quality for
+the primary Abyssinica SIL font, we will review submissions carefully. Please
+don't be discouraged if we do not include a submission for this reason, or
+ask you to make specific revisions.
+
+Types of contributions: If you wish to make a contribution - a set of
+additional glyphs, scripts, code, etc. - please contact us before you do any
+work to see if it is a contribution we currently need. Every addition adds
+to the complexity of the project and needs to be carefully planned. This
+also avoids two people working on the same type of addition at the same time.
+
+When submissions will be included: We do not have a current timetable for
+when an updated font will be released. 
+
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications
+be sure to add your name (N), email (E), web-address (W) and description
+(D). This list is sorted by last name in alphabetical order.)
+
+N: Walt Agee, Victor Gaultney, Lorna Evans / Daniel Yacob, Kjell Magne Yri
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: SIL designers and font engineers / non-SIL script experts
+
+The Abyssinica SIL project is maintained by SIL International.
+
+For more information please visit the Abyssinica SIL page on SIL International's
+Computers and Writing systems website:
+http://scripts.sil.org/AbyssinicaSIL
+
+Or send an email to <fonts AT sil DOT org>

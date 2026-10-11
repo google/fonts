@@ -1,0 +1,26 @@
+Arvo is a geometric slab-serif typeface family suited for
+screen and print. The family includes 4 cuts: Roman, Italic,
+Roman Bold, Bold Italic. It is a libre font, first published
+in Google Fonts. The flavour of the font is rather mixed. Its
+monolinear-ish, but has a tiny bit of contrast (which
+increases the legibility a little in Mac OS X.)
+
+The name Arvo is a typical Estonian man's name, but is not
+widely used today. In the Finnish language, Arvo means
+"number, value, worth." Considering how much programming is
+involved in hinting, all these meanings are true.
+
+Recent changes:
+
+Bold 1.05
+Some naming fileds made an error in Macintosh Adobe products
+Please use latest Bold cuts
+
+Arvo 2.0.1
+Support for languages that use the Cyrillic script
+The latin script is expanded to Adobe's  Glyph List 3
+Many truetype hints are improved, especially for in smaller 
+  sizes (regular cuts start now from 9ppem)
+Added PANOSE classification numbers
+Cleaned up character palette order
+And many more smaller bug fixes

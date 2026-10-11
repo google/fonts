@@ -1,0 +1,73 @@
+# Investigation: Bitcount Prop Single Ink
+
+## Summary
+
+| Field | Value |
+|-------|-------|
+| Family Name | Bitcount Prop Single Ink |
+| Slug | bitcount-prop-single-ink |
+| License Dir | ofl |
+| Repository URL | https://github.com/petrvanblokland/TYPETR-Bitcount |
+| Commit Hash | 89e7994f73b7f5ced80e7cf493d40be9e66ff82f |
+| Config YAML | sources/config.yaml (upstream, but inadequate — needs correction) |
+| Status | needs_correction |
+| Confidence | HIGH |
+
+## Source Data (METADATA.pb)
+
+```
+source {
+  repository_url: "https://github.com/petrvanblokland/TYPETR-Bitcount"
+  commit: "89e7994f73b7f5ced80e7cf493d40be9e66ff82f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/variable/BitcountPropSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf"
+    dest_file: "BitcountPropSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
+}
+```
+
+## Investigation
+
+The METADATA.pb contains a source block with repository URL, commit hash, and `config_yaml: "sources/config.yaml"`.
+
+The font was added via a series of commits. The initial version (`9cc1c52fc` or similar) used commit `af0818eaeb3b`. Commit `19cdcec59` (March 31, 2025, batch import from fontc_crater targets) updated the commit to `653fc48a72cf3b6a293f6fc207a770f537921889` and added `config_yaml: "sources/config.yaml"`. Commit `529068a1e` ("Bitcount Prop Single Ink: Version 1.001 added") then updated the commit to `89e7994f73b7f5ced80e7cf493d40be9e66ff82f` — confirmed by the commit body: "Taken from the upstream repo https://github.com/petrvanblokland/TYPETR-Bitcount at commit https://github.com/petrvanblokland/TYPETR-Bitcount/commit/89e7994f73b7f5ced80e7cf493d40be9e66ff82f."
+
+The commit `89e7994f73b7f5ced80e7cf493d40be9e66ff82f` is confirmed valid (September 5, 2025).
+
+**Problem**: The `config_yaml: "sources/config.yaml"` refers to the upstream `sources/config.yaml`, which only contains `familyName: Bitcount` — an incomplete gftools-builder configuration. Unlike the other Bitcount Ink families (Grid Double Ink, Grid Single Ink, Ink, Prop Double Ink), there is no local override `config.yaml` in the `ofl/bitcountpropsingleink/` directory within google/fonts.
+
+This is inconsistent with all other Bitcount Ink families, which either have a local override `config.yaml` and no `config_yaml` in METADATA.pb, or vice versa. The current state likely causes build failures when attempting to rebuild from source.
+
+The fix would be either:
+1. Remove `config_yaml` from METADATA.pb and add a proper override `config.yaml` to the google/fonts family directory (consistent with other Bitcount Ink families), or
+2. Fix the upstream `sources/config.yaml` to contain proper build instructions.
+
+## Conclusion
+
+The commit hash is correct. However, `config_yaml: "sources/config.yaml"` points to an inadequate upstream config that only sets `familyName: Bitcount`. This family needs correction: a proper override `config.yaml` should be added to the google/fonts directory, and the `config_yaml` field should be removed from METADATA.pb to match the pattern used by all other Bitcount Ink families.
+
+### Earlier (2025-09-11)
+
+- **2025-09-11** — Emma Marichal, commit [`981e34fbe`](https://github.com/google/fonts/commit/981e34fbe) ("complete article with colr font"): same-day work following the v1.001 onboarding — added 312 lines to `article/ARTICLE.en_us.html`, with a binary update (file size unchanged at 513192 bytes — internal name-table refresh).
+
+## fontc_crater Build Fix (2026-05-21)
+
+**Model**: Claude Opus 4.7
+
+### Initial state
+METADATA.pb pointed `config_yaml` at the upstream `sources/config.yaml`. The shared upstream repo's fontc_crater build failed with the error `missing field \`sources\``.
+
+### Investigation
+The upstream `sources/config.yaml` contains only `familyName: Bitcount`, with no `sources:` field — it is not a gftools-builder config. Bitcount is built by a custom Python/COLRv1 pipeline (`Makefile` → `scripts/build.py`) that cannot be expressed as a gftools-builder `config.yaml`. The recorded commit `89e7994f` is correct (v1.001).
+
+### Actions taken
+The misleading `config_yaml: "sources/config.yaml"` field was removed from the METADATA.pb `source` block, addressing the inconsistency identified above. No override `config.yaml` was created: the family's build is a bespoke pipeline that gftools-builder cannot reproduce, so it is recorded as not reproducible rather than given a placeholder config.
+
+### Final state
+METADATA.pb retains the correct repository URL and commit; the misleading `config_yaml` reference is gone.

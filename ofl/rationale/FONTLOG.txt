@@ -1,0 +1,62 @@
+FONTLOG for the Rationale font
+
+This file provides detailed information on the Rationale 
+font Software.
+
+This information should be distributed along with the 
+Rationale fonts and any derivative works.
+
+Basic Font Information
+
+Rationale is a compact monoline webfont designed to work well 
+on screen from large headlines to 12 pt body copy. 
+
+The concept was to create a modular-based font with optical 
+corrections guided by snap eye judgements. Such irregularities 
+add a warm impression to the overall strict geometrical logic. 
+
+The idea of subtle stroke cuts originated from the letter n, 
+and was selectively incorporated throughout the characters. 
+This feature becomes visible from 36 pt and above. In body 
+sizes stroke cuts enrich the typographic color with light 
+nuances.
+
+Designed by Alexei Vanyashin in cooperation with Olexa 
+Volochay and Vladimir Pavlikov.
+
+Rationale is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+There are two .vfb Source files:
+1. Rationale-Regular.vfb (Original Source files with contour overlaps)
+2. Rationale-Regular-OTF.vfb (Merged and optimized file)
+
+ChangeLog
+
+2 September (Alexei Vanyashin) 2011 v1.011
+- Fully Hinted
+— Minor design adjustments: increased gap size, reworked 
+  inktraps to even color
+
+2 July 2011 (Alexei Vanyashin) Rationale v1.002
+- Changed Reserved Font Name info 
+
+31 July 2011 (Alexei Vanyashin) Rationale v1.001
+- Changed copyright info
+- Adjusted(loosened) metrics for better readability from 12 pt
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Designer and Mastering

@@ -63,7 +63,7 @@ The source block this replaces, preserved for provenance:
 |-------|-------|
 | **Repository** | [googlefontdirectory-hg](https://github.com/googlefonts/googlefontdirectory-hg) |
 | **Commit** | `52f780bc9d197280a9f430574e179a5f233c56b6` |
-| **Source path** | `creepstercaps/src/` |
+| **Source path** | `apache/creepstercaps/src/` |
 | **Buildable** | No — SFD is not compatible with gftools-builder |
 
 The googlefontdirectory-hg monorepo (a git mirror of the original Google Code Mercurial repository) contains the following source files under `creepstercaps/src/`:

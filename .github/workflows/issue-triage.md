@@ -11,8 +11,13 @@ on:
 permissions:
   contents: read
   issues: read
+  pull-requests: read
 
   copilot-requests: none
+tools:
+  bash: ["cat", "ls", "find", "grep", "head", "tail", "wc"]
+  github:
+    min-integrity: none
 safe-outputs:
   add-labels:
     allowed:

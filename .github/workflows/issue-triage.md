@@ -13,7 +13,7 @@ permissions:
   contents: read
   issues: read
 
-  copilot-requests: write
+  copilot-requests: none
 safe-outputs:
   add-labels:
     allowed:

@@ -18,7 +18,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/tulpenone"
-  commit: "ccb2226a3f87cf36b96fad0fd556f199b0adca24"
+  commit: "991f5684e012ee692831edd434bedd44e9dc7080"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

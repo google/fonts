@@ -19,7 +19,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/patuaone"
-  commit: "d380c3be2b3de6c22c6793bf00ad755f19f04229"
+  commit: "0073acdf3870eb95d551b1a165d6a528e7aa11a8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -37,7 +37,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/trochut"
-  commit: "1f3e4ae5a6f086472133c15c3323032612dee6d9"
+  commit: "3a72aad610ea1e11d7d1f2a2cfba62baf1ee9bef"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

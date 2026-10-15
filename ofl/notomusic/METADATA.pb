@@ -18,8 +18,8 @@ subsets: "menu"
 subsets: "music"
 source {
   repository_url: "https://github.com/notofonts/music"
-  commit: "2c97b9ea6927a3a80bc7289d663d9115b070f365"
-  archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.003/NotoMusic-v2.003.zip"
+  commit: "4a20607c896d77aebe4d6983a949adad705e05b7"
+  archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.004/NotoMusic-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/googlefonts/swankyandmoomoo"
-  commit: "d4742f57b65fd0a15c34b54fc4c5103cad85ae91"
+  commit: "2a7b182ac1edaea442e548757e1c314f2d07aafe"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

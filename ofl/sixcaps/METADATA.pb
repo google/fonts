@@ -18,7 +18,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/sixcaps"
-  commit: "7f3c2a230b8feff463b35bb738f0f85dc6005808"
+  commit: "de9fac499d2cc121f55331dc8030364c959aa37f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

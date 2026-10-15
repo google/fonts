@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/googlefonts/creepstercaps"
-  commit: "d2ba0c45feb25a88cfbdd1b28ae5fe0714d622a7"
+  commit: "8cd28318d30827a645eba722063f1577ca465e14"
   files {
     source_file: "LICENSE.txt"
     dest_file: "LICENSE.txt"

@@ -1,7 +1,7 @@
 # Keania One
 
 **Model**: Claude Opus 5.5
-**Date**: 2026-10-05
+**Date**: 2026-10-09
 
 Sources modernized 2026-10: the FontForge `.sfd` sources were converted to Glyphs
 (`.glyphs`) and build with gftools-builder and fontc. The repository, commit and config
@@ -24,18 +24,22 @@ taken as the master because FontForge generated the shipped fonts and the build 
   https://github.com/googlefonts/keaniaone.
 - The `.sfd` needed no change: it was converted exactly as the designer left it.
 - The `.sfd` was converted with babelfont-rs, using only filters that reproduce
-  FontForge's own export, as the last commit.
+  FontForge's own export, as the last change to the font.
+- The build config was then updated in its own commit, with the build gated again:
+  productionNames: false replaces noProductionNames.
+- METADATA.pb recorded `a0a653e1cfaa`, the conversion, until this update; `a07dc92b0272`
+  follows it and changes only the build config, so it is recorded now.
 
 ## Final state
 
-The source is https://github.com/googlefonts/keaniaone at `a0a653e1cfaa`. Builds with
-gftools-builder (gftools-rust ade8776, fontc 1.0.0) and matches the binaries
-google/fonts b5efa9c32e8f ships: 0 blocking rows under tools/table_gate.py, exactly the
+The source is https://github.com/googlefonts/keaniaone at `a07dc92b0272`. Builds with
+gftools-builder (gftools-rust 1e638bd, fontc 1.0.0) and matches the binaries
+google/fonts 2eb0b48d5f76 ships: 0 blocking rows under tools/table_gate.py, exactly the
 release's codepoints, and functionally equivalent under tools/functional_gate.py (cmap,
 shaping, rendering, names, line spacing, advances, GDEF), 1 style. Those tools:
-https://github.com/felipesanches/gf-source-modernization at `541f72b`.
+https://github.com/felipesanches/gf-source-modernization at `7706a8f`.
 
-`a0a653e1cfaa` is the equivalence commit: its build is functionally equivalent to the
+`a07dc92b0272` is the equivalence commit: its build is functionally equivalent to the
 binaries Google Fonts ships. Source modernization adds no features. Where the shipped
 binaries differ from the source, the difference is reproduced by a documented commit
 before the conversion, never silently corrected. Any improvement is a later commit that

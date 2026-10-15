@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/medulaone"
-  commit: "adde69dc31b9e766280f100450a1ac3c06c911be"
+  commit: "4a34502cf74cfeb52a2a4cfeb7fd51d9c7831da3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

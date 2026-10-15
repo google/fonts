@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/mrdehaviland"
-  commit: "c64a446a39bd2e0378a8822e2119fae8b2230903"
+  commit: "f92c920102e97fade0c93735af59fcfb0be77040"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

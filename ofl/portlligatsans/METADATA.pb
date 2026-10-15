@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/portlligatsans"
-  commit: "9115deb86696310761afe704d447524b5ab0831c"
+  commit: "0f84e3c240185904f547dbcbadc428d1a7bfc633"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

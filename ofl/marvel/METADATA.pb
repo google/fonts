@@ -45,7 +45,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/marvel"
-  commit: "1fd5b632dcc4a406092c481a4be24808347930d4"
+  commit: "f290b8dc764ccf89a726ab32c046574313c766dc"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

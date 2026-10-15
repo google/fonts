@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/novaflat"
-  commit: "b29c6db0119e803da3e8e4e58414c4a907da9954"
+  commit: "8304f556ab81253d89d26287d575ed5779abeaba"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/keaniaone"
-  commit: "a0a653e1cfaa77e0568a3abce88e1536d3d3ad5e"
+  commit: "a07dc92b0272b2ae999a6dba00395361e3b81980"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

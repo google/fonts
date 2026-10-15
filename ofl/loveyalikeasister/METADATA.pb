@@ -19,7 +19,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/loveyalikeasister"
-  commit: "d71a0630e29e3baf487f53a0c59b894f2c1c3791"
+  commit: "ac127baf862b5f53245fd3d0845aad767bac4883"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

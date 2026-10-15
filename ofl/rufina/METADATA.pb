@@ -28,7 +28,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/rufina"
-  commit: "b1b07f084d41aaafdf11a25d23ee1d4d53a36909"
+  commit: "256f968dc45215ed1f4ba81b9e2a405068d63c81"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

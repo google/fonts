@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/novaslim"
-  commit: "f3765a052f683836bcca38e543e8c386e15455f5"
+  commit: "e7bcda8f60c9cd3176301ee5aaa390ee7b82eed7"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

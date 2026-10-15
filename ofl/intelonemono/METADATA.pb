@@ -162,16 +162,8 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/intel/intel-one-mono"
-  commit: "99e2d6ca170744c62bfb5f52547435f23720abe1"
-  files {
-    source_file: "article/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "article/showing.png"
-    dest_file: "article/showing.png"
-  }
+  repository_url: "https://github.com/googlefonts/intel-one-mono"
+  commit: "06572f3e0bbd90622b7f9e8b53e5994a1fd9f593"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -184,6 +176,47 @@ source {
     source_file: "fonts/variable/IntelOneMono-Italic[wght].ttf"
     dest_file: "IntelOneMono-Italic[wght].ttf"
   }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-Bold.ttf"
+    dest_file: "IntelOneMono-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-BoldItalic.ttf"
+    dest_file: "IntelOneMono-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-Italic.ttf"
+    dest_file: "IntelOneMono-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-Light.ttf"
+    dest_file: "IntelOneMono-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-LightItalic.ttf"
+    dest_file: "IntelOneMono-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-Medium.ttf"
+    dest_file: "IntelOneMono-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-MediumItalic.ttf"
+    dest_file: "IntelOneMono-MediumItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-Regular.ttf"
+    dest_file: "IntelOneMono-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-SemiBold.ttf"
+    dest_file: "IntelOneMono-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/IntelOneMono-SemiBoldItalic.ttf"
+    dest_file: "IntelOneMono-SemiBoldItalic.ttf"
+  }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "MONOSPACE"

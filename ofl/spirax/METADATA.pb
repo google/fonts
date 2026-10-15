@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/googlefonts/spirax"
-  commit: "b651a4d37206c14dbddb7356c9f049879caef175"
+  commit: "32281bec8b3795b4f32ab7b84e616bbceec06b88"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

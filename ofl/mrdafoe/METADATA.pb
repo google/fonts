@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/mrdafoe"
-  commit: "2b10e3c9a24e80eb89db3979d2430eb0aa4e4c0e"
+  commit: "eb7a5c36716fc5db330275bd2110f6c7a5d938f8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

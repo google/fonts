@@ -43,7 +43,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/googlefonts/puritan"
-  commit: "df5efccea9a03aebe4b974adb39054b4fb7f781c"
+  commit: "c5d7ace52179284d6617c3926a963d803a4f71e2"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

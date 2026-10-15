@@ -12,6 +12,7 @@ fonts {
   full_name: "Firjar Condensed Thin"
   copyright: "Copyright 2025 The Firjar Project Authors (https://github.com/Mestaratype/Firjar)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

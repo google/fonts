@@ -45,3 +45,4 @@ source {
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+primary_script: "Arab"

@@ -35,7 +35,7 @@ source {
   }
   files {
     source_file: "documentation/ARTICLE.en_us.html"
-    dest_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
   }
   files {
     source_file: "fonts/variable/Firjar[wdth,wght].ttf"

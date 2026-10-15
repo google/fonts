@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/novacut"
-  commit: "47f1668e12c0e7b65e055d21fefb30a17d58da4f"
+  commit: "90cd83c4ddf7d51f1e0417ab139aeb99a7f657dd"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

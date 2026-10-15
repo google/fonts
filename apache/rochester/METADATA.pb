@@ -18,7 +18,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/rochester"
-  commit: "1b61164c5802fbbd299944553e27d79695bbf1fb"
+  commit: "dc1cfd08f289a1ff391edf8564e7f4a00c70c055"
   files {
     source_file: "LICENSE.txt"
     dest_file: "LICENSE.txt"

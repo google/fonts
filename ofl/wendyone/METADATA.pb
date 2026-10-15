@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/wendyone"
-  commit: "7e19d97bf5b490c9225831f166a02a7ab53b84c2"
+  commit: "2a55e184f195f50bea2541bbfb6ea9f5b8b2c4f4"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

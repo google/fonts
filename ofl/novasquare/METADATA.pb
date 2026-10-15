@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/novasquare"
-  commit: "4bbd2713d1f5e340c1d57400b37d5a5b5c9cf7e7"
+  commit: "1c1b71e3b6fd5b8de91c48cad0f07aef599580db"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -20,7 +20,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/russoone"
-  commit: "8c3b8424e9b7608cb02133ad3f3ccfadecd147c9"
+  commit: "c3624ce1f3553320cc4383eedb77ae4812b7533a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

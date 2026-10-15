@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/novaround"
-  commit: "94c0593083a34035f2a9297e67ec8be9c86884df"
+  commit: "8f84b5459db7787af0eb60a7326006a2fef7c061"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

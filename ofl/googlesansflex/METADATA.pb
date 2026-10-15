@@ -7,7 +7,7 @@ fonts {
   name: "Google Sans Flex"
   style: "normal"
   weight: 400
-  filename: "GoogleSansFlex[GRAD,ROND,opsz,slnt,wdth,wght].ttf"
+  filename: "GoogleSansFlex[ROND,opsz,slnt,wdth,wght].ttf"
   post_script_name: "GoogleSansFlex-Regular"
   full_name: "Google Sans Flex Regular"
   copyright: "Copyright 2025 The Google Sans Flex Project Authors (https://github.com/googlefonts/googlesans-flex)"
@@ -24,18 +24,13 @@ subsets: "syriac"
 subsets: "tifinagh"
 subsets: "vietnamese"
 axes {
-  tag: "GRAD"
-  min_value: 0.0
-  max_value: 100.0
-}
-axes {
   tag: "ROND"
   min_value: 0.0
   max_value: 100.0
 }
 axes {
   tag: "opsz"
-  min_value: 6.0
+  min_value: 1.0
   max_value: 144.0
 }
 axes {

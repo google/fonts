@@ -22,7 +22,9 @@ Searches were conducted for:
 Denis Masharov's work was found to be associated with the GitHub user `alexeiva` (who maintains the Google Fonts upstream for several Masharov fonts like Poiret One and Tenor Sans), but no Ruslan Display source repository was found under `alexeiva` or any other account.
 
 The only repositories matching `RuslanDisplay` were:
-- `librefonts/ruslandisplay` — a librefonts mirror (skipped per policy)
+- `librefonts/ruslandisplay` — a librefonts mirror (skipped per policy). It holds legacy
+  sources, though: `src/RuslanDisplay-TTF.sfd` and `src/RuslanDisplay.vfb` (at
+  `6c61236468de226a43d48b4474970c868093292a`).
 - `google-fonts-bower/ruslandisplay-bower` — a bower packaging repo (skipped)
 
 ## Conclusion

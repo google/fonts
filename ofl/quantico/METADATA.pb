@@ -46,7 +46,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/quantico"
-  commit: "072c8f63d1f2c4e9507586b8948cb95686e65526"
+  commit: "1a0cb10889296bd14925e85328b436ad2003a7af"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

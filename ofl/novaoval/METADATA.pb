@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/novaoval"
-  commit: "6908ec7dbb2e53310be5c03ea978050e645d96c8"
+  commit: "18f803cf68211181db9490be8cd642abf094d024"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -18,7 +18,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/thegirlnextdoor"
-  commit: "b2cb796b8381e1654b7f387d4942d41850f3b89d"
+  commit: "e591dbc5cd85a81f5c510741264ac2d064c5f3fe"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

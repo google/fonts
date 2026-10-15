@@ -7,12 +7,13 @@
 | **Repository** | [https://github.com/googlefonts/googlefontdirectory-hg](https://github.com/googlefonts/googlefontdirectory-hg) |
 | **Commit** | `52f780bc9d197280a9f430574e179a5f233c56b6` |
 | **Source path** | `apache/walterturncoat/src/` |
-| **Buildable** | No — legacy formats only (.vfb/.sfd) |
+| **Buildable** | No — no source files: only the font as built and its metadata |
 
-The font sources are in the **googlefontdirectory-hg** monorepo, a git mirror of the
+The family is in the **googlefontdirectory-hg** monorepo, a git mirror of the
 original Google Code Mercurial repository (`code.google.com/p/googlefontdirectory`)
-that was the canonical host for Google Fonts from 2010 to 2013.
+that was the canonical host for Google Fonts from 2010 to 2013. No source file of
+this family is in it, at this commit or in any other.
 
-### Source files (2)
+### Files in `src/` (2)
 
 - Other: METADATA_comments.txt, WalterTurncoat-VTT.ttf

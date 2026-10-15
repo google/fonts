@@ -18,7 +18,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/squadaone"
-  commit: "6d57ce4c84353295a6d0473a32a4d329b692cf22"
+  commit: "53fb1e38c54ebacbbbafc9e1e6f3d4bfa1784e3d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

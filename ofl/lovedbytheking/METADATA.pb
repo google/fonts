@@ -18,7 +18,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/lovedbytheking"
-  commit: "50930a220782461cd6de6e3ba3e07d38c96d07bc"
+  commit: "0ccebbea77c0f1354689fb8a0c6ae2c10be94f2e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

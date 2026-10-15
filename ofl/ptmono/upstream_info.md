@@ -18,6 +18,9 @@ ParaType (yakupov@paratype.com). Copyright 2010 ParaType Inc., ParaType Ltd.
 - **GitHub search**: Searches for "PT Mono paratype OFL", "ptsans ptserif ptmono paratype", "PT fonts cyrillic OFL" all returned no canonical designer-owned repository.
 - **Third-party mirrors**: The `openela-main/paratype-pt-sans-fonts` repository was found but is a Linux packaging mirror (OpenELA), not a canonical designer repository.
 - **paratype.com**: The ParaType website is an Angular application; no source repository link was found for the PT fonts.
+- **googlefontdirectory-hg**: https://github.com/googlefonts/googlefontdirectory-hg at
+  `52f780bc9d197280a9f430574e179a5f233c56b6` keeps a FontLab source for this family:
+  `ofl/ptmono/src/PTM55FT.vfb`, beside the font as built (`ofl/ptmono/PTM55FT.ttf`).
 
 ## Context
 
@@ -25,4 +28,4 @@ PT Mono is part of the PT (Public Type) family, commissioned by the Federal Agen
 
 ## Verdict
 
-**No canonical upstream repository found.** PT Mono is distributed by ParaType but no public source repository exists on GitHub or other platforms. No METADATA.pb changes were made.
+**No canonical upstream repository found**, but a legacy FontLab source exists in googlefontdirectory-hg (above). PT Mono is distributed by ParaType but no public source repository exists on GitHub or other platforms. No METADATA.pb changes were made.

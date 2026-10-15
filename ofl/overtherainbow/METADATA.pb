@@ -18,7 +18,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/overtherainbow"
-  commit: "755359a73eea8c7914758fd20db493fb0800d725"
+  commit: "38ae8bf620b6eb4ba4facb07787f6826ff413a4c"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

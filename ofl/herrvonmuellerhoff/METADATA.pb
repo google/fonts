@@ -19,7 +19,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/herrvonmuellerhoff"
-  commit: "585d840f83629f793b87ab4e3f3158542a746974"
+  commit: "174d55adb68e0ef4f6622ddf06b555703c15a899"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

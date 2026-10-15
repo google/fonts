@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/pirataone"
-  commit: "97d75001f265b42783f3ac55c7b4b0383c25331a"
+  commit: "1b0f68b6b299bfed3944875ee3327d765a90aa2d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

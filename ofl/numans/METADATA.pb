@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/googlefonts/numans"
-  commit: "adaee365663447a1bc1c204a84f8932a8e49feae"
+  commit: "8ce300194e8377dffe93fca145b5d9ef55be6d19"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

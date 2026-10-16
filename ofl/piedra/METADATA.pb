@@ -19,7 +19,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/piedra"
-  commit: "4d4cb7ae3daa252f9be31bcfc94c1b7500f72683"
+  commit: "3de595b6806f064e330bca8a23c8c728b2430e94"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

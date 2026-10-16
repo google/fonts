@@ -1,7 +1,7 @@
 # Creepster Caps
 
 **Model**: Claude Opus 5.5
-**Date**: 2026-10-05
+**Date**: 2026-10-09
 
 Sources modernized 2026-10: the FontForge `.sfd` sources were converted to Glyphs
 (`.glyphs`) and build with gftools-builder and fontc. The repository, commit and config
@@ -22,18 +22,22 @@ so FontForge generated it.
   https://github.com/googlefonts/creepstercaps.
 - The `.sfd` needed no change: it was converted exactly as the designer left it.
 - The `.sfd` was converted with babelfont-rs, using only filters that reproduce
-  FontForge's own export, as the last commit.
+  FontForge's own export, as the last change to the font.
+- The build config was then updated in its own commit, with the build gated again:
+  productionNames: false replaces noProductionNames.
+- METADATA.pb recorded `d2ba0c45feb2`, the conversion, until this update; `8cd28318d308`
+  follows it and changes only the build config, so it is recorded now.
 
 ## Final state
 
-The source is https://github.com/googlefonts/creepstercaps at `d2ba0c45feb2`. Builds
-with gftools-builder (gftools-rust ade8776, fontc 1.0.0) and matches the binaries
-google/fonts b5efa9c32e8f ships: 0 blocking rows under tools/table_gate.py, exactly the
+The source is https://github.com/googlefonts/creepstercaps at `8cd28318d308`. Builds
+with gftools-builder (gftools-rust 1e638bd, fontc 1.0.0) and matches the binaries
+google/fonts 2eb0b48d5f76 ships: 0 blocking rows under tools/table_gate.py, exactly the
 release's codepoints, and functionally equivalent under tools/functional_gate.py (cmap,
 shaping, rendering, names, line spacing, advances, GDEF), 1 style. Those tools:
-https://github.com/felipesanches/gf-source-modernization at `541f72b`.
+https://github.com/felipesanches/gf-source-modernization at `7706a8f`.
 
-`d2ba0c45feb2` is the equivalence commit: its build is functionally equivalent to the
+`8cd28318d308` is the equivalence commit: its build is functionally equivalent to the
 binaries Google Fonts ships. Source modernization adds no features. Where the shipped
 binaries differ from the source, the difference is reproduced by a documented commit
 before the conversion, never silently corrected. Any improvement is a later commit that
@@ -59,7 +63,7 @@ The source block this replaces, preserved for provenance:
 |-------|-------|
 | **Repository** | [googlefontdirectory-hg](https://github.com/googlefonts/googlefontdirectory-hg) |
 | **Commit** | `52f780bc9d197280a9f430574e179a5f233c56b6` |
-| **Source path** | `creepstercaps/src/` |
+| **Source path** | `apache/creepstercaps/src/` |
 | **Buildable** | No — SFD is not compatible with gftools-builder |
 
 The googlefontdirectory-hg monorepo (a git mirror of the original Google Code Mercurial repository) contains the following source files under `creepstercaps/src/`:

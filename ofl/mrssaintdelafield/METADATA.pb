@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/mrssaintdelafield"
-  commit: "605d13ba3d1391b8c55910a1603f5c7c5757c880"
+  commit: "c0873de00c40de59b18b634f765631e26396c124"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

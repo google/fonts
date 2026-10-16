@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/missfajardose"
-  commit: "d4e2a937fa6ffef235dc95c1a220d47a922bacef"
+  commit: "b8ef73ad16a2e09aa7cae5447dfd9761b4df0513"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

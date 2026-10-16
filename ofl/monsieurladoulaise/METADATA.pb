@@ -19,7 +19,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/monsieurladoulaise"
-  commit: "a6e0a13359e4e83c4ff43e324440bf6d00d759bf"
+  commit: "66fdca6107ee9bc4541ab151f718e5d7680ec4c1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

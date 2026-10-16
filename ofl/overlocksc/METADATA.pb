@@ -19,7 +19,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/overlocksc"
-  commit: "ce67d04182816d530684a5c696314aff3743c170"
+  commit: "4aeced9bec3bb9583f941cfab54f9908e1bd5189"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

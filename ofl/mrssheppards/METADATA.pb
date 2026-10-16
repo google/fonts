@@ -19,7 +19,7 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
   repository_url: "https://github.com/googlefonts/mrssheppards"
-  commit: "4a2855db1c8a1259d63fab3dd5cafc285699659f"
+  commit: "23a001ba79255fb92a9f75e5efc03e61dc5f0928"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

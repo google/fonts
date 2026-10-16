@@ -17,7 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/googlefonts/meiescript"
-  commit: "28cd9f97a68de0df18f881234fb6e54c99b3bde0"
+  commit: "fece0d7d0557295d6f40e9fb517002ef2c7985ef"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

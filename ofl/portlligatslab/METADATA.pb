@@ -19,7 +19,7 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/portlligatslab"
-  commit: "f256f6ed211ccb8bacceb211bceb18bdd0cebd53"
+  commit: "c8a1033909e1839be03e0effd8cf401e9f851297"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

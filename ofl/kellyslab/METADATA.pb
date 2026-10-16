@@ -20,7 +20,7 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
   repository_url: "https://github.com/googlefonts/kellyslab"
-  commit: "197a0828736520862d1399abbe3241a2e161a4d7"
+  commit: "c51204fc6194679b309970a621f829f587bb1827"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

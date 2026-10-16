@@ -1,7 +1,7 @@
 # Nova Flat
 
 **Model**: Claude Opus 5.5
-**Date**: 2026-10-05
+**Date**: 2026-10-09
 
 Sources modernized 2026-10: the FontForge `.sfd` sources were converted to Glyphs
 (`.glyphs`) and build with gftools-builder and fontc. The repository, commit and config
@@ -22,18 +22,22 @@ so FontForge generated it.
   https://github.com/googlefonts/novaflat.
 - The `.sfd` needed no change: it was converted exactly as the designer left it.
 - The `.sfd` was converted with babelfont-rs, using only filters that reproduce
-  FontForge's own export, as the last commit.
+  FontForge's own export, as the last change to the font.
+- The build config was then updated in its own commit, with the build gated again:
+  productionNames: false replaces noProductionNames.
+- METADATA.pb recorded `b29c6db0119e`, the conversion, until this update; `8304f556ab81`
+  follows it and changes only the build config, so it is recorded now.
 
 ## Final state
 
-The source is https://github.com/googlefonts/novaflat at `b29c6db0119e`. Builds with
-gftools-builder (gftools-rust ade8776, fontc 1.0.0) and matches the binaries
-google/fonts b5efa9c32e8f ships: 0 blocking rows under tools/table_gate.py, exactly the
+The source is https://github.com/googlefonts/novaflat at `8304f556ab81`. Builds with
+gftools-builder (gftools-rust 1e638bd, fontc 1.0.0) and matches the binaries
+google/fonts 2eb0b48d5f76 ships: 0 blocking rows under tools/table_gate.py, exactly the
 release's codepoints, and functionally equivalent under tools/functional_gate.py (cmap,
 shaping, rendering, names, line spacing, advances, GDEF), 1 style. Those tools:
-https://github.com/felipesanches/gf-source-modernization at `541f72b`.
+https://github.com/felipesanches/gf-source-modernization at `7706a8f`.
 
-`b29c6db0119e` is the equivalence commit: its build is functionally equivalent to the
+`8304f556ab81` is the equivalence commit: its build is functionally equivalent to the
 binaries Google Fonts ships. Source modernization adds no features. Where the shipped
 binaries differ from the source, the difference is reproduced by a documented commit
 before the conversion, never silently corrected. Any improvement is a later commit that

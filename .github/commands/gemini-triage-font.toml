@@ -50,7 +50,7 @@ template in `.github/ISSUE_TEMPLATE/1_add-font.md`. Compare the issue's
 body text with the body text of the issue template. If the template has
 been bypassed, add the `I New Font`, `II Submission` and `X Form not
 completed` tags; you will add a comment asking the user to copy and paste the
-questions into a comment and then answer them, and jump to step 4.
+questions into a comment and then answer them, and jump to finalization.
 
 ### Step 2: Content Validation
 
@@ -78,15 +78,18 @@ This will determine if the font covers the complete Latin Core glyphset. If it d
 fontspector is a self-contained Rust binary and has already been installed on the system.
 
 ### Step 5: Finalization
+
 1. Summarize findings in a final comment, including:
     - Is it a googlefonts-project-template?
     - Does it contain font source files?
     - Other observations.
 2. Write the chosen labels and the comment to the output file:
     ```
-    echo "SELECTED_LABELS=[APPROPRIATE_LABELS_AS_CSV]" >> "$GITHUB_ENV"
-    echo "SELECTED_COMMENT<<EOF" >> "$GITHUB_ENV"
-    echo "[YOUR_SUMMARY_COMMENT_HERE]" >> "$GITHUB_ENV"
-    echo "EOF" >> "$GITHUB_ENV"
+    cat << 'EOF' >> "$GITHUB_ENV"
+    SELECTED_LABELS=[APPROPRIATE_LABELS_AS_CSV]
+    SELECTED_COMMENT<<GH_EOF
+    [YOUR_SUMMARY_COMMENT_HERE]
+    GH_EOF
+    EOF
     ```
 """

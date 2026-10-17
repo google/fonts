@@ -1,0 +1,47 @@
+FONTLOG for the Fascinate Inline fonts
+
+This file provides detailed information on the Fascinate 
+Inline font Software.
+
+This information should be distributed along with the Fascinate
+Inline fonts and any derivative works.
+
+Basic Font Information
+
+Fascinate & Fascinate Inline are nods to Art Deco yesteryear and
+typefaces like Broadway, yet they have an exaggerated x-height and
+softness that give it a friendly yet sophisticated vibe. 
+
+Even with their high contrast weighting, the Fascinate family is 
+cleanly legible at small sizes, although the Inline version is 
+better visible at larger display sizes.
+
+Designed by Astigmatic (AOETI).
+
+Fascinate and Fascinate Inline are a Unicode typeface family that
+supports languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are two Source files:
+
+1. FascinateInline-Regular-OTF.vfb Merged contours and 
+   optimized file corresponding to the OTF file
+
+2. FascinateInline-Regular-TTF.vfb TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

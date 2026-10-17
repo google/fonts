@@ -1,0 +1,49 @@
+FONTLOG for the Sacramento font
+
+This file provides detailed information on the Sacramento Font Software.
+
+This information should be distributed along with the Sacramento font
+and any derivative works.
+
+Basic Font Information
+
+The Sacramento typeface is a monoline, semi-connected script inspired by
+hand-lettering artist brochure work of the 1950's and 1960's. It stands on a
+thin line between formal and casual lettering styles, yet it has a commanding
+presence for headlines and titles.
+
+Designed by Astigmatic (AOETI).
+
+Sacramento is a Unicode typeface that supports languages that use the 
+Latin script and its variants, and could be expanded to support other
+scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+There are 3 source files:
+
+1. Sacramento-Regular.vfb Original Source files with contour overlaps
+
+2. Sacramento-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. Sacramento-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+ChangeLog
+
+13 August 2012 (Brian J. Bonislawsky) Sacramento v1.001
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface and Software Designer

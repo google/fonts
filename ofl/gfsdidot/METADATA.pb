@@ -1,0 +1,23 @@
+name: "GFS Didot"
+designer: "Greek Font Society"
+license: "OFL"
+category: "SERIF"
+date_added: "2010-09-21"
+fonts {
+  name: "GFS Didot"
+  style: "normal"
+  weight: 400
+  filename: "GFSDidot-Regular.ttf"
+  post_script_name: "GFSDidot-Regular"
+  full_name: "GFS Didot Regular"
+  copyright: "Copyright (c) Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr), 2001. All rights reserved."
+}
+subsets: "menu"
+subsets: "greek"
+subsets: "greek-ext"
+subsets: "latin"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/librefonts/gfsdidot"
+  commit: "ce7a216e8765803eee73b284275975d323e2396c"
+}

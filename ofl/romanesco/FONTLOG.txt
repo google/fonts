@@ -1,0 +1,48 @@
+FONTLOG for the Romanesco font
+
+This file provides detailed information on the Romanesco Font Software.
+
+This information should be distributed along with the Romanesco font
+and any derivative works.
+
+Basic Font Information
+
+The Romanesco typeface is a refined, semi-bold and narrow hand crafted calligraphic style. 
+
+With stabbing strokes that nod to historical styles, and modern flair leaning towards the current, Romanesco lends itself to a wide array of stylistic uses for a narrow typestyle.
+
+Designed by Astigmatic (AOETI).
+
+Romanesco is a Unicode typeface that supports languages that use the 
+Latin script and its variants, and could be expanded to support other
+scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+There are 3 source files:
+
+1. Romanesco-Regular.vfb Original Source files with contour overlaps
+
+2. Romanesco-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. Romanesco-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+ChangeLog
+
+13 August 2012 (Brian J. Bonislawsky) Romanesco v1.001
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface and Software Designer

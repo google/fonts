@@ -15,6 +15,16 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/librefonts/calligraffitti"
-  commit: "983f7f33e1a63da6369e2f626ba9166ab7468fb9"
+  repository_url: "https://github.com/googlefonts/calligraffitti"
+  commit: "02b6fe053efa4da3c7f497cb6d95001483e5fc53"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Calligraffitti-Regular.ttf"
+    dest_file: "Calligraffitti-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

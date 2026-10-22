@@ -17,6 +17,16 @@ subsets: "menu"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/walterturncoat"
+  commit: "62e29daafc554f85629ffccf45fe986053909262"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/WalterTurncoat-Regular.ttf"
+    dest_file: "WalterTurncoat-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

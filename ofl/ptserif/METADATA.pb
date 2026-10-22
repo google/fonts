@@ -45,6 +45,28 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/ptserif"
+  commit: "54cfef3107a5fd42ecbb6d7ce9d2e5f7978458f3"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PTSerif-Bold.ttf"
+    dest_file: "PT_Serif-Web-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/PTSerif-BoldItalic.ttf"
+    dest_file: "PT_Serif-Web-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/PTSerif-Italic.ttf"
+    dest_file: "PT_Serif-Web-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/PTSerif-Regular.ttf"
+    dest_file: "PT_Serif-Web-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

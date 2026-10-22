@@ -17,6 +17,16 @@ subsets: "latin"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/reeniebeanie"
+  commit: "ffb157a38ce647753f039a23756598ac6ab6c5ed"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ReenieBeanie-Regular.ttf"
+    dest_file: "ReenieBeanie.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

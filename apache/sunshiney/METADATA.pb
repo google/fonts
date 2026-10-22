@@ -15,6 +15,16 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/sunshiney"
+  commit: "8962405986e46057b07fc9231ab4b04773aae649"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Sunshiney-Regular.ttf"
+    dest_file: "Sunshiney-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

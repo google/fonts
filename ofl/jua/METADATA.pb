@@ -20,6 +20,16 @@ classifications: "DISPLAY"
 primary_script: "Kore"
 
 source {
-  repository_url: "https://github.com/woowabros/Jua"
-  commit: "73d9cfefe39bf98fe45ac9e0062893353f3f3b81"
+  repository_url: "https://github.com/googlefonts/jua"
+  commit: "9dce1f17069004ee8d777d4d6ee407793037d7f0"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Jua-Regular.ttf"
+    dest_file: "Jua-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

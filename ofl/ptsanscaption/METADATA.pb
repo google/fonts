@@ -27,6 +27,20 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/ptsanscaption"
+  commit: "6c1efcf8b0d2f413ad47ff12512ee7e0b9e54b75"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PTSansCaption-Bold.ttf"
+    dest_file: "PT_Sans-Caption-Web-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/PTSansCaption-Regular.ttf"
+    dest_file: "PT_Sans-Caption-Web-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

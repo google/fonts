@@ -17,6 +17,16 @@ subsets: "menu"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/fontdinerswanky"
-  commit: "5b2cf4d5d4919c4d21a73ce08e1bf93d853571d2"
+  repository_url: "https://github.com/googlefonts/fontdinerswanky"
+  commit: "bcf47dbb493c827810c220bd70603c34843b083d"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FontdinerSwanky-Regular.ttf"
+    dest_file: "FontdinerSwanky-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

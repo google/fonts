@@ -15,6 +15,16 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/librefonts/cherrycreamsoda"
-  commit: "d378933eaf1dcc111ad2599e41014cb15fbd3788"
+  repository_url: "https://github.com/googlefonts/cherrycreamsoda"
+  commit: "607ffcb94357db224d89e019a077da33ebcfff98"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CherryCreamSoda-Regular.ttf"
+    dest_file: "CherryCreamSoda-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

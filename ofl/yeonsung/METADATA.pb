@@ -18,6 +18,16 @@ subsets: "menu"
 primary_script: "Kore"
 
 source {
-  repository_url: "https://github.com/woowabros/Yeonsung"
-  commit: "599fc1b88ba87312e69b3ad9085158542fbcccc1"
+  repository_url: "https://github.com/googlefonts/yeonsung"
+  commit: "8979fd9bff991f4cc9eb2141534b376a296a3bb6"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/YeonSung-Regular.ttf"
+    dest_file: "YeonSung-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

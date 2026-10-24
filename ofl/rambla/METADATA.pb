@@ -43,6 +43,28 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/rambla"
+  commit: "30f485909fc73f5f5212f0f3ff13264062ef0ce8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Rambla-Bold.ttf"
+    dest_file: "Rambla-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Rambla-BoldItalic.ttf"
+    dest_file: "Rambla-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Rambla-Italic.ttf"
+    dest_file: "Rambla-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Rambla-Regular.ttf"
+    dest_file: "Rambla-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

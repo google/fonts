@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FontDiffAI</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #fafafa; color: #1a1a1a;
+    display: flex; flex-direction: column; height: 100vh; }
+header { background: #fff; border-bottom: 1px solid #e0e0e0; padding: 1rem 2rem; }
+header h1 { font-size: 1.3rem; }
+
+.top { max-width: 1400px; margin: 0 auto; padding: 1rem 2rem; width: 100%; }
+
+.drop-row { display: flex; gap: 1rem; margin: 0 0 1rem; }
+.drop-zone {
+    flex: 1; border: 2px dashed #ccc; border-radius: 8px; padding: 1.5rem;
+    text-align: center; color: #999; cursor: pointer; transition: all 0.15s;
+    min-height: 90px; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+}
+.drop-zone.over { border-color: #1a73e8; background: #e8f0fe; color: #1a73e8; }
+.drop-zone.loaded { border-color: #2e7d32; background: #e6ffec; color: #2e7d32; border-style: solid; }
+.drop-zone .filename { font-weight: 600; font-size: 0.9rem; margin-top: 0.5rem; }
+.drop-zone input[type="file"] { display: none; }
+
+.controls {
+    display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+    margin: 0; padding: 0.75rem 1rem;
+    background: #fff; border: 1px solid #e0e0e0; border-radius: 6px;
+}
+.controls label { font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; }
+.controls input[type="range"] { width: 180px; }
+.controls .val { font-family: monospace; font-size: 0.85rem; min-width: 2ch; }
+#status { font-size: 0.85rem; color: #666; }
+#download { font-size: 0.85rem; display: none; }
+
+#report {
+    flex: 1; width: 100%; border: none; border-top: 1px solid #e0e0e0;
+    margin-top: 1rem; background: #fafafa; display: none;
+}
+</style>
+</head>
+<body>
+<header><h1>FontDiffAI</h1></header>
+<div class="top">
+    <div class="drop-row">
+        <div class="drop-zone" id="drop-a" tabindex="0">
+            <div>Drop <strong>Font A</strong> here</div>
+            <div class="filename" id="name-a"></div>
+            <input type="file" id="file-a" accept=".ttf,.otf,.woff,.woff2">
+        </div>
+        <div class="drop-zone" id="drop-b" tabindex="0">
+            <div>Drop <strong>Font B</strong> here</div>
+            <div class="filename" id="name-b"></div>
+            <input type="file" id="file-b" accept=".ttf,.otf,.woff,.woff2">
+        </div>
+    </div>
+
+    <div class="controls">
+        <label>Threshold:
+            <input type="range" id="threshold" min="0" max="50" value="4" step="0.5">
+            <span class="val" id="threshold-val">4</span>
+        </label>
+        <span id="status"></span>
+        <a id="download" download="fontdiff.html">Download report</a>
+    </div>
+</div>
+
+<iframe id="report"></iframe>
+
+<script type="module">
+import init, { generate_report } from './fontdiffai/fontdiffai.js';
+
+let wasmReady = false;
+let fontDataA = null, fontDataB = null;
+let fontNameA = '', fontNameB = '';
+let downloadUrl = null;
+
+async function boot() {
+    await init();
+    wasmReady = true;
+    document.getElementById('status').textContent = 'WASM loaded — drop two fonts to compare.';
+
+    // Check for preloaded fonts (CI mode).
+    if (window.PRELOADED_FONTS) {
+        const p = window.PRELOADED_FONTS;
+        fontDataA = Uint8Array.from(atob(p.fontA.data), c => c.charCodeAt(0));
+        fontDataB = Uint8Array.from(atob(p.fontB.data), c => c.charCodeAt(0));
+        fontNameA = p.fontA.name;
+        fontNameB = p.fontB.name;
+        markLoaded('drop-a', 'name-a', fontNameA);
+        markLoaded('drop-b', 'name-b', fontNameB);
+        runDiff();
+    }
+}
+boot();
+
+// ---- Font loading ----
+function markLoaded(zoneId, nameId, fileName) {
+    document.getElementById(zoneId).classList.add('loaded');
+    document.getElementById(nameId).textContent = fileName;
+}
+
+function setupDrop(zoneId, fileId, nameId, side) {
+    const zone = document.getElementById(zoneId);
+    const input = document.getElementById(fileId);
+    zone.addEventListener('click', () => input.click());
+    zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('over'); });
+    zone.addEventListener('dragleave', () => zone.classList.remove('over'));
+    zone.addEventListener('drop', e => {
+        e.preventDefault(); zone.classList.remove('over');
+        if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0], side, zoneId, nameId);
+    });
+    input.addEventListener('change', () => {
+        if (input.files.length) handleFile(input.files[0], side, zoneId, nameId);
+    });
+}
+
+async function handleFile(file, side, zoneId, nameId) {
+    const buf = new Uint8Array(await file.arrayBuffer());
+    if (side === 'a') { fontDataA = buf; fontNameA = file.name; }
+    else { fontDataB = buf; fontNameB = file.name; }
+    markLoaded(zoneId, nameId, file.name);
+    if (fontDataA && fontDataB && wasmReady) runDiff();
+}
+
+setupDrop('drop-a', 'file-a', 'name-a', 'a');
+setupDrop('drop-b', 'file-b', 'name-b', 'b');
+
+// ---- Diff ----
+function runDiff() {
+    const status = document.getElementById('status');
+    status.textContent = 'Comparing…';
+
+    // Let the status paint before the (synchronous) wasm call.
+    setTimeout(() => {
+        const threshold = parseFloat(document.getElementById('threshold').value);
+        const t0 = performance.now();
+        const html = generate_report(fontDataA, fontDataB, fontNameA, fontNameB, threshold);
+        const secs = ((performance.now() - t0) / 1000).toFixed(1);
+
+        const frame = document.getElementById('report');
+        frame.srcdoc = html;
+        frame.style.display = 'block';
+
+        const dl = document.getElementById('download');
+        if (downloadUrl) URL.revokeObjectURL(downloadUrl);
+        downloadUrl = URL.createObjectURL(new Blob([html], { type: 'text/html' }));
+        dl.href = downloadUrl;
+        dl.style.display = 'inline';
+
+        status.textContent = `Done in ${secs}s.`;
+    }, 30);
+}
+
+// ---- Controls ----
+document.getElementById('threshold').addEventListener('input', () => {
+    document.getElementById('threshold-val').textContent =
+        document.getElementById('threshold').value;
+});
+document.getElementById('threshold').addEventListener('change', () => {
+    if (fontDataA && fontDataB && wasmReady) runDiff();
+});
+</script>
+</body>
+</html>

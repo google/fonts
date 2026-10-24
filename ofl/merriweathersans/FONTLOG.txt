@@ -1,0 +1,78 @@
+FONTLOG for the Merriweather Sans font
+
+This file provides detailed information on Merriweather Sans Font Software. This information should be distributed along with the Merriweather Sans font and any derivative works.
+
+Basic Font Information
+
+Merriweather Sans is a low-contrast semi-condensed sans-serif typeface family designed to be readable at very small sizes. Merriweather Sans is traditional in feeling despite the modern shapes it has adopted for screens. It is a companion to the serif typeface family Merriweather.
+
+Merriweather Sans is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, 
+and could be expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1, Latin-2: Eastern Europe, Turkish, 
+Macintosh Character Set and Adobe Latin 3 character set.
+
+There are two source files for each style:
+
+1. MerriweatherSans-Style.vfb Original Source Files with 
+   contour overlaps for v1.004 and earlier
+
+2. MerriweatherSans-Style.ufo Original Source Files with 
+  contour overlaps for v1.005 and later
+
+To contribute to the project visit https://github.com/EbenSorkin/Merriweather-Sans
+
+ChangeLog
+
+25 Jan 2016 (Dave Crossland) Merriweather Sans v1.006
+- Made caron (Ǐ ǐ etc) and slash (Ǿ ǿ) glyphs consistent
+- Fixed ligatures (ĳ fi ffi fl ffl)
+
+21 Jan 2016 (Dave Crossland) Merriweather Sans v1.005
+- Version numbering updated to 1.005
+- Corrected NAME table
+- Further OpenType code corrections
+
+11 Jan 2016 (Eben Sorkin) Merriweather Sans v1.004
+- Added some Open Type features
+- Added TTFA hinting using version 1.4.1
+
+26 Feb 2012 (Eben Sorkin) Merriweather Sans v1.003
+- Hinted font Using TTFAutohint version 0.93.8-669f
+- Mastered VBF to TTF and other formats.
+- Improved the design in response to additional print 
+and rendering tests and added glyphs to cover the entire 
+Adobe Latin 3 character set. ( VBF format )
+
+26 Feb 2012 (Eben Sorkin) Merriweather Sans v1.002
+- Hinted font Using TTFAutohint version 0.93
+- Mastered VBF to TTF and other formats.
+- Revised spacing on the lightest and boldest masters 
+again and improved the design in response to additional 
+print amd rendering tests. ( VBF format )
+
+15 Feb 2012 (Eben Sorkin) Merriweather Sans v1.001
+- Revised spacing on the lightest and boldest masters ( VBF format )
+
+10 Feb 2012 (Eben Sorkin) Merriweather Sans v1.000
+- Completed first complete version of Merriweather Sans in Fontlab ( VBF format )
+
+22 July 2020 (Marc Foley) Merriweather Sans v2.000
+- Upgraded to a VF family
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Designer and Mastering
+
+N: Marc Foley
+E: m.foley.88@gmail.com
+W: mfoley.uk
+D: Release

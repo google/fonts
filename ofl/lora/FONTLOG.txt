@@ -1,0 +1,78 @@
+FONTLOG for the Lora font
+
+This file provides detailed information on the Lora 
+font Software.
+
+This information should be distributed along with the 
+Lora fonts and any derivative works.
+
+Basic Font Information
+
+Lora is a well-balanced contemporary serif with roots in calligraphy. It is a text typeface with moderate contrast well suited for body text.
+A paragraph set in Lora will make a memorable appearance because of its brushed curves in contrast with driving serifs. The overall typographic voice of Lora perfectly conveys the mood of a modern-day story, or an art essay.
+
+Technically Lora is optimised for screen appearance, and works equally well in print.
+
+Designed by Olga Karpushina, and Alexei Vanyashin for Cyreal.
+
+Lora is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1, Adobe Latin-3, GWF Standard Cyrillic
+
+To contribute to the project contact Alexei Vanyashin at 
+a at cyreal.org
+
+Source files:
+— Lora-MM.glyphs (Roman weights)
+— Lora-Italic-MM.glyphs (Italic weights)
+
+ChangeLog
+
+20 July 2011 (Olga Karpushina) Lora v. 1.000
+— Completed initial design
+
+30 May 2013 (Alexei Vanyashin) Lora v. 1.011
+— Extended character set in all four fonts to include
+Adobe Latin-3, and GWF Standard Cyrillic encodings.
+— Equalized vertical metrics across the styles
+
+19 June 2013 (Alexei Vanyashin) Lora v. 1012
+— Merged previous hinted version v. 1.000 with
+additional autohinted glyphs.
+— Improved kerning
+— Adjusted glyphs with caron accent
+
+26 June 2013 (Alexei Vanyashin) Lora v. 1.013
+— Fixed hinting issue
+— Minor design fixes
+
+12 August 2013 (Alexei Vanyashin) Lora v. 1.014
+— equalised nbsp, sp, noBreak, nonmarkingreturn advance widths 
+
+25 May 2016 (Alexei Vanyashin) Lora v. 1.015
+— enlonged emdashes as per issue https://github.com/google/fonts/issues/217#issuecomment-221395327
+— added Esperanto support as per request form fishque.com
+
+16 July 2016 (Alexei Vanyashin) Lora v. 1.016
+— fixed issue #1 (italic style not working in MS Word)
+
+29 October 2017 (Alexei Vanyashin) Lora v. 2.101
+- Added Cyrillic extended characters
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Olga Karpushina
+E: okarpush at gmail.com
+W: www.cyreal.org
+D: Original Author
+
+N: Alexei Vanyashin
+E: a at cyreal.org
+W: www.cyreal.org
+D: Designer of Cyrillic, Mastering
+

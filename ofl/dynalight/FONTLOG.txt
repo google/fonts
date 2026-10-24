@@ -1,0 +1,45 @@
+FONTLOG for the Dynalight font
+
+This file provides detailed information on the Dynalight font
+Software.
+
+This information should be distributed along with the Dynalight font
+and any derivative works.
+
+Basic Font Information
+
+Dynalight is a dynamic high speed script inspired by a vintage luggage
+tag for the Southern Pacific 4449 Daylight steam locomotive. Loaded
+with curves and soft angles, this connecting script is an attention
+getter.
+
+Designed by Brian J. Bonislawsky for Astigmatic (AOETI).
+
+Dynalight is a Unicode typeface family that supports languages that
+use the Latin script and its variants, and could be expanded to
+support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are three Source files:
+
+1. Dynalight-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+2. Dynalight-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. Dynalight-Regular.vfb Original Source files with contour overlaps
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

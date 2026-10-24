@@ -1,0 +1,45 @@
+FONTLOG for Trocchi fonts
+
+This file provides detailed information on the Trocchi 
+Font Software.
+
+This information should be distributed along with the 
+Trocchi fonts and any derivative works. 
+
+Basic Font Information
+
+‘Trocchi’ is a design derived from a number of old faces 
+from the English typecutter Vincent Figgins (1766-1844) 
+including Nebiolo’s ‘Egiziano’, and Caslon & Co’s ‘Antique 
+No.4′ and ‘Ionic No.2′. Trocchi derivates from these 
+earlier designs to produce a more casual slab serif. 
+Trocchi is designed for use both as text and display type. 
+The font is named after the Scottish novelist 
+Alexander Trocchi.
+
+This release supports the following 
+Unicode ranges: Latin, Latin-Extended
+
+To contribute to the project contact Vernon Adams
+at vern@newtypography.co.uk and use the gitHub 
+repository at https://github.com/vernnobile/TrocchiFont
+
+ChangeLog
+
+14 September 2016 (Marc Foley) Trocchi V1.100
+- fixed guillemotleft
+- Sources converted to glyphs
+
+27 March 2012 (Vernon Adams) Trocchi v1.001
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Vernon Adams
+E: vern@newtypography.co.uk
+W: code.newtypography.co.uk
+D: Original Type Designer

@@ -27,6 +27,20 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/rosarivo"
+  commit: "b4bd172df4a6da833f62fb55e8682a433ed1b53b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Rosarivo-Italic.ttf"
+    dest_file: "Rosarivo-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Rosarivo-Regular.ttf"
+    dest_file: "Rosarivo-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -10,7 +10,7 @@ fonts {
   filename: "Madhuban[wght].ttf"
   post_script_name: "Madhuban-Light"
   full_name: "Madhuban Light"
-  copyright: "Copyright 2024 The Madhuban Project Authors (https://github.com/magictype/madhuban)"
+  copyright: "Copyright 2024 The Madhuban Project Authors (https://github.com/magictype/Madhuban)"
 }
 subsets: "devanagari"
 subsets: "latin"

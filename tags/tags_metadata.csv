@@ -79,3 +79,351 @@
 /quant/stroke_width_max,0,1000,maximum stroke width
 /Skip/Stroke Width,0,100,skip computation of stroke width
 /Display/Display,0,100,display
+/Fontquant/appearance/x_height,-Infinity,Infinity,X-height in font units per mille
+/Fontquant/appearance/cap_height,-Infinity,Infinity,Cap height in font units per mille
+/Fontquant/appearance/ascender,-Infinity,Infinity,Ascender in font units per mille
+/Fontquant/appearance/descender,-Infinity,Infinity,Descender in font units per mille (negative)
+/Fontquant/appearance/n_width,-Infinity,Infinity,Letter 'n' width in font units per mille
+/Fontquant/appearance/space_width,-Infinity,Infinity,Space character width in font units per mille
+/Fontquant/appearance/i_width,-Infinity,Infinity,Letter 'i' width in font units per mille
+/Fontquant/appearance/most_common_width,-Infinity,Infinity,Most common glyph width in font units per mille
+/Fontquant/appearance/weight,0,Infinity,Ink percentage per glyph
+/Fontquant/appearance/weight_perceptual,0,Infinity,Perceptual weight
+/Fontquant/appearance/width,0,100,Average glyph width as percentage of UPM
+/Fontquant/appearance/slant,-90,90,Average slant angle in degrees
+/Fontquant/casing/smallcaps,-Infinity,Infinity,Functioning smallcaps (smcp) feature percentage
+/Fontquant/casing/caps-to-smallcaps,-Infinity,Infinity,Functioning caps-to-smallcaps (c2sc) feature percentage
+/Fontquant/casing/case_sensitive_punctuation,-Infinity,Infinity,Functioning case feature percentage
+/Fontquant/numerals/encoded_fractions,-Infinity,Infinity,Encoded fractions shaped by frac feature percentage
+/Fontquant/numerals/slashed_zero,-Infinity,Infinity,Slashed zero application percentage
+/Fontquant/stroke_contrast/antiqua,-Infinity,Infinity,Stroke contrast for antiqua fonts
+/Fontquant/stroke_contrast/antiqua_angle,-180,180,Pen angle for antiqua fonts
+/Fontquant/stroke_contrast/raycaster,-Infinity,Infinity,Stroke contrast based on ray-casting
+/Fontquant/parametric/XOPQ,-Infinity,Infinity,X Opaque parametric value
+/Fontquant/parametric/XOLC,-Infinity,Infinity,X Opaque lowercase parametric value
+/Fontquant/parametric/XOFI,-Infinity,Infinity,X Opaque figures parametric value
+/Fontquant/parametric/XTRA,-Infinity,Infinity,X Transparent parametric value
+/Fontquant/parametric/XTLC,-Infinity,Infinity,X Transparent lowercase parametric value
+/Fontquant/parametric/XTFI,-Infinity,Infinity,X Transparent figures parametric value
+/Fontquant/parametric/YOPQ,-Infinity,Infinity,Y Opaque parametric value
+/Fontquant/parametric/YOLC,-Infinity,Infinity,Y Opaque lowercase parametric value
+/Fontquant/parametric/YOFI,-Infinity,Infinity,Y Opaque figures parametric value
+/Fontquant/parametric/YTAS,-Infinity,Infinity,Y Transparent ascender parametric value
+/Fontquant/parametric/YTDE,-Infinity,Infinity,Y Transparent descender parametric value
+/Fontquant/parametric/XCLR,-Infinity,Infinity,X lowercase round sidebearing
+/Fontquant/parametric/XCLS,-Infinity,Infinity,X lowercase straight sidebearing
+/Fontquant/opentype/os2_weight_class,0,1000,OS/2 table usWeightClass
+/Fontquant/opentype/os2_width_class,1,9,OS/2 table usWidthClass
+/Fontquant/appearance/monospaced,0,100,Boolean: Font seems monospaced
+/Fontquant/appearance/stencil,0,100,Boolean: Font seems to be a stencil font
+/Fontquant/casing/unicase,0,100,Boolean: Font is unicase
+/Fontquant/numerals/tabular_oldstyle,0,100,Boolean: Has tabular oldstyle numerals
+/Fontquant/numerals/proportional_oldstyle,0,100,Boolean: Has proportional oldstyle numerals
+/Fontquant/numerals/proportional_lining,0,100,Boolean: Has proportional lining numerals
+/Fontquant/numerals/tabular_lining,0,100,Boolean: Has tabular lining numerals
+/Fontquant/numerals/arbitrary_fractions,0,100,Boolean: Supports arbitrary fractions
+/Fontquant/appearance/lowercase_a_style/single_story,0,100,Lowercase a style: single story
+/Fontquant/appearance/lowercase_a_style/double_story,0,100,Lowercase a style: double story
+/Fontquant/appearance/lowercase_g_style/single_story,0,100,Lowercase g style: single story
+/Fontquant/appearance/lowercase_g_style/double_story,0,100,Lowercase g style: double story
+/Fontquant/casing/lowercase_shapes/uppercase,0,100,Lowercase shapes resemble: uppercase
+/Fontquant/casing/lowercase_shapes/lowercase,0,100,Lowercase shapes resemble: lowercase
+/Fontquant/casing/lowercase_shapes/smallcaps,0,100,Lowercase shapes resemble: smallcaps
+/Fontquant/numerals/default_numerals/proportional_oldstyle,0,100,Default numerals: proportional oldstyle
+/Fontquant/numerals/default_numerals/tabular_oldstyle,0,100,Default numerals: tabular oldstyle
+/Fontquant/numerals/default_numerals/proportional_lining,0,100,Default numerals: proportional lining
+/Fontquant/numerals/default_numerals/tabular_lining,0,100,Default numerals: tabular lining
+/Fontquant/proportion/uppercase/A,-Infinity,Infinity,Letter A proportion relative to H
+/Fontquant/proportion/lowercase/a,-Infinity,Infinity,Letter a proportion relative to n
+/Fontquant/proportion/uppercase/B,-Infinity,Infinity,Letter B proportion relative to H
+/Fontquant/proportion/lowercase/b,-Infinity,Infinity,Letter b proportion relative to n
+/Fontquant/proportion/uppercase/C,-Infinity,Infinity,Letter C proportion relative to H
+/Fontquant/proportion/lowercase/c,-Infinity,Infinity,Letter c proportion relative to n
+/Fontquant/proportion/uppercase/D,-Infinity,Infinity,Letter D proportion relative to H
+/Fontquant/proportion/lowercase/d,-Infinity,Infinity,Letter d proportion relative to n
+/Fontquant/proportion/uppercase/E,-Infinity,Infinity,Letter E proportion relative to H
+/Fontquant/proportion/lowercase/e,-Infinity,Infinity,Letter e proportion relative to n
+/Fontquant/proportion/uppercase/F,-Infinity,Infinity,Letter F proportion relative to H
+/Fontquant/proportion/lowercase/f,-Infinity,Infinity,Letter f proportion relative to n
+/Fontquant/proportion/uppercase/G,-Infinity,Infinity,Letter G proportion relative to H
+/Fontquant/proportion/lowercase/g,-Infinity,Infinity,Letter g proportion relative to n
+/Fontquant/proportion/uppercase/H,-Infinity,Infinity,Letter H proportion relative to H
+/Fontquant/proportion/lowercase/h,-Infinity,Infinity,Letter h proportion relative to n
+/Fontquant/proportion/uppercase/I,-Infinity,Infinity,Letter I proportion relative to H
+/Fontquant/proportion/lowercase/i,-Infinity,Infinity,Letter i proportion relative to n
+/Fontquant/proportion/uppercase/J,-Infinity,Infinity,Letter J proportion relative to H
+/Fontquant/proportion/lowercase/j,-Infinity,Infinity,Letter j proportion relative to n
+/Fontquant/proportion/uppercase/K,-Infinity,Infinity,Letter K proportion relative to H
+/Fontquant/proportion/lowercase/k,-Infinity,Infinity,Letter k proportion relative to n
+/Fontquant/proportion/uppercase/L,-Infinity,Infinity,Letter L proportion relative to H
+/Fontquant/proportion/lowercase/l,-Infinity,Infinity,Letter l proportion relative to n
+/Fontquant/proportion/uppercase/M,-Infinity,Infinity,Letter M proportion relative to H
+/Fontquant/proportion/lowercase/m,-Infinity,Infinity,Letter m proportion relative to n
+/Fontquant/proportion/uppercase/N,-Infinity,Infinity,Letter N proportion relative to H
+/Fontquant/proportion/lowercase/n,-Infinity,Infinity,Letter n proportion relative to n
+/Fontquant/proportion/uppercase/O,-Infinity,Infinity,Letter O proportion relative to H
+/Fontquant/proportion/lowercase/o,-Infinity,Infinity,Letter o proportion relative to n
+/Fontquant/proportion/uppercase/P,-Infinity,Infinity,Letter P proportion relative to H
+/Fontquant/proportion/lowercase/p,-Infinity,Infinity,Letter p proportion relative to n
+/Fontquant/proportion/uppercase/Q,-Infinity,Infinity,Letter Q proportion relative to H
+/Fontquant/proportion/lowercase/q,-Infinity,Infinity,Letter q proportion relative to n
+/Fontquant/proportion/uppercase/R,-Infinity,Infinity,Letter R proportion relative to H
+/Fontquant/proportion/lowercase/r,-Infinity,Infinity,Letter r proportion relative to n
+/Fontquant/proportion/uppercase/S,-Infinity,Infinity,Letter S proportion relative to H
+/Fontquant/proportion/lowercase/s,-Infinity,Infinity,Letter s proportion relative to n
+/Fontquant/proportion/uppercase/T,-Infinity,Infinity,Letter T proportion relative to H
+/Fontquant/proportion/lowercase/t,-Infinity,Infinity,Letter t proportion relative to n
+/Fontquant/proportion/uppercase/U,-Infinity,Infinity,Letter U proportion relative to H
+/Fontquant/proportion/lowercase/u,-Infinity,Infinity,Letter u proportion relative to n
+/Fontquant/proportion/uppercase/V,-Infinity,Infinity,Letter V proportion relative to H
+/Fontquant/proportion/lowercase/v,-Infinity,Infinity,Letter v proportion relative to n
+/Fontquant/proportion/uppercase/W,-Infinity,Infinity,Letter W proportion relative to H
+/Fontquant/proportion/lowercase/w,-Infinity,Infinity,Letter w proportion relative to n
+/Fontquant/proportion/uppercase/X,-Infinity,Infinity,Letter X proportion relative to H
+/Fontquant/proportion/lowercase/x,-Infinity,Infinity,Letter x proportion relative to n
+/Fontquant/proportion/uppercase/Y,-Infinity,Infinity,Letter Y proportion relative to H
+/Fontquant/proportion/lowercase/y,-Infinity,Infinity,Letter y proportion relative to n
+/Fontquant/proportion/uppercase/Z,-Infinity,Infinity,Letter Z proportion relative to H
+/Fontquant/proportion/lowercase/z,-Infinity,Infinity,Letter z proportion relative to n
+# OpenType features from https://learn.microsoft.com/en-us/typography/opentype/otspec184/featurelist
+/Fontquant/features/feature_list/aalt,0,100,Access All Alternates
+/Fontquant/features/feature_list/abvf,0,100,Above-base Forms
+/Fontquant/features/feature_list/abvm,0,100,Above-base Mark Positioning
+/Fontquant/features/feature_list/abvs,0,100,Above-base Substitutions
+/Fontquant/features/feature_list/afrc,0,100,Alternative Fractions
+/Fontquant/features/feature_list/akhn,0,100,Akhands
+/Fontquant/features/feature_list/blwf,0,100,Below-base Forms
+/Fontquant/features/feature_list/blwm,0,100,Below-base Mark Positioning
+/Fontquant/features/feature_list/blws,0,100,Below-base Substitutions
+/Fontquant/features/feature_list/calt,0,100,Contextual Alternates
+/Fontquant/features/feature_list/case,0,100,Case-Sensitive Forms
+/Fontquant/features/feature_list/ccmp,0,100,Glyph Composition / Decomposition
+/Fontquant/features/feature_list/cfar,0,100,Conjunct Form After Ro
+/Fontquant/features/feature_list/chws,0,100,Contextual Half-width Spacing
+/Fontquant/features/feature_list/cjct,0,100,Conjunct Forms
+/Fontquant/features/feature_list/clig,0,100,Contextual Ligatures
+/Fontquant/features/feature_list/cpct,0,100,Centered CJK Punctuation
+/Fontquant/features/feature_list/cpsp,0,100,Capital Spacing
+/Fontquant/features/feature_list/cswh,0,100,Contextual Swash
+/Fontquant/features/feature_list/curs,0,100,Cursive Positioning
+/Fontquant/features/feature_list/cv01,0,100,Character Variants 01
+/Fontquant/features/feature_list/cv02,0,100,Character Variants 02
+/Fontquant/features/feature_list/cv03,0,100,Character Variants 03
+/Fontquant/features/feature_list/cv04,0,100,Character Variants 04
+/Fontquant/features/feature_list/cv05,0,100,Character Variants 05
+/Fontquant/features/feature_list/cv06,0,100,Character Variants 06
+/Fontquant/features/feature_list/cv07,0,100,Character Variants 07
+/Fontquant/features/feature_list/cv08,0,100,Character Variants 08
+/Fontquant/features/feature_list/cv09,0,100,Character Variants 09
+/Fontquant/features/feature_list/cv10,0,100,Character Variants 10
+/Fontquant/features/feature_list/cv11,0,100,Character Variants 11
+/Fontquant/features/feature_list/cv12,0,100,Character Variants 12
+/Fontquant/features/feature_list/cv13,0,100,Character Variants 13
+/Fontquant/features/feature_list/cv14,0,100,Character Variants 14
+/Fontquant/features/feature_list/cv15,0,100,Character Variants 15
+/Fontquant/features/feature_list/cv16,0,100,Character Variants 16
+/Fontquant/features/feature_list/cv17,0,100,Character Variants 17
+/Fontquant/features/feature_list/cv18,0,100,Character Variants 18
+/Fontquant/features/feature_list/cv19,0,100,Character Variants 19
+/Fontquant/features/feature_list/cv20,0,100,Character Variants 20
+/Fontquant/features/feature_list/cv21,0,100,Character Variants 21
+/Fontquant/features/feature_list/cv22,0,100,Character Variants 22
+/Fontquant/features/feature_list/cv23,0,100,Character Variants 23
+/Fontquant/features/feature_list/cv24,0,100,Character Variants 24
+/Fontquant/features/feature_list/cv25,0,100,Character Variants 25
+/Fontquant/features/feature_list/cv26,0,100,Character Variants 26
+/Fontquant/features/feature_list/cv27,0,100,Character Variants 27
+/Fontquant/features/feature_list/cv28,0,100,Character Variants 28
+/Fontquant/features/feature_list/cv29,0,100,Character Variants 29
+/Fontquant/features/feature_list/cv30,0,100,Character Variants 30
+/Fontquant/features/feature_list/cv31,0,100,Character Variants 31
+/Fontquant/features/feature_list/cv32,0,100,Character Variants 32
+/Fontquant/features/feature_list/cv33,0,100,Character Variants 33
+/Fontquant/features/feature_list/cv34,0,100,Character Variants 34
+/Fontquant/features/feature_list/cv35,0,100,Character Variants 35
+/Fontquant/features/feature_list/cv36,0,100,Character Variants 36
+/Fontquant/features/feature_list/cv37,0,100,Character Variants 37
+/Fontquant/features/feature_list/cv38,0,100,Character Variants 38
+/Fontquant/features/feature_list/cv39,0,100,Character Variants 39
+/Fontquant/features/feature_list/cv40,0,100,Character Variants 40
+/Fontquant/features/feature_list/cv41,0,100,Character Variants 41
+/Fontquant/features/feature_list/cv42,0,100,Character Variants 42
+/Fontquant/features/feature_list/cv43,0,100,Character Variants 43
+/Fontquant/features/feature_list/cv44,0,100,Character Variants 44
+/Fontquant/features/feature_list/cv45,0,100,Character Variants 45
+/Fontquant/features/feature_list/cv46,0,100,Character Variants 46
+/Fontquant/features/feature_list/cv47,0,100,Character Variants 47
+/Fontquant/features/feature_list/cv48,0,100,Character Variants 48
+/Fontquant/features/feature_list/cv49,0,100,Character Variants 49
+/Fontquant/features/feature_list/cv50,0,100,Character Variants 50
+/Fontquant/features/feature_list/cv51,0,100,Character Variants 51
+/Fontquant/features/feature_list/cv52,0,100,Character Variants 52
+/Fontquant/features/feature_list/cv53,0,100,Character Variants 53
+/Fontquant/features/feature_list/cv54,0,100,Character Variants 54
+/Fontquant/features/feature_list/cv55,0,100,Character Variants 55
+/Fontquant/features/feature_list/cv56,0,100,Character Variants 56
+/Fontquant/features/feature_list/cv57,0,100,Character Variants 57
+/Fontquant/features/feature_list/cv58,0,100,Character Variants 58
+/Fontquant/features/feature_list/cv59,0,100,Character Variants 59
+/Fontquant/features/feature_list/cv60,0,100,Character Variants 60
+/Fontquant/features/feature_list/cv61,0,100,Character Variants 61
+/Fontquant/features/feature_list/cv62,0,100,Character Variants 62
+/Fontquant/features/feature_list/cv63,0,100,Character Variants 63
+/Fontquant/features/feature_list/cv64,0,100,Character Variants 64
+/Fontquant/features/feature_list/cv65,0,100,Character Variants 65
+/Fontquant/features/feature_list/cv66,0,100,Character Variants 66
+/Fontquant/features/feature_list/cv67,0,100,Character Variants 67
+/Fontquant/features/feature_list/cv68,0,100,Character Variants 68
+/Fontquant/features/feature_list/cv69,0,100,Character Variants 69
+/Fontquant/features/feature_list/cv70,0,100,Character Variants 70
+/Fontquant/features/feature_list/cv71,0,100,Character Variants 71
+/Fontquant/features/feature_list/cv72,0,100,Character Variants 72
+/Fontquant/features/feature_list/cv73,0,100,Character Variants 73
+/Fontquant/features/feature_list/cv74,0,100,Character Variants 74
+/Fontquant/features/feature_list/cv75,0,100,Character Variants 75
+/Fontquant/features/feature_list/cv76,0,100,Character Variants 76
+/Fontquant/features/feature_list/cv77,0,100,Character Variants 77
+/Fontquant/features/feature_list/cv78,0,100,Character Variants 78
+/Fontquant/features/feature_list/cv79,0,100,Character Variants 79
+/Fontquant/features/feature_list/cv80,0,100,Character Variants 80
+/Fontquant/features/feature_list/cv81,0,100,Character Variants 81
+/Fontquant/features/feature_list/cv82,0,100,Character Variants 82
+/Fontquant/features/feature_list/cv83,0,100,Character Variants 83
+/Fontquant/features/feature_list/cv84,0,100,Character Variants 84
+/Fontquant/features/feature_list/cv85,0,100,Character Variants 85
+/Fontquant/features/feature_list/cv86,0,100,Character Variants 86
+/Fontquant/features/feature_list/cv87,0,100,Character Variants 87
+/Fontquant/features/feature_list/cv88,0,100,Character Variants 88
+/Fontquant/features/feature_list/cv89,0,100,Character Variants 89
+/Fontquant/features/feature_list/cv90,0,100,Character Variants 90
+/Fontquant/features/feature_list/cv91,0,100,Character Variants 91
+/Fontquant/features/feature_list/cv92,0,100,Character Variants 92
+/Fontquant/features/feature_list/cv93,0,100,Character Variants 93
+/Fontquant/features/feature_list/cv94,0,100,Character Variants 94
+/Fontquant/features/feature_list/cv95,0,100,Character Variants 95
+/Fontquant/features/feature_list/cv96,0,100,Character Variants 96
+/Fontquant/features/feature_list/cv97,0,100,Character Variants 97
+/Fontquant/features/feature_list/cv98,0,100,Character Variants 98
+/Fontquant/features/feature_list/cv99,0,100,Character Variants 99
+/Fontquant/features/feature_list/c2pc,0,100,Petite Capitals From Capitals
+/Fontquant/features/feature_list/c2sc,0,100,Small Capitals From Capitals
+/Fontquant/features/feature_list/dist,0,100,Distances
+/Fontquant/features/feature_list/dlig,0,100,Discretionary Ligatures
+/Fontquant/features/feature_list/dnom,0,100,Denominators
+/Fontquant/features/feature_list/dtls,0,100,Dotless Forms
+/Fontquant/features/feature_list/expt,0,100,Expert Forms
+/Fontquant/features/feature_list/falt,0,100,Final Glyph on Line Alternates
+/Fontquant/features/feature_list/fin2,0,100,Terminal Forms #2
+/Fontquant/features/feature_list/fin3,0,100,Terminal Forms #3
+/Fontquant/features/feature_list/fina,0,100,Terminal Forms
+/Fontquant/features/feature_list/flac,0,100,Flattened accent forms
+/Fontquant/features/feature_list/frac,0,100,Fractions
+/Fontquant/features/feature_list/fwid,0,100,Full Widths
+/Fontquant/features/feature_list/half,0,100,Half Forms
+/Fontquant/features/feature_list/haln,0,100,Halant Forms
+/Fontquant/features/feature_list/halt,0,100,Alternate Half Widths
+/Fontquant/features/feature_list/hist,0,100,Historical Forms
+/Fontquant/features/feature_list/hkna,0,100,Horizontal Kana Alternates
+/Fontquant/features/feature_list/hlig,0,100,Historical Ligatures
+/Fontquant/features/feature_list/hngl,0,100,Hangul
+/Fontquant/features/feature_list/hojo,0,100,Hojo Kanji Forms (JIS X 0212-1990 Kanji Forms)
+/Fontquant/features/feature_list/hwid,0,100,Half Widths
+/Fontquant/features/feature_list/init,0,100,Initial Forms
+/Fontquant/features/feature_list/isol,0,100,Isolated Forms
+/Fontquant/features/feature_list/ital,0,100,Italics
+/Fontquant/features/feature_list/jalt,0,100,Justification Alternates
+/Fontquant/features/feature_list/jp78,0,100,JIS78 Forms
+/Fontquant/features/feature_list/jp83,0,100,JIS83 Forms
+/Fontquant/features/feature_list/jp90,0,100,JIS90 Forms
+/Fontquant/features/feature_list/jp04,0,100,JIS2004 Forms
+/Fontquant/features/feature_list/kern,0,100,Kerning
+/Fontquant/features/feature_list/lfbd,0,100,Left Bounds
+/Fontquant/features/feature_list/liga,0,100,Standard Ligatures
+/Fontquant/features/feature_list/ljmo,0,100,Leading Jamo Forms
+/Fontquant/features/feature_list/lnum,0,100,Lining Figures
+/Fontquant/features/feature_list/locl,0,100,Localized Forms
+/Fontquant/features/feature_list/ltra,0,100,Left-to-right alternates
+/Fontquant/features/feature_list/ltrm,0,100,Left-to-right mirrored forms
+/Fontquant/features/feature_list/mark,0,100,Mark Positioning
+/Fontquant/features/feature_list/med2,0,100,Medial Forms #2
+/Fontquant/features/feature_list/medi,0,100,Medial Forms
+/Fontquant/features/feature_list/mgrk,0,100,Mathematical Greek
+/Fontquant/features/feature_list/mkmk,0,100,Mark to Mark Positioning
+/Fontquant/features/feature_list/mset,0,100,Mark Positioning via Substitution
+/Fontquant/features/feature_list/nalt,0,100,Alternate Annotation Forms
+/Fontquant/features/feature_list/nlck,0,100,NLC Kanji Forms
+/Fontquant/features/feature_list/nukt,0,100,Nukta Forms
+/Fontquant/features/feature_list/numr,0,100,Numerators
+/Fontquant/features/feature_list/onum,0,100,Oldstyle Figures
+/Fontquant/features/feature_list/opbd,0,100,Optical Bounds
+/Fontquant/features/feature_list/ordn,0,100,Ordinals
+/Fontquant/features/feature_list/ornm,0,100,Ornaments
+/Fontquant/features/feature_list/palt,0,100,Proportional Alternate Widths
+/Fontquant/features/feature_list/pcap,0,100,Petite Capitals
+/Fontquant/features/feature_list/pkna,0,100,Proportional Kana
+/Fontquant/features/feature_list/pnum,0,100,Proportional Figures
+/Fontquant/features/feature_list/pref,0,100,Pre-Base Forms
+/Fontquant/features/feature_list/pres,0,100,Pre-base Substitutions
+/Fontquant/features/feature_list/pstf,0,100,Post-base Forms
+/Fontquant/features/feature_list/psts,0,100,Post-base Substitutions
+/Fontquant/features/feature_list/pwid,0,100,Proportional Widths
+/Fontquant/features/feature_list/qwid,0,100,Quarter Widths
+/Fontquant/features/feature_list/rand,0,100,Randomize
+/Fontquant/features/feature_list/rclt,0,100,Required Contextual Alternates
+/Fontquant/features/feature_list/rkrf,0,100,Rakar Forms
+/Fontquant/features/feature_list/rlig,0,100,Required Ligatures
+/Fontquant/features/feature_list/rphf,0,100,Reph Forms
+/Fontquant/features/feature_list/rtbd,0,100,Right Bounds
+/Fontquant/features/feature_list/rtla,0,100,Right-to-left alternates
+/Fontquant/features/feature_list/rtlm,0,100,Right-to-left mirrored forms
+/Fontquant/features/feature_list/ruby,0,100,Ruby Notation Forms
+/Fontquant/features/feature_list/rvrn,0,100,Required Variation Alternates
+/Fontquant/features/feature_list/salt,0,100,Stylistic Alternates
+/Fontquant/features/feature_list/sinf,0,100,Scientific Inferiors
+/Fontquant/features/feature_list/size,0,100,Optical size
+/Fontquant/features/feature_list/smcp,0,100,Small Capitals
+/Fontquant/features/feature_list/smpl,0,100,Simplified Forms
+/Fontquant/features/feature_list/ss01,0,100,Stylistic Set 1
+/Fontquant/features/feature_list/ss02,0,100,Stylistic Set 2
+/Fontquant/features/feature_list/ss03,0,100,Stylistic Set 3
+/Fontquant/features/feature_list/ss04,0,100,Stylistic Set 4
+/Fontquant/features/feature_list/ss05,0,100,Stylistic Set 5
+/Fontquant/features/feature_list/ss06,0,100,Stylistic Set 6
+/Fontquant/features/feature_list/ss07,0,100,Stylistic Set 7
+/Fontquant/features/feature_list/ss08,0,100,Stylistic Set 8
+/Fontquant/features/feature_list/ss09,0,100,Stylistic Set 9
+/Fontquant/features/feature_list/ss10,0,100,Stylistic Set 10
+/Fontquant/features/feature_list/ss11,0,100,Stylistic Set 11
+/Fontquant/features/feature_list/ss12,0,100,Stylistic Set 12
+/Fontquant/features/feature_list/ss13,0,100,Stylistic Set 13
+/Fontquant/features/feature_list/ss14,0,100,Stylistic Set 14
+/Fontquant/features/feature_list/ss15,0,100,Stylistic Set 15
+/Fontquant/features/feature_list/ss16,0,100,Stylistic Set 16
+/Fontquant/features/feature_list/ss17,0,100,Stylistic Set 17
+/Fontquant/features/feature_list/ss18,0,100,Stylistic Set 18
+/Fontquant/features/feature_list/ss19,0,100,Stylistic Set 19
+/Fontquant/features/feature_list/ss20,0,100,Stylistic Set 20
+/Fontquant/features/feature_list/ssty,0,100,Math script style alternates
+/Fontquant/features/feature_list/stch,0,100,Stretching Glyph Decomposition
+/Fontquant/features/feature_list/subs,0,100,Subscript
+/Fontquant/features/feature_list/sups,0,100,Superscript
+/Fontquant/features/feature_list/swsh,0,100,Swash
+/Fontquant/features/feature_list/titl,0,100,Titling
+/Fontquant/features/feature_list/tjmo,0,100,Trailing Jamo Forms
+/Fontquant/features/feature_list/tnam,0,100,Traditional Name Forms
+/Fontquant/features/feature_list/tnum,0,100,Tabular Figures
+/Fontquant/features/feature_list/trad,0,100,Traditional Forms
+/Fontquant/features/feature_list/twid,0,100,Third Widths
+/Fontquant/features/feature_list/unic,0,100,Unicase
+/Fontquant/features/feature_list/valt,0,100,Alternate Vertical Metrics
+/Fontquant/features/feature_list/vatu,0,100,Vattu Variants
+/Fontquant/features/feature_list/vchw,0,100,Vertical Contextual Half-width Spacing
+/Fontquant/features/feature_list/vert,0,100,Vertical Writing
+/Fontquant/features/feature_list/vhal,0,100,Alternate Vertical Half Metrics
+/Fontquant/features/feature_list/vjmo,0,100,Vowel Jamo Forms
+/Fontquant/features/feature_list/vkna,0,100,Vertical Kana Alternates
+/Fontquant/features/feature_list/vkrn,0,100,Vertical Kerning
+/Fontquant/features/feature_list/vpal,0,100,Proportional Alternate Vertical Metrics
+/Fontquant/features/feature_list/vrt2,0,100,Vertical Alternates and Rotation
+/Fontquant/features/feature_list/vrtr,0,100,Vertical Alternates for Rotation
+/Fontquant/features/feature_list/zero,0,100,Slashed Zero

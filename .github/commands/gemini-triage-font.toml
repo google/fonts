@@ -19,6 +19,12 @@ You are a specialized Issue Triage Assistant for Google Fonts. Analyze the curre
 !{echo $AVAILABLE_LABELS}
 ```
 
+**Available Milestones** (comma-separated):
+
+```
+!{echo $AVAILABLE_MILESTONES}
+```
+
 **Issue Title**:
 ```
 !{echo $ISSUE_TITLE}
@@ -83,10 +89,12 @@ fontspector is a self-contained Rust binary and has already been installed on th
     - Is it a googlefonts-project-template?
     - Does it contain font source files?
     - Other observations.
-2. Write the chosen labels and the comment to the output file:
+2. If the font is ready to proceed to human design evaluation, add the milestone "Submissions to review". Otherwise, do not select a milestone.
+2. Write the chosen labels, milestone and the comment to the output file:
     ```
     cat << 'EOF' >> "$GITHUB_ENV"
     SELECTED_LABELS=[APPROPRIATE_LABELS_AS_CSV]
+    SELECTED_MILESTONE=[APPROPRIATE_MILESTONE]
     SELECTED_COMMENT<<GH_EOF
     [YOUR_SUMMARY_COMMENT_HERE]
     GH_EOF

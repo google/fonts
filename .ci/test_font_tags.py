@@ -11,7 +11,9 @@ def family_metadata():
     username = os.environ.get("SB_USERNAME")
     password = os.environ.get("SB_PASSWORD")
     if not username or not password:
-        pytest.fail(
+        # Pull requests from forks never receive repository secrets, so skip
+        # the metadata-based tests there instead of erroring.
+        pytest.skip(
             "SB_USERNAME and SB_PASSWORD environment variables must be set "
             "to access https://fonts.sandbox.google.com/metadata/fonts"
         )
@@ -42,8 +44,11 @@ def tags_metadata():
     ).text
     reader = csv.reader(data.splitlines())
     res = []
-    for category, _, _, _ in reader:
-        res.append(category)
+    for row in reader:
+        # Skip blank lines and "# ..." comment lines
+        if not row or row[0].startswith("#"):
+            continue
+        res.append(row[0])
     return res
 
 

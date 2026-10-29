@@ -21,6 +21,7 @@ fonts {
   full_name: "Google Sans Italic"
   copyright: "Copyright 2025 The Google Sans Project Authors (github.com/googlefonts/googlesans)"
 }
+subsets: "arabic"
 subsets: "armenian"
 subsets: "bengali"
 subsets: "canadian-aboriginal"

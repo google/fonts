@@ -21,6 +21,7 @@ fonts {
   full_name: "Yrsa Italic"
   copyright: "Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)"
 }
+subsets: "gujarati"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

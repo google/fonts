@@ -1,0 +1,61 @@
+FONTLOG for the Rouge Script font
+
+This file provides detailed information on the Rouge Script font Software.
+This information should be distributed along with the Rouge Script font
+and any derivative works.
+
+Basic Font Information
+ 
+Rouge Script is a formal script type, initiall drawn by hand 
+with a copperplate nib and redrawn with the termination style 
+of a brush script. This gives it the flavor of a casual script.
+It is very soft and has fast curves, while its low slant angle
+makes it very legible and improves the render on-screen.  
+It works perfectly for titles or short phrases in branding, 
+magazines, food, feminine and fashion related typography.
+
+Designed by Sabrina Mariela Lopez for TypeSenses
+
+www.typesenses.com
+www.facebook.com/Typesenses
+www.twitter.com/typesenses 
+plus.google.com/117943011442530153302/about
+typesenses@live.com.ar
+
+Rouge Script is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+Source files for the final TTF include:
+
+* RougeScript-Regular.vfb - original drawing file in 
+  FontLab format with overlaps
+* RougeScript-Regular-OTF.vfb - source used to generate OTF in 
+  FontLab format without overlaps
+* RougeScript-Regular.otf - OpenType font with PostScript outlines
+* RougeScript-Regular-TTF.sfd - FontForge source used to generate
+  final TTF file
+
+To contribute to the project contact Sabrina Mariela Lopez at
+typesenses@live.com.ar
+
+ChangeLog
+
+13 Jan 2012 (Sabrina Mariela Lopez) Rouge Script v1.003
+- Updated with adjustment to caps to avoid clipping on the web
+
+4 Jan 2012 (Sabrina Mariela Lopez) Rouge Script v1.002
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Sabrina Mariela Lopez
+E: typesenses@live.com.ar
+W: www.typesenses.com
+D: Type Designer

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Usage & Quality Analysis</title>
+    <style>
+        /* --- LAYOUT --- */
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; 
+            background: #f8f9fa; 
+            color: #202124;
+            font-family: 'Google Sans', Roboto, sans-serif; 
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header-section {
+            flex: 0 0 auto;
+            margin-bottom: 15px;
+        }
+
+        h1 { margin: 0 0 5px 0; }
+        p.subtitle { color: #5f6368; margin: 0 0 15px 0; font-size: 0.9rem; }
+
+        /* The container */
+        .scroll-area { 
+            flex: 1; 
+            overflow: auto; 
+            background: #f8f9fa; 
+            border-radius: 8px; 
+            position: relative;
+        }
+
+        .table-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            overflow: hidden; 
+        }
+
+        h2.section-title {
+            margin: 0;
+            padding: 15px 20px;
+            background: #e8f0fe;
+            color: #1967d2;
+            font-size: 1rem;
+            border-bottom: 1px solid #d2e3fc;
+        }
+        
+        .unscored-header { background: #f1f3f4 !important; color: #5f6368 !important; border-bottom: 1px solid #ddd !important; }
+
+        table { border-collapse: separate; border-spacing: 0; width: 100%;}
+        
+        /* Headers */
+        th { 
+            background-color: #fff; 
+            position: sticky; top: 0; z-index: 10; 
+            font-weight: 600; color: #5f6368; font-size: 0.75rem; 
+            text-transform: uppercase; letter-spacing: 0.5px; 
+            padding: 12px 16px; border-bottom: 1px solid #ddd; 
+            text-align: left; 
+            white-space: nowrap;
+            cursor: pointer; 
+        }
+        
+        th:hover { background-color: #e8eaed; color: #202124; }
+
+        td { font-size: 0.9rem; padding: 10px 16px; border-bottom: 1px solid #eee; background: white; }
+        td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+        /* --- HIGHLIGHTING LOGIC --- */
+        tr.row-risk td { background-color: #fce8e6; color: #c5221f; }
+        tr.row-risk td:first-child { font-weight: bold; border-left: 4px solid #c5221f; }
+        
+        tr.row-opportunity td { background-color: #e6f4ea; color: #137333; }
+        tr.row-opportunity td:first-child { font-weight: bold; border-left: 4px solid #137333; }
+
+        /* Legend */
+        .legend { font-size: 0.85rem; display: flex; gap: 20px; align-items: center; flex-wrap: wrap; margin-top: 10px;}
+        .legend-item { display: flex; align-items: center; gap: 6px; }
+        .swatch { width: 16px; height: 16px; border-radius: 3px; display: inline-block; border: 1px solid #ddd; }
+
+        /* Controls Bar */
+        .controls-bar { 
+            margin-top: 15px; 
+            display: flex; 
+            align-items: center; 
+            gap: 30px; 
+            background: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .control-group { display: flex; flex-direction: column; gap: 5px; }
+        .control-title { font-size: 0.75rem; color: #5f6368; font-weight: 600; text-transform: uppercase; }
+        
+        .toggle-label { display: flex; align-items: center; cursor: pointer; font-size: 0.9rem; user-select: none; }
+        .toggle-label input { margin-right: 8px; width: 16px; height: 16px; }
+
+        /* Radio Group */
+        .radio-group { display: flex; gap: 15px; }
+        .radio-label { display: flex; align-items: center; cursor: pointer; font-size: 0.9rem; }
+        .radio-label input { margin-right: 6px; }
+
+        /* Links & Interactions */
+        a.font-link { text-decoration: none; color: inherit; }
+        a.font-link:hover { text-decoration: underline; }
+
+        .clickable-score { 
+            cursor: pointer; 
+            text-decoration: underline; 
+            text-decoration-style: dotted; 
+            text-underline-offset: 3px;
+            color: #1a73e8;
+        }
+        .clickable-score:hover {
+            background-color: rgba(0,0,0,0.05);
+            color: #1557b0;
+        }
+
+        #status { padding: 10px; margin-bottom: 15px; border-radius: 4px; display: none; }
+        .loading { background-color: #e8f0fe; color: #1967d2; display: block !important; }
+        .error { background-color: #fce8e6; color: #c5221f; display: block !important; }
+
+        /* --- MODAL STYLES --- */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-active { display: flex; }
+        .modal-content { background: white; width: 90%; max-width: 450px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; overflow: hidden; }
+        .modal-header { padding: 12px 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; background: #f1f3f4; }
+        .modal-title { margin: 0; font-size: 1.1rem; color: #202124; }
+        .close-btn { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #5f6368; }
+        .modal-body { padding: 15px 20px; }
+
+        .score-table { width: 100%; border-collapse: collapse; margin-top: 0; font-size: 0.9rem; }
+        .score-table th { background: none; border-bottom: 2px solid #ddd; padding: 6px 4px; text-align: left; color: #5f6368; font-size: 0.75rem; text-transform: uppercase; }
+        .score-table td { padding: 8px 4px; border-bottom: 1px solid #eee; text-align: right; font-variant-numeric: tabular-nums; }
+        .score-table td:first-child { text-align: left; font-weight: 500; width: 35%; }
+        .total-row td { font-weight: bold; border-top: 2px solid #ddd; background-color: #f8f9fa; }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <h1>Font Usage & Quality Analysis</h1>
+        <p class="subtitle">Comparing 30-day views against amalgamated quality scores.</p>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <span class="swatch" style="background:#fce8e6; border-color:#c5221f;"></span> 
+                <strong>Attention Needed:</strong> Top 50% Usage & Score &lt; 60
+            </div>
+            <div class="legend-item">
+                <span class="swatch" style="background:#e6f4ea; border-color:#137333;"></span> 
+                <strong>Hidden Gem:</strong> Bottom 50% Usage & Score &gt; 70
+            </div>
+        </div>
+
+        <div class="controls-bar">
+            <div class="control-group">
+                <div class="control-title">Filter View</div>
+                <label class="toggle-label">
+                    <input type="checkbox" id="filterToggle" onchange="renderTables()" checked>
+                    Show Priority Items Only
+                </label>
+            </div>
+
+            <div style="width:1px; height:30px; background:#ddd;"></div>
+
+            <div class="control-group">
+                <div class="control-title">Scoring Model</div>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="scoreMode" value="standard" checked onchange="updateScoringMode()">
+                        Quality Bar (Design Heavy)
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="scoreMode" value="cheap" onchange="updateScoringMode()">
+                        Cheap Fix (Spacing Heavy)
+                    </label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="scroll-area">
+        
+        <div class="table-card">
+            <table id="main-dashboard">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('family')">Font Family</th>
+                        <th onclick="sortTable('rank')" class="num">Usage Rank</th>
+                        <th onclick="sortTable('views')" class="num">30 Day Views</th>
+                        <th onclick="sortTable('score')" class="num">Quality Score</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+
+        <div class="table-card">
+            <h2 class="section-title unscored-header">Unscored Fonts (Quality Score 0)</h2>
+            <table id="unscored-dashboard">
+                <thead>
+                    <tr>
+                        <th style="width:40%">Font Family</th>
+                        <th class="num">30 Day Views</th>
+                        <th class="num">Quality Score</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title">Score Breakdown</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="breakdown-container"></div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    // --- Configuration ---
+    const METADATA_URL = "catalog_metadata.json";
+    const TAGS_URL = "https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv";
+    const USAGE_URL = "usage_data.csv"; 
+    
+    // Scoring Models
+    const WEIGHTS_STANDARD = { "Concept": 0.4, "Drawing": 0.3, "Spacing": 0.2, "Wordspace": 0.1 };
+    const WEIGHTS_CHEAP    = { "Concept": 0.1, "Drawing": 0.2, "Spacing": 0.3, "Wordspace": 0.4 };
+
+    // State
+    let ACTIVE_WEIGHTS = WEIGHTS_STANDARD; 
+    
+    // Data Storage
+    let RAW_METADATA = [];
+    let RAW_SCORES = {}; // { Family: { Concept: 80, Drawing: 50... } }
+    let RAW_USAGE = {};
+
+    let SCORED_DATA = [];
+    let UNSCORED_DATA = [];
+
+    // --- Main Execution ---
+    document.addEventListener("DOMContentLoaded", async () => {
+        const statusDiv = document.getElementById('status');
+        try {
+            const [metaRes, tagsRes, usageRes] = await Promise.all([ 
+                fetch(METADATA_URL), 
+                fetch(TAGS_URL),
+                fetch(USAGE_URL)
+            ]);
+
+            if (!metaRes.ok) throw new Error(`Metadata Error: ${metaRes.status}`);
+            if (!tagsRes.ok) throw new Error(`Tags CSV Error: ${tagsRes.status}`);
+            if (!usageRes.ok) throw new Error(`Usage CSV Error: ${usageRes.status}`);
+
+            RAW_METADATA = (await metaRes.json()).familyMetadataList;
+            const tagsText = await tagsRes.text();
+            const usageText = await usageRes.text();
+
+            RAW_SCORES = parseTagsRaw(tagsText);
+            RAW_USAGE = parseUsageCSV(usageText);
+
+            // Initial Calculation
+            recalculateAllData();
+            
+            renderTables();
+            statusDiv.style.display = 'none';
+
+        } catch (err) {
+            console.error(err);
+            statusDiv.innerHTML = `<strong>Error:</strong> ${err.message}<br><small>Note: usage_data.csv must be in the same folder.</small>`;
+            statusDiv.className = 'error';
+        }
+    });
+
+    // --- Parsing Logic ---
+
+    function parseCSVLine(line) {
+        let parts = [];
+        let current = '';
+        let inQuotes = false;
+        
+        for (let i = 0; i < line.length; i++) {
+            let char = line[i];
+            
+            if (char === '"') {
+                inQuotes = !inQuotes; 
+            } else if (char === ',' && !inQuotes) {
+                parts.push(current);
+                current = '';
+            } else {
+                current += char;
+            }
+        }
+        parts.push(current); 
+        return parts.map(p => p.trim().replace(/^"|"$/g, ''));
+    }
+
+    // Get Raw Metric Values only (Score calc happens later)
+    function parseTagsRaw(csvText) {
+        const lines = csvText.split('\n');
+        const rawValues = {}; 
+
+        for (let i = 1; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if(!line) continue;
+            
+            const parts = parseCSVLine(line);
+            if (parts.length < 3) continue; 
+
+            const family = parts[0]; 
+            let rawTag = parts[2];
+            let weightStr = parts[3];
+
+            if (!rawTag && parts[1] && parts[1].includes('/')) {
+                rawTag = parts[1];
+                weightStr = parts[2];
+            }
+
+            let weight = parseFloat(weightStr || 0);
+
+            if (rawTag && rawTag.includes("Quality/")) {
+                const type = rawTag.split("Quality/")[1];
+                if (type && !isNaN(weight)) {
+                    if (!rawValues[family]) rawValues[family] = {};
+                    rawValues[family][type] = weight;
+                }
+            }
+        }
+        return rawValues;
+    }
+
+    function parseUsageCSV(csvText) {
+        const lines = csvText.split('\n');
+        const usage = {}; 
+
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if (!line) continue;
+
+            const parts = parseCSVLine(line);
+            if (parts.length < 2) continue;
+
+            const family = parts[0];
+            const viewString = parts[1].replace(/,/g, '');
+            const views = parseInt(viewString);
+
+            if (!isNaN(views)) {
+                usage[family] = views;
+            }
+        }
+        return usage;
+    }
+
+    // --- Core Logic ---
+
+    function updateScoringMode() {
+        const mode = document.querySelector('input[name="scoreMode"]:checked').value;
+        ACTIVE_WEIGHTS = (mode === 'cheap') ? WEIGHTS_CHEAP : WEIGHTS_STANDARD;
+        
+        recalculateAllData();
+        renderTables();
+    }
+
+    function recalculateAllData() {
+        let scored = [];
+        let unscored = [];
+
+        RAW_METADATA.forEach(font => {
+            const family = font.family;
+            const views = RAW_USAGE[family] || 0;
+            const breakdown = RAW_SCORES[family] || {}; 
+
+            // Calculate Score based on ACTIVE_WEIGHTS
+            let finalScore = 0;
+            finalScore += (breakdown['Concept'] || 0) * ACTIVE_WEIGHTS['Concept'];
+            finalScore += (breakdown['Drawing'] || 0) * ACTIVE_WEIGHTS['Drawing'];
+            finalScore += (breakdown['Spacing'] || 0) * ACTIVE_WEIGHTS['Spacing'];
+            finalScore += (breakdown['Wordspace'] || 0) * ACTIVE_WEIGHTS['Wordspace'];
+
+            const row = { family, views, score: finalScore, breakdown };
+
+            if (finalScore === 0) {
+                unscored.push(row);
+            } else {
+                scored.push(row);
+            }
+        });
+
+        // Rank and Status Logic
+        scored.sort((a, b) => b.views - a.views); // Sort by Views for Ranking
+
+        const medianIndex = Math.floor(scored.length / 2);
+
+        SCORED_DATA = scored.map((row, index) => {
+            const rank = index + 1;
+            const isTopHalf = index < medianIndex;
+            
+            let status = "Normal";
+            let type = "normal";
+
+            if (isTopHalf && row.score < 60) {
+                status = "High Usage, Low Quality";
+                type = "risk";
+            } else if (!isTopHalf && row.score > 70) {
+                status = "Low Usage, High Quality";
+                type = "opportunity";
+            }
+
+            return { ...row, rank, type, status };
+        });
+
+        UNSCORED_DATA = unscored.sort((a, b) => b.views - a.views);
+    }
+
+    // --- Rendering ---
+
+    function renderTables() {
+        const mainTbody = document.querySelector('#main-dashboard tbody');
+        const unscoredTbody = document.querySelector('#unscored-dashboard tbody');
+        
+        mainTbody.innerHTML = '';
+        unscoredTbody.innerHTML = '';
+
+        const filterActive = document.getElementById('filterToggle').checked;
+
+        SCORED_DATA.forEach(row => {
+            if (filterActive && row.type === 'normal') return;
+
+            const tr = document.createElement('tr');
+            if (row.type === 'risk') tr.className = 'row-risk';
+            if (row.type === 'opportunity') tr.className = 'row-opportunity';
+
+            const viewsStr = row.views.toLocaleString();
+            const scoreStr = row.score.toFixed(1);
+            
+            const safeFamily = row.family.replace(/'/g, "\\'");
+            const scoreCell = `<span class="clickable-score" onclick="openScoreModal('${safeFamily}')">${scoreStr}</span>`;
+
+            tr.innerHTML = `
+                <td><a href="https://fonts.google.com/specimen/${row.family.replace(/ /g, '+')}" class="font-link" target="_blank">${row.family}</a></td>
+                <td class="num">#${row.rank}</td>
+                <td class="num">${viewsStr}</td>
+                <td class="num">${scoreCell}</td>
+                <td>${row.status}</td>
+            `;
+            mainTbody.appendChild(tr);
+        });
+
+        UNSCORED_DATA.forEach(row => {
+            const tr = document.createElement('tr');
+            const viewsStr = row.views.toLocaleString();
+
+            tr.innerHTML = `
+                <td><a href="https://fonts.google.com/specimen/${row.family.replace(/ /g, '+')}" class="font-link" target="_blank">${row.family}</a></td>
+                <td class="num">${viewsStr}</td>
+                <td class="num" style="color:#aaa;">0.0</td>
+                <td style="color:#aaa;">Pending Scoring</td>
+            `;
+            unscoredTbody.appendChild(tr);
+        });
+    }
+
+    // --- Modal Logic ---
+    function openScoreModal(familyName) {
+        const font = SCORED_DATA.find(f => f.family === familyName) || UNSCORED_DATA.find(f => f.family === familyName);
+        if (!font) return;
+
+        const modal = document.getElementById('modal');
+        const modalTitle = document.getElementById('modal-title');
+        const container = document.getElementById('breakdown-container');
+
+        modalTitle.textContent = `${font.family} Breakdown`;
+
+        const c = font.breakdown['Concept'] || 0;
+        const d = font.breakdown['Drawing'] || 0;
+        const s = font.breakdown['Spacing'] || 0;
+        const w = font.breakdown['Wordspace'] || 0;
+
+        // Dynamic Calculation based on ACTIVE weights
+        const c_val = (c * ACTIVE_WEIGHTS['Concept']).toFixed(1);
+        const d_val = (d * ACTIVE_WEIGHTS['Drawing']).toFixed(1);
+        const s_val = (s * ACTIVE_WEIGHTS['Spacing']).toFixed(1);
+        const w_val = (w * ACTIVE_WEIGHTS['Wordspace']).toFixed(1);
+        
+        const total = font.score.toFixed(1);
+
+        // Convert weights to percentage for display
+        const c_pct = (ACTIVE_WEIGHTS['Concept'] * 100) + '%';
+        const d_pct = (ACTIVE_WEIGHTS['Drawing'] * 100) + '%';
+        const s_pct = (ACTIVE_WEIGHTS['Spacing'] * 100) + '%';
+        const w_pct = (ACTIVE_WEIGHTS['Wordspace'] * 100) + '%';
+
+        container.innerHTML = `
+            <table class="score-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Raw</th>
+                        <th>Wgt</th>
+                        <th>Val</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Concept</td>
+                        <td>${c}</td>
+                        <td>${c_pct}</td>
+                        <td>${c_val}</td>
+                    </tr>
+                    <tr>
+                        <td>Drawing</td>
+                        <td>${d}</td>
+                        <td>${d_pct}</td>
+                        <td>${d_val}</td>
+                    </tr>
+                    <tr>
+                        <td>Spacing</td>
+                        <td>${s}</td>
+                        <td>${s_pct}</td>
+                        <td>${s_val}</td>
+                    </tr>
+                    <tr>
+                        <td>Wordspace</td>
+                        <td>${w}</td>
+                        <td>${w_pct}</td>
+                        <td>${w_val}</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td>Total</td>
+                        <td></td>
+                        <td></td>
+                        <td>${total}</td>
+                    </tr>
+                </tbody>
+            </table>
+        `;
+
+        modal.classList.add('modal-active');
+    }
+
+    function closeModal() {
+        document.getElementById('modal').classList.remove('modal-active');
+    }
+
+    document.getElementById('modal').addEventListener('click', (e) => {
+        if (e.target === document.getElementById('modal')) closeModal();
+    });
+
+    // --- Sorting ---
+    let currentSort = { col: 'views', dir: 'desc' };
+
+    function sortTable(col) {
+        if (currentSort.col === col) {
+            currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
+        } else {
+            currentSort.col = col;
+            currentSort.dir = 'desc'; 
+        }
+
+        SCORED_DATA.sort((a, b) => {
+            let valA = a[col];
+            let valB = b[col];
+
+            if (typeof valA === 'string') {
+                return currentSort.dir === 'asc' 
+                    ? valA.localeCompare(valB) 
+                    : valB.localeCompare(valA);
+            }
+            return currentSort.dir === 'asc' ? valA - valB : valB - valA;
+        });
+
+        renderTables();
+    }
+</script>
+</body>
+</html>

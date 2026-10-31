@@ -1,0 +1,202 @@
+FONTLOG
+Averia Serif Libre font family
+========================
+
+This file provides detailed information on the Averia Serif Libre family of fonts. This
+information should be distributed along with the Averia Serif Libre fonts and any
+derivative works.
+
+Basic Font Information
+----------------------
+
+Avería ("breakdown" or "mechanical damage" in Spanish - related to the root
+of the English word "average") is a Unicode typeface superfamily created from the
+average of all fonts on the computer of the creator, Dan Sayers. The process
+is described at http://iotic.com/averia/. All metrics are the result of an
+averaging process. The included glyphs are those that existed in a majority
+of the source fonts - which are the following:
+
+Range           Description
+U+0020-U+007E   Basic Latin
+U+00A0-U+00FF   Latin-1 Supplement
+
+And some glyphs from the following:
+
+Range           Description
+U+0100-U+017F   Latin Extended-A
+U+0180-U+021F   Latin Extended-B
+U+02B0-U+02FF   Spacing Modifier Letters
+U+0370-U+03D5   Greek
+U+2000-U+2122   General Punctuation
+U+2200-U+25CS   Mathematical Operators
+
+Averia Serif Libre exists in Regular, Bold, Italic, Bold Italic, Light and
+Light Italic styles - and there are also the Averia Gruesa Libre, Averia Sans Libre 
+and Averia Serif Libre families.
+
+Source Fonts
+------------
+
+The Averia Libre families of fonts are based on the average of all fonts
+in the Google Web Fonts project, released under the SIL Open Font License,
+as of 9 Nov 2011. The Averia Serif Libre family is based on the subset of
+these fonts having serifs. The full list of source fonts averaged over the
+Averia Libre families is as follows:
+
+Abel-Regular, AbrilFatface-Regular, Actor-Regular, Adamina-Regular,
+Aldrich-Regular, Alice-Regular, Alike-Regular, AlikeAngular-Regular,
+Allan-Bold, Allerta-Regular, AllertaStencil-Regular, Amaranth-Bold,
+Amaranth-BoldItalic, Amaranth-Italic, Amaranth-Regular, AmaticSC-Bold,
+AmaticSC-Regular, Andada-Regular, Andika-R, Angkor, AnnieUseYourTelescope,
+AnonymousPro-Bold, AnonymousPro-BoldItalic, AnonymousPro-Italic,
+AnonymousPro-Regular, Antic-Regular, Anton, Arapey-Italic, Arapey-Regular,
+ArchitectsDaughter, Arimo-Bold, Arimo-BoldItalic, Arimo-Italic,
+Arimo-Regular, Artifika-Regular, Arvo-Bold, Arvo-BoldItalic, Arvo-Italic,
+Arvo-Regular, Asset, Astloch-Bold, Astloch-Regular, AtomicAge-Regular,
+Aubrey-Regular, Bangers, Battambang-Bold, Battambang-Regular, Bayon,
+Bentham-Regular, Bevan, BigshotOne, Bitter-Regular, BlackOpsOne, Bokor,
+BowlbyOne, BowlbyOneSC, Brawler-Regular, BubblerOne-Regular, Buda-Light,
+ButchermannCaps-Regular, Cabin-Bold, Cabin-BoldItalic, Cabin-Italic,
+Cabin-Medium, Cabin-MediumItalic, Cabin-Regular, Cabin-SemiBold,
+Cabin-SemiBoldItalic, CabinSketch-Bold, CabinSketch-Regular, Candal,
+Cantarell-Bold, Cantarell-BoldOblique, Cantarell-Oblique, Cantarell-Regular,
+Cardo-Bold, Cardo-Italic, Cardo-Regular, Carme-Regular, CarterOne,
+Caudex-Bold, Caudex-BoldItalic, Caudex-Italic, Caudex-Regular,
+Cedarville-Cursive, ChangaOne-Regular, Chenla, Chivo-Black, Chivo-Regular,
+Clara-Regular, Coda-Caption-Heavy, Coda-Heavy, Coda-Regular, Comfortaa-Bold,
+Comfortaa-Light, Comfortaa-Regular, Content-Bold, Content-Regular,
+ContrailOne-Regular, Convergence-Regular, Cookie-Regular, Copse-Regular,
+Corben-Bold, Corben-Regular, Cousine-Bold, Cousine-BoldItalic,
+Cousine-Italic, Cousine-Regular, Coustard-Black, Coustard-Regular,
+CoveredByYourGrace, CrimsonText-Bold, CrimsonText-BoldItalic,
+CrimsonText-Italic, CrimsonText-Roman, CrimsonText-Semibold,
+CrimsonText-SemiboldItalic, Cuprum, Damion-Regular, DancingScript-Bold,
+DancingScript-Regular, Dangrek, DawningofaNewDay, DaysOne-Regular,
+Delius-Regular, DeliusSwashCaps-Regular, DeliusUnicase-Bold,
+DeliusUnicase-Regular, DidactGothic, Dorsa-Regular, EaterCaps-Regular,
+EBGaramond-Regular, ExpletusSans-Bold, ExpletusSans-BoldItalic,
+ExpletusSans-Italic, ExpletusSans-Medium, ExpletusSans-MediumItalic,
+ExpletusSans-Regular, ExpletusSans-SemiBold, ExpletusSans-SemiBoldItalic,
+FanwoodText-Italic, FanwoodText-Regular, Federant-Regular, Federo-Regular,
+FjordOne-Regular, Forum-Regular, FrancoisOne, Freehand, GenBasB, GenBasBI,
+GenBasI, GenBasR, GenBkBasB, GenBkBasBI, GenBkBasI, GenBkBasR, Geo-Oblique,
+Geo-Regular, Geostar-Regular, GeostarFill-Regular, GFSDidot-Regular,
+GFSNeohellenic, GFSNeohellenicBold, GFSNeohellenicBoldItalic,
+GFSNeohellenicItalic, GiveYouGlory, GloriaHallelujah, GoblinOne,
+GochiHand-Regular, GoudyBookletter1911, GravitasOne, Gruppo, HammersmithOne,
+Hanuman, Hanumanb, HoltwoodOneSC, IMFeDPit28P, IMFeDPrm28P, IMFeDPsc28P,
+IMFeENit28P, IMFeENrm28P, IMFeENsc28P, IMFeFCit28P, IMFeFCrm28P,
+IMFeFCsc28P, IMFeGPit28P, IMFeGPrm28P, IMFeGPsc28P, IMFePIit28P,
+IMFePIrm28P, IMFePIsc28P, Inconsolata, IndieFlower, IstokWeb-Bold,
+IstokWeb-BoldItalic, IstokWeb-Italic, IstokWeb-Regular, JockeyOne-Regular,
+JosefinSans-Bold, JosefinSans-BoldItalic, JosefinSans-Italic,
+JosefinSans-Light, JosefinSans-LightItalic, JosefinSans-Regular,
+JosefinSans-SemiBold, JosefinSans-SemiBoldItalic, JosefinSans-Thin,
+JosefinSans-ThinItalic, JosefinSansStd-Light, JosefinSlab-Bold,
+JosefinSlab-BoldItalic, JosefinSlab-Italic, JosefinSlab-Light,
+JosefinSlab-LightItalic, JosefinSlab-Regular, JosefinSlab-SemiBold,
+JosefinSlab-SemiBoldItalic, JosefinSlab-Thin, JosefinSlab-ThinItalic,
+Judson-Bold, Judson-Italic, Judson-Regular, Julee-Regular, Jura-DemiBold,
+Jura-Light, Jura-Medium, Jura-Regular, JustMeAgainDownHere, Kameron-Bold,
+Kameron-Regular, KellySlab-Regular, Kenia-Regular, Khmer, Koulen,
+Kreon-Bold, Kreon-Light, Kreon-Regular, Kristi, LaBelleAurore,
+Lancelot-Regular, LateefRegOT, Lato-Black, Lato-BlackItalic, Lato-Bold,
+Lato-BoldItalic, Lato-Hairline, Lato-HairlineItalic, Lato-Italic,
+Lato-Light, Lato-LightItalic, Lato-Regular, LeagueScript, LeckerliOne,
+Lekton-Bold, Lekton-Italic, Lekton-Regular, LemonOne-Regular, Limelight,
+LindenHill-Italic, LindenHill-Regular, Lobster, LobsterTwo-Bold,
+LobsterTwo-BoldItalic, LobsterTwo-Italic, LobsterTwo-Regular, Lora-Bold,
+Lora-BoldItalic, Lora-Italic, Lora-Regular, LovedbytheKing,
+LoveYaLikeASister, Mako-Regular, MarckScript-Regular, Marvel-Bold,
+Marvel-BoldItalic, Marvel-Italic, Marvel-Regular, Mate-Italic, Mate-Regular,
+MateSC-Regular, MavenPro-Black, MavenPro-Bold, MavenPro-Medium,
+MavenPro-Regular, Meddon, MedievalSharp, Megrim, MeriendaOne-Regular,
+Merriweather-Black, Merriweather-Bold, Merriweather-Light,
+Merriweather-Regular, Metal, Metrophobic, Miama-Regular, Michroma,
+Miltonian-Regular, MiltonianTattoo-Regular, ModernAntiqua-Regular,
+Molengo-Regular, Monofett, Monoton-Regular, Moul, Moulpali, Muli-Italic,
+Muli-Light, Muli-LightItalic, Muli-Regular, NanumBrushScript-Regular,
+NanumGothic-Bold, NanumGothic-ExtraBold, NanumGothic-Regular,
+NanumGothicCoding-Bold, NanumGothicCoding-Regular, NanumMyeongjo-Bold,
+NanumMyeongjo-ExtraBold, NanumMyeongjo-Regular, NanumPenScript-Regular,
+Neucha, Neuton-Bold, Neuton-ExtraBold, Neuton-ExtraLight, Neuton-Italic,
+Neuton-Light, Neuton-Regular, NeutonCursive-Regular, NewsCycle-Regular,
+NixieOne, nobile_bold_italic, nobile_bold, nobile_italic,
+nobile_medium_italic, nobile_medium, nobile, NosiferCaps-Regular,
+NothingYouCouldDo, NovaCut, NovaFlat, NovaMono, NovaOval, NovaRound,
+NovaScript, NovaSlim, NovaSquare, Numans-Regular, Nunito-Bold, Nunito-Light,
+Nunito-Regular, OdorMeanChey, OFLGoudyStMTT-Italic, OFLGoudyStMTT,
+OldStandard-Bold, OldStandard-Italic, OldStandard-Regular, Orbitron-Black,
+Orbitron-Bold, Orbitron-Medium, Orbitron-Regular, Oswald, OvertheRainbow,
+Ovo-Regular, Pacifico, PasseroOne-Regular, PatrickHand-Regular, PaytoneOne,
+Pecita, Petrona-Regular, Philosopher-Bold, Philosopher-BoldItalic,
+Philosopher-Italic, Philosopher-Regular, PinyonScript-Regular, Play-Bold,
+Play-Regular, PlayfairDisplay-Italic, PlayfairDisplay-Regular,
+Podkova-Regular, PollerOne, Poly-Italic, Poly-Regular, Pompiere-Regular,
+Prata-Regular, Preahvihear, Prociono-Regular, PT_Sans-Caption-Web-Bold,
+PT_Sans-Caption-Web-Regular, PT_Sans-Narrow-Web-Bold,
+PT_Sans-Narrow-Web-Regular, PT_Sans-Web-Bold, PT_Sans-Web-BoldItalic,
+PT_Sans-Web-Italic, PT_Sans-Web-Regular, PT_Serif-Caption-Web-Italic,
+PT_Serif-Caption-Web-Regular, PT_Serif-Web-Bold, PT_Serif-Web-BoldItalic,
+PT_Serif-Web-Italic, PT_Serif-Web-Regular, Puritan-Bold, Puritan-BoldItalic,
+Puritan-Italic, Puritan-Regular, Quattrocento-Regular,
+QuattrocentoSans-Regular, Questrial-Regular, Quicksand-Bold,
+Quicksand-BoldItalic, Quicksand-Italic, Quicksand-Light,
+Quicksand-LightItalic, Quicksand-Regular, Radley-Regular, Raleway-Thin,
+RammettoOne-Regular, Rationale-Regular, ReenieBeanie, Rokkitt-Bold,
+Rokkitt-Light, Rokkitt-Regular, Rosario-Italic, Rosario-Regular,
+RuslanDisplay, Salsa-Regular, Sancreek-Regular, SansitaOne,
+ScheherazadeRegOT, ShadowsIntoLight, Shanti-Regular, ShortStack-Regular,
+Siemreap, SigmarOne, Signika-Bold, Signika-Light, Signika-Regular,
+Signika-Semibold, SignikaNegative-Bold, SignikaNegative-Light,
+SignikaNegative-Regular, SignikaNegative-Semibold, SixCaps, Smythe-Regular,
+Sniglet-Regular, Snippet, SortsMillGoudy-Italic, SortsMillGoudy-Regular,
+Spinnaker-Regular, Spiral-Regular, StardosStencil-Bold,
+StardosStencil-Regular, SueEllenFrancisco, SupermercadoOne-Regular,
+Suwannaphum, SwankyandMooMoo, Tangerine_Bold, Tangerine_Regular, Taprom,
+TenorSans-Regular, TerminalDosis-Bold, TerminalDosis-ExtraBold,
+TerminalDosis-ExtraLight, TerminalDosis-Light, TerminalDosis-Medium,
+TerminalDosis-Regular, TerminalDosis-SemiBold, Thabit-Bold,
+Thabit-BoldOblique, Thabit-Oblique, Thabit, TheGirlNextDoor, Tienne-Bold,
+Tienne-Heavy, Tienne-Regular, Tinos-Bold, Tinos-BoldItalic, Tinos-Italic,
+Tinos-Regular, Tuffy-Bold, Tuffy-BoldItalic, Tuffy-Italic, Tuffy-Regular,
+TulpenOne-Regular, UnifrakturCook-Bold, UnifrakturMaguntia-Book,
+Unna-Regular, Varela-Regular, VarelaRound-Regular, VastShadow-Regular,
+Vibur-Regular, Vidaloka-Regular, Volkhov-Bold, Volkhov-BoldItalic,
+Volkhov-Italic, Volkhov-Regular, Vollkorn-Bold, Vollkorn-BoldItalic,
+Vollkorn-Italic, Vollkorn-Regular, Voltaire-Regular, VT323,
+WaitingfortheSunrise, Wallpoet-Regular, WireOne, YanoneKaffeesatz-Bold,
+YanoneKaffeesatz-Light, YanoneKaffeesatz-Regular, YanoneKaffeesatz-Thin,
+YesevaOne, Zeyada
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+March 09 2012 (Dave Crossland)  Averia Guesa Libre version 1.001
+- Renamed GWF to Libre
+
+Feb 24 2012 (Dave Crossland)  Averia Guesa GWF version 1.001
+- Minor metadata corrections for GWF release
+
+13 Nov 2011 (Dan Sayers) Averia Serif GWF version 1.00
+- First public release
+- Kerning is based on averaged kerning pairs from source fonts
+- Included glyphs are those available in over half the source fonts
+- No hinting is included in this version.
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications
+be sure to add your name (N), email (E), web-address (W) and description
+(D). This list is sorted by last name in alphabetical order.)
+
+N: Dan Sayers
+E: i@iotic.com
+W: http://iotic.com/
+D: Original Programmer and Creator
+
+For more information please visit the Avería page on the iotic website:
+http://iotic.com/averia/
+
+Or send an email to <i AT iotic DOT com>

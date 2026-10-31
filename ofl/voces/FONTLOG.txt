@@ -1,0 +1,65 @@
+FONTLOG for Voces font
+
+This file provides detailed information on the 
+Voces Font Software.
+
+This information should be distributed along with 
+the Voces fonts and any derivative works.
+
+Basic Font Information
+
+Voces is a new graphic solution for the glyphs of the 
+International Phonetic Alphabet (IPA), considering the 
+specific use-case of bilingual dictionaries. For this 
+purpose, the typeface was conceived as a sans serif with
+gradual strokes, generous counterforms, a large "x" height, 
+and short ascenders and descenders. These features attempt 
+to solve the problems of spatial economy and print 
+fidelity that dictionary typesetting presents. Ink traps 
+were applied with consideration for the aesthetic and 
+functional requirements. Voces was selected for exhibition 
+in Tipos Latinos 2010.
+
+Voces is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1, Latin Extended A, IPA
+
+To contribute to the project contact Ana Paula Megda
+and Pablo Ugerman at info@ugrdesign.com.ar
+
+ChangeLog
+
+13 June 2017 (Marc Foley) Voces v1.100
+- Fixed bug #223
+- Updated font to comply with latest GF spec
+
+15 Dec 2015 (Dave Crossland) Voces v1.002
+- Updated nbsp glyph advanceWidth to match space
+
+10 Feb 2012 (Ana Paula Megda & Pablo Ugerman) Voces v1.001
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Ana Paula Megda
+E: anapbm@gmail.com
+W: www.anamegda.com
+D: Typographer and graphic designer
+
+
+N: Pablo Ugerman
+E: info@ugrdesign.com.ar
+W: www.ugrdesign.com.ar
+D: Typographer and graphic designer
+
+N: Marc Foley
+E: m.foley.88@gmail.com
+W: www.mfoley.uk
+D: Engineer

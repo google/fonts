@@ -1,0 +1,94 @@
+This is the FONTLOG file for the ModernAntiqua Font.
+
+
+This file provides detailed information on the Modern Antiqua 
+Font Software. This information should be distributed along 
+with the ModernAntiqua fonts and any derivative works.
+
+
+Basic Font Information
+
+Modern Antiqua Font is a Unicode typeface family that supports 
+all languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+Modern Antiqua is published at http://openfontlibrary.org 
+and http://www.google.com/webfonts
+
+Modern Antiqua is created with FontForge.
+
+More specifically, this release supports the following 
+Unicode ranges:
+
+ - Controls and Basic Latin - 0000-007F (all)
+
+ - Latin 1 - 0080-00FF (all)
+
+ - Latin A - 0100-017F (all)
+
+ - Latin B - 0192, 01E4, 01E5, 0218-021B
+
+ - Greek - 0394, 03A0, 03A3, 03A9, 03BC, 03C0
+
+ - General Punctuation - 2010-2015, 2017-2027, 2030, 2032-2037,
+                         2039, 203A, 2043, 2044
+
+ - Currency Symbols - 20AC
+
+ - Letterlike Symbols - 2105, 2113, 2122, 2126, 212E
+
+ - Mathematical Operators - 2202, 2206, 2207, 220F-2212, 
+                            2215, 2217-221B, 221E, 2248, 
+                            2260, 2261, 2264, 2265
+
+ - Geometric Shapes - 25CA
+
+This release contains:
+
+ - ModernAntiqua.ttf - the font
+ - src/ModernAntiqua.sfd - original SFD
+ - src/ModernAntiqua-TTF.sfd - SFD used to build TTF with FontForge
+ - FONTLOG.txt - this document
+ - OFL.txt - official license text
+ - ModernAntiqua.png - the PNG demo
+
+
+ChangeLog
+
+7 July 2011 Dave Crossland (dave@understandingfonts.com) Modern Antiqua Version 1.0.1
+- Hinting, vertical metrics and other metadata changes
+
+18 Feb 2011 wmk69 (wmk69@o2.pl) ModernAntiqua Version 1.0
+- Initial release
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D).
+
+
+
+
+History
+
+This is another of my old fonts used to inscriptions on stone.
+I created the ModernAntiqua font about 14-15 years ago (like other fonts - when
+I started doing the inscriptions on stone professionally).
+The font is based on Roman square capitals. 
+Initially the font contained only capitals and digits. Later I made missing
+small fonts and some basical signs.
+Last year I started convert my fonts to the TTF files. The first was NovaCut
+and all the Nova family, next MedievalSharp, and here's another...
+
+- 18 Feb 2011 wmk69 (wmk69@o2.pl)
+
+I have modified the font to follow the Google Web Fonts vertical
+metrics guidelines, and added 'magic' hinting settings. You can read
+more about this here:
+
+http://code.google.com/p/googlefontdirectory/wiki/VerticalMetricsRecommendations
+
+http://code.google.com/p/googlefontdirectory/wiki/HowToGenerateWebNativeFonts
+
+- 7 July 2011 Dave Crossland (dave@understandingfonts.com)

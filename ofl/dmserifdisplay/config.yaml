@@ -1,0 +1,23 @@
+# Override config.yaml for ofl/dmserifdisplay
+#
+# The upstream dm-fonts repo has no gftools-builder config for the Serif
+# families; they were compiled in 2019 with Serif/Source/build.sh (plain
+# `fontmake -g <file> -i -o ttf`). This override declares the static,
+# single-master Glyphs sources so the family resolves a build target. The
+# pinned commit (027cea4e) is unchanged — the google/fonts binaries came from
+# Serif/Exports/DMSerifDisplay-{Regular,Italic}.ttf at that commit.
+#
+# It replaces the previous, incorrect METADATA `config_yaml: "Sans/Source/config.yaml"`,
+# which pointed at the DM Sans config (a different family) and did not even
+# exist at commit 027cea4e.
+#
+# NOTE: at 027cea4e these 2019-era .glyphs declare three axes (wght, CONT, SERF)
+# via a legacy "Axes" custom parameter while each file is a single master, which
+# current glyphsLib cannot convert (see upstream_info.md "Build blocker"). The
+# recipe below is the correct best-effort build; it will succeed once the
+# sources are modernized upstream.
+sources:
+  - Serif/Source/DeepMindDisplay-Roman.glyphs
+  - Serif/Source/DeepMindDisplay-Italic.glyphs
+familyName: DM Serif Display
+buildVariable: false

@@ -19,6 +19,16 @@ primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/yoondesign/yoonfont-Gamjaflower"
-  commit: "c31c8953af3fc0dca946e82e5196c9dacfe7a3b3"
+  repository_url: "https://github.com/googlefonts/gamjaflower"
+  commit: "c98981a4f463a583f619d53b419678c6bc1fb7d9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GamjaFlower-Regular.ttf"
+    dest_file: "GamjaFlower-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

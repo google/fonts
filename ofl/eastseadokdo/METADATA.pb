@@ -19,6 +19,16 @@ primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/yoondesign/Yoonfont-KoreaDokdo"
-  commit: "1bc4d9ec41e5159a839e58a349fa2e88799e93bc"
+  repository_url: "https://github.com/googlefonts/eastseadokdo"
+  commit: "7826832c41f58f84cc819f5c4353ad989db69b49"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/EastSeaDokdo-Regular.ttf"
+    dest_file: "EastSeaDokdo-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

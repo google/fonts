@@ -19,6 +19,16 @@ primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/1020tj/Gugi"
-  commit: "7aa7f4c408a5b63e6f58a22c90eed13993f1cdae"
+  repository_url: "https://github.com/googlefonts/gugi"
+  commit: "cb3b662a31375df2083eb5522e4123194e8ebe1b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Gugi-Regular.ttf"
+    dest_file: "Gugi-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

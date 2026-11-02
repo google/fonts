@@ -18,3 +18,17 @@ subsets: "menu"
 primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/googlefonts/cutefont"
+  commit: "759c5c5d251f5f9f70d0f3e509057cd8d03f7630"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CuteFont-Regular.ttf"
+    dest_file: "CuteFont-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
+}

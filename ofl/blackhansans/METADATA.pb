@@ -20,6 +20,16 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 
 source {
-  repository_url: "https://github.com/zesstype/Black-Han-Sans"
-  commit: "8809d5944fbf6aa2cd99158cb7ab55629058348a"
+  repository_url: "https://github.com/googlefonts/blackhansans"
+  commit: "41b7d933d1c5d9c570f9f2a71affc5c2f8142818"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BlackHanSans-Regular.ttf"
+    dest_file: "BlackHanSans-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

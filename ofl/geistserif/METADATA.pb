@@ -1,5 +1,5 @@
 name: "Geist Serif"
-designer: "Andrés Briganti, Mark Davis, Guillermo Rauch"
+designer: "Andrés Briganti, Mark Davis, Evil Rabbit, Guillermo Rauch"
 license: "OFL"
 category: "SERIF"
 date_added: "2026-11-03"

@@ -25,6 +25,20 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/magra"
+  commit: "f884305229b5887dc113d4432be51aa0176df026"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Magra-Bold.ttf"
+    dest_file: "Magra-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Magra-Regular.ttf"
+    dest_file: "Magra-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-08-31"
 source {
-  repository_url: "https://github.com/librefonts/abrilfatface"
-  commit: "5e899bfd997c34d1c2bd43ca9f94d2d0ded6346f"
+  repository_url: "https://github.com/googlefonts/abrilfatface"
+  commit: "9d1486e10152a225e46f9d1f787410d7d269015e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AbrilFatface-Regular.ttf"
+    dest_file: "AbrilFatface-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

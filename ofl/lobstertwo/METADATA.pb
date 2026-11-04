@@ -44,6 +44,28 @@ subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/lobstertwo"
+  commit: "8cf8dff7f78b624e51452cf065d0dd20fc4aa6d1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/LobsterTwo-Bold.ttf"
+    dest_file: "LobsterTwo-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LobsterTwo-BoldItalic.ttf"
+    dest_file: "LobsterTwo-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LobsterTwo-Italic.ttf"
+    dest_file: "LobsterTwo-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LobsterTwo-Regular.ttf"
+    dest_file: "LobsterTwo-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -43,6 +43,28 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/share"
+  commit: "b66729eb3a13ac188dd70ba6f47eafcc4362170c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Share-Bold.ttf"
+    dest_file: "Share-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Share-BoldItalic.ttf"
+    dest_file: "Share-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Share-Italic.ttf"
+    dest_file: "Share-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Share-Regular.ttf"
+    dest_file: "Share-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

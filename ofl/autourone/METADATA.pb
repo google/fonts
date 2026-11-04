@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2012-05-15"
 source {
-  repository_url: "https://github.com/librefonts/autourone"
-  commit: "10ccd1eb5ad3e7088ce2dd099debff0ac08daf1c"
+  repository_url: "https://github.com/googlefonts/autourone"
+  commit: "2773d8996d23617e284fcad81a8b396f2f098696"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AutourOne-Regular.ttf"
+    dest_file: "AutourOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

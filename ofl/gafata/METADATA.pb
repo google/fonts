@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/gafata"
-  commit: "dcd42b72333486b9704c2d3736e3c26b0346cb67"
+  repository_url: "https://github.com/googlefonts/gafata"
+  commit: "d3a34e7cacb38c4cde02605a7f1d8168e6cfd32a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Gafata-Regular.ttf"
+    dest_file: "Gafata-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

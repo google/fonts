@@ -4,6 +4,9 @@ script: "Latn"
 name: "Yanomamö"
 region: "VE"
 region: "BR"
+exemplar_chars {
+  base: "A E F H I J K M N O P R S T U W Y Ã Ẽ Ə Ĩ Ɨ Õ Ũ a e f h i j k m n o p r s t u w y ã ẽ ə ĩ ɨ õ ũ"
+}
 sample_text {
   masthead_full: "KkÕõ"
   masthead_partial: "Mm"

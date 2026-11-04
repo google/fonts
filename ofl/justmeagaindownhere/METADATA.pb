@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/justmeagaindownhere"
-  commit: "63543cec6964e5061ece828c63948d1910e0dbdd"
+  repository_url: "https://github.com/googlefonts/justmeagaindownhere"
+  commit: "bc6529922d3d9ced792726d687ed7c613a25c6f3"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/JustMeAgainDownHere-Regular.ttf"
+    dest_file: "JustMeAgainDownHere.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

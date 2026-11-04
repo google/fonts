@@ -1,52 +1,27 @@
-# Investigation Report: Caudex
+# Caudex
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| **Family Name** | Caudex |
-| **Designer** | Nidud (Hjort Nidudsson) |
-| **License** | OFL |
-| **Date Added** | 2011-05-18 |
-| **Repository URL** | https://github.com/librefonts/caudex |
-| **Commit Hash** | `901fb15160f96cb5a2b91e48a6d89d9c18c6f6d5` |
-| **Branch** | master |
-| **Config YAML** | N/A |
-| **Status** | missing_config (SFD-only sources) |
+## Initial state
 
-## How URL Was Found
+Google Fonts shipped Caudex (Regular, Bold, Italic and BoldItalic) built from FontForge SFD sources at https://github.com/librefonts/caudex. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-The repository URL `https://github.com/librefonts/caudex` is a well-known librefonts archive repository. The cached clone at `upstream_repos/fontc_crater_cache/librefonts/caudex/` confirms the remote URL matches. The repo contains TTX decompositions and SFD sources from the original font.
+## Actions taken
 
-## How Commit Was Determined
+- The canonical FontForge SFD sources were converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/caudex, building the fonts with gftools-builder3 + fontc.
+- Two duplicate glyphs (Ldot/ldot, defined twice in the SFDs, canonical + a PUA copy) were renamed Ldot.1/ldot.1, matching the canonical Google Fonts pipeline; this also avoids a fontc scheduler hang on duplicate glyph names.
+- An OS/2 WeightClass override (700) was added to Bold and BoldItalic.
+- The build was verified against the shipped binaries.
 
-The upstream repository has only a single commit:
-- `901fb15160f96cb5a2b91e48a6d89d9c18c6f6d5` - "update .travis.yml"
+## Final state
 
-Since there is only one commit in the entire repository, this is the only possible commit to reference. The librefonts archive was created as a snapshot of existing fonts, so this single commit represents the complete state of the project.
-
-## Config YAML Status
-
-**No config.yaml exists and none is possible.** The upstream repo contains only SFD (FontForge Spline Font Database) source files:
-- `src/Caudex-Regular.sfd`
-- `src/Caudex-Italic.sfd`
-- `src/Caudex-Bold.sfd`
-- `src/Caudex-BoldItalic.sfd`
-
-SFD is a FontForge-native format that is not compatible with gftools-builder. Building from these sources would require FontForge, not the standard Google Fonts build toolchain.
+The source now lives at https://github.com/googlefonts/caudex (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional parity with the shipped binaries.
 
 ## Verification
 
-- **Repository accessible**: Yes, cached at `upstream_repos/fontc_crater_cache/librefonts/caudex/`
-- **Commit exists**: Yes, it is the only commit in the repo
-- **Font file history in google/fonts**: The TTF files were part of the initial commit (`90abd17b4`) and were never updated (the only other touch was the large deploy restructure `76adaf1d2` which reorganized the repo but did not change font binaries)
-- **No override config.yaml** exists in `google/fonts/ofl/caudex/`
-- **METADATA.pb** does not have a source block
+cmap, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS features and advances match the shipped binaries. The build classifies the Latin combining marks in GDEF, which the older ufo2ft-built shipped binary left unclassified; Caudex has no mark-positioning GPOS feature, so this is inert and the build is simply more correct.
 
-## Confidence Level
+## Original repository (dormant)
 
-**HIGH** - The repository URL and commit are unambiguous. Single commit repo, SFD-only sources. The status of "missing_config" is correct but expected since SFD sources cannot use gftools-builder.
-
-## Open Questions
-
-None. This is a legacy font with SFD-only sources. A config.yaml would only be possible if the font were to be converted to a gftools-builder-compatible format (e.g., .glyphs or .ufo).
+The original FontForge sources are at https://github.com/librefonts/caudex (`.sfd`), latest at commit `901fb15160f96cb5a2b91e48a6d89d9c18c6f6d5`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

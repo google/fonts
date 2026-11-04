@@ -4,6 +4,9 @@ script: "Latn"
 name: "Toba"
 region: "AR"
 region: "PY"
+exemplar_chars {
+  base: "A B C D E G H I J L M N O Ñ T U V X Y Ỹ a b c d e g h i j l m n o ñ t u v x y ỹ \'"
+}
 sample_text {
   masthead_full: "EeNn"
   masthead_partial: "Aa"

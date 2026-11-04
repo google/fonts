@@ -32,6 +32,7 @@ def _ParseFontChars(path):
     @return list of characters
     """
     from fontTools.ttLib import TTFont
+
     font = TTFont(path, lazy=True)
     cmap = font["cmap"].getBestCmap()
     font.close()
@@ -57,13 +58,14 @@ def SupportedLanguages(font_path, languages=None):
 
     supported = []
     for lang in languages.values():
-        if not lang.HasField('exemplar_chars') or \
-           not lang.exemplar_chars.HasField('base'):
+        if not lang.HasField("exemplar_chars") or not lang.exemplar_chars.HasField(
+            "base"
+        ):
             continue
 
-        base = hyperglot_parse.parse_chars(lang.exemplar_chars.base,
-                                           decompose=False,
-                                           retainDecomposed=False)
+        base = hyperglot_parse.parse_chars(
+            lang.exemplar_chars.base, decompose=False, retainDecomposed=False
+        )
         if set(base).issubset(chars):
             supported.append(lang)
 
@@ -72,7 +74,8 @@ def SupportedLanguages(font_path, languages=None):
 
 def portable_path(p):
     import os
-    return os.path.join(*p.split('/'))
+
+    return os.path.join(*p.split("/"))
 
 
 def TEST_FILE(f):
@@ -80,8 +83,8 @@ def TEST_FILE(f):
 
 
 def test_SupportedLanguages():
-    font = TEST_FILE('nunito/Nunito-Regular.ttf')
+    font = TEST_FILE("nunito/Nunito-Regular.ttf")
     supported = SupportedLanguages(font)
     langs = [supported[i].name for i, _ in enumerate(supported)]
     assert len(langs) == 225
-    assert 'Lithuanian' in langs
+    assert "Lithuanian" in langs

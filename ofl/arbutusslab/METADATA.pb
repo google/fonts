@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2012-09-18"
 source {
-  repository_url: "https://github.com/librefonts/arbutusslab"
-  commit: "2988f79c4d6965ef9fa35768ca00f02cddd5a50a"
+  repository_url: "https://github.com/googlefonts/arbutusslab"
+  commit: "17c26d3b3abd75c24119a0fc87dd491ece7c2af5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ArbutusSlab-Regular.ttf"
+    dest_file: "ArbutusSlab-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

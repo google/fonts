@@ -1,0 +1,13 @@
+# JITT based on https://github.com/Gissio/font_Tiny5
+tag: "JITT"
+display_name: "Jitter"
+min_value: 0
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0.00
+}
+fallback_only: false
+description: "Controls the amount of jitter applied to the glyphs. Higher values emulate the mechanical imperfection and displacement of vintage printers."

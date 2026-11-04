@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/esteban"
-  commit: "35e274d49210b9c8a7864689b48d6156e6be6bbf"
+  repository_url: "https://github.com/googlefonts/esteban"
+  commit: "c268b4f87279884fe0765e8d40eb65e0d17621ef"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Esteban-Regular.ttf"
+    dest_file: "Esteban-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

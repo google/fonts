@@ -53,6 +53,5 @@ source {
   branch: "master"
   config_yaml: "sources/config.yml"
 }
-primary_script: "Cher"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

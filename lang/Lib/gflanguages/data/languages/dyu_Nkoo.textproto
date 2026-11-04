@@ -3,3 +3,7 @@ language: "dyu"
 script: "Nkoo"
 name: "Dyula (N’Ko)"
 region: "CI"
+exemplar_chars {
+  base: "ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ"
+  marks: "◌߫ ◌߬ ◌߭ ◌߮ ◌߯ ◌߰ ◌߱"
+}

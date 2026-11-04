@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/acme"
-  commit: "fa0a4445feb570b5cfc7ce4b8f6dbacc6ae5ad73"
+  repository_url: "https://github.com/googlefonts/acme"
+  commit: "33ccde2d61442c1f6c09125ba26fe4ff0ccee834"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Acme-Regular.ttf"
+    dest_file: "Acme-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

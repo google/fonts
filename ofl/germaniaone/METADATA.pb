@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/germaniaone"
-  commit: "73d401d495adf37b1af75a5dca9cb5cdb046b05d"
+  repository_url: "https://github.com/googlefonts/germaniaone"
+  commit: "fea6803846d3270d2fde56a8678004cf67841852"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GermaniaOne-Regular.ttf"
+    dest_file: "GermaniaOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

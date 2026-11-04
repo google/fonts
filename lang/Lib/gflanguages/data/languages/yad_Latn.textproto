@@ -4,6 +4,9 @@ script: "Latn"
 name: "Yagua"
 region: "CO"
 region: "PE"
+exemplar_chars {
+  base: "A C D Č E H I J Ɨ K M N O P R S T U W Y Á É Í Ï Ó Ú a c d č e h i j ɨ k m n o p r s t u w y á é í ï ó ú"
+}
 sample_text {
   masthead_full: "NnEe"
   masthead_partial: "Ss"

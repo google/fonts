@@ -3,6 +3,10 @@ language: "top"
 script: "Latn"
 name: "Totonac, Papantla"
 region: "MX"
+exemplar_chars {
+  base: "A C E I J K L M N O P R S T U W X Y a c e i j k l m n o p r s t u w x y \'"
+  marks: "◌́"
+}
 sample_text {
   masthead_full: "WwAa"
   masthead_partial: "Kk"

@@ -1,0 +1,63 @@
+name: '🔀 Gemini Dispatch'
+
+on:
+  issues:
+    types:
+      - 'opened'
+      - 'reopened'
+
+defaults:
+  run:
+    shell: 'bash'
+
+jobs:
+  dispatch:
+    # Only on open/reopen
+    if: |-
+      (
+        github.event_name == 'issues' &&
+        contains(fromJSON('["opened", "reopened"]'), github.event.action)
+      )
+    runs-on: 'ubuntu-latest'
+    permissions:
+      contents: 'read'
+      issues: 'write'
+    outputs:
+      command: '${{ steps.extract_command.outputs.command }}'
+      issue_number: '${{ github.event.issue.number }}'
+    steps:
+      - name: 'Mint identity token'
+        id: 'mint_identity_token'
+        if: |-
+          ${{ vars.APP_ID }}
+        uses: 'actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf' # ratchet:actions/create-github-app-token@v2
+        with:
+          app-id: '${{ vars.APP_ID }}'
+          private-key: '${{ secrets.APP_PRIVATE_KEY }}'
+          permission-contents: 'read'
+          permission-issues: 'write'
+
+      - name: 'Extract command'
+        id: 'extract_command'
+        uses: 'actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea' # ratchet:actions/github-script@v7
+        env:
+          EVENT_TYPE: '${{ github.event_name }}.${{ github.event.action }}'
+        with:
+          script: |
+            const eventType = process.env.EVENT_TYPE;
+            if (['issues.opened', 'issues.reopened'].includes(eventType)) {
+              core.setOutput('command', 'triage');
+            } else {
+              core.setOutput('command', 'fallthrough');
+            }
+
+  triage:
+    needs: 'dispatch'
+    if: |-
+      ${{ needs.dispatch.outputs.command == 'triage' }}
+    uses: './.github/workflows/gemini-triage-font.yml'
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+      issues: 'write'
+    secrets: 'inherit'

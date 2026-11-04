@@ -17,6 +17,16 @@ subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/dorsa"
-  commit: "90d5bffc5b005be8d3f7728ccb9aae3deaae1c23"
+  repository_url: "https://github.com/googlefonts/dorsa"
+  commit: "3d21216a5f3d62b466464dd6c7fbcb945ab67144"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Dorsa-Regular.ttf"
+    dest_file: "Dorsa-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

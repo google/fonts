@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/almendrasc"
-  commit: "35906cd6a26df27bef8081669638fbae0382c7fc"
+  repository_url: "https://github.com/googlefonts/almendrasc"
+  commit: "1b444171b7021e5d011427d7404387cf31bd88fc"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AlmendraSC-Regular.ttf"
+    dest_file: "AlmendraSC-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

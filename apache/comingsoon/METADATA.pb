@@ -15,6 +15,16 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/librefonts/comingsoon"
-  commit: "27c886594addb8deb44976ee37f829f2c8253a9d"
+  repository_url: "https://github.com/googlefonts/comingsoon"
+  commit: "f371c8c2992f239ccb7c4bacc4a07476ab8f7936"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ComingSoon-Regular.ttf"
+    dest_file: "ComingSoon-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

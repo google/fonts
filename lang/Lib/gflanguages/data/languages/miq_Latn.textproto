@@ -4,6 +4,9 @@ script: "Latn"
 name: "Mískito"
 region: "HN"
 region: "NI"
+exemplar_chars {
+  base: "A B D H I J K L M N O P R S T U W Z Â Î Í a b d h i j k l m n o p r s t u w z â î í"
+}
 sample_text {
   masthead_full: "UuPp"
   masthead_partial: "Ll"

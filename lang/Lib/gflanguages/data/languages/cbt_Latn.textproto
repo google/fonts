@@ -3,6 +3,9 @@ language: "cbt"
 script: "Latn"
 name: "Chayahuita"
 region: "PE"
+exemplar_chars {
+  base: "A H I U K M N P R S T W Ɨ Č Š a h i u k m n p r s t w ɨ č š"
+}
 sample_text {
   masthead_full: "YyAa"
   masthead_partial: "Ii"

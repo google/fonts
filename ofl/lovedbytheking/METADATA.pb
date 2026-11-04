@@ -17,6 +17,16 @@ subsets: "latin"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/lovedbytheking"
+  commit: "0ccebbea77c0f1354689fb8a0c6ae2c10be94f2e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/LovedbytheKing-Regular.ttf"
+    dest_file: "LovedbytheKing.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

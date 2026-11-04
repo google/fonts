@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/armata"
-  commit: "fbbc7c2575fe310df0450aaa721ee4e860b03a0e"
+  repository_url: "https://github.com/googlefonts/armata"
+  commit: "8594fe9afcf0f561d1150067067ddca7e44e91c9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Armata-Regular.ttf"
+    dest_file: "Armata-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

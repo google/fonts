@@ -1,8 +1,8 @@
 /// Utility functions for name table handling.
 use std::collections::HashSet;
 
-use fontations::skrifa::{string::StringId, FontRef, MetadataProvider};
-use fontations::write::tables::name::NameRecord;
+use skrifa::{string::StringId, FontRef, MetadataProvider};
+use write_fonts::tables::name::NameRecord;
 
 pub(crate) fn get_best_name(font: &FontRef, ids: &[StringId]) -> Option<String> {
     for id in ids {

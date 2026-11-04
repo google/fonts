@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-05-09"
 source {
-  repository_url: "https://github.com/librefonts/bubblerone"
-  commit: "be2343608e5751bca73956b02860a1758e1e29a7"
+  repository_url: "https://github.com/googlefonts/bubblerone"
+  commit: "340ec8e1db5757ed5255633684a491769e8025de"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BubblerOne-Regular.ttf"
+    dest_file: "BubblerOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

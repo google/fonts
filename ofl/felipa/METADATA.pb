@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/felipa"
-  commit: "3489dd2445fc633f3b32485420d9c56998fad093"
+  repository_url: "https://github.com/googlefonts/felipa"
+  commit: "43b2f5ee04fe88c90359d44ec195e13be4d0eab1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Felipa-Regular.ttf"
+    dest_file: "Felipa-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

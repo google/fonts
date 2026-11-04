@@ -3,6 +3,9 @@ language: "ura"
 script: "Latn"
 name: "Urarina"
 region: "PE"
+exemplar_chars {
+  base: "A B C D E F I K L M N O P R S T U Y Ǫ Ʉ a b c d e f i k l m n o p r s t u y ǫ ʉ"
+}
 sample_text {
   masthead_full: "IiTt"
   masthead_partial: "Aa"

@@ -4,6 +4,9 @@ script: "Latn"
 name: "Waorani"
 region: "EC"
 region: "PE"
+exemplar_chars {
+  base: "A B D E G I K M N O P R S T W Y Ã Ẽ Ĩ Õ Ñ a b d e g i k m n o p r s t w y ã ẽ ĩ õ ñ"
+}
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Mm"

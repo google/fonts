@@ -116,6 +116,7 @@ Here is a list of 3rd party directories:
 * <https://www.fontcomparer.com>
 * <https://fontbog.com>
 * <https://arcoty.pe>
+* <https://fontastic.space>
 
 There are also handcrafted directories with rich samples:
 

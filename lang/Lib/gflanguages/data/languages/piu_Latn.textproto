@@ -3,6 +3,9 @@ language: "piu"
 script: "Latn"
 name: "Pintupi-Luritja"
 region: "AU"
+exemplar_chars {
+  base: "A I K L M N P R T U W Y a i k l m n p r t u w y"
+}
 sample_text {
   masthead_full: "NnGg"
   masthead_partial: "Aa"

@@ -4,6 +4,9 @@ script: "Latn"
 name: "Ashéninka Perené"
 population: 7100
 region: "PE"
+exemplar_chars {
+  base: "A C E I J K M N Ñ O P R S T W Y Z a c e i j k m n ñ o p r s t w y z"
+}
 sample_text {
   masthead_full: "YyUu"
   masthead_partial: "Dd"

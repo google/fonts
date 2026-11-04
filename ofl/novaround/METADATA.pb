@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/novaround"
+  commit: "8f84b5459db7787af0eb60a7326006a2fef7c061"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/NovaRound-Regular.ttf"
+    dest_file: "NovaRound.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

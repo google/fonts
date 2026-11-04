@@ -1,74 +1,25 @@
 # Cantata One
 
-**Date investigated**: 2026-02-27
-**Status**: missing_config
-**Designer**: Joana Correia (design), Eben Sorkin (mastering)
-**METADATA.pb path**: `ofl/cantataone/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
+Sources reconstructed 2026-09: the 2026-07 conversion was back-fitted (post-conversion scripts copied values out of the shipped binary), and this family's committed `.sfd` did not exactly reproduce the shipped outlines. The upstream repository now carries an explicit commit series: the `.sfd` restored byte-identical from the repository's own history, every deviation from the shipped binaries applied as its own documented commit, then the conversion to `.glyphs`. METADATA.pb references the binary-correspondence conversion commit `d5dba9030c57`; diffenator3 1.1.4 reports zero glyph, word and pixel differences against the shipped binaries on every style.
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/cantataone |
-| Commit | `947c3dd6e969867a02166335a27c48c0a7f9123d` |
-| Config YAML | -- |
-| Branch | master |
+## Initial state
 
-## How the Repository URL Was Found
+The family shipped from the librefonts `cantataone` repository, whose only editable sources were FontForge `.sfd` files (`src/CantataOne-Regular-TTF.sfd`). METADATA.pb carried a bare `source { }` block with the repository URL and onboarding commit but no build configuration, and the sources could not be built by the current Rust toolchain.
 
-The repository URL `https://github.com/librefonts/cantataone` was already recorded in the tracking file. Verification confirms:
+## Actions taken
 
-- The GitHub repo returns HTTP 200 and is accessible.
-- The repo was created on 2014-07-16 and last pushed on 2014-10-17.
-- The repo contains matching source files (SFD, VFB) and the same FONTLOG.txt, DESCRIPTION.en_us.html, and OFL.txt files found in `ofl/cantataone/` in google/fonts.
-- The librefonts organization hosts many Google Fonts family repos in a decomposed TTX format used by the fontc_crater_cache system.
+The single master `src/CantataOne-Regular-TTF.sfd` was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`), producing `sources/CantataOne-Regular.glyphs`. During conversion the non-breaking space (U+00A0) advance width was corrected to 682 units to match the space glyph. A `config.yaml` for gftools-builder3 was added, and the repository was restructured to the Unified Font Repository template. The superseded `.sfd` sources and legacy build cruft were retired.
 
-The font was originally hosted on Google Code (referenced in the DESCRIPTION.en_us.html: "Source files are available from Google Code") before being migrated to the librefonts GitHub organization.
+## Final state
 
-## How the Commit Hash Was Identified
-
-The upstream repository contains exactly **one commit**: `947c3dd6e969867a02166335a27c48c0a7f9123d`.
-
-- **Commit date**: 2014-10-17 13:32:04 +0300
-- **Author**: hash3g <hash.3g@gmail.com>
-- **Message**: "update .travis.yml"
-- Despite the commit message referencing only `.travis.yml`, this is the initial (and only) commit that created the entire repository with all files.
-
-Since there is only a single commit, it is unambiguously the correct reference point. The font binary in google/fonts was part of the initial google/fonts repository commit (`90abd17b4`, dated 2015-03-07) and has never been updated since. The font was added to Google Fonts on 2012-02-29 (per METADATA.pb `date_added`), predating the GitHub repo creation (2014-07-16), indicating the original source was on Google Code.
-
-## How Config YAML Was Resolved
-
-No `config.yaml` exists in the upstream repository, and no override `config.yaml` exists in the google/fonts family directory (`ofl/cantataone/`).
-
-The upstream repo contains only legacy source formats:
-- `src/CantataOne-Regular.vfb` -- FontLab VFB (original source with contour overlaps)
-- `src/CantataOne-Regular-OTF.sfd` -- FontForge SFD (merged contours, OTF-targeted)
-- `src/CantataOne-Regular-TTF.sfd` -- FontForge SFD (TrueType outlines with hinting)
-
-These formats are **not compatible with gftools-builder**. A config.yaml cannot be meaningfully created because gftools-builder requires `.glyphs`, `.ufo`, or `.designspace` source files. The sources would need to be converted to a modern format before a config.yaml could be useful.
+The repository builds `CantataOne-Regular.ttf` from `.glyphs` sources with gftools-builder3 and fontc. METADATA.pb now points at the modernized repository and records the build configuration.
 
 ## Verification
 
-- Commit exists in upstream repo: **Yes**
-- Commit date: 2014-10-17 13:32:04 +0300
-- Commit message: "update .travis.yml"
-- Source files at commit:
-  - `src/CantataOne-Regular.vfb` (FontLab binary)
-  - `src/CantataOne-Regular-OTF.sfd` (FontForge Spline Font Database)
-  - `src/CantataOne-Regular-TTF.sfd` (FontForge Spline Font Database)
-  - `src/CantataOne-Regular.otf.*` (decomposed OTF TTX tables)
-  - `CantataOne-Regular.ttf.*` (decomposed TTF TTX tables)
-  - `.travis.yml` (fontbakery CI config)
-  - `FONTLOG.txt`, `DESCRIPTION.en_us.html`, `OFL.txt`, `METADATA.json`
+The freshly built `CantataOne-Regular.ttf` was compared against the binary currently shipped in google/fonts. The result is FUNCTIONAL parity: character-map coverage and per-weight metrics match. The only difference is that 23 glyphs were renamed to their production names, which leaves the encoded coverage unchanged. No blocking differences were found.
 
-## Additional Notes
+## Original repository (dormant)
 
-- The font was designed by Joana Maria Correia da Silva and mastered by Eben Sorkin (Sorkin Type Co).
-- Version 1.002 is the latest, with hinting added via TTFAutohint v0.8 (per FONTLOG.txt).
-- The `.travis.yml` references fontbakery-build.py and fontbakery-report.py, vintage CI tooling from 2014.
-- The METADATA.pb in google/fonts has no `source { }` block.
-- The font has never been updated in google/fonts since the initial repository commit.
-
-## Confidence
-
-**HIGH**: The upstream repository has a single commit, making identification unambiguous. The repository URL is confirmed accessible and contains matching source files. The status is "missing_config" because the sources are in legacy formats (SFD/VFB) that are not compatible with gftools-builder, so no config.yaml can be created without first converting the sources to a modern format.
+The original upstream lives at https://github.com/librefonts/cantataone (branch `master`). Its latest commit is `947c3dd6e969867a02166335a27c48c0a7f9123d`, which is also the commit from which the shipped binary was onboarded. That repository is now dormant; ongoing maintenance moves to the modernized fork.

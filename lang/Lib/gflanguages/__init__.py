@@ -19,13 +19,20 @@
 Helper API for interaction with languages/regions/scripts
 data on the Google Fonts collection.
 """
+
 import glob
 import os
 import unicodedata
 import sys
 
-from gflanguages import languages_public_pb2
-from google.protobuf import text_format
+from gfmetadata import (
+    text_format,
+    LanguageProto,
+    ScriptProto,
+    RegionProto,
+    SampleTextProto,
+    ExemplarCharsProto,
+)
 
 if sys.version_info < (3, 10):
     from importlib_resources import files
@@ -61,15 +68,15 @@ def _load_thing(thing_type, proto_class, base_dir=None):
 
 
 def LoadLanguages(base_dir=None):
-    return _load_thing("languages", languages_public_pb2.LanguageProto, base_dir)
+    return _load_thing("languages", LanguageProto, base_dir)
 
 
 def LoadScripts(base_dir=None):
-    return _load_thing("scripts", languages_public_pb2.ScriptProto, base_dir)
+    return _load_thing("scripts", ScriptProto, base_dir)
 
 
 def LoadRegions(base_dir=None):
-    return _load_thing("regions", languages_public_pb2.RegionProto, base_dir)
+    return _load_thing("regions", RegionProto, base_dir)
 
 
 def parse(exemplars: str):

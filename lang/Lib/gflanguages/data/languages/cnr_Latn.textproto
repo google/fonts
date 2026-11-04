@@ -1,0 +1,28 @@
+id: "cnr_Latn"
+language: "cnr"
+script: "Latn"
+name: "Montenegrin (Latin)"
+autonym: "crnogorski"
+population: 215000
+region: "ME"
+exemplar_chars {
+  base: "A B C Č Ć D {DŽ} Đ E F G H I J K L {LJ} M N {NJ} O P R S Š Ś T U V Z Ž Ź a b c č ć d {dž} đ e f g h i j k l {lj} m n {nj} o p r s š ś t u v z ž ź"
+  auxiliary: "q w x y"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – , ; : ! ? . … ‘ ‚ “ „ ( ) [ ] { } * #"
+  index: "A B C Č Ć D {DŽ} E F G H I J K L {LJ} M N {NJ} O P Q R S Š Ś T U V W X Y Z Ž Ź"
+}
+sample_text {
+  masthead_full: "CcŹź"
+  masthead_partial: "Aa"
+  styles: "Pošto je priznavanje urođenog dostojanstva"
+  tester: "Pošto je nepoštovanje i preziranje ljudskih prava vodilo varvarskim"
+  poster_sm: "pošto je bitno"
+  poster_md: "pošto je"
+  poster_lg: "Sva"
+  specimen_48: "Pošto su narodi Ujedinjenih nacija u Povelji ponovo"
+  specimen_36: "Pošto je opšte razumijevanje ovih prava i sloboda od najveće važnosti za puno ostvarenje ove obaveze;"
+  specimen_32: "Sva ljudska bića rađaju se slobodna i jednaka u dostojanstvu i pravima. Ona su obdarena razumom i savješću i jedni prema drugima treba da postupaju u duhu bratstva."
+  specimen_21: "Pošto je priznavanje urođenog dostojanstva i jednakih i neotuđivih prava svih članova ljudske porodice temelj slobode, pravde i mira u svijetu;\nPošto je nepoštovanje i preziranje ljudskih prava vodilo varvarskim postupcima, koji su vrijeđali savjest čovječanstva, i pošto je stvaranje svijeta u kojem će ljudska bića uživati slobodu govora i uvjerenja i slobodu od straha i želje proglašeno kao najviša težnja;"
+  specimen_16: "Pošto je priznavanje urođenog dostojanstva i jednakih i neotuđivih prava svih članova ljudske porodice temelj slobode, pravde i mira u svijetu;\nPošto je nepoštovanje i preziranje ljudskih prava vodilo varvarskim postupcima, koji su vrijeđali savjest čovječanstva, i pošto je stvaranje svijeta u kojem će ljudska bića uživati slobodu govora i uvjerenja i slobodu od straha i želje proglašeno kao najviša težnja;\nPošto je od krucijalne važnosti da ljudska prava budu zaštićena pravnim poretkom kako čovjek ne bi bio primoran da kao krajnjem izlazu pribjegne pobuni protiv tiranije i ugnjetavanja;"
+}

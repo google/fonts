@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2010-12-07"
 source {
-  repository_url: "https://github.com/librefonts/coveredbyyourgrace"
-  commit: "eca9fdc2d5ae964ff4838cb850b215d9ea703801"
+  repository_url: "https://github.com/googlefonts/coveredbyyourgrace"
+  commit: "ec5beabb11b92f63abd716bac8d181b763bc366e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CoveredByYourGrace-Regular.ttf"
+    dest_file: "CoveredByYourGrace.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  commit: "5620f4744158d400ba1286612d14d49c43597033"
-  repository_url: "https://github.com/librefonts/inder"
+  repository_url: "https://github.com/googlefonts/inder"
+  commit: "0021128e5c59fff5b5df39abf96267d089922311"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Inder-Regular.ttf"
+    dest_file: "Inder-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

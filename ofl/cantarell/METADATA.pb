@@ -43,6 +43,28 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/davelab6/cantarell"
-  commit: "52d3363878871c868eaeb64c75a701c1193750af"
+  repository_url: "https://github.com/googlefonts/cantarell"
+  commit: "1684004f92b47dbaa3ee7db870091d4d66c5dd8a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Cantarell-Bold.ttf"
+    dest_file: "Cantarell-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cantarell-BoldItalic.ttf"
+    dest_file: "Cantarell-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cantarell-Italic.ttf"
+    dest_file: "Cantarell-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cantarell-Regular.ttf"
+    dest_file: "Cantarell-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

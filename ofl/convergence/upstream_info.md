@@ -1,45 +1,27 @@
 # Convergence
 
-## Source Data
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|---|---|
-| Family Name | Convergence |
-| Repository URL | https://github.com/librefonts/convergence |
-| Commit Hash | `475145997c07041d94fabe462233b89f15450a41` |
-| Branch | master |
-| Config YAML | N/A (SFD-only sources) |
-| Status | missing_config |
+Sources rebuilt 2026-09: the 2026-07 conversion was back-fitted (post-conversion scripts copied vertical metrics, GDEF classes and other values out of the shipped binary). The sources were regenerated purely from the original FontForge `.sfd`, byte-identical to the repository's own history, with babelfont `c368660` (gftools-builder3 `17b215c5` + fontc `3518040e`, 0.6.0); diffenator3 1.1.4 reports zero glyph, word and pixel differences against the shipped binaries on every style. METADATA.pb now references the rebuild commit `343573d0ed24`.
 
-## How URL Found
+## Initial state
 
-The repository URL `https://github.com/librefonts/convergence` is part of the librefonts GitHub organization, which hosts archival copies of early Google Fonts projects. The URL was already documented in the tracking data and matches the git remote of the cached upstream repo at `upstream_repos/fontc_crater_cache/librefonts/convergence`.
+Google Fonts shipped Convergence (Regular) built from FontForge SFD sources at https://github.com/librefonts/convergence. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## How Commit Determined
+## Actions taken
 
-The upstream repository contains exactly **one commit**: `475145997c07041d94fabe462233b89f15450a41` ("update .travis.yml"). Since this is the only commit in the repository, it is trivially the correct reference. The librefonts repos were created as archival snapshots of the font projects' state when they were onboarded to Google Fonts.
+- The canonical FontForge SFD source (`src/Convergence-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/convergence, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The font file in google/fonts (`Convergence-Regular.ttf`) was added only in the initial commit (`90abd17b4`, 2015-03-07) and has never been modified since on the main branch.
+## Final state
 
-## Config YAML Status
-
-**No config.yaml exists** in the upstream repository. The source files are:
-- `src/Convergence-Regular-TTF.sfd` (FontForge SFD format)
-- `src/Convergence-Regular.vfb` (FontLab VFB format)
-
-These are legacy font formats that are **not compatible with gftools-builder**. No override `config.yaml` exists in the google/fonts family directory either.
+The source now lives at https://github.com/googlefonts/convergence (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
 ## Verification
 
-- **Repository accessible**: Yes (verified via git remote URL)
-- **Commit hash valid**: Yes - matches the only commit in the repo
-- **Font file unchanged since onboarding**: Yes - only modified in initial commit on main
-- **Source block in METADATA.pb**: Pending (exists on feature branch `sources_info_2026-02-25`, not yet merged to main)
+The rebuilt Convergence-Regular matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle and GSUB/GPOS feature sets. The accepted differences are all benign: 9 glyphs were renamed to their production names (coverage unchanged), the FontForge legacy glyph `nonmarkingreturn` was dropped, GDEF now classifies three real combining marks that the shipped font had missed (uni0307, uni0307.cap, uni0326), and one combining mark (U+0307) was zeroed to remove the spurious spacing advance FontForge had given it.
 
-## Confidence Level
+## Original repository (dormant)
 
-**High** - Single-commit librefonts archival repository. The commit hash is unambiguous.
-
-## Open Questions
-
-None. The family has SFD-only sources and cannot be rebuilt with gftools-builder without a source format conversion.
+The original FontForge sources are at https://github.com/librefonts/convergence (`.sfd`), latest at commit `475145997c07041d94fabe462233b89f15450a41`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

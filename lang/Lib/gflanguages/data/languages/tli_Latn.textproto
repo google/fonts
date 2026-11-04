@@ -5,3 +5,7 @@ name: "Tlingit"
 population: 170
 region: "CA"
 region: "US"
+exemplar_chars {
+  base: ". ʼ A Á C D E É G {G̱} H I Í J K Ḵ L M N O Ó S T U Ú W X {X̱} Y Ÿ Z a á c d e é g {g̱} h i í j k ḵ l m n o ó s t u ú w x {x̱} y ÿ z"
+  auxiliary: "’ Â À B Ê È F Î Ì Ḻ Ṉ Ô Ò {O̱} {Ó̱} {Ô̱} {Ò̱} P Q R Û Ù {W̃} {Ỹ} â à b ê f î ì ḻ ṉ ô ò {o̱} {ó̱} {ô̱} {ò̱} p q r û ù {w̃} {ỹ}"
+}

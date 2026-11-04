@@ -1,42 +1,25 @@
 # Dorsa
 
-**Date investigated**: 2026-02-27
-**Status**: missing_config
-**Designer**: Santiago Orozco
-**METADATA.pb path**: `ofl/dorsa/METADATA.pb`
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-## Source Data
+## Initial state
 
-| Field | Value |
-|-------|-------|
-| Repository URL | https://github.com/librefonts/dorsa |
-| Commit | `90d5bffc5b005be8d3f7728ccb9aae3deaae1c23` |
-| Config YAML | -- |
-| Branch | master |
+Google Fonts shipped Dorsa (Regular) built from FontForge SFD sources at https://github.com/librefonts/dorsa. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## How the Repository URL Was Found
+## Actions taken
 
-The upstream repository is located at https://github.com/librefonts/dorsa (HTTP 200 verified). This was found by checking the existing clone at `upstream_repos/fontc_crater_cache/librefonts/dorsa`, whose git remote points to this URL. The librefonts GitHub organization was used to host source files for many early Google Fonts families. The METADATA.pb currently has no `source {}` block or `repository_url` field.
+- The canonical FontForge SFD source was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- A new Unified Font Repository was created at https://github.com/googlefonts/dorsa, building the fonts with gftools-builder3 + fontc.
+- The build was verified against the shipped binaries.
 
-## How the Commit Hash Was Identified
+## Final state
 
-The upstream repository contains exactly one commit: `90d5bffc5b005be8d3f7728ccb9aae3deaae1c23` (2014-10-17, by hash3g, message: "update .travis.yml"). This is the initial and only commit in the repository, which imported the SFD source, TTX decomposition files, METADATA.json, DESCRIPTION, OFL license, and a Travis CI configuration. Since there is only one commit, it is trivially the correct reference point for the complete state of the upstream source.
-
-Note that the font was originally added to Google Fonts on 2011-08-31 (per `dateAdded` in METADATA.pb), well before this upstream repo was created in October 2014. The SFD file's internal timestamps show creation on 2011-05-19 and last modification on 2011-09-04. The librefonts repo was created as a retroactive archive of the font sources, not as a development repository.
-
-## How Config YAML Was Resolved
-
-No `config.yaml` exists in the upstream repository, and no override `config.yaml` exists in the `google/fonts/ofl/dorsa/` directory. The only source file is an SFD (FontForge Spline Font Database) file: `src/Dorsa-Regular-TTF.sfd`. SFD files are not compatible with gftools-builder, which requires `.glyphs`, `.ufo`, or `.designspace` sources. Therefore, no config.yaml can be meaningfully created for this family without first converting the sources to a compatible format.
-
-The Travis CI configuration (`.travis.yml`) shows the font was built using `fontbakery-build.py`, an older build pipeline that predates gftools-builder.
+The source now lives at https://github.com/googlefonts/dorsa (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at strict functional equivalence with the shipped binaries.
 
 ## Verification
 
-- Commit exists in upstream repo: Yes
-- Commit date: 2014-10-17 13:35:02 +0300
-- Commit message: "update .travis.yml"
-- Source files at commit: `src/Dorsa-Regular-TTF.sfd`, `src/METADATA_comments.txt`, `src/VERSIONS.txt`, plus TTX decomposition files, DESCRIPTION.en_us.html, METADATA.json, OFL.txt, .travis.yml
+Identical to the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths.
 
-## Confidence
+## Original repository (dormant)
 
-**HIGH**: The upstream repository at librefonts/dorsa is the canonical source archive for this font. It has only a single commit containing the complete SFD source, making commit identification unambiguous. The font copyright matches between the SFD file, METADATA.pb, and METADATA.json (Santiago Orozco, 2011). The repository URL is verified accessible. The only limitation is the lack of gftools-builder-compatible sources (SFD only), which means no config.yaml can be provided.
+The original FontForge sources are at https://github.com/librefonts/dorsa (`.sfd`), latest at commit `90d5bffc5b005be8d3f7728ccb9aae3deaae1c23`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-30"
 source {
-  repository_url: "https://github.com/librefonts/aguafinascript"
-  commit: "45a8ce768b4cca138c10ff7a7a9f55778fd02c9d"
+  repository_url: "https://github.com/googlefonts/aguafinascript"
+  commit: "723ec37b4f2657506b004f6db007c482f3a8af02"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AguafinaScript-Regular.ttf"
+    dest_file: "AguafinaScript-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

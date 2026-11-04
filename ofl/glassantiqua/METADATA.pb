@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/glassantiqua"
-  commit: "ccc1839b05e9827b7f3a1439d089952908cd0334"
+  repository_url: "https://github.com/googlefonts/glassantiqua"
+  commit: "b1c269f4671ac3926d35635dd6d87db0945dd9d8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GlassAntiqua-Regular.ttf"
+    dest_file: "GlassAntiqua-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

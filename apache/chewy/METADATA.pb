@@ -15,6 +15,16 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/librefonts/chewy"
-  commit: "7fae11600a5c13c94a0780ec22ae5309264c43d0"
+  repository_url: "https://github.com/googlefonts/chewy"
+  commit: "5e436e35405525b4f3b5d808dc6f809ed1edb093"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Chewy-Regular.ttf"
+    dest_file: "Chewy-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

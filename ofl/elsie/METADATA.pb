@@ -25,8 +25,22 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/librefonts/elsie"
-  commit: "9734e9ff1331292fc07ec198d4e5b35216fdd425"
+  repository_url: "https://github.com/googlefonts/elsie"
+  commit: "5dc3946767fc57b80f3aec071dc15d5bff1fe491"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Elsie-Black.ttf"
+    dest_file: "Elsie-Black.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Elsie-Regular.ttf"
+    dest_file: "Elsie-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

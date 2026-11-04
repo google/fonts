@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/breeserif"
-  commit: "86684a17aaa88ce2d9d85d77f9e9ce1f64c06462"
+  repository_url: "https://github.com/googlefonts/breeserif"
+  commit: "31562b2b04ee21afb0c750ca2343fb761ae36dfb"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BreeSerif-Regular.ttf"
+    dest_file: "BreeSerif-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

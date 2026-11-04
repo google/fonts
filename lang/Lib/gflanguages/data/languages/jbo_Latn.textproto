@@ -3,6 +3,9 @@ language: "jbo"
 script: "Latn"
 name: "Lojban (Latin)"
 autonym: "lojban (Latin)"
+exemplar_chars {
+  base: "' , . A B C D E F G I J K L M N O P R S T U V X Y Z a b c d e f g i j k l m n o p r s t u v x y z"
+}
 sample_text {
   masthead_full: "RrOo"
   masthead_partial: "Ee"

@@ -27,6 +27,20 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/rufina"
+  commit: "256f968dc45215ed1f4ba81b9e2a405068d63c81"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Rufina-Bold.ttf"
+    dest_file: "Rufina-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Rufina-Regular.ttf"
+    dest_file: "Rufina-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

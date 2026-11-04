@@ -18,6 +18,16 @@ subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/euphoriascript"
-  commit: "c7606fae5a17e051d983269f008dba6e8f4c0c77"
+  repository_url: "https://github.com/googlefonts/euphoriascript"
+  commit: "5c641480f1c300fc9424db0fe888bf5cfc285e10"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/EuphoriaScript-Regular.ttf"
+    dest_file: "EuphoriaScript-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

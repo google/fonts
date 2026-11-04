@@ -2,7 +2,7 @@ from pprint import pprint
 
 from absl import app
 from absl import flags
-from gftools import knowledge_pb2
+from gfmetadata import knowledge_pb2
 from google.protobuf import text_format
 import itertools
 import mistune  # markdown => ast

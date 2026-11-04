@@ -26,6 +26,20 @@ subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/geo"
-  commit: "0d2a51963d3c6e52d7b8edc50a5d7b457bb1a663"
+  repository_url: "https://github.com/googlefonts/geo"
+  commit: "95c7f776abbeab9ccbb97d91ee68b1dfb72885f5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Geo-Oblique.ttf"
+    dest_file: "Geo-Oblique.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Geo-Regular.ttf"
+    dest_file: "Geo-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

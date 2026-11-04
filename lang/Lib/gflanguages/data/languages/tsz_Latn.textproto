@@ -3,6 +3,10 @@ language: "tsz"
 script: "Latn"
 name: "Purepecha"
 region: "MX"
+exemplar_chars {
+  base: "A B C D E G H I Ï J K M N O P R S T U X a b c d e g h i ï j k m n o p r s t u x \'"
+  marks: "◌́"
+}
 sample_text {
   masthead_full: "IiAa"
   masthead_partial: "Mm"

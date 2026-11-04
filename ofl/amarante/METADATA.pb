@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2012-07-10"
 source {
-  repository_url: "https://github.com/librefonts/amarante"
-  commit: "e5bd4a952443385746182ed5f729787c33ed04d3"
+  repository_url: "https://github.com/googlefonts/amarante"
+  commit: "0eda1ae2955c3b3a56da48abf1517afac0e8391f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Amarante-Regular.ttf"
+    dest_file: "Amarante-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

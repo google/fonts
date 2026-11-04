@@ -26,6 +26,20 @@ subsets: "latin"
 subsets: "latin-ext"
 
 source {
-  repository_url: "https://github.com/librefonts/lusitana"
-  commit: "8fa070c2ac2963f13feee142e2001777ac48e774"
+  repository_url: "https://github.com/googlefonts/lusitana"
+  commit: "cae968a717a2e73cdf7b76fac5c339d5e45cbf93"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Lusitana-Bold.ttf"
+    dest_file: "Lusitana-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lusitana-Regular.ttf"
+    dest_file: "Lusitana-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

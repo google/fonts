@@ -3,6 +3,9 @@ language: "toj"
 script: "Latn"
 name: "Tojolabal"
 region: "MX"
+exemplar_chars {
+  base: "A B C D E G I J K L M N O P R S T U W X Y Ꞌ a b c d e g i j k l m n o p r s t u w x y ꞌ"
+}
 sample_text {
   masthead_full: "SsPp"
   masthead_partial: "Ee"

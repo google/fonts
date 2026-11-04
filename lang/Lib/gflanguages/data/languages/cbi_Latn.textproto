@@ -3,6 +3,9 @@ language: "cbi"
 script: "Latn"
 name: "Chachi"
 region: "EC"
+exemplar_chars {
+  base: "A B C D E F G H I J L M N Ñ P R S T U V Y a b c d e f g h i j l m n ñ p r s t u v y \'"
+}
 sample_text {
   masthead_full: "NnAa"
   masthead_partial: "Jj"

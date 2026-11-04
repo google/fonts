@@ -3,6 +3,9 @@ language: "cak"
 script: "Latn"
 name: "Kaqchikel, Central"
 region: "GT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ"
+}
 sample_text {
   masthead_full: "KkOo"
   masthead_partial: "Nn"

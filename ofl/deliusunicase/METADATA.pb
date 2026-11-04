@@ -4,8 +4,22 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-10-12"
 source {
-  repository_url: "https://github.com/librefonts/deliusunicase"
-  commit: "cf094caecc96589701f341db1994fd10642e3c88"
+  repository_url: "https://github.com/googlefonts/deliusunicase"
+  commit: "b4e89d5702b05d66107280bc250f2502ac97b947"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DeliusUnicase-Bold.ttf"
+    dest_file: "DeliusUnicase-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/DeliusUnicase-Regular.ttf"
+    dest_file: "DeliusUnicase-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

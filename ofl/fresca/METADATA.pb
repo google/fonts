@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/fresca"
-  commit: "ca8ad60bad380c425ebe357ee8a3a71770a849b4"
+  repository_url: "https://github.com/googlefonts/fresca"
+  commit: "c21be75086b74f71a72e992977f05243c9c99ef3"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Fresca-Regular.ttf"
+    dest_file: "Fresca-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

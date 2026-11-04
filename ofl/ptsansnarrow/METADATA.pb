@@ -27,6 +27,20 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/ptsansnarrow"
+  commit: "ff02de9bb277e04d35751bac43e7df176f1382c8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PTSansNarrow-Bold.ttf"
+    dest_file: "PT_Sans-Narrow-Web-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/PTSansNarrow-Regular.ttf"
+    dest_file: "PT_Sans-Narrow-Web-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

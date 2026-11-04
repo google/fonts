@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-05-04"
 source {
-  repository_url: "https://github.com/librefonts/carterone"
-  commit: "9943144e585a736a95509a85b92fbf2bb29060c2"
+  repository_url: "https://github.com/googlefonts/carterone"
+  commit: "7055fdb03b89cff87481cd41dfee324ab89b5a7d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CarterOne-Regular.ttf"
+    dest_file: "CarterOne.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

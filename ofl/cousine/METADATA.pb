@@ -48,10 +48,31 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://www.github.com/googlefonts/cousine"
+  commit: "c0fbdb438443968c884a5c13f5f9bee916a7f89b"
+  archive_url: "https://github.com/googlefonts/cousine/releases/download/v1.241/cousine-v1.241.zip"
+  files {
+    source_file: "fonts/ttf/Cousine-Regular.ttf"
+    dest_file: "Cousine-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cousine-Italic.ttf"
+    dest_file: "Cousine-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cousine-Bold.ttf"
+    dest_file: "Cousine-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cousine-BoldItalic.ttf"
+    dest_file: "Cousine-BoldItalic.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
+}
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"
-
-source {
-  repository_url: "https://github.com/googlefonts/cousine"
-  commit: "57b3425e222c793b84b271db6f74e1ffb6582d12"
-}

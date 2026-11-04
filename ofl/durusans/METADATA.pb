@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/durusans"
-  commit: "2895eb6c9842f80c1e01bbf9fbb6231eaef66724"
+  repository_url: "https://github.com/googlefonts/durusans"
+  commit: "43875057a510192707f378af813ecd280b6bbc02"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DuruSans-Regular.ttf"
+    dest_file: "DuruSans-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

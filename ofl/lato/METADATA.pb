@@ -174,8 +174,86 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  commit: "080cb69711ca050d91e9c866e58df7a73095c69a"
-  repository_url: "https://github.com/googlefonts/LatoGFVersion"
+  repository_url: "https://github.com/googlefonts/lato"
+  commit: "3a099680152e3455ef6bc3eb4118ec5ef60e7e54"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-Black.ttf"
+    dest_file: "Lato-Black.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-BlackItalic.ttf"
+    dest_file: "Lato-BlackItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-Bold.ttf"
+    dest_file: "Lato-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-BoldItalic.ttf"
+    dest_file: "Lato-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-ExtraBold.ttf"
+    dest_file: "Lato-ExtraBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-ExtraBoldItalic.ttf"
+    dest_file: "Lato-ExtraBoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-ExtraLight.ttf"
+    dest_file: "Lato-ExtraLight.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-ExtraLightItalic.ttf"
+    dest_file: "Lato-ExtraLightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-Italic.ttf"
+    dest_file: "Lato-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-Light.ttf"
+    dest_file: "Lato-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-LightItalic.ttf"
+    dest_file: "Lato-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-Medium.ttf"
+    dest_file: "Lato-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-MediumItalic.ttf"
+    dest_file: "Lato-MediumItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-Regular.ttf"
+    dest_file: "Lato-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-SemiBold.ttf"
+    dest_file: "Lato-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-SemiBoldItalic.ttf"
+    dest_file: "Lato-SemiBoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-Thin.ttf"
+    dest_file: "Lato-Thin.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lato-ThinItalic.ttf"
+    dest_file: "Lato-ThinItalic.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 fallbacks {
   axis_target {

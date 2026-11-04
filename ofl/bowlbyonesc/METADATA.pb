@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-06"
 source {
-  repository_url: "https://github.com/librefonts/bowlbyonesc"
-  commit: "9566646d9feaafcdc1c23174931ac4599803442b"
+  repository_url: "https://github.com/googlefonts/bowlbyonesc"
+  commit: "7cdb4c893d50681fe94144c3de09a285f01f8845"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BowlbyOneSC-Regular.ttf"
+    dest_file: "BowlbyOneSC-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -10,14 +10,15 @@ fonts {
   filename: "Qahiri-Regular.ttf"
   post_script_name: "Qahiri-Regular"
   full_name: "Qahiri Regular"
-  copyright: "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri)."
+  copyright: "Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri)."
 }
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/alif-type/qahiri"
-  commit: "2fbfe8ca2e5ed04b0455e15c717774766f174ad1"
+  repository_url: "https://github.com/aliftype/qahiri"
+  commit: "964c2f87c703108cba828161f1c61797c9cf099e"
+  archive_url: "https://github.com/aliftype/qahiri/releases/download/v4.00/Qahiri-4.00.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,7 +29,6 @@ source {
   }
   branch: "main"
 }
-primary_script: "Arab"
 sample_text {
   masthead_full: "يولد"
   masthead_partial: "جم"
@@ -43,3 +43,4 @@ sample_text {
   specimen_21: "لكل شخص الحق في أن يلجأ إلى المحاكم الوطنية لإنصافه عن أعمال فيها اعتداء على الحقوق الأساسية التي يمنحها له القانون.\nلا يجوز القبض على أي إنسان أو حجزه أو نفيه تعسفا.\nلكل إنسان الحق، على قدم المساواة التامة مع الآخرين، في أن تنظر قضيته أمام محكمة مستقلة نزيهة نظرا عادلا علنيا للفصل في حقوقه والتزاماته وأية تهمة جنائية توجه له."
   specimen_16: "لا يعرض أحد لتدخل تعسفي في حياته الخاصة أو أسرته أو مسكنه أو مراسلاته أو لحملات على شرفه وسمعته. ولكل شخص الحق في حماية القانون من مثل هذا التدخل أو تلك الحملات.\nلكل شخص الحق في حرية التفكير والضمير والدين. ويشمل هذا الحق حرية تغيير ديانته أو عقيدته، وحرية الإعراب عنهما بالتعليم والممارسة وإقامة الشعائر ومراعاتها سواء أكان ذلك سرا أم مع الجماعة.\nلكل شخص الحق في حرية الرأي والتعبير. ويشمل هذا الحق حرية اعتناق الآراء دون أي تدخل، واستقاء الأنباء والأفكار وتلقيها وإذاعتها بأية وسيلة كانت دون تقيد بالحدود الجغرافية.\nلكل شخص بصفته عضوا في المجتمع الحق في الضمانة الاجتماعية وفي أن تحقق بوساطة المجهود القومي والتعاون الدولي وبما يتفق ونظم كل دولة ومواردها الحقوق الاقتصادية والاجتماعية والتربوية التي لا غنى عنها لكرامته وللنمو الحر لشخصيته."
 }
+primary_script: "Arab"

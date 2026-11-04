@@ -7,7 +7,7 @@ fonts {
   name: "Castoro"
   style: "normal"
   weight: 400
-  filename: "Castoro-Regular.ttf"
+  filename: "Castoro[wght].ttf"
   post_script_name: "Castoro-Regular"
   full_name: "Castoro Regular"
   copyright: "Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)"
@@ -16,7 +16,7 @@ fonts {
   name: "Castoro"
   style: "italic"
   weight: 400
-  filename: "Castoro-Italic.ttf"
+  filename: "Castoro-Italic[wght].ttf"
   post_script_name: "Castoro-Italic"
   full_name: "Castoro Italic"
   copyright: "Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)"
@@ -24,9 +24,14 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
 source {
   repository_url: "https://github.com/TiroTypeworks/Castoro"
-  commit: "58a386a96e522b6d47c566175c7ee799d4c8d14f"
+  commit: "4a1cb086e613f8a731229f78f4996982349e3f3b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -36,12 +41,12 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   files {
-    source_file: "fonts/Castoro/TTF/Castoro-Regular.ttf"
-    dest_file: "Castoro-Regular.ttf"
+    source_file: "googlefonts/fonts/variable/Castoro[wght].ttf"
+    dest_file: "Castoro[wght].ttf"
   }
   files {
-    source_file: "fonts/Castoro/TTF/Castoro-Italic.ttf"
-    dest_file: "Castoro-Italic.ttf"
+    source_file: "googlefonts/fonts/variable/Castoro-Italic[wght].ttf"
+    dest_file: "Castoro-Italic[wght].ttf"
   }
   branch: "master"
 }

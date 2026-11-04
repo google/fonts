@@ -42,6 +42,6 @@ for directory in list(glob(os.path.join(repo_path, "ofl", "*"))) + list(glob(os.
         )
     else:
         this_md["description"] = None
-    this_md["license"] = this_md["license"].lower()
+    this_md["license"] = this_md.get("license", "ofl").lower()
 
 print(json.dumps(metadata, indent=2, ensure_ascii=False))

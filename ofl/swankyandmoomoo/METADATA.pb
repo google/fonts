@@ -15,6 +15,16 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/swankyandmoomoo"
+  commit: "2a7b182ac1edaea442e548757e1c314f2d07aafe"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/SwankyandMooMoo-Regular.ttf"
+    dest_file: "SwankyandMooMoo.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

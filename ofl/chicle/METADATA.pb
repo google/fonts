@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-30"
 source {
-  repository_url: "https://github.com/librefonts/chicle"
-  commit: "4ee3e89dbbdcfc0d56f7e1e3cc3d2de009219502"
+  repository_url: "https://github.com/googlefonts/chicle"
+  commit: "07b8112c518449245b5c2c195c31f73cd993ab64"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Chicle-Regular.ttf"
+    dest_file: "Chicle-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

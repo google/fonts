@@ -1,16 +1,170 @@
-on:
-  push:
-    tags:
-      - "v*" # Push events to matching `v*` version srings. e.g. v1.0, v20.15.10
+name: Test, publish, release
 
-name: Create and Publish Release
+on:
+  - push
+  - pull_request
+
+
+env:
+  PROTOBUF_VERSION: "33.0"
 
 jobs:
-  build:
-    name: Build distribution
+  rust-test:
+    name: Rust Tests
     runs-on: ubuntu-latest
     permissions:
-        contents: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: dtolnay/rust-toolchain@stable
+        name: Set up Rust for caching
+      - name: Build
+        run: cargo build
+      - name: Run tests
+        run: |
+          cargo test --verbose --workspace 
+
+  rust-formatting:
+    name: Lint for formatting
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: dtolnay/rust-toolchain@stable
+        name: Set up Rust for caching
+        with:
+          components: rustfmt
+
+      - name: Lint for formatting
+        run: cargo fmt --all -- --check
+
+  rust-lint:
+    name: Lint for warnings
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: dtolnay/rust-toolchain@stable
+        name: Set up Rust for caching
+        with:
+          components: clippy
+      - name: Lint for warnings
+        run: cargo clippy --all-targets --all-features -- -D warnings
+
+  python-test:
+    name: Python Tests
+    runs-on: ${{ matrix.platform }}
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12", "3.13", "3.14"]
+        platform: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install packages
+        run: |
+          pip install '.[dev]'
+      - name: Run tests
+        run: |
+          pytest tests
+
+  python-black:
+    name: Python Black
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Set up Python 3.14
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.14
+      - name: Install packages
+        run: |
+          pip install black
+      - name: Check formatting with Black
+        run: |
+          black --check . --exclude '_pb2.py$'
+
+  create-github-release:
+    if: contains(github.ref, 'refs/tags/v')
+    name: Create GitHub Release
+    needs:
+      - python-test
+      - python-black
+      - rust-test
+      - rust-lint
+      - rust-formatting
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Get release notes
+        id: release_notes
+        run: |
+          # By default, GH Actions checkout will only fetch a single commit.
+          # For us to extract the release notes, we need to fetch the tags
+          # and tag annotations as well.
+          # https://github.com/actions/checkout/issues/290
+          git fetch --tags --force
+          TAG_NAME=${GITHUB_REF/refs\/tags\//}
+          echo "$(git tag -l --format='%(contents)' $TAG_NAME)" > "${{ runner.temp }}/CHANGELOG.md"
+
+      - name: Create GitHub release if needed
+        id: create_release
+        run: |
+          if ! gh release view ${GITHUB_REF_NAME}; then
+          git show -s --format=%B ${GITHUB_REF_NAME} | tail -n +4 | gh release create ${GITHUB_REF_NAME} -t ${GITHUB_REF_NAME} -F -
+          fi
+
+  publish-rust:
+    runs-on: ubuntu-latest
+    if: contains(github.ref, 'refs/tags/v')
+    needs: create-github-release
+    permissions:
+      contents: read
+    name: Publish Rust crate
+    steps:
+        - uses: actions/checkout@v3
+        - uses: dtolnay/rust-toolchain@stable
+        - run:
+            cargo publish ${{ env.CARGO_PUBLISH_ARGS }} --no-verify
+          env:
+              CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+
+  package-python:
+    name: Build Python distribution
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs:
+      - create-github-release
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,29 +180,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install --upgrade setuptools wheel build
 
-      - name: Get release notes
-        id: release_notes
-        run: |
-          # By default, GH Actions checkout will only fetch a single commit.
-          # For us to extract the release notes, we need to fetch the tags
-          # and tag annotations as well.
-          # https://github.com/actions/checkout/issues/290
-          git fetch --tags --force
-          TAG_NAME=${GITHUB_REF/refs\/tags\//}
-          echo "$(git tag -l --format='%(contents)' $TAG_NAME)" > "${{ runner.temp }}/CHANGELOG.md"
-
-      - name: Create GitHub release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: ${{ github.ref }}
-          body_path: "${{ runner.temp }}/CHANGELOG.md"
-          draft: false
-          prerelease: false
-
       - name: Build a binary wheel and a source tarball
         run: python3 -m build
       - name: Store the distribution packages
@@ -57,16 +188,16 @@ jobs:
           name: python-package-distributions
           path: dist/
 
-  publish-to-pypi:
+  publish-python:
     name: >-
       Publish Python 🐍 distribution 📦 to PyPI
     if: startsWith(github.ref, 'refs/tags/')  # only publish to PyPI on tag pushes
     needs:
-      - build
+      - package-python
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/gflanguages
+      url: https://pypi.org/p/gflanguages/
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
     steps:
@@ -81,27 +212,56 @@ jobs:
           # repository-url: https://test.pypi.org/legacy/ # for testing purposes
           verify-metadata: false # twine previously didn't verify metadata when uploading
 
-  rust:
-    name: Publish Rust 🦀 distribution 📦 to crates.io
+  upstream-subtree-merge:
+    name: >-
+      Update google/fonts with a new release of gflanguages
+    if: startsWith(github.ref, 'refs/tags/')  # only merge into upstream on tag pushes
+    needs:
+      - publish-python
+      - publish-rust
     runs-on: ubuntu-latest
     permissions:
-        contents: write
+      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout google/fonts
+        uses: actions/checkout@v3
         with:
-          submodules: recursive
+          repository: google/fonts
+          token: ${{ secrets.GOOGLE_FONTS_TOKEN }}
           fetch-depth: 0
-      - name: Set up Rust
 
-        uses: actions-rust-lang/setup-rust-toolchain@v1
-        
-      - name: Check tag name matches Cargo.toml version
-        run: |-
-          TAG_NAME=${GITHUB_REF/refs\/tags\/v/}
-          CARGO_VERSION=$(cargo pkgid | sed 's/.*@//')
-          if [ "$TAG_NAME" != "$CARGO_VERSION" ]; then
-            echo "Tag name ($TAG_NAME) does not match Cargo.toml version ($CARGO_VERSION)"
-            exit 1
-          fi
-      - name: Publish Rust distribution 📦 to crates.io
-        run: cargo publish --token "${{ secrets.CRATES_IO_API_TOKEN }}"
+      - name: Configure git
+        run: |
+          git config user.name "gflanguages-bot"
+          git config user.email "gflanguages-bot@github.com"
+
+      - name: Create branch
+        id: branch
+        run: |
+          TAG_NAME="${GITHUB_REF#refs/tags/}"
+          BRANCH_NAME="gflanguages-release-${TAG_NAME}"
+          git checkout -b "${BRANCH_NAME}"
+          echo "branch_name=${BRANCH_NAME}" >> "$GITHUB_OUTPUT"
+
+      - name: Subtree pull from gflanguages main
+        run: |
+          git subtree pull \
+            --prefix=lang \
+            https://github.com/googlefonts/gflanguages.git \
+            main
+
+      - name: Push branch to google/fonts
+        run: |
+          git push origin "${{ steps.branch.outputs.branch_name }}"
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GOOGLE_FONTS_TOKEN }}
+        run: |
+          TAG_NAME="${GITHUB_REF#refs/tags/}"
+          gh pr create \
+            --repo google/fonts \
+            --base main \
+            --head "${{ steps.branch.outputs.branch_name }}" \
+            --title "Update gflanguages to ${TAG_NAME}" \
+            --body "This PR updates the \`gflanguages\` subtree with the latest release ($TAG_NAME) from [googlefonts/gflanguages](https://github.com/googlefonts/gflanguages). **Important:** When merging, use the **\"Create a merge commit\"** button, **not** \"Squash and merge\", to preserve subtree history and avoid future merge conflicts."

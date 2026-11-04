@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-23"
 source {
-  repository_url: "https://github.com/librefonts/bubblegumsans"
-  commit: "fcf8bdd5e83b65186641b2b67fd957ff061666e3"
+  repository_url: "https://github.com/googlefonts/bubblegumsans"
+  commit: "a2d0062318639fe63f2a8ffd78fec793ee8e6248"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BubblegumSans-Regular.ttf"
+    dest_file: "BubblegumSans-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

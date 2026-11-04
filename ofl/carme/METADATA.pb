@@ -15,6 +15,16 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
-  repository_url: "https://github.com/librefonts/carme"
-  commit: "823391960931cedd0b9cb7caf0fcae71c4bd59ba"
+  repository_url: "https://github.com/googlefonts/carme"
+  commit: "bddcc27d905baa14d9736bb0483ab20b5acf5434"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Carme-Regular.ttf"
+    dest_file: "Carme-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

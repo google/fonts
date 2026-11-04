@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-12-13"
 source {
-  repository_url: "https://github.com/librefonts/balthazar"
-  commit: "baa08c6f633b0fda1a83141ce7515441c56e9868"
+  repository_url: "https://github.com/googlefonts/balthazar"
+  commit: "3aa1b5a856e450e64d0f9c088bc1d9dd40c74a50"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Balthazar-Regular.ttf"
+    dest_file: "Balthazar-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

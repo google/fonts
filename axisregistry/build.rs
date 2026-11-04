@@ -9,8 +9,9 @@ use std::{
 };
 
 fn main() {
-    let path = Path::new(&env::var("OUT_DIR").unwrap()).join("data.rs");
-    let mut file = BufWriter::new(File::create(path).unwrap());
+    let path =
+        Path::new(&env::var("OUT_DIR").expect("Couldn't find output directory")).join("data.rs");
+    let mut file = BufWriter::new(File::create(path).expect("Could not create output file"));
     let mut output = quote! { use std::collections::BTreeMap; use std::sync::LazyLock; };
 
     output.extend(serialize_a_structure(
@@ -31,7 +32,9 @@ fn serialize_a_structure(pathglob: &str, output_variable: &str) -> TokenStream {
         .expect("Failed to read glob pattern")
         .flatten()
         .collect();
-    let variable: TokenStream = output_variable.parse().unwrap();
+    let variable: TokenStream = output_variable
+        .parse()
+        .expect("Could not parse variable name");
     let mut gobbets = vec![];
     let mut names = vec![];
     let mut tags = vec![];
@@ -60,10 +63,13 @@ fn serialize_file(path: std::path::PathBuf) -> (TokenStream, TokenStream, String
         .unwrap_or_else(|_| panic!("Could not parse proto {}", path.display()));
     let name: TokenStream = format!("AXIS_{}", proto.tag().to_ascii_uppercase())
         .parse()
-        .unwrap();
+        .unwrap_or_else(|_| panic!("Could not parse variable name for {}", proto.tag()));
     // Resolve absolute path here
-    let path = std::fs::canonicalize(path).unwrap();
-    let path_as_string = path.to_str().unwrap();
+    let path = std::fs::canonicalize(path).expect("Could not canonicalize path");
+    let path_as_string = path
+        .to_str()
+        .expect("Could not convert path to string")
+        .to_string();
     let tag: String = proto.tag().to_string().parse().unwrap();
     let include_gobbet = quote! {
         const #name: &str = include_str!(#path_as_string);

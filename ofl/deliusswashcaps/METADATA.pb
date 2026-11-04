@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-08-03"
 source {
-  repository_url: "https://github.com/librefonts/deliusswashcaps"
-  commit: "a18d931eb4b66533df5df07d91e0851938a96121"
+  repository_url: "https://github.com/googlefonts/deliusswashcaps"
+  commit: "d5570948565c7ed27cfeaaf163cb3835f6742445"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DeliusSwashCaps-Regular.ttf"
+    dest_file: "DeliusSwashCaps-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

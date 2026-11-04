@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/novasquare"
+  commit: "1c1b71e3b6fd5b8de91c48cad0f07aef599580db"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/NovaSquare-Regular.ttf"
+    dest_file: "NovaSquare.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

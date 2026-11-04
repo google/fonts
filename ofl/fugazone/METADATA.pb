@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/fugazone"
-  commit: "d6fef0584e47767dc53d0144d0d41de77088184b"
+  repository_url: "https://github.com/googlefonts/fugazone"
+  commit: "a569b175e4b89e8915708a55c2796debdfe46aeb"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FugazOne-Regular.ttf"
+    dest_file: "FugazOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

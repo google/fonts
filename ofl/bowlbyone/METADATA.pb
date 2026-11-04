@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-13"
 source {
-  repository_url: "https://github.com/librefonts/bowlbyone"
-  commit: "3aca9b57cf9c7b9688b635d5dcfb6d53948e26a2"
+  repository_url: "https://github.com/googlefonts/bowlbyone"
+  commit: "8e8163e23a6573833332ef4f10b2c48d78be2c7b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BowlbyOne-Regular.ttf"
+    dest_file: "BowlbyOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

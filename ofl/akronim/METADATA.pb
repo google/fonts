@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/akronim"
-  commit: "9288ae0636d38a5b42002d6df8b5906c49fe9b1a"
+  repository_url: "https://github.com/googlefonts/akronim"
+  commit: "8ad7073228a094d5f4d4e9436719adab4992915d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Akronim-Regular.ttf"
+    dest_file: "Akronim-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

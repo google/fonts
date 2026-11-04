@@ -27,6 +27,20 @@ subsets: "menu"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/elsieswashcaps"
-  commit: "f48faa350a1a9641bd984b6945f791914a652c65"
+  repository_url: "https://github.com/googlefonts/elsieswashcaps"
+  commit: "2b557e85ca905af987167cea3c279fc7f51e15ed"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ElsieSwashCaps-Black.ttf"
+    dest_file: "ElsieSwashCaps-Black.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ElsieSwashCaps-Regular.ttf"
+    dest_file: "ElsieSwashCaps-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

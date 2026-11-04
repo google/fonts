@@ -17,6 +17,16 @@ subsets: "latin"
 subsets: "korean"
 primary_script: "Kore"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/nanumpenscript"
+  commit: "404860478f027e805535e22988a7823fc43d1848"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/NanumPen-Regular.ttf"
+    dest_file: "NanumPenScript-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/emblemaone"
-  commit: "65d5dad63686fcfc0c7e13ba2cb3143803d96bfe"
+  repository_url: "https://github.com/googlefonts/emblemaone"
+  commit: "70b9d48e6e1d27d74cc177bf7f12f958fe13dd28"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/EmblemaOne-Regular.ttf"
+    dest_file: "EmblemaOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

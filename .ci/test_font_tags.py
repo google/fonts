@@ -3,17 +3,26 @@ import json
 import requests
 import csv
 import os
+from collections import defaultdict
+from itertools import product
 
 @pytest.fixture
 def family_metadata():
-    data = requests.get("https://fonts.google.com/metadata/fonts").json()
-    return data["familyMetadataList"]
-
-
-@pytest.fixture
-def sb_family_metadata():
-    data = requests.get("https://fonts.sandbox.google.com/metadata/fonts").json()
-    return data["familyMetadataList"]
+    username = os.environ.get("SB_USERNAME")
+    password = os.environ.get("SB_PASSWORD")
+    if not username or not password:
+        # Pull requests from forks never receive repository secrets, so skip
+        # the metadata-based tests there instead of erroring.
+        pytest.skip(
+            "SB_USERNAME and SB_PASSWORD environment variables must be set "
+            "to access https://fonts.sandbox.google.com/metadata/fonts"
+        )
+    response = requests.get(
+        "https://fonts.sandbox.google.com/metadata/fonts",
+        auth=(username, password),
+    )
+    response.raise_for_status()
+    return response.json()["familyMetadataList"]
 
 
 @pytest.fixture
@@ -35,8 +44,11 @@ def tags_metadata():
     ).text
     reader = csv.reader(data.splitlines())
     res = []
-    for category, _, _, _ in reader:
-        res.append(category)
+    for row in reader:
+        # Skip blank lines and "# ..." comment lines
+        if not row or row[0].startswith("#"):
+            continue
+        res.append(row[0])
     return res
 
 
@@ -76,11 +88,30 @@ def test_no_duplicate_families(family_tags):
 
 
 def test_tag_vals_in_range(family_tags):
+    """Static tags must score 1-100. Variable tag positions may score 0 so a
+    tag can fade out across the designspace, but every variable tag must
+    score above 0 at some position. A tag that is 0 everywhere carries no
+    information and should be removed instead.
+    """
     out_of_range = []
+    vf_max = defaultdict(float)
     for family, axes, cat, val in family_tags:
-        if val <= 0 or val > 100:
+        if "@" in axes:
+            if val < 0 or val > 100:
+                out_of_range.append((family, axes, cat, val))
+            vf_max[(family, cat)] = max(vf_max[(family, cat)], val)
+        elif val <= 0 or val > 100:
             out_of_range.append((family, cat, val))
-    assert not out_of_range, f"Values out of range 1-100: {out_of_range}"
+    assert not out_of_range, (
+        f"Values out of range (static tags 1-100, variable positions 0-100): "
+        f"{out_of_range}"
+    )
+
+    all_zero = sorted(k for k, v in vf_max.items() if v <= 0)
+    assert not all_zero, (
+        "Variable tags that score 0 at every position, remove them instead: "
+        f"{all_zero}"
+    )
 
 
 def test_tags_for_unknown_families(family_tags, family_metadata):
@@ -92,3 +123,47 @@ def test_tags_for_unknown_families(family_tags, family_metadata):
     tagged_families = set(f[0] for f in family_tags)
     unknown_families = sorted(tagged_families - sb_families)
     assert not unknown_families, f"Unknown families found: {unknown_families}"
+
+
+def test_vf_tags_are_cross_product(family_tags):
+    """VF tag positions must form a complete cross product of their axis values.
+    Single axis needs min 2 positions, two axes need min 4, three need min 8, etc.
+    If a family+tag has wdth values {75, 125} and wght values {100, 400},
+    all 4 combinations must be present.
+    """
+    groups = defaultdict(list)
+    for family, axes, cat, val in family_tags:
+        if "@" in axes:
+            groups[(family, cat)].append(axes)
+
+    violations = []
+    for (family, cat), locs in groups.items():
+        axis_values = defaultdict(set)
+        parsed = []
+        for loc in locs:
+            parts = loc.split("@")
+            ax = parts[0].split(",")
+            vals = parts[1].split(",")
+            if len(ax) != len(vals):
+                violations.append(f"{family},{cat}: malformed axis entry '{loc}'")
+                continue
+            entry = dict(zip(ax, vals))
+            parsed.append(entry)
+            for a, v in entry.items():
+                axis_values[a].add(v)
+
+        axis_names = sorted(axis_values.keys())
+        value_lists = [sorted(axis_values[a]) for a in axis_names]
+        expected = {tuple(c) for c in product(*value_lists)}
+        actual = {tuple(e.get(a, "") for a in axis_names) for e in parsed}
+
+        missing = expected - actual
+        if missing:
+            for m in sorted(missing):
+                loc_str = ",".join(axis_names) + "@" + ",".join(m)
+                violations.append(f"{family},{cat}: missing position {loc_str}")
+
+    assert not violations, (
+        f"VF tags with incomplete cross product ({len(violations)} missing):\n"
+        + "\n".join(violations)
+    )

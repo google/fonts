@@ -4,8 +4,18 @@ license: "OFL"
 category: "SERIF"
 date_added: "2012-03-14"
 source {
-  repository_url: "https://github.com/librefonts/anticdidone"
-  commit: "604bfcda35327f03964cc6c55a281540ce40b0a0"
+  repository_url: "https://github.com/googlefonts/anticdidone"
+  commit: "078e3e73a45ea71a9b0b1b67e7df91ce0e0b2f9b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AnticDidone-Regular.ttf"
+    dest_file: "AnticDidone-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

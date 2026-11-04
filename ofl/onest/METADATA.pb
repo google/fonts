@@ -16,7 +16,10 @@ subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
+subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
@@ -24,7 +27,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/simpals/onest"
-  commit: "f18c06a14512e43a6191849278d6f07fdaf347d6"
+  commit: "8739b1910618a15335e4cc48842052d0ee739ade"
+  archive_url: "https://github.com/simpals/onest/releases/download/2.001/onest-2.001.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

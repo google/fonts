@@ -1,9 +1,68 @@
-# Quantico — Source Metadata Investigation
+# Quantico
+
+**Model**: Claude Opus 5.5
+**Date**: 2026-10-09
+
+Sources modernized 2026-10: the FontForge `.sfd` sources were converted to Glyphs
+(`.glyphs`) and build with gftools-builder and fontc. The repository, commit and config
+are in the `source { }` block of METADATA.pb.
+
+## Initial state
+
+Google Fonts shipped Quantico built from FontForge `.sfd` sources in the family's
+directory in the googlefontdirectory-hg monorepo
+(https://github.com/googlefonts/googlefontdirectory-hg, `ofl/quantico` at commit
+`52f780bc9d197280a9f430574e179a5f233c56b6`); it had no repository of its own. There was
+no source that builds with fontc. All 4 shipped binaries carry FontForge's `FFTM` table,
+so FontForge generated them. The directory also holds FontLab `.vfb` files; the `.sfd`
+is taken as the master because FontForge generated the shipped fonts and the build from
+the `.sfd` is functionally equivalent to them.
+
+## Actions taken
+
+- The family's files were imported unmodified as the first commit of
+  https://github.com/googlefonts/quantico.
+- The `.sfd` needed no change: it was converted exactly as the designer left it.
+- The `.sfd` was converted with babelfont-rs, using only filters that reproduce
+  FontForge's own export, as the last change to the font.
+- The build config was then updated in its own commit, with the build gated again:
+  productionNames: false replaces noProductionNames.
+- METADATA.pb recorded `072c8f63d1f2`, the conversion, until this update; `1a0cb1088929`
+  follows it and changes only the build config, so it is recorded now.
+
+## Final state
+
+The source is https://github.com/googlefonts/quantico at `1a0cb1088929`. Builds with
+gftools-builder (gftools-rust 1e638bd, fontc 1.0.0) and matches the binaries
+google/fonts 2eb0b48d5f76 ships: 0 blocking rows under tools/table_gate.py, exactly the
+release's codepoints, and functionally equivalent under tools/functional_gate.py (cmap,
+shaping, rendering, names, line spacing, advances, GDEF), 4 styles. Those tools:
+https://github.com/felipesanches/gf-source-modernization at `7706a8f`.
+
+`1a0cb1088929` is the equivalence commit: its build is functionally equivalent to the
+binaries Google Fonts ships. Source modernization adds no features. Where the shipped
+binaries differ from the source, the difference is reproduced by a documented commit
+before the conversion, never silently corrected. Any improvement is a later commit that
+needs its own QA, and is left as future work for an onboarder to review in a font-update
+PR.
+
+## Original repository (dormant)
+
+The source block this replaces, preserved for provenance:
+
+    source {
+      repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
+      commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+    }
+
+## Previous investigation
+
+## Quantico — Source Metadata Investigation
 
 **Model**: Claude Opus 4.6
 **Date**: 2026-03-12
 
-## Source Repository
+### Source Repository
 
 The `googlefontdirectory-hg` monorepo (the historical Google Font Directory Mercurial archive) contains files for this family.
 
@@ -11,7 +70,7 @@ The `googlefontdirectory-hg` monorepo (the historical Google Font Directory Merc
 - **Commit**: `52f780bc9d197280a9f430574e179a5f233c56b6`
 - **Source path**: `quantico/src/`
 
-## Source Files
+### Source Files
 
 The `quantico/src/` directory contains design sources in VFB (FontLab) and SFD (FontForge) formats, neither of which can be built with gftools-builder:
 
@@ -19,11 +78,11 @@ The `quantico/src/` directory contains design sources in VFB (FontLab) and SFD (
 - **SFD** (FontForge, not buildable with gftools-builder): Quantico-Bold-TTF.sfd, Quantico-BoldItalic-TTF.sfd, Quantico-Italic-TTF.sfd, Quantico-Regular-TTF.sfd
 - **OTF** (compiled binaries, not design sources): Quantico-Bold.otf, Quantico-BoldItalic.otf, Quantico-Italic.otf, Quantico-Regular.otf
 
-## Buildability
+### Buildability
 
 Not buildable with gftools-builder. The sources are in VFB (FontLab proprietary) and SFD (FontForge) formats. Neither format is supported by gftools-builder. Conversion to UFO or Glyphs format would be required.
 
-## Investigation Details
+### Investigation Details
 
 The following searches were performed:
 
@@ -35,7 +94,7 @@ The following searches were performed:
 
 No canonical upstream repository with font source files was found.
 
-## Notes
+### Notes
 
 - Designer: Matthew Desmond (MADType)
 - The FONTLOG lists only a single initial release in December 2011, with no modern build pipeline references

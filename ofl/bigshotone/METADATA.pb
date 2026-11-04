@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-05-04"
 source {
-  repository_url: "https://github.com/librefonts/bigshotone"
-  commit: "b8d1fa459ee9a43fbe1d7fd07b570878206bd6d5"
+  repository_url: "https://github.com/googlefonts/bigshotone"
+  commit: "f29b15c2cb862fd0f2cadbe1929dc0786ac87225"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BigshotOne-Regular.ttf"
+    dest_file: "BigshotOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

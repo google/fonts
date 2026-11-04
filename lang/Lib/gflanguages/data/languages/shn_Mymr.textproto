@@ -5,6 +5,10 @@ name: "Shan"
 population: 3687984
 region: "MM"
 region: "TH"
+exemplar_chars {
+  base: "ၵ ၶ င ၸ သ ၺ တ ထ ၼ ပ ၽ ၾ မ ယ ရ လ ဝ ႁ ဢ"
+  marks: "◌ိ ◌ီ ◌ု ◌ူ ◌ေ ◌ဵ ◌း ◌် ◌ျ ◌ြ ◌ွ ◌ၢ ◌ႂ ◌ႃ ◌ႄ ◌ႅ ◌ႆ ◌ႇ ◌ႈ ◌ႉ ◌ႊ"
+}
 sample_text {
   masthead_full: "ၵၼပဢ"
   masthead_partial: "တမ"

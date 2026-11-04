@@ -4,6 +4,9 @@ script: "Latn"
 name: "Záparo"
 region: "EC"
 region: "PE"
+exemplar_chars {
+  base: "A C E I J K M N O P R S T U W Y Z Á É Í Ó Ú a c e i j k m n o p r s t u w y z \' á é í ó ú"
+}
 sample_text {
   masthead_full: "KkAa"
   masthead_partial: "Ww"

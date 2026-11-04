@@ -7,7 +7,7 @@
 | **Repository** | [https://github.com/googlefonts/googlefontdirectory-hg](https://github.com/googlefonts/googlefontdirectory-hg) |
 | **Commit** | `52f780bc9d197280a9f430574e179a5f233c56b6` |
 | **Source path** | `apache/redressed/src/` |
-| **Buildable** | No — legacy formats only (.vfb/.sfd) |
+| **Buildable** | No — legacy format only (.vfb) |
 
 The font sources are in the **googlefontdirectory-hg** monorepo, a git mirror of the
 original Google Code Mercurial repository (`code.google.com/p/googlefontdirectory`)

@@ -18,8 +18,8 @@ subsets: "menu"
 subsets: "old-uyghur"
 source {
   repository_url: "https://github.com/notofonts/old-uyghur"
-  commit: "44b6cbf951161b70309c5e4ddff7738e76aec195"
-  archive_url: "https://github.com/notofonts/old-uyghur/releases/download/NotoSerifOldUyghur-v1.004/NotoSerifOldUyghur-v1.004.zip"
+  commit: "2660a2e53f4c2f59a8540b4e74634341266584e3"
+  archive_url: "https://github.com/notofonts/old-uyghur/releases/download/NotoSerifOldUyghur-v1.005/NotoSerifOldUyghur-v1.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
@@ -40,5 +40,5 @@ source {
   config_yaml: "sources/config-serif-old-uyghur.yaml"
 }
 is_noto: true
-languages: "oui_Ougr"
+languages: "oui_Ougr"  # Old Uyghur, Old Uyghur
 primary_script: "Ougr"

@@ -4,6 +4,9 @@ script: "Latn"
 name: "Matsés (Latin)"
 region: "PE"
 region: "BR"
+exemplar_chars {
+  base: "A B C {Ch} D E Ë I M N O P Q S {Sh} T {Ts} U R a b c {ch} d e ë i m n o p q s {sh} t {ts} u r {an} {en} {ën} {in} {on} {un}"
+}
 sample_text {
   masthead_full: "CcHh"
   masthead_partial: "Ii"

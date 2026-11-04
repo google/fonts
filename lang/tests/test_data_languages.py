@@ -20,14 +20,15 @@ import unicodedata
 
 from gflanguages import (
     LoadLanguages,
-    languages_public_pb2,
+    LanguageProto,
+    SampleTextProto,
+    ExemplarCharsProto,
     LoadScripts,
     LoadRegions,
     parse,
 )
 import pytest
 import youseedee
-
 
 LANGUAGES = LoadLanguages()
 SCRIPTS = LoadScripts()
@@ -138,7 +139,9 @@ def test_exemplars_bracketed_sequences(lang_code, exemplar_name):
     exemplar = getattr(lang.exemplar_chars, exemplar_name).split()
     for chars in exemplar:
         if len(chars) > 1:
-            assert chars.startswith("{") and chars.endswith("}")
+            assert chars.startswith("{") and chars.endswith(
+                "}"
+            ), f"'{chars}' in {lang_code} {exemplar_name} is not bracketed"
             assert len(chars[1:-1]) > 1
 
 
@@ -151,14 +154,14 @@ def test_languages_exemplars_marks_in_base(lang_code):
         if len(chars) > 1:
             chars = chars.lstrip("{").rstrip("}")
         if unicodedata.category(chars[0]) == "Mn":
-            problems.append("\u25CC" + chars)
-        if "\u25CC" in chars:
+            problems.append("\u25cc" + chars)
+        if "\u25cc" in chars:
             problems.append(chars)
     assert not problems, f"Found marks in base: {problems}"
 
 
-SampleText = languages_public_pb2.SampleTextProto().DESCRIPTOR
-ExemplarChars = languages_public_pb2.ExemplarCharsProto().DESCRIPTOR
+SampleText = SampleTextProto().DESCRIPTOR
+ExemplarChars = ExemplarCharsProto().DESCRIPTOR
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES.keys())
@@ -345,3 +348,16 @@ def test_id_well_formed(lang_code):
         return
     lang = LANGUAGES[lang_code]
     assert lang.id.startswith(lang.language + "_" + lang.script)
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES.keys())
+def test_sample_texts_no_double_encoding(lang_code):
+    lang = LANGUAGES[lang_code]
+    if not lang.sample_text.ListFields():
+        pytest.skip("No sample text for language " + lang_code)
+        return
+    for field in SampleText.fields:
+        sample = getattr(lang.sample_text, field.name)
+        assert (
+            "\\\\" not in sample
+        ), f"Doubly encoded backslash in {field.name} {lang_code}"

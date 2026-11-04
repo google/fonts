@@ -26,3 +26,21 @@ subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/googlefonts/ptserifcaption"
+  commit: "95cb161f0ed9d42004b5a88144d434319eb53a75"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PTSerifCaption-Italic.ttf"
+    dest_file: "PT_Serif-Caption-Web-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/PTSerifCaption-Regular.ttf"
+    dest_file: "PT_Serif-Caption-Web-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
+}

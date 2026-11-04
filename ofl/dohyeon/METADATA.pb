@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-02-24"
 source {
-  repository_url: "https://github.com/baemin/Dohyeon"
-  commit: "1d32c9fa97c9f3d349587b45fe1851ebebd89cae"
+  repository_url: "https://github.com/googlefonts/dohyeon"
+  commit: "8607d13340cc290d880417b2392fe01cd8260664"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DoHyeon-Regular.ttf"
+    dest_file: "DoHyeon-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -4,8 +4,22 @@ license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/asul"
-  commit: "687362de82c870100b6003ad71a82c3327e05d90"
+  repository_url: "https://github.com/googlefonts/asul"
+  commit: "bdc50bf9e7acedd365c0e33e84a5ae7f5c09a5c9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Asul-Bold.ttf"
+    dest_file: "Asul-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Asul-Regular.ttf"
+    dest_file: "Asul-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

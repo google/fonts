@@ -17,6 +17,16 @@ subsets: "latin"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/overtherainbow"
+  commit: "38ae8bf620b6eb4ba4facb07787f6826ff413a4c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/OvertheRainbow-Regular.ttf"
+    dest_file: "OvertheRainbow.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

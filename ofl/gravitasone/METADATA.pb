@@ -17,6 +17,16 @@ subsets: "latin"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/gravitasone"
-  commit: "c89d142ad0f695ba267d27965c26d1dd75463f20"
+  repository_url: "https://github.com/googlefonts/gravitasone"
+  commit: "8eb45dc3e5bdf6cbf377f906554ea01f0e54f92f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GravitasOne-Regular.ttf"
+    dest_file: "GravitasOne.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

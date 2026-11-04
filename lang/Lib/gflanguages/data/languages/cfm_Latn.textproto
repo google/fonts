@@ -4,6 +4,9 @@ script: "Latn"
 name: "Chin, Falam"
 region: "MM"
 region: "IN"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T Ṭ U V Z a b c d e f g h i j k l m n o p r s t ṭ u v z"
+}
 sample_text {
   masthead_full: "MmIi"
   masthead_partial: "Kk"

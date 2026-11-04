@@ -26,6 +26,20 @@ subsets: "menu"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/unkempt"
+  commit: "ef6ca68e4a2a244ac75907c9a6b8e9d0ca7070cb"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Unkempt-Bold.ttf"
+    dest_file: "Unkempt-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Unkempt-Regular.ttf"
+    dest_file: "Unkempt-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

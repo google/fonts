@@ -19,6 +19,16 @@ primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/yoondesign/Yoonfont-HiMelody"
-  commit: "4feb2315457c615527775b455d119e9f3b8c8863"
+  repository_url: "https://github.com/googlefonts/himelody"
+  commit: "a322a95b160571d7bb5a8efc3b64a5f847c80fce"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/HiMelody-Regular.ttf"
+    dest_file: "HiMelody-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

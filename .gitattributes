@@ -1,2 +1,4 @@
 *.pb linguist-language=protobuf
 *.db filter=lfs diff=lfs merge=lfs -text
+
+.github/workflows/*.lock.yml linguist-generated=true

@@ -17,6 +17,16 @@ subsets: "latin"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/thegirlnextdoor"
+  commit: "e591dbc5cd85a81f5c510741264ac2d064c5f3fe"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/TheGirlNextDoor-Regular.ttf"
+    dest_file: "TheGirlNextDoor.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

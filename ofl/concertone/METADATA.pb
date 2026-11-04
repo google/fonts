@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-23"
 source {
-  repository_url: "https://github.com/librefonts/concertone"
-  commit: "c2160f498dbb0ebf8394fbd117c21d2160cdef01"
+  repository_url: "https://github.com/googlefonts/concertone"
+  commit: "d68fc365f489c262c4fb6c3d8488f06f6941c569"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ConcertOne-Regular.ttf"
+    dest_file: "ConcertOne-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

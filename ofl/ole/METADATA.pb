@@ -12,6 +12,7 @@ fonts {
   full_name: "Ole Regular"
   copyright: "Copyright 2008 The Ole Project Authors (https://github.com/googlefonts/ole)"
 }
+display_name: "Olé"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

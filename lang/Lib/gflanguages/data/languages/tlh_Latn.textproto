@@ -2,3 +2,6 @@ id: "tlh_Latn"
 language: "tlh"
 script: "Latn"
 name: "Klingon (Latin)"
+exemplar_chars {
+  base: "a b {ch} D e {gh} H I j l m n {ng} o p q Q r S t {tlh} u v w y \'"
+}

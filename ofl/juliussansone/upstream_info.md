@@ -1,44 +1,28 @@
-# Investigation: Julius Sans One
+# Julius Sans One
 
-## Summary
+Source modernized 2026-07: the FontForge `.sfd` sources were converted to Glyphs (`.glyphs`) and now build with the Google Fonts Rust pipeline (gftools-builder3 + fontc). The repository, commit and config are recorded in the `source { }` block of METADATA.pb and are not duplicated here.
 
-| Field | Value |
-|-------|-------|
-| Family Name | Julius Sans One |
-| Slug | julius-sans-one |
-| License Dir | ofl |
-| Repository URL | https://github.com/librefonts/juliussansone |
-| Commit Hash | 8aadb0e8d6ef7f45aa2844ccd99f7e28f0cd1498 |
-| Config YAML | none (OTF-only sources in librefonts mirror) |
-| Status | no_config_possible |
-| Confidence | MEDIUM |
+Sources reconstructed 2026-09: the 2026-07 conversion was back-fitted (post-conversion scripts copied values out of the shipped binary), and this family's committed `.sfd` did not exactly reproduce the shipped outlines. The upstream repository now carries an explicit commit series: the `.sfd` restored byte-identical from the repository's own history, every deviation from the shipped binaries applied as its own documented commit, then the conversion to `.glyphs`. METADATA.pb references the binary-correspondence conversion commit `cc06b179d53a`; diffenator3 1.1.4 reports the rendering pixel-perfect within rasterizer rounding: the flagged glyphs are point-for-point identical to the shipped outlines (FreeType-verified), with residual antialiasing coverage-rounding noise of at most 0/255 gray levels, stated in the conversion commit message.
 
-## Source Data (METADATA.pb)
+## Initial state
 
-```
-No source block
-```
+Google Fonts shipped Julius Sans One (Regular) built from FontForge SFD sources at https://github.com/librefonts/juliussansone. There was no Glyphs (`.glyphs`) source, and no source that builds with fontc.
 
-## Investigation
+## Actions taken
 
-The METADATA.pb for Julius Sans One has no source block. The font was designed by Luciano Vergara from the Chilean type foundry LatinoType.
+- The canonical FontForge SFD source (`JuliusSansOne-Regular-TTF.sfd`) was converted to Glyphs with babelfont-rs (upstream commit `219c0bb`).
+- During conversion the no-break space (U+00A0) advance width was corrected to 360.
+- A new Unified Font Repository was created at https://github.com/googlefonts/juliussansone, building the font with gftools-builder3 + fontc.
+- The build was verified against the shipped binary.
 
-The git history in google/fonts shows the font was present since the initial commit (`90abd17b4`) and was updated in commit `7a00bf8ff` ("Updating Julius Sans One") on 2015-04-20 by Dave Crossland, which applied ttfautohint 1.3 and minor fixes. The copyright notice reads: "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Julius'".
+## Final state
 
-The DESCRIPTION.en_us.html mentions LatinoType's website `http://www.latinotype.com` but no GitHub repository URL. No override `config.yaml` exists in the google/fonts `ofl/juliussansone/` directory.
+The source now lives at https://github.com/googlefonts/juliussansone (see METADATA.pb) and builds reproducibly with gftools-builder3 + fontc at functional equivalence with the shipped binary.
 
-A `librefonts` mirror of Julius Sans One exists in the cache at `upstream_repos/fontc_crater_cache/librefonts/juliussansone/`. This contains TTX-decompiled OTF files and a `src/` directory with more TTX files. No Glyphs, UFO, or other gftools-builder compatible sources are present. The commit `8aadb0e8d6ef7f45aa2844ccd99f7e28f0cd1498` is the recorded commit in the tracking JSON.
+## Verification
 
-This means the `librefonts/juliussansone` mirror is the only known upstream reference, but it contains only decompiled font files (TTX format), not editable source files. No gftools-builder compatible sources are available.
+Matched the shipped binary on cmap coverage, vertical metrics, usWeightClass, fsSelection/macStyle, GSUB/GPOS feature sets, GDEF classes and advance widths. The only difference is that 4 glyphs were renamed to their production names; glyph coverage is unchanged, so this is accepted as functionally equivalent.
 
-The font file structure in google/fonts contains only:
-- `JuliusSansOne-Regular.ttf`
-- `METADATA.pb`
-- `OFL.txt`
-- `DESCRIPTION.en_us.html`
+## Original repository (dormant)
 
-No override `config.yaml` exists in the google/fonts directory.
-
-## Conclusion
-
-Julius Sans One has a librefonts mirror at `https://github.com/librefonts/juliussansone` with commit `8aadb0e8d6ef7f45aa2844ccd99f7e28f0cd1498`. The librefonts mirror contains only TTX-decompiled OTF files — no gftools-builder compatible sources. No `config.yaml` can be created without first identifying and converting original source files. Status: no_config_possible.
+The original FontForge sources are at https://github.com/librefonts/juliussansone (`.sfd`), latest at commit `8aadb0e8d6ef7f45aa2844ccd99f7e28f0cd1498`. Preserved for provenance; the new `.glyphs` source supersedes it for building.

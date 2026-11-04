@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-07-27"
 source {
-  repository_url: "https://github.com/librefonts/delius"
-  commit: "5bd1633b6b5175d36e260f3f6d06686482d32212"
+  repository_url: "https://github.com/googlefonts/delius"
+  commit: "ed462df7139cca792e2a3df0111c5f43dd2bafce"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Delius-Regular.ttf"
+    dest_file: "Delius-Regular.ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

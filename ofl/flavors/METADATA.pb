@@ -18,6 +18,16 @@ subsets: "menu"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/flavors"
-  commit: "494aad3c703cd55dfa728cded360b49e128dc101"
+  repository_url: "https://github.com/googlefonts/flavors"
+  commit: "4131dec31a739fc04f6a51109251778cb1000511"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Flavors-Regular.ttf"
+    dest_file: "Flavors-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

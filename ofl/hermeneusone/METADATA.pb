@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/hermeneusone"
+  commit: "622d1cf409f10a250370fd5fef534fb7100a0474"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/HermeneusOne-Regular.ttf"
+    dest_file: "HermeneusOne-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

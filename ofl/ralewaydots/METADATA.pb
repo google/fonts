@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/ralewaydots"
-  commit: "c845d1a8e75014ad17dbbf2633119226bed462d8"
+  repository_url: "https://github.com/googlefonts/ralewaydots"
+  commit: "ce7463426672ea2a6aa1dd2f8b2dac7a80a7f9f9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/RalewayDots-Regular.ttf"
+    dest_file: "RalewayDots-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

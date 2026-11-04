@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/happymonkey"
-  commit: "5e49a946fe2459a69afa0ea0dfd501280cb61183"
+  repository_url: "https://github.com/googlefonts/happymonkey"
+  commit: "5d3789d3137d55e86ffa05a95231451c32a24558"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/HappyMonkey-Regular.ttf"
+    dest_file: "HappyMonkey-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

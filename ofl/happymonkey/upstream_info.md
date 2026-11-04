@@ -1,10 +1,82 @@
-# Investigation Report: Happy Monkey
+# Happy Monkey
 
-## Summary
+**Model**: Claude Opus 5.5
+**Date**: 2026-11-04
+
+Sources modernized 2026-11: the only published source of this family, a FontLab `.vfb`,
+is an import of the fonts Google Fonts ships, so those fonts were converted to Glyphs
+(`.glyphs`) sources, which build with gftools-builder and fontc. The repository, commit
+and config are in the `source { }` block of METADATA.pb.
+
+## Initial state
+
+Google Fonts shipped Happy Monkey (google/fonts at commit `2fe1e8c6b137`). Its only
+published source is a FontLab import of the shipped fonts, not a design source (listed
+under "Earlier sources"; Simon on google/fonts#10490: "batch-converted from the binary
+files"), and it could not be built with fontc.
+
+## Actions taken
+
+- The fonts Google Fonts ships were imported unmodified as the first commit of
+  https://github.com/googlefonts/happymonkey.
+- The Unified Font Repository template was adopted in its own commit; the README records
+  the provenance and the known differences below.
+- The conversion to `.glyphs` is the last change. Converted from
+  HappyMonkey-Regular.ttf, the font Google Fonts ships, with babelfont 26fdcfa
+  (felipesanches/babelfont-rs branch 2026-11-02: simoncozens/babelfont-rs main plus the
+  name changes proposed to it (#117, typographic-family-names)): its TTF reader, no
+  filters. sources/config.yaml: productionNames: false
+
+## Final state
+
+The source is https://github.com/googlefonts/happymonkey at `5d3789d3137d`. Builds with
+gftools-builder (gftools-rust 1e638bd, fontc 1.0.0) and matches the binaries
+google/fonts 2eb0b48d5f76 ships: 0 blocking rows under tools/table_gate.py, exactly the
+release's codepoints, and functionally equivalent under tools/functional_gate.py (cmap,
+shaping, rendering, names, line spacing, advances, GDEF), 1 style. Those tools,
+including this family's plan `plans/happymonkey.json`:
+https://github.com/felipesanches/gf-source-modernization at `65a4e2b`.
+
+`5d3789d3137d` is the equivalence commit: its build is functionally equivalent to the
+binaries Google Fonts ships. Source modernization adds no features. Any improvement is a
+later commit that needs its own QA, and is left as future work for an onboarder to
+review in a font-update PR.
+
+## Known differences from the released fonts
+
+Reviewed and deliberately left as they are; the repository's README lists them too:
+
+- The released font is hinted (TrueType instructions). These sources carry no TrueType
+  instructions, so the build is hinted by ttfautohint: the outlines, spacing and layout
+  are the release's, its rendering at small sizes under a TrueType interpreter is not.
+  Hinting is not compared by the gates.
+
+## Earlier sources
+
+Other copies of this family, kept on record; none of them is a design source:
+
+- https://github.com/librefonts/happymonkey at 5e49a946fe2459a69afa0ea0dfd501280cb61183:
+  src/HappyMonkey-Regular-TTF.vfb, a FontLab import of the shipped font, not a source:
+  Simon on google/fonts#10490 ("batch-converted from the binary files").
+
+## Original repository (dormant)
+
+The source block this replaces, preserved for provenance:
+
+    source {
+      repository_url: "https://github.com/librefonts/happymonkey"
+      commit: "5e49a946fe2459a69afa0ea0dfd501280cb61183"
+    }
+
+## Previous investigation
+
+## Investigation Report: Happy Monkey
+
+### Summary
 
 Happy Monkey is a display sans-serif font designed by Brenda Gallo, added to Google Fonts on 2012-03-14. The font has never been updated since its initial addition to the catalog. An upstream repository exists at `https://github.com/librefonts/happymonkey` (a legacy `librefonts` archive), but it contains only VFB (FontLab Studio) source files and TTX decompositions -- no modern gftools-builder compatible sources (.glyphs, .ufo, .designspace). There is no METADATA.pb source block currently, and no config.yaml is possible since the sources cannot be built with gftools-builder.
 
-## Key Findings
+### Key Findings
 
 | Field            | Value |
 |------------------|-------|
@@ -17,9 +89,9 @@ Happy Monkey is a display sans-serif font designed by Brenda Gallo, added to Goo
 | Status           | **no_config_possible** |
 | Confidence       | HIGH |
 
-## Investigation Details
+### Investigation Details
 
-### Onboarding History in google/fonts
+#### Onboarding History in google/fonts
 
 Happy Monkey has a very short history in google/fonts:
 
@@ -35,11 +107,11 @@ Happy Monkey has a very short history in google/fonts:
    - `883939708` -- Remove METADATA.json
    - Various language/metadata updates
 
-### No Source Block in METADATA.pb
+#### No Source Block in METADATA.pb
 
 The current METADATA.pb has no `source { }` block at all. It only contains basic font metadata (name, designer, license, category, date_added, fonts, subsets).
 
-### Upstream Repository Analysis
+#### Upstream Repository Analysis
 
 - **Repository**: `librefonts/happymonkey` (cached at `fontc_crater_cache/librefonts/happymonkey`)
 - **Current HEAD**: `5e49a94` (2014-10-17) -- "update .travis.yml"
@@ -48,7 +120,7 @@ The current METADATA.pb has no `source { }` block at all. It only contains basic
 
 The repository is a legacy `librefonts` archive. The `librefonts` organization on GitHub was used to host decomposed font sources for fonts in the Google Fonts catalog, typically using Travis CI for automated builds.
 
-### Source Files
+#### Source Files
 
 The repository contains:
 - `src/HappyMonkey-Regular-TTF.vfb` -- FontLab Studio 5 binary source (TTF flavor)
@@ -59,14 +131,14 @@ The repository contains:
 
 There are NO `.glyphs`, `.ufo`, or `.designspace` files. VFB is a proprietary FontLab format that cannot be processed by gftools-builder. The TTX files are decompositions of the compiled binary, not editable design sources.
 
-### Designer Information
+#### Designer Information
 
 - **Designer**: Brenda Gallo (gbrenda1987@gmail.com)
 - **Spacing/Kerning**: Igino Marini (ikern.com)
 - **Co-designer**: Gustavo Dipre (mentioned in DESCRIPTION.en_us.html)
 - **Font version**: 1.001 (from 2012, never updated)
 
-### No Config YAML Possible
+#### No Config YAML Possible
 
 Since the upstream repository has only VFB source files, which are:
 1. Proprietary binary format (FontLab Studio 5)
@@ -75,11 +147,11 @@ Since the upstream repository has only VFB source files, which are:
 
 No `config.yaml` can be created for this font. The sources would need to be converted to a modern format (.glyphs, .ufo, or .designspace) before a gftools-builder config could be written.
 
-## Conclusion
+### Conclusion
 
 Happy Monkey has an upstream repository at `librefonts/happymonkey`, but it is a legacy archive containing only VFB and TTX files. No gftools-builder compatible sources exist, making a config.yaml impossible. The font binary has never been updated since its initial addition to Google Fonts in 2012.
 
-### Recommended METADATA.pb Source Block
+#### Recommended METADATA.pb Source Block
 
 A minimal source block can document the repository URL and commit, even without a config_yaml:
 

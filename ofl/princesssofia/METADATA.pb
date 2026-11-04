@@ -18,6 +18,16 @@ subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/princesssofia"
+  commit: "9c4026edae46f37947d92c946c6920e53cba0692"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PrincessSofia-Regular.ttf"
+    dest_file: "PrincessSofia-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -17,6 +17,16 @@ subsets: "menu"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/satisfy"
+  commit: "71c2cb4999531a26319c8c4d290426bdc7ac0284"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Satisfy-Regular.ttf"
+    dest_file: "Satisfy-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

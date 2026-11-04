@@ -25,6 +25,20 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/oleoscriptswashcaps"
+  commit: "74fc46cc9011bb848b23e227d9b6b5eee576681c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/OleoScriptSwashCaps-Bold.ttf"
+    dest_file: "OleoScriptSwashCaps-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/OleoScriptSwashCaps-Regular.ttf"
+    dest_file: "OleoScriptSwashCaps-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

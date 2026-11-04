@@ -26,6 +26,20 @@ subsets: "menu"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/mountainsofchristmas"
+  commit: "85f79958e9e62f99a12dcc4f94a8f5bbf947e7ac"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/MountainsofChristmas-Bold.ttf"
+    dest_file: "MountainsofChristmas-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/MountainsofChristmas-Regular.ttf"
+    dest_file: "MountainsofChristmas-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

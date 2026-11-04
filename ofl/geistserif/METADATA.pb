@@ -22,7 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/vercel/geist-font"
-  commit: "72f67167dd304a842ef8899da57fa25c5cf21756"
+  commit: "bace39d826763ea7b2eb8c0035ee0ed791c865c8"
   files {
     source_file: "fonts/GeistSerif/variable/GeistSerif[ELSH].ttf"
     dest_file: "GeistSerif[ELSH].ttf"

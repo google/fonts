@@ -19,6 +19,16 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 
 source {
-  repository_url: "https://github.com/librefonts/kaushanscript"
-  commit: "b1b7451878d44084faa32e3bcc5ce043f4d1acf4"
+  repository_url: "https://github.com/googlefonts/kaushanscript"
+  commit: "403737c6ee2ebaa649f2c68caaf3443d41b06a87"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/KaushanScript-Regular.ttf"
+    dest_file: "KaushanScript-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

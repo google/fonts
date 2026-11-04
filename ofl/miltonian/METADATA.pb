@@ -18,6 +18,16 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 
 source {
-  repository_url: "https://github.com/impallari/Miltonian"
-  commit: "95d180e8744380f93a8437226e58032d484882c7"
+  repository_url: "https://github.com/googlefonts/miltonian"
+  commit: "3e30828a0c79971cea0bb88d9ca1b88ed548c0a5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Miltonian-Regular.ttf"
+    dest_file: "Miltonian-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

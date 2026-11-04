@@ -43,6 +43,28 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/quattrocentosans"
+  commit: "7fb6e41bc0fae40f1e64cb231e36a797e09a066e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/QuattrocentoSans-Bold.ttf"
+    dest_file: "QuattrocentoSans-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/QuattrocentoSans-BoldItalic.ttf"
+    dest_file: "QuattrocentoSans-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/QuattrocentoSans-Italic.ttf"
+    dest_file: "QuattrocentoSans-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/QuattrocentoSans-Regular.ttf"
+    dest_file: "QuattrocentoSans-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/alfaslabone"
-  commit: "84a903ffba3cf8248f3b1662de782e72646e00df"
+  repository_url: "https://github.com/googlefonts/alfaslabone"
+  commit: "b49726a15e80546c1faa6a616c1070c6de8b86be"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AlfaSlabOne-Regular.ttf"
+    dest_file: "AlfaSlabOne-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

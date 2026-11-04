@@ -25,6 +25,20 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/oleoscript"
+  commit: "0fbf768464195921911506ac127ae6a22c990e20"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/OleoScript-Bold.ttf"
+    dest_file: "OleoScript-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/OleoScript-Regular.ttf"
+    dest_file: "OleoScript-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -10,7 +10,7 @@ fonts {
   filename: "Commissioner[FLAR,VOLM,slnt,wght].ttf"
   post_script_name: "Commissioner-Thin"
   full_name: "Commissioner Thin"
-  copyright: "Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)"
+  copyright: "Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -40,8 +40,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/m4rc1e/Commissioner"
-  commit: "7f7dc8e9ed7ffeb3f7a91261f2b9549436ab3d02"
+  repository_url: "https://github.com/kosbarts/Commissioner"
+  commit: "7fbf3f7d183e3b211a1a027ce8de44f41a87e8c1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -50,6 +50,6 @@ source {
     source_file: "fonts/variable/Commissioner[FLAR,VOLM,slnt,wght].ttf"
     dest_file: "Commissioner[FLAR,VOLM,slnt,wght].ttf"
   }
-  branch: "flair-rename"
+  branch: "master"
   config_yaml: "sources/config.yml"
 }

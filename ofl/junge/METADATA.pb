@@ -17,6 +17,16 @@ subsets: "latin"
 stroke: "SERIF"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/junge"
-  commit: "1753e7a229f48ac314ad3c54da9fcfb2d7946f75"
+  repository_url: "https://github.com/googlefonts/junge"
+  commit: "bf830898b0c0e33d2c5bfcdc3fb4c64d71920bcb"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Junge-Regular.ttf"
+    dest_file: "Junge-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

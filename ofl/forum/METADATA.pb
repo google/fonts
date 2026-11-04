@@ -20,6 +20,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/forum"
-  commit: "e8efc0bceef3b98cf32f722bf637f3c110f68a37"
+  repository_url: "https://github.com/googlefonts/forum"
+  commit: "af5cedec1cf3ce693dee62dba7e0e13e89d9c7f2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Forum-Regular.ttf"
+    dest_file: "Forum-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

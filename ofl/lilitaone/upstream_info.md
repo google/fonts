@@ -1,4 +1,78 @@
-# Investigation Report: Lilita One
+# Lilita One
+
+**Model**: Claude Opus 5.5
+**Date**: 2026-11-04
+
+Sources modernized 2026-11: the only published source of this family, a FontForge
+`.sfd`, is an import of the fonts Google Fonts ships, so those fonts were converted to
+Glyphs (`.glyphs`) sources, which build with gftools-builder and fontc. The repository,
+commit and config are in the `source { }` block of METADATA.pb.
+
+## Initial state
+
+Google Fonts shipped Lilita One (google/fonts at commit `2fe1e8c6b137`). Its only
+published source is a FontForge import of the shipped fonts, not a design source (listed
+under "Earlier sources"; Simon on google/fonts#10490: "batch-converted from the binary
+files"), and it could not be built with fontc.
+
+## Actions taken
+
+- The fonts Google Fonts ships were imported unmodified as the first commit of
+  https://github.com/googlefonts/lilitaone.
+- The Unified Font Repository template was adopted in its own commit; the README records
+  the provenance and the known differences below.
+- The conversion to `.glyphs` is the last change. Converted from LilitaOne-Regular.ttf,
+  the font Google Fonts ships, with babelfont 26fdcfa (felipesanches/babelfont-rs branch
+  2026-11-02: simoncozens/babelfont-rs main plus the name changes proposed to it (#117,
+  typographic-family-names)): its TTF reader, no filters. sources/config.yaml:
+  productionNames: false
+
+## Final state
+
+The source is https://github.com/googlefonts/lilitaone at `d3687864827c`. Builds with
+gftools-builder (gftools-rust 1e638bd, fontc 1.0.0) and matches the binaries
+google/fonts 2eb0b48d5f76 ships: 0 blocking rows under tools/table_gate.py, exactly the
+release's codepoints, and functionally equivalent under tools/functional_gate.py (cmap,
+shaping, rendering, names, line spacing, advances, GDEF), 1 style. Those tools,
+including this family's plan `plans/lilitaone.json`:
+https://github.com/felipesanches/gf-source-modernization at `65a4e2b`.
+
+`d3687864827c` is the equivalence commit: its build is functionally equivalent to the
+binaries Google Fonts ships. Source modernization adds no features. Any improvement is a
+later commit that needs its own QA, and is left as future work for an onboarder to
+review in a font-update PR.
+
+## Known differences from the released fonts
+
+Reviewed and deliberately left as they are; the repository's README lists them too:
+
+- The released font is hinted (TrueType instructions). These sources carry no TrueType
+  instructions, so the build is hinted by ttfautohint: the outlines, spacing and layout
+  are the release's, its rendering at small sizes under a TrueType interpreter is not.
+  Hinting is not compared by the gates.
+
+## Earlier sources
+
+Other copies of this family, kept on record; none of them is a design source:
+
+- https://github.com/googlefonts/googlefontdirectory-hg at
+  52f780bc9d197280a9f430574e179a5f233c56b6: ofl/lilitaone/src/LilitaOne-Regular-TTF.sfd,
+  a FontForge import of the shipped font (quadratic outlines, its TrueType instructions;
+  tools/probes/ttf_sfd_origin), not a source: Simon on google/fonts#10490
+  ("batch-converted from the binary files").
+
+## Original repository (dormant)
+
+The source block this replaces, preserved for provenance:
+
+    source {
+      repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
+      commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+    }
+
+## Previous investigation
+
+## Investigation Report: Lilita One
 
 **Family Name**: Lilita One
 **Directory**: `ofl/lilitaone`
@@ -9,11 +83,11 @@
 
 ---
 
-## Source Repository
+### Source Repository
 
 The original design sources for Lilita One are preserved in the **googlefontdirectory-hg** Mercurial monorepo at commit `52f780bc9d197280a9f430574e179a5f233c56b6`, under the path `lilitaone/src/`.
 
-### Source Files in googlefontdirectory-hg
+#### Source Files in googlefontdirectory-hg
 
 - `LilitaOne-Regular.vfb` -- FontLab binary source (proprietary, not buildable with gftools-builder)
 - `LilitaOne-Regular-OTF.vfb` -- FontLab binary source (proprietary, not buildable with gftools-builder)
@@ -23,11 +97,11 @@ The original design sources for Lilita One are preserved in the **googlefontdire
 
 The design sources are exclusively VFB and SFD legacy formats. No `.glyphs`, `.ufo`, or `.designspace` files are present. These formats are not compatible with gftools-builder.
 
-## METADATA.pb Analysis
+### METADATA.pb Analysis
 
 The current METADATA.pb at `ofl/lilitaone/METADATA.pb` contained no `source { }` block. The file listed the family as a single-weight (Regular 400) display sans-serif font. The copyright attributed the font to Juan Montoreano (juan@remolacha.biz) with a 2011 date.
 
-## Upstream Repository (librefonts archive)
+### Upstream Repository (librefonts archive)
 
 **Repository URL**: https://github.com/librefonts/lilitaone
 **Status**: Accessible (HTTP 200)
@@ -40,19 +114,19 @@ The repository was part of the `librefonts` organization, which was a batch arch
 
 The repository contained the same source files as the googlefontdirectory-hg monorepo (SFD/VFB only), plus TTX (FontTools XML) decompositions of both the TTF and OTF font files. The SFD file header showed it was originally created in FontForge with a modification timestamp from January 2012, consistent with the font's onboarding date.
 
-## Build Configuration
+### Build Configuration
 
 No `config.yaml` or `config.yml` file existed in the upstream repository. No override `config.yaml` existed in the `ofl/lilitaone/` directory of google/fonts either.
 
 Since the source files were exclusively in SFD and VFB formats, these were not compatible with gftools-builder (which requires `.glyphs`, `.ufo`, or `.designspace` sources). Creating an override `config.yaml` was not feasible without first converting the sources to a supported format.
 
-## Commit Hash Verification
+### Commit Hash Verification
 
 The single commit `d77736db8dc9d73e0c32093225a38a66e42400b8` was the only commit in the repository and represented the archival import. Since the font was added to Google Fonts in January 2012 and the librefonts repo was created in July 2014, this repository was clearly not the original source used for onboarding -- it was a post-hoc archive.
 
 The font binary in google/fonts (`LilitaOne-Regular.ttf`, MD5: `0d4e1383accd17a50bcc7d69f5ac7582`, 28092 bytes) had never been modified since the initial commit `90abd17b4` (2015-03-07, the bulk import of the entire google/fonts repository). No subsequent commits modified the font binary; only metadata files (METADATA.pb/METADATA.json) were updated over the years.
 
-## Google Fonts Repository History
+### Google Fonts Repository History
 
 The git history for `ofl/lilitaone/` showed only metadata-related changes:
 
@@ -66,11 +140,11 @@ The git history for `ofl/lilitaone/` showed only metadata-related changes:
 
 None of these commits modified the font binary itself.
 
-## Designer Information
+### Designer Information
 
 The designer was Juan Montoreano, contactable at juan@remolacha.biz (website: http://www.remolacha.biz). The copyright year was 2011, predating the Google Fonts addition date of 2012-01-11. No personal GitHub account or alternative upstream repository was identified for the designer.
 
-## Conclusion
+### Conclusion
 
 **Repository URL**: `https://github.com/librefonts/lilitaone`
 **Commit**: `d77736db8dc9d73e0c32093225a38a66e42400b8` (the only commit; archival import)

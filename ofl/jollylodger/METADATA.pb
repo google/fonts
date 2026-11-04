@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/jollylodger"
-  commit: "06a3c7f44fc01a8d09ed73ea8c180a11018bdac8"
+  repository_url: "https://github.com/googlefonts/jollylodger"
+  commit: "e6b36c6ce4e0f4921c6b88d4c002daa82d5ee062"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/JollyLodger-Regular.ttf"
+    dest_file: "JollyLodger-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

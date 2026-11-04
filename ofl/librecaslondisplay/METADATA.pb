@@ -16,8 +16,18 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  commit: "3491f6a9cfde2bc15e736463b0bc7d93054d5da1"
-  repository_url: "https://github.com/impallari/Libre-Caslon-Display"
+  repository_url: "https://github.com/googlefonts/librecaslondisplay"
+  commit: "2f19dc143214e1359b40e7ca1340da59d143d028"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/LibreCaslonDisplay-Regular.ttf"
+    dest_file: "LibreCaslonDisplay-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

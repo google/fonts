@@ -37,7 +37,7 @@ proto_files = [
 
 @pytest.mark.parametrize("proto_file", proto_files)
 def test_proto_multiline_string(proto_file):
-    with open(proto_file, "r") as f:
+    with open(proto_file, "r", encoding="utf-8") as f:
         content = f.read()
     # Check for multiline strings which do not have a space either at the
     # end of the line or at the beginning of the next line

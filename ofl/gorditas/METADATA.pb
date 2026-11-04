@@ -26,6 +26,20 @@ subsets: "latin"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/gorditas"
-  commit: "2212c0647e87c13121e408ee446dffe924792ac1"
+  repository_url: "https://github.com/googlefonts/gorditas"
+  commit: "3b508646e06ed3ef1933f839c425020aa6ecce73"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Gorditas-Bold.ttf"
+    dest_file: "Gorditas-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Gorditas-Regular.ttf"
+    dest_file: "Gorditas-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

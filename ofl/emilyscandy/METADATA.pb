@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/emilyscandy"
-  commit: "6c0f2ad7e9b0bcc6d69bbd5896b980bf1e208074"
+  repository_url: "https://github.com/googlefonts/emilyscandy"
+  commit: "8707cfc1953c8f9804beb360bace88492e45d34d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/EmilysCandy-Regular.ttf"
+    dest_file: "EmilysCandy-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

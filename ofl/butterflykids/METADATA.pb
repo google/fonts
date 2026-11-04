@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-02-15"
 source {
-  repository_url: "https://github.com/librefonts/butterflykids"
-  commit: "0c553b23416ad40db0b241d1d0b9165d890933b7"
+  repository_url: "https://github.com/googlefonts/butterflykids"
+  commit: "ba6a0c6241f01ff45a9c822440b6420e6b41b033"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ButterflyKids-Regular.ttf"
+    dest_file: "ButterflyKids-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

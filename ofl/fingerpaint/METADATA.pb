@@ -17,6 +17,16 @@ subsets: "menu"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/fingerpaint"
-  commit: "cb21d1208d6f0a641a348584627dc058a2f2998a"
+  repository_url: "https://github.com/googlefonts/fingerpaint"
+  commit: "39a0edc95f87784da492a393c802a143974c8fa1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FingerPaint-Regular.ttf"
+    dest_file: "FingerPaint-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-07"
 source {
-  repository_url: "https://github.com/librefonts/baumans"
-  commit: "00e0253a48feaa474db9cd5145ec21891f1d7214"
+  repository_url: "https://github.com/googlefonts/baumans"
+  commit: "0940714afd9d51d979f524ab44c920179d172d57"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Baumans-Regular.ttf"
+    dest_file: "Baumans-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

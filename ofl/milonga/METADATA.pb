@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/milonga"
+  commit: "46b17bd9ccc2758052f732d7e1aacc5f88ecaa94"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Milonga-Regular.ttf"
+    dest_file: "Milonga-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

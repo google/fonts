@@ -19,6 +19,16 @@ subsets: "vietnamese"
 stroke: "SANS_SERIF"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/patrickhand"
+  commit: "a70e130475521d427ad02d34ed04206193ba1a5a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PatrickHand-Regular.ttf"
+    dest_file: "PatrickHand-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

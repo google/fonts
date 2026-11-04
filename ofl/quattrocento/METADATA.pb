@@ -27,6 +27,20 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/quattrocento"
-  commit: "45d612b9dddd01d19d5ff6d3ef1321ced46de524"
+  repository_url: "https://github.com/googlefonts/quattrocento"
+  commit: "7a9fb7eaed5c96f97372a2eca114edffe04d7320"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Quattrocento-Bold.ttf"
+    dest_file: "Quattrocento-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Quattrocento-Regular.ttf"
+    dest_file: "Quattrocento-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

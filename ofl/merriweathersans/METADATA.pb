@@ -21,7 +21,6 @@ fonts {
   full_name: "Merriweather Sans Italic"
   copyright: "Copyright 2019 The Merriweather Project Authors (https://github.com/SorkinType/Merriweather-Sans)"
 }
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

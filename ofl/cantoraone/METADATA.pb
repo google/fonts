@@ -16,6 +16,16 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/librefonts/cantoraone"
-  commit: "45d202afe1668a05e0afd870e124d72c2b82143c"
+  repository_url: "https://github.com/googlefonts/cantoraone"
+  commit: "60930f3a78733ed049440ec31207db10dc27513c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CantoraOne-Regular.ttf"
+    dest_file: "CantoraOne-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

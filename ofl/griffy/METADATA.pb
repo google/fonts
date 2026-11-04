@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/griffy"
-  commit: "eed85949102ab5baa1a8ca8d6b24239709a76bab"
+  repository_url: "https://github.com/googlefonts/griffy"
+  commit: "1b5eca75092af9387027d7c1ae9aa7ea0cec326e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Griffy-Regular.ttf"
+    dest_file: "Griffy-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

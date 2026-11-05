@@ -62,7 +62,7 @@ def test_families_missing_tags(family_tags, family_metadata):
         f"The following {len(families_missing_tags)} families are missing tags:\n\n"
         f"{missing_list}\n\n"
         "Please add tags for these families using the following webapp: "
-        "https://google.github.io/fonts/tags.html"
+        "https://googlefonts.github.io/tagger/"
     )
 
 

@@ -49,14 +49,10 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/carlito"
-  commit: "3a810cab78ebd6e2e4eed42af9e8453c4f9b850a"
+  commit: "a8d610ee6e4ae5079a09f46c43da006abb23f5bd"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "fonts/ttf/Carlito-Regular.ttf"
-    dest_file: "Carlito-Regular.ttf"
   }
   files {
     source_file: "fonts/ttf/Carlito-Bold.ttf"
@@ -70,5 +66,10 @@ source {
     source_file: "fonts/ttf/Carlito-Italic.ttf"
     dest_file: "Carlito-Italic.ttf"
   }
+  files {
+    source_file: "fonts/ttf/Carlito-Regular.ttf"
+    dest_file: "Carlito-Regular.ttf"
+  }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

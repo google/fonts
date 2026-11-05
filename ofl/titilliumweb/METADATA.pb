@@ -108,6 +108,48 @@ subsets: "menu"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/titilliumweb"
+  commit: "1ba6c9da5b42feda53468024ce90657fe4112265"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-Black.ttf"
+    dest_file: "TitilliumWeb-Black.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-Bold.ttf"
+    dest_file: "TitilliumWeb-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-BoldItalic.ttf"
+    dest_file: "TitilliumWeb-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-Italic.ttf"
+    dest_file: "TitilliumWeb-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-Light.ttf"
+    dest_file: "TitilliumWeb-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-LightItalic.ttf"
+    dest_file: "TitilliumWeb-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-Regular.ttf"
+    dest_file: "TitilliumWeb-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-SemiBold.ttf"
+    dest_file: "TitilliumWeb-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TitilliumWeb-SemiBoldItalic.ttf"
+    dest_file: "TitilliumWeb-SemiBoldItalic.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

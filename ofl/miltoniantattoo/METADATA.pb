@@ -18,6 +18,16 @@ stroke: "SERIF"
 classifications: "DISPLAY"
 
 source {
-  repository_url: "https://github.com/impallari/Miltonian"
-  commit: "95d180e8744380f93a8437226e58032d484882c7"
+  repository_url: "https://github.com/googlefonts/miltoniantattoo"
+  commit: "d1ad58e9f18f172ef9ed09cb69bdb6c5076633da"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/MiltonianTattoo-Regular.ttf"
+    dest_file: "MiltonianTattoo-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

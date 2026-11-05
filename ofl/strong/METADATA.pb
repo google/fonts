@@ -20,6 +20,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/strong"
+  commit: "3d57160a6eff04c0f29285c4ad047b2889d57af0"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Strong-Regular.ttf"
+    dest_file: "Strong-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

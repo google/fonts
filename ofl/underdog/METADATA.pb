@@ -17,6 +17,16 @@ subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/underdog"
+  commit: "7fd152d75041b2bc10d1ef0d14484c55c6fce44f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Underdog-Regular.ttf"
+    dest_file: "Underdog-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

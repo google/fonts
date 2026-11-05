@@ -15,6 +15,16 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 source {
-  repository_url: "https://github.com/librefonts/frijole"
-  commit: "0e6ba6cfcc631a3db6c6d6e64e523377176e8eec"
+  repository_url: "https://github.com/googlefonts/frijole"
+  commit: "1dd0cd3ac838d400c876b8d1f9fb7b390c9058fa"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Frijole-Regular.ttf"
+    dest_file: "Frijole-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

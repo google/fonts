@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-04"
 source {
-  repository_url: "https://github.com/librefonts/chelseamarket"
-  commit: "cb0d8b1186fc376de4d6be06a568c25362e381dd"
+  repository_url: "https://github.com/googlefonts/chelseamarket"
+  commit: "620f5bb572e9ba831e37cf2491699826de0139bc"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ChelseaMarket-Regular.ttf"
+    dest_file: "ChelseaMarket-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

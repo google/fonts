@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/frederickathegreat"
-  commit: "6968170d91ffd9daea400fb4d12bf0173f7d6302"
+  repository_url: "https://github.com/googlefonts/frederickathegreat"
+  commit: "ece6c2d0b4863f4df46bf100022c7bd2b008828f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FrederickatheGreat-Regular.ttf"
+    dest_file: "FrederickatheGreat-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
 source {
-  repository_url: "https://github.com/librefonts/caesardressing"
-  commit: "fb212a606bc3f65a2b3d210c88e938f6090cff15"
+  repository_url: "https://github.com/googlefonts/caesardressing"
+  commit: "ead46ca1c29dd9656cfc7ea6a780afd7a762b55f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CaesarDressing-Regular.ttf"
+    dest_file: "CaesarDressing-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

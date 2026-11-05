@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-30"
 source {
-  repository_url: "https://github.com/librefonts/carroisgothicsc"
-  commit: "cd21c85aa57e4b1fc55eca2e31692cbd749e4e46"
+  repository_url: "https://github.com/googlefonts/carroisgothicsc"
+  commit: "ff248c4f388d98b685a0e5f866c2fb3db3cbc392"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CarroisGothicSC-Regular.ttf"
+    dest_file: "CarroisGothicSC-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

@@ -4,8 +4,18 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-03"
 source {
-  repository_url: "https://github.com/librefonts/actor"
-  commit: "b1617e5929c9a78c56bbbe056b471cfdbdc13c50"
+  repository_url: "https://github.com/googlefonts/actor"
+  commit: "ddd45a44c902817866bb116bbe405bd532e8765d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Actor-Regular.ttf"
+    dest_file: "Actor-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

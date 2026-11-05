@@ -34,6 +34,24 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/lekton"
+  commit: "904b0f52b1f64e4ee39c0a079628fa6842068b8f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Lekton-Bold.ttf"
+    dest_file: "Lekton-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lekton-Italic.ttf"
+    dest_file: "Lekton-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Lekton-Regular.ttf"
+    dest_file: "Lekton-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

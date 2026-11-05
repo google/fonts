@@ -17,6 +17,16 @@ subsets: "latin"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/electrolize"
-  commit: "2450033307b2d9f771649ae84007e59eb4387d1f"
+  repository_url: "https://github.com/googlefonts/electrolize"
+  commit: "e647a282361e11972839dbec0ac337204372abc0"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Electrolize-Regular.ttf"
+    dest_file: "Electrolize-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

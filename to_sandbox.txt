@@ -1,18 +1,13 @@
 # New
 ofl/madhuban # https://github.com/google/fonts/pull/11179
 
-# Upgrade
-ofl/googlesans # https://github.com/google/fonts/pull/11183
-ofl/notokufiarabic # https://github.com/google/fonts/pull/9920
-ofl/notosansarabic # https://github.com/google/fonts/pull/9919
-ofl/yrsa # https://github.com/google/fonts/pull/11183
-
 # Designer profile
-catalog/designers/inesgarrido # https://github.com/google/fonts/pull/10807
-
-# Metadata / Description / License
 catalog/designers/agungrohmat # https://github.com/google/fonts/pull/11242
 catalog/designers/cadsondemak # https://github.com/google/fonts/pull/11242
 catalog/designers/gidatypestudio # https://github.com/google/fonts/pull/11242
 catalog/designers/gunnlaugurbriem # https://github.com/google/fonts/pull/11242
+
+# Metadata / Description / License
+ofl/googlesans # https://github.com/google/fonts/pull/11183
 ofl/merriweathersans # https://github.com/google/fonts/pull/11227
+ofl/yrsa # https://github.com/google/fonts/pull/11183

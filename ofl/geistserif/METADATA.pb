@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 axes {
   tag: "ELSH"
   min_value: 0.0
@@ -22,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/vercel/geist-font"
-  commit: "bace39d826763ea7b2eb8c0035ee0ed791c865c8"
+  commit: "a2026e99b3f1b36ffb6c0473fdf383e97d3f9d5a"
   files {
     source_file: "fonts/GeistSerif/variable/GeistSerif[ELSH].ttf"
     dest_file: "GeistSerif[ELSH].ttf"

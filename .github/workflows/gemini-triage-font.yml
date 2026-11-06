@@ -33,13 +33,15 @@ jobs:
       issues: "read"
     steps:
       - name: "Checkout repository"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@11d5960a326750d5838078e36cf38b85af677262" # ratchet:actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: "Copy custom gemini commands"
         run: |
           mkdir -p .gemini/commands
           cp -r .github/commands/* .gemini/commands/
       - name: "Set up Fontspector"
-        uses: fonttools/setup-fontspector@main
+        uses: "fonttools/setup-fontspector@d53404291dc78a5a41cf76ea48e1d13a731fb812" # ratchet:fonttools/setup-fontspector@main
         with:
           version: head
         env:
@@ -70,17 +72,9 @@ jobs:
             core.setOutput('available_labels', labelNames.join(','));
             return labelNames;
 
-      - name: "Mint identity token"
-        id: "mint_identity_token"
-        if: ${{ vars.APP_ID }}
-        uses: "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf"
-        with:
-          app-id: "${{ vars.APP_ID }}"
-          private-key: "${{ secrets.APP_PRIVATE_KEY }}"
-
       - name: "Run Gemini font issue analysis"
         id: "gemini_analysis"
-        uses: "google-github-actions/run-gemini-cli@v0" # ratchet:exclude
+        uses: "google-github-actions/run-gemini-cli@f77273f4c914e4bf38440cf36a0369cb64a37489" # ratchet:google-github-actions/run-gemini-cli@v0.1.22
         env:
           AVAILABLE_LABELS: "${{ steps.get_labels.outputs.available_labels }}"
           AVAILABLE_MILESTONES: "${{ steps.get_labels.outputs.available_milestones }}"
@@ -142,6 +136,8 @@ jobs:
         with:
           app-id: "${{ vars.APP_ID }}"
           private-key: "${{ secrets.APP_PRIVATE_KEY }}"
+          permission-issues: "write" # labels, comments, milestones
+          permission-organization-projects: "write" # add issues to the org project board
 
       - name: "Apply triage results"
         id: "apply_triage"

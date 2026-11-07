@@ -1,0 +1,46 @@
+FONTLOG for the Devonshire font
+
+This file provides detailed information on the Devonshire 
+font Software.
+
+This information should be distributed along with the 
+Devonshire fonts and any derivative works.
+
+Basic Font Information
+
+Devonshire is a non-connecting brush script typeface of 
+medium weight. Its playful brush letterforms are reminiscent 
+of old sign painter scripts, while being restricted to none 
+of the rules of a connecting script font, allowing it to 
+visually dance.
+
+Designed by Brian J. Bonislawsky for Astigmatic (AOETI).
+
+Devonshire is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky 
+at astigma@astigmatic.com
+
+There are two .vfb Source files:
+
+1. Devonshire-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+2. Devonshire-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). 
+
+This list is in alphabetical order.
+
+N: Brian J. Bonislazwsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

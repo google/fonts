@@ -1,5 +1,5 @@
 designer: "Mark Davis"
-link: "https://wordmark.nyc"
+link: ""
 avatar {
   file_name: "markdavis.png"
 }

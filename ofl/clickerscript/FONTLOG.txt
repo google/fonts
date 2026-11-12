@@ -1,0 +1,54 @@
+FONTLOG for the Clicker Script font
+
+This file provides detailed information on the Clicker Script font
+Software.
+
+This information should be distributed along with the Clicker Script
+font and any derivative works.
+
+Basic Font Information
+
+Clicker Script finds its inspiration from RCA Records Stereo Action
+Series from the 1960's. This signature elegant yet slightly bouncy
+script truly sings, and lends a happy go lucky flavor to any design.
+
+Designed by Brian J. Bonislawsky and Jim Lyles for Astigmatic (AOETI).
+
+Clicker Script is a Unicode typeface family that supports languages that use
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are three Source files:
+
+1. ClickerScript-Regular.vfb Original Source files with contour overlaps
+
+2. ClickerScript-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. ClickerScript-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+ChangeLog
+
+7 November 2012 (Brian J. Bonislawsky) Clicker Script v1.000
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer
+
+N: Jim Lyles
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface Designer

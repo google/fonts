@@ -1,0 +1,12 @@
+id: "mnf_Latn"
+language: "mnf"
+script: "Latn"
+name: "Mundani"
+population: 34000
+region: "CM"
+exemplar_chars {
+  base: "a A à À â Â ǎ Ǎ {a̧} {A̧} {à̧} {À̧} {â̧} {Â̧} {ǎ̧} {Ǎ̧} b B d D e E è È ê Ê ě Ě ȩ Ȩ {ȩ̀} {Ȩ̀} {ȩ̂} {Ȩ̂} {ȩ̌} {Ȩ̌} ə Ə {ə̀} {Ə̀} {ə̂} {Ə̂} {ə̌} {Ə̌} f F g G i I ì Ì î Î ǐ Ǐ ɨ Ɨ {ɨ̀} {Ɨ̀} {ɨ̂} {Ɨ̂} {ɨ̌} {Ɨ̌} {ɨ̧} {Ɨ̧} {ɨ̧̀} {Ɨ̧̀} {ɨ̧̂} {Ɨ̧̂} {ɨ̧̌} {Ɨ̧̌} k K l L m M n N ŋ Ŋ o O ò Ò ô Ô ǒ Ǒ {o̧} {O̧} {ò̧} {Ò̧} {ô̧} {Ô̧} {ǒ̧} {Ǒ̧} ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} {ɔ̧} {Ɔ̧} {ɔ̧̀} {Ɔ̧̀} {ɔ̧̂} {Ɔ̧̂} {ɔ̧̌} {Ɔ̧̌} p P s S t T u U ù Ù û Û ǔ Ǔ {u̧} {U̧} {ù̧} {Ù̧} {û̧} {Û̧} {ǔ̧} {Ǔ̧} v V w W y Y z Z"
+  auxiliary: "c C h H j J q Q r R x X"
+  index: "A B D E Ə F G I Ɨ K L M N Ŋ O Ɔ P S T U V W Y Z"
+}
+source: "Elizabeth Parker & Christine Durrant, Mundani-English lexicon, Yaoundé: Société Internationale de Linguistique, 1990"

@@ -1,0 +1,22 @@
+id: "hus_Latn"
+language: "hus"
+script: "Latn"
+name: "Huastec, San Luís Potosí"
+region: "MX"
+exemplar_chars {
+  base: "A B C E I J K L M N O P R S T U W X Y Z a b c e i j k l m n o p r s t u w x y z \'"
+}
+sample_text {
+  masthead_full: "PpAa"
+  masthead_partial: "Tt"
+  styles: "Patal an inik ani an uxum u wa\'tsinal walkadh"
+  tester: "Patal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin"
+  poster_sm: "Patal an inik"
+  poster_md: "Patal an"
+  poster_lg: "Patal"
+  specimen_48: "Patal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw"
+  specimen_36: "Patal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw an alwa\'taláb ani ka pidhan in éy jant\'ini\' in tomnál; in kwa\'al in tsalpádh ani in k\'ayá\' abal kin k\'anidha\' in juntal."
+  specimen_32: "Patal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw an alwa\'taláb ani ka pidhan in éy jant\'ini\' in tomnál; in kwa\'al in tsalpádh ani in k\'ayá\' abal kin k\'anidha\' in juntal."
+  specimen_21: "Patal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw an alwa\'taláb ani ka pidhan in éy jant\'ini\' in tomnál; in kwa\'al in tsalpádh ani in k\'ayá\' abal kin k\'anidha\' in juntal.\nPatal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw an alwa\'taláb ani ka pidhan in éy jant\'ini\' in tomnál; in kwa\'al in tsalpádh ani in k\'ayá\' abal kin k\'anidha\' in juntal."
+  specimen_16: "Patal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw an alwa\'taláb ani ka pidhan in éy jant\'ini\' in tomnál; in kwa\'al in tsalpádh ani in k\'ayá\' abal kin k\'anidha\' in juntal.\nPatal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw an alwa\'taláb ani ka pidhan in éy jant\'ini\' in tomnál; in kwa\'al in tsalpádh ani in k\'ayá\' abal kin k\'anidha\' in juntal.\nPatal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw an alwa\'taláb ani ka pidhan in éy jant\'ini\' in tomnál; in kwa\'al in tsalpádh ani in k\'ayá\' abal kin k\'anidha\' in juntal.\nPatal an inik ani an uxum u wa\'tsinal walkadh abal jununúl kin bats\'uw an alwa\'taláb ani ka pidhan in éy jant\'ini\' in tomnál; in kwa\'al in tsalpádh ani in k\'ayá\' abal kin k\'anidha\' in juntal."
+}

@@ -1,0 +1,15 @@
+id: "tuz_Latn"
+language: "tuz"
+script: "Latn"
+name: "Turka"
+autonym: "curama"
+population: 37000
+region: "BF"
+exemplar_chars {
+  base: "A Ǝ B C D E Ɛ F G H I Ɩ J K L M N Ɲ O Ɔ P R S T U V W Y a ǝ b c d e ɛ f g h i ɩ j k l m n ɲ o ɔ p r s t u v w y À {Ǝ̀} È {Ɛ̀} Ì {Ɩ̀} Ǹ Ò {Ɔ̀} Ù Á {Ǝ́} É {Ɛ́} Í {Ɩ́} Ń Ó {Ɔ́} Ú Ã {Ǝ̃} {Ɛ̃} Ĩ Õ {Ɔ̃} Ũ {Ã̀} {Ǝ̃̀} {Ɛ̃̀} {Ĩ̀} {Õ̀} {Ɔ̃̀} {Ũ̀} {Ã́} {Ǝ̃́} {Ɛ̃́} {Ĩ́} Ṍ {Ɔ̃́} Ṹ à {ǝ̀} {ɛ̀} ì ò {ɔ̀} ǹ ù á {ǝ́} {ɛ́} í ń ó {ɔ́} ú ã {ǝ̃} {ɛ̃} ĩ õ {ɔ̃} ũ {ã̀} {ǝ̃̀} {ɛ̃̀} {ĩ̀} {õ̀} {ɔ̃̀} {ũ̀} {ã́} {ǝ̃́} {ɛ̃́} {ĩ́} ṍ {ɔ̃́} ṹ"
+  auxiliary: "Ə ə"
+  marks: "◌̀ ◌́ ◌̃"
+}
+source: "Wikipedia"
+source: "Colin Suggett, En avant pour le tchourama! Guide d’orthographe tchourama, Ouagadougou, Société Internationale de Linguistique, 2006."
+source: "Colin Suggett and Dot Suggett, Lexique tchourama–français français–tchourama, Ouagadougou, Société Internationale de Linguistique (SIL), 2003."

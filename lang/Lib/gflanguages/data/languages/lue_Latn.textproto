@@ -1,0 +1,30 @@
+id: "lue_Latn"
+language: "lue"
+script: "Latn"
+name: "Luvale"
+region: "AO"
+region: "ZM"
+region: "CD"
+population: 970000
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W y Y z Z"
+  auxiliary: "q Q r R x X"
+}
+sample_text {
+  masthead_full: "VvAa"
+  masthead_partial: "Tt"
+  styles: "Vatu vosena vasemuka yapwa hohamwe nakweseka"
+  tester: "Vatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama"
+  poster_sm: "Vatu vosena"
+  poster_md: "Vatu"
+  poster_lg: "Vatu"
+  specimen_48: "Vatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo."
+  specimen_36: "Vatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo."
+  specimen_32: "Vatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo."
+  specimen_21: "Vatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo.\nVatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo.\nVatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo."
+  specimen_16: "Vatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo.\nVatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo.\nVatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo.\nVatu vosena vasemuka yapwa hohamwe nakweseka mukuyoya chavo. Vatwama nachiyoyelo chalusesa chajingolo chakuzanga kulivwashana muchiyoyelo chavo."
+}
+source: "BSZ, Luvale Bible, Bible Society of Zambia, 1970"
+source: "BSZ, Chilongeslo-Chalushiko-Lwakalunga Chachihya, Bible Society of Zambia, 2017"
+source: "United Nations Information Centre, Zambia, Universal Declaration of Human Rights - Luvale, OHCHR, 1996-2009"
+note: "OHCHR 1996-2009 and BSZ 2017 don’t use the x but BSZ 1970 does use the x."

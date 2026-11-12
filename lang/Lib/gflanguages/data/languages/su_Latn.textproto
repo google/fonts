@@ -1,0 +1,29 @@
+id: "su_Latn"
+language: "su"
+script: "Latn"
+name: "Sundanese"
+autonym: "Basa Sunda"
+population: 32043120
+region: "ID"
+exemplar_chars {
+  base: "A B C D E É F G H I J K L M N O P Q R S T U V W X Y Z a b c d e é f g h i j k l m n o p q r s t u v w x y z"
+  auxiliary: "Á À Ă Â Å Ä Ã Ā Æ Ç È Ĕ Ê Ë Ē Í Ì Ĭ Î Ï Ī Ñ Ó Ò Ŏ Ô Ö Ø Ō Œ Ú Ù Ŭ Û Ü Ū Ÿ á à ă â å ä ã ā æ ç è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū ÿ"
+  marks: "◌́"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E É F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Kk"
+  styles: "Dumasar ku ayana timbangan yen pangakuan"
+  tester: "Ku ayana timbangan yen ngalelewodehkeun katut nganggap enteng"
+  poster_sm: "ku jalan ieu"
+  poster_md: "PERNYATAAN"
+  poster_lg: "Sakumna"
+  specimen_48: "Salaku standar umum hiji-hijina pikeun ngahasilkeun sakumna bangsa"
+  specimen_36: "Ku ayana timbangan yen dina ngabina hubungan duduluran di antara nagara-nagara perlu dironjatkeun.\nMAJELIS UMUM"
+  specimen_32: "Ku ayana timbangan yen hak-hak manusa teh perlu ditangtayungan ku aturan hukum sangkan ulah milih cara anu kapaksa dina ngalawan nu lalim jeung anu resep ngajajah."
+  specimen_21: "Dumasar ku ayana timbangan yen pangakuan kana ayana martabat alamiah katut hak-hak anu sarua ti sakumna anggota kulawarga manusa nu dasarna kamerdikaan, kaadilan jeung perdamaian di dunya.\nKu ayana timbangan yen hak-hak manusa teh perlu ditangtayungan ku aturan hukum sangkan ulah milih cara anu kapaksa dina ngalawan nu lalim jeung anu resep ngajajah."
+  specimen_16: "Dumasar ku ayana timbangan yen pangakuan kana ayana martabat alamiah katut hak-hak anu sarua ti sakumna anggota kulawarga manusa nu dasarna kamerdikaan, kaadilan jeung perdamaian di dunya.\nKu ayana timbangan yen ngalelewodehkeun katut nganggap enteng kana hak-hak manusa teh geus nyiptakeun polah - polah bengis anu nimbulkeun kaceuceub kana nurani manusa tur ngawangun hiji dunya tempat manusa ngasaan nikmatna kabebasan nyarita jeung ngagem agama sarta bebas tina kasieun jeung katuna, geus ditembrakkeun salaku cita-cita luhung ti rahayat biasa.\nKu ayana timbangan yen hak-hak manusa teh perlu ditangtayungan ku aturan hukum sangkan ulah milih cara anu kapaksa dina ngalawan nu lalim jeung anu resep ngajajah."
+}

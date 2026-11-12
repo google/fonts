@@ -1,0 +1,14 @@
+id: "avu_Latn"
+language: "avu"
+script: "Latn"
+name: "Avokaya"
+population: 100000
+region: "CD"
+region: "SS"
+exemplar_chars {
+  base: "a A ạ Ạ b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z ŋ Ŋ ꞌ Ꞌ á Á {ạ́} {Ạ́} é É í Í {ị́} {Ị́} ó Ó ú Ú â Â ậ Ậ ê Ê î Î {ị̂} {Ị̂} ô Ô û Û ã Ã {ạ̃} {Ạ̃} ẽ Ẽ ĩ Ĩ {ị̃} {Ị̃} õ Õ ũ Ũ"
+  marks: "◌̣ ◌́ ◌̂ ◌̃"
+  auxiliary: "q Q x X"
+}
+source: "Rhonda L. Hartell, “Avokaya”, Alphabets of Africa, Dakar: Unesco, 1993"
+source: "Eileen Kilpatrick, “Orthographies of Moru-Maʼdi languages”, Occasional Papers in the Study of Sudanese Languages No. 9, 2004, 85-91"

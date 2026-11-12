@@ -1,0 +1,25 @@
+id: "nso_Latn"
+language: "nso"
+script: "Latn"
+name: "Northern Sotho"
+autonym: "Sepedi"
+population: 5307578
+region: "ZA"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ê Ô Š a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š"
+  marks: "◌̂ ◌̌"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Tt"
+  styles: "Le ge re dutše re tseba gore seriti seo motho"
+  tester: "Le ge re dutše re tseba gore go se elwe hloko le go phaelwa ka"
+  poster_sm: "Le ge re dutše"
+  poster_md: "Le ge re"
+  poster_lg: "Batho"
+  specimen_48: "Le ge re dutše re tseba gore batho ba Ditšhaba Kopano ka gare"
+  specimen_36: "Mang le mang o na le tokelo ya go tsebja lefelong le lengwe le le lengwe bjalo ka motho pele ga molao."
+  specimen_32: "Mang le mang o na le tokelo ya go khutša le go itketla, go akaretšwa le nako ye e swanetšego ya diiri tša mošomo le matšatši a maikhutšo ao a lefelwago ka mehla ge a le boikhutšong."
+  specimen_21: "Mang le mang o lokelwa ke bophelo bjo bo lokilego setšhabeng le lefaseng ka bophara moo ditokelo le ditokologo tše di theilwego Boikanong bjo di kgonago go tšweletšwa.\nGa go selo mo Boikanong bjo se se ka kwešišwago bjalo ka seo se lebanego le mmušo ofe kapa ofe, sehlopha goba motho go dira mošomo ofe goba ofe wo o lebišitšwego pšhatlaganyong ya ditokelo le ditokologo tše di beilwego mokhwi."
+  specimen_16: "Le ge re dutše re tseba gore seriti seo motho a belegilwego ka sona le tekatekanelo gammogo le ditokelo tšeo di sa tšeelwego kgang tša batho ka moka ke motheo wa tokologo ya toka le khutšo lefseng ka bophara.\nLe ge re dutše re tseba gore go se elwe hloko le go phaelwa ka thoko ga ditokelo tša botho go tlišitše dilešadihlong tšeo di rumutšego le go šišinya maikutlo le letswalo la botho bathong, go tla ga pono le tebelelo ye mpsha mo lefaseng yeo e ikemišeditšego go ela hloko gore batho ba swanetše go ipshina ka tokologo ya polelo, ya bodumedi gammogo le go se tšhoge selo goba gona go duma, go dirile gore se se boletšwego ka mo godimo e be dinyakwa tša maemo a godimodimo tša batho ka moka."
+}

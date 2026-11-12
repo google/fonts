@@ -1,0 +1,10 @@
+id: "akp_Latn"
+language: "akp"
+script: "Latn"
+name: "Siwu"
+population: 27000
+region: "GH"
+exemplar_chars {
+  base: "a A ã Ã b B d D e E f F g G h H i I ĩ Ĩ k K l L m M n N o O p P r R s S t T u U ũ Ũ v V w W y Y z Z ɔ Ɔ ɖ Ɖ ɛ Ɛ ɣ Ɣ"
+  marks: "◌̃"
+}

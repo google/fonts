@@ -1,0 +1,14 @@
+id: "mxc_Latn"
+language: "mxc"
+script: "Latn"
+name: "Manyika"
+population: 945509
+region: "MZ"
+region: "ZW"
+exemplar_chars {
+  base: "a A b B {bh} {BH} {bv} {BV} c C d D {dh} {DH} {dz} {DZ} {dzv} {DZV} e E f F g G h H i I j J k K m M {mh} {MH} n N {nh} {NH} {n’} {N’} {ny} {NY} o O p P {pf} {PF} q Q r R s S {sh} {SH} {sv} {SV} t T {ts} {TS} {tsv} {TSV} u U v V {vh} {VH} w W y Y z Z {zv} {ZV} {zh} {ZH}"
+  auxiliary: "l L x X"
+  punctuation: "- – — , ; : ! ? . … \' ’ \" “ ” « » ( ) [ ] @ * / #"
+}
+source: "Armindo Ngunga & Osvaldo G. Faquir, Padronização da ortografia de línguas moçambicanas: relatório do III seminário, Maputo: Centro de Estudos Africanos (CEA) - UEM, 2012"
+

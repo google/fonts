@@ -1,0 +1,22 @@
+id: "tdt_Latn"
+language: "tdt"
+script: "Latn"
+name: "Tetun Dili"
+region: "TL"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ Á Ó É Í a b c d e f g h i j k l m n o p q r s t u v w x y z ñ á ó é í"
+}
+sample_text {
+  masthead_full: "EeMm"
+  masthead_partial: "Aa"
+  styles: "Ema tomak moris hanesan, ema tomak hanesan,"
+  tester: "Ema tomak moris hanesan, ema tomak hanesan, iha direitu hanesan."
+  poster_sm: "Ema tomak moris"
+  poster_md: "Ema tomak"
+  poster_lg: "Ema"
+  specimen_48: "Ema tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema"
+  specimen_36: "Ema tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin."
+  specimen_32: "Ema tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin."
+  specimen_21: "Ema tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin.\nEma tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin.\nEma tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin."
+  specimen_16: "Ema tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin.\nEma tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin.\nEma tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin.\nEma tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin.\nEma tomak moris hanesan, ema tomak hanesan, iha direitu hanesan. Ema tomak iha otak ho neon, hotu-hotu sei buka moris hanesan maun ho alin."
+}

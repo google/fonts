@@ -1,0 +1,30 @@
+id: "se_Latn"
+language: "se"
+script: "Latn"
+name: "Northern Sami"
+autonym: "Sámegiella"
+population: 51529
+region: "FI"
+region: "NO"
+region: "SE"
+exemplar_chars {
+  base: "A Á B C Č D Đ E F G H I J K L M N Ŋ O P R S Š T Ŧ U V Z Ž a á b c č d đ e f g h i j k l m n ŋ o p r s š t ŧ u v z ž"
+  auxiliary: "À Ç É È Í Ń Ñ Ó Ò Q Ú W X Y Ü Ø Æ Å Ä Ã Ö à ç é è í ń ñ ó ò q ú w x y ü ø æ å ä ã ö"
+  marks: "◌́ ◌̈ ◌̊ ◌̌"
+  numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
+  index: "A Á B C Č D Đ E É F G H I J K L M N Ŋ O P Q R S Š T Ŧ U V W X Y Z Ž Ø Æ Å Ä Ö"
+}
+sample_text {
+  masthead_full: "BbUu"
+  masthead_partial: "Oo"
+  styles: "Buot olbmot leat riegádan friddjan ja olmmošárvvu"
+  tester: "Juohkehaš lea vuoigaduvvon buot daid vuoigatvuođaide ja friddjavuođaide,"
+  poster_sm: "Orruneatnama"
+  poster_md: "Ii oktage"
+  poster_lg: "Buot"
+  specimen_48: "Juohke olbmos lea juohke sajis vuoigatvuohta dasa, ahte son galgá"
+  specimen_36: "Ii oktage galgga sahte sivas gitta váldojuvvot, giddagassii biddjojuvvot dahje riikkabáhtarussii áddjojuvvot."
+  specimen_32: "Juohkehaččas lea vuoigatvuohta vuoigatvuohta vuoiŋŋadussii ja luopmoáigái: dan vuoigatvuođa vuollái gullá maiddái bargoáiggi govttolaš ráddjehus ja mearreáigásaš bálkkáhuvvon luopmu."
+  specimen_21: "Juohkehaš sáhttá gáibidit dakkár sosiálalaš ja internašuvnnalaš ortnega mii ollislaččat sáhttá duohtandahkat daid vuoigatvuođaid ja friddjavuođaid , mat dán julggaštusas leat namuhuvvon.\nIi mihkkige dán julggaštusas sáhte nu dulkojuvvot ahte dat vuoigada ovttage stáhta, juhkosa dahje olmmošoktagasa oassádallat dakkár doaimmas, dahje dahkat dakkár dagu, mii duššindagašii ovttage dain vuoigatvuođain dahje friddjavuođain mat leat namahuvvon Julggaštusas."
+  specimen_16: "Buot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus. Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat.\nJuohkehaš lea vuoigaduvvon buot daid vuoigatvuođaide ja friddjavuođaide, mat dán julggaštusas leat namahuvvon, almmá mange vealahaga, náli, ivnni, sohkabeali, giela, oskku, politihkalaš dahje eará miellaguottu, naššuvnnalaš dahje sosiálalaš surggiideami, opmodaga, riegádeami dahje eará dilálašvuođa dáfus.\nOrruneatnama dahje -guovllu politihkalaš, lágaválddálaš dahje internaššuvnnalaš dilli maiddá ii galgga váikkuhit vealahusa, lehkos dat eanan dahje guovlu iešstivrejeaddji dahje earáid geahču vuolde dahje muđui mange láhkái earáid hálddus stivrra dáfus."
+}

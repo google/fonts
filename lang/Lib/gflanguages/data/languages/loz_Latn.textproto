@@ -1,0 +1,25 @@
+id: "loz_Latn"
+language: "loz"
+script: "Latn"
+name: "Lozi"
+autonym: "siLozi"
+population: 1045596
+region: "ZM"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N Ñ O P S T U W Y Z a b c d e f g h i j k l m n ñ o p s t u w y z ʼ"
+  marks: "◌̃"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Tt"
+  styles: "Kinto ye zibahala kuli mutu kaufela mwa lifasi"
+  tester: "Ili nto ye tisize kuli ku sa babalela liswanelo za mutu ku tisize"
+  poster_sm: "Mi hape inge"
+  poster_md: "Mi hape batu"
+  poster_lg: "Batu"
+  specimen_48: "Mi hape linaha ze li mamembala li lumezi ku latelela ni ku swalisana"
+  specimen_36: "Mi ki nto ya butokwa kuba ni kutwisiso ya liswanelo ze mi tukuluho ki yona ya butokwa kuli muhato wo u kone ku petahala,"
+  specimen_32: "Batu kaufela ba pepilwe inge ba lukuluhile ni liswanelo ze swana. Ba ba ni swanelo ya ku nahana mi ba swanela ku ba ni likezo za buzwale ku mutu yo mung\'wi."
+  specimen_21: "Mutu kaufela u na ni swanelo ya tukuluho ili ye ng\'ozwi mwa tumelelano, ku sina ku talima kuli yo ki mang\'i, sina ka mushobo, mubala, munna kapa musali tumelo, lipolitki kapa minahano, naha kwa zwa, sifumu sa na ni sona kapa ka mwa pepezwi ni zeng\'wi cwalo.\nHa kuna ketululo ye ka lumelezwa bakeng\'i sa lipolitiki kapa bakeng\'i sa naha kwa zwa mutu yo kapa i be naha ye buswa ki naha yeng\'wi."
+  specimen_16: "Mang\'i ni mang\'i u na ni swanelo ya ku pila, ku lukuluha ni silelezo.\nHa kuna ya ka piliswa mwa butaga kapa ku sebeliswa; butanga ni tekisano ya butanga haina ku lumelezwa ne ba hanyinyani.\nHa kuna ya ka utwiswa butuku kapa ku nyandiswa, ku nyefulwe kapa ku fiwa koto ku sina mulatu.\nMang\'i ni mang\'i u na ni swanelo ya ku izibahaza kai ni kai sina mutu fapila\' mulao.\nBatu kaufela ba swana fa pila\' mulao mi kona kuli mutu kaufela u na ni swanelo ya silelezo ya mulao ku sina ku ketululwa. Mutu kaufela u na ni swanelo ye swana ni ba ban\'wi ili ya silelezo ya mulao ku sina ketululo kakuli kaku eza cwalo ba loba mulao wa tumelelano wo."
+}

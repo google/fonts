@@ -1,0 +1,24 @@
+id: "man_Latn"
+language: "man"
+script: "Latn"
+name: "Mandingo"
+autonym: "Maninkakan"
+population: 630460
+region: "GM"
+exemplar_chars {
+  base: "A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Mm"
+  styles: "Bani fabadenɲa tɔmasere le ye, hɔrɔya ni telen"
+  tester: "Bani adamaya lasabati lɔnbaliya ni a la gboyaɲɛ le nanin benkanni"
+  poster_sm: "Bani adamaya"
+  poster_md: "Bani jamana"
+  poster_lg: "bɛɛ"
+  specimen_48: "Bani alu bara alu kan di fana, ko alu di adamaya lafasa, ka adamaden"
+  specimen_36: "Mɔɔ bɛɛ di se i makasila i la jamana sariya bonnu la ni bila kɛda i la tɔɲɛli sila ma, ni wo tɛ sariya sila ma."
+  specimen_32: "Bani adamaya lasabati lɔnbaliya ni a la gboyaɲɛ le nanin benkanni di mɛn ka mɔɔlu lamuriti, ka kɛ sababu di fana ka mɔɔlu kunna fulen, ka alu lɔ hɔrɔya ɲinina ka alu bɔ misikinaya dɔ,"
+  specimen_21: "Bani fabadenɲa tɔmasere le ye, hɔrɔya ni telen ani jususuma di dunuɲa dɔ,\nBani adamaya lasabati lɔnbaliya ni a la gboyaɲɛ le nanin benkanni di mɛn ka mɔɔlu lamuriti, ka kɛ sababu di fana ka mɔɔlu kunna fulen, ka alu lɔ hɔrɔya ɲinina ka alu bɔ misikinaya dɔ,\nBani adamaya lakanda ye wajibi le di, fo jamana ye kɛ jamana dafani le di sariya bolo ma, wole ye a kɛla mɔɔlu tɛ muriti ka don jɛdɛ makadan waa la,"
+  specimen_16: "Bani fabadenɲa tɔmasere le ye, hɔrɔya ni telen ani jususuma di dunuɲa dɔ,\nBani adamaya lasabati lɔnbaliya ni a la gboyaɲɛ le nanin benkanni di mɛn ka mɔɔlu lamuriti, ka kɛ sababu di fana ka mɔɔlu kunna fulen, ka alu lɔ hɔrɔya ɲinina ka alu bɔ misikinaya dɔ,\nBani adamaya lakanda ye wajibi le di, fo jamana ye kɛ jamana dafani le di sariya bolo ma, wole ye a kɛla mɔɔlu tɛ muriti ka don jɛdɛ makadan waa la,\nBani jamanalu la tɛɛbɛn ni alu la kaninteya ye fen ne di mɛn kakan ka sɛnbɛnteya,\nBani jamana mɛnnu ye \"ONU\" dɛkuruba kɔnɔ, wolu bara alu kan di ko alu di adamaden nakadan, ka a lawuriki ka ban ka cɛ ni muno lakaɲa ko bɛɛ dɔ,"
+}

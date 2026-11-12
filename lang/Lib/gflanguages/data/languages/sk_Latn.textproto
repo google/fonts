@@ -1,0 +1,32 @@
+id: "sk_Latn"
+language: "sk"
+script: "Latn"
+name: "Slovak"
+autonym: "Slovenčina"
+population: 6680269
+region: "CZ"
+region: "HU"
+region: "RS"
+region: "SK"
+exemplar_chars {
+  base: "A Á Ä B C Č D Ď {DZ} {DŽ} E É F G H {CH} I Í J K L Ĺ Ľ M N Ň O Ó Ô P Q R Ŕ S Š T Ť U Ú V W X Y Ý Z Ž a á ä b c č d ď {dz} {dž} e é f g h {ch} i í j k l ĺ ľ m n ň o ó ô p q r ŕ s š t ť u ú v w x y ý z ž"
+  auxiliary: "À Ă Â Å Ā Æ Ç È Ĕ Ê Ë Ē Ì Ĭ Î Ï Ī Ñ Ò Ŏ Ö Ő Ø Ō Œ Ř Ù Ŭ Û Ü Ű Ū Ÿ à ă â å ā æ ç è ĕ ê ë ē ì ĭ î ï ī ñ ò ŏ ö ő ø ō œ ř ù ŭ û ü ű ū ÿ"
+  marks: "◌́ ◌̂ ◌̈ ◌̌"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – , ; : ! ? . … ‘ ‚ “ „ ( ) [ ] @ * / &"
+  index: "A Ä B C Č D Ď E F G H {CH} I J K L Ľ M N O Ô P Q R S Š T Ť U V W X Y Z Ž"
+}
+sample_text {
+  masthead_full: "VvŠš"
+  masthead_partial: "Ee"
+  styles: "Vo vedomí že uznanie prirodzenej dôstojnosti"
+  tester: "že zneuznanie ľudských práv a pohrdanie nimi viedlo k barbarským"
+  poster_sm: "že je nutné,"
+  poster_md: "že je nutné"
+  poster_lg: "Všetci"
+  specimen_48: "že ľud Spojených národov zdoraznil v Charte znovu svoju vieru"
+  specimen_36: "Nikto sa nesmie držať v otroctve alebo v nevoľníctve: všetky formy otroctva a obchodu s otrokmi sú zakázané."
+  specimen_32: "Každý má právo, aby mu príslušné vnútroštátne súdy poskytly účinnú ochranu proti činom porušujúcim zčkladné práva, ktoré sú mu priznávané ústavou alebo zákonom."
+  specimen_21: "Nikto nesmie byť svojvoľne zatknutý, držaný vo vazbe alebo vyhnaný do vyhnanstva.\nKaždý má úplne rovnaké právo, aby bol spravodlive a verejne vypočutý nezávislým a nestranným súdom, ktorý rozhoduje o jeho právach a povinnostiach a o každom trestnom obvinení, vznesenom proti nemu.\nNikto nesmie byť vystavený svojvoľnému zasahovaniu do súkromného života, rodiny, domova alebo korešpondencie, ani útokom na svoju česť a povesť. Každý má právo na zákonnú ochranu proti takýmto zásahom alebo útokom."
+  specimen_16: "Každý má právo na slobodu myslenia, svedomia a náboženstva; toto právo obsahuje aj voľnosť zmeniť náboženstvo alebo vieru, ako i slobodu prejavovať svoje náboženstvo alebo vieru, sám alebo společne s inými, či už verejne alebo súkromne, vyučovaním, vykonávaním náboženských úkonov, bohoslužbou a zachovávaním obradov.\nKaždý má právo na slobodu presvedčenia a prejavu: toto právo nepripúšťa, aby niekto trpel ujmu pre svoje presvedčenie a zahrňuje právo vyhľadávať, prijímať a rozširovať informácie a myšlienky hociakými prostriedkami a bez ohľadu na hranice.\nKaždý má právo na odpočinok a na zotavenie, zvlášť aj na rozumné vymedzenie pracovných hodín a na pravidelnú platenú dovolenku."
+}

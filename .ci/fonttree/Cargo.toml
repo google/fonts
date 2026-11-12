@@ -1,0 +1,23 @@
+[package]
+name = "fonttree"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+ttj = "1.1.4"
+read-fonts = { version = "0.35.0", features = ["serde", "experimental_traverse"] }
+skrifa = "0.37.0"
+serde_json = { version = "1", features = ["preserve_order"] }
+wuff = "0.2.10"
+wasm-bindgen = "0.2"
+console_error_panic_hook = "0.1"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"

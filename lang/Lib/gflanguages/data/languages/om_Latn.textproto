@@ -1,0 +1,29 @@
+id: "om_Latn"
+language: "om"
+script: "Latn"
+name: "Oromo"
+autonym: "Afaan Oromoo"
+population: 34897120
+region: "ET"
+region: "KE"
+region: "SO"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z ’"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "NnAa"
+  masthead_partial: "Mm"
+  styles: "Ulfinni fi wal-qixxummaan ilmoo namaa kan"
+  tester: "Mirga namummaa irra ijjechuun yookaan tuffachuun yeroo hunda"
+  poster_sm: "Miseensoti"
+  poster_md: "Akkasumas"
+  poster_lg: "Namooti"
+  specimen_48: "Miseensoti Waldaa Mootummootaa marti, Dhaabbata Waldaa Mootummootaa"
+  specimen_36: "Biyyoota gidduutti walitti-dhufeenyi michumaa fi wal-jaalalaa akka dagaagu gochuun barbaachisaa waan ta\'eef;"
+  specimen_32: "Ulfinni fi wal-qixxummaan ilmoo namaa kan uummattoota hundaa akka ifatti kabajamu gochuun bu\'ura bilisummaa, haqaa fi nageenya addunyaa waan ta\'eef;"
+  specimen_21: "Ulfinni fi wal-qixxummaan ilmoo namaa kan uummattoota hundaa akka ifatti kabajamu gochuun bu\'ura bilisummaa, haqaa fi nageenya addunyaa waan ta\'eef;\nMirga namummaa irra ijjechuun yookaan tuffachuun yeroo hunda jeequmsa badiisa fidu uumee uummata kan dheekamsiisu waan ta\'eef, akkasumas addunyaa haaraa kan uummanni ishee wal-qixxummaadhaan, bilisummaa yaadaa fi amantii argatanii, yaaddoo fi dhaba irraa birmaduu ta\'anii gammachuudhaan akka jiraatan gochuun hawwii fi fedha uummattoota addunyaa waan ta\'eef;"
+  specimen_16: "Ulfinni fi wal-qixxummaan ilmoo namaa kan uummattoota hundaa akka ifatti kabajamu gochuun bu\'ura bilisummaa, haqaa fi nageenya addunyaa waan ta\'eef;\nMirga namummaa irra ijjechuun yookaan tuffachuun yeroo hunda jeequmsa badiisa fidu uumee uummata kan dheekamsiisu waan ta\'eef, akkasumas addunyaa haaraa kan uummanni ishee wal-qixxummaadhaan, bilisummaa yaadaa fi amantii argatanii, yaaddoo fi dhaba irraa birmaduu ta\'anii gammachuudhaan akka jiraatan gochuun hawwii fi fedha uummattoota addunyaa waan ta\'eef;\nUummanni bulchiisa rooroo fi cunqursaa ofirra kuffisuuf humnaan akka hinfayyadamnetti yoo barbaachise, mirgooti namummaa seeraan akka eegamu gochuun barbaachisaa waan ta\'eef;"
+}
+source: "Ben Parker, Afaan Oromoo - the Oromo language and the latin alphabet, 26 June 1994"

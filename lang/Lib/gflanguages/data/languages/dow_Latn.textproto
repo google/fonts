@@ -1,0 +1,14 @@
+id: "dow_Latn"
+language: "dow"
+script: "Latn"
+name: "Doyayo"
+population: 15000
+region: "CM"
+exemplar_chars {
+  base: "a A á Á à À {a̧} {A̧} {á̧} {Á̧} {à̧} {À̧} {ā̧} {Ā̧} {a̧̍} {A̧̍} ā Ā {a̍} {A̍} b B ɓ Ɓ d D ɗ Ɗ e E é É è È ē Ē ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̧} {Ɛ̧} {ɛ̧̄} {Ɛ̧̄} {ɛ̄} {Ɛ̄} {ɛ̍} {Ɛ̍} f F g G h H i I í Í ì Ì ī Ī {i̧} {I̧} {í̧} {Í̧} {ì̧} {Ì̧} {ī̧} {Ī̧} k K l L m M n N ŋ Ŋ o O ó Ó ò Ò ō Ō {o̍} {O̍} ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̧} {Ɔ̧} {ɔ̧́} {Ɔ̧́} {ɔ̧̀} {Ɔ̧̀} {ɔ̧̄} {Ɔ̧̄} {ɔ̄} {Ɔ̄} {ɔ̍} {Ɔ̍} p P r R s S t T u U ú Ú ù Ù {u̧} {U̧} {ū̧} {Ū̧} ū Ū v V w W y Y z Z"
+  marks: "◌̀ ◌́ ◌̄ ◌̍ ◌̧"
+  auxiliary: "c C j J q Q x X"
+}
+source: "Djataou Pascal, Dictionnaire Doyayo-Français, SIL International, 2012"
+source: "Doyayo Nouveau Testament = Nouveau Testament doyayo, Alliance biblique du Cameroun, 1991"
+note: "Alliance biblique du Cameroun 1991 uses top accents as tone marks on some words."

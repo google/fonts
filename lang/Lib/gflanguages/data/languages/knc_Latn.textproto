@@ -1,0 +1,28 @@
+id: "knc_Latn"
+language: "knc"
+script: "Latn"
+name: "Kanuri, Central"
+autonym: "Kanuri (Latin)"
+region: "NG"
+population: 8819000
+exemplar_chars {
+  base: "a A b B c C d D e E ǝ Ǝ f F g G h H i I j J k K l L m M n N {ny} {NY} o O p P r R ɍ Ɍ s S {sh} {SH} t T u U w W y Y z Z"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Mm"
+  styles: "Adamgana woso kambe katambo ye daraja-a hakkiwa-ason"
+  tester: "Adamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a"
+  poster_sm: "Adamgana woso"
+  poster_md: "Adamgana"
+  poster_lg: "Adamgana"
+  specimen_48: "Adamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal"
+  specimen_36: "Adamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye."
+  specimen_32: "Adamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye."
+  specimen_21: "Adamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye.\nAdamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye.\nAdamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye."
+  specimen_16: "Adamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye.\nAdamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye.\nAdamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye.\nAdamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye.\nAdamgana woso kambe katambo ye daraja-a hakkiwa-ason kalkalye. Hankal-a nazaru-asoro kəzəpkə ye suro hal nəmharamiben kamazasoga letaiyin ye."
+}
+source: "Abdoulkarim Chérif Ari, Arimi Boukar, Jarrett Kevin Anthony, Maï Moussau Maï & Manoua Djibir, Dictionnaire Bilingue kanuri-français suivi d’un lexique français-kanuri, Ministère de l’Éducation de Base 1 et de l’Alphabétisation, 2005"
+source: "Norbert Cyffer et John P. Hutchison, Dictionary of the Kanuri Language, Walter de Gruyter, 1990"
+source: "Chantal Enguehard, “Alphabet kanuri — arrêté 213-99 de la République du Niger”, Université de Nantes, 19 décembre 2008"
+note: "The ɍ is not used in the 1975 Standard Kanuri Orthography of the Kanuri Language Board but is used in the République du Niger official orthography."

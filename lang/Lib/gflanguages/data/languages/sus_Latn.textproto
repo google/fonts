@@ -1,0 +1,24 @@
+id: "sus_Latn"
+language: "sus"
+script: "Latn"
+name: "Susu"
+autonym: "Sosoxi"
+population: 1378014
+region: "GN"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I K X L M N Ɲ O Ɔ P R S T U W Y a b d e ɛ f g h i k x l m n ɲ o ɔ p r s t u w y"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Mm"
+  styles: "A kolon fera, ibunadama xa lasiriya nun axa"
+  tester: "A kolon fera, adamaya xafe sariyɛe mu mabanbanxi han to i bunadama"
+  poster_sm: "A kolon fera,"
+  poster_md: "A kolon fera"
+  poster_lg: "Adamadie"
+  specimen_48: "A kolon fera a birin lanmafe nara yi sariyɛe nun yi yɛtɛra lui"
+  specimen_36: "Awayibiyaxi ibunadama xafe xa yaxandi alaxinɛra, alankɛnɛmaya kiti banxi tinxinyira, ayo nun ayalagi waxan naba."
+  specimen_32: "A kolon fera, ibunadama xa lasiriya nun axa adamaya xafe rafalɛ non findixi yɛtɛralui tigitigira, a bara masen won bɛ, a tinxinyi nun bɔɲɛ sa bara sɛnbɛ sɔtɔ dunuya birin kui."
+  specimen_21: "A kolon fera, ibunadama xa lasiriya nun axa adamaya xafe rafalɛ non findixi yɛtɛralui tigitigira, a bara masen won bɛ, a tinxinyi nun bɔɲɛ sa bara sɛnbɛ sɔtɔ dunuya birin kui.\nA kolon fera, adamaya xafe sariyɛe mu mabanbanxi han to i bunadama yira, nafe naniɲɛ xi funmalaya, gere, gbaloe nun misikinɛ ya mu ɲɔnma. Kɔnɔ xabirin bara na sariyɛe ratinmɛ, gbaloe ɲɔnmanɛ, gere ɲɔn, funmalaya nun misikinɛ ya ɲɔn. I bunadamaya bara rasabati natɛ mui."
+  specimen_16: "A kolon fera, ibunadama xa lasiriya nun axa adamaya xafe rafalɛ non findixi yɛtɛralui tigitigira, a bara masen won bɛ, a tinxinyi nun bɔɲɛ sa bara sɛnbɛ sɔtɔ dunuya birin kui.\nA kolon fera, adamaya xafe sariyɛe mu mabanbanxi han to i bunadama yira, nafe naniɲɛ xi funmalaya, gere, gbaloe nun misikinɛ ya mu ɲɔnma. Kɔnɔ xabirin bara na sariyɛe ratinmɛ, gbaloe ɲɔnmanɛ, gere ɲɔn, funmalaya nun misikinɛ ya ɲɔn. I bunadamaya bara rasabati natɛ mui.\nA kolon fera, adamaya xafe rafalɛ sariyɛe rasabatife findixi fe fanyi nan na, alanma ibunadamaya xun xa magaga mangɛ sanyi sariyɛla yira."
+}

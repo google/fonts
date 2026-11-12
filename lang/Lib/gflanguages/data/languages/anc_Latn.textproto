@@ -1,0 +1,14 @@
+id: "anc_Latn"
+language: "anc"
+script: "Latn"
+name: "Ngas"
+autonym: "Ngas"
+population: 740000
+region: "NG"
+exemplar_chars {
+  base: "a A à À á Á b B ɓ Ɓ c C d D ɗ Ɗ e E è È é É ə Ə f F g G h H ḥ Ḥ i I ì Ì í Í j J k K ƙ Ƙ l L m M n N ṇ Ṇ o O ò Ò ó Ó p P r R s S t T u U ù Ù ú Ú v V w W y Y z Z ẓ Ẓ"
+  marks: "◌̀ ◌́ ◌̣"
+  auxiliary: "q Q x X"
+}
+source: "Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 208"
+source: "Wikipedia"

@@ -1,0 +1,28 @@
+id: "sg_Latn"
+language: "sg"
+script: "Latn"
+name: "Sango"
+autonym: "Sängö"
+population: 2935521
+region: "CF"
+exemplar_chars {
+  base: "a A â Â ä Ä b B d D e E ê Ê ë Ë f F g G h H i I î Î ï Ï j J k K l L m M n N o O ô Ô ö Ö p P r R s S t T u U ù Ù û Û ü Ü v V w W y Y z Z"
+  auxiliary: "c C q Q x X"
+  marks: "◌̂ ◌̈"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B D E F G H I J K L M N O P R S T U V W Y Z"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Üü"
+  styles: "Na hïngängö bîanî atene nëngö terê tî zo"
+  tester: "Na hïngängö nî pëpëe na këngö ândiä tî bata nëngö terë tî zo"
+  poster_sm: "Ayeke kötä"
+  poster_md: "Na hïngängö"
+  poster_lg: "Adü"
+  specimen_48: "Na hïngängö nî atene na yâ tî sêndiä halëzo tî bêndo tî gïgî"
+  specimen_36: "Zo ôko alîngbi tî dutï na gbe tî ngbâa pëpëe. Akânga lêgë bîanî na dutï tî ngbäa ngâ na dëngö buzë tî kängö zo na ngbâa."
+  specimen_32: "Alîngbi ôko pëpëe tî gbû zo na kânga wala tî bata lo na kânga wala tî tokua zo yongôro na ködörö tî lo gï sêngê sêngê, töngana ndâ nî ayeke da pëpëe."
+  specimen_21: "Zo kûê ayeke na ngangü, lêgë ôko na âmbâ tî lo, tî tene amä polêlê tënë tî yângâ tî lo na lê tî boro ngbanga sô fadë afa ânde wala ângangü wala âkuandiä tî lo wala töngana pängö ïrï na tënë sô alï ngbanga da na ndö tî lo sô ayeke mbîrîmbîrî.\nAlîngbi ôko pëpëe tî yôro terê na mbänä na yâ tî sêdutï tî zo wala tî sëwa tî lo wala tî da tî lo wala tî dîko mbëtïsû tî lo. Alîngbi pëpëe tî buba ïrï tî zo ngâ na wüngö tî ïrï tî lo. Zo kûê ayeke na ngangü tî tene ndiä abata lo ngbanga tî âmarä kpälë töngasö."
+  specimen_16: "Amû na zo kûe zarä tî bibê, tî boro-li na tî mäbê ; ngangü sô afa atene zo kûê ayeke na zarä tî gbîan mäbê tî lo, wala bibê tî lo ngâ na zarä tî fa polêlê mäbê ti lo, lo ôko wala na yâ tî mbênî bûngbi, polêlê wala koiko, na lêgë tî fängô mbëtï, tî särängö yê, tî vöröngö nzapä ngâ na särängö ângôbo.\nAmû na zo kûê ngangü tî zarä tî bibê na tî särängö tënë. Sô atene alîngbi tî doroko zo pëpëe ndâli tî âbibê tî lo. Amû ngâ na zo kûê ngangü tî gi, tî wara na tî vûnga âsango na âkodë na âmarä lêgë kûê, na zïängö bê pëpëe na ndö tî tënë tî âmeka.\nAmû na zo kûe ngangü tî woterë tî lo, tî sâra ngîâ ngâ. Sô atene alîngbi tî dë gï na lêgë nî längö kâpä tî kua ngâ na âlängö tî wöngö terê sô afûta nî."
+}

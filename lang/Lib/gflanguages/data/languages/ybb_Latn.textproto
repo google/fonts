@@ -1,0 +1,14 @@
+id: "ybb_Latn"
+language: "ybb"
+script: "Latn"
+name: "Yemba"
+population: 443920
+region: "CM"
+exemplar_chars {
+  base: "a A á Á ā Ā b B c C d D ə Ə {ə́} {Ə́} {ə̄} {Ə̄} e E é É ē Ē f F g G h H i I í Í ī Ī j J k K ʼ l L m M n N ŋ Ŋ o O ó Ó ō Ō ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̄} {Ɔ̄} p P {pf} {PF} s S {sh} {SH} t T {ts} {TS} u U ú Ú ū Ū ʉ Ʉ {ʉ́} {Ʉ́} {ʉ̄} {Ʉ̄} w W y Y z Z"
+  marks: "◌́ ◌̄ ◌̈"
+  auxiliary: "{ə̈} {Ə̈}"
+}
+source: "“Alphabet Yemba”, Éveil Yemba, eveilyemba.org"
+source: "Steve Bird & Maurice Tadadjeu, Petit dictionnaire yémba-français, Comité d’étude de la langue yémba (CELY), ANACLAC, 1997"
+note: "Eveilyemba.org uses ə̈ instead of ə̄."

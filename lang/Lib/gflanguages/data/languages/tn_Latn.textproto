@@ -1,0 +1,28 @@
+id: "tn_Latn"
+language: "tn"
+script: "Latn"
+name: "Tswana"
+autonym: "Setswana"
+population: 6113428
+region: "BW"
+region: "NA"
+region: "ZA"
+region: "ZW"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ê Ô Š a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š"
+  marks: "◌̂ ◌̌"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Tt"
+  styles: "Go ntse jalo gore kamogelo ya tlhago ya seriti"
+  tester: "Go ntse jalo gore go itlhokomolosa le go nyatsa ditshwanelo tsa"
+  poster_sm: "Go ntse jalo"
+  poster_md: "JAANONG KA"
+  poster_lg: "Batho"
+  specimen_48: "E goeletsa Maipolelo a, a Boditšhabatšhaba a Ditshwanelo tsa Botho"
+  specimen_36: "Go ntse jalo gore go botlhokwa go tsweletsa kgolo ya dikgalologano tsa botsalano fa gare ga ditšhaba."
+  specimen_32: "Batho botlhe ba tsetswe ba gololosegile le go lekalekana ka seriti le ditshwanelo. Ba abetswe go akanya le maikutlo, mme ba tshwanetse go direlana ka mowa wa bokaulengwe."
+  specimen_21: "Go ntse jalo gore kamogelo ya tlhago ya seriti le tekatekano le ditshwanelo tse di sa amologanngweng tsa ditokololo tsotlhe tsa losika lwa motho ke motheo wa kgololosego, bosiamisi le kagiso mo lefatseng.\nGo ntse jalo gore go botlhokwa, fa motho a sa patelesege go tsaya tsela esele, jaaka ona mokgwa wa bofelo, go ema kgatlhanong le bagagapa le kgatelelo, gore ditshwanelo tsa botho di sirelediwe ke puso ya molao."
+  specimen_16: "Go ntse jalo gore kamogelo ya tlhago ya seriti le tekatekano le ditshwanelo tse di sa amologanngweng tsa ditokololo tsotlhe tsa losika lwa motho ke motheo wa kgololosego, bosiamisi le kagiso mo lefatseng.\nGo ntse jalo gore go itlhokomolosa le go nyatsa ditshwanelo tsa botho go tlhotse ditiragalo tsa bolalome tse di šsakgaditseng maikutlo a batho mo tshimologong ya lefatshe le mo go lona batho ba itumelelang kgololosego ya go bua le tumedi, le kgololosego mo go boifeng le go eletseng, di goeleditswe jaaka dikeletso tse di kwa godimo tsa batho botlhe."
+}

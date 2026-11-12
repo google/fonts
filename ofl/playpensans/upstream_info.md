@@ -46,3 +46,11 @@ Open Font License (OFL).
 ## Notes
 
 The config file used was `config-LGC.yaml` (Latin/Greek/Cyrillic), suggesting additional per-script configurations may exist in the repository for other writing systems. The minisite URL at type-together.com documented the making of the font in detail.
+
+## Source pin corrected (checked 2026-11-11)
+
+**Model**: Claude Opus 5.5
+
+The pin moved from [`354fed4e`](https://github.com/TypeTogether/Playpen-Sans/commit/354fed4e) to [`e9de3f5d`](https://github.com/TypeTogether/Playpen-Sans/commit/e9de3f5d), the commit named by [google/fonts `19d2b3eb`](https://github.com/google/fonts/commit/19d2b3eb) ("Playpen Sans: Version 2.000 added"). The back-fill ([google/fonts `1aeb8cfe`](https://github.com/google/fonts/commit/1aeb8cfe)) recorded `354fed4e`, an "Automated rebuild" 84 minutes later on the `builder2` line. That line branched off before [`491b4680`](https://github.com/TypeTogether/Playpen-Sans/commit/491b4680) ("Fix spacing tonos grek") and was merged back on 2025-03-19, so its LGC binary is not the shipped one.
+
+The shipped `PlaypenSans[wght].ttf` (md5 `d0299b039058ae38768b242f46c40a93`) is byte-identical to `fonts/variable/PlaypenSans[wght].ttf` at `e9de3f5d` (on `main`). `sources/config-LGC.yaml` and the `files` paths exist there. The Arabic, Deva, Hebrew and Thai families were checked too: each one's shipped VF is byte-identical to the binary at its own pin.

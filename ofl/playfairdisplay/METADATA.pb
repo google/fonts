@@ -32,8 +32,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/clauseggers/Playfair"
-  commit: "80a334101928546b04fa9e709ad4b2f11f8a9e10"
+  repository_url: "https://github.com/aaronbell/Playfair-Display"
+  commit: "e9c6c4f96e929d6b39cf13d8349816c4424e4254"
   config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

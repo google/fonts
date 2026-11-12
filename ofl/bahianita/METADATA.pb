@@ -5,7 +5,7 @@ category: "DISPLAY"
 date_added: "2019-06-12"
 source {
   repository_url: "https://github.com/Omnibus-Type/Bahiana"
-  commit: "0efedac55f05ea7f6b277b2d63424984e53d005d"
+  commit: "e96af6905aadd095bf2568c44fc643c1b2c412d4"
 }
 
 fonts {

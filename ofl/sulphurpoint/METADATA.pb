@@ -35,5 +35,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/noponies/sulphur-point"
-  commit: "2c1a600846ca8b7890a89076aeeb2d43cdaeac23"
+  commit: "0212c26a5510b9b5f7314b98042468556a9c0bd9"
 }

@@ -50,3 +50,13 @@ The upstream repo at the recorded commit contains UFO sources and designspace fi
 ## Open Questions
 
 1. Should the commit hash be corrected to the v6.101 tag commit (`f99e75143ab2295806f547f4b5bc7dfc4d7dde94`) since the fonts were taken from that release? The current commit (`258e53`) points to post-release development work that was not used for the fonts.
+
+## Source pin corrected (checked 2026-11-11)
+
+**Model**: Claude Opus 5.5
+
+The pin moved from [`258e5326`](https://github.com/silnrsi/font-charis/commit/258e5326) to [`f99e7514`](https://github.com/silnrsi/font-charis/commit/f99e7514), the [v6.101 tag](https://github.com/silnrsi/font-charis/tree/v6.101). This settles the open question above. Google Fonts ships the v6.101 release zip: [google/fonts#4659](https://github.com/google/fonts/pull/4659) ([google/fonts `dfad63d0`](https://github.com/google/fonts/commit/dfad63d0)) recorded the `archive_url` but an empty commit, and the 2025 back-fill ([google/fonts `58502310`](https://github.com/google/fonts/commit/58502310)) then recorded `258e5326`, a development commit 19 commits after the tag.
+
+All four shipped TTFs are md5-identical to the files in `CharisSIL-6.101.zip`: Regular `614843207b892092d21fd22c7d5c090c`, Italic `d4e4d168cab27dfd920680e9b66bcad8`, Bold `05f8f051aa88782c7bff8c1cfa408bee`, BoldItalic `49c9cd820367ede68bf8f79a15ba8482`. SIL keeps the same four files in `references/v6101/`. The release was published from tag v6.101, which is `f99e7514` ("Set version to 6.101", on `master`). The binaries come from SIL's smith pipeline, so no file committed at the tag is byte-comparable; the tag is the release's source.
+
+The override `config.yaml` resolves at `f99e7514`; `branch` and `archive_url` are unchanged.

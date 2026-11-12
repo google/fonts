@@ -47,3 +47,13 @@ The file `sources/config.yaml` exists in the upstream repo and is valid.
 ## Conclusion
 
 The source block in METADATA.pb is complete with all fields present. The commit hash `13315457c7dd2cadd03642a2edd9d9552d0c227f` comes from the fontc_crater targets list and is verified to exist in the upstream repo. Note that the most recent binary update ("jaldi: Updating to v1.007") did not record an upstream commit, so there may be a newer relevant commit in the upstream. However, the current data is the best available and no correction is needed at this time.
+
+## Source pin corrected (checked 2026-11-11)
+
+**Model**: Claude Opus 5.5
+
+The pin moved from [`13315457`](https://github.com/Omnibus-Type/Jaldi/commit/13315457) (a 2021 README commit, copied from fontc_crater's targets list in [google/fonts `19cdcec5`](https://github.com/google/fonts/commit/19cdcec5)) to [`4460fe00`](https://github.com/Omnibus-Type/Jaldi/commit/4460fe00) ("`lookupflag IgnoreMarks;` in `cjct`", 2015-05-31, tag 1.007, on the default `gh-pages` branch).
+
+The shipped v1.007 TTFs, added by [google/fonts `1f3895e6`](https://github.com/google/fonts/commit/1f3895e6) on 2015-06-04, are byte-identical to `Fonts/Jaldi-*.ttf` as committed with `SRC/Jaldi-[2048].glyphs` in `4460fe00`: Regular md5 `8e249fe3a198dea4cd46ce23071ef9c5`, Bold `84855c7c0bde00c8fca28f42d76855de`. Later commits only add a GlyphData.xml, until [`40f45fea`](https://github.com/Omnibus-Type/Jaldi/commit/40f45fea) (2021) replaced the 2048-UPM source with the unshipped v1.010 `sources/Jaldi.glyphs`.
+
+`4460fe00` has no `sources/config.yaml`, so `config_yaml` was dropped from METADATA.pb and an override `config.yaml` names `SRC/Jaldi-[2048].glyphs` (Regular and Bold instances).

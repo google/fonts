@@ -44,7 +44,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Omnibus-Type/Unna"
-  commit: "826be2abebda53d63bcd99b7ca30a7061b89bcfd"
+  commit: "ff1d2046ceeb64bca7410573ef7af2744596825d"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

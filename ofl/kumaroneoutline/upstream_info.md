@@ -50,3 +50,13 @@ The override `config.yaml` source path was corrected from `Kumar One.glyphs` to 
 
 ### Final state
 The override `config.yaml` references `masters/Kumar One.glyphs`, which exists at the recorded commit `3192a79`. This is the same `itfoundry/kumar` source shared with the Kumar One family.
+
+## Source pin corrected (checked 2026-11-11)
+
+**Model**: Claude Opus 5.5
+
+The pin moved from [`3192a79a`](https://github.com/itfoundry/kumar/commit/3192a79a) to [`551e277f`](https://github.com/itfoundry/kumar/commit/551e277f) ("Compile 1.000, OTF and TTF", on `master`), as for Kumar One.
+
+The shipped `KumarOneOutline-Regular.ttf` ([google/fonts#9332](https://github.com/google/fonts/pull/9332)) has glyf, hmtx, GSUB, GPOS, GDEF, name and hinting tables byte-identical to `products/KumarOneOutline-Regular.ttf` at `551e277f`. Only OS/2 fsType (4 to 0), the vertical metrics, the head checksum and the cmap serialization differ. md5 shipped `d0d9ab6b71125c638f972492db70d802`, upstream `a6a22b313e2b001f11c8d9bc95ab413e`.
+
+The override `config.yaml` (`masters/Kumar One.glyphs`) resolves at `551e277f` and is not changed here.

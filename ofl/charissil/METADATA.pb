@@ -47,7 +47,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/silnrsi/font-charis"
-  commit: "258e532625d5e6c5fca8448782e710db78a6ca8a"
+  commit: "f99e75143ab2295806f547f4b5bc7dfc4d7dde94"
   archive_url: "https://github.com/silnrsi/font-charis/releases/download/v6.101/CharisSIL-6.101.zip"
   files {
     source_file: "CharisSIL-6.101/OFL.txt"

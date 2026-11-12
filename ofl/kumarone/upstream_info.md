@@ -46,3 +46,13 @@ The override `config.yaml` source path was corrected from `Kumar One.glyphs` to 
 
 ### Final state
 The override `config.yaml` references `masters/Kumar One.glyphs`, which exists at the recorded commit `3192a79`. The companion family Kumar One Outline shares the same repository, commit and source file and received the same correction.
+
+## Source pin corrected (checked 2026-11-11)
+
+**Model**: Claude Opus 5.5
+
+The pin moved from [`3192a79a`](https://github.com/itfoundry/kumar/commit/3192a79a) (the 1.001 release, 2016-04-12) to [`551e277f`](https://github.com/itfoundry/kumar/commit/551e277f) ("Compile 1.000, OTF and TTF", 2016-04-03, on `master`). Google Fonts never took 1.001, whose masters drop `idotaccent` and rename conjuncts (847 glyphs against 868).
+
+The shipped `KumarOne-Regular.ttf` is the 1.000 build, hotfixed to 1.001 by [google/fonts#973](https://github.com/google/fonts/pull/973) ([google/fonts `06463af0`](https://github.com/google/fonts/commit/06463af0)). Its glyf, hmtx, GSUB, GDEF and hinting tables are byte-identical to `products/KumarOne-Regular.ttf` at `551e277f`; google/fonts changed name, head, OS/2 fsType (4 to 0) and the vertical metrics, and cmap differs only in serialization. md5 shipped `19cceb556885c8267a5b1c00cae372a8`, upstream `30fbc2b4eaf58f048ebb18be96f64e38`. The next upstream commit, [`b339c2a2`](https://github.com/itfoundry/kumar/commit/b339c2a2), only changes the hhea values in `build.py` (to 1150/-650), which the shipped font does not have.
+
+The override `config.yaml` (`masters/Kumar One.glyphs`) resolves at `551e277f` and is not changed here.

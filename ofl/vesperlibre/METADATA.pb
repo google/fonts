@@ -45,6 +45,6 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/motaitalic/vesper-libre"
-  commit: "b765c5a68c1786a177b46e3b3ecd766157ffe349"
+  commit: "30690a08e9e2278f88c51031ea474f38868b9ff5"
 }
 primary_script: "Deva"

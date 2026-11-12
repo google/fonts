@@ -47,3 +47,13 @@ Open Font License (OFL).
 ## Notes
 
 The copyright year listed in the font files was 2020, consistent with the repository origin year. The repository was maintained under the tokotype GitHub organization.
+
+## Source pin corrected (checked 2026-11-11)
+
+**Model**: Claude Opus 5.5
+
+The pin moved from [`18d1cd2f`](https://github.com/tokotype/PlusJakartaSans/commit/18d1cd2f) (2024-01-18) to [`163c006f`](https://github.com/tokotype/PlusJakartaSans/commit/163c006f), the commit named by the packager commit [google/fonts `8cd7d0de`](https://github.com/google/fonts/commit/8cd7d0de) (v2.071, 2023-06-14). `18d1cd2f` merges the 2023 Cyrillic work ([`5854bde9`](https://github.com/tokotype/PlusJakartaSans/commit/5854bde9)), which changed `sources/PlusJakartaSans.glyphs` without rebuilding the variable fonts and never shipped. It was copied from fontc_crater's targets list in [google/fonts `5fa1b4a6`](https://github.com/google/fonts/commit/5fa1b4a6).
+
+Both shipped VFs are byte-identical to `fonts/variable/` at `163c006f` (on `master`): roman md5 `6b68a2205325ea49b65af07e4061f320`, italic `2845d500918e26b7974665b40fc74f61`. `163c006f` merges PR #37 and has the same tree as [`6d4ffaf7`](https://github.com/tokotype/PlusJakartaSans/commit/6d4ffaf7) ("Fonts exported and tested"). The stale binaries are still present at `18d1cd2f`, so byte identity alone does not tell the two apart; the source change after `163c006f` does.
+
+`sources/config.yaml` and the `files` paths exist at `163c006f`.

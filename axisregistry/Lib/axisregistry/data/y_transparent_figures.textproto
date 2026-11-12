@@ -1,0 +1,15 @@
+# YTFI based on https://variationsguide.typenetwork.com/#ytfi
+tag: "YTFI"
+display_name: "Figure Height"
+min_value: -1000
+max_value: 2000
+default_value: 600 # this is NOT what TN defined, it's just a value that fits for Roboto Flex
+precision: 0
+fallback {
+  name: "Normal"
+  value: 600
+}
+fallback_only: false
+illustration_url: "y_transparent_figures.svg"
+description:
+  "A parametric axis for varying the height of figures."

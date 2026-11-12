@@ -1,0 +1,14 @@
+id: "nmg_Latn"
+language: "nmg"
+script: "Latn"
+name: "Kwasio"
+autonym: "Kwasio"
+population: 8878
+region: "CM"
+exemplar_chars {
+  base: "a A á Á â Â ǎ Ǎ ä Ä ā Ā b B ɓ Ɓ c C d D e E é É ê Ê ě Ě ē Ē ǝ Ǝ {ǝ́} {Ǝ́} {ǝ̂} {Ǝ̂} {ǝ̌} {Ǝ̌} {ǝ̄} {Ǝ̄} ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} {ɛ̄} {Ɛ̄} f F g G h H i I í Í î Î ǐ Ǐ ï Ï ī Ī j J k K l L m M n N ń Ń ŋ Ŋ o O ó Ó ô Ô ǒ Ǒ ö Ö ō Ō ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} {ɔ̄} {Ɔ̄} p P r R ŕ Ŕ s S t T u U ú Ú û Û ǔ Ǔ ū Ū v V w W y Y"
+  auxiliary: "q Q x X z Z"
+  marks: "◌́ ◌̂ ◌̄ ◌̈ ◌̌"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B Ɓ C D E Ǝ Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y"
+}

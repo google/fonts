@@ -1,0 +1,25 @@
+id: "gaa_Latn"
+language: "gaa"
+script: "Latn"
+name: "Ga"
+autonym: "Gã"
+population: 821525
+region: "GH"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z Ã Ẽ Ĩ Õ Ũ a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z ã ẽ ĩ õ ũ"
+  marks: "◌̃"
+}
+sample_text {
+  masthead_full: "AaFf"
+  masthead_partial: "Ɔɔ"
+  styles: "Akɛni aŋɔɔ nɔ akɛ afɔ gbɔmɛi adesai fɛɛ akɛ"
+  tester: "Akɛni bu ni abuuu, kɛ asaŋ gbɔmɔ adesa hegbɛi anɔ ni anaanaa yɛ"
+  poster_sm: "Akɛni suɔmɔ"
+  poster_md: "Akɛni ehe"
+  poster_lg: "Afɔ"
+  specimen_48: "Akɛni mɛi ni yɔɔ Jeŋmaji Ekomefeemɔ Ku lɛ mli lɛ ema amɛhemɔkɛyeli"
+  specimen_36: "Akɛni shishinumɔ ni aaana yɛ hegbɛi kɛ heyeli nɛɛ ahe baafee nɔ oti ni abaadamɔ nɔ koni shiwoo nɛɛ aye omanye hewɔ lɛ,"
+  specimen_32: "Afɔ gbɔmɔ fɛɛ gbɔmɔ yɛ agbojee mli, kɛ hegbɛ ko ni damɔ ŋɛlɛ koome nɔ. Gbɔmɛi fɛɛ yɛ jwɛŋmɔ kɛ henilee, ni no hewɔ lɛ esa akɛ amɛhe ahi shi yɛ nyɛmi suɔmɔ mli."
+  specimen_21: "Mɔ fɛɛ mɔ yɛ hegbɛ akɛ eyeɔ hegbɛi ni yɔɔ kpaŋmɔ nɛɛ mli lɛ amli ŋɔɔmɔ lɛ eko, bɔ ni naatsii ko kwraa bɛ yɛ jaku mli ni ajɛ, hewolo su ni ahiɛ, nuu loo yoo ni aji, wiemɔ ni awieɔ, jamɔ mli ni ayɔɔ, maŋsaneyeli shidaamɔ mli aloo susumɔ ni ayɔɔ yɛ nɔ ko he, maŋ nɔ ni ajɛ, nii ni ayɔɔ, weku mli ni ajɛ aloo gbɛnaa ko ni ahiɛ hewɔ."
+  specimen_16: "Asaŋ akwɛ koni akajie niiaŋ bɔ ni akɛ mɔ ko maŋ ni ejɛ lɛ agbojee miitsu nii yɛ hegbɛi nɛɛ agbɛfaŋ, kɛji maŋ lɛ ena heyeli jio, aajɛ maŋ kroko nɔ aakwɛ esaji anɔ jio, enako heyeli jio, aloo ehɔ nɔyeli ko shishi fã kɛ fã.\nMɔ fɛɛ mɔ yɛ hegbɛ akɛ ehiɔ wala nɛɛ mli, akɛ ena heyeli, koni akwɛ ni efee shweshweeshwe hu.\nEsaaa akɛ ayeɔ mɔ ko nyɔŋ, aloo ahaa esɔ̃mɔɔ mɔ ko bɔ ni ejaaa gbɛ; aahi nyɔŋyeli kɛ gbɔmɔhɔɔmɔ gbɛjianɔtoi srɔtoi fɛɛ.\nEsaaa akɛ akɛ yiwalɛ nyɔtɔ̃ɔ mɔ ko, aloo akɛ ehiɛ tsumɔɔ shikpɔŋ, aloo afeɔ lɛ anisenii kɛgbalaa etoi.\nMlanaa lɛ mɔ fɛɛ mɔ yɛ hegbɛ akɛ akɛ woo haa lɛ akɛ gbɔmɔ adesa."
+}

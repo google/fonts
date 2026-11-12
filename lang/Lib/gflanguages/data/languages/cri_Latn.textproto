@@ -1,0 +1,26 @@
+id: "cri_Latn"
+language: "cri"
+script: "Latn"
+name: "Sãotomense"
+region: "ST"
+population: 70000
+exemplar_chars {
+  base: "a A á Á â Â b B c C ç Ç d D e E é É ê Ê f F g G h H i I í Í j J k K l L m M n N o O ó Ó ô Ô p P q Q r R s S t T u U v V x X z Z"
+  marks: "◌́ ◌̂ ◌̧"
+  auxiliary: "w W y Y"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Dd"
+  styles: "Tudu nguê di mundu ca nancê livli e igual"
+  tester: "Tudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu."
+  poster_sm: "Tudu nguê di"
+  poster_md: "Tudu nguê"
+  poster_lg: "Tudu"
+  specimen_48: "Tudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu"
+  specimen_36: "Tudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón."
+  specimen_32: "Tudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón."
+  specimen_21: "Tudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón.\nTudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón.\nTudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón."
+  specimen_16: "Tudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón.\nTudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón.\nTudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón.\nTudu nguê di mundu ca nancê livli e igual ni dignidade e ni dirêtu. Punda nen ca pensá e nen tê cunxensa, selá nen fé tudu cuá cu tençón de lumón."
+}
+source: "Procuradoria-Geral da Republica, Portugal, Declaraçón Universal di Dirêtu di Hómé = Universal Declaration of Human Rights - Forro, The Office of the High Commissioner for Human Rights, 1996-2009"

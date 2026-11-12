@@ -1,0 +1,15 @@
+# YTLC based on https://variationsguide.typenetwork.com/#ytlc
+tag: "YTLC"
+display_name: "Lowercase Height"
+min_value: 0
+max_value: 1000
+default_value: 500
+precision: 0
+fallback {
+  name: "Normal"
+  value: 500
+}
+fallback_only: false
+illustration_url: "y_transparent_lowercase.svg"
+description:
+  "A parametric axis for varying the height of the lowercase."

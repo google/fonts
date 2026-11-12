@@ -1,0 +1,25 @@
+id: "bik_Latn"
+language: "bik"
+script: "Latn"
+name: "Bikol"
+autonym: "Pandan Bikol"
+population: 3275430
+region: "PH"
+exemplar_chars {
+  base: "A B D G H I K L M N O P R S T U W Y a b d g h i k l m n o p r s t u w y"
+  auxiliary: "C E F J Q V X Z c e f j q v x z"
+}
+sample_text {
+  masthead_full: "AaNn"
+  masthead_partial: "Gg"
+  styles: "Huli ta an pagkamidbid kan dignidad intrinseca"
+  tester: "Huli ta an ginikanan nin mga makangirongirhat na mga gawe laban"
+  poster_sm: "Huli ta sa"
+  poster_md: "Huli ta an"
+  poster_lg: "gabos"
+  specimen_48: "Huli ta kinakaipuhan nanggad an sarong pagkasabot kaining mga"
+  specimen_36: "Mayo nin siisay man an ipapasairarom sa labi-labing pagkulog o sa brutal o bako sa tawong kastigo o pagmaltrato."
+  specimen_32: "An lambang saro igwa nin derecho sa pagpahingalo asin paglibang, kaibahan an tamang limitacion sa oras nin pagtrabaho asin sa regular na vacacion na may bayad."
+  specimen_21: "An lambang saro igwa nin derecho sa social asin internacional na sistema kun saen an mga derechos asin mga katalinkasan na ipinahayag kaining Declaracion bilog na makamtan.\nMayo nin ano man sa Declaracion na ini an puedeng saboton na minatao sa ano man na Estado, grupo o siisay man, nin derecho sa mga gawe-gawe o kagibuhan para sa supresion kan ano man na derechos asin mga katalinkasan na ipinahayag kaining Declaracion."
+  specimen_16: "Huli ta an pagkamidbid kan dignidad intrinseca asin an parantay asin inalienableng mga derechos kan gabos na miembros kan familia humana iyo an fundacion nin katalinkasan , justicia asin katoninongan sa bilog na kinaban,\nHuli ta an ginikanan nin mga makangirongirhat na mga gawe laban sa conciencia nin katawohan iyo an pagbalga asin pagmenos kan derechos humanos, asin ta sa pagpahayag na an pinakahalangkaw na kamawotan nin katawohan iyo an magkaigwa nin sarong kinaban na kun saen an gabos na tawo mayo nin pagkatakot asin miseria, asin igwang katalinkasan sa pagtaram asin man katalinkasan nin pagtubod,"
+}

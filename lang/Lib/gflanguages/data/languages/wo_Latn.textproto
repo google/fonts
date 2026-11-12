@@ -1,0 +1,30 @@
+id: "wo_Latn"
+language: "wo"
+script: "Latn"
+name: "Wolof"
+autonym: "Wolof"
+population: 11025493
+region: "MR"
+region: "SN"
+exemplar_chars {
+  base: "a A à À b B c C d D e E é É ë Ë f F g G i I j J k K l L m M n N ñ Ñ ŋ Ŋ o O ó Ó p P q Q r R s S t T u U w W x X y Y"
+  auxiliary: "ã Ã h H v V z Z"
+  marks: "◌̀ ◌́ ◌̃ ◌̈"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- , ; : ! ? . ( ) [ ] { }"
+  index: "A B C D E F G H I J K L M N Ŋ O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "DdOo"
+  masthead_partial: "Mm"
+  styles: "Ñu jàpp te nangu ne sagu doomi aadama ak"
+  tester: "Ñu jàpp ne ñakk xam ak soofantal sañ-sañi doomi aadama indi na"
+  poster_sm: "Ñu jàpp ne"
+  poster_md: "Ndaje mu"
+  poster_lg: "Doomi"
+  specimen_48: "Ñu lawal sañ-sañ yeek taawfeex yi jël aymatukaay ci biirak bitim"
+  specimen_36: "Ñu nangu te di doxal fépp ci anam gu wér ci biir xeet yi sosoo ci réew i bokk ci mbootaay gi ak gox yi bootu ci ñoom."
+  specimen_32: "Doomi aadama yépp danuy juddu, yam ci tawfeex ci sag ak sañ-sañ. Nekk na it ku xam dëgg te ànd na ak xelam, te war naa jëflante ak nawleen, te teg ko ci wàllu mbokk."
+  specimen_21: "Ku ne mën naa wax ne am na ay sañ-sañ ak ay tawfeex yu sosoo ci bataaxal bii te amul xeej ak seen, rawatina ci wàllu xeet, melo, awra, làkk, diiné, peete ci wàllu politig, xalaat, réew mbaa askan woo mën ti sosoo, ci it wàllu juddu alal ak lu mu mën ti doon.\nRax sa dolli amul xeej ak seen ci politig, yoon, mbaa doxalin wu aju ci bitim réew mbaa suuf soo xamne nit ki fa la cosaanoo; réew moomu mbaa suuf soosu moom na boppam walla deet, mbaa ñu yamale yengu-yëngoom."
+  specimen_16: "Nit kune war naa dund ci tawfeex ak kaaraange.\nWaruñoo def kenn jaam mbaa mbindaan. Njaam ak njaayum jaam nanguwunu ko ci anam gu mu mën ti doon.\nWaruñoo mbugal, tutal, mbaa teg kenn lu metti lool lu yelloo wul ak doomu aadama.\nNit ku ne am na sañ-sañ ñu war kaa nangul darajaam ci wàllu yoon.\nNépp a yam ci kanamu yoon. Te it amul xeej ak seen, ku ne yoon woowu war na laa aar. Népp war nañu leen aar ci luy jalgati liñu tënk ci bataaxal bii ak bepp yëngu-gëngu buy indi par-parloo.\nNit ku ne am na sañ-sañ dem ci berebi àtte kaay yi ci reewam saa yoo xamne sañ-sañam yooyu dëppook sàrti réewam mba yoon jalgati nañu ko."
+}

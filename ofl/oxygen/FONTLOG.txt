@@ -1,0 +1,60 @@
+FONTLOG for Oxygen Fonts
+
+This file provides detailed information on the Oxygen 
+Font Software.
+
+This information should be distributed along with the 
+Oxygen Fonts and any derivative works.
+
+Basic Font Information
+
+The Oxygen typeface family is created as part of the
+KDE Project, a libre desktop for the GNU+Linux operating 
+system. The design is optimised for the FreeType font 
+rendering system and works well in all graphical user 
+interfaces, desktops and devices.
+
+This is a web font version of Oxygen, designed to be 
+used freely across the internet by web browsers on 
+desktop computers, laptops and mobile devices.
+
+Oxygen is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+All source files for the Oxygen Font family are hosted at 
+https://projects.kde.org/projects/playground/artwork/oxygen-fonts
+
+To contribute to the project contact Vernon Adams
+at vern@newtypography.co.uk and use the KDE Project git
+repository.
+
+ChangeLog
+
+22 Oct 2012 (Vernon Adams) Oxygen v0.2.3 
+- fixes to metadata and some minor changes to metrics
+
+4 April 2012 (Vernon Adams) Oxygen v0.2.2
+- Bold, Medium, Light weights added
+- Some reshaping also to characters
+
+27 March 2012 (Vernon Adams) Oxygen v1.001
+- Initial release
+- This is a subset of the full Oxygen Regular font,
+  available from the KDE Project git repository. 
+  This version consists of Latin and extended Latin 
+  characters only.
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Vernon Adams
+E: vern@newtypography.co.uk
+W: code.newtypography.co.uk
+D: Original Type Designer

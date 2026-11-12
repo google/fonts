@@ -1,0 +1,10 @@
+id: "mym_Latn"
+language: "mym"
+script: "Latn"
+name: "Me’en"
+population: 150000
+region: "ET"
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ g G h H i I j J k K l L m M n N o O ɔ Ɔ p P r R s S t T u U w W y Y z Z"
+  auxiliary: "f F q Q v V x X"
+}

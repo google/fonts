@@ -1,0 +1,22 @@
+id: "ang_Latn"
+language: "ang"
+script: "Latn"
+name: "Old English"
+autonym: "Ænglisc (Latin)"
+population: 0
+region: "GB"
+sample_text {
+  masthead_full: "EeAa"
+  masthead_partial: "Ll"
+  styles: "Ealle menn sindon āre and rihtes efen ġeboren,"
+  tester: "Ealle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon"
+  poster_sm: "Ealle menn"
+  poster_md: "Ealle"
+  poster_lg: "Ealle"
+  specimen_48: "Ealle menn sindon āre and rihtes efen ġeboren, and frēo."
+  specimen_36: "Ealle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore."
+  specimen_32: "Ealle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore."
+  specimen_21: "Ealle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore.\nEalle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore.\nEalle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore."
+  specimen_16: "Ealle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore.\nEalle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore.\nEalle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore.\nEalle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore."
+}
+historical: true

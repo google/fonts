@@ -1,0 +1,49 @@
+FONTLOG for the Stalemate font
+
+This file provides detailed information on the Stalemate font
+Software.
+
+This information should be distributed along with the Stalemate font
+and any derivative works.
+
+Basic Font Information
+
+Stalemate is a script of vintage origins but still modern flair. This
+script exudes confidence and carefree attitude and makes a bold
+statement in any design.
+
+Designed by Jim Lyles for Astigmatic (AOETI).
+
+Stalemate is a Unicode typeface family that supports languages that use
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+There are three Source files:
+
+1. Stalemate-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+2. Stalemate-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. Stalemate-Regular.vfb Original Source files with contour overlaps
+
+ChangeLog
+
+1 November 2012 (Jim Lyles) Stalemate v1.000
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Jim Lyles for Astigmatic (AOETI)
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

@@ -1,0 +1,25 @@
+id: "cjk_Latn"
+language: "cjk"
+script: "Latn"
+name: "Chokwe"
+population: 2500000
+region: "AO"
+region: "CD"
+exemplar_chars {
+  base: "a A c C e E f F g G h H i I j J k K l L m M {mb} {Mb} n N {nd} {Nd} {ng} {Ng} o O p P s S t T u U v V w W x X y Y z Z"
+  auxiliary: "b B d D q Q r R"
+}
+sample_text {
+  masthead_full: "MmWw"
+  masthead_partial: "Ee"
+  styles: "Mwese yoze masemuka katela ukulungunga ulengunga"
+  tester: "Mwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi"
+  poster_sm: "Mwese yoze"
+  poster_md: "Mwese"
+  poster_lg: "Mwese"
+  specimen_48: "Mwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe"
+  specimen_36: "Mwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu.\nMwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu."
+  specimen_32: "Mwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu.\nMwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu."
+  specimen_21: "Mwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu.\nMwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu."
+  specimen_16: "Mwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu.\nMwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu.\nMwese yoze masemuka katela ukulungunga ulengunga ulemu nyi vumbi eswe ci mwikha. Eswe kalingile kupwa nyi usambe nyi mangana nyi kuhasa kulimika nyumwe nyi mukwo nyi kulita nyi mbunge ya ulemu wa utu."
+}

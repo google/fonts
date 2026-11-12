@@ -1,0 +1,32 @@
+id: "da_Latn"
+language: "da"
+script: "Latn"
+name: "Danish"
+autonym: "Dansk"
+population: 7072056
+region: "DE"
+region: "DK"
+region: "GL"
+region: "IS"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å"
+  auxiliary: "Á À Â Ç É È Ê Ë Í Î Ï Ñ Ó Ô Œ Ú Ù Û Ÿ Ü Ä Ǿ Ö á à â ç é è ê ë í î ï ñ ó ô œ ú ù û ÿ ü ä ǿ ö"
+  marks: "◌̊ ◌́"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å"
+}
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "Da anerkendelse af den mennesket iboende"
+  tester: "da tilsidesættelse af og foragt for menneskerettighederne har"
+  poster_sm: "da det er af"
+  poster_md: "da det er"
+  poster_lg: "Alle"
+  specimen_48: "da De forenede Nationers folk i pagten påny har bekræftet deres"
+  specimen_36: "Enhver har ret til hvile og fritid, herunder en rimelig begrænsning af arbejdstiden, og til periodisk ferie med løn."
+  specimen_32: "da det er af afgørende betydning, at menneskerettighederne beskyttes af loven, hvis ikke mennesket som en sidste udvej skal tvinges til at gøre oprør mod tyranni og undertrykkelse,"
+  specimen_21: "Da anerkendelse af den mennesket iboende værdighed og af de lige og ufortabelige rettigheder for alle medlemmer af den menneskelige familie er grundlaget for frihed, retfærdighed og fred i verden,\nda tilsidesættelse af og foragt for menneskerettighederne har ført til barbariske handlinger, der har oprørt menneskehedens samvittighed, og da skabelsen af en verden, hvor menneskene nyder tale- og trosfrihed og frihed for frygt og nød, er blevet forkyndt som folkenes højeste mål,"
+  specimen_16: "Da anerkendelse af den mennesket iboende værdighed og af de lige og ufortabelige rettigheder for alle medlemmer af den menneskelige familie er grundlaget for frihed, retfærdighed og fred i verden,\nda tilsidesættelse af og foragt for menneskerettighederne har ført til barbariske handlinger, der har oprørt menneskehedens samvittighed, og da skabelsen af en verden, hvor menneskene nyder tale- og trosfrihed og frihed for frygt og nød, er blevet forkyndt som folkenes højeste mål,\nda det er af afgørende betydning, at menneskerettighederne beskyttes af loven, hvis ikke mennesket som en sidste udvej skal tvinges til at gøre oprør mod tyranni og undertrykkelse,"
+}

@@ -1,0 +1,52 @@
+FONTLOG for the Average fonts
+
+This file provides detailed information on the Average Font Software.
+
+This information should be distributed along with the Average fonts
+and any derivative works.
+
+Basic Font Information
+
+Average is a typeface that emerged from a long process of 
+research into text typeface families from various different 
+historical periods, both classical and contemprary. The idea 
+was to design an average font for use in text, through a 
+lengthy process of shape measurement and data gathering in 
+spreadsheets. This resulted in a series of parameters which 
+could be used by a designer to determine the proportions, 
+color, spacing and other attributes of a typeface. Once the 
+parameters were defined and best values were selected, the 
+forms for the Average Regular typeface were drawn.
+
+A sans sister family, Average Sans, is also available.
+http://www.google.com/webfonts/specimen/Average+Sans
+
+There are 2 Source files:
+
+1. Average-Regular-OTF.vfb Merged contours and 
+   optimized file corresponding to the OTF file
+
+2. Average-Regular-TTF.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+Source files are available from
+http://code.google.com/p/googlefontdirectory/
+
+To contribute to the project contact Eduardo Tunni at 
+edu@tipo.net.ar
+
+ChangeLog
+
+5 March 2012 (Eduardo Tunni) Average v1.001
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Eduardo Tunni
+E: edu@tipo.net.ar
+W: http://www.tipo.net.ar
+D: Designer and Mastering

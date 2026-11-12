@@ -1,0 +1,11 @@
+id: "guk_Latn"
+language: "guk"
+script: "Latn"
+name: "Gumuz"
+population: 248000
+region: "ET"
+region: "SD"
+exemplar_chars {
+  base: "a A b B d D e E ɛ Ɛ g G h H i I j J k K l L m M n N o O ɔ Ɔ r R s S t T u U w W y Y z Z"
+  auxiliary: "f F p P q Q v V x X"
+}

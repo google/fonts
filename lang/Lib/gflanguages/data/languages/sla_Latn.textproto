@@ -1,0 +1,20 @@
+id: "sla_Latn"
+language: "sla"
+script: "Latn"
+name: "Slavic languages, Latin"
+historical: true
+sample_text {
+  masthead_full: "VvЬь"
+  masthead_partial: "Śś"
+  styles: "Vьśi ľudьje rodętь sę svobodьni i orvьni"
+  tester: "Vьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně."
+  poster_sm: "Vьśi ľudьje"
+  poster_md: "Vьśi"
+  poster_lg: "Vьśi"
+  specimen_48: "Vьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni"
+  specimen_36: "Vьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni sǫtь odařeni orzumomь i sъvěstьjǫ i dъlžьni vesti sę drugъ kъ drugu vъ duśě bratrьstva."
+  specimen_32: "Vьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni sǫtь odařeni orzumomь i sъvěstьjǫ i dъlžьni vesti sę drugъ kъ drugu vъ duśě bratrьstva."
+  specimen_21: "Vьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni sǫtь odařeni orzumomь i sъvěstьjǫ i dъlžьni vesti sę drugъ kъ drugu vъ duśě bratrьstva.\nVьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni sǫtь odařeni orzumomь i sъvěstьjǫ i dъlžьni vesti sę drugъ kъ drugu vъ duśě bratrьstva."
+  specimen_16: "Vьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni sǫtь odařeni orzumomь i sъvěstьjǫ i dъlžьni vesti sę drugъ kъ drugu vъ duśě bratrьstva.\nVьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni sǫtь odařeni orzumomь i sъvěstьjǫ i dъlžьni vesti sę drugъ kъ drugu vъ duśě bratrьstva.\nVьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni sǫtь odařeni orzumomь i sъvěstьjǫ i dъlžьni vesti sę drugъ kъ drugu vъ duśě bratrьstva.\nVьśi ľudьje rodętь sę svobodьni i orvьni vъ dostojьnьstvě i zakoně. Oni sǫtь odařeni orzumomь i sъvěstьjǫ i dъlžьni vesti sę drugъ kъ drugu vъ duśě bratrьstva."
+}
+note: "Samples are Proto-Slavic (reconstructed) and used on Omniglot.com."

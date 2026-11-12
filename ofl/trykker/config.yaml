@@ -1,0 +1,11 @@
+# Override config.yaml for ofl/trykker
+# The upstream sources/config.yaml lists the source as "Trykker" — missing
+# the .glyphspackage extension — so the build fails with "missing source
+# 'Trykker'". This override supplies the correct path (repo-root-relative).
+sources:
+  - sources/Trykker.glyphspackage
+familyName: "Trykker"
+buildVariable: false
+buildStatic: true
+buildTTF: true
+buildOTF: false

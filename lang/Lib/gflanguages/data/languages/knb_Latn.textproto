@@ -1,0 +1,11 @@
+id: "knb_Latn"
+language: "knb"
+script: "Latn"
+name: "Lubuagan Kalinga"
+population: 30000
+region: "PH"
+exemplar_chars {
+  base: "a A b B {by} {BY} k K {ch} {CH} e E g G h H i I l L m M n N {ng} {NG} o O p P s S t T u U ɏ Ɏ w W y Y"
+  auxiliary: "c C d D f F j J q Q r R v V x X z Z"
+}
+source: "ABK si Lilubuagen, Summer Institute of Linguistics - Philippines, 2005"

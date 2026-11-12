@@ -1,0 +1,21 @@
+id: "en_Shaw"
+language: "en"
+script: "Shaw"
+name: "English (Shavian)"
+population: 0
+region: "US"
+sample_text {
+  masthead_full: "𐑷𐑤𐑣𐑿"
+  masthead_partial: "𐑥𐑩"
+  styles: "𐑢𐑺𐑨𐑟 𐑮𐑧𐑒𐑩𐑜𐑯𐑦𐑖𐑩𐑯 𐑝 𐑞 𐑦𐑯𐑣𐑧𐑮𐑩𐑯𐑑 𐑛𐑦𐑜𐑯𐑦𐑑𐑦 𐑯 𐑝"
+  tester: "·𐑢𐑺𐑨𐑟 𐑛𐑦𐑕𐑮𐑦𐑜𐑸𐑛 𐑯 𐑒𐑩𐑯𐑑𐑧𐑥𐑐𐑑 𐑓 𐑣𐑿𐑥𐑩𐑯 𐑮𐑲𐑑𐑕 𐑣𐑨𐑝 𐑮𐑦𐑟𐑳𐑤𐑑𐑩𐑛 𐑦𐑯 𐑚𐑸𐑚𐑼𐑩𐑕"
+  poster_sm: "·𐑢𐑺𐑨𐑟 𐑦𐑑 𐑦𐑟"
+  poster_md: "·𐑢𐑺𐑨𐑟 ·𐑥𐑧𐑥𐑚𐑼"
+  poster_lg: "𐑣𐑿𐑥𐑩𐑯"
+  specimen_48: "·𐑢𐑺𐑨𐑟 𐑩 𐑒𐑪𐑥𐑩𐑯 𐑳𐑯𐑛𐑼𐑕𐑑𐑨𐑯𐑛𐑦𐑙 𐑝 𐑞𐑰𐑟 𐑮𐑲𐑑𐑕 𐑯 𐑓𐑮𐑰𐑛𐑩𐑥𐑟 𐑦𐑟 𐑝 𐑞 𐑜𐑮𐑱𐑑𐑩𐑕𐑑"
+  specimen_36: "·𐑧𐑝𐑮𐑦𐑢𐑳𐑯 𐑦𐑟 𐑦𐑯𐑑𐑲𐑑𐑩𐑤𐑛 𐑑 𐑩 𐑕𐑴𐑖𐑩𐑤 𐑯 𐑦𐑯𐑑𐑼𐑯𐑨𐑖𐑩𐑯𐑩𐑤 𐑹𐑛𐑼 𐑦𐑯 𐑢𐑦𐑗 𐑞 𐑮𐑲𐑑𐑕 𐑯 𐑓𐑮𐑰𐑛𐑩𐑥𐑟 𐑕𐑧𐑑 𐑓𐑹𐑔 𐑦𐑯 𐑞𐑦𐑕 ·𐑛𐑧𐑒𐑤𐑼𐑱𐑖𐑩𐑯 𐑒𐑨𐑯 𐑚𐑰 𐑓𐑫𐑤𐑦 𐑮𐑾𐑤𐑲𐑟𐑛."
+  specimen_32: "·𐑢𐑺𐑨𐑟 𐑮𐑧𐑒𐑩𐑜𐑯𐑦𐑖𐑩𐑯 𐑝 𐑞 𐑦𐑯𐑣𐑧𐑮𐑩𐑯𐑑 𐑛𐑦𐑜𐑯𐑦𐑑𐑦 𐑯 𐑝 𐑞 𐑰𐑒𐑢𐑩𐑤 𐑯 𐑦𐑯𐑱𐑤𐑾𐑯𐑩𐑚𐑩𐑤 𐑮𐑲𐑑𐑕 𐑝 𐑷𐑤 𐑥𐑧𐑥𐑚𐑼𐑟 𐑝 𐑞 𐑣𐑿𐑥𐑩𐑯 𐑓𐑨𐑥𐑦𐑤𐑦 𐑦𐑟 𐑞 𐑓𐑬𐑯𐑛𐑱𐑖𐑩𐑯 𐑝 𐑓𐑮𐑰𐑛𐑩𐑥, 𐑡𐑳𐑕𐑑𐑦𐑕 𐑯 𐑐𐑰𐑕 𐑦𐑯\n 𐑞 𐑢𐑻𐑤𐑛,"
+  specimen_21: "·𐑢𐑺𐑨𐑟 𐑮𐑧𐑒𐑩𐑜𐑯𐑦𐑖𐑩𐑯 𐑝 𐑞 𐑦𐑯𐑣𐑧𐑮𐑩𐑯𐑑 𐑛𐑦𐑜𐑯𐑦𐑑𐑦 𐑯 𐑝 𐑞 𐑰𐑒𐑢𐑩𐑤 𐑯 𐑦𐑯𐑱𐑤𐑾𐑯𐑩𐑚𐑩𐑤 𐑮𐑲𐑑𐑕 𐑝 𐑷𐑤 𐑥𐑧𐑥𐑚𐑼𐑟 𐑝 𐑞 𐑣𐑿𐑥𐑩𐑯 𐑓𐑨𐑥𐑦𐑤𐑦 𐑦𐑟 𐑞 𐑓𐑬𐑯𐑛𐑱𐑖𐑩𐑯 𐑝 𐑓𐑮𐑰𐑛𐑩𐑥, 𐑡𐑳𐑕𐑑𐑦𐑕 𐑯 𐑐𐑰𐑕 𐑦𐑯\n 𐑞 𐑢𐑻𐑤𐑛,\n·𐑢𐑺𐑨𐑟 𐑛𐑦𐑕𐑮𐑦𐑜𐑸𐑛 𐑯 𐑒𐑩𐑯𐑑𐑧𐑥𐑐𐑑 𐑓 𐑣𐑿𐑥𐑩𐑯 𐑮𐑲𐑑𐑕 𐑣𐑨𐑝 𐑮𐑦𐑟𐑳𐑤𐑑𐑩𐑛 𐑦𐑯 𐑚𐑸𐑚𐑼𐑩𐑕 𐑨𐑒𐑑𐑕 𐑢𐑦𐑗 𐑣𐑨𐑝 𐑬𐑑𐑮𐑱𐑡𐑛 𐑞 𐑒𐑪𐑯𐑖𐑩𐑯𐑕 𐑝 𐑥𐑨𐑯𐑒𐑲𐑯𐑛, 𐑯 𐑞 𐑨𐑛𐑝𐑧𐑯𐑑 𐑝 𐑩 𐑢𐑻𐑤𐑛 𐑦𐑯 𐑢𐑦𐑗 𐑣𐑿𐑥𐑩𐑯 𐑚𐑰𐑦𐑙𐑟\n 𐑖𐑨𐑤 𐑦𐑯𐑡𐑶 𐑓𐑮𐑰𐑛𐑩𐑥 𐑝 𐑕𐑐𐑰𐑗 𐑯 𐑚𐑦𐑤𐑰𐑓 𐑯 𐑓𐑮𐑰𐑛𐑩𐑥 𐑓𐑮𐑪𐑥 𐑓𐑽 𐑯 𐑢𐑪𐑯𐑑 𐑣𐑨𐑟 𐑚𐑰𐑯 𐑐𐑮𐑴𐑒𐑤𐑱𐑥𐑛 𐑨𐑟 𐑞 𐑣𐑲𐑩𐑕𐑑 𐑨𐑕𐑐𐑼𐑱𐑖𐑩𐑯 𐑝 𐑞 𐑒𐑪𐑥𐑩𐑯 𐑐𐑰𐑐𐑩𐑤,"
+  specimen_16: "·𐑢𐑺𐑨𐑟 𐑮𐑧𐑒𐑩𐑜𐑯𐑦𐑖𐑩𐑯 𐑝 𐑞 𐑦𐑯𐑣𐑧𐑮𐑩𐑯𐑑 𐑛𐑦𐑜𐑯𐑦𐑑𐑦 𐑯 𐑝 𐑞 𐑰𐑒𐑢𐑩𐑤 𐑯 𐑦𐑯𐑱𐑤𐑾𐑯𐑩𐑚𐑩𐑤 𐑮𐑲𐑑𐑕 𐑝 𐑷𐑤 𐑥𐑧𐑥𐑚𐑼𐑟 𐑝 𐑞 𐑣𐑿𐑥𐑩𐑯 𐑓𐑨𐑥𐑦𐑤𐑦 𐑦𐑟 𐑞 𐑓𐑬𐑯𐑛𐑱𐑖𐑩𐑯 𐑝 𐑓𐑮𐑰𐑛𐑩𐑥, 𐑡𐑳𐑕𐑑𐑦𐑕 𐑯 𐑐𐑰𐑕 𐑦𐑯\n 𐑞 𐑢𐑻𐑤𐑛,\n·𐑢𐑺𐑨𐑟 𐑛𐑦𐑕𐑮𐑦𐑜𐑸𐑛 𐑯 𐑒𐑩𐑯𐑑𐑧𐑥𐑐𐑑 𐑓 𐑣𐑿𐑥𐑩𐑯 𐑮𐑲𐑑𐑕 𐑣𐑨𐑝 𐑮𐑦𐑟𐑳𐑤𐑑𐑩𐑛 𐑦𐑯 𐑚𐑸𐑚𐑼𐑩𐑕 𐑨𐑒𐑑𐑕 𐑢𐑦𐑗 𐑣𐑨𐑝 𐑬𐑑𐑮𐑱𐑡𐑛 𐑞 𐑒𐑪𐑯𐑖𐑩𐑯𐑕 𐑝 𐑥𐑨𐑯𐑒𐑲𐑯𐑛, 𐑯 𐑞 𐑨𐑛𐑝𐑧𐑯𐑑 𐑝 𐑩 𐑢𐑻𐑤𐑛 𐑦𐑯 𐑢𐑦𐑗 𐑣𐑿𐑥𐑩𐑯 𐑚𐑰𐑦𐑙𐑟\n 𐑖𐑨𐑤 𐑦𐑯𐑡𐑶 𐑓𐑮𐑰𐑛𐑩𐑥 𐑝 𐑕𐑐𐑰𐑗 𐑯 𐑚𐑦𐑤𐑰𐑓 𐑯 𐑓𐑮𐑰𐑛𐑩𐑥 𐑓𐑮𐑪𐑥 𐑓𐑽 𐑯 𐑢𐑪𐑯𐑑 𐑣𐑨𐑟 𐑚𐑰𐑯 𐑐𐑮𐑴𐑒𐑤𐑱𐑥𐑛 𐑨𐑟 𐑞 𐑣𐑲𐑩𐑕𐑑 𐑨𐑕𐑐𐑼𐑱𐑖𐑩𐑯 𐑝 𐑞 𐑒𐑪𐑥𐑩𐑯 𐑐𐑰𐑐𐑩𐑤,\n·𐑢𐑺𐑨𐑟 𐑦𐑑 𐑦𐑟 𐑦𐑕𐑧𐑯𐑖𐑩𐑤, 𐑦𐑓 𐑥𐑨𐑯 𐑦𐑟 𐑯𐑪𐑑 𐑑 𐑚𐑰 𐑒𐑩𐑥𐑐𐑧𐑤𐑛 𐑑 𐑣𐑨𐑝 𐑮𐑦𐑒𐑹𐑕, 𐑨𐑟 𐑩 𐑤𐑭𐑕𐑑 𐑮𐑦𐑟𐑹𐑑, 𐑑 𐑮𐑦𐑚𐑧𐑤𐑘𐑩𐑯 𐑩𐑜𐑱𐑯𐑕𐑑 𐑑𐑦𐑮𐑩𐑯𐑦 𐑯 𐑩𐑐𐑮𐑧𐑖𐑩𐑯, 𐑞𐑨𐑑 𐑣𐑿𐑥𐑩𐑯 𐑮𐑲𐑑𐑕 𐑖𐑫𐑛 𐑚𐑰 𐑐𐑮𐑩𐑑𐑧𐑒𐑑𐑩𐑛\n 𐑚𐑲 𐑞 𐑮𐑵𐑤 𐑝 𐑤𐑷,"
+}
+historical: true

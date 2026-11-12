@@ -1,0 +1,14 @@
+id: "twq_Latn"
+language: "twq"
+script: "Latn"
+name: "Tasawaq"
+autonym: "Ingalkoyyu’"
+population: 7970
+region: "NE"
+exemplar_chars {
+  base: "a A ã Ã b B c C d D e E ẽ Ẽ f F g G h H i I j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O õ Õ p P q Q r R s S š Š t T u U w W x X y Y z Z ž Ž"
+  auxiliary: "v V"
+  marks: "◌̃ ◌̌"
+  numerals: "- . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P Q R S T U W X Y Z"
+}

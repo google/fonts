@@ -1,0 +1,15 @@
+id: "thp_Latn"
+language: "thp"
+script: "Latn"
+name: "Thompson"
+autonym: "nłeʔkepmxcin"
+population: 600
+region: "CA"
+exemplar_chars {
+  base: "a á c {c̓} {c̣} e é ə h ɣ i í ị k {k̓} l {l̓} ḷ ł ƛ m {m̓} n {n̓} o ó p q s ṣ t θ u ú w x y z ʔ ʕ {ʕ̓} ʷ"
+  auxiliary: "A b B C d D E f F g G H I j J K L M N o O P Q r R S T U v V W X Y Z Á É Í Ó Ú Ł ɬ Ɬ Ə Ɣ Θ Ḷ Ṣ Ị"
+  marks: "◌́ ◌̓ ◌̣"
+}
+source: "FirstVoices"
+source: "Wikipedia"
+note: "FirstVoices shows ɬ instead of ł. Citxw Nlaka'pamux Assembly language resources use ł."

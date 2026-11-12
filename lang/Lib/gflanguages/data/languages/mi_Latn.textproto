@@ -1,0 +1,27 @@
+id: "mi_Latn"
+language: "mi"
+script: "Latn"
+name: "Maori"
+autonym: "te reo Māori"
+population: 137913
+region: "NZ"
+exemplar_chars {
+  base: "A Ā E Ē H I Ī K M N {NG} O Ō P R T U Ū W {WH} a ā e ē h i ī k m n {ng} o ō p r t u ū w {wh}"
+  auxiliary: "B C D F G J L Q S V X Y Z b c d f g j l q s v x y z"
+  marks: "◌̄"
+  index: "A E H I K M N O P R T U W"
+}
+sample_text {
+  masthead_full: "IiĀā"
+  masthead_partial: "Ēē"
+  styles: "I te whānautanga mai o te tangata, kāhore"
+  tester: "E āhei ana ia tangata ki ngā tika me ngā herekoretanga e rār"
+  poster_sm: "E whai tik"
+  poster_md: "Kia ka"
+  poster_lg: "mai"
+  specimen_48: "Kia kaua te tangata e tukuna kia tūkinotia, kia whi"
+  specimen_36: "Kia kaua te tangata e hopukina pokanoatia, e mauheretia pokanoatia rānei, e panaia pokanoatia rānei i te whenua."
+  specimen_32: "E whai tika ana ia tangata ki te whakatā, ki te whakangahau hoki, me whakarite ngā hāora mahi kia pēnei, me whakawhiwhi hoki he wā hararei e utua ana."
+  specimen_21: "E whai tika ana ia tangata ki tētahi punaha hapori i tōna whenua me te ao whānui e mana katoa ai ngā tika me ngā herekoretanga kei tēnei Whakapuakitanga e rārangi ana.\nKāhore he kōrero i tēnei Whakapuakitanga ka taea te kī māna e whai tika ai te Mana Whenua, te rōpū, te tangata rānei ki te mahi i tētahi mahi e korehāhātia ai ngā tika me ngā herekoretanga e rārangi ake nei."
+  specimen_16: "I te whānautanga mai o te tangata, kāhore ōna here, e ōrite ana tōna mana me ōna tika ki te katoa. Ka whakatōkia ki roto i te tangata he wairua,\nhe hinengaro hoki, ā, me mahi tahi ia ki ngā tāngata o te ao i runga i te āhua o te tuakana me te teina.\nE whai tika ana ia tangata ki te ora, ki te noho herekore, ki te haumarutanga o te tinana.\nKia kaua te tangata e pupuritia hei taurekareka, hei pononga mā tētahi, ā, me aukati ngā āhuatanga katoa o te whakataurekareka i te tangata, o te hoko rānei i te tangata hei taurekareka.\nKia kaua te tangata e tukuna kia tūkinotia, kia whiua rānei ki te mahi whakawiri, whakāhawea rānei i a ia."
+}

@@ -1,0 +1,20 @@
+id: "xpr_Prti"
+language: "xpr"
+script: "Prti"
+name: "Parthian"
+population: 0
+sample_text {
+  masthead_full: "𐭅𐭕𐭀𐭍"
+  masthead_partial: "𐭉𐭆"
+  styles: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀"
+  tester: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓"
+  poster_sm: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉"
+  poster_md: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉"
+  poster_lg: "𐭒𐭉𐭃𐭉𐭆𐭍"
+  specimen_48: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓"
+  specimen_36: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀"
+  specimen_32: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀"
+  specimen_21: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀\n𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀\n𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀"
+  specimen_16: "𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀\n𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀\n𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀\n𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀\n𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀\n𐭅𐭕𐭀𐭅𐭍𐭉𐭆𐭍𐭄𐭋𐭉 𐭒𐭉𐭃𐭉𐭆𐭍 𐭀𐭋𐭇𐭀 𐭔𐭇𐭉𐭐𐭅𐭇𐭓 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭀 𐭀𐭓𐭉𐭀𐭍𐭅 𐭀𐭍𐭀𐭓𐭉𐭀𐭍𐭌𐭍𐭅𐭔𐭉𐭇𐭓 𐭌𐭍 𐭉𐭀𐭆𐭕𐭍𐭏𐭓𐭉 𐭌𐭉𐭃𐭉𐭆𐭍𐭀𐭋𐭇𐭀 𐭀𐭓𐭕𐭇𐭔𐭕𐭂 𐭌𐭋𐭓𐭉𐭍𐭌𐭋𐭓𐭀"
+}
+historical: true

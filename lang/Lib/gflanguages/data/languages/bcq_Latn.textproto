@@ -1,0 +1,10 @@
+id: "bcq_Latn"
+language: "bcq"
+script: "Latn"
+name: "Bench"
+population: 356000
+region: "ET"
+exemplar_chars {
+  base: "a A b B c C d D e E g G h H i I k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z"
+  auxiliary: "f F j J"
+}

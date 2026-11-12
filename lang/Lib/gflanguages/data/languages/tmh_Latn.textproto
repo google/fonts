@@ -1,0 +1,17 @@
+id: "tmh_Latn"
+language: "tmh"
+script: "Latn"
+name: "Tamashek"
+population: 1776965
+region: "ML"
+region: "NE"
+exemplar_chars {
+  base: "a A â Â ă Ă ǝ Ǝ b B ɓ Ɓ c C d D ɗ Ɗ ḍ Ḍ e E ê Ê f F g G ǧ Ǧ h H ʔ i I î Î j J ǰ {J̌} ɣ Ɣ k K l L ḷ Ḷ m M n N ŋ Ŋ o O ô Ô q Q r R s S ṣ Ṣ š Š t T ṭ Ṭ ƭ Ƭ u U û Û w W x X y Y z Z ž Ž ẓ Ẓ"
+  marks: "◌̌ ◌̆ ◌̣"
+  auxiliary: "ḅ Ḅ ə Ə ñ Ñ ʃ Ʃ ʒ Ʒ"
+}
+source: "Chantal Enguehard, “Alphabet tamajaq – arrêté no 214-99 de la République du Niger”, 2007"
+source: "République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d'orthographe des langues nationales, Bamako, DNAFLA, 1993"
+source: "République du Niger, Ministère de l’Éducation nationale, arrêté no 0214/MEN/SPCNRE du 19 octobre 1999 fixant l’orthographe de la langue tamajaq, 1999"
+source: "David Sudlow, The Tamasheq of North-East Burkina Faso, Köln: Rüdiger Köppe Verlag, 2001"
+note: "See Tamasheq (taq_Latn).\nSudlow 2001 indicates letters with hooks ɗ ƭ are used for emphatic consonants in Burkina Faso."

@@ -1,0 +1,16 @@
+id: "bqc_Latn"
+language: "bqc"
+script: "Latn"
+name: "Boko"
+population: 160000
+region: "BJ"
+region: "NG"
+exemplar_chars {
+  base: "a A á Á à À ã Ã {ã́} {Ã́} {ã̀} {Ã̀} b B d D e E é É è È ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̃} {Ɛ̃} {ɛ̃́} {Ɛ̃́} {ɛ̃̀} {Ɛ̃̀} f F g G i I í Í ì Ì ĩ Ĩ {ĩ́} {Ĩ́} {ĩ̀} {Ĩ̀} k K l L m M n N o O ó Ó ò Ò ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̃} {Ɔ̃} {ɔ̃́} {Ɔ̃́} {ɔ̃̀} {Ɔ̃̀} p P s S t T u U ú Ú ù Ù ũ Ũ ṹ Ṹ {ũ̀} {Ũ̀} v V w W y Y z Z"
+  marks: "◌́ ◌̃ ◌̀"
+  auxiliary: "c C h H j J q Q r R x X"
+}
+note: "Centre national de linguistique appliquée (CENALA), Alphabet des langues nationales, Cotonou, CENALA, 1990"
+source: "Bòó Bibeli Luayãtaala, SIM International, 2010, https://www.bible.com/bible/1155/MAT.1.BBL2010"
+source: "SLDR"
+source: "Wikipedia"

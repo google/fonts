@@ -1,0 +1,18 @@
+id: "bib_Latn"
+language: "bib"
+script: "Latn"
+name: "Bissa"
+autonym: "bɩsa barka"
+population: 1150000
+region: "BF"
+region: "GH"
+region: "CI"
+region: "TG"
+exemplar_chars {
+  base: "a A á Á à À b B d D e E ə Ə ɛ Ɛ f F g G h H i I ɩ Ɩ k K l L m M n N ɲ Ɲ ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V ʋ Ʋ w W y Y z Z"
+  marks: "◌̀ ◌́"
+  auxiliary: "c C j J q Q ʊ Ʊ x X"
+}
+source: "Wikipedia"
+source: "https://www.webonary.org/bissa-barka"
+source: "https://www.bissa-barka.net"

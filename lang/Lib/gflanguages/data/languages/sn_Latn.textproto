@@ -1,0 +1,27 @@
+id: "sn_Latn"
+language: "sn"
+script: "Latn"
+name: "Shona"
+autonym: "Chishona"
+population: 11782503
+region: "ZW"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "q Q x X"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P R S T U V W Y Z"
+}
+sample_text {
+  masthead_full: "VvAa"
+  masthead_partial: "Nn"
+  styles: "Sezvo kucherechedza hunhu nekodzero yakayenzana"
+  tester: "Sezvo kusatevera nekusvora kodzero dzevanhu zvakamboita kuti"
+  poster_sm: "Sezvo chiri"
+  poster_md: "Sezvo vanhu"
+  poster_lg: "Vanhu"
+  specimen_48: "Sezvo kunzwisisa pamwechete kodzero idzi norusununguko zvichikosha"
+  specimen_36: "Vanhu vese vakayenzana pamberi pomutemo uye vanekodzero, pasina rusarura, yokuchengetedzwa zvakayenzana nomutemo."
+  specimen_32: "Munhu wese anekodzero yokuzorora nokuzvivaraidza, zvichibatanidza kukamurwa kwenguva yokushanda nokuwana zororo nguva nenguva pabasa achipihwa mugove wakakwana."
+  specimen_21: "Munhu wese anofanirwa kugara muruwa nemunyika umo munozova nokucherechedzwa zvakakwana kwekodzero norusununguko sekutaurwa kwazvakaitwa mukurudziro ino.\nHapana chinhu chiri mukurudziro ino chichazotsanangurwa sechinoreva kuti chero ipi zvayo nyika, bato, kana munhu pachake, anekodzero yokuita mabasa kana zviito zvinopwanya ipi zvayo kodzero kana rusununguko zviri mukurudziro ino."
+  specimen_16: "Sezvo kucherechedza hunhu nekodzero yakayenzana yomunhu wese pasi pose iriyo mviromviro yomutongero uri pachokwadi norunyararo panyika.\nSezvo kusatevera nekusvora kodzero dzevanhu zvakamboita kuti kuve noutsinye hwakarwadza pfungwa dzevanhu pasi pose, nokuuya kwenyika inevanhu vachafadzwa norusununguko nokutaura zvavanoda zvakapikirwa sezvinangwa zvinodiwa kuvanhu vese vese.\nSezvo chiri chinhu chinokosha, kana munhu asingazomanikidzirwa kuita somukana wokupedzisira, kupandukira hutongi hwakaipa kana hudzvanyiriri, kuti, kodzero dzevanhu dzichengetedzwe nohutongi hwomutemo."
+}

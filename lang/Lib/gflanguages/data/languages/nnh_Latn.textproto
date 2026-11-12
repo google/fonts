@@ -1,0 +1,15 @@
+id: "nnh_Latn"
+language: "nnh"
+script: "Latn"
+name: "Ngiemboon"
+autonym: "Ngyɛmbɔɔŋ"
+population: 388430
+region: "CM"
+exemplar_chars {
+  base: "a A á Á à À â Â ǎ Ǎ b B c C d D e E é É è È ê Ê ě Ě ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} f F g G h H i I í Í ì Ì j J k K l L m M ḿ Ḿ n N ń Ń ŋ Ŋ o O ó Ó ò Ò ô Ô ǒ Ǒ ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} p P {pf} {PF} s S {sh} {SH} t T {ts} {TS} u U ú Ú ù Ù û Û ǔ Ǔ ʉ Ʉ {ʉ́} {Ʉ́} {ʉ̀} {Ʉ̀} {ʉ̂} {Ʉ̂} {ʉ̌} {Ʉ̌} v V w W ẅ Ẅ y Y ÿ Ÿ z Z ʼ"
+  auxiliary: "q Q r R x X"
+  marks: "◌̀ ◌́ ◌̂ ◌̈ ◌̌"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: ", ; : ! ? . \' ‘ ’ « »"
+  index: "A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P {Pf} R S {Sh} T {Ts} U Ʉ V W Ẅ Y Ÿ Z ʼ"
+}

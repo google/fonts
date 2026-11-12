@@ -1,0 +1,19 @@
+id: "apd_Latn"
+language: "apd"
+script: "Latn"
+name: "Sudanese Arabic"
+population: 33000000
+region: "ER"
+region: "SD"
+region: "SS"
+historical: true
+exemplar_chars {
+  base: "a A b B d D ḍ Ḍ f F g G h H ḥ Ḥ i I j J k K ḵ Ḵ x X l L m M n N q Q r R s S ṣ Ṣ t T ṭ Ṭ u U w W y Y z Z ẓ Ẓ ‘ ’"
+  marks: "◌̄ ◌̣ ◌̱ ◌͟"
+  auxiliary: "c C e E o O p P q Q v V ʾ ʿ ʻ ʼ"
+}
+note: "Romanized Sudanese Arabic is mainly used in historical Bible translations or in some teaching material. In other contexts, Modern Standard Arabic or Sudanese Arabic written with the Arabic script are used. Eluzai 1993 in Hartell 1993 gives 3 Romanizations: one used in the BAM 1978 New Testament, one used by Hillelson 1925 and one used by Persson & Persson 1979. More recent editions like Persson & Personn 2017 use a different Romanization. Digitized versions of the BFBF 1927 mistakenly use two U+0320 or U+0331 instead of a single U+035F. Persson & Persson 2017 uses half rings U+02BE ʾ and U+02BF ʿ, Hillelson 1925 uses U+2018 ‘ and U+2019 ’(as in digitized BFBS 1927) or U+02BB ʻ and U+02BC ʼ."
+source: "Bible Alliance Mission (BAM), Kitaab al [Vahd] aj Jadid, 1978"
+source: "British and Foreign Bible Society (BFBS), Ingīl Marqus, 1927"
+source: "Moka Yokwe Eluzai, “Soudan”, in Rhonda L. Hartell, Alphabets des langues africaines, Dakar: Unesco, SIL, 1993, pp. 265-277"
+source: "Sigmar Hillelson, Sudan Arabic English-Arabic Vocabulary, London: Sudan Government, 1925"

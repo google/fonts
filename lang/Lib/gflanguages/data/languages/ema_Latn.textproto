@@ -1,0 +1,16 @@
+id: "ema_Latn"
+language: "ema"
+script: "Latn"
+name: "Emai-Iuleha-Ora"
+population: 314000
+region: "NG"
+exemplar_chars {
+  base: "a A b B d D e E {e̲} {E̲} f F g G h H i I j J k K l L m M n N o O {o̲} {O̲} p P r R s S t T u U v V w W y Y z Z"
+  marks: "◌̀ ◌́ ◌̱ ◌̲"
+  auxiliary: "à À á Á è È é É {e̱} {E̱} {è̱} {È̱} {é̱} {É̱} {è̲} {È̲} {é̲} {É̲} {o̱} {O̱} {ò̱} {Ò̱} {ó̱} {Ó̱} {ò̲} {Ò̲} {ó̲} {Ó̲} ù Ù ú Ú c C q Q x X"
+}
+source: "Rhonda L. Hartell, Alphabets de langues africaines, Dakar, BREDA (UNESCO) and Summer Institute of Linguistics, 1993"
+source: "Ronald P. Schaefer, An initial orthography and lexicon for Emai: An Edoid language of Nigeria, Indiana University Linguistics Club, 1987"
+source: "Ronald P. Schaefer & Francis O. Egbokhare, A dictionary of Emai: an Edoid language of Nigeria, including a grammatical sketch, Cologne, Rüdiger Köppe, 2007"
+source: "Ronald P. Schaefer & Francis O. Egbokhare, A Grammar of Emai, De Gruyter Mouton, 2016"
+note: "Nasal vowels are followed by the letter n.\nIt’s not clear if the underlined letters are e̱ and o̱ with combining macron below or e̲ and o̲ with combining line below as text formatting is used in reference works to produce them instead of using combining marks.\nDictionaries and grammars indicate tones with grave and acute accents."

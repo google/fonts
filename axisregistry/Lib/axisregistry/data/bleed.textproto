@@ -1,0 +1,16 @@
+# BLED based on https://github.com/jenskutilek/homecomputer-fonts
+tag: "BLED"
+display_name: "Bleed"
+min_value: 0
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0.0
+}
+fallback_only: false
+description: 
+  "Bleed adjusts the overall darkness in the typographic color of strokes or other forms, without"
+  " any changes in overall width, line breaks, or page layout. Negative values make the font appearance"
+  " lighter, while positive values make it darker, similarly to ink bleed or dot gain on paper."

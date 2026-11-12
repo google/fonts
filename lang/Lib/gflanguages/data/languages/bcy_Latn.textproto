@@ -1,0 +1,10 @@
+id: "bcy_Latn"
+language: "bcy"
+script: "Latn"
+name: "Bacama"
+population: 300000
+region: "NG"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E ə Ə f F g G h H i I ɨ Ɨ j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z ꞌ Ꞌ"
+  auxiliary: "q Q x X"
+}

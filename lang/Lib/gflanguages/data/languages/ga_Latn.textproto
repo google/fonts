@@ -1,0 +1,30 @@
+id: "ga_Latn"
+language: "ga"
+script: "Latn"
+name: "Irish"
+autonym: "Gaeilge"
+population: 1155943
+region: "GB"
+region: "IE"
+exemplar_chars {
+  base: "A Á B C D E É F G H I Í L M N O Ó P R S T U Ú a á b c d e é f g h i í l m n o ó p r s t u ú"
+  auxiliary: "Å Ḃ Ċ Ḋ Ḟ Ġ J K Ṁ Ṗ Q Ṡ Ṫ V W X Y Z å ḃ ċ ḋ ḟ ġ j k ṁ ṗ q ṡ ṫ v w x y z"
+  marks: "◌́"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Oo"
+  styles: "De Bhrí gurb é aithint dínte dúchais agus"
+  tester: "De Bhrí gur thionscain a neamhaird agus an mí-mheas ar chearta"
+  poster_sm: "De Bhrí go"
+  poster_md: "De Bhrí gur"
+  poster_lg: "daoine"
+  specimen_48: "De Bhrí go bhfuil sé fíor-thábhachtach, chun an gealltanas sin"
+  specimen_36: "Ní coimeádfar aon duine faoi mhoghsaine ná faoi dhaoirse; toirmeasctar gach gné den mhoghsaine agus de thrádáil na mogha."
+  specimen_32: "Tá ag gach uile dhuine an ceart chun sosa agus scíthe, agus go háirithe chun teora réasúnach lena uaireannta oibre agus chun saoirse le páigh d\'fháil ó thráth go chéile."
+  specimen_21: "Is dligh do gach uile dhuine go mbéadh eagras sóisialach agus e adarnáisiúnta i réim a bhéarfadh go bhféadfaí na cearta agus na saoirsí atá leagtha amach sa Dearbhú seo a chur i gerích go hiomlán.\nNí cead aon ní sa Dearbhú seo a leiriú mar ní a bheir dón Stát grúpa nó duine ceart ar bith chun páirt a ghlacadh in aon ghníomhacht ná aon ghníomh a dhéanamh d\'fhonn aon cheart nó saoirse dá luaitear anseo a dhíthiú."
+  specimen_16: "De Bhrí gurb é aithint dínte dúchais agus chearta comhionanna do-shannta an uile dhuine den chine daonna is foras don tsaorise, don cheartas agus don tsíocháin sa domhan,\nDe Bhrí gur thionscain a neamhaird agus an mí-mheas ar chearta an duine gníomhartha barbartha a chuir uafás ar choinsias an chine daonna, agus go bhfuil forógartha gurb é meanmarc is uaisle ag an gcoitiantacht saol a thabhairt i réim a bhéarfas don duine saoirse chainte agus chreidimh agus saoirse ó eagla agus ó amhgar,\nDe Bhrí gur ghabhadar na Stát-Chomhaltaí faoi chuing ghealltanais go ndéanfaid, i gcomhar leis na Náisiúin Aontaithe, urraim uile-choiteann éifeachtach d\'áirithiú do chearta agus do shaoirsí bunúsacha an duine."
+}

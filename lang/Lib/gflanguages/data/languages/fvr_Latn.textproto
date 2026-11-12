@@ -1,0 +1,27 @@
+id: "fvr_Latn"
+language: "fvr"
+script: "Latn"
+name: "Fur"
+population: 1230163
+region: "SD"
+exemplar_chars {
+  base: "a A á Á â Â ǎ Ǎ {a̱} {A̱} {á̱} {Á̱} {â̱} {Â̱} {ǎ̱} {Ǎ̱} b B d D e E é É ê Ê ě Ě g G h H i I í Í î Î ǐ Ǐ ɨ Ɨ j J k K l L m M n N ŋ Ŋ {ny} {NY} {ɨ́} {Ɨ́} {ɨ̂} {Ɨ̂} {ɨ̌} {Ɨ̌} o O ó Ó ô Ô ǒ Ǒ p P r R s S t T u U ú Ú û Û ǔ Ǔ ʉ Ʉ {ʉ́} {Ʉ́} {ʉ̂} {Ʉ̂} {ʉ̌} {Ʉ̌} w W y Y z Z ꞌ Ꞌ"
+  marks: "◌́ ◌̂ ◌̌ ◌̰"
+  auxiliary: "ʼ"
+}
+sample_text {
+  masthead_full: "KkWw"
+  masthead_partial: "A̱a̱"
+  styles: "Kwa-sí nyéttiŋ baajtólá kereli nás nisila"
+  tester: "Kwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ,"
+  poster_sm: "Kwa-sí nyéttiŋ"
+  poster_md: "Kwa-sí"
+  poster_lg: "Kwa-sí"
+  specimen_48: "Kwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ"
+  specimen_36: "Kwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ, Naŋ-sí ugola na kilmaŋá arrá ka̱ɨŋ namá in lóŋ áláŋ sǔrŋâ-sí kí jaiŋa in kéél ná sǔrŋâ suurꞌíŋ bârŋa."
+  specimen_32: "Kwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ, Naŋ-sí ugola na kilmaŋá arrá ka̱ɨŋ namá in lóŋ áláŋ sǔrŋâ-sí kí jaiŋa in kéél ná sǔrŋâ suurꞌíŋ bârŋa."
+  specimen_21: "Kwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ, Naŋ-sí ugola na kilmaŋá arrá ka̱ɨŋ namá in lóŋ áláŋ sǔrŋâ-sí kí jaiŋa in kéél ná sǔrŋâ suurꞌíŋ bârŋa.\nkwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ, Naŋ-sí ugola na kilmaŋá arrá ka̱ɨŋ namá in lóŋ áláŋ sǔrŋâ-sí kí jaiŋa in kéél ná sǔrŋâ suurꞌíŋ bârŋa."
+  specimen_16: "Kwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ, Naŋ-sí ugola na kilmaŋá arrá ka̱ɨŋ namá in lóŋ áláŋ sǔrŋâ-sí kí jaiŋa in kéél ná sǔrŋâ suurꞌíŋ bârŋa.\nkwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ, Naŋ-sí ugola na kilmaŋá arrá ka̱ɨŋ namá in lóŋ áláŋ sǔrŋâ-sí kí jaiŋa in kéél ná sǔrŋâ suurꞌíŋ bârŋa.\nkwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ, Naŋ-sí ugola na kilmaŋá arrá ka̱ɨŋ namá in lóŋ áláŋ sǔrŋâ-sí kí jaiŋa in kéél ná sǔrŋâ suurꞌíŋ bârŋa.\nkwa-sí nyéttiŋ baajtólá kereli nás nisila na ta̱gɨdɨŋ arrá ka̱ɨŋ, Naŋ-sí ugola na kilmaŋá arrá ka̱ɨŋ namá in lóŋ áláŋ sǔrŋâ-sí kí jaiŋa in kéél ná sǔrŋâ suurꞌíŋ bârŋa."
+}
+source: "Nyarta Kujâk Beetío, Booꞌŋ Kwě Arbâb Yú̶nis, Garíny Daa Têrre, Toór Silmân, Ba̱rɨwǎ̱̱rɨg Tóódʉó & Dɨ̌jakajag Kʉmʉ̂ndʉ, Pooꞌíŋ Beléꞌŋ Seebáaŋaꞌŋ Domboreꞌŋ Aldíŋá, Fur Language Committee & SWP, 2017"
+note: "Possesive is spelled with the apostrophe or the saltillo."

@@ -1,0 +1,25 @@
+id: "niu_Latn"
+language: "niu"
+script: "Latn"
+name: "Niuean"
+autonym: "Niuē"
+population: 1120
+region: "NU"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū"
+  marks: "◌̄"
+}
+sample_text {
+  masthead_full: "KkOo"
+  masthead_partial: "Ee"
+  styles: "Ha kua ha ha i ai e kitiaaga ke he fakalilifu"
+  tester: "Ha kua ha ha i ai e fakatikai mo e fakavihia he tau tonuhia fakatagata"
+  poster_sm: "Ha kua ha ha"
+  poster_md: "Ha kua ha"
+  poster_lg: "tau"
+  specimen_48: "Ha kua ha ha i ai ko e tau tagata he tau Kautu Lafilafi ki loto"
+  specimen_36: "Nakai lata ha tagata ke lauia he fakakikiveka poke fakamamahi, fakaehiehi ai ko e tagata poke eke fakakelea poke fakahala."
+  specimen_32: "Kua tonuhia e tau tagata oti ke he taha peehiaga fakafetui mo e laulahi ne kua fakamau ai e tau tonuhia mo e tau tokanoaaga he Fakaveaga nai ke kitia e fakakatoatoaaga."
+  specimen_21: "Nakai fai mena kua tohia ai ke he Maveheaga nai ke talahau ai kua tuhi fakamahao ke he ha Kautu taha, ha matakau poke ha tagata e ha tonuhia ke matutaki ke he ha tauteaga poke taute ai taha mena ke moumou aki e tau tonuhia mo e tau tokanoaaga kua fakamau ai nai.\nHa kua ha ha i ai e kitiaaga ke he fakalilifu mo e fakatatai mo e nakai fakakehe he tau tonuhia he tau tutaki oti he magafaoa he tau tagata ko e matapatu he fakatokanoa, haohao mitaki mo e mafola he lalolagi."
+  specimen_16: "Ha kua ha ha i ai e kitiaaga ke he fakalilifu mo e fakatatai mo e nakai fakakehe he tau tonuhia he tau tutaki oti he magafaoa he tau tagata ko e matapatu he fakatokanoa, haohao mitaki mo e mafola he lalolagi.\nHa kua ha ha i ai e fakatikai mo e fakavihia he tau tonuhia fakatagata kua tupu mai ai e tau mahani ekefakakelea ne kua nakai fiafia e tau manamanatu he tau tagata, mo e kamata ai foki ke kitia e fakatino ma e lalolagi kua maeke ai e tau tagata ke fakaatā ke vagahau mo e talia mo e tokanoa mai he matakutaku mo e manako kua fakailoa ai ko e manako uho ha ia he tau tagata katoa oti."
+}

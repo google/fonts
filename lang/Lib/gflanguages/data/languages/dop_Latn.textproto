@@ -1,0 +1,11 @@
+id: "dop_Latn"
+language: "dop"
+script: "Latn"
+name: "Lukpa"
+population: 160000
+region: "BJ"
+region: "TG"
+exemplar_chars {
+  base: "a A c C e E ɛ Ɛ ǝ Ǝ f F h H i I ɩ Ɩ k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P ɣ Ɣ s S t T u U ʊ Ʊ w W y Y"
+  auxiliary: "b B d D g G j J q Q r R v V x X z Z"
+}

@@ -1,0 +1,13 @@
+id: "ki_Latn"
+language: "ki"
+script: "Latn"
+name: "Kikuyu"
+autonym: "Gĩgĩkũyũ"
+population: 9099743
+region: "KE"
+exemplar_chars {
+  base: "a A b B c C d D e E g G h H i I ĩ Ĩ j J k K m M n N o O r R t T u U ũ Ũ w W y Y"
+  auxiliary: "f F l L p P q Q s S v V x X z Z"
+  marks: "◌̃"
+  index: "A B C D E G H I J K M N O R T U W Y"
+}

@@ -1,0 +1,15 @@
+id: "efi_Latn"
+language: "efi"
+script: "Latn"
+name: "Efik"
+autonym: "efi"
+population: 2996392
+region: "NG"
+exemplar_chars {
+  base: "A B D E F G H I K M N O P R S T U W Y a b d e f g h i k m n o p r s t u w y Ñ ñ Ọ ọ"
+  auxiliary: "Ẹ ẹ Ị ị Ụ ụ"
+  marks: "◌̃ ◌̣"
+}
+source: "http://efikeburutu.org/efik%20language.html"
+source: "Okon E. Essien, Efik Orthography, in Ayo Bamgbose, Orthographies of Nigerian languages: manual I, Lagos, Federal Ministry of Education, National Language Centre, 1982"
+source: "Wikipedia"

@@ -1,0 +1,29 @@
+id: "xh_Latn"
+language: "xh"
+script: "Latn"
+name: "Xhosa"
+autonym: "isiXhosa"
+population: 10182944
+region: "LS"
+region: "ZA"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z"
+  auxiliary: ""
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "BbOo"
+  masthead_partial: "Nn"
+  styles: "Njengoko iimfanelo zesidima soluntu semvelo"
+  tester: "Njengoko ukungananzi nokudelelwa kweemfanelo zoluntu ezingunobangela"
+  poster_sm: "Kwananjalo"
+  poster_md: "Njengokuba"
+  poster_lg: "Bonke"
+  specimen_48: "Njengoko uluntu Lwezizwe Ezimanyeneyo luthe lwaqinisekisa kukubaluleka"
+  specimen_36: "Njengoko iimvisiswano zesidima soluntu nenkululeko yoluntu zibalulekile ukuze kuzuzwe esi sithembiso,"
+  specimen_32: "Bonke abantu bazalwa bekhululekile belingana ngesidima nangokweemfanelo. Bonke abantu banesiphiwo sesazela nesizathu sokwenza isenzo ongathanda ukuba senziwe kumzalwane wakho."
+  specimen_21: "Wonke umntu unamalungelo kwiimfanelo nenkululeko eziqulathwe kule nkcazelo, ngaphandle kokwahlulwa ngobuhlanga, ibala, ubuni, ulwimi, inkolo, ezopolitiko nezinye izimvo, ezesizwe okanye ezentlalo, ezokuzalwa okanye namanye amawonga.\nNgaphezu koko, akukho mahluko unokwenziwa usekelwe kwezopolitiko, ulawulo lwezobulungisa okanye amawonga ezizwe nezizwana okanye ummandla apho umntu akhoyo, nokuba uzimele, ukuthembeka, urhulumente ongazimelanga okanye nokuba zeziphi indlela zokunciphisa ulawulo lobukumkani."
+  specimen_16: "Wonke umntu unelungelo lokuphila, inkululeko kunye nokhuseleko.\nAkukho namnye oya kugcinwa ebukhobokeni nakukhuselo lomnye umntu, kanti urhwebo ngamakhoboka aluvumelekanga nangayiphina indlela.\nAkukho namnye oyakuphathwa gadalala, ngenkohlakalo, ngokungenabuntu okanye ngempatho eluhlazo okanye isohlwayo.\nWonke umntu unelungelo lokwamkelwa yonke indawo njengomntu phambi komthetho.\nBonke abantu bayalingana phambi komthetho kwaye benamalungelo ngaphandle kocalu-calulo ngokulinganayo kukhuseleko lomthetho. Bonke abantu banelungelo lokhuselo olulinganayo oluchasene naluphina ucalu-calulo olwaphula le nkcazelo, nangokuchasene neendlela zothelekiso kucalu-calulo."
+}
+source: "J. C. Oosthuysen, The Grammar of isiXhosa, Sun Press, 2016"
+note: "Marks for tones (◌́ high, ◌̀ low, ◌̂ falling) are not used in the orthography but are used on vowels or nasal consonants in some dictionaries. The nasalization mark (◌̃) is only used in a few dictionaries. The 1937-1955 orthography used ɓ Ɓ, ɼ (capital ɼ not in Unicode), ʃ Ʃ, they are now b B, rh RH, sh SH. The 1937-1955 orthography used ˈ for high tone, ˌ for low tone and ˈˌ for falling tone, for exemple bˈethˌa for bétha 'hit' and bˈoˌnˌa for bôna 'see'. Before 1937, ◌̔ was used to indicate aspiration of the previous consonant on vowels, as well as on r. ◌̇ was used on q and r."

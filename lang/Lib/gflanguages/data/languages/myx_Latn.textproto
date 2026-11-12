@@ -1,0 +1,12 @@
+id: "myx_Latn"
+language: "myx"
+script: "Latn"
+name: "Masaaba"
+population: 1254337
+region: "UG"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T {ts} {TS} u U v V w W y Y"
+  auxiliary: "q Q x X z Z"
+}
+source: "Milton Eridad Shissa & Robina Wanyenze, Lumasaaba: I -- R, African Story Book Initiative, 2017"
+source: "Milton Eridad Shissa & Robina Wanyenze, Lumasaaba: P -- Ts, African Story Book Initiative, 2017"

@@ -1,0 +1,24 @@
+id: "ada_Latn"
+language: "ada"
+script: "Latn"
+name: "Adangme"
+population: 880206
+region: "GH"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I J K L M N O Ɔ P S T U V W Y Z a b d e ɛ f g h i j k l m n o ɔ p s t u v w y z"
+  auxiliary: "C Q R X c q r x"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Ee"
+  styles: "Be abɔ nɛ a le odehe si himi nɛ Mawu bɔ adesahi"
+  tester: "Be abɔ nɛ adesa he blɔhi a nɔ tue gbomi kɛ he guɛ gbemi wo basabasa"
+  poster_sm: "Be abɔ nɛ, ke"
+  poster_md: "Be abɔ nɛ"
+  poster_lg: "Adesahi"
+  specimen_48: "Be abɔ nɛ Je Mahi A Kake Peemi Kuu ɔ ma a hemi kɛ yemi nɔ mi"
+  specimen_36: "A be nɔ ko nɔ ko woe ngɔ pee nyɔguɛ loo a maa tsi e nya yaka gu. A maa gu nyɔguɛ yemi kɛ nyɔguɛ jua yemi pɛsɛpɛsɛ."
+  specimen_32: "He blɔ ngɛ ha nɔ fɛɛ nɔ, nɛ Amlaalɔ ɔ e kojoli kpakpahi a dlaa nɛ a kojoɔ e sane ɔ haa lɛ, ke munyu ko maa te si kɛ si he blɔhi klɛdɛɛ nɛ mlaa kɛ ma nɔ yemi mlaa haa lɛ ɔ."
+  specimen_21: "He blɔ be nɛ a nuu nɔ ko gu, aloo a tsiɔ nɔ ko nya ngɛ polisihi a nine nɔ, aloo a fieɔ nɔ ko kɛ jee e ma mi nɛ sisi numi be he.\nNɔ tsuaa nɔ ngɛ he blɔ sɔsɔɛ nɛ kojoli nɛ hɛɛ a he, nɛ a be gɔdɔgɔdɔ maa kojp e sane ha lɛ pɛpɛɛpɛ ke kaa e na sane ko nɛ kɔɔ e he blɔhi loo e blɔ nya ni tsumi ko, aloo a ngɔ mlaa tɔmi nɛ kɔɔ awi yemi sane ko kɛ si lɛ."
+  specimen_16: "He blɔ be nɛ a woɔ nya ngɔ woɔ nɔ ko e kɔkɔɔ mi sane loo e weku munyu, e we mi loo e womi mi munyuhi a mi bɔ nɛ sɛ, aloo a gbee e he guɛ kɛ puɛɔ e blɔ nya nɛ e hɛɛ. He blɔ ngɛ ha nɔ fɛɛ nɔ nɛ mlaa ma fa e he ngɛ nya womi kɛ e sanehi a mi womi kɛ e he guɛ gbemi blɔ fa mi.\nNɔ fɛɛ nɔ ngɛ he blɔ nɛ e peeɔ nɔ nɛ e susumi kɛ e he nile kɛ e jami deɔ lɛ. E ngɛ he blɔ hu nɛ e tsakeɔ e jami loo e hemi kɛ yemi, aloo e fiɛɔ e jami loo e hemi kɛ yemi ngɔ tsɔɔ ngɛ ma nɔ loo laami mi, nɛ e tsuɔ e jami he ni, lɛ nɔ kake loo ngɛ juami mi.\nNɔ tsuaa nɔ maa ye kuu mi nɛ e ngɛ ɔ kɛ mahi tsuo a kpɛti mlaa mɔ, konɛ he blɔhi kɛ he jɔmi a he blɔ nya nɛ a to ngɛ womi nɛ ɔ mi ɔ, e ye manye."
+}

@@ -1,0 +1,13 @@
+id: "etu_Latn"
+language: "etu"
+script: "Latn"
+name: "Ejagham"
+population: 120000
+region: "CM"
+region: "NG"
+exemplar_chars {
+  base: "a A á Á â Â b B {bh} {BH} {ch} {CH} d D e E é É ê Ê ə Ə {ə́} {Ə́} {ə̂} {Ə̂} f F g G {gb} {GB} {gh} {GH} i I í Í î Î j J k K {kp} {KP} m M ḿ Ḿ n N ń Ń {n̂} {N̂} {ny} {NY} ŋ Ŋ o O ó Ó ô Ô p P r R s S t T u U ú Ú û Û ʉ Ʉ {ʉ́} {Ʉ́} {ʉ̂} {Ʉ̂} w W y Y"
+  auxiliary: "ɛ Ɛ ɨ Ɨ {ɨ́} {Ɨ́} ɔ Ɔ ø Ø œ Œ"
+}
+source: "Ejagham New Testament, Bible Society of Nigeria and Bible Society of Cameroon, 1996"
+source: "Rhonda L. Hartell, Alphabets of Africa, Dakar, Unesco and SIL, 1993"

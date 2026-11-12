@@ -1,0 +1,11 @@
+id: "png_Latn"
+language: "png"
+script: "Latn"
+name: "Pangu"
+population: 30000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E é É f F g G h H i I í Í j J k K l L m M n N o O ó Ó p P r R s S t T u U ú Ú v V w W y Y z Z ꞌ Ꞌ"
+  marks: "◌́ ◌̱"
+  auxiliary: "q Q x X"
+}

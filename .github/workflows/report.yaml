@@ -66,13 +66,14 @@ jobs:
           curl https://google.github.io/fonts/_file/data/versionhistory.json -o versionhistory.json
       - name: Write out secret
         run: echo "${{ secrets.GF_PUSH_CONFIG }}" | base64 -d > ~/.gf_push_config.ini
-      - name: Update servers
-        run: python3 scripts/update_servers.py
-        env:
-          GF_PATH: /home/runner/work/fonts/fonts
-          SANDBOX_USER: ${{ secrets.SB_USERNAME }}
-          SANDBOX_PASSWORD: ${{ secrets.SB_PASSWORD }}
-        working-directory: .ci/dashboard
+# Please note 2026-11-12: Sandbox is now only available to certain users so we're temporarily disabling this: 
+#      - name: Update servers
+#        run: python3 scripts/update_servers.py
+#        env:
+#          GF_PATH: /home/runner/work/fonts/fonts
+#          SANDBOX_USER: ${{ secrets.SB_USERNAME }}
+#          SANDBOX_PASSWORD: ${{ secrets.SB_PASSWORD }}
+#        working-directory: .ci/dashboard
       # Now build the dashboard
       - name: Install Node.js
         uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6

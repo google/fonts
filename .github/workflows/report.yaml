@@ -17,12 +17,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
+          # Nothing after checkout runs git against the remote; the gh-pages
+          # push below supplies its own token.
+          persist-credentials: false
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.10"
       - name: Install Cairo (Ubuntu)
@@ -61,9 +64,17 @@ jobs:
           SANDBOX_USER: ${{ secrets.SB_USERNAME }}
           SANDBOX_PASSWORD: ${{ secrets.SB_PASSWORD }}
         working-directory: .ci/dashboard
+      # Build the Font Tree viewer (Rust -> wasm, inlined into one HTML file)
+      - name: Install wasm-pack
+        run: |
+          rustup target add wasm32-unknown-unknown
+          curl -sSf https://rustwasm.github.io/wasm-pack/installer/init.sh | sh
+      - name: Build Font Tree
+        run: ./build.sh
+        working-directory: .ci/fonttree
       # Now build the dashboard
       - name: Install Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version: "20"
       - name: Install dependencies
@@ -85,6 +96,8 @@ jobs:
           cp ../*.json build/
           # fontdiffai wasm bundle (loaded by fontdiffai.html)
           cp -r ../fontdiffai build/fontdiffai
+          # Font Tree viewer, built above
+          cp ../fonttree/index.html build/fonttree.html
           cp -r ../../ofl  build/ofl/
           cp -r ../../apache  build/apache/
           cp -r ../../ufl  build/ufl/
@@ -111,7 +124,7 @@ jobs:
           git push -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
       - name: Upload build artifacts
         if: ${{ github.ref == 'refs/heads/main' }}
-        uses: actions/upload-pages-artifact@v4.0.0
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
         with:
           path: .ci/dashboard/build
   deploy:
@@ -127,4 +140,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

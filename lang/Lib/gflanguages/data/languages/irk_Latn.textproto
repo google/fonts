@@ -1,0 +1,11 @@
+id: "irk_Latn"
+language: "irk"
+script: "Latn"
+name: "Iraqw"
+population: 1013000
+region: "TZ"
+exemplar_chars {
+  base: "/ ’ a A á Á b B {ch} {CH} d D e E é É f F g G h H {hh} {HH} i I í Í j J k K l L m M n N {ng} {NG} {ny} {NY} o O ó Ó q Q r R s S {sh} {SH} {sl} {SL} t T {tl} {TL} {ts} {TS} u U ú Ú w W x X y Y"
+  auxiliary: "c C p P v V z Z"
+  marks: "◌́"
+}

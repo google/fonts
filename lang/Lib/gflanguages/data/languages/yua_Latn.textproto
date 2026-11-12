@@ -1,0 +1,25 @@
+id: "yua_Latn"
+language: "yua"
+script: "Latn"
+name: "Yucateco"
+autonym: "Màaya t\'àan"
+population: 861955
+region: "MX"
+exemplar_chars {
+  base: "A B C D E I J K L M N O P R S T U W X Y Á À É È Ó Ò Ú Ù a b c d e i j k l m n o p r s t u w x y \' á à é è ó ò ú ù"
+  marks: "◌̀ ◌́"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Ll"
+  styles: "Tumeen u kuxtal wíinik x-maʼa palitzilil, u"
+  tester: "Tumeen yóoʼlal maʼ ojeltaʼan ku beetik u mixbaʼalkuunsaʼal u"
+  poster_sm: "Tumeen tun"
+  poster_md: "Tumeen ku"
+  poster_lg: "Tuláakal"
+  specimen_48: "Tumeen k-kʼaʼajsik tuláakal u kaajiloʼob Naciones Unidas, dzoʼok"
+  specimen_36: "Tumeen ku tukultaʼal xan jach kʼaʼabet u kaxantaʼal bix uchak u bisikuba maʼalob tuláakal u kaajiloʼob yóokʼol kaab,"
+  specimen_32: "Tumeen u kʼajóoltaʼal le Najmal Sijnal yetel wíinik yetel bix uchak u kuxtal x-maʼa palitzilil jach táanil yaan tiʼal kaʼa béeyak u dzoʼokbesaʼal le Mok Tʼaanaʼ,"
+  specimen_21: "Tumeen u kuxtal wíinik x-maʼa palitzilil, u chíimpoltaʼal yetel u chaʼabal u kuxtal yóokʼol kaab ich jedz óolal, tiʼ ku taal tu chíimpoltaʼal u noʼojaʼanil kuxtal sijnal yetel wíinik bey jeʼex xan sijnal u najmalmajil keet kuxtal, mixmáak unaj u luʼsik tiʼ tuláakal u wíinikil yóokʼol kaabeʼ,\nTumeen tun le najmal sijnal yetel wíinik jach kʼaʼabet u boʼoybesaʼal tu yáanal jumpʼéel Noj Aʼalmaj Tʼaan, u tiʼal maʼ u beetaʼal u líikʼil wíinik baʼateʼel tumeen u talamil kuxtal yetel u nuunsaʼal,"
+  specimen_16: "Tumeen u kuxtal wíinik x-maʼa palitzilil, u chíimpoltaʼal yetel u chaʼabal u kuxtal yóokʼol kaab ich jedz óolal, tiʼ ku taal tu chíimpoltaʼal u noʼojaʼanil kuxtal sijnal yetel wíinik bey jeʼex xan sijnal u najmalmajil keet kuxtal, mixmáak unaj u luʼsik tiʼ tuláakal u wíinikil yóokʼol kaabeʼ,\nTumeen yóoʼlal maʼ ojeltaʼan ku beetik u mixbaʼalkuunsaʼal u najmalil u kuxtal wíinik, dzoʼok u beetik u yúuchul seen kʼaakʼas baʼaloʼob tu táan u noʼajaʼanil u tuukul wíinik; yetel tumeen dzoʼok u yaʼalaʼal u jach nojochil baʼax ku dzíiboltik wíinikeʼ, u kajtal yóokʼol kaab tuʼux kaʼa kuxlak lukʼaʼan u sajakil yetel x-maʼa óotzilil, kaʼa béeyak u yaʼalik baʼax ku tukultik yetel u kiliʼichkuunsik jeʼe máakalmáak Yumtzilil u kʼáateʼ,"
+}

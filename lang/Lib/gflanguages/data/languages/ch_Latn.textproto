@@ -1,0 +1,26 @@
+id: "ch_Latn"
+language: "ch"
+script: "Latn"
+name: "Chamorro"
+autonym: "Chamorru"
+population: 46324
+region: "GU"
+region: "MP"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z å ñ"
+  marks: "◌̃ ◌̊"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Dd"
+  styles: "Asi como i recognision pot i inherente (natural)na"
+  tester: "Asi como i dinisatende yan i denisprecia i derecho siha para"
+  poster_sm: "Asi como un"
+  poster_md: "Asi como"
+  poster_lg: "Todo"
+  specimen_48: "este i Universal na Declarasion i Derecho siha para i Taotao,"
+  specimen_36: "Pago, Pot eso,\ni Heneralna Assemblia\naproklama\nTodo mangai derecho pot linala, libertad yan seguridad i persona."
+  specimen_32: "Todo taotao siha man mafanago libertao yan pareho gi dignidad yan derecho siha, man manae siha hinaso yan consiencia yan debe de ufatinas contra uno yan otro gi un espiritun chumelo."
+  specimen_21: "Asi como i recognision pot i inherente (natural)na dignidad yan pot i pareho yan inahenable (tisina maamot) na derechon todo i membron i humano na familia guiya i fundacion i liberta, justicia yan pas gi todo i tano.\nAsi como necesario, yangin i taotao ti para uenebliga na uespiha recurso (hinagon), como i utimo na fandiskansayan gi rebulasion contra i crueldad yan bahacion enao na i derecho siha para i taotao umaprotehe nui arreglon i lai."
+  specimen_16: "Asi como i recognision pot i inherente (natural)na dignidad yan pot i pareho yan inahenable (tisina maamot) na derechon todo i membron i humano na familia guiya i fundacion i liberta, justicia yan pas gi todo i tano.\nAsi como i dinisatende yan i denisprecia i derecho siha para i taotao manhuyon ti civilisao na finatinas siha ni esta hasen insulta i consencian i taotao yan i finato gi tano anai taotao siha umagosa i libertad kumentos, yan hinenge yan libertad gine minanao yan minalago esta maproclama como i mas takilo na aspirasion (tinanga) i comodo (regular) na taotao siha."
+}

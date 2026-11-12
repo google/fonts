@@ -1,0 +1,11 @@
+id: "tvu_Latn"
+language: "tvu"
+script: "Latn"
+name: "Tunen"
+population: 100000
+region: "CM"
+exemplar_chars {
+  base: "a A á Á b B c C e E é É ɛ Ɛ {ɛ́} {Ɛ́} f F h H i I í Í k K l L m M n N ŋ Ŋ o O ó Ó ɔ Ɔ {ɔ́} {Ɔ́} s S t T u U ú Ú w W y Y"
+  marks: "◌́"
+  auxiliary: "d D g G j J p P q Q r R v V x X z Z"
+}

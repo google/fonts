@@ -1,0 +1,29 @@
+id: "kl_Latn"
+language: "kl"
+script: "Latn"
+name: "Kalaallisut"
+autonym: "Kalaallisut"
+population: 55440
+region: "DK"
+region: "GL"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å"
+  auxiliary: "Á Â Ã É Ê Ẽ Í Î Ĩ Ô Õ {K’} Ú Û Ũ á â ã é ê ẽ í î ĩ ô õ ĸ ú û ũ"
+  marks: "◌́ ◌̂ ◌̃ ◌̊ ◌̀"
+  numerals: ", . % + − 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å"
+}
+sample_text {
+  masthead_full: "IiNn"
+  masthead_partial: "Uu"
+  styles: "Ataqqinassusermik inuup nammineq pigisaanik"
+  tester: "pingaaruteqarluinnar mat inuiaqatigiit akornanni ikinngutinnersumik"
+  poster_sm: "Naalagaaffiit"
+  poster_md: "taamaattumik"
+  poster_lg: "Inuit"
+  specimen_48: "Inuit tamarmik inunngorput nammineersinnaassuseqarlutik assigiimmillu"
+  specimen_36: "Kinaluunniit inuunermut, nammineersinnaassuseqarnissamut isumakuluuteqaranilu inuuniarnissamut pisinnaatitaavoq."
+  specimen_32: "Kinaluunniit inussiaatigineqaraniluunniit namminersorsinnaassusiiagaassanngilaq; inussiaateqarneq inussiaarniarnerlu sutigut tamatigut inerteqqutigineqassapput."
+  specimen_21: "Kinaluunniit naalliutserujussuarneqassanngilaq aammalu peqqarniitsumik, naakkittaatsumik narrunarsaataasumillu pineqassananilu pillarneqassanani.\nInuk kinaluunniit nunarsuarmi sumiluunniit eqqartuussisarnermi pisassalittut pisussaasutulluunniit isigineqarsinnaatitaanissamut pisinnaatitaavoq.\nKinaluunniit namminissarsiortumik tigusarineqassanngliq, tigummigallagassanngortitaassanani imaluunniit nunagisamit peersitaassanani."
+  specimen_16: "Kinaluunniit naligiissitaalluinnarnikkut piumasaqarsinnaatitaavoq eqqartuussivimmi aalajangersimasunut attaveqanngitsumi aammalu nakerisarsiortuunngitsumi eqqortuliortumik tamanullu ammasumik iliorfigineqarnissamik, pisinnaatitaaffimminut pisussaaffimminullu tunngasutigut aalajangiiniartoqassatillugu aammalu inatsisit tunngavigalugit pillarneqaataasinnaasumik sumilluunniit unnerluutigineqarnermini.\nKinaluunniit pisinnaatitaavoq qasuersaarnissamut sunngiffeqarnissamullu, ilanngullugu piffissamik suliffiusumik naammaginartumik killilersuineq, aammalu piffissani aalajangersimasuni akissarsiat pigiinnarlugit feriaqartarnissamut."
+}

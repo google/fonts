@@ -1,0 +1,17 @@
+id: "kss_Latn"
+language: "kss"
+script: "Latn"
+name: "Southern Kisi"
+region: "LR"
+region: "SL"
+population: 360000
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y"
+  marks: "◌̀ ◌́ ◌̂ ◌̄ ◌̌ ◌̍ ◌᷄ ◌᷅"
+  auxiliary: "à À á Á â Â ǎ Ǎ ā Ā {a̍} {A̍} {a᷄} {A᷄} {a᷅} {A᷅} è È é É ê Ê ě Ě ē Ē {e̍} {E̍} {e᷄} {E᷄} {e᷅} {E᷅} {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} {ɛ̄} {Ɛ̄} {ɛ̍} {Ɛ̍} {ɛ᷄} {Ɛ᷄} {ɛ᷅} {Ɛ᷅} í Í ì Ì î Î ǐ Ǐ ī Ī {i̍} {I̍} {i᷄} {I᷄} {i᷅} {I᷅} {m̄} {M̄} {ŋ̄} {Ŋ̄} {ŋ̍} {Ŋ̍} ó Ó ò Ò ô Ô ō Ō {o̍} {O̍} {o᷄} {O᷄} {o᷅} {O᷅} {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} {ɔ̄} {Ɔ̄} {ɔ̍} {Ɔ̍} {ɔ᷄} {Ɔ᷄} {ɔ᷅} {Ɔ᷅} ù Ù ú Ú û Û ū Ū {u̍} {U̍} {u᷄} {U᷄} {u᷅} {U᷅} x X z Z"
+  index: "A B C D E Ɛ F {GB} H I J K {KP} L M {MB} N {ND} {NY} Ŋ {ŊG} O Ɔ P S T U W Y"
+}
+source: "George Tucker Childs, A Grammar of Kisi, Mouton de Gruyter, 1995"
+source: "George Tucker Childs, A Dictionary of the Kisi Language with an English–Kisi Index, Rüdiger Köppe Verlag, 2000"
+source: "Yāu̍ Mɛ̄lɛ̄ka̍a̍, Bible Society in Liberia, 2015"
+note: "Childs 1995 and Childs 2000 use c and ɲ but the Kisi orthography developped by the Lutheran Bible Translators uses ch and ny instead.\nChilds 1995 and Childs 2000 uses ◌̀ ◌́ ◌̂ ◌̌ to mark tones. Lutheran Bible Translators does not mark low tone.\nChilds 1995 and Childs 2000 use slightly different indeces, Childs 1995 has nd ŋ ŋg ŋ o and Childs 2000 has nd ɲ ɲj ŋ ŋg ŋgb o.\nBible Society in Liberia 2015 uses noticeably different tone marks (◌̄ ◌̍ ◌᷄ ◌᷅) in the online edition and may do so as well in the unverified printed edition.\nJW.org does not mark tone at all."

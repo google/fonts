@@ -1,0 +1,25 @@
+id: "srn_Latn"
+language: "srn"
+script: "Latn"
+name: "Sranan Tongo"
+autonym: "Sranan Tongo"
+population: 414506
+region: "SR"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È Ò a b c d e f g h i j k l m n o p q r s t u v w x y z è ò"
+  marks: "◌̀"
+}
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Dd"
+  styles: "Ala den man gebore fri èn leki wan ini grani"
+  tester: "Ala den man gebore fri èn leki wan ini grani èn den leti. Den"
+  poster_sm: "Ala den man"
+  poster_md: "Ala den"
+  poster_lg: "Ala"
+  specimen_48: "Ala den man gebore fri èn leki wan ini grani èn den"
+  specimen_36: "Ala den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan"
+  specimen_32: "Ala den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan"
+  specimen_21: "Ala den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan\nAla den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan\nAla den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan"
+  specimen_16: "Ala den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan\nAla den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan\nAla den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan\nAla den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan\nAla den man gebore fri èn leki wan ini grani èn den leti. Den ben gi den rutu èn konsensi. Den musu abi lespeki gi ibriwan"
+}

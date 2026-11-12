@@ -1,0 +1,13 @@
+id: "laj_Latn"
+language: "laj"
+script: "Latn"
+name: "Lango, Uganda"
+population: 1643614
+region: "UG"
+exemplar_chars {
+  base: "a A {aa} {AA} b B c C d D e E {ee} {EE} ë Ë {ëë} {ËË} g G i I {ii} {II} ï Ï {ïï} {ÏÏ} j J k K l L m M n N ŋ Ŋ {ny} {NY} o O {oo} {OO} ö Ö {öö} {ÖÖ} p P r R t T u U {uu} {UU} ü Ü {üü} {ÜÜ} w W y Y"
+  marks: "◌̈"
+  auxiliary: "f F h H q Q v V x X z Z"
+  index: "A B C D E Ë G I Ï J K L M N Ŋ {NY} O Ö P R S T U Ü W Y"
+}
+source: "Ministry of Education, Science, Technology and Sports, Uganda et National Curriculum Development Centre, Primary 1 Teacher’s Guide Lëblaŋo, Research Triangle Institute, 2014"

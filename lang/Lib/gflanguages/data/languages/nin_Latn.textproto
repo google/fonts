@@ -1,0 +1,11 @@
+id: "nin_Latn"
+language: "nin"
+script: "Latn"
+name: "Ninzo"
+population: 35000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á ā Ā à À â Â ǎ Ǎ b B ɓ Ɓ c C d D e E é É ē Ē è È ê Ê ě Ě f F g G h H i I í Í ī Ī ì Ì î Î ǐ Ǐ ɨ Ɨ j J k K ƙ Ƙ l L m M n N o O ó Ó ō Ō ò Ò ô Ô ǒ Ǒ p P q Q r R s S t T u U ú Ú ū Ū ù Ù û Û ǔ Ǔ v V w W y Y z Z"
+  marks: "◌́ ◌̄ ◌̀ ◌̂ ◌̌ ◌̱"
+  auxiliary: "x X"
+}

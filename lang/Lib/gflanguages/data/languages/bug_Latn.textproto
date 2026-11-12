@@ -1,0 +1,25 @@
+id: "bug_Latn"
+language: "bug"
+script: "Latn"
+name: "Buginese"
+autonym: "Basa Ugi"
+population: 4298211
+region: "ID"
+region: "MY"
+exemplar_chars {
+  base: "A B C D E G I J K L M N O P R S T U W Y Ə a b c d e g i j k l m n o p r s t u w y \' ə"
+}
+sample_text {
+  masthead_full: "SsIi"
+  masthead_partial: "Nn"
+  styles: "Pura ritimbang nasengnge dipattongengngi"
+  tester: "Pura ritimbang nasengnge gau de\'e nasipakalebbireng pole padatta"
+  poster_sm: "Pura ritimbang"
+  poster_md: "Riasengnge"
+  poster_lg: "Sininna"
+  specimen_48: "Sininna rupa tau ri jajiangngi rilinoe nappunnai manengngi riasengnge"
+  specimen_36: "Sininna rupa tau nappunai hak ripattongeng ri olona hukungnge nasengnge allebbireng seddi seddi tau , motega tega monro."
+  specimen_32: "Sininna rupa tau nappunai hak riaseng attennangeng na pakansi sibawa ripattentui wettunna ajamangnge na wettu pakansie ,na tette natarima gajinna."
+  specimen_21: "Sininna rupa tau nappunai hak ri asengnge addecengeng tuwo ri linoe na sininna hak kebebasan pura taruki maneng ri laleng na ada assaturuseng na sibole bolena riala sanreseng.\nDegaga mo seddi rilalenna ada assamaturusengnge napalalo ri tafsir nasenggnge dibukkang laleng seddi negara, kelompk, iya ga seddi rupa tau nappunai hak nateru terrusi nasengnge mappigau pangkaukang salae ye wedding na solangi riasengnge allebbirirenna hak-hakna kebebasang kebebasang ye tarukie ri lalenna ada assaturusengnge."
+  specimen_16: "Pura ritimbang nasengnge dipattongengngi ri asengnge allebbireng napanjajie puang seuwae na hak-hak pada nappunnai manengnge salasureng padatta rupa tau ianaro simulangenna riasengnge merdeka e . Ade\'e na atennangengnge tuo ri linoe.\nPura ritimbang nasengnge gau de\'e nasipakalebbireng pole padatta rupa tau ianaro mancaji pangkaukang makassara najajianni maggoppo maneng accairengnge na ajapparu\'e ri laleng atina rupa tau. na ri purennuangi rijajiangi seddi lino naonroi\'e padatta rupa tau ye\'paneddingi\'e riasengnge ininnawa mappau ada tongeng na ininawa suju\'e ri Puang seuwae sibawa ininnawa leppe\'e pole riasengnge akkitaureng na teggennekengnge pura mancaji seddi purennuang marilaleng pole taumaegae."
+}

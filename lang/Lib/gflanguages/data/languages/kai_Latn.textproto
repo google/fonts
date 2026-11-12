@@ -1,0 +1,9 @@
+id: "kai_Latn"
+language: "kai"
+script: "Latn"
+name: "Karekare"
+population: 1800000
+region: "NG"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E ǝ Ǝ f F g G h H i I j J k K ƙ Ƙ l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y ƴ Ƴ z Z"
+}

@@ -1,0 +1,22 @@
+id: "snn_Latn"
+language: "snn"
+script: "Latn"
+name: "Siona"
+region: "CO"
+exemplar_chars {
+  base: "A Ã B C D E Ë Ɛ G H I Ĩ Ɨ J K M N Ñ O Õ P R S T U Ũ W Y Z a ã b c d e ë ɛ g h i ĩ ɨ j k m n ñ o õ p r s t u ũ w y z \'"
+}
+sample_text {
+  masthead_full: "SsIi"
+  masthead_partial: "Aa"
+  styles: "Sia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë"
+  tester: "Sia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco"
+  poster_sm: "Sia\'bai̱ aideo\'yë"
+  poster_md: "Sia\'bai̱ aideo"
+  poster_lg: "Sia\'bai̱"
+  specimen_48: "Sia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye"
+  specimen_36: "Sia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje."
+  specimen_32: "Sia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje."
+  specimen_21: "Sia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje.\nSia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje.\nSia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje."
+  specimen_16: "Sia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje.\nSia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje.\nSia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje.\nSia\'bai̱ aideo\'yë goa\'ye beoye gu̱i\'ne sia\'yë\'quë maca bai\'ye gu̱i\'ne quëco baye co̱ni, ja̱je̱ goachase\'sëte goa\'ju̱i\'ñe beoye ñese saiye bai\'ji co̱caijë yequë bai̱reje."
+}

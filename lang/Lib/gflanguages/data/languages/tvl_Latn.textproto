@@ -1,0 +1,25 @@
+id: "tvl_Latn"
+language: "tvl"
+script: "Latn"
+name: "Tuvalu"
+autonym: "Te ’gana Tūvalu"
+population: 9867
+region: "TV"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Á À Ǎ Ē É È Ě Ī Í Ì Ǐ Ō Ó Ò Ǒ Ū Ú Ù Ǔ a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í ì ǐ ō ó ò ǒ ū ú ù ǔ ’"
+  marks: "◌̀ ◌́ ◌̄ ◌̌"
+}
+sample_text {
+  masthead_full: "EeFf"
+  masthead_partial: "Āā"
+  styles: "E fā\'nau mai a tino katoa i te saolotoga kae"
+  tester: "E fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou tūlaga"
+  poster_sm: "E fā\'nau mai"
+  poster_md: "E fā\'nau"
+  poster_lg: "fā\'nau"
+  specimen_48: "E fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou"
+  specimen_36: "E fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou tūlaga fakaaloalogina mo telotou aiā. Ne tuku atu ki a lātou a te mafaufau mo te loto lagona, tēlā lā, e \'tau o gā\'lue fakatasi lātou e pēlā me ne taina."
+  specimen_32: "E fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou tūlaga fakaaloalogina mo telotou aiā. Ne tuku atu ki a lātou a te mafaufau mo te loto lagona, tēlā lā, e \'tau o gā\'lue fakatasi lātou e pēlā me ne taina."
+  specimen_21: "E fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou tūlaga fakaaloalogina mo telotou aiā. Ne tuku atu ki a lātou a te mafaufau mo te loto lagona, tēlā lā, e \'tau o gā\'lue fakatasi lātou e pēlā me ne taina.\nE fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou tūlaga fakaaloalogina mo telotou aiā. Ne tuku atu ki a lātou a te mafaufau mo te loto lagona, tēlā lā, e \'tau o gā\'lue fakatasi lātou e pēlā me ne taina."
+  specimen_16: "E fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou tūlaga fakaaloalogina mo telotou aiā. Ne tuku atu ki a lātou a te mafaufau mo te loto lagona, tēlā lā, e \'tau o gā\'lue fakatasi lātou e pēlā me ne taina.\nE fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou tūlaga fakaaloalogina mo telotou aiā. Ne tuku atu ki a lātou a te mafaufau mo te loto lagona, tēlā lā, e \'tau o gā\'lue fakatasi lātou e pēlā me ne taina.\nE fā\'nau mai a tino katoa i te saolotoga kae e \'pau telotou tūlaga fakaaloalogina mo telotou aiā. Ne tuku atu ki a lātou a te mafaufau mo te loto lagona, tēlā lā, e \'tau o gā\'lue fakatasi lātou e pēlā me ne taina."
+}

@@ -1,0 +1,11 @@
+id: "adj_Latn"
+language: "adj"
+script: "Latn"
+name: "Adioukrou"
+population: 180000
+region: "CI"
+exemplar_chars {
+  base: "a A b B c C d D e E ê Ê f F g G h H i I j J k K l L m M n N o O ô Ô p P r R s S t T u U v V w W y Y z Z ŋ Ŋ ɛ Ɛ ɔ Ɔ"
+  marks: "◌̂ ◌̀ ◌́"
+  auxiliary: "q Q x X"
+}

@@ -1,0 +1,49 @@
+<Version value="0x00010001"/>
+<DesignAxisRecordSize value="8"/>
+<!-- DesignAxisCount=2 -->
+<DesignAxisRecord>
+  <Axis index="0">
+    <AxisTag value="ROND"/>
+    <AxisNameID value="256"/>  <!-- Roundness -->
+    <AxisOrdering value="0"/>
+  </Axis>
+  <Axis index="1">
+    <AxisTag value="wght"/>
+    <AxisNameID value="258"/>  <!-- Weight -->
+    <AxisOrdering value="1"/>
+  </Axis>
+</DesignAxisRecord>
+<!-- AxisValueCount=5 -->
+<AxisValueArray>
+  <AxisValue index="0" Format="1">
+    <AxisIndex value="0"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="267"/>  <!-- Default -->
+    <Value value="0.0"/>
+  </AxisValue>
+  <AxisValue index="1" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="259"/>  <!-- Thin -->
+    <Value value="100.0"/>
+  </AxisValue>
+  <AxisValue index="2" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="260"/>  <!-- ExtraLight -->
+    <Value value="200.0"/>
+  </AxisValue>
+  <AxisValue index="3" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="0"/>
+    <ValueNameID value="261"/>  <!-- Light -->
+    <Value value="300.0"/>
+  </AxisValue>
+  <AxisValue index="4" Format="1">
+    <AxisIndex value="1"/>
+    <Flags value="2"/>  <!-- ElidableAxisValueName -->
+    <ValueNameID value="2"/>  <!-- Regular -->
+    <Value value="400.0"/>
+  </AxisValue>
+</AxisValueArray>
+<ElidedFallbackNameID value="2"/>  <!-- Regular -->

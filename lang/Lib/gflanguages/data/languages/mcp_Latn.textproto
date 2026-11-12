@@ -1,0 +1,12 @@
+id: "mcp_Latn"
+language: "mcp"
+script: "Latn"
+name: "Makaa"
+population: 221000
+region: "CM"
+exemplar_chars {
+  base: "a A á Á â Â ǎ Ǎ b B c C d D e E é É ê Ê ě Ě ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} {ɛ̧} {Ɛ̧} {ɛ̧́} {Ɛ̧́} {ɛ̧̂} {Ɛ̧̂} {ɛ̧̌} {Ɛ̧̌} ə Ə {ə́} {Ə́} {ə̂} {Ə̂} {ə̌} {Ə̌} f F g G h H i I í Í î Î ǐ Ǐ ɨ Ɨ {ɨ́} {Ɨ́} {ɨ̂} {Ɨ̂} {ɨ̌} {Ɨ̌} j J k K l L m M n N {ny} {NY} ŋ Ŋ o O ó Ó ô Ô ǒ Ǒ {o̧} {O̧} {ó̧} {Ó̧} {ô̧} {Ô̧} {ǒ̧} {Ǒ̧} p P s S {sh} {SH} t T u U ú Ú û Û ǔ Ǔ ʉ Ʉ {ʉ́} {Ʉ́} {ʉ̂} {Ʉ̂} {ʉ̌} {Ʉ̌} v V w W y Y z Z {zh} {ZH}"
+  marks: "◌̧ ◌́ ◌̂ ◌̌"
+  auxiliary: "q Q r R x X"
+}
+source: "Abong Mbang, Leçons d’apprentissage de la langue mekaa, ASDELAM, SIL, 2007"

@@ -1,0 +1,23 @@
+id: "nku_Latn"
+language: "nku"
+script: "Latn"
+name: "Kulango, Bouna"
+region: "CI"
+population: 325000
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ f F g G {gb} {GB} h H i I ɩ Ɩ j J k K l L m M n N ŋ Ŋ {ŋm} {ŊM} ɲ Ɲ o O ɔ Ɔ p P r R s S t T u U ʋ Ʋ w W y Y z Z"
+}
+sample_text {
+  masthead_full: "IiGg"
+  masthead_partial: "Oo"
+  styles: "Igooyoo pɛɛ hʋn taa. Bɔ pɛɛ jabaga bɔrɔ. Hɔ"
+  tester: "Igooyoo pɛɛ hʋn taa. Bɔ pɛɛ jabaga bɔrɔ. Hɔ ya gʋʋn’n bɔɔ hɛ pɛɛ,"
+  poster_sm: "Igooyoo pɛɛ"
+  poster_md: "Igooyoo"
+  poster_lg: "Igooyoo"
+  specimen_48: "Haa ya yʋʋn wɛɛ su yʋʋnnankɔ bɔ gʋʋn lɛ tɔɩ .Hɔ ya mara rɛ jinan yʋʋn pɛɛ bɔ zika."
+  specimen_36: "Yʋʋn lɛ yʋʋn pɛɛ hʋn taa mara lɛ yɩɩndɩ.Hɔ tiri dɛ hɔ ya hɛrɛ mara rɛ jinan yʋʋn pɛɛ bɔ zɩka."
+  specimen_32: "Igooyoo pɛɛ hʋn taa. Bɔ pɛɛ jabaga bɔrɔ. Hɔ ya gʋʋn’n bɔɔ hɛ pɛɛ, hɔ hɛ gusɛgɛ’n.\nMara wɩnnɩn gʋʋn bɔɔ dʋ mʋʋnʋn, ʋn sa lɛ yan yʋʋn lɛ yʋʋn pɛɛ."
+  specimen_21: "Igooyoo pɛɛ hʋn taa. Bɔ pɛɛ jabaga bɔrɔ. Hɔ ya gʋʋn’n bɔɔ hɛ pɛɛ, hɔ hɛ gusɛgɛ’n.\nMara wɩnnɩn gʋʋn bɔɔ dʋ mʋʋnʋn, ʋn sa lɛ yan yʋʋn lɛ yʋʋn pɛɛ.\nHaa sa nikpo ɩbiiro lɛ bronii, laa hɛbɔ lɛ hɛɛmɔ, laa sʋgatɛsɔgɔ lɛ hiansɔgɔ, bɔ pɛɛ bɔ maraʋn lɛ.\nYʋʋn pɛɛ hɔ ya hʋn nɩɩn goun, lɛ bɔ tɔgɔ maan togo’n, lɛ hʋn maan yɩn bɔ gbɛɛ, lɛ hɛ hɛrɛ hʋn kori."
+  specimen_16: "Igooyoo pɛɛ hʋn taa. Bɔ pɛɛ jabaga bɔrɔ. Hɔ ya gʋʋn’n bɔɔ hɛ pɛɛ, hɔ hɛ gusɛgɛ’n.\nMara wɩnnɩn gʋʋn bɔɔ dʋ mʋʋnʋn, ʋn sa lɛ yan yʋʋn lɛ yʋʋn pɛɛ.\nHaa sa nikpo ɩbiiro lɛ bronii, laa hɛbɔ lɛ hɛɛmɔ, laa sʋgatɛsɔgɔ lɛ hiansɔgɔ, bɔ pɛɛ bɔ maraʋn lɛ.\nYʋʋn pɛɛ hɔ ya hʋn nɩɩn goun, lɛ bɔ tɔgɔ maan togo’n, lɛ hʋn maan yɩn bɔ gbɛɛ, lɛ hɛ hɛrɛ hʋn kori.\nHaa ya yʋʋn wɛɛ ba ɩgooyoo lɛ hʋn hɛ hɛɛʋn wɩnnɩn bɔ faŋa para tii.\nHaa ya bɔ sa tɔkpɩrɩgɔ yʋʋn wɛɛ rɩɩ. Haa yaa bɔ soo bɔ yinŋmɔ saakɔnɩɩn.\nYʋʋn lɛ yʋʋn pɛɛ hɔ ya bɔ jabaa, mara lɛ nʋʋnŋɔrɩ.\nYʋʋn lɛ yʋʋn pɛɛ hʋn taa mara lɛ yɩɩndɩ.Hɔ tiri dɛ hɔ ya hɛrɛ mara rɛ jinan yʋʋn pɛɛ bɔ zɩka."
+}

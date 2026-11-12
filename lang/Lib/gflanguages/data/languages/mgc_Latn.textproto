@@ -1,0 +1,10 @@
+id: "mgc_Latn"
+language: "mgc"
+script: "Latn"
+name: "Morokodo"
+population: 50000
+region: "SS"
+exemplar_chars {
+  base: "a A ä Ä b B d D e E ë Ë f F g G h H i I ï Ï j J k K l L m M n N o O ö Ö p P r R ṛ Ṛ s S t T u U ü Ü v V w W y Y z Z ŋ Ŋ ɔ Ɔ"
+  marks: "◌̈ ◌̣"
+}

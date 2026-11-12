@@ -1,0 +1,25 @@
+id: "guc_Latn"
+language: "guc"
+script: "Latn"
+name: "Wayuu"
+autonym: "Wayuunaiki"
+population: 132528
+region: "CO"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü"
+  marks: "◌̃ ◌̈"
+}
+sample_text {
+  masthead_full: "NnAa"
+  masthead_partial: "Ww"
+  styles: "JÜLÜJÜINJATÜ A\'IN taashi, kasalajana, kamaneejirawaa,"
+  tester: "JÜLÜJÜINJATÜ A\'IN aka meraajüin süma mojutüin atuma tüü pütchi"
+  poster_sm: "JÜLÜJÜINJATÜ"
+  poster_md: "KOTTIRAWAA"
+  poster_lg: "Naa"
+  specimen_48: "TÜÜWAALAI SÜCHIKIMAAJATÜKA SÜJUTU WAYUU SA\'U TÜÜ MMAKAT, isakat"
+  specimen_36: "Nojolüinjachi aapünüin wane wayuu süpüla achepchia,apülajünüitpa kasa müsüaka tüya sülu\'u sükua\'ipa süpüshuaya."
+  specimen_32: "Wanawashi napüshua naa wayuukana so\'upala tüü sülaulaka a\'inmajia, anaaka naya joolu\'u a\'inmajünüin wanawa. Nojolüinjana letüin süulia tüü akua\'ipa sülu\'uwataka tüü pütchi karalo\'utalüka."
+  specimen_21: "Naa wayuukana eeshi süpüla asakajaa süchirua nakua\'ipa laulapialu\'upüna maaka shiinnule amüin tüü akua\'ipa aapüshika namüin sülu\'u tüü Konstitusionka.\nNoojolüinjachi ata\'unüin wane wayuu masalajanoule.\nNaa wayuukana eeshisüpüla wanawain nakua\'ipa sünain aapajuna anuiki, o\'upala sütuma tüü e\'itatka süsalajana kasa süpüla shiitaanüinjatüin süsalajana nañajala sülu\'u anakat akua\'ipa."
+  specimen_16: "Nnojolüinjana eke\'ejünüin a\'in naa wayuukana sa\'uje nakua\'ipa nepialu\'u, süma napüshi jee müsüya sa\'uje tüü karalo\'uta antakaa namüin a\'inmajünüinjatü tüü nakua\'ipa süulia jamajüin naya atuma.\nNaa wayuukana eeshi süpüla taashi akua\'ipa süpüleerua ano\'uja, otta müsüya e\'itana na\'in sünain kasa anakat napüleerua.\nNaa wayuukanairua eeshi süpüla taashi akua\'ipa sünain yootoo süchiki tüü kasa nekiiru\'ukana nnojolüinjana süsalajanain aashajawaa süma aapajana wane kasa achiki süpüla nülu\'uwata\'in shia süpüla saapajünüin epünaweere shia nülu\'uwata\'in achiki.\nNayataale naa wayuukana eeshi süpüla neemerain so\'u wane ka\'i, otta müsüya ayawatünüinjatü sukalia nayatain sapünapa namüin tüü eemerawaaka wala\'injana suma\'iru."
+}

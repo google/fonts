@@ -1,0 +1,13 @@
+id: "ndv_Latn"
+language: "ndv"
+script: "Latn"
+name: "Ndut"
+population: 60000
+region: "SN"
+exemplar_chars {
+  base: "Ꞌ ꞌ A a {AA} {aa} B b Ɓ ɓ C c D d Ɗ ɗ E e {EE} {ee} É é {ÉE} {ée} Ë ë {ËE} {ëe} F f G g H h I i {II} {ii} Í í {ÍI} {íi} J j K k L l M m {MB} {mb} N n {ND} {nd} Ñ ñ {NJ} {nj} Ŋ ŋ {NG} {ng} O o {OO} {oo} P p R r S s T t U u {UU} {uu} Ú ú {ÚU} {úu} W w Y y Ƴ ƴ"
+  marks: "◌́ ◌̃ ◌̈"
+  auxiliary: "ˈ"
+}
+source: "Massaer Mbengue, Daniel Morgan, Manuel pour lire et écrire le ndút, SIL Sénégal, 2021"
+note: "Ꞌ ꞌ are on the Keyman SIL Senegal Ndut keyboard instead of ˈ (used in Mbengue & Morgan 2021 among others)."

@@ -1,0 +1,9 @@
+id: "sxb_Latn"
+language: "sxb"
+script: "Latn"
+name: "Suba"
+population: 140000
+region: "KE"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z"
+}

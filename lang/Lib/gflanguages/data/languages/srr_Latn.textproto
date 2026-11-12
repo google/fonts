@@ -1,0 +1,28 @@
+id: "srr_Latn"
+language: "srr"
+script: "Latn"
+name: "Serer"
+autonym: "Seereer"
+population: 1731004
+region: "SN"
+exemplar_chars {
+  base: "A B Ɓ C Ƈ D Ɗ E F G H I J K L M N Ñ Ŋ O P Ƥ Q R S T Ƭ U W X Y Ƴ a b ɓ c ƈ d ɗ e f g h i j k l m n ñ ŋ o p ƥ q r s t ƭ u w x y ƴ \'"
+  marks: "◌̃"
+  auxiliary: "Ṕ ṕ"
+}
+sample_text {
+  masthead_full: "WwIi"
+  masthead_partial: "Nn"
+  styles: "No andiɗ i jom le wiin fop a mbogna, fa ke"
+  tester: "No ñak o and fo o yeesandaa ke warna in, naa ɓisiidaa fitna, fa"
+  poster_sm: "No Ke moƴna,"
+  poster_md: "No ke moƴna,"
+  poster_lg: "Wiin"
+  specimen_48: "No ke mbokatoor ne keet ke a ngiɓinna a ref ɓaat o yetoox kaa"
+  specimen_36: "O xuu refna a wara lay ke ɗomuuna ne ta jegitna boo fop a nain no xate and boo xaa-xate we a cooɗin i ɓur mbaat o ɓurel."
+  specimen_32: "O xuu refna a ware o waas foo yiif um fa diina um. Na ne te bugitna, boo yaa ta bugna joosoox na diina fa lakas la waasel a laywaa, fi\'waa boo yaa le ñaapaa waa ndeefuuna teen."
+  specimen_21: "O xuu refna a wara was fa xalaat um a layin, waree jeg teen o njaaxid o leng, tam nuu te bugna ta nanel fat a layin kam saax le fa kataa saax.\nO kiin mu refna o ñoowaa kam ngentand um a ware aar a maakooyel no ñoow\'um no jeg um. Na aada um no ngentand um baa waag o andiɗ xooxum kam saax le.\nO xuu refna a wara o ñootnooxaa, a ñootin yiifum na ngap o mbodu yaa da njalna baa nger."
+  specimen_16: "Oxuu refna a wara o gay kam saax le mbaat kam adna fee kaa taxna boo jam a jegaa kom ne yeegnit neene ɓistiiduuna.\nKe yeegnit neeke a ɓisiidna, waraand o ɓakand ni saax leng mbaat i mbokatoor, leng mbaat o kiino leng boo te tax ta fesooraa naa te warteerna ni ke warna jeg.\nNo andiɗ i jom le wiin fop a mbogna, fa ke warna den too te mbod teen keen fetu jam na adna fee,\nNo ñak o and fo o yeesandaa ke warna in, naa ɓisiidaa fitna, fa yiif a peƭaru no ñoow in too adna faynwiin we a layaa o ngalaat dan, taamaala matee den fo ñak keen refu ke wiin we a moƴ na o mbug no ñoow,"
+}
+source: "République du Sénégal, Décret no 2005-990 relatif à l’orthographe et la séparation des mots en seereer, 21 octobre 2005"
+note: "A few documents use Ṕ ṕ instead of Ƥ ƥ."

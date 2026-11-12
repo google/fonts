@@ -1,0 +1,15 @@
+#Vertical Position Paint 1, based on https://github.com/petrvanblokland/TYPETR-Bitcount
+tag: "YPN1"
+display_name: "Vertical Position of Paint 1"
+min_value: -100
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description: 
+  "The position of the paint moves up and down. Negative values"
+  " move down and positive values move up. Paint 1 is behind Paint 2."

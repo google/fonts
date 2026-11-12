@@ -1,0 +1,32 @@
+name: "Linden Hill"
+designer: "Barry Schwartz"
+license: "OFL"
+category: "SERIF"
+date_added: "2011-10-19"
+fonts {
+  name: "Linden Hill"
+  style: "normal"
+  weight: 400
+  filename: "LindenHill-Regular.ttf"
+  post_script_name: "LindenHill-Regular"
+  full_name: "Linden Hill Regular"
+  copyright: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)"
+}
+fonts {
+  name: "Linden Hill"
+  style: "italic"
+  weight: 400
+  filename: "LindenHill-Italic.ttf"
+  post_script_name: "LindenHill-Italic"
+  full_name: "Linden Hill Italic"
+  copyright: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)"
+}
+subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/theleagueof/linden-hill"
+  commit: "a3f7ae6c4cac1b7e5ce5269e1fcc6a2fbb9e31ee"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

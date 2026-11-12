@@ -1,0 +1,28 @@
+id: "dyo_Latn"
+language: "dyo"
+script: "Latn"
+name: "Jola-Fonyi"
+autonym: "Jóola-Fóoñi"
+population: 409146
+region: "SN"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E é É f F g G h H i I í Í j J k K l L m M n N ñ Ñ ŋ Ŋ o O ó Ó p P q Q r R s S t T u U ú Ú v V w W x X y Y"
+  auxiliary: "z Z"
+  marks: "◌́ ◌̃"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N Ñ Ŋ O P Q R S T U V W X Y"
+}
+sample_text {
+  masthead_full: "BbUu"
+  masthead_partial: "Kk"
+  styles: "Yíneni aat mati faŋaaf fati anau di sidruwaas"
+  tester: "Yíneni jaat anau nasonsoŋ mati kàmanjaataak di eñoosey sidruwaas"
+  poster_sm: "Yíneni jaat"
+  poster_md: "Asambule"
+  poster_lg: "Bukanak"
+  specimen_48: "Esosof mati furimaf ufe fujuumenumi sidruwaas sati anau kankaamn"
+  specimen_36: "Anoosan nababaj druwa ebaj fuyiifaf foola, ebaj kapooy kati faŋaaf fool a di kaano nen man amaŋumi eeno."
+  specimen_32: "An uwarut unoken di mukaanaam mati an, síndaay yati an, mba tan tati an mba nuyenten faŋaaf foola mba nukajen kajamaak koola. Luwaay epoopooy anau di waafaw búirom."
+  specimen_21: "Anoosan wuniwun, manubaj kawonoor kiiya, ejuk yiiya di buŋar biiya, súumi jaat nuŋoolene úruuŋ mba núje\'etum buŋarab biiya tíyaŋaraay nen man bucceŋum eeno.\nAnoosan nababaj druwa, ebaj kawonoor kiiya di káyiisen ko nen manumaŋumi eeno. Yoo elakomi an awarut ajaakali ebaj siwonoor soola. Naŋooleŋoolen ayab kurim mba siwonoor san aŋoolene afasiken dóo ésukool mba tíyaŋ."
+  specimen_16: "Anoosan tan ukinumi sensen manubajuto kayeraay yoola. Kayeraay yooyuña éjowumulojowum di sidruwaas sati fubajaf di sati tan akinumi di sati mukaanaam moola. Kayeraay yooyu an aŋoolent ábajaatiyo; moo kaane ésukoo ésuk enampoonampoor di sísuk saasu man kayeraay yooyu ekila ebajo.\nAnoosan nababaj druwa ebaj kunak kati kayoolo, kati fúraar. Waatay yati burokab ewawar erewoor ban di ebaj waati yati kayoolo ban pankucaam bukanak.\nAnoosan nababaj druwa man majoone mulako di mofool di dúniaay maje\'e bee ekaan man siluwaas sammi di kaytak uke siŋoolen sirok jak."
+}

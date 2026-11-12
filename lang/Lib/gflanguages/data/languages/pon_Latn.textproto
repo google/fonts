@@ -1,0 +1,24 @@
+id: "pon_Latn"
+language: "pon"
+script: "Latn"
+name: "Pohnpeian"
+autonym: "Pohnpei"
+population: 23560
+region: "FM"
+exemplar_chars {
+  base: "A D E H I K L M N O P R S T U W a d e h i k l m n o p r s t u w"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Hh"
+  styles: "Pwehki eh sansalehr oh dehde me mie uhdahn"
+  tester: "Pwehki seu petehkpen aramas de kasohwe kesempwelen aramas oh"
+  poster_sm: "Pwehki tohn"
+  poster_md: "Pwehki wehi"
+  poster_lg: "Tohn"
+  specimen_48: "Pwehki nin duwen eh dehdehiong karos duwen mour pwung oh saledek"
+  specimen_36: "Aramas karos ahniki de paiki pwungin mour, pwungin saledek oh pil pwungin saledek sang apwal en paliwar."
+  specimen_32: "Sohte aramas emen kak wia lidu men de doadoahk ni mwomwen lidu men; lidu de pesineski de pwainda lidukan uhong poason wet oh pil pahn inepwihdi ni soangen mwohmw karos."
+  specimen_21: "Sohte me pahn mi pahn kalokolok en mahn de kamakam duehla mahn.\nAramas karos ahniki de paiki pwungin kawawih wasa karos pahn menemenen Kosonned.\nAramas karos ni nan irair pahrek ehu pahn kosonned oh ahniki de paiki epwel kan pahn kosonned. Aramas karos ahniki de paiki epwel pahrek pwehn kore songen apwal akan me uhong poason wet de me pahn kasohwe irehkan nan poason wet."
+  specimen_16: "Aramas karos ahniki de paiki soangen epwel katapan akan me pwihn koiek en teneki sapwung kan me uhong poason en pwung kesempwal me kosonned kosnehiong irail.\nSohte me pahn pakadeida, de poardi, de selidi, de pekeusda.\nAramas karos aniki de paiki pwung karos me irair en kopwung pahrek oh pil kapeidek nan pokkon rehn pwihn ehu me seu peupali, pwehn kosonehdi de kasalehda arail pwung kan oh pwukoah kan oh pil songen pekeid me uhong irail karos.\nSohte me kak lidere emen nin sohte kahrepe, de eh peneinei, imwe oh kisin likou me e kadar de me emen kadarodohng, oh pil sohte me kak kauwehla eden emen de mwaren emen. Karos ahniki de paiki epwelpen pahn kosonned ohng songen liderewes de kawehla eden aramas kwukat."
+}

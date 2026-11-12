@@ -1,0 +1,28 @@
+id: "ia_Latn"
+language: "ia"
+script: "Latn"
+name: "Interlingua"
+preferred_name: "Interlingua"
+autonym: "Interlingua"
+population: 135
+region: "FR"
+region: "SE"
+exemplar_chars {
+  base: "A B C {CH} D E F G H I J K L M N O P {PH} Q R S T U V W X Y Z a b c {ch} d e f g h i j k l m n o p {ph} q r s t u v w x y z"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Ee"
+  styles: "Considerante que le recognoscentia del dignitate"
+  tester: "Considerante que le ignorantia e le disprecio del derectos human"
+  poster_sm: "Considerante"
+  poster_md: "Le Assemblea"
+  poster_lg: "Tote"
+  specimen_48: "Proclama le presente Declaration Universal del Derectos Human"
+  specimen_36: "Necuno essera submittite a sclavitude o servitude; le sclavitude e le traffico de sclavos es interdicte in tote su formas."
+  specimen_32: "Tote persona ha le derecto al establimento de un ordine social e international in le qual le derectos e libertates proclamate in iste Declaration pote esser plenmente realisate."
+  specimen_21: "Nulle disposition del presente Declaration pote esser interpretate como implicante pro un stato, pro un gruppamento o pro un individuo un qualcunque derecto de livrar se a activitates e de realisar actos visante al destruction del derectos e libertates proclamate in iste Declaration.\nConsiderante que le recognoscentia del dignitate inherente a tote le membros del familia human e de lor derectos equal e inalienabile constitue le fundamento del libertate, del justitia e del pace in le mundo,"
+  specimen_16: "Considerante que le recognoscentia del dignitate inherente a tote le membros del familia human e de lor derectos equal e inalienabile constitue le fundamento del libertate, del justitia e del pace in le mundo,\nConsiderante que le ignorantia e le disprecio del derectos human ha resultate in actos de barbaria que ultragia le conscientia del humanitate, e que le advenimento de un mundo in le qual le esseres human essera libere de parlar e de creder, liberate del terror e del miseria, ha essite proclamate como le plus alte aspiration del homine,\nConsiderante que il es essential que le derectos human es protegite per medio de un regime de derecto, a fin que le homine non es compellite al ultime recurso del rebellion contra le tyrannia e le oppression,"
+}
+historical: true

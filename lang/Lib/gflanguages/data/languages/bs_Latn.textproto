@@ -1,0 +1,29 @@
+id: "bs_Latn"
+language: "bs"
+script: "Latn"
+name: "Bosnian"
+autonym: "Bosanski"
+population: 3797234
+region: "BA"
+exemplar_chars {
+  base: "A B C Č Ć D {DŽ} Đ E F G H I J K L {LJ} M N {NJ} O P R S Š T U V Z Ž a b c č ć d {dž} đ e f g h i j k l {lj} m n {nj} o p r s š t u v z ž"
+  auxiliary: "Q W X Y q w x y"
+  marks: "◌́ ◌̌"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "– — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * /"
+  index: "A B C Č Ć D {DŽ} E F G H I J K L {LJ} M N {NJ} O P Q R S Š T U V W X Y Z Ž"
+}
+sample_text {
+  masthead_full: "SsVv"
+  masthead_partial: "Aa"
+  styles: "BUDUĆI da su priznavanje urođenog dostojanstva"
+  tester: "BUDUĆI da su nepoštivanje i preziranje prava čovjeka imali za"
+  poster_sm: "BUDUĆI da je"
+  poster_md: "BUDUĆI"
+  poster_lg: "Sva"
+  specimen_48: "BUDUĆI da su narodi Ujedinjenih nacija ponovo potvrdili"
+  specimen_36: "BUDUĆI da je zajedničko razumijevanje tih prava i sloboda od najveće važnosti za puno ostvarenje te obaveze,"
+  specimen_32: "Sva ljudska bića rađaju se slobodna i jednaka u dostojanstvu i pravima. Ona su obdarena razumom i sviješću i treba da jedno prema drugome postupaju u duhu bratstva."
+  specimen_21: "Svakome su dostupna sva prava i slobode navedene u ovoj Deklaraciji bez razlike bilo koje vrste, kao sto su rasa, boja, spol, jezik, vjera, političko ili drugo mišljenje, narodonosno ili društveno porijeklo, imovina, rođenje ili drugi pravni položaj.\nSvako ima pravo na život, slobodu i osobnu sigurnost.\nNiko ne smije biti držan u ropstvu ili ropskom odnosu; ropstvo i trgovina robljem zabranjuje se u svim njihovim oblicima."
+  specimen_16: "Niko ne smije biti podvrgnut mučenju ili okrutnom, nečovječnom ili ponižavajućem postupku ili kažnjavanju.\nSvako ima pravo da se svagdje pred zakonom priznaje kao osoba.\nSvi su pred zakonom jednaki i imaju pravo, bez ikakve diskriminacije, na jednaku zaštitu zakona. Svi imaju pravo na jednaku zaštitu protiv bilo kakve diskriminacije kojom se krši ova Deklaracija i protiv svakog podsticanja na takvu diskriminaciju.\nSvako ima pravo na djelotvorna pravna sredstva putem nadležnih nacionalnih sudova zbog djela kojima se krše osnovna prava koja su mu dodijeljena u Ustavu ili zakonu."
+}

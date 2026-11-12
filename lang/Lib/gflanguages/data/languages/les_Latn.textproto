@@ -1,0 +1,9 @@
+id: "les_Latn"
+language: "les"
+script: "Latn"
+name: "Lese"
+population: 70000
+region: "CD"
+exemplar_chars {
+  base: "a A b B d D e E f F g G i I ɨ Ɨ k K l L m M n N o O p P s S t T u U ʉ Ʉ v V w W y Y z Z"
+}

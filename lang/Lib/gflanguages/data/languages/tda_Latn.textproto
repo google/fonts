@@ -1,0 +1,14 @@
+id: "tda_Latn"
+language: "tda"
+script: "Latn"
+name: "Tagdal"
+autonym: "tagdal"
+population: 65000
+region: "NE"
+exemplar_chars {
+  base: "a A b B d D ḍ Ḍ e E ǝ Ǝ f F g G ɣ Ɣ h H ḥ Ḥ i I j J k K l L ḷ Ḷ m M n N ṇ Ṇ o O q Q r R ṛ Ṛ s S ṣ Ṣ š Š t T ṭ Ṭ u U w W x X y Y z Z ẓ Ẓ"
+  auxiliary: "c C ə Ə p P v V"
+  marks: "◌̌ ◌̣"
+}
+source: "Dictionnaire Tagdal, Webonary.org, 2023"
+source: "Carlos Miguel Benítez-Torres, A grammar of Tagdal: a Northern Songhay language, Amsterdam: LOT, 2021"

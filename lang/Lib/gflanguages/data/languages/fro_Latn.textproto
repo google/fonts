@@ -1,0 +1,21 @@
+id: "fro_Latn"
+language: "fro"
+script: "Latn"
+name: "Old French"
+population: 0
+region: "FR"
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Ii"
+  styles: "Tuit li home naissent libre et igal en dignité"
+  tester: "Tuit li home naissent libre et igal en dignité et en drois. Ont"
+  poster_sm: "Tuit li home"
+  poster_md: "Tuit li"
+  poster_lg: "Tuit"
+  specimen_48: "Tuit li home naissent libre et igal en dignité et en"
+  specimen_36: "Tuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité."
+  specimen_32: "Tuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité."
+  specimen_21: "Tuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité.\nTuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité.\nTuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité."
+  specimen_16: "Tuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité.\nTuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité.\nTuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité.\nTuit li home naissent libre et igal en dignité et en drois. Ont raison et conscience et duevent agir l\'un a l\'altre a un esprit de fraternité."
+}
+historical: true

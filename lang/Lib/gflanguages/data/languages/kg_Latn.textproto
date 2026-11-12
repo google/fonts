@@ -1,0 +1,26 @@
+id: "kg_Latn"
+language: "kg"
+script: "Latn"
+name: "Kongo"
+autonym: "Kikongo"
+population: 1526700
+region: "AO"
+region: "CD"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z"
+  auxiliary: "q Q x X"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Nn"
+  styles: "Nakutalaka ti kutambula ngenda ya binama"
+  tester: "Nakutalaka ti bunzimbu mpe mvwezolo baluve ya muntu metumia kusala"
+  poster_sm: "Nakutalaka"
+  poster_md: "Lukutakanu"
+  poster_lg: "Bantu"
+  specimen_48: "Luzayisu yayi ya baluve ya muntu na yinza Mutindu dikani ya kintwadi"
+  specimen_36: "Konso muntu ke na luve ya kuzinga, ya kuvwanda na kimpwanza mpe ya kuvwanda na kizunu ya bumumtu ya yandi."
+  specimen_32: "Konso muntu ke na luve ya kuvundisa nzutu mpe kukiyangidika, mingi kisalu fwana kuzingila na bangunga kulutila ve, mpe bilumbu ya mvwandulu fwana kufutwa."
+  specimen_21: "Konso muntu fwana kusalati, ata ya vwanda na kitini ya mabuta to na kitini ya yinza muvimba, baluve mpe kimpwanza yina metangama na luzayisu yayi kusalama na mutindu mefwanakama.\nAta musiku mosi ya luzayisu yayi lenda kubangulwa bonso luve ni luve ya kusala kisalu ti dyambu lenda kunata mbebosolo ya baluve mpe ya bimpwanza yina metangama na mukanda yayi, yayi metadila muvimba, kimvuka to muntu."
+  specimen_16: "Nakutalaka ti kutambula ngenda ya binama nyonso ya dikanda na ya baluve ya bawu a kudedakana mpe yina balenda kuyimina bawu ve ke lufulu ya kimpwanza, ya budedede mpe ya ngemba na kati ya yinza muvimba.\nNakutalaka ti bunzimbu mpe mvwezolo baluve ya muntu metumia kusala mavanga ya bunyama, yina ke dasukisaka bantu mpe na kutalaka dyaka ti nkwizulu ya yinza, sika bantu kevwandaka na kimpwanza ya kuzonza mpe ya kukwikila, sika bantu kekuluka na boma mpe na bumputu ya kulutila zababakana mutindu dikani mosi yanene ya muntu.\nNakutalaka ti ya ke mfumu samu ti baluve ya muntu fwana kukengidilwa na luyalu yina kezitisaka misiku samu na kusala ti muntu fwana kutombuka ve ntangu nyonso na luyalu yina kezitisaka ve misiku."
+}

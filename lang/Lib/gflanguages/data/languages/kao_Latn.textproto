@@ -1,0 +1,13 @@
+id: "kao_Latn"
+language: "kao"
+script: "Latn"
+name: "Xaasongaxango"
+population: 1012000
+region: "ML"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I í Í j J k K l L m M n N ń Ń ɲ Ɲ ŋ Ŋ o O p P r R s S t T u U w W x X y Y"
+  auxiliary: "q Q v V z Z"
+  marks: "◌́"
+}
+source: "Site officiel de la communauté khassonke pour la promotion de la culture et de la langue Khassonke, Kasso.com, 2005-2014 "
+source: "Harald Tveit, Grammaire de la langue khassonke : manuel de grammaire pour ceux qui veulent apprendre à parler la langue, Mission protestante norvegienne, 1997"

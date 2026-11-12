@@ -1,0 +1,27 @@
+id: "pcm_Latn"
+language: "pcm"
+script: "Latn"
+name: "Nigerian Pidgin"
+population: 44945880
+region: "NG"
+exemplar_chars {
+  base: "A Á B {CH} D E É Ẹ {Ẹ́} F G {GB} H I Í J K {KP} L M N O Ó Ọ {Ọ́} P R S {SH} T U Ú V W Y Z {ZH} a á b {ch} d e é ẹ {ẹ́} f g {gb} h i í j k {kp} l m n o ó ọ {ọ́} p r s {sh} t u ú v w y z {zh}"
+  auxiliary: "À C È {Ẹ̀} Ì Ò {Ọ̀} Q Ù X à c è {ẹ̀} ì ò {ọ̀} q ù x"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B {CH} D E F G H I J K L M N O P R S T U V W Y Z"
+}
+sample_text {
+  masthead_full: "EeVv"
+  masthead_partial: "Rr"
+  styles: "Dem recognise say human beings get dignity"
+  tester: "Since e be like say, dem no see our right as any ting and dem"
+  poster_sm: "Since e de"
+  poster_md: "Since dem"
+  poster_lg: "Everi"
+  specimen_48: "Since dem say all di kontris wey be members for di meeting of"
+  specimen_36: "Everi one naim get right to live, get right to do as e like and right to see say im life safe for where e dey."
+  specimen_32: "Everi one naim de entitle to say wen e face people wey go judge am, dem must to make sure say mago mago no de wen dem de do im case, if dem say e do something wey e bad."
+  specimen_21: "Dem talk say nobodi fit put mouth any how for anoda person mata or im family or im house mata or even any ting wey e concern di person. Wen everibodi know say person good, nobodi get right to de go about to say di person na bad person. Everibodi as di law, talk naim goment must to protect, if anybodi wan do dat kind ting to person."
+  specimen_16: "Everione naim get right to tink any ting e like, do as e like or do as im mind tell am to do, do di kind religion e wan do. Naim be say person fit change im religion or wetin e tink say naim be di truth for im religion. E fit do dis by imself or make nobodi know or with other people, make everibodi know. If e like self, e fit teach people dis im religion, e fit show di kind religion wey e belong to, for di way, wey e de behave or way, wey e serve im god.\nEverione naim get right to tink or talk wetin e like about any mata. Naim be say wen di person tink about wetin e like, nobodi get right to say make e no tink like dat. Even sef di person get right to look for or get any information wey e like from any where."
+}

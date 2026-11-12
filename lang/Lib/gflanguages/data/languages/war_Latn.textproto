@@ -1,0 +1,25 @@
+id: "war_Latn"
+language: "war"
+script: "Latn"
+name: "Waray"
+autonym: "Waray-Waray"
+population: 3166249
+region: "PH"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ñ"
+  marks: "◌̃"
+}
+sample_text {
+  masthead_full: "NnGg"
+  masthead_partial: "Aa"
+  styles: "Tungod han pagkilal-a nga an tiunay nga dignidad"
+  tester: "Tungod han pagpasibaya ug pagbiay-biaya han kanan mga tawo katungod"
+  poster_sm: "Tungod nga"
+  poster_md: "Tungod kay"
+  poster_lg: "Nga"
+  specimen_48: "Tungod nga an mga kaapi han hini nga kapunungan, nagsaad man han"
+  specimen_36: "Tungod nga an paggisinabtanay hini nga mga katungod importante gud kaupay basi matuman ini nga panaad;"
+  specimen_32: "An kada tagsa may katadungan hin pagpahuway ug pagpahalibway, kaupod in pagtakon han iya mga oras hin pagtrabaho ug ha mga panahon nga adlaw nga mga lu-an nga binaydan."
+  specimen_21: "An kada tagsa may katadungan ngada hin kahimtang nga sosyal of internasyonal diin an mga katadungan ug katal-wasa dida hin nga Deklarasyon mahihimo katuman.\nWaray hini dinhi nga Deklarasyon in intyendihon nga naghahatag ngada hin bisan ano nga Gobyerno, hugpo o tawo hin katadungan pagbuhat hin bisan ano nga makakabungkag hin ano dida nga katadungan ug katalwasan nga nailagda dinhi"
+  specimen_16: "Tungod han pagkilal-a nga an tiunay nga dignidad ug katpong ngan diri-maiwasan nga mga katungod hadton mga kaapihan kanan tawo pamilya amo an pinatatamakan han katalwasan, hustisya kalinawan han kalibutan;\nTungod han pagpasibaya ug pagbiay-biaya han kanan mga tawo katungod nga nahingadto hin mga magpakarima-dima nga mga buhat ug nakapahangit han katawhan, ug dumangat han pag-abot hin bag-o nga panahaon diin an mga katawhan magpapahimulos han ira katadungan pagyakan ug pagtuo hin waray ikahahadlok ug an katalwas tikang hin mga kabaraka ug pahingulang iginsaysay nga amo an pinakahitaas nga hingyap han mga molupyo;"
+}

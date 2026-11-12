@@ -1,0 +1,15 @@
+id: "dnj_Latn_LR"
+language: "dnj"
+script: "Latn"
+name: "Liberian Dan"
+autonym: "Gio"
+population: 1099244
+region: "LR"
+exemplar_chars {
+  base: "a A à À á Á â Â ã Ã {ã̀} {Ã̀} {ã́} {Ã́} b B ɓ Ɓ d D ɗ Ɗ e E è È é É ê Ê ǝ Ǝ {ǝ̀} {Ǝ̀} {ǝ́} {Ǝ́} {ǝ̂} {Ǝ̂} {ǝ̃} {Ǝ̃} {ǝ̃̀} {Ǝ̃̀} {ǝ̃́} {Ǝ̃́} {ǝ̃̂} {Ǝ̃̂} ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̃} {Ɛ̃} {ɛ̃̀} {Ɛ̃̀} {ɛ̃́} {Ɛ̃́} f F g G h H i I ì Ì í Í î Î ĩ Ĩ {ĩ̀} {Ĩ̀} {ĩ́} {Ĩ́} j J k K l L m M n N o O ò Ò ó Ó ô Ô ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̃} {Ɔ̃} {ɔ̃̀} {Ɔ̃̀} {ɔ̃́} {Ɔ̃́} {ɔ̃̂} {Ɔ̃̂} ɵ Ɵ {ɵ̀} {Ɵ̀} {ɵ́} {Ɵ́} {ɵ̂} {Ɵ̂} p P r R s S t T u U ù Ù ú Ú û Û ũ Ũ {ũ̀} {Ũ̀} ṹ Ṹ ɥ Ɥ {ɥ̀} {Ɥ̀} {ɥ́} {Ɥ́} {ɥ̂} {Ɥ̂} {ɥ̃̀} {Ɥ̃̀} {ɥ̃́} {Ɥ̃́} v V w W x X y Y z Z"
+  marks: "◌́ ◌̀ ◌̂ ◌̃"
+  auxiliary: "ƃ Ƃ ə Ə"
+}
+source: "Lorna A. Priest, Proposal to Encode Additional Latin and Cyrillic Characters, 2008"
+source: "Aaɓi Kwì, Bible Society of Liberia, 2016"
+note: "The ɓ is used but, because the capital Ɓ has the shape of Ƃ, ƃ Ƃ are used in some works, for example the online version of Bible Society of Liberia 2016."

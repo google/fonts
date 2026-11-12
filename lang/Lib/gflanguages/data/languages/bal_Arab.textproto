@@ -1,0 +1,15 @@
+id: "bal_Arab"
+language: "bal"
+script: "Arab"
+name: "Baluchi"
+preferred_name: "Balochi"
+autonym: "بلۏچی"
+population: 10796398
+region: "AE"
+region: "IR"
+region: "OM"
+region: "PK"
+exemplar_chars {
+  base: "ا آ ہ ب چ د ڈ ࢩ ے گ ھ ی ج ک ل م ن ۏ پ ر س ش ت ٹ و ز ژ ئ ؤ ء"
+  marks: "َ◌ ِ◌ ُ◌ ّ◌ ٚ◌"
+}

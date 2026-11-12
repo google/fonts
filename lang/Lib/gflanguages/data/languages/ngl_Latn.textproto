@@ -1,0 +1,11 @@
+id: "ngl_Latn"
+language: "ngl"
+script: "Latn"
+name: "Lomwe"
+population: 2046677
+region: "MZ"
+exemplar_chars {
+  base: "a A c C e E f F h H i I k K {kh} {KH} l L m M n N {ny} {NY} {ng} {NG} o O p P {ph} {PH} r R s S t T {th} {TH} {tt} {TT} {tth} {TTH} u U v V w W"
+  auxiliary: "b B d D g G j J q Q x X y Y"
+}
+source: "Relatório do I Seminário sobre a Padronização da Ortografia de Línguas Moçambicanas, Maputo, Núcleo de Estudo de Línguas Moçambicanas (NELIMO), Universidade Eduardo Mondlane, 1989"

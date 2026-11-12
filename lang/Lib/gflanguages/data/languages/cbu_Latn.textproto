@@ -1,0 +1,22 @@
+id: "cbu_Latn"
+language: "cbu"
+script: "Latn"
+name: "Candoshi-Shapra"
+region: "PE"
+exemplar_chars {
+  base: "A B C D G H I K L M N O P R S T U V X Y Z a b c d g h i k l m n o p r s t u v x y z \'"
+}
+sample_text {
+  masthead_full: "IiYy"
+  masthead_partial: "Tt"
+  styles: "Iy tpotsini ichigoroni kis tamam zadkini,"
+  tester: "Iy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam"
+  poster_sm: "Iy tpotsini"
+  poster_md: "tpotsini"
+  poster_lg: "tpotsini"
+  specimen_48: "Iy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya."
+  specimen_36: "Iy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya."
+  specimen_32: "Iy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya."
+  specimen_21: "Iy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya.\nIy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya."
+  specimen_16: "Iy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya.\nIy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya.\nIy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya.\nIy tpotsini ichigoroni kis tamam zadkini, vatam tpotsiniva. Vatam ichigoroni magini tarova; ashiriya chinakaniya. Ashirocha, zovalliatsich tamaparia-ashiros sanpata chinagtsa atiniya."
+}

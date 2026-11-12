@@ -1,0 +1,25 @@
+name: Check server files
+on:
+  pull_request:
+    paths:
+    - 'to_sandbox.txt'
+    - 'to_production.txt'
+    - '.github/workflows/pushlists.yaml"'
+
+permissions:
+  contents: read
+
+jobs:
+  test_server_files:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: "3.10"
+    - name: Install gftools
+      run: pip install gftools
+    - name: Lint server files
+      run: |
+        gftools push-status . --lint

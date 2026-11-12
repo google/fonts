@@ -1,0 +1,11 @@
+id: "byn_Latn"
+language: "byn"
+script: "Latn"
+name: "Bilen"
+population: 79055
+region: "ER"
+exemplar_chars {
+  base: "a A b B c C d D e E é É f F g G h H i I j J k K l L m M n N ñ Ñ o O q Q r R s S t T u U w W x X y Y"
+  marks: "◌́ ◌̃"
+  auxiliary: "p P v V z Z"
+}

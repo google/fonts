@@ -1,0 +1,11 @@
+id: "guw_Latn"
+language: "guw"
+script: "Latn"
+name: "Gun"
+population: 1500000
+region: "BJ"
+region: "NG"
+exemplar_chars {
+  base: "a A b B c C d D ɗ Ɗ e E ɛ Ɛ f F g G h H i I j J k K l L m M n N o O ɔ Ɔ s S t T u U v V w W x X y Y z Z"
+  auxiliary: "p P q Q r R"
+}

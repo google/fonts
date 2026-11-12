@@ -1,0 +1,16 @@
+#YELA based on [Wavefont](https://github.com/dy/wavefont)
+tag: "YELA"
+display_name: "Vertical Element Alignment"
+min_value: -100
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Align glyphs elements from their default position (0%),"
+  " usually the baseline, to an upper (100%)"
+  " or lower (-100%) position."

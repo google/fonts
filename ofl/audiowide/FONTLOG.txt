@@ -1,0 +1,54 @@
+FONTLOG for the Audiowide font
+
+This file provides detailed information on the Audiowide font
+Software.
+
+This information should be distributed along with the Audiowide font
+and any derivative works.
+
+Basic Font Information
+
+Audiowide is a sans serif, technology styled, typeface composed
+of soft corner tubular forms. With vague nods to letter styles
+like that of Handel Gothic and the Converse logo, Audiowide veers
+off in a direction of its own for a slightly more 
+techno-futuristic and yet cleanly readable typestyle.
+
+Designed by Brian J. Bonislawsky for Astigmatic (AOETI).
+
+Audiowide is a Unicode typeface family that supports languages
+that use the Latin script and its variants, and could be expanded
+to support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+There are 3 source files:
+
+1. Audiowide-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+2. Audiowide-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. Audiowide-Regular.vfb Original Source files with contour overlaps
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+ChangeLog
+
+30 March 2012 (Brian J. Bonislawsky) Audiowide v1.002
+- Adjusted spacing to be a little looser
+
+27 March 2012 (Brian J. Bonislawsky) Audiowide v1.001
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface & Software Designer

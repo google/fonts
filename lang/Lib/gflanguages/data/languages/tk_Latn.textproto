@@ -1,0 +1,25 @@
+id: "tk_Latn"
+language: "tk"
+script: "Latn"
+name: "Turkmen (Latin)"
+autonym: "Türkmençe"
+population: 11000000
+region: "TM"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ö Ü Ý Ň Ş Ž Ș a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș"
+  marks: "◌́ ◌̈ ◌̌ ◌̦ ◌̧"
+}
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Mm"
+  styles: "Adamzat kowmunyň agzalaryna deň derejede"
+  tester: "Adam hukuklarynyň äsgerilmezliginiň we ýigrenilmeginiň adamzat"
+  poster_sm: "Agza-döwletleriň"
+  poster_md: "Halklaryň"
+  poster_lg: "hemmesi"
+  specimen_48: "Birleşen Milletleriň halklarynyň esasy adam hukuklaryna,"
+  specimen_36: "Hiç kim gulçulykda ýa-da baknalykda saklanyp bilinmez; gulçulygyň we gul söwdasynyň ähli görnüşleri gadagan edilýär."
+  specimen_32: "Her bir adam konstitusiýanyň ýa-da kanunyň özüne beren esasy hukuklary bozulan ýagdaýynda öz hukuklaryny başarnykly milli sudlar arkaly netijeli dikeltmäge haklydyr."
+  specimen_21: "Hiç kim eden-ýtdilikli tussag edilmäge, saklanylmaga ýa-da ýurdundan kowulmaga duçar edilip bilinmez. \nHer bir adam öz hukuklarynyň we borçlarynyň kesgitlenmegi we özüne bildirilen jenaýat aýyplamasynyň esaslydygyny anyklamak üçin doly deňhukuklylyk esasynda öz işiniň açyk we adalatyň ähli talaplaryna laýyklykda garaşsyz we bitarap sudda seredilmegine haklydyr."
+  specimen_16: "Hiç kim öz şahsy we maşgala durmuşyna eden-ýtdilikli gatyşylmagyna, öz ýaşaýyş jaýynyň eldegrilmezliginiň, hat-habar aragatnaşyklarynyň gizlinliginiň ýa-da öz at-abraýynyň we mertebesiniň garawsyz bozulmagyna duçar edilip bilinmez. Her bir adam öz durmuşyna beýle gatyşmalardan ýa-da kastdan kanun arkaly goranmaga haklydyr.\nHer bir adam pikir, ynam we din azatlygyna haklydyr; bu hukuk diniňi ýa-da ynamyňy üýtgetmek azatlygyny we öz diniňe ýa-da ynamyňa uýmak hem-de oňa ýeke özüň we il bilen bile hususy tertipde, şeýle-de köpçülikde sežde etmek, ýörelge, hudaýa çokunmak we dini ritual dessurlaryň azatlygyny öz içine alýar."
+}

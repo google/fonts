@@ -1,0 +1,29 @@
+id: "lv_Latn"
+language: "lv"
+script: "Latn"
+name: "Latvian"
+autonym: "Latviešu"
+population: 1147550
+region: "LV"
+exemplar_chars {
+  base: "A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O P R S Š T U Ū V Z Ž a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž"
+  auxiliary: "Y Ō Q Ŗ W X y ō q ŗ w x"
+  marks: "◌̄ ◌̌ ◌̧"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ ‚ \" “ ” „ ( ) [ ] @ * / & #"
+  index: "A Ā B C Č D E Ē F G Ģ H I Ī Y J K Ķ L Ļ M N Ņ O P Q R S Š T U Ū V W X Z Ž"
+}
+sample_text {
+  masthead_full: "VvIi"
+  masthead_partial: "Ss"
+  styles: "Ievērojot, ka visiem cilvēku sabiedrības locekļiem"
+  tester: "ievērojot, ka cilvēku tiesību necienīšana un nicināšana noved"
+  poster_sm: "ievērojot, ka"
+  poster_md: "ievērojot,"
+  poster_lg: "Visi"
+  specimen_48: "ievērojot, ka Apvienoto Nāciju tautas Statūtos apliecināja savu"
+  specimen_36: "ievērojot, ka šo tiesību un brīvību vispārējai izpratnei ir milzīga nozīme šīs apņemšanās pilnīgai īstenošanai,"
+  specimen_32: "Visi cilvēki piedzimst brīvi un vienlīdzīgi savā pašcieņā un tiesībās. Viņi ir apveltīti ar saprātu un sirdsapziņu, un viņiem jāizturas citam pret citu brālības garā."
+  specimen_21: "Ikvienam ir tiesības uz visām šajā Deklarācijā pasludinātajām tiesībām un brīvībām, bez jebkāda veida atšķirības pēc rases, ādas krāsas, dzimuma, valodas, reliģijas, politiskās vai citas pārliecības, nacionālās vai sociālās izcelsmes, mantiskā stāvokļa, dzimšanas vai cita statusa.\nIkvienam ir tiesības uz dzīvību, brīvību un personas neaizskaramību."
+  specimen_16: "Nevienu nedrīkst turēt verdzībā vai dzimtbūtniecībā; visa veida verdzība un vergu tirdzniecība ir jāaizliedz.\nNevienu nedrīkst pakļaut spīdzināšanai vai cietsirdīgi, necilvēcīgi ar viņu apieties vai sodīt, pazemojot viņa cilvēcisko cieņu.\nIkvienam, visur, ir tiesības būt atzītam par personu likuma priekšā.\nVisi ir vienlīdzīgi likuma priekšā un viņiem ir tiesības, bez jebkādas diskriminācijas, uz vienādu likuma aizsardzību. Visiem ir tiesības uz vienādu aizsardzību pret jebkādu diskrimināciju, pārkāpjot šo Deklarāciju, un pret jebkuru kūdīšanu uz tādu diskrimināciju."
+}

@@ -1,0 +1,23 @@
+id: "zro_Latn"
+language: "zro"
+script: "Latn"
+name: "Záparo"
+region: "EC"
+region: "PE"
+exemplar_chars {
+  base: "A C E I J K M N O P R S T U W Y Z Á É Í Ó Ú a c e i j k m n o p r s t u w y z \' á é í ó ú"
+}
+sample_text {
+  masthead_full: "KkAa"
+  masthead_partial: "Ww"
+  styles: "Kawiriaja kayapuina ichaukui ta nuka pucha"
+  tester: "Kawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha"
+  poster_sm: "Kawiriaja"
+  poster_md: "Kawiriaja"
+  poster_lg: "ichaukui"
+  specimen_48: "Kawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha"
+  specimen_36: "Kawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha."
+  specimen_32: "Kawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha."
+  specimen_21: "Kawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha.\nKawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha.\nKawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha."
+  specimen_16: "Kawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha.\nKawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha.\nKawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha.\nKawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha.\nKawiriaja kayapuina ichaukui ta nuka pucha panicha kupanimajicha cha nuka nishima ikicha kiniana panicha tamanuka kanata ikimajicha."
+}

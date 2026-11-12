@@ -1,0 +1,51 @@
+Reading Type Puritan 2.1
+
+1.  FONTLOG for Puritan
+This file provides detailed information on the Puritan font software.
+This information should be distributed along with the Puritan fonts and any derivative works.
+
+2.  Basic Font Information
+Puritan was drawn as a project while I was studying typography at the University of Reading, UK.
+It was released without a license in 2001 (that release is considered version 1.0).
+From version 2.0a, Puritan is still available freely but its use, distribution and reproduction is now governed by the terms of the SIL Open Font License. A copy is included with this distribution: see the License file.
+
+Family members:
+Puritan
+Puritan Bold
+Puritan Italic
+Puritan Bold Italic
+
+You can read about Puritan on my web site: http://www.readingtype.org.uk/
+
+There is a PDF describing the project in more detail on the site.
+
+3.  ChangeLog
+(This should list both major and minor changes, most recent first. Here are some examples:)
+
+November 2010 (Dave Crossland) Puritan version 2.1
+- Added a yacute to all 4 fonts
+- Added a build script
+- Updated metadata to include OFL and general cleanup 
+
+March 2007 (Ben Weiner) Puritan version 2.0a
+- Incorporation of the OFL license
+- Re-encoding font source files as FontForge ASCII text from MacroMedia Fontographer TrueType files
+- Some modifications to glyph outlines in the Roman font.
+
+April 2001 (Ben Weiner) Puritan version 1.0
+- Initial release of font "Puritan"
+
+4.  Acknowledgements
+(Here is where contributors can be acknowledged.
+If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D).
+This list is sorted by last name in alphabetical order.)
+
+N: Dave Crossland
+E: dave@understandinglimited.com
+W: http://understandinglimited.com
+D: Minor font engineering
+
+N: Ben Weiner
+E: ben@readingtype.org.uk
+W: http://readingtype.org.uk
+D: Original Design

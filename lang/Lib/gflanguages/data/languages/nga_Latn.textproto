@@ -1,0 +1,14 @@
+id: "nga_Latn"
+language: "nga"
+script: "Latn"
+name: "Ngbaka"
+population: 1020000
+region: "CD"
+exemplar_chars {
+  base: "a A à À á Á ã Ã {ã̀} {Ã̀} {ã́} {Ã́} b B c C d D e E è È é É ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̃} {Ɛ̃} {ɛ̃̀} {Ɛ̃̀} {ɛ̃́} {Ɛ̃́} f F g G h H i I ì Ì í Í ĩ Ĩ {ĩ̀} {Ĩ̀} {ĩ́} {Ĩ́} k K l L m M n N o O ò Ò ó Ó ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̃} {Ɔ̃} {ɔ̃̀} {Ɔ̃̀} {ɔ̃́} {Ɔ̃́} p P r R s S t T u U ù Ù ú Ú ũ Ũ {ũ̀} {Ũ̀} ṹ Ṹ v V w W y Y z Z"
+  auxiliary: "c C j J q Q x X {a̍} {A̍} {e̍} {E̍} {ɛ̍} {Ɛ̍} {i̍} {I̍} {o̍} {O̍} {ɔ̍} {Ɔ̍} {u̍} {U̍} {ã̍} {Ã̍} {ɛ̃̍} {Ɛ̃̍} {ĩ̍} {Ĩ̍} {ɔ̃̍} {Ɔ̃̍} {ũ̍} {Ũ̍} â Â ê Ê {ɛ̂} {Ɛ̂} î Î ô Ô {ɔ̂} {Ɔ̂} {ã̂} {Ã̂} {ɛ̃̂} {Ɛ̃̂} {ĩ̂} {Ĩ̂} {ɔ̃̂} {Ɔ̃̂} {ũ̂} {Ũ̂} ǎ Ǎ ě Ě {ɛ̌} {Ɛ̌} ǐ Ǐ ǒ Ǒ {ɔ̌} {Ɔ̌} {ã̌} {Ã̌} {ɛ̃̌} {Ɛ̃̌} {ĩ̌} {Ĩ̌} {ɔ̃̌} {Ɔ̃̌} {ũ̌} {Ũ̌}"
+  marks: "◌̀ ◌́ ◌̃ ◌̂ ◌̌ ◌̍"
+}
+source: "We Nu Gale, Société biblique du Zaïre, 1995"
+source: "Marcel Henrix, Michael Meeuwis & Peter Vanhoutte, Dictionnaire ngbaka – français, SIL International, 2020"
+note: "Henrix, Meeuwis & Vanhoutte 2020 uses tones marks extensively. Société biblique du Zaïre 1995 uses much less tone marks."

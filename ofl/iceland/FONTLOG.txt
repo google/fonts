@@ -1,0 +1,72 @@
+FONTLOG for the Iceland font
+
+This file provides detailed information on the Iceland 
+font Software.
+
+This information should be distributed along with the 
+Iceland fonts and any derivative works.
+
+Basic Font Information
+
+The idea of geometric typefaces with a look reminiscent of 
+the machinery, technology, and interior design of the 1950s 
+originated in Eurostile family by Aldo Novarese and 
+Alessandro Butti (1952).
+
+Iceland is a modular square-shaped webfont by Victor 
+Kharyk with a cold brutal character designed with the 
+intention to perform well on screen starting from low 
+resolutions. For this purpose the strokes are 
+deliberatly kept vertical and diagonal cuts have a 
+45° angle, outlines are rounded.
+
+Features like wide proportions and generous x-height 
+are introduced for better legibility. Unconventional 
+and simplified letterforms like k, f, r aid readability 
+at small sizes. While at display sizes they add a 
+crisp and sharp impression.
+
+Uppercase letters are decently heavier compared to 
+lowercase as a tribute to the old typographic tradition. 
+This way uppercase is easily distinguished from 
+lowercase, and allows scaling down to be used 
+as Small Caps.
+
+Because of its ascetic modular character and squarish 
+proportions Iceland webfont is easily integrated in 
+modular grids and logotypes.
+
+Iceland is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, 
+and could be expanded to support other scripts.
+
+More specifically, this release supports the 
+following Unicode ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+There are two .vfb Source files:
+1. Iceland-Regular.vfb (Original Source files with 
+   contour overlaps)
+2. Iceland-Regular-OTF.vfb (Merged and optimized file)
+
+ChangeLog
+
+17 November 2011 (Alexei Vanyashin) Iceland v. 1.001
+- Applied ttfautohint
+- Mastered TTF file
+— Added GASP table
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Viktor Kharyk
+E: kharyk@gmx.de
+D: Designer
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Mastering

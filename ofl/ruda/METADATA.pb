@@ -23,8 +23,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/m4rc1e/Ruda-new"
-  commit: "a63532e04ffb0f46b635cf9e000966155958e19d"
+  repository_url: "https://github.com/aaronbell/Ruda-new"
+  commit: "0a66529fc9d128ae394d716810423f39b295e4a8"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

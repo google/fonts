@@ -1,0 +1,11 @@
+id: "maf_Latn"
+language: "maf"
+script: "Latn"
+name: "Mafa"
+population: 1036000
+region: "CM"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D {dz} {DZ} ɗ Ɗ e E ə Ə f F g G {gh} {GH} {ghw} {GHW} {gw} {GW} h H {hw} {HW} i I j J k K {kw} {KW} l L m M ḿ Ḿ {mb} {MB} n N ń Ń {nd} {ND} {ndz} {NDZ} {ng} {NG} {ngw} {NGW} {nj} {NJ} o O œ Œ p P r R s S {sh} {SH} {sl} {SL} t T {ts} {TS} u U ʉ Ʉ v V w W y Y z Z {zh} {ZH} {zl} {ZL} ʼ"
+  auxiliary: "ʼ"
+}
+source: "Daniel Barreteau & Yves Le Bleis, Lexique mafa : Langue de la famille tchadique parlée au Cameroun, Paris: Geuthner-ORSTOM, 1990"

@@ -1,0 +1,12 @@
+id: "seh_Latn"
+language: "seh"
+script: "Latn"
+name: "Sena"
+autonym: "Cisena"
+population: 1384517
+region: "MZ"
+exemplar_chars {
+  base: "a A á Á à À â Â ã Ã b B c C ç Ç d D e E é É ê Ê f F g G h H i I í Í j J k K l L m M n N o O ó Ó ò Ò ô Ô õ Õ p P q Q r R s S t T u U ú Ú v V w W x X y Y z Z"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}

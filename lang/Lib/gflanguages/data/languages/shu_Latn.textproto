@@ -1,0 +1,14 @@
+id: "shu_Latn"
+language: "shu"
+script: "Latn"
+name: "Arabic, Chadian Spoken"
+population: 2000000
+region: "TD"
+exemplar_chars {
+  base: "a A b B {ch} {CH} d D e E f F g G h H i I j J k K {kh} {KH} l L m M n N o O p P r R s S t T {tch} {TCH} u U w W y Y z Z ’"
+  marks: "◌̂ ◌̧ ◌́ ◌̀ ◌̈"
+  auxiliary: "â Â æ Æ c C ç Ç é É è È ê Ê ë Ë î Î ï Ï ô Ô œ Œ p P q Q ù Ù û Û ü Ü v V x X ÿ Ÿ"
+}
+note: "Earlier versions of the orthography used circumflex for long vowels instead of doubling the letter, or c, x, tc instead of ch, kh, tch."
+source: "Judith Heath, Livret d’introduction à l’orthographe de l’arabe tchadien - Kitaab le l-giraay wa l-kitaabe be kalaam arab hana Tachaad, N’Djaména: SIL Tchad, 2024"
+source: "Judith Heath, Chadian Arabic - English lexicon, N’Djaména: SIL Tchad, 2016"

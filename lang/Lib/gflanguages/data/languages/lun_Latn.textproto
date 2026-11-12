@@ -1,0 +1,29 @@
+id: "lun_Latn"
+language: "lun"
+script: "Latn"
+name: "Lunda"
+population: 1115000
+region: "AO"
+region: "ZM"
+region: "CD"
+exemplar_chars {
+  base: "a A b B {ch} {CH} d D e E f F g G h H i I j J k K l L m M n N ñ Ñ o O p P {ph} {PH} s S {sh} {SH} t T u U v V w W y Y z Z {zh} {ZH}"
+  marks: "◌̃"
+  auxiliary: "ŋ Ŋ"
+}
+sample_text {
+  masthead_full: "MmUu"
+  masthead_partial: "Nn"
+  styles: "Kuhitila mu kwiteja nakulemesha muntu, chakubuka"
+  tester: "Kubula kulondela nshimbi ja wuntu chinaleteshi kubula kutiyangana"
+  poster_sm: "Mu chitiyangenu"
+  poster_md: "Matunga amu"
+  poster_lg: "Muntu"
+  specimen_48: "Nshimbi yeniyi ya kayi kejima ya Wuntu wa Muntu, hi njila yimu"
+  specimen_36: "Muntu wejima watela kuhanda chiwahi mukushakama kwindi, walubuka nikumona nawu waking\'ewa mumakabi adi ejima."
+  specimen_32: "Muntu wejima wenkewa ing\'ovu jakumona nindi anasompi nyilong\'a yindi chiwahi mu chota chanyilong\'a mukulondela inshimbi nakudiking\'a omweni munyilong\'a."
+  specimen_21: "Kosi muntu akalung\'esahwu muchihandilu chindi hela inshakaminu yindi nachisaka chindiku hela kutamisha ijina dindiku. Muntu wejima watela kuking\'ewa muyuma yamuchidiwu.\nMuntu wejima wenkewa ing\'ovu jakuditong\'ojokela nikusakula kuchachi kunakukeng\'ayi omweni, natweshi kuya kuchachi yacheng\'i neyi nachimoni nindi chalo\'a mukuzatila hamu ni akwawu, kutang\'isha nikulondela inshimbi mukulombela kwindi."
+  specimen_16: "Muntu wejima wenkewa ing\'ovu yakutong\'ojoka nikuhosha hansang\'a yidi yejima chakadi kutiya womaku mukukeng\'a kwiluka wunsahu walala hansang\'u yinakuleng\'ayi kwiluka chiwahi.\nMuntu wejima wenkew ing\'ovu jakudiking\'a muchihandilu chindi kuhitila muku zatila hamu nikulondela maheta etung\'a chihandilu chamuntu nichisemwa mulong\'a chakadi yena kwikala wakashinshi hikunatweshi kutwala chihandilu chindi kumbidiku.\nMuntu wejima watela kunoka nikuzata mumpinji yatela nikuya nakunooka ninfwetu jindi. Muntu wejima wenkewa ing\'ovu jakumona hanyidimu yindi nikumona nindi natambuli infwetu jindi impinji achidiyi nakunoka."
+}
+source: "S. S. Chimuka, “Lunda”, Zambian languages: orthography approved by the Ministry of Education, Zambia, Ministry of Education, 1977, p. 72-89"
+source: "M. K. Fisher, Lunda-Ndembu handbook (36 lessons) : Mukanda Wedimi Dawalunda, Lusaka, National Education Company of Zambia (Neczam), 1984 (1919)"

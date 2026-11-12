@@ -1,0 +1,30 @@
+id: "et_Latn"
+language: "et"
+script: "Latn"
+name: "Estonian"
+autonym: "Eesti"
+population: 878449
+region: "EE"
+region: "FI"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S Š Z Ž T U V W Õ Ä Ö Ü X Y a b c d e f g h i j k l m n o p q r s š z ž t u v w õ ä ö ü x y"
+  auxiliary: "Á À Â Å Ã Ā Æ Ç É È Ê Ë Ē Í Ì Î Ï Ī Ñ Ó Ò Ŏ Ô Ø Ō Œ Ú Ù Û Ū á à â å ã ā æ ç é è ê ë ē í ì î ï ī ñ ó ò ŏ ô ø ō œ ú ù û ū"
+  marks: "◌̃ ◌̈ ◌̌"
+  numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – , ; : ! ? . “ „ ( ) [ ] { } @"
+  index: "A B C D E F G H I J K L M N O P Q R S Š Z Ž T U V W Õ Ä Ö Ü X Y"
+}
+sample_text {
+  masthead_full: "KkÕõ"
+  masthead_partial: "Ii"
+  styles: "Pidades silmas, et inimkonna kõigi liikmete"
+  tester: "pidades silmas, et inimõiguste põlastamine ja hülgamine on viinud"
+  poster_sm: "pidades silmas"
+  poster_md: "kuulutab"
+  poster_lg: "Kõik"
+  specimen_48: "käesolevaga Inimõiguste ülddeklaratsiooni kui ülesande, mida peavad"
+  specimen_36: "Kedagi ei või pidada orjuses või õigusteta seisundis; orjus ja orjakaubandus ükskõik millisel kujul on keelatud."
+  specimen_32: "Igal inimesel on temale konstitutsiooniga või seadusega tagatud põhiõiguste rikkumise korral õigus efektiivsele õiguste ennistamisele kompetentsete rahvuskohtute kaudu."
+  specimen_21: "Kedagi ei või meelevaldselt vahistada, kinni pidada või pagendada.\nIgal inimesel on tema õiguste ja kohustuste määratlemiseks ja temale esitatud kriminaalsüüdistuste põhjendatuse kindlakstegemiseks täieliku võrdsuse alusel õigus sellele, et tema asi vaadataks avalikult ja kõiki õigluse nõudeid järgides läbi sõltumatu ja erapooletu kohtu poolt."
+  specimen_16: "Kellegi isiklikku ja perekonnaellu ei või meelevaldselt vahele segada, kellegi korteripuutumatust, kirjavahetuse saladust või au ja reputatsiooni ei tohi meelevaldselt määrida. Igal inimesel on õigus seaduse kaitsele selliste vahelesegamiste ja rikkumiste eest.\nIgal inimesel on õigus mõtte-, südametunnistuse ja usuvabadusele; see õigus kätkeb vabadust oma usku või veendumusi muuta, samuti vabadust vabalt kuulutuada oma usku või veendumusi nii üksikult kui ka koos teistega avalikult või eraviisiliselt õpetuse, jumalateenistuse ja religioossete ning rituaalsete kombetalituste kaudu."
+}

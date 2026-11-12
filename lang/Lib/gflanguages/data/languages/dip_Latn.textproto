@@ -1,0 +1,27 @@
+id: "dip_Latn"
+language: "dip"
+script: "Latn"
+name: "Dinka, Northeastern"
+region: "SS"
+region: "SD"
+population: 812000
+exemplar_chars {
+  base: "a A ä Ä b B c C d D {dh} {DH} e E ë Ë ɛ Ɛ {ɛ̈} {Ɛ̈} g G ɣ Ɣ i I ï Ï j J k K l L m M n N {nh} {NH} {ny} {NY} ŋ Ŋ o O ö Ö ɔ Ɔ {ɔ̈} {Ɔ̈} p P r R t T {th} {TH} u U w W y Y"
+  marks: "◌̈"
+  auxiliary: "f F h H q Q s S v V x X z Z"
+}
+sample_text {
+  masthead_full: "RrAa"
+  masthead_partial: "Nn"
+  styles: "Raan thök eben aye dhëëth ka lau nhöm kua"
+  tester: "Raan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic,"
+  poster_sm: "Raan thök eben"
+  poster_md: "Raan thök"
+  poster_lg: "Raan"
+  specimen_48: "Raan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua"
+  specimen_36: "Raan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik."
+  specimen_32: "Raan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik."
+  specimen_21: "Raan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik.\nRaan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik.\nRaan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik."
+  specimen_16: "Raan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik.\nRaan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik.\nRaan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik.\nRaan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik.\nRaan thök eben aye dhëëth ka lau nhöm kua thöŋ nhiim eyithiic, kua thɛ̈kic, kua ci yëknhiethku puou, ku bik cëŋ ka ke ye mith etik."
+}
+source: "Arthur Nebel, Dinka grammar (Rek-Malual dialect) with texts and vocabulary, Verona, Missioni Africane, 1948"

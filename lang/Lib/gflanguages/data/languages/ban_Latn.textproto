@@ -1,0 +1,25 @@
+id: "ban_Latn"
+language: "ban"
+script: "Latn"
+name: "Balinese"
+autonym: "Bali"
+population: 4806468
+region: "ID"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É a b c d e f g h i j k l m n o p q r s t u v w x y z é"
+  marks: "◌́"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Mm"
+  styles: "Manimbang riantukan pangangken ring subhakarma"
+  tester: "Manimbang riantukan ngelempasang lan ngandapang hak azasi manusia"
+  poster_sm: "Pangawedar"
+  poster_md: "Satunggil"
+  poster_lg: "Sami"
+  specimen_48: "Selantur ipun nenten pacang kawentenang pabinayan sangkaning"
+  specimen_36: "Manimbang riantukan ngupapira paiketan pasawitran ring sajeroning negara-negara patut kautsahayang.\nMAJELIS UMUM"
+  specimen_32: "Manimbang riantukan pahaning wirasa sane pateh ngenenin indik hak-hak lan kebebasan-kebebasan punika mabuat pisan maka panglaksana sane sumeken pisan saking semaya punika, mawinan,"
+  specimen_21: "Manimbang riantukan pangangken ring subhakarma lan hak-hak sane pateh tur pastika saking paguyuban kulawarga manusa sami inggih punika dasar kemerdekaan, keadilan lan perdamaian ring jagat.\nManimbang riantukan hak-hak manusa patut kaayomin malarapan peraturan hukum mangda para jana nenten kadulumuk milih pamargi andaga utsaha penguntat maka panungkas kaduratmakan miwah penjajahan."
+  specimen_16: "Manimbang riantukan pangangken ring subhakarma lan hak-hak sane pateh tur pastika saking paguyuban kulawarga manusa sami inggih punika dasar kemerdekaan, keadilan lan perdamaian ring jagat.\nManimbang riantukan ngelempasang lan ngandapang hak azasi manusia janten ngawinang parilaksana-parilaksana sane kaon sane ngawinang rasa kroda sajeroning herdaya (unteng pekayunan) manusapada, tur kamanggehang jagat genah manusa pacang muponin bebas mawicara lan maagama tur luput saking rasa ajrih miwah kakirangan, punika sampun kajantenang pinaka tatujon pilih utama saking para jana."
+}

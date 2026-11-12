@@ -1,0 +1,25 @@
+id: "chk_Latn"
+language: "chk"
+script: "Latn"
+name: "Chuukese"
+autonym: "Chuuk"
+population: 30730
+region: "FM"
+exemplar_chars {
+  base: "A C E F H I K M N O P R S T U W Y Á É Ó Ú a c e f h i k m n o p r s t u w y á é ó ú"
+  marks: "◌́"
+}
+sample_text {
+  masthead_full: "EeSs"
+  masthead_partial: "Aa"
+  styles: "Pokiten kich mei sinei pwe popunapen pung"
+  tester: "Pokiten a fen fis chommong fitikoko ren an akkaemon aramas atai"
+  poster_sm: "Pokiten mi"
+  poster_md: "Poikiten"
+  poster_lg: "Esap"
+  specimen_48: "Pokiten mu meinisin non United Nations ra affata me non nour"
+  specimen_36: "Emon me emon epwe kinamwe non tumunun me punguochchun tettenin an aramas rait are pung usun mi mak non ei Poraus."
+  specimen_32: "Ese wor och sokkun kapas non ei Poraus mi mutngeni eu mu, eu mwichen aramas are emon aramas an epwe fori och sokkun foffor ren an epwe ataeno ekkei rait me pung mi mak non ei Poraus."
+  specimen_21: "Pokiten kich mei sinei pwe popunapen pung me kinamwe non fonufan a popuseni ukukun ach miriti nonnofengenin an aramas meinisin rait,\nPokiten a fen fis chommong fitikoko ren an akkaemon aramas atai an pwan ekkoch aramas rait nge kich mi fen sinei pwe aramasen unusen fonufan mi wesewesen mochen pwe repwe kinamwe non ar kewe rait,"
+  specimen_16: "Pokiten kich mei sinei pwe popunapen pung me kinamwe non fonufan a popuseni ukukun ach miriti nonnofengenin an aramas meinisin rait,\nPokiten a fen fis chommong fitikoko ren an akkaemon aramas atai an pwan ekkoch aramas rait nge kich mi fen sinei pwe aramasen unusen fonufan mi wesewesen mochen pwe repwe kinamwe non ar kewe rait,\nPokiten mi auchea an aramas rait me non annuk an esap wor ariaffou are an esap wor emon epwe ariaffoua pwan emon,\nPoikiten mi fakkun namot an mu me mu repwe tongofengen,\nPokiten mu meinisin ra fen en me pon pwe repwe ansi ewe mwichen United Nations ne asinengeni unusen fonufan usun angangen are napanapen an aramas rait,"
+}

@@ -1,0 +1,13 @@
+id: "bbj_Latn"
+language: "bbj"
+script: "Latn"
+name: "Ghomala"
+population: 388430
+region: "CM"
+exemplar_chars {
+  base: "a A à À á Á â Â ǎ Ǎ b B {bv} {BV} c C d D {dz} {DZ} e E è È é É ê Ê ě Ě ə Ə {ə̀} {Ə̀} {ə́} {Ə́} {ə̂} {Ə̂} {ə̌} {Ə̌} {aə} {AƏ} ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} f F g G {gh} {GH} h H i I ì Ì í Í î Î ǐ Ǐ j J k K l L m M n N {ny} {NY} {nt} {NT} ŋ Ŋ {ŋk} {ŊK} o O ò Ò ó Ó ô Ô ǒ Ǒ ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} p P {pf} {PF} {mpf} {MPF} r R s S {sh} {SH} t T {ts} {TS} u U ù Ù ú Ú û Û ǔ Ǔ ʉ Ʉ {ʉ̀} {Ʉ̀} {ʉ́} {Ʉ́} {ʉ̂} {Ʉ̂} {ʉ̌} {Ʉ̌} v V z Z {zh} {ZH} ’"
+  marks: "◌̀ ◌́ ◌̂ ◌̌"
+  auxiliary: "ʼ"
+}
+source: "Carole Kayum Fokoue, De la terminologie de l’éducation à la citoyenneté en langues camerounaises : Le cas du ghómaùláʼ, Université de Yaoundé I, 2011"
+source: "Maurice Tadadjeu & Étienne Sadembouo, Alphabet général des langues camerounaises, Yaoundé, Université de Yaoundé, 1984"

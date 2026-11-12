@@ -1,0 +1,28 @@
+id: "jv_Latn"
+language: "jv"
+script: "Latn"
+name: "Javanese"
+autonym: "Jawa"
+population: 91180665
+region: "ID"
+region: "MY"
+exemplar_chars {
+  base: "A Â Å B C D E É È Ê G H I Ì J K L M N O Ò P R S T U Ù W Y a â å b c d e é è ê g h i ì j k l m n o ò p r s t u ù w y"
+  auxiliary: "F Q V X Z f q v x z"
+  marks: "◌̀ ◌́ ◌̂"
+  index: "A Â Å B C D E É È Ê G H I Ì J K L M N O Ò P R S T U Ù W Y"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Bb"
+  styles: "MANIMBANG manowo ngakoni marang martabat"
+  tester: "MANIMBANG menawa nyingkur lan nganggep remeh hak-hak umat manungsa"
+  poster_sm: "PRANYATAN UMUM"
+  poster_md: "minangka"
+  poster_lg: "Saben"
+  specimen_48: "Saben uwong kalairake kanthi mardika lan darbe martabat lan hak-hak"
+  specimen_36: "MANIMBANG manowo ngakoni marang martabat alamiah sarta hak-hak kang padha lan pinasthi ing saben warganing"
+  specimen_32: "MANIMBANG manawa mekaring pamerdi panggulowenthahing sambung pamitran ing antaraning para bangsa saben negara perlu lan wigati dirembakakake."
+  specimen_21: "MANIMBANG manowo ngakoni marang martabat alamiah sarta hak-hak kang padha lan pinasthi ing saben warganing kulawarga umat manungsa, mujudake landhesaning kamardikan, kaadilan sarta bedhamening donya.\nMANIMBANG manawa hak-hak umat manungsa perlu antuk pangayoman kanthi pranatan lan tatanan angger-angger (undang-undang), amrih saben uwong ora kepeksa milih nglawan (mbrontak) minangka kupiyo kang pungkasan anggone ngrekodaya kanggo nglawan marang tindak daksiya lan panjajahan."
+  specimen_16: "MANIMBANG manowo ngakoni marang martabat alamiah sarta hak-hak kang padha lan pinasthi ing saben warganing kulawarga umat manungsa, mujudake landhesaning kamardikan, kaadilan sarta bedhamening donya.\nMANIMBANG menawa nyingkur lan nganggep remeh hak-hak umat manungsa bisa njalari tandang tanduk kasar lan wengis kang nuwuhake rasa runtik atine umat manungsa, lan kabangune donya dadi papaning umat manungsa bisa ngrasakake lan ngalami nikmating bebas medhar panemu lan bebas ngrasuk agama sarta kalis saka rasa wedi lan was-sumelang sarta urip kacingkrangan, kapratelakake dadi pranyatan minangka dadi gegayuhan luhur sakabehing umat manungsa lumrah (kawula alit)."
+}

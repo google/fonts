@@ -1,0 +1,29 @@
+id: "kab_Latn"
+language: "kab"
+script: "Latn"
+name: "Kabyle"
+autonym: "Taqbaylit"
+population: 3351886
+region: "DZ"
+exemplar_chars {
+  base: "a A b B c C č Č d D ḍ Ḍ e E ɛ Ɛ f F g G ǧ Ǧ ɣ Ɣ h H ḥ Ḥ i I j J k K l L m M n N p P q Q r R ṛ Ṛ s S ṣ Ṣ t T ṭ Ṭ u U w W x X y Y z Z ẓ Ẓ"
+  auxiliary: "o O v V"
+  marks: "◌̌ ◌̣"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A B C Č D Ḍ E Ɛ F G Ǧ Ɣ H Ḥ I J K L M N P Q R Ṛ S Ṣ T Ṭ U W X Y Z Ẓ"
+}
+sample_text {
+  masthead_full: "ƐɛƔɣ"
+  masthead_partial: "Uu"
+  styles: "Imi asteɛṛef s lḥerma"
+  tester: "Imi kra n wid ur nessemras ara izerfan n umdan d"
+  poster_sm: "Imi"
+  poster_md: "Agraw amatu"
+  poster_lg: "Akk"
+  specimen_48: "Iberreḥ-d belli alɣu-agi agraɣlan n yizerfan n umdan"
+  specimen_36: "Imi yessefk ad nnernin wassaɣen n tmidwa gar yiɣlanen,\nAgraw amatu"
+  specimen_32: "Yal amdan ɣur-s azref deg usteɛfu d tukksa n lxiq ladɣa deg usifes n tlisa n wakud n yixeddim akked yimuras yettwaxelṣen i d-ittezzin yal tikkelt."
+  specimen_21: "Imi kra n wid ur nessemras ara izerfan n umdan d wid i ten-iḥeqren llan-d d sseba n thamaǧit i yesserfayen tamsakit n talsa akked tlelliyin deg umaḍal anda imdanen ad meslayen, ad amnen s tlelli ideg ur yelli la aserḥeb la lmizirya, d tilelli i d assirem ɛlayan n umdan,\n,Imi tewwi-d nnig n kra yellan, ad ttwaḥudden yizerfan n umdan s udabu azerfan iwakken ur yettwaḥras ara umdan di taggara alamma yuɣal d aɣewwaɣ mgal tamḥeqranit akked unaɣur,"
+  specimen_16: "Imi asteɛṛef s lḥerma i ttalasen akk yiɛeggalen n twacult talsawt d yizerfan-nsen yegdan, d nutni i d llsas n tlelli, taɣdemt akked tifrat deg umaḍal,\nImi kra n wid ur nessemras ara izerfan n umdan d wid i ten-iḥeqren llan-d d sseba n thamaǧit i yesserfayen tamsakit n talsa akked tlelliyin deg umaḍal anda imdanen ad meslayen, ad amnen s tlelli ideg ur yelli la aserḥeb la lmizirya, d tilelli i d assirem ɛlayan n umdan,\nImi tewwi-d nnig n kra yellan, ad ttwaḥudden yizerfan n umdan s udabu azerfan iwakken ur yettwaḥras ara umdan di taggara alamma yuɣal d aɣewwaɣ mgal tamḥeqranit akked unaɣur,"
+}

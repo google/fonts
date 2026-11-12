@@ -1,0 +1,14 @@
+id: "wok_Latn"
+language: "wok"
+script: "Latn"
+name: "Longto"
+population: 5000
+region: "CM"
+exemplar_chars {
+  base: "a A á Á ā Ā à À {a̰} {A̰} {á̰} {Á̰} {ā̰} {Ā̰} {à̰} {À̰} b B c C d D ə Ə {ə́} {Ə́} {ə̄} {Ə̄} {ə̀} {Ə̀} e E é É ē Ē è È ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̄} {Ɛ̄} {ɛ̀} {Ɛ̀} {ɛ̰} {Ɛ̰} {ɛ̰́} {Ɛ̰́} {ɛ̰̄} {Ɛ̰̄} {ɛ̰̀} {Ɛ̰̀} f F g G {gb} {GB} i I í Í ī Ī ì Ì ḭ Ḭ {ḭ́} {Ḭ́} {ḭ̄} {Ḭ̄} {ḭ̀} {Ḭ̀} j J k K {kp} {KP} l L ĺ Ĺ {l̄} {L̄} {l̀} {L̀} m M ḿ Ḿ {m̄} {M̄} n N ń Ń {n̄} {N̄} ǹ Ǹ ŋ Ŋ {ŋ́} {Ŋ́} {ŋ̄} {Ŋ̄} {ŋ̀} {Ŋ̀} o O ó Ó ō Ō ò Ò ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̄} {Ɔ̄} {ɔ̀} {Ɔ̀} {ɔ̰} {Ɔ̰} {ɔ̰́} {Ɔ̰́} {ɔ̰̄} {Ɔ̰̄} {ɔ̰̀} {Ɔ̰̀} r R ŕ Ŕ {r̄} {R̄} {r̀} {R̀} s S t T u U ú Ú ū Ū ù Ù v V w W y Y ỹ Ỹ z Z"
+  auxiliary: ""
+  marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̰"
+}
+source: "Ulrich Kleinewillinghöfer, Illiassou Godje & Bouba Bakary, Lexique lɔ̀ŋtó (~ voko) - français, 2021"
+
+

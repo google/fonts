@@ -1,0 +1,25 @@
+id: "yap_Latn"
+language: "yap"
+script: "Latn"
+name: "Yapese"
+autonym: "Waab"
+population: 6555
+region: "FM"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ö a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ö"
+  marks: "◌̈"
+}
+sample_text {
+  masthead_full: "GgUu"
+  masthead_partial: "Bb"
+  styles: "Bochan ni ngan nang ni gubine gidii mabee"
+  tester: "Bochan ni yara nʼag modgun nge pimattʼawene gidii e firrʼe beawe"
+  poster_sm: "Bochan ni ke-og"
+  poster_md: "Bochan ni"
+  poster_lg: "Gubine"
+  specimen_48: "NI NGI MARNGAAGEN NI GARCHEG MATTʼAWEN GUBIN E GIDII NEY E firʼe"
+  specimen_36: "Dab nipos mini tay liben beeʼ nganin ni mʼag ara ni kalbus neg, ara ni tuluf ngemilʼ yade mattʼaw ko motochiyel."
+  specimen_32: "Dariy banen u lan ere ngi Garcheg ney ni ngan abuweg fan nge zil ara togopluw ko tirokʼe United Nations e motochiyel ar pingeg fan ere ngi Garcheg ney nga wuruuʼ e knowa."
+  specimen_21: "Bochan ni ngan nang ni gubine gidii mabee mabay mattʼawen, meere nge taareb mattʼaw dad ngemang likʼikane puf rogon, nga gazon taab motochiyel nge gapas u faileng,\nBochan ni yara nʼag modgun nge pimattʼawene gidii e firrʼe beawe tazil nge cham riiʼ nga lani yanne gidii ni gubin, ere chiney iyan eke taw nga napan e faileng ninge gubine gidii make puf-puf rograd ko namon, memich mange siye modgudag u lan gumʼirachaen gubine gidii ma ngaʼun adag nimod nikan dugliy ni aram falʼngin lan yanne gidii,"
+  specimen_16: "Bochan ni ngan nang ni gubine gidii mabee mabay mattʼawen, meere nge taareb mattʼaw dad ngemang likʼikane puf rogon, nga gazon taab motochiyel nge gapas u faileng,\nBochan ni yara nʼag modgun nge pimattʼawene gidii e firrʼe beawe tazil nge cham riiʼ nga lani yanne gidii ni gubin, ere chiney iyan eke taw nga napan e faileng ninge gubine gidii make puf-puf rograd ko namon, memich mange siye modgudag u lan gumʼirachaen gubine gidii ma ngaʼun adag nimod nikan dugliy ni aram falʼngin lan yanne gidii,\nBochan ni battʼuf maba gaafan ni faanra dab ni motogel ngakʼbee ngesul nga tomur ara ziliyeg laniyanʼ ni gomanga dakriy rebo kanowa ngabang, me pigichel ngecham ko am ara pitoogor, mabay mattʼawen gidii ni gubin nibe kele motochiyel gafalngin,"
+}

@@ -1,0 +1,11 @@
+id: "dbd_Latn"
+language: "dbd"
+script: "Latn"
+name: "Dadiya"
+population: 70000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á ǝ Ǝ b B c C d D e E é É ɛ Ɛ f F g G h H i I í Í ɨ Ɨ j J k K l L m M n N ń Ń o O ó Ó ɔ Ɔ p P r R s S t T u U ú Ú ʊ Ʊ v V w W y Y z Z"
+  marks: "◌́"
+  auxiliary: "q Q x X"
+}

@@ -1,0 +1,15 @@
+id: "lrc_Arab"
+language: "lrc"
+script: "Arab"
+name: "Northern Luri"
+population: 2020512
+region: "IQ"
+region: "IR"
+exemplar_chars {
+  base: "آ أ ؤ ئ ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ڤ ق ک گ ل م ن ھ ە و ۉ ۊ ی ؽ"
+  auxiliary: "​‌‍‏ ً ٌ ٍ َ ُ ِ ّ ْ ٔ إ ة ك ه ى ي"
+  marks: "◌ٙ ◌ٛ"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- ، ٫ ٬ ؛ : ! ؟ . … ‹ › « » ( ) [ ] * / \\"
+  index: "آ ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ھ و ی"
+}

@@ -1,0 +1,30 @@
+id: "cs_Latn"
+language: "cs"
+script: "Latn"
+name: "Czech"
+autonym: "Čeština"
+population: 13045532
+region: "CZ"
+region: "SK"
+exemplar_chars {
+  base: "A Á B C Č D Ď E É Ě F G H {CH} I Í J K L M N Ň O Ó P Q R Ř S Š T Ť U Ú Ů V W X Y Ý Z Ž a á b c č d ď e é ě f g h {ch} i í j k l m n ň o ó p q r ř s š t ť u ú ů v w x y ý z ž"
+  auxiliary: "À Ă Â Å Ä Ã Ā Æ Ç È Ĕ Ê Ë Ē Ì Ĭ Î Ï Ī Ľ Ł Ñ Ò Ŏ Ô Ö Ø Ō Œ Ŕ Ù Ŭ Û Ü Ū Ÿ à ă â å ä ã ā æ ç è ĕ ê ë ē ì ĭ î ï ī ľ ł ñ ò ŏ ô ö ø ō œ ŕ ù ŭ û ü ū ÿ"
+  marks: "◌́ ◌̊ ◌̌"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – , ; : ! ? . … ‘ ‚ “ „ ( ) [ ] @ * / &"
+  index: "A B C Č D E F G H {CH} I J K L M N O P Q R Ř S Š T U V W X Y Z Ž"
+}
+sample_text {
+  masthead_full: "VvŠš"
+  masthead_partial: "Ii"
+  styles: "že uznání přirozené důstojnosti a rovných"
+  tester: "že zneuznání lidských práv a pohrdání jimi vedlo k barbarským"
+  poster_sm: "že je nutné,"
+  poster_md: "že je nutné"
+  poster_lg: "Všichni"
+  specimen_48: "že lid Spojených národů zdůraznil v Chartě znovu svou víru v"
+  specimen_36: "Nikdo nesmí být držen v otroctví nebo nevolnictví; všechny formy otroctví a obchodu s otroky jsou zakázány."
+  specimen_32: "Každý má právo, aby mu příslušné vnitrostátní soudy poskytly účinnou ochranu proti činům porušujícím základní práva, která jsou mu přiznána ústavou nebo zákonem."
+  specimen_21: "Nikdo nesmí být svévolně zatčen, držen ve vazbě nebo vyhoštěn do vyhnanství.\nKaždý má úplně stejné právo, aby byl spravedlivě a veřejně vyslechnut nezávislým a nestranným soudem, který rozhoduje buď o jeho právech a povinnostech, nebo o jakémkoli trestním obvinění vzneseném proti němu.\nNikdo nesmí být vystaven svévolnému zasahování do soukromého života, do rodiny, domova nebo korespondence, ani útokům na svou čest a pověst. Každý má právo na zákonnou ochranu proti takovým zásahům nebo útokům."
+  specimen_16: "Každý má právo na svobodu myšlení, svědomí a náboženství; toto právo zahrnuje v sobě i volnost změnit své náboženství nebo víru, jakož i svobodu projevovat své náboženství nebo víru, sám nebo společně s jinými, ať veřejně nebo soukromě, vyučováním, prováděním náboženských úkonů, bohoslužbou a zachováváním obřadů.\nKaždý má právo na svobodu přesvědčení a projevu; toto právo nepřipouští, aby někdo trpěl újmu pro své přesvědčení, a zahrnuje právo vyhledávat, přijímat a rozšiřovat informace a myšlenky jakýmikoli prostředky a bez ohledu na hranice.\nKaždý má právo na odpočinek a na zotavení, zejména také na rozumné vymezení pracovních hodin a na pravidelnou placenou dovolenou."
+}

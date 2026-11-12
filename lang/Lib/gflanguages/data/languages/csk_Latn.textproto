@@ -1,0 +1,12 @@
+id: "csk_Latn"
+language: "csk"
+script: "Latn"
+name: "Jola-Kasa"
+population: 45000
+region: "GM"
+region: "SN"
+exemplar_chars {
+  base: "a A á Á b B c C d D e E é É f F g G h H i I í Í j J k K l L {l̥} {L̥} m M n N ñ Ñ ŋ Ŋ o O ó Ó s S t T u U ú Ú w W y Y"
+  marks: "◌́ ◌̥ ◌̃"
+}
+source: "Bernard Diatta, Ukiicaal min ucobaal lí kújoolowaay-kaasa = Manuel de transition diola-kassa: Livre de l’apprenant, Société Internationale de Linguistique, 2011"

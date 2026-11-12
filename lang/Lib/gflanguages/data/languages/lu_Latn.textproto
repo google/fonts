@@ -1,0 +1,14 @@
+id: "lu_Latn"
+language: "lu"
+script: "Latn"
+name: "Luba-Katanga"
+autonym: "Kiluba"
+population: 2340939
+region: "CD"
+exemplar_chars {
+  base: "a A á Á à À b B c C d D e E é É è È ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} f F h H i I í Í ì Ì j J k K l L m M n N {ng} {NG} {ny} {NY} o O ó Ó ò Ò ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} p P {ph} {PH} q Q s S {shi} {SHI} t T u U ú Ú ù Ù v V w W y Y z Z"
+  auxiliary: "g G r R x X"
+  marks: "◌̀ ◌́"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F H I J K L M N O P Q S T U V W Y Z"
+}

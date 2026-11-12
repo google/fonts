@@ -1,0 +1,26 @@
+id: "kqn_Latn"
+language: "kqn"
+script: "Latn"
+name: "Kaonde"
+region: "ZM"
+region: "CD"
+population: 509000
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "q Q x X ʼ"
+}
+sample_text {
+  masthead_full: "BbOo"
+  masthead_partial: "Nn"
+  styles: "Bonse bantu basemwa bakasuluka kabiji baesakena"
+  tester: "Bonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme."
+  poster_sm: "Bonse bantu"
+  poster_md: "Bonse"
+  poster_lg: "Bonse"
+  specimen_48: "Bonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji"
+  specimen_36: "Bonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha."
+  specimen_32: "Bonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha."
+  specimen_21: "Bonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha.\nBonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha.\nBonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha."
+  specimen_16: "Bonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha.\nBonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha.\nBonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha.\nBonse bantu basemwa bakasuluka kabiji baesakena pamo mubuneme. Baji na maana a kulanguluka kabiji bobila bantu bakwabo byubilo bakwibasekesha."
+}
+source: "Hurbert Kakonkanya, Dikishonali Ya Kiikaonde, Cape Town: The Center for Advanced Studies of African Society (CASAS), 2013"

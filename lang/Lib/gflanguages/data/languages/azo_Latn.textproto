@@ -1,0 +1,13 @@
+id: "azo_Latn"
+language: "azo"
+script: "Latn"
+name: "Awing"
+autonym: "awing"
+population: 19000
+region: "CM"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P S T U W Y Z a b c d e f g h i j k l m n o p s t u w y z Á Â É Ê Í Î Ó Ô Ú Û á â é ê í î ó ô ú û Ě ě Ŋ ŋ Ɔ Ə Ɛ Ɨ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ ɔ ə ɛ ɨ ʼ"
+  marks: "◌́ ◌̂ ◌̌"
+}
+source: "Christian Alomofor, Stephen C. Anderson, Awing Orthography Guide, SIL, 2005"
+source: "Wikipedia"

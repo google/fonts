@@ -1,0 +1,53 @@
+FONTLOG for the Bonbon font
+
+This file provides detailed information on the Bonbon 
+font Software.
+
+This information should be distributed along with the 
+Bonbon fonts and any derivative works.
+
+Basic Font Information
+
+Bonbon is a fancy handwriting font for cheerful and 
+bright headlines. The letterforms are artistic and naive 
+as if they are written in a teenage girl's diary. It is 
+drawn with a fine marker by author Ksenia Erulevich. 
+Curves are carefully adjusted so that the font will 
+also work well in print - making it a good choice 
+for appetizing product design, greeting cards, or 
+titling in children's books. Extra ornamental 
+characters are included.
+
+Bonbon is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+There are three .vfb Source files:
+1. Bonbon-Regular.vfb (Original Source files with contour overlaps)
+2. Bonbon-Regular-OTF.vfb (Merged and optimized file)
+3. Bonbon-Regular-TTF.vfb (File with TTF countours and manual TT hints)
+
+ChangeLog
+
+28 November 2011 (Ksenia Erulevich) Bonbon v. 1.000
+- Initial release
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Ksenia Erulevich
+E: oksana.erulevich@gmail.com
+D: Designer
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Mastering
+

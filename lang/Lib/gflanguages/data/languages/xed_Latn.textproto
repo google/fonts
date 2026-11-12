@@ -1,0 +1,11 @@
+id: "xed_Latn"
+language: "xed"
+script: "Latn"
+name: "Hdi"
+population: 29000
+region: "CM"
+region: "NG"
+exemplar_chars {
+  base: "a A á Á b B d D e E f F g G h H i I í Í k K l L m M n N p P r R s S t T u U v V w W y Y z Z ŋ Ŋ ɓ Ɓ ɗ Ɗ ə Ə"
+  marks: "◌́"
+}

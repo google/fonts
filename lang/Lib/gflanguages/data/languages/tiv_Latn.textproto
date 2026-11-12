@@ -1,0 +1,25 @@
+id: "tiv_Latn"
+language: "tiv"
+script: "Latn"
+name: "Tiv"
+autonym: "Tiv"
+population: 3424448
+region: "NG"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O Ô P R S T U V W Y Z a b c d e f g h i j k l m n o ô p r s t u v w y z"
+  marks: "◌̂"
+}
+sample_text {
+  masthead_full: "IiMm"
+  masthead_partial: "Aa"
+  styles: "Er i fe er, icivir man mkpeiyol u ior mba"
+  tester: "Er se fe ser, mban u iko-iwan, man u nengen er, akaa a i doo u a"
+  poster_sm: "Er i doo u"
+  poster_md: "Er ior mba"
+  poster_lg: "mar"
+  specimen_48: "Er ityar ii i lu ken Mzough u Ityar sha won cii ne, i tende zwa"
+  specimen_36: "Er mkav u mbamkpeiyol mban man mbamlu mba ken kpan shio i lu kwagh u injaa u vesen sha cii u mfe u ityendezwa yô,"
+  specimen_32: "I mar maor ken kpan ga, nan ngu a icivir man mbamkpeiyol cii. I na nan mhen man ishima i kaven kwagh; nahan gba keng u nana tema a orgen ken mtem u angbian a angbian."
+  specimen_21: "Hanmaor cii doo u a er a nan sha inja sha awaishima u dedoo, cii je yô, i soo er, i de nzughul a orumace er nan ngu kwase, shin nomsor, shin zwa u nan kaha, shin kwaghaôndo u nan civir ngu kposo, shin mer pati u nan man imo i nan i nan sha kwagh kaha ga, shi i de tôôn ape i mar nan shin mlu a kwagh shin ibanave shin tsombor, shin indi shin isheer i nan hen ityô i nzughul a nan ga."
+  specimen_16: "U zan hemen yô, a faityô u van a mpav sha ityôkyaa i pati, mkor u tar, shin mlu u tar la a ityar igen u or la nan lu ker ga, aluer tar la ua lu sha tseeneke u u, shin sha ikyev i ugen, shin ua lu a tahav u hemen iyol i u ga shin sha hanma myina u lun a tahav iyol i u cii.\nHanmaor nan ngu a ian u lun uma, eren kwagh a mkighir shio man mkor u sha iyol i nan kpaa.\nI venda kpan u kôron, shi u kighir or er, nana shile orgen tom; kpan-kôron man kpan-teen cii i yange gbindigh gbindigh.\nI venda u eren or ican tsung, shin kôron nan ihom. Hanmakwagh u a er a orumace er, nan hingir ishôso cii i yange, aluer nan er kwaghbo u tsahan nan je kpaa, i tsaha nan er, nana hee ga yô."
+}

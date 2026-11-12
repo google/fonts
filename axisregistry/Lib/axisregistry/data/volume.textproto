@@ -1,0 +1,15 @@
+tag: "VOLM"
+display_name: "Volume"
+min_value: 0
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0.0
+}
+fallback_only: false
+description:
+  "Expands and exaggerates details of a typeface to emphasize the personality."
+  " Understood in a percentage amount, it goes from a neutral state (0%)"
+  " to a maximum level (100%)."

@@ -1,0 +1,21 @@
+id: "pro_Latn"
+language: "pro"
+script: "Latn"
+name: "Old Provençal"
+population: 0
+region: "FR"
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Aa"
+  styles: "Tota la gen nays liura e egala en valensa"
+  tester: "Tota la gen nays liura e egala en valensa e en drech. Es dotada"
+  poster_sm: "Tota la gen"
+  poster_md: "Tota la"
+  poster_lg: "Tota"
+  specimen_48: "Tota la gen nays liura e egala en valensa e en drech."
+  specimen_36: "Tota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa."
+  specimen_32: "Tota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa."
+  specimen_21: "Tota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa.\nTota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa.\nTota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa."
+  specimen_16: "Tota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa.\nTota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa.\nTota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa.\nTota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa.\nTota la gen nays liura e egala en valensa e en drech. Es dotada de razon e de conoisensa e deu agir entre se ab un esperit de frairesa."
+}
+historical: true

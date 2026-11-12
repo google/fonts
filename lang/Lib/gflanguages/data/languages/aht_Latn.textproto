@@ -1,0 +1,12 @@
+id: "aht_Latn"
+language: "aht"
+script: "Latn"
+name: "Ahtna"
+autonym: "Atnakenaegeʼ"
+region: "US"
+population: 15
+exemplar_chars {
+  base: "A B C D E G H I K L N O S T U X Y Z a b c d e g h i k l n o s t u x y z Ł ł ʼ"
+}
+source: "James Kari, Ahtna Athabaskan dictionary, Alaska Native Language Center, 1990"
+source: "Wikipedia"

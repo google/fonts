@@ -1,0 +1,15 @@
+id: "krw_Latn"
+language: "krw"
+script: "Latn"
+name: "Western Krahn"
+region: "CI"
+region: "LR"
+population: 97800
+exemplar_chars {
+  base: "a A à À {a̍} {A̍} ǎ Ǎ b B c C d D e E è È {e̍} {E̍} ě Ě ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ̍} {Ɛ̍} {ɛ̌} {Ɛ̌} f F g G h H i I ì Ì {i̍} {I̍} ǐ Ǐ j J k K l L m M n N o O ò Ò {o̍} {O̍} ǒ Ǒ ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ̍} {Ɔ̍} {ɔ̌} {Ɔ̌} p P s S t T u U ù Ù {u̍} {U̍} ǔ Ǔ w W y Y"
+  auxiliary: "q Q r R v V x X z Z"
+  marks: "◌̀ ◌̌ ◌̍"
+}
+source: "John Duitsman, “A plus for plurals in writing Liberian Krahn”, Notes on Literacy, vol. 36, 1981, pp. 26-29"
+source: "Ku̍o̍ Delee, The Bible Society in Liberia, 1999"
+note: "The Liberia orthography uses the plus sign behind plural words [Duitsman 1981]. The digitized version of Ku̍o̍ Delee 1999 uses ᵻ."

@@ -1,0 +1,24 @@
+id: "dyu_Latn"
+language: "dyu"
+script: "Latn"
+name: "Dyula"
+autonym: "Julakan"
+population: 6667328
+region: "BF"
+exemplar_chars {
+  base: "A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z"
+}
+sample_text {
+  masthead_full: "WwÓó"
+  masthead_partial: "Ll"
+  styles: "K’à mìna à mà kó dúnya’ mànton’ bɛɛ ká kan ni"
+  tester: "K’à mìna à mà kó mɔgɔya hákɛ lɔnbaliya’ ni à jàtebáliya’ nàna ni"
+  poster_sm: "K’à mìna à mà"
+  poster_md: "K’à mìna à"
+  poster_lg: "Wólo’"
+  specimen_48: "K’à mìna à mà dúnya’ mùmɛ sáratikan’ ná, Dúnya’ Jàmanaw yá tɔ màntonw"
+  specimen_36: "K’à mìna à mà Dúnya’ jàmanaw kà à ŋàniya kó ù bé jɛn ní Tɔnba yé kà mɔgɔya’ hákɛyaw látànga à ɲá’ mà dúnya’ mùmɛ kɔnɔ,"
+  specimen_32: "Wólo’ lá, hádamaden’ bɛɛ ye hɔrɔn ye, bɛɛ ká kán lànbe ní hákɛyaw Mɔgɔ bɛɛ ye hákilitigi ye, bɛɛ ye hákilima ye ; ò là, ù ká kán kà ɲgɔn mína ní bádenya ye."
+  specimen_21: "O cógoya kélen mà, bɔyɔrɔ má bɔ bɔyɔrɔ la. I bɔyɔrɔ’ lànbe’ tɔw cɛ’ mà, í ya jàmana’ kɛra jàmana’ yɛrɛmahɔrɔnyanin ye, à kɛ jàmana ye mín be jàmana gbɛrɛ ya màra kɔnɔ, wálima à be à yɛrɛ bólo jàmana gbɛrɛ ya húkumu’ kɔnɔ, wólomali sí te kɛ kà lá ò kán.\nMɔgɔ’ kɛra cogo ó cogo, à ká kán ní ɲánamaya’ ye, à ká kán ní hɔrɔnya’ ye, à ká kán ní lákandali’ ye."
+  specimen_16: "Mɔgɔ sí te sé kà mìna kà í kɛ jɔn ye wálima kà í kɛ bólokɔnɔmɔgɔ ye, jɔnya’ bánna, jɔnféere’ bánna sàriya’ la.\nA mán kán mɔgɔ sí ye jàngáta, wálima kà làjába, wálima kà à ní tɔrɔ, níjuguya’ dànmátɛmɛ’ fɛ, fó kà à lèebu.\nBɛɛ ká kán ní lànbe’ ye sàriya’ lá, à kɛra yɔrɔ ó yɔrɔ ye.\nBɛɛ ká kán sàriya’ lá, àyiwa bɛɛ ká kán ní sàriya’ ya làtangali’ ye kà à sɔ à má kɛ wólomali ye. Bɛɛ ká kán ní kɔsɛmɛ ye sàriya’ là kà i yɛrɛ tànga bɔ wólomali’ súgu ó súgu mà, mín be dàntigɛlikan’ nìn sɔsɔ, àni mín be se kà nà ní à sɔsɔli’ ye.\nA be bɛn mɔgɔ bɛɛ ye cɛn yɛrɛ l, í ye í ya jàmana’ sàriyaso’ màgbɛ sàriya’ mín ɲásininin bɛ ò kóɲa’ mà, kà i lákisi kà bɔ wálew mà, minw be jàmana sàriyaw sɔsɔ."
+}

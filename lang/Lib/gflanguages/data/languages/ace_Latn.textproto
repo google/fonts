@@ -1,0 +1,25 @@
+id: "ace_Latn"
+language: "ace"
+script: "Latn"
+name: "Achinese"
+autonym: "Bahsa Acèh"
+population: 3738364
+region: "ID"
+exemplar_chars {
+  base: "A B C D E G H I J K L M N O P R S T W Y É È Ë Ô Ö a b c d e g h i j k l m n o p r s t w y é è ë ô ö \'"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Nn"
+  styles: "Ta bileung-bileung ranub lam puan han tok"
+  tester: "Teuseubot bak phon “martabat alamiah” hak nyang pantaih makheulok"
+  poster_sm: "Suai kedua"
+  poster_md: "Suai neumboi"
+  poster_lg: "Bandum"
+  specimen_48: "Suai martabat hareukat umat nyoe hak seunaroe bandum manusia"
+  specimen_36: "Tan sidroe ureung patot tasiksa jeut tadeura peuturot palak atawa tahukom ban-ban na hawa atawa tahina ban-ban na galak."
+  specimen_32: "Tiep-tiep ureung cit na hak droe na hak meungakue di likeu hukom tapeulaku ureung nyan sebagoe pribadi dro hanjeut beurangsoe tapubuet kon-kon."
+  specimen_21: "Tiep ureung saban bak mata hukom salah ngon beuna ta kalon teuma tiep ureung na hak lindongan hukom tan na bida deungon laen manusia. Patot hai rakan tanyoe tapuphom hanjeut hai ampon tapeubida-bida jelaih nyan meuneuntang Peunyataan Umum Teuntang Hak-Hak Asasi Manusia.\nHana sidroe ureung hai cutwa inseun jeut ban seuwenang-wenang didrop ngon ditheun atawa diboh dipeuaseng di uteun di rimba atawa dengan laen cara nyang tak semeuna-meuna."
+  specimen_16: "Bandum ureung, hai teungku raja ateuh peuradilan na saban hak peuradilan nyang adee ngon teubuka lee peungadilan bebah hana meumihak.\nHukom nasional dan internasional pieh dipeugah hanjeut kheun salah watee buet nyan teujadi hanjeut peubeurat hukoman si salah dari nyang haroih teujadi hai teungku sidi.\nTiep ureung na hak, wahei nyak intan ateuh kebeubasan pikeran, agama ngon atee nuranie teumasok meuganto agama atawa kepeucayaan meunan keuh dipeupham lee Peunyataan Umum PBB supaya meusampo, wahee samlako ajaran nyan haroih tapeuaja, tapeubuet, tapeutaat, sidroe-droe atawa beusama, di likeu umum atawa sidroe-droe ngon beurangsoe."
+}

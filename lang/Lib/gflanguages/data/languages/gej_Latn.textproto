@@ -1,0 +1,29 @@
+id: "gej_Latn"
+language: "gej"
+script: "Latn"
+name: "Gen"
+population: 600000
+region: "BJ"
+region: "TG"
+exemplar_chars {
+  base: "a A b B c C d D ɖ Ɖ e E ɛ Ɛ f F g G ɣ Ɣ h H x X i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V w W y Y z Z"
+  auxiliary: "à À á Á ǎ Ǎ è È é É ě Ě ì Ì í Í ǐ Ǐ ò Ò ó Ó ǒ Ǒ ù Ù ú Ú ǔ Ǔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̌} {Ɔ̌} {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̌} {Ɛ̌} q Q r R"
+  marks: "◌̀ ◌́ ◌"
+}
+sample_text {
+  masthead_full: "AaGg"
+  masthead_partial: "Bb"
+  styles: "Agbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi"
+  tester: "Agbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi"
+  poster_sm: "Agbetɔwo kpata"
+  poster_md: "Agbetɔwo"
+  poster_lg: "Agbetɔwo"
+  specimen_48: "Agbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku"
+  specimen_36: "Agbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku goɖoejisewo, amɛbusewo mɛ. Tagbɔ le woa si, eye wɔnawo sɔdoda woanɔnɔwo gbɔa la nyi nɔ́visilélé."
+  specimen_32: "Agbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku goɖoejisewo, amɛbusewo mɛ. Tagbɔ le woa si, eye wɔnawo sɔdoda woanɔnɔwo gbɔa la nyi nɔ́visilélé."
+  specimen_21: "Agbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku goɖoejisewo, amɛbusewo mɛ. Tagbɔ le woa si, eye wɔnawo sɔdoda woanɔnɔwo gbɔa la nyi nɔ́visilélé.\nAgbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku goɖoejisewo, amɛbusewo mɛ. Tagbɔ le woa si, eye wɔnawo sɔdoda woanɔnɔwo gbɔa la nyi nɔ́visilélé."
+  specimen_16: "Agbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku goɖoejisewo, amɛbusewo mɛ. Tagbɔ le woa si, eye wɔnawo sɔdoda woanɔnɔwo gbɔa la nyi nɔ́visilélé.\nAgbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku goɖoejisewo, amɛbusewo mɛ. Tagbɔ le woa si, eye wɔnawo sɔdoda woanɔnɔwo gbɔa la nyi nɔ́visilélé.\nAgbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku goɖoejisewo, amɛbusewo mɛ. Tagbɔ le woa si, eye wɔnawo sɔdoda woanɔnɔwo gbɔa la nyi nɔ́visilélé.\nAgbetɔwo kpata le jijimɛa, ɖo vosinɔnɔ, nyi gbèsɔɛ́mɛ́wó le nujɔnunnyi ku goɖoejisewo, amɛbusewo mɛ. Tagbɔ le woa si, eye wɔnawo sɔdoda woanɔnɔwo gbɔa la nyi nɔ́visilélé."
+}
+source: "Centre national de linguistique appliquée (CENALA), Alphabet des langues nationales béninoises, Cotonou, CENALA & Initiative francophone pour la formation à distance des maîtres (IFADEM), 2008"
+source: "Commission béninoise des Droits de l'Homme, Benin, Universal Declaration of Human Rights - Guen (Mina), The Office of the High Commissioner for Human Rights, 1996-2009"
+note: "CENALA 2008 does not indicate tones."

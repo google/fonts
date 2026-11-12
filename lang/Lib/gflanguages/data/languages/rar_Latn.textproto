@@ -1,0 +1,27 @@
+id: "rar_Latn"
+language: "rar"
+script: "Latn"
+name: "Rarotongan"
+preferred_name: "Cook Islands Māori"
+autonym: "Māori Kūki \'Āirani"
+population: 0
+region: "CK"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū"
+  auxiliary: "Á É Í Ó Ú á é í ó ú"
+  marks: "◌̄ ◌́"
+}
+sample_text {
+  masthead_full: "KkUu"
+  masthead_partial: "Aa"
+  styles: "I te mea oki e, ko te maramaanga e te arikianga"
+  tester: "E i te mea oki e, ko te akangaropoinaanga e te akava’ava’aanga i"
+  poster_sm: "E, i te mea"
+  poster_md: "E,i te mea"
+  poster_lg: "Kua"
+  specimen_48: "E, i te mea oki e, kua akamou te au iti tangata o te Taokotaianga"
+  specimen_36: "Auraka tetai uatu tangata kia akaapa taukore ia i raro ake i te ture, kia tapeka ia me kore ra akata’a ia."
+  specimen_32: "E tikaanga to tetai uatu tangata ki tetai tuatau akangaroi anga e te tamataora anga, kapiti ia ki tetai au akakotinga anga tau o te ora angaanga e tetai au tuatau orote tutaki ia."
+  specimen_21: "E tikaanga to tetai uatu tangata kia noo ki roto i tetai tu oraanga iti tangata e te oraanga i rotopu i te au Basileia tei akatupu ki te openga, te au tu tikaanga e te tu rangatira i tata ia i roto i teia Akakiteanga.\nI te mea oki e, ko te maramaanga e te arikianga i te tu turanga ngateitei tiratiratu tumu tikai, e te tikaanga aiteite e te mutukore o te tangata katoatoa o teianei ao, ko te tango ia o te oraanga tamanamanata kore ia, te oraanga tiratiratu e te ‘au, i roto i teianei ao,"
+  specimen_16: "I te mea oki e, ko te maramaanga e te arikianga i te tu turanga ngateitei tiratiratu tumu tikai, e te tikaanga aiteite e te mutukore o te tangata katoatoa o teianei ao, ko te tango ia o te oraanga tamanamanata kore ia, te oraanga tiratiratu e te ‘au, i roto i teianei ao,\nE i te mea oki e, ko te akangaropoinaanga e te akava’ava’aanga i te au tikaanga tangata, i tupu ei te au angaanga rikarika tikai tei akatupu i te riri otooto ki te akavangakau o te tangata tini ravarai, e ko te riro anga mai o tetai ao te ka rauka i te taangaanga i to ratou tikaanga i te tuatua e te irinakianga ma te tamanamanata kore, e te oraanga mataku kore e te ngere kore, tei akakite atea ia e ko te akakoroanga puapinga maata rava atu ia o te tangata ravarai,"
+}

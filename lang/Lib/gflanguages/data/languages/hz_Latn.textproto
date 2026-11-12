@@ -1,0 +1,11 @@
+id: "hz_Latn"
+language: "hz"
+script: "Latn"
+name: "Herero"
+population: 239336
+region: "NA"
+exemplar_chars {
+  base: "a A b B d D ḓ Ḓ e E f F g G h H i I j J k K l L m M {mb} {MB} {mw} {MW} n N {ndj} {NDJ} {ng} {NG} {ngw} {NGW} {nj} {NJ} ṋ Ṋ o O p P r R s S t T {tj} {TJ} ṱ Ṱ u U v V w W y Y z Z"
+  marks: "◌̭"
+}
+source: "Nduvaa Erna Nguaiko, The New Otjiherero Dictionary: English-Herero Otjiherero-Otjiingirisa, AuthorHouse, 2013"

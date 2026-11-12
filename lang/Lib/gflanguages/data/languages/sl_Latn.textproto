@@ -1,0 +1,32 @@
+id: "sl_Latn"
+language: "sl"
+script: "Latn"
+name: "Slovenian"
+autonym: "Slovenščina"
+population: 1973179
+region: "AT"
+region: "HU"
+region: "IT"
+region: "SI"
+exemplar_chars {
+  base: "A B C Č D E F G H I J K L M N O P R S Š T U V Z Ž a b c č d e f g h i j k l m n o p r s š t u v z ž"
+  auxiliary: "Á À Ă Â Å Ä Ā Æ Ç Ć Đ É È Ĕ Ê Ë Ē Í Ì Ĭ Î Ï Ī Ñ Ó Ò Ŏ Ô Ö Ø Ō Œ Q Ú Ù Ŭ Û Ü Ū W X Y Ÿ á à ă â å ä ā æ ç ć đ é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ö ø ō œ q ú ù ŭ û ü ū w x y ÿ"
+  marks: "◌́ ◌̈ ◌̌"
+  numerals: ", . % + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – , ; : ! ? . … \' \" „ ‟ « » ( ) [ ] { } @ *"
+  index: "A B C Č Ć D Đ E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž"
+}
+sample_text {
+  masthead_full: "VvSs"
+  masthead_partial: "Ii"
+  styles: "ker pomeni priznanje prirojenega človeškega"
+  tester: "ker sta zanikanje in teptanje človekovih pravic pripeljala do"
+  poster_sm: "ker je nujno"
+  poster_md: "ker so se"
+  poster_lg: "Vsi"
+  specimen_48: "ker je skupno razumevanje teh pravic in svoboščin največjega"
+  specimen_36: "Nihče ne sme biti podvržen mučenju ali okrutnemu, nečloveškemu ali ponižujočemu ravnanju ali kaznovanju."
+  specimen_32: "Vsakdo ima pravico do učinkovitega pravnega sredstva pri pristojnih državnih sodnih oblasteh proti dejanjem, ki kršijo temeljne pravice, priznane mu po ustavi ali zakonu."
+  specimen_21: "Nihče ne sme biti samovoljno zaprt, pridržan ali izgnan.\nVsakdo je pri odločanju o njegovih pravicah in dolžnostih in v primeru kakršnekoli kazenske obtožbe zoper njega upravičen ob polni enakosti do pravičnega in javnega obravnavanja pred neodvisnim in nepristranskim sodiščem.\nVsakdo ima pravico do počitka in prostega časa, vključno z razumno omejitvijo delovnih ur , in pravico do občasnega plačanega dopusta."
+  specimen_16: "Vsakdo je upravičen do družbenega in mednarodnega reda, v katerem se lahko v polni meri uresničujejo pravice in svoboščine, določene v tej Deklaraciji.\nNobene določbe te Deklaracije se ne sme razlagati tako, kot da iz nje izhaja za državo, skupino ali posameznika kakršnakoli pravica do kakršnegakoli delovanja ali dejanja, ki bi hotelo uničiti v njej določene pravice in svoboščine.\nker pomeni priznanje prirojenega človeškega dostojanstva vseh članov človeške družbe in njihovih enakih in neodtujljivih pravic temelj svobode, pravičnosti in miru na svetu;\nker je nujno potrebno, da se človekove pravice zavarujejo z močjo prava, da človek ne bi bil prisiljen zatekati se v skrajni sili k uporu zoper tiranijo in nasilje;"
+}

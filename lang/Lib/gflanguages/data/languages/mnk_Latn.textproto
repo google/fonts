@@ -1,0 +1,13 @@
+id: "mnk_Latn"
+language: "mnk"
+script: "Latn"
+name: "Mandinka"
+autonym: "mandinka"
+population: 1300000
+region: "SN"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ñ ñ Ŋ ŋ"
+  marks: "◌̃"
+}
+source: "République du Sénégal, Décret no 2005-982 relatif à l’orthographe et la séparation des mots en mandinka, 21 octobre 2005"
+source: "Wikipedia"

@@ -1,0 +1,26 @@
+id: "lmo_Latn"
+language: "lmo"
+script: "Latn"
+name: "Lombard"
+autonym: "Lombard"
+population: 363284
+region: "CH"
+region: "IT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ô Ø Ù Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+}
+sample_text {
+  masthead_full: "TtÖö"
+  masthead_partial: "Cc"
+  styles: "Töcc i véser umà i nas líber e precís en"
+  tester: "Töcc i véser umà i nas líber e precís en dignità e diricc. I è"
+  poster_sm: "Töcc i véser"
+  poster_md: "Töcc i"
+  poster_lg: "Töcc"
+  specimen_48: "Töcc i véser umà i nas líber e precís en dignità e"
+  specimen_36: "Töcc i véser umà i nas líber e precís en dignità e diricc. I è dotacc de rizú e de coscenssa e i ga de comportà-s, de giü con l\'óter, en spírit de fradelanssa."
+  specimen_32: "Töcc i véser umà i nas líber e precís en dignità e diricc. I è dotacc de rizú e de coscenssa e i ga de comportà-s, de giü con l\'óter, en spírit de fradelanssa."
+  specimen_21: "Töcc i véser umà i nas líber e precís en dignità e diricc. I è dotacc de rizú e de coscenssa e i ga de comportà-s, de giü con l\'óter, en spírit de fradelanssa.\nTöcc i véser umà i nas líber e precís en dignità e diricc. I è dotacc de rizú e de coscenssa e i ga de comportà-s, de giü con l\'óter, en spírit de fradelanssa."
+  specimen_16: "Töcc i véser umà i nas líber e precís en dignità e diricc. I è dotacc de rizú e de coscenssa e i ga de comportà-s, de giü con l\'óter, en spírit de fradelanssa.\nTöcc i véser umà i nas líber e precís en dignità e diricc. I è dotacc de rizú e de coscenssa e i ga de comportà-s, de giü con l\'óter, en spírit de fradelanssa.\nTöcc i véser umà i nas líber e precís en dignità e diricc. I è dotacc de rizú e de coscenssa e i ga de comportà-s, de giü con l\'óter, en spírit de fradelanssa.\nTöcc i véser umà i nas líber e precís en dignità e diricc. I è dotacc de rizú e de coscenssa e i ga de comportà-s, de giü con l\'óter, en spírit de fradelanssa."
+}

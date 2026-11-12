@@ -1,0 +1,25 @@
+id: "lot_Latn"
+language: "lot"
+script: "Latn"
+name: "Otuho"
+region: "SS"
+population: 274000
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y"
+}
+sample_text {
+  masthead_full: "LlSs"
+  masthead_partial: "Ii"
+  styles: "lsiuni aati dang iko ahodc hade ihaniere"
+  tester: "lsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori"
+  poster_sm: "lsiuni aati"
+  poster_md: "lsiuni"
+  poster_lg: "lsiuni"
+  specimen_48: "lsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang"
+  specimen_36: "lsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang to\nnelotulo. Owoni isi iko negigilita bwo ve iko ataja. Ongida isi ihanie\nawatek hosi ihwo elarak."
+  specimen_32: "lsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang to\nnelotulo. Owoni isi iko negigilita bwo ve iko ataja. Ongida isi ihanie\nawatek hosi ihwo elarak."
+  specimen_21: "lsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang to\nnelotulo. Owoni isi iko negigilita bwo ve iko ataja. Ongida isi ihanie\nawatek hosi ihwo elarak.\nlsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang to\nnelotulo. Owoni isi iko negigilita bwo ve iko ataja. Ongida isi ihanie\nawatek hosi ihwo elarak."
+  specimen_16: "lsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang to\nnelotulo. Owoni isi iko negigilita bwo ve iko ataja. Ongida isi ihanie\nawatek hosi ihwo elarak.\nlsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang to\nnelotulo. Owoni isi iko negigilita bwo ve iko ataja. Ongida isi ihanie\nawatek hosi ihwo elarak.\nlsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang to\nnelotulo. Owoni isi iko negigilita bwo ve iko ataja. Ongida isi ihanie\nawatek hosi ihwo elarak.\nlsiuni aati dang iko ahodc hade ihaniere erre boo ve isi orrijori dang to\nnelotulo. Owoni isi iko negigilita bwo ve iko ataja. Ongida isi ihanie\nawatek hosi ihwo elarak."
+}
+source: "United Nations Mission In Sudan, Universal Declaration of Human Rights - Otuho, OHCHR, 1996-2009"
+source: "Bible Society of South Sudan, Ecorit Aŋejuk, Bible Society of South Sudan, 2003"

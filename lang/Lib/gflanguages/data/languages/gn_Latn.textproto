@@ -1,0 +1,27 @@
+id: "gn_Latn"
+language: "gn"
+script: "Latn"
+name: "Guarani"
+autonym: "Avañe\'ẽ"
+population: 5827106
+region: "AR"
+region: "BO"
+region: "PY"
+exemplar_chars {
+  base: "A Ã C E Ẽ G {G̃} H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ a ã c e ẽ g {g̃} h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ ʼ"
+  marks: "◌̃"
+}
+sample_text {
+  masthead_full: "MmAa"
+  masthead_partial: "Yy"
+  styles: "Mayma yvypóra ou ko yvy ári iñapytlʼyre ha"
+  tester: "Mayma yuypóra oguereko derecho ha libertad kuéra ko Declaraciónpe"
+  poster_sm: "Mbaʼeveichagua"
+  poster_md: "Maymavaite:"
+  poster_lg: "Mayma"
+  specimen_48: "Mayma yvypóra oguereko derecho oñangarekóvo hese hekoitépe tribunal"
+  specimen_36: "Mayma yvypóra oguereko derecho ojehechakuaávo ichupe opaite handárupi haʼeha peteĩ máva leiduéra renondépe."
+  specimen_32: "Mbaʼeveichagua jeporavo avei ndoiók vaʼerã oñemañanguévo hetã situación rehe, legalmentepa mbaʼéicha oĩ, haʼépa isãsopyre, oguatáva ojeheguiete, térãpa oĩ ambue tetã ndiv térã ipoguype."
+  specimen_21: "(preamble missing)\nMayma yvypóra ou ko yvy ári iñapytlʼyre ha eteĩcha dignidad ha derecho jeguerekópe; ha ikatu rupi oikuaa añetéva ha añeteʼyva, iporãva ha ivaíva, tekotevẽ pehenguéicha oiko oñondivekuéra.\nMayma yuypóra oguereko derecho ha libertad kuéra ko Declaraciónpe oĩva, oñemañaʼyre mbaʼeichaguapa i-ráza, ipire color; kiñápa terãpa kuimbaʼe, iñeʼẽ, i-religión, iñopinión política, hetã, haʼépa mbaʼ rerekoha, oĩpa yvate terãpa nahániri sociedad ryepype, hambaʼe."
+  specimen_16: "(preamble missing)\nMayma yvypóra ou ko yvy ári iñapytlʼyre ha eteĩcha dignidad ha derecho jeguerekópe; ha ikatu rupi oikuaa añetéva ha añeteʼyva, iporãva ha ivaíva, tekotevẽ pehenguéicha oiko oñondivekuéra.\nMayma yuypóra oguereko derecho ha libertad kuéra ko Declaraciónpe oĩva, oñemañaʼyre mbaʼeichaguapa i-ráza, ipire color; kiñápa terãpa kuimbaʼe, iñeʼẽ, i-religión, iñopinión política, hetã, haʼépa mbaʼ rerekoha, oĩpa yvate terãpa nahániri sociedad ryepype, hambaʼe.\nMbaʼeveichagua jeporavo avei ndoiók vaʼerã oñemañanguévo hetã situación rehe, legalmentepa mbaʼéicha oĩ, haʼépa isãsopyre, oguatáva ojeheguiete, térãpa oĩ ambue tetã ndiv térã ipoguype."
+}

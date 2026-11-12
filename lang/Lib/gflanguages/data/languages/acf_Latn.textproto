@@ -1,0 +1,20 @@
+id: "acf_Latn"
+language: "acf"
+script: "Latn"
+name: "Saint Lucian Creole French, Latin"
+region: "LC"
+population: 360000
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "Tout imen ka net lib égo an dignité épi yo"
+  tester: "Tout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek"
+  poster_sm: "Tout imen ka"
+  poster_md: "Tout imen"
+  poster_lg: "Tout"
+  specimen_48: "Tout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans"
+  specimen_36: "Tout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité."
+  specimen_32: "Tout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité."
+  specimen_21: "Tout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité.\nTout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité.\nTout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité."
+  specimen_16: "Tout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité.\nTout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité.\nTout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité.\nTout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité.\nTout imen ka net lib égo an dignité épi yo dwa. Yo ni rézon ek konsyans la épi dwet aji yonn pou lot adan yonn lespri di fraternité."
+}

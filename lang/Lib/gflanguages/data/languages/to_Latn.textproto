@@ -1,0 +1,29 @@
+id: "to_Latn"
+language: "to"
+script: "Latn"
+name: "Tongan"
+autonym: "Faka Tonga"
+population: 100790
+region: "TO"
+exemplar_chars {
+  base: "A Á Ā E É Ē F H I Í Ī K L M N {NG} O Ó Ō P S T U Ú Ū V a á ā e é ē f h i í ī k l m n {ng} o ó ō p s t u ú ū v ʻ"
+  auxiliary: "À Ă Â Å Ä Æ B C Ç D È Ĕ Ê Ë G Ì Ĭ Î Ï J Ñ Ò Ŏ Ô Ö Ø Œ Q R Ù Ŭ Û Ü W X Y Ÿ Z à ă â å ä æ b c ç d è ĕ ê ë g ì ĭ î ï j ñ ò ŏ ô ö ø œ q r ù ŭ û ü w x y ÿ z"
+  marks: "◌́ ◌̄"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
+  index: "A E F H I K L M N {NG} O P S T U V ʻ"
+}
+sample_text {
+  masthead_full: "KkOo"
+  masthead_partial: "Ee"
+  styles: "Ko e me’a ‘i he mahino ko e ngeia fakaenatula"
+  tester: "Peako e me’a ‘i he mahino ko hono li’ekina mo ta’efaka’apa’apa’i ‘a e"
+  poster_sm: "Peako e me’a"
+  poster_md: "Peakoe’uhi"
+  poster_lg: "kotoa"
+  specimen_48: "Peakoe’uhi kuo tukupa ‘a e ngaahi Pule’anga Memipa ke nau ngaue"
+  specimen_36: "Peakoe’uhi ‘e toki kavekavea’u ‘a e tukupa ni ‘okapau ‘e hu’ufa taha ‘a e a’usia ‘o e ngaahi totonu mo e ngaahi tau’ataina ni,"
+  specimen_32: "‘E ‘ikai ke ngofua ke nofo popula pe hopoate ha taha; kuopau ke ta’ofi ‘a e nofo popula pea mo e fefakatau’aki ‘o e kau popula ‘i hono ngaahi fotunga kotoa pe."
+  specimen_21: "‘E ‘ikai ke ngofua ke fakamamahi’i pe ngaahi kovi’i ha taha hange ha monumanu, pe tautea’i mo tamalaki ‘i ha tukunga ta’e’ofa fau.\n‘Oku ‘i ai ‘a e totonu ‘a e tokotaha kotoa pe ke lau mo tokangekina’i ‘i he potu kotoa pe ko e tangata pe fefine, ‘i he ‘ao ‘o e lao.\n‘Oku ‘i ai ‘a e totonu ‘a e tokotaha kotoa pe ki ha totongi huhu’i ‘oku taau mei ha ngaahi fakamaau’anga fe’unga fakalotofonua koe’uhi ko ha ngaue ta’etaau na’e fai ki ai ‘o fakafe’atungia’i e ngaahi tefito’i totonu kuo foaki ma’ana ‘e he konisitutone pe ko e lao."
+  specimen_16: "‘E ‘ikai ke ngofua ke puke pe fakahu pilisone ta’efakalao, tauhi pilisone ta’efakalao pe fakahee’i ta’efakalao ha taha.\n‘Oku ‘a e tokotaha kotoa pe ‘a e totonu tatau ki ha fakamaau’i ‘oku taau mo ‘ilo ki ai ‘a e kakai ‘i ha fakamaau’anga ‘oku tau’ataina mo ta’efilifilimanako ‘a ‘ene ngaue ki hono fakapapau’i ‘a ‘ene ngaahi totonu mo hono ngaahi ngafa pea pehe ki he ngaahi hia kuo faka’ilo kiai ‘ehe pule’anga.\n‘E ‘ikai ke ngofua ke fai ha kaunoa pe fakamalohi ta’efakalao ki ha tokotaha, ‘i ha’ane me’a fakafo’ituitui, pe ko hono famili, hono ‘api, ‘ene fetu’utaki, pe ko hono fakamele’i hono langilangi mo hono ongoongo. ‘Oku ‘i ai ‘a e totonu ‘a e tokotaha kotoa pe ke malu’i ia ‘ehe lao mei he ngaahi kaunoa pe fakamalohi pehe ni."
+}

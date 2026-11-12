@@ -1,0 +1,32 @@
+id: "agq_Latn"
+language: "agq"
+script: "Latn"
+name: "Aghem"
+autonym: "Wum"
+population: 38843
+region: "CM"
+exemplar_chars {
+  base: "a A à À â Â ǎ Ǎ ā Ā b B c C d D e E è È ê Ê ě Ě ē Ē ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} {ɛ̄} {Ɛ̄} f F g G h H i I ì Ì î Î ǐ Ǐ ī Ī ɨ Ɨ {ɨ̀} {Ɨ̀} {ɨ̂} {Ɨ̂} {ɨ̌} {Ɨ̌} {ɨ̄} {Ɨ̄} k K l L m M n N ŋ Ŋ o O ò Ò ô Ô ǒ Ǒ ō Ō ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} {ɔ̄} {Ɔ̄} p P s S t T u U ù Ù û Û ǔ Ǔ ū Ū ʉ Ʉ {ʉ̀} {Ʉ̀} {ʉ̂} {Ʉ̂} {ʉ̌} {Ʉ̌} {ʉ̄} {Ʉ̄} v V w W y Y z Z ʼ"
+  auxiliary: "q Q r R x X ẁ Ẁ ’"
+  marks: "◌̀ ◌̂ ◌̄ ◌̌"
+  numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E Ɛ F G H I Ɨ K L M N Ŋ O Ɔ P S T U Ʉ V W Y Z ʼ"
+}
+sample_text {
+  masthead_full: "Ɛ̀ɛ̀Ɨ̄ɨ̄"
+  masthead_partial: "KƗ̀"
+  styles: "A fɨ̀ lo tsɨgha ko nû, tɔ̀lɔki m bwìi ùfwɨn ghèe"
+  tester: "A fɨ̀ bugho an tì li kō, ghùw ù lì ghe fɨ̀ tɔɔŋ tsɨ̀ghà enyɨa Kɨ̀zɨ̀ŋè"
+  poster_sm: "kɨ̀zɨ̀ŋè"
+  poster_md: "kɨ̀zɨ̀ŋè"
+  poster_lg: "tɔ̀lɔki"
+  specimen_48: "Mbùʼù kɨ̀ m mgbɛɛ bùghòo bwìin kòʼò tsɨ̀ghà ko wɨ̄n."
+  specimen_36: "Tɔ̀lɔ̀ki n dzɛ̀ â mbùʼù kò enyɨa kǎ ghee lûum, è kê tsǒo bùghò gbɨ̀là ghù, tō."
+  specimen_32: "A fɨ̀ lo alo enaʼ ghɨa ghɨ ntsòʼ ghɨ̌ n tughuu fughu, ghe n tum tɔ̀lɔki enyɨa è ndùw zue ntsòʼ a n lo mò dzì zɨ̀ ntsoʼ e te lɔ̄ʼso dàa."
+  specimen_21: "A fɨ̀ bugho an tì li kō, ghùw ù lì ghe fɨ̀ tɔɔŋ tsɨ̀ghà enyɨa Kɨ̀zɨ̀ŋè. Kɨ̀zɨ̀ŋè fɨ̀ lo êzɨ̀, ghe fɨ̀ tɔŋɔ wɨ̄n enyɨa kɨ̀zɨ̀ŋè bòʼ enyɨa ufʉghà ù dzɨ̀m u fɨ̀ lo àzɨ̀ŋo wɨ̄n. A fɨ̀ lo tsɨgha ko nû, tɔ̀lɔki m bwìi ùfwɨn ghèe mbùʼù kò. Mbùʼù kɨ̀ m mgbɛɛ bùghòo bwìin kòʼò tsɨ̀ghà ko wɨ̄n. Ù mo᷇, “ŋ ghûw fɨ̀n, N sô mgbɛɛ bùghoo bwìin kôʼò ko. Ghù lô mùghò bùgho bwìin kòʼò zɨn a?”"
+  specimen_16: "A fɨ̀ bugho an tì li kō, ghùw ù lì ghe fɨ̀ tɔɔŋ tsɨ̀ghà enyɨa Kɨ̀zɨ̀ŋè. Kɨ̀zɨ̀ŋè fɨ̀ lo êzɨ̀, ghe fɨ̀ tɔŋɔ wɨ̄n enyɨa kɨ̀zɨ̀ŋè bòʼ enyɨa ufʉghà ù dzɨ̀m u fɨ̀ lo àzɨ̀ŋo wɨ̄n. A fɨ̀ lo tsɨgha ko nû, tɔ̀lɔki m bwìi ùfwɨn ghèe mbùʼù kò. Mbùʼù kɨ̀ m mgbɛɛ bùghòo bwìin kòʼò tsɨ̀ghà ko wɨ̄n. Ù mo᷇, “ŋ ghûw fɨ̀n, N sô mgbɛɛ bùghoo bwìin kôʼò ko. Ghù lô mùghò bùgho bwìin kòʼò zɨn a?” Tɔ̀lɔ̀ki n dzɛ̀ â mbùʼù kò enyɨa kǎ ghee lûum, è kê tsǒo bùghò gbɨ̀là ghù, tō. E kê bùghò gbɨ̀ɨn ghù, E ndôʼò dzàa zìi yò tsuʼ fɨla e kê bughoo a te alô ghù. A fɨ̀ lo alo enaʼ ghɨa ghɨ ntsòʼ ghɨ̌ n tughuu fughu, ghe n tum tɔ̀lɔki enyɨa è ndùw zue ntsòʼ a n lo mò dzì zɨ̀ ntsoʼ e te lɔ̄ʼso dàa."
+}
+source: "Aghem alphabet, Aghem Language Development Committee “ALDEC” Wum, North West Province Republic of Cameroon, 2010"
+source: "Robyn Hackett, Once upon a Time: A Collection of Five Aghem Folktales, SIL, 2013"
+source: "To kə Kəzə̀ kə̀ Fughu ko, Cameroon Association for Bible Translation and Literacy (CABTAL), 2020"
+note: "ẁ is used in “nduẁ” in CABTAL 2020 but doesn’t seem to be used elsewhere."

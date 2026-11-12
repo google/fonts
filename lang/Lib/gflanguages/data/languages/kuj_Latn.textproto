@@ -1,0 +1,12 @@
+id: "kuj_Latn"
+language: "kuj"
+script: "Latn"
+name: "Kuria"
+population: 690000
+region: "KE"
+region: "TZ"
+exemplar_chars {
+  base: "a A b B e E ë Ë g G h H i I k K m M n N {ngʼ} {Ngʼ} o O ö Ö r R s S t T u U w W y Y"
+  marks: "◌̈"
+  auxiliary: "c C d D f F j J l L p P q Q v V x X z Z"
+}

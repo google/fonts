@@ -1,0 +1,11 @@
+id: "kaj_Latn"
+language: "kaj"
+script: "Latn"
+name: "Jju"
+population: 656000
+region: "NG"
+exemplar_chars {
+  base: "a A {a̱} {A̱} b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U {u̱} {U̱} w W y Y z Z"
+  marks: "◌̱"
+}
+source: "Daniel D. Hyuwa, “Kaje orthography”, R. G. Armstrong, Orthographies of Nigerian languages: manual IV, Lagos: Federal Ministry of Education, National Language Center, 1986, pp. 72–99"

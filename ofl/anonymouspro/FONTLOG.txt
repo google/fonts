@@ -1,0 +1,45 @@
+FONTLOG for Anonymous Pro
+
+This file provides detailed information on the Anonymous Pro Font Software. This information should be distributed along with the Anonymous Pro fonts and any derivative works.
+
+Anonymous Pro is a family of four fixed-width fonts designed especially with coding in mind. Characters that could be mistaken for one another (O, 0, I, l, 1, etc.) have distinct shapes to make them easier to tell apart in the context of source code.
+
+Anonymous Pro is distributed with the Open Font License (OFL).
+
+For more information, see the file "README for Anonymous Pro".
+
+Mark Simonson
+September 8, 2010
+Mark Simonson Studio LLC 
+http://www.ms-studio.com 
+mark@marksimonson.com
+
+CHANGELOG
+
+8 September 2010 (Mark Simonson) Anonymous Pro Version 1.002
+- Fixed (stupid) incorrect design of quotesinglbase and quotedblbase
+- Lengthened hyphen
+- Shortened underscore so that it is distinct from adjacent underscores
+- Increased the weight of the ampersand to make it visually the same weight as other glyphs
+- Adjusted vertical position of "<", ">" and math characters to align with hyphen
+- Modified design of Cyrillic "ze" to better distinguish it from "3"
+- Modified 12ppm and 13ppm "m" bitmap so it does not touch adjacent glyphs
+- Corrected asymmetrical parentheses in 13ppm bitmaps
+- Corrected missing encoding of .null and CR
+- Added installation instructions for Linux to README.txt
+
+9 October 2009 (Mark Simonson) Anonymous Pro Version 1.001
+- Lowered comma and comma portion of semicolon for better legibility
+- Tweaked design of quotesinglbase and quotedblbase
+- Tweaked bitmaps for period and other "dot" punctuation for better legibility
+- Fixed bad value in CVT that caused uneven cap height at some sizes on Windows
+- Corrected 13ppem bitmaps for omicrontonos
+- Switched to the SIL Open Font License (OFL)
+- Created FONTLOG and new README file
+
+10 June 2009 (Mark Simonson) Anonymous Pro Version 1.0
+- Initial release of Anonymous Pro fonts
+
+ACKNOWLEDGEMENTS
+
+Thanks to Susan Lesch and David Lamkins for creating the Anonymous 9 Macintosh bitmap font (1991-1994), the basis for the TrueType fonts Anonymous™ and its successor, Anonymous Pro.

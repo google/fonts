@@ -1,0 +1,13 @@
+id: "enh_Cyrl"
+language: "enh"
+script: "Cyrl"
+name: "Tundra Enets"
+region: "RU"
+population: 35
+exemplar_chars {
+base: "А а Б б В в Г г Д д Е е Ԑ ԑ Ё ё Ж ж З з И и Й й К к Л л М м Н н Ӊ ӊ О о {О̂} {о̂} П п Р р С с Т т У у Ф ф Х х Ц ц Ч ч Ш ш Щ щ ъ Ы ы ь Э э Ю ю Я я ˮ"
+  marks: "◌̂"
+  auxiliary: "Ӈ ӈ Ҫ ҫ"
+}
+source: "Д. С. Болина, Букварь: 1 класс, Санкт-Петербург: Алмаз-Граф, 2019"
+note: "The orthography is shared with Tundra Enets. The 2019 orthography is different from the 1986 orthography. Some authors used acute with vowels with the 1986 orthography."

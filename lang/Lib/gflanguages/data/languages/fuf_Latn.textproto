@@ -1,0 +1,25 @@
+id: "fuf_Latn"
+language: "fuf"
+script: "Latn"
+name: "Pular"
+region: "GN"
+population: 5443000
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E f F g G ɠ Ɠ h H i I j J k K l L m M n N {nb} {NB} {nd} {ND} {ng} {NG} {nj} {NJ} ɲ Ɲ ŋ Ŋ o O p P r R s S t T u U w W y Y ƴ Ƴ"
+  auxiliary: "q Q x X z Z"
+}
+sample_text {
+  masthead_full: "NnEe"
+  masthead_partial: "Dd"
+  styles: "Neddhanke en fow dyibinte no hettii no fota"
+  tester: "Neddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu"
+  poster_sm: "Neddhanke en"
+  poster_md: "Neddhanke"
+  poster_lg: "Fow"
+  specimen_48: "Neddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e"
+  specimen_36: "Neddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e handandhi. Bhe dyibindinte e hagghil e faamu ; hibhe haani dyogondirde e nder hagghil neenegootaankaaku."
+  specimen_32: "Neddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e handandhi. Bhe dyibindinte e hagghil e faamu ; hibhe haani dyogondirde e nder hagghil neenegootaankaaku."
+  specimen_21: "Neddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e handandhi. Bhe dyibindinte e hagghil e faamu ; hibhe haani dyogondirde e nder hagghil neenegootaankaaku.\nneddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e handandhi. Bhe dyibindinte e hagghil e faamu ; hibhe haani dyogondirde e nder hagghil neenegootaankaaku."
+  specimen_16: "Neddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e handandhi. Bhe dyibindinte e hagghil e faamu ; hibhe haani dyogondirde e nder hagghil neenegootaankaaku.\nneddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e handandhi. Bhe dyibindinte e hagghil e faamu ; hibhe haani dyogondirde e nder hagghil neenegootaankaaku.\nneddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e handandhi. Bhe dyibindinte e hagghil e faamu ; hibhe haani dyogondirde e nder hagghil neenegootaankaaku.\nneddhanke en fow dyibinte no hettii no fota e dhi fow, e ndimu e handandhi. Bhe dyibindinte e hagghil e faamu ; hibhe haani dyogondirde e nder hagghil neenegootaankaaku."
+}
+source: "James G. Bennett (translation Abdallah Diallo), Firo kalfe fi laawol ngalu e huuwondiral Lagine, Secrétariat permanent de la Stratégie de réduction de la pauvreté (SP-SRP), Centre d’études des langues guinéennes (CELG), 2005"

@@ -1,0 +1,14 @@
+id: "boz_Latn"
+language: "boz"
+script: "Latn"
+name: "Tiéyaxo Bozo"
+autonym: "bozo-tigemaxoo"
+population: 335000
+region: "ML"
+exemplar_chars {
+  base: "a A b B d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U w W x X y Y"
+  auxiliary: "c C v V z Z"
+}
+source: "Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-tigemaxo et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010"
+source: "République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993"
+source: "Wikipedia"

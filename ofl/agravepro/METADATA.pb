@@ -32,6 +32,7 @@ source {
     dest_file: "AgravePro[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "HANDWRITING"

@@ -29,6 +29,7 @@ source {
     dest_file: "GeistSerif[ELSH].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-GeistSerif.yaml"
 }
 minisite_url: "https://vercel.com/font"
 primary_script: "Latn"

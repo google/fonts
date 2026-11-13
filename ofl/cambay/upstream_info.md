@@ -63,10 +63,10 @@ An override `config.yaml` has been added to the google/fonts family directory. C
 
 ```yaml
 sources:
-  - "Sources/Cambay Regular/Cambay Devanagari-Regular.ufo"
-  - "Sources/Cambay Oblique/Cambay Devanagari-Oblique.ufo"
-  - "Sources/Cambay Bold/Cambay Devanagari-Bold.ufo"
-  - "Sources/Cambay Bold Oblique/Cambay Devanagari-Bold Oblique.ufo"
+  - "Sources/Cambay Regular/Cambay Devanagari-Regular.glyphs"
+  - "Sources/Cambay Oblique/Cambay Devanagari-Oblique.glyphs"
+  - "Sources/Cambay Bold/Cambay Devanagari-Bold.glyphs"
+  - "Sources/Cambay Bold Oblique/Cambay Devanagari-BoldOblique.glyphs"
 buildVariable: false
 ```
 
@@ -77,3 +77,11 @@ This override config enables gftools-builder to compile the font from upstream s
 1. The upstream repo has newer commits (2019) that added new Devanagari glyphs. Should these be reviewed for a potential update to the Google Fonts version?
 2. A config.yaml would need to be created to enable gftools-builder builds. Given the per-style source organization (separate .glyphs files), this may require restructuring or a multi-source config.
 3. The font names differ between upstream (`CambayDevanagari-*`) and google/fonts (`Cambay-*`). It's unclear if the fonts were renamed during onboarding or if there were separate build artifacts.
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Opus 5.5
+
+The override named the four UFOs, which are stale side exports: their `features.fea` uses names like `la-deva` that the glyphs no longer have. The shipped fonts have the same outlines as the Glyphs.app exports committed under [`Font files/Hinted (ttfautohint)`](https://github.com/anexasajoop/cambay/tree/538b69cc50d692cb0864372cab691a9da757c498/Font%20files/Hinted%20(ttfautohint)), which were exported from the four `.glyphs` files, so the override now names those.
+
+With gftools 0.10.8 and fontmake 3.12.2, every style matches the shipped cmap, and all but 3–5 glyphs per style match bounds and advances within 1 unit.

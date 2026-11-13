@@ -56,8 +56,8 @@ An override `config.yaml` has been added to the google/fonts family directory. C
 
 ```yaml
 sources:
-  - coda/in-progress/Regular/src/Coda.ufo
-  - coda/in-progress/Heavy/src/Coda-Heavy-IN.ufo
+  - coda/1.0/Regular/src/Coda.ufo
+  - coda/1.0/Heavy/src/Coda-Heavy.ufo
 buildVariable: false
 ```
 
@@ -67,3 +67,11 @@ This override config enables gftools-builder to compile the font from upstream s
 
 1. Which UFO files in the repo correspond to the published v2.001 Coda-Regular.ttf and Coda-ExtraBold.ttf? The "in-progress" directory structure makes this unclear.
 2. Should an override config.yaml be created for Coda, and if so, what should its build configuration look like?
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Opus 5.5
+
+The override named the `coda/in-progress` UFOs, unreleased v3 work that encodes U+021A twice. The shipped v2.001 matches the 2012 binaries in `coda/1.0`, which sit next to their sources, so the override now names `coda/1.0/Regular/src/Coda.ufo` and `coda/1.0/Heavy/src/Coda-Heavy.ufo`.
+
+With gftools 0.10.8 and fontmake 3.12.2, Regular matches the shipped cmap, and every glyph's bounds and advance are within 1 unit. Heavy still fails: its `lib.plist` and glyph libs are malformed. With those repaired in a scratch copy, it matches the shipped ExtraBold exactly.

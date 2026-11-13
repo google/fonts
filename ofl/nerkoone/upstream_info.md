@@ -41,15 +41,16 @@ CI was previously handled via Travis CI (`.travis.yml` present), which is now de
 
 ## config.yaml Status
 
-There is **no `config.yaml` in the upstream repo** (`nermink99/Nerko`). The build is driven by `src/build.sh`, not by gftools builder. However, a `config.yaml` file is present in the Google Fonts working copy at `/mnt/shared/google/fonts/ofl/nerkoone/config.yaml` and in the main `gfonts` repo at `/mnt/shared/gfonts/ofl/nerkoone/config.yaml`, with content:
+There is **no `config.yaml` in the upstream repo** (`nermink99/Nerko`). The build is driven by `src/build.sh`, not by gftools builder. However, an override `config.yaml` is present in google/fonts at `ofl/nerkoone/config.yaml`, with content:
 
 ```yaml
-buildVariable: false
 sources:
-  - src/NerkoOne-Regular.sfd
+  - src/NerkoOne-Regular.ufo
+familyName: "Nerko One"
+buildVariable: false
 ```
 
-This config.yaml was added on the Google Fonts side (likely generated during onboarding). It references the SFD source rather than the UFO, and points to a non-existent gftools builder config in the upstream repo.
+This config.yaml was added on the Google Fonts side. It names the UFO that `src/build.sh` builds.
 
 The `METADATA.pb` does **not** include a `config_yaml` field, which is consistent with the absence of a config in the upstream repo. The `source.files` block directly maps `fonts/ttf/NerkoOne-Regular.ttf` → `NerkoOne-Regular.ttf`.
 
@@ -62,4 +63,12 @@ The `METADATA.pb` does **not** include a `config_yaml` field, which is consisten
 - The METADATA.pb `source.files` block also copies `DESCRIPTION.en_us.html` and `FONTLOG.txt`, both of which exist in the upstream repo root.
 - The `config.yaml` present in the Google Fonts repo side is a local addition not tracked in the upstream; it should not be referenced in METADATA.pb unless a proper gftools builder config is added upstream.
 - The Travis CI setup is now obsolete; migration to GitHub Actions would be recommended if the upstream is ever updated.
-- The UFO source (`src/NerkoOne-Regular.ufo`) is the more modern and recommended format, but the `config.yaml` in the GF repo references the SFD — this is a minor inconsistency worth flagging if the upstream is ever modernized.
+- The UFO source (`src/NerkoOne-Regular.ufo`) is what the shipped font was built from; the override `config.yaml` names it (see below).
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Fable 5.2
+
+The override listed `src/NerkoOne-Regular.sfd`, a FontForge file last changed in July 2019. The shipped `NerkoOne-Regular.ttf` is byte-identical to `fonts/ttf/NerkoOne-Regular.ttf` at the pinned commit, which `src/build.sh` builds from `src/NerkoOne-Regular.ufo` (last changed in November 2020). The override now names the UFO.
+
+With gftools 0.10.8, fontmake 3.12.2 and glyphsLib 6.17.1, the new config builds a font with the shipped codepoints and glyph count (440).

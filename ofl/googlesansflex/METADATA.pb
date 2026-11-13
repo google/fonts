@@ -48,6 +48,17 @@ axes {
   min_value: 1.0
   max_value: 1000.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/googlesans-flex"
+  commit: "cedf1e9cef08ddf33d711dd259601ea3017b7cd4"
+  archive_url: "https://github.com/googlefonts/googlesans-flex/releases/download/v5.000/GoogleSansFlex-v5.000.zip"
+  files {
+    source_file: "GoogleSansFlex[ROND,opsz,slnt,wdth,wght].ttf"
+    dest_file: "GoogleSansFlex[ROND,opsz,slnt,wdth,wght].ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
+}
 registry_default_overrides {
   key: "opsz"
   value: 18

@@ -77,7 +77,7 @@ Note: The designspace file was later removed from the repo in commit `406d7f4c` 
 
 The original build used a Makefile with direct fontmake invocations to produce static OTF and TTF files (no variable font). There is no config.yaml in the upstream repo at any commit.
 
-The font ships as three static TTF files in Google Fonts (Thin, Regular, Bold), not as a variable font. An override config.yaml for gftools-builder would need to reference `sources/Gayathri.designspace` and configure static instance generation.
+The font ships as three static TTF files in Google Fonts (Thin, Regular, Bold), not as a variable font. An override config.yaml for gftools-builder should reference the three UFOs, with `buildVariable: false` (see the last section).
 
 ### 6. Repository Cache
 
@@ -96,7 +96,15 @@ source {
 }
 ```
 
-Note: An override config.yaml in the google/fonts family directory would be needed for gftools-builder compatibility. The config should reference `sources/Gayathri.designspace` and configure static font generation for three weights (Thin 100, Regular 400, Bold 700). When that override is created, the `config_yaml` field can be omitted from METADATA.pb as google-fonts-sources auto-detects local overrides.
+Note: An override config.yaml in the google/fonts family directory would be needed for gftools-builder compatibility. The config should reference the three UFOs, which the Makefile builds one at a time (see the last section). When that override is created, the `config_yaml` field can be omitted from METADATA.pb as google-fonts-sources auto-detects local overrides.
 
 ### Status: missing_config
 ### Confidence: HIGH
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Opus 5.5
+
+The override named `sources/Gayathri.designspace`, which has no instances and was not part of the build. The [Makefile](https://github.com/smc/Gayathri/blob/5ad0cb435bd61227de1e95dc54ee85bfca671c53/Makefile#L27-L29) builds each of `sources/Gayathri-{Thin,Regular,Bold}.ufo` as its own static with `fontmake -u`, so the override now names those three UFOs, with `buildVariable: false`.
+
+With gftools 0.10.8 and fontmake 3.12.2, all three weights match the shipped glyph set and cmap, and every glyph's bounds and advance are within 1 unit.

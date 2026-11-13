@@ -70,8 +70,8 @@ An override `config.yaml` has been added to the google/fonts family directory. C
 
 ```yaml
 sources:
-  - sources/CabinRegular.designspace
-  - sources/CabinItalic.designspace
+  - sources/CabinRegular_v3001.glyphs
+  - sources/CabinItalic_v3001.glyphs
 ```
 
 This override config enables gftools-builder to compile the font from upstream sources.
@@ -80,3 +80,11 @@ This override config enables gftools-builder to compile the font from upstream s
 
 1. Could a config.yaml override be created for the google/fonts family directory to enable gftools-builder builds from the existing designspace sources?
 2. The upstream repo uses a custom `build.sh` with specialized steps (STAT table via Python script). Would a gftools-builder config.yaml be able to replicate this build process, or would additional tooling be needed?
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Opus 5.5
+
+The override named `sources/Cabin{Regular,Italic}.designspace`, which reference UFOs that `build.sh` makes with `glyphs2ufo` and that aren't in the repository. The override now names the two `_v3001.glyphs` files.
+
+With gftools 0.10.8 and fontmake 3.12.2, both variable fonts match the shipped ones exactly: fvar, avar, and every glyph's bounds and advance at all named instances.

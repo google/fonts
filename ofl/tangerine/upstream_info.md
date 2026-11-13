@@ -31,3 +31,11 @@ High — the repository was hosted under the googlefonts organization and descri
 **Model**: Claude Opus 4.7 (1M context)
 
 Added an override `config.yaml` in `ofl/tangerine/` referencing the upstream gftools-builder-compatible source at the pinned commit `9b57a9f` (`sources/Tangerine_Regular.glyphs`, `sources/Tangerine_Bold.glyphs`). The upstream repo has no `config.yaml` of its own at this rev; `google-fonts-sources` auto-detects the override and records it in crater's `targets.json` as an external config on the next regeneration.
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Opus 5.5
+
+The override also listed `sources/Tangerine_Bold.glyphs`, a legacy XML-format file that glyphsLib can't read. It is redundant: `Tangerine_Regular.glyphs` has both masters. The override now lists only `Tangerine_Regular.glyphs`.
+
+With gftools 0.10.8 and fontmake 3.12.2, both weights match the shipped bounds and advances within 1 unit. Point data and a few cmap entries differ, since the shipped 2010 binaries were built from the .vfb files this source was converted from.

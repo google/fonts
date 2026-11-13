@@ -49,3 +49,11 @@ Override `config.yaml` exists in `ofl/arya/config.yaml`.
 ## Confidence
 
 **High**: URL pre-existing in METADATA.pb; commit pre-existing in METADATA.pb
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Opus 5.5
+
+The override also listed `Source/Arya-DEVA+LATIN-COPY.glyphs`, an unscaled copy that never shipped. It now lists only `Source/Arya-Scaled.glyphs`.
+
+With gftools 0.10.8 and fontmake 3.12.2, Bold matches the shipped Bold in 848 of 858 paired glyphs (the copy: 45). Regular still fails: Glyphs.app extrapolated it (weight 85, masters at 100 and 130), and glyphsLib drops such instances.

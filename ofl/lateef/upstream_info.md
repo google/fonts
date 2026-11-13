@@ -54,3 +54,11 @@ The upstream repo at `upstream_repos/fontc_crater_cache/silnrsi/font-lateef/` us
 ## Conclusion
 
 Commit hash, repository URL, and archive URL are all present. The commit `d682ea7cc` is a `[nobuild]` commit that is the HEAD of the repo at the time of the v4.400 release packaging. No `config.yaml` exists in the upstream repo; the sources use `.designspace` format with SIL's own build toolchain.
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Opus 5.5
+
+The override named `source/lateef-edit.designspace`, an editing file whose Light and Black masters no longer exist. smith builds from `source/lateef.designspace` ([wscript](https://github.com/silnrsi/font-lateef/blob/d682ea7cc0305b592058255167c83d059aa640fa/wscript#L43-L45)), so the override now names that, with `buildVariable: false` since only statics ship.
+
+With gftools 0.10.8 and fontmake 3.12.2, all seven weights match the shipped cmap, and every shipped glyph's bounds and advance are within 1 unit. The build keeps the `_`-prefixed component glyphs that smith drops.

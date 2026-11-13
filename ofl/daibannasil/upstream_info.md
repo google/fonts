@@ -58,8 +58,8 @@ An override `config.yaml` has been added to the google/fonts family directory. C
 
 ```yaml
 sources:
-  - source/DaiBannaSILUpright.designspace
-  - source/DaiBannaSILItalic.designspace
+  - source/DaiBannaSIL-VF.designspace
+  - source/DaiBannaSILItalic-VF.designspace
 buildVariable: false
 ```
 
@@ -69,3 +69,11 @@ This override config enables gftools-builder to compile the font from upstream s
 
 1. Should an override `config.yaml` be created in `ofl/daibannasil/` based on the upstream `googlefonts.yaml`? This would enable building from sources without changing the commit hash.
 2. Alternatively, should the commit hash be updated to a newer commit (e.g., `70a3b2c` or HEAD `0dee7c3`) that includes `googlefonts.yaml`? This would require verifying that the newer commit produces equivalent font output.
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Opus 5.5
+
+The override named `source/DaiBannaSIL{Upright,Italic}.designspace`. smith interpolates from those, but varLib can't: their default sits between the masters. The `-VF` designspaces use the same master UFOs with the default on Light, so the override now names those.
+
+With gftools 0.10.8 and fontmake 3.12.2, all 10 styles match the shipped cmap, and every glyph's bounds and advance are within 1 unit except one glyph in three italics (2 units). This needs `--overlaps-backend pathops`, since the default overlap remover fails on the masters' quadratic curves. The shipped fonts are Graphite-only, so layout differs.

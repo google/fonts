@@ -1,6 +1,6 @@
 from collections import Counter
 from google.protobuf import text_format
-from gflanguages import languages_public_pb2
+from gfmetadata import languages_public_pb2
 
 ATTRIBUTES = "base auxiliary marks punctuation index".split(" ")
 

@@ -1,4 +1,4 @@
-from gflanguages import languages_public_pb2
+from gfmetadata import languages_public_pb2
 import enum
 import re
 

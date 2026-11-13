@@ -34,6 +34,7 @@ source {
     dest_file: "Madhuban[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Deva"
 stroke: "SANS_SERIF"

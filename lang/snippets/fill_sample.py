@@ -1,7 +1,7 @@
 import re
 import random
 
-from gflanguages import languages_public_pb2
+from gfmetadata import languages_public_pb2
 from google.protobuf.json_format import ParseDict
 from google.protobuf.text_format import MessageToString
 

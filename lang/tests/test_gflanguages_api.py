@@ -48,3 +48,7 @@ def test_LoadRegions():
             br = regions["BR"]
             assert br.name == "Brazil"
             assert br.region_group == ["Americas"]
+
+
+def test_udhr_importable():
+    from gflanguages.udhr import Udhr  # noqa: F401

@@ -10,7 +10,7 @@ Hepta Slab is a variable weight slab-serif revival designed by Mike LaGattuta. T
 |--------------------|-------|
 | Family Name        | Hepta Slab |
 | Designer           | Mike LaGattuta |
-| Repository URL     | https://github.com/mjlagattuta/Hepta-Slab |
+| Repository URL     | https://github.com/aaronbell/Hepta-Slab |
 | Upstream Commit    | `4401d23f516b412f1b8472fe705b37b8712b2ecd` (initial onboarding, v1.100) |
 | Update Commit      | `8dd0f95d35d6e691e3006e7a32aaef0cdb84acc9` (from `aaronbell/Hepta-Slab` fork, v1.102) |
 | Config YAML        | Override `config.yaml` in google/fonts (references `sources/HeptaSlab.glyphs`) |
@@ -22,7 +22,7 @@ Hepta Slab is a variable weight slab-serif revival designed by Mike LaGattuta. T
 
 ### Upstream Repository
 
-The upstream repository is https://github.com/mjlagattuta/Hepta-Slab. It is cached locally at `upstream_repos/fontc_crater_cache/mjlagattuta/Hepta-Slab/`. The remote is valid and the repo has 111 commits on the `master` branch.
+The upstream repository is https://github.com/mjlagattuta/Hepta-Slab. The remote is valid and the repo has 111 commits on the `master` branch.
 
 The repo contains:
 - `sources/HeptaSlab.glyphs` -- Glyphs source file

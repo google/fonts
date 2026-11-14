@@ -9,7 +9,7 @@
 | License | OFL |
 | Date Added | 2022-05-12 |
 | Repository URL | https://github.com/silnrsi/font-charis |
-| Commit | `258e532625d5e6c5fca8448782e710db78a6ca8a` |
+| Commit | `f99e75143ab2295806f547f4b5bc7dfc4d7dde94` |
 | Branch | master |
 | Config YAML | Override in google/fonts |
 | Status | complete |
@@ -38,7 +38,7 @@ The upstream repo at the recorded commit contains UFO sources and designspace fi
 
 ## Verification
 
-- **Repository URL**: Verified -- the upstream repo at `upstream_repos/fontc_crater_cache/silnrsi/font-charis` exists and is accessible.
+- **Repository URL**: Verified -- the upstream repo exists and is accessible.
 - **Commit**: Verified as existing in the upstream repo on the master branch. However, this commit is 19 commits ahead of v6.101, while fonts were taken from the v6.101 release archive.
 - **Fonts**: The METADATA.pb uses `archive_url` to pull pre-built binaries from the v6.101 release ZIP, not compiled from source at the recorded commit.
 - **Override config**: Confirmed present and valid.

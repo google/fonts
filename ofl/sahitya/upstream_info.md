@@ -12,7 +12,7 @@ The canonical upstream repository for Sahitya was identified at `huertatipografi
 - **URL**: https://github.com/huertatipografica/sahitya
 - **Owner**: huertatipografica (HT Fonts)
 - **Branch**: master
-- **Commit**: `c4b5b34d0fbad63654b1d9a6bff72e566bf9a2c6`
+- **Commit**: `3d5fba22c2baba55989c9dd6daa8e4be47bb0cd4`
 - **Commit message**: "fixed some conjuncts"
 
 ## Source Files Found

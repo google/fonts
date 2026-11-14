@@ -1,0 +1,18 @@
+# Override config.yaml for ofl/notoserifmyanmar
+# Copied from notofonts/myanmar (sources/config-serif-myanmar.yaml)
+# NOTE: This config references the CURRENT notofonts/ per-script repo sources,
+# which may produce a newer version than the binary currently shipped in google/fonts.
+# The shipped binary was built from the older googlefonts/noto-fonts monorepo.
+# This config serves as a starting point for reproducible build attempts.
+#
+buildVariable: true
+category:
+- SERIF
+familyName: Noto Serif Myanmar
+googleFonts: true
+includeSubsets:
+- from: Noto Serif
+  name: GF_Latin_Core
+recipeProvider: noto
+sources:
+- sources/NotoSerifMyanmar.glyphs

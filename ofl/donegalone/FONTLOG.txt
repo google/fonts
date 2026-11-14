@@ -1,0 +1,82 @@
+FONTLOG for the Donegal font
+
+This file provides detailed information on 
+Donegal Font Software. This information should be 
+distributed along with the Donegal font and any 
+derivative works.
+
+Basic Font Information
+
+Donegal One is a text typeface designed to be highly legible and comfortable
+when reading on screen. Donegal's utility and personality consistently shows
+from small text sizes to display. Donegal uses the cut interior curve
+associated with W.A. Dwiggins. This feature is one of many that contribute to
+Donegal's distinctive and pleasing character.
+
+Donegal is a Unicode typeface family that supports languages that use the
+Latin script and its variants, and could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode ranges:
+Latin-1, Latin-2: Easern Europe, Turkish, Macintosh Character Set.
+
+There are four source files:
+
+1. DonegalOne-Regular.vfb Original Source Files with 
+   contour overlaps
+
+2. DonegalOne-Regular_otf.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. DonegalOne-Regular_ttf.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+4. DonegalOne-Regular.otf PostScript outlines OTF-CFF font.
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+4 Dec 2012 (Eben Sorkin) Donegal v1.004
+- Altered the widths of dicritics to not be zero with negative sidebearing
+  values because this appears to be causing the dicrittics not to appear in
+  the font preview for Google web fonts. Instead all diacritics have
+  sidebearings of 114 now.
+- Altered the gcommaaccent by decomposing the accent to solve a misrendering
+  bug seen in the Google web fonts system when the undercomma accent is
+  rotated and repositioned above the g.
+
+24 Nov 2012 (Eben Sorkin) Donegal v1.003
+- Hinted font Using TTFAutohint version 0.92
+- Mastered VBF to TTF and other formats.
+- Altered naming to be compatible with Google web fonts
+- Fixed rendering problems seen in the letters e and L
+- Added OpenType code to support ordinals, superiors (1234), onehalf, onequarter, 
+  threequarters percent and perthousand signs 
+- Completed third complete version of Donegal in Fontlab ( VBF format )
+
+22 Nov 2012 (Eben Sorkin) Donegal v1.002
+- Hinted font Using TTFAutohint version 0.92
+- Added Symbols for tcedilla, Tcedilla, exclamdbl, minute and second
+- Altered i and j so they use components to avoid a rendering bug in Windows
+- Completed second complete version of Donegal in Fontlab ( VBF format )
+
+02 Nov 2012 (Eben Sorkin) Donegal v1.001
+- Fixed some glyphs with irregular heights and depths
+
+30 Sept 2012 (Gary Lonergan) Donegal v1.000
+- Completed first complete version of Donegal in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Gary Lonergan
+E: garylonergan@hotmail.com
+W: -
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Designer and Mastering

@@ -11,7 +11,7 @@
 |-------|-------|
 | Repository URL | https://github.com/silnrsi/font-daibannasil |
 | Commit | `dcf3e10a5a42e65b191e4d14628f2f263f41b2bc` |
-| Config YAML | Not set (see notes below) |
+| Config YAML | Override in google/fonts |
 | Branch | `master` |
 
 ## How the Repository URL Was Found
@@ -30,11 +30,7 @@ The commit `dcf3e10a5a42e65b191e4d14628f2f263f41b2bc` was added by the batch com
 
 A `googlefonts.yaml` file was added later (commit `70a3b2c`, "Different tools for building variable fonts"), which is 10 commits after v4.000. This file contains gftools-builder configuration for the designspace sources. However, since it does not exist at the onboarding commit, it cannot be referenced via `config_yaml` in METADATA.pb without also updating the commit hash to a newer commit.
 
-The upstream repo has designspace source files at v4.000 (`source/DaiBannaSIL-VF.designspace`, `source/DaiBannaSILItalic-VF.designspace`), so building from sources is technically possible -- but would require either:
-1. An override `config.yaml` in the google/fonts family directory (`ofl/daibannasil/`), or
-2. Updating the commit hash to a newer commit that includes `googlefonts.yaml`
-
-No override config.yaml currently exists in `ofl/daibannasil/`.
+The upstream repo has designspace source files at v4.000 (`source/DaiBannaSIL-VF.designspace`, `source/DaiBannaSILItalic-VF.designspace`), and an override `config.yaml` in `ofl/daibannasil/` names them (see the last section).
 
 ## Verification
 
@@ -49,7 +45,7 @@ No override config.yaml currently exists in `ofl/daibannasil/`.
 
 **High** for repository URL and commit hash: The URL is well-established and the commit hash corresponds exactly to the v4.000 release tag, matching the version onboarded via archive.
 
-**Low** for config.yaml: No build config exists at the recorded commit. The `googlefonts.yaml` added later in the repo could serve as a basis for an override config, but action is needed.
+For config.yaml: no build config exists at the recorded commit, so an override is used (see the last section for how well it reproduces the shipped fonts).
 
 
 ## Override Config YAML
@@ -64,11 +60,6 @@ buildVariable: false
 ```
 
 This override config enables gftools-builder to compile the font from upstream sources.
-
-## Open Questions
-
-1. Should an override `config.yaml` be created in `ofl/daibannasil/` based on the upstream `googlefonts.yaml`? This would enable building from sources without changing the commit hash.
-2. Alternatively, should the commit hash be updated to a newer commit (e.g., `70a3b2c` or HEAD `0dee7c3`) that includes `googlefonts.yaml`? This would require verifying that the newer commit produces equivalent font output.
 
 ## Override config corrected (2026-11-13)
 

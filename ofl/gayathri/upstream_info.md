@@ -13,12 +13,12 @@ Gayathri is a Malayalam display typeface designed by Binoy Dominic with OpenType
 | Commit Hash       | 5ad0cb435bd61227de1e95dc54ee85bfca671c53                           |
 | Commit Date       | 2019-06-02                                                        |
 | Commit Message    | Fix the name tableentry for copyright                             |
-| Config YAML       | None (upstream has no config.yaml; override needed)                |
+| Config YAML       | Override in google/fonts (upstream has no config.yaml)             |
 | Source Files      | sources/Gayathri.designspace, sources/Gayathri-{Thin,Regular,Bold}.ufo |
 | Onboarding PR     | Direct commit 9c887c8b (no PR, pushed directly to main)           |
 | Onboarder         | Marc Foley (m.foley.88@gmail.com)                                 |
 | Date Added        | 2019-06-10                                                        |
-| Status            | missing_config                                                    |
+| Status            | complete                                                          |
 | Confidence        | HIGH                                                              |
 
 ## Investigation Details
@@ -77,15 +77,11 @@ Note: The designspace file was later removed from the repo in commit `406d7f4c` 
 
 The original build used a Makefile with direct fontmake invocations to produce static OTF and TTF files (no variable font). There is no config.yaml in the upstream repo at any commit.
 
-The font ships as three static TTF files in Google Fonts (Thin, Regular, Bold), not as a variable font. An override config.yaml for gftools-builder should reference the three UFOs, with `buildVariable: false` (see the last section).
-
-### 6. Repository Cache
-
-The upstream repo has been cloned to `upstream_repos/fontc_crater_cache/smc/Gayathri/`.
+The font ships as three static TTF files in Google Fonts (Thin, Regular, Bold), not as a variable font. The override config.yaml references the three UFOs, with `buildVariable: false` (see the last section).
 
 ## Conclusion
 
-The source metadata for Gayathri is straightforward to determine. The onboarding commit message explicitly provides both the repository URL and the commit hash. The upstream repo has gftools-builder-compatible sources (designspace + UFO) but lacks a config.yaml file.
+The source metadata for Gayathri is straightforward to determine. The onboarding commit message explicitly provides both the repository URL and the commit hash. The upstream repo has gftools-builder-compatible sources (designspace + UFO) but lacks a config.yaml file, so an override is used.
 
 ### Recommended METADATA.pb Source Block
 
@@ -96,9 +92,9 @@ source {
 }
 ```
 
-Note: An override config.yaml in the google/fonts family directory would be needed for gftools-builder compatibility. The config should reference the three UFOs, which the Makefile builds one at a time (see the last section). When that override is created, the `config_yaml` field can be omitted from METADATA.pb as google-fonts-sources auto-detects local overrides.
+Note: An override config.yaml in the google/fonts family directory references the three UFOs, which the Makefile builds one at a time (see the last section), so the `config_yaml` field is omitted from METADATA.pb.
 
-### Status: missing_config
+### Status: complete
 ### Confidence: HIGH
 
 ## Override config corrected (2026-11-13)

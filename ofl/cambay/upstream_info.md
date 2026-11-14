@@ -10,7 +10,7 @@
 | Repository URL | https://github.com/anexasajoop/cambay |
 | Commit Hash | `538b69cc50d692cb0864372cab691a9da757c498` |
 | Branch | (not set) |
-| Config YAML | (none) |
+| Config YAML | Override in google/fonts |
 | **Status** | complete |
 
 ## How URL Found
@@ -31,7 +31,7 @@ The commit `538b69c` represents the state of the upstream repo at the approximat
 
 ## Config YAML Status
 
-**No config.yaml exists** in the upstream repository. No override config.yaml exists in the google/fonts family directory.
+**No config.yaml exists** in the upstream repository. An override in the google/fonts family directory names the four `.glyphs` files (see the last section).
 
 The upstream repo contains source files (Glyphs and UFO formats) organized per-style:
 - `Sources/Cambay Regular/Cambay Devanagari-Regular.glyphs` (+ .ufo)
@@ -39,13 +39,13 @@ The upstream repo contains source files (Glyphs and UFO formats) organized per-s
 - `Sources/Cambay Oblique/Cambay Devanagari-Oblique.glyphs` (+ .ufo)
 - `Sources/Cambay Bold Oblique/Cambay Devanagari-BoldOblique.glyphs` (+ .ufo)
 
-This is a static font with 4 styles. The sources are organized in separate directories per style, and the Glyphs files are per-style rather than a single multi-master file, which makes creating a config.yaml non-trivial.
+This is a static font with 4 styles. The sources are organized in separate directories per style, and the Glyphs files are per-style rather than a single multi-master file, so the override lists all four.
 
 ## Verification
 
 - **Commit exists in upstream repo**: Yes, verified
 - **Config YAML exists at commit**: No
-- **Override config.yaml in google/fonts**: No
+- **Override config.yaml in google/fonts**: Yes
 - **Repository URL accessible**: Yes (https://github.com/anexasajoop/cambay)
 - **Font file names differ**: google/fonts has `Cambay-*.ttf`, upstream has `CambayDevanagari-*.AH.ttf`
 - **Upstream has newer changes**: 2019 commits added new glyphs not reflected in google/fonts
@@ -75,8 +75,7 @@ This override config enables gftools-builder to compile the font from upstream s
 ## Open Questions
 
 1. The upstream repo has newer commits (2019) that added new Devanagari glyphs. Should these be reviewed for a potential update to the Google Fonts version?
-2. A config.yaml would need to be created to enable gftools-builder builds. Given the per-style source organization (separate .glyphs files), this may require restructuring or a multi-source config.
-3. The font names differ between upstream (`CambayDevanagari-*`) and google/fonts (`Cambay-*`). It's unclear if the fonts were renamed during onboarding or if there were separate build artifacts.
+2. The font names differ between upstream (`CambayDevanagari-*`) and google/fonts (`Cambay-*`). It's unclear if the fonts were renamed during onboarding or if there were separate build artifacts.
 
 ## Override config corrected (2026-11-13)
 

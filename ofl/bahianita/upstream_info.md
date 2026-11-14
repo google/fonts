@@ -39,9 +39,8 @@ Also note: the METADATA.pb currently has NO source block at all. The repository_
 
 ## How Config YAML Was Resolved
 
-No config.yaml or builder.yaml exists in the upstream repository. No override config.yaml exists in the google/fonts family directory. The source files at the onboarding commit are `Bahianita/sources/Bahianita.glyphs` and `Bahianita/sources/Bahianita.ufo`.
+No config.yaml or builder.yaml exists in the upstream repository. An override config.yaml in the google/fonts family directory references `Bahianita/sources/Bahianita.glyphs`. The source files at the onboarding commit are `Bahianita/sources/Bahianita.glyphs` and `Bahianita/sources/Bahianita.ufo`.
 
-An override config.yaml needs to be created in the google/fonts family directory referencing `Bahianita/sources/Bahianita.glyphs`.
 
 ## Verification
 
@@ -71,9 +70,7 @@ This override config enables gftools-builder to compile the font from upstream s
 
 ## Open Questions
 
-1. The METADATA.pb has no source block — a PR to google/fonts is needed to add `source { repository_url, commit, branch }`.
-2. An override config.yaml needs to be created. The source path would be `Bahianita/sources/Bahianita.glyphs` (relative to repo root).
-3. The tracking file commit should be corrected from `0efedac` (HEAD) to `e96af69` (the commit actually referenced in PR #1669).
+1. The tracking file commit should be corrected from `0efedac` (HEAD) to `e96af69` (the commit actually referenced in PR #1669).
 
 ## Source pin corrected (checked 2026-11-11)
 

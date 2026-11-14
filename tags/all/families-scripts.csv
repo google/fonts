@@ -844,6 +844,7 @@ Alkatra,,/Expressive/Loud,27,
 Alkatra,wght@400,/Expressive/Playful,31,
 Alkatra,wght@700,/Expressive/Playful,35,
 Alkatra,,/Expressive/Rugged,30,
+Alkatra,,/Expressive/Rugged,0,bengali
 Alkatra,wght@400,/Expressive/Sincere,80,
 Alkatra,wght@700,/Expressive/Sincere,80,
 Alkatra,wght@400,/Expressive/Stiff,1,
@@ -1415,6 +1416,10 @@ Anek Bangla,"wdth,wght@75,100",/Expressive/Rugged,1,
 Anek Bangla,"wdth,wght@75,800",/Expressive/Rugged,30,
 Anek Bangla,"wdth,wght@125,100",/Expressive/Rugged,1,
 Anek Bangla,"wdth,wght@125,800",/Expressive/Rugged,20,
+Anek Bangla,"wdth,wght@75,100",/Expressive/Rugged,0,bengali
+Anek Bangla,"wdth,wght@75,800",/Expressive/Rugged,40,bengali
+Anek Bangla,"wdth,wght@125,100",/Expressive/Rugged,0,bengali
+Anek Bangla,"wdth,wght@125,800",/Expressive/Rugged,48,bengali
 Anek Bangla,wght@100,/Expressive/Sincere,50,
 Anek Bangla,wght@800,/Expressive/Sincere,50,
 Anek Bangla,wght@100,/Expressive/Stiff,5,
@@ -2738,6 +2743,7 @@ Atma,,/Expressive/Happy,91,
 Atma,,/Expressive/Loud,1,
 Atma,,/Expressive/Playful,75,
 Atma,,/Expressive/Rugged,20,
+Atma,,/Expressive/Rugged,0,bengali
 Atma,,/Expressive/Vintage,65,
 Atma,,/Quality/Concept,60,
 Atma,,/Quality/Drawing,60,
@@ -3331,6 +3337,7 @@ Baloo Da 2,,/Expressive/Loud,1,
 Baloo Da 2,wght@400,/Expressive/Playful,25,
 Baloo Da 2,wght@800,/Expressive/Playful,30,
 Baloo Da 2,,/Expressive/Rugged,30,
+Baloo Da 2,,/Expressive/Rugged,12,bengali
 Baloo Da 2,wght@400,/Expressive/Stiff,20,
 Baloo Da 2,wght@800,/Expressive/Stiff,20,
 Baloo Da 2,,/Expressive/Vintage,10,
@@ -10159,6 +10166,7 @@ Galada,,/Expressive/Happy,36,
 Galada,,/Expressive/Loud,50,
 Galada,,/Expressive/Playful,51,
 Galada,,/Expressive/Rugged,40,
+Galada,,/Expressive/Rugged,0,bengali
 Galada,,/Expressive/Sincere,78,
 Galada,,/Expressive/Vintage,65,
 Galada,,/Quality/Concept,70,
@@ -10926,6 +10934,8 @@ Google Sans,wght@400,/Expressive/Playful,1,
 Google Sans,wght@700,/Expressive/Playful,1,
 Google Sans,wght@400,/Expressive/Rugged,2,
 Google Sans,wght@700,/Expressive/Rugged,12,
+Google Sans,wght@400,/Expressive/Rugged,0,bengali
+Google Sans,wght@700,/Expressive/Rugged,0,bengali
 Google Sans,,/Quality/Concept,100,
 Google Sans,,/Quality/Drawing,100,
 Google Sans,,/Quality/Spacing,100,
@@ -11735,6 +11745,7 @@ Hind Siliguri,,/Expressive/Calm,51,
 Hind Siliguri,,/Expressive/Competent,50,
 Hind Siliguri,,/Expressive/Loud,1,
 Hind Siliguri,,/Expressive/Rugged,40,
+Hind Siliguri,,/Expressive/Rugged,0,bengali
 Hind Siliguri,,/Expressive/Sincere,70,
 Hind Siliguri,,/Expressive/Stiff,5,
 Hind Siliguri,,/Expressive/Vintage,25,
@@ -16869,6 +16880,7 @@ Mina,,/Expressive/Calm,15,
 Mina,,/Expressive/Futuristic,72,
 Mina,,/Expressive/Loud,1,
 Mina,,/Expressive/Rugged,50,
+Mina,,/Expressive/Rugged,0,bengali
 Mina,,/Expressive/Stiff,67,
 Mina,,/Expressive/Vintage,20,
 Mina,,/Quality/Concept,60,
@@ -18797,6 +18809,10 @@ Noto Sans Bengali,"wdth,wght@62.5,100",/Expressive/Loud,12,
 Noto Sans Bengali,"wdth,wght@62.5,900",/Expressive/Loud,70,
 Noto Sans Bengali,"wdth,wght@100,100",/Expressive/Loud,14,
 Noto Sans Bengali,"wdth,wght@100,900",/Expressive/Loud,72,
+Noto Sans Bengali,"wdth,wght@62.5,100",/Expressive/Rugged,0,bengali
+Noto Sans Bengali,"wdth,wght@100,100",/Expressive/Rugged,0,bengali
+Noto Sans Bengali,"wdth,wght@62.5,900",/Expressive/Rugged,44,bengali
+Noto Sans Bengali,"wdth,wght@100,900",/Expressive/Rugged,46,bengali
 Noto Sans Bengali,"wdth,wght@62.5,100",/Expressive/Sincere,18,
 Noto Sans Bengali,"wdth,wght@62.5,900",/Expressive/Sincere,20,
 Noto Sans Bengali,"wdth,wght@100,100",/Expressive/Sincere,22,
@@ -21648,6 +21664,10 @@ Noto Serif Bengali,"wdth,wght@62.5,100",/Expressive/Loud,12,
 Noto Serif Bengali,"wdth,wght@62.5,900",/Expressive/Loud,58,
 Noto Serif Bengali,"wdth,wght@100,100",/Expressive/Loud,14,
 Noto Serif Bengali,"wdth,wght@100,900",/Expressive/Loud,60,
+Noto Serif Bengali,"wdth,wght@62.5,100",/Expressive/Rugged,0,bengali
+Noto Serif Bengali,"wdth,wght@100,100",/Expressive/Rugged,0,bengali
+Noto Serif Bengali,"wdth,wght@62.5,900",/Expressive/Rugged,0,bengali
+Noto Serif Bengali,"wdth,wght@100,900",/Expressive/Rugged,0,bengali
 Noto Serif Bengali,"wdth,wght@62.5,100",/Expressive/Sincere,18,
 Noto Serif Bengali,"wdth,wght@62.5,900",/Expressive/Sincere,20,
 Noto Serif Bengali,"wdth,wght@100,100",/Expressive/Sincere,22,
@@ -31981,6 +32001,7 @@ Tiro Bangla,,/Expressive/Business,80,
 Tiro Bangla,,/Expressive/Competent,80,
 Tiro Bangla,,/Expressive/Loud,3,
 Tiro Bangla,,/Expressive/Rugged,40,
+Tiro Bangla,,/Expressive/Rugged,0,bengali
 Tiro Bangla,,/Expressive/Sincere,70,
 Tiro Bangla,,/Expressive/Vintage,40,
 Tiro Bangla,,/Quality/Concept,70,

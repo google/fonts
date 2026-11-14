@@ -18,7 +18,7 @@ Vernon Adams was the original designer. The font was later expanded by Jacques L
 ## Repository
 
 - **URL**: https://github.com/googlefonts/Pacifico
-- **Commit**: `423e7cb2b036ead2624c05197e17a83ddf5c6068`
+- **Commit**: `aff5d08efd4883cd58a660b4b688a73edcea3d92`
 - **Config**: `sources/config.yaml`
 - **License**: OFL
 

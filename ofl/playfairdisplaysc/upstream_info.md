@@ -16,7 +16,7 @@ Unlike the main Playfair Display family, this family was distributed as static (
 ## Repository
 
 - **Repository**: https://github.com/clauseggers/Playfair
-- **Commit**: `80a334101928546b04fa9e709ad4b2f11f8a9e10`
+- **Commit**: `439686b0f8b056caa5ccc181fd0ea8c4397229bb`
 - **Config**: `sources/config.yaml`
 
 ## Font Files

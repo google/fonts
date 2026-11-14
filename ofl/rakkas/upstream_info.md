@@ -4,8 +4,8 @@
 **Date**: 2026-03-12
 
 ## Source Repository
-- **URL**: https://github.com/zeynepakay/Rakkas
-- **Commit**: `3bdb0ba164c9e987a5ab4de7f7cc8842a04d267a`
+- **URL**: https://github.com/Gue3bara/Rakkas
+- **Commit**: `2c9d43f87fb569b61c468ad82d8688c6904ac840`
 - **Status**: Source block already present with repository URL and commit hash
 
 ## What Was Done

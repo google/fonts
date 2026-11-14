@@ -18,7 +18,7 @@ The repository `m4rc1e/Ruda-new` was found to be a non-fork repository containin
 
 | Field | Value |
 |-------|-------|
-| Repository | https://github.com/m4rc1e/Ruda-new |
+| Repository | https://github.com/aaronbell/Ruda-new |
 | Source format | Glyphs (`Ruda_new.glyphs`) |
 | Latest commit | `a63532e04ffb0f46b635cf9e000966155958e19d` |
 | Commit date | 2018-05-04 |

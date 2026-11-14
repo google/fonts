@@ -23,7 +23,7 @@ The repository contained:
 The copyright string `"Copyright (c) 2007, Robert Keller (www.motaitalic.com)"` identified the designer as Robert Keller of Mota Italic. The repository was found under the [motaitalic](https://github.com/motaitalic) GitHub organization. The repository was last pushed to in June 2015.
 
 **Repo**: https://github.com/motaitalic/vesper-libre
-**Commit**: b765c5a68c1786a177b46e3b3ecd766157ffe349
+**Commit**: 30690a08e9e2278f88c51031ea474f38868b9ff5
 **Status**: Glyphs source present
 **Confidence**: High
 

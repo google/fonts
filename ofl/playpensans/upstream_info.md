@@ -16,7 +16,7 @@ It was designed with a broad, multi-script scope, supporting Latin, Cyrillic, Cy
 ## Repository
 
 - **Repository**: https://github.com/TypeTogether/Playpen-Sans
-- **Commit**: `354fed4e5d1397aa3a092e6baa41b0064c8340b5`
+- **Commit**: `e9de3f5df6328821ed98775d347b8da652fc47fc`
 - **Branch**: main
 - **Config**: `sources/config-LGC.yaml`
 

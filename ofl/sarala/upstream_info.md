@@ -12,7 +12,7 @@ The canonical upstream repository for Sarala was identified at `huertatipografic
 - **URL**: https://github.com/huertatipografica/sarala
 - **Owner**: huertatipografica (HT Fonts)
 - **Branch**: master
-- **Commit**: `7779e0c9eb121b25d9fcb7c20d5b3541b3f4fc15`
+- **Commit**: `9f767d4dd8245bf006908d6b50693eecd56958e4`
 - **Commit message**: "Minor fixes"
 
 ## Source Files Found

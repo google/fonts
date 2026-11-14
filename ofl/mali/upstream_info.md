@@ -63,6 +63,7 @@ Mali was onboarded to Google Fonts through three commits by Marc Foley:
   ```yaml
   sources:
     - source/Mali-Master.glyphs
+  buildVariable: false
   ```
 - **Source file verified**: `source/Mali-Master.glyphs` exists at upstream commit `4f4843c` (the commit used for the current fonts in google/fonts)
 

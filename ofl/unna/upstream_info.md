@@ -23,7 +23,7 @@ The repository contained:
 The repository was located by searching for the Omnibus-Type organization on GitHub, which manages many of its Google Fonts contributions under the [Omnibus-Type](https://github.com/Omnibus-Type) organization. The email address `omnibus.type@gmail.com` in the copyright string matched the organization's known contact. The repository was last updated in July 2019.
 
 **Repo**: https://github.com/Omnibus-Type/Unna
-**Commit**: 826be2abebda53d63bcd99b7ca30a7061b89bcfd
+**Commit**: ff1d2046ceeb64bca7410573ef7af2744596825d
 **Status**: Glyphs sources present
 **Confidence**: High
 

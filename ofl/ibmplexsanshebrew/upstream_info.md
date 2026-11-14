@@ -13,7 +13,7 @@ IBM Plex Sans Hebrew is the Hebrew script variant of the IBM Plex typeface famil
 | Commit Hash (missing) | 0f91126e49779170e7b2d18614f9d89a1855659b |
 | Commit Date        | 2021-06-18 |
 | Commit Message     | "Hebrew" |
-| Config YAML        | None (sources exist, override needed) |
+| Config YAML        | Override in google/fonts |
 | Source Files       | IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace |
 | Build Type         | Pre-compiled static TTFs from Google-Fonts-Fixes |
 | Status             | **needs_correction** |
@@ -45,7 +45,7 @@ Same pattern as Condensed and Devanagari: the third sub-commit explicitly remove
 
 ### Upstream Repository Verification
 
-The cached repo at `upstream_repos/fontc_crater_cache/googlefonts/plex/` confirms:
+The upstream repository confirms:
 - Commit `0f91126` exists and dates to 2021-06-18, message: "Hebrew"
 - At this commit, source files exist:
   - `IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace`
@@ -57,13 +57,11 @@ Note: These source files were later removed in January 2024 but exist at the ref
 
 ### Config.yaml Status
 
-No config.yaml exists in google/fonts for IBM Plex Sans Hebrew. Source files (.designspace + .ufo) exist at the referenced commit `0f91126`, so an override config.yaml could be created:
+An override config.yaml exists in google/fonts for IBM Plex Sans Hebrew. Source files (.designspace + .ufo) exist at the referenced commit `0f91126`:
 ```yaml
 sources:
   - IBM-Plex-Sans-Hebrew/sources/masters/IBM Plex Sans Hebrew.designspace
-familyName: IBM Plex Sans Hebrew
-buildStatic: true
-buildOTF: false
+buildVariable: false
 ```
 
 ### Issues Found

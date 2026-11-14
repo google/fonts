@@ -38,7 +38,7 @@ The v3.001 update was a major overhaul that converted Cabin from static fonts to
 
 ## Config YAML Status
 
-**No config.yaml exists** in the upstream repository at any commit, and no override config.yaml exists in the google/fonts family directory.
+**No config.yaml exists** in the upstream repository at any commit. An override in the google/fonts family directory names the two `_v3001.glyphs` files (see the last section).
 
 At the recorded commit, the source files are:
 - `sources/CabinRegular.designspace`
@@ -50,18 +50,18 @@ At the recorded commit, the source files are:
 - `sources/build.sh` (custom build script)
 - `sources/Cabin_stat_table.py`
 
-The sources are in gftools-compatible formats (designspace + glyphs), but the original build used a custom `build.sh` script rather than gftools-builder. A config.yaml would need to be created to use gftools-builder with these sources.
+The sources are in gftools-compatible formats (designspace + glyphs), but the original build used a custom `build.sh` script rather than gftools-builder.
 
 ## Verification
 
-- **Repository URL**: Confirmed valid; repo is cloned at `upstream_repos/fontc_crater_cache/impallari/Cabin/`
+- **Repository URL**: Confirmed valid
 - **Commit hash**: Verified -- exists in the repo, is HEAD of master; explicitly cited in both the google/fonts commit message and PR #2571
 - **Source files**: Designspace and Glyphs sources present at the recorded commit (gftools-compatible formats)
 - **Font binary history**: VF fonts added in google/fonts via PR #2571 (vv-monsalve, 2020-07-24)
 
 ## Confidence Level
 
-**HIGH** -- The repository URL and commit hash are thoroughly verified through multiple independent sources (commit message, PR body, copyright string). The missing_config status is accurate because no config.yaml exists in the upstream repo.
+**HIGH** -- The repository URL and commit hash are thoroughly verified through multiple independent sources (commit message, PR body, copyright string).
 
 
 ## Override Config YAML
@@ -75,11 +75,6 @@ sources:
 ```
 
 This override config enables gftools-builder to compile the font from upstream sources.
-
-## Open Questions
-
-1. Could a config.yaml override be created for the google/fonts family directory to enable gftools-builder builds from the existing designspace sources?
-2. The upstream repo uses a custom `build.sh` with specialized steps (STAT table via Python script). Would a gftools-builder config.yaml be able to replicate this build process, or would additional tooling be needed?
 
 ## Override config corrected (2026-11-13)
 

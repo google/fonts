@@ -7,7 +7,7 @@
 | Field | Value |
 |-------|-------|
 | Repository | https://github.com/itfoundry/kumar |
-| Commit | `3192a79a79202eb715d83fd044e9234a6d0dde66` |
+| Commit | `551e277f8fc8f18a5ee11935cf5007bda9930364` |
 | Confidence | High |
 
 ## Source Types

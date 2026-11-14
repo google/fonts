@@ -13,7 +13,7 @@ IBM Plex Sans Devanagari is the Devanagari script variant of the IBM Plex typefa
 | Commit Hash (missing) | 4ef531544df71be7bcd614c83b8576930ea68dbc |
 | Commit Date        | 2021-06-18 |
 | Commit Message     | "Devanagari" |
-| Config YAML        | None (sources exist, override needed) |
+| Config YAML        | Override in google/fonts |
 | Source Files       | IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace |
 | Build Type         | Pre-compiled static TTFs from Google-Fonts-Fixes |
 | Status             | **needs_correction** |
@@ -45,7 +45,7 @@ Same pattern as Condensed: the third sub-commit explicitly removed the `source` 
 
 ### Upstream Repository Verification
 
-The cached repo at `upstream_repos/fontc_crater_cache/googlefonts/plex/` confirms:
+The upstream repository confirms:
 - Commit `4ef5315` exists and dates to 2021-06-18, message: "Devanagari"
 - At this commit, source files exist:
   - `IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace`
@@ -57,13 +57,11 @@ Note: These source files were later removed in January 2024 but exist at the ref
 
 ### Config.yaml Status
 
-No config.yaml exists in google/fonts for IBM Plex Sans Devanagari. Source files (.designspace + .ufo) exist at the referenced commit `4ef5315`, so an override config.yaml could be created:
+An override config.yaml exists in google/fonts for IBM Plex Sans Devanagari. Source files (.designspace + .ufo) exist at the referenced commit `4ef5315`:
 ```yaml
 sources:
   - IBM-Plex-Sans-Devanagari/sources/masters/IBM Plex Sans Devanagari.designspace
-familyName: IBM Plex Sans Devanagari
-buildStatic: true
-buildOTF: false
+buildVariable: false
 ```
 
 ### Issues Found

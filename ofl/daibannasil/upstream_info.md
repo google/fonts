@@ -57,6 +57,7 @@ sources:
   - source/DaiBannaSIL-VF.designspace
   - source/DaiBannaSILItalic-VF.designspace
 buildVariable: false
+extraStaticFontmakeArgs: --overlaps-backend pathops
 ```
 
 This override config enables gftools-builder to compile the font from upstream sources.
@@ -67,4 +68,4 @@ This override config enables gftools-builder to compile the font from upstream s
 
 The override named `source/DaiBannaSIL{Upright,Italic}.designspace`. smith interpolates from those, but varLib can't: their default sits between the masters. The `-VF` designspaces use the same master UFOs with the default on Light, so the override now names those.
 
-With gftools 0.10.8 and fontmake 3.12.2, all 10 styles match the shipped cmap, and every glyph's bounds and advance are within 1 unit except one glyph in three italics (2 units). This needs `--overlaps-backend pathops`, since the default overlap remover fails on the masters' quadratic curves. The shipped fonts are Graphite-only, so layout differs.
+With gftools 0.10.8 and fontmake 3.12.2, all 10 styles match the shipped cmap, and every glyph's bounds and advance are within 1 unit except one glyph in three italics (2 units). This needs `--overlaps-backend pathops`, since the default overlap remover fails on the masters' quadratic curves; the override passes it as `extraStaticFontmakeArgs` (added 2026-11-14, Claude Fable 5.2: without it the gftools build fails on all 10 styles with "unsupported segment type", with it all 10 build with the shipped codepoints). The shipped fonts are Graphite-only, so layout differs.

@@ -16,7 +16,7 @@ The typeface was designed as a clean, modern sans serif with broad Latin and Lat
 ## Repository
 
 - **Repository**: https://github.com/tokotype/PlusJakartaSans
-- **Commit**: `18d1cd2f7ea10481919d2f05c1f7064b7307fc26`
+- **Commit**: `163c006ff169bbb932757276b98a26f36a1409d8`
 - **Branch**: master
 - **Config**: `sources/config.yaml`
 

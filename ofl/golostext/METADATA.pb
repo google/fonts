@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/golos-text"
-  commit: "cf2e27222937d97c2d858fff0499bcc667a64e9d"
+  commit: "58e7cb1b36693c4d017c33c2c52dc60027449053"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

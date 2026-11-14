@@ -11,7 +11,7 @@
 | Field | Value |
 |-------|-------|
 | Repository URL | https://github.com/etunni/Amita |
-| Commit | `92680c07f01285a23744cda1190690c5c7f3f73c` |
+| Commit | `bc05021c474e3b5fbe7c97f037df6331f9fb2b53` |
 | Config YAML | `sources/config.yaml` |
 
 ## Methodology

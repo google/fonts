@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as Soup
-from gflanguages import LoadScripts, languages_public_pb2
+from gflanguages import LoadScripts
+from gfmetadata import languages_public_pb2
 from gftools.util.google_fonts import WriteProto
 from google.protobuf.json_format import ParseDict
 

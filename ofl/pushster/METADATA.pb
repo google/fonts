@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/simoncozens/pushster"
   commit: "dfafa10ae7fd09fe7498a5255948c8773af60f96"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "sources/config.yaml"
     dest_file: "config.yaml"

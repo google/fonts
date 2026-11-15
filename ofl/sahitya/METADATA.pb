@@ -27,7 +27,7 @@ subsets: "latin"
 primary_script: "Deva"
 source {
   repository_url: "https://github.com/huertatipografica/sahitya"
-  commit: "c4b5b34d0fbad63654b1d9a6bff72e566bf9a2c6"
+  commit: "3d5fba22c2baba55989c9dd6daa8e4be47bb0cd4"
   files {
     source_file: "Sahitya-Regular.glyphs"
     dest_file: "Sahitya-Regular.ttf"

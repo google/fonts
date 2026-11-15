@@ -32,6 +32,7 @@ source {
     dest_file: "CastoroTitling-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "googlefonts/sources/config-castoro-titling.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

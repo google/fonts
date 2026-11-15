@@ -33,6 +33,7 @@ source {
     dest_file: "Geomini[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://fontbob.com/geomini"
 stroke: "SANS_SERIF"

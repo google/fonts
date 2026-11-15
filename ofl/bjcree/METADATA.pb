@@ -44,7 +44,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-bjcree"
-  commit: "7476fb691e64eff8956faf2bd68911cb3e1c65b7"
+  commit: "5f901e4186ad92623e34879bef0b746a6482bcb7"
   archive_url: "https://github.com/silnrsi/font-bjcree/releases/download/v7.000/BJCree-7.000.zip"
   files {
     source_file: "OFL.txt"

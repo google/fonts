@@ -27,6 +27,7 @@ source {
     dest_file: "YuyuShort-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-short.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

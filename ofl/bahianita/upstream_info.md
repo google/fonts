@@ -39,9 +39,8 @@ Also note: the METADATA.pb currently has NO source block at all. The repository_
 
 ## How Config YAML Was Resolved
 
-No config.yaml or builder.yaml exists in the upstream repository. No override config.yaml exists in the google/fonts family directory. The source files at the onboarding commit are `Bahianita/sources/Bahianita.glyphs` and `Bahianita/sources/Bahianita.ufo`.
+No config.yaml or builder.yaml exists in the upstream repository. An override config.yaml in the google/fonts family directory references `Bahianita/sources/Bahianita.glyphs`. The source files at the onboarding commit are `Bahianita/sources/Bahianita.glyphs` and `Bahianita/sources/Bahianita.ufo`.
 
-An override config.yaml needs to be created in the google/fonts family directory referencing `Bahianita/sources/Bahianita.glyphs`.
 
 ## Verification
 
@@ -71,6 +70,14 @@ This override config enables gftools-builder to compile the font from upstream s
 
 ## Open Questions
 
-1. The METADATA.pb has no source block — a PR to google/fonts is needed to add `source { repository_url, commit, branch }`.
-2. An override config.yaml needs to be created. The source path would be `Bahianita/sources/Bahianita.glyphs` (relative to repo root).
-3. The tracking file commit should be corrected from `0efedac` (HEAD) to `e96af69` (the commit actually referenced in PR #1669).
+1. The tracking file commit should be corrected from `0efedac` (HEAD) to `e96af69` (the commit actually referenced in PR #1669).
+
+## Source pin corrected (checked 2026-11-11)
+
+**Model**: Claude Opus 5.5
+
+The pin moved from [`0efedac5`](https://github.com/Omnibus-Type/Bahiana/commit/0efedac5) (a 2019 README commit) to [`e96af690`](https://github.com/Omnibus-Type/Bahiana/commit/e96af690) ("Fixed bad glyph names and vertical metrics", 2018-08-07, on `master`), as recommended above. [google/fonts `02f85890`](https://github.com/google/fonts/commit/02f85890)'s message names `e96af690`, but the commit it recorded was `0efedac5`.
+
+The shipped `Bahianita-Regular.ttf` ([google/fonts#1669](https://github.com/google/fonts/pull/1669)) matches `Bahianita/fonts/ttf/Bahianita-Regular.ttf` at `e96af690` in every table except `head` (flags, modified, checksum): md5 shipped `d168a0734ff5993f75776bfbfde025bd`, upstream `9697f8620c1f52c892e99045f018cc4d`. [`927d4511`](https://github.com/Omnibus-Type/Bahiana/commit/927d4511) (2019-03-05) later edited the Glyphs source.
+
+The override `config.yaml` (`Bahianita/sources/Bahianita.glyphs`) resolves at `e96af690`.

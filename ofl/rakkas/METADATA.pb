@@ -17,8 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/zeynepakay/Rakkas"
-  commit: "3bdb0ba164c9e987a5ab4de7f7cc8842a04d267a"
+  repository_url: "https://github.com/Gue3bara/Rakkas"
+  commit: "2c9d43f87fb569b61c468ad82d8688c6904ac840"
 }
 primary_script: "Arab"
 stroke: "SERIF"

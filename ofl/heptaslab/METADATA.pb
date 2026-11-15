@@ -22,8 +22,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/mjlagattuta/Hepta-Slab"
-  commit: "4401d23f516b412f1b8472fe705b37b8712b2ecd"
+  repository_url: "https://github.com/aaronbell/Hepta-Slab"
+  commit: "8dd0f95d35d6e691e3006e7a32aaef0cdb84acc9"
   files {
     source_file: "fonts/variable/HeptaSlab[wght].ttf"
     dest_file: "HeptaSlab[wght].ttf"

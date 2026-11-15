@@ -53,5 +53,6 @@ source {
     dest_file: "Redaction-Italic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

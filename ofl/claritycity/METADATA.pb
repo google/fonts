@@ -31,7 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/clarity-city"
-  commit: "0193ff048d04acd372716672b45eb88ee3a0119e"
+  commit: "0931475a6dc023d191ac5de7c16e8739c16e31f3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -45,5 +45,6 @@ source {
     dest_file: "ClarityCity-Italic[wght].ttf"
   }
   branch: "next"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

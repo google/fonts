@@ -27,3 +27,9 @@ No `config.yaml` (gftools builder) was present; the build relied on a bespoke `b
 - The repository also hosts a web app (`app/`) and a GitHub Pages site (`arabic.md`, `_layouts/`, `assets/`).
 - The source block includes an explicit `branch: "main"` field, consistent with the repository's default branch.
 - Only a single weight (Regular 400) is present, which is appropriate for a display Kufic design.
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Fable 5.2
+
+The override named `Qahiri.glyphs`, which does not exist at the pinned commit; fontc_crater reported it as a missing source. The source is `sources/Qahiri.glyphspackage` (the file the upstream Makefile builds), and the override now names it, with `autohintTTF: false` because the shipped font is unhinted. With gftools 0.10.8, fontmake 3.12.2 and glyphsLib 6.17.1 it builds a font with the shipped codepoints and glyph count (512). Upstream sets the version from its git tag, so this build says 0.000 where the shipped font says 4.000.

@@ -47,5 +47,6 @@ source {
     dest_file: "ScoutieSans-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

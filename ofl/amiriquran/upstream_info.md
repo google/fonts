@@ -45,6 +45,7 @@ sources:
 familyName: Amiri Quran
 buildStatic: true
 buildOTF: false
+buildVariable: false
 ```
 
 This override points to the `.glyphspackage` source file that exists in the upstream repo at the referenced commit. Since the override config.yaml exists locally in google/fonts, no `config_yaml` field is needed in METADATA.pb (google-fonts-sources auto-detects local overrides).

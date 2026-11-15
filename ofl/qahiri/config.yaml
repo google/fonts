@@ -1,3 +1,5 @@
-buildVariable: false
 sources:
-  - Qahiri.glyphs
+  - sources/Qahiri.glyphspackage
+familyName: "Qahiri"
+buildVariable: false
+autohintTTF: false

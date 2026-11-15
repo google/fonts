@@ -9,7 +9,7 @@
 | License Dir | ofl |
 | Repository URL | https://github.com/googlefonts/plex |
 | Commit Hash | 1331d4514d6ab96ddf2efbb59f0b640b9a4e9d87 |
-| Config YAML | none (sources exist at commit, override needed) |
+| Config YAML | Override in google/fonts |
 | Status | missing_commit |
 | Confidence | HIGH |
 
@@ -82,8 +82,6 @@ The commit body contains three squashed gftools-packager sub-commits:
 The third sub-commit removed the `source` block from METADATA.pb (per issue #2587 which cleaned up incomplete source blocks). The source block was later re-added by a later merge of upstream.yaml data into METADATA.pb, but without the commit hash.
 
 ### Upstream Repository Verification
-
-The plex repo is cached at `upstream_repos/fontc_crater_cache/googlefonts/plex/`.
 
 Commit `1331d4514d6ab96ddf2efbb59f0b640b9a4e9d87` exists in the cache. At this commit, source design files exist:
 

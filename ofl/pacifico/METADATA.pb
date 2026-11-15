@@ -20,6 +20,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/Pacifico"
-  commit: "423e7cb2b036ead2624c05197e17a83ddf5c6068"
-  config_yaml: "sources/config.yaml"
+  commit: "aff5d08efd4883cd58a660b4b688a73edcea3d92"
 }

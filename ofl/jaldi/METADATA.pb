@@ -27,7 +27,6 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/Omnibus-Type/Jaldi"
-  commit: "13315457c7dd2cadd03642a2edd9d9552d0c227f"
-  config_yaml: "sources/config.yaml"
+  commit: "4460fe009455b96be92bf73d1f66d0490e1e10b3"
 }
 primary_script: "Deva"

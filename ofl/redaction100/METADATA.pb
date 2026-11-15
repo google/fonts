@@ -53,6 +53,7 @@ source {
     dest_file: "Redaction100-Bold.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-bitmap.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -10,7 +10,7 @@ Hepta Slab is a variable weight slab-serif revival designed by Mike LaGattuta. T
 |--------------------|-------|
 | Family Name        | Hepta Slab |
 | Designer           | Mike LaGattuta |
-| Repository URL     | https://github.com/mjlagattuta/Hepta-Slab |
+| Repository URL     | https://github.com/aaronbell/Hepta-Slab |
 | Upstream Commit    | `4401d23f516b412f1b8472fe705b37b8712b2ecd` (initial onboarding, v1.100) |
 | Update Commit      | `8dd0f95d35d6e691e3006e7a32aaef0cdb84acc9` (from `aaronbell/Hepta-Slab` fork, v1.102) |
 | Config YAML        | Override `config.yaml` in google/fonts (references `sources/HeptaSlab.glyphs`) |
@@ -22,7 +22,7 @@ Hepta Slab is a variable weight slab-serif revival designed by Mike LaGattuta. T
 
 ### Upstream Repository
 
-The upstream repository is https://github.com/mjlagattuta/Hepta-Slab. It is cached locally at `upstream_repos/fontc_crater_cache/mjlagattuta/Hepta-Slab/`. The remote is valid and the repo has 111 commits on the `master` branch.
+The upstream repository is https://github.com/mjlagattuta/Hepta-Slab. The remote is valid and the repo has 111 commits on the `master` branch.
 
 The repo contains:
 - `sources/HeptaSlab.glyphs` -- Glyphs source file
@@ -76,3 +76,13 @@ The source block needs correction:
 2. The `files` source_file path `fonts/variable/HeptaSlab[wght].ttf` does not exist in `mjlagattuta/Hepta-Slab` at any commit. This path likely came from the `aaronbell/Hepta-Slab` fork.
 3. Since the override config.yaml is already in place and gftools-builder will compile from `sources/HeptaSlab.glyphs`, the `files` block (which maps pre-compiled binaries) could potentially be removed in favor of a build-from-source approach.
 4. Investigation of the `aaronbell/Hepta-Slab` fork would clarify the v1.102 update commit, but disk space constraints prevent cloning it.
+
+## Source repository and pin corrected (checked 2026-11-11)
+
+**Model**: Claude Opus 5.5
+
+The source block moved from `mjlagattuta/Hepta-Slab` at [`4401d23f`](https://github.com/mjlagattuta/Hepta-Slab/commit/4401d23f) (v1.100) to `aaronbell/Hepta-Slab` at [`8dd0f95d`](https://github.com/aaronbell/Hepta-Slab/commit/8dd0f95d), the commit named by [google/fonts `acfa4ad6`](https://github.com/google/fonts/commit/acfa4ad6) (v1.102, [google/fonts#3785](https://github.com/google/fonts/pull/3785)). This makes the correction recommended above.
+
+The shipped `HeptaSlab[wght].ttf` (md5 `ee466a4c6685ad36b531fb3c25acde09`) is byte-identical to `fonts/variable/HeptaSlab[wght].ttf` at `8dd0f95d`, on the fork's `master`. The `files` path and `branch` now match the recorded repository.
+
+The override `config.yaml` (`sources/HeptaSlab.glyphs`) resolves in the fork, whose own `sources/config.yaml` builds the same file. Both fontmake and fontc currently fail on the fork's `uniEFFD`, reporting incompatible paths; the cause is not yet explained, and it does not affect the pin.

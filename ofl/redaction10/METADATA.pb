@@ -53,5 +53,6 @@ source {
     dest_file: "Redaction10-Bold.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-bitmap.yaml"
 }
 stroke: "SERIF"

@@ -18,5 +18,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/itfoundry/kumar"
-  commit: "3192a79a79202eb715d83fd044e9234a6d0dde66"
+  commit: "551e277f8fc8f18a5ee11935cf5007bda9930364"
 }

@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Font Tree</title>
+<style>
+  /* Layout: a sticky toolbar, a summary strip, then one tall tree that paginates its big branches. */
+  :root {
+    --bg: #f2f4f5;
+    --panel: #ffffff;
+    --fg: #1d2226;
+    --muted: #677079;
+    --line: #d6dbdf;
+    --accent: #0e7490;
+    --accent-ink: #ffffff;
+    --key: #1e3a5f;
+    --str: #2f6b3a;
+    --num: #8a4a12;
+    --kw: #6d3fa3;
+    --hit: #fff0b3;
+    --hit-ink: #4a3a00;
+    --err: #b42318;
+    --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15181b; --panel: #1e2226; --fg: #e4e6e8; --muted: #949ca4; --line: #30373d;
+      --accent: #38b2d0; --accent-ink: #0b1216; --key: #9cc5ec; --str: #93d49f; --num: #f0b56e;
+      --kw: #c9a8f5; --hit: #5a4a10; --hit-ink: #fff1c2; --err: #f88f84;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15181b; --panel: #1e2226; --fg: #e4e6e8; --muted: #949ca4; --line: #30373d;
+    --accent: #38b2d0; --accent-ink: #0b1216; --key: #9cc5ec; --str: #93d49f; --num: #f0b56e;
+    --kw: #c9a8f5; --hit: #5a4a10; --hit-ink: #fff1c2; --err: #f88f84;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { min-height: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 14px/1.45 var(--font-ui);
+    display: flex; flex-direction: column;
+  }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  header {
+    position: sticky; top: 0; z-index: 5;
+    background: var(--panel); border-bottom: 1px solid var(--line);
+    padding: 8px max(16px, env(safe-area-inset-right, 0px)) 8px max(16px, env(safe-area-inset-left, 0px));
+    display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px;
+  }
+  header h1 { font-size: 16px; margin: 0; font-weight: 650; letter-spacing: .01em; }
+  header h1 small { color: var(--muted); font-weight: 400; margin-left: 6px; }
+  .status { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: 13px; }
+  .status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+  .status.busy::before { background: var(--num); }
+  .status.ok::before { background: var(--str); }
+  .status.err::before { background: var(--err); }
+  .status.err { color: var(--err); }
+  .spacer { flex: 1; }
+  .tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .btn {
+    border: 1px solid var(--line); background: var(--panel); border-radius: 6px;
+    padding: 4px 10px; font-size: 13px;
+  }
+  .btn:hover { border-color: var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .btn[disabled] { opacity: .5; cursor: default; }
+  .search { display: inline-flex; align-items: center; gap: 4px; }
+  .search input {
+    border: 1px solid var(--line); background: var(--bg); border-radius: 6px;
+    padding: 4px 8px; width: 200px; max-width: 50vw;
+  }
+  .search .count { color: var(--muted); font-size: 12px; min-width: 5em; font-variant-numeric: tabular-nums; }
+  select.btn { padding-right: 24px; }
+
+  main {
+    flex: 1; min-width: 0;
+    padding-block: 12px 40px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+
+  .empty {
+    margin: 10vh auto 0; max-width: 560px; text-align: center;
+    border: 2px dashed var(--line); border-radius: 12px; padding: 48px 24px;
+    background: var(--panel);
+  }
+  .empty h2 { margin: 0 0 8px; font-size: 20px; font-weight: 600; text-wrap: balance; }
+  .empty p { margin: 0 0 18px; color: var(--muted); }
+  .empty .formats { font-family: var(--font-mono); font-size: 12px; color: var(--muted); margin-top: 16px; }
+
+  .summary {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+    padding: 10px 14px; margin-bottom: 10px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 6px 18px;
+  }
+  .summary div { min-width: 0; }
+  .summary dt { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .summary dd { margin: 0; font-family: var(--font-mono); font-size: 13px; overflow-wrap: anywhere; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--panel); border-radius: 999px;
+    padding: 2px 10px; font-family: var(--font-mono); font-size: 12px;
+  }
+  .chip b { font-weight: 600; color: var(--key); }
+  .chip span { color: var(--muted); margin-left: 6px; font-variant-numeric: tabular-nums; }
+  .chip:hover { border-color: var(--accent); }
+
+  .treewrap { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; overflow-x: auto; }
+  .tree, .tree ul { list-style: none; margin: 0; padding: 0; font-family: var(--font-mono); font-size: 12.5px; line-height: 1.5; }
+  .tree ul.children { padding-left: 18px; border-left: 1px solid var(--line); margin-left: 7px; display: none; }
+  .tree li.open > ul.children { display: block; }
+  .row {
+    display: flex; align-items: baseline; gap: 8px; padding: 0 4px; border-radius: 4px;
+    white-space: nowrap; cursor: default;
+  }
+  .row:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+  .row.hit { background: var(--hit); color: var(--hit-ink); }
+  .row.hit .key, .row.hit .val { color: inherit; }
+  .caret { display: inline-block; width: 10px; color: var(--muted); flex: none; cursor: pointer; user-select: none; }
+  .caret::before { content: "▸"; }
+  .caret.leaf::before { content: ""; }
+  .caret.empty::before { content: "·"; }
+  li.open > .row > .caret::before { content: "▾"; }
+  .key { color: var(--key); font-weight: 600; cursor: pointer; }
+  .meta { color: var(--muted); font-size: 11.5px; }
+  .val { overflow-wrap: anywhere; }
+  .t-string { color: var(--str); }
+  .t-number { color: var(--num); font-variant-numeric: tabular-nums; }
+  .t-boolean, .t-null { color: var(--kw); }
+  .copy {
+    border: 0; background: transparent; color: var(--muted); font-size: 11px; padding: 0 4px;
+    border-radius: 3px; visibility: hidden;
+  }
+  .row:hover .copy, .row:focus-within .copy { visibility: visible; }
+  .copy:hover { color: var(--accent); }
+  li.more button {
+    border: 1px dashed var(--line); background: transparent; color: var(--muted);
+    border-radius: 4px; padding: 1px 8px; font-size: 12px; margin: 2px 0;
+  }
+  li.more button:hover { color: var(--accent); border-color: var(--accent); }
+
+  .pathbar {
+    position: sticky; bottom: 0; background: var(--panel); border-top: 1px solid var(--line);
+    padding: 4px max(16px, env(safe-area-inset-right, 0px)) 4px max(16px, env(safe-area-inset-left, 0px));
+    font-family: var(--font-mono); font-size: 12px; color: var(--muted);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 26px;
+  }
+
+  .errbox {
+    background: var(--panel); border: 1px solid var(--err); border-radius: 8px; padding: 10px 14px;
+    color: var(--err); margin-bottom: 10px; white-space: pre-wrap; font-family: var(--font-mono); font-size: 12px;
+    overflow-x: auto;
+  }
+
+  .dropzone {
+    position: fixed; inset: 0; z-index: 20; display: none; align-items: center; justify-content: center;
+    background: color-mix(in srgb, var(--bg) 80%, transparent);
+    border: 3px dashed var(--accent); font-size: 22px; font-weight: 600; color: var(--accent);
+    pointer-events: none;
+  }
+  body.dragging .dropzone { display: flex; }
+  input[type="file"] { display: none; }
+
+  @media (max-width: 600px) {
+    .search input { width: 140px; }
+    .tree, .tree ul { font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Font Tree <small>fontations, in your browser</small></h1>
+  <span id="status" class="status">Starting…</span>
+  <span class="spacer"></span>
+  <div class="tools">
+    <select id="fontsel" class="btn" hidden aria-label="Font in collection"></select>
+    <label class="search">
+      <input id="q" type="search" placeholder="Find key or value" aria-label="Find key or value">
+      <span id="qcount" class="count"></span>
+      <button id="qprev" class="btn" type="button" title="Previous match" disabled>↑</button>
+      <button id="qnext" class="btn" type="button" title="Next match" disabled>↓</button>
+    </label>
+    <button id="collapse" class="btn" type="button" disabled>Collapse all</button>
+    <button id="download" class="btn" type="button" disabled>Download JSON</button>
+    <button id="choose" class="btn primary" type="button">Open font…</button>
+    <input id="file" type="file" accept=".ttf,.otf,.woff,.woff2,.ttc,.otc,font/*">
+  </div>
+</header>
+
+<main>
+  <div id="empty" class="empty">
+    <h2>Drop a font anywhere on this page</h2>
+    <p>The font is decompiled by fontations (Rust) compiled to WebAssembly. Nothing leaves your browser.</p>
+    <button id="choose2" class="btn primary" type="button">Choose a file</button>
+    <div class="formats">.ttf · .otf · .woff · .woff2 · .ttc</div>
+  </div>
+  <div id="error" class="errbox" hidden></div>
+  <dl id="summary" class="summary" hidden></dl>
+  <div id="chips" class="chips" hidden></div>
+  <div id="treewrap" class="treewrap" hidden>
+    <ul id="tree" class="tree"></ul>
+  </div>
+</main>
+
+<div id="pathbar" class="pathbar"></div>
+<div class="dropzone">Drop to decompile</div>
+
+<script>
+/*__WASM_JS__*/
+</script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const statusEl = $('status');
+  const treeEl = $('tree');
+  const PAGE = 200;
+  const EXPAND_BUDGET = 4000;
+
+  const state = {
+    ff: null,
+    ready: null,
+    pending: null,
+    fonts: [],
+    current: 0,
+    tree: null,
+    rootLi: null,
+    nodes: new WeakMap(),
+    hits: [],
+    hitIndex: -1,
+    fileName: '',
+  };
+
+  // ---- status -------------------------------------------------------------
+  function setStatus(text, kind) {
+    statusEl.textContent = text;
+    statusEl.className = 'status' + (kind ? ' ' + kind : '');
+  }
+  function showError(text) {
+    const box = $('error');
+    box.textContent = text;
+    box.hidden = !text;
+  }
+  const tick = () => new Promise((r) => setTimeout(r, 30));
+
+  // ---- WebAssembly engine ---------------------------------------------------
+  // The fontations engine is inlined below as base64 so this page works from file://.
+  const WASM_B64 = '__WASM_B64__';
+  function wasmBytes() {
+    const bin = atob(WASM_B64);
+    const out = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+  async function initEngine() {
+    try {
+      setStatus('Starting the font engine…', 'busy');
+      await wasm_bindgen({ module_or_path: wasmBytes() });
+      wasm_bindgen.init_panic_hook();
+      setStatus(`Ready (${wasm_bindgen.version()}). Drop a font.`, 'ok');
+    } catch (e) {
+      setStatus('Could not start the WebAssembly engine.', 'err');
+      showError(String(e));
+      throw e;
+    }
+  }
+  state.ready = initEngine();
+
+  // ---- file handling --------------------------------------------------------
+  async function handleFile(file) {
+    if (!file) return;
+    showError('');
+    state.fileName = file.name;
+    try {
+      await state.ready;
+    } catch { return; }
+    try {
+      setStatus(`Reading ${file.name}…`, 'busy');
+      await tick();
+      const bytes = new Uint8Array(await file.arrayBuffer());
+      setStatus(`Opening ${file.name}…`, 'busy');
+      await tick();
+      if (state.ff) { state.ff.free(); state.ff = null; }
+      state.ff = new wasm_bindgen.FontFile(bytes);
+      state.fonts = JSON.parse(state.ff.summaries());
+      const sel = $('fontsel');
+      sel.innerHTML = '';
+      state.fonts.forEach((f, i) => {
+        const o = document.createElement('option');
+        o.value = i;
+        o.textContent = `${i}: ${f.fullName || f.family || 'font ' + i}`;
+        sel.append(o);
+      });
+      sel.hidden = state.fonts.length < 2;
+      await showFont(0);
+    } catch (e) {
+      setStatus(`Could not open ${file.name}.`, 'err');
+      showError(String(e.message || e));
+    }
+  }
+
+  async function showFont(i) {
+    state.current = i;
+    const sum = state.fonts[i];
+    setStatus(`Decompiling ${sum.tables.length} tables…`, 'busy');
+    await tick();
+    const t0 = performance.now();
+    const json = state.ff.dump(i);
+    state.tree = JSON.parse(json);
+    const secs = ((performance.now() - t0) / 1000).toFixed(2);
+    renderSummary(sum);
+    renderChips(sum);
+    renderTree();
+    $('empty').hidden = true;
+    $('summary').hidden = false;
+    $('chips').hidden = false;
+    $('treewrap').hidden = false;
+    $('collapse').disabled = false;
+    $('download').disabled = false;
+    setStatus(`${state.fileName}: ${sum.tables.length} tables, ${sum.glyphs} glyphs, decompiled in ${secs} s`, 'ok');
+  }
+
+  // ---- summary + chips --------------------------------------------------------
+  function renderSummary(s) {
+    const dl = $('summary');
+    dl.innerHTML = '';
+    const rows = [
+      ['Family', s.family], ['Style', s.style], ['PostScript name', s.psName], ['Version', s.version],
+      ['Units per em', s.upm], ['Glyphs', s.glyphs],
+      ['Container', `${s.container}${s.flavor ? ' / ' + s.flavor : ''}`],
+      ['Axes', s.axes.length ? s.axes.join(', ') : null],
+    ];
+    for (const [k, v] of rows) {
+      if (v === null || v === undefined || v === '') continue;
+      const d = document.createElement('div');
+      const dt = document.createElement('dt'); dt.textContent = k;
+      const dd = document.createElement('dd'); dd.textContent = String(v);
+      d.append(dt, dd);
+      dl.append(d);
+    }
+  }
+  function fmtBytes(n) {
+    if (n == null) return '';
+    if (n < 1024) return n + ' B';
+    if (n < 1024 * 1024) return (n / 1024).toFixed(1) + ' KB';
+    return (n / 1024 / 1024).toFixed(2) + ' MB';
+  }
+  function renderChips(s) {
+    const box = $('chips');
+    box.innerHTML = '';
+    for (const t of s.tables) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chip';
+      const name = document.createElement('b'); name.textContent = t.tag;
+      b.append(name);
+      if (t.length != null) { const sz = document.createElement('span'); sz.textContent = fmtBytes(t.length); b.append(sz); }
+      b.addEventListener('click', () => {
+        const li = reveal([t.tag]);
+        if (li) { expand(li); li.querySelector('.row').focus(); li.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
+      });
+      box.append(b);
+    }
+  }
+
+  // ---- tree ------------------------------------------------------------------
+  const isContainer = (v) => v !== null && typeof v === 'object';
+  const count = (v) => Array.isArray(v) ? v.length : Object.keys(v).length;
+  const typeOf = (v) => v === null ? 'null' : Array.isArray(v) ? 'array' : typeof v;
+
+  function fmtPath(path) {
+    return path.map((seg, i) => {
+      if (typeof seg === 'number') return `[${seg}]`;
+      if (/^[A-Za-z_$][\w$]*$/.test(seg)) return (i ? '.' : '') + seg;
+      return `[${JSON.stringify(seg)}]`;
+    }).join('');
+  }
+  function fmtVal(v) {
+    if (typeof v === 'string') return JSON.stringify(v.length > 160 ? v.slice(0, 160) + '…' : v);
+    return String(v);
+  }
+
+  function makeNode(key, value, path) {
+    const li = document.createElement('li');
+    li.className = 'node';
+    const row = document.createElement('div');
+    row.className = 'row';
+    row.tabIndex = 0;
+    const container = isContainer(value);
+    const caret = document.createElement('span');
+    caret.className = 'caret' + (container ? (count(value) ? '' : ' empty') : ' leaf');
+    const k = document.createElement('span');
+    k.className = 'key';
+    k.textContent = typeof key === 'number' ? `[${key}]` : key;
+    row.append(caret, k);
+    if (container) {
+      const n = count(value);
+      const m = document.createElement('span');
+      m.className = 'meta';
+      m.textContent = Array.isArray(value) ? `${n} item${n === 1 ? '' : 's'}` : `${n} key${n === 1 ? '' : 's'}`;
+      row.append(m);
+    } else {
+      const v = document.createElement('span');
+      v.className = 'val t-' + typeOf(value);
+      v.textContent = fmtVal(value);
+      if (typeof value === 'string' && value.length > 160) v.title = value;
+      row.append(v);
+    }
+    const copy = document.createElement('button');
+    copy.type = 'button';
+    copy.className = 'copy';
+    copy.title = 'Copy path';
+    copy.textContent = 'copy path';
+    row.append(copy);
+    li.append(row);
+    state.nodes.set(li, { key, value, path, rendered: 0 });
+    return li;
+  }
+
+  function childrenList(li) {
+    let ul = li.querySelector(':scope > ul');
+    if (!ul) { ul = document.createElement('ul'); ul.className = 'children'; li.append(ul); }
+    return ul;
+  }
+
+  // Render children of li up to index `upto` (inclusive), or one more page.
+  function renderMore(li, upto) {
+    const info = state.nodes.get(li);
+    const { value, path } = info;
+    const keys = Array.isArray(value) ? null : Object.keys(value);
+    const total = keys ? keys.length : value.length;
+    const ul = childrenList(li);
+    const moreLi = ul.querySelector(':scope > li.more');
+    if (moreLi) moreLi.remove();
+    const target = Math.min(total, upto == null ? info.rendered + PAGE : Math.max(info.rendered, upto + 1));
+    const frag = document.createDocumentFragment();
+    for (let i = info.rendered; i < target; i++) {
+      const k = keys ? keys[i] : i;
+      frag.append(makeNode(k, value[k], path.concat(k)));
+    }
+    info.rendered = target;
+    ul.append(frag);
+    if (info.rendered < total) {
+      const m = document.createElement('li');
+      m.className = 'more';
+      const b = document.createElement('button');
+      b.type = 'button';
+      const left = total - info.rendered;
+      b.textContent = `Show ${Math.min(PAGE, left)} more (${left} remaining)`;
+      b.addEventListener('click', () => renderMore(li));
+      m.append(b);
+      ul.append(m);
+    }
+  }
+
+  function expand(li) {
+    const info = state.nodes.get(li);
+    if (!info || !isContainer(info.value) || count(info.value) === 0) return;
+    li.classList.add('open');
+    if (info.rendered === 0) renderMore(li);
+  }
+  function collapse(li) { li.classList.remove('open'); }
+  function toggle(li) { li.classList.contains('open') ? collapse(li) : expand(li); }
+
+  function expandAll(li, budget) {
+    const info = state.nodes.get(li);
+    if (!isContainer(info.value) || count(info.value) === 0) return true;
+    li.classList.add('open');
+    const total = count(info.value);
+    const want = Math.min(total, budget.n);
+    if (info.rendered < want) renderMore(li, want - 1);
+    for (const child of childrenList(li).children) {
+      if (child.classList.contains('more')) continue;
+      if (budget.n-- <= 0) return false;
+      if (expandAll(child, budget) === false) return false;
+    }
+    return true;
+  }
+
+  function reveal(path) {
+    let li = state.rootLi;
+    for (const seg of path) {
+      expand(li);
+      const info = state.nodes.get(li);
+      const keys = Array.isArray(info.value) ? null : Object.keys(info.value);
+      const idx = keys ? keys.indexOf(seg) : seg;
+      if (idx < 0 || idx >= count(info.value)) return null;
+      if (info.rendered <= idx) renderMore(li, idx);
+      li = childrenList(li).children[idx];
+      if (!li) return null;
+    }
+    return li;
+  }
+
+  function renderTree() {
+    treeEl.innerHTML = '';
+    const root = document.createElement('li');
+    root.className = 'node open';
+    state.nodes.set(root, { key: null, value: state.tree, path: [], rendered: 0 });
+    state.rootLi = root;
+    treeEl.append(root);
+    renderMore(root, count(state.tree) - 1);
+    clearHits();
+  }
+
+  treeEl.addEventListener('click', (e) => {
+    const row = e.target.closest('.row');
+    if (!row) return;
+    const li = row.parentElement;
+    if (e.target.classList.contains('copy')) {
+      copyPath(state.nodes.get(li).path, e.target);
+      return;
+    }
+    if (e.altKey || e.metaKey) {
+      const ok = expandAll(li, { n: EXPAND_BUDGET });
+      if (!ok) setStatus(`Expanded the first ${EXPAND_BUDGET} nodes under ${fmtPath(state.nodes.get(li).path)}. Open the rest by hand.`, 'ok');
+      return;
+    }
+    toggle(li);
+  });
+  treeEl.addEventListener('keydown', (e) => {
+    const row = e.target.closest('.row');
+    if (!row) return;
+    const li = row.parentElement;
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(li); }
+    else if (e.key === 'ArrowRight') { e.preventDefault(); expand(li); }
+    else if (e.key === 'ArrowLeft') { e.preventDefault(); collapse(li); }
+    else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      const rows = [...treeEl.querySelectorAll('.row')].filter((r) => r.offsetParent !== null);
+      const i = rows.indexOf(row) + (e.key === 'ArrowDown' ? 1 : -1);
+      if (rows[i]) rows[i].focus();
+    }
+  });
+  const pathbar = $('pathbar');
+  function showPath(row) {
+    const info = state.nodes.get(row.parentElement);
+    pathbar.textContent = info ? fmtPath(info.path) : '';
+  }
+  treeEl.addEventListener('mouseover', (e) => { const r = e.target.closest('.row'); if (r) showPath(r); });
+  treeEl.addEventListener('focusin', (e) => { const r = e.target.closest('.row'); if (r) showPath(r); });
+
+  async function copyPath(path, btn) {
+    const text = fmtPath(path);
+    try {
+      await navigator.clipboard.writeText(text);
+      btn.textContent = 'copied';
+    } catch {
+      pathbar.textContent = text;
+      const range = document.createRange(); range.selectNodeContents(pathbar);
+      const sel = getSelection(); sel.removeAllRanges(); sel.addRange(range);
+      btn.textContent = 'select below';
+    }
+    setTimeout(() => { btn.textContent = 'copy path'; }, 1200);
+  }
+
+  // ---- search -----------------------------------------------------------------
+  function clearHits() {
+    for (const r of treeEl.querySelectorAll('.row.hit')) r.classList.remove('hit');
+    state.hits = [];
+    state.hitIndex = -1;
+    $('qcount').textContent = '';
+    $('qprev').disabled = $('qnext').disabled = true;
+  }
+  function findHits(q) {
+    const hits = [];
+    const MAX = 500;
+    const walk = (v, path) => {
+      if (hits.length >= MAX || !isContainer(v)) return;
+      const keys = Array.isArray(v) ? null : Object.keys(v);
+      const n = keys ? keys.length : v.length;
+      for (let i = 0; i < n && hits.length < MAX; i++) {
+        const k = keys ? keys[i] : i;
+        const child = v[k];
+        const p = path.concat(k);
+        const keyHit = keys && k.toLowerCase().includes(q);
+        if (keyHit) hits.push(p);
+        if (isContainer(child)) walk(child, p);
+        else if (!keyHit) {
+          if (typeof child === 'string' ? child.toLowerCase().includes(q) : String(child) === q) hits.push(p);
+        }
+      }
+    };
+    walk(state.tree, []);
+    return hits;
+  }
+  function gotoHit(i) {
+    if (!state.hits.length) return;
+    state.hitIndex = (i + state.hits.length) % state.hits.length;
+    const li = reveal(state.hits[state.hitIndex]);
+    if (li) {
+      const row = li.querySelector('.row');
+      row.classList.add('hit');
+      row.scrollIntoView({ block: 'center' });
+      row.focus({ preventScroll: true });
+    }
+    $('qcount').textContent = `${state.hitIndex + 1} / ${state.hits.length}${state.hits.length === 500 ? '+' : ''}`;
+  }
+  $('q').addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    e.preventDefault();
+    if (!state.tree) return;
+    const q = e.target.value.trim().toLowerCase();
+    clearHits();
+    if (!q) return;
+    state.hits = findHits(q);
+    if (!state.hits.length) { $('qcount').textContent = 'no match'; return; }
+    for (const p of state.hits) { const li = reveal(p); if (li) li.querySelector('.row').classList.add('hit'); }
+    $('qprev').disabled = $('qnext').disabled = false;
+    gotoHit(e.shiftKey ? -1 : 0);
+  });
+  $('qnext').addEventListener('click', () => gotoHit(state.hitIndex + 1));
+  $('qprev').addEventListener('click', () => gotoHit(state.hitIndex - 1));
+
+  // ---- toolbar ------------------------------------------------------------------
+  $('collapse').addEventListener('click', () => { if (state.tree) renderTree(); });
+  $('download').addEventListener('click', () => {
+    if (!state.tree) return;
+    const blob = new Blob([JSON.stringify(state.tree, null, 1)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = state.fileName.replace(/\.[^.]+$/, '') + '.json';
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  });
+  $('fontsel').addEventListener('change', (e) => showFont(Number(e.target.value)));
+  $('choose').addEventListener('click', () => $('file').click());
+  $('choose2').addEventListener('click', () => $('file').click());
+  $('file').addEventListener('change', (e) => { handleFile(e.target.files[0]); e.target.value = ''; });
+
+  // ---- drag and drop --------------------------------------------------------------
+  let dragDepth = 0;
+  document.addEventListener('dragenter', (e) => {
+    if (![...e.dataTransfer.types].includes('Files')) return;
+    e.preventDefault();
+    dragDepth++;
+    document.body.classList.add('dragging');
+  });
+  document.addEventListener('dragover', (e) => {
+    if (![...e.dataTransfer.types].includes('Files')) return;
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'copy';
+  });
+  document.addEventListener('dragleave', () => {
+    if (--dragDepth <= 0) { dragDepth = 0; document.body.classList.remove('dragging'); }
+  });
+  document.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dragDepth = 0;
+    document.body.classList.remove('dragging');
+    handleFile(e.dataTransfer.files[0]);
+  });
+})();
+</script>
+</body>
+</html>

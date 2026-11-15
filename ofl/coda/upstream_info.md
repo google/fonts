@@ -10,7 +10,7 @@
 | Commit Hash | 41ce6c5246c919290b49dc97cc233815428636f2 |
 | Branch | master (default) |
 | **Config YAML** | Override in google/fonts |
-| Override Config | No |
+| Override Config | Yes |
 | **Status** | complete |
 
 ## How URL Was Found
@@ -33,7 +33,7 @@ The commit itself (message: "as") only adds .DS_Store files, which is typical of
 
 These are individual UFO masters with no designspace file or build configuration. The directory structure suggests work-in-progress state. The repo also contains CodaCaption sources.
 
-No override config.yaml exists in google/fonts either. Creating one would require determining which UFOs correspond to the published Coda-Regular.ttf and Coda-ExtraBold.ttf files, and likely creating a designspace file.
+The override config.yaml in google/fonts names the two `coda/1.0` UFOs, which the published Coda-Regular.ttf and Coda-ExtraBold.ttf correspond to (see the last section).
 
 ## Verification
 
@@ -41,13 +41,11 @@ No override config.yaml exists in google/fonts either. Creating one would requir
 - **Commit exists**: Yes, `41ce6c52` is the HEAD of master
 - **Commit is HEAD**: Yes, this is the latest commit in the repository
 - **Font binaries match**: The font was last updated in PR #879 (2017), using sources from this repo
-- **Source block on main**: Only repository_url is on main; commit hash is on a pending PR branch (`sources_info_2026-02-25`)
+- **Source block on main**: repository_url and commit
 
 ## Confidence Level
 
 **High** for repository URL and commit hash. The repo is clearly the correct upstream for Coda. The commit hash is the HEAD and only possible commit to reference since no newer commits exist.
-
-**Note**: The "missing_config" status is accurate -- an override config.yaml would need to be created to make this buildable, but the UFO structure is non-standard and would need investigation to determine the correct build setup.
 
 
 ## Override Config YAML
@@ -56,14 +54,24 @@ An override `config.yaml` has been added to the google/fonts family directory. C
 
 ```yaml
 sources:
-  - coda/in-progress/Regular/src/Coda.ufo
-  - coda/in-progress/Heavy/src/Coda-Heavy-IN.ufo
+  - coda/1.0/Regular/src/Coda.ufo
+  - coda/1.0/Heavy/src/Coda-Heavy.ufo
 buildVariable: false
 ```
 
 This override config enables gftools-builder to compile the font from upstream sources.
 
-## Open Questions
+## Override config corrected (2026-11-13)
 
-1. Which UFO files in the repo correspond to the published v2.001 Coda-Regular.ttf and Coda-ExtraBold.ttf? The "in-progress" directory structure makes this unclear.
-2. Should an override config.yaml be created for Coda, and if so, what should its build configuration look like?
+**Model**: Claude Opus 5.5
+
+The override named the `coda/in-progress` UFOs, unreleased v3 work that encodes U+021A twice. The shipped v2.001 matches the 2012 binaries in `coda/1.0`, which sit next to their sources, so the override now names `coda/1.0/Regular/src/Coda.ufo` and `coda/1.0/Heavy/src/Coda-Heavy.ufo`.
+
+With gftools 0.10.8 and fontmake 3.12.2, Regular matches the shipped cmap, and every glyph's bounds and advance are within 1 unit. Heavy still fails: its `lib.plist` and glyph libs are malformed. With those repaired in a scratch copy, it matches the shipped ExtraBold exactly.
+
+### Note on Coda.ufo (2026-11-14)
+
+**Model**: Claude Fable 5.2
+
+On a case-sensitive filesystem (Linux, so also fontc_crater's CI) `coda/1.0/Regular/src/Coda.ufo` does not load: `glyphs/contents.plist` names 147 of its 393 files with capitals (`A_.glif`), but the repository has them in lower case (`a_.glif`). fontmake stops with "The file 'A_.glif' associated with glyph 'A' in contents.plist does not exist". The Regular result above holds on a case-insensitive filesystem; in a scratch copy with the 147 files renamed, the build has the shipped cmap and all 392 paired glyphs are within 1 unit in bounds and advance. So on Linux both sources of this override fail today.
+

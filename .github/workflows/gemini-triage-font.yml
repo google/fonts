@@ -23,7 +23,7 @@ jobs:
     outputs:
       available_labels: "${{ steps.get_labels.outputs.available_labels }}"
       available_milestones: "${{ steps.get_labels.outputs.available_milestones }}"
-      milestone_map: "${{ steps.get_labels.outputs.available_milestones }}"
+      milestone_map: "${{ steps.get_labels.outputs.milestone_map }}"
       selected_labels: "${{ env.SELECTED_LABELS }}"
       selected_milestone: "${{ env.SELECTED_MILESTONE }}"
       selected_comment: "${{ env.SELECTED_COMMENT }}"
@@ -33,13 +33,15 @@ jobs:
       issues: "read"
     steps:
       - name: "Checkout repository"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@11d5960a326750d5838078e36cf38b85af677262" # ratchet:actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: "Copy custom gemini commands"
         run: |
           mkdir -p .gemini/commands
           cp -r .github/commands/* .gemini/commands/
       - name: "Set up Fontspector"
-        uses: fonttools/setup-fontspector@main
+        uses: "fonttools/setup-fontspector@d53404291dc78a5a41cf76ea48e1d13a731fb812" # ratchet:fonttools/setup-fontspector@main
         with:
           version: head
         env:
@@ -70,17 +72,9 @@ jobs:
             core.setOutput('available_labels', labelNames.join(','));
             return labelNames;
 
-      - name: "Mint identity token"
-        id: "mint_identity_token"
-        if: ${{ vars.APP_ID }}
-        uses: "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf"
-        with:
-          app-id: "${{ vars.APP_ID }}"
-          private-key: "${{ secrets.APP_PRIVATE_KEY }}"
-
       - name: "Run Gemini font issue analysis"
         id: "gemini_analysis"
-        uses: "google-github-actions/run-gemini-cli@v0" # ratchet:exclude
+        uses: "google-github-actions/run-gemini-cli@f77273f4c914e4bf38440cf36a0369cb64a37489" # ratchet:google-github-actions/run-gemini-cli@v0.1.22
         env:
           AVAILABLE_LABELS: "${{ steps.get_labels.outputs.available_labels }}"
           AVAILABLE_MILESTONES: "${{ steps.get_labels.outputs.available_milestones }}"
@@ -142,12 +136,15 @@ jobs:
         with:
           app-id: "${{ vars.APP_ID }}"
           private-key: "${{ secrets.APP_PRIVATE_KEY }}"
+          permission-issues: "write" # labels, comments, milestones
+          permission-organization-projects: "write" # add issues to the org project board
 
       - name: "Apply triage results"
+        id: "apply_triage"
         env:
           ISSUE_NUMBER: "${{ github.event.issue.number }}"
           AVAILABLE_LABELS: "${{ needs.triage.outputs.available_labels }}"
-          AVAILABLE_MILESTONES: "${{ needs.triage.outputs.available_milestones }}"
+          MILESTONE_MAP: "${{ needs.triage.outputs.milestone_map }}"
           SELECTED_LABELS: "${{ needs.triage.outputs.selected_labels }}"
           SELECTED_MILESTONE: "${{ needs.triage.outputs.selected_milestone }}"
           SELECTED_COMMENT: "${{ needs.triage.outputs.selected_comment }}"
@@ -175,14 +172,49 @@ jobs:
               });
             }
 
-            if (process.env.SELECTED_MILESTONE) {
-              const milestoneMap = (process.env.AVAILABLE_MILESTONES || '').split(',').map(m => m.split('=')).reduce((acc, [k,v]) => (acc[k] = parseInt(v), acc), {});
-              if (milestoneMap[process.env.SELECTED_MILESTONE]) {
+            core.setOutput('milestone_applied', '');
+            const selectedMilestone = (process.env.SELECTED_MILESTONE || '').trim();
+            if (selectedMilestone) {
+              // MILESTONE_MAP looks like "Title A=12, Title B=34"
+              const milestoneMap = (process.env.MILESTONE_MAP || '')
+                .split(',')
+                .map(m => m.trim())
+                .filter(m => m.includes('='))
+                .reduce((acc, m) => {
+                  const i = m.lastIndexOf('=');
+                  acc[m.slice(0, i).trim()] = parseInt(m.slice(i + 1), 10);
+                  return acc;
+                }, {});
+              const milestoneNumber = milestoneMap[selectedMilestone];
+              if (milestoneNumber) {
                 await github.rest.issues.update({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: process.env.ISSUE_NUMBER,
-                  milestone: milestoneMap[process.env.SELECTED_MILESTONE],
+                  milestone: milestoneNumber,
                 });
+                core.setOutput('milestone_applied', selectedMilestone);
+              } else {
+                core.warning(`Milestone "${selectedMilestone}" not found. Available: ${Object.keys(milestoneMap).join(', ')}`);
               }
             }
+
+      - name: "Add to Google Fonts project"
+        if: "${{ steps.apply_triage.outputs.milestone_applied == 'Submissions to review' && vars.SUBMISSIONS_PROJECT_ID != '' && steps.mint_identity_token.outputs.token != '' }}"
+        env:
+          PROJECT_ID: "${{ vars.SUBMISSIONS_PROJECT_ID }}"
+          ISSUE_NODE_ID: "${{ github.event.issue.node_id }}"
+        uses: "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd"
+        with:
+          # Org-level projects are not reachable with GITHUB_TOKEN: this needs
+          # the GitHub App token, with organization "Projects: read and write".
+          github-token: "${{ steps.mint_identity_token.outputs.token }}"
+          script: |-
+            await github.graphql(
+              `mutation($projectId: ID!, $contentId: ID!) {
+                addProjectV2ItemById(input: { projectId: $projectId, contentId: $contentId }) {
+                  item { id }
+                }
+              }`,
+              { projectId: process.env.PROJECT_ID, contentId: process.env.ISSUE_NODE_ID }
+            );

@@ -1,3 +1,4 @@
-buildVariable: false
 sources:
-  - src/NerkoOne-Regular.sfd
+  - src/NerkoOne-Regular.ufo
+familyName: "Nerko One"
+buildVariable: false

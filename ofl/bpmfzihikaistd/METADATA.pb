@@ -18,6 +18,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/ButTaiwan/bpmfvs"
-  commit: "20f741c18bb917b63576293906c01e82ddfce032"
+  commit: "8fa2d3a6f50348d870ea273cb35a7879a82dbac8"
 }
 primary_script: "Hant"

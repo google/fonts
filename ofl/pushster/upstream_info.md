@@ -87,3 +87,9 @@ gh api repos/impallari/The-Lobster-Font/commits/9101378a660fa0b93a03372467df8dfd
 - **Config**: No files mapping present in source block (bare repository_url only)
 - **Status**: Commit hash added to METADATA.pb; multiple metadata quality issues identified (corrupt copyright string, wrong primary_script, wrong minisite_url)
 - **Confidence**: Low — binary mismatch between GF copy and all upstream commits
+
+## Override config corrected (2026-11-13)
+
+**Model**: Claude Fable 5.2
+
+The override named `Lobster.glyphs` at the repository root; the file is `sources/Lobster.glyphs`, and fontc_crater reported a missing source. The repository has its own `sources/config.yaml` at the pinned commit, so the override was removed and `config_yaml` names the upstream file. With gftools 0.10.8, fontmake 3.12.2 and glyphsLib 6.17.1 it builds `Pushster-Regular.ttf` with the shipped glyph count (1174); the shipped font also maps U+FB00, U+FB03 and U+FB04, which this build does not.

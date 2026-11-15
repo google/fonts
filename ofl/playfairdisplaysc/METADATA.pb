@@ -64,6 +64,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/clauseggers/Playfair"
-  commit: "80a334101928546b04fa9e709ad4b2f11f8a9e10"
-  config_yaml: "sources/config.yaml"
+  commit: "439686b0f8b056caa5ccc181fd0ea8c4397229bb"
 }

@@ -29,6 +29,7 @@ source {
     dest_file: "HiburMono-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Ethi"
 stroke: "SANS_SERIF"

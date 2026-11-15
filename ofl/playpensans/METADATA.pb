@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "354fed4e5d1397aa3a092e6baa41b0064c8340b5"
+  commit: "e9de3f5df6328821ed98775d347b8da652fc47fc"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

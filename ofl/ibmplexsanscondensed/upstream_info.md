@@ -13,7 +13,7 @@ IBM Plex Sans Condensed is the condensed variant of the IBM Plex Sans typeface f
 | Commit Hash (missing) | 71d012bccb31a2e282cc46de63b387ff7f676287 |
 | Commit Date        | 2021-06-11 |
 | Commit Message     | "Clarified URL" |
-| Config YAML        | None (sources exist, override needed) |
+| Config YAML        | Override in google/fonts |
 | Source Files       | IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace, IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace |
 | Build Type         | Pre-compiled static TTFs from Google-Fonts-Fixes |
 | Status             | **needs_correction** |
@@ -46,7 +46,7 @@ The third sub-commit explicitly removed the `source` block from METADATA.pb (per
 
 ### Upstream Repository Verification
 
-The cached repo at `upstream_repos/fontc_crater_cache/googlefonts/plex/` confirms:
+The upstream repository confirms:
 - Commit `71d012b` exists and dates to 2021-06-11, message: "Clarified URL"
 - At this commit, source files exist:
   - `IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace`
@@ -57,14 +57,12 @@ Note: These source files were later removed in January 2024 but exist at the ref
 
 ### Config.yaml Status
 
-No config.yaml exists in google/fonts for IBM Plex Sans Condensed. Source files (.designspace + .ufo) exist at the referenced commit `71d012b`, so an override config.yaml could be created:
+An override config.yaml exists in google/fonts for IBM Plex Sans Condensed. Source files (.designspace + .ufo) exist at the referenced commit `71d012b`:
 ```yaml
 sources:
   - IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Roman.designspace
   - IBM-Plex-Sans-Condensed/sources/masters/IBM Plex Sans Condensed Italic.designspace
-familyName: IBM Plex Sans Condensed
-buildStatic: true
-buildOTF: false
+buildVariable: false
 ```
 
 ### Issues Found

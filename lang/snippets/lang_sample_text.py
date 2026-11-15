@@ -10,7 +10,8 @@ lang-sample-text -l ./languages/en.textproto ./udhr_translations/en.xml
 
 """
 
-from gflanguages import LoadLanguages, languages_public_pb2
+from gflanguages import LoadLanguages
+from gfmetadata import languages_public_pb2
 from gftools.util.google_fonts import ReadProto, WriteProto
 from gflanguages.udhr import Udhr
 from lxml import etree

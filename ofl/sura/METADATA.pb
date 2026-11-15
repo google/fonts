@@ -28,5 +28,5 @@ subsets: "latin-ext"
 primary_script: "Deva"
 source {
   repository_url: "https://github.com/huertatipografica/sura"
-  commit: "d20d15fe0de4a84a9d3a944f87e9c35d4c9da612"
+  commit: "4e8dd108837963448113957f6084bba337e69381"
 }

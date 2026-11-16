@@ -1493,6 +1493,10 @@ Anek Gujarati,"wdth,wght@75,100",/Expressive/Calm,80,
 Anek Gujarati,"wdth,wght@75,800",/Expressive/Calm,80,
 Anek Gujarati,"wdth,wght@125,100",/Expressive/Calm,90,
 Anek Gujarati,"wdth,wght@125,800",/Expressive/Calm,90,
+Anek Gujarati,"wdth,wght@75,100",/Expressive/Childlike,0,gujarati
+Anek Gujarati,"wdth,wght@125,100",/Expressive/Childlike,0,gujarati
+Anek Gujarati,"wdth,wght@75,800",/Expressive/Childlike,0,gujarati
+Anek Gujarati,"wdth,wght@125,800",/Expressive/Childlike,0,gujarati
 Anek Gujarati,"wdth,wght@75,100",/Expressive/Competent,80,
 Anek Gujarati,"wdth,wght@75,800",/Expressive/Competent,80,
 Anek Gujarati,"wdth,wght@125,100",/Expressive/Competent,83,
@@ -1505,6 +1509,22 @@ Anek Gujarati,"wdth,wght@75,100",/Expressive/Cute,4,
 Anek Gujarati,"wdth,wght@75,800",/Expressive/Cute,4,
 Anek Gujarati,"wdth,wght@125,100",/Expressive/Cute,4,
 Anek Gujarati,"wdth,wght@125,800",/Expressive/Cute,4,
+Anek Gujarati,"wdth,wght@75,100",/Expressive/Happy,0,gujarati
+Anek Gujarati,"wdth,wght@125,100",/Expressive/Happy,0,gujarati
+Anek Gujarati,"wdth,wght@75,800",/Expressive/Happy,0,gujarati
+Anek Gujarati,"wdth,wght@125,800",/Expressive/Happy,0,gujarati
+Anek Gujarati,"wdth,wght@75,100",/Expressive/Fancy,0,gujarati
+Anek Gujarati,"wdth,wght@125,100",/Expressive/Fancy,0,gujarati
+Anek Gujarati,"wdth,wght@75,800",/Expressive/Fancy,0,gujarati
+Anek Gujarati,"wdth,wght@125,800",/Expressive/Fancy,0,gujarati
+Anek Gujarati,"wdth,wght@75,100",/Expressive/Excited,0,gujarati
+Anek Gujarati,"wdth,wght@125,100",/Expressive/Excited,0,gujarati
+Anek Gujarati,"wdth,wght@75,800",/Expressive/Excited,0,gujarati
+Anek Gujarati,"wdth,wght@125,800",/Expressive/Excited,0,gujarati
+Anek Gujarati,"wdth,wght@75,100",/Expressive/Cute,0,gujarati
+Anek Gujarati,"wdth,wght@75,800",/Expressive/Cute,0,gujarati
+Anek Gujarati,"wdth,wght@125,100",/Expressive/Cute,0,gujarati
+Anek Gujarati,"wdth,wght@125,800",/Expressive/Cute,0,gujarati
 Anek Gujarati,"wdth,wght@75,100",/Expressive/Innovative,78,gujarati
 Anek Gujarati,"wdth,wght@125,100",/Expressive/Innovative,80,gujarati
 Anek Gujarati,"wdth,wght@75,800",/Expressive/Innovative,78,gujarati
@@ -3248,6 +3268,8 @@ Baloo Bhai 2,wght@400,/Expressive/Childlike,32,gujarati
 Baloo Bhai 2,wght@800,/Expressive/Childlike,38,gujarati
 Baloo Bhai 2,wght@400,/Expressive/Competent,62,
 Baloo Bhai 2,wght@800,/Expressive/Competent,62,
+Baloo Bhai 2,wght@400,/Expressive/Fancy,0,gujarati
+Baloo Bhai 2,wght@800,/Expressive/Fancy,0,gujarati
 Baloo Bhai 2,wght@400,/Expressive/Excited,8,gujarati
 Baloo Bhai 2,wght@800,/Expressive/Excited,12,gujarati
 Baloo Bhai 2,wght@400,/Expressive/Cute,18,gujarati
@@ -9201,12 +9223,16 @@ Farro,,/Quality/Wordspace,70,
 Farro,,/Sans/Glyphic,100,
 Farro,,/Sans/Humanist,80,
 Farsan,,/Expressive/Active,45,
+Farsan,,/Expressive/Calm,0,gujarati
+Farsan,,/Expressive/Business,0,gujarati
 Farsan,,/Expressive/Awkward,22,gujarati
 Farsan,,/Expressive/Active,84,gujarati
 Farsan,,/Expressive/Childlike,85,
+Farsan,,/Expressive/Competent,0,gujarati
 Farsan,,/Expressive/Cute,4,gujarati
 Farsan,,/Expressive/Childlike,58,gujarati
 Farsan,,/Expressive/Excited,10,
+Farsan,,/Expressive/Futuristic,0,gujarati
 Farsan,,/Expressive/Fancy,20,gujarati
 Farsan,,/Expressive/Excited,54,gujarati
 Farsan,,/Expressive/Happy,20,
@@ -10958,13 +10984,29 @@ Google Sans Flex,,/Quality/Spacing,100,
 Google Sans Flex,,/Quality/Wordspace,100,
 Google Sans Flex,,/Sans/Geometric,85,
 Google Sans Flex,,/Sans/Grotesque,20,
+Google Sans,wght@400,/Expressive/Active,0,gujarati
+Google Sans,wght@700,/Expressive/Active,0,gujarati
 Google Sans,wght@400,/Expressive/Awkward,5,
 Google Sans,wght@700,/Expressive/Awkward,5,
+Google Sans,wght@400,/Expressive/Awkward,0,gujarati
+Google Sans,wght@700,/Expressive/Awkward,0,gujarati
 Google Sans,wght@400,/Expressive/Business,92,
 Google Sans,wght@700,/Expressive/Business,89,
 Google Sans,,/Expressive/Calm,80,
+Google Sans,wght@400,/Expressive/Childlike,0,gujarati
+Google Sans,wght@700,/Expressive/Childlike,0,gujarati
 Google Sans,,/Expressive/Calm,99,gujarati
 Google Sans,,/Expressive/Competent,100,
+Google Sans,wght@400,/Expressive/Happy,0,gujarati
+Google Sans,wght@700,/Expressive/Happy,0,gujarati
+Google Sans,wght@400,/Expressive/Futuristic,0,gujarati
+Google Sans,wght@700,/Expressive/Futuristic,0,gujarati
+Google Sans,wght@400,/Expressive/Fancy,0,gujarati
+Google Sans,wght@700,/Expressive/Fancy,0,gujarati
+Google Sans,wght@400,/Expressive/Excited,0,gujarati
+Google Sans,wght@700,/Expressive/Excited,0,gujarati
+Google Sans,wght@400,/Expressive/Cute,0,gujarati
+Google Sans,wght@700,/Expressive/Cute,0,gujarati
 Google Sans,wght@400,/Expressive/Innovative,40,
 Google Sans,wght@700,/Expressive/Innovative,42,
 Google Sans,wght@400,/Expressive/Innovative,10,gujarati
@@ -11792,11 +11834,19 @@ Hind Siliguri,,/Quality/Drawing,70,
 Hind Siliguri,,/Quality/Spacing,80,
 Hind Siliguri,,/Quality/Wordspace,90,
 Hind Siliguri,,/Sans/Humanist,100,
+Hind Vadodara,,/Expressive/Awkward,0,gujarati
+Hind Vadodara,,/Expressive/Active,0,gujarati
 Hind Vadodara,,/Expressive/Business,70,
 Hind Vadodara,,/Expressive/Business,81,gujarati
 Hind Vadodara,,/Expressive/Calm,51,
+Hind Vadodara,,/Expressive/Childlike,0,gujarati
 Hind Vadodara,,/Expressive/Calm,91,gujarati
 Hind Vadodara,,/Expressive/Competent,50,
+Hind Vadodara,,/Expressive/Happy,0,gujarati
+Hind Vadodara,,/Expressive/Futuristic,0,gujarati
+Hind Vadodara,,/Expressive/Fancy,0,gujarati
+Hind Vadodara,,/Expressive/Excited,0,gujarati
+Hind Vadodara,,/Expressive/Cute,0,gujarati
 Hind Vadodara,,/Expressive/Innovative,16,gujarati
 Hind Vadodara,,/Expressive/Competent,81,gujarati
 Hind Vadodara,,/Expressive/Loud,1,
@@ -14395,7 +14445,12 @@ Kulim Park,,/Quality/Spacing,50,
 Kulim Park,,/Quality/Wordspace,60,
 Kulim Park,,/Sans/Geometric,30,
 Kulim Park,,/Sans/Humanist,30,
+Kumar One Outline,,/Expressive/Active,0,gujarati
 Kumar One Outline,,/Expressive/Awkward,80,
+Kumar One Outline,,/Expressive/Cute,0,gujarati
+Kumar One Outline,,/Expressive/Competent,0,gujarati
+Kumar One Outline,,/Expressive/Calm,0,gujarati
+Kumar One Outline,,/Expressive/Business,0,gujarati
 Kumar One Outline,,/Expressive/Childlike,14,gujarati
 Kumar One Outline,,/Expressive/Awkward,26,gujarati
 Kumar One Outline,,/Expressive/Excited,10,
@@ -14419,7 +14474,11 @@ Kumar One Outline,,/Serif/Fat Face,30,
 Kumar One Outline,,/Serif/Modern,100,
 Kumar One Outline,,/Slab/Geometric,10,
 Kumar One Outline,,/Theme/Inline,50,
+Kumar One,,/Expressive/Active,0,gujarati
 Kumar One,,/Expressive/Awkward,45,
+Kumar One,,/Expressive/Cute,0,gujarati
+Kumar One,,/Expressive/Competent,0,gujarati
+Kumar One,,/Expressive/Calm,0,gujarati
 Kumar One,,/Expressive/Childlike,8,gujarati
 Kumar One,,/Expressive/Business,4,gujarati
 Kumar One,,/Expressive/Awkward,24,gujarati
@@ -17144,8 +17203,11 @@ Moderustic,,/Sans/Humanist,100,
 Mogra,,/Expressive/Active,72,
 Mogra,,/Expressive/Active,92,gujarati
 Mogra,,/Expressive/Awkward,45,
+Mogra,,/Expressive/Calm,0,gujarati
+Mogra,,/Expressive/Business,0,gujarati
 Mogra,,/Expressive/Awkward,28,gujarati
 Mogra,,/Expressive/Childlike,20,
+Mogra,,/Expressive/Competent,0,gujarati
 Mogra,,/Expressive/Childlike,78,gujarati
 Mogra,,/Expressive/Cute,35,
 Mogra,,/Expressive/Cute,20,gujarati
@@ -17890,9 +17952,17 @@ Mukta Malar,,/Quality/Drawing,70,
 Mukta Malar,,/Quality/Spacing,80,
 Mukta Malar,,/Quality/Wordspace,90,
 Mukta Malar,,/Sans/Humanist,100,
+Mukta Vaani,,/Expressive/Awkward,0,gujarati
+Mukta Vaani,,/Expressive/Active,0,gujarati
 Mukta Vaani,,/Expressive/Business,80,
 Mukta Vaani,,/Expressive/Calm,94,
+Mukta Vaani,,/Expressive/Childlike,0,gujarati
 Mukta Vaani,,/Expressive/Competent,60,
+Mukta Vaani,,/Expressive/Happy,0,gujarati
+Mukta Vaani,,/Expressive/Futuristic,0,gujarati
+Mukta Vaani,,/Expressive/Fancy,0,gujarati
+Mukta Vaani,,/Expressive/Excited,0,gujarati
+Mukta Vaani,,/Expressive/Cute,0,gujarati
 Mukta Vaani,,/Expressive/Innovative,10,gujarati
 Mukta Vaani,,/Expressive/Competent,96,gujarati
 Mukta Vaani,,/Expressive/Loud,1,
@@ -19358,6 +19428,7 @@ Noto Sans Gothic,,/Quality/Drawing,70,
 Noto Sans Gothic,,/Quality/Spacing,70,
 Noto Sans Gothic,,/Quality/Wordspace,100,
 Noto Sans Gothic,,/Sans/Humanist,100,
+Noto Sans Grantha,,/Expressive/Active,0,grantha
 Noto Sans Grantha,,/Expressive/Business,90,
 Noto Sans Grantha,,/Expressive/Calm,90,
 Noto Sans Grantha,,/Expressive/Competent,80,
@@ -19374,6 +19445,10 @@ Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Active,20,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Active,25,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Active,22,
 Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Active,27,
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Active,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Active,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Active,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Active,0,gujarati
 Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Artistic,5,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Artistic,5,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Artistic,5,
@@ -19382,6 +19457,10 @@ Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Awkward,5,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Awkward,5,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Awkward,5,
 Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Awkward,5,
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Awkward,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Awkward,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Awkward,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Awkward,0,gujarati
 Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Business,80,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Business,85,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Business,88,
@@ -19390,6 +19469,10 @@ Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Calm,90,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Calm,90,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Calm,94,
 Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Calm,94,
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Childlike,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Childlike,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Childlike,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Childlike,0,gujarati
 Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Competent,80,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Competent,80,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Competent,82,
@@ -19402,6 +19485,30 @@ Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Cute,4,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Cute,4,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Cute,4,
 Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Cute,4,
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Innovative,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Innovative,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Innovative,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Innovative,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Happy,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Happy,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Happy,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Happy,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Futuristic,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Futuristic,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Futuristic,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Futuristic,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Fancy,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Fancy,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Fancy,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Fancy,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Excited,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Excited,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Excited,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Excited,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Cute,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Cute,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Cute,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Cute,0,gujarati
 Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Loud,12,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Loud,70,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Loud,14,
@@ -21935,6 +22042,7 @@ Noto Serif Georgian,,/Quality/Drawing,70,
 Noto Serif Georgian,,/Quality/Spacing,70,
 Noto Serif Georgian,,/Quality/Wordspace,100,
 Noto Serif Georgian,,/Serif/Transitional,100,
+Noto Serif Grantha,,/Expressive/Active,0,grantha
 Noto Serif Grantha,,/Expressive/Business,90,
 Noto Serif Grantha,,/Expressive/Competent,80,
 Noto Serif Grantha,,/Expressive/Loud,1,
@@ -21946,9 +22054,14 @@ Noto Serif Grantha,,/Quality/Drawing,70,
 Noto Serif Grantha,,/Quality/Spacing,70,
 Noto Serif Grantha,,/Quality/Wordspace,100,
 Noto Serif Grantha,,/Serif/Transitional,100,
+Noto Serif Gujarati,wght@100,/Expressive/Active,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Active,0,gujarati
 Noto Serif Gujarati,wght@100,/Expressive/Awkward,5,
 Noto Serif Gujarati,wght@400,/Expressive/Awkward,5,
 Noto Serif Gujarati,wght@900,/Expressive/Awkward,5,
+Noto Serif Gujarati,wght@100,/Expressive/Awkward,0,gujarati
+Noto Serif Gujarati,wght@400,/Expressive/Awkward,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Awkward,0,gujarati
 Noto Serif Gujarati,wght@100,/Expressive/Business,50,
 Noto Serif Gujarati,wght@400,/Expressive/Business,90,
 Noto Serif Gujarati,wght@900,/Expressive/Business,70,
@@ -21961,8 +22074,22 @@ Noto Serif Gujarati,wght@100,/Expressive/Calm,76,gujarati
 Noto Serif Gujarati,wght@900,/Expressive/Calm,12,gujarati
 Noto Serif Gujarati,wght@100,/Expressive/Childlike,4,
 Noto Serif Gujarati,wght@900,/Expressive/Childlike,4,
+Noto Serif Gujarati,wght@100,/Expressive/Childlike,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Childlike,0,gujarati
 Noto Serif Gujarati,wght@100,/Expressive/Competent,88,
 Noto Serif Gujarati,wght@900,/Expressive/Competent,88,
+Noto Serif Gujarati,wght@100,/Expressive/Innovative,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Innovative,0,gujarati
+Noto Serif Gujarati,wght@100,/Expressive/Happy,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Happy,0,gujarati
+Noto Serif Gujarati,wght@100,/Expressive/Futuristic,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Futuristic,0,gujarati
+Noto Serif Gujarati,wght@100,/Expressive/Fancy,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Fancy,0,gujarati
+Noto Serif Gujarati,wght@100,/Expressive/Excited,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Excited,0,gujarati
+Noto Serif Gujarati,wght@100,/Expressive/Cute,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Cute,0,gujarati
 Noto Serif Gujarati,wght@600,/Expressive/Loud,35,
 Noto Serif Gujarati,wght@900,/Expressive/Loud,68,
 Noto Serif Gujarati,wght@600,/Expressive/Loud,0,gujarati
@@ -27351,9 +27478,14 @@ Ranga,,/Quality/Spacing,60,
 Ranga,,/Quality/Wordspace,90,
 Ranga,,/Script/Informal,100,
 Ranga,,/Theme/Brush,100,
+Rasa,wght@300,/Expressive/Active,0,gujarati
+Rasa,wght@700,/Expressive/Active,0,gujarati
 Rasa,wght@300,/Expressive/Awkward,5,
 Rasa,wght@400,/Expressive/Awkward,5,
 Rasa,wght@700,/Expressive/Awkward,5,
+Rasa,wght@300,/Expressive/Awkward,0,gujarati
+Rasa,wght@400,/Expressive/Awkward,0,gujarati
+Rasa,wght@700,/Expressive/Awkward,0,gujarati
 Rasa,wght@300,/Expressive/Business,85,
 Rasa,wght@400,/Expressive/Business,90,
 Rasa,wght@700,/Expressive/Business,78,
@@ -27362,10 +27494,24 @@ Rasa,wght@400,/Expressive/Business,96,gujarati
 Rasa,wght@700,/Expressive/Business,96,gujarati
 Rasa,wght@300,/Expressive/Calm,58,
 Rasa,wght@700,/Expressive/Calm,48,
+Rasa,wght@300,/Expressive/Childlike,0,gujarati
+Rasa,wght@700,/Expressive/Childlike,0,gujarati
 Rasa,wght@300,/Expressive/Calm,78,gujarati
 Rasa,wght@700,/Expressive/Calm,22,gujarati
 Rasa,wght@300,/Expressive/Competent,56,
 Rasa,wght@700,/Expressive/Competent,56,
+Rasa,wght@300,/Expressive/Innovative,0,gujarati
+Rasa,wght@700,/Expressive/Innovative,0,gujarati
+Rasa,wght@300,/Expressive/Happy,0,gujarati
+Rasa,wght@700,/Expressive/Happy,0,gujarati
+Rasa,wght@300,/Expressive/Futuristic,0,gujarati
+Rasa,wght@700,/Expressive/Futuristic,0,gujarati
+Rasa,wght@300,/Expressive/Fancy,0,gujarati
+Rasa,wght@700,/Expressive/Fancy,0,gujarati
+Rasa,wght@300,/Expressive/Excited,0,gujarati
+Rasa,wght@700,/Expressive/Excited,0,gujarati
+Rasa,wght@300,/Expressive/Cute,0,gujarati
+Rasa,wght@700,/Expressive/Cute,0,gujarati
 Rasa,wght@300,/Expressive/Competent,94,gujarati
 Rasa,wght@700,/Expressive/Competent,94,gujarati
 Rasa,,/Expressive/Loud,1,
@@ -29849,6 +29995,9 @@ Short Stack,,/Quality/Wordspace,60,
 Short Stack,,/Script/Handwritten,100,
 Short Stack,,/Seasonal/Christmas,81,
 Shrikhand,,/Expressive/Active,75,
+Shrikhand,,/Expressive/Competent,0,gujarati
+Shrikhand,,/Expressive/Calm,0,gujarati
+Shrikhand,,/Expressive/Business,0,gujarati
 Shrikhand,,/Expressive/Childlike,58,gujarati
 Shrikhand,,/Expressive/Awkward,23,gujarati
 Shrikhand,,/Expressive/Active,88,gujarati

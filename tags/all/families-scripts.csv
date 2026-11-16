@@ -1501,6 +1501,10 @@ Anek Gujarati,"wdth,wght@75,100",/Expressive/Loud,5,
 Anek Gujarati,"wdth,wght@75,800",/Expressive/Loud,70,
 Anek Gujarati,"wdth,wght@125,100",/Expressive/Loud,5,
 Anek Gujarati,"wdth,wght@125,800",/Expressive/Loud,75,
+Anek Gujarati,"wdth,wght@75,100",/Expressive/Loud,0,gujarati
+Anek Gujarati,"wdth,wght@75,800",/Expressive/Loud,74,gujarati
+Anek Gujarati,"wdth,wght@125,100",/Expressive/Loud,0,gujarati
+Anek Gujarati,"wdth,wght@125,800",/Expressive/Loud,74,gujarati
 Anek Gujarati,"wdth,wght@75,100",/Expressive/Rugged,1,
 Anek Gujarati,"wdth,wght@75,800",/Expressive/Rugged,30,
 Anek Gujarati,"wdth,wght@125,100",/Expressive/Rugged,1,
@@ -3227,6 +3231,7 @@ Baloo Bhai 2,wght@800,/Expressive/Futuristic,15,
 Baloo Bhai 2,wght@400,/Expressive/Happy,10,
 Baloo Bhai 2,wght@800,/Expressive/Happy,14,
 Baloo Bhai 2,,/Expressive/Loud,1,
+Baloo Bhai 2,,/Expressive/Loud,0,gujarati
 Baloo Bhai 2,wght@400,/Expressive/Playful,25,
 Baloo Bhai 2,wght@800,/Expressive/Playful,30,
 Baloo Bhai 2,,/Expressive/Rugged,30,
@@ -9170,6 +9175,7 @@ Farsan,,/Expressive/Childlike,85,
 Farsan,,/Expressive/Excited,10,
 Farsan,,/Expressive/Happy,20,
 Farsan,,/Expressive/Loud,1,
+Farsan,,/Expressive/Loud,0,gujarati
 Farsan,,/Expressive/Playful,10,
 Farsan,,/Expressive/Rugged,5,
 Farsan,,/Expressive/Sincere,65,
@@ -10922,6 +10928,8 @@ Google Sans,,/Expressive/Calm,80,
 Google Sans,,/Expressive/Competent,100,
 Google Sans,wght@400,/Expressive/Innovative,40,
 Google Sans,wght@700,/Expressive/Innovative,42,
+Google Sans,wght@400,/Expressive/Loud,0,gujarati
+Google Sans,wght@700,/Expressive/Loud,0,gujarati
 Google Sans,wght@400,/Expressive/Playful,1,
 Google Sans,wght@700,/Expressive/Playful,1,
 Google Sans,wght@400,/Expressive/Rugged,2,
@@ -14346,6 +14354,7 @@ Kumar One Outline,,/Expressive/Awkward,80,
 Kumar One Outline,,/Expressive/Excited,10,
 Kumar One Outline,,/Expressive/Futuristic,20,
 Kumar One Outline,,/Expressive/Innovative,20,
+Kumar One Outline,,/Expressive/Loud,92,gujarati
 Kumar One Outline,,/Expressive/Rugged,74,
 Kumar One Outline,,/Expressive/Sincere,5,
 Kumar One Outline,,/Expressive/Stiff,64,
@@ -14364,6 +14373,7 @@ Kumar One,,/Expressive/Excited,5,
 Kumar One,,/Expressive/Futuristic,20,
 Kumar One,,/Expressive/Innovative,10,
 Kumar One,,/Expressive/Loud,46,
+Kumar One,,/Expressive/Loud,82,gujarati
 Kumar One,,/Expressive/Rugged,88,
 Kumar One,,/Expressive/Sincere,5,
 Kumar One,,/Expressive/Stiff,72,
@@ -17081,6 +17091,7 @@ Mogra,,/Expressive/Excited,87,
 Mogra,,/Expressive/Happy,20,
 Mogra,,/Expressive/Innovative,50,
 Mogra,,/Expressive/Loud,26,
+Mogra,,/Expressive/Loud,72,gujarati
 Mogra,,/Expressive/Playful,76,
 Mogra,,/Expressive/Rugged,75,
 Mogra,,/Expressive/Vintage,55,
@@ -19323,6 +19334,10 @@ Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Loud,12,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Loud,70,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Loud,14,
 Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Loud,72,
+Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Loud,0,gujarati
+Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Loud,70,gujarati
+Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Loud,0,gujarati
+Noto Sans Gujarati,"wdth,wght@100,900",/Expressive/Loud,70,gujarati
 Noto Sans Gujarati,"wdth,wght@62.5,100",/Expressive/Sincere,18,
 Noto Sans Gujarati,"wdth,wght@62.5,900",/Expressive/Sincere,20,
 Noto Sans Gujarati,"wdth,wght@100,100",/Expressive/Sincere,22,
@@ -21873,6 +21888,8 @@ Noto Serif Gujarati,wght@100,/Expressive/Competent,88,
 Noto Serif Gujarati,wght@900,/Expressive/Competent,88,
 Noto Serif Gujarati,wght@600,/Expressive/Loud,35,
 Noto Serif Gujarati,wght@900,/Expressive/Loud,68,
+Noto Serif Gujarati,wght@600,/Expressive/Loud,0,gujarati
+Noto Serif Gujarati,wght@900,/Expressive/Loud,60,gujarati
 Noto Serif Gujarati,wght@100,/Expressive/Playful,1,
 Noto Serif Gujarati,wght@900,/Expressive/Playful,1,
 Noto Serif Gujarati,,/Expressive/Rugged,40,

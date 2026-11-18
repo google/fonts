@@ -12,7 +12,6 @@ fonts {
   full_name: "Recursive Sans Linear Light"
   copyright: "Copyright 2019 The Recursive Project Authors (github.com/arrowtype/recursive)"
 }
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

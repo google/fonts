@@ -27,6 +27,20 @@ subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/oregano"
+  commit: "8acb85f087f2151b2057c597a439ca8732ebd4ec"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Oregano-Italic.ttf"
+    dest_file: "Oregano-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Oregano-Regular.ttf"
+    dest_file: "Oregano-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

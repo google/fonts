@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/jimnightshade"
-  commit: "a04375d8b6c564c11f00a67fa5df1d7bf446527f"
+  repository_url: "https://github.com/googlefonts/jimnightshade"
+  commit: "11a5210e11c6bc2c988773016f3c951bfe8c64a4"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/JimNightshade-Regular.ttf"
+    dest_file: "JimNightshade-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

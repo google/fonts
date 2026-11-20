@@ -19,6 +19,16 @@ classifications: "DISPLAY"
 classifications: "HANDWRITING"
 
 source {
-  repository_url: "https://github.com/librefonts/grandhotel"
-  commit: "b0716771fb1056ca9db1d65d94e62ecf9dbedefa"
+  repository_url: "https://github.com/googlefonts/grandhotel"
+  commit: "50694216099013614c2eda174d4886b8c5c4d9d7"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GrandHotel-Regular.ttf"
+    dest_file: "GrandHotel-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/galindo"
-  commit: "dc5fea52318d56672b1e3f000851806c8b5bd2cc"
+  repository_url: "https://github.com/googlefonts/galindo"
+  commit: "1856721cb25ca4a9347270ef1c681b0cece271c8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Galindo-Regular.ttf"
+    dest_file: "Galindo-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

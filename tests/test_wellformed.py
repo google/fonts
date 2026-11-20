@@ -1,13 +1,8 @@
 import re
-import sys
+from importlib.resources import files
 
 import pytest
 from axisregistry import AxisRegistry, AxisProto
-
-if sys.version_info < (3, 10):
-    from importlib_resources import files
-else:
-    from importlib.resources import files
 
 registry = AxisRegistry()
 

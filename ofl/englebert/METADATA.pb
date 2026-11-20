@@ -16,8 +16,18 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/librefonts/englebert"
-  commit: "0b03ab09eab75a39c93f8fb0432459a7dca74176"
+  repository_url: "https://github.com/googlefonts/englebert"
+  commit: "078d44fadf93ad6d38f472080dbae534734a5ae4"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Englebert-Regular.ttf"
+    dest_file: "Englebert-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

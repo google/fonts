@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/romanesco"
+  commit: "e0e598501252b27bbb58adb25ecf60e554f5cc9b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Romanesco-Regular.ttf"
+    dest_file: "Romanesco-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

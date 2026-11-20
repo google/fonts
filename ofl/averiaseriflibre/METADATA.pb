@@ -62,6 +62,36 @@ subsets: "menu"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/averiaseriflibre"
-  commit: "d1b2ab3fcea4e6a77af02a5e7861ed7753793dfd"
+  repository_url: "https://github.com/googlefonts/averiaseriflibre"
+  commit: "473558d24c41f1a701089e3b054a18884e5a0129"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSerifLibre-Bold.ttf"
+    dest_file: "AveriaSerifLibre-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSerifLibre-BoldItalic.ttf"
+    dest_file: "AveriaSerifLibre-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSerifLibre-Italic.ttf"
+    dest_file: "AveriaSerifLibre-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSerifLibre-Light.ttf"
+    dest_file: "AveriaSerifLibre-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSerifLibre-LightItalic.ttf"
+    dest_file: "AveriaSerifLibre-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSerifLibre-Regular.ttf"
+    dest_file: "AveriaSerifLibre-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

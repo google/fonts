@@ -5,6 +5,13 @@ on:
     types:
       - 'opened'
       - 'reopened'
+      - 'edited'
+
+# One run at a time per issue. A newer run waits for the current one
+# (it is not cancelled), so an edit made during the delay is handled after it.
+concurrency:
+  group: '${{ github.workflow }}-${{ github.event.issue.number }}'
+  cancel-in-progress: false
 
 defaults:
   run:
@@ -12,18 +19,22 @@ defaults:
 
 jobs:
   dispatch:
-    # Only on open/reopen
+    # Never for bot accounts, and only for issues opened from the
+    # "Add Font" / "Update Font" templates (they apply these labels).
     if: |-
+      github.event.issue.user.type != 'Bot' &&
+      github.event.sender.type != 'Bot' &&
       (
-        github.event_name == 'issues' &&
-        contains(fromJSON('["opened", "reopened"]'), github.event.action)
+        contains(github.event.issue.labels.*.name, 'II Submission') ||
+        contains(github.event.issue.labels.*.name, 'I Font Upgrade')
       )
     runs-on: 'ubuntu-latest'
+    timeout-minutes: 20
     permissions:
       contents: 'read'
       issues: 'write'
     outputs:
-      command: '${{ steps.extract_command.outputs.command }}'
+      command: '${{ steps.precheck.outputs.command }}'
       issue_number: '${{ github.event.issue.number }}'
     steps:
       - name: 'Mint identity token'
@@ -37,19 +48,101 @@ jobs:
           permission-contents: 'read'
           permission-issues: 'write'
 
-      - name: 'Extract command'
-        id: 'extract_command'
+      - name: 'Pre-check issue (no AI)'
+        id: 'precheck'
         uses: 'actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea' # ratchet:actions/github-script@v7
         env:
-          EVENT_TYPE: '${{ github.event_name }}.${{ github.event.action }}'
+          EVENT_ACTION: '${{ github.event.action }}'
+          # On open/reopen, wait first, so issues deleted or closed as spam
+          # in the meantime never reach Gemini. 0 disables the wait.
+          TRIAGE_DELAY_MINUTES: '${{ vars.GEMINI_TRIAGE_DELAY_MINUTES || 10 }}'
+          # Minimum number of ticked requirement boxes for new font submissions.
+          MIN_CHECKED_BOXES: '${{ vars.GEMINI_MIN_CHECKED_BOXES || 1 }}'
         with:
+          github-token: '${{ steps.mint_identity_token.outputs.token || github.token }}'
           script: |
-            const eventType = process.env.EVENT_TYPE;
-            if (['issues.opened', 'issues.reopened'].includes(eventType)) {
-              core.setOutput('command', 'triage');
-            } else {
-              core.setOutput('command', 'fallthrough');
+            const MARKER = '<!-- gemini-precheck -->';
+            const action = process.env.EVENT_ACTION;
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const skip = (why) => { core.info(`Skipping triage: ${why}`); core.setOutput('command', 'skip'); };
+
+            // 1. On open/reopen, wait before doing anything.
+            const delayMinutes = Number(process.env.TRIAGE_DELAY_MINUTES) || 0;
+            if (action !== 'edited' && delayMinutes > 0) {
+              core.info(`Waiting ${delayMinutes} minute(s)...`);
+              await new Promise(resolve => setTimeout(resolve, delayMinutes * 60 * 1000));
             }
+
+            // 2. Re-read the issue: it may have been deleted, closed or edited.
+            let issue;
+            try {
+              ({ data: issue } = await github.rest.issues.get({ owner, repo, issue_number }));
+            } catch (error) {
+              return skip(`issue is no longer available (${error.status})`);
+            }
+            if (issue.state !== 'open') return skip(`issue is ${issue.state}`);
+
+            const labels = issue.labels.map(l => (typeof l === 'string' ? l : l.name));
+            const isNewFont = labels.includes('II Submission');
+            const isUpgrade = labels.includes('I Font Upgrade');
+            if (!isNewFont && !isUpgrade) return skip('no submission/upgrade label');
+
+            // 3. On edits, only act if an earlier pre-check failed (marker
+            //    comment present). Otherwise triage already ran, or never applied.
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number, per_page: 100 });
+            const markerComment = comments.find(c => (c.body || '').includes(MARKER));
+            if (action === 'edited' && !markerComment) return skip('edit on an issue that was already pre-checked');
+
+            // 4. Content checks.
+            const body = (issue.body || '').replace(/\r\n/g, '\n');
+            const REPO_URL = /https?:\/\/(?:www\.)?(?:github\.com|gitlab\.com|codeberg\.org)\/[\w.-]+\/[\w.-]+/gi;
+            const PLACEHOLDERS = [
+              /\/your\/repo\b/i,
+              /github\.com\/google\/fonts\b/i,
+              /github\.com\/googlefonts\/(?:googlefonts-project-template|glyphsets|gf-guide)\b/i,
+            ];
+            // Prefer the "Font Project Git Repo URL" section; fall back to the whole body.
+            const section = body.match(/Font Project Git Repo URL:?\**([\s\S]*?)(?:\n\s*\*\*|$)/i);
+            const haystack = section ? section[1] : body;
+            const repoUrls = (haystack.match(REPO_URL) || []).filter(u => !PLACEHOLDERS.some(p => p.test(u)));
+            const checkedBoxes = (body.match(/^\s*[-*]\s+\[[xX]\]/gm) || []).length;
+            const minChecked = Number(process.env.MIN_CHECKED_BOXES) || 0;
+
+            const problems = [];
+            if (repoUrls.length === 0) {
+              problems.push('- Add the URL of the font project repository under **Font Project Git Repo URL** (for example `https://github.com/<owner>/<repo>`).');
+            }
+            if (isNewFont && checkedBoxes < minChecked) {
+              problems.push('- Tick the requirement boxes that apply to your project (replace `[ ]` with `[x]`).');
+            }
+            core.info(`repo URLs: ${JSON.stringify(repoUrls)}, checked boxes: ${checkedBoxes}`);
+
+            // 5a. Checks failed: leave (or update) one explanatory comment, no AI.
+            if (problems.length > 0) {
+              const message = [
+                MARKER,
+                'Thanks for opening this issue! Before it can be reviewed, please edit the issue description:',
+                '',
+                ...problems,
+                '',
+                'Automatic triage runs again as soon as you edit the issue.',
+              ].join('\n');
+              if (markerComment) {
+                if (markerComment.body !== message) {
+                  await github.rest.issues.updateComment({ owner, repo, comment_id: markerComment.id, body: message });
+                }
+              } else {
+                await github.rest.issues.createComment({ owner, repo, issue_number, body: message });
+              }
+              return skip(`pre-check failed (${problems.length} problem(s))`);
+            }
+
+            // 5b. Checks passed: remove the old pre-check comment and hand over to Gemini.
+            if (markerComment) {
+              await github.rest.issues.deleteComment({ owner, repo, comment_id: markerComment.id });
+            }
+            core.setOutput('command', 'triage');
 
   triage:
     needs: 'dispatch'

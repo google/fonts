@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/peralta"
+  commit: "7e13f488eafb140c68c1e4c23b9f554d7523daa7"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Peralta-Regular.ttf"
+    dest_file: "Peralta-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

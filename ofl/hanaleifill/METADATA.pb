@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/hanaleifill"
-  commit: "1df8f49232e80f4f17d8a5eb9fc55c90a3214f61"
+  repository_url: "https://github.com/googlefonts/hanaleifill"
+  commit: "ddf4f849d6ed523f41b811965b836fa3795c7c41"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/HanaleiFill-Regular.ttf"
+    dest_file: "HanaleiFill-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -27,8 +27,12 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  repository_url: "https://github.com/yangheeryu/Gowun-Batang"
-  commit: "4e73f5a9a004927220354f4b68a4c720da538147"
+  repository_url: "https://github.com/googlefonts/gowunbatang"
+  commit: "bf6ce63b0e0655f80f377a7ffd28b974903a7908"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
   files {
     source_file: "fonts/ttf/GowunBatang-Regular.ttf"
     dest_file: "GowunBatang-Regular.ttf"
@@ -37,14 +41,7 @@ source {
     source_file: "fonts/ttf/GowunBatang-Bold.ttf"
     dest_file: "GowunBatang-Bold.ttf"
   }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  branch: "master"
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Kore"

@@ -60,6 +60,36 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/averialibre"
+  commit: "62c6d4c1f4f2cb3deab595d9b0b82032c5ae4512"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaLibre-Bold.ttf"
+    dest_file: "AveriaLibre-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaLibre-BoldItalic.ttf"
+    dest_file: "AveriaLibre-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaLibre-Italic.ttf"
+    dest_file: "AveriaLibre-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaLibre-Light.ttf"
+    dest_file: "AveriaLibre-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaLibre-LightItalic.ttf"
+    dest_file: "AveriaLibre-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaLibre-Regular.ttf"
+    dest_file: "AveriaLibre-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

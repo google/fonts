@@ -18,6 +18,16 @@ subsets: "latin-ext"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
 source {
-  repository_url: "https://github.com/librefonts/dynalight"
-  commit: "af7642053cc1189c5c8a4b93d0b4c1b1c5edcb49"
+  repository_url: "https://github.com/googlefonts/dynalight"
+  commit: "928472e4d0605aeb6330dac07a87d70f84fbcb12"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Dynalight-Regular.ttf"
+    dest_file: "Dynalight-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

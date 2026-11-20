@@ -36,8 +36,16 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  repository_url: "https://github.com/yangheeryu/Dongle"
-  commit: "f7127c4d2450e1cad20254ec692591347e2fc260"
+  repository_url: "https://github.com/googlefonts/dongle"
+  commit: "d424e1283eec663ccc1cc66c8ea7f7262d7a8b04"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Dongle-Bold.ttf"
+    dest_file: "Dongle-Bold.ttf"
+  }
   files {
     source_file: "fonts/ttf/Dongle-Light.ttf"
     dest_file: "Dongle-Light.ttf"
@@ -46,19 +54,8 @@ source {
     source_file: "fonts/ttf/Dongle-Regular.ttf"
     dest_file: "Dongle-Regular.ttf"
   }
-  files {
-    source_file: "fonts/ttf/Dongle-Bold.ttf"
-    dest_file: "Dongle-Bold.ttf"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  branch: "master"
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Kore"
 stroke: "SANS_SERIF"

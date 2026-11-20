@@ -50,6 +50,14 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+registry_default_overrides {
+  key: "GEOM"
+  value: 50.0
+}
+registry_default_overrides {
+  key: "YTAS"
+  value: 720.0
+}
 source {
   repository_url: "https://github.com/calcom/sans"
   commit: "7529124c86c5f94f57f95455b87f5104fc2295c2"
@@ -66,6 +74,5 @@ source {
     dest_file: "CalSans-Italic[GEOM,SHRP,YTAS,opsz,wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

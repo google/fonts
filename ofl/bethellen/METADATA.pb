@@ -16,5 +16,15 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/BethEllen"
-  commit: "d6c8d9b3871c432c6abfd71660885f16ddbce3e2"
+  commit: "d2eebcc2584a4596f185fe8fe428f7052332fb37"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BethEllen-Regular.ttf"
+    dest_file: "BethEllen-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

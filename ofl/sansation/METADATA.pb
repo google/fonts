@@ -63,6 +63,36 @@ subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/sansation"
+  commit: "074dd0f8c369bc9e1732230fef774782b3232855"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Sansation-Bold.ttf"
+    dest_file: "Sansation-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Sansation-BoldItalic.ttf"
+    dest_file: "Sansation-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Sansation-Italic.ttf"
+    dest_file: "Sansation-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/SansationLight-Light.ttf"
+    dest_file: "Sansation-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/SansationLight-Italic.ttf"
+    dest_file: "Sansation-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Sansation-Regular.ttf"
+    dest_file: "Sansation-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

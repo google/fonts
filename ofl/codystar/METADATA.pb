@@ -25,8 +25,22 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/codystar"
-  commit: "e32d050fbb01232b6a85423b121da89f21bba8b3"
+  repository_url: "https://github.com/googlefonts/codystar"
+  commit: "7bfc4fb2c00bf8460ab02fd1a51583a1de45f859"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Codystar-Light.ttf"
+    dest_file: "Codystar-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Codystar-Regular.ttf"
+    dest_file: "Codystar-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

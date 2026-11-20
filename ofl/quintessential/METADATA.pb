@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/quintessential"
-  commit: "a3d26ff9183382b8379f368b41b07eb52f1bd193"
+  repository_url: "https://github.com/googlefonts/quintessential"
+  commit: "32ac87daac4bd702e3d00850a9f4d152983c3efb"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Quintessential-Regular.ttf"
+    dest_file: "Quintessential-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

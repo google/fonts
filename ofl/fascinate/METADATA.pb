@@ -16,6 +16,16 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {
-  repository_url: "https://github.com/librefonts/fascinate"
-  commit: "afac7a8ab8c537ef1b89ef6c5ae52a81567b9935"
+  repository_url: "https://github.com/googlefonts/fascinate"
+  commit: "5a67838f42f72cb577748e2c8f66ef37e6548cc5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Fascinate-Regular.ttf"
+    dest_file: "Fascinate-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/stintultracondensed"
+  commit: "4994a25dc09d58c5e3f27b42f062a1093fd608ea"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/StintUltraCondensed-Regular.ttf"
+    dest_file: "StintUltraCondensed-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

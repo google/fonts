@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-03-14"
 source {
-  repository_url: "https://github.com/librefonts/berkshireswash"
-  commit: "1a4fb49d514e01ada8934472cae85cc4590efa58"
+  repository_url: "https://github.com/googlefonts/berkshireswash"
+  commit: "e18507cc4dd27f518716fb03c3937788cb62c2ae"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BerkshireSwash-Regular.ttf"
+    dest_file: "BerkshireSwash-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

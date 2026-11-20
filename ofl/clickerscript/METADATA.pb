@@ -4,8 +4,18 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-11-11"
 source {
-  repository_url: "https://github.com/librefonts/clickerscript"
-  commit: "f8f050697a52a8e2e10009db97c1a18b0099bb6f"
+  repository_url: "https://github.com/googlefonts/clickerscript"
+  commit: "3a25c83b8d44fa4ac972c8a5afd0264cca3e693e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ClickerScript-Regular.ttf"
+    dest_file: "ClickerScript-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

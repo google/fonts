@@ -14,7 +14,6 @@ from glob import glob
 from importlib.resources import files
 import os
 
-
 try:
     from ._version import version as __version__  # type: ignore
 except ImportError:

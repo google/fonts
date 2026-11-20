@@ -62,6 +62,36 @@ subsets: "menu"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/googlefonts/googlefontdirectory-hg"
-  commit: "52f780bc9d197280a9f430574e179a5f233c56b6"
+  repository_url: "https://github.com/googlefonts/averiasanslibre"
+  commit: "83dd4c4514fca2b5594567ac962e87c1c62b7ed4"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSansLibre-Bold.ttf"
+    dest_file: "AveriaSansLibre-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSansLibre-BoldItalic.ttf"
+    dest_file: "AveriaSansLibre-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSansLibre-Italic.ttf"
+    dest_file: "AveriaSansLibre-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSansLibre-Light.ttf"
+    dest_file: "AveriaSansLibre-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSansLibre-LightItalic.ttf"
+    dest_file: "AveriaSansLibre-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AveriaSansLibre-Regular.ttf"
+    dest_file: "AveriaSansLibre-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

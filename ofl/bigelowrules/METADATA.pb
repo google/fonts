@@ -4,8 +4,18 @@ license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-02"
 source {
-  repository_url: "https://github.com/librefonts/bigelowrules"
-  commit: "f3ba7414e96d1a940b935d4fa4d2bab47150c7fc"
+  repository_url: "https://github.com/googlefonts/bigelowrules"
+  commit: "d153e877f651c9c839bff2ecd4b8afc7fb07454c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BigelowRules-Regular.ttf"
+    dest_file: "BigelowRules-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 
 fonts {

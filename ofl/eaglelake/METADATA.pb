@@ -18,6 +18,16 @@ subsets: "latin-ext"
 stroke: "SERIF"
 classifications: "DISPLAY"
 source {
-  repository_url: "https://github.com/librefonts/eaglelake"
-  commit: "4e2b26479cf425b115731aa69e380fd2f5fd88e5"
+  repository_url: "https://github.com/googlefonts/eaglelake"
+  commit: "957c07a2eddc7a83def020af9f83fc6a0b9c4bb8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/EagleLake-Regular.ttf"
+    dest_file: "EagleLake-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
 }

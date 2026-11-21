@@ -1,0 +1,111 @@
+FONTLOG
+Jura Font
+===============================
+This file provides detailed information on the Jura font family.
+This information should be distributed along with the Jura fonts and
+any derivative works.
+
+Basic Font Information
+----------------------
+
+Jura was designed by Daniel Johnson.  Please send any bug reports or glyph
+requests to il.basso.buffo@gmail.com.
+
+Jura is available in four weights: Book, Medium, DemiBold, and Bold.
+
+The Jura family has an unfortunate name clash with Ed Merritt's Jura serif font,
+which may be found at http://www.tenbytwenty.com/products/typefaces/jura.
+
+In July 2016 Alexei Vanyashin completed a full redesign of the font as part
+of the Font Improvements project. 
+
+Licensing
+----------------------
+
+The Jura fonts are licensed under the Open Font License. As of version 2.5 of
+this font family, there is no longer a Reserved Name clause for the Jura fonts,
+enabling the free conversion between font formats.
+
+The glyphs in the Kayah Li range (U+A900 - U+A92F) are dual-licensed under the
+Open Font License and the GNU Public License, version 3, with the Font
+Exception. These glyphs are also included in FreeMono, which is part of
+the GNU FreeFont project (http://www.gnu.org/software/freefont/), as of the
+20100919 release.
+
+You should have received a copy of both these licenses bundled with the font.
+If you did not receive them, you may find them at the following URLs:
+
+http://scripts.sil.org/OFL
+http://www.gnu.org/licenses/gpl.txt
+
+ChangeLog
+----------------------
+
+(Versions earlier than 2.2 are lost)
+2.3
+  Completed Latin-1 Supplement
+  Added monotonic Greek range
+  Added fraction slash, foursuperior
+2.4
+  Added Amacron, Emacron, Edotaccent, Gcommaaccent, Hbar, Itilde, Imacron,
+    Iogonek, Kcommaaccent, kgreenlandic, Lcommaaccent, Ncommaaccent, Eng,
+    Omacron, Rcommaaccent, Tbar, Utilde, Umacron, Uogonek, Wcircumflex,
+    Ycircumflex, Ohorn, Uhorn, Scommaaccent, uni021A and their lowercases.
+  Added ring to spacing modifiers.
+  Added hook, horn, commaturnedabove, dotbelow to combining modifiers.
+  Added dotted consonants for Irish Gaelic, and W-diacritics for Welsh.
+  Added Vietnamese vowels.
+  Added maths symbols: Ohm, partial differential, increment, product,
+    summation, radical, infinity, integral, approx equal, not equal,
+    less than or equal, greater than or equal, lozenge.
+  Added small-caps versions of A, E, I, O to PUA to use with stacked
+    diacritics in Vietnamese; also added precomposed stacked diacritics to
+    PUA.
+  Added fi, fl ligatures.
+2.5
+  Licensing change removing Reserved Font Name.
+  Improved cedilla, hook and horn. Re-composed glyphs using these diacritics.
+  Made Ohorn- and Uhorn-based precomposed glyphs with diacritics into
+    references.
+  Added 'abvm' and 'blwm' GPOS anchors to basic Latin letters and many
+    combining diacritics.
+  Improved Cyrillic Ya (uppercase and lowercase).
+  Added inverted breve, comma above and comma below to combining diacritics.
+  Added replacement character (uniFFFD).
+  Explicitly defined .notdef, .null and nonmarkingreturn.
+2.5.1
+  Improved Cyrillic Zhe and Ka (upper- and lowercase).
+  Re-spaced and re-kerned entire font.
+2.6
+  Re-hinted using ttfautohint.
+
+3.0 (Alexei Vanyashin) July 30, 2016
+  Completed Major Project Redesign, as part of the Font Improvements program.
+  Glyphs in the GF Latin Plus range were fully redrawn and kerned. 
+  More info: https://groups.google.com/forum/#!topic/googlefonts-discuss/EbCnvq3DIco
+  New source files are in .glyphs format
+
+3.1 (Mirko Velimirovic) July 17 2019
+    Made variable font with a [wght] axis. 
+Acknowledgements
+------------
+
+When you make modifications, be sure to add your name (N), email (E),
+web-address (W) and description (D). This list is sorted by last name in
+alphabetical order.
+
+N:Mirko Velimirovic
+E: bghryct at gmail dot com
+w: https://github.com/bghryct
+D: Made Variable
+
+N: Alexei Vanyashin
+E: a at cyreal dot org
+W: http://www.cyreal.org
+D: Version 3 redesign
+
+N: Daniel Johnson (font maintainer)
+E: il.basso.buffo at gmail dot com
+w: https://github.com/ossobuffo/jura
+D: Designer of original font
+	

@@ -1,0 +1,60 @@
+FONTLOG for the Snowburst One font
+
+This file provides detailed information on Snowburst Font Software.This
+information should be distributed along with the Snowburst font and any
+derivative works.
+
+Basic Font Information
+
+Snowburst One is a low contrast serifed text typeface inspired by one of Annet
+Stirling's distinctive styles of lettering. Snowburst One's personality
+consistently shows in both small and large sizes. Because of the thin stokes
+this font is best used from medium to large sizes. Despite its surprising
+forms Snowburst is highly legible. Readers are likely to be both surprised and
+entertained by its unusual but friendly forms.
+
+Snowburst is a Unicode typeface family that supports languages that use the
+Latin script and its variants, and could be expanded to support other scripts.
+
+More specifically, this release partially supports the following Unicode
+ranges: Latin-1
+
+There are four source files:
+
+1. SnowburstOne-Regular.vfb Original Source Files with 
+   contour overlaps
+
+2. SnowburstOne-Regular_otf.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. SnowburstOne-Regular_ttf.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+4. SnowburstOne-Regular.otf PostScript outlines OTF-CFF font.
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+25 Nov 2012 (Eben Sorkin) Snowburst v1.001
+- hinted font Using TTFAutohint version 0.92
+- Mastered VBF to TTF and other formats.
+- Completed first complete version of Snowburst in Fontlab ( VBF format )
+
+01 Sept 2012 (Annet Stirling) Snowburst v1.000
+- Completed pencil designs for the typeface 
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Annet Stirling
+E: annetstirling@incisiveletterwork.com
+W: www.incisiveletterwork.com
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

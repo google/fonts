@@ -1,0 +1,91 @@
+This is the FONTLOG file for the NovaSlim Font.
+
+
+This file provides detailed information on the NovaSlim Font Software.
+This information should be distributed along with the NovaSlim fonts
+and any derivative works.
+
+
+Basic Font Information
+
+NovaSlim Font is a part of the seven fonts family. There are: NovaCut, NovaFlat,
+NovaOval, NovaRound, NovaSlim, NovaSquare and NovaMono.
+All these fonts you'll find at: http://openfontlibrary.org.
+
+NovaSlim Font is created with FontForge.
+
+NovaSlim Font is a Unicode typeface family that supports all languages that
+use the Latin script and its variants, and could be expanded to support other
+scripts.
+
+
+More specifically, this release supports the following Unicode ranges:
+
+ - Controls and Basic Latin - 0000-007F (all)
+
+ - Latin 1 - 0080-00FF (all)
+
+ - Latin A - 0100-017F (all)
+
+ - Latin B - 0192, 01E4, 01E5, 0218-021B
+
+ - Greek - 0394, 03A0, 03A3, 03A9, 03BC, 03C0
+
+ - General Punctuation - 2010-2015, 2017-2027, 2030, 2032-2037,
+                         2039, 203A, 2043, 2044
+
+ - Currency Symbols - 20AC
+
+ - Letterlike Symbols - 2105, 2113, 2122, 2126, 212E
+
+ - Mathematical Operators - 2202, 2206, 2207, 220F-2212, 2215, 2217-221B,
+                            221E, 2248, 2260, 2261, 2264, 2265
+
+ - Geometric Shapes - 25CA
+
+
+This release contains:
+
+ - NovaSlim.ttf
+ - NovaSlim.sfd
+ - FONTLOG.txt
+ - OFL.txt - official license text
+
+
+ChangeLog
+
+04 Sept 2011 wmk69 (wmk69@o2.pl) NovaSlim Version 2.0
+- design review
+
+02 Feb 2011 wmk69 (wmk69@o2.pl) NovaSlim Version 1.2
+- changed metrics table, hinting added
+
+30 Jan 2011 wmk69 (wmk69@o2.pl) NovaSlim Version 1.1
+- Latin 1 and Latin A completed, changed panose
+
+05 Jan 2011 wmk69 (wmk69@o2.pl) NovaSlim Version 1.000
+- Initial release
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D).
+
+
+History
+
+I created the NovaCut font (a base of this font) about 14-15 years ago for 
+making the inscriptions on stone. Initially the font contained only capitals 
+and digits and existed only on paper and stone inscriptions. Last year 
+I decided transfer this font to computer. I made missing small fonts and some 
+basical signs and created a font initially named Gothica. By the way I made 
+other versions of some letters. It was a lot of this at the end of my work. 
+I decided create new fonts based on these letters. And finally I created 
+six fonts family and named these fonts Nova (NovaCut, NovaFlat, NovaOval, 
+NovaRound, NovaSlim, NovaSquare - by the shape of individual fonts).
+At last I created monospace font - NovaMono - the seventh part of this family.
+
+
+04 Sept 2011 wmk69 (wmk69@o2.pl)
+

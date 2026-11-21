@@ -1,0 +1,71 @@
+FONTLOG for the Denk One font
+
+This file provides detailed information on Denk One Font Software.This
+information should be distributed along with the Denk One font and any
+derivative works.
+
+Basic Font Information
+
+Denk One is a medium contrast display sans serif. It was inspired by a hand
+painted German sign. It has been carefully adjusted to the restrictions of the
+screen. Despite having display characteristics, Denk One can be used in a wide
+range of sizes.
+
+Denk One is a Unicode typeface family that supports languages that use the
+Latin script and its variants, and could be expanded to support other scripts.
+
+More specifically, this release partially supports the following Unicode
+ranges: Latin-1
+
+There are four source files:
+
+1. DenkOne-Regular.vfb Original Source Files with 
+   contour overlaps
+
+2. DenkOne-Regular_otf.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. DenkOne-Regular_ttf.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+4. DenkOne-Regular.otf PostScript outlines OTF-CFF font.
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+4 Dec 2012 (Eben Sorkin) Denk One v1.002
+- Altered the widths of dicritics to not be zero with negative sidebearing
+  values because this appears to be causing the dicrittics not to appear in
+  the font preview for Google web fonts. Instead all diacritics have
+  sidebearings of 114 now.
+
+28 Nov 2012 (Eben Sorkin) Denk One v1.002
+- Rebuilt TTF OTFs and related files to fix a bug that left several composite
+  glyphs without diacritics
+- Added OpenType code to support automatic fractions for the fractions in the
+  font. Now if you type 1/4 1/2 3/4 you get the fractions.
+- Added OpenType code to support ordinals (a o)and superiors (1 2 3) 
+- Added omacron and Omacron
+
+24 Nov 2012 (Eben Sorkin) Denk One v1.001
+- Adjusted outlines and v metrics to improve windows Post-TTFA rendering.
+- Mastered VBF to TTF and other formats.
+- hinted font Using TTFAutohint version 0.92
+
+25 Oct 2012 (Irina Smirnova) Denk One v1.000
+- Completed first complete version of Denk One in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Irina Smirnova
+E: irina.v.sm@gmail.com
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

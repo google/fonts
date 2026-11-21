@@ -1,0 +1,148 @@
+FONTLOG
+Andika v1.000
+==========================
+
+
+This file provides detailed information on the Andika family of fonts.
+This information should be distributed along with the Andika fonts and
+any derivative works.
+
+
+Basic Font Information
+----------------------
+
+Andika ("Write!" in Swahili) is a sans serif, Unicode-compliant font
+designed especially for literacy use, taking into account the needs of
+beginning readers. The focus is on clear, easy-to-perceive letterforms
+that will not be easily confused with one another.
+
+A sans serif font is preferred by some literacy personnel for teaching
+people to read. Its forms are simpler and less cluttered than some
+serif fonts can be. For years, literacy workers have had to make do
+with fonts that were available but not really suitable for beginning
+readers and writers. In some cases, literacy specialists have had to
+tediously cobble together letters from a variety of fonts in order to
+get the all of characters they need for their particular language
+project, resulting in confusing and unattractive publications. Andika
+addresses those issues.
+
+After receiving many insightful comments on the Design Review and Basic
+fonts, we have refined Andika's final letterforms, with alternate shapes
+still available for some characters. 
+
+With the SIL TypeTuner utility (see http://scripts.sil.org/TypeTuner),
+you can select which alternates to use as Andika's default letterforms.
+
+This font now contains the same character set as Charis SIL and
+Doulos SIL.
+
+One font from this typeface family is included in this release:
+
+     * Andika Regular
+
+Work is ongoing to provide italic, bold and bold-italic weights.
+
+Features
+--------
+
+Andika supports all of the smart font features that the Doulos SIL
+font supports. It also contains features specific to Andika. 
+These are:
+   Capital Q alternate
+   Lower case j serif alternate
+   Lower case q alternate
+   No-tail t and y alternates
+   Numeral 0 1 4 6 7 9 alternates
+   Tail i and l alternates
+
+More detail on features can be seen at
+http://scripts.sil.org/SILUnicodeRF_Features.
+
+
+A Note Regarding the Open Font License and TypeTuner
+----------------------------------------------------
+
+The OFL prohibits the use of Reserved Font Names "Andika" and "SIL" in
+the name of any font that is derived from the Original Version of Andika.
+However, SIL International (the Copyright Holder) grants through
+this separate written agreement the right to use the Reserved Font Names
+in any Modified Version of this font created by using TypeTuner as long
+as the feature information contained in the Original Version is used, 
+unmodified, as the source for TypeTuner feature information, and 
+"Andika" is not the resulting font family name.
+
+TypeTuner-produced fonts created in this manner are still bound by the
+terms of the OFL. Specifically, the use of Reserved Font Names is
+prohibited when making derivatives of a TypeTuner-produced font. Anyone
+making a derivative of a TypeTuner font will need to find a different
+name. For example a TypeTuner-produced font may be named 
+"Andika Non-Literacy SomeFarAwayPlace" but a derivative of that font made 
+with other tools would not be allowed to use the "Andika" or "SIL" 
+Reserved Font Names and would have to be named something like 
+"Write Sans".
+
+
+ChangeLog
+----------
+(This should list both major and minor changes, most recent first.)
+
+8 July 2011 (SIL NRSI team) Andika Regular version 1.000
+- Released under SIL Open Font License.
+
+2 May 2008 (SIL NRSI team) Andika Basic Regular version 1.0
+- Released under SIL Open Font License.
+
+19 January 2007 (SIL NRSI team) Andika Design Review version 0.001
+- Released under Open Font License. Five new fonts containing
+revisions of some glyphs and different combinations of others.
+
+7 Aug 2006 (SIL NRSI team) Andika Design Review version 0.001
+- Released under Open Font License.
+
+
+Acknowledgements
+-----------------
+(Here is where contributors can be acknowledged. If you make modifications
+be sure to add your name (N), email (E), web-address (W) and description (D).
+This list is sorted by last name in alphabetical order.)
+
+N: Don Collingsworth
+E: nrsi@sil.org
+W: http://scripts.sil.org/
+D: Contributed some extended Latin glyphs
+
+N: Victor Gaultney
+E: victor_gaultney@sil.org
+W: http://www.sil.org/~gaultney/
+D: Original Designer
+
+N: Eric Hays
+E: nrsi@sil.org
+W: http://scripts.sil.org/
+D: Contributed some extended Latin glyphs
+
+N: Annie Olsen
+E: andika@sil.org
+W: http://scripts.sil.org/
+D: Lead Designer
+
+N: Julie Remington
+E: nrsi@sil.org
+W: http://scripts.sil.org/
+D: Contributed some extended Latin glyphs
+
+N: SIL font engineers
+E: nrsi@sil.org
+W: http://scripts.sil.org/
+D: Graphite, OpenType, and TypeTuner code, and build support
+
+
+The Andika and Andika Basic fonts are maintained by SIL International.
+
+For more information please visit the Andika page on SIL
+International's Computers and Writing Systems website:
+http://scripts.sil.org/andika
+
+Or send an e-mail to <andika AT sil DOT org>
+
+

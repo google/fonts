@@ -1,0 +1,45 @@
+name: "Baloo Bhaijaan 2"
+designer: "Ek Type"
+license: "OFL"
+category: "DISPLAY"
+date_added: "2021-10-29"
+fonts {
+  name: "Baloo Bhaijaan 2"
+  style: "normal"
+  weight: 400
+  filename: "BalooBhaijaan2[wght].ttf"
+  post_script_name: "BalooBhaijaan2-Regular"
+  full_name: "Baloo Bhaijaan 2 Regular"
+  copyright: "Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)"
+}
+subsets: "arabic"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/EkType/Baloo2-Variable"
+  commit: "da4090c1dd5798a3e72d7138e379ee1f94d6349c"
+  config_yaml: "builder/BalooBhaijaan2.yaml"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/BalooBhaijaan2[wght].ttf"
+    dest_file: "BalooBhaijaan2[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}
+primary_script: "Arab"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -1,0 +1,5 @@
+sources:
+  - source/DaiBannaSIL-VF.designspace
+  - source/DaiBannaSILItalic-VF.designspace
+buildVariable: false
+extraStaticFontmakeArgs: --overlaps-backend pathops

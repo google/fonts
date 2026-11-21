@@ -1,0 +1,59 @@
+FONTLOG for the Oregano fonts
+
+This file provides detailed information on the Oregano Font Software.
+
+This information should be distributed along with the Oregano fonts
+and any derivative works.
+
+Basic Font Information
+
+The Oregano family is based on cartoon style lettering of calligrapher
+and logo designer Rand Holub. This style of hand lettering adorned many 
+retro brochures and advertisements of the late 40's through the 1960's.
+
+This approachable vintage spunk-filled lettering style exudes a casual
+and care free flavor perfect for both on screen and printed materials.
+
+Designed by Astigmatic (AOETI).
+
+Oregano is a Unicode typeface family that supports languages that 
+use the Latin script and its variants, and could be expanded to 
+support other scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+There are 6 source files:
+
+1. Oregano-Regular.vfb Original Source files with contour overlaps
+
+2. Oregano-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. Oregano-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+4. Oregano-Italic.vfb Original Source files with contour overlaps
+
+5. Oregano-Italic-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+6. Oregano-Italic-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+ChangeLog
+
+13 August 2012 (Brian J. Bonislawsky) Oregano v1.001
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface and Software Designer

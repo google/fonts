@@ -1,0 +1,110 @@
+This is the FONTLOG file for the NovaMono.
+
+
+This file provides detailed information on the NovaMono Font Software.
+This information should be distributed along with the NovaMono fonts
+and any derivative works.
+
+
+Basic Font Information
+
+NovaMono is the monospace font especially created for programming,
+text editors and for terminal-use. NovaMono contains a large number
+of symbols, operators and other miscellaneous signs.
+
+NovaMono Font is a part of the seven fonts family. There are: NovaCut, NovaFlat,
+NovaOval, NovaRound, NovaSlim, NovaSquare and NovaMono.
+All these fonts you'll find at: http://openfontlibrary.org.
+
+NovaMono is created with FontForge.
+
+NovaMono is a Unicode typeface font that supports all languages that
+use the Latin script and its variants, and could be expanded to support other
+scripts.
+
+More specifically, this release supports the following Unicode ranges:
+
+ - Controls and Basic Latin - 0000-007F (all)
+
+ - Latin 1 - 0080-00FF (all)
+
+ - Latin A - 0100-017F (all)
+
+ - Latin B - 0192, 01C4-01CC, 01E4, 01E5, 01F1-01F3, 01FA-021B, 0237
+
+ - Spacing Modifier Letters - 02C6, 02C7, 02C8, 02D8-02DD, 0308
+
+ - Greek and Coptic - 0370-03FF (all)
+
+ - Latin Extended Additional - 1E0C-1E0F, 1E24, 1E25, 1E36, 1E37, 1E80-1E89,
+                               1E9E, 1EF2-1EF5, 1EF8, 1EF9
+
+ - General Punctuation - 2000-206F (all)
+
+ - Superscripts and Subscripts - 2070-209F (all)
+
+ - Currency Symbols - 20A0-20CF (all)
+
+ - Letterlike Symbols - 2100-214F (all)
+
+ - Number Forms - 2150-218F (all)
+
+ - Arrows - 2190-21FF (all)
+
+ - Mathematical Operators - 2200-22FF (all)
+
+ - Miscellaneous Technical - 2302, 2308-230B, 2310, 2319, 231C-2323, 2329, 232A,
+                             2335, 239B-23AE, 23B0-23B7
+
+ - Geometric Shapes - 25A0, 25A1, 25A3, 25AA-25CC, 25CF-25D7, 25E0-25FF
+
+ - Miscellaneous Symbols and Arrows - 2B12-2B1C, 2B1F-2B28, 2B2C-2B2F, 2B53,
+                                      2B54
+
+
+This release contains:
+
+ - NovaMono.ttf
+ - NovaMono.sfd
+ - FONTLOG.txt
+ - SIL - OpenFont License.txt - official license text
+ - NovaMono.png - the PNG demo
+
+
+ChangeLog
+
+02 Feb 2011 wmk69 (wmk69@o2.pl) NovaMono Version 1.2
+- changed metrics table, hinting added
+
+30 Jan 2011 wmk69 (wmk69@o2.pl) NovaMono Version 1.1
+- panose changed, added hinting for some sizes
+
+23 Jan 2011 wmk69 (wmk69@o2.pl) NovaMono Version 1.01
+- autohinting deleted
+
+21 Jan 2011 wmk69 (wmk69@o2.pl) NovaMono Version 1.000
+- Initial release
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D).
+
+
+History
+
+I created the NovaCut font (a base of this font) about 14-15 years ago for 
+making the inscriptions on stone. Initially the font contained only capitals 
+and digits and existed only on paper and stone inscriptions. Last year 
+I decided transfer this font to computer. I made missing small fonts and some 
+basical signs and created a font initially named Gothica. By the way I made 
+other versions of some letters. It was a lot of this at the end of my work. 
+I decided create new fonts based on these letters. And finally I created 
+six fonts family and named these fonts Nova (NovaCut, NovaFlat, NovaOval, 
+NovaRound, NovaSlim, NovaSquare - by the shape of individual fonts).
+At last I created monospace font - NovaMono - the seventh part of this family.
+
+
+21 Jan 2011 wmk69 (wmk69@o2.pl)
+

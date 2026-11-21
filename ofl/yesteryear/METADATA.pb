@@ -1,0 +1,32 @@
+name: "Yesteryear"
+designer: "Astigmatic"
+license: "OFL"
+category: "HANDWRITING"
+date_added: "2011-12-19"
+fonts {
+  name: "Yesteryear"
+  style: "normal"
+  weight: 400
+  filename: "Yesteryear-Regular.ttf"
+  post_script_name: "Yesteryear-Regular"
+  full_name: "Yesteryear"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Yesteryear\""
+}
+subsets: "menu"
+subsets: "latin"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/googlefonts/yesteryear"
+  commit: "06a606b9d8d7d734595543ea23e25ea25d141ba1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Yesteryear-Regular.ttf"
+    dest_file: "Yesteryear-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
+}

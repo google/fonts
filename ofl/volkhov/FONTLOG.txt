@@ -1,0 +1,62 @@
+FONTLOG for the Volkhov font
+
+This file provides detailed information on the Volkhov 
+font Software.
+
+This information should be distributed along with the 
+Volkhov fonts and any derivative works.
+
+Basic Font Information
+
+Volkhov is a low-contrast serifed typeface with a robust 
+character,  intended for conveying a motivating reading 
+experience.
+
+As a four-weight family it is well-suited for complex 
+text environments being economic and legible, contemporary 
+and prominent. Many of its design solutions relate to this 
+purpose:  large open counters, rather short descenders, and 
+brutal asymmetric serifs.
+
+Spacing in Bold is slightly increased compared to
+the normal weight, because the bold mass is mostly grown 
+inwards. The Italic has a steep angle and a distinctive 
+calligraphically reminiscent character, as a counterpart 
+to the rigorous Regular.
+
+Volkhov is designed by Ivan Petrov.
+
+Volkhov is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+Source files:
+
+1. Volkhov-Regular.vfb (Original Source files 
+   with contour overlaps and components)
+2. Volkhov-Regular-OTF.vfb (Decomposed, 
+   merged and optimized file)
+3. Volkhov-Regular-TTF.sfd (Mastered TTF file)
+
+(Same scheme applies for other weights.)
+
+ChangeLog
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Designer and Mastering
+
+N: Ivan Petrov
+W: www.cyreal.org
+D: Designer

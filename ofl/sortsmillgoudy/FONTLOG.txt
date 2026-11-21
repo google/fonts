@@ -1,0 +1,34 @@
+1. FONTLOG for OFL Sorts Mill Goudy
+
+   This file provides detailed information on the OFL Sorts Mill Goudy
+   Font Software.  This information should be distributed along with
+   the OFL Sorts Mill Goudy fonts and any derivative works.
+
+2. Basic Font Information
+
+   A digital version of Goudy Oldstyle and Italic.
+
+3. ChangeLog
+
+   31 Aug 2011 (Dave Crossland) Sorts Mill Goudy version 3.101
+   prepared for use as a web font: vertical metrics changed to
+   avoid clipping on Windows and be the same across styles; 
+   hinting removed and replaced with 'magic' GASP and PREP
+   tables; license metadata simplified, and glyph outlines 
+   run through FontForge's 'Add Extrema' and 'Simplify' 
+   features to reduce filesize.
+
+   2 Jul 2010 (Barry Schwartz) OFL Sorts Mill Goudy version 3.1.
+
+   9 Jan 2010 (Barry Schwartz) OFL Sorts Mill Goudy version 3.0.
+
+3.4  Acknowledgements
+
+   If you make modifications be sure to add your name (N), email (E),
+   web-address (W) and description (D). This list is sorted by last
+   name in alphabetical order.
+
+   N: Barry Schwartz
+   E: See http://crudfactory.com
+   W: http://crudfactory.com
+   D: The original developer of these exceptional digital fonts

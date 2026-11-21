@@ -1,0 +1,31 @@
+name: "Marcellus"
+designer: "Astigmatic"
+license: "OFL"
+category: "SERIF"
+date_added: "2012-05-09"
+fonts {
+  name: "Marcellus"
+  style: "normal"
+  weight: 400
+  filename: "Marcellus-Regular.ttf"
+  post_script_name: "Marcellus-Regular"
+  full_name: "Marcellus"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Marcellus\""
+}
+subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/googlefonts/marcellus"
+  commit: "81e2f726f299957b341745c0b80a57354904677c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Marcellus-Regular.ttf"
+    dest_file: "Marcellus-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
+}

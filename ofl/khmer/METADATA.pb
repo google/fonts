@@ -1,0 +1,22 @@
+name: "Khmer"
+designer: "Danh Hong"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2011-03-02"
+fonts {
+  name: "Khmer"
+  style: "normal"
+  weight: 400
+  filename: "Khmer.ttf"
+  post_script_name: "Khmer"
+  full_name: "Khmer"
+  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+}
+subsets: "menu"
+subsets: "khmer"
+primary_script: "Khmr"
+
+source {
+  repository_url: "https://github.com/danhhong/Khmer"
+  commit: "d72e92059891c386fa3e8851948ac042ba947f0e"
+}

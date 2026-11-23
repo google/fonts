@@ -6,6 +6,7 @@ from axisregistry import (
     build_fvar_instances,
     build_stat,
     build_variations_ps_name,
+    FVAR_AXIS_HIDDEN_FLAG,
     _fvar_dflts,
     _fvar_instance_collisions,
 )
@@ -524,6 +525,27 @@ def test_stat(fp, sibling_fps):
 )
 def test_filename(fp, expected):
     font = TTFont(fp)
+    assert build_filename(font) == expected
+
+
+@pytest.mark.parametrize(
+    "fp, hidden_axes, expected",
+    [
+        (opensans_roman_fp, ["wdth"], "OpenSans[wght].ttf"),
+        (opensans_italic_fp, ["wdth"], "OpenSans-Italic[wght].ttf"),
+        (wavefont_fp, ["ROND", "YALN"], "Wavefont[wght].ttf"),
+        (
+            roboto_flex_fp,
+            ["XOPQ", "XTRA", "YOPQ", "YTAS", "YTDE", "YTFI", "YTLC", "YTUC"],
+            "RobotoFlex[GRAD,opsz,slnt,wdth,wght].ttf",
+        ),
+    ],
+)
+def test_filename_hidden_axes(fp, hidden_axes, expected):
+    font = TTFont(fp)
+    for axis in font["fvar"].axes:
+        if axis.axisTag in hidden_axes:
+            axis.flags |= FVAR_AXIS_HIDDEN_FLAG
     assert build_filename(font) == expected
 
 

@@ -11,14 +11,8 @@ from collections import defaultdict
 from itertools import chain
 import logging
 from glob import glob
+from importlib.resources import files
 import os
-import sys
-
-if sys.version_info < (3, 10):
-    from importlib_resources import files
-else:
-    from importlib.resources import files
-
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -33,6 +27,9 @@ LINKED_VALUES = {
     "wght": {400.0: 700.0},
     "ital": {0.0: 1.0},
 }
+
+# fvar axis flag. Applications must not show a hidden axis to users
+FVAR_AXIS_HIDDEN_FLAG = 0x0001
 
 # Static font styles. The GF api only support the following static font styles
 GF_STATIC_STYLES = OrderedDict(
@@ -592,7 +589,12 @@ def build_filename(ttFont):
     _, ext = os.path.splitext(ttFont.reader.file.name)
     if is_variable(ttFont):
         is_italic = "Italic" in style_name
-        axes = _fvar_dflts(ttFont).keys()
+        # Hidden axes are not for users, so keep them out of the filename
+        axes = [
+            a.axisTag
+            for a in ttFont["fvar"].axes
+            if not a.flags & FVAR_AXIS_HIDDEN_FLAG
+        ]
         axes = sorted([a for a in axes if a.isupper()]) + sorted(
             [a for a in axes if a.islower()]
         )

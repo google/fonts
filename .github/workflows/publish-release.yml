@@ -108,7 +108,7 @@ jobs:
           submodules: recursive
       - name: Check tag version and Cargo.toml version are same
         run: |
-          TAG_NAME=${GITHUB_REF/refs\/tags\//}
+          TAG_NAME=${GITHUB_REF/refs\/tags\/v/}
           CARGO_TOML_VERSION=$(grep -E '^version\s*=' Cargo.toml | cut -d '"' -f 2)
           if [ "$TAG_NAME" != "$CARGO_TOML_VERSION" ]; then
             echo "Tag version ($TAG_NAME) and Cargo.toml version ($CARGO_TOML_VERSION) do not match. Please delete the tag, update Cargo.toml, and create a new tag."

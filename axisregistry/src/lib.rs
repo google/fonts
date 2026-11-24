@@ -963,6 +963,8 @@ mod fontations_impl {
 
     /// Returns the Google Fonts filename for a font, e.g.
     /// `"RobotoFlex[GRAD,opsz,wdth,wght].ttf"`.
+    ///
+    /// Axes with the hidden flag set in the `fvar` table are left out.
     pub fn build_filename(
         font: &[u8],
         extension: &str,
@@ -974,11 +976,13 @@ mod fontations_impl {
         let style_name = best_subfamilyname(&font).unwrap_or("Regular".to_string());
         if font.table_data(Tag::new(b"fvar")).is_some() {
             let is_italic = style_name.contains("Italic");
-            let axes = font_axes(&font).unwrap_or_default();
+            // Hidden axes are not for users, so keep them out of the filename.
             // Sort uppercase axes first, then lowercase axes
-            let mut axes = axes
+            let mut axes = font
+                .axes()
                 .iter()
-                .map(|axis| axis.tag.to_string())
+                .filter(|axis| !axis.is_hidden())
+                .map(|axis| axis.tag().to_string())
                 .collect::<Vec<_>>();
             axes.sort();
             let axes = axes.join(",");
@@ -1005,9 +1009,11 @@ mod tests {
     use write_fonts::{
         from_obj::ToOwnedTable,
         tables::{
+            fvar::Fvar,
             name::Name,
             stat::{AxisValue, Stat},
         },
+        FontBuilder,
     };
 
     use super::*;
@@ -1587,6 +1593,24 @@ mod tests {
         assert_eq!(
             build_filename(playfair, "ttf").unwrap(),
             "Playfair[opsz,wdth,wght].ttf"
+        );
+    }
+
+    #[test]
+    fn test_build_filename_hidden_axes() {
+        let font = FontRef::new(OPEN_SANS).unwrap();
+        let mut fvar: Fvar = font.fvar().unwrap().to_owned_table();
+        for axis in fvar.axis_instance_arrays.axes.iter_mut() {
+            if axis.axis_tag == Tag::new(b"wdth") {
+                axis.flags |= 0x0001;
+            }
+        }
+        let mut builder = FontBuilder::new();
+        builder.add_table(&fvar).unwrap();
+        let hidden_wdth = builder.copy_missing_tables(font).build();
+        assert_eq!(
+            build_filename(&hidden_wdth, "ttf").unwrap(),
+            "OpenSans[wght].ttf"
         );
     }
 }

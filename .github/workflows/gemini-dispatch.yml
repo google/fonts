@@ -19,15 +19,13 @@ defaults:
 
 jobs:
   dispatch:
-    # Never for bot accounts, and only for issues opened from the
-    # "Add Font" / "Update Font" templates (they apply these labels).
+    # Never for bot accounts. Whether the issue is a font submission is
+    # decided in the pre-check below, from its labels or its content:
+    # template labels are dropped when an issue is created through the
+    # API or the gh CLI by someone without triage access.
     if: |-
       github.event.issue.user.type != 'Bot' &&
-      github.event.sender.type != 'Bot' &&
-      (
-        contains(github.event.issue.labels.*.name, 'II Submission') ||
-        contains(github.event.issue.labels.*.name, 'I Font Upgrade')
-      )
+      github.event.sender.type != 'Bot'
     runs-on: 'ubuntu-latest'
     timeout-minutes: 20
     permissions:
@@ -83,10 +81,15 @@ jobs:
             }
             if (issue.state !== 'open') return skip(`issue is ${issue.state}`);
 
+            // A submission is recognised by its template label, or by the
+            // template's headings when the label was not applied.
+            const body = (issue.body || '').replace(/\r\n/g, '\n');
             const labels = issue.labels.map(l => (typeof l === 'string' ? l : l.name));
-            const isNewFont = labels.includes('II Submission');
-            const isUpgrade = labels.includes('I Font Upgrade');
-            if (!isNewFont && !isUpgrade) return skip('no submission/upgrade label');
+            const hasRepoHeading = /Font Project Git Repo URL/i.test(body);
+            const isUpgrade = labels.includes('I Font Upgrade') ||
+              (hasRepoHeading && /New available version/i.test(body));
+            const isNewFont = !isUpgrade && (labels.includes('II Submission') || hasRepoHeading);
+            if (!isNewFont && !isUpgrade) return skip('not a font submission or upgrade');
 
             // 3. On edits, only act if an earlier pre-check failed (marker
             //    comment present). Otherwise triage already ran, or never applied.
@@ -95,7 +98,6 @@ jobs:
             if (action === 'edited' && !markerComment) return skip('edit on an issue that was already pre-checked');
 
             // 4. Content checks.
-            const body = (issue.body || '').replace(/\r\n/g, '\n');
             const REPO_URL = /https?:\/\/(?:www\.)?(?:github\.com|gitlab\.com|codeberg\.org)\/[\w.-]+\/[\w.-]+/gi;
             const PLACEHOLDERS = [
               /\/your\/repo\b/i,

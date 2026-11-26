@@ -114,6 +114,7 @@ Abril Fatface,,/Quality/Spacing,90,
 Abril Fatface,,/Quality/Wordspace,100,
 Abril Fatface,,/Serif/Fat Face,90,
 Abril Fatface,,/Serif/Modern,90,
+Abyssinica SIL,,/Expressive/Active,55,ethiopic
 Abyssinica SIL,,/Expressive/Business,52,
 Abyssinica SIL,,/Expressive/Competent,60,
 Abyssinica SIL,,/Expressive/Loud,1,
@@ -314,6 +315,7 @@ Afacad,,/Quality/Drawing,70,
 Afacad,,/Quality/Spacing,70,
 Afacad,,/Quality/Wordspace,70,
 Afacad,,/Sans/Geometric,100,
+Agbalumo,,/Expressive/Active,75,ethiopic
 Agbalumo,,/Expressive/Active,55,
 Agbalumo,,/Expressive/Awkward,35,
 Agbalumo,,/Expressive/Business,30,
@@ -11678,6 +11680,8 @@ Google Sans Flex,,/Quality/Spacing,100,
 Google Sans Flex,,/Quality/Wordspace,100,
 Google Sans Flex,,/Sans/Geometric,85,
 Google Sans Flex,,/Sans/Grotesque,20,
+Google Sans,wght@400,/Expressive/Active,55,ethiopic
+Google Sans,wght@700,/Expressive/Active,65,ethiopic
 Google Sans,wght@400,/Expressive/Artistic,0,bengali
 Google Sans,wght@700,/Expressive/Artistic,0,bengali
 Google Sans,wght@400,/Expressive/Active,0,bengali
@@ -12508,6 +12512,7 @@ Hi Melody,,/Quality/Spacing,70,
 Hi Melody,,/Quality/Wordspace,60,
 Hi Melody,,/Script/Handwritten,80,
 Hi Melody,,/Theme/Brush,60,
+Hibur Mono,,/Expressive/Active,35,ethiopic
 Hibur Mono,,/Expressive/Active,6,
 Hibur Mono,,/Expressive/Business,30,
 Hibur Mono,,/Expressive/Calm,5,
@@ -17813,6 +17818,9 @@ Meie Script,,/Quality/Drawing,50,
 Meie Script,,/Quality/Spacing,60,
 Meie Script,,/Quality/Wordspace,60,
 Meie Script,,/Script/Formal,100,
+Menbere,wght@100,/Expressive/Active,75,ethiopic
+Menbere,wght@400,/Expressive/Active,76,ethiopic
+Menbere,wght@700,/Expressive/Active,78,ethiopic
 Menbere,wght@100,/Expressive/Active,5,
 Menbere,wght@400,/Expressive/Active,5,
 Menbere,wght@700,/Expressive/Active,5,
@@ -20613,6 +20621,10 @@ Noto Sans Elymaic,,/Quality/Drawing,70,
 Noto Sans Elymaic,,/Quality/Spacing,70,
 Noto Sans Elymaic,,/Quality/Wordspace,100,
 Noto Sans Elymaic,,/Sans/Humanist,100,
+Noto Sans Ethiopic,"wdth,wght@62.5,100",/Expressive/Active,20,ethiopic
+Noto Sans Ethiopic,"wdth,wght@62.5,900",/Expressive/Active,25,ethiopic
+Noto Sans Ethiopic,"wdth,wght@100,100",/Expressive/Active,20,ethiopic
+Noto Sans Ethiopic,"wdth,wght@100,900",/Expressive/Active,25,ethiopic
 Noto Sans Ethiopic,"wdth,wght@62.5,100",/Expressive/Active,20,
 Noto Sans Ethiopic,"wdth,wght@62.5,900",/Expressive/Active,25,
 Noto Sans Ethiopic,"wdth,wght@100,100",/Expressive/Active,22,
@@ -23439,6 +23451,10 @@ Noto Serif Dogra,,/Quality/Drawing,70,
 Noto Serif Dogra,,/Quality/Spacing,70,
 Noto Serif Dogra,,/Quality/Wordspace,100,
 Noto Serif Dogra,,/Serif/Transitional,100,
+Noto Serif Ethiopic,"wdth,wght@62.5,100",/Expressive/Active,20,ethiopic
+Noto Serif Ethiopic,"wdth,wght@62.5,900",/Expressive/Active,25,ethiopic
+Noto Serif Ethiopic,"wdth,wght@100,100",/Expressive/Active,30,ethiopic
+Noto Serif Ethiopic,"wdth,wght@100,900",/Expressive/Active,32,ethiopic
 Noto Serif Ethiopic,"wdth,wght@62.5,100",/Expressive/Active,18,
 Noto Serif Ethiopic,"wdth,wght@62.5,900",/Expressive/Active,19,
 Noto Serif Ethiopic,"wdth,wght@100,100",/Expressive/Active,20,

@@ -245,6 +245,10 @@ Advent Pro,wght@100,/Expressive/Sincere,5,
 Advent Pro,wght@900,/Expressive/Sincere,10,
 Advent Pro,wght@100,/Expressive/Stiff,5,
 Advent Pro,wght@900,/Expressive/Stiff,30,
+Advent Pro,"wdth,wght@100,100",/Expressive/Vintage,50,cyrillic
+Advent Pro,"wdth,wght@200,100",/Expressive/Vintage,50,cyrillic
+Advent Pro,"wdth,wght@100,900",/Expressive/Vintage,55,cyrillic
+Advent Pro,"wdth,wght@200,900",/Expressive/Vintage,52,cyrillic
 Advent Pro,,/Quality/Concept,70,
 Advent Pro,,/Quality/Drawing,60,
 Advent Pro,,/Quality/Spacing,80,
@@ -809,6 +813,7 @@ Alice,,/Expressive/Loud,1,
 Alice,,/Expressive/Rugged,38,
 Alice,,/Expressive/Sincere,20,
 Alice,,/Expressive/Vintage,47,
+Alice,,/Expressive/Vintage,81,cyrillic
 Alice,,/Quality/Concept,70,
 Alice,,/Quality/Drawing,75,
 Alice,,/Quality/Spacing,70,
@@ -1130,6 +1135,8 @@ Alumni Sans SC,wght@100,/Expressive/Stiff,80,
 Alumni Sans SC,wght@900,/Expressive/Stiff,85,
 Alumni Sans SC,wght@100,/Expressive/Vintage,20,
 Alumni Sans SC,wght@900,/Expressive/Vintage,25,
+Alumni Sans SC,wght@100,/Expressive/Vintage,50,cyrillic
+Alumni Sans SC,wght@900,/Expressive/Vintage,55,cyrillic
 Alumni Sans SC,,/Quality/Concept,70,
 Alumni Sans SC,,/Quality/Drawing,70,
 Alumni Sans SC,,/Quality/Spacing,70,
@@ -1169,6 +1176,8 @@ Alumni Sans,wght@100,/Expressive/Stiff,80,
 Alumni Sans,wght@900,/Expressive/Stiff,85,
 Alumni Sans,wght@100,/Expressive/Vintage,20,
 Alumni Sans,wght@900,/Expressive/Vintage,25,
+Alumni Sans,wght@100,/Expressive/Vintage,51,cyrillic
+Alumni Sans,wght@900,/Expressive/Vintage,58,cyrillic
 Alumni Sans,,/Quality/Concept,70,
 Alumni Sans,,/Quality/Drawing,70,
 Alumni Sans,,/Quality/Spacing,70,
@@ -4865,6 +4874,8 @@ Bitter,wght@100,/Expressive/Stiff,5,
 Bitter,wght@900,/Expressive/Stiff,10,
 Bitter,wght@100,/Expressive/Vintage,5,
 Bitter,wght@900,/Expressive/Vintage,20,
+Bitter,wght@100,/Expressive/Vintage,68,cyrillic
+Bitter,wght@900,/Expressive/Vintage,72,cyrillic
 Bitter,,/Quality/Concept,75,
 Bitter,,/Quality/Drawing,80,
 Bitter,,/Quality/Spacing,70,
@@ -6724,6 +6735,8 @@ Chiron Sung HK,wght@900,/Expressive/Playful,12,
 Chiron Sung HK,,/Expressive/Rugged,35,
 Chiron Sung HK,wght@200,/Expressive/Vintage,20,
 Chiron Sung HK,wght@900,/Expressive/Vintage,21,
+Chiron Sung HK,wght@200,/Expressive/Vintage,72,cyrillic
+Chiron Sung HK,wght@900,/Expressive/Vintage,75,cyrillic
 Chiron Sung HK,,/Quality/Concept,100,
 Chiron Sung HK,,/Quality/Drawing,100,
 Chiron Sung HK,,/Quality/Spacing,100,
@@ -9836,6 +9849,8 @@ Finlandica Headline,wght@100,/Expressive/Playful,8,
 Finlandica Headline,wght@900,/Expressive/Playful,12,
 Finlandica Headline,wght@100,/Expressive/Rugged,1,
 Finlandica Headline,wght@900,/Expressive/Rugged,5,
+Finlandica Headline,wght@100,/Expressive/Vintage,0,cyrillic
+Finlandica Headline,wght@900,/Expressive/Vintage,0,cyrillic
 Finlandica Headline,,/Quality/Concept,70,
 Finlandica Headline,,/Quality/Drawing,50,
 Finlandica Headline,,/Quality/Spacing,60,
@@ -9865,6 +9880,8 @@ Finlandica Text,wght@100,/Expressive/Rugged,1,
 Finlandica Text,wght@900,/Expressive/Rugged,5,
 Finlandica Text,wght@100,/Expressive/Stiff,11,
 Finlandica Text,wght@900,/Expressive/Stiff,12,
+Finlandica Text,wght@100,/Expressive/Vintage,0,cyrillic
+Finlandica Text,wght@900,/Expressive/Vintage,0,cyrillic
 Finlandica Text,,/Quality/Concept,70,
 Finlandica Text,,/Quality/Drawing,50,
 Finlandica Text,,/Quality/Spacing,60,
@@ -10049,6 +10066,7 @@ Fleur De Leah,,/Script/Formal,60,
 Fleur De Leah,,/Script/Informal,40,
 Fleur De Leah,,/Seasonal/Holi,96,
 Fleur De Leah,,/Seasonal/Valentine's Day,88,
+Flow Block,,/Expressive/Vintage,0,cyrillic
 Flow Block,,/Expressive/Cute,0,cyrillic
 Flow Block,,/Expressive/Happy,0,cyrillic
 Flow Block,,/Expressive/Active,0,cyrillic
@@ -10058,6 +10076,7 @@ Flow Block,,/Quality/Drawing,70,
 Flow Block,,/Quality/Spacing,90,
 Flow Block,,/Quality/Wordspace,100,
 Flow Block,,/Special use/Redaction,100,
+Flow Circular,,/Expressive/Vintage,0,cyrillic
 Flow Circular,,/Expressive/Cute,0,cyrillic
 Flow Circular,,/Expressive/Happy,0,cyrillic
 Flow Circular,,/Expressive/Active,0,cyrillic
@@ -10067,6 +10086,7 @@ Flow Circular,,/Quality/Drawing,70,
 Flow Circular,,/Quality/Spacing,90,
 Flow Circular,,/Quality/Wordspace,100,
 Flow Circular,,/Special use/Redaction,100,
+Flow Rounded,,/Expressive/Vintage,0,cyrillic
 Flow Rounded,,/Expressive/Cute,0,cyrillic
 Flow Rounded,,/Expressive/Happy,0,cyrillic
 Flow Rounded,,/Expressive/Active,0,cyrillic
@@ -10136,6 +10156,7 @@ Forum,,/Expressive/Happy,0,cyrillic
 Forum,,/Expressive/Childlike,0,cyrillic
 Forum,,/Expressive/Rugged,30,
 Forum,,/Expressive/Vintage,35,
+Forum,,/Expressive/Vintage,78,cyrillic
 Forum,,/Quality/Concept,60,
 Forum,,/Quality/Drawing,50,
 Forum,,/Quality/Spacing,70,
@@ -10948,6 +10969,7 @@ Gentium Book Plus,,/Expressive/Loud,1,
 Gentium Book Plus,,/Expressive/Rugged,30,
 Gentium Book Plus,,/Expressive/Sincere,88,
 Gentium Book Plus,,/Expressive/Vintage,40,
+Gentium Book Plus,,/Expressive/Vintage,66,cyrillic
 Gentium Book Plus,,/Quality/Concept,70,
 Gentium Book Plus,,/Quality/Drawing,75,
 Gentium Book Plus,,/Quality/Spacing,80,
@@ -10963,6 +10985,7 @@ Gentium Plus,,/Expressive/Loud,1,
 Gentium Plus,,/Expressive/Rugged,30,
 Gentium Plus,,/Expressive/Sincere,88,
 Gentium Plus,,/Expressive/Vintage,40,
+Gentium Plus,,/Expressive/Vintage,64,cyrillic
 Gentium Plus,,/Quality/Concept,70,
 Gentium Plus,,/Quality/Drawing,75,
 Gentium Plus,,/Quality/Spacing,80,
@@ -12305,6 +12328,7 @@ Hina Mincho,,/Expressive/Happy,0,cyrillic
 Hina Mincho,,/Expressive/Rugged,25,
 Hina Mincho,,/Expressive/Sincere,35,
 Hina Mincho,,/Expressive/Vintage,45,
+Hina Mincho,,/Expressive/Vintage,84,cyrillic
 Hina Mincho,,/Quality/Concept,70,
 Hina Mincho,,/Quality/Drawing,75,
 Hina Mincho,,/Quality/Spacing,70,
@@ -12791,6 +12815,10 @@ IBM Plex Sans,"wdth,wght@75,700",/Expressive/Loud,60,
 IBM Plex Sans,"wdth,wght@100,100",/Expressive/Loud,8,
 IBM Plex Sans,"wdth,wght@100,700",/Expressive/Loud,62,
 IBM Plex Sans,,/Expressive/Stiff,20,
+IBM Plex Sans,"wdth,wght@75,100",/Expressive/Vintage,0,cyrillic
+IBM Plex Sans,"wdth,wght@100,100",/Expressive/Vintage,0,cyrillic
+IBM Plex Sans,"wdth,wght@75,700",/Expressive/Vintage,0,cyrillic
+IBM Plex Sans,"wdth,wght@100,700",/Expressive/Vintage,0,cyrillic
 IBM Plex Sans,,/Quality/Concept,70,
 IBM Plex Sans,,/Quality/Drawing,70,
 IBM Plex Sans,,/Quality/Spacing,79,
@@ -12808,6 +12836,7 @@ IBM Plex Serif,,/Expressive/Rugged,50,
 IBM Plex Serif,,/Expressive/Sincere,90,
 IBM Plex Serif,,/Expressive/Stiff,20,
 IBM Plex Serif,,/Expressive/Vintage,30,
+IBM Plex Serif,,/Expressive/Vintage,58,cyrillic
 IBM Plex Serif,,/Quality/Concept,70,
 IBM Plex Serif,,/Quality/Drawing,70,
 IBM Plex Serif,,/Quality/Spacing,70,
@@ -14075,6 +14104,7 @@ Jura,wght@700,/Expressive/Rugged,24,
 Jura,wght@300,/Expressive/Stiff,50,
 Jura,wght@700,/Expressive/Stiff,54,
 Jura,,/Expressive/Vintage,5,
+Jura,,/Expressive/Vintage,55,cyrillic
 Jura,,/Quality/Concept,65,
 Jura,,/Quality/Drawing,75,
 Jura,,/Quality/Spacing,80,
@@ -14174,6 +14204,7 @@ Kaisei Decol,,/Expressive/Rugged,30,
 Kaisei Decol,,/Expressive/Sincere,70,
 Kaisei Decol,,/Expressive/Stiff,5,
 Kaisei Decol,,/Expressive/Vintage,30,
+Kaisei Decol,,/Expressive/Vintage,63,cyrillic
 Kaisei Decol,,/Quality/Concept,70,
 Kaisei Decol,,/Quality/Drawing,70,
 Kaisei Decol,,/Quality/Spacing,70,
@@ -14190,6 +14221,7 @@ Kaisei HarunoUmi,,/Expressive/Rugged,30,
 Kaisei HarunoUmi,,/Expressive/Sincere,70,
 Kaisei HarunoUmi,,/Expressive/Stiff,5,
 Kaisei HarunoUmi,,/Expressive/Vintage,40,
+Kaisei HarunoUmi,,/Expressive/Vintage,63,cyrillic
 Kaisei HarunoUmi,,/Quality/Concept,70,
 Kaisei HarunoUmi,,/Quality/Drawing,70,
 Kaisei HarunoUmi,,/Quality/Spacing,70,
@@ -14206,6 +14238,7 @@ Kaisei Opti,,/Expressive/Rugged,30,
 Kaisei Opti,,/Expressive/Sincere,70,
 Kaisei Opti,,/Expressive/Stiff,5,
 Kaisei Opti,,/Expressive/Vintage,20,
+Kaisei Opti,,/Expressive/Vintage,63,cyrillic
 Kaisei Opti,,/Quality/Concept,70,
 Kaisei Opti,,/Quality/Drawing,70,
 Kaisei Opti,,/Quality/Spacing,70,
@@ -14222,6 +14255,7 @@ Kaisei Tokumin,,/Expressive/Rugged,30,
 Kaisei Tokumin,,/Expressive/Sincere,70,
 Kaisei Tokumin,,/Expressive/Stiff,5,
 Kaisei Tokumin,,/Expressive/Vintage,40,
+Kaisei Tokumin,,/Expressive/Vintage,63,cyrillic
 Kaisei Tokumin,,/Quality/Concept,70,
 Kaisei Tokumin,,/Quality/Drawing,72,
 Kaisei Tokumin,,/Quality/Spacing,70,
@@ -14781,6 +14815,7 @@ Kiwi Maru,,/Expressive/Loud,1,
 Kiwi Maru,,/Expressive/Playful,5,
 Kiwi Maru,,/Expressive/Rugged,30,
 Kiwi Maru,,/Expressive/Vintage,50,
+Kiwi Maru,,/Expressive/Vintage,65,cyrillic
 Kiwi Maru,,/Quality/Concept,60,
 Kiwi Maru,,/Quality/Drawing,72,
 Kiwi Maru,,/Quality/Spacing,70,
@@ -15216,6 +15251,7 @@ LXGW Marker Gothic,,/Expressive/Childlike,0,cyrillic
 LXGW Marker Gothic,,/Expressive/Excited,44,
 LXGW Marker Gothic,,/Expressive/Happy,0,cyrillic
 LXGW Marker Gothic,,/Expressive/Playful,50,
+LXGW Marker Gothic,,/Expressive/Vintage,0,cyrillic
 LXGW Marker Gothic,,/Quality/Concept,70,
 LXGW Marker Gothic,,/Quality/Drawing,70,
 LXGW Marker Gothic,,/Quality/Spacing,90,
@@ -15797,6 +15833,7 @@ Libertinus Serif Display,,/Expressive/Loud,1,
 Libertinus Serif Display,,/Expressive/Rugged,30,
 Libertinus Serif Display,,/Expressive/Sincere,80,
 Libertinus Serif Display,,/Expressive/Vintage,45,
+Libertinus Serif Display,,/Expressive/Vintage,66,cyrillic
 Libertinus Serif Display,,/Quality/Concept,70,
 Libertinus Serif Display,,/Quality/Drawing,80,
 Libertinus Serif Display,,/Quality/Spacing,80,
@@ -15812,6 +15849,7 @@ Libertinus Serif,,/Expressive/Loud,1,
 Libertinus Serif,,/Expressive/Rugged,30,
 Libertinus Serif,,/Expressive/Sincere,80,
 Libertinus Serif,,/Expressive/Vintage,45,
+Libertinus Serif,,/Expressive/Vintage,65,cyrillic
 Libertinus Serif,,/Quality/Concept,70,
 Libertinus Serif,,/Quality/Drawing,80,
 Libertinus Serif,,/Quality/Spacing,80,
@@ -16339,6 +16377,8 @@ Lora,wght@400,/Expressive/Sincere,70,
 Lora,wght@700,/Expressive/Sincere,70,
 Lora,wght@400,/Expressive/Vintage,25,
 Lora,wght@700,/Expressive/Vintage,26,
+Lora,wght@400,/Expressive/Vintage,65,cyrillic
+Lora,wght@700,/Expressive/Vintage,66,cyrillic
 Lora,,/Quality/Concept,65,
 Lora,,/Quality/Drawing,60,
 Lora,,/Quality/Spacing,90,
@@ -17247,6 +17287,10 @@ Martian Mono,"wdth,wght@112.5,100",/Expressive/Rugged,1,
 Martian Mono,"wdth,wght@112.5,800",/Expressive/Rugged,43,
 Martian Mono,wght@100,/Expressive/Stiff,70,
 Martian Mono,wght@800,/Expressive/Stiff,72,
+Martian Mono,"wdth,wght@75,100",/Expressive/Vintage,0,cyrillic
+Martian Mono,"wdth,wght@112.5,100",/Expressive/Vintage,0,cyrillic
+Martian Mono,"wdth,wght@75,800",/Expressive/Vintage,0,cyrillic
+Martian Mono,"wdth,wght@112.5,800",/Expressive/Vintage,0,cyrillic
 Martian Mono,,/Monospace/Monospace,100,
 Martian Mono,,/Quality/Concept,70,
 Martian Mono,,/Quality/Drawing,50,
@@ -17614,10 +17658,10 @@ Merriweather,"wdth,wght@112,300",/Expressive/Sincere,84,
 Merriweather,"wdth,wght@112,900",/Expressive/Sincere,81,
 Merriweather,wght@300,/Expressive/Stiff,22,
 Merriweather,wght@900,/Expressive/Stiff,24,
-Merriweather,"wdth,wght@87,300",/Expressive/Vintage,12,
-Merriweather,"wdth,wght@87,900",/Expressive/Vintage,12,
-Merriweather,"wdth,wght@112,300",/Expressive/Vintage,14,
-Merriweather,"wdth,wght@112,900",/Expressive/Vintage,14,
+Merriweather,"wdth,wght@87,300",/Expressive/Vintage,62,
+Merriweather,"wdth,wght@87,900",/Expressive/Vintage,68,
+Merriweather,"wdth,wght@112,300",/Expressive/Vintage,64,
+Merriweather,"wdth,wght@112,900",/Expressive/Vintage,68,
 Merriweather,,/Quality/Concept,80,
 Merriweather,,/Quality/Drawing,80,
 Merriweather,,/Quality/Spacing,90,
@@ -18239,6 +18283,7 @@ Monomakh,,/Expressive/Loud,4,
 Monomakh,,/Expressive/Rugged,35,
 Monomakh,,/Expressive/Sincere,10,
 Monomakh,,/Expressive/Vintage,55,
+Monomakh,,/Expressive/Vintage,55,cyrillic
 Monomakh,,/Quality/Concept,60,
 Monomakh,,/Quality/Drawing,70,
 Monomakh,,/Quality/Spacing,80,
@@ -18399,6 +18444,7 @@ Montserrat Underline,wght@100,/Expressive/Playful,8,
 Montserrat Underline,wght@900,/Expressive/Playful,14,
 Montserrat Underline,,/Expressive/Rugged,40,
 Montserrat Underline,,/Expressive/Vintage,5,
+Montserrat Underline,,/Expressive/Vintage,58,cyrillic
 Montserrat Underline,,/Quality/Concept,60,
 Montserrat Underline,,/Quality/Drawing,65,
 Montserrat Underline,,/Quality/Spacing,90,
@@ -20154,6 +20200,10 @@ Noto Sans Display,"wdth,wght@62.5,900",/Expressive/Sincere,22,
 Noto Sans Display,"wdth,wght@100,100",/Expressive/Sincere,24,
 Noto Sans Display,"wdth,wght@100,900",/Expressive/Sincere,24,
 Noto Sans Display,,/Expressive/Stiff,10,
+Noto Sans Display,"wdth,wght@62.5,100",/Expressive/Vintage,0,cyrillic
+Noto Sans Display,"wdth,wght@100,100",/Expressive/Vintage,0,cyrillic
+Noto Sans Display,"wdth,wght@62.5,900",/Expressive/Vintage,0,cyrillic
+Noto Sans Display,"wdth,wght@100,900",/Expressive/Vintage,0,cyrillic
 Noto Sans Display,,/Quality/Concept,70,
 Noto Sans Display,,/Quality/Drawing,70,
 Noto Sans Display,,/Quality/Spacing,80,
@@ -20502,6 +20552,8 @@ Noto Sans HK,,/Expressive/Rugged,40,
 Noto Sans HK,wght@100,/Expressive/Sincere,35,
 Noto Sans HK,wght@900,/Expressive/Sincere,35,
 Noto Sans HK,,/Expressive/Stiff,10,
+Noto Sans HK,wght@100,/Expressive/Vintage,0,cyrillic
+Noto Sans HK,wght@900,/Expressive/Vintage,0,cyrillic
 Noto Sans HK,,/Quality/Concept,70,
 Noto Sans HK,,/Quality/Drawing,70,
 Noto Sans HK,,/Quality/Spacing,70,
@@ -20667,6 +20719,8 @@ Noto Sans JP,,/Expressive/Rugged,40,
 Noto Sans JP,wght@100,/Expressive/Sincere,35,
 Noto Sans JP,wght@900,/Expressive/Sincere,35,
 Noto Sans JP,,/Expressive/Stiff,10,
+Noto Sans JP,wght@100,/Expressive/Vintage,0,cyrillic
+Noto Sans JP,wght@900,/Expressive/Vintage,0,cyrillic
 Noto Sans JP,,/Quality/Concept,70,
 Noto Sans JP,,/Quality/Drawing,70,
 Noto Sans JP,,/Quality/Spacing,80,
@@ -20718,6 +20772,8 @@ Noto Sans KR,,/Expressive/Rugged,40,
 Noto Sans KR,wght@100,/Expressive/Sincere,35,
 Noto Sans KR,wght@900,/Expressive/Sincere,35,
 Noto Sans KR,,/Expressive/Stiff,10,
+Noto Sans KR,wght@100,/Expressive/Vintage,0,cyrillic
+Noto Sans KR,wght@900,/Expressive/Vintage,0,cyrillic
 Noto Sans KR,,/Quality/Concept,70,
 Noto Sans KR,,/Quality/Drawing,70,
 Noto Sans KR,,/Quality/Spacing,70,
@@ -21347,6 +21403,10 @@ Noto Sans Mono,"wdth,wght@100,100",/Expressive/Rugged,1,
 Noto Sans Mono,"wdth,wght@100,900",/Expressive/Rugged,4,
 Noto Sans Mono,wght@100,/Expressive/Stiff,80,
 Noto Sans Mono,wght@900,/Expressive/Stiff,80,
+Noto Sans Mono,"wdth,wght@62.5,100",/Expressive/Vintage,0,cyrillic
+Noto Sans Mono,"wdth,wght@100,100",/Expressive/Vintage,0,cyrillic
+Noto Sans Mono,"wdth,wght@62.5,900",/Expressive/Vintage,0,cyrillic
+Noto Sans Mono,"wdth,wght@100,900",/Expressive/Vintage,0,cyrillic
 Noto Sans Mono,,/Quality/Concept,70,
 Noto Sans Mono,,/Quality/Drawing,70,
 Noto Sans Mono,,/Quality/Spacing,80,
@@ -21854,6 +21914,8 @@ Noto Sans SC,,/Expressive/Rugged,50,
 Noto Sans SC,wght@100,/Expressive/Sincere,35,
 Noto Sans SC,wght@900,/Expressive/Sincere,35,
 Noto Sans SC,,/Expressive/Stiff,10,
+Noto Sans SC,wght@100,/Expressive/Vintage,0,cyrillic
+Noto Sans SC,wght@900,/Expressive/Vintage,0,cyrillic
 Noto Sans SC,,/Quality/Concept,70,
 Noto Sans SC,,/Quality/Drawing,70,
 Noto Sans SC,,/Quality/Spacing,80,
@@ -22189,6 +22251,8 @@ Noto Sans TC,,/Expressive/Rugged,50,
 Noto Sans TC,wght@100,/Expressive/Sincere,35,
 Noto Sans TC,wght@900,/Expressive/Sincere,35,
 Noto Sans TC,,/Expressive/Stiff,10,
+Noto Sans TC,wght@100,/Expressive/Vintage,0,cyrillic
+Noto Sans TC,wght@900,/Expressive/Vintage,0,cyrillic
 Noto Sans TC,,/Quality/Concept,70,
 Noto Sans TC,,/Quality/Drawing,70,
 Noto Sans TC,,/Quality/Spacing,80,
@@ -22677,6 +22741,10 @@ Noto Sans,"wdth,wght@62.5,900",/Expressive/Sincere,20,
 Noto Sans,"wdth,wght@100,100",/Expressive/Sincere,22,
 Noto Sans,"wdth,wght@100,900",/Expressive/Sincere,22,
 Noto Sans,,/Expressive/Stiff,10,
+Noto Sans,"wdth,wght@62.5,100",/Expressive/Vintage,0,cyrillic
+Noto Sans,"wdth,wght@100,100",/Expressive/Vintage,0,cyrillic
+Noto Sans,"wdth,wght@62.5,900",/Expressive/Vintage,0,cyrillic
+Noto Sans,"wdth,wght@100,900",/Expressive/Vintage,0,cyrillic
 Noto Sans,,/Quality/Concept,70,
 Noto Sans,,/Quality/Drawing,70,
 Noto Sans,,/Quality/Spacing,70,
@@ -22939,6 +23007,10 @@ Noto Serif Display,"wdth,wght@62.5,100",/Expressive/Sincere,20,
 Noto Serif Display,"wdth,wght@62.5,900",/Expressive/Sincere,22,
 Noto Serif Display,"wdth,wght@100,100",/Expressive/Sincere,24,
 Noto Serif Display,"wdth,wght@100,900",/Expressive/Sincere,24,
+Noto Serif Display,"wdth,wght@62.5,100",/Expressive/Vintage,52,cyrillic
+Noto Serif Display,"wdth,wght@100,100",/Expressive/Vintage,52,cyrillic
+Noto Serif Display,"wdth,wght@62.5,900",/Expressive/Vintage,58,cyrillic
+Noto Serif Display,"wdth,wght@100,900",/Expressive/Vintage,58,cyrillic
 Noto Serif Display,,/Quality/Concept,70,
 Noto Serif Display,,/Quality/Drawing,70,
 Noto Serif Display,,/Quality/Spacing,80,
@@ -23163,6 +23235,7 @@ Noto Serif HK,,/Expressive/Rugged,40,
 Noto Serif HK,wght@200,/Expressive/Sincere,75,
 Noto Serif HK,wght@900,/Expressive/Sincere,75,
 Noto Serif HK,,/Expressive/Vintage,40,
+Noto Serif HK,,/Expressive/Vintage,58,cyrillic
 Noto Serif HK,,/Quality/Concept,70,
 Noto Serif HK,,/Quality/Drawing,70,
 Noto Serif HK,,/Quality/Spacing,80,
@@ -23264,6 +23337,7 @@ Noto Serif JP,,/Expressive/Rugged,40,
 Noto Serif JP,wght@200,/Expressive/Sincere,75,
 Noto Serif JP,wght@900,/Expressive/Sincere,75,
 Noto Serif JP,,/Expressive/Vintage,40,
+Noto Serif JP,,/Expressive/Vintage,58,cyrillic
 Noto Serif JP,,/Quality/Concept,70,
 Noto Serif JP,,/Quality/Drawing,70,
 Noto Serif JP,,/Quality/Spacing,80,
@@ -23295,6 +23369,7 @@ Noto Serif KR,,/Expressive/Rugged,40,
 Noto Serif KR,wght@200,/Expressive/Sincere,75,
 Noto Serif KR,wght@900,/Expressive/Sincere,75,
 Noto Serif KR,,/Expressive/Vintage,40,
+Noto Serif KR,,/Expressive/Vintage,58,cyrillic
 Noto Serif KR,,/Quality/Concept,70,
 Noto Serif KR,,/Quality/Drawing,70,
 Noto Serif KR,,/Quality/Spacing,70,
@@ -23575,6 +23650,7 @@ Noto Serif SC,,/Expressive/Rugged,40,
 Noto Serif SC,wght@200,/Expressive/Sincere,75,
 Noto Serif SC,wght@900,/Expressive/Sincere,75,
 Noto Serif SC,,/Expressive/Vintage,40,
+Noto Serif SC,,/Expressive/Vintage,58,cyrillic
 Noto Serif SC,,/Quality/Concept,70,
 Noto Serif SC,,/Quality/Drawing,70,
 Noto Serif SC,,/Quality/Spacing,70,
@@ -23648,6 +23724,7 @@ Noto Serif TC,,/Expressive/Rugged,40,
 Noto Serif TC,wght@200,/Expressive/Sincere,75,
 Noto Serif TC,wght@900,/Expressive/Sincere,75,
 Noto Serif TC,,/Expressive/Vintage,40,
+Noto Serif TC,,/Expressive/Vintage,58,cyrillic
 Noto Serif TC,,/Quality/Concept,70,
 Noto Serif TC,,/Quality/Drawing,70,
 Noto Serif TC,,/Quality/Spacing,80,
@@ -23909,6 +23986,10 @@ Noto Serif,"wdth,wght@62.5,100",/Expressive/Sincere,18,
 Noto Serif,"wdth,wght@62.5,900",/Expressive/Sincere,20,
 Noto Serif,"wdth,wght@100,100",/Expressive/Sincere,22,
 Noto Serif,"wdth,wght@100,900",/Expressive/Sincere,22,
+Noto Serif,"wdth,wght@62.5,100",/Expressive/Vintage,0,cyrillic
+Noto Serif,"wdth,wght@100,100",/Expressive/Vintage,0,cyrillic
+Noto Serif,"wdth,wght@62.5,900",/Expressive/Vintage,0,cyrillic
+Noto Serif,"wdth,wght@100,900",/Expressive/Vintage,0,cyrillic
 Noto Serif,,/Quality/Concept,70,
 Noto Serif,,/Quality/Drawing,70,
 Noto Serif,,/Quality/Spacing,70,
@@ -24116,6 +24197,10 @@ Nunito Sans,"wdth,wght@75,200",/Expressive/Stiff,24,
 Nunito Sans,"wdth,wght@75,1000",/Expressive/Stiff,9,
 Nunito Sans,"wdth,wght@125,200",/Expressive/Stiff,20,
 Nunito Sans,"wdth,wght@125,1000",/Expressive/Stiff,4,
+Nunito Sans,"wdth,wght@75,200",/Expressive/Vintage,0,cyrillic
+Nunito Sans,"wdth,wght@125,200",/Expressive/Vintage,0,cyrillic
+Nunito Sans,"wdth,wght@75,1000",/Expressive/Vintage,0,cyrillic
+Nunito Sans,"wdth,wght@125,1000",/Expressive/Vintage,0,cyrillic
 Nunito Sans,,/Quality/Concept,70,
 Nunito Sans,,/Quality/Drawing,75,
 Nunito Sans,,/Quality/Spacing,70,
@@ -24260,6 +24345,7 @@ Old Standard TT,,/Expressive/Happy,0,cyrillic
 Old Standard TT,,/Expressive/Rugged,30,
 Old Standard TT,,/Expressive/Sincere,50,
 Old Standard TT,,/Expressive/Vintage,53,
+Old Standard TT,,/Expressive/Vintage,86,cyrillic
 Old Standard TT,,/Quality/Concept,70,
 Old Standard TT,,/Quality/Drawing,75,
 Old Standard TT,,/Quality/Spacing,60,
@@ -24420,6 +24506,10 @@ Open Sans,"wdth,wght@75,800",/Expressive/Sincere,12,
 Open Sans,"wdth,wght@100,300",/Expressive/Sincere,45,
 Open Sans,"wdth,wght@100,800",/Expressive/Sincere,14,
 Open Sans,,/Expressive/Stiff,10,
+Open Sans,"wdth,wght@75,300",/Expressive/Vintage,0,cyrillic
+Open Sans,"wdth,wght@100,300",/Expressive/Vintage,0,cyrillic
+Open Sans,"wdth,wght@75,800",/Expressive/Vintage,0,cyrillic
+Open Sans,"wdth,wght@100,800",/Expressive/Vintage,0,cyrillic
 Open Sans,,/Quality/Concept,70,
 Open Sans,,/Quality/Drawing,70,
 Open Sans,,/Quality/Spacing,80,
@@ -24437,6 +24527,7 @@ Oranienbaum,,/Expressive/Rugged,35,
 Oranienbaum,,/Expressive/Sincere,10,
 Oranienbaum,,/Expressive/Stiff,6,
 Oranienbaum,,/Expressive/Vintage,45,
+Oranienbaum,,/Expressive/Vintage,82,cyrillic
 Oranienbaum,,/Quality/Concept,55,
 Oranienbaum,,/Quality/Drawing,70,
 Oranienbaum,,/Quality/Spacing,70,
@@ -27733,6 +27824,10 @@ Pliant,"wdth,wght@100,100",/Expressive/Stiff,28,
 Pliant,"wdth,wght@100,900",/Expressive/Stiff,20,
 Pliant,"wdth,wght@125,100",/Expressive/Stiff,25,
 Pliant,"wdth,wght@125,900",/Expressive/Stiff,18,
+Pliant,"wdth,wght@100,100",/Expressive/Vintage,0,cyrillic
+Pliant,"wdth,wght@125,100",/Expressive/Vintage,0,cyrillic
+Pliant,"wdth,wght@100,900",/Expressive/Vintage,0,cyrillic
+Pliant,"wdth,wght@125,900",/Expressive/Vintage,0,cyrillic
 Pliant,,/Quality/Concept,75,
 Pliant,,/Quality/Drawing,70,
 Pliant,,/Quality/Spacing,80,
@@ -27769,6 +27864,7 @@ Pochaevsk,,/Expressive/Cute,0,cyrillic
 Pochaevsk,,/Expressive/Happy,0,cyrillic
 Pochaevsk,,/Expressive/Rugged,30,
 Pochaevsk,,/Expressive/Vintage,45,
+Pochaevsk,,/Expressive/Vintage,94,cyrillic
 Pochaevsk,,/Quality/Concept,60,
 Pochaevsk,,/Quality/Drawing,50,
 Pochaevsk,,/Quality/Spacing,60,
@@ -27909,6 +28005,7 @@ Ponomar,,/Expressive/Loud,1,
 Ponomar,,/Expressive/Rugged,30,
 Ponomar,,/Expressive/Sincere,40,
 Ponomar,,/Expressive/Vintage,40,
+Ponomar,,/Expressive/Vintage,94,cyrillic
 Ponomar,,/Quality/Concept,70,
 Ponomar,,/Quality/Drawing,50,
 Ponomar,,/Quality/Spacing,60,
@@ -29310,6 +29407,10 @@ Roboto Flex,"wdth,wght@25,1000",/Expressive/Sincere,5,
 Roboto Flex,"wdth,wght@151,100",/Expressive/Sincere,20,
 Roboto Flex,"wdth,wght@151,1000",/Expressive/Sincere,20,
 Roboto Flex,,/Expressive/Stiff,10,
+Roboto Flex,"wdth,wght@25,100",/Expressive/Vintage,0,cyrillic
+Roboto Flex,"wdth,wght@151,100",/Expressive/Vintage,0,cyrillic
+Roboto Flex,"wdth,wght@25,1000",/Expressive/Vintage,0,cyrillic
+Roboto Flex,"wdth,wght@151,1000",/Expressive/Vintage,0,cyrillic
 Roboto Flex,,/Quality/Concept,80,
 Roboto Flex,,/Quality/Drawing,72,
 Roboto Flex,,/Quality/Spacing,80,
@@ -29489,6 +29590,10 @@ Roboto,"wdth,wght@75,100",/Expressive/Stiff,65,
 Roboto,"wdth,wght@75,900",/Expressive/Stiff,50,
 Roboto,"wdth,wght@100,100",/Expressive/Stiff,60,
 Roboto,"wdth,wght@100,900",/Expressive/Stiff,45,
+Roboto,"wdth,wght@75,100",/Expressive/Vintage,0,cyrillic
+Roboto,"wdth,wght@100,100",/Expressive/Vintage,0,cyrillic
+Roboto,"wdth,wght@75,900",/Expressive/Vintage,0,cyrillic
+Roboto,"wdth,wght@100,900",/Expressive/Vintage,0,cyrillic
 Roboto,,/Quality/Concept,70,
 Roboto,,/Quality/Drawing,75,
 Roboto,,/Quality/Spacing,80,
@@ -29989,6 +30094,7 @@ Rubik Mono One,,/Expressive/Loud,54,
 Rubik Mono One,,/Expressive/Rugged,80,
 Rubik Mono One,,/Expressive/Stiff,45,
 Rubik Mono One,,/Expressive/Vintage,30,
+Rubik Mono One,,/Expressive/Vintage,56,cyrillic
 Rubik Mono One,,/Quality/Concept,70,
 Rubik Mono One,,/Quality/Drawing,65,
 Rubik Mono One,,/Quality/Spacing,90,
@@ -30037,6 +30143,7 @@ Rubik Puddles,,/Expressive/Happy,86,cyrillic
 Rubik Puddles,,/Expressive/Innovative,62,
 Rubik Puddles,,/Expressive/Playful,94,
 Rubik Puddles,,/Expressive/Rugged,82,
+Rubik Puddles,,/Expressive/Vintage,0,cyrillic
 Rubik Puddles,,/Quality/Concept,40,
 Rubik Puddles,,/Quality/Drawing,55,
 Rubik Puddles,,/Quality/Spacing,80,
@@ -30386,6 +30493,8 @@ STIX Two Text,wght@400,/Expressive/Sincere,80,
 STIX Two Text,wght@700,/Expressive/Sincere,80,
 STIX Two Text,wght@400,/Expressive/Vintage,35,
 STIX Two Text,wght@700,/Expressive/Vintage,36,
+STIX Two Text,wght@400,/Expressive/Vintage,85,cyrillic
+STIX Two Text,wght@700,/Expressive/Vintage,86,cyrillic
 STIX Two Text,,/Quality/Concept,70,
 STIX Two Text,,/Quality/Drawing,70,
 STIX Two Text,,/Quality/Spacing,80,
@@ -30997,6 +31106,10 @@ Science Gothic,"wdth,wght@50,100",/Expressive/Vintage,18,
 Science Gothic,"wdth,wght@50,900",/Expressive/Vintage,38,
 Science Gothic,"wdth,wght@200,100",/Expressive/Vintage,20,
 Science Gothic,"wdth,wght@200,900",/Expressive/Vintage,40,
+Science Gothic,"wdth,wght@50,100",/Expressive/Vintage,62,cyrillic
+Science Gothic,"wdth,wght@50,900",/Expressive/Vintage,68,cyrillic
+Science Gothic,"wdth,wght@200,100",/Expressive/Vintage,64,cyrillic
+Science Gothic,"wdth,wght@200,900",/Expressive/Vintage,66,cyrillic
 Science Gothic,,/Quality/Concept,80,
 Science Gothic,,/Quality/Drawing,80,
 Science Gothic,,/Quality/Spacing,100,
@@ -31233,6 +31346,7 @@ Shafarik,,/Expressive/Loud,1,
 Shafarik,,/Expressive/Rugged,45,
 Shafarik,,/Expressive/Sincere,30,
 Shafarik,,/Expressive/Vintage,51,
+Shafarik,,/Expressive/Vintage,81,cyrillic
 Shafarik,,/Quality/Concept,60,
 Shafarik,,/Quality/Drawing,80,
 Shafarik,,/Quality/Spacing,60,
@@ -32477,6 +32591,7 @@ Spectral SC,,/Expressive/Loud,1,
 Spectral SC,,/Expressive/Rugged,55,
 Spectral SC,,/Expressive/Sincere,60,
 Spectral SC,,/Expressive/Vintage,50,
+Spectral SC,,/Expressive/Vintage,76,cyrillic
 Spectral SC,,/Quality/Concept,80,
 Spectral SC,,/Quality/Drawing,80,
 Spectral SC,,/Quality/Spacing,70,
@@ -33646,6 +33761,10 @@ TikTok Sans,"wdth,wght@75,300",/Expressive/Stiff,36,
 TikTok Sans,"wdth,wght@75,900",/Expressive/Stiff,40,
 TikTok Sans,"wdth,wght@150,300",/Expressive/Stiff,32,
 TikTok Sans,"wdth,wght@150,900",/Expressive/Stiff,36,
+TikTok Sans,"wdth,wght@75,300",/Expressive/Vintage,0,cyrillic
+TikTok Sans,"wdth,wght@150,300",/Expressive/Vintage,0,cyrillic
+TikTok Sans,"wdth,wght@75,900",/Expressive/Vintage,0,cyrillic
+TikTok Sans,"wdth,wght@150,900",/Expressive/Vintage,0,cyrillic
 TikTok Sans,,/Quality/Concept,70,
 TikTok Sans,,/Quality/Drawing,70,
 TikTok Sans,,/Quality/Spacing,90,
@@ -33734,6 +33853,10 @@ Tinos,,/Quality/Drawing,70,
 Tinos,,/Quality/Spacing,70,
 Tinos,,/Quality/Wordspace,80,
 Tinos,,/Serif/Transitional,50,
+Tiny5 Duo,"wdth,wght@50,100",/Expressive/Vintage,0,cyrillic
+Tiny5 Duo,"wdth,wght@200,100",/Expressive/Vintage,0,cyrillic
+Tiny5 Duo,"wdth,wght@50,900",/Expressive/Vintage,75,cyrillic
+Tiny5 Duo,"wdth,wght@200,900",/Expressive/Vintage,75,cyrillic
 Tiny5 Duo,"wdth,wght@50,100",/Expressive/Cute,0,cyrillic
 Tiny5 Duo,"wdth,wght@200,100",/Expressive/Cute,0,cyrillic
 Tiny5 Duo,"wdth,wght@50,900",/Expressive/Cute,0,cyrillic
@@ -34032,6 +34155,7 @@ Triodion,,/Expressive/Loud,1,
 Triodion,,/Expressive/Rugged,45,
 Triodion,,/Expressive/Sincere,60,
 Triodion,,/Expressive/Vintage,40,
+Triodion,,/Expressive/Vintage,94,cyrillic
 Triodion,,/Quality/Concept,50,
 Triodion,,/Quality/Drawing,50,
 Triodion,,/Quality/Spacing,50,
@@ -34379,6 +34503,10 @@ Ubuntu Sans,"wdth,wght@75,800",/Expressive/Loud,60,
 Ubuntu Sans,"wdth,wght@100,100",/Expressive/Loud,12,
 Ubuntu Sans,"wdth,wght@100,800",/Expressive/Loud,62,
 Ubuntu Sans,,/Expressive/Stiff,38,
+Ubuntu Sans,"wdth,wght@75,100",/Expressive/Vintage,0,cyrillic
+Ubuntu Sans,"wdth,wght@100,100",/Expressive/Vintage,0,cyrillic
+Ubuntu Sans,"wdth,wght@75,800",/Expressive/Vintage,0,cyrillic
+Ubuntu Sans,"wdth,wght@100,800",/Expressive/Vintage,0,cyrillic
 Ubuntu Sans,,/Quality/Concept,70,
 Ubuntu Sans,,/Quality/Drawing,70,
 Ubuntu Sans,,/Quality/Spacing,70,
@@ -35457,6 +35585,8 @@ Xanh Mono,,/Quality/Drawing,65,
 Xanh Mono,,/Quality/Spacing,90,
 Xanh Mono,,/Quality/Wordspace,100,
 Xanh Mono,,/Serif/Modern,100,
+Xmind,wght@100,/Expressive/Vintage,0,cyrillic
+Xmind,wght@900,/Expressive/Vintage,0,cyrillic
 Xmind,wght@100,/Expressive/Cute,0,cyrillic
 Xmind,wght@900,/Expressive/Cute,0,cyrillic
 Xmind,wght@100,/Expressive/Happy,0,cyrillic
@@ -36244,6 +36374,7 @@ Zen Old Mincho,,/Expressive/Happy,0,cyrillic
 Zen Old Mincho,,/Expressive/Rugged,30,
 Zen Old Mincho,,/Expressive/Sincere,60,
 Zen Old Mincho,,/Expressive/Vintage,55,
+Zen Old Mincho,,/Expressive/Vintage,76,cyrillic
 Zen Old Mincho,,/Quality/Concept,60,
 Zen Old Mincho,,/Quality/Drawing,70,
 Zen Old Mincho,,/Quality/Spacing,60,

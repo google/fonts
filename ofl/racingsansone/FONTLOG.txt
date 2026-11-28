@@ -1,0 +1,71 @@
+FONTLOG for the Racing Sans font
+
+This file provides detailed information on the Racing Sans Font Software.
+
+This information should be distributed along with the Racing Sans fonts
+and any derivative works.
+
+Basic Font Information
+
+Around 1860 (100 years before Helvetica and Univers) the very first Sans Serif typefaces to include lowercase letters used to have very high contrast (the difference between thick and thin lines), as they were created based on serif typefaces of the time.
+
+As the genre evolved, the fashion was to create 'monoline' sans, of very little contrast.
+Today, high contrast sans are very rare, and only a few are successful.
+
+While digging in old specimens, we found three that immediately caught our attention:
+Doric Italic and Taylor Gothic from American Type Founders (1897), and Charter Oak from Keystone Type Foundry of Philadelphia (1906).
+
+We designed a new high-contrast sans, paying tribute to this somewhat forgotten genre.
+
+Racing Sans covers 103 Latin languages:
+Afar, Afrikaans, Albanian, Azerbaijani, Basque, Belarusian, Bislama, Bosnian, Breton, Catalan, Chamorro, Chichewa, Comorian, Czech, Danish, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino/Tagalog, Finnish, Flemish, French, Gaelic (Irish / Manx / Scottish), Gagauz, German, Gikuyu, Gilbertese/Kiribati, Greenlandic, Guarani, Haitian_Creole, Hawaiian, Hungarian, Icelandic, Igo/Igbo, Indonesian, Irish, Italian, Javanese, Kashubian, Kinyarwanda, Kirundi, Latin, Latvian, Lithuanian, Luba/Ciluba/Kasai, Luxembourgish, Malagasy, Malay, Maltese, Maori, Marquesan, Marshallese, Moldovan/Moldovian/Romanian, Montenegrin, Nauruan, Ndebele, Norwegian, Oromo, Palauan/Belauan, Polish, Portuguese, Quechua, Romanian, Romansh, Sami, Samoan, Sango, Serbian, Sesotho, Setswana/Sitswana/Tswana, Seychellois_Creole, SiSwati/Swati/Swazi, Silesian, Slovak, Slovenian, Somali, Sorbian, Sotho, Spanish, Swahili, Swedish, Tahitian, Tetum, Tok_Pisin, Tongan, Tsonga, Tswana, Tuareg/Berber, Turkish, Turkmen, Tuvaluan, Uzbek/Usbek, Wallisian, Walloon, Welsh, Xhosa, Yoruba, Zulu.
+
+Documentation can be found at www.impallari.com
+
+Join the project at:
+http://www.impallari.com/projects/overview/racing-sans
+
+To contribute to the project contact Pablo Impallari at impallari@gmail.com or Rodrigo Fuenzalida hello@rfuenzalida.com
+
+ChangeLog
+
+22 Jun 2012 (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini) Racing Sans One v1.1
+- Fixed PSNames in font info. ("-Regular" added)
+
+29 May 2012 (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini) Racing Sans One v1.0
+- iKerned
+- Fixed diacritics
+
+23 May 2012 (Pablo Impallari, Rodrigo Fuenzalida) Racing Sans v0.012
+- Lots of improvements, almost ready.
+
+04 Apr 2012 (Pablo Impallari, Rodrigo Fuenzalida) Racing Sans v0.003
+- Edits: a, b, d, f, g, i, j, m, n, o, p, q, r, t, u, w, x, A, G, K, L, O, P, Q, R, dotaccent
+- Added: a.salt
+- Removed almost all the In-place BCPs
+- Played with the metrics
+
+03 Apr 2012 (Pablo Impallari, Rodrigo Fuenzalida) Racing Sans v0.002
+- This is the first draft on the lowercase and caps characters for Racing Sans. 
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+N: Rodrigo Fuenzalida
+E: hello@rfuenzalida.com
+W: http://www.rfuenzalida.com
+D: Designer
+
+N: Igino Marini
+E: mail@iginomarini.com
+W: http://www.ikern.com
+D: Spacing and Kerning
+

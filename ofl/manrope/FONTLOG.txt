@@ -1,0 +1,118 @@
+FONTLOG for Manrope
+
+This file provides detailed information on Manrope Font Software.
+This information should be distributed along with the Manrope 
+font and any derivative works.
+
+Basic Font Information
+
+Manrope font is an open-source modern sans-serif font family. Designed by Mikhail Sharanda in 2018. In 2019 Mirko Velimirovic and Mikhail Sharanda converted Manrope to a variable font with weight axis.
+
+The source release include a glyphsapp source 
+file,
+
+    manrope.glyphs 
+
+To contribute to the project contact Mikhail Sharanda
+michael@sharanda.com
+
+ChangeLog
+V4.501 March 2020
+multiple changes too comport
+with gf standards.
+
+v4, October 2019
+drawings adjusted for change to VF
+Manrope converted to Variable Font
+Greek added
+
+v 3, March 25. A big update.
+
+Countless glyph adjustments;
+Smooth corners;
+Improved Cyrillic;
+Countless minor bug fixes;
+
+
+v 2, December 4. A big update.
+
+Countless minor adjustments across all the glyphs;
+Much better Cyrillic;
+Many kerning adjustments;
+Adjusted digits shapes;
+
+
+v 1.2, August 24. Fixed:
+
+Shapes adjusted: /s /e /h /n /u /N /w
+
+
+v 1.1, July 29. Major update. Fixed:
+
+Shapes adjusted: /a /n /h /u /m /D /e /@ /& /N /t
+Kerning: /v and /comma, /e and /n, /f and /e /o, /e and /s, /y and /a, /A and /T, /k and /s, /R and Y, /I and /T, /S and /S, etc.
+Auto-Apostrophe in "em’"
+Letter space: /D, /e, /n, /m, /u, /h, /H etc.
+Added glyph: /nonbreakinghyphen
+
+
+v 1.005, July 20. Fixed:
+
+Kerning: between /V and /comma
+Auto-Apostrophe in "You’ll"
+Fixed appearance of /t_t ligature
+Added one more weight for more consistent interpolation distribution: 7 weights in total (800–200)
+
+
+v 1.004, July 17. Fixed:
+
+Fixed alignment in Semicolon;
+Fixed shape: /K /k /N /two;
+Adjusted kerning: /r and /y, /K and /O, /a and /w, all digits;
+Added ligature: t_t;
+Vertical alignment fixed: /at with number;
+v 1.003, July 14. Fixed:
+
+/iigrave substitution if fixed for Bulgarian language;
+Monospaced digits switched back to normal. Made Tabular Figures as an OpenType feature;
+
+
+v 1.002, July 13. Fixed:
+
+/e adjusted thickness, fixed hinting and tail curve;
+Adjusted thickness: /м /x /X /ß /β /W /s;
+Adjusted kerning: between /I and /T, /k & /s;
+/I glyph width adjusted;
+/parenleft, /parenright, /bracketleft, /bracketright made higher and re-aligned (to fit most cases by default);
+All digits made as tabular figures;
+The slash glyph in /Lslash /lslash is made shorter and adjusted;
+
+
+v 1.001, July 10. Fixed:
+
+Wrong position of arc in /m;
+Kerning in /lslash;
+Bulgarian Cyrillic to more local;
+Vertical alignment in /parenleft /parenright coming with digit alone;
+Horizontal /comb alignments in extended Cyrillic;
+Baseline height in T, H, L, E, Ш, etc...
+Inconsistent thickness of /eth;
+
+
+v 1.000, July 1
+
+First release;
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Mikhail Sharanda
+E: michael@sharanda.com
+D: Designer
+
+N: Mirko Velimirovic
+E: bghryct@gmail.com
+D: Mastering,Drawing,VF Conversion

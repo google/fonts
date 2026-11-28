@@ -1,0 +1,44 @@
+FONTLOG
+Gentium font family
+========================
+
+This file provides detailed information on the Jomolhari of font. This
+information should be distributed along with the Jomolhari font and any
+derivative works.
+
+
+Basic Font Information
+----------------------
+
+"Jomolhari" is a Reserved Font Name for this Font Software.
+This Font Software is licensed under the SIL Open Font License, Version 1.0.
+
+Jomolhari is a Tibetan script OpenType / Unicode typeface designed to print
+Tibetan & Dzongkha Text. It was designed and implemented by Christopher Fynn 
+based on examples of traditional Bhutanese calligraphy.
+
+The Jomolhari font also supports Part A of the PRC encoding for pre-composed Tibetan script. 
+
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+ 2005-05-31 (Chris Fynn)  alpha version 0.003c
+- changed licensing to the SIL Open Font License
+- included VOLT project files 
+- added some missing substitution lookups
+- corrected some glyph names
+- fixed encoding of precomposed glyphs F638 to F63F 
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications
+be sure to add your name (N), email (E), web-address (W) and description
+(D). This list is sorted by last name in alphabetical order.)
+
+N: Christopher Fynn
+E: 
+W: http://www.btinternet.com/~c.fynn/
+D: Original Designer and Developer of Jomolhari font.
+

@@ -1,0 +1,26 @@
+name: "Farsan"
+designer: "Pooja Saxena"
+license: "OFL"
+category: "DISPLAY"
+date_added: "2016-06-20"
+fonts {
+  name: "Farsan"
+  style: "normal"
+  weight: 400
+  filename: "Farsan-Regular.ttf"
+  post_script_name: "Farsan-Regular"
+  full_name: "Farsan Regular"
+  copyright: "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
+}
+subsets: "gujarati"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+primary_script: "Gujr"
+stroke: "SANS_SERIF"
+classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/anexasajoop/farsan"
+  commit: "c9b4cee129f5844cfedc850d3d68cf2b518f3a6d"
+}

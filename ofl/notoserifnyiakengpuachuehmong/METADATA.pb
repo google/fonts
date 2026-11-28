@@ -1,0 +1,29 @@
+name: "Noto Serif Nyiakeng Puachue Hmong"
+designer: "Google"
+license: "OFL"
+category: "SERIF"
+date_added: "2020-11-19"
+fonts {
+  name: "Noto Serif Nyiakeng Puachue Hmong"
+  style: "normal"
+  weight: 400
+  filename: "NotoSerifNyiakengPuachueHmong[wght].ttf"
+  post_script_name: "NotoSerifHmongNyiakeng-Regular"
+  full_name: "Noto Serif Nyiakeng Puachue Hmong Regular"
+  copyright: "Copyright 2020 Google Inc. All Rights Reserved."
+}
+subsets: "menu"
+subsets: "nyiakeng-puachue-hmong"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
+is_noto: true
+languages: "hmn_Hmnp"  # Hmong, Nyiakeng Puachue Hmong
+primary_script: "Hmnp"
+
+source {
+  repository_url: "https://github.com/notofonts/nyiakeng-puachue-hmong"
+  commit: "6f39c5843fe2f459973c3cd57dc82ca09cccbab0"
+}

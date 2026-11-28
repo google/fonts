@@ -1,0 +1,131 @@
+FONTLOG for the Life Savers fonts
+
+This file provides detailed information on the Life Savers Font Software.
+
+This information should be distributed along with the Life Savers fonts
+and any derivative works.
+
+Basic Font Information
+
+Do you remember the "Life Savers" candies adds from the 50s?
+That was a time when Ad Agencies actually hired Lettering Artist for they advertising text.
+Before the advent of Photo Typesetting, all the text was beautifully drawn by hand.
+
+We are going to put some love to work and bring back the Life Savers hand-lettered Typewritter/Stymie mix.
+Probably drawn originally by Frazier Purdy for the Sam Marsh Studio.
+Revival by Pablo Impallari, Rodrigo Fuenzalida and Brenda Gallo, spaced and kerned by iKern.
+
+Join the project at:
+http://www.impallari.com/projects
+
+Documentation can be found at www.impallari.com
+
+To contribute to the project contact Pablo Impallari at impallari@gmail.com
+
+Life Savers covers 96 Latin languages:
+
+Afar, Afrikaans, Albanian, Azerbaijani, Basque, Bislama, 
+Breton, Catalan, Chamorro, Chichewa, Comorian, Czech, 
+Danish, Dutch, English, Esperanto, Estonian, Faroese, 
+Fijian, Filipino/Tagalog, Finnish, Flemish, French, 
+Gaelic (Irish), Gaelic (Manx), Gaelic (Scottish), Gagauz, 
+German, Gikuyu, Gilbertese/Kiribati, Greenlandic, Guarani, 
+Haitian_Creole, Hawaiian, Hungarian, Icelandic, Indonesian, 
+Irish, Italian, Javanese, Kashubian, Kinyarwanda, Kirundi, 
+Latin, Latvian, Lithuanian, Luba/Ciluba/Kasai, Luxembourgish, 
+Malagasy, Malay, Maltese, Maori, Marquesan, Marshallese, 
+Moldovan/Moldovian/Romanian, Nauruan, Ndebele, Norwegian, 
+Oromo, Palauan/Belauan, Polish, Portuguese, Quechua, Romanian, 
+Romansh, Sami, Samoan, Sango, Sesotho, Setswana/Sitswana/Tswana, 
+Seychellois_Creole, SiSwati/Swati/Swazi, Silesian, Slovak, 
+Slovenian, Somali, Sorbian, Sotho, Spanish, Swahili, Swedish, 
+Tahitian, Tetum, Tok_Pisin, Tongan, Tsonga, Tswana, Turkish, 
+Turkmen, Tuvaluan, Uzbek/Usbek, Wallisian, Walloon, Welsh, 
+Xhosa and Zulu.
+
+ChangeLog
+
+22 Ago 2013 (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini, Brenda Gallo) Life Savers v3.00
+- New Extrabold weight added to the Family
+
+28 Nov 2012 (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini) Life Savers v2.01
+- Bold weight added
+- Some minors bugs fixed
+
+06 March 2012 (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini) Life Savers v1.00
+- Tweaked 'Hbar', 'imacron'
+- Fixed: 'Lcaron', 'ccaron', 'ecaron'
+- Spaced and Kerned by iKern
+
+29 Feb 2012 (Pablo Impallari, Rodrigo Fuenzalida) Life Savers v0.011
+- Removed the '.calt' OT feature.
+- Rearranged and removed some of the alternates
+- Moved the 'at' sign down just a bit.
+- Removed the 'e_t' ligature.
+- Softened the 's', 'k' and 'Q' tail.
+- Small tweaks to '5', '6' and '9'.
+- Added uni00A0(non breaking space) and .notdef glyphs.
+- Shortened the 'L' and the 'T'.
+- Tweaked the 'tilde' and related diacritics.
+- Fixed 'ccaron', 'ecaron', 'Lcaron', 'Ncaron', 'gcommaaccent', 'Cdotaccent', 'Edotaccent', 'Gdotaccent', 'Idotaccent', 'Ndotaccent', 'Ugrave', 'Zdotaccent'.
+- Fixed contour problems on 'd', '1', '2', '4', '$', 'ampersand', 'Enj', 'f_l', 'f_f_b', etc...
+- Added Panose Font Info
+
+27 Feb 2012 (Pablo Impallari, Rodrigo Fuenzalida) Life Savers v0.010
+- Fixed '3' and '5'.
+- Enlarged 'acute', 'grave','hungarumlaut', 'quotedbl', 'quotesingle', 'quoteleft', 'quoteright', 'quotesingle', 'quotedblright' and 'quotedbleleft' so that in small sizes they don't look like dots. 
+- Fixed the descender curve on 'f_j' and 'f_f_j'
+- Chaned 'e_t' ligature
+- Added new tail for the 'Q'
+- Added new alternates for 'K' and 'R'
+
+26 Feb 2012 (Pablo Impallari, Rodrigo Fuenzalida) Life Savers v0.009
+- Added OT programming for the liga, dlig, salt and calt
+- Enlarged the 'c' top serif
+- Added new less prominent 'g', leaving the old one as 'g.salt' (Replaced also in 'circumflex', 'gbreve', 'gdotaccent' and 'gcommaaccent')
+- Softened the 'j' and 'eng' descender curve
+- Enlarged the 'F' bottom right serif
+- Fixed the 'yen'
+- Fixed 'lslash'
+- Tweaked 'tbar', 'ccedilla', 'Ccedilla', 'hcircumflex'
+
+24 Feb 2012 (Pablo Impallari, Rodrigo Fuenzalida) Life Savers v0.008
+- Most of the basic form of the characters completed, still "@" and 
+trademarks glyphs to be made.   
+
+22 Feb 2012 (Pablo Impallari, Rodrigo Fuenzalida) Life Savers v0.007
+- Update on caps, added numbers, revised lowercase letters, some signs
+and diacritics.  
+
+20 Feb 2012 (Pablo Impallari, Rodrigo Fuenzalida) Life Savers v0.006
+- First draft of caps added 
+
+29 Jan 2012 (Pablo Impallari) Life Savers v0.005
+- Initial Beta release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+N: Rodrigo Fuenzalida
+E: hello@rfuenzalida.com
+W: http://www.rfuenzalida.com
+D: Designer
+
+N: Brenda Gallo
+E: gbrenda1987@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+N: Igino Marini
+E: mail@iginomarini.com
+W: http://www.ikern.com
+D: Spacing and Kerning
+

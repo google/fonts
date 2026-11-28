@@ -1,0 +1,6 @@
+sources:
+  - source/BJCree.designspace
+familyName: "BJCree"
+buildVariable: false
+autohintTTF: false
+extraStaticFontmakeArgs: "--feature-writer None"

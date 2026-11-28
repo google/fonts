@@ -1,0 +1,77 @@
+This is the FONTLOG file for the MedievalSharp Font.
+
+
+This file provides detailed information on the MedievalSharp Font Software.
+This information should be distributed along with the MedievalSharp font
+and any derivative works.
+
+
+Basic Font Information
+
+MedievalSharp Font is a Unicode typeface family that supports all languages that
+use the Latin script and its variants, and could be expanded to support other
+scripts.
+
+MedievalSharp Font you'll find at: http://openfontlibrary.org.
+
+MedievalSharp Font is created with FontForge.
+
+
+More specifically, this release supports the following Unicode ranges:
+
+ - Controls and Basic Latin - 0000-007F (all)
+
+ - Latin 1 - 0080-00FF (all)
+
+ - Latin A - 0100-017F (all)
+
+ - Latin B - 0192, 01E4, 01E5, 0218-021B
+
+ - Greek - 0394, 03A0, 03A3, 03A9, 03BC, 03C0
+
+ - General Punctuation - 2010-2015, 2017-2027, 2030, 2032-2037,
+                         2039, 203A, 2043, 2044
+
+ - Currency Symbols - 20AC
+
+ - Letterlike Symbols - 2105, 2113, 2122, 2126, 212E
+
+ - Mathematical Operators - 2202, 2206, 2207, 220F-2212, 2215, 2217-221B,
+                            221E, 2248, 2260, 2261, 2264, 2265
+
+ - Geometric Shapes - 25CA
+
+
+This release contains:
+
+ - MedievalSharp.ttf
+ - MedievalSharp.sfd
+ - FONTLOG.txt
+ - SIL - OpenFont License.txt - official license text
+ - MedievalSharp.png - the PNG demo
+
+
+ChangeLog
+
+12 Feb 2011 wmk69 (wmk69@o2.pl) MedievalSharp Version 1.0
+- Initial release
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D).
+
+
+History
+
+This is another of my old fonts used to inscriptions on stone.
+I created the MedievalSharp font about 14-15 years ago (like other fonts - when
+I started doing the inscriptions on stone professionally).
+It's based on gothic letters. Initially the font contained only capitals and
+digits. Later I made missing small fonts and some basical signs.
+Last year I started convert my fonts to the TTF files. The first was NovaCut
+and all the Nova family, and here's another...
+
+12 Feb 2011 wmk69 (wmk69@o2.pl)
+

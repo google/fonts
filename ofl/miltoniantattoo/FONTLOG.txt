@@ -1,0 +1,48 @@
+FONTLOG for the Miltonian fonts
+
+This file provides detailed information on the Miltonian Font Software.
+This information should be distributed along with the Miltonian fonts
+and any derivative works.
+
+Basic Font Information
+
+Miltonian is a Unicode typeface family that supports languages that
+use the Latin script and its variants, and could be expanded to support other
+scripts.
+
+More specifically, this release supports the following Unicode ranges: Latin-1
+
+Documentation can be found at www.impallari.com/miltonian
+To contribute to the project contact Pablo Impallari at impallari@gmail.com
+
+ChangeLog
+
+25 Jan 2016 (Pablo Impallari, Dave Crossland) Miltonian v1.008
+- Fix PS Name, vertical metrics
+
+07 Jan 2016 (Dave Crossland) Miltonian v1.007
+- Edited TTF tables with TTX to fix NAME table and update OFL.txt
+
+06 Jan 2016 (Pablo Impallari) Miltonian v1.006
+- Regenerated to pass the OpenType Sanitizer
+
+08 April 2011 (Pablo Impallari) Miltonian v1.005
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Igino Marini
+E: mail@iginomarini.com
+W: http://www.ikern.com
+D: Spacing and Kerning
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+
+

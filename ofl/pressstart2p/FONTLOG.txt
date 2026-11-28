@@ -1,0 +1,89 @@
+FONTLOG for the Press Start 2P fonts
+
+This file provides detailed information on the Press Start 2P Font Software.
+
+This information should be distributed along with the Press Start 2P fonts
+and any derivative works.
+
+Basic Font Information
+
+Press Start 2P is a bitmap font based on the font design from 1980s Namco
+arcade games. It works best at sizes of 8px, 16px and other multiples
+of 8. Although the design of uppercase letters and digits dates
+back to Atari's "Sprint" (1977), the specific glyph forms in this TrueType
+conversion are based on those from "Return of Ishtar" (1986), one of the
+first games to include and regularly use lowercase as well as uppercase
+letters in its screen font.
+
+Unlike the original font from the "Return of Ishtar" ROM, Press Start 2P
+includes a wide variety of non-ASCII Unicode characters for pan-European
+use, including Greek and Cyrillic. It could be expanded to support 
+other scripts.
+
+Source files:
+
+1. sources/Press Start 2P.glyphs (Glyphs source file)
+
+To contribute to the project contact Cody Boisclair
+at cody@zone38.net
+
+ChangeLog
+
+5 September 2016 (Cyreal) v. 3.000
+— Ported source files to .glyphs format
+— Expanded glyph set to GF Cyrillic plus
+— Added glyphs foursuperiod, divisionslash
+— Improved existing Cyrillic, and Latin(partially)
+— Fixed vertical metrics
+
+15 June 2011 (Cody Boisclair) Press Start 2P version 2.14
+- Added PREP hinting table and adjusted GASP table
+- Set both LineGap values to 0
+- Initial release on Google Web Fonts
+
+15 June 2011 (Cody Boisclair) Press Start 2P version 2.13
+- Correct accent marks on U+00D9 Ù and U+00DA Ú
+
+13 June 2011 (Cody Boisclair) Press Start 2P version 2.12
+- Correct glyph for underscore _
+- Move glyphs for Greek iota one pixel to left
+- Fix 'notdef' glyph, whose encoding was broken during last update
+
+13 June 2011 (Cody Boisclair) Press Start 2P version 2.11
+- Retrace characters from bitmaps to fix glyph width bug
+- Add glyphs for Spacing Modifier Letters
+- Move U+201E „ one pixel to left, U+201A ‚ one pixel to right
+
+13 June 2011 (Cody Boisclair) Press Start 2P version 2.10
+- Add Greek and Cyrillic alphabets.
+- Redesign U+0138 ĸ to match shape of Greek kappa
+- Correct glyph shape for grave accent `
+- Move U+00B7 · down one row to appear more centered
+- Modify FONTLOG description to reflect Greek & Cyrillic addition
+
+13 June 2011 (Cody Boisclair) Press Start 2P version 2.01
+- Correct glyph for @; improve glyphs for © and ® based on original @.
+
+12 June 2011 (Cody Boisclair) Press Start 2P version 2.0
+- Initial public release.
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E),
+web-address (if you have one) (W) and description (D).
+This list is in alphabetical order.
+
+N: Cody Boisclair ("CodeMan38")
+E: cody@zone38.net
+W: http://zone38.net/font/
+D: Conversion of glyphs to TrueType; creation of non-ASCII glyphs
+
+N: "QTQ"
+E: [unknown]
+W: http://www22.atpages.jp/nbgifan/namco.html
+D: Original extraction of glyph bitmaps
+
+N: Cyreal
+E: contact@cyreal.org
+W: http://cyreal.org
+D: Expansion to GF Cyrillic Plus

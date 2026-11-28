@@ -1,0 +1,45 @@
+FONTLOG for Phetsarath fonts
+
+This file provides detailed information on the Phetsarath 
+Font Software.
+
+This information should be distributed along with the 
+Phetsarath fonts and any derivative works. 
+
+
+Basic Font Information
+
+Phetsarath is a font for the Laotian language of Laos. 
+It was commmissioned by the Ministry of Posts and 
+Telecommunications of the Laos government.
+  
+More specifically, this release supports the following 
+Unicode ranges: Lao
+
+There are no source files.
+
+To contribute to the project contact Danh Hong.
+
+ChangeLog
+
+18 May 2012 (MPTL) Phetsarath v1.02
+- Updated to fix GDEF issue
+
+17 May 2012 (MPTL) Phetsarath v1.01
+- Updated to work well as web font
+- Licensed under SIL OFL v1.1
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Danh Hong
+E: danhhong@gmail.com
+W: http://khmertype.blogspot.com
+D: Original Type Designer
+
+N: The Ministry of Posts and Telecommunications, Laos. 
+W: http://www.phetsarath.gov.la
+D: Financial Support

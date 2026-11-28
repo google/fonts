@@ -1,0 +1,48 @@
+FONTLOG for the Eagle Lake font
+
+This file provides detailed information on the Eagle Lake Font Software.
+
+This information should be distributed along with the Eagle Lake font
+and any derivative works.
+
+Basic Font Information
+
+The Eagle Lake typeface is a calligraphic lettering style based on the 
+practical Running Book Hand. It has shorter capitals that create a visually
+taller x-height lending to high legibility and fluidity.
+
+Designed by Astigmatic (AOETI).
+
+Eagle Lake is a Unicode typeface that supports languages that use the 
+Latin script and its variants, and could be expanded to support other
+scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+There are 3 source files:
+
+1. EagleLake-Regular.vfb Original Source files with contour overlaps
+
+2. EagleLake-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. EagleLake-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+ChangeLog
+
+9 May 2012 (Brian J. Bonislawsky) Eagle Lake v1.001
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface and Software Designer

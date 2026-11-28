@@ -1,0 +1,92 @@
+FONTLOG for the Quattrocento Roman fonts
+
+This file provides detailed information on the Quattrocento 
+Font Software.
+
+This information should be distributed along with the Quattrocento 
+fonts and any derivative works.
+
+Basic Font Information
+
+The Quattrocento Roman typeface is a Classic, Elegant, Sober 
+and Strong typeface.
+
+Their wide and open letterforms, and the great x-height, make it 
+very legible for body text at small sizes. And their tiny details 
+that only shows up at bigger sizes make it also great for 
+display use.
+
+Some of their distinctive characteristics are:
+
+- Low Contrast. The thins are just a tad thiner than the thicks, 
+  almost monotone.
+- Cupped, tapered stems that flows naturally into the serifs.
+- Distinctive K, R and & tail.
+- Cupped B, D, E, F, P, Q, R and T.
+- The Q is a humble expression of admiration and gratitude for 
+  Doyald Young.
+- Alternate M, Two W alternates .
+- Narrow L, T for better fit.
+- Almost flat top serif on the lowercases.
+- Shoulders of the m and n rise above the serif.
+- Serif-less bottom j and y.
+
+Quattrocento Roman is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+
+
+More specifically, this release supports the following languages:
+Afar, Afrikaans, Albanian, Basque, Bislama, Breton, Chamorro, 
+Comorian, Dutch, English, Estonian, Faroese, Fijian, Filipino/Tagalog, 
+Finnish, Flemish, French, Gaelic, German, Gilbertese/Kiribati, 
+Haitian_Creole, Icelandic, Indonesian, Irish, Italian, Javanese, 
+Kinyarwanda, Kirundi, Luba/Ciluba/Kasai, Luxembourgish, Malagasy, 
+Malay, Marquesan, Ndebele, Norwegian, Oromo, Palauan/Belauan, 
+Portuguese, Quechua, Romansh, Sango, Sesotho, Setswana/Sitswana/Tswana, 
+Seychellois_Creole, SiSwati/Swati/Swazi, Somali, Sotho, Spanish, 
+Swahili, Swedish, Tetum, Tok_Pisin, Tongan, Tsonga, Tswana, Tuvaluan, 
+Uzbek/Usbek, Walloon, Xhosa, Zulu. 
+
+Latest releases and documentation can be found at 
+www.impallari.com/quattrocento
+
+To contribute to the project, make suggestions or report bugs, visit
+http://www.impallari.com/projects/overview/quattrocento-serif-family
+
+ChangeLog
+
+25 Feb 2012 (Pablo Impallari, Brenda Gallo) Quattrocento v2.0
+- Bold Weight Added by Brenda Gallo
+- Bigger comma, semicolon, quoteleft, quoteright, quotesinglbase, 
+  quotedblleft, quotedblright, quotedblbase
+- Lots of incremental improvements and fine tuned glyphs
+- A few diacritics added
+- Removed the W.calt and the 7.alt in order to keep both weight 
+  with the same glyphs count.
+
+
+07 Mar 2011 (Pablo Impallari) Quattrocento Roman v1.000
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Igino Marini
+E: mail@iginomarini.com
+W: http://www.ikern.com
+D: Spacing and Kerning
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+N: Brenda Gallo
+E: gbrenda1987@gmail.com
+W: http://www.impallari.com
+D: Designer
